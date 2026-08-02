@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CATEGORIES } from '../data/questionsData';
+import { CATEGORIES, ALL_QUESTIONS } from '../data/questionsData';
 import { HelpCircle, CheckCircle2, XCircle, Lightbulb, ArrowRight, RotateCcw, Award, Clock, Eye, Check, X, ChevronDown, ChevronUp, List, Layers } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -35,7 +35,8 @@ export default function QuizSimulator({ questions, isDailyMode = false, onComple
     return () => clearInterval(interval);
   }, [timerActive, isFinished]);
 
-  const currentQ = questions[currentIndex];
+  const rawQ = questions[currentIndex];
+  const currentQ = ALL_QUESTIONS.find(q => q.id === rawQ?.id || q.question === rawQ?.question) || rawQ;
   const catObj = CATEGORIES[currentQ?.category?.toUpperCase()] || { name: 'General', icon: '❓', color: '#6b7280' };
 
   const handleSelectOption = (idx) => {
