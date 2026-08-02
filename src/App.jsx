@@ -35,7 +35,13 @@ export default function App() {
   const [missedQuestions, setMissedQuestions] = useState(() => {
     const saved = localStorage.getItem('gw_quiz_missed');
     if (saved) {
-      try { return JSON.parse(saved); } catch (e) {}
+      try {
+        const parsed = JSON.parse(saved);
+        return parsed.map(savedQ => {
+          const fresh = ALL_QUESTIONS.find(q => q.id === savedQ.id || q.question === savedQ.question);
+          return fresh ? { ...savedQ, explanation: fresh.explanation, tip: fresh.tip } : savedQ;
+        });
+      } catch (e) {}
     }
     return [];
   });

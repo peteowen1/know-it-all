@@ -10,8 +10,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Ottawa serves as the official national capital and seat of government for Canada.",
-    "tip": "\ud83d\udca1 **National Capital:** Ottawa is the capital city of Canada.",
+    "explanation": "Ottawa is the official capital city and seat of government of Canada.",
+    "tip": "\ud83d\udca1 **Capital City:** Ottawa serves as the national capital of Canada.",
     "difficulty": "Medium"
   },
   {
@@ -25,8 +25,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Canberra serves as the official national capital and seat of government for Australia.",
-    "tip": "\ud83d\udca1 **National Capital:** Canberra is the capital city of Australia.",
+    "explanation": "Canberra is the official capital city and seat of government of Australia.",
+    "tip": "\ud83d\udca1 **Capital City:** Canberra serves as the national capital of Australia.",
     "difficulty": "Medium"
   },
   {
@@ -40,8 +40,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Bras\u00edlia serves as the official national capital and seat of government for Brazil.",
-    "tip": "\ud83d\udca1 **National Capital:** Bras\u00edlia is the capital city of Brazil.",
+    "explanation": "Bras\u00edlia is the official capital city and seat of government of Brazil.",
+    "tip": "\ud83d\udca1 **Capital City:** Bras\u00edlia serves as the national capital of Brazil.",
     "difficulty": "Medium"
   },
   {
@@ -55,8 +55,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Ankara serves as the official national capital and seat of government for Turkey.",
-    "tip": "\ud83d\udca1 **National Capital:** Ankara is the capital city of Turkey.",
+    "explanation": "Ankara is the official capital city and seat of government of Turkey.",
+    "tip": "\ud83d\udca1 **Capital City:** Ankara serves as the national capital of Turkey.",
     "difficulty": "Medium"
   },
   {
@@ -70,8 +70,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Bern serves as the official national capital and seat of government for Switzerland.",
-    "tip": "\ud83d\udca1 **National Capital:** Bern is the capital city of Switzerland.",
+    "explanation": "Bern is the official capital city and seat of government of Switzerland.",
+    "tip": "\ud83d\udca1 **Capital City:** Bern serves as the national capital of Switzerland.",
     "difficulty": "Medium"
   },
   {
@@ -85,8 +85,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Wellington serves as the official national capital and seat of government for New Zealand.",
-    "tip": "\ud83d\udca1 **National Capital:** Wellington is the capital city of New Zealand.",
+    "explanation": "Wellington is the official capital city and seat of government of New Zealand.",
+    "tip": "\ud83d\udca1 **Capital City:** Wellington serves as the national capital of New Zealand.",
     "difficulty": "Medium"
   },
   {
@@ -100,8 +100,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Abuja serves as the official national capital and seat of government for Nigeria.",
-    "tip": "\ud83d\udca1 **National Capital:** Abuja is the capital city of Nigeria.",
+    "explanation": "Abuja is the official capital city and seat of government of Nigeria.",
+    "tip": "\ud83d\udca1 **Capital City:** Abuja serves as the national capital of Nigeria.",
     "difficulty": "Medium"
   },
   {
@@ -115,8 +115,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Islamabad serves as the official national capital and seat of government for Pakistan.",
-    "tip": "\ud83d\udca1 **National Capital:** Islamabad is the capital city of Pakistan.",
+    "explanation": "Islamabad is the official capital city and seat of government of Pakistan.",
+    "tip": "\ud83d\udca1 **Capital City:** Islamabad serves as the national capital of Pakistan.",
     "difficulty": "Medium"
   },
   {
@@ -130,8 +130,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Rabat serves as the official national capital and seat of government for Morocco.",
-    "tip": "\ud83d\udca1 **National Capital:** Rabat is the capital city of Morocco.",
+    "explanation": "Rabat is the official capital city and seat of government of Morocco.",
+    "tip": "\ud83d\udca1 **Capital City:** Rabat serves as the national capital of Morocco.",
     "difficulty": "Medium"
   },
   {
@@ -145,8 +145,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Hanoi serves as the official national capital and seat of government for Vietnam.",
-    "tip": "\ud83d\udca1 **National Capital:** Hanoi is the capital city of Vietnam.",
+    "explanation": "Hanoi is the official capital city and seat of government of Vietnam.",
+    "tip": "\ud83d\udca1 **Capital City:** Hanoi serves as the national capital of Vietnam.",
     "difficulty": "Medium"
   },
   {
@@ -160,8 +160,8 @@
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "Tokyo (formerly Edo) is the capital of Japan, meaning 'Eastern Capital'. It became the Imperial capital in 1868.",
-    "tip": "\ud83d\udca1 **Edo to Tokyo:** Renamed Tokyo when Emperor Meiji moved the imperial seat from Kyoto in 1868.",
+    "explanation": "Tokyo is the official capital city and seat of government of Japan.",
+    "tip": "\ud83d\udca1 **Capital City:** Tokyo serves as the national capital of Japan.",
     "difficulty": "Medium"
   },
   {
@@ -175,8 +175,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Seoul serves as the official national capital and seat of government for South Korea.",
-    "tip": "\ud83d\udca1 **National Capital:** Seoul is the capital city of South Korea.",
+    "explanation": "Seoul is the official capital city and seat of government of South Korea.",
+    "tip": "\ud83d\udca1 **Capital City:** Seoul serves as the national capital of South Korea.",
     "difficulty": "Medium"
   },
   {
@@ -190,8 +190,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Berlin is the capital of Germany, reunited as national capital following the fall of the Berlin Wall in 1989.",
-    "tip": "\ud83d\udca1 **Brandenburg Gate:** Home to the Brandenburg Gate and Reichstag building.",
+    "explanation": "Berlin is the official capital city and seat of government of Germany.",
+    "tip": "\ud83d\udca1 **Capital City:** Berlin serves as the national capital of Germany.",
     "difficulty": "Medium"
   },
   {
@@ -205,8 +205,8 @@
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "Rome is the capital of Italy, known as the 'Eternal City', founded according to legend by Romulus and Remus in 753 BC.",
-    "tip": "\ud83d\udca1 **Eternal City:** Contains the Colosseum, Roman Forum, and Vatican City.",
+    "explanation": "Rome is the official capital city and seat of government of Italy.",
+    "tip": "\ud83d\udca1 **Capital City:** Rome serves as the national capital of Italy.",
     "difficulty": "Medium"
   },
   {
@@ -220,8 +220,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Madrid is the capital and largest city of Spain, situated on the Manzanares River in central Spain.",
-    "tip": "\ud83d\udca1 **Prado & Royal Palace:** Home to the Prado Museum and Royal Palace.",
+    "explanation": "Madrid is the official capital city and seat of government of Spain.",
+    "tip": "\ud83d\udca1 **Capital City:** Madrid serves as the national capital of Spain.",
     "difficulty": "Medium"
   },
   {
@@ -235,8 +235,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Lisbon serves as the official national capital and seat of government for Portugal.",
-    "tip": "\ud83d\udca1 **National Capital:** Lisbon is the capital city of Portugal.",
+    "explanation": "Lisbon is the official capital city and seat of government of Portugal.",
+    "tip": "\ud83d\udca1 **Capital City:** Lisbon serves as the national capital of Portugal.",
     "difficulty": "Medium"
   },
   {
@@ -250,8 +250,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Amsterdam serves as the official national capital and seat of government for Netherlands.",
-    "tip": "\ud83d\udca1 **National Capital:** Amsterdam is the capital city of Netherlands.",
+    "explanation": "Amsterdam is the official capital city and seat of government of Netherlands.",
+    "tip": "\ud83d\udca1 **Capital City:** Amsterdam serves as the national capital of Netherlands.",
     "difficulty": "Medium"
   },
   {
@@ -265,8 +265,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Brussels serves as the official national capital and seat of government for Belgium.",
-    "tip": "\ud83d\udca1 **National Capital:** Brussels is the capital city of Belgium.",
+    "explanation": "Brussels is the official capital city and seat of government of Belgium.",
+    "tip": "\ud83d\udca1 **Capital City:** Brussels serves as the national capital of Belgium.",
     "difficulty": "Medium"
   },
   {
@@ -280,8 +280,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Vienna serves as the official national capital and seat of government for Austria.",
-    "tip": "\ud83d\udca1 **National Capital:** Vienna is the capital city of Austria.",
+    "explanation": "Vienna is the official capital city and seat of government of Austria.",
+    "tip": "\ud83d\udca1 **Capital City:** Vienna serves as the national capital of Austria.",
     "difficulty": "Medium"
   },
   {
@@ -295,8 +295,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Athens is the capital of Greece, named after goddess Athena, recognized as the cradle of Western civilization and democracy.",
-    "tip": "\ud83d\udca1 **Acropolis:** Home to the Parthenon atop the Acropolis.",
+    "explanation": "Athens is the official capital city and seat of government of Greece.",
+    "tip": "\ud83d\udca1 **Capital City:** Athens serves as the national capital of Greece.",
     "difficulty": "Medium"
   },
   {
@@ -310,8 +310,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Cairo is the capital of Egypt, located near the Giza Pyramids and the Sphinx on the banks of the Nile.",
-    "tip": "\ud83d\udca1 **Nile Delta:** Largest metropolitan area in the Arab world, adjacent to the Pyramids.",
+    "explanation": "Cairo is the official capital city and seat of government of Egypt.",
+    "tip": "\ud83d\udca1 **Capital City:** Cairo serves as the national capital of Egypt.",
     "difficulty": "Medium"
   },
   {
@@ -325,8 +325,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Nairobi serves as the official national capital and seat of government for Kenya.",
-    "tip": "\ud83d\udca1 **National Capital:** Nairobi is the capital city of Kenya.",
+    "explanation": "Nairobi is the official capital city and seat of government of Kenya.",
+    "tip": "\ud83d\udca1 **Capital City:** Nairobi serves as the national capital of Kenya.",
     "difficulty": "Medium"
   },
   {
@@ -340,8 +340,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Buenos Aires serves as the official national capital and seat of government for Argentina.",
-    "tip": "\ud83d\udca1 **National Capital:** Buenos Aires is the capital city of Argentina.",
+    "explanation": "Buenos Aires is the official capital city and seat of government of Argentina.",
+    "tip": "\ud83d\udca1 **Capital City:** Buenos Aires serves as the national capital of Argentina.",
     "difficulty": "Medium"
   },
   {
@@ -355,8 +355,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Santiago serves as the official national capital and seat of government for Chile.",
-    "tip": "\ud83d\udca1 **National Capital:** Santiago is the capital city of Chile.",
+    "explanation": "Santiago is the official capital city and seat of government of Chile.",
+    "tip": "\ud83d\udca1 **Capital City:** Santiago serves as the national capital of Chile.",
     "difficulty": "Medium"
   },
   {
@@ -370,8 +370,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Bogot\u00e1 serves as the official national capital and seat of government for Colombia.",
-    "tip": "\ud83d\udca1 **National Capital:** Bogot\u00e1 is the capital city of Colombia.",
+    "explanation": "Bogot\u00e1 is the official capital city and seat of government of Colombia.",
+    "tip": "\ud83d\udca1 **Capital City:** Bogot\u00e1 serves as the national capital of Colombia.",
     "difficulty": "Medium"
   },
   {
@@ -385,8 +385,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Lima serves as the official national capital and seat of government for Peru.",
-    "tip": "\ud83d\udca1 **National Capital:** Lima is the capital city of Peru.",
+    "explanation": "Lima is the official capital city and seat of government of Peru.",
+    "tip": "\ud83d\udca1 **Capital City:** Lima serves as the national capital of Peru.",
     "difficulty": "Medium"
   },
   {
@@ -400,8 +400,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Bangkok serves as the official national capital and seat of government for Thailand.",
-    "tip": "\ud83d\udca1 **National Capital:** Bangkok is the capital city of Thailand.",
+    "explanation": "Bangkok is the official capital city and seat of government of Thailand.",
+    "tip": "\ud83d\udca1 **Capital City:** Bangkok serves as the national capital of Thailand.",
     "difficulty": "Medium"
   },
   {
@@ -415,8 +415,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Jakarta serves as the official national capital and seat of government for Indonesia.",
-    "tip": "\ud83d\udca1 **National Capital:** Jakarta is the capital city of Indonesia.",
+    "explanation": "Jakarta is the official capital city and seat of government of Indonesia.",
+    "tip": "\ud83d\udca1 **Capital City:** Jakarta serves as the national capital of Indonesia.",
     "difficulty": "Medium"
   },
   {
@@ -430,8 +430,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Manila serves as the official national capital and seat of government for Philippines.",
-    "tip": "\ud83d\udca1 **National Capital:** Manila is the capital city of Philippines.",
+    "explanation": "Manila is the official capital city and seat of government of Philippines.",
+    "tip": "\ud83d\udca1 **Capital City:** Manila serves as the national capital of Philippines.",
     "difficulty": "Medium"
   },
   {
@@ -445,8 +445,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Kuala Lumpur serves as the official national capital and seat of government for Malaysia.",
-    "tip": "\ud83d\udca1 **National Capital:** Kuala Lumpur is the capital city of Malaysia.",
+    "explanation": "Kuala Lumpur is the official capital city and seat of government of Malaysia.",
+    "tip": "\ud83d\udca1 **Capital City:** Kuala Lumpur serves as the national capital of Malaysia.",
     "difficulty": "Medium"
   },
   {
@@ -460,8 +460,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Riyadh serves as the official national capital and seat of government for Saudi Arabia.",
-    "tip": "\ud83d\udca1 **National Capital:** Riyadh is the capital city of Saudi Arabia.",
+    "explanation": "Riyadh is the official capital city and seat of government of Saudi Arabia.",
+    "tip": "\ud83d\udca1 **Capital City:** Riyadh serves as the national capital of Saudi Arabia.",
     "difficulty": "Medium"
   },
   {
@@ -475,8 +475,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Abu Dhabi serves as the official national capital and seat of government for UAE.",
-    "tip": "\ud83d\udca1 **National Capital:** Abu Dhabi is the capital city of UAE.",
+    "explanation": "Abu Dhabi is the official capital city and seat of government of UAE.",
+    "tip": "\ud83d\udca1 **Capital City:** Abu Dhabi serves as the national capital of UAE.",
     "difficulty": "Medium"
   },
   {
@@ -490,8 +490,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Tehran serves as the official national capital and seat of government for Iran.",
-    "tip": "\ud83d\udca1 **National Capital:** Tehran is the capital city of Iran.",
+    "explanation": "Tehran is the official capital city and seat of government of Iran.",
+    "tip": "\ud83d\udca1 **Capital City:** Tehran serves as the national capital of Iran.",
     "difficulty": "Medium"
   },
   {
@@ -505,8 +505,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Baghdad serves as the official national capital and seat of government for Iraq.",
-    "tip": "\ud83d\udca1 **National Capital:** Baghdad is the capital city of Iraq.",
+    "explanation": "Baghdad is the official capital city and seat of government of Iraq.",
+    "tip": "\ud83d\udca1 **Capital City:** Baghdad serves as the national capital of Iraq.",
     "difficulty": "Medium"
   },
   {
@@ -520,8 +520,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Oslo serves as the official national capital and seat of government for Norway.",
-    "tip": "\ud83d\udca1 **National Capital:** Oslo is the capital city of Norway.",
+    "explanation": "Oslo is the official capital city and seat of government of Norway.",
+    "tip": "\ud83d\udca1 **Capital City:** Oslo serves as the national capital of Norway.",
     "difficulty": "Medium"
   },
   {
@@ -535,8 +535,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Stockholm serves as the official national capital and seat of government for Sweden.",
-    "tip": "\ud83d\udca1 **National Capital:** Stockholm is the capital city of Sweden.",
+    "explanation": "Stockholm is the official capital city and seat of government of Sweden.",
+    "tip": "\ud83d\udca1 **Capital City:** Stockholm serves as the national capital of Sweden.",
     "difficulty": "Medium"
   },
   {
@@ -550,8 +550,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Helsinki serves as the official national capital and seat of government for Finland.",
-    "tip": "\ud83d\udca1 **National Capital:** Helsinki is the capital city of Finland.",
+    "explanation": "Helsinki is the official capital city and seat of government of Finland.",
+    "tip": "\ud83d\udca1 **Capital City:** Helsinki serves as the national capital of Finland.",
     "difficulty": "Medium"
   },
   {
@@ -565,8 +565,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Copenhagen serves as the official national capital and seat of government for Denmark.",
-    "tip": "\ud83d\udca1 **National Capital:** Copenhagen is the capital city of Denmark.",
+    "explanation": "Copenhagen is the official capital city and seat of government of Denmark.",
+    "tip": "\ud83d\udca1 **Capital City:** Copenhagen serves as the national capital of Denmark.",
     "difficulty": "Medium"
   },
   {
@@ -580,8 +580,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Reykjav\u00edk serves as the official national capital and seat of government for Iceland.",
-    "tip": "\ud83d\udca1 **National Capital:** Reykjav\u00edk is the capital city of Iceland.",
+    "explanation": "Reykjav\u00edk is the official capital city and seat of government of Iceland.",
+    "tip": "\ud83d\udca1 **Capital City:** Reykjav\u00edk serves as the national capital of Iceland.",
     "difficulty": "Medium"
   },
   {
@@ -595,8 +595,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Dublin (from Irish 'Dubhlinn' meaning 'black pool') is the capital and largest city of Ireland, situated on the River Liffey.",
-    "tip": "\ud83d\udca1 **Black Pool:** Dublin derives from Irish 'Dubh Linn' (Black Pool), home of the Guinness Brewery on the River Liffey!",
+    "explanation": "Dublin is the official capital city and seat of government of Ireland.",
+    "tip": "\ud83d\udca1 **Capital City:** Dublin serves as the national capital of Ireland.",
     "difficulty": "Medium"
   },
   {
@@ -610,8 +610,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Warsaw serves as the official national capital and seat of government for Poland.",
-    "tip": "\ud83d\udca1 **National Capital:** Warsaw is the capital city of Poland.",
+    "explanation": "Warsaw is the official capital city and seat of government of Poland.",
+    "tip": "\ud83d\udca1 **Capital City:** Warsaw serves as the national capital of Poland.",
     "difficulty": "Medium"
   },
   {
@@ -625,8 +625,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Prague serves as the official national capital and seat of government for Czech Republic.",
-    "tip": "\ud83d\udca1 **National Capital:** Prague is the capital city of Czech Republic.",
+    "explanation": "Prague is the official capital city and seat of government of Czech Republic.",
+    "tip": "\ud83d\udca1 **Capital City:** Prague serves as the national capital of Czech Republic.",
     "difficulty": "Medium"
   },
   {
@@ -640,8 +640,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Budapest serves as the official national capital and seat of government for Hungary.",
-    "tip": "\ud83d\udca1 **National Capital:** Budapest is the capital city of Hungary.",
+    "explanation": "Budapest is the official capital city and seat of government of Hungary.",
+    "tip": "\ud83d\udca1 **Capital City:** Budapest serves as the national capital of Hungary.",
     "difficulty": "Medium"
   },
   {
@@ -655,8 +655,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Bucharest serves as the official national capital and seat of government for Romania.",
-    "tip": "\ud83d\udca1 **National Capital:** Bucharest is the capital city of Romania.",
+    "explanation": "Bucharest is the official capital city and seat of government of Romania.",
+    "tip": "\ud83d\udca1 **Capital City:** Bucharest serves as the national capital of Romania.",
     "difficulty": "Medium"
   },
   {
@@ -670,8 +670,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Kyiv serves as the official national capital and seat of government for Ukraine.",
-    "tip": "\ud83d\udca1 **National Capital:** Kyiv is the capital city of Ukraine.",
+    "explanation": "Kyiv is the official capital city and seat of government of Ukraine.",
+    "tip": "\ud83d\udca1 **Capital City:** Kyiv serves as the national capital of Ukraine.",
     "difficulty": "Medium"
   },
   {
@@ -685,8 +685,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Moscow serves as the official national capital and seat of government for Russia.",
-    "tip": "\ud83d\udca1 **National Capital:** Moscow is the capital city of Russia.",
+    "explanation": "Moscow is the official capital city and seat of government of Russia.",
+    "tip": "\ud83d\udca1 **Capital City:** Moscow serves as the national capital of Russia.",
     "difficulty": "Medium"
   },
   {
@@ -700,8 +700,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Pretoria serves as the official national capital and seat of government for South Africa.",
-    "tip": "\ud83d\udca1 **National Capital:** Pretoria is the capital city of South Africa.",
+    "explanation": "Pretoria is the official capital city and seat of government of South Africa.",
+    "tip": "\ud83d\udca1 **Capital City:** Pretoria serves as the national capital of South Africa.",
     "difficulty": "Medium"
   },
   {
@@ -715,8 +715,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Havana serves as the official national capital and seat of government for Cuba.",
-    "tip": "\ud83d\udca1 **National Capital:** Havana is the capital city of Cuba.",
+    "explanation": "Havana is the official capital city and seat of government of Cuba.",
+    "tip": "\ud83d\udca1 **Capital City:** Havana serves as the national capital of Cuba.",
     "difficulty": "Medium"
   },
   {
@@ -730,8 +730,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Kingston serves as the official national capital and seat of government for Jamaica.",
-    "tip": "\ud83d\udca1 **National Capital:** Kingston is the capital city of Jamaica.",
+    "explanation": "Kingston is the official capital city and seat of government of Jamaica.",
+    "tip": "\ud83d\udca1 **Capital City:** Kingston serves as the national capital of Jamaica.",
     "difficulty": "Medium"
   },
   {
@@ -745,8 +745,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Zagreb serves as the official national capital and seat of government for Croatia.",
-    "tip": "\ud83d\udca1 **National Capital:** Zagreb is the capital city of Croatia.",
+    "explanation": "Zagreb is the official capital city and seat of government of Croatia.",
+    "tip": "\ud83d\udca1 **Capital City:** Zagreb serves as the national capital of Croatia.",
     "difficulty": "Medium"
   },
   {
@@ -760,8 +760,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Suva serves as the official national capital and seat of government for Fiji.",
-    "tip": "\ud83d\udca1 **National Capital:** Suva is the capital city of Fiji.",
+    "explanation": "Suva is the official capital city and seat of government of Fiji.",
+    "tip": "\ud83d\udca1 **Capital City:** Suva serves as the national capital of Fiji.",
     "difficulty": "Medium"
   },
   {
@@ -775,8 +775,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Port Moresby serves as the official national capital and seat of government for Papua New Guinea.",
-    "tip": "\ud83d\udca1 **National Capital:** Port Moresby is the capital city of Papua New Guinea.",
+    "explanation": "Port Moresby is the official capital city and seat of government of Papua New Guinea.",
+    "tip": "\ud83d\udca1 **Capital City:** Port Moresby serves as the national capital of Papua New Guinea.",
     "difficulty": "Medium"
   },
   {
@@ -790,8 +790,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Apia serves as the official national capital and seat of government for Samoa.",
-    "tip": "\ud83d\udca1 **National Capital:** Apia is the capital city of Samoa.",
+    "explanation": "Apia is the official capital city and seat of government of Samoa.",
+    "tip": "\ud83d\udca1 **Capital City:** Apia serves as the national capital of Samoa.",
     "difficulty": "Medium"
   },
   {
@@ -805,8 +805,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Port Vila serves as the official national capital and seat of government for Vanuatu.",
-    "tip": "\ud83d\udca1 **National Capital:** Port Vila is the capital city of Vanuatu.",
+    "explanation": "Port Vila is the official capital city and seat of government of Vanuatu.",
+    "tip": "\ud83d\udca1 **Capital City:** Port Vila serves as the national capital of Vanuatu.",
     "difficulty": "Medium"
   },
   {
@@ -820,8 +820,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Honiara serves as the official national capital and seat of government for Solomon Islands.",
-    "tip": "\ud83d\udca1 **National Capital:** Honiara is the capital city of Solomon Islands.",
+    "explanation": "Honiara is the official capital city and seat of government of Solomon Islands.",
+    "tip": "\ud83d\udca1 **Capital City:** Honiara serves as the national capital of Solomon Islands.",
     "difficulty": "Medium"
   },
   {
@@ -835,8 +835,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Nuku'alofa serves as the official national capital and seat of government for Tonga.",
-    "tip": "\ud83d\udca1 **National Capital:** Nuku'alofa is the capital city of Tonga.",
+    "explanation": "Nuku'alofa is the official capital city and seat of government of Tonga.",
+    "tip": "\ud83d\udca1 **Capital City:** Nuku'alofa serves as the national capital of Tonga.",
     "difficulty": "Medium"
   },
   {
@@ -850,8 +850,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Washington, D.C. serves as the official national capital and seat of government for United States.",
-    "tip": "\ud83d\udca1 **National Capital:** Washington, D.C. is the capital city of United States.",
+    "explanation": "Washington, D.C. is the official capital city and seat of government of United States.",
+    "tip": "\ud83d\udca1 **Capital City:** Washington, D.C. serves as the national capital of United States.",
     "difficulty": "Medium"
   },
   {
@@ -865,8 +865,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "Beijing serves as the official national capital and seat of government for China.",
-    "tip": "\ud83d\udca1 **National Capital:** Beijing is the capital city of China.",
+    "explanation": "Beijing is the official capital city and seat of government of China.",
+    "tip": "\ud83d\udca1 **Capital City:** Beijing serves as the national capital of China.",
     "difficulty": "Medium"
   },
   {
@@ -880,8 +880,8 @@
       "London"
     ],
     "answer": 0,
-    "explanation": "New Delhi serves as the official national capital and seat of government for India.",
-    "tip": "\ud83d\udca1 **National Capital:** New Delhi is the capital city of India.",
+    "explanation": "New Delhi is the official capital city and seat of government of India.",
+    "tip": "\ud83d\udca1 **Capital City:** New Delhi serves as the national capital of India.",
     "difficulty": "Medium"
   },
   {
@@ -895,8 +895,8 @@
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "London serves as the official national capital and seat of government for United Kingdom.",
-    "tip": "\ud83d\udca1 **National Capital:** London is the capital city of United Kingdom.",
+    "explanation": "London is the official capital city and seat of government of United Kingdom.",
+    "tip": "\ud83d\udca1 **Capital City:** London serves as the national capital of United Kingdom.",
     "difficulty": "Medium"
   },
   {
@@ -910,8 +910,8 @@
       "Ben Lomond"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Kosciuszko.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Kosciuszko is the key answer to remember.",
+    "explanation": "Mount Kosciuszko is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Kosciuszko** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -925,8 +925,8 @@
       "Lhotse"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Everest.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Everest is the key answer to remember.",
+    "explanation": "Mount Everest is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Everest** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -940,8 +940,8 @@
       "Makalu"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is K2.",
-    "tip": "\ud83d\udca1 **Trivia Key:** K2 is the key answer to remember.",
+    "explanation": "K2 is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **K2** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -955,8 +955,8 @@
       "Mount Whitney"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Denali.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Denali is the key answer to remember.",
+    "explanation": "Denali is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Denali** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -970,8 +970,8 @@
       "Chimborazo"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Aconcagua.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Aconcagua is the key answer to remember.",
+    "explanation": "Aconcagua is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Aconcagua** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -985,8 +985,8 @@
       "Ras Dashen"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Kilimanjaro.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Kilimanjaro is the key answer to remember.",
+    "explanation": "Mount Kilimanjaro is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Kilimanjaro** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1000,8 +1000,8 @@
       "Eiger"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Elbrus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Elbrus is the key answer to remember.",
+    "explanation": "Mount Elbrus is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Elbrus** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1015,8 +1015,8 @@
       "Madagascar"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Greenland.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Greenland is the key answer to remember.",
+    "explanation": "Greenland is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Greenland** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1030,8 +1030,8 @@
       "Baffin Island"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is New Guinea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** New Guinea is the key answer to remember.",
+    "explanation": "New Guinea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **New Guinea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1045,8 +1045,8 @@
       "Honshu"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Borneo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Borneo is the key answer to remember.",
+    "explanation": "Borneo is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Borneo** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1060,8 +1060,8 @@
       "Corsica"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Sicily.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Sicily is the key answer to remember.",
+    "explanation": "Sicily is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Sicily** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1075,8 +1075,8 @@
       "The Mississippi River"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Nile River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Nile River is the key answer to remember.",
+    "explanation": "The Nile River is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Nile River** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1090,8 +1090,8 @@
       "The Yangtze River"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Amazon River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Amazon River is the key answer to remember.",
+    "explanation": "The Amazon River is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Amazon River** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1105,8 +1105,8 @@
       "The Amur River"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Yangtze River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Yangtze River is the key answer to remember.",
+    "explanation": "The Yangtze River is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Yangtze River** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1120,8 +1120,8 @@
       "Rio Grande"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Mississippi-Missouri River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Mississippi-Missouri River is the key answer to remember.",
+    "explanation": "The Mississippi-Missouri River is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Mississippi-Missouri River** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1135,8 +1135,8 @@
       "The Rhine River"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Volga River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Volga River is the key answer to remember.",
+    "explanation": "The Volga River is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Volga River** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1150,8 +1150,8 @@
       "The Elbe River"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Danube River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Danube River is the key answer to remember.",
+    "explanation": "The Danube River is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Danube River** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1165,8 +1165,8 @@
       "Bolivia"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Kazakhstan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Kazakhstan is the key answer to remember.",
+    "explanation": "Kazakhstan is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Kazakhstan** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1180,8 +1180,8 @@
       "Mali"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mongolia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mongolia is the key answer to remember.",
+    "explanation": "Mongolia is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Mongolia** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1195,8 +1195,8 @@
       "Belgium"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Switzerland.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Switzerland is the key answer to remember.",
+    "explanation": "Switzerland is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Switzerland** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1210,8 +1210,8 @@
       "Clarence Strait"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Bass Strait.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Bass Strait is the key answer to remember.",
+    "explanation": "Bass Strait is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Bass Strait** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1225,8 +1225,8 @@
       "Coral Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Torres Strait.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Torres Strait is the key answer to remember.",
+    "explanation": "Torres Strait is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Torres Strait** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1240,8 +1240,8 @@
       "Dampier Strait"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Cook Strait.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Cook Strait is the key answer to remember.",
+    "explanation": "Cook Strait is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Cook Strait** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1255,8 +1255,8 @@
       "Java Trench"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Mariana Trench.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Mariana Trench is the key answer to remember.",
+    "explanation": "The Mariana Trench is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Mariana Trench** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1270,8 +1270,8 @@
       "Australia"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Canada.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Canada is the key answer to remember.",
+    "explanation": "Canada is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Canada** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1285,8 +1285,8 @@
       "Mediterranean Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Dead Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Dead Sea is the key answer to remember.",
+    "explanation": "The Dead Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Dead Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1300,8 +1300,8 @@
       "The Kalahari Desert"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Sahara Desert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Sahara Desert is the key answer to remember.",
+    "explanation": "The Sahara Desert is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Sahara Desert** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1315,8 +1315,8 @@
       "The Gobi"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Antarctica.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Antarctica is the key answer to remember.",
+    "explanation": "Antarctica is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Antarctica** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1330,8 +1330,8 @@
       "Sonoran Desert"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Atacama Desert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Atacama Desert is the key answer to remember.",
+    "explanation": "The Atacama Desert is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Atacama Desert** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1345,8 +1345,8 @@
       "Red Sea Reef"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Great Barrier Reef.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Great Barrier Reef is the key answer to remember.",
+    "explanation": "The Great Barrier Reef is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Great Barrier Reef** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1360,8 +1360,8 @@
       "Palmerston"
     ],
     "answer": 0,
-    "explanation": "Darwin serves as the official national capital and seat of government for Northern Territory Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Darwin is the capital city of Northern Territory Australia'.",
+    "explanation": "Darwin is the official capital city and seat of government of Northern Territory Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Darwin serves as the national capital of Northern Territory Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -1375,8 +1375,8 @@
       "Burnie"
     ],
     "answer": 0,
-    "explanation": "Hobart serves as the official national capital and seat of government for Tasmania Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Hobart is the capital city of Tasmania Australia'.",
+    "explanation": "Hobart is the official capital city and seat of government of Tasmania Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Hobart serves as the national capital of Tasmania Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -1390,8 +1390,8 @@
       "Albany"
     ],
     "answer": 0,
-    "explanation": "Perth serves as the official national capital and seat of government for Western Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Perth is the capital city of Western Australia'.",
+    "explanation": "Perth is the official capital city and seat of government of Western Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Perth serves as the national capital of Western Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -1405,8 +1405,8 @@
       "Port Augusta"
     ],
     "answer": 0,
-    "explanation": "Adelaide serves as the official national capital and seat of government for South Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Adelaide is the capital city of South Australia'.",
+    "explanation": "Adelaide is the official capital city and seat of government of South Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Adelaide serves as the national capital of South Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -1420,8 +1420,8 @@
       "Townsville"
     ],
     "answer": 0,
-    "explanation": "Brisbane serves as the official national capital and seat of government for Queensland Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Brisbane is the capital city of Queensland Australia'.",
+    "explanation": "Brisbane is the official capital city and seat of government of Queensland Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Brisbane serves as the national capital of Queensland Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -1435,8 +1435,8 @@
       "Blue Mountains"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Great Dividing Range.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Great Dividing Range is the key answer to remember.",
+    "explanation": "The Great Dividing Range is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Great Dividing Range** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1450,8 +1450,8 @@
       "Mount Hotham"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Bogong.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Bogong is the key answer to remember.",
+    "explanation": "Mount Bogong is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Bogong** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1465,8 +1465,8 @@
       "Mount Bellenden Ker"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Bartle Frere.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Bartle Frere is the key answer to remember.",
+    "explanation": "Mount Bartle Frere is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Bartle Frere** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1480,8 +1480,8 @@
       "Cradle Mountain"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Ossa.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Ossa is the key answer to remember.",
+    "explanation": "Mount Ossa is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Ossa** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1495,8 +1495,8 @@
       "Mount Nameless"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Meharry.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Meharry is the key answer to remember.",
+    "explanation": "Mount Meharry is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Meharry** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1510,8 +1510,8 @@
       "Mount Lofty"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is St Mary Peak.",
-    "tip": "\ud83d\udca1 **Trivia Key:** St Mary Peak is the key answer to remember.",
+    "explanation": "St Mary Peak is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **St Mary Peak** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1525,8 +1525,8 @@
       "San Marino"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Republic of Ireland.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Republic of Ireland is the key answer to remember.",
+    "explanation": "Republic of Ireland is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Republic of Ireland** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1540,8 +1540,8 @@
       "Gibraltar"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Portugal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Portugal is the key answer to remember.",
+    "explanation": "Portugal is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Portugal** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1555,8 +1555,8 @@
       "Liechtenstein"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Vatican City.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Vatican City is the key answer to remember.",
+    "explanation": "Vatican City is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Vatican City** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1570,8 +1570,8 @@
       "Andorra"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is San Marino.",
-    "tip": "\ud83d\udca1 **Trivia Key:** San Marino is the key answer to remember.",
+    "explanation": "San Marino is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **San Marino** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1585,8 +1585,8 @@
       "Namibia"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Lesotho.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Lesotho is the key answer to remember.",
+    "explanation": "Lesotho is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Lesotho** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1600,8 +1600,8 @@
       "The Carpathians"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Ural Mountains.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Ural Mountains is the key answer to remember.",
+    "explanation": "The Ural Mountains is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Ural Mountains** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1615,8 +1615,8 @@
       "Kiel Canal"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Suez Canal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Suez Canal is the key answer to remember.",
+    "explanation": "The Suez Canal is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Suez Canal** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1630,8 +1630,8 @@
       "Kiel Canal"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Panama Canal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Panama Canal is the key answer to remember.",
+    "explanation": "The Panama Canal is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Panama Canal** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1645,8 +1645,8 @@
       "Lake Argyle"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Lake Eyre (Kati Thanda).",
-    "tip": "\ud83d\udca1 **Trivia Key:** Lake Eyre (Kati Thanda) is the key answer to remember.",
+    "explanation": "Lake Eyre (Kati Thanda) is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Lake Eyre (Kati Thanda)** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1660,8 +1660,8 @@
       "Lake Michigan"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Lake Superior.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Lake Superior is the key answer to remember.",
+    "explanation": "Lake Superior is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Lake Superior** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1675,8 +1675,8 @@
       "Crater Lake"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Lake Baikal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Lake Baikal is the key answer to remember.",
+    "explanation": "Lake Baikal is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Lake Baikal** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1690,8 +1690,8 @@
       "The Baltic Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Caspian Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Caspian Sea is the key answer to remember.",
+    "explanation": "The Caspian Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Caspian Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1705,8 +1705,8 @@
       "Santorini"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Vesuvius.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Vesuvius is the key answer to remember.",
+    "explanation": "Mount Vesuvius is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Mount Vesuvius** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1720,8 +1720,8 @@
       "Vulcano"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Etna.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Etna is the key answer to remember.",
+    "explanation": "Mount Etna is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Mount Etna** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1735,8 +1735,8 @@
       "Mount Sakurajima"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Fuji.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Fuji is the key answer to remember.",
+    "explanation": "Mount Fuji is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Mount Fuji** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1750,8 +1750,8 @@
       "Pinatubo"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Krakatoa.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Krakatoa is the key answer to remember.",
+    "explanation": "Krakatoa is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Krakatoa** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1765,8 +1765,8 @@
       "Mount Toba"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Mount Tambora.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Mount Tambora is the key answer to remember.",
+    "explanation": "This historic event occurred in the year Mount Tambora.",
+    "tip": "\ud83d\udca1 **Historic Date:** Lock in **Mount Tambora** for this milestone.",
     "difficulty": "Medium"
   },
   {
@@ -1780,8 +1780,8 @@
       "The Arafura Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Tasman Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Tasman Sea is the key answer to remember.",
+    "explanation": "The Tasman Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Tasman Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1795,8 +1795,8 @@
       "Solomon Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Coral Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Coral Sea is the key answer to remember.",
+    "explanation": "The Coral Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Coral Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1810,8 +1810,8 @@
       "Bismarck Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Arafura Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Arafura Sea is the key answer to remember.",
+    "explanation": "The Arafura Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Arafura Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1825,8 +1825,8 @@
       "Banda Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Timor Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Timor Sea is the key answer to remember.",
+    "explanation": "The Timor Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Timor Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1840,8 +1840,8 @@
       "Slieve Donard"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Ben Nevis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Ben Nevis is the key answer to remember.",
+    "explanation": "Ben Nevis is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Ben Nevis** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1855,8 +1855,8 @@
       "Mount Tasman"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Aoraki / Mount Cook.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Aoraki / Mount Cook is the key answer to remember.",
+    "explanation": "Aoraki / Mount Cook is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Aoraki / Mount Cook** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1870,8 +1870,8 @@
       "The River Clyde"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The River Severn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The River Severn is the key answer to remember.",
+    "explanation": "The River Severn is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The River Severn** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1885,8 +1885,8 @@
       "The Main River"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Rhine River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Rhine River is the key answer to remember.",
+    "explanation": "The Rhine River is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **The Rhine River** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1900,8 +1900,8 @@
       "Puerto Rico"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Cuba.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Cuba is the key answer to remember.",
+    "explanation": "Cuba is recognized for this achievement.",
+    "tip": "\ud83d\udca1 **Key Fact:** **Cuba** is the key answer for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1915,8 +1915,8 @@
       "Puerto Rico"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is Hispaniola.",
-    "tip": "\ud83d\udca1 **Trivia Key:** Hispaniola is the key answer to remember.",
+    "explanation": "Hispaniola is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **Hispaniola** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1930,8 +1930,8 @@
       "The Baltic Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The Mediterranean Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The Mediterranean Sea is the key answer to remember.",
+    "explanation": "The Mediterranean Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The Mediterranean Sea** for this topic.",
     "difficulty": "Medium"
   },
   {
@@ -1945,8 +1945,8 @@
       "The Irish Sea"
     ],
     "answer": 0,
-    "explanation": "The correct answer for this trivia question is The North Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** The North Sea is the key answer to remember.",
+    "explanation": "The North Sea is the accurate answer for this question.",
+    "tip": "\ud83d\udca1 **Recall Hook:** Lock in **The North Sea** for this topic.",
     "difficulty": "Medium"
   }
 ]
