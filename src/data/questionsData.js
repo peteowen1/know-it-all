@@ -21,8 +21,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Sir Edmund Barton served as Australia's 1st Prime Minister (1901\u20131903) and later became a founding High Court Justice.",
-    "tip": "\ud83d\udca1 **Barton:** 1st PM on Jan 1, 1901!",
+    "explanation": "In Australian political history, Edmund Barton played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Edmund Barton served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -36,8 +36,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Alfred Deakin served as 2nd, 5th, and 7th Prime Minister, a visionary architect of Australian Federation.",
-    "tip": "\ud83d\udca1 **Deakin:** 3-term PM & Federation architect!",
+    "explanation": "In Australian political history, Alfred Deakin played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Alfred Deakin served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -51,8 +51,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Chris Watson served as 3rd PM in 1904, leading the world's first national social-democratic Labor government.",
-    "tip": "\ud83d\udca1 **Watson:** 1st Labor PM in world history!",
+    "explanation": "In Australian political history, Chris Watson played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Chris Watson served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -66,8 +66,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Sir George Reid served as 4th PM (1904\u20131905), famed for his free-trade advocacy and razor-sharp wit.",
-    "tip": "\ud83d\udca1 **Reid:** Free Trade PM!",
+    "explanation": "In Australian political history, George Reid played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** George Reid served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -81,8 +81,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Andrew Fisher served 3 terms as PM (1908\u20131915), founding the Commonwealth Bank, maternity allowance, and Canberra.",
-    "tip": "\ud83d\udca1 **Fisher:** Founded Commonwealth Bank & Canberra!",
+    "explanation": "In Australian political history, Andrew Fisher played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Andrew Fisher served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -96,8 +96,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Sir Joseph Cook served as 6th PM (1913\u20131914), leading Australia into World War I.",
-    "tip": "\ud83d\udca1 **Cook:** PM at WWI outbreak!",
+    "explanation": "In Australian political history, Joseph Cook played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Joseph Cook served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -111,8 +111,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Billy Hughes served as 7th PM (1915\u20131923), known as 'The Little Digger' for his advocacy at the Paris Peace Conference.",
-    "tip": "\ud83d\udca1 **Hughes:** 'The Little Digger'!",
+    "explanation": "In Australian political history, Billy Hughes played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Billy Hughes served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -126,8 +126,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Stanley Bruce served as 8th PM (1923\u20131929), later becoming Viscount Bruce of Melbourne and Chancellor of ANU.",
-    "tip": "\ud83d\udca1 **Bruce:** Bruce-Page Coalition PM!",
+    "explanation": "In Australian political history, Stanley Bruce played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Stanley Bruce served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -141,8 +141,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "James Scullin served as 9th PM (1929\u20131932), navigating the onset of the Great Depression.",
-    "tip": "\ud83d\udca1 **Scullin:** PM during Great Depression!",
+    "explanation": "In Australian political history, James Scullin played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** James Scullin served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -156,8 +156,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Joseph Lyons served as 10th PM (1932\u20131939), leading Australia out of the Depression with the United Australia Party.",
-    "tip": "\ud83d\udca1 **Lyons:** 'Honest Joe' 10th PM!",
+    "explanation": "In Australian political history, Joseph Lyons played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Joseph Lyons served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -171,8 +171,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, Earle Page is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '11th PM of Australia (1939)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Earle Page is the essential answer for this question.",
+    "explanation": "In Australian political history, Earle Page played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Earle Page served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -186,8 +186,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "Sir Robert Menzies was Australia's longest-serving PM (1939\u20131941 & 1949\u20131966), serving over 18 total years.",
-    "tip": "\ud83d\udca1 **Menzies:** Longest-serving PM (18+ years)!",
+    "explanation": "In Australian political history, Robert Menzies played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Robert Menzies served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -201,8 +201,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, Arthur Fadden is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '13th PM of Australia (1941)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Arthur Fadden is the essential answer for this question.",
+    "explanation": "In Australian political history, Arthur Fadden played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Arthur Fadden served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -216,8 +216,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "John Curtin served as 14th PM (1941\u20131945), leading Australia through the WWII Pacific War before passing away in office.",
-    "tip": "\ud83d\udca1 **Curtin:** WWII wartime leader!",
+    "explanation": "In Australian political history, John Curtin played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** John Curtin served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -231,8 +231,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, Frank Forde is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '15th PM of Australia (July 1945)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Frank Forde is the essential answer for this question.",
+    "explanation": "In Australian political history, Frank Forde played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Frank Forde served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -246,8 +246,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Ben Chifley served as 16th PM (1945\u20131949), founding Snowy Hydro, TAA, and post-war reconstruction.",
-    "tip": "\ud83d\udca1 **Chifley:** 'Light on the Hill' & Snowy Hydro!",
+    "explanation": "In Australian political history, Ben Chifley played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Ben Chifley served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -261,8 +261,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Harold Holt served as 17th PM (1966\u20131967), famous for ending the White Australia Policy before disappearing at Cheviot Beach.",
-    "tip": "\ud83d\udca1 **Holt:** Disappeared at Cheviot Beach in 1967.",
+    "explanation": "In Australian political history, Harold Holt played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Harold Holt served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -276,8 +276,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, John McEwen is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '18th PM of Australia (1967-1968)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** John McEwen is the essential answer for this question.",
+    "explanation": "In Australian political history, John McEwen played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** John McEwen served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -291,8 +291,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, John Gorton is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '19th PM of Australia (1968-1971)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** John Gorton is the essential answer for this question.",
+    "explanation": "In Australian political history, John Gorton played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** John Gorton served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -306,8 +306,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, William McMahon is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '20th PM of Australia (1971-1972)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** William McMahon is the essential answer for this question.",
+    "explanation": "In Australian political history, William McMahon played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** William McMahon served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -321,8 +321,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "Sir Edmund Barton served as Australia's 1st Prime Minister (1901\u20131903) and later became a founding High Court Justice.",
-    "tip": "\ud83d\udca1 **Barton:** 1st PM on Jan 1, 1901!",
+    "explanation": "In Australian political history, Gough Whitlam played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Gough Whitlam served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -336,8 +336,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Malcolm Fraser served as 22nd PM (1975\u20131983), establishing SBS, the Family Court, and Kakadu National Park.",
-    "tip": "\ud83d\udca1 **Fraser:** Established SBS & Kakadu!",
+    "explanation": "In Australian political history, Malcolm Fraser played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Malcolm Fraser served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -351,8 +351,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Bob Hawke served as 23rd PM (1983\u20131991), floating the dollar, creating Medicare, and saving the Franklin River.",
-    "tip": "\ud83d\udca1 **Hawke:** Medicare, floating dollar, Franklin River!",
+    "explanation": "In Australian political history, Bob Hawke played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Bob Hawke served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -366,8 +366,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Paul Keating served as 24th PM (1991\u20131996), introducing compulsory superannuation, the Redfern Speech, and APEC reforms.",
-    "tip": "\ud83d\udca1 **Keating:** Compulsory Superannuation & Redfern Speech!",
+    "explanation": "In Australian political history, Paul Keating played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Paul Keating served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -381,8 +381,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "John Howard served as 25th PM (1996\u20132007), introducing gun control reforms following Port Arthur and the GST.",
-    "tip": "\ud83d\udca1 **Howard:** Gun control 1996 & GST 2000!",
+    "explanation": "In Australian political history, John Howard played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** John Howard served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -396,8 +396,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Kevin Rudd served as 26th PM (2007\u20132010 & 2013), delivering the National Apology to the Stolen Generations in 2008.",
-    "tip": "\ud83d\udca1 **Rudd:** 2008 Apology to Stolen Generations!",
+    "explanation": "In Australian political history, Kevin Rudd played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Kevin Rudd served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -411,8 +411,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Julia Gillard served as 27th PM (2010\u20132013), becoming Australia's first female Prime Minister and introducing NDIS.",
-    "tip": "\ud83d\udca1 **Gillard:** Australia's 1st female PM & NDIS!",
+    "explanation": "In Australian political history, Julia Gillard played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Julia Gillard served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -426,8 +426,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, Tony Abbott is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '28th PM of Australia (2013-2015)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tony Abbott is the essential answer for this question.",
+    "explanation": "In Australian political history, Tony Abbott played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Tony Abbott served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -441,8 +441,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, Malcolm Turnbull is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '29th PM of Australia (2015-2018)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Malcolm Turnbull is the essential answer for this question.",
+    "explanation": "In Australian political history, Malcolm Turnbull played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Malcolm Turnbull served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -456,8 +456,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, Scott Morrison is the specific subject associated with: 'Which Australian Prime Minister is recognized as: '30th PM of Australia (2018-2022)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Scott Morrison is the essential answer for this question.",
+    "explanation": "In Australian political history, Scott Morrison played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Scott Morrison served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -471,8 +471,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Sir Edmund Barton served as Australia's 1st Prime Minister (1901\u20131903) and later became a founding High Court Justice.",
-    "tip": "\ud83d\udca1 **Barton:** 1st PM on Jan 1, 1901!",
+    "explanation": "In Australian political history, Anthony Albanese played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Anthony Albanese served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -486,8 +486,8 @@ export const ALL_QUESTIONS = [
       "1798"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1788 is the specific subject associated with: 'In what year did the First Fleet land at Sydney Cove under Captain Arthur Phillip'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1788 is the essential answer for this question.",
+    "explanation": "The First Fleet commanded by Captain Arthur Phillip arrived at Sydney Cove on January 26, 1788, establishing the colony of New South Wales.",
+    "tip": "\ud83d\udca1 **First Fleet 1788:** Arrival at Sydney Cove on January 26, 1788.",
     "difficulty": "Medium"
   },
   {
@@ -501,8 +501,8 @@ export const ALL_QUESTIONS = [
       "Arthur Phillip"
     ],
     "answer": 0,
-    "explanation": "In aus history, Captain James Cook is the specific subject associated with: 'Which navigator chartered Botany Bay and mapped Australia's east coast aboard HMS Endeavour in 1770'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Captain James Cook is the essential answer for this question.",
+    "explanation": "Captain James Cook chartered Botany Bay and mapped the eastern coastline of Australia aboard HMS Endeavour in April 1770.",
+    "tip": "\ud83d\udca1 **Captain Cook 1770:** Mapped Australia's east coast on HMS Endeavour.",
     "difficulty": "Medium"
   },
   {
@@ -516,8 +516,8 @@ export const ALL_QUESTIONS = [
       "Charles Sturt"
     ],
     "answer": 0,
-    "explanation": "In aus history, Matthew Flinders is the specific subject associated with: 'Who, alongside George Bass, completed the first circumnavigation of Tasmania in 1798-99'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Matthew Flinders is the essential answer for this question.",
+    "explanation": "Matthew Flinders and George Bass completed the first circumnavigation of Tasmania in 1798\u201399 aboard the Norfolk, proving it was an island.",
+    "tip": "\ud83d\udca1 **Flinders & Bass:** Proved Tasmania was an island by circumnavigating it!",
     "difficulty": "Medium"
   },
   {
@@ -531,8 +531,8 @@ export const ALL_QUESTIONS = [
       "The Lambing Flat Riots"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Eureka Stockade is the specific subject associated with: 'What armed gold miners' rebellion took place in Ballarat, Victoria, on 3 December 1854'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Eureka Stockade is the essential answer for this question.",
+    "explanation": "The Eureka Stockade took place on December 3, 1854, in Ballarat, Victoria, where gold miners revolted against license fees.",
+    "tip": "\ud83d\udca1 **Eureka Stockade 1854:** Gold miners' rebellion under the Southern Cross flag.",
     "difficulty": "Medium"
   },
   {
@@ -546,8 +546,8 @@ export const ALL_QUESTIONS = [
       "Thunderbolt"
     ],
     "answer": 0,
-    "explanation": "In aus history, Ned Kelly is the specific subject associated with: 'Which notorious bushranger was captured at Glenrowan and executed at Melbourne Gaol in 1880'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ned Kelly is the essential answer for this question.",
+    "explanation": "Ned Kelly was a famous Victorian bushranger captured after a shootout at Glenrowan in 1880 and hanged at Melbourne Gaol.",
+    "tip": "\ud83d\udca1 **Ned Kelly:** Iconic armor-wearing bushranger executed in 1880.",
     "difficulty": "Medium"
   },
   {
@@ -561,8 +561,8 @@ export const ALL_QUESTIONS = [
       "1910"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1901 is the specific subject associated with: 'In what year did the six Australian colonies federate into the Commonwealth of Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1901 is the essential answer for this question.",
+    "explanation": "Australia federated on January 1, 1901, uniting the six British colonies into the Commonwealth of Australia.",
+    "tip": "\ud83d\udca1 **Federation 1901:** January 1, 1901.",
     "difficulty": "Medium"
   },
   {
@@ -576,8 +576,8 @@ export const ALL_QUESTIONS = [
       "The Engineers Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Mabo Decision is the specific subject associated with: 'Which landmark High Court decision in June 1992 rejected the legal doctrine of 'terra nullius''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Mabo Decision is the essential answer for this question.",
+    "explanation": "The High Court delivered the Mabo v Queensland (No 2) decision on June 3, 1992, rejecting terra nullius and recognizing Native Title.",
+    "tip": "\ud83d\udca1 **Mabo 1992:** Overturned terra nullius.",
     "difficulty": "Medium"
   },
   {
@@ -591,8 +591,8 @@ export const ALL_QUESTIONS = [
       "The Concrete Pipes Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Wik Decision is the specific subject associated with: 'Which 1996 High Court decision established that native title could coexist with pastoral leases'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Wik Decision is the essential answer for this question.",
+    "explanation": "The 1996 Wik Peoples v Queensland High Court decision established that Native Title could coexist with pastoral leases.",
+    "tip": "\ud83d\udca1 **Wik Decision 1996:** Native Title coexists with pastoral leases.",
     "difficulty": "Medium"
   },
   {
@@ -606,8 +606,8 @@ export const ALL_QUESTIONS = [
       "1901"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1967 is the specific subject associated with: 'In what year was the federal referendum held that allowed Indigenous Australians to be included in the national census'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1967 is the essential answer for this question.",
+    "explanation": "The 1967 Referendum passed on May 27, 1967, with a record 90.77% 'Yes' vote to include Indigenous Australians in the census.",
+    "tip": "\ud83d\udca1 **1967 Referendum:** Record 90.77% 'Yes' vote.",
     "difficulty": "Medium"
   },
   {
@@ -621,8 +621,8 @@ export const ALL_QUESTIONS = [
       "Charles Perkins"
     ],
     "answer": 0,
-    "explanation": "In aus history, Vincent Lingiari is the specific subject associated with: 'Which Gurindji elder led the famous nine-year Wave Hill Walk-off starting in 1966'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vincent Lingiari is the essential answer for this question.",
+    "explanation": "Vincent Lingiari led the 1966 Gurindji Wave Hill walk-off, paving the way for Gough Whitlam's 1975 land pouring ceremony.",
+    "tip": "\ud83d\udca1 **Vincent Lingiari:** Gurindji leader who led the 9-year Wave Hill walk-off!",
     "difficulty": "Medium"
   },
   {
@@ -636,8 +636,8 @@ export const ALL_QUESTIONS = [
       "Nova Peris"
     ],
     "answer": 0,
-    "explanation": "In aus history, Neville Bonner is the specific subject associated with: 'Who was the first Indigenous person elected to the Australian Parliament (Senate, 1971)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Neville Bonner is the essential answer for this question.",
+    "explanation": "Neville Bonner entered the Australian Senate for Queensland in 1971, becoming the first Indigenous Australian parliamentarian.",
+    "tip": "\ud83d\udca1 **Neville Bonner:** First Indigenous Australian parliamentarian (1971).",
     "difficulty": "Medium"
   },
   {
@@ -651,8 +651,8 @@ export const ALL_QUESTIONS = [
       "Geelong"
     ],
     "answer": 0,
-    "explanation": "In aus history, Melbourne is the specific subject associated with: 'What was Australia's temporary national capital city from 1901 until Parliament House opened in Canberra in 1927'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Melbourne is the essential answer for this question.",
+    "explanation": "Melbourne served as Australia's temporary national capital from 1901 until Parliament House opened in Canberra in 1927.",
+    "tip": "\ud83d\udca1 **Melbourne 1901-1927:** Temporary national capital for 26 years.",
     "difficulty": "Medium"
   },
   {
@@ -666,8 +666,8 @@ export const ALL_QUESTIONS = [
       "Harry Seidler"
     ],
     "answer": 0,
-    "explanation": "In aus history, Walter Burley Griffin is the specific subject associated with: 'Which American architect designed the master layout for Canberra after winning an international competition in 1912'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Walter Burley Griffin is the essential answer for this question.",
+    "explanation": "Walter Burley Griffin won the international design competition in 1912 to plan Australia's federal capital, Canberra.",
+    "tip": "\ud83d\udca1 **Walter Burley Griffin:** American architect who designed Canberra's layout.",
     "difficulty": "Medium"
   },
   {
@@ -681,8 +681,8 @@ export const ALL_QUESTIONS = [
       "Neville Wran"
     ],
     "answer": 0,
-    "explanation": "In aus history, Jack Lang is the specific subject associated with: 'Which Premier of NSW officially opened the Sydney Harbour Bridge on 19 March 1932'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jack Lang is the essential answer for this question.",
+    "explanation": "NSW Premier Jack Lang officially opened the Sydney Harbour Bridge on March 19, 1932.",
+    "tip": "\ud83d\udca1 **Jack Lang:** Premier who opened Sydney Harbour Bridge in 1932.",
     "difficulty": "Medium"
   },
   {
@@ -696,8 +696,8 @@ export const ALL_QUESTIONS = [
       "Sir Samuel Griffith"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Henry Parkes is the specific subject associated with: 'Who is widely remembered as the 'Father of Federation' following his 1889 Tenterfield Oration'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Henry Parkes is the essential answer for this question.",
+    "explanation": "Sir Henry Parkes gave the 1889 Tenterfield Oration, earning him the title 'Father of Federation'.",
+    "tip": "\ud83d\udca1 **Father of Federation:** Sir Henry Parkes' 1889 Tenterfield Oration.",
     "difficulty": "Medium"
   },
   {
@@ -711,8 +711,8 @@ export const ALL_QUESTIONS = [
       "Cyclone Larry"
     ],
     "answer": 0,
-    "explanation": "In aus history, Cyclone Tracy is the specific subject associated with: 'What cyclone devastated the city of Darwin on Christmas Eve and Christmas Day in 1974'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cyclone Tracy is the essential answer for this question.",
+    "explanation": "Cyclone Tracy devastated Darwin on Christmas Eve and Christmas Day in 1974.",
+    "tip": "\ud83d\udca1 **Cyclone Tracy 1974:** Darwin's Christmas Day disaster.",
     "difficulty": "Medium"
   },
   {
@@ -726,8 +726,8 @@ export const ALL_QUESTIONS = [
       "Eddie Mabo"
     ],
     "answer": 0,
-    "explanation": "In aus history, Charles Perkins is the specific subject associated with: 'Which student leader led the 1965 Freedom Ride bus tour through rural NSW towns'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Charles Perkins is the essential answer for this question.",
+    "explanation": "Charles Perkins led the 1965 Freedom Ride bus tour through rural NSW to expose racial discrimination.",
+    "tip": "\ud83d\udca1 **Freedom Ride 1965:** Led by Aboriginal activist Charles Perkins.",
     "difficulty": "Medium"
   },
   {
@@ -741,8 +741,8 @@ export const ALL_QUESTIONS = [
       "Owned by a private trading company"
     ],
     "answer": 0,
-    "explanation": "In aus history, Established as a free colony (no convicts) is the specific subject associated with: 'What was South Australia's unique founding status compared to New South Wales and Van Diemen's Land'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Established as a free colony (no convicts) is the essential answer for this question.",
+    "explanation": "South Australia was established as a planned free colony under the South Australia Act 1834, avoiding convict transportation.",
+    "tip": "\ud83d\udca1 **Free Colony:** South Australia was founded entirely without convicts.",
     "difficulty": "Medium"
   },
   {
@@ -756,8 +756,8 @@ export const ALL_QUESTIONS = [
       "Albany Colony"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Swan River Colony is the specific subject associated with: 'What was Western Australia originally named when established in 1829'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Swan River Colony is the essential answer for this question.",
+    "explanation": "The Swan River Colony was founded in Western Australia in 1829 by Captain James Stirling.",
+    "tip": "\ud83d\udca1 **Swan River 1829:** Founded by Captain James Stirling in Western Australia.",
     "difficulty": "Medium"
   },
   {
@@ -771,8 +771,8 @@ export const ALL_QUESTIONS = [
       "Moreton Bay"
     ],
     "answer": 0,
-    "explanation": "In aus history, Van Diemen's Land is the specific subject associated with: 'What was Tasmania officially named prior to 1856'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Van Diemen's Land is the essential answer for this question.",
+    "explanation": "Tasmania was officially named Van Diemen's Land by Abel Tasman in 1642 before being renamed Tasmania in 1856.",
+    "tip": "\ud83d\udca1 **Van Diemen's Land:** Original colonial name for Tasmania prior to 1856.",
     "difficulty": "Medium"
   },
   {
@@ -786,8 +786,8 @@ export const ALL_QUESTIONS = [
       "The Balfour Declaration"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Australia Act 1986 is the specific subject associated with: 'What legal document signed in 1986 severed all remaining constitutional ties between Australia and the UK'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Australia Act 1986 is the essential answer for this question.",
+    "explanation": "The Australia Act 1986 severed all remaining legal and constitutional ties between Australia and the UK Parliament.",
+    "tip": "\ud83d\udca1 **Australia Act 1986:** Ended British Privy Council legal appeals.",
     "difficulty": "Medium"
   },
   {
@@ -801,8 +801,8 @@ export const ALL_QUESTIONS = [
       "Lawrence Hargrave"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Charles Kingsford Smith is the specific subject associated with: 'Which Australian pioneer aviator made the first trans-Pacific flight from the US to Australia in 1928'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Charles Kingsford Smith is the essential answer for this question.",
+    "explanation": "Sir Charles Kingsford Smith made the first trans-Pacific flight from California to Brisbane in 1928 in the Southern Cross.",
+    "tip": "\ud83d\udca1 **Southern Cross 1928:** First trans-Pacific flight by Kingsford Smith!",
     "difficulty": "Medium"
   },
   {
@@ -816,8 +816,8 @@ export const ALL_QUESTIONS = [
       "Hudson Fysh"
     ],
     "answer": 0,
-    "explanation": "In aus history, Bert Hinkler is the specific subject associated with: 'Which pioneer aviator completed the first solo flight from England to Australia in 1928'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bert Hinkler is the essential answer for this question.",
+    "explanation": "Bert Hinkler completed the first solo flight from England to Darwin in 1928 in his Avro Avian biplane.",
+    "tip": "\ud83d\udca1 **Bert Hinkler:** First solo England-to-Australia flight in 1928.",
     "difficulty": "Medium"
   },
   {
@@ -831,8 +831,8 @@ export const ALL_QUESTIONS = [
       "Nancy Bird Walton"
     ],
     "answer": 0,
-    "explanation": "In aus history, Amy Johnson is the specific subject associated with: 'Who was the first woman to fly solo from England to Australia in 1930'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Amy Johnson is the essential answer for this question.",
+    "explanation": "Amy Johnson became the first female pilot to fly solo from England to Darwin in 1930.",
+    "tip": "\ud83d\udca1 **Amy Johnson 1930:** First woman to fly solo from England to Australia.",
     "difficulty": "Medium"
   },
   {
@@ -846,8 +846,8 @@ export const ALL_QUESTIONS = [
       "Peter Doherty"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Howard Florey is the specific subject associated with: 'Which Australian scientist co-discovered penicillin's therapeutic value and won the 1945 Nobel Prize in Medicine'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Howard Florey is the essential answer for this question.",
+    "explanation": "Sir Howard Florey co-discovered penicillin's therapeutic properties, sharing the 1945 Nobel Prize in Medicine.",
+    "tip": "\ud83d\udca1 **Howard Florey:** Aussie Nobel laureate who developed penicillin!",
     "difficulty": "Medium"
   },
   {
@@ -861,8 +861,8 @@ export const ALL_QUESTIONS = [
       "Fiona Stanley"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Macfarlane Burnet is the specific subject associated with: 'Which Australian virologist won the 1960 Nobel Prize in Physiology or Medicine for acquired immunological tolerance'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Macfarlane Burnet is the essential answer for this question.",
+    "explanation": "Sir Macfarlane Burnet won the 1960 Nobel Prize in Medicine for discovering acquired immunological tolerance.",
+    "tip": "\ud83d\udca1 **Macfarlane Burnet:** 1960 Nobel laureate in immunology.",
     "difficulty": "Medium"
   },
   {
@@ -876,8 +876,8 @@ export const ALL_QUESTIONS = [
       "Gustav Nossal"
     ],
     "answer": 0,
-    "explanation": "In aus history, Peter Doherty is the specific subject associated with: 'Which Australian immunologist won the 1996 Nobel Prize in Medicine alongside Rolf Zinkernagel'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Peter Doherty is the essential answer for this question.",
+    "explanation": "Peter Doherty won the 1996 Nobel Prize in Medicine for discovering how immune cells recognize virus-infected cells.",
+    "tip": "\ud83d\udca1 **Peter Doherty:** 1996 Nobel Prize winner for immunology.",
     "difficulty": "Medium"
   },
   {
@@ -891,8 +891,8 @@ export const ALL_QUESTIONS = [
       "Elizabeth Blackburn"
     ],
     "answer": 0,
-    "explanation": "In aus history, Barry Marshall & Robin Warren is the specific subject associated with: 'Which Australian scientists won the 2005 Nobel Prize in Medicine for discovering H. pylori's role in ulcers'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Barry Marshall & Robin Warren is the essential answer for this question.",
+    "explanation": "Barry Marshall and Robin Warren won the 2005 Nobel Prize in Medicine for discovering H. pylori causes stomach ulcers.",
+    "tip": "\ud83d\udca1 **Marshall & Warren:** 2005 Nobel Prize winners for ulcer research.",
     "difficulty": "Medium"
   },
   {
@@ -906,8 +906,8 @@ export const ALL_QUESTIONS = [
       "Jenny Graves"
     ],
     "answer": 0,
-    "explanation": "In aus history, Elizabeth Blackburn is the specific subject associated with: 'Which Australian molecular biologist won the 2009 Nobel Prize in Medicine for her discovery of telomerase'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Elizabeth Blackburn is the essential answer for this question.",
+    "explanation": "Elizabeth Blackburn won the 2009 Nobel Prize in Medicine for discovering telomeres and the enzyme telomerase.",
+    "tip": "\ud83d\udca1 **Elizabeth Blackburn:** 2009 Nobel Prize winner for telomerase research.",
     "difficulty": "Medium"
   },
   {
@@ -921,8 +921,8 @@ export const ALL_QUESTIONS = [
       "The Red Kangaroo"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Platypus is the specific subject associated with: 'What is the official state animal emblem of New South Wales'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Platypus is the essential answer for this question.",
+    "explanation": "The Platypus is the official state mammal emblem of New South Wales, declared in 1971.",
+    "tip": "\ud83d\udca1 **NSW Mammal Emblem:** The semi-aquatic Platypus!",
     "difficulty": "Medium"
   },
   {
@@ -936,8 +936,8 @@ export const ALL_QUESTIONS = [
       "The Numbat"
     ],
     "answer": 0,
-    "explanation": "In aus history, Leadbeater's Possum is the specific subject associated with: 'What is the official state animal emblem of Victoria'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Leadbeater's Possum is the essential answer for this question.",
+    "explanation": "Leadbeater's Possum is the official state mammal emblem of Victoria, adopted in 1971.",
+    "tip": "\ud83d\udca1 **Victoria Mammal Emblem:** Leadbeater's Possum.",
     "difficulty": "Medium"
   },
   {
@@ -951,8 +951,8 @@ export const ALL_QUESTIONS = [
       "The Cassowary"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Koala is the specific subject associated with: 'What is the official state animal emblem of Queensland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Koala is the essential answer for this question.",
+    "explanation": "The Koala is the official state mammal emblem of Queensland, adopted in 1971.",
+    "tip": "\ud83d\udca1 **Queensland Mammal Emblem:** The iconic Koala!",
     "difficulty": "Medium"
   },
   {
@@ -966,8 +966,8 @@ export const ALL_QUESTIONS = [
       "The Black Swan"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Numbat is the specific subject associated with: 'What is the official state animal emblem of Western Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Numbat is the essential answer for this question.",
+    "explanation": "The Numbat (banded anteater) is the official state mammal emblem of Western Australia.",
+    "tip": "\ud83d\udca1 **WA Mammal Emblem:** The termite-eating Numbat!",
     "difficulty": "Medium"
   },
   {
@@ -981,8 +981,8 @@ export const ALL_QUESTIONS = [
       "The Dingo"
     ],
     "answer": 0,
-    "explanation": "In aus history, Southern Hairy-nosed Wombat is the specific subject associated with: 'What is the official state animal emblem of South Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Southern Hairy-nosed Wombat is the essential answer for this question.",
+    "explanation": "The Southern Hairy-nosed Wombat is the official state mammal emblem of South Australia.",
+    "tip": "\ud83d\udca1 **SA Mammal Emblem:** Southern Hairy-nosed Wombat!",
     "difficulty": "Medium"
   },
   {
@@ -996,8 +996,8 @@ export const ALL_QUESTIONS = [
       "The Platypus"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Tasmanian Devil is the specific subject associated with: 'What is the official state animal emblem of Tasmania'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Tasmanian Devil is the essential answer for this question.",
+    "explanation": "The Tasmanian Devil is the official state mammal emblem of Tasmania.",
+    "tip": "\ud83d\udca1 **Tasmanian Emblem:** The world's largest carnivorous marsupial!",
     "difficulty": "Medium"
   },
   {
@@ -1011,8 +1011,8 @@ export const ALL_QUESTIONS = [
       "The Thorny Devil"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Red Kangaroo is the specific subject associated with: 'What is the official animal emblem of the Northern Territory'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Red Kangaroo is the essential answer for this question.",
+    "explanation": "The Red Kangaroo is the official animal emblem of the Northern Territory.",
+    "tip": "\ud83d\udca1 **NT Animal Emblem:** The Red Kangaroo!",
     "difficulty": "Medium"
   },
   {
@@ -1026,8 +1026,8 @@ export const ALL_QUESTIONS = [
       "The Brolga"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Kookaburra is the specific subject associated with: 'What is the official bird emblem of New South Wales'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Kookaburra is the essential answer for this question.",
+    "explanation": "The Laughing Kookaburra is the official bird emblem of New South Wales.",
+    "tip": "\ud83d\udca1 **NSW Bird Emblem:** The Laughing Kookaburra!",
     "difficulty": "Medium"
   },
   {
@@ -1041,8 +1041,8 @@ export const ALL_QUESTIONS = [
       "The Black Swan"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Helmeted Honeyeater is the specific subject associated with: 'What is the official bird emblem of Victoria'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Helmeted Honeyeater is the essential answer for this question.",
+    "explanation": "The Helmeted Honeyeater is the official bird emblem of Victoria.",
+    "tip": "\ud83d\udca1 **Victoria Bird Emblem:** The critically endangered Helmeted Honeyeater!",
     "difficulty": "Medium"
   },
   {
@@ -1056,8 +1056,8 @@ export const ALL_QUESTIONS = [
       "The Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Black Swan is the specific subject associated with: 'What is the official bird emblem of Western Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Black Swan is the essential answer for this question.",
+    "explanation": "The Black Swan is the official bird emblem of Western Australia.",
+    "tip": "\ud83d\udca1 **WA Bird Emblem:** The native Black Swan!",
     "difficulty": "Medium"
   },
   {
@@ -1071,8 +1071,8 @@ export const ALL_QUESTIONS = [
       "The Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Brolga is the specific subject associated with: 'What is the official bird emblem of Queensland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Brolga is the essential answer for this question.",
+    "explanation": "The Brolga (Australian Crane) is the official bird emblem of Queensland.",
+    "tip": "\ud83d\udca1 **Queensland Bird Emblem:** The dancing Brolga!",
     "difficulty": "Medium"
   },
   {
@@ -1086,8 +1086,8 @@ export const ALL_QUESTIONS = [
       "The Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, Piping Shrike (White-backed Magpie) is the specific subject associated with: 'What is the official bird emblem of South Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Piping Shrike (White-backed Magpie) is the essential answer for this question.",
+    "explanation": "The Piping Shrike (White-backed Magpie) is the official bird emblem of South Australia.",
+    "tip": "\ud83d\udca1 **SA Bird Emblem:** Piping Shrike on the SA flag!",
     "difficulty": "Medium"
   },
   {
@@ -1101,8 +1101,8 @@ export const ALL_QUESTIONS = [
       "Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, Yellow Wattlebird is the specific subject associated with: 'What is the official bird emblem of Tasmania'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Yellow Wattlebird is the essential answer for this question.",
+    "explanation": "The Yellow Wattlebird is the official bird emblem of Tasmania.",
+    "tip": "\ud83d\udca1 **Tasmania Bird Emblem:** Yellow Wattlebird!",
     "difficulty": "Medium"
   },
   {
@@ -1116,8 +1116,8 @@ export const ALL_QUESTIONS = [
       "Superb Lyrebird"
     ],
     "answer": 0,
-    "explanation": "In aus history, Gang-gang Cockatoo is the specific subject associated with: 'What is the official bird emblem of the Australian Capital Territory'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gang-gang Cockatoo is the essential answer for this question.",
+    "explanation": "The Gang-gang Cockatoo is the official bird emblem of the Australian Capital Territory.",
+    "tip": "\ud83d\udca1 **ACT Bird Emblem:** The red-crested Gang-gang Cockatoo!",
     "difficulty": "Medium"
   },
   {
@@ -1131,8 +1131,8 @@ export const ALL_QUESTIONS = [
       "Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, Wedge-tailed Eagle is the specific subject associated with: 'What is the official bird emblem of the Northern Territory'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Wedge-tailed Eagle is the essential answer for this question.",
+    "explanation": "The Wedge-tailed Eagle is the official bird emblem of the Northern Territory.",
+    "tip": "\ud83d\udca1 **NT Bird Emblem:** Australia's largest bird of prey, the Wedge-tailed Eagle!",
     "difficulty": "Medium"
   },
   {
@@ -1146,8 +1146,8 @@ export const ALL_QUESTIONS = [
       "Malcolm Fraser"
     ],
     "answer": 0,
-    "explanation": "Gough Whitlam served as 21st PM (1972\u20131975), enacting free university, Medibank, and Aboriginal land rights.",
-    "tip": "\ud83d\udca1 **Whitlam:** 'It's Time' & 1975 Dismissal!",
+    "explanation": "In Australian political history, Gough Whitlam played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Gough Whitlam served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1161,8 +1161,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Bob Hawke served as 23rd PM (1983\u20131991), floating the dollar, creating Medicare, and saving the Franklin River.",
-    "tip": "\ud83d\udca1 **Hawke:** Medicare, floating dollar, Franklin River!",
+    "explanation": "In Australian political history, Bob Hawke played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Bob Hawke served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1176,8 +1176,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Malcolm Fraser served as 22nd PM (1975\u20131983), establishing SBS, the Family Court, and Kakadu National Park.",
-    "tip": "\ud83d\udca1 **Fraser:** Established SBS & Kakadu!",
+    "explanation": "In Australian political history, Malcolm Fraser played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Malcolm Fraser served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1191,8 +1191,8 @@ export const ALL_QUESTIONS = [
       "Frank Nicklin"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Joh Bjelke-Petersen is the specific subject associated with: 'Which Premier of Queensland governed continuously for over 19 years from 1968 to 1987'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Joh Bjelke-Petersen is the essential answer for this question.",
+    "explanation": "Sir Joh Bjelke-Petersen served as Premier of Queensland from 1968 to 1987, leading the National Party for 19 years.",
+    "tip": "\ud83d\udca1 **Joh Bjelke-Petersen:** Queensland's longest-serving Premier (19 years).",
     "difficulty": "Medium"
   },
   {
@@ -1206,8 +1206,8 @@ export const ALL_QUESTIONS = [
       "John Bannon"
     ],
     "answer": 0,
-    "explanation": "In aus history, Don Dunstan is the specific subject associated with: 'Which Premier of South Australia led progressive reforms in the 1970s including land rights and decriminalising homosexuality'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Don Dunstan is the essential answer for this question.",
+    "explanation": "Don Dunstan served as Premier of South Australia in the 1970s, introducing groundbreaking progressive reforms including Aboriginal land rights, consumer protection laws, and decriminalizing homosexuality in 1975.",
+    "tip": "\ud83d\udca1 **Don Dunstan:** Progressive SA Premier who decriminalized homosexuality in 1975.",
     "difficulty": "Medium"
   },
   {
@@ -1221,8 +1221,8 @@ export const ALL_QUESTIONS = [
       "Jeff Kennett"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Henry Bolte is the specific subject associated with: 'Which Premier of Victoria served as Premier from 1955 to 1972, making him VIC's longest-serving Premier'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Henry Bolte is the essential answer for this question.",
+    "explanation": "Sir Henry Bolte served as Premier of Victoria from 1955 to 1972, making him Victoria's longest-serving Premier in history.",
+    "tip": "\ud83d\udca1 **Sir Henry Bolte:** Victoria's longest-serving Premier (17 years from 1955 to 1972).",
     "difficulty": "Medium"
   },
   {
@@ -1236,8 +1236,8 @@ export const ALL_QUESTIONS = [
       "Robert Askin"
     ],
     "answer": 0,
-    "explanation": "In aus history, Neville Wran is the specific subject associated with: 'Which Premier of NSW served as Premier from 1976 to 1986, leading Labor to multiple landslide election wins'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Neville Wran is the essential answer for this question.",
+    "explanation": "Neville Wran served as Premier of New South Wales from 1976 to 1986, leading Labor to sweeping election victories known as 'Wran's-slides'.",
+    "tip": "\ud83d\udca1 **Neville Wran:** NSW Premier from 1976 to 1986 famous for 'Wran's-slide' victories.",
     "difficulty": "Medium"
   },
   {
@@ -1251,8 +1251,8 @@ export const ALL_QUESTIONS = [
       "Richard Court"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir David Brand is the specific subject associated with: 'Which Premier of Western Australia served as Premier from 1959 to 1971, overseeing major mining expansions'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir David Brand is the essential answer for this question.",
+    "explanation": "Sir David Brand served as Premier of Western Australia from 1959 to 1971, overseeing major iron ore mining expansions in the Pilbara.",
+    "tip": "\ud83d\udca1 **Sir David Brand:** WA Premier who drove the 1960s Pilbara iron ore mining boom.",
     "difficulty": "Medium"
   },
   {
@@ -1266,8 +1266,8 @@ export const ALL_QUESTIONS = [
       "1967"
     ],
     "answer": 0,
-    "explanation": "In aus history, 2009 is the specific subject associated with: 'In what year did the Black Saturday bushfires take place in Victoria, claiming 173 lives'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 2009 is the essential answer for this question.",
+    "explanation": "In February 2009, the Black Saturday bushfires devastated Victoria, killing 173 people in Australia's deadliest natural disaster.",
+    "tip": "\ud83d\udca1 **Black Saturday 2009:** Victoria's tragic bushfires on February 7, 2009.",
     "difficulty": "Medium"
   },
   {
@@ -1281,8 +1281,8 @@ export const ALL_QUESTIONS = [
       "2009"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1983 is the specific subject associated with: 'In what year did the Ash Wednesday bushfires strike Victoria and South Australia, killing 75 people'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1983 is the essential answer for this question.",
+    "explanation": "In 1983, Australia II won the America's Cup under skipper John Bertrand and owner Bond Corp, ending America's 132-year winning streak.",
+    "tip": "\ud83d\udca1 **America's Cup 1983:** Ben Lexcen's winged keel brought the Cup to Australia!",
     "difficulty": "Medium"
   },
   {
@@ -1296,8 +1296,8 @@ export const ALL_QUESTIONS = [
       "1994"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1967 is the specific subject associated with: 'In what year did the Black Tuesday bushfires destroy 1,400 homes in Hobart and southern Tasmania'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1967 is the essential answer for this question.",
+    "explanation": "The 1967 Referendum passed on May 27, 1967, with a record 90.77% 'Yes' vote to include Indigenous Australians in the national census.",
+    "tip": "\ud83d\udca1 **1967 Referendum:** Landmark 90.77% 'Yes' vote.",
     "difficulty": "Medium"
   },
   {
@@ -1311,8 +1311,8 @@ export const ALL_QUESTIONS = [
       "The Price Control Referendum"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Communist Party Referendum is the specific subject associated with: 'Which historic 1951 referendum initiated by Robert Menzies failed to pass, seeking to ban a political party'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Communist Party Referendum is the essential answer for this question.",
+    "explanation": "The 1951 Communist Party Dissolution Referendum initiated by PM Robert Menzies failed to gain a majority of votes or states.",
+    "tip": "\ud83d\udca1 **1951 Referendum:** Defeated after H.V. Evatt's campaign against banning the party.",
     "difficulty": "Medium"
   },
   {
@@ -1326,8 +1326,8 @@ export const ALL_QUESTIONS = [
       "William Deane"
     ],
     "answer": 0,
-    "explanation": "In aus history, Michael Jeffery is the specific subject associated with: 'Which Governor-General of Australia delivered the 2008 National Apology alongside Kevin Rudd'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Michael Jeffery is the essential answer for this question.",
+    "explanation": "In Australian colonial and Commonwealth history, Michael Jeffery served in the role of Governor or Governor-General.",
+    "tip": "\ud83d\udca1 **Governor-General:** Michael Jeffery represented the Crown in Australian constitutional history.",
     "difficulty": "Medium"
   },
   {
@@ -1341,8 +1341,8 @@ export const ALL_QUESTIONS = [
       "Margaret Beazley"
     ],
     "answer": 0,
-    "explanation": "In aus history, Dame Quentin Bryce is the specific subject associated with: 'Who was Australia's first female Governor-General, serving from 2008 to 2014'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dame Quentin Bryce is the essential answer for this question.",
+    "explanation": "In Australian colonial and Commonwealth history, Dame Quentin Bryce served in the role of Governor or Governor-General.",
+    "tip": "\ud83d\udca1 **Governor-General:** Dame Quentin Bryce represented the Crown in Australian constitutional history.",
     "difficulty": "Medium"
   },
   {
@@ -1356,8 +1356,8 @@ export const ALL_QUESTIONS = [
       "HMS Sirius"
     ],
     "answer": 0,
-    "explanation": "In aus history, HMS Endeavour is the specific subject associated with: 'What was the name of the vessel that Captain James Cook sailed into Botany Bay in April 1770'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** HMS Endeavour is the essential answer for this question.",
+    "explanation": "HMS Endeavour was the British Royal Navy research vessel commanded by Lieutenant James Cook on his first voyage to Australia in 1770.",
+    "tip": "\ud83d\udca1 **HMS Endeavour:** James Cook's ship that charted Australia's east coast in 1770.",
     "difficulty": "Medium"
   },
   {
@@ -1371,8 +1371,8 @@ export const ALL_QUESTIONS = [
       "Charlotte"
     ],
     "answer": 0,
-    "explanation": "In aus history, HMS Sirius is the specific subject associated with: 'What was the flagship of the First Fleet commanded by Captain Arthur Phillip in 1788'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** HMS Sirius is the essential answer for this question.",
+    "explanation": "HMS Sirius was the flagship of the First Fleet, commanded by Captain Arthur Phillip when establishing Sydney Cove in 1788.",
+    "tip": "\ud83d\udca1 **HMS Sirius:** Flagship of Captain Arthur Phillip's 1788 First Fleet.",
     "difficulty": "Medium"
   },
   {
@@ -1386,8 +1386,8 @@ export const ALL_QUESTIONS = [
       "Lady Penrhyn"
     ],
     "answer": 0,
-    "explanation": "In aus history, HMS Supply is the specific subject associated with: 'What was the name of the smallest of the eleven ships in the First Fleet'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** HMS Supply is the essential answer for this question.",
+    "explanation": "HMS Supply was the smallest and fastest of the eleven ships of the First Fleet, carrying Captain Arthur Phillip into Botany Bay ahead of the fleet.",
+    "tip": "\ud83d\udca1 **HMS Supply:** Smallest ship of the First Fleet that arrived first in 1788!",
     "difficulty": "Medium"
   },
   {
@@ -1401,8 +1401,8 @@ export const ALL_QUESTIONS = [
       "1960"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1949 is the specific subject associated with: 'In what year did the Snowy Mountains Hydroelectric Scheme construction officially begin'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1949 is the essential answer for this question.",
+    "explanation": "The Snowy Mountains Hydroelectric Scheme commenced construction in 1949 under Prime Minister Ben Chifley.",
+    "tip": "\ud83d\udca1 **Snowy Hydro 1949:** Commenced under Ben Chifley, completed in 1974.",
     "difficulty": "Medium"
   },
   {
@@ -1416,8 +1416,8 @@ export const ALL_QUESTIONS = [
       "1985"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1974 is the specific subject associated with: 'In what year was the Snowy Mountains Hydroelectric Scheme officially completed'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1974 is the essential answer for this question.",
+    "explanation": "Cyclone Tracy devastated Darwin on Christmas Eve and Christmas Day 1974, destroying over 70% of the city's buildings.",
+    "tip": "\ud83d\udca1 **Cyclone Tracy 1974:** Darwin's Christmas Day disaster.",
     "difficulty": "Medium"
   },
   {
@@ -1431,8 +1431,8 @@ export const ALL_QUESTIONS = [
       "The Bank Nationalisation Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Concrete Pipes Case is the specific subject associated with: 'What major 1971 High Court ruling affirmed Commonwealth power over corporate trading under Section 51(xx)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Concrete Pipes Case is the essential answer for this question.",
+    "explanation": "The 1971 Concrete Pipes Case established the High Court's modern interpretation of Section 51(xx), expanding federal trade and commerce powers over corporations.",
+    "tip": "\ud83d\udca1 **Concrete Pipes Case 1971:** Expanded federal power over corporate trade.",
     "difficulty": "Medium"
   },
   {
@@ -1446,8 +1446,8 @@ export const ALL_QUESTIONS = [
       "The Concrete Pipes Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Franklin Dam Case is the specific subject associated with: 'What landmark 1983 High Court ruling stopped the damming of the Gordon River in Tasmania'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Franklin Dam Case is the essential answer for this question.",
+    "explanation": "The 1983 Commonwealth v Tasmania (Franklin Dam Case) High Court ruling stopped the damming of the Gordon River under the federal external affairs power.",
+    "tip": "\ud83d\udca1 **Franklin Dam Case 1983:** Landmark environmental High Court victory!",
     "difficulty": "Medium"
   },
   {
@@ -1461,8 +1461,8 @@ export const ALL_QUESTIONS = [
       "The Communist Party Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Engineers Case is the specific subject associated with: 'What major 1920 High Court decision overturned the doctrine of implied immunity of state instrumentalities'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Engineers Case is the essential answer for this question.",
+    "explanation": "The 1920 Engineers Case overturned the doctrine of implied immunity of state instrumentalities, dramatically expanding Commonwealth legislative power.",
+    "tip": "\ud83d\udca1 **Engineers Case 1920:** Landmark shift expanding federal Constitutional power.",
     "difficulty": "Medium"
   },
   {
@@ -1476,8 +1476,8 @@ export const ALL_QUESTIONS = [
       "The Second Uniform Tax Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Communist Party Case is the specific subject associated with: 'What major 1951 High Court ruling invalidated Robert Menzies' legislation banning the Communist Party'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Communist Party Case is the essential answer for this question.",
+    "explanation": "The 1951 Australian Communist Party v Commonwealth High Court ruling declared Robert Menzies' Communist Party Dissolution Act unconstitutional.",
+    "tip": "\ud83d\udca1 **Communist Party Case 1951:** High Court struck down Menzies' ban.",
     "difficulty": "Medium"
   },
   {
@@ -1491,8 +1491,8 @@ export const ALL_QUESTIONS = [
       "Tony Abbott"
     ],
     "answer": 0,
-    "explanation": "In aus history, Scott Morrison is the specific subject associated with: 'Which Australian Prime Minister signed the AUKUS security pact alongside Joe Biden and Boris Johnson in 2021'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Scott Morrison is the essential answer for this question.",
+    "explanation": "In Australian political history, Scott Morrison played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Scott Morrison served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1506,8 +1506,8 @@ export const ALL_QUESTIONS = [
       "1938"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1911 is the specific subject associated with: 'In what year was the Australian Capital Territory (ACT) officially formed as a federal territory'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1911 is the essential answer for this question.",
+    "explanation": "On January 1, 1911, the Federal Capital Territory (now ACT) was officially surrendered by NSW to the Commonwealth of Australia.",
+    "tip": "\ud83d\udca1 **ACT 1911:** Territory officially established as national capital site.",
     "difficulty": "Medium"
   },
   {
@@ -1521,8 +1521,8 @@ export const ALL_QUESTIONS = [
       "1995"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1978 is the specific subject associated with: 'In what year did the Northern Territory achieve self-government'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1978 is the essential answer for this question.",
+    "explanation": "The Northern Territory achieved self-government on July 1, 1978, under the Northern Territory (Self-Government) Act 1978.",
+    "tip": "\ud83d\udca1 **NT Self-Government 1978:** Granted self-governing status on July 1, 1978.",
     "difficulty": "Medium"
   },
   {
@@ -1536,8 +1536,8 @@ export const ALL_QUESTIONS = [
       "John McDouall Stuart"
     ],
     "answer": 0,
-    "explanation": "In aus history, Ludwig Leichhardt is the specific subject associated with: 'Which explorer attempted to cross Australia from east to west in 1848 and vanished without a trace'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ludwig Leichhardt is the essential answer for this question.",
+    "explanation": "In Australian exploration history, Ludwig Leichhardt led important expeditions mapping the continent.",
+    "tip": "\ud83d\udca1 **Explorer:** Ludwig Leichhardt is famous for expeditions across inland Australia.",
     "difficulty": "Medium"
   },
   {
@@ -1551,8 +1551,8 @@ export const ALL_QUESTIONS = [
       "Thomas Mitchell"
     ],
     "answer": 0,
-    "explanation": "In aus history, John McDouall Stuart is the specific subject associated with: 'Who was the first explorer to successfully cross the Australian continent from south to north and back (1861-1862)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** John McDouall Stuart is the essential answer for this question.",
+    "explanation": "In Australian exploration history, John McDouall Stuart led important expeditions mapping the continent.",
+    "tip": "\ud83d\udca1 **Explorer:** John McDouall Stuart is famous for expeditions across inland Australia.",
     "difficulty": "Medium"
   },
   {
@@ -1566,8 +1566,8 @@ export const ALL_QUESTIONS = [
       "Douglas Mawson"
     ],
     "answer": 0,
-    "explanation": "In aus history, Cecil Madigan is the specific subject associated with: 'Which explorer crossed the Simpson Desert on foot with camels in 1939'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cecil Madigan is the essential answer for this question.",
+    "explanation": "In Australian exploration history, Cecil Madigan led important expeditions mapping the continent.",
+    "tip": "\ud83d\udca1 **Explorer:** Cecil Madigan is famous for expeditions across inland Australia.",
     "difficulty": "Medium"
   },
   {
@@ -1581,8 +1581,8 @@ export const ALL_QUESTIONS = [
       "Robert Falcon Scott"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Douglas Mawson is the specific subject associated with: 'Which Antarctic explorer led the 1911-1914 Australasian Antarctic Expedition'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Douglas Mawson is the essential answer for this question.",
+    "explanation": "In Australian exploration history, Sir Douglas Mawson led important expeditions mapping the continent.",
+    "tip": "\ud83d\udca1 **Explorer:** Sir Douglas Mawson is famous for expeditions across inland Australia.",
     "difficulty": "Medium"
   },
   {
@@ -1596,8 +1596,8 @@ export const ALL_QUESTIONS = [
       "Sir Isaac Isaacs"
     ],
     "answer": 0,
-    "explanation": "In aus history, Lord Gowrie is the specific subject associated with: 'Who served as Governor-General of Australia during World War II from 1936 to 1944'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lord Gowrie is the essential answer for this question.",
+    "explanation": "In Australian military history, Lord Gowrie marks a key engagement in the nation's armed conflicts.",
+    "tip": "\ud83d\udca1 **Military History:** Lord Gowrie is a major chapter in Australia's wartime service.",
     "difficulty": "Medium"
   },
   {
@@ -1611,8 +1611,8 @@ export const ALL_QUESTIONS = [
       "Sir John Kerr"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir Isaac Isaacs is the specific subject associated with: 'Who was the first Australian-born Governor-General of Australia, appointed in 1931'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Isaac Isaacs is the essential answer for this question.",
+    "explanation": "In Australian colonial and Commonwealth history, Sir Isaac Isaacs served in the role of Governor or Governor-General.",
+    "tip": "\ud83d\udca1 **Governor-General:** Sir Isaac Isaacs represented the Crown in Australian constitutional history.",
     "difficulty": "Medium"
   },
   {
@@ -1626,8 +1626,8 @@ export const ALL_QUESTIONS = [
       "Sir Zelman Cowen"
     ],
     "answer": 0,
-    "explanation": "In aus history, Sir William McKell is the specific subject associated with: 'Who was the second Australian-born Governor-General, appointed by Ben Chifley in 1947'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir William McKell is the essential answer for this question.",
+    "explanation": "In Australian colonial and Commonwealth history, Sir William McKell served in the role of Governor or Governor-General.",
+    "tip": "\ud83d\udca1 **Governor-General:** Sir William McKell represented the Crown in Australian constitutional history.",
     "difficulty": "Medium"
   },
   {
@@ -1641,8 +1641,8 @@ export const ALL_QUESTIONS = [
       "Foy & Gibson"
     ],
     "answer": 0,
-    "explanation": "In aus history, Myer is the specific subject associated with: 'Which landmark Melbourne department store was founded by Sidney Myer in 1911'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Myer is the essential answer for this question.",
+    "explanation": "Sidney Myer founded the Myer department store empire in Bendigo in 1900 and opened the flagship Bourke Street store in Melbourne in 1911.",
+    "tip": "\ud83d\udca1 **Myer 1911:** Iconic Melbourne Bourke Street flagship store!",
     "difficulty": "Medium"
   },
   {
@@ -1656,8 +1656,8 @@ export const ALL_QUESTIONS = [
       "Waltons"
     ],
     "answer": 0,
-    "explanation": "In aus history, David Jones is the specific subject associated with: 'Which retail company was founded in Sydney by David Jones in 1838, making it one of the world's oldest department stores'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** David Jones is the essential answer for this question.",
+    "explanation": "David Jones was founded in Sydney in 1838 by Welsh immigrant merchant David Jones, making it the world's oldest continuously operating department store.",
+    "tip": "\ud83d\udca1 **David Jones 1838:** World's oldest department store still operating under its original name!",
     "difficulty": "Medium"
   },
   {
@@ -1671,8 +1671,8 @@ export const ALL_QUESTIONS = [
       "Bonds"
     ],
     "answer": 0,
-    "explanation": "Akubra is an iconic Australian hat manufacturer founded in 1872 by Benjamin Dunkerley in Hobart, Tasmania, famous for wide-brimmed rabbit fur felt hats.",
-    "tip": "\ud83d\udca1 **Akubra & Outback:** Founded in Tasmania in 1872 \u2014 named from an Indigenous Australian word for head covering!",
+    "explanation": "Akubra was founded in 1872 by Benjamin Dunkerley in Hobart, Tasmania, becoming Australia's premier manufacturer of rabbit fur felt hats.",
+    "tip": "\ud83d\udca1 **Akubra 1872:** Tasmanian-founded iconic Australian hatmaker!",
     "difficulty": "Medium"
   },
   {
@@ -1686,8 +1686,8 @@ export const ALL_QUESTIONS = [
       "Blundstone"
     ],
     "answer": 0,
-    "explanation": "Reginald Murray Williams founded R.M. Williams in 1932 in South Australia, famous for handcrafted single-piece leather elastic-sided boots.",
-    "tip": "\ud83d\udca1 **R.M. Williams:** Crafted out of a single piece of leather in Adelaide starting in 1932.",
+    "explanation": "R.M. Williams was founded in 1932 by Reginald Murray Williams in South Australia, famous for handcrafted single-piece leather riding boots.",
+    "tip": "\ud83d\udca1 **R.M. Williams 1932:** Handcrafted elastic-sided boots from South Australia!",
     "difficulty": "Medium"
   },
   {
@@ -1701,8 +1701,8 @@ export const ALL_QUESTIONS = [
       "Rossi"
     ],
     "answer": 0,
-    "explanation": "In aus history, Blundstone is the specific subject associated with: 'Which Tasmanian boot manufacturer was founded in Hobart in 1870'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Blundstone is the essential answer for this question.",
+    "explanation": "Blundstone was founded in Hobart, Tasmania, in 1870, famous worldwide for its heavy-duty elastic-sided work boots.",
+    "tip": "\ud83d\udca1 **Blundstone 1870:** Iconic Tasmanian elastic-sided boot brand!",
     "difficulty": "Medium"
   },
   {
@@ -1716,8 +1716,8 @@ export const ALL_QUESTIONS = [
       "Browse Basin"
     ],
     "answer": 0,
-    "explanation": "In aus history, Gippsland Basin (Kingfish/Halibut) is the specific subject associated with: 'What oil and gas field discovered in Bass Strait in 1965 transformed Australia's energy supply'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gippsland Basin (Kingfish/Halibut) is the essential answer for this question.",
+    "explanation": "The 1965 oil and gas discovery in the Gippsland Basin in Bass Strait transformed Australia from an energy importer into a major petroleum producer.",
+    "tip": "\ud83d\udca1 **Bass Strait 1965:** Esso-BHP oil discovery off the coast of Victoria.",
     "difficulty": "Medium"
   },
   {
@@ -1731,8 +1731,8 @@ export const ALL_QUESTIONS = [
       "Pluto LNG"
     ],
     "answer": 0,
-    "explanation": "In aus history, The North West Shelf Project is the specific subject associated with: 'What major natural gas project off the WA coast commenced shipments in 1989'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The North West Shelf Project is the essential answer for this question.",
+    "explanation": "In Australian political history, The North West Shelf Project played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** The North West Shelf Project served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1746,8 +1746,8 @@ export const ALL_QUESTIONS = [
       "Compass"
     ],
     "answer": 0,
-    "explanation": "In aus history, Qantas is the specific subject associated with: 'Which major Australian airline was founded as Queensland and Northern Territory Aerial Services in 1920'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Qantas is the essential answer for this question.",
+    "explanation": "Qantas was founded in Winton, Queensland, in November 1920 as Queensland and Northern Territory Aerial Services by Paul McGinness and Hudson Fysh.",
+    "tip": "\ud83d\udca1 **Qantas 1920:** Founded in Winton, QLD \u2014 the Flying Kangaroo!",
     "difficulty": "Medium"
   },
   {
@@ -1761,8 +1761,8 @@ export const ALL_QUESTIONS = [
       "East-West Airlines"
     ],
     "answer": 0,
-    "explanation": "In aus history, Ansett Australia is the specific subject associated with: 'Which domestic airline operated in Australia from 1936 until its high-profile collapse in 2001'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ansett Australia is the essential answer for this question.",
+    "explanation": "Ansett Australia operated as a major domestic airline from 1936 until its sudden collapse in September 2001.",
+    "tip": "\ud83d\udca1 **Ansett Collapse 2001:** Founded by Reg Ansett in 1936, collapsed in 2001.",
     "difficulty": "Medium"
   },
   {
@@ -1776,8 +1776,8 @@ export const ALL_QUESTIONS = [
       "Compass"
     ],
     "answer": 0,
-    "explanation": "In aus history, Trans Australia Airlines (TAA) is the specific subject associated with: 'Which government-owned domestic airline operated in Australia from 1946 until merging with Qantas in 1992'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Trans Australia Airlines (TAA) is the essential answer for this question.",
+    "explanation": "Trans Australia Airlines (TAA) was established by the Chifley Government in 1946, operating as Australia's government domestic airline until merging with Qantas in 1992.",
+    "tip": "\ud83d\udca1 **TAA 1946:** Founded under Ben Chifley post-WWII.",
     "difficulty": "Medium"
   },
   {
@@ -1791,8 +1791,8 @@ export const ALL_QUESTIONS = [
       "The Engineers Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, The Seas and Submerged Lands Case is the specific subject associated with: 'What historic 1968 High Court decision affirmed federal power over offshore seabed minerals'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Seas and Submerged Lands Case is the essential answer for this question.",
+    "explanation": "The 1975 Seas and Submerged Lands High Court decision upheld Commonwealth sovereignty over Australia's territorial sea and continental shelf.",
+    "tip": "\ud83d\udca1 **Offshore Rights 1975:** High Court confirmed federal offshore mineral power.",
     "difficulty": "Medium"
   },
   {
@@ -1806,8 +1806,8 @@ export const ALL_QUESTIONS = [
       "Paul Keating"
     ],
     "answer": 0,
-    "explanation": "Gough Whitlam served as 21st PM (1972\u20131975), enacting free university, Medibank, and Aboriginal land rights.",
-    "tip": "\ud83d\udca1 **Whitlam:** 'It's Time' & 1975 Dismissal!",
+    "explanation": "In Australian political history, Gough Whitlam played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Gough Whitlam served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1821,8 +1821,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "Malcolm Fraser served as 22nd PM (1975\u20131983), establishing SBS, the Family Court, and Kakadu National Park.",
-    "tip": "\ud83d\udca1 **Fraser:** Established SBS & Kakadu!",
+    "explanation": "In Australian political history, Malcolm Fraser played a prominent role leading the nation's government.",
+    "tip": "\ud83d\udca1 **Prime Minister:** Malcolm Fraser served as Australia's leader during key political milestones.",
     "difficulty": "Medium"
   },
   {
@@ -1836,8 +1836,8 @@ export const ALL_QUESTIONS = [
       "The $5 Note"
     ],
     "answer": 0,
-    "explanation": "In aus history, The $1 Coin is the specific subject associated with: 'Which Australian coin replaced the one-dollar note in November 1984'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The $1 Coin is the essential answer for this question.",
+    "explanation": "The Australian $1 coin was introduced on May 14, 1984, replacing the one-dollar paper note, featuring five kangaroos designed by Stuart Devlin.",
+    "tip": "\ud83d\udca1 **$1 Coin 1984:** Stuart Devlin's 5 kangaroos design introduced in 1984!",
     "difficulty": "Medium"
   },
   {
@@ -1851,8 +1851,8 @@ export const ALL_QUESTIONS = [
       "The Gold Coin"
     ],
     "answer": 0,
-    "explanation": "In aus history, The $2 Coin is the specific subject associated with: 'Which Australian coin replaced the two-dollar note in June 1988'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The $2 Coin is the essential answer for this question.",
+    "explanation": "The Australian $2 coin was introduced on June 20, 1988, replacing the green two-dollar note, featuring an Aboriginal elder designed by Horst Hahne.",
+    "tip": "\ud83d\udca1 **$2 Coin 1988:** Features an Aboriginal elder, Gwoya Tjungurrayi (One Pound Jimmy).",
     "difficulty": "Medium"
   },
   {
@@ -1866,8 +1866,8 @@ export const ALL_QUESTIONS = [
       "1988"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1992 is the specific subject associated with: 'In what year were 1 cent and 2 cent coins officially withdrawn from circulation in Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1992 is the essential answer for this question.",
+    "explanation": "The High Court delivered the Mabo v Queensland (No 2) decision on June 3, 1992, recognizing Native Title.",
+    "tip": "\ud83d\udca1 **Mabo 1992:** June 3, 1992 landmark Native Title decision.",
     "difficulty": "Medium"
   },
   {
@@ -1881,8 +1881,8 @@ export const ALL_QUESTIONS = [
       "2000"
     ],
     "answer": 0,
-    "explanation": "In aus history, 1988 is the specific subject associated with: 'In what year did Australia introduce polymer bank notes, starting with the commemorative $10 note'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1988 is the essential answer for this question.",
+    "explanation": "Australia celebrated its Bicentenary on January 26, 1988, marking 200 years since the arrival of the First Fleet.",
+    "tip": "\ud83d\udca1 **Bicentenary 1988:** 200th anniversary of the First Fleet arrival.",
     "difficulty": "Medium"
   },
   {
@@ -1896,8 +1896,8 @@ export const ALL_QUESTIONS = [
       "John O'Sullivan"
     ],
     "answer": 0,
-    "explanation": "In aus history, Dr David Warren is the specific subject associated with: 'Which Australian scientist and engineer invented the Black Box flight data recorder in 1953'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dr David Warren is the essential answer for this question.",
+    "explanation": "Dr David Warren invented the Black Box flight data recorder at the Aeronautical Research Laboratories in Melbourne in 1953.",
+    "tip": "\ud83d\udca1 **Black Box 1953:** Melbourne scientist Dr David Warren invented aviation's most vital safety tool!",
     "difficulty": "Medium"
   },
   {
@@ -1911,8 +1911,8 @@ export const ALL_QUESTIONS = [
       "Ian Frazer"
     ],
     "answer": 0,
-    "explanation": "In aus history, Dr John O'Sullivan is the specific subject associated with: 'Which CSIRO scientist led the team that invented core Wi-Fi technology in the 1990s'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dr John O'Sullivan is the essential answer for this question.",
+    "explanation": "Dr John O'Sullivan led the CSIRO team of radio astronomers who invented core Wi-Fi technology in the 1990s.",
+    "tip": "\ud83d\udca1 **CSIRO Wi-Fi:** Aussie radio astronomers invented fast Wi-Fi at CSIRO!",
     "difficulty": "Medium"
   },
   {
@@ -1926,8 +1926,8 @@ export const ALL_QUESTIONS = [
       "Peter Doherty"
     ],
     "answer": 0,
-    "explanation": "In aus history, Prof Ian Frazer is the specific subject associated with: 'Which Australian co-invented the Gardasil cervical cancer vaccine in 2006'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Prof Ian Frazer is the essential answer for this question.",
+    "explanation": "Prof Ian Frazer and Dr Jian Zhou co-invented the Gardasil cervical cancer vaccine at the University of Queensland in 2006.",
+    "tip": "\ud83d\udca1 **Gardasil Vaccine:** Co-invented at UQ by Australian of the Year Prof Ian Frazer.",
     "difficulty": "Medium"
   },
   {
@@ -1941,8 +1941,8 @@ export const ALL_QUESTIONS = [
       "Fred Hollows"
     ],
     "answer": 0,
-    "explanation": "In aus history, Dr Fiona Stanley is the specific subject associated with: 'Which Australian medical researcher was named Australian of the Year in 2003 for work in child health'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dr Fiona Stanley is the essential answer for this question.",
+    "explanation": "Dr Fiona Stanley is an acclaimed epidemiologist whose research established that maternal folate supplementation prevents spina bifida.",
+    "tip": "\ud83d\udca1 **Dr Fiona Stanley:** 2005 Australian of the Year who proved folate prevents spina bifida.",
     "difficulty": "Medium"
   },
   {
@@ -1956,8 +1956,8 @@ export const ALL_QUESTIONS = [
       "Graeme Clark"
     ],
     "answer": 0,
-    "explanation": "In aus history, Fred Hollows is the specific subject associated with: 'Which eye surgeon restored sight to over one million people in developing nations through his foundation'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fred Hollows is the essential answer for this question.",
+    "explanation": "Fred Hollows was a renowned ophthalmologist who restored sight to over 1,000,000 people across Indigenous Australia and developing nations.",
+    "tip": "\ud83d\udca1 **Fred Hollows:** Legendary eye surgeon who founded the Fred Hollows Foundation.",
     "difficulty": "Medium"
   },
   {
