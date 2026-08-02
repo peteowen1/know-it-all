@@ -28,6 +28,18 @@ export default function Header({ activeTab, setActiveTab, stats, totalBankCount 
             <Award className="icon-award" size={18} />
             <span>Best: {stats.highScore || 0}/25</span>
           </div>
+          <button 
+            className="stat-badge reset-cache-btn"
+            title="Reset cached state & reload fresh dataset"
+            onClick={() => {
+              localStorage.clear();
+              window.location.reload();
+            }}
+            style={{ cursor: 'pointer', background: 'rgba(239, 68, 68, 0.15)', border: '1px solid rgba(239, 68, 68, 0.3)', color: '#f87171' }}
+          >
+            <RotateCcw size={16} />
+            <span>Reset Cache</span>
+          </button>
         </div>
       </div>
 

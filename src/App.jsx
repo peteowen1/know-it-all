@@ -46,6 +46,17 @@ export default function App() {
     return [];
   });
 
+  // Auto-purge old cached storage on version upgrade
+  useEffect(() => {
+    const CURRENT_VERSION = 'v3.0.0_clean';
+    const savedVer = localStorage.getItem('gw_dataset_ver');
+    if (savedVer !== CURRENT_VERSION) {
+      localStorage.removeItem('gw_quiz_missed');
+      localStorage.removeItem('gw_quiz_stats');
+      localStorage.setItem('gw_dataset_ver', CURRENT_VERSION);
+    }
+  }, []);
+
   useEffect(() => {
     localStorage.setItem('gw_quiz_stats', JSON.stringify(stats));
   }, [stats]);
