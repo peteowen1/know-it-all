@@ -1971,8 +1971,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Ottawa is the specific subject associated with: 'What is the official capital city of Canada'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ottawa is the essential answer for this question.",
+    "explanation": "Ottawa is the official capital city and administrative seat of government for Canada.",
+    "tip": "\ud83d\udca1 **Capital City:** Ottawa is the national capital of Canada.",
     "difficulty": "Medium"
   },
   {
@@ -1986,8 +1986,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Canberra is the specific subject associated with: 'What is the official capital city of Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Canberra is the essential answer for this question.",
+    "explanation": "Canberra is the official capital city and administrative seat of government for Australia.",
+    "tip": "\ud83d\udca1 **Capital City:** Canberra is the national capital of Australia.",
     "difficulty": "Medium"
   },
   {
@@ -2001,8 +2001,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Bras\u00edlia is the specific subject associated with: 'What is the official capital city of Brazil'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bras\u00edlia is the essential answer for this question.",
+    "explanation": "Bras\u00edlia is the official capital city and administrative seat of government for Brazil.",
+    "tip": "\ud83d\udca1 **Capital City:** Bras\u00edlia is the national capital of Brazil.",
     "difficulty": "Medium"
   },
   {
@@ -2016,8 +2016,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Ankara is the specific subject associated with: 'What is the official capital city of Turkey'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ankara is the essential answer for this question.",
+    "explanation": "Ankara is the official capital city and administrative seat of government for Turkey.",
+    "tip": "\ud83d\udca1 **Capital City:** Ankara is the national capital of Turkey.",
     "difficulty": "Medium"
   },
   {
@@ -2031,8 +2031,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Bern is the specific subject associated with: 'What is the official capital city of Switzerland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bern is the essential answer for this question.",
+    "explanation": "Bern is the official capital city and administrative seat of government for Switzerland.",
+    "tip": "\ud83d\udca1 **Capital City:** Bern is the national capital of Switzerland.",
     "difficulty": "Medium"
   },
   {
@@ -2046,8 +2046,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Wellington is the specific subject associated with: 'What is the official capital city of New Zealand'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Wellington is the essential answer for this question.",
+    "explanation": "Wellington is the official capital city and administrative seat of government for New Zealand.",
+    "tip": "\ud83d\udca1 **Capital City:** Wellington is the national capital of New Zealand.",
     "difficulty": "Medium"
   },
   {
@@ -2061,8 +2061,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Abuja is the specific subject associated with: 'What is the official capital city of Nigeria'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Abuja is the essential answer for this question.",
+    "explanation": "Abuja is the official capital city and administrative seat of government for Nigeria.",
+    "tip": "\ud83d\udca1 **Capital City:** Abuja is the national capital of Nigeria.",
     "difficulty": "Medium"
   },
   {
@@ -2076,8 +2076,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Islamabad is the specific subject associated with: 'What is the official capital city of Pakistan'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Islamabad is the essential answer for this question.",
+    "explanation": "Islamabad is the official capital city and administrative seat of government for Pakistan.",
+    "tip": "\ud83d\udca1 **Capital City:** Islamabad is the national capital of Pakistan.",
     "difficulty": "Medium"
   },
   {
@@ -2091,8 +2091,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Rabat is the specific subject associated with: 'What is the official capital city of Morocco'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rabat is the essential answer for this question.",
+    "explanation": "Rabat is the official capital city and administrative seat of government for Morocco.",
+    "tip": "\ud83d\udca1 **Capital City:** Rabat is the national capital of Morocco.",
     "difficulty": "Medium"
   },
   {
@@ -2106,8 +2106,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Hanoi is the specific subject associated with: 'What is the official capital city of Vietnam'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hanoi is the essential answer for this question.",
+    "explanation": "Hanoi is the official capital city and administrative seat of government for Vietnam.",
+    "tip": "\ud83d\udca1 **Capital City:** Hanoi is the national capital of Vietnam.",
     "difficulty": "Medium"
   },
   {
@@ -2121,8 +2121,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In geography, Tokyo is the specific subject associated with: 'What is the official capital city of Japan'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tokyo is the essential answer for this question.",
+    "explanation": "Tokyo is the official capital city and administrative seat of government for Japan.",
+    "tip": "\ud83d\udca1 **Capital City:** Tokyo is the national capital of Japan.",
     "difficulty": "Medium"
   },
   {
@@ -2136,8 +2136,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Seoul is the specific subject associated with: 'What is the official capital city of South Korea'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Seoul is the essential answer for this question.",
+    "explanation": "Seoul is the official capital city and administrative seat of government for South Korea.",
+    "tip": "\ud83d\udca1 **Capital City:** Seoul is the national capital of South Korea.",
     "difficulty": "Medium"
   },
   {
@@ -2151,8 +2151,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Berlin is the specific subject associated with: 'What is the official capital city of Germany'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Berlin is the essential answer for this question.",
+    "explanation": "Berlin is the official capital city and administrative seat of government for Germany.",
+    "tip": "\ud83d\udca1 **Capital City:** Berlin is the national capital of Germany.",
     "difficulty": "Medium"
   },
   {
@@ -2166,8 +2166,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In geography, Rome is the specific subject associated with: 'What is the official capital city of Italy'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rome is the essential answer for this question.",
+    "explanation": "Rome is the official capital city and administrative seat of government for Italy.",
+    "tip": "\ud83d\udca1 **Capital City:** Rome is the national capital of Italy.",
     "difficulty": "Medium"
   },
   {
@@ -2181,8 +2181,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Madrid is the specific subject associated with: 'What is the official capital city of Spain'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Madrid is the essential answer for this question.",
+    "explanation": "Madrid is the official capital city and administrative seat of government for Spain.",
+    "tip": "\ud83d\udca1 **Capital City:** Madrid is the national capital of Spain.",
     "difficulty": "Medium"
   },
   {
@@ -2196,8 +2196,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Lisbon is the specific subject associated with: 'What is the official capital city of Portugal'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lisbon is the essential answer for this question.",
+    "explanation": "Lisbon is the official capital city and administrative seat of government for Portugal.",
+    "tip": "\ud83d\udca1 **Capital City:** Lisbon is the national capital of Portugal.",
     "difficulty": "Medium"
   },
   {
@@ -2211,8 +2211,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Amsterdam is the specific subject associated with: 'What is the official capital city of Netherlands'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Amsterdam is the essential answer for this question.",
+    "explanation": "Amsterdam is the official capital city and administrative seat of government for Netherlands.",
+    "tip": "\ud83d\udca1 **Capital City:** Amsterdam is the national capital of Netherlands.",
     "difficulty": "Medium"
   },
   {
@@ -2226,8 +2226,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Brussels is the specific subject associated with: 'What is the official capital city of Belgium'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Brussels is the essential answer for this question.",
+    "explanation": "Brussels is the official capital city and administrative seat of government for Belgium.",
+    "tip": "\ud83d\udca1 **Capital City:** Brussels is the national capital of Belgium.",
     "difficulty": "Medium"
   },
   {
@@ -2241,8 +2241,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Vienna is the specific subject associated with: 'What is the official capital city of Austria'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vienna is the essential answer for this question.",
+    "explanation": "Vienna is the official capital city and administrative seat of government for Austria.",
+    "tip": "\ud83d\udca1 **Capital City:** Vienna is the national capital of Austria.",
     "difficulty": "Medium"
   },
   {
@@ -2256,8 +2256,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Athens is the specific subject associated with: 'What is the official capital city of Greece'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Athens is the essential answer for this question.",
+    "explanation": "Athens is the official capital city and administrative seat of government for Greece.",
+    "tip": "\ud83d\udca1 **Capital City:** Athens is the national capital of Greece.",
     "difficulty": "Medium"
   },
   {
@@ -2271,8 +2271,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Cairo is the specific subject associated with: 'What is the official capital city of Egypt'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cairo is the essential answer for this question.",
+    "explanation": "Cairo is the official capital city and administrative seat of government for Egypt.",
+    "tip": "\ud83d\udca1 **Capital City:** Cairo is the national capital of Egypt.",
     "difficulty": "Medium"
   },
   {
@@ -2286,8 +2286,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Nairobi is the specific subject associated with: 'What is the official capital city of Kenya'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nairobi is the essential answer for this question.",
+    "explanation": "Nairobi is the official capital city and administrative seat of government for Kenya.",
+    "tip": "\ud83d\udca1 **Capital City:** Nairobi is the national capital of Kenya.",
     "difficulty": "Medium"
   },
   {
@@ -2301,8 +2301,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Buenos Aires is the specific subject associated with: 'What is the official capital city of Argentina'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Buenos Aires is the essential answer for this question.",
+    "explanation": "Buenos Aires is the official capital city and administrative seat of government for Argentina.",
+    "tip": "\ud83d\udca1 **Capital City:** Buenos Aires is the national capital of Argentina.",
     "difficulty": "Medium"
   },
   {
@@ -2316,8 +2316,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Santiago is the specific subject associated with: 'What is the official capital city of Chile'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Santiago is the essential answer for this question.",
+    "explanation": "Santiago is the official capital city and administrative seat of government for Chile.",
+    "tip": "\ud83d\udca1 **Capital City:** Santiago is the national capital of Chile.",
     "difficulty": "Medium"
   },
   {
@@ -2331,8 +2331,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Bogot\u00e1 is the specific subject associated with: 'What is the official capital city of Colombia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bogot\u00e1 is the essential answer for this question.",
+    "explanation": "Bogot\u00e1 is the official capital city and administrative seat of government for Colombia.",
+    "tip": "\ud83d\udca1 **Capital City:** Bogot\u00e1 is the national capital of Colombia.",
     "difficulty": "Medium"
   },
   {
@@ -2346,8 +2346,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Lima is the specific subject associated with: 'What is the official capital city of Peru'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lima is the essential answer for this question.",
+    "explanation": "Lima is the official capital city and administrative seat of government for Peru.",
+    "tip": "\ud83d\udca1 **Capital City:** Lima is the national capital of Peru.",
     "difficulty": "Medium"
   },
   {
@@ -2361,8 +2361,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Bangkok is the specific subject associated with: 'What is the official capital city of Thailand'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bangkok is the essential answer for this question.",
+    "explanation": "Bangkok is the official capital city and administrative seat of government for Thailand.",
+    "tip": "\ud83d\udca1 **Capital City:** Bangkok is the national capital of Thailand.",
     "difficulty": "Medium"
   },
   {
@@ -2376,8 +2376,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Jakarta is the specific subject associated with: 'What is the official capital city of Indonesia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jakarta is the essential answer for this question.",
+    "explanation": "Jakarta is the official capital city and administrative seat of government for Indonesia.",
+    "tip": "\ud83d\udca1 **Capital City:** Jakarta is the national capital of Indonesia.",
     "difficulty": "Medium"
   },
   {
@@ -2391,8 +2391,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Manila is the specific subject associated with: 'What is the official capital city of Philippines'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Manila is the essential answer for this question.",
+    "explanation": "Manila is the official capital city and administrative seat of government for Philippines.",
+    "tip": "\ud83d\udca1 **Capital City:** Manila is the national capital of Philippines.",
     "difficulty": "Medium"
   },
   {
@@ -2406,8 +2406,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Kuala Lumpur is the specific subject associated with: 'What is the official capital city of Malaysia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kuala Lumpur is the essential answer for this question.",
+    "explanation": "Kuala Lumpur is the official capital city and administrative seat of government for Malaysia.",
+    "tip": "\ud83d\udca1 **Capital City:** Kuala Lumpur is the national capital of Malaysia.",
     "difficulty": "Medium"
   },
   {
@@ -2421,8 +2421,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Riyadh is the specific subject associated with: 'What is the official capital city of Saudi Arabia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Riyadh is the essential answer for this question.",
+    "explanation": "Riyadh is the official capital city and administrative seat of government for Saudi Arabia.",
+    "tip": "\ud83d\udca1 **Capital City:** Riyadh is the national capital of Saudi Arabia.",
     "difficulty": "Medium"
   },
   {
@@ -2436,8 +2436,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Abu Dhabi is the specific subject associated with: 'What is the official capital city of UAE'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Abu Dhabi is the essential answer for this question.",
+    "explanation": "Abu Dhabi is the official capital city and administrative seat of government for UAE.",
+    "tip": "\ud83d\udca1 **Capital City:** Abu Dhabi is the national capital of UAE.",
     "difficulty": "Medium"
   },
   {
@@ -2451,8 +2451,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Tehran is the specific subject associated with: 'What is the official capital city of Iran'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tehran is the essential answer for this question.",
+    "explanation": "Tehran is the official capital city and administrative seat of government for Iran.",
+    "tip": "\ud83d\udca1 **Capital City:** Tehran is the national capital of Iran.",
     "difficulty": "Medium"
   },
   {
@@ -2466,8 +2466,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Baghdad is the specific subject associated with: 'What is the official capital city of Iraq'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Baghdad is the essential answer for this question.",
+    "explanation": "Baghdad is the official capital city and administrative seat of government for Iraq.",
+    "tip": "\ud83d\udca1 **Capital City:** Baghdad is the national capital of Iraq.",
     "difficulty": "Medium"
   },
   {
@@ -2481,8 +2481,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Oslo is the specific subject associated with: 'What is the official capital city of Norway'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Oslo is the essential answer for this question.",
+    "explanation": "Oslo is the official capital city and administrative seat of government for Norway.",
+    "tip": "\ud83d\udca1 **Capital City:** Oslo is the national capital of Norway.",
     "difficulty": "Medium"
   },
   {
@@ -2496,8 +2496,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Stockholm is the specific subject associated with: 'What is the official capital city of Sweden'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Stockholm is the essential answer for this question.",
+    "explanation": "Stockholm is the official capital city and administrative seat of government for Sweden.",
+    "tip": "\ud83d\udca1 **Capital City:** Stockholm is the national capital of Sweden.",
     "difficulty": "Medium"
   },
   {
@@ -2511,8 +2511,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Helsinki is the specific subject associated with: 'What is the official capital city of Finland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Helsinki is the essential answer for this question.",
+    "explanation": "Helsinki is the official capital city and administrative seat of government for Finland.",
+    "tip": "\ud83d\udca1 **Capital City:** Helsinki is the national capital of Finland.",
     "difficulty": "Medium"
   },
   {
@@ -2526,8 +2526,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Copenhagen is the specific subject associated with: 'What is the official capital city of Denmark'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Copenhagen is the essential answer for this question.",
+    "explanation": "Copenhagen is the official capital city and administrative seat of government for Denmark.",
+    "tip": "\ud83d\udca1 **Capital City:** Copenhagen is the national capital of Denmark.",
     "difficulty": "Medium"
   },
   {
@@ -2541,8 +2541,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Reykjav\u00edk is the specific subject associated with: 'What is the official capital city of Iceland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Reykjav\u00edk is the essential answer for this question.",
+    "explanation": "Reykjav\u00edk is the official capital city and administrative seat of government for Iceland.",
+    "tip": "\ud83d\udca1 **Capital City:** Reykjav\u00edk is the national capital of Iceland.",
     "difficulty": "Medium"
   },
   {
@@ -2556,8 +2556,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Dublin is the specific subject associated with: 'What is the official capital city of Ireland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dublin is the essential answer for this question.",
+    "explanation": "Dublin is the official capital city and administrative seat of government for Ireland.",
+    "tip": "\ud83d\udca1 **Capital City:** Dublin is the national capital of Ireland.",
     "difficulty": "Medium"
   },
   {
@@ -2571,8 +2571,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Warsaw is the specific subject associated with: 'What is the official capital city of Poland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Warsaw is the essential answer for this question.",
+    "explanation": "Warsaw is the official capital city and administrative seat of government for Poland.",
+    "tip": "\ud83d\udca1 **Capital City:** Warsaw is the national capital of Poland.",
     "difficulty": "Medium"
   },
   {
@@ -2586,8 +2586,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Prague is the specific subject associated with: 'What is the official capital city of Czech Republic'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Prague is the essential answer for this question.",
+    "explanation": "Prague is the official capital city and administrative seat of government for Czech Republic.",
+    "tip": "\ud83d\udca1 **Capital City:** Prague is the national capital of Czech Republic.",
     "difficulty": "Medium"
   },
   {
@@ -2601,8 +2601,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Budapest is the specific subject associated with: 'What is the official capital city of Hungary'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Budapest is the essential answer for this question.",
+    "explanation": "Budapest is the official capital city and administrative seat of government for Hungary.",
+    "tip": "\ud83d\udca1 **Capital City:** Budapest is the national capital of Hungary.",
     "difficulty": "Medium"
   },
   {
@@ -2616,8 +2616,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Bucharest is the specific subject associated with: 'What is the official capital city of Romania'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bucharest is the essential answer for this question.",
+    "explanation": "Bucharest is the official capital city and administrative seat of government for Romania.",
+    "tip": "\ud83d\udca1 **Capital City:** Bucharest is the national capital of Romania.",
     "difficulty": "Medium"
   },
   {
@@ -2631,8 +2631,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Kyiv is the specific subject associated with: 'What is the official capital city of Ukraine'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kyiv is the essential answer for this question.",
+    "explanation": "Kyiv is the official capital city and administrative seat of government for Ukraine.",
+    "tip": "\ud83d\udca1 **Capital City:** Kyiv is the national capital of Ukraine.",
     "difficulty": "Medium"
   },
   {
@@ -2646,8 +2646,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Moscow is the specific subject associated with: 'What is the official capital city of Russia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Moscow is the essential answer for this question.",
+    "explanation": "Moscow is the official capital city and administrative seat of government for Russia.",
+    "tip": "\ud83d\udca1 **Capital City:** Moscow is the national capital of Russia.",
     "difficulty": "Medium"
   },
   {
@@ -2661,8 +2661,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Pretoria is the specific subject associated with: 'What is the official capital city of South Africa'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pretoria is the essential answer for this question.",
+    "explanation": "Pretoria is the official capital city and administrative seat of government for South Africa.",
+    "tip": "\ud83d\udca1 **Capital City:** Pretoria is the national capital of South Africa.",
     "difficulty": "Medium"
   },
   {
@@ -2676,8 +2676,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Havana is the specific subject associated with: 'What is the official capital city of Cuba'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Havana is the essential answer for this question.",
+    "explanation": "Havana is the official capital city and administrative seat of government for Cuba.",
+    "tip": "\ud83d\udca1 **Capital City:** Havana is the national capital of Cuba.",
     "difficulty": "Medium"
   },
   {
@@ -2691,8 +2691,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Kingston is the specific subject associated with: 'What is the official capital city of Jamaica'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kingston is the essential answer for this question.",
+    "explanation": "Kingston is the official capital city and administrative seat of government for Jamaica.",
+    "tip": "\ud83d\udca1 **Capital City:** Kingston is the national capital of Jamaica.",
     "difficulty": "Medium"
   },
   {
@@ -2706,8 +2706,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Zagreb is the specific subject associated with: 'What is the official capital city of Croatia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Zagreb is the essential answer for this question.",
+    "explanation": "Zagreb is the official capital city and administrative seat of government for Croatia.",
+    "tip": "\ud83d\udca1 **Capital City:** Zagreb is the national capital of Croatia.",
     "difficulty": "Medium"
   },
   {
@@ -2721,8 +2721,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Suva is the specific subject associated with: 'What is the official capital city of Fiji'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Suva is the essential answer for this question.",
+    "explanation": "Suva is the official capital city and administrative seat of government for Fiji.",
+    "tip": "\ud83d\udca1 **Capital City:** Suva is the national capital of Fiji.",
     "difficulty": "Medium"
   },
   {
@@ -2736,8 +2736,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Port Moresby is the specific subject associated with: 'What is the official capital city of Papua New Guinea'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Port Moresby is the essential answer for this question.",
+    "explanation": "Port Moresby is the official capital city and administrative seat of government for Papua New Guinea.",
+    "tip": "\ud83d\udca1 **Capital City:** Port Moresby is the national capital of Papua New Guinea.",
     "difficulty": "Medium"
   },
   {
@@ -2751,8 +2751,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Apia is the specific subject associated with: 'What is the official capital city of Samoa'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Apia is the essential answer for this question.",
+    "explanation": "Apia is the official capital city and administrative seat of government for Samoa.",
+    "tip": "\ud83d\udca1 **Capital City:** Apia is the national capital of Samoa.",
     "difficulty": "Medium"
   },
   {
@@ -2766,8 +2766,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Port Vila is the specific subject associated with: 'What is the official capital city of Vanuatu'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Port Vila is the essential answer for this question.",
+    "explanation": "Port Vila is the official capital city and administrative seat of government for Vanuatu.",
+    "tip": "\ud83d\udca1 **Capital City:** Port Vila is the national capital of Vanuatu.",
     "difficulty": "Medium"
   },
   {
@@ -2781,8 +2781,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Honiara is the specific subject associated with: 'What is the official capital city of Solomon Islands'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Honiara is the essential answer for this question.",
+    "explanation": "Honiara is the official capital city and administrative seat of government for Solomon Islands.",
+    "tip": "\ud83d\udca1 **Capital City:** Honiara is the national capital of Solomon Islands.",
     "difficulty": "Medium"
   },
   {
@@ -2796,8 +2796,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Nuku'alofa is the specific subject associated with: 'What is the official capital city of Tonga'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nuku'alofa is the essential answer for this question.",
+    "explanation": "Nuku'alofa is the official capital city and administrative seat of government for Tonga.",
+    "tip": "\ud83d\udca1 **Capital City:** Nuku'alofa is the national capital of Tonga.",
     "difficulty": "Medium"
   },
   {
@@ -2811,8 +2811,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Washington, D.C. is the specific subject associated with: 'What is the official capital city of United States'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Washington, D.C. is the essential answer for this question.",
+    "explanation": "Washington, D.C. is the official capital city and administrative seat of government for United States.",
+    "tip": "\ud83d\udca1 **Capital City:** Washington, D.C. is the national capital of United States.",
     "difficulty": "Medium"
   },
   {
@@ -2826,8 +2826,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, Beijing is the specific subject associated with: 'What is the official capital city of China'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Beijing is the essential answer for this question.",
+    "explanation": "Beijing is the official capital city and administrative seat of government for China.",
+    "tip": "\ud83d\udca1 **Capital City:** Beijing is the national capital of China.",
     "difficulty": "Medium"
   },
   {
@@ -2841,8 +2841,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "In geography, New Delhi is the specific subject associated with: 'What is the official capital city of India'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** New Delhi is the essential answer for this question.",
+    "explanation": "New Delhi is the official capital city and administrative seat of government for India.",
+    "tip": "\ud83d\udca1 **Capital City:** New Delhi is the national capital of India.",
     "difficulty": "Medium"
   },
   {
@@ -2856,8 +2856,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In geography, London is the specific subject associated with: 'What is the official capital city of United Kingdom'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** London is the essential answer for this question.",
+    "explanation": "London is the official capital city and administrative seat of government for United Kingdom.",
+    "tip": "\ud83d\udca1 **Capital City:** London is the national capital of United Kingdom.",
     "difficulty": "Medium"
   },
   {
@@ -2871,8 +2871,8 @@ export const ALL_QUESTIONS = [
       "Ben Lomond"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Kosciuszko is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain peak in Australia (mainland)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Kosciuszko is the essential answer for this question.",
+    "explanation": "Mount Kosciuszko is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Mount Kosciuszko holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2886,8 +2886,8 @@ export const ALL_QUESTIONS = [
       "Lhotse"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Everest is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain peak in the world above sea level''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Everest is the essential answer for this question.",
+    "explanation": "Mount Everest is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Mount Everest holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2901,8 +2901,8 @@ export const ALL_QUESTIONS = [
       "Makalu"
     ],
     "answer": 0,
-    "explanation": "In geography, K2 is the specific subject associated with: 'What geographical landmark or feature is: 'Second highest mountain peak in the world''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** K2 is the essential answer for this question.",
+    "explanation": "K2 is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** K2 holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2916,8 +2916,8 @@ export const ALL_QUESTIONS = [
       "Mount Whitney"
     ],
     "answer": 0,
-    "explanation": "In geography, Denali is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain peak in North America''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Denali is the essential answer for this question.",
+    "explanation": "Denali is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Denali holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2931,8 +2931,8 @@ export const ALL_QUESTIONS = [
       "Chimborazo"
     ],
     "answer": 0,
-    "explanation": "In geography, Aconcagua is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain peak in South America''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aconcagua is the essential answer for this question.",
+    "explanation": "Aconcagua is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Aconcagua holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2946,8 +2946,8 @@ export const ALL_QUESTIONS = [
       "Ras Dashen"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Kilimanjaro is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain peak in Africa''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Kilimanjaro is the essential answer for this question.",
+    "explanation": "Mount Kilimanjaro is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Mount Kilimanjaro holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2961,8 +2961,8 @@ export const ALL_QUESTIONS = [
       "Eiger"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Elbrus is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain peak in Europe''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Elbrus is the essential answer for this question.",
+    "explanation": "Mount Elbrus is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Mount Elbrus holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -2976,8 +2976,8 @@ export const ALL_QUESTIONS = [
       "Madagascar"
     ],
     "answer": 0,
-    "explanation": "In geography, Greenland is the specific subject associated with: 'Which geographical feature holds the title of 'Largest island in the world (excluding continents)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Greenland is the essential answer for this question.",
+    "explanation": "In geography, Greenland is the exact answer for: 'Which geographical feature holds the title of 'Largest island in the world (excluding continents)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Greenland is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2991,8 +2991,8 @@ export const ALL_QUESTIONS = [
       "Baffin Island"
     ],
     "answer": 0,
-    "explanation": "In geography, New Guinea is the specific subject associated with: 'What geographical landmark or feature is: 'Second largest island in the world''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** New Guinea is the essential answer for this question.",
+    "explanation": "In geography, New Guinea is the exact answer for: 'What geographical landmark or feature is: 'Second largest island in the world''.",
+    "tip": "\ud83d\udca1 **Key Recall:** New Guinea is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3006,8 +3006,8 @@ export const ALL_QUESTIONS = [
       "Honshu"
     ],
     "answer": 0,
-    "explanation": "In geography, Borneo is the specific subject associated with: 'What geographical landmark or feature is: 'Third largest island in the world''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Borneo is the essential answer for this question.",
+    "explanation": "In geography, Borneo is the exact answer for: 'What geographical landmark or feature is: 'Third largest island in the world''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Borneo is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3021,8 +3021,8 @@ export const ALL_QUESTIONS = [
       "Corsica"
     ],
     "answer": 0,
-    "explanation": "In geography, Sicily is the specific subject associated with: 'Which geographical feature holds the title of 'Largest island in the Mediterranean Sea''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sicily is the essential answer for this question.",
+    "explanation": "Sicily is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Sicily is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3036,8 +3036,8 @@ export const ALL_QUESTIONS = [
       "The Mississippi River"
     ],
     "answer": 0,
-    "explanation": "In geography, The Nile River is the specific subject associated with: 'Which geographical feature holds the title of 'Longest river in the world''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Nile River is the essential answer for this question.",
+    "explanation": "The Nile River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Nile River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3051,8 +3051,8 @@ export const ALL_QUESTIONS = [
       "The Yangtze River"
     ],
     "answer": 0,
-    "explanation": "In geography, The Amazon River is the specific subject associated with: 'Which geographical feature holds the title of 'Largest river in the world by water volume''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Amazon River is the essential answer for this question.",
+    "explanation": "The Amazon River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Amazon River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3066,8 +3066,8 @@ export const ALL_QUESTIONS = [
       "The Amur River"
     ],
     "answer": 0,
-    "explanation": "In geography, The Yangtze River is the specific subject associated with: 'Which geographical feature holds the title of 'Longest river in Asia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Yangtze River is the essential answer for this question.",
+    "explanation": "The Yangtze River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Yangtze River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3081,8 +3081,8 @@ export const ALL_QUESTIONS = [
       "Rio Grande"
     ],
     "answer": 0,
-    "explanation": "In geography, The Mississippi-Missouri River is the specific subject associated with: 'Which geographical feature holds the title of 'Longest river system in North America''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Mississippi-Missouri River is the essential answer for this question.",
+    "explanation": "The Mississippi-Missouri River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Mississippi-Missouri River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3096,8 +3096,8 @@ export const ALL_QUESTIONS = [
       "The Rhine River"
     ],
     "answer": 0,
-    "explanation": "In geography, The Volga River is the specific subject associated with: 'Which geographical feature holds the title of 'Longest river in Europe''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Volga River is the essential answer for this question.",
+    "explanation": "The Volga River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Volga River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3111,8 +3111,8 @@ export const ALL_QUESTIONS = [
       "The Elbe River"
     ],
     "answer": 0,
-    "explanation": "In geography, The Danube River is the specific subject associated with: 'What geographical landmark or feature is: 'Second longest river in Europe''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Danube River is the essential answer for this question.",
+    "explanation": "The Danube River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Danube River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3126,8 +3126,8 @@ export const ALL_QUESTIONS = [
       "Bolivia"
     ],
     "answer": 0,
-    "explanation": "In geography, Kazakhstan is the specific subject associated with: 'What geographical landmark or feature is: 'World's largest landlocked country by area''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kazakhstan is the essential answer for this question.",
+    "explanation": "In geography, Kazakhstan is the exact answer for: 'What geographical landmark or feature is: 'World's largest landlocked country by area''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Kazakhstan is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3141,8 +3141,8 @@ export const ALL_QUESTIONS = [
       "Mali"
     ],
     "answer": 0,
-    "explanation": "In geography, Mongolia is the specific subject associated with: 'What geographical landmark or feature is: 'World's second largest landlocked country''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mongolia is the essential answer for this question.",
+    "explanation": "In geography, Mongolia is the exact answer for: 'What geographical landmark or feature is: 'World's second largest landlocked country''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mongolia is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3156,8 +3156,8 @@ export const ALL_QUESTIONS = [
       "Belgium"
     ],
     "answer": 0,
-    "explanation": "In geography, Switzerland is the specific subject associated with: 'What geographical landmark or feature is: 'European nation divided into 26 cantons''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Switzerland is the essential answer for this question.",
+    "explanation": "In geography, Switzerland is the exact answer for: 'What geographical landmark or feature is: 'European nation divided into 26 cantons''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Switzerland is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3171,8 +3171,8 @@ export const ALL_QUESTIONS = [
       "Clarence Strait"
     ],
     "answer": 0,
-    "explanation": "In geography, Bass Strait is the specific subject associated with: 'What geographical landmark or feature is: 'Strait separating mainland Australia from Tasmania''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bass Strait is the essential answer for this question.",
+    "explanation": "In geography, Bass Strait is the exact answer for: 'What geographical landmark or feature is: 'Strait separating mainland Australia from Tasmania''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Bass Strait is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3186,8 +3186,8 @@ export const ALL_QUESTIONS = [
       "Coral Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, Torres Strait is the specific subject associated with: 'What geographical landmark or feature is: 'Strait separating Australia from Papua New Guinea''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Torres Strait is the essential answer for this question.",
+    "explanation": "In geography, Torres Strait is the exact answer for: 'What geographical landmark or feature is: 'Strait separating Australia from Papua New Guinea''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Torres Strait is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3201,8 +3201,8 @@ export const ALL_QUESTIONS = [
       "Dampier Strait"
     ],
     "answer": 0,
-    "explanation": "In geography, Cook Strait is the specific subject associated with: 'What geographical landmark or feature is: 'Strait separating North and South Islands of NZ''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cook Strait is the essential answer for this question.",
+    "explanation": "In geography, Cook Strait is the exact answer for: 'What geographical landmark or feature is: 'Strait separating North and South Islands of NZ''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cook Strait is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3216,8 +3216,8 @@ export const ALL_QUESTIONS = [
       "Java Trench"
     ],
     "answer": 0,
-    "explanation": "In geography, The Mariana Trench is the specific subject associated with: 'Which geographical feature holds the title of 'Deepest ocean trench on Earth''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Mariana Trench is the essential answer for this question.",
+    "explanation": "In geography, The Mariana Trench is the exact answer for: 'Which geographical feature holds the title of 'Deepest ocean trench on Earth''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Mariana Trench is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3231,8 +3231,8 @@ export const ALL_QUESTIONS = [
       "Australia"
     ],
     "answer": 0,
-    "explanation": "In geography, Canada is the specific subject associated with: 'What geographical landmark or feature is: 'Country with the longest coastline in the world''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Canada is the essential answer for this question.",
+    "explanation": "In geography, Canada is the exact answer for: 'What geographical landmark or feature is: 'Country with the longest coastline in the world''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Canada is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3246,8 +3246,8 @@ export const ALL_QUESTIONS = [
       "Mediterranean Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Dead Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Saltiest body of water on Earth''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Dead Sea is the essential answer for this question.",
+    "explanation": "In geography, The Dead Sea is the exact answer for: 'What geographical landmark or feature is: 'Saltiest body of water on Earth''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Dead Sea is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3261,8 +3261,8 @@ export const ALL_QUESTIONS = [
       "The Kalahari Desert"
     ],
     "answer": 0,
-    "explanation": "In geography, The Sahara Desert is the specific subject associated with: 'What geographical landmark or feature is: 'World's largest hot desert''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Sahara Desert is the essential answer for this question.",
+    "explanation": "In geography, The Sahara Desert is the exact answer for: 'What geographical landmark or feature is: 'World's largest hot desert''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Sahara Desert is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3276,8 +3276,8 @@ export const ALL_QUESTIONS = [
       "The Gobi"
     ],
     "answer": 0,
-    "explanation": "In geography, Antarctica is the specific subject associated with: 'What geographical landmark or feature is: 'World's largest desert overall''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Antarctica is the essential answer for this question.",
+    "explanation": "In geography, Antarctica is the exact answer for: 'What geographical landmark or feature is: 'World's largest desert overall''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Antarctica is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3291,8 +3291,8 @@ export const ALL_QUESTIONS = [
       "Sonoran Desert"
     ],
     "answer": 0,
-    "explanation": "In geography, The Atacama Desert is the specific subject associated with: 'What geographical landmark or feature is: 'Driest non-polar desert on Earth''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Atacama Desert is the essential answer for this question.",
+    "explanation": "In geography, The Atacama Desert is the exact answer for: 'What geographical landmark or feature is: 'Driest non-polar desert on Earth''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Atacama Desert is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3306,8 +3306,8 @@ export const ALL_QUESTIONS = [
       "Red Sea Reef"
     ],
     "answer": 0,
-    "explanation": "In geography, The Great Barrier Reef is the specific subject associated with: 'What geographical landmark or feature is: 'World's largest coral reef system''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Great Barrier Reef is the essential answer for this question.",
+    "explanation": "In geography, The Great Barrier Reef is the exact answer for: 'What geographical landmark or feature is: 'World's largest coral reef system''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Great Barrier Reef is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3321,8 +3321,8 @@ export const ALL_QUESTIONS = [
       "Palmerston"
     ],
     "answer": 0,
-    "explanation": "In geography, Darwin is the specific subject associated with: 'What geographical landmark or feature is: 'Capital of Northern Territory Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Darwin is the essential answer for this question.",
+    "explanation": "Darwin is the official capital city and administrative seat of government for Northern Territory Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Darwin is the national capital of Northern Territory Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3336,8 +3336,8 @@ export const ALL_QUESTIONS = [
       "Burnie"
     ],
     "answer": 0,
-    "explanation": "In geography, Hobart is the specific subject associated with: 'What geographical landmark or feature is: 'Capital of Tasmania Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hobart is the essential answer for this question.",
+    "explanation": "Hobart is the official capital city and administrative seat of government for Tasmania Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Hobart is the national capital of Tasmania Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3351,8 +3351,8 @@ export const ALL_QUESTIONS = [
       "Albany"
     ],
     "answer": 0,
-    "explanation": "In geography, Perth is the specific subject associated with: 'What geographical landmark or feature is: 'Capital of Western Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Perth is the essential answer for this question.",
+    "explanation": "Perth is the official capital city and administrative seat of government for Western Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Perth is the national capital of Western Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3366,8 +3366,8 @@ export const ALL_QUESTIONS = [
       "Port Augusta"
     ],
     "answer": 0,
-    "explanation": "In geography, Adelaide is the specific subject associated with: 'What geographical landmark or feature is: 'Capital of South Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Adelaide is the essential answer for this question.",
+    "explanation": "Adelaide is the official capital city and administrative seat of government for South Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Adelaide is the national capital of South Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3381,8 +3381,8 @@ export const ALL_QUESTIONS = [
       "Townsville"
     ],
     "answer": 0,
-    "explanation": "In geography, Brisbane is the specific subject associated with: 'What geographical landmark or feature is: 'Capital of Queensland Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Brisbane is the essential answer for this question.",
+    "explanation": "Brisbane is the official capital city and administrative seat of government for Queensland Australia'.",
+    "tip": "\ud83d\udca1 **Capital City:** Brisbane is the national capital of Queensland Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3396,8 +3396,8 @@ export const ALL_QUESTIONS = [
       "Blue Mountains"
     ],
     "answer": 0,
-    "explanation": "In geography, The Great Dividing Range is the specific subject associated with: 'What geographical landmark or feature is: 'Mountain range along eastern coast of Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Great Dividing Range is the essential answer for this question.",
+    "explanation": "In geography, The Great Dividing Range is the exact answer for: 'What geographical landmark or feature is: 'Mountain range along eastern coast of Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Great Dividing Range is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3411,8 +3411,8 @@ export const ALL_QUESTIONS = [
       "Mount Hotham"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Bogong is the specific subject associated with: 'Which geographical feature holds the title of 'Highest peak in Victoria Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Bogong is the essential answer for this question.",
+    "explanation": "In geography, Mount Bogong is the exact answer for: 'Which geographical feature holds the title of 'Highest peak in Victoria Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Bogong is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3426,8 +3426,8 @@ export const ALL_QUESTIONS = [
       "Mount Bellenden Ker"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Bartle Frere is the specific subject associated with: 'Which geographical feature holds the title of 'Highest peak in Queensland Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Bartle Frere is the essential answer for this question.",
+    "explanation": "In geography, Mount Bartle Frere is the exact answer for: 'Which geographical feature holds the title of 'Highest peak in Queensland Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Bartle Frere is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3441,8 +3441,8 @@ export const ALL_QUESTIONS = [
       "Cradle Mountain"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Ossa is the specific subject associated with: 'Which geographical feature holds the title of 'Highest peak in Tasmania Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Ossa is the essential answer for this question.",
+    "explanation": "In geography, Mount Ossa is the exact answer for: 'Which geographical feature holds the title of 'Highest peak in Tasmania Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Ossa is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3456,8 +3456,8 @@ export const ALL_QUESTIONS = [
       "Mount Nameless"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Meharry is the specific subject associated with: 'Which geographical feature holds the title of 'Highest peak in Western Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Meharry is the essential answer for this question.",
+    "explanation": "In geography, Mount Meharry is the exact answer for: 'Which geographical feature holds the title of 'Highest peak in Western Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Meharry is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3471,8 +3471,8 @@ export const ALL_QUESTIONS = [
       "Mount Lofty"
     ],
     "answer": 0,
-    "explanation": "In geography, St Mary Peak is the specific subject associated with: 'Which geographical feature holds the title of 'Highest peak in South Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** St Mary Peak is the essential answer for this question.",
+    "explanation": "In geography, St Mary Peak is the exact answer for: 'Which geographical feature holds the title of 'Highest peak in South Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** St Mary Peak is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3486,8 +3486,8 @@ export const ALL_QUESTIONS = [
       "San Marino"
     ],
     "answer": 0,
-    "explanation": "In geography, Republic of Ireland is the specific subject associated with: 'What geographical landmark or feature is: 'Country bordering only the UK''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Republic of Ireland is the essential answer for this question.",
+    "explanation": "In geography, Republic of Ireland is the exact answer for: 'What geographical landmark or feature is: 'Country bordering only the UK''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Republic of Ireland is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3501,8 +3501,8 @@ export const ALL_QUESTIONS = [
       "Gibraltar"
     ],
     "answer": 0,
-    "explanation": "In geography, Portugal is the specific subject associated with: 'What geographical landmark or feature is: 'Country bordering only Spain''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Portugal is the essential answer for this question.",
+    "explanation": "In geography, Portugal is the exact answer for: 'What geographical landmark or feature is: 'Country bordering only Spain''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Portugal is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3516,8 +3516,8 @@ export const ALL_QUESTIONS = [
       "Liechtenstein"
     ],
     "answer": 0,
-    "explanation": "In geography, Vatican City is the specific subject associated with: 'What geographical landmark or feature is: 'Microstate enclosed inside Rome Italy''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vatican City is the essential answer for this question.",
+    "explanation": "In geography, Vatican City is the exact answer for: 'What geographical landmark or feature is: 'Microstate enclosed inside Rome Italy''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Vatican City is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3531,8 +3531,8 @@ export const ALL_QUESTIONS = [
       "Andorra"
     ],
     "answer": 0,
-    "explanation": "In geography, San Marino is the specific subject associated with: 'What geographical landmark or feature is: 'Microstate enclosed inside northeastern Italy''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** San Marino is the essential answer for this question.",
+    "explanation": "In geography, San Marino is the exact answer for: 'What geographical landmark or feature is: 'Microstate enclosed inside northeastern Italy''.",
+    "tip": "\ud83d\udca1 **Key Recall:** San Marino is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3546,8 +3546,8 @@ export const ALL_QUESTIONS = [
       "Namibia"
     ],
     "answer": 0,
-    "explanation": "In geography, Lesotho is the specific subject associated with: 'What geographical landmark or feature is: 'Enclaved kingdom enclosed inside South Africa''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lesotho is the essential answer for this question.",
+    "explanation": "In geography, Lesotho is the exact answer for: 'What geographical landmark or feature is: 'Enclaved kingdom enclosed inside South Africa''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Lesotho is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3561,8 +3561,8 @@ export const ALL_QUESTIONS = [
       "The Carpathians"
     ],
     "answer": 0,
-    "explanation": "In geography, The Ural Mountains is the specific subject associated with: 'What geographical landmark or feature is: 'Boundary mountain range between Europe and Asia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Ural Mountains is the essential answer for this question.",
+    "explanation": "In geography, The Ural Mountains is the exact answer for: 'What geographical landmark or feature is: 'Boundary mountain range between Europe and Asia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Ural Mountains is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3576,8 +3576,8 @@ export const ALL_QUESTIONS = [
       "Kiel Canal"
     ],
     "answer": 0,
-    "explanation": "In geography, The Suez Canal is the specific subject associated with: 'What geographical landmark or feature is: 'Canal connecting Mediterranean and Red Sea''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Suez Canal is the essential answer for this question.",
+    "explanation": "The Suez Canal is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Suez Canal is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3591,8 +3591,8 @@ export const ALL_QUESTIONS = [
       "Kiel Canal"
     ],
     "answer": 0,
-    "explanation": "In geography, The Panama Canal is the specific subject associated with: 'What geographical landmark or feature is: 'Canal connecting Atlantic and Pacific Oceans''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Panama Canal is the essential answer for this question.",
+    "explanation": "In geography, The Panama Canal is the exact answer for: 'What geographical landmark or feature is: 'Canal connecting Atlantic and Pacific Oceans''.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Panama Canal is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3606,8 +3606,8 @@ export const ALL_QUESTIONS = [
       "Lake Argyle"
     ],
     "answer": 0,
-    "explanation": "In geography, Lake Eyre (Kati Thanda) is the specific subject associated with: 'What geographical landmark or feature is: 'Australia's largest lake by surface area''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lake Eyre (Kati Thanda) is the essential answer for this question.",
+    "explanation": "Lake Eyre (Kati Thanda) is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Lake Eyre (Kati Thanda) is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3621,8 +3621,8 @@ export const ALL_QUESTIONS = [
       "Lake Michigan"
     ],
     "answer": 0,
-    "explanation": "In geography, Lake Superior is the specific subject associated with: 'What geographical landmark or feature is: 'World's largest freshwater lake by surface area''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lake Superior is the essential answer for this question.",
+    "explanation": "Lake Superior is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Lake Superior is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3636,8 +3636,8 @@ export const ALL_QUESTIONS = [
       "Crater Lake"
     ],
     "answer": 0,
-    "explanation": "In geography, Lake Baikal is the specific subject associated with: 'What geographical landmark or feature is: 'World's deepest freshwater lake''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lake Baikal is the essential answer for this question.",
+    "explanation": "Lake Baikal is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Lake Baikal is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3651,8 +3651,8 @@ export const ALL_QUESTIONS = [
       "The Baltic Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Caspian Sea is the specific subject associated with: 'What geographical landmark or feature is: 'World's largest inland sea / saline lake''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Caspian Sea is the essential answer for this question.",
+    "explanation": "The Caspian Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Caspian Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3666,8 +3666,8 @@ export const ALL_QUESTIONS = [
       "Santorini"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Vesuvius is the specific subject associated with: 'What geographical landmark or feature is: 'Active volcano that destroyed Pompeii in 79 AD''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Vesuvius is the essential answer for this question.",
+    "explanation": "In geography, Mount Vesuvius is the exact answer for: 'What geographical landmark or feature is: 'Active volcano that destroyed Pompeii in 79 AD''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Vesuvius is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3681,8 +3681,8 @@ export const ALL_QUESTIONS = [
       "Vulcano"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Etna is the specific subject associated with: 'What geographical landmark or feature is: 'Active volcano on island of Sicily''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Etna is the essential answer for this question.",
+    "explanation": "In geography, Mount Etna is the exact answer for: 'What geographical landmark or feature is: 'Active volcano on island of Sicily''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Etna is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3696,8 +3696,8 @@ export const ALL_QUESTIONS = [
       "Mount Sakurajima"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Fuji is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain in Japan''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Fuji is the essential answer for this question.",
+    "explanation": "Mount Fuji is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Mount Fuji holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -3711,8 +3711,8 @@ export const ALL_QUESTIONS = [
       "Pinatubo"
     ],
     "answer": 0,
-    "explanation": "In geography, Krakatoa is the specific subject associated with: 'What geographical landmark or feature is: 'Indonesian volcano that erupted cataclysmically in 1883''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Krakatoa is the essential answer for this question.",
+    "explanation": "In geography, Krakatoa is the exact answer for: 'What geographical landmark or feature is: 'Indonesian volcano that erupted cataclysmically in 1883''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Krakatoa is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3726,8 +3726,8 @@ export const ALL_QUESTIONS = [
       "Mount Toba"
     ],
     "answer": 0,
-    "explanation": "In geography, Mount Tambora is the specific subject associated with: 'What geographical landmark or feature is: 'Indonesian volcano whose 1815 eruption caused Year Without a Summer''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mount Tambora is the essential answer for this question.",
+    "explanation": "In geography, Mount Tambora is the exact answer for: 'What geographical landmark or feature is: 'Indonesian volcano whose 1815 eruption caused Year Without a Summer''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mount Tambora is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3741,8 +3741,8 @@ export const ALL_QUESTIONS = [
       "The Arafura Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Tasman Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Sea located between Australia and New Zealand''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Tasman Sea is the essential answer for this question.",
+    "explanation": "The Tasman Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Tasman Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3756,8 +3756,8 @@ export const ALL_QUESTIONS = [
       "Solomon Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Coral Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Sea off Queensland coast containing Great Barrier Reef''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Coral Sea is the essential answer for this question.",
+    "explanation": "The Coral Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Coral Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3771,8 +3771,8 @@ export const ALL_QUESTIONS = [
       "Bismarck Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Arafura Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Sea located between Northern Territory and Indonesia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Arafura Sea is the essential answer for this question.",
+    "explanation": "The Arafura Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Arafura Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3786,8 +3786,8 @@ export const ALL_QUESTIONS = [
       "Banda Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Timor Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Sea located between NW Australia and Timor''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Timor Sea is the essential answer for this question.",
+    "explanation": "The Timor Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Timor Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3801,8 +3801,8 @@ export const ALL_QUESTIONS = [
       "Slieve Donard"
     ],
     "answer": 0,
-    "explanation": "In geography, Ben Nevis is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain in the British Isles''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ben Nevis is the essential answer for this question.",
+    "explanation": "Ben Nevis is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Ben Nevis holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -3816,8 +3816,8 @@ export const ALL_QUESTIONS = [
       "Mount Tasman"
     ],
     "answer": 0,
-    "explanation": "In geography, Aoraki / Mount Cook is the specific subject associated with: 'Which geographical feature holds the title of 'Highest mountain in New Zealand''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aoraki / Mount Cook is the essential answer for this question.",
+    "explanation": "Aoraki / Mount Cook is the highest mountain peak mentioned in this geographic question.",
+    "tip": "\ud83d\udca1 **Peak Elevation:** Aoraki / Mount Cook holds the elevation record for this region.",
     "difficulty": "Medium"
   },
   {
@@ -3831,8 +3831,8 @@ export const ALL_QUESTIONS = [
       "The River Clyde"
     ],
     "answer": 0,
-    "explanation": "In geography, The River Severn is the specific subject associated with: 'Which geographical feature holds the title of 'Longest river in the United Kingdom''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The River Severn is the essential answer for this question.",
+    "explanation": "The River Severn is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The River Severn is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3846,8 +3846,8 @@ export const ALL_QUESTIONS = [
       "The Main River"
     ],
     "answer": 0,
-    "explanation": "In geography, The Rhine River is the specific subject associated with: 'Which geographical feature holds the title of 'Longest river in Germany''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Rhine River is the essential answer for this question.",
+    "explanation": "The Rhine River is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** The Rhine River is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3861,8 +3861,8 @@ export const ALL_QUESTIONS = [
       "Puerto Rico"
     ],
     "answer": 0,
-    "explanation": "In geography, Cuba is the specific subject associated with: 'Which geographical feature holds the title of 'Largest island in the Caribbean''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cuba is the essential answer for this question.",
+    "explanation": "In geography, Cuba is the exact answer for: 'Which geographical feature holds the title of 'Largest island in the Caribbean''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cuba is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3876,8 +3876,8 @@ export const ALL_QUESTIONS = [
       "Puerto Rico"
     ],
     "answer": 0,
-    "explanation": "In geography, Hispaniola is the specific subject associated with: 'What geographical landmark or feature is: 'Second largest island in the Caribbean''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hispaniola is the essential answer for this question.",
+    "explanation": "In geography, Hispaniola is the exact answer for: 'What geographical landmark or feature is: 'Second largest island in the Caribbean''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hispaniola is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3891,8 +3891,8 @@ export const ALL_QUESTIONS = [
       "The Baltic Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The Mediterranean Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Sea bounded by Europe, Asia, and Africa''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Mediterranean Sea is the essential answer for this question.",
+    "explanation": "The Mediterranean Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Mediterranean Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3906,8 +3906,8 @@ export const ALL_QUESTIONS = [
       "The Irish Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, The North Sea is the specific subject associated with: 'What geographical landmark or feature is: 'Sea between Great Britain and Scandinavia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The North Sea is the essential answer for this question.",
+    "explanation": "The North Sea is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The North Sea is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -3921,8 +3921,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In science, Au is the specific subject associated with: 'What is the chemical symbol for Gold on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Au is the essential answer for this question.",
+    "explanation": "Au is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Au for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -3936,8 +3936,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In science, Ag is the specific subject associated with: 'What is the chemical symbol for Silver on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ag is the essential answer for this question.",
+    "explanation": "Ag is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Ag for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -3951,8 +3951,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In science, Pb is the specific subject associated with: 'What is the chemical symbol for Lead on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pb is the essential answer for this question.",
+    "explanation": "Pb is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Pb for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -3966,8 +3966,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Hg is the specific subject associated with: 'What is the chemical symbol for Mercury on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hg is the essential answer for this question.",
+    "explanation": "Hg is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Hg for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -3981,8 +3981,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Fe is the specific subject associated with: 'What is the chemical symbol for Iron on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fe is the essential answer for this question.",
+    "explanation": "Fe is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Fe for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -3996,8 +3996,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Cu is the specific subject associated with: 'What is the chemical symbol for Copper on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cu is the essential answer for this question.",
+    "explanation": "Cu is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Cu for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4011,8 +4011,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Sn is the specific subject associated with: 'What is the chemical symbol for Tin on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sn is the essential answer for this question.",
+    "explanation": "Sn is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Sn for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4026,8 +4026,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, W is the specific subject associated with: 'What is the chemical symbol for Tungsten on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** W is the essential answer for this question.",
+    "explanation": "W is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember W for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4041,8 +4041,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, K is the specific subject associated with: 'What is the chemical symbol for Potassium on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** K is the essential answer for this question.",
+    "explanation": "K is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember K for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4056,8 +4056,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Na is the specific subject associated with: 'What is the chemical symbol for Sodium on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Na is the essential answer for this question.",
+    "explanation": "Na is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Na for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4071,8 +4071,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Sb is the specific subject associated with: 'What is the chemical symbol for Antimony on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sb is the essential answer for this question.",
+    "explanation": "Sb is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Sb for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4086,8 +4086,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Bi is the specific subject associated with: 'What is the chemical symbol for Bismuth on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bi is the essential answer for this question.",
+    "explanation": "Bi is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Bi for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4101,8 +4101,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Ti is the specific subject associated with: 'What is the chemical symbol for Titanium on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ti is the essential answer for this question.",
+    "explanation": "Ti is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Ti for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4116,8 +4116,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, U is the specific subject associated with: 'What is the chemical symbol for Uranium on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** U is the essential answer for this question.",
+    "explanation": "U is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember U for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4131,8 +4131,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Pu is the specific subject associated with: 'What is the chemical symbol for Plutonium on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pu is the essential answer for this question.",
+    "explanation": "Pu is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Pu for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4146,8 +4146,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Pt is the specific subject associated with: 'What is the chemical symbol for Platinum on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pt is the essential answer for this question.",
+    "explanation": "Pt is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Pt for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4161,8 +4161,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Xe is the specific subject associated with: 'What is the chemical symbol for Xenon on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Xe is the essential answer for this question.",
+    "explanation": "Xe is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Xe for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4176,8 +4176,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Rn is the specific subject associated with: 'What is the chemical symbol for Radon on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rn is the essential answer for this question.",
+    "explanation": "Rn is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Rn for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4191,8 +4191,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, C is the specific subject associated with: 'What is the chemical symbol for Carbon on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** C is the essential answer for this question.",
+    "explanation": "C is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember C for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4206,8 +4206,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, Si is the specific subject associated with: 'What is the chemical symbol for Silicon on the Periodic Table'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Si is the essential answer for this question.",
+    "explanation": "Si is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Si for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -4221,8 +4221,8 @@ export const ALL_QUESTIONS = [
       "Quartz"
     ],
     "answer": 0,
-    "explanation": "In science, Diamond is the specific subject associated with: 'What scientific element, law, or concept is: 'Hardest naturally occurring substance on Earth''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Diamond is the essential answer for this question.",
+    "explanation": "In science, Diamond is the exact answer for: 'What scientific element, law, or concept is: 'Hardest naturally occurring substance on Earth''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Diamond is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4236,8 +4236,8 @@ export const ALL_QUESTIONS = [
       "Femur"
     ],
     "answer": 0,
-    "explanation": "In science, Stapes (Stirrup) is the specific subject associated with: 'What scientific element, law, or concept is: 'Smallest bone in the human body''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Stapes (Stirrup) is the essential answer for this question.",
+    "explanation": "Stapes (Stirrup) is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Stapes (Stirrup) is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -4251,8 +4251,8 @@ export const ALL_QUESTIONS = [
       "Humerus"
     ],
     "answer": 0,
-    "explanation": "In science, Femur is the specific subject associated with: 'What scientific element, law, or concept is: 'Longest bone in the human body''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Femur is the essential answer for this question.",
+    "explanation": "Femur is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Femur is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -4266,8 +4266,8 @@ export const ALL_QUESTIONS = [
       "Gallbladder"
     ],
     "answer": 0,
-    "explanation": "In science, Pancreas is the specific subject associated with: 'What scientific element, law, or concept is: 'Organ that produces insulin in human body''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pancreas is the essential answer for this question.",
+    "explanation": "Pancreas is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Pancreas is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -4281,8 +4281,8 @@ export const ALL_QUESTIONS = [
       "Kidney"
     ],
     "answer": 0,
-    "explanation": "In science, Liver is the specific subject associated with: 'What scientific element, law, or concept is: 'Organ that produces bile and filters blood''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Liver is the essential answer for this question.",
+    "explanation": "Liver is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Liver is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -4296,8 +4296,8 @@ export const ALL_QUESTIONS = [
       "Pancreas"
     ],
     "answer": 0,
-    "explanation": "In science, Kidneys is the specific subject associated with: 'What scientific element, law, or concept is: 'Organ that filters waste into urine''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kidneys is the essential answer for this question.",
+    "explanation": "Kidneys is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Kidneys is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -4311,8 +4311,8 @@ export const ALL_QUESTIONS = [
       "Lens"
     ],
     "answer": 0,
-    "explanation": "In science, Cornea is the specific subject associated with: 'What scientific element, law, or concept is: 'Transparent front part of the human eye''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cornea is the essential answer for this question.",
+    "explanation": "In science, Cornea is the exact answer for: 'What scientific element, law, or concept is: 'Transparent front part of the human eye''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cornea is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4326,8 +4326,8 @@ export const ALL_QUESTIONS = [
       "Iris"
     ],
     "answer": 0,
-    "explanation": "In science, Retina is the specific subject associated with: 'What scientific element, law, or concept is: 'Light-sensitive layer lining back of human eye''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Retina is the essential answer for this question.",
+    "explanation": "In science, Retina is the exact answer for: 'What scientific element, law, or concept is: 'Light-sensitive layer lining back of human eye''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Retina is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4341,8 +4341,8 @@ export const ALL_QUESTIONS = [
       "Nitrogen"
     ],
     "answer": 0,
-    "explanation": "In science, Hydrogen is the specific subject associated with: 'What scientific element, law, or concept is: 'Main gas making up the Sun's mass''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hydrogen is the essential answer for this question.",
+    "explanation": "In science, Hydrogen is the exact answer for: 'What scientific element, law, or concept is: 'Main gas making up the Sun's mass''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hydrogen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4356,8 +4356,8 @@ export const ALL_QUESTIONS = [
       "Carbon Dioxide"
     ],
     "answer": 0,
-    "explanation": "In science, Nitrogen is the specific subject associated with: 'What scientific element, law, or concept is: 'Gas making up approximately 78% of Earth's atmosphere''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nitrogen is the essential answer for this question.",
+    "explanation": "In science, Nitrogen is the exact answer for: 'What scientific element, law, or concept is: 'Gas making up approximately 78% of Earth's atmosphere''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Nitrogen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4371,8 +4371,8 @@ export const ALL_QUESTIONS = [
       "Carbon Dioxide"
     ],
     "answer": 0,
-    "explanation": "In science, Oxygen is the specific subject associated with: 'What scientific element, law, or concept is: 'Gas making up approximately 21% of Earth's atmosphere''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Oxygen is the essential answer for this question.",
+    "explanation": "In science, Oxygen is the exact answer for: 'What scientific element, law, or concept is: 'Gas making up approximately 21% of Earth's atmosphere''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Oxygen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4386,8 +4386,8 @@ export const ALL_QUESTIONS = [
       "Krypton"
     ],
     "answer": 0,
-    "explanation": "In science, Argon is the specific subject associated with: 'What scientific element, law, or concept is: 'Noble gas making up 0.93% of Earth's atmosphere''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Argon is the essential answer for this question.",
+    "explanation": "In science, Argon is the exact answer for: 'What scientific element, law, or concept is: 'Noble gas making up 0.93% of Earth's atmosphere''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Argon is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4401,8 +4401,8 @@ export const ALL_QUESTIONS = [
       "Saturn"
     ],
     "answer": 0,
-    "explanation": "In science, Mars is the specific subject associated with: 'What scientific element, law, or concept is: 'Planet known as the Red Planet''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mars is the essential answer for this question.",
+    "explanation": "Mars is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Mars is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -4416,8 +4416,8 @@ export const ALL_QUESTIONS = [
       "Neptune"
     ],
     "answer": 0,
-    "explanation": "In science, Jupiter is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest planet in our solar system''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jupiter is the essential answer for this question.",
+    "explanation": "Jupiter is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Jupiter is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -4431,8 +4431,8 @@ export const ALL_QUESTIONS = [
       "Neptune"
     ],
     "answer": 0,
-    "explanation": "In science, Saturn is the specific subject associated with: 'What scientific element, law, or concept is: 'Planet with the most extensive planetary ring system''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Saturn is the essential answer for this question.",
+    "explanation": "Saturn is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Saturn is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -4446,8 +4446,8 @@ export const ALL_QUESTIONS = [
       "Mars"
     ],
     "answer": 0,
-    "explanation": "In science, Mercury is the specific subject associated with: 'What scientific element, law, or concept is: 'Planet closest to the Sun in our solar system''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mercury is the essential answer for this question.",
+    "explanation": "Mercury is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Mercury is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -4461,8 +4461,8 @@ export const ALL_QUESTIONS = [
       "Jupiter"
     ],
     "answer": 0,
-    "explanation": "In science, Venus is the specific subject associated with: 'What scientific element, law, or concept is: 'Hottest planet in our solar system''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Venus is the essential answer for this question.",
+    "explanation": "Venus is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Venus is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -4476,8 +4476,8 @@ export const ALL_QUESTIONS = [
       "30,000 km/s"
     ],
     "answer": 0,
-    "explanation": "In science, 300,000 km/s is the specific subject associated with: 'What scientific element, law, or concept is: 'Approximate speed of light in a vacuum''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 300,000 km/s is the essential answer for this question.",
+    "explanation": "In science, 300,000 km/s is the exact answer for: 'What scientific element, law, or concept is: 'Approximate speed of light in a vacuum''.",
+    "tip": "\ud83d\udca1 **Key Recall:** 300,000 km/s is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4491,8 +4491,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Ohm is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of electrical resistance''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ohm is the essential answer for this question.",
+    "explanation": "In science, Ohm is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of electrical resistance''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ohm is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4506,8 +4506,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Ampere is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of electrical current''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ampere is the essential answer for this question.",
+    "explanation": "In science, Ampere is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of electrical current''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ampere is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4521,8 +4521,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Volt is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of electric potential difference''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Volt is the essential answer for this question.",
+    "explanation": "In science, Volt is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of electric potential difference''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Volt is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4536,8 +4536,8 @@ export const ALL_QUESTIONS = [
       "Pascal"
     ],
     "answer": 0,
-    "explanation": "In science, Watt is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of power''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Watt is the essential answer for this question.",
+    "explanation": "In science, Watt is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of power''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Watt is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4551,8 +4551,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Newton is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of force''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Newton is the essential answer for this question.",
+    "explanation": "In science, Newton is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of force''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Newton is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4566,8 +4566,8 @@ export const ALL_QUESTIONS = [
       "Bar"
     ],
     "answer": 0,
-    "explanation": "In science, Pascal is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of pressure''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pascal is the essential answer for this question.",
+    "explanation": "In science, Pascal is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of pressure''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Pascal is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4581,8 +4581,8 @@ export const ALL_QUESTIONS = [
       "Pascal"
     ],
     "answer": 0,
-    "explanation": "In science, Joule is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of work or energy''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Joule is the essential answer for this question.",
+    "explanation": "In science, Joule is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of work or energy''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Joule is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4596,8 +4596,8 @@ export const ALL_QUESTIONS = [
       "Tesla"
     ],
     "answer": 0,
-    "explanation": "In science, Hertz is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of frequency''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hertz is the essential answer for this question.",
+    "explanation": "In science, Hertz is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of frequency''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hertz is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4611,8 +4611,8 @@ export const ALL_QUESTIONS = [
       "Kelvin Scale"
     ],
     "answer": 0,
-    "explanation": "In science, Mohs Scale is the specific subject associated with: 'What scientific element, law, or concept is: 'Scale measuring mineral scratch hardness''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mohs Scale is the essential answer for this question.",
+    "explanation": "In science, Mohs Scale is the exact answer for: 'What scientific element, law, or concept is: 'Scale measuring mineral scratch hardness''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mohs Scale is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4626,8 +4626,8 @@ export const ALL_QUESTIONS = [
       "Saffir-Simpson Scale"
     ],
     "answer": 0,
-    "explanation": "In science, Beaufort Scale is the specific subject associated with: 'What scientific element, law, or concept is: 'Scale measuring wind force at sea''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Beaufort Scale is the essential answer for this question.",
+    "explanation": "Beaufort Scale is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Beaufort Scale is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -4641,8 +4641,8 @@ export const ALL_QUESTIONS = [
       "Saffir-Simpson Scale"
     ],
     "answer": 0,
-    "explanation": "In science, Fujita Scale is the specific subject associated with: 'What scientific element, law, or concept is: 'Scale measuring tornado damage intensity''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fujita Scale is the essential answer for this question.",
+    "explanation": "In science, Fujita Scale is the exact answer for: 'What scientific element, law, or concept is: 'Scale measuring tornado damage intensity''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Fujita Scale is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4656,8 +4656,8 @@ export const ALL_QUESTIONS = [
       "Richter Scale"
     ],
     "answer": 0,
-    "explanation": "In science, Saffir-Simpson Scale is the specific subject associated with: 'What scientific element, law, or concept is: 'Scale measuring hurricane wind intensity''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Saffir-Simpson Scale is the essential answer for this question.",
+    "explanation": "In science, Saffir-Simpson Scale is the exact answer for: 'What scientific element, law, or concept is: 'Scale measuring hurricane wind intensity''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Saffir-Simpson Scale is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4671,8 +4671,8 @@ export const ALL_QUESTIONS = [
       "Anthocyanin"
     ],
     "answer": 0,
-    "explanation": "In science, Chlorophyll is the specific subject associated with: 'What scientific element, law, or concept is: 'Green pigment that absorbs light during photosynthesis in plants''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chlorophyll is the essential answer for this question.",
+    "explanation": "In science, Chlorophyll is the exact answer for: 'What scientific element, law, or concept is: 'Green pigment that absorbs light during photosynthesis in plants''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Chlorophyll is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4686,8 +4686,8 @@ export const ALL_QUESTIONS = [
       "Golgi Apparatus"
     ],
     "answer": 0,
-    "explanation": "In science, Mitochondria is the specific subject associated with: 'What scientific element, law, or concept is: 'Organelle known as the powerhouse of the cell''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mitochondria is the essential answer for this question.",
+    "explanation": "Mitochondria is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Mitochondria is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -4701,8 +4701,8 @@ export const ALL_QUESTIONS = [
       "Vacuoles"
     ],
     "answer": 0,
-    "explanation": "In science, Chromosomes is the specific subject associated with: 'What scientific element, law, or concept is: 'Structures carrying DNA inside the cell nucleus''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chromosomes is the essential answer for this question.",
+    "explanation": "In science, Chromosomes is the exact answer for: 'What scientific element, law, or concept is: 'Structures carrying DNA inside the cell nucleus''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Chromosomes is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4716,8 +4716,8 @@ export const ALL_QUESTIONS = [
       "42 (21 pairs)"
     ],
     "answer": 0,
-    "explanation": "In science, 46 (23 pairs) is the specific subject associated with: 'What scientific element, law, or concept is: 'Number of chromosomes in a normal human somatic cell''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 46 (23 pairs) is the essential answer for this question.",
+    "explanation": "In science, 46 (23 pairs) is the exact answer for: 'What scientific element, law, or concept is: 'Number of chromosomes in a normal human somatic cell''.",
+    "tip": "\ud83d\udca1 **Key Recall:** 46 (23 pairs) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4731,8 +4731,8 @@ export const ALL_QUESTIONS = [
       "Edward Jenner"
     ],
     "answer": 0,
-    "explanation": "In science, Alexander Fleming is the specific subject associated with: 'What scientific element, law, or concept is: 'Scottish scientist who discovered penicillin in 1928''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Alexander Fleming is the essential answer for this question.",
+    "explanation": "In science, Alexander Fleming is the exact answer for: 'What scientific element, law, or concept is: 'Scottish scientist who discovered penicillin in 1928''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Alexander Fleming is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4746,8 +4746,8 @@ export const ALL_QUESTIONS = [
       "Jonas Salk"
     ],
     "answer": 0,
-    "explanation": "In science, Edward Jenner is the specific subject associated with: 'What scientific element, law, or concept is: 'English physician who developed the smallpox vaccine in 1796''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Edward Jenner is the essential answer for this question.",
+    "explanation": "In science, Edward Jenner is the exact answer for: 'What scientific element, law, or concept is: 'English physician who developed the smallpox vaccine in 1796''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Edward Jenner is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4761,8 +4761,8 @@ export const ALL_QUESTIONS = [
       "Joseph Lister"
     ],
     "answer": 0,
-    "explanation": "In science, Louis Pasteur is the specific subject associated with: 'What scientific element, law, or concept is: 'French scientist who developed rabies vaccine and pasteurization''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Louis Pasteur is the essential answer for this question.",
+    "explanation": "In science, Louis Pasteur is the exact answer for: 'What scientific element, law, or concept is: 'French scientist who developed rabies vaccine and pasteurization''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Louis Pasteur is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4776,8 +4776,8 @@ export const ALL_QUESTIONS = [
       "Dorothy Hodgkin"
     ],
     "answer": 0,
-    "explanation": "In science, Rosalind Franklin is the specific subject associated with: 'What scientific element, law, or concept is: 'English chemist whose X-ray diffraction images led to DNA structure discovery''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rosalind Franklin is the essential answer for this question.",
+    "explanation": "In science, Rosalind Franklin is the exact answer for: 'What scientific element, law, or concept is: 'English chemist whose X-ray diffraction images led to DNA structure discovery''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Rosalind Franklin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4791,8 +4791,8 @@ export const ALL_QUESTIONS = [
       "Zodiacal Light"
     ],
     "answer": 0,
-    "explanation": "In science, Aurora Borealis is the specific subject associated with: 'What scientific element, law, or concept is: 'Atmospheric phenomenon causing the Northern Lights''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aurora Borealis is the essential answer for this question.",
+    "explanation": "In science, Aurora Borealis is the exact answer for: 'What scientific element, law, or concept is: 'Atmospheric phenomenon causing the Northern Lights''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Aurora Borealis is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4806,8 +4806,8 @@ export const ALL_QUESTIONS = [
       "Zodiacal Light"
     ],
     "answer": 0,
-    "explanation": "In science, Aurora Australis is the specific subject associated with: 'What scientific element, law, or concept is: 'Atmospheric phenomenon causing the Southern Lights''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aurora Australis is the essential answer for this question.",
+    "explanation": "In science, Aurora Australis is the exact answer for: 'What scientific element, law, or concept is: 'Atmospheric phenomenon causing the Southern Lights''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Aurora Australis is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4821,8 +4821,8 @@ export const ALL_QUESTIONS = [
       "Stratosphere"
     ],
     "answer": 0,
-    "explanation": "In science, Exosphere is the specific subject associated with: 'What scientific element, law, or concept is: 'Outermost layer of Earth's atmosphere''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Exosphere is the essential answer for this question.",
+    "explanation": "In science, Exosphere is the exact answer for: 'What scientific element, law, or concept is: 'Outermost layer of Earth's atmosphere''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Exosphere is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4836,8 +4836,8 @@ export const ALL_QUESTIONS = [
       "Thermosphere"
     ],
     "answer": 0,
-    "explanation": "In science, Stratosphere is the specific subject associated with: 'What scientific element, law, or concept is: 'Atmospheric layer containing the protective ozone layer''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Stratosphere is the essential answer for this question.",
+    "explanation": "In science, Stratosphere is the exact answer for: 'What scientific element, law, or concept is: 'Atmospheric layer containing the protective ozone layer''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Stratosphere is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4851,8 +4851,8 @@ export const ALL_QUESTIONS = [
       "Thermosphere"
     ],
     "answer": 0,
-    "explanation": "In science, Troposphere is the specific subject associated with: 'What scientific element, law, or concept is: 'Atmospheric layer containing almost all weather phenomena''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Troposphere is the essential answer for this question.",
+    "explanation": "In science, Troposphere is the exact answer for: 'What scientific element, law, or concept is: 'Atmospheric layer containing almost all weather phenomena''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Troposphere is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4866,8 +4866,8 @@ export const ALL_QUESTIONS = [
       "Photon"
     ],
     "answer": 0,
-    "explanation": "In science, Electron is the specific subject associated with: 'What scientific element, law, or concept is: 'Subatomic particle with a negative electric charge''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Electron is the essential answer for this question.",
+    "explanation": "In science, Electron is the exact answer for: 'What scientific element, law, or concept is: 'Subatomic particle with a negative electric charge''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Electron is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4881,8 +4881,8 @@ export const ALL_QUESTIONS = [
       "Neutrino"
     ],
     "answer": 0,
-    "explanation": "In science, Proton is the specific subject associated with: 'What scientific element, law, or concept is: 'Subatomic particle with a positive electric charge''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Proton is the essential answer for this question.",
+    "explanation": "In science, Proton is the exact answer for: 'What scientific element, law, or concept is: 'Subatomic particle with a positive electric charge''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Proton is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4896,8 +4896,8 @@ export const ALL_QUESTIONS = [
       "Positron"
     ],
     "answer": 0,
-    "explanation": "In science, Neutron is the specific subject associated with: 'What scientific element, law, or concept is: 'Subatomic particle with no electric charge''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Neutron is the essential answer for this question.",
+    "explanation": "In science, Neutron is the exact answer for: 'What scientific element, law, or concept is: 'Subatomic particle with no electric charge''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Neutron is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4911,8 +4911,8 @@ export const ALL_QUESTIONS = [
       "Quark"
     ],
     "answer": 0,
-    "explanation": "In science, Photon is the specific subject associated with: 'What scientific element, law, or concept is: 'Quantum particle of electromagnetic radiation (light)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Photon is the essential answer for this question.",
+    "explanation": "In science, Photon is the exact answer for: 'What scientific element, law, or concept is: 'Quantum particle of electromagnetic radiation (light)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Photon is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4926,8 +4926,8 @@ export const ALL_QUESTIONS = [
       "Neutrino"
     ],
     "answer": 0,
-    "explanation": "In science, Higgs Boson is the specific subject associated with: 'What scientific element, law, or concept is: 'Particle giving mass to other fundamental particles (CERN 2012)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Higgs Boson is the essential answer for this question.",
+    "explanation": "In science, Higgs Boson is the exact answer for: 'What scientific element, law, or concept is: 'Particle giving mass to other fundamental particles (CERN 2012)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Higgs Boson is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4941,8 +4941,8 @@ export const ALL_QUESTIONS = [
       "B Negative"
     ],
     "answer": 0,
-    "explanation": "In science, O Negative is the specific subject associated with: 'What scientific element, law, or concept is: 'Universal donor red blood cell type''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** O Negative is the essential answer for this question.",
+    "explanation": "In science, O Negative is the exact answer for: 'What scientific element, law, or concept is: 'Universal donor red blood cell type''.",
+    "tip": "\ud83d\udca1 **Key Recall:** O Negative is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4956,8 +4956,8 @@ export const ALL_QUESTIONS = [
       "B Positive"
     ],
     "answer": 0,
-    "explanation": "In science, AB Positive is the specific subject associated with: 'What scientific element, law, or concept is: 'Universal recipient red blood cell type''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** AB Positive is the essential answer for this question.",
+    "explanation": "In science, AB Positive is the exact answer for: 'What scientific element, law, or concept is: 'Universal recipient red blood cell type''.",
+    "tip": "\ud83d\udca1 **Key Recall:** AB Positive is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4971,8 +4971,8 @@ export const ALL_QUESTIONS = [
       "Fibrin"
     ],
     "answer": 0,
-    "explanation": "In science, Keratin is the specific subject associated with: 'What scientific element, law, or concept is: 'Primary structural protein in human hair and nails''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Keratin is the essential answer for this question.",
+    "explanation": "In science, Keratin is the exact answer for: 'What scientific element, law, or concept is: 'Primary structural protein in human hair and nails''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Keratin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4986,8 +4986,8 @@ export const ALL_QUESTIONS = [
       "Actin"
     ],
     "answer": 0,
-    "explanation": "In science, Collagen is the specific subject associated with: 'What scientific element, law, or concept is: 'Primary structural protein in human skin and connective tissues''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Collagen is the essential answer for this question.",
+    "explanation": "In science, Collagen is the exact answer for: 'What scientific element, law, or concept is: 'Primary structural protein in human skin and connective tissues''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Collagen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5001,8 +5001,8 @@ export const ALL_QUESTIONS = [
       "Flying Lemur"
     ],
     "answer": 0,
-    "explanation": "In science, Bat is the specific subject associated with: 'What scientific element, law, or concept is: 'Only mammal capable of true sustained flight''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bat is the essential answer for this question.",
+    "explanation": "In science, Bat is the exact answer for: 'What scientific element, law, or concept is: 'Only mammal capable of true sustained flight''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Bat is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5016,8 +5016,8 @@ export const ALL_QUESTIONS = [
       "Numbat & Quoll"
     ],
     "answer": 0,
-    "explanation": "In science, Platypus & Echidna is the specific subject associated with: 'What scientific element, law, or concept is: 'Mammals that lay eggs instead of giving live birth (Monotremes)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Platypus & Echidna is the essential answer for this question.",
+    "explanation": "In science, Platypus & Echidna is the exact answer for: 'What scientific element, law, or concept is: 'Mammals that lay eggs instead of giving live birth (Monotremes)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Platypus & Echidna is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5031,8 +5031,8 @@ export const ALL_QUESTIONS = [
       "Gibbon"
     ],
     "answer": 0,
-    "explanation": "In science, Gorilla is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest living primate species''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gorilla is the essential answer for this question.",
+    "explanation": "In science, Gorilla is the exact answer for: 'What scientific element, law, or concept is: 'Largest living primate species''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Gorilla is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5046,8 +5046,8 @@ export const ALL_QUESTIONS = [
       "Sperm Whale"
     ],
     "answer": 0,
-    "explanation": "In science, Blue Whale is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest animal species known to have ever existed''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Blue Whale is the essential answer for this question.",
+    "explanation": "In science, Blue Whale is the exact answer for: 'What scientific element, law, or concept is: 'Largest animal species known to have ever existed''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Blue Whale is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5061,8 +5061,8 @@ export const ALL_QUESTIONS = [
       "Hippopotamus"
     ],
     "answer": 0,
-    "explanation": "In science, African Bush Elephant is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest living land animal''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** African Bush Elephant is the essential answer for this question.",
+    "explanation": "In science, African Bush Elephant is the exact answer for: 'What scientific element, law, or concept is: 'Largest living land animal''.",
+    "tip": "\ud83d\udca1 **Key Recall:** African Bush Elephant is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5076,8 +5076,8 @@ export const ALL_QUESTIONS = [
       "Camel"
     ],
     "answer": 0,
-    "explanation": "In science, Giraffe is the specific subject associated with: 'What scientific element, law, or concept is: 'Tallest living land animal species''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Giraffe is the essential answer for this question.",
+    "explanation": "In science, Giraffe is the exact answer for: 'What scientific element, law, or concept is: 'Tallest living land animal species''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Giraffe is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5091,8 +5091,8 @@ export const ALL_QUESTIONS = [
       "Albatross"
     ],
     "answer": 0,
-    "explanation": "In science, Ostrich is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest living bird species by mass''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ostrich is the essential answer for this question.",
+    "explanation": "In science, Ostrich is the exact answer for: 'What scientific element, law, or concept is: 'Largest living bird species by mass''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ostrich is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5106,8 +5106,8 @@ export const ALL_QUESTIONS = [
       "Pelican"
     ],
     "answer": 0,
-    "explanation": "In science, Wandering Albatross is the specific subject associated with: 'What scientific element, law, or concept is: 'Bird species with the largest wingspan''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Wandering Albatross is the essential answer for this question.",
+    "explanation": "In science, Wandering Albatross is the exact answer for: 'What scientific element, law, or concept is: 'Bird species with the largest wingspan''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Wandering Albatross is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5121,8 +5121,8 @@ export const ALL_QUESTIONS = [
       "Jabiru"
     ],
     "answer": 0,
-    "explanation": "In science, Emu is the specific subject associated with: 'What scientific element, law, or concept is: 'Second largest living bird by height (native to Australia)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Emu is the essential answer for this question.",
+    "explanation": "In science, Emu is the exact answer for: 'What scientific element, law, or concept is: 'Second largest living bird by height (native to Australia)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Emu is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5136,8 +5136,8 @@ export const ALL_QUESTIONS = [
       "Magpie"
     ],
     "answer": 0,
-    "explanation": "In science, Lyrebird is the specific subject associated with: 'What scientific element, law, or concept is: 'Australian bird capable of extraordinary sound mimicry''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lyrebird is the essential answer for this question.",
+    "explanation": "In science, Lyrebird is the exact answer for: 'What scientific element, law, or concept is: 'Australian bird capable of extraordinary sound mimicry''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Lyrebird is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5151,8 +5151,8 @@ export const ALL_QUESTIONS = [
       "Noisy Miner"
     ],
     "answer": 0,
-    "explanation": "In science, Satin Bowerbird is the specific subject associated with: 'What scientific element, law, or concept is: 'Australian bird that constructs complex bowers decorated with blue objects''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Satin Bowerbird is the essential answer for this question.",
+    "explanation": "In science, Satin Bowerbird is the exact answer for: 'What scientific element, law, or concept is: 'Australian bird that constructs complex bowers decorated with blue objects''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Satin Bowerbird is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5166,8 +5166,8 @@ export const ALL_QUESTIONS = [
       "Ocean Quahog"
     ],
     "answer": 0,
-    "explanation": "In science, Greenland Shark is the specific subject associated with: 'What scientific element, law, or concept is: 'Longest-living vertebrate species known (up to 400+ years)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Greenland Shark is the essential answer for this question.",
+    "explanation": "In science, Greenland Shark is the exact answer for: 'What scientific element, law, or concept is: 'Longest-living vertebrate species known (up to 400+ years)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Greenland Shark is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5181,8 +5181,8 @@ export const ALL_QUESTIONS = [
       "Immortal Jellyfish"
     ],
     "answer": 0,
-    "explanation": "In science, Ocean Quahog is the specific subject associated with: 'What scientific element, law, or concept is: 'Longest-living non-colonial animal species (500+ years)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ocean Quahog is the essential answer for this question.",
+    "explanation": "In science, Ocean Quahog is the exact answer for: 'What scientific element, law, or concept is: 'Longest-living non-colonial animal species (500+ years)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ocean Quahog is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5196,8 +5196,8 @@ export const ALL_QUESTIONS = [
       "Moon Jellyfish"
     ],
     "answer": 0,
-    "explanation": "In science, Turritopsis dohrnii is the specific subject associated with: 'What scientific element, law, or concept is: 'Species of jellyfish capable of reverting its cell cycle (biologically immortal)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Turritopsis dohrnii is the essential answer for this question.",
+    "explanation": "In science, Turritopsis dohrnii is the exact answer for: 'What scientific element, law, or concept is: 'Species of jellyfish capable of reverting its cell cycle (biologically immortal)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Turritopsis dohrnii is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5211,8 +5211,8 @@ export const ALL_QUESTIONS = [
       "Sea Wasp"
     ],
     "answer": 0,
-    "explanation": "In science, Chironex fleckeri is the specific subject associated with: 'What scientific element, law, or concept is: 'Venomous box jellyfish species native to northern Australian waters''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chironex fleckeri is the essential answer for this question.",
+    "explanation": "In science, Chironex fleckeri is the exact answer for: 'What scientific element, law, or concept is: 'Venomous box jellyfish species native to northern Australian waters''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Chironex fleckeri is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5226,8 +5226,8 @@ export const ALL_QUESTIONS = [
       "Lion's Mane"
     ],
     "answer": 0,
-    "explanation": "In science, Irukandji is the specific subject associated with: 'What scientific element, law, or concept is: 'Tiny box jellyfish responsible for severe cramps and feelings of impending doom''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Irukandji is the essential answer for this question.",
+    "explanation": "In science, Irukandji is the exact answer for: 'What scientific element, law, or concept is: 'Tiny box jellyfish responsible for severe cramps and feelings of impending doom''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Irukandji is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5241,8 +5241,8 @@ export const ALL_QUESTIONS = [
       "Mimic Octopus"
     ],
     "answer": 0,
-    "explanation": "In science, Blue-ringed Octopus is the specific subject associated with: 'What scientific element, law, or concept is: 'Highly venomous octopus species with iridescent blue rings''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Blue-ringed Octopus is the essential answer for this question.",
+    "explanation": "In science, Blue-ringed Octopus is the exact answer for: 'What scientific element, law, or concept is: 'Highly venomous octopus species with iridescent blue rings''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Blue-ringed Octopus is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5256,8 +5256,8 @@ export const ALL_QUESTIONS = [
       "Leatherback Turtle"
     ],
     "answer": 0,
-    "explanation": "In science, Saltwater Crocodile is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest living reptile species by mass''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Saltwater Crocodile is the essential answer for this question.",
+    "explanation": "In science, Saltwater Crocodile is the exact answer for: 'What scientific element, law, or concept is: 'Largest living reptile species by mass''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Saltwater Crocodile is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5271,8 +5271,8 @@ export const ALL_QUESTIONS = [
       "Gila Monster"
     ],
     "answer": 0,
-    "explanation": "In science, Komodo Dragon is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest living lizard species''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Komodo Dragon is the essential answer for this question.",
+    "explanation": "In science, Komodo Dragon is the exact answer for: 'What scientific element, law, or concept is: 'Largest living lizard species''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Komodo Dragon is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5286,8 +5286,8 @@ export const ALL_QUESTIONS = [
       "Frilled-neck Lizard"
     ],
     "answer": 0,
-    "explanation": "In science, Perentie is the specific subject associated with: 'What scientific element, law, or concept is: 'Australia's largest native lizard species''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Perentie is the essential answer for this question.",
+    "explanation": "In science, Perentie is the exact answer for: 'What scientific element, law, or concept is: 'Australia's largest native lizard species''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Perentie is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5301,8 +5301,8 @@ export const ALL_QUESTIONS = [
       "King Cobra"
     ],
     "answer": 0,
-    "explanation": "In science, Inland Taipan is the specific subject associated with: 'What scientific element, law, or concept is: 'Most venomous land snake in the world by LD50 measure''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Inland Taipan is the essential answer for this question.",
+    "explanation": "In science, Inland Taipan is the exact answer for: 'What scientific element, law, or concept is: 'Most venomous land snake in the world by LD50 measure''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Inland Taipan is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5316,8 +5316,8 @@ export const ALL_QUESTIONS = [
       "Tiger Snake"
     ],
     "answer": 0,
-    "explanation": "In science, Eastern Brown Snake is the specific subject associated with: 'What scientific element, law, or concept is: 'Snake species responsible for most fatal snakebites in Australia''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Eastern Brown Snake is the essential answer for this question.",
+    "explanation": "In science, Eastern Brown Snake is the exact answer for: 'What scientific element, law, or concept is: 'Snake species responsible for most fatal snakebites in Australia''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Eastern Brown Snake is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5331,8 +5331,8 @@ export const ALL_QUESTIONS = [
       "Tiger Shark"
     ],
     "answer": 0,
-    "explanation": "In science, Whale Shark is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest living fish species''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Whale Shark is the essential answer for this question.",
+    "explanation": "In science, Whale Shark is the exact answer for: 'What scientific element, law, or concept is: 'Largest living fish species''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Whale Shark is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5346,8 +5346,8 @@ export const ALL_QUESTIONS = [
       "Hammerhead Shark"
     ],
     "answer": 0,
-    "explanation": "In science, Great White Shark is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest extant macropredatory shark species''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Great White Shark is the essential answer for this question.",
+    "explanation": "In science, Great White Shark is the exact answer for: 'What scientific element, law, or concept is: 'Largest extant macropredatory shark species''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Great White Shark is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5361,8 +5361,8 @@ export const ALL_QUESTIONS = [
       "1,000 m/s"
     ],
     "answer": 0,
-    "explanation": "In science, 343 m/s (Mach 1) is the specific subject associated with: 'What scientific element, law, or concept is: 'Speed of sound in dry air at 20\u00b0C''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 343 m/s (Mach 1) is the essential answer for this question.",
+    "explanation": "In science, 343 m/s (Mach 1) is the exact answer for: 'What scientific element, law, or concept is: 'Speed of sound in dry air at 20\u00b0C''.",
+    "tip": "\ud83d\udca1 **Key Recall:** 343 m/s (Mach 1) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5376,8 +5376,8 @@ export const ALL_QUESTIONS = [
       "212\u00b0F"
     ],
     "answer": 0,
-    "explanation": "In science, 32\u00b0F is the specific subject associated with: 'What scientific element, law, or concept is: 'Freezing point of water on the Fahrenheit scale''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 32\u00b0F is the essential answer for this question.",
+    "explanation": "In science, 32\u00b0F is the exact answer for: 'What scientific element, law, or concept is: 'Freezing point of water on the Fahrenheit scale''.",
+    "tip": "\ud83d\udca1 **Key Recall:** 32\u00b0F is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5391,8 +5391,8 @@ export const ALL_QUESTIONS = [
       "32\u00b0F"
     ],
     "answer": 0,
-    "explanation": "In science, 212\u00b0F is the specific subject associated with: 'What scientific element, law, or concept is: 'Boiling point of water on the Fahrenheit scale''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 212\u00b0F is the essential answer for this question.",
+    "explanation": "In science, 212\u00b0F is the exact answer for: 'What scientific element, law, or concept is: 'Boiling point of water on the Fahrenheit scale''.",
+    "tip": "\ud83d\udca1 **Key Recall:** 212\u00b0F is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5406,8 +5406,8 @@ export const ALL_QUESTIONS = [
       "0\u00b0C"
     ],
     "answer": 0,
-    "explanation": "In science, -273.15\u00b0C is the specific subject associated with: 'What scientific element, law, or concept is: 'Absolute zero temperature on the Celsius scale''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** -273.15\u00b0C is the essential answer for this question.",
+    "explanation": "In science, -273.15\u00b0C is the exact answer for: 'What scientific element, law, or concept is: 'Absolute zero temperature on the Celsius scale''.",
+    "tip": "\ud83d\udca1 **Key Recall:** -273.15\u00b0C is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5421,8 +5421,8 @@ export const ALL_QUESTIONS = [
       "Rankine"
     ],
     "answer": 0,
-    "explanation": "In science, Kelvin is the specific subject associated with: 'What scientific element, law, or concept is: 'SI base unit of thermodynamic temperature''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kelvin is the essential answer for this question.",
+    "explanation": "In science, Kelvin is the exact answer for: 'What scientific element, law, or concept is: 'SI base unit of thermodynamic temperature''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Kelvin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5436,8 +5436,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Candela is the specific subject associated with: 'What scientific element, law, or concept is: 'SI base unit of luminous intensity''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Candela is the essential answer for this question.",
+    "explanation": "In science, Candela is the exact answer for: 'What scientific element, law, or concept is: 'SI base unit of luminous intensity''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Candela is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5451,8 +5451,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Lumen is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of luminous flux''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lumen is the essential answer for this question.",
+    "explanation": "In science, Lumen is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of luminous flux''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Lumen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5466,8 +5466,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, Lux is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of illuminance''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lux is the essential answer for this question.",
+    "explanation": "In science, Lux is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of illuminance''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Lux is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5481,8 +5481,8 @@ export const ALL_QUESTIONS = [
       "Henry"
     ],
     "answer": 0,
-    "explanation": "In science, Tesla is the specific subject associated with: 'What scientific element, law, or concept is: 'SI unit of magnetic flux density''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tesla is the essential answer for this question.",
+    "explanation": "In science, Tesla is the exact answer for: 'What scientific element, law, or concept is: 'SI unit of magnetic flux density''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Tesla is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5496,8 +5496,8 @@ export const ALL_QUESTIONS = [
       "Zeroth Law"
     ],
     "answer": 0,
-    "explanation": "In science, First Law of Thermodynamics is the specific subject associated with: 'What scientific element, law, or concept is: 'Law of thermodynamics stating energy cannot be created or destroyed''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** First Law of Thermodynamics is the essential answer for this question.",
+    "explanation": "In science, First Law of Thermodynamics is the exact answer for: 'What scientific element, law, or concept is: 'Law of thermodynamics stating energy cannot be created or destroyed''.",
+    "tip": "\ud83d\udca1 **Key Recall:** First Law of Thermodynamics is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5511,8 +5511,8 @@ export const ALL_QUESTIONS = [
       "Zeroth Law"
     ],
     "answer": 0,
-    "explanation": "In science, Second Law of Thermodynamics is the specific subject associated with: 'What scientific element, law, or concept is: 'Law of thermodynamics stating entropy of isolated system always increases''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Second Law of Thermodynamics is the essential answer for this question.",
+    "explanation": "In science, Second Law of Thermodynamics is the exact answer for: 'What scientific element, law, or concept is: 'Law of thermodynamics stating entropy of isolated system always increases''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Second Law of Thermodynamics is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5526,8 +5526,8 @@ export const ALL_QUESTIONS = [
       "Law of Gravitation"
     ],
     "answer": 0,
-    "explanation": "In science, Newton's First Law (Inertia) is the specific subject associated with: 'What scientific element, law, or concept is: 'Newton's Law stating object remains at rest unless acted upon by force''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Newton's First Law (Inertia) is the essential answer for this question.",
+    "explanation": "In science, Newton's First Law (Inertia) is the exact answer for: 'What scientific element, law, or concept is: 'Newton's Law stating object remains at rest unless acted upon by force''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Newton's First Law (Inertia) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5541,8 +5541,8 @@ export const ALL_QUESTIONS = [
       "Hooke's Law"
     ],
     "answer": 0,
-    "explanation": "In science, Newton's Second Law is the specific subject associated with: 'What scientific element, law, or concept is: 'Newton's Law stating Force equals mass times acceleration (F=ma)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Newton's Second Law is the essential answer for this question.",
+    "explanation": "In science, Newton's Second Law is the exact answer for: 'What scientific element, law, or concept is: 'Newton's Law stating Force equals mass times acceleration (F=ma)''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Newton's Second Law is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5556,8 +5556,8 @@ export const ALL_QUESTIONS = [
       "Kepler's Law"
     ],
     "answer": 0,
-    "explanation": "In science, Newton's Third Law is the specific subject associated with: 'What scientific element, law, or concept is: 'Newton's Law stating every action has equal and opposite reaction''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Newton's Third Law is the essential answer for this question.",
+    "explanation": "In science, Newton's Third Law is the exact answer for: 'What scientific element, law, or concept is: 'Newton's Law stating every action has equal and opposite reaction''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Newton's Third Law is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5571,8 +5571,8 @@ export const ALL_QUESTIONS = [
       "Tycho Brahe"
     ],
     "answer": 0,
-    "explanation": "In science, Johannes Kepler is the specific subject associated with: 'What scientific element, law, or concept is: 'Astronomer who formulated the three laws of planetary motion''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Johannes Kepler is the essential answer for this question.",
+    "explanation": "Johannes Kepler is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Johannes Kepler is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -5586,8 +5586,8 @@ export const ALL_QUESTIONS = [
       "Kepler"
     ],
     "answer": 0,
-    "explanation": "In science, Nicolaus Copernicus is the specific subject associated with: 'What scientific element, law, or concept is: 'Astronomer who proposed heliocentric model in 1543''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nicolaus Copernicus is the essential answer for this question.",
+    "explanation": "In science, Nicolaus Copernicus is the exact answer for: 'What scientific element, law, or concept is: 'Astronomer who proposed heliocentric model in 1543''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Nicolaus Copernicus is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5601,8 +5601,8 @@ export const ALL_QUESTIONS = [
       "Cassini"
     ],
     "answer": 0,
-    "explanation": "In science, Galileo Galilei is the specific subject associated with: 'What scientific element, law, or concept is: 'Astronomer who discovered the four largest moons of Jupiter in 1610''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Galileo Galilei is the essential answer for this question.",
+    "explanation": "In science, Galileo Galilei is the exact answer for: 'What scientific element, law, or concept is: 'Astronomer who discovered the four largest moons of Jupiter in 1610''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Galileo Galilei is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5616,8 +5616,8 @@ export const ALL_QUESTIONS = [
       "Io"
     ],
     "answer": 0,
-    "explanation": "In science, Ganymede is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest moon in our solar system''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ganymede is the essential answer for this question.",
+    "explanation": "Ganymede is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Ganymede is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -5631,8 +5631,8 @@ export const ALL_QUESTIONS = [
       "Rhea"
     ],
     "answer": 0,
-    "explanation": "In science, Titan is the specific subject associated with: 'What scientific element, law, or concept is: 'Saturn's largest moon with dense atmosphere and methane lakes''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Titan is the essential answer for this question.",
+    "explanation": "Titan is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Titan is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -5646,8 +5646,8 @@ export const ALL_QUESTIONS = [
       "Callisto"
     ],
     "answer": 0,
-    "explanation": "In science, Io is the specific subject associated with: 'What scientific element, law, or concept is: 'Volcanically active moon of Jupiter''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Io is the essential answer for this question.",
+    "explanation": "In science, Io is the exact answer for: 'What scientific element, law, or concept is: 'Volcanically active moon of Jupiter''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Io is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5661,8 +5661,8 @@ export const ALL_QUESTIONS = [
       "Callisto"
     ],
     "answer": 0,
-    "explanation": "In science, Europa is the specific subject associated with: 'What scientific element, law, or concept is: 'Moon of Jupiter with smooth ice crust covering global subsurface ocean''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Europa is the essential answer for this question.",
+    "explanation": "In science, Europa is the exact answer for: 'What scientific element, law, or concept is: 'Moon of Jupiter with smooth ice crust covering global subsurface ocean''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Europa is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5676,8 +5676,8 @@ export const ALL_QUESTIONS = [
       "Megaparsec"
     ],
     "answer": 0,
-    "explanation": "In science, Light Year is the specific subject associated with: 'What scientific element, law, or concept is: 'Unit of astronomical distance equal to 9.46 trillion kilometres''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Light Year is the essential answer for this question.",
+    "explanation": "In science, Light Year is the exact answer for: 'What scientific element, law, or concept is: 'Unit of astronomical distance equal to 9.46 trillion kilometres''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Light Year is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5691,8 +5691,8 @@ export const ALL_QUESTIONS = [
       "Gigametre"
     ],
     "answer": 0,
-    "explanation": "In science, Astronomical Unit (AU) is the specific subject associated with: 'What scientific element, law, or concept is: 'Unit of distance equal to average distance between Earth and Sun''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Astronomical Unit (AU) is the essential answer for this question.",
+    "explanation": "In science, Astronomical Unit (AU) is the exact answer for: 'What scientific element, law, or concept is: 'Unit of distance equal to average distance between Earth and Sun''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Astronomical Unit (AU) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5706,8 +5706,8 @@ export const ALL_QUESTIONS = [
       "Kiloclick"
     ],
     "answer": 0,
-    "explanation": "In science, Parsec is the specific subject associated with: 'What scientific element, law, or concept is: 'Unit of astronomical distance equal to 3.26 light years''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Parsec is the essential answer for this question.",
+    "explanation": "In science, Parsec is the exact answer for: 'What scientific element, law, or concept is: 'Unit of astronomical distance equal to 3.26 light years''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Parsec is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5721,8 +5721,8 @@ export const ALL_QUESTIONS = [
       "Kidney"
     ],
     "answer": 0,
-    "explanation": "In science, Heart is the specific subject associated with: 'What scientific element, law, or concept is: 'Organ responsible for pumping oxygenated blood throughout human body''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Heart is the essential answer for this question.",
+    "explanation": "Heart is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Heart is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5736,8 +5736,8 @@ export const ALL_QUESTIONS = [
       "Trachea"
     ],
     "answer": 0,
-    "explanation": "In science, Lungs is the specific subject associated with: 'What scientific element, law, or concept is: 'Organ responsible for gas exchange (taking in O2, expelling CO2)''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lungs is the essential answer for this question.",
+    "explanation": "Lungs is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Lungs is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5751,8 +5751,8 @@ export const ALL_QUESTIONS = [
       "Heart"
     ],
     "answer": 0,
-    "explanation": "In science, Liver is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest internal organ in human body''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Liver is the essential answer for this question.",
+    "explanation": "Liver is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Liver is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5766,8 +5766,8 @@ export const ALL_QUESTIONS = [
       "Lungs"
     ],
     "answer": 0,
-    "explanation": "In science, Skin is the specific subject associated with: 'What scientific element, law, or concept is: 'Largest organ of human body overall''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Skin is the essential answer for this question.",
+    "explanation": "Skin is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Skin is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5781,8 +5781,8 @@ export const ALL_QUESTIONS = [
       "Vacuole"
     ],
     "answer": 0,
-    "explanation": "In science, Cell Wall is the specific subject associated with: 'What scientific element, law, or concept is: 'Outermost cellular membrane of plant cells''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cell Wall is the essential answer for this question.",
+    "explanation": "In science, Cell Wall is the exact answer for: 'What scientific element, law, or concept is: 'Outermost cellular membrane of plant cells''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cell Wall is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5796,8 +5796,8 @@ export const ALL_QUESTIONS = [
       "Lysosome"
     ],
     "answer": 0,
-    "explanation": "In science, Nucleus is the specific subject associated with: 'What scientific element, law, or concept is: 'Central organelle containing cell genetic material''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nucleus is the essential answer for this question.",
+    "explanation": "Nucleus is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Nucleus is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5811,8 +5811,8 @@ export const ALL_QUESTIONS = [
       "Plasma"
     ],
     "answer": 0,
-    "explanation": "In science, Cytoplasm is the specific subject associated with: 'What scientific element, law, or concept is: 'Fluid substance filling cell interior''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cytoplasm is the essential answer for this question.",
+    "explanation": "In science, Cytoplasm is the exact answer for: 'What scientific element, law, or concept is: 'Fluid substance filling cell interior''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cytoplasm is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5826,8 +5826,8 @@ export const ALL_QUESTIONS = [
       "Vacuoles"
     ],
     "answer": 0,
-    "explanation": "In science, Ribosomes is the specific subject associated with: 'What scientific element, law, or concept is: 'Organelles synthesizing proteins in cells''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ribosomes is the essential answer for this question.",
+    "explanation": "Ribosomes is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Ribosomes is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5841,8 +5841,8 @@ export const ALL_QUESTIONS = [
       "Peroxisomes"
     ],
     "answer": 0,
-    "explanation": "In science, Lysosomes is the specific subject associated with: 'What scientific element, law, or concept is: 'Cellular waste disposal organelles''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lysosomes is the essential answer for this question.",
+    "explanation": "Lysosomes is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Lysosomes is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5856,8 +5856,8 @@ export const ALL_QUESTIONS = [
       "Nucleus"
     ],
     "answer": 0,
-    "explanation": "In science, Golgi Apparatus is the specific subject associated with: 'What scientific element, law, or concept is: 'Organelle modifying and packaging proteins''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Golgi Apparatus is the essential answer for this question.",
+    "explanation": "Golgi Apparatus is the anatomical structure or biological function in human physiology.",
+    "tip": "\ud83d\udca1 **Human Anatomy:** Golgi Apparatus is the key organ or anatomical feature.",
     "difficulty": "Medium"
   },
   {
@@ -5871,8 +5871,8 @@ export const ALL_QUESTIONS = [
       "Falstaff"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Yorick is the specific subject associated with: 'Whose skull does Hamlet hold during his famous graveyard soliloquy in Act 5'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Yorick is the essential answer for this question.",
+    "explanation": "In arts lit, Yorick is the exact answer for: 'Whose skull does Hamlet hold during his famous graveyard soliloquy in Act 5'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Yorick is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5886,8 +5886,8 @@ export const ALL_QUESTIONS = [
       "Earl of Atholl"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Thane of Cawdor is the specific subject associated with: 'What title is Macbeth given after fulfilling the witches' first prophecy'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thane of Cawdor is the essential answer for this question.",
+    "explanation": "In arts lit, Thane of Cawdor is the exact answer for: 'What title is Macbeth given after fulfilling the witches' first prophecy'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Thane of Cawdor is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5901,8 +5901,8 @@ export const ALL_QUESTIONS = [
       "Brabantio"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Iago is the specific subject associated with: 'Who is the villainous ensign who manipulates Othello into believing Desdemona is unfaithful'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Iago is the essential answer for this question.",
+    "explanation": "In arts lit, Iago is the exact answer for: 'Who is the villainous ensign who manipulates Othello into believing Desdemona is unfaithful'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Iago is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5916,8 +5916,8 @@ export const ALL_QUESTIONS = [
       "Bianca"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Cordelia is the specific subject associated with: 'Who is King Lear's faithful youngest daughter who refuses to flatter him'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cordelia is the essential answer for this question.",
+    "explanation": "In arts lit, Cordelia is the exact answer for: 'Who is King Lear's faithful youngest daughter who refuses to flatter him'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cordelia is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5931,8 +5931,8 @@ export const ALL_QUESTIONS = [
       "Orsini & Colonna"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Capulet and Montague is the specific subject associated with: 'What are the names of the two feuding families in Shakespeare's Romeo and Juliet'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Capulet and Montague is the essential answer for this question.",
+    "explanation": "In arts lit, Capulet and Montague is the exact answer for: 'What are the names of the two feuding families in Shakespeare's Romeo and Juliet'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Capulet and Montague is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5946,8 +5946,8 @@ export const ALL_QUESTIONS = [
       "Friends, Romans, countrymen"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Beware the Ides of March is the specific subject associated with: 'What warning does the soothsayer give to Julius Caesar in Shakespeare's play'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Beware the Ides of March is the essential answer for this question.",
+    "explanation": "Beware the Ides of March is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Beware the Ides of March is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -5961,8 +5961,8 @@ export const ALL_QUESTIONS = [
       "Ferdinand"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Prospero is the specific subject associated with: 'Who is the exiled Duke of Milan in Shakespeare's The Tempest'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Prospero is the essential answer for this question.",
+    "explanation": "In arts lit, Prospero is the exact answer for: 'Who is the exiled Duke of Milan in Shakespeare's The Tempest'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Prospero is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5976,8 +5976,8 @@ export const ALL_QUESTIONS = [
       "Lysander"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Puck (Robin Goodfellow) is the specific subject associated with: 'Which mischievous fairy serves Oberon in A Midsummer Night's Dream'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Puck (Robin Goodfellow) is the essential answer for this question.",
+    "explanation": "In arts lit, Puck (Robin Goodfellow) is the exact answer for: 'Which mischievous fairy serves Oberon in A Midsummer Night's Dream'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Puck (Robin Goodfellow) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5991,8 +5991,8 @@ export const ALL_QUESTIONS = [
       "Aguecheek"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Malvolio is the specific subject associated with: 'Which pompous steward in Twelfth Night is tricked into wearing yellow stockings'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Malvolio is the essential answer for this question.",
+    "explanation": "In arts lit, Malvolio is the exact answer for: 'Which pompous steward in Twelfth Night is tricked into wearing yellow stockings'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Malvolio is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6006,8 +6006,8 @@ export const ALL_QUESTIONS = [
       "Gratiano"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Shylock is the specific subject associated with: 'Who is the Jewish moneylender in Shakespeare's The Merchant of Venice'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Shylock is the essential answer for this question.",
+    "explanation": "In arts lit, Shylock is the exact answer for: 'Who is the Jewish moneylender in Shakespeare's The Merchant of Venice'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Shylock is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6021,8 +6021,8 @@ export const ALL_QUESTIONS = [
       "Rosalind"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Jaques is the specific subject associated with: 'Which character delivers the 'All the world's a stage' speech in As You Like It'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jaques is the essential answer for this question.",
+    "explanation": "In arts lit, Jaques is the exact answer for: 'Which character delivers the 'All the world's a stage' speech in As You Like It'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Jaques is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6036,8 +6036,8 @@ export const ALL_QUESTIONS = [
       "Thomas Keneally"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Peter Carey is the specific subject associated with: 'Which Australian author won the Booker Prize twice (for Oscar and Lucinda and True History of the Kelly Gang)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Peter Carey is the essential answer for this question.",
+    "explanation": "Peter Carey is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Peter Carey is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6051,8 +6051,8 @@ export const ALL_QUESTIONS = [
       "Richard Flanagan"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Thomas Keneally is the specific subject associated with: 'Which Australian author won the 1982 Booker Prize for Schindler's Ark'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thomas Keneally is the essential answer for this question.",
+    "explanation": "Thomas Keneally is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Thomas Keneally is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6066,8 +6066,8 @@ export const ALL_QUESTIONS = [
       "Alexis Wright"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Richard Flanagan is the specific subject associated with: 'Which Australian author won the 2014 Booker Prize for The Narrow Road to the Deep North'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Richard Flanagan is the essential answer for this question.",
+    "explanation": "Richard Flanagan is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Richard Flanagan is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6081,8 +6081,8 @@ export const ALL_QUESTIONS = [
       "Christina Stead"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Patrick White is the specific subject associated with: 'Who won the 1973 Nobel Prize in Literature, becoming Australia's only Nobel literature laureate'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Patrick White is the essential answer for this question.",
+    "explanation": "In arts lit, Patrick White is the exact answer for: 'Who won the 1973 Nobel Prize in Literature, becoming Australia's only Nobel literature laureate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Patrick White is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6096,8 +6096,8 @@ export const ALL_QUESTIONS = [
       "Helen Garner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Tim Winton is the specific subject associated with: 'Which Western Australian author wrote the acclaimed 1991 novel Cloudstreet'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tim Winton is the essential answer for this question.",
+    "explanation": "Tim Winton is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Tim Winton is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6111,8 +6111,8 @@ export const ALL_QUESTIONS = [
       "Kate Grenville"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Miles Franklin is the specific subject associated with: 'Which Australian feminist and author wrote My Brilliant Career in 1901'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Miles Franklin is the essential answer for this question.",
+    "explanation": "Miles Franklin is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Miles Franklin is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6126,8 +6126,8 @@ export const ALL_QUESTIONS = [
       "Gillian Mears"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Kate Grenville is the specific subject associated with: 'Who authored the 2005 Miles Franklin Award-winning novel The Secret River'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kate Grenville is the essential answer for this question.",
+    "explanation": "Kate Grenville is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** Kate Grenville is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6141,8 +6141,8 @@ export const ALL_QUESTIONS = [
       "Garth Nix"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Markus Zusak is the specific subject associated with: 'Which Australian author wrote the internationally bestselling 2005 novel The Book Thief'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Markus Zusak is the essential answer for this question.",
+    "explanation": "Markus Zusak is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Markus Zusak is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6156,8 +6156,8 @@ export const ALL_QUESTIONS = [
       "Richard Fidler"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Trent Dalton is the specific subject associated with: 'Which Australian author wrote the hit 2018 semi-autobiographical novel Boy Swallows Universe'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Trent Dalton is the essential answer for this question.",
+    "explanation": "Trent Dalton is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Trent Dalton is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6171,8 +6171,8 @@ export const ALL_QUESTIONS = [
       "Ruth Park"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Joan Lindsay is the specific subject associated with: 'Who authored the classic 1967 Australian mystery novel Picnic at Hanging Rock'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Joan Lindsay is the essential answer for this question.",
+    "explanation": "Joan Lindsay is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Joan Lindsay is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6186,8 +6186,8 @@ export const ALL_QUESTIONS = [
       "D'Arcy Niland"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Colleen McCullough is the specific subject associated with: 'Who authored the epic 1977 Australian family saga novel The Thorn Birds'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Colleen McCullough is the essential answer for this question.",
+    "explanation": "Colleen McCullough is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Colleen McCullough is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6201,8 +6201,8 @@ export const ALL_QUESTIONS = [
       "Ethel Turner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Norman Lindsay is the specific subject associated with: 'Which artist and author wrote and illustrated the 1918 classic children's book The Magic Pudding'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Norman Lindsay is the essential answer for this question.",
+    "explanation": "Norman Lindsay is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Norman Lindsay is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6216,8 +6216,8 @@ export const ALL_QUESTIONS = [
       "Ruth Park"
     ],
     "answer": 0,
-    "explanation": "In arts lit, May Gibbs is the specific subject associated with: 'Which Australian author created Snugglepot and Cuddlepie in 1918'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** May Gibbs is the essential answer for this question.",
+    "explanation": "May Gibbs is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** May Gibbs is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6231,8 +6231,8 @@ export const ALL_QUESTIONS = [
       "Ethel Turner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Dorothy Wall is the specific subject associated with: 'Which Australian author created the lovable koala character Blinky Bill in 1933'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dorothy Wall is the essential answer for this question.",
+    "explanation": "Dorothy Wall is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Dorothy Wall is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6246,8 +6246,8 @@ export const ALL_QUESTIONS = [
       "Mary Grant Bruce"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Ethel Turner is the specific subject associated with: 'Who authored the classic 1894 Australian children's book Seven Little Australians'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ethel Turner is the essential answer for this question.",
+    "explanation": "Ethel Turner is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Ethel Turner is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6261,8 +6261,8 @@ export const ALL_QUESTIONS = [
       "Paul Gauguin"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Vincent van Gogh is the specific subject associated with: 'Which Dutch master painted 'The Starry Night' in 1889 while staying at Saint-R\u00e9my-de-Provence'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vincent van Gogh is the essential answer for this question.",
+    "explanation": "In arts lit, Vincent van Gogh is the exact answer for: 'Which Dutch master painted 'The Starry Night' in 1889 while staying at Saint-R\u00e9my-de-Provence'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Vincent van Gogh is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6276,8 +6276,8 @@ export const ALL_QUESTIONS = [
       "Sandro Botticelli"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Leonardo da Vinci is the specific subject associated with: 'Which Italian polymath painted the Mona Lisa and The Last Supper'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Leonardo da Vinci is the essential answer for this question.",
+    "explanation": "In arts lit, Leonardo da Vinci is the exact answer for: 'Which Italian polymath painted the Mona Lisa and The Last Supper'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Leonardo da Vinci is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6291,8 +6291,8 @@ export const ALL_QUESTIONS = [
       "Titian"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Michelangelo is the specific subject associated with: 'Which Renaissance master painted the ceiling of the Sistine Chapel between 1508 and 1512'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Michelangelo is the essential answer for this question.",
+    "explanation": "In arts lit, Michelangelo is the exact answer for: 'Which Renaissance master painted the ceiling of the Sistine Chapel between 1508 and 1512'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Michelangelo is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6306,8 +6306,8 @@ export const ALL_QUESTIONS = [
       "Edgar Degas"
     ],
     "answer": 0,
-    "explanation": "Claude Monet (1840\u20131926) was a founder of French Impressionist painting. His 1872 painting 'Impression, Sunrise' gave the movement its name.",
-    "tip": "\ud83d\udca1 **Giverny Garden:** Monet painted his famous 'Water Lilies' series in his personal garden at Giverny.",
+    "explanation": "In arts lit, Claude Monet is the exact answer for: 'Which French Impressionist master painted Impression, Sunrise in 1872, giving the movement its name'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Claude Monet is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6321,8 +6321,8 @@ export const ALL_QUESTIONS = [
       "Joan Mir\u00f3"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Salvador Dal\u00ed is the specific subject associated with: 'Which Surrealist master painted melting clocks in The Persistence of Memory (1931)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Salvador Dal\u00ed is the essential answer for this question.",
+    "explanation": "In arts lit, Salvador Dal\u00ed is the exact answer for: 'Which Surrealist master painted melting clocks in The Persistence of Memory (1931)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Salvador Dal\u00ed is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6336,8 +6336,8 @@ export const ALL_QUESTIONS = [
       "Joan Mir\u00f3"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Pablo Picasso is the specific subject associated with: 'Which Spanish cubist master painted the monumental anti-war canvas Guernica in 1937'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pablo Picasso is the essential answer for this question.",
+    "explanation": "In arts lit, Pablo Picasso is the exact answer for: 'Which Spanish cubist master painted the monumental anti-war canvas Guernica in 1937'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Pablo Picasso is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6351,8 +6351,8 @@ export const ALL_QUESTIONS = [
       "Albert Namatjira"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Sidney Nolan is the specific subject associated with: 'Which Australian artist painted the iconic 1940s Ned Kelly series of paintings'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sidney Nolan is the essential answer for this question.",
+    "explanation": "Sidney Nolan is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Sidney Nolan created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -6366,8 +6366,8 @@ export const ALL_QUESTIONS = [
       "Emily Kame Kngwarreye"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Albert Namatjira is the specific subject associated with: 'Which Indigenous watercolor artist painted renowned landscapes of the MacDonnell Ranges'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Albert Namatjira is the essential answer for this question.",
+    "explanation": "Albert Namatjira is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Albert Namatjira created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -6381,8 +6381,8 @@ export const ALL_QUESTIONS = [
       "Tom Roberts"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Brett Whiteley is the specific subject associated with: 'Which Sydney artist won the Archibald Prize twice and was famed for his sensuous Sydney Harbour paintings'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Brett Whiteley is the essential answer for this question.",
+    "explanation": "Brett Whiteley is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Brett Whiteley created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -6396,8 +6396,8 @@ export const ALL_QUESTIONS = [
       "Frederick McCubbin"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Tom Roberts is the specific subject associated with: 'Which Heidelberg School artist painted Shearing the Rams in 1890'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tom Roberts is the essential answer for this question.",
+    "explanation": "Tom Roberts is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Tom Roberts created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -6411,8 +6411,8 @@ export const ALL_QUESTIONS = [
       "Charles Conder"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Arthur Streeton is the specific subject associated with: 'Which Heidelberg School artist painted Golden Summer, Eaglemont in 1889'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Arthur Streeton is the essential answer for this question.",
+    "explanation": "Arthur Streeton is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Arthur Streeton created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -6426,8 +6426,8 @@ export const ALL_QUESTIONS = [
       "Walter Withers"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Frederick McCubbin is the specific subject associated with: 'Which Heidelberg School artist painted the historic triptych The Pioneer in 1904'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Frederick McCubbin is the essential answer for this question.",
+    "explanation": "Frederick McCubbin is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Frederick McCubbin created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -6441,8 +6441,8 @@ export const ALL_QUESTIONS = [
       "Joseph Haydn"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Wolfgang Amadeus Mozart is the specific subject associated with: 'Which Austrian prodigy composed The Magic Flute, Don Giovanni, and Symphony No. 40'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Wolfgang Amadeus Mozart is the essential answer for this question.",
+    "explanation": "In arts lit, Wolfgang Amadeus Mozart is the exact answer for: 'Which Austrian prodigy composed The Magic Flute, Don Giovanni, and Symphony No. 40'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Wolfgang Amadeus Mozart is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6456,8 +6456,8 @@ export const ALL_QUESTIONS = [
       "Richard Wagner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Ludwig van Beethoven is the specific subject associated with: 'Which German composer wrote nine symphonies, culminating in the Ode to Joy in his Ninth Symphony'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ludwig van Beethoven is the essential answer for this question.",
+    "explanation": "Ludwig van Beethoven is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Ludwig van Beethoven is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6471,8 +6471,8 @@ export const ALL_QUESTIONS = [
       "Vivaldi"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Johann Sebastian Bach is the specific subject associated with: 'Which Baroque master composed the Brandenburg Concertos and The Well-Tempered Clavier'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Johann Sebastian Bach is the essential answer for this question.",
+    "explanation": "In arts lit, Johann Sebastian Bach is the exact answer for: 'Which Baroque master composed the Brandenburg Concertos and The Well-Tempered Clavier'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Johann Sebastian Bach is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6486,8 +6486,8 @@ export const ALL_QUESTIONS = [
       "Scarlatti"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Antonio Vivaldi is the specific subject associated with: 'Which Italian Baroque composer composed the violin concerto suite The Four Seasons'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Antonio Vivaldi is the essential answer for this question.",
+    "explanation": "Antonio Vivaldi is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Antonio Vivaldi is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -6501,8 +6501,8 @@ export const ALL_QUESTIONS = [
       "Rimsky-Korsakov"
     ],
     "answer": 0,
-    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and rehearsals.",
-    "tip": "\ud83d\udca1 **Degas & Dancers:** Over half of all Degas' artworks feature ballet dancers!",
+    "explanation": "Pyotr Ilyich Tchaikovsky is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Pyotr Ilyich Tchaikovsky is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -6516,8 +6516,8 @@ export const ALL_QUESTIONS = [
       "Donizetti"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Giacomo Puccini is the specific subject associated with: 'Which Italian opera composer wrote La Boh\u00e8me, Tosca, and Madame Butterfly'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Giacomo Puccini is the essential answer for this question.",
+    "explanation": "Giacomo Puccini is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Giacomo Puccini is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6531,8 +6531,8 @@ export const ALL_QUESTIONS = [
       "Vincenzo Bellini"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Giuseppe Verdi is the specific subject associated with: 'Which Italian composer wrote the grand operas La Traviata, Rigoletto, and Aida'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Giuseppe Verdi is the essential answer for this question.",
+    "explanation": "Giuseppe Verdi is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Giuseppe Verdi is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6546,8 +6546,8 @@ export const ALL_QUESTIONS = [
       "Gustav Mahler"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Richard Wagner is the specific subject associated with: 'Which German opera composer created the epic four-opera cycle Der Ring des Nibelungen'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Richard Wagner is the essential answer for this question.",
+    "explanation": "In arts lit, Richard Wagner is the exact answer for: 'Which German opera composer created the epic four-opera cycle Der Ring des Nibelungen'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Richard Wagner is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6561,8 +6561,8 @@ export const ALL_QUESTIONS = [
       "George Eliot"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Jane Austen is the specific subject associated with: 'Who authored the classic 1813 romantic novel Pride and Prejudice'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jane Austen is the essential answer for this question.",
+    "explanation": "Jane Austen is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Jane Austen is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6576,8 +6576,8 @@ export const ALL_QUESTIONS = [
       "Jane Austen"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Charlotte Bront\u00eb is the specific subject associated with: 'Which Victorian author wrote Jane Eyre under the pen name Currer Bell'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Charlotte Bront\u00eb is the essential answer for this question.",
+    "explanation": "Charlotte Bront\u00eb is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Charlotte Bront\u00eb is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6591,8 +6591,8 @@ export const ALL_QUESTIONS = [
       "George Eliot"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Emily Bront\u00eb is the specific subject associated with: 'Which Victorian author wrote Wuthering Heights under the pen name Ellis Bell'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Emily Bront\u00eb is the essential answer for this question.",
+    "explanation": "Emily Bront\u00eb is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Emily Bront\u00eb is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6606,8 +6606,8 @@ export const ALL_QUESTIONS = [
       "Virginia Woolf"
     ],
     "answer": 0,
-    "explanation": "In arts lit, George Eliot (Mary Ann Evans) is the specific subject associated with: 'Which Victorian author wrote Middlemarch under the male pen name George Eliot'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** George Eliot (Mary Ann Evans) is the essential answer for this question.",
+    "explanation": "George Eliot (Mary Ann Evans) is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** George Eliot (Mary Ann Evans) is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6621,8 +6621,8 @@ export const ALL_QUESTIONS = [
       "Trollope"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Charles Dickens is the specific subject associated with: 'Which Victorian author created Oliver Twist, Ebenezer Scrooge, and Great Expectations'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Charles Dickens is the essential answer for this question.",
+    "explanation": "Charles Dickens is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Charles Dickens is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6636,8 +6636,8 @@ export const ALL_QUESTIONS = [
       "D.H. Lawrence"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Thomas Hardy is the specific subject associated with: 'Which English author wrote Tess of the d'Urbervilles and Far from the Madding Crowd'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thomas Hardy is the essential answer for this question.",
+    "explanation": "Thomas Hardy is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Thomas Hardy is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6651,8 +6651,8 @@ export const ALL_QUESTIONS = [
       "Arthur Koestler"
     ],
     "answer": 0,
-    "explanation": "In arts lit, George Orwell (Eric Blair) is the specific subject associated with: 'Which English author wrote the dystopian classics Nineteen Eighty-Four and Animal Farm'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** George Orwell (Eric Blair) is the essential answer for this question.",
+    "explanation": "George Orwell (Eric Blair) is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** George Orwell (Eric Blair) is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6666,8 +6666,8 @@ export const ALL_QUESTIONS = [
       "John Steinbeck"
     ],
     "answer": 0,
-    "explanation": "In arts lit, F. Scott Fitzgerald is the specific subject associated with: 'Which American author wrote Jazz Age masterpiece The Great Gatsby in 1925'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** F. Scott Fitzgerald is the essential answer for this question.",
+    "explanation": "F. Scott Fitzgerald is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** F. Scott Fitzgerald is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6681,8 +6681,8 @@ export const ALL_QUESTIONS = [
       "William Faulkner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Ernest Hemingway is the specific subject associated with: 'Which American author wrote The Old Man and the Sea and For Whom the Bell Tolls'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ernest Hemingway is the essential answer for this question.",
+    "explanation": "Ernest Hemingway is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Ernest Hemingway is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -6696,8 +6696,8 @@ export const ALL_QUESTIONS = [
       "Harper Lee"
     ],
     "answer": 0,
-    "explanation": "In arts lit, John Steinbeck is the specific subject associated with: 'Which Nobel literature laureate wrote The Grapes of Wrath and Of Mice and Men'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** John Steinbeck is the essential answer for this question.",
+    "explanation": "John Steinbeck is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** John Steinbeck is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6711,8 +6711,8 @@ export const ALL_QUESTIONS = [
       "Flannery O'Connor"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Harper Lee is the specific subject associated with: 'Which Southern author wrote the Pulitzer-winning novel To Kill a Mockingbird'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Harper Lee is the essential answer for this question.",
+    "explanation": "Harper Lee is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Harper Lee is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6726,8 +6726,8 @@ export const ALL_QUESTIONS = [
       "Ivan Turgenev"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Leo Tolstoy is the specific subject associated with: 'Which Russian literary giant wrote War and Peace and Anna Karenina'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Leo Tolstoy is the essential answer for this question.",
+    "explanation": "Leo Tolstoy is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Leo Tolstoy is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6741,8 +6741,8 @@ export const ALL_QUESTIONS = [
       "Ivan Turgenev"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Fyodor Dostoevsky is the specific subject associated with: 'Which Russian novelist wrote Crime and Punishment and The Brothers Karamazov'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fyodor Dostoevsky is the essential answer for this question.",
+    "explanation": "Fyodor Dostoevsky is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Fyodor Dostoevsky is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6756,8 +6756,8 @@ export const ALL_QUESTIONS = [
       "W.B. Yeats"
     ],
     "answer": 0,
-    "explanation": "In arts lit, James Joyce is the specific subject associated with: 'Which Irish modernist author wrote the groundbreaking 1922 novel Ulysses'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** James Joyce is the essential answer for this question.",
+    "explanation": "James Joyce is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** James Joyce is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6771,8 +6771,8 @@ export const ALL_QUESTIONS = [
       "J.M. Synge"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Oscar Wilde is the specific subject associated with: 'Which Irish playwright wrote The Importance of Being Earnest and The Picture of Dorian Gray'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Oscar Wilde is the essential answer for this question.",
+    "explanation": "Oscar Wilde is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Oscar Wilde is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6786,8 +6786,8 @@ export const ALL_QUESTIONS = [
       "Seamus Heaney"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Samuel Beckett is the specific subject associated with: 'Which Irish playwright wrote the absurdist masterwork Waiting for Godot'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Samuel Beckett is the essential answer for this question.",
+    "explanation": "Samuel Beckett is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Samuel Beckett is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6801,8 +6801,8 @@ export const ALL_QUESTIONS = [
       "\u00c9mile Zola"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Victor Hugo is the specific subject associated with: 'Which French author wrote Les Mis\u00e9rables and The Hunchback of Notre-Dame'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Victor Hugo is the essential answer for this question.",
+    "explanation": "Victor Hugo is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Victor Hugo is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6816,8 +6816,8 @@ export const ALL_QUESTIONS = [
       "Jules Verne"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Alexandre Dumas is the specific subject associated with: 'Which French author wrote The Count of Monte Cristo and The Three Musketeers'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Alexandre Dumas is the essential answer for this question.",
+    "explanation": "Alexandre Dumas is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Alexandre Dumas is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6831,8 +6831,8 @@ export const ALL_QUESTIONS = [
       "Maupassant"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Gustave Flaubert is the specific subject associated with: 'Which French novelist wrote the 1856 realist masterpiece Madame Bovary'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gustave Flaubert is the essential answer for this question.",
+    "explanation": "Gustave Flaubert is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Gustave Flaubert is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6846,8 +6846,8 @@ export const ALL_QUESTIONS = [
       "Jean-Paul Sartre"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Marcel Proust is the specific subject associated with: 'Which French author wrote the seven-volume epic In Search of Lost Time'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Marcel Proust is the essential answer for this question.",
+    "explanation": "Marcel Proust is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Marcel Proust is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -6861,8 +6861,8 @@ export const ALL_QUESTIONS = [
       "Andr\u00e9 Gide"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Albert Camus is the specific subject associated with: 'Which French-Algerian existentialist author wrote The Stranger (L'\u00c9tranger) and The Plague'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Albert Camus is the essential answer for this question.",
+    "explanation": "Albert Camus is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Albert Camus is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6876,8 +6876,8 @@ export const ALL_QUESTIONS = [
       "Borges"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Miguel de Cervantes is the specific subject associated with: 'Which Spanish author wrote the two-part masterpiece Don Quixote (1605/1615)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Miguel de Cervantes is the essential answer for this question.",
+    "explanation": "Miguel de Cervantes is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Miguel de Cervantes is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6891,8 +6891,8 @@ export const ALL_QUESTIONS = [
       "Neruda"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Gabriel Garc\u00eda M\u00e1rquez is the specific subject associated with: 'Which Colombian Nobel literature laureate wrote One Hundred Years of Solitude'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gabriel Garc\u00eda M\u00e1rquez is the essential answer for this question.",
+    "explanation": "Gabriel Garc\u00eda M\u00e1rquez is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Gabriel Garc\u00eda M\u00e1rquez is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6906,8 +6906,8 @@ export const ALL_QUESTIONS = [
       "Borges"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Pablo Neruda is the specific subject associated with: 'Which Chilean Nobel laureate poet wrote Twenty Love Poems and a Song of Despair'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pablo Neruda is the essential answer for this question.",
+    "explanation": "Pablo Neruda is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Pablo Neruda is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6921,8 +6921,8 @@ export const ALL_QUESTIONS = [
       "Alexander Pope"
     ],
     "answer": 0,
-    "explanation": "In arts lit, John Milton is the specific subject associated with: 'Which English epic poet wrote Paradise Lost in 1667'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** John Milton is the essential answer for this question.",
+    "explanation": "John Milton is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** John Milton is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6936,8 +6936,8 @@ export const ALL_QUESTIONS = [
       "Thomas Malory"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Geoffrey Chaucer is the specific subject associated with: 'Which 14th-century poet authored The Canterbury Tales in Middle English'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Geoffrey Chaucer is the essential answer for this question.",
+    "explanation": "Geoffrey Chaucer is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Geoffrey Chaucer is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6951,8 +6951,8 @@ export const ALL_QUESTIONS = [
       "Tasso"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Dante Alighieri is the specific subject associated with: 'Which Italian medieval poet wrote the epic three-part Divine Comedy'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dante Alighieri is the essential answer for this question.",
+    "explanation": "Dante Alighieri is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Dante Alighieri is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6966,8 +6966,8 @@ export const ALL_QUESTIONS = [
       "Homer"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Virgil is the specific subject associated with: 'Which Roman poet acts as Dante's guide through Hell in the Inferno'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Virgil is the essential answer for this question.",
+    "explanation": "In arts lit, Virgil is the exact answer for: 'Which Roman poet acts as Dante's guide through Hell in the Inferno'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Virgil is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6981,8 +6981,8 @@ export const ALL_QUESTIONS = [
       "Lucretius"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Virgil is the specific subject associated with: 'Which Roman poet authored the epic national foundation poem The Aeneid'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Virgil is the essential answer for this question.",
+    "explanation": "Virgil is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Virgil is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -6996,8 +6996,8 @@ export const ALL_QUESTIONS = [
       "Catullus"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Ovid is the specific subject associated with: 'Which Roman poet authored Metamorphoses, detailing mythological transformations'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ovid is the essential answer for this question.",
+    "explanation": "Ovid is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Ovid is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7011,8 +7011,8 @@ export const ALL_QUESTIONS = [
       "Sappho"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Homer is the specific subject associated with: 'Which ancient Greek epic poet is credited with composing the Iliad and Odyssey'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Homer is the essential answer for this question.",
+    "explanation": "In arts lit, Homer is the exact answer for: 'Which ancient Greek epic poet is credited with composing the Iliad and Odyssey'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Homer is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7026,8 +7026,8 @@ export const ALL_QUESTIONS = [
       "Telesilla"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Sappho is the specific subject associated with: 'Which ancient Greek lyric poetess lived on the island of Lesbos'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sappho is the essential answer for this question.",
+    "explanation": "In arts lit, Sappho is the exact answer for: 'Which ancient Greek lyric poetess lived on the island of Lesbos'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Sappho is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7041,8 +7041,8 @@ export const ALL_QUESTIONS = [
       "Cellini"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Michelangelo is the specific subject associated with: 'Which Renaissance sculptor carved the iconic marble statue of David in Florence'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Michelangelo is the essential answer for this question.",
+    "explanation": "In arts lit, Michelangelo is the exact answer for: 'Which Renaissance sculptor carved the iconic marble statue of David in Florence'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Michelangelo is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7056,8 +7056,8 @@ export const ALL_QUESTIONS = [
       "Maillol"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Auguste Rodin is the specific subject associated with: 'Which French sculptor created the famous bronze statue The Thinker'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Auguste Rodin is the essential answer for this question.",
+    "explanation": "In arts lit, Auguste Rodin is the exact answer for: 'Which French sculptor created the famous bronze statue The Thinker'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Auguste Rodin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7071,8 +7071,8 @@ export const ALL_QUESTIONS = [
       "Artemision Bronze"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Venus de Milo is the specific subject associated with: 'Which famous ancient Greek marble sculpture of Aphrodite is housed in the Louvre Museum'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Venus de Milo is the essential answer for this question.",
+    "explanation": "Venus de Milo is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Venus de Milo created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7086,8 +7086,8 @@ export const ALL_QUESTIONS = [
       "Peplos Kore"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Winged Victory of Samothrace is the specific subject associated with: 'Which ancient Hellenistic marble sculpture depicting Nike is displayed at the top of the Louvre staircase'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Winged Victory of Samothrace is the essential answer for this question.",
+    "explanation": "Winged Victory of Samothrace is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Winged Victory of Samothrace is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7101,8 +7101,8 @@ export const ALL_QUESTIONS = [
       "Jan Steen"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Rembrandt van Rijn is the specific subject associated with: 'Which Dutch Golden Age master painted The Night Watch in 1642'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rembrandt van Rijn is the essential answer for this question.",
+    "explanation": "In arts lit, Rembrandt van Rijn is the exact answer for: 'Which Dutch Golden Age master painted The Night Watch in 1642'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Rembrandt van Rijn is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7116,8 +7116,8 @@ export const ALL_QUESTIONS = [
       "Pieter de Hooch"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Johannes Vermeer is the specific subject associated with: 'Which Dutch Golden Age master painted Girl with a Pearl Earring'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Johannes Vermeer is the essential answer for this question.",
+    "explanation": "In arts lit, Johannes Vermeer is the exact answer for: 'Which Dutch Golden Age master painted Girl with a Pearl Earring'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Johannes Vermeer is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7131,8 +7131,8 @@ export const ALL_QUESTIONS = [
       "James Ensor"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Edvard Munch is the specific subject associated with: 'Which Expressionist painter created the famous 1893 artwork The Scream'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Edvard Munch is the essential answer for this question.",
+    "explanation": "Edvard Munch is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Edvard Munch created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7146,8 +7146,8 @@ export const ALL_QUESTIONS = [
       "Max Kurzweil"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Gustav Klimt is the specific subject associated with: 'Which Austrian Symbolist master painted the golden canvas The Kiss (1907-08)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gustav Klimt is the essential answer for this question.",
+    "explanation": "Gustav Klimt is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember Gustav Klimt for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -7161,8 +7161,8 @@ export const ALL_QUESTIONS = [
       "Camille Pissarro"
     ],
     "answer": 0,
-    "explanation": "Claude Monet (1840\u20131926) was a founder of French Impressionist painting. His 1872 painting 'Impression, Sunrise' gave the movement its name.",
-    "tip": "\ud83d\udca1 **Giverny Garden:** Monet painted his famous 'Water Lilies' series in his personal garden at Giverny.",
+    "explanation": "In arts lit, Claude Monet is the exact answer for: 'Which Impressionist master painted the Water Lilies series at his Giverny garden'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Claude Monet is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7176,8 +7176,8 @@ export const ALL_QUESTIONS = [
       "Paul C\u00e9zanne"
     ],
     "answer": 0,
-    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and rehearsals.",
-    "tip": "\ud83d\udca1 **Degas & Dancers:** Over half of all Degas' artworks feature ballet dancers!",
+    "explanation": "Edgar Degas is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Edgar Degas created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7191,8 +7191,8 @@ export const ALL_QUESTIONS = [
       "Georges Seurat"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Paul Gauguin is the specific subject associated with: 'Which Post-Impressionist master lived and painted in Tahiti during his later life'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Paul Gauguin is the essential answer for this question.",
+    "explanation": "In arts lit, Paul Gauguin is the exact answer for: 'Which Post-Impressionist master lived and painted in Tahiti during his later life'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Paul Gauguin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7206,8 +7206,8 @@ export const ALL_QUESTIONS = [
       "Henri de Toulouse-Lautrec"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Georges Seurat is the specific subject associated with: 'Which French painter developed the technique of Pointillism, seen in A Sunday on La Grande Jatte'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Georges Seurat is the essential answer for this question.",
+    "explanation": "Georges Seurat is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Georges Seurat created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7221,8 +7221,8 @@ export const ALL_QUESTIONS = [
       "Henri Matisse"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Paul C\u00e9zanne is the specific subject associated with: 'Which French Post-Impressionist painter is widely considered the 'Father of Modern Art''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Paul C\u00e9zanne is the essential answer for this question.",
+    "explanation": "Paul C\u00e9zanne is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Paul C\u00e9zanne created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7236,8 +7236,8 @@ export const ALL_QUESTIONS = [
       "Raoul Dufy"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Henri Matisse is the specific subject associated with: 'Which French master led the Fauvism movement and created expressive paper cut-outs in later life'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Henri Matisse is the essential answer for this question.",
+    "explanation": "In arts lit, Henri Matisse is the exact answer for: 'Which French master led the Fauvism movement and created expressive paper cut-outs in later life'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Henri Matisse is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7251,8 +7251,8 @@ export const ALL_QUESTIONS = [
       "Leonora Carrington"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Frida Kahlo is the specific subject associated with: 'Which Mexican painter is internationally celebrated for her uncompromising self-portraits'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Frida Kahlo is the essential answer for this question.",
+    "explanation": "Frida Kahlo is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Frida Kahlo created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7266,8 +7266,8 @@ export const ALL_QUESTIONS = [
       "Claes Oldenburg"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Andy Warhol is the specific subject associated with: 'Which Pop Art icon created Campbell's Soup Cans and Marilyn Diptych'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Andy Warhol is the essential answer for this question.",
+    "explanation": "In arts lit, Andy Warhol is the exact answer for: 'Which Pop Art icon created Campbell's Soup Cans and Marilyn Diptych'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Andy Warhol is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7281,8 +7281,8 @@ export const ALL_QUESTIONS = [
       "Jean-Michel Basquiat"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Roy Lichtenstein is the specific subject associated with: 'Which Pop Art pioneer used comic strip Ben-Day dots in paintings like Whaam!'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Roy Lichtenstein is the essential answer for this question.",
+    "explanation": "Roy Lichtenstein is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Roy Lichtenstein created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7296,8 +7296,8 @@ export const ALL_QUESTIONS = [
       "Franz Kline"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Jackson Pollock is the specific subject associated with: 'Which Abstract Expressionist painter pioneered the drip painting technique'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jackson Pollock is the essential answer for this question.",
+    "explanation": "Jackson Pollock is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Jackson Pollock created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7311,8 +7311,8 @@ export const ALL_QUESTIONS = [
       "Franz Kline"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Mark Rothko is the specific subject associated with: 'Which Abstract Expressionist painter created large color-field canvases of stacked rectangular hues'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mark Rothko is the essential answer for this question.",
+    "explanation": "Mark Rothko is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Mark Rothko created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7326,8 +7326,8 @@ export const ALL_QUESTIONS = [
       "Damien Hirst"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Henry Moore is the specific subject associated with: 'Which British modernist sculptor created large abstract reclining bronze figures'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Henry Moore is the essential answer for this question.",
+    "explanation": "In arts lit, Henry Moore is the exact answer for: 'Which British modernist sculptor created large abstract reclining bronze figures'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Henry Moore is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7341,8 +7341,8 @@ export const ALL_QUESTIONS = [
       "Anish Kapoor"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Damien Hirst is the specific subject associated with: 'Which Young British Artist created The Physical Impossibility of Death in the Mind of Someone Living (a shark in formaldehyde)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Damien Hirst is the essential answer for this question.",
+    "explanation": "Damien Hirst is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Damien Hirst created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7356,8 +7356,8 @@ export const ALL_QUESTIONS = [
       "Blek le Rat"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Banksy is the specific subject associated with: 'Which anonymous street artist created Girl with Balloon and shredded it live at auction'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Banksy is the essential answer for this question.",
+    "explanation": "Banksy is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Banksy created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -7371,8 +7371,8 @@ export const ALL_QUESTIONS = [
       "Lohengrin"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Fidelio is the specific subject associated with: 'What is Ludwig van Beethoven's only opera'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fidelio is the essential answer for this question.",
+    "explanation": "In arts lit, Fidelio is the exact answer for: 'What is Ludwig van Beethoven's only opera'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Fidelio is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7386,8 +7386,8 @@ export const ALL_QUESTIONS = [
       "Johannes Brahms"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Felix Mendelssohn is the specific subject associated with: 'Which Romantic composer wrote the Wedding March in A Midsummer Night's Dream'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Felix Mendelssohn is the essential answer for this question.",
+    "explanation": "Felix Mendelssohn is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Felix Mendelssohn is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7401,8 +7401,8 @@ export const ALL_QUESTIONS = [
       "Franz Liszt"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Richard Wagner is the specific subject associated with: 'Which composer wrote the Bridal Chorus ('Here Comes the Bride') in the opera Lohengrin'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Richard Wagner is the essential answer for this question.",
+    "explanation": "Richard Wagner is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Richard Wagner is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7416,8 +7416,8 @@ export const ALL_QUESTIONS = [
       "Schumann"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Fr\u00e9d\u00e9ric Chopin is the specific subject associated with: 'Which Polish-French virtuoso pianist was known as the 'Poet of the Piano''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fr\u00e9d\u00e9ric Chopin is the essential answer for this question.",
+    "explanation": "In arts lit, Fr\u00e9d\u00e9ric Chopin is the exact answer for: 'Which Polish-French virtuoso pianist was known as the 'Poet of the Piano''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Fr\u00e9d\u00e9ric Chopin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7431,8 +7431,8 @@ export const ALL_QUESTIONS = [
       "Zolt\u00e1n Kod\u00e1ly"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Franz Liszt is the specific subject associated with: 'Which Hungarian composer wrote the Hungarian Rhapsodies for solo piano'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Franz Liszt is the essential answer for this question.",
+    "explanation": "Franz Liszt is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Franz Liszt is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7446,8 +7446,8 @@ export const ALL_QUESTIONS = [
       "Franz Leh\u00e1r"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Johann Strauss II is the specific subject associated with: 'Which Austrian composer was crowned 'The Waltz King' for composing The Blue Danube'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Johann Strauss II is the essential answer for this question.",
+    "explanation": "In arts lit, Johann Strauss II is the exact answer for: 'Which Austrian composer was crowned 'The Waltz King' for composing The Blue Danube'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Johann Strauss II is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7461,8 +7461,8 @@ export const ALL_QUESTIONS = [
       "Bohuslav Martin\u016f"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Anton\u00edn Dvo\u0159\u00e1k is the specific subject associated with: 'Which Czech composer composed the Ninth Symphony ('From the New World') while in America'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Anton\u00edn Dvo\u0159\u00e1k is the essential answer for this question.",
+    "explanation": "In arts lit, Anton\u00edn Dvo\u0159\u00e1k is the exact answer for: 'Which Czech composer composed the Ninth Symphony ('From the New World') while in America'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Anton\u00edn Dvo\u0159\u00e1k is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7476,8 +7476,8 @@ export const ALL_QUESTIONS = [
       "Modest Mussorgsky"
     ],
     "answer": 0,
-    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and rehearsals.",
-    "tip": "\ud83d\udca1 **Degas & Dancers:** Over half of all Degas' artworks feature ballet dancers!",
+    "explanation": "Igor Stravinsky is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Igor Stravinsky is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7491,8 +7491,8 @@ export const ALL_QUESTIONS = [
       "Aram Khachaturian"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Sergei Prokofiev is the specific subject associated with: 'Which Russian composer wrote the children's musical story Peter and the Wolf'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sergei Prokofiev is the essential answer for this question.",
+    "explanation": "Sergei Prokofiev is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Sergei Prokofiev is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7506,8 +7506,8 @@ export const ALL_QUESTIONS = [
       "Sean O'Casey"
     ],
     "answer": 0,
-    "explanation": "In arts lit, George Bernard Shaw is the specific subject associated with: 'Which Irish playwright wrote Pygmalion, adapted into the musical My Fair Lady'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** George Bernard Shaw is the essential answer for this question.",
+    "explanation": "George Bernard Shaw is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** George Bernard Shaw is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7521,8 +7521,8 @@ export const ALL_QUESTIONS = [
       "Edward Albee"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Arthur Miller is the specific subject associated with: 'Which American playwright wrote Death of a Salesman and The Crucible'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Arthur Miller is the essential answer for this question.",
+    "explanation": "Arthur Miller is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Arthur Miller is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7536,8 +7536,8 @@ export const ALL_QUESTIONS = [
       "Thornton Wilder"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Tennessee Williams is the specific subject associated with: 'Which American playwright wrote A Streetcar Named Desire and Cat on a Hot Tin Roof'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tennessee Williams is the essential answer for this question.",
+    "explanation": "Tennessee Williams is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Tennessee Williams is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7551,8 +7551,8 @@ export const ALL_QUESTIONS = [
       "David Mamet"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Eugene O'Neill is the specific subject associated with: 'Which Nobel literature laureate wrote Long Day's Journey into Night'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Eugene O'Neill is the essential answer for this question.",
+    "explanation": "Eugene O'Neill is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Eugene O'Neill is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7566,8 +7566,8 @@ export const ALL_QUESTIONS = [
       "August Wilson"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Edward Albee is the specific subject associated with: 'Which American playwright wrote Who's Afraid of Virginia Woolf'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Edward Albee is the essential answer for this question.",
+    "explanation": "Edward Albee is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Edward Albee is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7581,8 +7581,8 @@ export const ALL_QUESTIONS = [
       "Suzan-Lori Parks"
     ],
     "answer": 0,
-    "explanation": "In arts lit, August Wilson is the specific subject associated with: 'Which African-American playwright wrote Fences and the ten-play Pittsburgh Cycle'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** August Wilson is the essential answer for this question.",
+    "explanation": "August Wilson is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** August Wilson is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7596,8 +7596,8 @@ export const ALL_QUESTIONS = [
       "Beaumarchais"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Moli\u00e8re is the specific subject associated with: 'Which French classical playwright wrote Tartuffe and The Misanthrope'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Moli\u00e8re is the essential answer for this question.",
+    "explanation": "Moli\u00e8re is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Moli\u00e8re is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7611,8 +7611,8 @@ export const ALL_QUESTIONS = [
       "Victor Hugo"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Edmond Rostand is the specific subject associated with: 'Which French playwright wrote the 1897 verse play Cyrano de Bergerac'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Edmond Rostand is the essential answer for this question.",
+    "explanation": "Edmond Rostand is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Edmond Rostand is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7626,8 +7626,8 @@ export const ALL_QUESTIONS = [
       "Knut Hamsun"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Henrik Ibsen is the specific subject associated with: 'Which Norwegian playwright is considered the Father of Realism for plays like A Doll's House'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Henrik Ibsen is the essential answer for this question.",
+    "explanation": "Henrik Ibsen is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Henrik Ibsen is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7641,8 +7641,8 @@ export const ALL_QUESTIONS = [
       "Ingmar Bergman"
     ],
     "answer": 0,
-    "explanation": "In arts lit, August Strindberg is the specific subject associated with: 'Which Swedish playwright wrote the naturalistic tragedy Miss Julie'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** August Strindberg is the essential answer for this question.",
+    "explanation": "August Strindberg is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** August Strindberg is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7656,8 +7656,8 @@ export const ALL_QUESTIONS = [
       "Nikolai Gogol"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Anton Chekhov is the specific subject associated with: 'Which Russian dramatist wrote The Cherry Orchard, Uncle Vanya, and The Seagull'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Anton Chekhov is the essential answer for this question.",
+    "explanation": "Anton Chekhov is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Anton Chekhov is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -7671,8 +7671,8 @@ export const ALL_QUESTIONS = [
       "Alexander Griboyedov"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Nikolai Gogol is the specific subject associated with: 'Which Russian author wrote the satirical play The Inspector General'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nikolai Gogol is the essential answer for this question.",
+    "explanation": "Nikolai Gogol is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Nikolai Gogol is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7686,8 +7686,8 @@ export const ALL_QUESTIONS = [
       "Aristophanes"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Sophocles is the specific subject associated with: 'Which ancient Greek dramatist wrote Oedipus Rex and Antigone'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sophocles is the essential answer for this question.",
+    "explanation": "Sophocles is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Sophocles is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7701,8 +7701,8 @@ export const ALL_QUESTIONS = [
       "Aristophanes"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Aeschylus is the specific subject associated with: 'Which ancient Greek dramatist is known as the Father of Tragedy for works like The Oresteia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aeschylus is the essential answer for this question.",
+    "explanation": "In arts lit, Aeschylus is the exact answer for: 'Which ancient Greek dramatist is known as the Father of Tragedy for works like The Oresteia'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Aeschylus is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7716,8 +7716,8 @@ export const ALL_QUESTIONS = [
       "Aristophanes"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Euripides is the specific subject associated with: 'Which ancient Greek tragedian wrote Medea, Electra, and The Bacchae'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Euripides is the essential answer for this question.",
+    "explanation": "Euripides is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Euripides is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7731,8 +7731,8 @@ export const ALL_QUESTIONS = [
       "Plautus"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Aristophanes is the specific subject associated with: 'Which ancient Greek comic playwright wrote Lysistrata and The Clouds'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aristophanes is the essential answer for this question.",
+    "explanation": "Aristophanes is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Aristophanes is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7746,8 +7746,8 @@ export const ALL_QUESTIONS = [
       "Masaoka Shiki"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Matsuo Bash\u014d is the specific subject associated with: 'Who wrote the epic 17th-century Japanese haiku masterpiece Narrow Road to the Deep North'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Matsuo Bash\u014d is the essential answer for this question.",
+    "explanation": "Matsuo Bash\u014d is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Matsuo Bash\u014d is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7761,8 +7761,8 @@ export const ALL_QUESTIONS = [
       "Ono no Komachi"
     ],
     "answer": 0,
-    "explanation": "In arts lit, Murasaki Shikibu is the specific subject associated with: 'Which 11th-century Japanese noblewoman wrote The Tale of Genji, considered the world's first novel'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Murasaki Shikibu is the essential answer for this question.",
+    "explanation": "Murasaki Shikibu is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Murasaki Shikibu is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -7776,8 +7776,8 @@ export const ALL_QUESTIONS = [
       "A pod"
     ],
     "answer": 0,
-    "explanation": "In language, A parliament is the specific subject associated with: 'What is the traditional collective noun for a group of owls'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A parliament is the essential answer for this question.",
+    "explanation": "In language, A parliament is the exact answer for: 'What is the traditional collective noun for a group of owls'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A parliament is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7791,8 +7791,8 @@ export const ALL_QUESTIONS = [
       "A mob"
     ],
     "answer": 0,
-    "explanation": "In language, A murder is the specific subject associated with: 'What is the traditional collective noun for a group of crows'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A murder is the essential answer for this question.",
+    "explanation": "In language, A murder is the exact answer for: 'What is the traditional collective noun for a group of crows'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A murder is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7806,8 +7806,8 @@ export const ALL_QUESTIONS = [
       "A flock"
     ],
     "answer": 0,
-    "explanation": "In language, An unkindness is the specific subject associated with: 'What is the traditional collective noun for a group of ravens'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** An unkindness is the essential answer for this question.",
+    "explanation": "In language, An unkindness is the exact answer for: 'What is the traditional collective noun for a group of ravens'.",
+    "tip": "\ud83d\udca1 **Key Recall:** An unkindness is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7821,8 +7821,8 @@ export const ALL_QUESTIONS = [
       "A colony"
     ],
     "answer": 0,
-    "explanation": "In language, A flamboyance is the specific subject associated with: 'What is the traditional collective noun for a group of flamingos'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A flamboyance is the essential answer for this question.",
+    "explanation": "In language, A flamboyance is the exact answer for: 'What is the traditional collective noun for a group of flamingos'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A flamboyance is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7836,8 +7836,8 @@ export const ALL_QUESTIONS = [
       "A flight"
     ],
     "answer": 0,
-    "explanation": "In language, A tower is the specific subject associated with: 'What is the traditional collective noun for a group of giraffes'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A tower is the essential answer for this question.",
+    "explanation": "In language, A tower is the exact answer for: 'What is the traditional collective noun for a group of giraffes'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A tower is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7851,8 +7851,8 @@ export const ALL_QUESTIONS = [
       "A thundering"
     ],
     "answer": 0,
-    "explanation": "In language, A crash is the specific subject associated with: 'What is the traditional collective noun for a group of rhinoceroses'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A crash is the essential answer for this question.",
+    "explanation": "In language, A crash is the exact answer for: 'What is the traditional collective noun for a group of rhinoceroses'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A crash is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7866,8 +7866,8 @@ export const ALL_QUESTIONS = [
       "A nest"
     ],
     "answer": 0,
-    "explanation": "In language, A prickle is the specific subject associated with: 'What is the traditional collective noun for a group of hedgehogs'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A prickle is the essential answer for this question.",
+    "explanation": "In language, A prickle is the exact answer for: 'What is the traditional collective noun for a group of hedgehogs'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A prickle is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7881,8 +7881,8 @@ export const ALL_QUESTIONS = [
       "A swarm"
     ],
     "answer": 0,
-    "explanation": "In language, A smack is the specific subject associated with: 'What is the traditional collective noun for a group of jellyfish'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A smack is the essential answer for this question.",
+    "explanation": "In language, A smack is the exact answer for: 'What is the traditional collective noun for a group of jellyfish'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A smack is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7896,8 +7896,8 @@ export const ALL_QUESTIONS = [
       "A scamper"
     ],
     "answer": 0,
-    "explanation": "In language, A business is the specific subject associated with: 'What is the traditional collective noun for a group of ferrets'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A business is the essential answer for this question.",
+    "explanation": "In language, A business is the exact answer for: 'What is the traditional collective noun for a group of ferrets'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A business is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7911,8 +7911,8 @@ export const ALL_QUESTIONS = [
       "A den"
     ],
     "answer": 0,
-    "explanation": "In language, A skulk is the specific subject associated with: 'What is the traditional collective noun for a group of foxes'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A skulk is the essential answer for this question.",
+    "explanation": "In language, A skulk is the exact answer for: 'What is the traditional collective noun for a group of foxes'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A skulk is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7926,8 +7926,8 @@ export const ALL_QUESTIONS = [
       "A flock"
     ],
     "answer": 0,
-    "explanation": "In language, A gaggle is the specific subject associated with: 'What is the traditional collective noun for a group of geese on land'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A gaggle is the essential answer for this question.",
+    "explanation": "In language, A gaggle is the exact answer for: 'What is the traditional collective noun for a group of geese on land'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A gaggle is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7941,8 +7941,8 @@ export const ALL_QUESTIONS = [
       "A V-shape"
     ],
     "answer": 0,
-    "explanation": "In language, A skein is the specific subject associated with: 'What is the traditional collective noun for a group of geese in flight'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A skein is the essential answer for this question.",
+    "explanation": "In language, A skein is the exact answer for: 'What is the traditional collective noun for a group of geese in flight'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A skein is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7956,8 +7956,8 @@ export const ALL_QUESTIONS = [
       "A family"
     ],
     "answer": 0,
-    "explanation": "In language, A pod is the specific subject associated with: 'What is the traditional collective noun for a group of whales'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A pod is the essential answer for this question.",
+    "explanation": "In language, A pod is the exact answer for: 'What is the traditional collective noun for a group of whales'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A pod is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7971,8 +7971,8 @@ export const ALL_QUESTIONS = [
       "A pack"
     ],
     "answer": 0,
-    "explanation": "In language, A pod is the specific subject associated with: 'What is the traditional collective noun for a group of dolphins'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A pod is the essential answer for this question.",
+    "explanation": "In language, A pod is the exact answer for: 'What is the traditional collective noun for a group of dolphins'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A pod is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7986,8 +7986,8 @@ export const ALL_QUESTIONS = [
       "A troop"
     ],
     "answer": 0,
-    "explanation": "In language, A pride is the specific subject associated with: 'What is the traditional collective noun for a group of lions'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A pride is the essential answer for this question.",
+    "explanation": "In language, A pride is the exact answer for: 'What is the traditional collective noun for a group of lions'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A pride is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8001,8 +8001,8 @@ export const ALL_QUESTIONS = [
       "A stealth"
     ],
     "answer": 0,
-    "explanation": "In language, A leap is the specific subject associated with: 'What is the traditional collective noun for a group of leopards'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A leap is the essential answer for this question.",
+    "explanation": "In language, A leap is the exact answer for: 'What is the traditional collective noun for a group of leopards'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A leap is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8016,8 +8016,8 @@ export const ALL_QUESTIONS = [
       "A band"
     ],
     "answer": 0,
-    "explanation": "In language, A troop is the specific subject associated with: 'What is the traditional collective noun for a group of monkeys'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A troop is the essential answer for this question.",
+    "explanation": "In language, A troop is the exact answer for: 'What is the traditional collective noun for a group of monkeys'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A troop is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8031,8 +8031,8 @@ export const ALL_QUESTIONS = [
       "A herd"
     ],
     "answer": 0,
-    "explanation": "In language, A mob is the specific subject associated with: 'What is the traditional collective noun for a group of kangaroos'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A mob is the essential answer for this question.",
+    "explanation": "In language, A mob is the exact answer for: 'What is the traditional collective noun for a group of kangaroos'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A mob is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8046,8 +8046,8 @@ export const ALL_QUESTIONS = [
       "A gang"
     ],
     "answer": 0,
-    "explanation": "In language, A mob is the specific subject associated with: 'What is the traditional collective noun for a group of emus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A mob is the essential answer for this question.",
+    "explanation": "In language, A mob is the exact answer for: 'What is the traditional collective noun for a group of emus'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A mob is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8061,8 +8061,8 @@ export const ALL_QUESTIONS = [
       "A heavy"
     ],
     "answer": 0,
-    "explanation": "In language, A wisdom is the specific subject associated with: 'What is the traditional collective noun for a group of wombats'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A wisdom is the essential answer for this question.",
+    "explanation": "In language, A wisdom is the exact answer for: 'What is the traditional collective noun for a group of wombats'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A wisdom is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8076,8 +8076,8 @@ export const ALL_QUESTIONS = [
       "A chatter"
     ],
     "answer": 0,
-    "explanation": "In language, An exaltation is the specific subject associated with: 'What is the traditional collective noun for a group of larks'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** An exaltation is the essential answer for this question.",
+    "explanation": "In language, An exaltation is the exact answer for: 'What is the traditional collective noun for a group of larks'.",
+    "tip": "\ud83d\udca1 **Key Recall:** An exaltation is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8091,8 +8091,8 @@ export const ALL_QUESTIONS = [
       "A flock"
     ],
     "answer": 0,
-    "explanation": "In language, A murmuration is the specific subject associated with: 'What is the traditional collective noun for a group of starlings in flight'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A murmuration is the essential answer for this question.",
+    "explanation": "In language, A murmuration is the exact answer for: 'What is the traditional collective noun for a group of starlings in flight'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A murmuration is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8106,8 +8106,8 @@ export const ALL_QUESTIONS = [
       "A feathering"
     ],
     "answer": 0,
-    "explanation": "In language, An ostentation is the specific subject associated with: 'What is the traditional collective noun for a group of peacocks'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** An ostentation is the essential answer for this question.",
+    "explanation": "In language, An ostentation is the exact answer for: 'What is the traditional collective noun for a group of peacocks'.",
+    "tip": "\ud83d\udca1 **Key Recall:** An ostentation is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8121,8 +8121,8 @@ export const ALL_QUESTIONS = [
       "A pod"
     ],
     "answer": 0,
-    "explanation": "In language, A waddle is the specific subject associated with: 'What is the traditional collective noun for a group of penguins on land'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A waddle is the essential answer for this question.",
+    "explanation": "In language, A waddle is the exact answer for: 'What is the traditional collective noun for a group of penguins on land'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A waddle is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8136,8 +8136,8 @@ export const ALL_QUESTIONS = [
       "A pod"
     ],
     "answer": 0,
-    "explanation": "In language, A raft is the specific subject associated with: 'What is the traditional collective noun for a group of penguins in water'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A raft is the essential answer for this question.",
+    "explanation": "In language, A raft is the exact answer for: 'What is the traditional collective noun for a group of penguins in water'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A raft is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8151,8 +8151,8 @@ export const ALL_QUESTIONS = [
       "Under sworn oath"
     ],
     "answer": 0,
-    "explanation": "In language, In private / in a judge's chambers is the specific subject associated with: 'What does the Latin phrase 'in camera' mean in legal terms'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** In private / in a judge's chambers is the essential answer for this question.",
+    "explanation": "In language, In private / in a judge's chambers is the exact answer for: 'What does the Latin phrase 'in camera' mean in legal terms'.",
+    "tip": "\ud83d\udca1 **Key Recall:** In private / in a judge's chambers is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8166,8 +8166,8 @@ export const ALL_QUESTIONS = [
       "With evidence"
     ],
     "answer": 0,
-    "explanation": "In language, In secret / under seal is the specific subject associated with: 'What does the Latin phrase 'sub rosa' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** In secret / under seal is the essential answer for this question.",
+    "explanation": "In language, In secret / under seal is the exact answer for: 'What does the Latin phrase 'sub rosa' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** In secret / under seal is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8181,8 +8181,8 @@ export const ALL_QUESTIONS = [
       "Jury foreman"
     ],
     "answer": 0,
-    "explanation": "In language, Friend of the court is the specific subject associated with: 'What does the Latin phrase 'amicus curiae' translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Friend of the court is the essential answer for this question.",
+    "explanation": "In language, Friend of the court is the exact answer for: 'What does the Latin phrase 'amicus curiae' translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Friend of the court is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8196,8 +8196,8 @@ export const ALL_QUESTIONS = [
       "A legal draft"
     ],
     "answer": 0,
-    "explanation": "In language, The existing state of affairs is the specific subject associated with: 'What does the Latin phrase 'status quo' refer to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The existing state of affairs is the essential answer for this question.",
+    "explanation": "In language, The existing state of affairs is the exact answer for: 'What does the Latin phrase 'status quo' refer to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The existing state of affairs is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8211,8 +8211,8 @@ export const ALL_QUESTIONS = [
       "Property deed"
     ],
     "answer": 0,
-    "explanation": "In language, You shall have the body (protection against unlawful detention) is the specific subject associated with: 'What does the Latin writ 'habeas corpus' literally mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** You shall have the body (protection against unlawful detention) is the essential answer for this question.",
+    "explanation": "In language, You shall have the body (protection against unlawful detention) is the exact answer for: 'What does the Latin writ 'habeas corpus' literally mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** You shall have the body (protection against unlawful detention) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8226,8 +8226,8 @@ export const ALL_QUESTIONS = [
       "Conditional"
     ],
     "answer": 0,
-    "explanation": "In language, In good faith / genuine is the specific subject associated with: 'What does the Latin phrase 'bona fide' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** In good faith / genuine is the essential answer for this question.",
+    "explanation": "In language, In good faith / genuine is the exact answer for: 'What does the Latin phrase 'bona fide' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** In good faith / genuine is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8241,8 +8241,8 @@ export const ALL_QUESTIONS = [
       "Permanently"
     ],
     "answer": 0,
-    "explanation": "In language, In fact / in reality is the specific subject associated with: 'What does the Latin phrase 'de facto' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** In fact / in reality is the essential answer for this question.",
+    "explanation": "In language, In fact / in reality is the exact answer for: 'What does the Latin phrase 'de facto' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** In fact / in reality is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8256,8 +8256,8 @@ export const ALL_QUESTIONS = [
       "Informally"
     ],
     "answer": 0,
-    "explanation": "In language, By right of law is the specific subject associated with: 'What does the Latin phrase 'de jure' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** By right of law is the essential answer for this question.",
+    "explanation": "In language, By right of law is the exact answer for: 'What does the Latin phrase 'de jure' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** By right of law is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8271,8 +8271,8 @@ export const ALL_QUESTIONS = [
       "For government"
     ],
     "answer": 0,
-    "explanation": "In language, For the public good (free of charge) is the specific subject associated with: 'What does the Latin phrase 'pro bono' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** For the public good (free of charge) is the essential answer for this question.",
+    "explanation": "In language, For the public good (free of charge) is the exact answer for: 'What does the Latin phrase 'pro bono' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** For the public good (free of charge) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8286,8 +8286,8 @@ export const ALL_QUESTIONS = [
       "Annual event"
     ],
     "answer": 0,
-    "explanation": "In language, Created for a specific purpose is the specific subject associated with: 'What does the Latin phrase 'ad hoc' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Created for a specific purpose is the essential answer for this question.",
+    "explanation": "In language, Created for a specific purpose is the exact answer for: 'What does the Latin phrase 'ad hoc' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Created for a specific purpose is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8301,8 +8301,8 @@ export const ALL_QUESTIONS = [
       "As aforesaid"
     ],
     "answer": 0,
-    "explanation": "In language, By or in itself is the specific subject associated with: 'What does the Latin phrase 'per se' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** By or in itself is the essential answer for this question.",
+    "explanation": "In language, By or in itself is the exact answer for: 'What does the Latin phrase 'per se' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** By or in itself is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8316,8 +8316,8 @@ export const ALL_QUESTIONS = [
       "School principal"
     ],
     "answer": 0,
-    "explanation": "In language, Bounteous mother (one's former university) is the specific subject associated with: 'What does the Latin phrase 'alma mater' literally translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bounteous mother (one's former university) is the essential answer for this question.",
+    "explanation": "In language, Bounteous mother (one's former university) is the exact answer for: 'What does the Latin phrase 'alma mater' literally translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Bounteous mother (one's former university) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8331,8 +8331,8 @@ export const ALL_QUESTIONS = [
       "A diplomatic envoy"
     ],
     "answer": 0,
-    "explanation": "In language, An unwelcome or unacceptable person is the specific subject associated with: 'What does the Latin phrase 'persona non grata' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** An unwelcome or unacceptable person is the essential answer for this question.",
+    "explanation": "In language, An unwelcome or unacceptable person is the exact answer for: 'What does the Latin phrase 'persona non grata' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** An unwelcome or unacceptable person is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8346,8 +8346,8 @@ export const ALL_QUESTIONS = [
       "Great work"
     ],
     "answer": 0,
-    "explanation": "In language, Seize the day is the specific subject associated with: 'What does the Latin phrase 'carpe diem' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Seize the day is the essential answer for this question.",
+    "explanation": "In language, Seize the day is the exact answer for: 'What does the Latin phrase 'carpe diem' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Seize the day is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8361,8 +8361,8 @@ export const ALL_QUESTIONS = [
       "Peace be with you"
     ],
     "answer": 0,
-    "explanation": "In language, Remember that you must die is the specific subject associated with: 'What does the Latin phrase 'memento mori' translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Remember that you must die is the essential answer for this question.",
+    "explanation": "In language, Remember that you must die is the exact answer for: 'What does the Latin phrase 'memento mori' translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Remember that you must die is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8376,8 +8376,8 @@ export const ALL_QUESTIONS = [
       "Buyer's remorse"
     ],
     "answer": 0,
-    "explanation": "In language, Let the buyer beware is the specific subject associated with: 'What does the Latin legal warning 'caveat emptor' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Let the buyer beware is the essential answer for this question.",
+    "explanation": "In language, Let the buyer beware is the exact answer for: 'What does the Latin legal warning 'caveat emptor' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Let the buyer beware is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8391,8 +8391,8 @@ export const ALL_QUESTIONS = [
       "A legal objection"
     ],
     "answer": 0,
-    "explanation": "In language, Something for something is the specific subject associated with: 'What does the Latin phrase 'quid pro quo' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Something for something is the essential answer for this question.",
+    "explanation": "In language, Something for something is the exact answer for: 'What does the Latin phrase 'quid pro quo' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Something for something is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8406,8 +8406,8 @@ export const ALL_QUESTIONS = [
       "Motivations"
     ],
     "answer": 0,
-    "explanation": "In language, Method of operating is the specific subject associated with: 'What does the Latin phrase 'modus operandi' (M.O.) refer to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Method of operating is the essential answer for this question.",
+    "explanation": "In language, Method of operating is the exact answer for: 'What does the Latin phrase 'modus operandi' (M.O.) refer to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Method of operating is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8421,8 +8421,8 @@ export const ALL_QUESTIONS = [
       "In addition"
     ],
     "answer": 0,
-    "explanation": "In language, And the rest / and so forth is the specific subject associated with: 'What does the Latin phrase 'et cetera' (etc.) mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** And the rest / and so forth is the essential answer for this question.",
+    "explanation": "In language, And the rest / and so forth is the exact answer for: 'What does the Latin phrase 'et cetera' (etc.) mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** And the rest / and so forth is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8436,8 +8436,8 @@ export const ALL_QUESTIONS = [
       "Rest in peace"
     ],
     "answer": 0,
-    "explanation": "In language, For example is the specific subject associated with: 'What does the Latin abbreviation 'e.g.' (exempli gratia) mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** For example is the essential answer for this question.",
+    "explanation": "In language, For example is the exact answer for: 'What does the Latin abbreviation 'e.g.' (exempli gratia) mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** For example is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8451,8 +8451,8 @@ export const ALL_QUESTIONS = [
       "Compare (cf.)"
     ],
     "answer": 0,
-    "explanation": "In language, That is / in other words is the specific subject associated with: 'What does the Latin abbreviation 'i.e.' (id est) mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** That is / in other words is the essential answer for this question.",
+    "explanation": "In language, That is / in other words is the exact answer for: 'What does the Latin abbreviation 'i.e.' (id est) mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** That is / in other words is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8466,8 +8466,8 @@ export const ALL_QUESTIONS = [
       "No benchmark"
     ],
     "answer": 0,
-    "explanation": "In language, Note well / pay close attention is the specific subject associated with: 'What does the Latin abbreviation 'N.B.' (nota bene) mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Note well / pay close attention is the essential answer for this question.",
+    "explanation": "In language, Note well / pay close attention is the exact answer for: 'What does the Latin abbreviation 'N.B.' (nota bene) mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Note well / pay close attention is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8481,8 +8481,8 @@ export const ALL_QUESTIONS = [
       "Shakespeare's Much Ado About Nothing"
     ],
     "answer": 0,
-    "explanation": "Mrs. Malaprop in Sheridan's 1775 play The Rivals is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Mrs. Malaprop in Sheridan's 1775 play The Rivals for this topic.",
+    "explanation": "In language, Mrs. Malaprop in Sheridan's 1775 play The Rivals is the exact answer for: 'Where does the term 'malapropism' originate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mrs. Malaprop in Sheridan's 1775 play The Rivals is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8496,8 +8496,8 @@ export const ALL_QUESTIONS = [
       "German 'Arbeiter'"
     ],
     "answer": 0,
-    "explanation": "Czech word 'robota' (forced labor) is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Czech word 'robota' (forced labor) for this topic.",
+    "explanation": "Czech word 'robota' (forced labor) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Czech word 'robota' (forced labor) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8511,8 +8511,8 @@ export const ALL_QUESTIONS = [
       "Lord Boycott"
     ],
     "answer": 0,
-    "explanation": "Captain Charles Boycott targeted in Ireland 1880 is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Captain Charles Boycott targeted in Ireland 1880 for this topic.",
+    "explanation": "Captain Charles Boycott targeted in Ireland 1880 is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Captain Charles Boycott targeted in Ireland 1880 is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8526,8 +8526,8 @@ export const ALL_QUESTIONS = [
       "Lord Chauvin"
     ],
     "answer": 0,
-    "explanation": "Nicolas Chauvin, fanatical soldier of Napoleon is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Nicolas Chauvin, fanatical soldier of Napoleon for this topic.",
+    "explanation": "In language, Nicolas Chauvin, fanatical soldier of Napoleon is the exact answer for: 'Where does the term 'chauvinism' originate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Nicolas Chauvin, fanatical soldier of Napoleon is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8541,8 +8541,8 @@ export const ALL_QUESTIONS = [
       "King Quixote"
     ],
     "answer": 0,
-    "explanation": "Don Quixote, hero of Cervantes' 1605 novel is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Don Quixote, hero of Cervantes' 1605 novel for this topic.",
+    "explanation": "Don Quixote, hero of Cervantes' 1605 novel is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Don Quixote, hero of Cervantes' 1605 novel is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8556,8 +8556,8 @@ export const ALL_QUESTIONS = [
       "Italian 'siluetta'"
     ],
     "answer": 0,
-    "explanation": "\u00c9tienne de Silhouette, French finance minister is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in \u00c9tienne de Silhouette, French finance minister for this topic.",
+    "explanation": "\u00c9tienne de Silhouette, French finance minister is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** \u00c9tienne de Silhouette, French finance minister is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8571,8 +8571,8 @@ export const ALL_QUESTIONS = [
       "Joy of traveling"
     ],
     "answer": 0,
-    "explanation": "In language, Pleasure derived from another's misfortune is the specific subject associated with: 'What emotion does the German word 'schadenfreude' describe'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pleasure derived from another's misfortune is the essential answer for this question.",
+    "explanation": "Pleasure derived from another's misfortune is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Pleasure derived from another's misfortune is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8586,8 +8586,8 @@ export const ALL_QUESTIONS = [
       "A shadow puppet"
     ],
     "answer": 0,
-    "explanation": "In language, A look-alike or double of a living person is the specific subject associated with: 'What does the German word 'doppelg\u00e4nger' refer to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A look-alike or double of a living person is the essential answer for this question.",
+    "explanation": "A look-alike or double of a living person is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** A look-alike or double of a living person is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8601,8 +8601,8 @@ export const ALL_QUESTIONS = [
       "Playing card"
     ],
     "answer": 0,
-    "explanation": "In language, Blank card (complete freedom to act) is the specific subject associated with: 'What does the French phrase 'carte blanche' literally translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Blank card (complete freedom to act) is the essential answer for this question.",
+    "explanation": "In language, Blank card (complete freedom to act) is the exact answer for: 'What does the French phrase 'carte blanche' literally translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Blank card (complete freedom to act) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8616,8 +8616,8 @@ export const ALL_QUESTIONS = [
       "Wrong answer"
     ],
     "answer": 0,
-    "explanation": "In language, False step (tactless social blunder) is the specific subject associated with: 'What does the French phrase 'faux pas' refer to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** False step (tactless social blunder) is the essential answer for this question.",
+    "explanation": "In language, False step (tactless social blunder) is the exact answer for: 'What does the French phrase 'faux pas' refer to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** False step (tactless social blunder) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8631,8 +8631,8 @@ export const ALL_QUESTIONS = [
       "Dreamed before"
     ],
     "answer": 0,
-    "explanation": "In language, Already seen is the specific subject associated with: 'What does the French phrase 'd\u00e9j\u00e0 vu' translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Already seen is the essential answer for this question.",
+    "explanation": "In language, Already seen is the exact answer for: 'What does the French phrase 'd\u00e9j\u00e0 vu' translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Already seen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8646,8 +8646,8 @@ export const ALL_QUESTIONS = [
       "Side-by-side"
     ],
     "answer": 0,
-    "explanation": "In language, Head-to-head (private chat for two) is the specific subject associated with: 'What does the French phrase 't\u00eate-\u00e0-t\u00eate' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Head-to-head (private chat for two) is the essential answer for this question.",
+    "explanation": "In language, Head-to-head (private chat for two) is the exact answer for: 'What does the French phrase 't\u00eate-\u00e0-t\u00eate' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Head-to-head (private chat for two) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8661,8 +8661,8 @@ export const ALL_QUESTIONS = [
       "Foolish silliness"
     ],
     "answer": 0,
-    "explanation": "In language, Audacity, nerve, or supreme self-confidence is the specific subject associated with: 'What quality does the Yiddish word 'chutzpah' describe'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Audacity, nerve, or supreme self-confidence is the essential answer for this question.",
+    "explanation": "Audacity, nerve, or supreme self-confidence is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Audacity, nerve, or supreme self-confidence is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8676,8 +8676,8 @@ export const ALL_QUESTIONS = [
       "Compound"
     ],
     "answer": 0,
-    "explanation": "In language, Spoonerism is the specific subject associated with: 'What error involves transposing initial sounds of words (e.g., 'queer old dean')'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Spoonerism is the essential answer for this question.",
+    "explanation": "Spoonerism is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Spoonerism is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8691,8 +8691,8 @@ export const ALL_QUESTIONS = [
       "Acronym"
     ],
     "answer": 0,
-    "explanation": "In language, Portmanteau word is the specific subject associated with: 'What term describes blending two words and their meanings into one (e.g. motel)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Portmanteau word is the essential answer for this question.",
+    "explanation": "Portmanteau word is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Portmanteau word is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8706,8 +8706,8 @@ export const ALL_QUESTIONS = [
       "Palindrome"
     ],
     "answer": 0,
-    "explanation": "A contronym (or Janus word) is a word that possesses two opposite meanings depending on context, such as 'cleave' (split vs adhere).",
-    "tip": "\ud83d\udca1 **Janus Word:** A word that is its own opposite!",
+    "explanation": "Contronym is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Contronym is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8721,8 +8721,8 @@ export const ALL_QUESTIONS = [
       "Metonymy"
     ],
     "answer": 0,
-    "explanation": "In language, Oxymoron is the specific subject associated with: 'What figure of speech pairs contradictory terms (e.g., deafening silence)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Oxymoron is the essential answer for this question.",
+    "explanation": "Oxymoron is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Oxymoron is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8736,8 +8736,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, Eponym is the specific subject associated with: 'What term describes a person after whom a place, invention, or discovery is named'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Eponym is the essential answer for this question.",
+    "explanation": "In language, Eponym is the exact answer for: 'What term describes a person after whom a place, invention, or discovery is named'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Eponym is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8751,8 +8751,8 @@ export const ALL_QUESTIONS = [
       "Acronym"
     ],
     "answer": 0,
-    "explanation": "In language, Anagram is the specific subject associated with: 'What term describes rearranging the letters of a word to form a new word'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Anagram is the essential answer for this question.",
+    "explanation": "Anagram is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Anagram is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8766,8 +8766,8 @@ export const ALL_QUESTIONS = [
       "Oxymoron"
     ],
     "answer": 0,
-    "explanation": "In language, Palindrome is the specific subject associated with: 'What term describes a word reading the same backward as forward (e.g., radar)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Palindrome is the essential answer for this question.",
+    "explanation": "Palindrome is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Palindrome is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8781,8 +8781,8 @@ export const ALL_QUESTIONS = [
       "Acrostic"
     ],
     "answer": 0,
-    "explanation": "In language, Pangram is the specific subject associated with: 'What term describes a sentence containing all 26 letters of the alphabet'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pangram is the essential answer for this question.",
+    "explanation": "In language, Pangram is the exact answer for: 'What term describes a sentence containing all 26 letters of the alphabet'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Pangram is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8796,8 +8796,8 @@ export const ALL_QUESTIONS = [
       "Metonymy"
     ],
     "answer": 0,
-    "explanation": "In language, Onomatopoeia is the specific subject associated with: 'What term describes a word that imitates the sound it describes (e.g., buzz, hiss)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Onomatopoeia is the essential answer for this question.",
+    "explanation": "Onomatopoeia is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Onomatopoeia is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8811,8 +8811,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, Hyperbole is the specific subject associated with: 'What figure of speech uses extreme exaggeration for effect'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hyperbole is the essential answer for this question.",
+    "explanation": "Hyperbole is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Hyperbole is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8826,8 +8826,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, Synecdoche is the specific subject associated with: 'What figure of speech uses a part of something to represent the whole (e.g. suits for lawyers)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Synecdoche is the essential answer for this question.",
+    "explanation": "Synecdoche is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Synecdoche is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8841,8 +8841,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, Metonymy is the specific subject associated with: 'What figure of speech refers to something by the name of a closely related concept (e.g. 'the Crown' for monarchy)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Metonymy is the essential answer for this question.",
+    "explanation": "Metonymy is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Metonymy is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8856,8 +8856,8 @@ export const ALL_QUESTIONS = [
       "Yes."
     ],
     "answer": 0,
-    "explanation": "In language, Go. is the specific subject associated with: 'What is the shortest grammatically complete sentence in the English language'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Go. is the essential answer for this question.",
+    "explanation": "In language, Go. is the exact answer for: 'What is the shortest grammatically complete sentence in the English language'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Go. is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8871,8 +8871,8 @@ export const ALL_QUESTIONS = [
       "O"
     ],
     "answer": 0,
-    "explanation": "In language, E is the specific subject associated with: 'What is the most frequently used letter in the English language'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** E is the essential answer for this question.",
+    "explanation": "In language, E is the exact answer for: 'What is the most frequently used letter in the English language'.",
+    "tip": "\ud83d\udca1 **Key Recall:** E is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8886,8 +8886,8 @@ export const ALL_QUESTIONS = [
       "R"
     ],
     "answer": 0,
-    "explanation": "In language, T is the specific subject associated with: 'What is the most frequently used consonant in the English language'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** T is the essential answer for this question.",
+    "explanation": "In language, T is the exact answer for: 'What is the most frequently used consonant in the English language'.",
+    "tip": "\ud83d\udca1 **Key Recall:** T is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8901,8 +8901,8 @@ export const ALL_QUESTIONS = [
       "Gypsys"
     ],
     "answer": 0,
-    "explanation": "In language, Rhythms is the specific subject associated with: 'Which seven-letter English word contains no vowels (A, E, I, O, U)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rhythms is the essential answer for this question.",
+    "explanation": "Rhythms is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Rhythms is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8916,8 +8916,8 @@ export const ALL_QUESTIONS = [
       "Exempt"
     ],
     "answer": 0,
-    "explanation": "In language, Dreamt is the specific subject associated with: 'What is the only English word ending in the letters 'mt''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dreamt is the essential answer for this question.",
+    "explanation": "Dreamt is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Dreamt is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8931,8 +8931,8 @@ export const ALL_QUESTIONS = [
       "Ningry and Tangry"
     ],
     "answer": 0,
-    "explanation": "In language, Angry and Hungry is the specific subject associated with: 'What are the only two common English words ending in '-gry''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Angry and Hungry is the essential answer for this question.",
+    "explanation": "Angry and Hungry is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Angry and Hungry is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8946,8 +8946,8 @@ export const ALL_QUESTIONS = [
       "Old English 'thugge'"
     ],
     "answer": 0,
-    "explanation": "Hindi 'thag' (cult of stranglers) is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Hindi 'thag' (cult of stranglers) for this topic.",
+    "explanation": "Hindi 'thag' (cult of stranglers) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Hindi 'thag' (cult of stranglers) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8961,8 +8961,8 @@ export const ALL_QUESTIONS = [
       "Persian 'asin'"
     ],
     "answer": 0,
-    "explanation": "Arabic 'hashashin' is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Arabic 'hashashin' for this topic.",
+    "explanation": "Arabic 'hashashin' is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Arabic 'hashashin' is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8976,8 +8976,8 @@ export const ALL_QUESTIONS = [
       "German 'Klick'"
     ],
     "answer": 0,
-    "explanation": "French printing plate sound is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in French printing plate sound for this topic.",
+    "explanation": "French printing plate sound is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** French printing plate sound is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -8991,8 +8991,8 @@ export const ALL_QUESTIONS = [
       "Spanish 'cuarenta'"
     ],
     "answer": 0,
-    "explanation": "40 days isolation in Venice during plague is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in 40 days isolation in Venice during plague for this topic.",
+    "explanation": "40 days isolation in Venice during plague is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** 40 days isolation in Venice during plague is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9006,8 +9006,8 @@ export const ALL_QUESTIONS = [
       "French 'trivielle'"
     ],
     "answer": 0,
-    "explanation": "Latin 'trivium' (intersection of 3 roads / 3 lower arts) is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Latin 'trivium' (intersection of 3 roads / 3 lower arts) for this topic.",
+    "explanation": "Latin 'trivium' (intersection of 3 roads / 3 lower arts) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Latin 'trivium' (intersection of 3 roads / 3 lower arts) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9021,8 +9021,8 @@ export const ALL_QUESTIONS = [
       "French 'janituer'"
     ],
     "answer": 0,
-    "explanation": "Janus, the Roman god of doors and beginnings is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Janus, the Roman god of doors and beginnings for this topic.",
+    "explanation": "Janus, the Roman god of doors and beginnings is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Janus, the Roman god of doors and beginnings is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9036,8 +9036,8 @@ export const ALL_QUESTIONS = [
       "French 'candide'"
     ],
     "answer": 0,
-    "explanation": "Latin 'candidus' (glowing white) is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Latin 'candidus' (glowing white) for this topic.",
+    "explanation": "Latin 'candidus' (glowing white) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Latin 'candidus' (glowing white) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9051,8 +9051,8 @@ export const ALL_QUESTIONS = [
       "French 'candidat'"
     ],
     "answer": 0,
-    "explanation": "Roman office seekers who wore glowing white togas is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Roman office seekers who wore glowing white togas for this topic.",
+    "explanation": "Roman office seekers who wore glowing white togas is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Roman office seekers who wore glowing white togas is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9066,8 +9066,8 @@ export const ALL_QUESTIONS = [
       "Dutch 'zand-wicht'"
     ],
     "answer": 0,
-    "explanation": "John Montagu, 4th Earl of Sandwich in 1762 is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in John Montagu, 4th Earl of Sandwich in 1762 for this topic.",
+    "explanation": "In language, John Montagu, 4th Earl of Sandwich in 1762 is the exact answer for: 'Where does the term 'sandwich' originate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** John Montagu, 4th Earl of Sandwich in 1762 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9081,8 +9081,8 @@ export const ALL_QUESTIONS = [
       "Italian 'sabotata'"
     ],
     "answer": 0,
-    "explanation": "French workers throwing wooden shoes (sabots) into machinery is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in French workers throwing wooden shoes (sabots) into machinery for this topic.",
+    "explanation": "French workers throwing wooden shoes (sabots) into machinery is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** French workers throwing wooden shoes (sabots) into machinery is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9096,8 +9096,8 @@ export const ALL_QUESTIONS = [
       "Latin 'palma'"
     ],
     "answer": 0,
-    "explanation": "12th-century popular Latin love poem Pamphilus is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in 12th-century popular Latin love poem Pamphilus for this topic.",
+    "explanation": "12th-century popular Latin love poem Pamphilus is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** 12th-century popular Latin love poem Pamphilus is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9111,8 +9111,8 @@ export const ALL_QUESTIONS = [
       "French 'barbe-side'"
     ],
     "answer": 0,
-    "explanation": "US Civil War General Ambrose Burnside is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in US Civil War General Ambrose Burnside for this topic.",
+    "explanation": "US Civil War General Ambrose Burnside is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** US Civil War General Ambrose Burnside is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9126,8 +9126,8 @@ export const ALL_QUESTIONS = [
       "French 'narcisse'"
     ],
     "answer": 0,
-    "explanation": "Narcissus, hunter in Greek myth who fell in love with his reflection is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Narcissus, hunter in Greek myth who fell in love with his reflection for this topic.",
+    "explanation": "Narcissus, hunter in Greek myth who fell in love with his reflection is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Narcissus, hunter in Greek myth who fell in love with his reflection is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9141,8 +9141,8 @@ export const ALL_QUESTIONS = [
       "German 'Nemes'"
     ],
     "answer": 0,
-    "explanation": "Nemesis, Greek goddess of divine retribution is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Nemesis, Greek goddess of divine retribution for this topic.",
+    "explanation": "Nemesis, Greek goddess of divine retribution is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Nemesis, Greek goddess of divine retribution is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9156,8 +9156,8 @@ export const ALL_QUESTIONS = [
       "French 'pand\u00e9mon'"
     ],
     "answer": 0,
-    "explanation": "Capital of Hell in John Milton's Paradise Lost is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Capital of Hell in John Milton's Paradise Lost for this topic.",
+    "explanation": "Capital of Hell in John Milton's Paradise Lost is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Capital of Hell in John Milton's Paradise Lost is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9171,8 +9171,8 @@ export const ALL_QUESTIONS = [
       "French 'utopie'"
     ],
     "answer": 0,
-    "explanation": "Sir Thomas More's 1516 book Utopia (Greek for 'no place') is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Sir Thomas More's 1516 book Utopia (Greek for 'no place') for this topic.",
+    "explanation": "Sir Thomas More's 1516 book Utopia (Greek for 'no place') is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Sir Thomas More's 1516 book Utopia (Greek for 'no place') is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9186,8 +9186,8 @@ export const ALL_QUESTIONS = [
       "French 'guerre-mander'"
     ],
     "answer": 0,
-    "explanation": "Massachusetts Governor Elbridge Gerry + salamander shape is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Massachusetts Governor Elbridge Gerry + salamander shape for this topic.",
+    "explanation": "In language, Massachusetts Governor Elbridge Gerry + salamander shape is the exact answer for: 'Where does the term 'gerrymander' originate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Massachusetts Governor Elbridge Gerry + salamander shape is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9201,8 +9201,8 @@ export const ALL_QUESTIONS = [
       "French 'mauvais'"
     ],
     "answer": 0,
-    "explanation": "Samuel Maverick, Texas rancher who refused to brand cattle is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Samuel Maverick, Texas rancher who refused to brand cattle for this topic.",
+    "explanation": "Samuel Maverick, Texas rancher who refused to brand cattle is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Samuel Maverick, Texas rancher who refused to brand cattle is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9216,8 +9216,8 @@ export const ALL_QUESTIONS = [
       "French 'di\u00e9sel'"
     ],
     "answer": 0,
-    "explanation": "Rudolf Diesel, German mechanical engineer is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Rudolf Diesel, German mechanical engineer for this topic.",
+    "explanation": "In language, Rudolf Diesel, German mechanical engineer is the exact answer for: 'Where does the term 'diesel' originate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Rudolf Diesel, German mechanical engineer is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9231,8 +9231,8 @@ export const ALL_QUESTIONS = [
       "German 'Pasteur'"
     ],
     "answer": 0,
-    "explanation": "Louis Pasteur, French microbiologist is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Louis Pasteur, French microbiologist for this topic.",
+    "explanation": "In language, Louis Pasteur, French microbiologist is the exact answer for: 'Where does the term 'pasteurization' originate'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Louis Pasteur, French microbiologist is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9246,8 +9246,8 @@ export const ALL_QUESTIONS = [
       "French 'saxo'"
     ],
     "answer": 0,
-    "explanation": "Adolphe Sax, Belgian instrument designer who patented it in 1846 is the correct answer for this question.",
-    "tip": "\ud83d\udca1 **Recall Hook:** Lock in Adolphe Sax, Belgian instrument designer who patented it in 1846 for this topic.",
+    "explanation": "Adolphe Sax, Belgian instrument designer who patented it in 1846 is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Adolphe Sax, Belgian instrument designer who patented it in 1846 is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9261,8 +9261,8 @@ export const ALL_QUESTIONS = [
       "By whose authority?"
     ],
     "answer": 0,
-    "explanation": "In language, Who benefits? is the specific subject associated with: 'What does the Latin phrase 'cui bono' translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Who benefits? is the essential answer for this question.",
+    "explanation": "In language, Who benefits? is the exact answer for: 'What does the Latin phrase 'cui bono' translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Who benefits? is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9276,8 +9276,8 @@ export const ALL_QUESTIONS = [
       "A social trend"
     ],
     "answer": 0,
-    "explanation": "In language, A practical compromise allowing conflicting parties to coexist is the specific subject associated with: 'What does the Latin phrase 'modus vivendi' refer to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A practical compromise allowing conflicting parties to coexist is the essential answer for this question.",
+    "explanation": "In language, A practical compromise allowing conflicting parties to coexist is the exact answer for: 'What does the Latin phrase 'modus vivendi' refer to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A practical compromise allowing conflicting parties to coexist is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9291,8 +9291,8 @@ export const ALL_QUESTIONS = [
       "In a artificial state"
     ],
     "answer": 0,
-    "explanation": "In language, In its original place or position is the specific subject associated with: 'What does the Latin phrase 'in situ' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** In its original place or position is the essential answer for this question.",
+    "explanation": "In language, In its original place or position is the exact answer for: 'What does the Latin phrase 'in situ' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** In its original place or position is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9306,8 +9306,8 @@ export const ALL_QUESTIONS = [
       "Out of necessity"
     ],
     "answer": 0,
-    "explanation": "In language, Done as a favor without legal obligation is the specific subject associated with: 'What does the Latin phrase 'ex gratia' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Done as a favor without legal obligation is the essential answer for this question.",
+    "explanation": "In language, Done as a favor without legal obligation is the exact answer for: 'What does the Latin phrase 'ex gratia' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Done as a favor without legal obligation is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9321,8 +9321,8 @@ export const ALL_QUESTIONS = [
       "Inside the court"
     ],
     "answer": 0,
-    "explanation": "In language, Among other things is the specific subject associated with: 'What does the Latin phrase 'inter alia' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Among other things is the essential answer for this question.",
+    "explanation": "In language, Among other things is the exact answer for: 'What does the Latin phrase 'inter alia' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Among other things is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9336,8 +9336,8 @@ export const ALL_QUESTIONS = [
       "In good standing"
     ],
     "answer": 0,
-    "explanation": "In language, By the fact itself is the specific subject associated with: 'What does the Latin phrase 'ipso facto' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** By the fact itself is the essential answer for this question.",
+    "explanation": "In language, By the fact itself is the exact answer for: 'What does the Latin phrase 'ipso facto' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** By the fact itself is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9351,8 +9351,8 @@ export const ALL_QUESTIONS = [
       "Primary witness"
     ],
     "answer": 0,
-    "explanation": "In language, First among equals is the specific subject associated with: 'What does the Latin phrase 'primus inter pares' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** First among equals is the essential answer for this question.",
+    "explanation": "In language, First among equals is the exact answer for: 'What does the Latin phrase 'primus inter pares' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** First among equals is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9366,8 +9366,8 @@ export const ALL_QUESTIONS = [
       "In summary"
     ],
     "answer": 0,
-    "explanation": "In language, An essential condition or element is the specific subject associated with: 'What does the Latin phrase 'sine qua non' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** An essential condition or element is the essential answer for this question.",
+    "explanation": "In language, An essential condition or element is the exact answer for: 'What does the Latin phrase 'sine qua non' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** An essential condition or element is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9381,8 +9381,8 @@ export const ALL_QUESTIONS = [
       "Flat earth"
     ],
     "answer": 0,
-    "explanation": "In language, Clean slate or blank slate is the specific subject associated with: 'What does the Latin phrase 'tabula rasa' translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Clean slate or blank slate is the essential answer for this question.",
+    "explanation": "In language, Clean slate or blank slate is the exact answer for: 'What does the Latin phrase 'tabula rasa' translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Clean slate or blank slate is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9396,8 +9396,8 @@ export const ALL_QUESTIONS = [
       "High mountain"
     ],
     "answer": 0,
-    "explanation": "In language, Solid ground or dry land is the specific subject associated with: 'What does the Latin phrase 'terra firma' mean'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Solid ground or dry land is the essential answer for this question.",
+    "explanation": "In language, Solid ground or dry land is the exact answer for: 'What does the Latin phrase 'terra firma' mean'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Solid ground or dry land is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9411,8 +9411,8 @@ export const ALL_QUESTIONS = [
       "National song"
     ],
     "answer": 0,
-    "explanation": "In language, Voice of the people is the specific subject associated with: 'What does the Latin phrase 'vox populi' translate to'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Voice of the people is the essential answer for this question.",
+    "explanation": "In language, Voice of the people is the exact answer for: 'What does the Latin phrase 'vox populi' translate to'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Voice of the people is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9426,8 +9426,8 @@ export const ALL_QUESTIONS = [
       "Persian (al-gabr)"
     ],
     "answer": 0,
-    "explanation": "In language, Arabic (al-jabr) is the specific subject associated with: 'What language is the original source of the word 'algebra''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Arabic (al-jabr) is the essential answer for this question.",
+    "explanation": "Arabic (al-jabr) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Arabic (al-jabr) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9441,8 +9441,8 @@ export const ALL_QUESTIONS = [
       "Persian"
     ],
     "answer": 0,
-    "explanation": "In language, Arabic (al-kuhl) is the specific subject associated with: 'What language is the original source of the word 'alcohol''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Arabic (al-kuhl) is the essential answer for this question.",
+    "explanation": "Arabic (al-kuhl) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Arabic (al-kuhl) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9456,8 +9456,8 @@ export const ALL_QUESTIONS = [
       "Zulu"
     ],
     "answer": 0,
-    "explanation": "In language, Swahili (journey) is the specific subject associated with: 'What language is the original source of the word 'safari''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Swahili (journey) is the essential answer for this question.",
+    "explanation": "Swahili (journey) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Swahili (journey) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9471,8 +9471,8 @@ export const ALL_QUESTIONS = [
       "Tagalog"
     ],
     "answer": 0,
-    "explanation": "In language, Japanese (empty orchestra) is the specific subject associated with: 'What language is the original source of the word 'karaoke''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Japanese (empty orchestra) is the essential answer for this question.",
+    "explanation": "Japanese (empty orchestra) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Japanese (empty orchestra) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9486,8 +9486,8 @@ export const ALL_QUESTIONS = [
       "Korean"
     ],
     "answer": 0,
-    "explanation": "In language, Japanese (taikun / great lord) is the specific subject associated with: 'What language is the original source of the word 'tycoon''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Japanese (taikun / great lord) is the essential answer for this question.",
+    "explanation": "Japanese (taikun / great lord) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Japanese (taikun / great lord) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9501,8 +9501,8 @@ export const ALL_QUESTIONS = [
       "Thai"
     ],
     "answer": 0,
-    "explanation": "In language, Japanese is the specific subject associated with: 'What language is the original source of the word 'bento''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Japanese is the essential answer for this question.",
+    "explanation": "Japanese is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Japanese is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9516,8 +9516,8 @@ export const ALL_QUESTIONS = [
       "Malay"
     ],
     "answer": 0,
-    "explanation": "In language, Japanese (harbor wave) is the specific subject associated with: 'What language is the original source of the word 'tsunami''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Japanese (harbor wave) is the essential answer for this question.",
+    "explanation": "Japanese (harbor wave) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Japanese (harbor wave) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9531,8 +9531,8 @@ export const ALL_QUESTIONS = [
       "Urdu"
     ],
     "answer": 0,
-    "explanation": "In language, Persian / Hindi is the specific subject associated with: 'What language is the original source of the word 'pyjamas''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Persian / Hindi is the essential answer for this question.",
+    "explanation": "Persian / Hindi is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Persian / Hindi is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9546,8 +9546,8 @@ export const ALL_QUESTIONS = [
       "Italian"
     ],
     "answer": 0,
-    "explanation": "In language, Hindi / Portuguese is the specific subject associated with: 'What language is the original source of the word 'verandah''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hindi / Portuguese is the essential answer for this question.",
+    "explanation": "Hindi / Portuguese is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Hindi / Portuguese is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9561,8 +9561,8 @@ export const ALL_QUESTIONS = [
       "Sinhala"
     ],
     "answer": 0,
-    "explanation": "In language, Hindi (Gujarati / Bengali) is the specific subject associated with: 'What language is the original source of the word 'bungalow''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hindi (Gujarati / Bengali) is the essential answer for this question.",
+    "explanation": "Hindi (Gujarati / Bengali) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Hindi (Gujarati / Bengali) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9576,8 +9576,8 @@ export const ALL_QUESTIONS = [
       "Sinhala"
     ],
     "answer": 0,
-    "explanation": "In language, Tamil (kattu-maram) is the specific subject associated with: 'What language is the original source of the word 'catamaran''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tamil (kattu-maram) is the essential answer for this question.",
+    "explanation": "Tamil (kattu-maram) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Tamil (kattu-maram) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9591,8 +9591,8 @@ export const ALL_QUESTIONS = [
       "Pali"
     ],
     "answer": 0,
-    "explanation": "In language, Sanskrit (heavy / teacher) is the specific subject associated with: 'What language is the original source of the word 'guru''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sanskrit (heavy / teacher) is the essential answer for this question.",
+    "explanation": "Sanskrit (heavy / teacher) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Sanskrit (heavy / teacher) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9606,8 +9606,8 @@ export const ALL_QUESTIONS = [
       "Arabic"
     ],
     "answer": 0,
-    "explanation": "In language, Sanskrit (descent) is the specific subject associated with: 'What language is the original source of the word 'avatar''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sanskrit (descent) is the essential answer for this question.",
+    "explanation": "Sanskrit (descent) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Sanskrit (descent) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9621,8 +9621,8 @@ export const ALL_QUESTIONS = [
       "Urdu"
     ],
     "answer": 0,
-    "explanation": "In language, Sanskrit (Jagannatha / Lord of World) is the specific subject associated with: 'What language is the original source of the word 'juggernaut''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sanskrit (Jagannatha / Lord of World) is the essential answer for this question.",
+    "explanation": "Sanskrit (Jagannatha / Lord of World) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Sanskrit (Jagannatha / Lord of World) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9636,8 +9636,8 @@ export const ALL_QUESTIONS = [
       "Dutch"
     ],
     "answer": 0,
-    "explanation": "In language, Chinese (Hokkien ke-tsiap) is the specific subject associated with: 'What language is the original source of the word 'ketchup''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chinese (Hokkien ke-tsiap) is the essential answer for this question.",
+    "explanation": "Chinese (Hokkien ke-tsiap) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Chinese (Hokkien ke-tsiap) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9651,8 +9651,8 @@ export const ALL_QUESTIONS = [
       "Vietnamese"
     ],
     "answer": 0,
-    "explanation": "In language, Chinese (t\u00e1i f\u0113n) / Greek (typhon) is the specific subject associated with: 'What language is the original source of the word 'typhoon''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chinese (t\u00e1i f\u0113n) / Greek (typhon) is the essential answer for this question.",
+    "explanation": "Chinese (t\u00e1i f\u0113n) / Greek (typhon) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** Chinese (t\u00e1i f\u0113n) / Greek (typhon) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9666,8 +9666,8 @@ export const ALL_QUESTIONS = [
       "Swedish"
     ],
     "answer": 0,
-    "explanation": "In language, German (children's garden) is the specific subject associated with: 'What language is the original source of the word 'kindergarten''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** German (children's garden) is the essential answer for this question.",
+    "explanation": "German (children's garden) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** German (children's garden) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9681,8 +9681,8 @@ export const ALL_QUESTIONS = [
       "Danish"
     ],
     "answer": 0,
-    "explanation": "In language, German (desire to wander) is the specific subject associated with: 'What language is the original source of the word 'wanderlust''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** German (desire to wander) is the essential answer for this question.",
+    "explanation": "German (desire to wander) is the precise linguistic term or rhetorical figure of speech matching this definition.",
+    "tip": "\ud83d\udca1 **Linguistic Term:** German (desire to wander) is the specific word origin or rhetorical device.",
     "difficulty": "Medium"
   },
   {
@@ -9696,8 +9696,8 @@ export const ALL_QUESTIONS = [
       "Mercury"
     ],
     "answer": 0,
-    "explanation": "In mythology, Jupiter is the specific subject associated with: 'In Roman mythology, who was king of the gods and ruler of the sky (Greek Zeus)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jupiter is the essential answer for this question.",
+    "explanation": "Jupiter is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Jupiter is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9711,8 +9711,8 @@ export const ALL_QUESTIONS = [
       "Diana"
     ],
     "answer": 0,
-    "explanation": "In mythology, Juno is the specific subject associated with: 'In Roman mythology, who was queen of the gods and goddess of marriage (Greek Hera)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Juno is the essential answer for this question.",
+    "explanation": "Juno is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Juno is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9726,8 +9726,8 @@ export const ALL_QUESTIONS = [
       "Mars"
     ],
     "answer": 0,
-    "explanation": "In mythology, Neptune is the specific subject associated with: 'In Roman mythology, who was god of the sea and oceans (Greek Poseidon)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Neptune is the essential answer for this question.",
+    "explanation": "Neptune is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Neptune is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -9741,8 +9741,8 @@ export const ALL_QUESTIONS = [
       "Mercury"
     ],
     "answer": 0,
-    "explanation": "In mythology, Pluto is the specific subject associated with: 'In Roman mythology, who was god of the underworld and wealth (Greek Hades)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pluto is the essential answer for this question.",
+    "explanation": "Pluto is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Pluto is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9756,8 +9756,8 @@ export const ALL_QUESTIONS = [
       "Vulcan"
     ],
     "answer": 0,
-    "explanation": "In mythology, Mars is the specific subject associated with: 'In Roman mythology, who was god of war and agricultural guardian (Greek Ares)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mars is the essential answer for this question.",
+    "explanation": "Mars is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Mars is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9771,8 +9771,8 @@ export const ALL_QUESTIONS = [
       "Vesta"
     ],
     "answer": 0,
-    "explanation": "In mythology, Minerva is the specific subject associated with: 'In Roman mythology, who was goddess of wisdom, warfare, and crafts (Greek Athena)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Minerva is the essential answer for this question.",
+    "explanation": "Minerva is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Minerva is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9786,8 +9786,8 @@ export const ALL_QUESTIONS = [
       "Hyperion"
     ],
     "answer": 0,
-    "explanation": "In mythology, Apollo is the specific subject associated with: 'In Roman mythology, who was god of the sun, music, and prophecy (Greek Apollo)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Apollo is the essential answer for this question.",
+    "explanation": "Apollo is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Apollo is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9801,8 +9801,8 @@ export const ALL_QUESTIONS = [
       "Ceres"
     ],
     "answer": 0,
-    "explanation": "In mythology, Diana is the specific subject associated with: 'In Roman mythology, who was goddess of the hunt and moon (Greek Artemis)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Diana is the essential answer for this question.",
+    "explanation": "Diana is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Diana is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9816,8 +9816,8 @@ export const ALL_QUESTIONS = [
       "Vesta"
     ],
     "answer": 0,
-    "explanation": "In mythology, Venus is the specific subject associated with: 'In Roman mythology, who was goddess of love and beauty (Greek Aphrodite)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Venus is the essential answer for this question.",
+    "explanation": "Venus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Venus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9831,8 +9831,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, Mercury is the specific subject associated with: 'In Roman mythology, who was messenger god of financial gain and trade (Greek Hermes)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mercury is the essential answer for this question.",
+    "explanation": "Mercury is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Mercury is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9846,8 +9846,8 @@ export const ALL_QUESTIONS = [
       "Pluto"
     ],
     "answer": 0,
-    "explanation": "In mythology, Vulcan is the specific subject associated with: 'In Roman mythology, who was god of fire and metalworking (Greek Hephaestus)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vulcan is the essential answer for this question.",
+    "explanation": "Vulcan is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Vulcan is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9861,8 +9861,8 @@ export const ALL_QUESTIONS = [
       "Vulcan"
     ],
     "answer": 0,
-    "explanation": "In mythology, Bacchus is the specific subject associated with: 'In Roman mythology, who was god of wine and ecstasy (Greek Dionysus)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bacchus is the essential answer for this question.",
+    "explanation": "Bacchus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Bacchus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9876,8 +9876,8 @@ export const ALL_QUESTIONS = [
       "Venus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Ceres is the specific subject associated with: 'In Roman mythology, who was goddess of agriculture and grain (Greek Demeter)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ceres is the essential answer for this question.",
+    "explanation": "Ceres is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Ceres is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9891,8 +9891,8 @@ export const ALL_QUESTIONS = [
       "Diana"
     ],
     "answer": 0,
-    "explanation": "In mythology, Vesta is the specific subject associated with: 'In Roman mythology, who was goddess of the hearth and home (Greek Hestia)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vesta is the essential answer for this question.",
+    "explanation": "Vesta is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Vesta is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9906,8 +9906,8 @@ export const ALL_QUESTIONS = [
       "Mercury"
     ],
     "answer": 0,
-    "explanation": "In mythology, Cupid is the specific subject associated with: 'In Roman mythology, who was god of desire, affection, and erotic love (Greek Eros)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cupid is the essential answer for this question.",
+    "explanation": "Cupid is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Cupid is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9921,8 +9921,8 @@ export const ALL_QUESTIONS = [
       "Freyr"
     ],
     "answer": 0,
-    "explanation": "In mythology, Odin is the specific subject associated with: 'In Norse mythology, who is the Allfather and chief ruler of Asgard'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Odin is the essential answer for this question.",
+    "explanation": "Odin is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Odin is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9936,8 +9936,8 @@ export const ALL_QUESTIONS = [
       "Heimdall"
     ],
     "answer": 0,
-    "explanation": "In mythology, Thor is the specific subject associated with: 'In Norse mythology, who is the thunder god wielding the hammer Mj\u00f6lnir'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thor is the essential answer for this question.",
+    "explanation": "Thor is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Thor is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9951,8 +9951,8 @@ export const ALL_QUESTIONS = [
       "Baldr"
     ],
     "answer": 0,
-    "explanation": "In mythology, Loki is the specific subject associated with: 'In Norse mythology, who is the shape-shifting trickster god'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Loki is the essential answer for this question.",
+    "explanation": "Loki is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Loki is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9966,8 +9966,8 @@ export const ALL_QUESTIONS = [
       "Freyr"
     ],
     "answer": 0,
-    "explanation": "In mythology, Heimdall is the specific subject associated with: 'In Norse mythology, who guards the burning rainbow bridge Bifr\u00f6st'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Heimdall is the essential answer for this question.",
+    "explanation": "Heimdall is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Heimdall is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9981,8 +9981,8 @@ export const ALL_QUESTIONS = [
       "Ginnungagap"
     ],
     "answer": 0,
-    "explanation": "In mythology, Bifr\u00f6st is the specific subject associated with: 'What is the burning rainbow bridge connecting Midgard to Asgard in Norse mythology'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bifr\u00f6st is the essential answer for this question.",
+    "explanation": "Bifr\u00f6st is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Bifr\u00f6st is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -9996,8 +9996,8 @@ export const ALL_QUESTIONS = [
       "Niflheim"
     ],
     "answer": 0,
-    "explanation": "In mythology, Yggdrasil is the specific subject associated with: 'What is the immense sacred World Tree in Norse cosmology'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Yggdrasil is the essential answer for this question.",
+    "explanation": "In mythology, Yggdrasil is the exact answer for: 'What is the immense sacred World Tree in Norse cosmology'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Yggdrasil is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10011,8 +10011,8 @@ export const ALL_QUESTIONS = [
       "Gladsheim"
     ],
     "answer": 0,
-    "explanation": "In mythology, Valhalla is the specific subject associated with: 'What is the majestic hall ruled by Odin where fallen warriors gather'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Valhalla is the essential answer for this question.",
+    "explanation": "In mythology, Valhalla is the exact answer for: 'What is the majestic hall ruled by Odin where fallen warriors gather'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Valhalla is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10026,8 +10026,8 @@ export const ALL_QUESTIONS = [
       "G\u00f6tterd\u00e4mmerung"
     ],
     "answer": 0,
-    "explanation": "In mythology, Ragnar\u00f6k is the specific subject associated with: 'What is the series of catastrophic events and final battle in Norse mythology called'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ragnar\u00f6k is the essential answer for this question.",
+    "explanation": "Ragnar\u00f6k is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Ragnar\u00f6k is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10041,8 +10041,8 @@ export const ALL_QUESTIONS = [
       "Horus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Ra is the specific subject associated with: 'In Egyptian mythology, who was the falcon-headed sun god and king of gods'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ra is the essential answer for this question.",
+    "explanation": "Ra is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Ra is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10056,8 +10056,8 @@ export const ALL_QUESTIONS = [
       "Horus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Osiris is the specific subject associated with: 'In Egyptian mythology, who was green-skinned god of the underworld and judge of the dead'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Osiris is the essential answer for this question.",
+    "explanation": "Osiris is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Osiris is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10071,8 +10071,8 @@ export const ALL_QUESTIONS = [
       "Thoth"
     ],
     "answer": 0,
-    "explanation": "In mythology, Anubis is the specific subject associated with: 'In Egyptian mythology, who was jackal-headed god of mummification and embalming'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Anubis is the essential answer for this question.",
+    "explanation": "Anubis is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Anubis is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10086,8 +10086,8 @@ export const ALL_QUESTIONS = [
       "Ra"
     ],
     "answer": 0,
-    "explanation": "In mythology, Horus is the specific subject associated with: 'In Egyptian mythology, who was falcon-headed sky god and protector of pharaohs'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Horus is the essential answer for this question.",
+    "explanation": "Horus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Horus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10101,8 +10101,8 @@ export const ALL_QUESTIONS = [
       "Sobek"
     ],
     "answer": 0,
-    "explanation": "In mythology, Set is the specific subject associated with: 'In Egyptian mythology, who was god of chaos, storms, and murderer of Osiris'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Set is the essential answer for this question.",
+    "explanation": "Set is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Set is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10116,8 +10116,8 @@ export const ALL_QUESTIONS = [
       "Ptah"
     ],
     "answer": 0,
-    "explanation": "In mythology, Thoth is the specific subject associated with: 'In Egyptian mythology, who was ibis-headed god of wisdom, writing, and magic'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thoth is the essential answer for this question.",
+    "explanation": "Thoth is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Thoth is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10131,8 +10131,8 @@ export const ALL_QUESTIONS = [
       "Sekhmet"
     ],
     "answer": 0,
-    "explanation": "In mythology, Isis is the specific subject associated with: 'In Egyptian mythology, who was goddess of magic and mother of Horus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Isis is the essential answer for this question.",
+    "explanation": "Isis is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Isis is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10146,8 +10146,8 @@ export const ALL_QUESTIONS = [
       "Tefnut"
     ],
     "answer": 0,
-    "explanation": "In ancient Egyptian religion, Bastet was revered as the protective deity of the home, domesticity, women, children, and cats.",
-    "tip": "\ud83d\udca1 **Bastet & Cats:** Ancient Egyptians sacredly honored domestic cats as earthly incarnations of the goddess Bastet.",
+    "explanation": "Bastet is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Bastet is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10161,8 +10161,8 @@ export const ALL_QUESTIONS = [
       "Tefnut"
     ],
     "answer": 0,
-    "explanation": "In mythology, Sekhmet is the specific subject associated with: 'In Egyptian mythology, who was lioness-headed goddess of war and healing'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sekhmet is the essential answer for this question.",
+    "explanation": "Sekhmet is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Sekhmet is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10176,8 +10176,8 @@ export const ALL_QUESTIONS = [
       "Twelve Tables"
     ],
     "answer": 0,
-    "explanation": "In mythology, Code of Hammurabi is the specific subject associated with: 'What ancient Babylonian law code is famous for establishing 'an eye for an eye''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Code of Hammurabi is the essential answer for this question.",
+    "explanation": "In mythology, Code of Hammurabi is the exact answer for: 'What ancient Babylonian law code is famous for establishing 'an eye for an eye''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Code of Hammurabi is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10191,8 +10191,8 @@ export const ALL_QUESTIONS = [
       "Odyssey"
     ],
     "answer": 0,
-    "explanation": "In mythology, Epic of Gilgamesh is the specific subject associated with: 'What Mesopotamian text is widely considered the world's oldest surviving epic poem'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Epic of Gilgamesh is the essential answer for this question.",
+    "explanation": "In mythology, Epic of Gilgamesh is the exact answer for: 'What Mesopotamian text is widely considered the world's oldest surviving epic poem'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Epic of Gilgamesh is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10206,8 +10206,8 @@ export const ALL_QUESTIONS = [
       "Ptolemy I"
     ],
     "answer": 0,
-    "explanation": "In mythology, Alexander the Great is the specific subject associated with: 'Which Macedonian king conquered the Persian Empire and created an empire stretching to India'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Alexander the Great is the essential answer for this question.",
+    "explanation": "In mythology, Alexander the Great is the exact answer for: 'Which Macedonian king conquered the Persian Empire and created an empire stretching to India'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Alexander the Great is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10221,8 +10221,8 @@ export const ALL_QUESTIONS = [
       "14 AD"
     ],
     "answer": 0,
-    "explanation": "In mythology, 44 BC is the specific subject associated with: 'In what year BC was Julius Caesar assassinated on the Ides of March'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 44 BC is the essential answer for this question.",
+    "explanation": "In mythology, 44 BC is the exact answer for: 'In what year BC was Julius Caesar assassinated on the Ides of March'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 44 BC is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10236,8 +10236,8 @@ export const ALL_QUESTIONS = [
       "Nero"
     ],
     "answer": 0,
-    "explanation": "In mythology, Augustus (Octavian) is the specific subject associated with: 'Who became the first Roman Emperor in 27 BC, taking the title Augustus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Augustus (Octavian) is the essential answer for this question.",
+    "explanation": "In mythology, Augustus (Octavian) is the exact answer for: 'Who became the first Roman Emperor in 27 BC, taking the title Augustus'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Augustus (Octavian) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10251,8 +10251,8 @@ export const ALL_QUESTIONS = [
       "Commodus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Nero is the specific subject associated with: 'Which Roman Emperor presided over Rome during the Great Fire of 64 AD'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nero is the essential answer for this question.",
+    "explanation": "In mythology, Nero is the exact answer for: 'Which Roman Emperor presided over Rome during the Great Fire of 64 AD'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Nero is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10266,8 +10266,8 @@ export const ALL_QUESTIONS = [
       "Marcus Aurelius"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hadrian is the specific subject associated with: 'Which Roman Emperor ordered the construction of a stone wall across northern Britain in 122 AD'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hadrian is the essential answer for this question.",
+    "explanation": "In mythology, Hadrian is the exact answer for: 'Which Roman Emperor ordered the construction of a stone wall across northern Britain in 122 AD'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hadrian is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10281,8 +10281,8 @@ export const ALL_QUESTIONS = [
       "Julian"
     ],
     "answer": 0,
-    "explanation": "In mythology, Constantine the Great is the specific subject associated with: 'Who was the first Christian Roman Emperor, legalizing Christianity with the Edict of Milan in 313 AD'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Constantine the Great is the essential answer for this question.",
+    "explanation": "In mythology, Constantine the Great is the exact answer for: 'Who was the first Christian Roman Emperor, legalizing Christianity with the Edict of Milan in 313 AD'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Constantine the Great is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10296,8 +10296,8 @@ export const ALL_QUESTIONS = [
       "Clovis I"
     ],
     "answer": 0,
-    "explanation": "In mythology, Charlemagne is the specific subject associated with: 'Which King of the Franks was crowned Emperor of the Romans by Pope Leo III on Christmas Day 800 AD'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Charlemagne is the essential answer for this question.",
+    "explanation": "In mythology, Charlemagne is the exact answer for: 'Which King of the Franks was crowned Emperor of the Romans by Pope Leo III on Christmas Day 800 AD'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Charlemagne is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10311,8 +10311,8 @@ export const ALL_QUESTIONS = [
       "1485"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1066 is the specific subject associated with: 'In what year did the Battle of Hastings take place, marking the Norman Conquest of England'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1066 is the essential answer for this question.",
+    "explanation": "In mythology, 1066 is the exact answer for: 'In what year did the Battle of Hastings take place, marking the Norman Conquest of England'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1066 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10326,8 +10326,8 @@ export const ALL_QUESTIONS = [
       "Devonshire Tapestry"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Bayeux Tapestry is the specific subject associated with: 'What famous medieval embroidered cloth depicts the events leading to the 1066 Norman Conquest'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Bayeux Tapestry is the essential answer for this question.",
+    "explanation": "In mythology, The Bayeux Tapestry is the exact answer for: 'What famous medieval embroidered cloth depicts the events leading to the 1066 Norman Conquest'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Bayeux Tapestry is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10341,8 +10341,8 @@ export const ALL_QUESTIONS = [
       "Edward I"
     ],
     "answer": 0,
-    "explanation": "In mythology, King John is the specific subject associated with: 'Which English king granted the Magna Carta under pressure from rebellious barons at Runnymede in 1215'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** King John is the essential answer for this question.",
+    "explanation": "In mythology, King John is the exact answer for: 'Which English king granted the Magna Carta under pressure from rebellious barons at Runnymede in 1215'.",
+    "tip": "\ud83d\udca1 **Key Recall:** King John is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10356,8 +10356,8 @@ export const ALL_QUESTIONS = [
       "Antonine Plague"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Black Death is the specific subject associated with: 'What devastating pandemic swept across Europe between 1346 and 1353, killing millions'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Black Death is the essential answer for this question.",
+    "explanation": "In mythology, The Black Death is the exact answer for: 'What devastating pandemic swept across Europe between 1346 and 1353, killing millions'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Black Death is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10371,8 +10371,8 @@ export const ALL_QUESTIONS = [
       "Charlotte Corday"
     ],
     "answer": 0,
-    "explanation": "In mythology, Joan of Arc is the specific subject associated with: 'Which French peasant girl led French forces during the Hundred Years' War before being burned at the stake in 1431'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Joan of Arc is the essential answer for this question.",
+    "explanation": "In mythology, Joan of Arc is the exact answer for: 'Which French peasant girl led French forces during the Hundred Years' War before being burned at the stake in 1431'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Joan of Arc is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10386,8 +10386,8 @@ export const ALL_QUESTIONS = [
       "1683"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1453 is the specific subject associated with: 'In what year did the Fall of Constantinople mark the end of the Byzantine Empire'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1453 is the essential answer for this question.",
+    "explanation": "In mythology, 1453 is the exact answer for: 'In what year did the Fall of Constantinople mark the end of the Byzantine Empire'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1453 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10401,8 +10401,8 @@ export const ALL_QUESTIONS = [
       "1488"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1492 is the specific subject associated with: 'In what year did Christopher Columbus make his first voyage across the Atlantic, reaching the Bahamas'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1492 is the essential answer for this question.",
+    "explanation": "In mythology, 1492 is the exact answer for: 'In what year did Christopher Columbus make his first voyage across the Atlantic, reaching the Bahamas'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1492 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10416,8 +10416,8 @@ export const ALL_QUESTIONS = [
       "Philip Melanchthon"
     ],
     "answer": 0,
-    "explanation": "In mythology, Martin Luther is the specific subject associated with: 'Which German monk initiated the Protestant Reformation by posting his 95 Theses in 1517'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Martin Luther is the essential answer for this question.",
+    "explanation": "In mythology, Martin Luther is the exact answer for: 'Which German monk initiated the Protestant Reformation by posting his 95 Theses in 1517'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Martin Luther is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10431,8 +10431,8 @@ export const ALL_QUESTIONS = [
       "Charles I"
     ],
     "answer": 0,
-    "explanation": "In mythology, Henry VIII is the specific subject associated with: 'Which Tudor monarch broke with Rome and established the Church of England in 1534'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Henry VIII is the essential answer for this question.",
+    "explanation": "In mythology, Henry VIII is the exact answer for: 'Which Tudor monarch broke with Rome and established the Church of England in 1534'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Henry VIII is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10446,8 +10446,8 @@ export const ALL_QUESTIONS = [
       "Divorced, Died, Beheaded"
     ],
     "answer": 0,
-    "explanation": "In mythology, Divorced, Beheaded, Died, Divorced, Beheaded, Survived is the specific subject associated with: 'What was the fate of King Henry VIII's six wives in chronological order'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Divorced, Beheaded, Died, Divorced, Beheaded, Survived is the essential answer for this question.",
+    "explanation": "In mythology, Divorced, Beheaded, Died, Divorced, Beheaded, Survived is the exact answer for: 'What was the fate of King Henry VIII's six wives in chronological order'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Divorced, Beheaded, Died, Divorced, Beheaded, Survived is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10461,8 +10461,8 @@ export const ALL_QUESTIONS = [
       "Mary Queen of Scots"
     ],
     "answer": 0,
-    "explanation": "In mythology, Elizabeth I is the specific subject associated with: 'Which English queen reigned during the defeat of the Spanish Armada in 1588'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Elizabeth I is the essential answer for this question.",
+    "explanation": "In mythology, Elizabeth I is the exact answer for: 'Which English queen reigned during the defeat of the Spanish Armada in 1588'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Elizabeth I is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10476,8 +10476,8 @@ export const ALL_QUESTIONS = [
       "1666"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1588 is the specific subject associated with: 'In what year was the Spanish Armada defeated by the English navy'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1588 is the essential answer for this question.",
+    "explanation": "In mythology, 1588 is the exact answer for: 'In what year was the Spanish Armada defeated by the English navy'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1588 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10491,8 +10491,8 @@ export const ALL_QUESTIONS = [
       "Rye House Plot"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Gunpowder Plot is the specific subject associated with: 'What failed Catholic plot in 1605 aimed to blow up the English Parliament and King James I'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Gunpowder Plot is the essential answer for this question.",
+    "explanation": "In mythology, The Gunpowder Plot is the exact answer for: 'What failed Catholic plot in 1605 aimed to blow up the English Parliament and King James I'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Gunpowder Plot is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10506,8 +10506,8 @@ export const ALL_QUESTIONS = [
       "1707"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1666 is the specific subject associated with: 'In what year did the Great Fire of London destroy over 13,000 houses'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1666 is the essential answer for this question.",
+    "explanation": "In mythology, 1666 is the exact answer for: 'In what year did the Great Fire of London destroy over 13,000 houses'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1666 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10521,8 +10521,8 @@ export const ALL_QUESTIONS = [
       "Louis XIII"
     ],
     "answer": 0,
-    "explanation": "In mythology, Louis XIV is the specific subject associated with: 'Which French monarch, known as the 'Sun King', built the Palace of Versailles'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Louis XIV is the essential answer for this question.",
+    "explanation": "In mythology, Louis XIV is the exact answer for: 'Which French monarch, known as the 'Sun King', built the Palace of Versailles'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Louis XIV is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10536,8 +10536,8 @@ export const ALL_QUESTIONS = [
       "1791"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1776 is the specific subject associated with: 'In what year was the United States Declaration of Independence adopted in Philadelphia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1776 is the essential answer for this question.",
+    "explanation": "In mythology, 1776 is the exact answer for: 'In what year was the United States Declaration of Independence adopted in Philadelphia'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1776 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10551,8 +10551,8 @@ export const ALL_QUESTIONS = [
       "1848"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1789 is the specific subject associated with: 'In what year did the French Revolution begin with the storming of the Bastille'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1789 is the essential answer for this question.",
+    "explanation": "In mythology, 1789 is the exact answer for: 'In what year did the French Revolution begin with the storming of the Bastille'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1789 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10566,8 +10566,8 @@ export const ALL_QUESTIONS = [
       "Charles de Gaulle"
     ],
     "answer": 0,
-    "explanation": "In mythology, Napoleon Bonaparte is the specific subject associated with: 'Which French military leader was defeated at the Battle of Waterloo in 1815'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Napoleon Bonaparte is the essential answer for this question.",
+    "explanation": "In mythology, Napoleon Bonaparte is the exact answer for: 'Which French military leader was defeated at the Battle of Waterloo in 1815'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Napoleon Bonaparte is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10581,8 +10581,8 @@ export const ALL_QUESTIONS = [
       "1821"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1815 is the specific subject associated with: 'In what year was the Battle of Waterloo fought in present-day Belgium'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1815 is the essential answer for this question.",
+    "explanation": "In mythology, 1815 is the exact answer for: 'In what year was the Battle of Waterloo fought in present-day Belgium'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1815 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10596,8 +10596,8 @@ export const ALL_QUESTIONS = [
       "Queen Mary II"
     ],
     "answer": 0,
-    "explanation": "In mythology, Queen Victoria is the specific subject associated with: 'Which British monarch reigned for 63 years from 1837 to 1901 during the height of the British Empire'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Queen Victoria is the essential answer for this question.",
+    "explanation": "In mythology, Queen Victoria is the exact answer for: 'Which British monarch reigned for 63 years from 1837 to 1901 during the height of the British Empire'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Queen Victoria is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10611,8 +10611,8 @@ export const ALL_QUESTIONS = [
       "1918"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1914 is the specific subject associated with: 'In what year did World War I begin in Europe'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1914 is the essential answer for this question.",
+    "explanation": "In mythology, 1914 is the exact answer for: 'In what year did World War I begin in Europe'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1914 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10626,8 +10626,8 @@ export const ALL_QUESTIONS = [
       "1920"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1918 is the specific subject associated with: 'In what year did World War I end with the signing of the Armistice'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1918 is the essential answer for this question.",
+    "explanation": "In mythology, 1918 is the exact answer for: 'In what year did World War I end with the signing of the Armistice'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1918 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10641,8 +10641,8 @@ export const ALL_QUESTIONS = [
       "1914"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1917 is the specific subject associated with: 'In what year did the Russian Revolution overthrow Tsar Nicholas II and bring the Bolsheviks to power'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1917 is the essential answer for this question.",
+    "explanation": "In mythology, 1917 is the exact answer for: 'In what year did the Russian Revolution overthrow Tsar Nicholas II and bring the Bolsheviks to power'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1917 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10656,8 +10656,8 @@ export const ALL_QUESTIONS = [
       "1933"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1929 is the specific subject associated with: 'In what year did the Wall Street Crash trigger the Great Depression'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1929 is the essential answer for this question.",
+    "explanation": "In mythology, 1929 is the exact answer for: 'In what year did the Wall Street Crash trigger the Great Depression'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1929 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10671,8 +10671,8 @@ export const ALL_QUESTIONS = [
       "1941"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1939 is the specific subject associated with: 'In what year did World War II begin in Europe with the invasion of Poland'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1939 is the essential answer for this question.",
+    "explanation": "In mythology, 1939 is the exact answer for: 'In what year did World War II begin in Europe with the invasion of Poland'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1939 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10686,8 +10686,8 @@ export const ALL_QUESTIONS = [
       "1948"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1945 is the specific subject associated with: 'In what year did World War II officially end following the surrender of Japan'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1945 is the essential answer for this question.",
+    "explanation": "In mythology, 1945 is the exact answer for: 'In what year did World War II officially end following the surrender of Japan'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1945 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10701,8 +10701,8 @@ export const ALL_QUESTIONS = [
       "1972"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1969 is the specific subject associated with: 'In what year did Neil Armstrong and Buzz Aldrin walk on the Moon during the Apollo 11 mission'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1969 is the essential answer for this question.",
+    "explanation": "In mythology, 1969 is the exact answer for: 'In what year did Neil Armstrong and Buzz Aldrin walk on the Moon during the Apollo 11 mission'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1969 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10716,8 +10716,8 @@ export const ALL_QUESTIONS = [
       "1990"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1989 is the specific subject associated with: 'In what year did the Fall of the Berlin Wall symbolize the end of the Cold War'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1989 is the essential answer for this question.",
+    "explanation": "1989 is the chemical element on the Periodic Table corresponding to this scientific property.",
+    "tip": "\ud83d\udca1 **Periodic Element:** Remember 1989 for this chemical definition.",
     "difficulty": "Medium"
   },
   {
@@ -10731,8 +10731,8 @@ export const ALL_QUESTIONS = [
       "1990"
     ],
     "answer": 0,
-    "explanation": "In mythology, 1991 is the specific subject associated with: 'In what year was the Soviet Union (USSR) officially dissolved'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1991 is the essential answer for this question.",
+    "explanation": "In mythology, 1991 is the exact answer for: 'In what year was the Soviet Union (USSR) officially dissolved'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 1991 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10746,8 +10746,8 @@ export const ALL_QUESTIONS = [
       "Poseidon"
     ],
     "answer": 0,
-    "explanation": "In mythology, Zeus is the specific subject associated with: 'In Greek mythology, who was king of the gods and ruler of Mount Olympus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Zeus is the essential answer for this question.",
+    "explanation": "Zeus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Zeus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10761,8 +10761,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, Ares is the specific subject associated with: 'In Greek mythology, who was god of war and bloodlust'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ares is the essential answer for this question.",
+    "explanation": "Ares is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Ares is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10776,8 +10776,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, Poseidon is the specific subject associated with: 'In Greek mythology, who was god of the sea, earthquakes, and horses'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Poseidon is the essential answer for this question.",
+    "explanation": "Poseidon is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Poseidon is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -10791,8 +10791,8 @@ export const ALL_QUESTIONS = [
       "Ares"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hades is the specific subject associated with: 'In Greek mythology, who was god of the underworld and ruler of the dead'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hades is the essential answer for this question.",
+    "explanation": "Hades is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hades is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10806,8 +10806,8 @@ export const ALL_QUESTIONS = [
       "Artemis"
     ],
     "answer": 0,
-    "explanation": "In mythology, Athena is the specific subject associated with: 'In Greek mythology, who was goddess of wisdom, strategic warfare, and handicraft'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Athena is the essential answer for this question.",
+    "explanation": "Athena is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Athena is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10821,8 +10821,8 @@ export const ALL_QUESTIONS = [
       "Artemis"
     ],
     "answer": 0,
-    "explanation": "In mythology, Aphrodite is the specific subject associated with: 'In Greek mythology, who was goddess of love, beauty, passion, and procreation'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Aphrodite is the essential answer for this question.",
+    "explanation": "Aphrodite is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Aphrodite is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10836,8 +10836,8 @@ export const ALL_QUESTIONS = [
       "Zeus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hermes is the specific subject associated with: 'In Greek mythology, who was messenger of the gods and guide to the underworld'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hermes is the essential answer for this question.",
+    "explanation": "Hermes is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hermes is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10851,8 +10851,8 @@ export const ALL_QUESTIONS = [
       "Artemis"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hestia is the specific subject associated with: 'In Greek mythology, who was goddess of the hearth, home, and domestic life'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hestia is the essential answer for this question.",
+    "explanation": "Hestia is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hestia is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10866,8 +10866,8 @@ export const ALL_QUESTIONS = [
       "Persephone"
     ],
     "answer": 0,
-    "explanation": "In mythology, Demeter is the specific subject associated with: 'In Greek mythology, who was goddess of agriculture, harvest, and fertility'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Demeter is the essential answer for this question.",
+    "explanation": "Demeter is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Demeter is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10881,8 +10881,8 @@ export const ALL_QUESTIONS = [
       "Hephaestus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Dionysus is the specific subject associated with: 'In Greek mythology, who was god of wine, winemaking, orchards, and theater'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dionysus is the essential answer for this question.",
+    "explanation": "Dionysus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Dionysus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10896,8 +10896,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hephaestus is the specific subject associated with: 'In Greek mythology, who was god of fire, metalworking, and blacksmiths'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hephaestus is the essential answer for this question.",
+    "explanation": "Hephaestus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hephaestus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10911,8 +10911,8 @@ export const ALL_QUESTIONS = [
       "Demeter"
     ],
     "answer": 0,
-    "explanation": "In mythology, Artemis is the specific subject associated with: 'In Greek mythology, who was goddess of wild animals, the hunt, vegetation, and chastity'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Artemis is the essential answer for this question.",
+    "explanation": "Artemis is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Artemis is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10926,8 +10926,8 @@ export const ALL_QUESTIONS = [
       "Dionysus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Apollo is the specific subject associated with: 'In Greek mythology, who was god of sun, light, music, poetry, and healing'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Apollo is the essential answer for this question.",
+    "explanation": "Apollo is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Apollo is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10941,8 +10941,8 @@ export const ALL_QUESTIONS = [
       "Demeter"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hera is the specific subject associated with: 'In Greek mythology, who was queen of gods and goddess of marriage and women'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hera is the essential answer for this question.",
+    "explanation": "Hera is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hera is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10956,8 +10956,8 @@ export const ALL_QUESTIONS = [
       "Dionysus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Eros is the specific subject associated with: 'In Greek mythology, who was god of love and desire, son of Aphrodite'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Eros is the essential answer for this question.",
+    "explanation": "Eros is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Eros is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10971,8 +10971,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, Heracles (Hercules) is the specific subject associated with: 'In Greek mythology, who was hero who performed Twelve Labors'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Heracles (Hercules) is the essential answer for this question.",
+    "explanation": "Heracles (Hercules) is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Heracles (Hercules) is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -10986,8 +10986,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, Theseus is the specific subject associated with: 'In Greek mythology, who was hero who slew the Minotaur in the Cretan Labyrinth'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Theseus is the essential answer for this question.",
+    "explanation": "Theseus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Theseus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11001,8 +11001,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, Perseus is the specific subject associated with: 'In Greek mythology, who was hero who beheaded Medusa the Gorgon'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Perseus is the essential answer for this question.",
+    "explanation": "Perseus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Perseus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11016,8 +11016,8 @@ export const ALL_QUESTIONS = [
       "Odysseus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Jason is the specific subject associated with: 'In Greek mythology, who was leader of the Argonauts who retrieved the Golden Fleece'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jason is the essential answer for this question.",
+    "explanation": "Jason is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Jason is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11031,8 +11031,8 @@ export const ALL_QUESTIONS = [
       "Menelaus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Odysseus is the specific subject associated with: 'In Greek mythology, who was king of Ithaca whose 10-year journey home is told in the Odyssey'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Odysseus is the essential answer for this question.",
+    "explanation": "Odysseus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Odysseus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11046,8 +11046,8 @@ export const ALL_QUESTIONS = [
       "Diomedes"
     ],
     "answer": 0,
-    "explanation": "In mythology, Achilles is the specific subject associated with: 'In Greek mythology, who was greatest warrior of the Greeks in the Trojan War, invulnerable except for his heel'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Achilles is the essential answer for this question.",
+    "explanation": "Achilles is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Achilles is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11061,8 +11061,8 @@ export const ALL_QUESTIONS = [
       "Aeneas"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hector is the specific subject associated with: 'In Greek mythology, who was Trojan prince and champion killed by Achilles'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hector is the essential answer for this question.",
+    "explanation": "Hector is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hector is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11076,8 +11076,8 @@ export const ALL_QUESTIONS = [
       "Deiphobus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Paris is the specific subject associated with: 'In Greek mythology, who was Trojan prince whose abduction of Helen sparked the Trojan War'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Paris is the essential answer for this question.",
+    "explanation": "Paris is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Paris is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11091,8 +11091,8 @@ export const ALL_QUESTIONS = [
       "Odysseus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Agamemnon is the specific subject associated with: 'In Greek mythology, who was king of Mycenae and commander of Greek forces at Troy'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Agamemnon is the essential answer for this question.",
+    "explanation": "Agamemnon is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Agamemnon is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11106,8 +11106,8 @@ export const ALL_QUESTIONS = [
       "Diomedes"
     ],
     "answer": 0,
-    "explanation": "In mythology, Menelaus is the specific subject associated with: 'In Greek mythology, who was king of Sparta and husband of Helen of Troy'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Menelaus is the essential answer for this question.",
+    "explanation": "Menelaus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Menelaus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11121,8 +11121,8 @@ export const ALL_QUESTIONS = [
       "Tantalus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Daedalus is the specific subject associated with: 'In Greek mythology, who was architect who built the Labyrinth and made wax wings for his son Icarus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Daedalus is the essential answer for this question.",
+    "explanation": "Daedalus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Daedalus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11136,8 +11136,8 @@ export const ALL_QUESTIONS = [
       "Bellerophon"
     ],
     "answer": 0,
-    "explanation": "In mythology, Icarus is the specific subject associated with: 'In Greek mythology, who was youth who flew too close to the sun with wax wings'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Icarus is the essential answer for this question.",
+    "explanation": "Icarus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Icarus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11151,8 +11151,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, Bellerophon is the specific subject associated with: 'In Greek mythology, who was hero who rode winged horse Pegasus to defeat the Chimera'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bellerophon is the essential answer for this question.",
+    "explanation": "Bellerophon is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Bellerophon is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11166,8 +11166,8 @@ export const ALL_QUESTIONS = [
       "Prometheus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Sisyphus is the specific subject associated with: 'In Greek mythology, who was king condemned to roll a boulder up a hill for eternity'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sisyphus is the essential answer for this question.",
+    "explanation": "Sisyphus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Sisyphus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11181,8 +11181,8 @@ export const ALL_QUESTIONS = [
       "Cronus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Prometheus is the specific subject associated with: 'In Greek mythology, who was Titan who stole fire from gods to give to humanity'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Prometheus is the essential answer for this question.",
+    "explanation": "Prometheus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Prometheus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11196,8 +11196,8 @@ export const ALL_QUESTIONS = [
       "Oceanus"
     ],
     "answer": 0,
-    "explanation": "In mythology, Atlas is the specific subject associated with: 'In Greek mythology, who was Titan condemned to hold up the celestial heavens for eternity'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Atlas is the essential answer for this question.",
+    "explanation": "Atlas is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Atlas is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11211,8 +11211,8 @@ export const ALL_QUESTIONS = [
       "Tityos"
     ],
     "answer": 0,
-    "explanation": "In mythology, Tantalus is the specific subject associated with: 'In Greek mythology, who was king punished in Tartarus with eternal hunger and thirst'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tantalus is the essential answer for this question.",
+    "explanation": "Tantalus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Tantalus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11226,8 +11226,8 @@ export const ALL_QUESTIONS = [
       "Eris"
     ],
     "answer": 0,
-    "explanation": "In mythology, Persephone is the specific subject associated with: 'In Greek mythology, who was queen of the underworld and wife of Hades'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Persephone is the essential answer for this question.",
+    "explanation": "Persephone is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Persephone is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11241,8 +11241,8 @@ export const ALL_QUESTIONS = [
       "Medea"
     ],
     "answer": 0,
-    "explanation": "In mythology, Hecate is the specific subject associated with: 'In Greek mythology, who was goddess of witchcraft, magic, night, and moon'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hecate is the essential answer for this question.",
+    "explanation": "Hecate is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Hecate is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11256,8 +11256,8 @@ export const ALL_QUESTIONS = [
       "Scylla"
     ],
     "answer": 0,
-    "explanation": "In mythology, Circe is the specific subject associated with: 'In Greek mythology, who was sorceress on island of Aiaia who turned Odysseus' men into pigs'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Circe is the essential answer for this question.",
+    "explanation": "Circe is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Circe is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11271,8 +11271,8 @@ export const ALL_QUESTIONS = [
       "Sirens"
     ],
     "answer": 0,
-    "explanation": "In mythology, Calypso is the specific subject associated with: 'In Greek mythology, who was nymph who detained Odysseus on her island Ogygia for 7 years'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Calypso is the essential answer for this question.",
+    "explanation": "Calypso is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Calypso is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11286,8 +11286,8 @@ export const ALL_QUESTIONS = [
       "Chimera"
     ],
     "answer": 0,
-    "explanation": "In mythology, Cerberus is the specific subject associated with: 'In Greek mythology, who was three-headed dog guarding the entrance to the underworld'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cerberus is the essential answer for this question.",
+    "explanation": "Cerberus is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Cerberus is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11301,8 +11301,8 @@ export const ALL_QUESTIONS = [
       "Sphinx"
     ],
     "answer": 0,
-    "explanation": "In mythology, Chimera is the specific subject associated with: 'In Greek mythology, who was monstrous fire-breathing lion-goat-snake creature killed by Bellerophon'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chimera is the essential answer for this question.",
+    "explanation": "Chimera is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Chimera is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11316,8 +11316,8 @@ export const ALL_QUESTIONS = [
       "Typhon"
     ],
     "answer": 0,
-    "explanation": "In mythology, Lernean Hydra is the specific subject associated with: 'In Greek mythology, who was many-headed water serpent slain by Heracles'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Lernean Hydra is the essential answer for this question.",
+    "explanation": "Lernean Hydra is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Lernean Hydra is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11331,8 +11331,8 @@ export const ALL_QUESTIONS = [
       "Cyclops"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Minotaur is the specific subject associated with: 'In Greek mythology, who was half-man, half-bull monster kept in the Cretan Labyrinth'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Minotaur is the essential answer for this question.",
+    "explanation": "The Minotaur is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Minotaur is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11346,8 +11346,8 @@ export const ALL_QUESTIONS = [
       "Gorgons"
     ],
     "answer": 0,
-    "explanation": "In mythology, Centaurs is the specific subject associated with: 'In Greek mythology, who were half-man, half-horse creatures of the mountains of Thessaly'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Centaurs is the essential answer for this question.",
+    "explanation": "Centaurs is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Centaurs is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11361,8 +11361,8 @@ export const ALL_QUESTIONS = [
       "Nymphs"
     ],
     "answer": 0,
-    "explanation": "In mythology, Satyrs is the specific subject associated with: 'In Greek mythology, who were half-man, half-goat nature spirits of Dionysus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Satyrs is the essential answer for this question.",
+    "explanation": "Satyrs is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Satyrs is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11376,8 +11376,8 @@ export const ALL_QUESTIONS = [
       "The Graeae"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Gorgons (Medusa) is the specific subject associated with: 'In Greek mythology, who were three snake-haired sisters whose gaze turned onlookers to stone'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Gorgons (Medusa) is the essential answer for this question.",
+    "explanation": "The Gorgons (Medusa) is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Gorgons (Medusa) is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11391,8 +11391,8 @@ export const ALL_QUESTIONS = [
       "The Mates"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Furies (Erinyes) is the specific subject associated with: 'In Greek mythology, who were winged female spirits of vengeance'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Furies (Erinyes) is the essential answer for this question.",
+    "explanation": "The Furies (Erinyes) is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Furies (Erinyes) is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11406,8 +11406,8 @@ export const ALL_QUESTIONS = [
       "The Gorgons"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Harpies is the specific subject associated with: 'In Greek mythology, who were bird-women who snatched food and souls'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Harpies is the essential answer for this question.",
+    "explanation": "The Harpies is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Harpies is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11421,8 +11421,8 @@ export const ALL_QUESTIONS = [
       "The Muses"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Sirens is the specific subject associated with: 'In Greek mythology, who were dangerous creature maidens whose enchanting songs lured sailors to shipwreck'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Sirens is the essential answer for this question.",
+    "explanation": "The Sirens is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Sirens is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11436,8 +11436,8 @@ export const ALL_QUESTIONS = [
       "The Nymphs"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Nine Muses is the specific subject associated with: 'In Greek mythology, who were nine goddesses of music, poetry, arts, and sciences'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Nine Muses is the essential answer for this question.",
+    "explanation": "The Nine Muses is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Nine Muses is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11451,8 +11451,8 @@ export const ALL_QUESTIONS = [
       "The Horae"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Three Graces (Charites) is the specific subject associated with: 'In Greek mythology, who were three goddesses of charm, beauty, and grace'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Three Graces (Charites) is the essential answer for this question.",
+    "explanation": "The Three Graces (Charites) is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Three Graces (Charites) is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11466,8 +11466,8 @@ export const ALL_QUESTIONS = [
       "The Parcae"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Fates (Moirai) is the specific subject associated with: 'In Greek mythology, who were three sister deities who spun, measured, and cut thread of life'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Fates (Moirai) is the essential answer for this question.",
+    "explanation": "The Fates (Moirai) is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Fates (Moirai) is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11481,8 +11481,8 @@ export const ALL_QUESTIONS = [
       "The Shieldmaidens"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Norns is the specific subject associated with: 'In Norse mythology, who were three maiden fate weavers of destiny at Ur\u00f0arbrunnr'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Norns is the essential answer for this question.",
+    "explanation": "The Norns is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Norns is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11496,8 +11496,8 @@ export const ALL_QUESTIONS = [
       "The Giantesses"
     ],
     "answer": 0,
-    "explanation": "In mythology, The Valkyries is the specific subject associated with: 'In Norse mythology, who were noble female spirits who chose those who die in battle and take them to Valhalla'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Valkyries is the essential answer for this question.",
+    "explanation": "The Valkyries is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** The Valkyries is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11511,8 +11511,8 @@ export const ALL_QUESTIONS = [
       "Garmr"
     ],
     "answer": 0,
-    "explanation": "In mythology, Fenrir is the specific subject associated with: 'In Norse mythology, who was giant wolf and son of Loki who bites off Tyr's hand and kills Odin at Ragnar\u00f6k'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fenrir is the essential answer for this question.",
+    "explanation": "Fenrir is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Fenrir is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11526,8 +11526,8 @@ export const ALL_QUESTIONS = [
       "Fafnir"
     ],
     "answer": 0,
-    "explanation": "In mythology, J\u00f6rmungandr (Midgard Serpent) is the specific subject associated with: 'In Norse mythology, who was vast sea serpent surrounding Midgard and arch-enemy of Thor'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** J\u00f6rmungandr (Midgard Serpent) is the essential answer for this question.",
+    "explanation": "J\u00f6rmungandr (Midgard Serpent) is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** J\u00f6rmungandr (Midgard Serpent) is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -11541,8 +11541,8 @@ export const ALL_QUESTIONS = [
       "Grani"
     ],
     "answer": 0,
-    "explanation": "In mythology, Sleipnir is the specific subject associated with: 'In Norse mythology, who was eight-legged horse ridden by Odin'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sleipnir is the essential answer for this question.",
+    "explanation": "Sleipnir is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Sleipnir is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11556,8 +11556,8 @@ export const ALL_QUESTIONS = [
       "Heimdall"
     ],
     "answer": 0,
-    "explanation": "In mythology, Baldr is the specific subject associated with: 'In Norse mythology, who was god of spring, light, and beauty whose death was engineered by Loki with mistletoe'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Baldr is the essential answer for this question.",
+    "explanation": "Baldr is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Baldr is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11571,8 +11571,8 @@ export const ALL_QUESTIONS = [
       "Tyr"
     ],
     "answer": 0,
-    "explanation": "In mythology, Freyr is the specific subject associated with: 'In Norse mythology, who was god of sunshine, fertile rain, and prosperity, brother of Freyja'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Freyr is the essential answer for this question.",
+    "explanation": "Freyr is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Freyr is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11586,8 +11586,8 @@ export const ALL_QUESTIONS = [
       "Sif"
     ],
     "answer": 0,
-    "explanation": "In mythology, Freyja is the specific subject associated with: 'In Norse mythology, who was goddess of love, beauty, fertility, gold, and magic (Sei\u00f0r)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Freyja is the essential answer for this question.",
+    "explanation": "Freyja is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Freyja is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11601,8 +11601,8 @@ export const ALL_QUESTIONS = [
       "Sif"
     ],
     "answer": 0,
-    "explanation": "In mythology, Frigg is the specific subject associated with: 'In Norse mythology, who was the wife of Odin and queen of Asgard known for her wisdom and foresight'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Frigg is the essential answer for this question.",
+    "explanation": "Frigg is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Frigg is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11616,8 +11616,8 @@ export const ALL_QUESTIONS = [
       "Sif"
     ],
     "answer": 0,
-    "explanation": "In mythology, Idunn is the specific subject associated with: 'In Norse mythology, who was goddess who guarded golden apples granting eternal youth to gods'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Idunn is the essential answer for this question.",
+    "explanation": "Idunn is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Idunn is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11631,8 +11631,8 @@ export const ALL_QUESTIONS = [
       "Heimdall"
     ],
     "answer": 0,
-    "explanation": "In mythology, Tyr is the specific subject associated with: 'In Norse mythology, who was one-handed god of war and law who sacrificed his hand to bind Fenrir'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tyr is the essential answer for this question.",
+    "explanation": "Tyr is the deity or mythological figure revered in ancient religion.",
+    "tip": "\ud83d\udca1 **Mythological Deity:** Tyr is the central figure in ancient myth.",
     "difficulty": "Medium"
   },
   {
@@ -11646,8 +11646,8 @@ export const ALL_QUESTIONS = [
       "98.75"
     ],
     "answer": 0,
-    "explanation": "In sports, 99.94 is the specific subject associated with: 'What was Sir Donald Bradman's final, legendary Test cricket batting average'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 99.94 is the essential answer for this question.",
+    "explanation": "In sports, 99.94 is the exact answer for: 'What was Sir Donald Bradman's final, legendary Test cricket batting average'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 99.94 is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11661,8 +11661,8 @@ export const ALL_QUESTIONS = [
       "Carlton"
     ],
     "answer": 0,
-    "explanation": "In sports, Collingwood is the specific subject associated with: 'Which VFL/AFL club won four consecutive premierships between 1927 and 1930'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Collingwood is the essential answer for this question.",
+    "explanation": "In sports, Collingwood is the exact answer for: 'Which VFL/AFL club won four consecutive premierships between 1927 and 1930'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Collingwood is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11676,8 +11676,8 @@ export const ALL_QUESTIONS = [
       "Richmond"
     ],
     "answer": 0,
-    "explanation": "In sports, Brisbane Lions is the specific subject associated with: 'Which AFL club achieved a premiership three-peat between 2001 and 2003 under Leigh Matthews'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Brisbane Lions is the essential answer for this question.",
+    "explanation": "In sports, Brisbane Lions is the exact answer for: 'Which AFL club achieved a premiership three-peat between 2001 and 2003 under Leigh Matthews'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Brisbane Lions is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11691,8 +11691,8 @@ export const ALL_QUESTIONS = [
       "Sydney Swans"
     ],
     "answer": 0,
-    "explanation": "In sports, Hawthorn is the specific subject associated with: 'Which AFL club achieved a premiership three-peat between 2013 and 2015 under Alastair Clarkson'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hawthorn is the essential answer for this question.",
+    "explanation": "In sports, Hawthorn is the exact answer for: 'Which AFL club achieved a premiership three-peat between 2013 and 2015 under Alastair Clarkson'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hawthorn is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11706,8 +11706,8 @@ export const ALL_QUESTIONS = [
       "Richmond"
     ],
     "answer": 0,
-    "explanation": "In sports, Melbourne is the specific subject associated with: 'Which VFL club achieved a premiership three-peat between 1955 and 1957 under Norm Smith'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Melbourne is the essential answer for this question.",
+    "explanation": "In sports, Melbourne is the exact answer for: 'Which VFL club achieved a premiership three-peat between 1955 and 1957 under Norm Smith'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Melbourne is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11721,8 +11721,8 @@ export const ALL_QUESTIONS = [
       "Australian Open"
     ],
     "answer": 0,
-    "explanation": "In sports, Wimbledon is the specific subject associated with: 'Which London grass court tennis tournament is the oldest Grand Slam in the world'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Wimbledon is the essential answer for this question.",
+    "explanation": "In sports, Wimbledon is the exact answer for: 'Which London grass court tennis tournament is the oldest Grand Slam in the world'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Wimbledon is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11736,8 +11736,8 @@ export const ALL_QUESTIONS = [
       "Australian Open"
     ],
     "answer": 0,
-    "explanation": "In sports, The French Open (Roland-Garros) is the specific subject associated with: 'Which Paris red clay court tennis tournament is named after a French aviator'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The French Open (Roland-Garros) is the essential answer for this question.",
+    "explanation": "In sports, The French Open (Roland-Garros) is the exact answer for: 'Which Paris red clay court tennis tournament is named after a French aviator'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The French Open (Roland-Garros) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11751,8 +11751,8 @@ export const ALL_QUESTIONS = [
       "US Open"
     ],
     "answer": 0,
-    "explanation": "In sports, Australian Open is the specific subject associated with: 'Which Melbourne Park hard court tennis tournament is the first Grand Slam of the calendar year'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Australian Open is the essential answer for this question.",
+    "explanation": "In sports, Australian Open is the exact answer for: 'Which Melbourne Park hard court tennis tournament is the first Grand Slam of the calendar year'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Australian Open is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11766,8 +11766,8 @@ export const ALL_QUESTIONS = [
       "Australian Open"
     ],
     "answer": 0,
-    "explanation": "In sports, US Open is the specific subject associated with: 'Which New York hard court tennis tournament is played at Flushing Meadows'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** US Open is the essential answer for this question.",
+    "explanation": "US Open is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** US Open is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -11781,8 +11781,8 @@ export const ALL_QUESTIONS = [
       "2004"
     ],
     "answer": 0,
-    "explanation": "In sports, 2000 is the specific subject associated with: 'In what year were the Summer Olympic Games hosted in Sydney, Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 2000 is the essential answer for this question.",
+    "explanation": "2000 is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** 2000 achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11796,8 +11796,8 @@ export const ALL_QUESTIONS = [
       "1964"
     ],
     "answer": 0,
-    "explanation": "In sports, 1956 is the specific subject associated with: 'In what year were the Summer Olympic Games hosted in Melbourne, Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1956 is the essential answer for this question.",
+    "explanation": "1956 is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** 1956 achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11811,8 +11811,8 @@ export const ALL_QUESTIONS = [
       "Pete Sampras"
     ],
     "answer": 0,
-    "explanation": "In sports, Novak Djokovic is the specific subject associated with: 'Which Serbian tennis legend holds the record for most men's Grand Slam singles titles'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Novak Djokovic is the essential answer for this question.",
+    "explanation": "In sports, Novak Djokovic is the exact answer for: 'Which Serbian tennis legend holds the record for most men's Grand Slam singles titles'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Novak Djokovic is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11826,8 +11826,8 @@ export const ALL_QUESTIONS = [
       "Martina Navratilova"
     ],
     "answer": 0,
-    "explanation": "In sports, Margaret Court is the specific subject associated with: 'Which Australian tennis legend holds the all-time record for most women's Grand Slam singles titles (24)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Margaret Court is the essential answer for this question.",
+    "explanation": "In sports, Margaret Court is the exact answer for: 'Which Australian tennis legend holds the all-time record for most women's Grand Slam singles titles (24)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Margaret Court is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11841,8 +11841,8 @@ export const ALL_QUESTIONS = [
       "Kyle Chalmers"
     ],
     "answer": 0,
-    "explanation": "In sports, Ian Thorpe is the specific subject associated with: 'Which Australian swimmer won 5 Olympic Gold medals, nicknamed 'The Thorpedo''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ian Thorpe is the essential answer for this question.",
+    "explanation": "Ian Thorpe is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Ian Thorpe achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11856,8 +11856,8 @@ export const ALL_QUESTIONS = [
       "Ariarne Titmus"
     ],
     "answer": 0,
-    "explanation": "In sports, Dawn Fraser is the specific subject associated with: 'Which Australian swimmer won gold in the 100m freestyle at three consecutive Olympics (1956, 1960, 1964)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dawn Fraser is the essential answer for this question.",
+    "explanation": "Dawn Fraser is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Dawn Fraser achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11871,8 +11871,8 @@ export const ALL_QUESTIONS = [
       "Leisel Jones"
     ],
     "answer": 0,
-    "explanation": "In sports, Shane Gould is the specific subject associated with: 'Which 15-year-old Australian swimmer won 5 individual medals (3 gold) at the 1972 Munich Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Shane Gould is the essential answer for this question.",
+    "explanation": "Shane Gould is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Shane Gould achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11886,8 +11886,8 @@ export const ALL_QUESTIONS = [
       "Sally Pearson"
     ],
     "answer": 0,
-    "explanation": "In sports, Cathy Freeman is the specific subject associated with: 'Which Australian sprinter won gold in the 400m at Sydney 2000 while wearing a full-body suit'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cathy Freeman is the essential answer for this question.",
+    "explanation": "In sports, Cathy Freeman is the exact answer for: 'Which Australian sprinter won gold in the 400m at Sydney 2000 while wearing a full-body suit'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cathy Freeman is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11901,8 +11901,8 @@ export const ALL_QUESTIONS = [
       "Raelene Boyle"
     ],
     "answer": 0,
-    "explanation": "In sports, Betty Cuthbert is the specific subject associated with: 'Which Australian track legend won 3 gold medals at the 1956 Melbourne Olympics, known as the 'Golden Girl''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Betty Cuthbert is the essential answer for this question.",
+    "explanation": "Betty Cuthbert is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Betty Cuthbert achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11916,8 +11916,8 @@ export const ALL_QUESTIONS = [
       "Melinda Gainsford-Taylor"
     ],
     "answer": 0,
-    "explanation": "In sports, Sally Pearson is the specific subject associated with: 'Which Australian athlete won gold in the 100m hurdles at the 2012 London Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sally Pearson is the essential answer for this question.",
+    "explanation": "Sally Pearson is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Sally Pearson achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11931,8 +11931,8 @@ export const ALL_QUESTIONS = [
       "Alicia Coutts"
     ],
     "answer": 0,
-    "explanation": "In sports, Stephanie Rice is the specific subject associated with: 'Which Australian swimmer won 3 individual medley gold medals at the 2008 Beijing Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Stephanie Rice is the essential answer for this question.",
+    "explanation": "Stephanie Rice is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Stephanie Rice achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11946,8 +11946,8 @@ export const ALL_QUESTIONS = [
       "Ralph Doubell"
     ],
     "answer": 0,
-    "explanation": "In sports, Ron Clarke is the specific subject associated with: 'Which Australian middle-distance runner broke 17 world records during his career in the 1960s'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ron Clarke is the essential answer for this question.",
+    "explanation": "In sports, Ron Clarke is the exact answer for: 'Which Australian middle-distance runner broke 17 world records during his career in the 1960s'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ron Clarke is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11961,8 +11961,8 @@ export const ALL_QUESTIONS = [
       "Ralph Doubell"
     ],
     "answer": 0,
-    "explanation": "In sports, Herb Elliott is the specific subject associated with: 'Which Australian runner went undefeated over 1500m and the mile, winning gold at the 1960 Rome Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Herb Elliott is the essential answer for this question.",
+    "explanation": "Herb Elliott is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Herb Elliott achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11976,8 +11976,8 @@ export const ALL_QUESTIONS = [
       "Merv Lincoln"
     ],
     "answer": 0,
-    "explanation": "In sports, John Landy is the specific subject associated with: 'Which Australian runner famously stopped to help fallen competitor Ron Clarke during the 1956 National Championships'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** John Landy is the essential answer for this question.",
+    "explanation": "John Landy is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** John Landy achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -11991,8 +11991,8 @@ export const ALL_QUESTIONS = [
       "Peter Thomson"
     ],
     "answer": 0,
-    "explanation": "In sports, Greg Norman is the specific subject associated with: 'Which Australian golfer held the World No. 1 ranking for a total of 331 weeks in the 1980s and 1990s'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Greg Norman is the essential answer for this question.",
+    "explanation": "In sports, Greg Norman is the exact answer for: 'Which Australian golfer held the World No. 1 ranking for a total of 331 weeks in the 1980s and 1990s'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Greg Norman is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12006,8 +12006,8 @@ export const ALL_QUESTIONS = [
       "Geoff Ogilvy"
     ],
     "answer": 0,
-    "explanation": "In sports, Adam Scott is the specific subject associated with: 'Who was the first Australian golfer to win the Masters Tournament at Augusta in 2013'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Adam Scott is the essential answer for this question.",
+    "explanation": "In sports, Adam Scott is the exact answer for: 'Who was the first Australian golfer to win the Masters Tournament at Augusta in 2013'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Adam Scott is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12021,8 +12021,8 @@ export const ALL_QUESTIONS = [
       "Adam Scott"
     ],
     "answer": 0,
-    "explanation": "In sports, Peter Thomson is the specific subject associated with: 'Which Australian golfer won The Open Championship five times between 1954 and 1965'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Peter Thomson is the essential answer for this question.",
+    "explanation": "Peter Thomson is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Peter Thomson achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12036,8 +12036,8 @@ export const ALL_QUESTIONS = [
       "Peter Pan"
     ],
     "answer": 0,
-    "explanation": "In sports, Archer is the specific subject associated with: 'Which horse won the inaugural Melbourne Cup in 1861 and repeated the win in 1862'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Archer is the essential answer for this question.",
+    "explanation": "In sports, Archer is the exact answer for: 'Which horse won the inaugural Melbourne Cup in 1861 and repeated the win in 1862'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Archer is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12051,8 +12051,8 @@ export const ALL_QUESTIONS = [
       "Tulloch"
     ],
     "answer": 0,
-    "explanation": "In sports, Phar Lap is the specific subject associated with: 'Which Depression-era racehorse won 37 of his 51 starts, including the 1930 Melbourne Cup'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Phar Lap is the essential answer for this question.",
+    "explanation": "In sports, Phar Lap is the exact answer for: 'Which Depression-era racehorse won 37 of his 51 starts, including the 1930 Melbourne Cup'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Phar Lap is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12066,8 +12066,8 @@ export const ALL_QUESTIONS = [
       "Winx"
     ],
     "answer": 0,
-    "explanation": "In sports, Makybe Diva is the specific subject associated with: 'Which racehorse is the only horse to win three consecutive Melbourne Cups (2003, 2004, 2005)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Makybe Diva is the essential answer for this question.",
+    "explanation": "In sports, Makybe Diva is the exact answer for: 'Which racehorse is the only horse to win three consecutive Melbourne Cups (2003, 2004, 2005)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Makybe Diva is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12081,8 +12081,8 @@ export const ALL_QUESTIONS = [
       "Sunline"
     ],
     "answer": 0,
-    "explanation": "In sports, Black Caviar is the specific subject associated with: 'Which legendary Australian sprinter mare retired undefeated after 25 race starts'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Black Caviar is the essential answer for this question.",
+    "explanation": "In sports, Black Caviar is the exact answer for: 'Which legendary Australian sprinter mare retired undefeated after 25 race starts'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Black Caviar is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12096,8 +12096,8 @@ export const ALL_QUESTIONS = [
       "Sunline"
     ],
     "answer": 0,
-    "explanation": "In sports, Winx is the specific subject associated with: 'Which champion Australian thoroughbred mare won 33 consecutive races, including 4 Cox Plates'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Winx is the essential answer for this question.",
+    "explanation": "In sports, Winx is the exact answer for: 'Which champion Australian thoroughbred mare won 33 consecutive races, including 4 Cox Plates'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Winx is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12111,8 +12111,8 @@ export const ALL_QUESTIONS = [
       "Kingston Town"
     ],
     "answer": 0,
-    "explanation": "In sports, Winx is the specific subject associated with: 'Which horse won four consecutive Cox Plates between 2015 and 2018'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Winx is the essential answer for this question.",
+    "explanation": "In sports, Winx is the exact answer for: 'Which horse won four consecutive Cox Plates between 2015 and 2018'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Winx is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12126,8 +12126,8 @@ export const ALL_QUESTIONS = [
       "So You Think"
     ],
     "answer": 0,
-    "explanation": "In sports, Kingston Town is the specific subject associated with: 'Which racehorse won three consecutive Cox Plates between 1980 and 1982'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kingston Town is the essential answer for this question.",
+    "explanation": "In sports, Kingston Town is the exact answer for: 'Which racehorse won three consecutive Cox Plates between 1980 and 1982'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Kingston Town is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12141,8 +12141,8 @@ export const ALL_QUESTIONS = [
       "The Trans-Tasman Trophy"
     ],
     "answer": 0,
-    "explanation": "In sports, The Ashes is the specific subject associated with: 'What mock obituary published in The Sporting Times in 1882 gave birth to which famous cricket rivalry'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Ashes is the essential answer for this question.",
+    "explanation": "The Ashes is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Ashes achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12156,8 +12156,8 @@ export const ALL_QUESTIONS = [
       "Craig McDermott"
     ],
     "answer": 0,
-    "explanation": "In sports, Shane Warne is the specific subject associated with: 'Which Australian leg-spinner bowled the famous 'Ball of the Century' to Mike Gatting in 1993'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Shane Warne is the essential answer for this question.",
+    "explanation": "In sports, Shane Warne is the exact answer for: 'Which Australian leg-spinner bowled the famous 'Ball of the Century' to Mike Gatting in 1993'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Shane Warne is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12171,8 +12171,8 @@ export const ALL_QUESTIONS = [
       "Dennis Lillee"
     ],
     "answer": 0,
-    "explanation": "In sports, Shane Warne is the specific subject associated with: 'Who holds the record for most Test wickets taken by an Australian bowler (708)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Shane Warne is the essential answer for this question.",
+    "explanation": "In sports, Shane Warne is the exact answer for: 'Who holds the record for most Test wickets taken by an Australian bowler (708)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Shane Warne is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12186,8 +12186,8 @@ export const ALL_QUESTIONS = [
       "Brett Lee"
     ],
     "answer": 0,
-    "explanation": "In sports, Glenn McGrath is the specific subject associated with: 'Who holds the record for most Test wickets taken by an Australian fast bowler (563)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Glenn McGrath is the essential answer for this question.",
+    "explanation": "In sports, Glenn McGrath is the exact answer for: 'Who holds the record for most Test wickets taken by an Australian fast bowler (563)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Glenn McGrath is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12201,8 +12201,8 @@ export const ALL_QUESTIONS = [
       "Ricky Ponting"
     ],
     "answer": 0,
-    "explanation": "In sports, Sir Donald Bradman is the specific subject associated with: 'Which batsman scored 334 in a single day against England at Headingley in 1930'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Donald Bradman is the essential answer for this question.",
+    "explanation": "In sports, Sir Donald Bradman is the exact answer for: 'Which batsman scored 334 in a single day against England at Headingley in 1930'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Sir Donald Bradman is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12216,8 +12216,8 @@ export const ALL_QUESTIONS = [
       "Justin Langer"
     ],
     "answer": 0,
-    "explanation": "In sports, Matthew Hayden is the specific subject associated with: 'Which Australian opening batsman set a then-world record Test score of 380 against Zimbabwe in 2003'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Matthew Hayden is the essential answer for this question.",
+    "explanation": "In sports, Matthew Hayden is the exact answer for: 'Which Australian opening batsman set a then-world record Test score of 380 against Zimbabwe in 2003'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Matthew Hayden is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12231,8 +12231,8 @@ export const ALL_QUESTIONS = [
       "Allan Border"
     ],
     "answer": 0,
-    "explanation": "In sports, Mark Taylor is the specific subject associated with: 'Which Australian captain declared his innings closed on 334* out of respect for Don Bradman's record'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mark Taylor is the essential answer for this question.",
+    "explanation": "In sports, Mark Taylor is the exact answer for: 'Which Australian captain declared his innings closed on 334* out of respect for Don Bradman's record'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mark Taylor is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12246,8 +12246,8 @@ export const ALL_QUESTIONS = [
       "Mark Taylor"
     ],
     "answer": 0,
-    "explanation": "In sports, Steve Waugh is the specific subject associated with: 'Which Australian captain led Australia to a world-record 16 consecutive Test match victories between 1999 and 2001'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Steve Waugh is the essential answer for this question.",
+    "explanation": "In sports, Steve Waugh is the exact answer for: 'Which Australian captain led Australia to a world-record 16 consecutive Test match victories between 1999 and 2001'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Steve Waugh is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12261,8 +12261,8 @@ export const ALL_QUESTIONS = [
       "Steve Smith"
     ],
     "answer": 0,
-    "explanation": "In sports, Ricky Ponting is the specific subject associated with: 'Which Australian captain led Australia to another 16-consecutive Test wins streak between 2005 and 2008'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ricky Ponting is the essential answer for this question.",
+    "explanation": "In sports, Ricky Ponting is the exact answer for: 'Which Australian captain led Australia to another 16-consecutive Test wins streak between 2005 and 2008'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ricky Ponting is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12276,8 +12276,8 @@ export const ALL_QUESTIONS = [
       "Sydney Roosters"
     ],
     "answer": 0,
-    "explanation": "In sports, Brisbane Broncos is the specific subject associated with: 'Which club won the inaugural National Rugby League (NRL) premiership in 1998'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Brisbane Broncos is the essential answer for this question.",
+    "explanation": "In sports, Brisbane Broncos is the exact answer for: 'Which club won the inaugural National Rugby League (NRL) premiership in 1998'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Brisbane Broncos is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12291,8 +12291,8 @@ export const ALL_QUESTIONS = [
       "Newcastle Knights"
     ],
     "answer": 0,
-    "explanation": "In sports, Melbourne Storm is the specific subject associated with: 'Which NRL club won the 1999 Grand Final with a dramatic late penalty try against St George Illawarra'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Melbourne Storm is the essential answer for this question.",
+    "explanation": "In sports, Melbourne Storm is the exact answer for: 'Which NRL club won the 1999 Grand Final with a dramatic late penalty try against St George Illawarra'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Melbourne Storm is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12306,8 +12306,8 @@ export const ALL_QUESTIONS = [
       "Balmain Tigers"
     ],
     "answer": 0,
-    "explanation": "In sports, St. George Dragons is the specific subject associated with: 'Which Sydney rugby league club won 11 consecutive premierships between 1956 and 1966'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** St. George Dragons is the essential answer for this question.",
+    "explanation": "In sports, St. George Dragons is the exact answer for: 'Which Sydney rugby league club won 11 consecutive premierships between 1956 and 1966'.",
+    "tip": "\ud83d\udca1 **Key Recall:** St. George Dragons is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12321,8 +12321,8 @@ export const ALL_QUESTIONS = [
       "Balmain Tigers"
     ],
     "answer": 0,
-    "explanation": "In sports, South Sydney Rabbitohs is the specific subject associated with: 'Which NRL club has won the most total premierships in Australian rugby league history (21)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** South Sydney Rabbitohs is the essential answer for this question.",
+    "explanation": "In sports, South Sydney Rabbitohs is the exact answer for: 'Which NRL club has won the most total premierships in Australian rugby league history (21)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** South Sydney Rabbitohs is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12336,8 +12336,8 @@ export const ALL_QUESTIONS = [
       "Leigh Matthews Trophy"
     ],
     "answer": 0,
-    "explanation": "In sports, The Brownlow Medal is the specific subject associated with: 'What is the name of the AFL's highest individual award, presented annually to the fairest and best player'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Brownlow Medal is the essential answer for this question.",
+    "explanation": "The Brownlow Medal is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** The Brownlow Medal is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -12351,8 +12351,8 @@ export const ALL_QUESTIONS = [
       "Jock McHale Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, The Norm Smith Medal is the specific subject associated with: 'What award is presented to the best player on the ground in the AFL Grand Final'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Norm Smith Medal is the essential answer for this question.",
+    "explanation": "The Norm Smith Medal is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** The Norm Smith Medal is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -12366,8 +12366,8 @@ export const ALL_QUESTIONS = [
       "Leigh Matthews Trophy"
     ],
     "answer": 0,
-    "explanation": "In sports, The Coleman Medal is the specific subject associated with: 'What award is presented annually to the leading goal-kicker in the AFL home-and-away season'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Coleman Medal is the essential answer for this question.",
+    "explanation": "The Coleman Medal is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** The Coleman Medal is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -12381,8 +12381,8 @@ export const ALL_QUESTIONS = [
       "Provan-Summons Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, The Dally M Medal is the specific subject associated with: 'What is the highest individual award presented annually to the best and fairest player in the NRL'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Dally M Medal is the essential answer for this question.",
+    "explanation": "The Dally M Medal is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** The Dally M Medal is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -12396,8 +12396,8 @@ export const ALL_QUESTIONS = [
       "Sunderland Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, The Clive Churchill Medal is the specific subject associated with: 'What award is presented to the player of the match in the NRL Grand Final'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Clive Churchill Medal is the essential answer for this question.",
+    "explanation": "The Clive Churchill Medal is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** The Clive Churchill Medal is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -12411,8 +12411,8 @@ export const ALL_QUESTIONS = [
       "Arthur Beetson Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, The Wally Lewis Medal is the specific subject associated with: 'What award is presented to the player of the series in rugby league's State of Origin'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Wally Lewis Medal is the essential answer for this question.",
+    "explanation": "The Wally Lewis Medal is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** The Wally Lewis Medal is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -12426,8 +12426,8 @@ export const ALL_QUESTIONS = [
       "ACT"
     ],
     "answer": 0,
-    "explanation": "In sports, Queensland Maroons is the specific subject associated with: 'Which state team has won the most State of Origin rugby league series'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Queensland Maroons is the essential answer for this question.",
+    "explanation": "In sports, Queensland Maroons is the exact answer for: 'Which state team has won the most State of Origin rugby league series'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Queensland Maroons is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12441,8 +12441,8 @@ export const ALL_QUESTIONS = [
       "1985"
     ],
     "answer": 0,
-    "explanation": "In sports, 1980 is the specific subject associated with: 'In what year was the first standalone State of Origin rugby league match played at Lang Park'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 1980 is the essential answer for this question.",
+    "explanation": "1980 is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** 1980 is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -12456,8 +12456,8 @@ export const ALL_QUESTIONS = [
       "Alisa Camplin"
     ],
     "answer": 0,
-    "explanation": "In sports, Steven Bradbury is the specific subject associated with: 'Which Australian speed skater won gold at the 2002 Winter Olympics after all four opponents fell on the final turn'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Steven Bradbury is the essential answer for this question.",
+    "explanation": "Steven Bradbury is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Steven Bradbury achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12471,8 +12471,8 @@ export const ALL_QUESTIONS = [
       "Lydia Lassila"
     ],
     "answer": 0,
-    "explanation": "In sports, Alisa Camplin is the specific subject associated with: 'Which Australian aerial skier won gold at the 2002 Salt Lake City Winter Olympics, Australia's first female winter gold'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Alisa Camplin is the essential answer for this question.",
+    "explanation": "Alisa Camplin is the prominent body of water featured in this geographic topic.",
+    "tip": "\ud83d\udca1 **Body of Water:** Alisa Camplin is the key water landmark.",
     "difficulty": "Medium"
   },
   {
@@ -12486,8 +12486,8 @@ export const ALL_QUESTIONS = [
       "Zali Steggall"
     ],
     "answer": 0,
-    "explanation": "In sports, Torah Bright is the specific subject associated with: 'Which Australian snowboarder won gold in the halfpipe at the 2010 Vancouver Winter Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Torah Bright is the essential answer for this question.",
+    "explanation": "Torah Bright is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Torah Bright achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12501,8 +12501,8 @@ export const ALL_QUESTIONS = [
       "Kirstie Marshall"
     ],
     "answer": 0,
-    "explanation": "In sports, Zali Steggall is the specific subject associated with: 'Which Australian alpine skier won Australia's first individual Winter Olympic medal (bronze in slalom at Nagano 1998)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Zali Steggall is the essential answer for this question.",
+    "explanation": "Zali Steggall is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Zali Steggall achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12516,8 +12516,8 @@ export const ALL_QUESTIONS = [
       "Richie Porte"
     ],
     "answer": 0,
-    "explanation": "In sports, Cadel Evans is the specific subject associated with: 'Which Australian cyclist won the yellow jersey at the 2011 Tour de France'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cadel Evans is the essential answer for this question.",
+    "explanation": "In sports, Cadel Evans is the exact answer for: 'Which Australian cyclist won the yellow jersey at the 2011 Tour de France'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cadel Evans is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12531,8 +12531,8 @@ export const ALL_QUESTIONS = [
       "Mark Webber"
     ],
     "answer": 0,
-    "explanation": "In sports, Sir Jack Brabham is the specific subject associated with: 'Which Australian driver won three Formula One World Drivers' Championships (1959, 1960, 1966), building his own car'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sir Jack Brabham is the essential answer for this question.",
+    "explanation": "Sir Jack Brabham is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** Sir Jack Brabham is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12546,8 +12546,8 @@ export const ALL_QUESTIONS = [
       "Mark Webber"
     ],
     "answer": 0,
-    "explanation": "In sports, Alan Jones is the specific subject associated with: 'Which Australian driver won the 1980 Formula One World Drivers' Championship driving for Williams'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Alan Jones is the essential answer for this question.",
+    "explanation": "Alan Jones is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** Alan Jones is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12561,8 +12561,8 @@ export const ALL_QUESTIONS = [
       "Allan Moffat"
     ],
     "answer": 0,
-    "explanation": "In sports, Peter Brock is the specific subject associated with: 'Which Touring Car driver was known as 'King of the Mountain' for winning the Bathurst 1000 nine times'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Peter Brock is the essential answer for this question.",
+    "explanation": "Peter Brock is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** Peter Brock is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12576,8 +12576,8 @@ export const ALL_QUESTIONS = [
       "Mark Skaife"
     ],
     "answer": 0,
-    "explanation": "In sports, Craig Lowndes is the specific subject associated with: 'Which Supercars driver won the Bathurst 1000 seven times and accumulated 107 career race wins'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Craig Lowndes is the essential answer for this question.",
+    "explanation": "Craig Lowndes is the major river or waterway featured in this geography question.",
+    "tip": "\ud83d\udca1 **Major Waterway:** Craig Lowndes is the primary river to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12591,8 +12591,8 @@ export const ALL_QUESTIONS = [
       "John Landy"
     ],
     "answer": 0,
-    "explanation": "In sports, Ralph Doubell is the specific subject associated with: 'Which Australian middle-distance runner won gold in the 800m at the 1968 Mexico City Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ralph Doubell is the essential answer for this question.",
+    "explanation": "Ralph Doubell is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Ralph Doubell achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12606,8 +12606,8 @@ export const ALL_QUESTIONS = [
       "Chilla Porter"
     ],
     "answer": 0,
-    "explanation": "In sports, Charles Porter is the specific subject associated with: 'Which Australian high jumper won gold at the 1956 Melbourne Olympics with a world-record jump'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Charles Porter is the essential answer for this question.",
+    "explanation": "Charles Porter is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Charles Porter achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12621,8 +12621,8 @@ export const ALL_QUESTIONS = [
       "Kurtis Marschall"
     ],
     "answer": 0,
-    "explanation": "In sports, Steve Hooker is the specific subject associated with: 'Which Australian pole vaulter won gold at the 2008 Beijing Olympics with an Olympic record clearance'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Steve Hooker is the essential answer for this question.",
+    "explanation": "Steve Hooker is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Steve Hooker achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12636,8 +12636,8 @@ export const ALL_QUESTIONS = [
       "Henry Frayne"
     ],
     "answer": 0,
-    "explanation": "In sports, Fabrice Lapierre is the specific subject associated with: 'Which Australian long jumper won gold at the 2008 Beijing Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fabrice Lapierre is the essential answer for this question.",
+    "explanation": "Fabrice Lapierre is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Fabrice Lapierre achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12651,8 +12651,8 @@ export const ALL_QUESTIONS = [
       "Dane Bird-Smith"
     ],
     "answer": 0,
-    "explanation": "In sports, Jared Tallent is the specific subject associated with: 'Which Australian walker won gold in the 50km walk at the 2008 Beijing Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jared Tallent is the essential answer for this question.",
+    "explanation": "Jared Tallent is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Jared Tallent achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12666,8 +12666,8 @@ export const ALL_QUESTIONS = [
       "James Magnussen"
     ],
     "answer": 0,
-    "explanation": "In sports, Kyle Chalmers is the specific subject associated with: 'Which Australian swimmer won gold in the 100m freestyle at the 2016 Rio Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kyle Chalmers is the essential answer for this question.",
+    "explanation": "Kyle Chalmers is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Kyle Chalmers achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12681,8 +12681,8 @@ export const ALL_QUESTIONS = [
       "Jack McLoughlin"
     ],
     "answer": 0,
-    "explanation": "In sports, Mack Horton is the specific subject associated with: 'Which Australian swimmer won gold in the 400m freestyle at the 2016 Rio Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mack Horton is the essential answer for this question.",
+    "explanation": "Mack Horton is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Mack Horton achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12696,8 +12696,8 @@ export const ALL_QUESTIONS = [
       "Cate Campbell"
     ],
     "answer": 0,
-    "explanation": "In sports, Ariarne Titmus is the specific subject associated with: 'Which Australian swimmer won the 200m and 400m freestyle double at the 2020 Tokyo Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ariarne Titmus is the essential answer for this question.",
+    "explanation": "Ariarne Titmus is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Ariarne Titmus achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12711,8 +12711,8 @@ export const ALL_QUESTIONS = [
       "Cate Campbell"
     ],
     "answer": 0,
-    "explanation": "In sports, Emma McKeon is the specific subject associated with: 'Which Australian swimmer won 7 medals (4 gold) at the 2020 Tokyo Olympics, the most by any female swimmer at a single Games'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Emma McKeon is the essential answer for this question.",
+    "explanation": "Emma McKeon is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Emma McKeon achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12726,8 +12726,8 @@ export const ALL_QUESTIONS = [
       "Emily Seebohm"
     ],
     "answer": 0,
-    "explanation": "In sports, Kaylee McKeown is the specific subject associated with: 'Which Australian backstroke swimmer won 3 gold medals at the 2020 Tokyo Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kaylee McKeown is the essential answer for this question.",
+    "explanation": "Kaylee McKeown is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Kaylee McKeown achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12741,8 +12741,8 @@ export const ALL_QUESTIONS = [
       "Duncan Free"
     ],
     "answer": 0,
-    "explanation": "In sports, James Tomkins, Drew Ginn, Nick Green, Mike McKay is the specific subject associated with: 'Which Australian rowers won gold in the men's coxless four at the 1992 Barcelona and 1996 Atlanta Olympics (Oarsome Foursome)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** James Tomkins, Drew Ginn, Nick Green, Mike McKay is the essential answer for this question.",
+    "explanation": "James Tomkins, Drew Ginn, Nick Green, Mike McKay is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** James Tomkins, Drew Ginn, Nick Green, Mike McKay achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12756,8 +12756,8 @@ export const ALL_QUESTIONS = [
       "Joshua Dunkley-Smith"
     ],
     "answer": 0,
-    "explanation": "In sports, Drew Ginn and Duncan Free is the specific subject associated with: 'Which Australian rowers won gold in the men's pair at the 2008 Beijing Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Drew Ginn and Duncan Free is the essential answer for this question.",
+    "explanation": "Drew Ginn and Duncan Free is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Drew Ginn and Duncan Free achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12771,8 +12771,8 @@ export const ALL_QUESTIONS = [
       "Bede Murray"
     ],
     "answer": 0,
-    "explanation": "In sports, David Crawshay and Scott Brennan is the specific subject associated with: 'Which Australian double sculls rowers won gold at the 2008 Beijing Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** David Crawshay and Scott Brennan is the essential answer for this question.",
+    "explanation": "David Crawshay and Scott Brennan is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** David Crawshay and Scott Brennan achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12786,8 +12786,8 @@ export const ALL_QUESTIONS = [
       "Iain Jensen"
     ],
     "answer": 0,
-    "explanation": "In sports, Tom Slingsby & Tom Burton is the specific subject associated with: 'Which Australian sailor won back-to-back Laser class Olympic gold medals in 2012 and 2016'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tom Slingsby & Tom Burton is the essential answer for this question.",
+    "explanation": "Tom Slingsby & Tom Burton is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Tom Slingsby & Tom Burton achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12801,8 +12801,8 @@ export const ALL_QUESTIONS = [
       "Iain Jensen"
     ],
     "answer": 0,
-    "explanation": "In sports, Mathew Belcher is the specific subject associated with: 'Which Australian sailor won gold in the 470 class at the 2012 and 2020 Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mathew Belcher is the essential answer for this question.",
+    "explanation": "Mathew Belcher is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Mathew Belcher achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12816,8 +12816,8 @@ export const ALL_QUESTIONS = [
       "Saya Sakakibara"
     ],
     "answer": 0,
-    "explanation": "In sports, Logan Martin is the specific subject associated with: 'Which Australian BMX racer won gold in the men's BMX freestyle at the 2020 Tokyo Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Logan Martin is the essential answer for this question.",
+    "explanation": "Logan Martin is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Logan Martin achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12831,8 +12831,8 @@ export const ALL_QUESTIONS = [
       "Arisa Trew"
     ],
     "answer": 0,
-    "explanation": "In sports, Keegan Palmer is the specific subject associated with: 'Which Australian skateboarder won gold in the men's park event at the 2020 Tokyo Olympics at age 18'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Keegan Palmer is the essential answer for this question.",
+    "explanation": "Keegan Palmer is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Keegan Palmer achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12846,8 +12846,8 @@ export const ALL_QUESTIONS = [
       "Clint Robinson"
     ],
     "answer": 0,
-    "explanation": "In sports, Jessica Fox is the specific subject associated with: 'Which Australian canoeist won gold in the C1 event at the 2020 Tokyo Olympics and 3 gold at Paris 2024'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jessica Fox is the essential answer for this question.",
+    "explanation": "Jessica Fox is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Jessica Fox achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12861,8 +12861,8 @@ export const ALL_QUESTIONS = [
       "Thomas Green"
     ],
     "answer": 0,
-    "explanation": "In sports, Clint Robinson is the specific subject associated with: 'Which Australian kayaker won gold in the K1 1000m at the 1992 Barcelona Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Clint Robinson is the essential answer for this question.",
+    "explanation": "Clint Robinson is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Clint Robinson achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12876,8 +12876,8 @@ export const ALL_QUESTIONS = [
       "Jean van der Westhuyzen"
     ],
     "answer": 0,
-    "explanation": "In sports, Ken Wallace is the specific subject associated with: 'Which Australian kayaker won gold in the K1 500m at the 2008 Beijing Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ken Wallace is the essential answer for this question.",
+    "explanation": "Ken Wallace is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Ken Wallace achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12891,8 +12891,8 @@ export const ALL_QUESTIONS = [
       "Riley Fitzsimmons and Jordan Wood"
     ],
     "answer": 0,
-    "explanation": "In sports, Thomas Green and Jean van der Westhuyzen is the specific subject associated with: 'Which Australian men's K2 1000m team won gold at the 2020 Tokyo Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thomas Green and Jean van der Westhuyzen is the essential answer for this question.",
+    "explanation": "Thomas Green and Jean van der Westhuyzen is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** Thomas Green and Jean van der Westhuyzen achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12906,8 +12906,8 @@ export const ALL_QUESTIONS = [
       "The Pearls"
     ],
     "answer": 0,
-    "explanation": "In sports, The Aussie Stingers is the specific subject associated with: 'Which Australian women's water polo team won gold at the inaugural 2000 Sydney Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Aussie Stingers is the essential answer for this question.",
+    "explanation": "The Aussie Stingers is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Aussie Stingers achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12921,8 +12921,8 @@ export const ALL_QUESTIONS = [
       "The Stingers"
     ],
     "answer": 0,
-    "explanation": "In sports, The Opals is the specific subject associated with: 'Which Australian national women's basketball team has won multiple Olympic medals'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Opals is the essential answer for this question.",
+    "explanation": "The Opals is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Opals achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12936,8 +12936,8 @@ export const ALL_QUESTIONS = [
       "The Pearls"
     ],
     "answer": 0,
-    "explanation": "In sports, The Australian Diamonds is the specific subject associated with: 'Which Australian national netball team has won 12 World Netball Championships'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Australian Diamonds is the essential answer for this question.",
+    "explanation": "The Australian Diamonds is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Australian Diamonds achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12951,8 +12951,8 @@ export const ALL_QUESTIONS = [
       "The Wallaroos"
     ],
     "answer": 0,
-    "explanation": "In sports, The Matildas is the specific subject associated with: 'Which Australian national women's football team reached the semi-finals of the 2023 FIFA Women's World Cup'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Matildas is the essential answer for this question.",
+    "explanation": "In sports, The Matildas is the exact answer for: 'Which Australian national women's football team reached the semi-finals of the 2023 FIFA Women's World Cup'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Matildas is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12966,8 +12966,8 @@ export const ALL_QUESTIONS = [
       "The Wallabies"
     ],
     "answer": 0,
-    "explanation": "In sports, The Socceroos is the specific subject associated with: 'Which Australian national men's football team reached the Round of 16 at the 2006 and 2022 World Cups'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Socceroos is the essential answer for this question.",
+    "explanation": "In sports, The Socceroos is the exact answer for: 'Which Australian national men's football team reached the Round of 16 at the 2006 and 2022 World Cups'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Socceroos is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12981,8 +12981,8 @@ export const ALL_QUESTIONS = [
       "The Wallabies"
     ],
     "answer": 0,
-    "explanation": "In sports, The Boomers is the specific subject associated with: 'Which Australian national men's basketball team won bronze at the 2020 Tokyo Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Boomers is the essential answer for this question.",
+    "explanation": "The Boomers is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Boomers achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -12996,8 +12996,8 @@ export const ALL_QUESTIONS = [
       "The Boomers"
     ],
     "answer": 0,
-    "explanation": "In sports, The Wallabies is the specific subject associated with: 'Which Australian national men's rugby union team won the Rugby World Cup in 1991 and 1999'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Wallabies is the essential answer for this question.",
+    "explanation": "In sports, The Wallabies is the exact answer for: 'Which Australian national men's rugby union team won the Rugby World Cup in 1991 and 1999'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Wallabies is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13011,8 +13011,8 @@ export const ALL_QUESTIONS = [
       "The Boomers"
     ],
     "answer": 0,
-    "explanation": "In sports, The Kangaroos is the specific subject associated with: 'Which Australian national men's rugby league team has won 12 Rugby League World Cups'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Kangaroos is the essential answer for this question.",
+    "explanation": "In sports, The Kangaroos is the exact answer for: 'Which Australian national men's rugby league team has won 12 Rugby League World Cups'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Kangaroos is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13026,8 +13026,8 @@ export const ALL_QUESTIONS = [
       "The Boomers"
     ],
     "answer": 0,
-    "explanation": "In sports, The Kookaburras is the specific subject associated with: 'Which Australian national men's field hockey team won gold at the 2004 Athens Olympics'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Kookaburras is the essential answer for this question.",
+    "explanation": "The Kookaburras is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Kookaburras achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -13041,8 +13041,8 @@ export const ALL_QUESTIONS = [
       "The Diamonds"
     ],
     "answer": 0,
-    "explanation": "In sports, The Hockeyroos is the specific subject associated with: 'Which Australian national women's field hockey team won 3 Olympic gold medals (1988, 1996, 2000)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Hockeyroos is the essential answer for this question.",
+    "explanation": "The Hockeyroos is the athlete, team, or sporting milestone associated with this achievement.",
+    "tip": "\ud83d\udca1 **Sports Milestone:** The Hockeyroos achieved this famous victory.",
     "difficulty": "Medium"
   },
   {
@@ -13056,8 +13056,8 @@ export const ALL_QUESTIONS = [
       "David Warner"
     ],
     "answer": 0,
-    "explanation": "In sports, Ricky Ponting is the specific subject associated with: 'Which Australian cricketer hit 66 sixes in Test matches and scored 13,378 Test runs'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ricky Ponting is the essential answer for this question.",
+    "explanation": "In sports, Ricky Ponting is the exact answer for: 'Which Australian cricketer hit 66 sixes in Test matches and scored 13,378 Test runs'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ricky Ponting is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13071,8 +13071,8 @@ export const ALL_QUESTIONS = [
       "Mark Taylor"
     ],
     "answer": 0,
-    "explanation": "In sports, Allan Border is the specific subject associated with: 'Which Australian cricketer was the first player in history to score 11,000 Test runs'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Allan Border is the essential answer for this question.",
+    "explanation": "Allan Border is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Allan Border is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -13086,8 +13086,8 @@ export const ALL_QUESTIONS = [
       "Brad Haddin"
     ],
     "answer": 0,
-    "explanation": "In sports, Adam Gilchrist is the specific subject associated with: 'Which Australian wicketkeeper-batsman scored 17 Test centuries and took 416 dismissals'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Adam Gilchrist is the essential answer for this question.",
+    "explanation": "In sports, Adam Gilchrist is the exact answer for: 'Which Australian wicketkeeper-batsman scored 17 Test centuries and took 416 dismissals'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Adam Gilchrist is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13101,8 +13101,8 @@ export const ALL_QUESTIONS = [
       "Wally Grout"
     ],
     "answer": 0,
-    "explanation": "In sports, Ian Healy is the specific subject associated with: 'Which Australian wicketkeeper took 395 Test dismissals between 1988 and 1999'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ian Healy is the essential answer for this question.",
+    "explanation": "In sports, Ian Healy is the exact answer for: 'Which Australian wicketkeeper took 395 Test dismissals between 1988 and 1999'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ian Healy is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13116,8 +13116,8 @@ export const ALL_QUESTIONS = [
       "Wally Grout"
     ],
     "answer": 0,
-    "explanation": "In sports, Rod Marsh is the specific subject associated with: 'Which Australian wicketkeeper formed a legendary combination with fast bowler Dennis Lillee ('c Marsh b Lillee' 95 times)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rod Marsh is the essential answer for this question.",
+    "explanation": "In sports, Rod Marsh is the exact answer for: 'Which Australian wicketkeeper formed a legendary combination with fast bowler Dennis Lillee ('c Marsh b Lillee' 95 times)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Rod Marsh is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13131,8 +13131,8 @@ export const ALL_QUESTIONS = [
       "Craig McDermott"
     ],
     "answer": 0,
-    "explanation": "In sports, Dennis Lillee is the specific subject associated with: 'Which Australian fast bowler took 355 Test wickets between 1971 and 1984'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Dennis Lillee is the essential answer for this question.",
+    "explanation": "In sports, Dennis Lillee is the exact answer for: 'Which Australian fast bowler took 355 Test wickets between 1971 and 1984'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Dennis Lillee is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13146,8 +13146,8 @@ export const ALL_QUESTIONS = [
       "Rodney Hogg"
     ],
     "answer": 0,
-    "explanation": "In sports, Jeff Thomson is the specific subject associated with: 'Which Australian fast bowler was famed for his slinging action and extreme speed in the 1970s alongside Dennis Lillee'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jeff Thomson is the essential answer for this question.",
+    "explanation": "In sports, Jeff Thomson is the exact answer for: 'Which Australian fast bowler was famed for his slinging action and extreme speed in the 1970s alongside Dennis Lillee'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Jeff Thomson is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13161,8 +13161,8 @@ export const ALL_QUESTIONS = [
       "Craig McDermott"
     ],
     "answer": 0,
-    "explanation": "In sports, Mitchell Johnson is the specific subject associated with: 'Which Australian fast bowler took 313 Test wickets, including 8 for 53 at Lord's in 1997'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mitchell Johnson is the essential answer for this question.",
+    "explanation": "In sports, Mitchell Johnson is the exact answer for: 'Which Australian fast bowler took 313 Test wickets, including 8 for 53 at Lord's in 1997'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mitchell Johnson is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13176,8 +13176,8 @@ export const ALL_QUESTIONS = [
       "Brett Lee"
     ],
     "answer": 0,
-    "explanation": "In sports, Mitchell Johnson is the specific subject associated with: 'Which Australian left-arm fast bowler took 37 wickets in the 2013-14 Ashes series sweep'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mitchell Johnson is the essential answer for this question.",
+    "explanation": "In sports, Mitchell Johnson is the exact answer for: 'Which Australian left-arm fast bowler took 37 wickets in the 2013-14 Ashes series sweep'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mitchell Johnson is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13191,8 +13191,8 @@ export const ALL_QUESTIONS = [
       "Brett Lee"
     ],
     "answer": 0,
-    "explanation": "In sports, Mitchell Starc is the specific subject associated with: 'Which Australian left-arm fast bowler holds the record for most wickets in a single Cricket World Cup (27 in 2019)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mitchell Starc is the essential answer for this question.",
+    "explanation": "In sports, Mitchell Starc is the exact answer for: 'Which Australian left-arm fast bowler holds the record for most wickets in a single Cricket World Cup (27 in 2019)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mitchell Starc is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13206,8 +13206,8 @@ export const ALL_QUESTIONS = [
       "Stuart MacGill"
     ],
     "answer": 0,
-    "explanation": "In sports, Nathan Lyon is the specific subject associated with: 'Which Australian off-spinner has taken over 500 Test wickets, known as 'Garry' or 'GOAT''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nathan Lyon is the essential answer for this question.",
+    "explanation": "In sports, Nathan Lyon is the exact answer for: 'Which Australian off-spinner has taken over 500 Test wickets, known as 'Garry' or 'GOAT''.",
+    "tip": "\ud83d\udca1 **Key Recall:** Nathan Lyon is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13221,8 +13221,8 @@ export const ALL_QUESTIONS = [
       "Brad Hogg"
     ],
     "answer": 0,
-    "explanation": "In sports, Stuart MacGill is the specific subject associated with: 'Which Australian leg-spinner took 208 Test wickets despite playing in the shadow of Shane Warne'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Stuart MacGill is the essential answer for this question.",
+    "explanation": "Stuart MacGill is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Stuart MacGill is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -13236,8 +13236,8 @@ export const ALL_QUESTIONS = [
       "Matthew Hayden"
     ],
     "answer": 0,
-    "explanation": "In sports, Ricky Ponting is the specific subject associated with: 'Which Australian batsman scored twin centuries in his final Test match against South Africa in 2006'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ricky Ponting is the essential answer for this question.",
+    "explanation": "In sports, Ricky Ponting is the exact answer for: 'Which Australian batsman scored twin centuries in his final Test match against South Africa in 2006'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ricky Ponting is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13251,8 +13251,8 @@ export const ALL_QUESTIONS = [
       "Bill Lawry and Bob Simpson"
     ],
     "answer": 0,
-    "explanation": "In sports, Matthew Hayden and Justin Langer is the specific subject associated with: 'Which Australian opening partnership comprised 5,655 runs across 113 Test innings between 1997 and 2007'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Matthew Hayden and Justin Langer is the essential answer for this question.",
+    "explanation": "In sports, Matthew Hayden and Justin Langer is the exact answer for: 'Which Australian opening partnership comprised 5,655 runs across 113 Test innings between 1997 and 2007'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Matthew Hayden and Justin Langer is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13266,8 +13266,8 @@ export const ALL_QUESTIONS = [
       "Fremantle Australia"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Working Dog Productions is the specific subject associated with: 'Which Australian production company created the ABC government infrastructure satire series Utopia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Working Dog Productions is the essential answer for this question.",
+    "explanation": "In pop culture, Working Dog Productions is the exact answer for: 'Which Australian production company created the ABC government infrastructure satire series Utopia'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Working Dog Productions is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13281,8 +13281,8 @@ export const ALL_QUESTIONS = [
       "Hacksaw Ridge"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Mad Max: Fury Road is the specific subject associated with: 'Which 2015 action film directed by George Miller won six Academy Awards'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mad Max: Fury Road is the essential answer for this question.",
+    "explanation": "Mad Max: Fury Road is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Mad Max: Fury Road is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13296,8 +13296,8 @@ export const ALL_QUESTIONS = [
       "Eric Bana"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Heath Ledger is the specific subject associated with: 'Which Australian actor won a posthumous Academy Award for playing the Joker in The Dark Knight'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Heath Ledger is the essential answer for this question.",
+    "explanation": "Heath Ledger is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Heath Ledger is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -13311,8 +13311,8 @@ export const ALL_QUESTIONS = [
       "Toni Collette"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Cate Blanchett is the specific subject associated with: 'Which Australian actress won Academy Awards for her roles in The Aviator and Blue Jasmine'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cate Blanchett is the essential answer for this question.",
+    "explanation": "In pop culture, Cate Blanchett is the exact answer for: 'Which Australian actress won Academy Awards for her roles in The Aviator and Blue Jasmine'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cate Blanchett is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13326,8 +13326,8 @@ export const ALL_QUESTIONS = [
       "Judy Davis"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Nicole Kidman is the specific subject associated with: 'Which Australian actress won the Best Actress Oscar for her role as Virginia Woolf in The Hours (2002)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Nicole Kidman is the essential answer for this question.",
+    "explanation": "In pop culture, Nicole Kidman is the exact answer for: 'Which Australian actress won the Best Actress Oscar for her role as Virginia Woolf in The Hours (2002)'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Nicole Kidman is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13341,8 +13341,8 @@ export const ALL_QUESTIONS = [
       "Guy Pearce"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Russell Crowe is the specific subject associated with: 'Which Australian actor won the Best Actor Oscar in 2001 for his role as Maximus in Gladiator'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Russell Crowe is the essential answer for this question.",
+    "explanation": "Russell Crowe is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Russell Crowe is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13356,8 +13356,8 @@ export const ALL_QUESTIONS = [
       "Hugo Weaving"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Geoffrey Rush is the specific subject associated with: 'Which Australian actor won the Best Actor Oscar in 1997 for his role as pianist David Helfgott in Shine'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Geoffrey Rush is the essential answer for this question.",
+    "explanation": "Geoffrey Rush is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Geoffrey Rush is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13371,8 +13371,8 @@ export const ALL_QUESTIONS = [
       "Helpmann Awards"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Logie Awards is the specific subject associated with: 'What is Australia's highest annual television award, featuring the Gold Logie'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Logie Awards is the essential answer for this question.",
+    "explanation": "In pop culture, The Logie Awards is the exact answer for: 'What is Australia's highest annual television award, featuring the Gold Logie'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Logie Awards is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13386,8 +13386,8 @@ export const ALL_QUESTIONS = [
       "Tamworth Awards"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The ARIA Awards is the specific subject associated with: 'What is Australia's premier annual music industry award presented by the Australian Recording Industry Association'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The ARIA Awards is the essential answer for this question.",
+    "explanation": "In pop culture, The ARIA Awards is the exact answer for: 'What is Australia's premier annual music industry award presented by the Australian Recording Industry Association'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The ARIA Awards is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13401,8 +13401,8 @@ export const ALL_QUESTIONS = [
       "Moran Prize"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Archibald Prize is the specific subject associated with: 'What prestigious annual Australian portraiture painting prize is awarded by the Art Gallery of New South Wales'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Archibald Prize is the essential answer for this question.",
+    "explanation": "The Archibald Prize is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** The Archibald Prize created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -13416,8 +13416,8 @@ export const ALL_QUESTIONS = [
       "Dobell Prize"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Wynne Prize is the specific subject associated with: 'What annual Australian painting prize is awarded for Australian landscape painting or figure sculpture'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Wynne Prize is the essential answer for this question.",
+    "explanation": "The Wynne Prize is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** The Wynne Prize created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -13431,8 +13431,8 @@ export const ALL_QUESTIONS = [
       "Ramsay Prize"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Sulman Prize is the specific subject associated with: 'What annual Australian painting prize is awarded for the best subject painting, genre painting, or mural'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Sulman Prize is the essential answer for this question.",
+    "explanation": "The Sulman Prize is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** The Sulman Prize created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -13446,8 +13446,8 @@ export const ALL_QUESTIONS = [
       "Midnight Oil"
     ],
     "answer": 0,
-    "explanation": "In pop culture, AC/DC is the specific subject associated with: 'Which legendary Australian rock band released the world-conquering 1980 album Back in Black'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** AC/DC is the essential answer for this question.",
+    "explanation": "In pop culture, AC/DC is the exact answer for: 'Which legendary Australian rock band released the world-conquering 1980 album Back in Black'.",
+    "tip": "\ud83d\udca1 **Key Recall:** AC/DC is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13461,8 +13461,8 @@ export const ALL_QUESTIONS = [
       "Men at Work"
     ],
     "answer": 0,
-    "explanation": "In pop culture, INXS is the specific subject associated with: 'Which Australian rock band was fronted by charismatic lead singer Michael Hutchence'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** INXS is the essential answer for this question.",
+    "explanation": "In pop culture, INXS is the exact answer for: 'Which Australian rock band was fronted by charismatic lead singer Michael Hutchence'.",
+    "tip": "\ud83d\udca1 **Key Recall:** INXS is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13476,8 +13476,8 @@ export const ALL_QUESTIONS = [
       "Hoodoo Gurus"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Midnight Oil is the specific subject associated with: 'Which Australian rock band fronted by Peter Garrett released environmental anthems like Beds Are Burning'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Midnight Oil is the essential answer for this question.",
+    "explanation": "In pop culture, Midnight Oil is the exact answer for: 'Which Australian rock band fronted by Peter Garrett released environmental anthems like Beds Are Burning'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Midnight Oil is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13491,8 +13491,8 @@ export const ALL_QUESTIONS = [
       "Australian Crawl"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Cold Chisel is the specific subject associated with: 'Which Australian rock band fronted by Jimmy Barnes sang iconic anthems like Khe Sanh and Flame Trees'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Cold Chisel is the essential answer for this question.",
+    "explanation": "In pop culture, Cold Chisel is the exact answer for: 'Which Australian rock band fronted by Jimmy Barnes sang iconic anthems like Khe Sanh and Flame Trees'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Cold Chisel is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13506,8 +13506,8 @@ export const ALL_QUESTIONS = [
       "Little River Band"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Seekers is the specific subject associated with: 'Which 1960s Australian folk-pop group fronted by Judith Durham achieved international hits like Georgy Girl'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Seekers is the essential answer for this question.",
+    "explanation": "In pop culture, The Seekers is the exact answer for: 'Which 1960s Australian folk-pop group fronted by Judith Durham achieved international hits like Georgy Girl'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Seekers is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13521,8 +13521,8 @@ export const ALL_QUESTIONS = [
       "Daddy Cool"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Easybeats is the specific subject associated with: 'Which 1960s Australian rock band hit global charts in 1966 with Friday on My Mind'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Easybeats is the essential answer for this question.",
+    "explanation": "In pop culture, The Easybeats is the exact answer for: 'Which 1960s Australian rock band hit global charts in 1966 with Friday on My Mind'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Easybeats is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13536,8 +13536,8 @@ export const ALL_QUESTIONS = [
       "Little River Band"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Bee Gees is the specific subject associated with: 'Which Australian-raised brothers formed the pop trio behind the Saturday Night Fever soundtrack'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Bee Gees is the essential answer for this question.",
+    "explanation": "In pop culture, The Bee Gees is the exact answer for: 'Which Australian-raised brothers formed the pop trio behind the Saturday Night Fever soundtrack'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Bee Gees is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13551,8 +13551,8 @@ export const ALL_QUESTIONS = [
       "Crowded House"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Men at Work is the specific subject associated with: 'Which Australian pop rock band topped the US Billboard Hot 100 in 1981 with Down Under'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Men at Work is the essential answer for this question.",
+    "explanation": "In pop culture, Men at Work is the exact answer for: 'Which Australian pop rock band topped the US Billboard Hot 100 in 1981 with Down Under'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Men at Work is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13566,8 +13566,8 @@ export const ALL_QUESTIONS = [
       "Go-Betweens"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Crowded House is the specific subject associated with: 'Which band fronted by Neil Finn released international hits like Don't Dream It's Over and Something So Strong'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Crowded House is the essential answer for this question.",
+    "explanation": "In pop culture, Crowded House is the exact answer for: 'Which band fronted by Neil Finn released international hits like Don't Dream It's Over and Something So Strong'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Crowded House is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13581,8 +13581,8 @@ export const ALL_QUESTIONS = [
       "Natalie Imbruglia"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Kylie Minogue is the specific subject associated with: 'Which Australian pop icon achieved massive global hits with Locomotion, Spinning Around, and Can't Get You Out of My Head'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kylie Minogue is the essential answer for this question.",
+    "explanation": "In pop culture, Kylie Minogue is the exact answer for: 'Which Australian pop icon achieved massive global hits with Locomotion, Spinning Around, and Can't Get You Out of My Head'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Kylie Minogue is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13596,8 +13596,8 @@ export const ALL_QUESTIONS = [
       "Tones and I"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Delta Goodrem is the specific subject associated with: 'Which Australian singer broke records with her 2003 debut album Innocent Eyes, spawning 5 number-one singles'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Delta Goodrem is the essential answer for this question.",
+    "explanation": "In pop culture, Delta Goodrem is the exact answer for: 'Which Australian singer broke records with her 2003 debut album Innocent Eyes, spawning 5 number-one singles'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Delta Goodrem is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13611,8 +13611,8 @@ export const ALL_QUESTIONS = [
       "Vance Joy"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Sia is the specific subject associated with: 'Which Adelaide-born pop singer and songwriter scored massive global hits with Chandelier and Cheap Thrills'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sia is the essential answer for this question.",
+    "explanation": "In pop culture, Sia is the exact answer for: 'Which Adelaide-born pop singer and songwriter scored massive global hits with Chandelier and Cheap Thrills'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Sia is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13626,8 +13626,8 @@ export const ALL_QUESTIONS = [
       "Mallrat"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Tones and I is the specific subject associated with: 'Which Australian artist broke global streaming records in 2019 with her viral hit Dance Monkey'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tones and I is the essential answer for this question.",
+    "explanation": "Tones and I is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Tones and I created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -13641,8 +13641,8 @@ export const ALL_QUESTIONS = [
       "Matt Corby"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Vance Joy is the specific subject associated with: 'Which Melbourne singer-songwriter won the 2013 Hottest 100 with his folk hit Riptide'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Vance Joy is the essential answer for this question.",
+    "explanation": "In pop culture, Vance Joy is the exact answer for: 'Which Melbourne singer-songwriter won the 2013 Hottest 100 with his folk hit Riptide'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Vance Joy is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13656,8 +13656,8 @@ export const ALL_QUESTIONS = [
       "Flume"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Gotye is the specific subject associated with: 'Which Australian artist won 3 Grammy Awards in 2013 for his global number-one hit Somebody That I Used to Know'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gotye is the essential answer for this question.",
+    "explanation": "Gotye is the master artist or painter famous for creating this visual masterpiece.",
+    "tip": "\ud83d\udca1 **Art Masterpiece:** Gotye created this landmark artwork.",
     "difficulty": "Medium"
   },
   {
@@ -13671,8 +13671,8 @@ export const ALL_QUESTIONS = [
       "Pnau"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Flume is the specific subject associated with: 'Which Australian electronic producer won the 2017 Grammy Award for Best Dance/Electronic Album for Skin'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Flume is the essential answer for this question.",
+    "explanation": "In pop culture, Flume is the exact answer for: 'Which Australian electronic producer won the 2017 Grammy Award for Best Dance/Electronic Album for Skin'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Flume is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13686,8 +13686,8 @@ export const ALL_QUESTIONS = [
       "Blue Heelers"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Neighbours is the specific subject associated with: 'What long-running Australian soap opera set in Ramsay Street, Erinsborough, debuted in 1985'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Neighbours is the essential answer for this question.",
+    "explanation": "In pop culture, Neighbours is the exact answer for: 'What long-running Australian soap opera set in Ramsay Street, Erinsborough, debuted in 1985'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Neighbours is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13701,8 +13701,8 @@ export const ALL_QUESTIONS = [
       "Packed to the Rafters"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Home and Away is the specific subject associated with: 'What long-running Australian soap opera set in coastal Summer Bay debuted in 1988'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Home and Away is the essential answer for this question.",
+    "explanation": "In pop culture, Home and Away is the exact answer for: 'What long-running Australian soap opera set in coastal Summer Bay debuted in 1988'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Home and Away is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13716,8 +13716,8 @@ export const ALL_QUESTIONS = [
       "Ada Nicodemou"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Ray Meagher is the specific subject associated with: 'Which actor played the iconic character Alf Stewart on Home and Away for over 35 years'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ray Meagher is the essential answer for this question.",
+    "explanation": "Ray Meagher is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Ray Meagher is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -13731,8 +13731,8 @@ export const ALL_QUESTIONS = [
       "All Saints"
     ],
     "answer": 0,
-    "explanation": "In pop culture, A Country Practice is the specific subject associated with: 'What beloved Australian drama series set in rural Wandin Valley ran on the Seven Network from 1981 to 1993'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** A Country Practice is the essential answer for this question.",
+    "explanation": "In pop culture, A Country Practice is the exact answer for: 'What beloved Australian drama series set in rural Wandin Valley ran on the Seven Network from 1981 to 1993'.",
+    "tip": "\ud83d\udca1 **Key Recall:** A Country Practice is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13746,8 +13746,8 @@ export const ALL_QUESTIONS = [
       "Rush"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Blue Heelers is the specific subject associated with: 'What acclaimed police drama series set in rural Mount Thomas ran on Australian TV from 1994 to 2006'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Blue Heelers is the essential answer for this question.",
+    "explanation": "Blue Heelers is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Blue Heelers is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13761,8 +13761,8 @@ export const ALL_QUESTIONS = [
       "Magda Szubanski"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Jane Turner and Gina Riley is the specific subject associated with: 'Which comedy duo created and starred in the hit Australian Suburban comedy series Kath & Kim'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jane Turner and Gina Riley is the essential answer for this question.",
+    "explanation": "In pop culture, Jane Turner and Gina Riley is the exact answer for: 'Which comedy duo created and starred in the hit Australian Suburban comedy series Kath & Kim'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Jane Turner and Gina Riley is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13776,8 +13776,8 @@ export const ALL_QUESTIONS = [
       "Julia Morris"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Kitty Flanagan is the specific subject associated with: 'Which Australian comedian wrote, directed, and starred in the hit legal comedy series Fisk'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kitty Flanagan is the essential answer for this question.",
+    "explanation": "Kitty Flanagan is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Kitty Flanagan is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -13791,8 +13791,8 @@ export const ALL_QUESTIONS = [
       "Matchbox Pictures"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Working Dog Productions is the specific subject associated with: 'Which production company created iconic Australian comedies like Frontline, The Panel, Utopia, and The Castle'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Working Dog Productions is the essential answer for this question.",
+    "explanation": "In pop culture, Working Dog Productions is the exact answer for: 'Which production company created iconic Australian comedies like Frontline, The Panel, Utopia, and The Castle'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Working Dog Productions is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13806,8 +13806,8 @@ export const ALL_QUESTIONS = [
       "Strictly Ballroom"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Castle is the specific subject associated with: 'Which 1997 Australian comedy film features the Kerrigan family fighting the compulsory acquisition of their home'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Castle is the essential answer for this question.",
+    "explanation": "The Castle is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Castle is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13821,8 +13821,8 @@ export const ALL_QUESTIONS = [
       "Strictly Ballroom"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Crocodile Dundee is the specific subject associated with: 'Which 1986 Outback comedy film starring Paul Hogan became the highest-grossing Australian film of all time'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Crocodile Dundee is the essential answer for this question.",
+    "explanation": "Crocodile Dundee is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Crocodile Dundee is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13836,8 +13836,8 @@ export const ALL_QUESTIONS = [
       "Babe"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Mad Max is the specific subject associated with: 'Which 1979 dystopian action film directed by George Miller launched Mel Gibson to international stardom'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mad Max is the essential answer for this question.",
+    "explanation": "Mad Max is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Mad Max is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13851,8 +13851,8 @@ export const ALL_QUESTIONS = [
       "Peter Rabbit"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Babe is the specific subject associated with: 'Which 1995 Australian family film directed by Chris Noonan tells the story of a pig who wants to be a sheepdog'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Babe is the essential answer for this question.",
+    "explanation": "Babe is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Babe is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13866,8 +13866,8 @@ export const ALL_QUESTIONS = [
       "Rango"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Happy Feet is the specific subject associated with: 'Which 2006 animated film directed by George Miller won the Academy Award for Best Animated Feature'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Happy Feet is the essential answer for this question.",
+    "explanation": "Happy Feet is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Happy Feet is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13881,8 +13881,8 @@ export const ALL_QUESTIONS = [
       "The Great Gatsby"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Strictly Ballroom is the specific subject associated with: 'Which 1992 romantic comedy film directed by Baz Luhrmann launched his 'Red Curtain Trilogy''.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Strictly Ballroom is the essential answer for this question.",
+    "explanation": "Strictly Ballroom is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Strictly Ballroom is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13896,8 +13896,8 @@ export const ALL_QUESTIONS = [
       "La La Land"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Moulin Rouge! is the specific subject associated with: 'Which 2001 musical film directed by Baz Luhrmann received eight Academy Award nominations'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Moulin Rouge! is the essential answer for this question.",
+    "explanation": "Moulin Rouge! is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Moulin Rouge! is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13911,8 +13911,8 @@ export const ALL_QUESTIONS = [
       "Sirens"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Adventures of Priscilla, Queen of the Desert is the specific subject associated with: 'Which 1994 Australian comedy-drama film follows three drag performers traveling across the desert in a lavender bus'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Adventures of Priscilla, Queen of the Desert is the essential answer for this question.",
+    "explanation": "The Adventures of Priscilla, Queen of the Desert is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Adventures of Priscilla, Queen of the Desert is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13926,8 +13926,8 @@ export const ALL_QUESTIONS = [
       "Strictly Ballroom"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Muriel's Wedding is the specific subject associated with: 'Which 1994 Australian comedy film starring Toni Collette tells the story of an ABBA-obsessed outcast'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Muriel's Wedding is the essential answer for this question.",
+    "explanation": "Muriel's Wedding is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Muriel's Wedding is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13941,8 +13941,8 @@ export const ALL_QUESTIONS = [
       "Red Dog"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Dish is the specific subject associated with: 'Which 2000 Australian comedy film tells the story of Parkes Observatory's role in broadcasting the 1969 Apollo 11 moon landing'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Dish is the essential answer for this question.",
+    "explanation": "The Dish is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Dish is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13956,8 +13956,8 @@ export const ALL_QUESTIONS = [
       "Rams"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Red Dog is the specific subject associated with: 'Which 2011 Australian family film tells the true story of a loyal Kelpie cross in Western Australia's Pilbara region'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Red Dog is the essential answer for this question.",
+    "explanation": "Red Dog is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Red Dog is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13971,8 +13971,8 @@ export const ALL_QUESTIONS = [
       "Singin' in the Rain"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Citizen Kane is the specific subject associated with: 'Which 1941 masterpiece film co-written, directed by, and starring Orson Welles centers on newspaper tycoon Charles Foster Kane'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Citizen Kane is the essential answer for this question.",
+    "explanation": "Citizen Kane is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Citizen Kane is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -13986,8 +13986,8 @@ export const ALL_QUESTIONS = [
       "The Maltese Falcon"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Casablanca is the specific subject associated with: 'Which 1942 romantic drama starring Humphrey Bogart and Ingrid Bergman is set in French Morocco during WWII'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Casablanca is the essential answer for this question.",
+    "explanation": "In pop culture, Casablanca is the exact answer for: 'Which 1942 romantic drama starring Humphrey Bogart and Ingrid Bergman is set in French Morocco during WWII'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Casablanca is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14001,8 +14001,8 @@ export const ALL_QUESTIONS = [
       "Taxi Driver"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Godfather is the specific subject associated with: 'Which 1972 crime film directed by Francis Ford Coppola stars Marlon Brando as mafia patriarch Vito Corleone'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Godfather is the essential answer for this question.",
+    "explanation": "The Godfather is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Godfather is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14016,8 +14016,8 @@ export const ALL_QUESTIONS = [
       "Alien"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Star Wars: Episode IV - A New Hope is the specific subject associated with: 'Which 1977 epic space-opera film written and directed by George Lucas launched one of cinema's biggest franchises'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Star Wars: Episode IV - A New Hope is the essential answer for this question.",
+    "explanation": "Star Wars: Episode IV - A New Hope is the astronomical body or planet featured in this astrophysics question.",
+    "tip": "\ud83d\udca1 **Space & Planets:** Star Wars: Episode IV - A New Hope is the primary astronomical body.",
     "difficulty": "Medium"
   },
   {
@@ -14031,8 +14031,8 @@ export const ALL_QUESTIONS = [
       "The Pianist"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Schindler's List is the specific subject associated with: 'Which 1993 Holocaust drama film directed by Steven Spielberg won seven Academy Awards, including Best Picture'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Schindler's List is the essential answer for this question.",
+    "explanation": "Schindler's List is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Schindler's List is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14046,8 +14046,8 @@ export const ALL_QUESTIONS = [
       "Ben-Hur"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Titanic is the specific subject associated with: 'Which 1997 epic romance and disaster film directed by James Cameron won 11 Academy Awards'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Titanic is the essential answer for this question.",
+    "explanation": "Titanic is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Titanic is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14061,8 +14061,8 @@ export const ALL_QUESTIONS = [
       "Gladiator"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Lord of the Rings: The Return of the King is the specific subject associated with: 'Which 2003 fantasy film directed by Peter Jackson swept the 76th Academy Awards, winning all 11 nominated categories'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Lord of the Rings: The Return of the King is the essential answer for this question.",
+    "explanation": "The Lord of the Rings: The Return of the King is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Lord of the Rings: The Return of the King is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14076,8 +14076,8 @@ export const ALL_QUESTIONS = [
       "Star Wars: The Force Awakens"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Avatar is the specific subject associated with: 'Which 2009 sci-fi film directed by James Cameron became the highest-grossing film of all time'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Avatar is the essential answer for this question.",
+    "explanation": "Avatar is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Avatar is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14091,8 +14091,8 @@ export const ALL_QUESTIONS = [
       "Mary Poppins"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Wizard of Oz is the specific subject associated with: 'Which classic 1939 musical fantasy film starred Judy Garland as Dorothy Gale traveling to the Emerald City'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Wizard of Oz is the essential answer for this question.",
+    "explanation": "The Wizard of Oz is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Wizard of Oz is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14106,8 +14106,8 @@ export const ALL_QUESTIONS = [
       "Oliver!"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Sound of Music is the specific subject associated with: 'Which 1965 musical film starring Julie Andrews as Maria von Trapp won five Academy Awards'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Sound of Music is the essential answer for this question.",
+    "explanation": "The Sound of Music is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Sound of Music is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14121,8 +14121,8 @@ export const ALL_QUESTIONS = [
       "Led Zeppelin"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Beatles is the specific subject associated with: 'Which English rock band formed in Liverpool in 1960 comprised John, Paul, George, and Ringo'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Beatles is the essential answer for this question.",
+    "explanation": "In pop culture, The Beatles is the exact answer for: 'Which English rock band formed in Liverpool in 1960 comprised John, Paul, George, and Ringo'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Beatles is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14136,8 +14136,8 @@ export const ALL_QUESTIONS = [
       "The Kinks"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Rolling Stones is the specific subject associated with: 'Which English rock band fronted by Mick Jagger and Keith Richards was formed in London in 1962'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Rolling Stones is the essential answer for this question.",
+    "explanation": "In pop culture, The Rolling Stones is the exact answer for: 'Which English rock band fronted by Mick Jagger and Keith Richards was formed in London in 1962'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Rolling Stones is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14151,8 +14151,8 @@ export const ALL_QUESTIONS = [
       "Deep Purple"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Queen is the specific subject associated with: 'Which British rock band fronted by Freddie Mercury released the iconic 1975 suite Bohemian Rhapsody'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Queen is the essential answer for this question.",
+    "explanation": "In pop culture, Queen is the exact answer for: 'Which British rock band fronted by Freddie Mercury released the iconic 1975 suite Bohemian Rhapsody'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Queen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14166,8 +14166,8 @@ export const ALL_QUESTIONS = [
       "Yes"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Pink Floyd is the specific subject associated with: 'Which British progressive rock band released the monumental 1973 album The Dark Side of the Moon'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Pink Floyd is the essential answer for this question.",
+    "explanation": "In pop culture, Pink Floyd is the exact answer for: 'Which British progressive rock band released the monumental 1973 album The Dark Side of the Moon'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Pink Floyd is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14181,8 +14181,8 @@ export const ALL_QUESTIONS = [
       "The Who"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Led Zeppelin is the specific subject associated with: 'Which British hard rock band composed the 1971 rock epic Stairway to Heaven'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Led Zeppelin is the essential answer for this question.",
+    "explanation": "In pop culture, Led Zeppelin is the exact answer for: 'Which British hard rock band composed the 1971 rock epic Stairway to Heaven'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Led Zeppelin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14196,8 +14196,8 @@ export const ALL_QUESTIONS = [
       "Elvis Presley"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Michael Jackson is the specific subject associated with: 'Which American pop icon released the 1982 album Thriller, which became the highest-selling album of all time'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Michael Jackson is the essential answer for this question.",
+    "explanation": "In pop culture, Michael Jackson is the exact answer for: 'Which American pop icon released the 1982 album Thriller, which became the highest-selling album of all time'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Michael Jackson is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14211,8 +14211,8 @@ export const ALL_QUESTIONS = [
       "Little Richard"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Elvis Presley is the specific subject associated with: 'Which American music icon, dubbed 'The King of Rock and Roll', recorded hits like Hound Dog and Jailhouse Rock'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Elvis Presley is the essential answer for this question.",
+    "explanation": "In pop culture, Elvis Presley is the exact answer for: 'Which American music icon, dubbed 'The King of Rock and Roll', recorded hits like Hound Dog and Jailhouse Rock'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Elvis Presley is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14226,8 +14226,8 @@ export const ALL_QUESTIONS = [
       "Leonard Cohen"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Bob Dylan is the specific subject associated with: 'Which American singer-songwriter was awarded the 2016 Nobel Prize in Literature'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bob Dylan is the essential answer for this question.",
+    "explanation": "In pop culture, Bob Dylan is the exact answer for: 'Which American singer-songwriter was awarded the 2016 Nobel Prize in Literature'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Bob Dylan is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14241,8 +14241,8 @@ export const ALL_QUESTIONS = [
       "Neil Young"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Bruce Springsteen is the specific subject associated with: 'Which American rock singer-songwriter, nicknamed 'The Boss', released Born in the U.S.A. in 1984'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bruce Springsteen is the essential answer for this question.",
+    "explanation": "In pop culture, Bruce Springsteen is the exact answer for: 'Which American rock singer-songwriter, nicknamed 'The Boss', released Born in the U.S.A. in 1984'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Bruce Springsteen is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14256,8 +14256,8 @@ export const ALL_QUESTIONS = [
       "Peter Combe"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Wiggles is the specific subject associated with: 'Which Australian children's music group formed in Sydney in 1991 featuring Anthony, Murray, Greg, and Jeff'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Wiggles is the essential answer for this question.",
+    "explanation": "In pop culture, The Wiggles is the exact answer for: 'Which Australian children's music group formed in Sydney in 1991 featuring Anthony, Murray, Greg, and Jeff'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Wiggles is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14271,8 +14271,8 @@ export const ALL_QUESTIONS = [
       "Bananas in Pyjamas"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Play School is the specific subject associated with: 'Which popular Australian ABC children's television show has aired continuously since 1966'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Play School is the essential answer for this question.",
+    "explanation": "In pop culture, Play School is the exact answer for: 'Which popular Australian ABC children's television show has aired continuously since 1966'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Play School is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14286,8 +14286,8 @@ export const ALL_QUESTIONS = [
       "Blinky Bill"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Bluey is the specific subject associated with: 'Which animated Australian children's TV series about a Blue Heeler family became a global phenomenon on Disney+'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bluey is the essential answer for this question.",
+    "explanation": "Bluey is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Bluey is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14301,8 +14301,8 @@ export const ALL_QUESTIONS = [
       "Adam Zwar"
     ],
     "answer": 0,
-    "explanation": "In pop culture, David McCormack is the specific subject associated with: 'Who voices the character of Bandit Heeler (Bluey's dad) in the series Bluey'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** David McCormack is the essential answer for this question.",
+    "explanation": "In pop culture, David McCormack is the exact answer for: 'Who voices the character of Bandit Heeler (Bluey's dad) in the series Bluey'.",
+    "tip": "\ud83d\udca1 **Key Recall:** David McCormack is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14316,8 +14316,8 @@ export const ALL_QUESTIONS = [
       "Myf Warhurst"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Melanie Zanetti is the specific subject associated with: 'Who voices the character of Chilli Heeler (Bluey's mum) in the series Bluey'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Melanie Zanetti is the essential answer for this question.",
+    "explanation": "In pop culture, Melanie Zanetti is the exact answer for: 'Who voices the character of Chilli Heeler (Bluey's mum) in the series Bluey'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Melanie Zanetti is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14331,8 +14331,8 @@ export const ALL_QUESTIONS = [
       "Matt & Alex"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Hamish & Andy is the specific subject associated with: 'Which Australian radio duo hosted a top-rating national drive show on Triple J and later hit podcasters'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hamish & Andy is the essential answer for this question.",
+    "explanation": "In pop culture, Hamish & Andy is the exact answer for: 'Which Australian radio duo hosted a top-rating national drive show on Triple J and later hit podcasters'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hamish & Andy is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14346,8 +14346,8 @@ export const ALL_QUESTIONS = [
       "The Chaser"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Roy & HG is the specific subject associated with: 'Which satirical sports comedy duo played by John Doyle and Greig Pickhaver created characters Rampaging Roy Slaven and HG Nelson'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Roy & HG is the essential answer for this question.",
+    "explanation": "Roy & HG is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Roy & HG is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -14361,8 +14361,8 @@ export const ALL_QUESTIONS = [
       "The D-Generation"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Chaser is the specific subject associated with: 'Which Australian satirical comedy group created TV shows like The Election Chaser, CNNNN, and The Chaser's War on Everything'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Chaser is the essential answer for this question.",
+    "explanation": "The Chaser is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Chaser is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14376,8 +14376,8 @@ export const ALL_QUESTIONS = [
       "Comedy Company"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The D-Generation is the specific subject associated with: 'Which legendary 1980s Australian sketch comedy show produced by Working Dog members featured characters like Shirty the Bear'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The D-Generation is the essential answer for this question.",
+    "explanation": "In pop culture, The D-Generation is the exact answer for: 'Which legendary 1980s Australian sketch comedy show produced by Working Dog members featured characters like Shirty the Bear'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The D-Generation is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14391,8 +14391,8 @@ export const ALL_QUESTIONS = [
       "Comedy Company"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Fast Forward is the specific subject associated with: 'Which 1990s Australian sketch comedy show produced by Steve Vizard featured Magda Szubanski's character Chenille'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Fast Forward is the essential answer for this question.",
+    "explanation": "In pop culture, Fast Forward is the exact answer for: 'Which 1990s Australian sketch comedy show produced by Steve Vizard featured Magda Szubanski's character Chenille'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Fast Forward is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14406,8 +14406,8 @@ export const ALL_QUESTIONS = [
       "Full Frontal"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Comedy Company is the specific subject associated with: 'Which 1980s Australian sketch comedy show introduced Mark Mitchell's iconic character Con the Fruiterer'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Comedy Company is the essential answer for this question.",
+    "explanation": "In pop culture, The Comedy Company is the exact answer for: 'Which 1980s Australian sketch comedy show introduced Mark Mitchell's iconic character Con the Fruiterer'.",
+    "tip": "\ud83d\udca1 **Key Recall:** The Comedy Company is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14421,8 +14421,8 @@ export const ALL_QUESTIONS = [
       "Gruen"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Good News Week is the specific subject associated with: 'Which Australian news satire show hosted by Paul McDermott ran on ABC and Network Ten between 1996 and 2012'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Good News Week is the essential answer for this question.",
+    "explanation": "In pop culture, Good News Week is the exact answer for: 'Which Australian news satire show hosted by Paul McDermott ran on ABC and Network Ten between 1996 and 2012'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Good News Week is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14436,8 +14436,8 @@ export const ALL_QUESTIONS = [
       "Hard Quiz"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Gruen (The Gruen Transfer) is the specific subject associated with: 'Which ABC advertising satire show hosted by Wil Anderson debuted in 2008'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gruen (The Gruen Transfer) is the essential answer for this question.",
+    "explanation": "In pop culture, Gruen (The Gruen Transfer) is the exact answer for: 'Which ABC advertising satire show hosted by Wil Anderson debuted in 2008'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Gruen (The Gruen Transfer) is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14451,8 +14451,8 @@ export const ALL_QUESTIONS = [
       "Spicks and Specks"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Hard Quiz is the specific subject associated with: 'Which ABC comedy quiz show hosted by Tom Gleeson awards a brass mug as its top prize'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hard Quiz is the essential answer for this question.",
+    "explanation": "In pop culture, Hard Quiz is the exact answer for: 'Which ABC comedy quiz show hosted by Tom Gleeson awards a brass mug as its top prize'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Hard Quiz is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14466,8 +14466,8 @@ export const ALL_QUESTIONS = [
       "Good News Week"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Spicks and Specks is the specific subject associated with: 'Which beloved ABC music quiz show hosted by Adam Hills featured team captains Myf Warhurst and Alan Brough'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Spicks and Specks is the essential answer for this question.",
+    "explanation": "In pop culture, Spicks and Specks is the exact answer for: 'Which beloved ABC music quiz show hosted by Adam Hills featured team captains Myf Warhurst and Alan Brough'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Spicks and Specks is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14481,8 +14481,8 @@ export const ALL_QUESTIONS = [
       "Good News Week"
     ],
     "answer": 0,
-    "explanation": "In pop culture, RocKwiz is the specific subject associated with: 'Which SBS music trivia show set in the Gershwin Room at Melbourne's Esplanade Hotel was co-hosted by Julia Zemiro and Brian Nankervis'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** RocKwiz is the essential answer for this question.",
+    "explanation": "In pop culture, RocKwiz is the exact answer for: 'Which SBS music trivia show set in the Gershwin Room at Melbourne's Esplanade Hotel was co-hosted by Julia Zemiro and Brian Nankervis'.",
+    "tip": "\ud83d\udca1 **Key Recall:** RocKwiz is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14496,8 +14496,8 @@ export const ALL_QUESTIONS = [
       "Kerry O'Brien"
     ],
     "answer": 0,
-    "explanation": "In pop culture, David Speers is the specific subject associated with: 'Which Australian journalist and presenter has hosted ABC's flagship 7.30 program and later Insiders'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** David Speers is the essential answer for this question.",
+    "explanation": "In pop culture, David Speers is the exact answer for: 'Which Australian journalist and presenter has hosted ABC's flagship 7.30 program and later Insiders'.",
+    "tip": "\ud83d\udca1 **Key Recall:** David Speers is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14511,8 +14511,8 @@ export const ALL_QUESTIONS = [
       "Annabel Crabb"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Leigh Sales is the specific subject associated with: 'Which veteran Australian journalist hosted 7.30 for 12 years before stepping down in 2022'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Leigh Sales is the essential answer for this question.",
+    "explanation": "In pop culture, Leigh Sales is the exact answer for: 'Which veteran Australian journalist hosted 7.30 for 12 years before stepping down in 2022'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Leigh Sales is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14526,8 +14526,8 @@ export const ALL_QUESTIONS = [
       "Paul Barry"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Kerry O'Brien is the specific subject associated with: 'Which veteran Australian journalist hosted 4 Days / 7.30 Report for nearly two decades from 1995 to 2010'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kerry O'Brien is the essential answer for this question.",
+    "explanation": "In pop culture, Kerry O'Brien is the exact answer for: 'Which veteran Australian journalist hosted 4 Days / 7.30 Report for nearly two decades from 1995 to 2010'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Kerry O'Brien is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14541,8 +14541,8 @@ export const ALL_QUESTIONS = [
       "Laura Tingle"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Annabel Crabb is the specific subject associated with: 'Which Australian political journalist and author presents Kitchen Cabinet on the ABC'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Annabel Crabb is the essential answer for this question.",
+    "explanation": "Annabel Crabb is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Annabel Crabb is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -14556,8 +14556,8 @@ export const ALL_QUESTIONS = [
       "Foreign Correspondent"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Media Watch is the specific subject associated with: 'Which long-running ABC media analysis program has been presented by Paul Barry since 2013'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Media Watch is the essential answer for this question.",
+    "explanation": "In pop culture, Media Watch is the exact answer for: 'Which long-running ABC media analysis program has been presented by Paul Barry since 2013'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Media Watch is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14571,8 +14571,8 @@ export const ALL_QUESTIONS = [
       "Foreign Correspondent"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Four Corners is the specific subject associated with: 'Which flagship ABC investigative journalism program first aired in 1961, making it Australia's longest-running TV series'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Four Corners is the essential answer for this question.",
+    "explanation": "Four Corners is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Four Corners is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14586,8 +14586,8 @@ export const ALL_QUESTIONS = [
       "Sunday"
     ],
     "answer": 0,
-    "explanation": "In pop culture, 60 Minutes is the specific subject associated with: 'Which long-running 60-minute news magazine show debuted on Nine Network in 1979'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** 60 Minutes is the essential answer for this question.",
+    "explanation": "In pop culture, 60 Minutes is the exact answer for: 'Which long-running 60-minute news magazine show debuted on Nine Network in 1979'.",
+    "tip": "\ud83d\udca1 **Key Recall:** 60 Minutes is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14601,8 +14601,8 @@ export const ALL_QUESTIONS = [
       "Grant Denyer"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Eddie McGuire is the specific subject associated with: 'Which Australian television personality hosted Australia's version of Who Wants to Be a Millionaire'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Eddie McGuire is the essential answer for this question.",
+    "explanation": "In pop culture, Eddie McGuire is the exact answer for: 'Which Australian television personality hosted Australia's version of Who Wants to Be a Millionaire'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Eddie McGuire is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14616,8 +14616,8 @@ export const ALL_QUESTIONS = [
       "Graham Kennedy"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Daryl Somers is the specific subject associated with: 'Which Australian TV personality hosted Hey Hey It's Saturday for nearly three decades'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Daryl Somers is the essential answer for this question.",
+    "explanation": "Daryl Somers is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Daryl Somers is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14631,8 +14631,8 @@ export const ALL_QUESTIONS = [
       "Daryl Somers"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Graham Kennedy is the specific subject associated with: 'Which legend of Australian broadcasting was dubbed 'The King' of Australian television'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Graham Kennedy is the essential answer for this question.",
+    "explanation": "In pop culture, Graham Kennedy is the exact answer for: 'Which legend of Australian broadcasting was dubbed 'The King' of Australian television'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Graham Kennedy is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14646,8 +14646,8 @@ export const ALL_QUESTIONS = [
       "Mike Walsh"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Bert Newton is the specific subject associated with: 'Which beloved Australian TV icon was fondly known as 'Moonface' and co-hosted In Melbourne Tonight'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bert Newton is the essential answer for this question.",
+    "explanation": "Bert Newton is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Bert Newton is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14661,8 +14661,8 @@ export const ALL_QUESTIONS = [
       "Mike Walsh"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Don Lane is the specific subject associated with: 'Which American-born talk show host presented The Don Lane Show on Nine Network between 1975 and 1983'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Don Lane is the essential answer for this question.",
+    "explanation": "In pop culture, Don Lane is the exact answer for: 'Which American-born talk show host presented The Don Lane Show on Nine Network between 1975 and 1983'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Don Lane is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14676,8 +14676,8 @@ export const ALL_QUESTIONS = [
       "Daryl Somers"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Mike Walsh is the specific subject associated with: 'Which pioneer of Australian daytime TV hosted The Mike Walsh Show from 1973 to 1985'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mike Walsh is the essential answer for this question.",
+    "explanation": "Mike Walsh is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Mike Walsh is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14691,8 +14691,8 @@ export const ALL_QUESTIONS = [
       "Derryn Hinch"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Ray Martin is the specific subject associated with: 'Which Australian journalist hosted the Nine Network's Midday show from 1985 to 1993'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Ray Martin is the essential answer for this question.",
+    "explanation": "In pop culture, Ray Martin is the exact answer for: 'Which Australian journalist hosted the Nine Network's Midday show from 1985 to 1993'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Ray Martin is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14706,8 +14706,8 @@ export const ALL_QUESTIONS = [
       "Tracy Grimshaw"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Kerri-Anne Kennerley is the specific subject associated with: 'Which Australian television presenter hosted daytime television for decades on Midday and Good Morning Australia'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Kerri-Anne Kennerley is the essential answer for this question.",
+    "explanation": "In pop culture, Kerri-Anne Kennerley is the exact answer for: 'Which Australian television presenter hosted daytime television for decades on Midday and Good Morning Australia'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Kerri-Anne Kennerley is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14721,8 +14721,8 @@ export const ALL_QUESTIONS = [
       "Mike Willesee"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Tracy Grimshaw is the specific subject associated with: 'Which Australian journalist hosted Nine's A Current Affair for 17 years from 2006 to 2022'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Tracy Grimshaw is the essential answer for this question.",
+    "explanation": "In pop culture, Tracy Grimshaw is the exact answer for: 'Which Australian journalist hosted Nine's A Current Affair for 17 years from 2006 to 2022'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Tracy Grimshaw is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14736,8 +14736,8 @@ export const ALL_QUESTIONS = [
       "Ray Martin"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Mike Willesee is the specific subject associated with: 'Which veteran Australian journalist was the inaugural host of A Current Affair when it launched in 1971'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Mike Willesee is the essential answer for this question.",
+    "explanation": "In pop culture, Mike Willesee is the exact answer for: 'Which veteran Australian journalist was the inaugural host of A Current Affair when it launched in 1971'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Mike Willesee is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14751,8 +14751,8 @@ export const ALL_QUESTIONS = [
       "Sarah Ferguson"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Jana Wendt is the specific subject associated with: 'Which acclaimed Australian television journalist was nicknamed the 'Perfumed Poison Dart' for her fierce interviewing'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jana Wendt is the essential answer for this question.",
+    "explanation": "In pop culture, Jana Wendt is the exact answer for: 'Which acclaimed Australian television journalist was nicknamed the 'Perfumed Poison Dart' for her fierce interviewing'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Jana Wendt is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14766,8 +14766,8 @@ export const ALL_QUESTIONS = [
       "Tim Winton"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Thomas Keneally is the specific subject associated with: 'Which Australian author wrote the international bestseller Schindler's Ark, adapted by Spielberg into Schindler's List'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Thomas Keneally is the essential answer for this question.",
+    "explanation": "Thomas Keneally is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Thomas Keneally is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -14781,8 +14781,8 @@ export const ALL_QUESTIONS = [
       "Fear and Loathing"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Truman Show is the specific subject associated with: 'Which 1998 Australian film directed by Peter Weir stars Jim Carrey as a man unaware his life is a TV show'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Truman Show is the essential answer for this question.",
+    "explanation": "The Truman Show is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Truman Show is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14796,8 +14796,8 @@ export const ALL_QUESTIONS = [
       "Phillip Noyce"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Peter Weir is the specific subject associated with: 'Which Australian director made his Hollywood breakthrough with Dead Poets Society and The Truman Show'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Peter Weir is the essential answer for this question.",
+    "explanation": "Peter Weir is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Peter Weir is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14811,8 +14811,8 @@ export const ALL_QUESTIONS = [
       "Bruce Beresford"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Phillip Noyce is the specific subject associated with: 'Which Australian director directed Hollywood blockbusters Patriot Games, Clear and Present Danger, and Salt'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Phillip Noyce is the essential answer for this question.",
+    "explanation": "Phillip Noyce is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Phillip Noyce is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14826,8 +14826,8 @@ export const ALL_QUESTIONS = [
       "Gillian Armstrong"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Bruce Beresford is the specific subject associated with: 'Which Australian director directed the Oscar-winning films Breaker Morant (1980) and Driving Miss Daisy (1989)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Bruce Beresford is the essential answer for this question.",
+    "explanation": "Bruce Beresford is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Bruce Beresford is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14841,8 +14841,8 @@ export const ALL_QUESTIONS = [
       "Fred Schepisi"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Gillian Armstrong is the specific subject associated with: 'Which Australian director directed My Brilliant Career (1979) and Little Women (1994)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Gillian Armstrong is the essential answer for this question.",
+    "explanation": "Gillian Armstrong is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Gillian Armstrong is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14856,8 +14856,8 @@ export const ALL_QUESTIONS = [
       "Fran Walsh"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Jane Campion is the specific subject associated with: 'Which New Zealand director became the first woman to win the Palme d'Or at Cannes for The Piano (1993)'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Jane Campion is the essential answer for this question.",
+    "explanation": "Jane Campion is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Jane Campion is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14871,8 +14871,8 @@ export const ALL_QUESTIONS = [
       "Bright Star"
     ],
     "answer": 0,
-    "explanation": "In pop culture, The Power of the Dog is the specific subject associated with: 'Which 2021 film directed by Jane Campion won her the Academy Award for Best Director'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** The Power of the Dog is the essential answer for this question.",
+    "explanation": "The Power of the Dog is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** The Power of the Dog is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14886,8 +14886,8 @@ export const ALL_QUESTIONS = [
       "Eric Bana"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Hugh Jackman is the specific subject associated with: 'Which Australian actor starred as Wolverine across 9 films in the X-Men franchise between 2000 and 2024'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Hugh Jackman is the essential answer for this question.",
+    "explanation": "Hugh Jackman is the film, actor, director, or entertainment milestone featured in pop culture history.",
+    "tip": "\ud83d\udca1 **Entertainment Fact:** Hugh Jackman is the key pop culture reference.",
     "difficulty": "Medium"
   },
   {
@@ -14901,8 +14901,8 @@ export const ALL_QUESTIONS = [
       "Hugh Jackman"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Chris Hemsworth is the specific subject associated with: 'Which Australian actor plays Thor in the Marvel Cinematic Universe starting with the 2011 film Thor'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Chris Hemsworth is the essential answer for this question.",
+    "explanation": "Chris Hemsworth is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Chris Hemsworth is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -14916,8 +14916,8 @@ export const ALL_QUESTIONS = [
       "Samara Weaving"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Margot Robbie is the specific subject associated with: 'Which Australian actress achieved international stardom playing Barbie in Greta Gerwig's 2023 blockbuster'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Margot Robbie is the essential answer for this question.",
+    "explanation": "Margot Robbie is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Margot Robbie is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -14931,8 +14931,8 @@ export const ALL_QUESTIONS = [
       "Sarah Snook"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Toni Collette is the specific subject associated with: 'Which Australian actress starred in Hereditary and Knives Out'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Toni Collette is the essential answer for this question.",
+    "explanation": "In pop culture, Toni Collette is the exact answer for: 'Which Australian actress starred in Hereditary and Knives Out'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Toni Collette is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14946,8 +14946,8 @@ export const ALL_QUESTIONS = [
       "Margot Robbie"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Sarah Snook is the specific subject associated with: 'Which Australian actress played Shiv Roy in HBO's hit drama series Succession'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Sarah Snook is the essential answer for this question.",
+    "explanation": "Sarah Snook is the acclaimed author or playwright who created this famous literary work.",
+    "tip": "\ud83d\udca1 **Literary Creator:** Sarah Snook is the celebrated writer behind this work.",
     "difficulty": "Medium"
   },
   {
@@ -14961,8 +14961,8 @@ export const ALL_QUESTIONS = [
       "Isla Fisher"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Rose Byrne is the specific subject associated with: 'Which Australian actress starred in Bridesmaids, Neighbors, and Physical'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rose Byrne is the essential answer for this question.",
+    "explanation": "In pop culture, Rose Byrne is the exact answer for: 'Which Australian actress starred in Bridesmaids, Neighbors, and Physical'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Rose Byrne is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14976,8 +14976,8 @@ export const ALL_QUESTIONS = [
       "Margot Robbie"
     ],
     "answer": 0,
-    "explanation": "Andrew Fisher served 3 terms as PM (1908\u20131915), founding the Commonwealth Bank, maternity allowance, and Canberra.",
-    "tip": "\ud83d\udca1 **Fisher:** Founded Commonwealth Bank & Canberra!",
+    "explanation": "In pop culture, Isla Fisher is the exact answer for: 'Which Australian actress starred in Wedding Crashers, Confessions of a Shopaholic, and Now You See Me'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Isla Fisher is the essential answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14991,8 +14991,8 @@ export const ALL_QUESTIONS = [
       "Kitty Flanagan"
     ],
     "answer": 0,
-    "explanation": "In pop culture, Rebel Wilson is the specific subject associated with: 'Which Australian actress and comedian starred in Pitch Perfect, Bridesmaids, and Isn't It Romantic'.",
-    "tip": "\ud83d\udca1 **Key Trivia:** Rebel Wilson is the essential answer for this question.",
+    "explanation": "In pop culture, Rebel Wilson is the exact answer for: 'Which Australian actress and comedian starred in Pitch Perfect, Bridesmaids, and Isn't It Romantic'.",
+    "tip": "\ud83d\udca1 **Key Recall:** Rebel Wilson is the essential answer to remember.",
     "difficulty": "Medium"
   }
 ];
