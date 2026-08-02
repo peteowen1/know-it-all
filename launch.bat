@@ -3,14 +3,14 @@ title Good Weekend Quiz Master Launcher
 echo Launching Good Weekend Quiz Master...
 cd /d C:\dev\gw-quiz-trainer
 
-:: Check if port 5173 is running
-netstat -ano | findstr :5173 > nul
-if %errorlevel% equ 0 (
-    echo Server is already running. Opening app...
-    start http://localhost:5173/
-) else (
-    echo Starting server...
-    start /b npm run dev
-    timeout /t 3 > nul
-    start http://localhost:5173/
-)
+:: Kill any existing node process listening on port 5173
+for /f "tokens=5" %%a in ('netstat -aon ^| findstr :5173 ^| findstr LISTENING') do taskkill /F /PID %%a >nul 2>&1
+
+:: Build and launch fresh preview server
+echo Building latest 999-question bundle...
+call npm run build
+
+echo Starting server...
+start /b npx vite preview --port 5173 --host
+powershell -Command "Start-Sleep -Seconds 2"
+start http://localhost:5173/
