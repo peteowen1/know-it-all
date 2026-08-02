@@ -21,8 +21,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Edmund Barton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Edmund Barton** is the essential takeaway for this question.",
+    "explanation": "Sir Edmund Barton served as Australia's first Prime Minister from 1901 to 1903. He played a central role in Federation and later became a founding High Court Justice.",
+    "tip": "\ud83d\udca1 **Beginning PM:** Remember **B-art-on** for **B**eginning \u2014 1st PM on Jan 1, 1901!",
     "difficulty": "Medium"
   },
   {
@@ -36,8 +36,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Alfred Deakin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Alfred Deakin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Alfred Deakin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Alfred Deakin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -51,8 +51,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Chris Watson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chris Watson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chris Watson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chris Watson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -66,8 +66,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is George Reid.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **George Reid** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is George Reid.",
+    "tip": "\ud83d\udca1 **Trivia Key:** George Reid is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -81,8 +81,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Andrew Fisher.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Andrew Fisher** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Andrew Fisher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Andrew Fisher is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -96,8 +96,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Joseph Cook.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Joseph Cook** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Joseph Cook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Joseph Cook is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -111,8 +111,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Billy Hughes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Billy Hughes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Billy Hughes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Billy Hughes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -126,8 +126,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Stanley Bruce.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Stanley Bruce** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Stanley Bruce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Stanley Bruce is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -141,8 +141,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is James Scullin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **James Scullin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is James Scullin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** James Scullin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -156,8 +156,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Joseph Lyons.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Joseph Lyons** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Joseph Lyons.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Joseph Lyons is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -171,8 +171,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Earle Page.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Earle Page** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Earle Page.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Earle Page is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -186,8 +186,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Robert Menzies.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Robert Menzies** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Robert Menzies.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Robert Menzies is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -201,8 +201,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Arthur Fadden.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Arthur Fadden** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Arthur Fadden.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Arthur Fadden is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -216,8 +216,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is John Curtin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Curtin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Curtin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Curtin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -231,8 +231,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Frank Forde.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Frank Forde** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Frank Forde.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Frank Forde is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -246,8 +246,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Ben Chifley.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ben Chifley** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ben Chifley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ben Chifley is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -261,8 +261,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Harold Holt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Harold Holt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Harold Holt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Harold Holt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -276,8 +276,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is John McEwen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John McEwen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John McEwen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John McEwen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -291,8 +291,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is John Gorton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Gorton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Gorton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Gorton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -306,8 +306,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is William McMahon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **William McMahon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is William McMahon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** William McMahon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -321,8 +321,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Gough Whitlam.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gough Whitlam** is the essential takeaway for this question.",
+    "explanation": "Sir Edmund Barton served as Australia's first Prime Minister from 1901 to 1903. He played a central role in Federation and later became a founding High Court Justice.",
+    "tip": "\ud83d\udca1 **Beginning PM:** Remember **B-art-on** for **B**eginning \u2014 1st PM on Jan 1, 1901!",
     "difficulty": "Medium"
   },
   {
@@ -336,8 +336,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Malcolm Fraser.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Fraser** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Malcolm Fraser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Malcolm Fraser is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -351,8 +351,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Bob Hawke.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bob Hawke** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bob Hawke.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bob Hawke is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -366,8 +366,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Paul Keating.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Paul Keating** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Paul Keating.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Paul Keating is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -381,8 +381,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is John Howard.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Howard** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Howard.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Howard is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -396,8 +396,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Kevin Rudd.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kevin Rudd** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kevin Rudd.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kevin Rudd is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -411,8 +411,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Julia Gillard.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Julia Gillard** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Julia Gillard.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Julia Gillard is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -426,8 +426,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Tony Abbott.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tony Abbott** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tony Abbott.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tony Abbott is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -441,8 +441,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Malcolm Turnbull.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Turnbull** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Malcolm Turnbull.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Malcolm Turnbull is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -456,8 +456,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Scott Morrison.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Scott Morrison** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Scott Morrison.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Scott Morrison is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -471,8 +471,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Anthony Albanese.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Anthony Albanese** is the essential takeaway for this question.",
+    "explanation": "Sir Edmund Barton served as Australia's first Prime Minister from 1901 to 1903. He played a central role in Federation and later became a founding High Court Justice.",
+    "tip": "\ud83d\udca1 **Beginning PM:** Remember **B-art-on** for **B**eginning \u2014 1st PM on Jan 1, 1901!",
     "difficulty": "Medium"
   },
   {
@@ -486,8 +486,8 @@ export const ALL_QUESTIONS = [
       "1798"
     ],
     "answer": 0,
-    "explanation": "1788 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1788** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1788.",
+    "tip": "\ud83d\udca1 **Year:** 1788 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -501,8 +501,8 @@ export const ALL_QUESTIONS = [
       "Arthur Phillip"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Captain James Cook.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Captain James Cook** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Captain James Cook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Captain James Cook is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -516,8 +516,8 @@ export const ALL_QUESTIONS = [
       "Charles Sturt"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Matthew Flinders.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Matthew Flinders** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Matthew Flinders.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Matthew Flinders is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -531,8 +531,8 @@ export const ALL_QUESTIONS = [
       "The Lambing Flat Riots"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Eureka Stockade.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Eureka Stockade** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Eureka Stockade.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Eureka Stockade is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -546,8 +546,8 @@ export const ALL_QUESTIONS = [
       "Thunderbolt"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Ned Kelly.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ned Kelly** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ned Kelly.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ned Kelly is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -561,8 +561,8 @@ export const ALL_QUESTIONS = [
       "1910"
     ],
     "answer": 0,
-    "explanation": "1901 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1901** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1901.",
+    "tip": "\ud83d\udca1 **Year:** 1901 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -576,8 +576,8 @@ export const ALL_QUESTIONS = [
       "The Engineers Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Mabo Decision.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Mabo Decision** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Mabo Decision.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Mabo Decision is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -591,8 +591,8 @@ export const ALL_QUESTIONS = [
       "The Concrete Pipes Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Wik Decision.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Wik Decision** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Wik Decision.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Wik Decision is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -606,8 +606,8 @@ export const ALL_QUESTIONS = [
       "1901"
     ],
     "answer": 0,
-    "explanation": "1967 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1967** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1967.",
+    "tip": "\ud83d\udca1 **Year:** 1967 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -621,8 +621,8 @@ export const ALL_QUESTIONS = [
       "Charles Perkins"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Vincent Lingiari.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Vincent Lingiari** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Vincent Lingiari.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Vincent Lingiari is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -636,8 +636,8 @@ export const ALL_QUESTIONS = [
       "Nova Peris"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Neville Bonner.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Neville Bonner** is the essential takeaway for this question.",
+    "explanation": "Neville Bonner became the first Indigenous Australian to sit in the Australian Parliament, entering the Senate for Queensland in 1971.",
+    "tip": "\ud83d\udca1 **Neville Bonner:** First Indigenous Australian parliamentarian (Senate, 1971).",
     "difficulty": "Medium"
   },
   {
@@ -651,8 +651,8 @@ export const ALL_QUESTIONS = [
       "Geelong"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Melbourne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Melbourne** is the essential takeaway for this question.",
+    "explanation": "Melbourne serves as the official national capital and seat of government for the specified country.",
+    "tip": "\ud83d\udca1 **National Capital:** Melbourne is the capital city of the specified country.",
     "difficulty": "Medium"
   },
   {
@@ -666,8 +666,8 @@ export const ALL_QUESTIONS = [
       "Harry Seidler"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Walter Burley Griffin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Walter Burley Griffin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Walter Burley Griffin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Walter Burley Griffin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -681,8 +681,8 @@ export const ALL_QUESTIONS = [
       "Neville Wran"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Jack Lang.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jack Lang** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jack Lang.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jack Lang is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -696,8 +696,8 @@ export const ALL_QUESTIONS = [
       "Sir Samuel Griffith"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Henry Parkes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Henry Parkes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Henry Parkes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Henry Parkes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -711,8 +711,8 @@ export const ALL_QUESTIONS = [
       "Cyclone Larry"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Cyclone Tracy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cyclone Tracy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cyclone Tracy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cyclone Tracy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -726,8 +726,8 @@ export const ALL_QUESTIONS = [
       "Eddie Mabo"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Charles Perkins.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Charles Perkins** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Charles Perkins.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Charles Perkins is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -741,8 +741,8 @@ export const ALL_QUESTIONS = [
       "Owned by a private trading company"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Established as a free colony (no convicts).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Established as a free colony (no convicts)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Established as a free colony (no convicts).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Established as a free colony (no convicts) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -756,8 +756,8 @@ export const ALL_QUESTIONS = [
       "Albany Colony"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Swan River Colony.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Swan River Colony** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Swan River Colony.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Swan River Colony is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -771,8 +771,8 @@ export const ALL_QUESTIONS = [
       "Moreton Bay"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Van Diemen's Land.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Van Diemen's Land** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Van Diemen's Land.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Van Diemen's Land is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -786,8 +786,8 @@ export const ALL_QUESTIONS = [
       "The Balfour Declaration"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Australia Act 1986.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Australia Act 1986** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Australia Act 1986.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Australia Act 1986 is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -801,8 +801,8 @@ export const ALL_QUESTIONS = [
       "Lawrence Hargrave"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Charles Kingsford Smith.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Charles Kingsford Smith** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Charles Kingsford Smith.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Charles Kingsford Smith is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -816,8 +816,8 @@ export const ALL_QUESTIONS = [
       "Hudson Fysh"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Bert Hinkler.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bert Hinkler** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bert Hinkler.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bert Hinkler is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -831,8 +831,8 @@ export const ALL_QUESTIONS = [
       "Nancy Bird Walton"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Amy Johnson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Amy Johnson** is the essential takeaway for this question.",
+    "explanation": "Amy Johnson became the first woman to fly solo from England to Australia in May 1930, landing her Gipsy Moth 'Jason' in Darwin.",
+    "tip": "\ud83d\udca1 **Amy Johnson:** Flew solo from England to Darwin in 1930!",
     "difficulty": "Medium"
   },
   {
@@ -846,8 +846,8 @@ export const ALL_QUESTIONS = [
       "Peter Doherty"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Howard Florey.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Howard Florey** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Howard Florey.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Howard Florey is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -861,8 +861,8 @@ export const ALL_QUESTIONS = [
       "Fiona Stanley"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Macfarlane Burnet.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Macfarlane Burnet** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Macfarlane Burnet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Macfarlane Burnet is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -876,8 +876,8 @@ export const ALL_QUESTIONS = [
       "Gustav Nossal"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Peter Doherty.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Doherty** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Peter Doherty.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Peter Doherty is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -891,8 +891,8 @@ export const ALL_QUESTIONS = [
       "Elizabeth Blackburn"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Barry Marshall & Robin Warren.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Barry Marshall & Robin Warren** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Barry Marshall & Robin Warren.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Barry Marshall & Robin Warren is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -906,8 +906,8 @@ export const ALL_QUESTIONS = [
       "Jenny Graves"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Elizabeth Blackburn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Elizabeth Blackburn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Elizabeth Blackburn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Elizabeth Blackburn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -921,8 +921,8 @@ export const ALL_QUESTIONS = [
       "The Red Kangaroo"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Platypus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Platypus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Platypus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Platypus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -936,8 +936,8 @@ export const ALL_QUESTIONS = [
       "The Numbat"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Leadbeater's Possum.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Leadbeater's Possum** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Leadbeater's Possum.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Leadbeater's Possum is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -951,8 +951,8 @@ export const ALL_QUESTIONS = [
       "The Cassowary"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Koala.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Koala** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Koala.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Koala is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -966,8 +966,8 @@ export const ALL_QUESTIONS = [
       "The Black Swan"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Numbat.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Numbat** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Numbat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Numbat is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -981,8 +981,8 @@ export const ALL_QUESTIONS = [
       "The Dingo"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Southern Hairy-nosed Wombat.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Southern Hairy-nosed Wombat** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Southern Hairy-nosed Wombat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Southern Hairy-nosed Wombat is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -996,8 +996,8 @@ export const ALL_QUESTIONS = [
       "The Platypus"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Tasmanian Devil.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Tasmanian Devil** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Tasmanian Devil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Tasmanian Devil is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1011,8 +1011,8 @@ export const ALL_QUESTIONS = [
       "The Thorny Devil"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Red Kangaroo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Red Kangaroo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Red Kangaroo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Red Kangaroo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1026,8 +1026,8 @@ export const ALL_QUESTIONS = [
       "The Brolga"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Kookaburra.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Kookaburra** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Kookaburra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Kookaburra is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1041,8 +1041,8 @@ export const ALL_QUESTIONS = [
       "The Black Swan"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Helmeted Honeyeater.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Helmeted Honeyeater** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Helmeted Honeyeater.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Helmeted Honeyeater is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1056,8 +1056,8 @@ export const ALL_QUESTIONS = [
       "The Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Black Swan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Black Swan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Black Swan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Black Swan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1071,8 +1071,8 @@ export const ALL_QUESTIONS = [
       "The Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Brolga.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Brolga** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Brolga.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Brolga is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1086,8 +1086,8 @@ export const ALL_QUESTIONS = [
       "The Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Piping Shrike (White-backed Magpie).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Piping Shrike (White-backed Magpie)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Piping Shrike (White-backed Magpie).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Piping Shrike (White-backed Magpie) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1101,8 +1101,8 @@ export const ALL_QUESTIONS = [
       "Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Yellow Wattlebird.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Yellow Wattlebird** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Yellow Wattlebird.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Yellow Wattlebird is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1116,8 +1116,8 @@ export const ALL_QUESTIONS = [
       "Superb Lyrebird"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Gang-gang Cockatoo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gang-gang Cockatoo** is the essential takeaway for this question.",
+    "explanation": "Gang-gang Cockatoo serves as the official national capital and seat of government for the specified country.",
+    "tip": "\ud83d\udca1 **National Capital:** Gang-gang Cockatoo is the capital city of the specified country.",
     "difficulty": "Medium"
   },
   {
@@ -1131,8 +1131,8 @@ export const ALL_QUESTIONS = [
       "Kookaburra"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Wedge-tailed Eagle.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Wedge-tailed Eagle** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Wedge-tailed Eagle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Wedge-tailed Eagle is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1146,8 +1146,8 @@ export const ALL_QUESTIONS = [
       "Malcolm Fraser"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Gough Whitlam.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gough Whitlam** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gough Whitlam.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gough Whitlam is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1161,8 +1161,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Bob Hawke.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bob Hawke** is the essential takeaway for this question.",
+    "explanation": "Prime Minister Bob Hawke made his famous pledge during Labor's 1987 election campaign launch in Sydney.",
+    "tip": "\ud83d\udca1 **Bob Hawke:** Famous 1987 pledge regarding child poverty.",
     "difficulty": "Medium"
   },
   {
@@ -1176,8 +1176,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Malcolm Fraser.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Fraser** is the essential takeaway for this question.",
+    "explanation": "Prime Minister Malcolm Fraser created the Australian Federal Police (AFP) in 1979 by merging the Commonwealth and ACT Police forces.",
+    "tip": "\ud83d\udca1 **AFP 1979:** Created by Malcolm Fraser following the 1978 Hilton bombing.",
     "difficulty": "Medium"
   },
   {
@@ -1191,8 +1191,8 @@ export const ALL_QUESTIONS = [
       "Frank Nicklin"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Joh Bjelke-Petersen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Joh Bjelke-Petersen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Joh Bjelke-Petersen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Joh Bjelke-Petersen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1206,8 +1206,8 @@ export const ALL_QUESTIONS = [
       "John Bannon"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Don Dunstan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Don Dunstan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Don Dunstan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Don Dunstan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1221,8 +1221,8 @@ export const ALL_QUESTIONS = [
       "Jeff Kennett"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Henry Bolte.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Henry Bolte** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Henry Bolte.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Henry Bolte is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1236,8 +1236,8 @@ export const ALL_QUESTIONS = [
       "Robert Askin"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Neville Wran.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Neville Wran** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Neville Wran.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Neville Wran is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1251,8 +1251,8 @@ export const ALL_QUESTIONS = [
       "Richard Court"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir David Brand.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir David Brand** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir David Brand.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir David Brand is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1266,8 +1266,8 @@ export const ALL_QUESTIONS = [
       "1967"
     ],
     "answer": 0,
-    "explanation": "2009 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **2009** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 2009.",
+    "tip": "\ud83d\udca1 **Year:** 2009 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1281,8 +1281,8 @@ export const ALL_QUESTIONS = [
       "2009"
     ],
     "answer": 0,
-    "explanation": "1983 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1983** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1983.",
+    "tip": "\ud83d\udca1 **Year:** 1983 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1296,8 +1296,8 @@ export const ALL_QUESTIONS = [
       "1994"
     ],
     "answer": 0,
-    "explanation": "1967 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1967** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1967.",
+    "tip": "\ud83d\udca1 **Year:** 1967 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1311,8 +1311,8 @@ export const ALL_QUESTIONS = [
       "The Price Control Referendum"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Communist Party Referendum.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Communist Party Referendum** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Communist Party Referendum.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Communist Party Referendum is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1326,8 +1326,8 @@ export const ALL_QUESTIONS = [
       "William Deane"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Michael Jeffery.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Michael Jeffery** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Michael Jeffery.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Michael Jeffery is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1341,8 +1341,8 @@ export const ALL_QUESTIONS = [
       "Margaret Beazley"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Dame Quentin Bryce.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dame Quentin Bryce** is the essential takeaway for this question.",
+    "explanation": "Dame Quentin Bryce served as the 25th Governor-General of Australia from September 2008 to March 2014, becoming the first woman in the role.",
+    "tip": "\ud83d\udca1 **Quentin Bryce:** Australia's first female Governor-General (2008\u20132014).",
     "difficulty": "Medium"
   },
   {
@@ -1356,8 +1356,8 @@ export const ALL_QUESTIONS = [
       "HMS Sirius"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is HMS Endeavour.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **HMS Endeavour** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is HMS Endeavour.",
+    "tip": "\ud83d\udca1 **Trivia Key:** HMS Endeavour is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1371,8 +1371,8 @@ export const ALL_QUESTIONS = [
       "Charlotte"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is HMS Sirius.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **HMS Sirius** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is HMS Sirius.",
+    "tip": "\ud83d\udca1 **Trivia Key:** HMS Sirius is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1386,8 +1386,8 @@ export const ALL_QUESTIONS = [
       "Lady Penrhyn"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is HMS Supply.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **HMS Supply** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is HMS Supply.",
+    "tip": "\ud83d\udca1 **Trivia Key:** HMS Supply is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1401,8 +1401,8 @@ export const ALL_QUESTIONS = [
       "1960"
     ],
     "answer": 0,
-    "explanation": "1949 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1949** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1949.",
+    "tip": "\ud83d\udca1 **Year:** 1949 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1416,8 +1416,8 @@ export const ALL_QUESTIONS = [
       "1985"
     ],
     "answer": 0,
-    "explanation": "1974 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1974** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1974.",
+    "tip": "\ud83d\udca1 **Year:** 1974 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1431,8 +1431,8 @@ export const ALL_QUESTIONS = [
       "The Bank Nationalisation Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Concrete Pipes Case.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Concrete Pipes Case** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Concrete Pipes Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Concrete Pipes Case is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1446,8 +1446,8 @@ export const ALL_QUESTIONS = [
       "The Concrete Pipes Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Franklin Dam Case.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Franklin Dam Case** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Franklin Dam Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Franklin Dam Case is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1461,8 +1461,8 @@ export const ALL_QUESTIONS = [
       "The Communist Party Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Engineers Case.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Engineers Case** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Engineers Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Engineers Case is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1476,8 +1476,8 @@ export const ALL_QUESTIONS = [
       "The Second Uniform Tax Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Communist Party Case.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Communist Party Case** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Communist Party Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Communist Party Case is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1491,8 +1491,8 @@ export const ALL_QUESTIONS = [
       "Tony Abbott"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Scott Morrison.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Scott Morrison** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Scott Morrison.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Scott Morrison is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1506,8 +1506,8 @@ export const ALL_QUESTIONS = [
       "1938"
     ],
     "answer": 0,
-    "explanation": "1911 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1911** as the year of this historic milestone.",
+    "explanation": "1911 serves as the official national capital and seat of government for the specified country.",
+    "tip": "\ud83d\udca1 **National Capital:** 1911 is the capital city of the specified country.",
     "difficulty": "Medium"
   },
   {
@@ -1521,8 +1521,8 @@ export const ALL_QUESTIONS = [
       "1995"
     ],
     "answer": 0,
-    "explanation": "1978 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1978** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1978.",
+    "tip": "\ud83d\udca1 **Year:** 1978 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1536,8 +1536,8 @@ export const ALL_QUESTIONS = [
       "John McDouall Stuart"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Ludwig Leichhardt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ludwig Leichhardt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ludwig Leichhardt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ludwig Leichhardt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1551,8 +1551,8 @@ export const ALL_QUESTIONS = [
       "Thomas Mitchell"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is John McDouall Stuart.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John McDouall Stuart** is the essential takeaway for this question.",
+    "explanation": "John McDouall Stuart led six expeditions into the Australian interior, successfully completing the first south-to-north continental crossing (Adelaide to Darwin) in 1862.",
+    "tip": "\ud83d\udca1 **Stuart Highway:** The Stuart Highway from Adelaide to Darwin is named after him!",
     "difficulty": "Medium"
   },
   {
@@ -1566,8 +1566,8 @@ export const ALL_QUESTIONS = [
       "Douglas Mawson"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Cecil Madigan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cecil Madigan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cecil Madigan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cecil Madigan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1581,8 +1581,8 @@ export const ALL_QUESTIONS = [
       "Robert Falcon Scott"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Douglas Mawson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Douglas Mawson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Douglas Mawson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Douglas Mawson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1596,8 +1596,8 @@ export const ALL_QUESTIONS = [
       "Sir Isaac Isaacs"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Lord Gowrie.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lord Gowrie** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lord Gowrie.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lord Gowrie is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1611,8 +1611,8 @@ export const ALL_QUESTIONS = [
       "Sir John Kerr"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir Isaac Isaacs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Isaac Isaacs** is the essential takeaway for this question.",
+    "explanation": "Sir Isaac Isaacs was appointed Australia's first Australian-born Governor-General in 1931 by PM James Scullin, despite opposition from King George V.",
+    "tip": "\ud83d\udca1 **Sir Isaac Isaacs:** First Australian-born Governor-General (1931).",
     "difficulty": "Medium"
   },
   {
@@ -1626,8 +1626,8 @@ export const ALL_QUESTIONS = [
       "Sir Zelman Cowen"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Sir William McKell.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir William McKell** is the essential takeaway for this question.",
+    "explanation": "Sir William McKell was appointed the second Australian-born Governor-General in 1947 by Labor Prime Minister Ben Chifley.",
+    "tip": "\ud83d\udca1 **Sir William McKell:** 2nd Australian-born Governor-General (1947\u20131953).",
     "difficulty": "Medium"
   },
   {
@@ -1641,8 +1641,8 @@ export const ALL_QUESTIONS = [
       "Foy & Gibson"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Myer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Myer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Myer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Myer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1656,8 +1656,8 @@ export const ALL_QUESTIONS = [
       "Waltons"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is David Jones.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **David Jones** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is David Jones.",
+    "tip": "\ud83d\udca1 **Trivia Key:** David Jones is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1671,8 +1671,8 @@ export const ALL_QUESTIONS = [
       "Bonds"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Akubra.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Akubra** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Akubra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Akubra is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1686,8 +1686,8 @@ export const ALL_QUESTIONS = [
       "Blundstone"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is R.M. Williams.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **R.M. Williams** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is R.M. Williams.",
+    "tip": "\ud83d\udca1 **Trivia Key:** R.M. Williams is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1701,8 +1701,8 @@ export const ALL_QUESTIONS = [
       "Rossi"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Blundstone.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Blundstone** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Blundstone.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Blundstone is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1716,8 +1716,8 @@ export const ALL_QUESTIONS = [
       "Browse Basin"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Gippsland Basin (Kingfish/Halibut).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gippsland Basin (Kingfish/Halibut)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gippsland Basin (Kingfish/Halibut).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gippsland Basin (Kingfish/Halibut) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1731,8 +1731,8 @@ export const ALL_QUESTIONS = [
       "Pluto LNG"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The North West Shelf Project.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The North West Shelf Project** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The North West Shelf Project.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The North West Shelf Project is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1746,8 +1746,8 @@ export const ALL_QUESTIONS = [
       "Compass"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Qantas.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Qantas** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Qantas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Qantas is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1761,8 +1761,8 @@ export const ALL_QUESTIONS = [
       "East-West Airlines"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Ansett Australia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ansett Australia** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ansett Australia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ansett Australia is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1776,8 +1776,8 @@ export const ALL_QUESTIONS = [
       "Compass"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Trans Australia Airlines (TAA).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Trans Australia Airlines (TAA)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Trans Australia Airlines (TAA).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Trans Australia Airlines (TAA) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1791,8 +1791,8 @@ export const ALL_QUESTIONS = [
       "The Engineers Case"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The Seas and Submerged Lands Case.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Seas and Submerged Lands Case** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Seas and Submerged Lands Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Seas and Submerged Lands Case is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1806,8 +1806,8 @@ export const ALL_QUESTIONS = [
       "Paul Keating"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Gough Whitlam.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gough Whitlam** is the essential takeaway for this question.",
+    "explanation": "Gough Whitlam's government introduced the Family Law Act 1975, establishing the Family Court of Australia and no-fault divorce.",
+    "tip": "\ud83d\udca1 **Whitlam Reform:** Established no-fault divorce in Australia in 1975.",
     "difficulty": "Medium"
   },
   {
@@ -1821,8 +1821,8 @@ export const ALL_QUESTIONS = [
       "John Howard"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Malcolm Fraser.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Fraser** is the essential takeaway for this question.",
+    "explanation": "Malcolm Fraser's government established the Special Broadcasting Service (SBS) in 1978 to provide multilingual broadcasting across Australia.",
+    "tip": "\ud83d\udca1 **SBS 1978:** Established by Malcolm Fraser for multilingual broadcasting.",
     "difficulty": "Medium"
   },
   {
@@ -1836,8 +1836,8 @@ export const ALL_QUESTIONS = [
       "The $5 Note"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The $1 Coin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The $1 Coin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The $1 Coin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The $1 Coin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1851,8 +1851,8 @@ export const ALL_QUESTIONS = [
       "The Gold Coin"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is The $2 Coin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The $2 Coin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The $2 Coin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The $2 Coin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1866,8 +1866,8 @@ export const ALL_QUESTIONS = [
       "1988"
     ],
     "answer": 0,
-    "explanation": "1992 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1992** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1992.",
+    "tip": "\ud83d\udca1 **Year:** 1992 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1881,8 +1881,8 @@ export const ALL_QUESTIONS = [
       "2000"
     ],
     "answer": 0,
-    "explanation": "1988 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1988** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1988.",
+    "tip": "\ud83d\udca1 **Year:** 1988 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -1896,8 +1896,8 @@ export const ALL_QUESTIONS = [
       "John O'Sullivan"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Dr David Warren.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dr David Warren** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dr David Warren.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dr David Warren is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1911,8 +1911,8 @@ export const ALL_QUESTIONS = [
       "Ian Frazer"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Dr John O'Sullivan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dr John O'Sullivan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dr John O'Sullivan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dr John O'Sullivan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1926,8 +1926,8 @@ export const ALL_QUESTIONS = [
       "Peter Doherty"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Prof Ian Frazer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Prof Ian Frazer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Prof Ian Frazer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Prof Ian Frazer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1941,8 +1941,8 @@ export const ALL_QUESTIONS = [
       "Fred Hollows"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Dr Fiona Stanley.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dr Fiona Stanley** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dr Fiona Stanley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dr Fiona Stanley is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1956,8 +1956,8 @@ export const ALL_QUESTIONS = [
       "Graeme Clark"
     ],
     "answer": 0,
-    "explanation": "In aus history, the correct answer to this question is Fred Hollows.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fred Hollows** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fred Hollows.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fred Hollows is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -1971,8 +1971,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Ottawa is the national capital and seat of government of Canada.",
-    "tip": "\ud83d\udca1 **National Capital:** Ottawa is the official capital city of Canada.",
+    "explanation": "Ottawa serves as the official national capital and seat of government for Canada.",
+    "tip": "\ud83d\udca1 **National Capital:** Ottawa is the capital city of Canada.",
     "difficulty": "Medium"
   },
   {
@@ -1986,8 +1986,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Canberra is the national capital and seat of government of Australia.",
-    "tip": "\ud83d\udca1 **National Capital:** Canberra is the official capital city of Australia.",
+    "explanation": "Canberra serves as the official national capital and seat of government for Australia.",
+    "tip": "\ud83d\udca1 **National Capital:** Canberra is the capital city of Australia.",
     "difficulty": "Medium"
   },
   {
@@ -2001,8 +2001,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Bras\u00edlia is the national capital and seat of government of Brazil.",
-    "tip": "\ud83d\udca1 **National Capital:** Bras\u00edlia is the official capital city of Brazil.",
+    "explanation": "Bras\u00edlia serves as the official national capital and seat of government for Brazil.",
+    "tip": "\ud83d\udca1 **National Capital:** Bras\u00edlia is the capital city of Brazil.",
     "difficulty": "Medium"
   },
   {
@@ -2016,8 +2016,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Ankara is the national capital and seat of government of Turkey.",
-    "tip": "\ud83d\udca1 **National Capital:** Ankara is the official capital city of Turkey.",
+    "explanation": "Ankara serves as the official national capital and seat of government for Turkey.",
+    "tip": "\ud83d\udca1 **National Capital:** Ankara is the capital city of Turkey.",
     "difficulty": "Medium"
   },
   {
@@ -2031,8 +2031,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Bern is the national capital and seat of government of Switzerland.",
-    "tip": "\ud83d\udca1 **National Capital:** Bern is the official capital city of Switzerland.",
+    "explanation": "Bern serves as the official national capital and seat of government for Switzerland.",
+    "tip": "\ud83d\udca1 **National Capital:** Bern is the capital city of Switzerland.",
     "difficulty": "Medium"
   },
   {
@@ -2046,8 +2046,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Wellington is the national capital and seat of government of New Zealand.",
-    "tip": "\ud83d\udca1 **National Capital:** Wellington is the official capital city of New Zealand.",
+    "explanation": "Wellington serves as the official national capital and seat of government for New Zealand.",
+    "tip": "\ud83d\udca1 **National Capital:** Wellington is the capital city of New Zealand.",
     "difficulty": "Medium"
   },
   {
@@ -2061,8 +2061,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Abuja is the national capital and seat of government of Nigeria.",
-    "tip": "\ud83d\udca1 **National Capital:** Abuja is the official capital city of Nigeria.",
+    "explanation": "Abuja serves as the official national capital and seat of government for Nigeria.",
+    "tip": "\ud83d\udca1 **National Capital:** Abuja is the capital city of Nigeria.",
     "difficulty": "Medium"
   },
   {
@@ -2076,8 +2076,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Islamabad is the national capital and seat of government of Pakistan.",
-    "tip": "\ud83d\udca1 **National Capital:** Islamabad is the official capital city of Pakistan.",
+    "explanation": "Islamabad serves as the official national capital and seat of government for Pakistan.",
+    "tip": "\ud83d\udca1 **National Capital:** Islamabad is the capital city of Pakistan.",
     "difficulty": "Medium"
   },
   {
@@ -2091,8 +2091,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Rabat is the national capital and seat of government of Morocco.",
-    "tip": "\ud83d\udca1 **National Capital:** Rabat is the official capital city of Morocco.",
+    "explanation": "Rabat serves as the official national capital and seat of government for Morocco.",
+    "tip": "\ud83d\udca1 **National Capital:** Rabat is the capital city of Morocco.",
     "difficulty": "Medium"
   },
   {
@@ -2106,8 +2106,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Hanoi is the national capital and seat of government of Vietnam.",
-    "tip": "\ud83d\udca1 **National Capital:** Hanoi is the official capital city of Vietnam.",
+    "explanation": "Hanoi serves as the official national capital and seat of government for Vietnam.",
+    "tip": "\ud83d\udca1 **National Capital:** Hanoi is the capital city of Vietnam.",
     "difficulty": "Medium"
   },
   {
@@ -2121,8 +2121,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "Tokyo is the national capital and seat of government of Japan.",
-    "tip": "\ud83d\udca1 **National Capital:** Tokyo is the official capital city of Japan.",
+    "explanation": "Tokyo (formerly Edo) is the capital of Japan, meaning 'Eastern Capital'. It became the Imperial capital in 1868.",
+    "tip": "\ud83d\udca1 **Edo to Tokyo:** Renamed Tokyo when Emperor Meiji moved the imperial seat from Kyoto in 1868.",
     "difficulty": "Medium"
   },
   {
@@ -2136,8 +2136,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Seoul is the national capital and seat of government of South Korea.",
-    "tip": "\ud83d\udca1 **National Capital:** Seoul is the official capital city of South Korea.",
+    "explanation": "Seoul serves as the official national capital and seat of government for South Korea.",
+    "tip": "\ud83d\udca1 **National Capital:** Seoul is the capital city of South Korea.",
     "difficulty": "Medium"
   },
   {
@@ -2151,8 +2151,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Berlin is the national capital and seat of government of Germany.",
-    "tip": "\ud83d\udca1 **National Capital:** Berlin is the official capital city of Germany.",
+    "explanation": "Berlin is the capital of Germany, reunited as national capital following the fall of the Berlin Wall in 1989.",
+    "tip": "\ud83d\udca1 **Brandenburg Gate:** Home to the Brandenburg Gate and Reichstag building.",
     "difficulty": "Medium"
   },
   {
@@ -2166,8 +2166,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "Rome is the national capital and seat of government of Italy.",
-    "tip": "\ud83d\udca1 **National Capital:** Rome is the official capital city of Italy.",
+    "explanation": "Rome is the capital of Italy, known as the 'Eternal City', founded according to legend by Romulus and Remus in 753 BC.",
+    "tip": "\ud83d\udca1 **Eternal City:** Contains the Colosseum, Roman Forum, and Vatican City.",
     "difficulty": "Medium"
   },
   {
@@ -2181,8 +2181,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Madrid is the national capital and seat of government of Spain.",
-    "tip": "\ud83d\udca1 **National Capital:** Madrid is the official capital city of Spain.",
+    "explanation": "Madrid is the capital and largest city of Spain, situated on the Manzanares River in central Spain.",
+    "tip": "\ud83d\udca1 **Prado & Royal Palace:** Home to the Prado Museum and Royal Palace.",
     "difficulty": "Medium"
   },
   {
@@ -2196,8 +2196,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Lisbon is the national capital and seat of government of Portugal.",
-    "tip": "\ud83d\udca1 **National Capital:** Lisbon is the official capital city of Portugal.",
+    "explanation": "Lisbon serves as the official national capital and seat of government for Portugal.",
+    "tip": "\ud83d\udca1 **National Capital:** Lisbon is the capital city of Portugal.",
     "difficulty": "Medium"
   },
   {
@@ -2211,8 +2211,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Amsterdam is the national capital and seat of government of Netherlands.",
-    "tip": "\ud83d\udca1 **National Capital:** Amsterdam is the official capital city of Netherlands.",
+    "explanation": "Amsterdam serves as the official national capital and seat of government for Netherlands.",
+    "tip": "\ud83d\udca1 **National Capital:** Amsterdam is the capital city of Netherlands.",
     "difficulty": "Medium"
   },
   {
@@ -2226,8 +2226,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Brussels is the national capital and seat of government of Belgium.",
-    "tip": "\ud83d\udca1 **National Capital:** Brussels is the official capital city of Belgium.",
+    "explanation": "Brussels serves as the official national capital and seat of government for Belgium.",
+    "tip": "\ud83d\udca1 **National Capital:** Brussels is the capital city of Belgium.",
     "difficulty": "Medium"
   },
   {
@@ -2241,8 +2241,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Vienna is the national capital and seat of government of Austria.",
-    "tip": "\ud83d\udca1 **National Capital:** Vienna is the official capital city of Austria.",
+    "explanation": "Vienna serves as the official national capital and seat of government for Austria.",
+    "tip": "\ud83d\udca1 **National Capital:** Vienna is the capital city of Austria.",
     "difficulty": "Medium"
   },
   {
@@ -2256,8 +2256,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Athens is the national capital and seat of government of Greece.",
-    "tip": "\ud83d\udca1 **National Capital:** Athens is the official capital city of Greece.",
+    "explanation": "Athens is the capital of Greece, named after goddess Athena, recognized as the cradle of Western civilization and democracy.",
+    "tip": "\ud83d\udca1 **Acropolis:** Home to the Parthenon atop the Acropolis.",
     "difficulty": "Medium"
   },
   {
@@ -2271,8 +2271,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Cairo is the national capital and seat of government of Egypt.",
-    "tip": "\ud83d\udca1 **National Capital:** Cairo is the official capital city of Egypt.",
+    "explanation": "Cairo is the capital of Egypt, located near the Giza Pyramids and the Sphinx on the banks of the Nile.",
+    "tip": "\ud83d\udca1 **Nile Delta:** Largest metropolitan area in the Arab world, adjacent to the Pyramids.",
     "difficulty": "Medium"
   },
   {
@@ -2286,8 +2286,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Nairobi is the national capital and seat of government of Kenya.",
-    "tip": "\ud83d\udca1 **National Capital:** Nairobi is the official capital city of Kenya.",
+    "explanation": "Nairobi serves as the official national capital and seat of government for Kenya.",
+    "tip": "\ud83d\udca1 **National Capital:** Nairobi is the capital city of Kenya.",
     "difficulty": "Medium"
   },
   {
@@ -2301,8 +2301,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Buenos Aires is the national capital and seat of government of Argentina.",
-    "tip": "\ud83d\udca1 **National Capital:** Buenos Aires is the official capital city of Argentina.",
+    "explanation": "Buenos Aires serves as the official national capital and seat of government for Argentina.",
+    "tip": "\ud83d\udca1 **National Capital:** Buenos Aires is the capital city of Argentina.",
     "difficulty": "Medium"
   },
   {
@@ -2316,8 +2316,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Santiago is the national capital and seat of government of Chile.",
-    "tip": "\ud83d\udca1 **National Capital:** Santiago is the official capital city of Chile.",
+    "explanation": "Santiago serves as the official national capital and seat of government for Chile.",
+    "tip": "\ud83d\udca1 **National Capital:** Santiago is the capital city of Chile.",
     "difficulty": "Medium"
   },
   {
@@ -2331,8 +2331,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Bogot\u00e1 is the national capital and seat of government of Colombia.",
-    "tip": "\ud83d\udca1 **National Capital:** Bogot\u00e1 is the official capital city of Colombia.",
+    "explanation": "Bogot\u00e1 serves as the official national capital and seat of government for Colombia.",
+    "tip": "\ud83d\udca1 **National Capital:** Bogot\u00e1 is the capital city of Colombia.",
     "difficulty": "Medium"
   },
   {
@@ -2346,8 +2346,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Lima is the national capital and seat of government of Peru.",
-    "tip": "\ud83d\udca1 **National Capital:** Lima is the official capital city of Peru.",
+    "explanation": "Lima serves as the official national capital and seat of government for Peru.",
+    "tip": "\ud83d\udca1 **National Capital:** Lima is the capital city of Peru.",
     "difficulty": "Medium"
   },
   {
@@ -2361,8 +2361,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Bangkok is the national capital and seat of government of Thailand.",
-    "tip": "\ud83d\udca1 **National Capital:** Bangkok is the official capital city of Thailand.",
+    "explanation": "Bangkok serves as the official national capital and seat of government for Thailand.",
+    "tip": "\ud83d\udca1 **National Capital:** Bangkok is the capital city of Thailand.",
     "difficulty": "Medium"
   },
   {
@@ -2376,8 +2376,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Jakarta is the national capital and seat of government of Indonesia.",
-    "tip": "\ud83d\udca1 **National Capital:** Jakarta is the official capital city of Indonesia.",
+    "explanation": "Jakarta serves as the official national capital and seat of government for Indonesia.",
+    "tip": "\ud83d\udca1 **National Capital:** Jakarta is the capital city of Indonesia.",
     "difficulty": "Medium"
   },
   {
@@ -2391,8 +2391,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Manila is the national capital and seat of government of Philippines.",
-    "tip": "\ud83d\udca1 **National Capital:** Manila is the official capital city of Philippines.",
+    "explanation": "Manila serves as the official national capital and seat of government for Philippines.",
+    "tip": "\ud83d\udca1 **National Capital:** Manila is the capital city of Philippines.",
     "difficulty": "Medium"
   },
   {
@@ -2406,8 +2406,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Kuala Lumpur is the national capital and seat of government of Malaysia.",
-    "tip": "\ud83d\udca1 **National Capital:** Kuala Lumpur is the official capital city of Malaysia.",
+    "explanation": "Kuala Lumpur serves as the official national capital and seat of government for Malaysia.",
+    "tip": "\ud83d\udca1 **National Capital:** Kuala Lumpur is the capital city of Malaysia.",
     "difficulty": "Medium"
   },
   {
@@ -2421,8 +2421,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Riyadh is the national capital and seat of government of Saudi Arabia.",
-    "tip": "\ud83d\udca1 **National Capital:** Riyadh is the official capital city of Saudi Arabia.",
+    "explanation": "Riyadh serves as the official national capital and seat of government for Saudi Arabia.",
+    "tip": "\ud83d\udca1 **National Capital:** Riyadh is the capital city of Saudi Arabia.",
     "difficulty": "Medium"
   },
   {
@@ -2436,8 +2436,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Abu Dhabi is the national capital and seat of government of UAE.",
-    "tip": "\ud83d\udca1 **National Capital:** Abu Dhabi is the official capital city of UAE.",
+    "explanation": "Abu Dhabi serves as the official national capital and seat of government for UAE.",
+    "tip": "\ud83d\udca1 **National Capital:** Abu Dhabi is the capital city of UAE.",
     "difficulty": "Medium"
   },
   {
@@ -2451,8 +2451,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Tehran is the national capital and seat of government of Iran.",
-    "tip": "\ud83d\udca1 **National Capital:** Tehran is the official capital city of Iran.",
+    "explanation": "Tehran serves as the official national capital and seat of government for Iran.",
+    "tip": "\ud83d\udca1 **National Capital:** Tehran is the capital city of Iran.",
     "difficulty": "Medium"
   },
   {
@@ -2466,8 +2466,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Baghdad is the national capital and seat of government of Iraq.",
-    "tip": "\ud83d\udca1 **National Capital:** Baghdad is the official capital city of Iraq.",
+    "explanation": "Baghdad serves as the official national capital and seat of government for Iraq.",
+    "tip": "\ud83d\udca1 **National Capital:** Baghdad is the capital city of Iraq.",
     "difficulty": "Medium"
   },
   {
@@ -2481,8 +2481,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Oslo is the national capital and seat of government of Norway.",
-    "tip": "\ud83d\udca1 **National Capital:** Oslo is the official capital city of Norway.",
+    "explanation": "Oslo serves as the official national capital and seat of government for Norway.",
+    "tip": "\ud83d\udca1 **National Capital:** Oslo is the capital city of Norway.",
     "difficulty": "Medium"
   },
   {
@@ -2496,8 +2496,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Stockholm is the national capital and seat of government of Sweden.",
-    "tip": "\ud83d\udca1 **National Capital:** Stockholm is the official capital city of Sweden.",
+    "explanation": "Stockholm serves as the official national capital and seat of government for Sweden.",
+    "tip": "\ud83d\udca1 **National Capital:** Stockholm is the capital city of Sweden.",
     "difficulty": "Medium"
   },
   {
@@ -2511,8 +2511,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Helsinki is the national capital and seat of government of Finland.",
-    "tip": "\ud83d\udca1 **National Capital:** Helsinki is the official capital city of Finland.",
+    "explanation": "Helsinki serves as the official national capital and seat of government for Finland.",
+    "tip": "\ud83d\udca1 **National Capital:** Helsinki is the capital city of Finland.",
     "difficulty": "Medium"
   },
   {
@@ -2526,8 +2526,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Copenhagen is the national capital and seat of government of Denmark.",
-    "tip": "\ud83d\udca1 **National Capital:** Copenhagen is the official capital city of Denmark.",
+    "explanation": "Copenhagen serves as the official national capital and seat of government for Denmark.",
+    "tip": "\ud83d\udca1 **National Capital:** Copenhagen is the capital city of Denmark.",
     "difficulty": "Medium"
   },
   {
@@ -2541,8 +2541,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Reykjav\u00edk is the national capital and seat of government of Iceland.",
-    "tip": "\ud83d\udca1 **National Capital:** Reykjav\u00edk is the official capital city of Iceland.",
+    "explanation": "Reykjav\u00edk serves as the official national capital and seat of government for Iceland.",
+    "tip": "\ud83d\udca1 **National Capital:** Reykjav\u00edk is the capital city of Iceland.",
     "difficulty": "Medium"
   },
   {
@@ -2556,8 +2556,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Dublin (from Irish 'Dubhlinn' meaning 'black pool') is the capital and largest city of Ireland, located at the mouth of the River Liffey.",
-    "tip": "\ud83d\udca1 **Black Pool:** Dublin derives from Irish 'Dubh Linn' (Black Pool), home of the famous Guinness Brewery at St James's Gate!",
+    "explanation": "Dublin (from Irish 'Dubhlinn' meaning 'black pool') is the capital and largest city of Ireland, situated on the River Liffey.",
+    "tip": "\ud83d\udca1 **Black Pool:** Dublin derives from Irish 'Dubh Linn' (Black Pool), home of the Guinness Brewery on the River Liffey!",
     "difficulty": "Medium"
   },
   {
@@ -2571,8 +2571,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Warsaw is the national capital and seat of government of Poland.",
-    "tip": "\ud83d\udca1 **National Capital:** Warsaw is the official capital city of Poland.",
+    "explanation": "Warsaw serves as the official national capital and seat of government for Poland.",
+    "tip": "\ud83d\udca1 **National Capital:** Warsaw is the capital city of Poland.",
     "difficulty": "Medium"
   },
   {
@@ -2586,8 +2586,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Prague is the national capital and seat of government of Czech Republic.",
-    "tip": "\ud83d\udca1 **National Capital:** Prague is the official capital city of Czech Republic.",
+    "explanation": "Prague serves as the official national capital and seat of government for Czech Republic.",
+    "tip": "\ud83d\udca1 **National Capital:** Prague is the capital city of Czech Republic.",
     "difficulty": "Medium"
   },
   {
@@ -2601,8 +2601,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Budapest is the national capital and seat of government of Hungary.",
-    "tip": "\ud83d\udca1 **National Capital:** Budapest is the official capital city of Hungary.",
+    "explanation": "Budapest serves as the official national capital and seat of government for Hungary.",
+    "tip": "\ud83d\udca1 **National Capital:** Budapest is the capital city of Hungary.",
     "difficulty": "Medium"
   },
   {
@@ -2616,8 +2616,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Bucharest is the national capital and seat of government of Romania.",
-    "tip": "\ud83d\udca1 **National Capital:** Bucharest is the official capital city of Romania.",
+    "explanation": "Bucharest serves as the official national capital and seat of government for Romania.",
+    "tip": "\ud83d\udca1 **National Capital:** Bucharest is the capital city of Romania.",
     "difficulty": "Medium"
   },
   {
@@ -2631,8 +2631,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Kyiv is the national capital and seat of government of Ukraine.",
-    "tip": "\ud83d\udca1 **National Capital:** Kyiv is the official capital city of Ukraine.",
+    "explanation": "Kyiv serves as the official national capital and seat of government for Ukraine.",
+    "tip": "\ud83d\udca1 **National Capital:** Kyiv is the capital city of Ukraine.",
     "difficulty": "Medium"
   },
   {
@@ -2646,8 +2646,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Moscow is the national capital and seat of government of Russia.",
-    "tip": "\ud83d\udca1 **National Capital:** Moscow is the official capital city of Russia.",
+    "explanation": "Moscow serves as the official national capital and seat of government for Russia.",
+    "tip": "\ud83d\udca1 **National Capital:** Moscow is the capital city of Russia.",
     "difficulty": "Medium"
   },
   {
@@ -2661,8 +2661,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Pretoria is the national capital and seat of government of South Africa.",
-    "tip": "\ud83d\udca1 **National Capital:** Pretoria is the official capital city of South Africa.",
+    "explanation": "Pretoria serves as the official national capital and seat of government for South Africa.",
+    "tip": "\ud83d\udca1 **National Capital:** Pretoria is the capital city of South Africa.",
     "difficulty": "Medium"
   },
   {
@@ -2676,8 +2676,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Havana is the national capital and seat of government of Cuba.",
-    "tip": "\ud83d\udca1 **National Capital:** Havana is the official capital city of Cuba.",
+    "explanation": "Havana serves as the official national capital and seat of government for Cuba.",
+    "tip": "\ud83d\udca1 **National Capital:** Havana is the capital city of Cuba.",
     "difficulty": "Medium"
   },
   {
@@ -2691,8 +2691,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Kingston is the national capital and seat of government of Jamaica.",
-    "tip": "\ud83d\udca1 **National Capital:** Kingston is the official capital city of Jamaica.",
+    "explanation": "Kingston serves as the official national capital and seat of government for Jamaica.",
+    "tip": "\ud83d\udca1 **National Capital:** Kingston is the capital city of Jamaica.",
     "difficulty": "Medium"
   },
   {
@@ -2706,8 +2706,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Zagreb is the national capital and seat of government of Croatia.",
-    "tip": "\ud83d\udca1 **National Capital:** Zagreb is the official capital city of Croatia.",
+    "explanation": "Zagreb serves as the official national capital and seat of government for Croatia.",
+    "tip": "\ud83d\udca1 **National Capital:** Zagreb is the capital city of Croatia.",
     "difficulty": "Medium"
   },
   {
@@ -2721,8 +2721,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Suva is the national capital and seat of government of Fiji.",
-    "tip": "\ud83d\udca1 **National Capital:** Suva is the official capital city of Fiji.",
+    "explanation": "Suva serves as the official national capital and seat of government for Fiji.",
+    "tip": "\ud83d\udca1 **National Capital:** Suva is the capital city of Fiji.",
     "difficulty": "Medium"
   },
   {
@@ -2736,8 +2736,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Port Moresby is the national capital and seat of government of Papua New Guinea.",
-    "tip": "\ud83d\udca1 **National Capital:** Port Moresby is the official capital city of Papua New Guinea.",
+    "explanation": "Port Moresby serves as the official national capital and seat of government for Papua New Guinea.",
+    "tip": "\ud83d\udca1 **National Capital:** Port Moresby is the capital city of Papua New Guinea.",
     "difficulty": "Medium"
   },
   {
@@ -2751,8 +2751,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Apia is the national capital and seat of government of Samoa.",
-    "tip": "\ud83d\udca1 **National Capital:** Apia is the official capital city of Samoa.",
+    "explanation": "Apia serves as the official national capital and seat of government for Samoa.",
+    "tip": "\ud83d\udca1 **National Capital:** Apia is the capital city of Samoa.",
     "difficulty": "Medium"
   },
   {
@@ -2766,8 +2766,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Port Vila is the national capital and seat of government of Vanuatu.",
-    "tip": "\ud83d\udca1 **National Capital:** Port Vila is the official capital city of Vanuatu.",
+    "explanation": "Port Vila serves as the official national capital and seat of government for Vanuatu.",
+    "tip": "\ud83d\udca1 **National Capital:** Port Vila is the capital city of Vanuatu.",
     "difficulty": "Medium"
   },
   {
@@ -2781,8 +2781,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Honiara is the national capital and seat of government of Solomon Islands.",
-    "tip": "\ud83d\udca1 **National Capital:** Honiara is the official capital city of Solomon Islands.",
+    "explanation": "Honiara serves as the official national capital and seat of government for Solomon Islands.",
+    "tip": "\ud83d\udca1 **National Capital:** Honiara is the capital city of Solomon Islands.",
     "difficulty": "Medium"
   },
   {
@@ -2796,8 +2796,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Nuku'alofa is the national capital and seat of government of Tonga.",
-    "tip": "\ud83d\udca1 **National Capital:** Nuku'alofa is the official capital city of Tonga.",
+    "explanation": "Nuku'alofa serves as the official national capital and seat of government for Tonga.",
+    "tip": "\ud83d\udca1 **National Capital:** Nuku'alofa is the capital city of Tonga.",
     "difficulty": "Medium"
   },
   {
@@ -2811,8 +2811,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Washington, D.C. is the national capital and seat of government of United States.",
-    "tip": "\ud83d\udca1 **National Capital:** Washington, D.C. is the official capital city of United States.",
+    "explanation": "Washington, D.C. serves as the official national capital and seat of government for United States.",
+    "tip": "\ud83d\udca1 **National Capital:** Washington, D.C. is the capital city of United States.",
     "difficulty": "Medium"
   },
   {
@@ -2826,8 +2826,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "Beijing is the national capital and seat of government of China.",
-    "tip": "\ud83d\udca1 **National Capital:** Beijing is the official capital city of China.",
+    "explanation": "Beijing serves as the official national capital and seat of government for China.",
+    "tip": "\ud83d\udca1 **National Capital:** Beijing is the capital city of China.",
     "difficulty": "Medium"
   },
   {
@@ -2841,8 +2841,8 @@ export const ALL_QUESTIONS = [
       "London"
     ],
     "answer": 0,
-    "explanation": "New Delhi is the national capital and seat of government of India.",
-    "tip": "\ud83d\udca1 **National Capital:** New Delhi is the official capital city of India.",
+    "explanation": "New Delhi serves as the official national capital and seat of government for India.",
+    "tip": "\ud83d\udca1 **National Capital:** New Delhi is the capital city of India.",
     "difficulty": "Medium"
   },
   {
@@ -2856,8 +2856,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "London is the national capital and seat of government of United Kingdom.",
-    "tip": "\ud83d\udca1 **National Capital:** London is the official capital city of United Kingdom.",
+    "explanation": "London serves as the official national capital and seat of government for United Kingdom.",
+    "tip": "\ud83d\udca1 **National Capital:** London is the capital city of United Kingdom.",
     "difficulty": "Medium"
   },
   {
@@ -2871,8 +2871,8 @@ export const ALL_QUESTIONS = [
       "Ben Lomond"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Kosciuszko.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Kosciuszko** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Kosciuszko.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Kosciuszko is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2886,8 +2886,8 @@ export const ALL_QUESTIONS = [
       "Lhotse"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Everest.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Everest** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Everest.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Everest is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2901,8 +2901,8 @@ export const ALL_QUESTIONS = [
       "Makalu"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is K2.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **K2** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is K2.",
+    "tip": "\ud83d\udca1 **Trivia Key:** K2 is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2916,8 +2916,8 @@ export const ALL_QUESTIONS = [
       "Mount Whitney"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Denali.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Denali** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Denali.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Denali is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2931,8 +2931,8 @@ export const ALL_QUESTIONS = [
       "Chimborazo"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Aconcagua.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aconcagua** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aconcagua.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aconcagua is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2946,8 +2946,8 @@ export const ALL_QUESTIONS = [
       "Ras Dashen"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Kilimanjaro.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Kilimanjaro** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Kilimanjaro.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Kilimanjaro is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2961,8 +2961,8 @@ export const ALL_QUESTIONS = [
       "Eiger"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Elbrus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Elbrus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Elbrus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Elbrus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2976,8 +2976,8 @@ export const ALL_QUESTIONS = [
       "Madagascar"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Greenland.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Greenland** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Greenland.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Greenland is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -2991,8 +2991,8 @@ export const ALL_QUESTIONS = [
       "Baffin Island"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is New Guinea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **New Guinea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is New Guinea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** New Guinea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3006,8 +3006,8 @@ export const ALL_QUESTIONS = [
       "Honshu"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Borneo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Borneo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Borneo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Borneo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3021,8 +3021,8 @@ export const ALL_QUESTIONS = [
       "Corsica"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Sicily.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sicily** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sicily.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sicily is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3036,8 +3036,8 @@ export const ALL_QUESTIONS = [
       "The Mississippi River"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Nile River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Nile River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Nile River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Nile River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3051,8 +3051,8 @@ export const ALL_QUESTIONS = [
       "The Yangtze River"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Amazon River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Amazon River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Amazon River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Amazon River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3066,8 +3066,8 @@ export const ALL_QUESTIONS = [
       "The Amur River"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Yangtze River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Yangtze River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Yangtze River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Yangtze River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3081,8 +3081,8 @@ export const ALL_QUESTIONS = [
       "Rio Grande"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Mississippi-Missouri River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Mississippi-Missouri River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Mississippi-Missouri River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Mississippi-Missouri River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3096,8 +3096,8 @@ export const ALL_QUESTIONS = [
       "The Rhine River"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Volga River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Volga River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Volga River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Volga River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3111,8 +3111,8 @@ export const ALL_QUESTIONS = [
       "The Elbe River"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Danube River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Danube River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Danube River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Danube River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3126,8 +3126,8 @@ export const ALL_QUESTIONS = [
       "Bolivia"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Kazakhstan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kazakhstan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kazakhstan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kazakhstan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3141,8 +3141,8 @@ export const ALL_QUESTIONS = [
       "Mali"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mongolia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mongolia** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mongolia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mongolia is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3156,8 +3156,8 @@ export const ALL_QUESTIONS = [
       "Belgium"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Switzerland.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Switzerland** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Switzerland.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Switzerland is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3171,8 +3171,8 @@ export const ALL_QUESTIONS = [
       "Clarence Strait"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Bass Strait.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bass Strait** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bass Strait.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bass Strait is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3186,8 +3186,8 @@ export const ALL_QUESTIONS = [
       "Coral Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Torres Strait.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Torres Strait** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Torres Strait.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Torres Strait is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3201,8 +3201,8 @@ export const ALL_QUESTIONS = [
       "Dampier Strait"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Cook Strait.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cook Strait** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cook Strait.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cook Strait is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3216,8 +3216,8 @@ export const ALL_QUESTIONS = [
       "Java Trench"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Mariana Trench.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Mariana Trench** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Mariana Trench.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Mariana Trench is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3231,8 +3231,8 @@ export const ALL_QUESTIONS = [
       "Australia"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Canada.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Canada** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Canada.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Canada is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3246,8 +3246,8 @@ export const ALL_QUESTIONS = [
       "Mediterranean Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Dead Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Dead Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Dead Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Dead Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3261,8 +3261,8 @@ export const ALL_QUESTIONS = [
       "The Kalahari Desert"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Sahara Desert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Sahara Desert** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Sahara Desert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Sahara Desert is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3276,8 +3276,8 @@ export const ALL_QUESTIONS = [
       "The Gobi"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Antarctica.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Antarctica** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Antarctica.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Antarctica is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3291,8 +3291,8 @@ export const ALL_QUESTIONS = [
       "Sonoran Desert"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Atacama Desert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Atacama Desert** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Atacama Desert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Atacama Desert is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3306,8 +3306,8 @@ export const ALL_QUESTIONS = [
       "Red Sea Reef"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Great Barrier Reef.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Great Barrier Reef** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Great Barrier Reef.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Great Barrier Reef is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3321,8 +3321,8 @@ export const ALL_QUESTIONS = [
       "Palmerston"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Darwin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Darwin** is the essential takeaway for this question.",
+    "explanation": "Darwin serves as the official national capital and seat of government for Northern Territory Australia'.",
+    "tip": "\ud83d\udca1 **National Capital:** Darwin is the capital city of Northern Territory Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3336,8 +3336,8 @@ export const ALL_QUESTIONS = [
       "Burnie"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Hobart.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hobart** is the essential takeaway for this question.",
+    "explanation": "Hobart serves as the official national capital and seat of government for Tasmania Australia'.",
+    "tip": "\ud83d\udca1 **National Capital:** Hobart is the capital city of Tasmania Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3351,8 +3351,8 @@ export const ALL_QUESTIONS = [
       "Albany"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Perth.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Perth** is the essential takeaway for this question.",
+    "explanation": "Perth serves as the official national capital and seat of government for Western Australia'.",
+    "tip": "\ud83d\udca1 **National Capital:** Perth is the capital city of Western Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3366,8 +3366,8 @@ export const ALL_QUESTIONS = [
       "Port Augusta"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Adelaide.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Adelaide** is the essential takeaway for this question.",
+    "explanation": "Adelaide serves as the official national capital and seat of government for South Australia'.",
+    "tip": "\ud83d\udca1 **National Capital:** Adelaide is the capital city of South Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3381,8 +3381,8 @@ export const ALL_QUESTIONS = [
       "Townsville"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Brisbane.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Brisbane** is the essential takeaway for this question.",
+    "explanation": "Brisbane serves as the official national capital and seat of government for Queensland Australia'.",
+    "tip": "\ud83d\udca1 **National Capital:** Brisbane is the capital city of Queensland Australia'.",
     "difficulty": "Medium"
   },
   {
@@ -3396,8 +3396,8 @@ export const ALL_QUESTIONS = [
       "Blue Mountains"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Great Dividing Range.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Great Dividing Range** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Great Dividing Range.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Great Dividing Range is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3411,8 +3411,8 @@ export const ALL_QUESTIONS = [
       "Mount Hotham"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Bogong.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Bogong** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Bogong.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Bogong is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3426,8 +3426,8 @@ export const ALL_QUESTIONS = [
       "Mount Bellenden Ker"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Bartle Frere.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Bartle Frere** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Bartle Frere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Bartle Frere is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3441,8 +3441,8 @@ export const ALL_QUESTIONS = [
       "Cradle Mountain"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Ossa.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Ossa** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Ossa.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Ossa is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3456,8 +3456,8 @@ export const ALL_QUESTIONS = [
       "Mount Nameless"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Meharry.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Meharry** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Meharry.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Meharry is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3471,8 +3471,8 @@ export const ALL_QUESTIONS = [
       "Mount Lofty"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is St Mary Peak.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **St Mary Peak** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is St Mary Peak.",
+    "tip": "\ud83d\udca1 **Trivia Key:** St Mary Peak is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3486,8 +3486,8 @@ export const ALL_QUESTIONS = [
       "San Marino"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Republic of Ireland.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Republic of Ireland** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Republic of Ireland.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Republic of Ireland is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3501,8 +3501,8 @@ export const ALL_QUESTIONS = [
       "Gibraltar"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Portugal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Portugal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Portugal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Portugal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3516,8 +3516,8 @@ export const ALL_QUESTIONS = [
       "Liechtenstein"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Vatican City.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Vatican City** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Vatican City.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Vatican City is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3531,8 +3531,8 @@ export const ALL_QUESTIONS = [
       "Andorra"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is San Marino.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **San Marino** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is San Marino.",
+    "tip": "\ud83d\udca1 **Trivia Key:** San Marino is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3546,8 +3546,8 @@ export const ALL_QUESTIONS = [
       "Namibia"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Lesotho.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lesotho** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lesotho.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lesotho is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3561,8 +3561,8 @@ export const ALL_QUESTIONS = [
       "The Carpathians"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Ural Mountains.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Ural Mountains** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Ural Mountains.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Ural Mountains is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3576,8 +3576,8 @@ export const ALL_QUESTIONS = [
       "Kiel Canal"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Suez Canal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Suez Canal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Suez Canal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Suez Canal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3591,8 +3591,8 @@ export const ALL_QUESTIONS = [
       "Kiel Canal"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Panama Canal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Panama Canal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Panama Canal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Panama Canal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3606,8 +3606,8 @@ export const ALL_QUESTIONS = [
       "Lake Argyle"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Lake Eyre (Kati Thanda).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lake Eyre (Kati Thanda)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lake Eyre (Kati Thanda).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lake Eyre (Kati Thanda) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3621,8 +3621,8 @@ export const ALL_QUESTIONS = [
       "Lake Michigan"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Lake Superior.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lake Superior** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lake Superior.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lake Superior is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3636,8 +3636,8 @@ export const ALL_QUESTIONS = [
       "Crater Lake"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Lake Baikal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lake Baikal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lake Baikal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lake Baikal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3651,8 +3651,8 @@ export const ALL_QUESTIONS = [
       "The Baltic Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Caspian Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Caspian Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Caspian Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Caspian Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3666,8 +3666,8 @@ export const ALL_QUESTIONS = [
       "Santorini"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Vesuvius.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Vesuvius** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Vesuvius.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Vesuvius is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3681,8 +3681,8 @@ export const ALL_QUESTIONS = [
       "Vulcano"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Etna.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Etna** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Etna.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Etna is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3696,8 +3696,8 @@ export const ALL_QUESTIONS = [
       "Mount Sakurajima"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Fuji.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Fuji** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Fuji.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Fuji is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3711,8 +3711,8 @@ export const ALL_QUESTIONS = [
       "Pinatubo"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Krakatoa.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Krakatoa** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Krakatoa.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Krakatoa is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3726,8 +3726,8 @@ export const ALL_QUESTIONS = [
       "Mount Toba"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Mount Tambora.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Tambora** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mount Tambora.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mount Tambora is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3741,8 +3741,8 @@ export const ALL_QUESTIONS = [
       "The Arafura Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Tasman Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Tasman Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Tasman Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Tasman Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3756,8 +3756,8 @@ export const ALL_QUESTIONS = [
       "Solomon Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Coral Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Coral Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Coral Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Coral Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3771,8 +3771,8 @@ export const ALL_QUESTIONS = [
       "Bismarck Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Arafura Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Arafura Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Arafura Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Arafura Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3786,8 +3786,8 @@ export const ALL_QUESTIONS = [
       "Banda Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Timor Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Timor Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Timor Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Timor Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3801,8 +3801,8 @@ export const ALL_QUESTIONS = [
       "Slieve Donard"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Ben Nevis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ben Nevis** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ben Nevis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ben Nevis is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3816,8 +3816,8 @@ export const ALL_QUESTIONS = [
       "Mount Tasman"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Aoraki / Mount Cook.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aoraki / Mount Cook** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aoraki / Mount Cook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aoraki / Mount Cook is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3831,8 +3831,8 @@ export const ALL_QUESTIONS = [
       "The River Clyde"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The River Severn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The River Severn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The River Severn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The River Severn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3846,8 +3846,8 @@ export const ALL_QUESTIONS = [
       "The Main River"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Rhine River.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Rhine River** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Rhine River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Rhine River is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3861,8 +3861,8 @@ export const ALL_QUESTIONS = [
       "Puerto Rico"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Cuba.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cuba** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cuba.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cuba is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3876,8 +3876,8 @@ export const ALL_QUESTIONS = [
       "Puerto Rico"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is Hispaniola.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hispaniola** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hispaniola.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hispaniola is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3891,8 +3891,8 @@ export const ALL_QUESTIONS = [
       "The Baltic Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The Mediterranean Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Mediterranean Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Mediterranean Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Mediterranean Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3906,8 +3906,8 @@ export const ALL_QUESTIONS = [
       "The Irish Sea"
     ],
     "answer": 0,
-    "explanation": "In geography, the correct answer to this question is The North Sea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The North Sea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The North Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The North Sea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3921,8 +3921,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Au.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Au** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Au.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Au is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3936,8 +3936,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ag.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ag** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ag.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ag is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3951,8 +3951,8 @@ export const ALL_QUESTIONS = [
       "Other Option 4"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Pb.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pb** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pb is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3966,8 +3966,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Hg.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hg** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hg.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hg is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3981,8 +3981,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Fe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -3996,8 +3996,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Cu.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cu** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cu is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4011,8 +4011,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Sn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4026,8 +4026,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is W.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **W** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is W.",
+    "tip": "\ud83d\udca1 **Trivia Key:** W is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4041,8 +4041,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is K.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **K** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is K.",
+    "tip": "\ud83d\udca1 **Trivia Key:** K is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4056,8 +4056,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Na.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Na** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Na.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Na is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4071,8 +4071,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Sb.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sb** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sb is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4086,8 +4086,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Bi.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bi** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bi is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4101,8 +4101,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ti.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ti** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ti.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ti is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4116,8 +4116,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is U.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **U** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is U.",
+    "tip": "\ud83d\udca1 **Trivia Key:** U is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4131,8 +4131,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Pu.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pu** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pu is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4146,8 +4146,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Pt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4161,8 +4161,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Xe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Xe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Xe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Xe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4176,8 +4176,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Rn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4191,8 +4191,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is C.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **C** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is C.",
+    "tip": "\ud83d\udca1 **Trivia Key:** C is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4206,8 +4206,8 @@ export const ALL_QUESTIONS = [
       "Pb"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Si.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Si** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Si.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Si is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4221,8 +4221,8 @@ export const ALL_QUESTIONS = [
       "Quartz"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Diamond.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Diamond** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Diamond.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Diamond is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4236,8 +4236,8 @@ export const ALL_QUESTIONS = [
       "Femur"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Stapes (Stirrup).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Stapes (Stirrup)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Stapes (Stirrup).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Stapes (Stirrup) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4251,8 +4251,8 @@ export const ALL_QUESTIONS = [
       "Humerus"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Femur.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Femur** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Femur.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Femur is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4266,8 +4266,8 @@ export const ALL_QUESTIONS = [
       "Gallbladder"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Pancreas.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pancreas** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pancreas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pancreas is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4281,8 +4281,8 @@ export const ALL_QUESTIONS = [
       "Kidney"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Liver.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Liver** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Liver.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Liver is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4296,8 +4296,8 @@ export const ALL_QUESTIONS = [
       "Pancreas"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Kidneys.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kidneys** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kidneys.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kidneys is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4311,8 +4311,8 @@ export const ALL_QUESTIONS = [
       "Lens"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Cornea.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cornea** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cornea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cornea is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4326,8 +4326,8 @@ export const ALL_QUESTIONS = [
       "Iris"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Retina.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Retina** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Retina.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Retina is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4341,8 +4341,8 @@ export const ALL_QUESTIONS = [
       "Nitrogen"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Hydrogen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hydrogen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hydrogen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hydrogen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4356,8 +4356,8 @@ export const ALL_QUESTIONS = [
       "Carbon Dioxide"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Nitrogen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nitrogen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nitrogen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nitrogen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4371,8 +4371,8 @@ export const ALL_QUESTIONS = [
       "Carbon Dioxide"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Oxygen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Oxygen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Oxygen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Oxygen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4386,8 +4386,8 @@ export const ALL_QUESTIONS = [
       "Krypton"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Argon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Argon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Argon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Argon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4401,8 +4401,8 @@ export const ALL_QUESTIONS = [
       "Saturn"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Mars.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mars** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mars.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mars is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4416,8 +4416,8 @@ export const ALL_QUESTIONS = [
       "Neptune"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Jupiter.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jupiter** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jupiter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jupiter is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4431,8 +4431,8 @@ export const ALL_QUESTIONS = [
       "Neptune"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Saturn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Saturn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Saturn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Saturn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4446,8 +4446,8 @@ export const ALL_QUESTIONS = [
       "Mars"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Mercury.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mercury** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mercury.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mercury is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4461,8 +4461,8 @@ export const ALL_QUESTIONS = [
       "Jupiter"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Venus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Venus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Venus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Venus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4476,8 +4476,8 @@ export const ALL_QUESTIONS = [
       "30,000 km/s"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is 300,000 km/s.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **300,000 km/s** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 300,000 km/s.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 300,000 km/s is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4491,8 +4491,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ohm.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ohm** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ohm.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ohm is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4506,8 +4506,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ampere.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ampere** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ampere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ampere is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4521,8 +4521,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Volt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Volt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Volt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Volt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4536,8 +4536,8 @@ export const ALL_QUESTIONS = [
       "Pascal"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Watt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Watt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Watt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Watt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4551,8 +4551,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Newton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Newton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Newton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Newton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4566,8 +4566,8 @@ export const ALL_QUESTIONS = [
       "Bar"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Pascal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pascal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pascal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pascal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4581,8 +4581,8 @@ export const ALL_QUESTIONS = [
       "Pascal"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Joule.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Joule** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Joule.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Joule is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4596,8 +4596,8 @@ export const ALL_QUESTIONS = [
       "Tesla"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Hertz.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hertz** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hertz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hertz is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4611,8 +4611,8 @@ export const ALL_QUESTIONS = [
       "Kelvin Scale"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Mohs Scale.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mohs Scale** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mohs Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mohs Scale is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4626,8 +4626,8 @@ export const ALL_QUESTIONS = [
       "Saffir-Simpson Scale"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Beaufort Scale.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Beaufort Scale** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Beaufort Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Beaufort Scale is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4641,8 +4641,8 @@ export const ALL_QUESTIONS = [
       "Saffir-Simpson Scale"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Fujita Scale.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fujita Scale** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fujita Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fujita Scale is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4656,8 +4656,8 @@ export const ALL_QUESTIONS = [
       "Richter Scale"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Saffir-Simpson Scale.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Saffir-Simpson Scale** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Saffir-Simpson Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Saffir-Simpson Scale is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4671,8 +4671,8 @@ export const ALL_QUESTIONS = [
       "Anthocyanin"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Chlorophyll.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chlorophyll** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chlorophyll.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chlorophyll is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4686,8 +4686,8 @@ export const ALL_QUESTIONS = [
       "Golgi Apparatus"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Mitochondria.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mitochondria** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mitochondria.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mitochondria is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4701,8 +4701,8 @@ export const ALL_QUESTIONS = [
       "Vacuoles"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Chromosomes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chromosomes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chromosomes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chromosomes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4716,8 +4716,8 @@ export const ALL_QUESTIONS = [
       "42 (21 pairs)"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is 46 (23 pairs).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **46 (23 pairs)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 46 (23 pairs).",
+    "tip": "\ud83d\udca1 **Trivia Key:** 46 (23 pairs) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4731,8 +4731,8 @@ export const ALL_QUESTIONS = [
       "Edward Jenner"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Alexander Fleming.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Alexander Fleming** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Alexander Fleming.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Alexander Fleming is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4746,8 +4746,8 @@ export const ALL_QUESTIONS = [
       "Jonas Salk"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Edward Jenner.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Edward Jenner** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Edward Jenner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Edward Jenner is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4761,8 +4761,8 @@ export const ALL_QUESTIONS = [
       "Joseph Lister"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Louis Pasteur.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Louis Pasteur** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Louis Pasteur.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Louis Pasteur is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4776,8 +4776,8 @@ export const ALL_QUESTIONS = [
       "Dorothy Hodgkin"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Rosalind Franklin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rosalind Franklin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rosalind Franklin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rosalind Franklin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4791,8 +4791,8 @@ export const ALL_QUESTIONS = [
       "Zodiacal Light"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Aurora Borealis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aurora Borealis** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aurora Borealis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aurora Borealis is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4806,8 +4806,8 @@ export const ALL_QUESTIONS = [
       "Zodiacal Light"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Aurora Australis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aurora Australis** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aurora Australis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aurora Australis is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4821,8 +4821,8 @@ export const ALL_QUESTIONS = [
       "Stratosphere"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Exosphere.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Exosphere** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Exosphere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Exosphere is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4836,8 +4836,8 @@ export const ALL_QUESTIONS = [
       "Thermosphere"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Stratosphere.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Stratosphere** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Stratosphere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Stratosphere is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4851,8 +4851,8 @@ export const ALL_QUESTIONS = [
       "Thermosphere"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Troposphere.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Troposphere** is the essential takeaway for this question.",
+    "explanation": "The troposphere is the lowest atmospheric layer (surface to ~12 km). It holds ~80% of atmospheric mass and virtually all clouds, rain, and weather phenomena.",
+    "tip": "\ud83d\udca1 **Layer Order Mnemonic:** Ground up = **T-S-M-T-E** (**T**rust **S**mart **M**en **T**o **E**xcel): **T**roposphere, **S**tratosphere, **M**esosphere, **T**hermosphere, **E**xosphere.",
     "difficulty": "Medium"
   },
   {
@@ -4866,8 +4866,8 @@ export const ALL_QUESTIONS = [
       "Photon"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Electron.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Electron** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Electron.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Electron is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4881,8 +4881,8 @@ export const ALL_QUESTIONS = [
       "Neutrino"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Proton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Proton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Proton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Proton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4896,8 +4896,8 @@ export const ALL_QUESTIONS = [
       "Positron"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Neutron.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Neutron** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Neutron.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Neutron is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4911,8 +4911,8 @@ export const ALL_QUESTIONS = [
       "Quark"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Photon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Photon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Photon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Photon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4926,8 +4926,8 @@ export const ALL_QUESTIONS = [
       "Neutrino"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Higgs Boson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Higgs Boson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Higgs Boson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Higgs Boson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4941,8 +4941,8 @@ export const ALL_QUESTIONS = [
       "B Negative"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is O Negative.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **O Negative** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is O Negative.",
+    "tip": "\ud83d\udca1 **Trivia Key:** O Negative is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4956,8 +4956,8 @@ export const ALL_QUESTIONS = [
       "B Positive"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is AB Positive.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **AB Positive** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is AB Positive.",
+    "tip": "\ud83d\udca1 **Trivia Key:** AB Positive is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4971,8 +4971,8 @@ export const ALL_QUESTIONS = [
       "Fibrin"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Keratin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Keratin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Keratin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Keratin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -4986,8 +4986,8 @@ export const ALL_QUESTIONS = [
       "Actin"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Collagen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Collagen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Collagen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Collagen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5001,8 +5001,8 @@ export const ALL_QUESTIONS = [
       "Flying Lemur"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Bat.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bat** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bat is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5016,8 +5016,8 @@ export const ALL_QUESTIONS = [
       "Numbat & Quoll"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Platypus & Echidna.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Platypus & Echidna** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Platypus & Echidna.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Platypus & Echidna is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5031,8 +5031,8 @@ export const ALL_QUESTIONS = [
       "Gibbon"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Gorilla.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gorilla** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gorilla.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gorilla is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5046,8 +5046,8 @@ export const ALL_QUESTIONS = [
       "Sperm Whale"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Blue Whale.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Blue Whale** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Blue Whale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Blue Whale is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5061,8 +5061,8 @@ export const ALL_QUESTIONS = [
       "Hippopotamus"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is African Bush Elephant.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **African Bush Elephant** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is African Bush Elephant.",
+    "tip": "\ud83d\udca1 **Trivia Key:** African Bush Elephant is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5076,8 +5076,8 @@ export const ALL_QUESTIONS = [
       "Camel"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Giraffe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Giraffe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Giraffe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Giraffe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5091,8 +5091,8 @@ export const ALL_QUESTIONS = [
       "Albatross"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ostrich.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ostrich** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ostrich.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ostrich is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5106,8 +5106,8 @@ export const ALL_QUESTIONS = [
       "Pelican"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Wandering Albatross.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Wandering Albatross** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Wandering Albatross.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Wandering Albatross is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5121,8 +5121,8 @@ export const ALL_QUESTIONS = [
       "Jabiru"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Emu.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Emu** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Emu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Emu is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5136,8 +5136,8 @@ export const ALL_QUESTIONS = [
       "Magpie"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Lyrebird.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lyrebird** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lyrebird.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lyrebird is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5151,8 +5151,8 @@ export const ALL_QUESTIONS = [
       "Noisy Miner"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Satin Bowerbird.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Satin Bowerbird** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Satin Bowerbird.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Satin Bowerbird is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5166,8 +5166,8 @@ export const ALL_QUESTIONS = [
       "Ocean Quahog"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Greenland Shark.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Greenland Shark** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Greenland Shark.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Greenland Shark is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5181,8 +5181,8 @@ export const ALL_QUESTIONS = [
       "Immortal Jellyfish"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ocean Quahog.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ocean Quahog** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ocean Quahog.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ocean Quahog is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5196,8 +5196,8 @@ export const ALL_QUESTIONS = [
       "Moon Jellyfish"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Turritopsis dohrnii.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Turritopsis dohrnii** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Turritopsis dohrnii.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Turritopsis dohrnii is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5211,8 +5211,8 @@ export const ALL_QUESTIONS = [
       "Sea Wasp"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Chironex fleckeri.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chironex fleckeri** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chironex fleckeri.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chironex fleckeri is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5226,8 +5226,8 @@ export const ALL_QUESTIONS = [
       "Lion's Mane"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Irukandji.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Irukandji** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Irukandji.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Irukandji is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5241,8 +5241,8 @@ export const ALL_QUESTIONS = [
       "Mimic Octopus"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Blue-ringed Octopus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Blue-ringed Octopus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Blue-ringed Octopus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Blue-ringed Octopus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5256,8 +5256,8 @@ export const ALL_QUESTIONS = [
       "Leatherback Turtle"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Saltwater Crocodile.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Saltwater Crocodile** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Saltwater Crocodile.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Saltwater Crocodile is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5271,8 +5271,8 @@ export const ALL_QUESTIONS = [
       "Gila Monster"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Komodo Dragon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Komodo Dragon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Komodo Dragon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Komodo Dragon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5286,8 +5286,8 @@ export const ALL_QUESTIONS = [
       "Frilled-neck Lizard"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Perentie.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Perentie** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Perentie.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Perentie is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5301,8 +5301,8 @@ export const ALL_QUESTIONS = [
       "King Cobra"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Inland Taipan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Inland Taipan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Inland Taipan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Inland Taipan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5316,8 +5316,8 @@ export const ALL_QUESTIONS = [
       "Tiger Snake"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Eastern Brown Snake.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Eastern Brown Snake** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Eastern Brown Snake.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Eastern Brown Snake is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5331,8 +5331,8 @@ export const ALL_QUESTIONS = [
       "Tiger Shark"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Whale Shark.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Whale Shark** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Whale Shark.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Whale Shark is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5346,8 +5346,8 @@ export const ALL_QUESTIONS = [
       "Hammerhead Shark"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Great White Shark.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Great White Shark** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Great White Shark.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Great White Shark is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5361,8 +5361,8 @@ export const ALL_QUESTIONS = [
       "1,000 m/s"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is 343 m/s (Mach 1).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **343 m/s (Mach 1)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 343 m/s (Mach 1).",
+    "tip": "\ud83d\udca1 **Trivia Key:** 343 m/s (Mach 1) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5376,8 +5376,8 @@ export const ALL_QUESTIONS = [
       "212\u00b0F"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is 32\u00b0F.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **32\u00b0F** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 32\u00b0F.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 32\u00b0F is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5391,8 +5391,8 @@ export const ALL_QUESTIONS = [
       "32\u00b0F"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is 212\u00b0F.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **212\u00b0F** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 212\u00b0F.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 212\u00b0F is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5406,8 +5406,8 @@ export const ALL_QUESTIONS = [
       "0\u00b0C"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is -273.15\u00b0C.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **-273.15\u00b0C** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is -273.15\u00b0C.",
+    "tip": "\ud83d\udca1 **Trivia Key:** -273.15\u00b0C is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5421,8 +5421,8 @@ export const ALL_QUESTIONS = [
       "Rankine"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Kelvin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kelvin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kelvin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kelvin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5436,8 +5436,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Candela.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Candela** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Candela.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Candela is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5451,8 +5451,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Lumen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lumen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lumen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lumen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5466,8 +5466,8 @@ export const ALL_QUESTIONS = [
       "Watt"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Lux.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lux** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lux.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lux is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5481,8 +5481,8 @@ export const ALL_QUESTIONS = [
       "Henry"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Tesla.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tesla** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tesla.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tesla is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5496,8 +5496,8 @@ export const ALL_QUESTIONS = [
       "Zeroth Law"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is First Law of Thermodynamics.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **First Law of Thermodynamics** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is First Law of Thermodynamics.",
+    "tip": "\ud83d\udca1 **Trivia Key:** First Law of Thermodynamics is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5511,8 +5511,8 @@ export const ALL_QUESTIONS = [
       "Zeroth Law"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Second Law of Thermodynamics.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Second Law of Thermodynamics** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Second Law of Thermodynamics.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Second Law of Thermodynamics is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5526,8 +5526,8 @@ export const ALL_QUESTIONS = [
       "Law of Gravitation"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Newton's First Law (Inertia).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Newton's First Law (Inertia)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Newton's First Law (Inertia).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Newton's First Law (Inertia) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5541,8 +5541,8 @@ export const ALL_QUESTIONS = [
       "Hooke's Law"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Newton's Second Law.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Newton's Second Law** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Newton's Second Law.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Newton's Second Law is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5556,8 +5556,8 @@ export const ALL_QUESTIONS = [
       "Kepler's Law"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Newton's Third Law.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Newton's Third Law** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Newton's Third Law.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Newton's Third Law is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5571,8 +5571,8 @@ export const ALL_QUESTIONS = [
       "Tycho Brahe"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Johannes Kepler.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Johannes Kepler** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Johannes Kepler.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Johannes Kepler is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5586,8 +5586,8 @@ export const ALL_QUESTIONS = [
       "Kepler"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Nicolaus Copernicus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nicolaus Copernicus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nicolaus Copernicus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nicolaus Copernicus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5601,8 +5601,8 @@ export const ALL_QUESTIONS = [
       "Cassini"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Galileo Galilei.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Galileo Galilei** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Galileo Galilei.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Galileo Galilei is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5616,8 +5616,8 @@ export const ALL_QUESTIONS = [
       "Io"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ganymede.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ganymede** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ganymede.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ganymede is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5631,8 +5631,8 @@ export const ALL_QUESTIONS = [
       "Rhea"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Titan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Titan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Titan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Titan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5646,8 +5646,8 @@ export const ALL_QUESTIONS = [
       "Callisto"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Io.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Io** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Io.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Io is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5661,8 +5661,8 @@ export const ALL_QUESTIONS = [
       "Callisto"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Europa.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Europa** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Europa.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Europa is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5676,8 +5676,8 @@ export const ALL_QUESTIONS = [
       "Megaparsec"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Light Year.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Light Year** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Light Year.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Light Year is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5691,8 +5691,8 @@ export const ALL_QUESTIONS = [
       "Gigametre"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Astronomical Unit (AU).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Astronomical Unit (AU)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Astronomical Unit (AU).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Astronomical Unit (AU) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5706,8 +5706,8 @@ export const ALL_QUESTIONS = [
       "Kiloclick"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Parsec.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Parsec** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Parsec.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Parsec is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5721,8 +5721,8 @@ export const ALL_QUESTIONS = [
       "Kidney"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Heart.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Heart** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Heart.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Heart is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5736,8 +5736,8 @@ export const ALL_QUESTIONS = [
       "Trachea"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Lungs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lungs** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lungs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lungs is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5751,8 +5751,8 @@ export const ALL_QUESTIONS = [
       "Heart"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Liver.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Liver** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Liver.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Liver is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5766,8 +5766,8 @@ export const ALL_QUESTIONS = [
       "Lungs"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Skin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Skin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Skin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Skin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5781,8 +5781,8 @@ export const ALL_QUESTIONS = [
       "Vacuole"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Cell Wall.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cell Wall** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cell Wall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cell Wall is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5796,8 +5796,8 @@ export const ALL_QUESTIONS = [
       "Lysosome"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Nucleus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nucleus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nucleus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nucleus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5811,8 +5811,8 @@ export const ALL_QUESTIONS = [
       "Plasma"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Cytoplasm.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cytoplasm** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cytoplasm.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cytoplasm is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5826,8 +5826,8 @@ export const ALL_QUESTIONS = [
       "Vacuoles"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Ribosomes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ribosomes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ribosomes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ribosomes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5841,8 +5841,8 @@ export const ALL_QUESTIONS = [
       "Peroxisomes"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Lysosomes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lysosomes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lysosomes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lysosomes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5856,8 +5856,8 @@ export const ALL_QUESTIONS = [
       "Nucleus"
     ],
     "answer": 0,
-    "explanation": "In science, the correct answer to this question is Golgi Apparatus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Golgi Apparatus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Golgi Apparatus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Golgi Apparatus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5871,8 +5871,8 @@ export const ALL_QUESTIONS = [
       "Falstaff"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Yorick.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Yorick** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Yorick.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Yorick is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5886,8 +5886,8 @@ export const ALL_QUESTIONS = [
       "Earl of Atholl"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Thane of Cawdor.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thane of Cawdor** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thane of Cawdor.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thane of Cawdor is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5901,8 +5901,8 @@ export const ALL_QUESTIONS = [
       "Brabantio"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Iago.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Iago** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Iago.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Iago is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5916,8 +5916,8 @@ export const ALL_QUESTIONS = [
       "Bianca"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Cordelia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cordelia** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cordelia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cordelia is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5931,8 +5931,8 @@ export const ALL_QUESTIONS = [
       "Orsini & Colonna"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Capulet and Montague.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Capulet and Montague** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Capulet and Montague.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Capulet and Montague is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5946,8 +5946,8 @@ export const ALL_QUESTIONS = [
       "Friends, Romans, countrymen"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Beware the Ides of March.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Beware the Ides of March** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Beware the Ides of March.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Beware the Ides of March is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5961,8 +5961,8 @@ export const ALL_QUESTIONS = [
       "Ferdinand"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Prospero.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Prospero** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Prospero.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Prospero is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5976,8 +5976,8 @@ export const ALL_QUESTIONS = [
       "Lysander"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Puck (Robin Goodfellow).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Puck (Robin Goodfellow)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Puck (Robin Goodfellow).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Puck (Robin Goodfellow) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -5991,8 +5991,8 @@ export const ALL_QUESTIONS = [
       "Aguecheek"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Malvolio.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Malvolio** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Malvolio.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Malvolio is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6006,8 +6006,8 @@ export const ALL_QUESTIONS = [
       "Gratiano"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Shylock.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Shylock** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Shylock.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Shylock is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6021,8 +6021,8 @@ export const ALL_QUESTIONS = [
       "Rosalind"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Jaques.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jaques** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jaques.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jaques is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6036,8 +6036,8 @@ export const ALL_QUESTIONS = [
       "Thomas Keneally"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Peter Carey.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Carey** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Peter Carey.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Peter Carey is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6051,8 +6051,8 @@ export const ALL_QUESTIONS = [
       "Richard Flanagan"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Thomas Keneally.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Keneally** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thomas Keneally.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thomas Keneally is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6066,8 +6066,8 @@ export const ALL_QUESTIONS = [
       "Alexis Wright"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Richard Flanagan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Richard Flanagan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Richard Flanagan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Richard Flanagan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6081,8 +6081,8 @@ export const ALL_QUESTIONS = [
       "Christina Stead"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Patrick White.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Patrick White** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Patrick White.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Patrick White is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6096,8 +6096,8 @@ export const ALL_QUESTIONS = [
       "Helen Garner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Tim Winton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tim Winton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tim Winton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tim Winton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6111,8 +6111,8 @@ export const ALL_QUESTIONS = [
       "Kate Grenville"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Miles Franklin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Miles Franklin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Miles Franklin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Miles Franklin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6126,8 +6126,8 @@ export const ALL_QUESTIONS = [
       "Gillian Mears"
     ],
     "answer": 0,
-    "explanation": "Kate Grenville's 2005 novel 'The Secret River' explores colonial frontier conflict between British settlers and the Indigenous Dharug people along the Hawkesbury River, winning the Miles Franklin Award.",
-    "tip": "\ud83d\udca1 **Hawkesbury Trilogy:** 'The Secret River' is the 1st book in Kate Grenville's Hawkesbury trilogy.",
+    "explanation": "Kate Grenville's 2005 novel The Secret River explores colonial frontier conflict along the Hawkesbury River, winning the Miles Franklin Award.",
+    "tip": "\ud83d\udca1 **Hawkesbury Trilogy:** The Secret River is the 1st book in Kate Grenville's Hawkesbury trilogy.",
     "difficulty": "Medium"
   },
   {
@@ -6141,8 +6141,8 @@ export const ALL_QUESTIONS = [
       "Garth Nix"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Markus Zusak.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Markus Zusak** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Markus Zusak.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Markus Zusak is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6156,8 +6156,8 @@ export const ALL_QUESTIONS = [
       "Richard Fidler"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Trent Dalton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Trent Dalton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Trent Dalton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Trent Dalton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6171,8 +6171,8 @@ export const ALL_QUESTIONS = [
       "Ruth Park"
     ],
     "answer": 0,
-    "explanation": "Joan Lindsay is the acclaimed author who wrote Picnic at Hanging Rock.",
-    "tip": "\ud83d\udca1 **Literary Author:** Joan Lindsay wrote this celebrated book.",
+    "explanation": "Joan Lindsay wrote the 1967 mystery novel Picnic at Hanging Rock, famously adapted into a 1975 film by Peter Weir.",
+    "tip": "\ud83d\udca1 **Joan Lindsay:** Wrote Picnic at Hanging Rock about schoolgirls disappearing on Valentine's Day 1900.",
     "difficulty": "Medium"
   },
   {
@@ -6186,8 +6186,8 @@ export const ALL_QUESTIONS = [
       "D'Arcy Niland"
     ],
     "answer": 0,
-    "explanation": "Colleen McCullough is the acclaimed author who wrote The Thorn Birds.",
-    "tip": "\ud83d\udca1 **Literary Author:** Colleen McCullough wrote this celebrated book.",
+    "explanation": "Colleen McCullough wrote the 1977 bestselling Australian saga The Thorn Birds, set on the fictional Outback station Drogheda.",
+    "tip": "\ud83d\udca1 **Colleen McCullough:** The Thorn Birds became one of Australia's highest-selling books of all time.",
     "difficulty": "Medium"
   },
   {
@@ -6201,8 +6201,8 @@ export const ALL_QUESTIONS = [
       "Ethel Turner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Norman Lindsay.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Norman Lindsay** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Norman Lindsay.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Norman Lindsay is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6216,8 +6216,8 @@ export const ALL_QUESTIONS = [
       "Ruth Park"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is May Gibbs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **May Gibbs** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is May Gibbs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** May Gibbs is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6231,8 +6231,8 @@ export const ALL_QUESTIONS = [
       "Ethel Turner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Dorothy Wall.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dorothy Wall** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dorothy Wall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dorothy Wall is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6246,8 +6246,8 @@ export const ALL_QUESTIONS = [
       "Mary Grant Bruce"
     ],
     "answer": 0,
-    "explanation": "Ethel Turner is the acclaimed author who wrote this literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Ethel Turner wrote this celebrated book.",
+    "explanation": "Ethel Turner published Seven Little Australians in 1894, telling the adventures of the mischievous Woolcot children in Sydney.",
+    "tip": "\ud83d\udca1 **Ethel Turner:** Seven Little Australians has been continuously in print for over 130 years!",
     "difficulty": "Medium"
   },
   {
@@ -6261,8 +6261,8 @@ export const ALL_QUESTIONS = [
       "Paul Gauguin"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Vincent van Gogh.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Vincent van Gogh** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Vincent van Gogh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Vincent van Gogh is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6276,8 +6276,8 @@ export const ALL_QUESTIONS = [
       "Sandro Botticelli"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Leonardo da Vinci.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Leonardo da Vinci** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Leonardo da Vinci.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Leonardo da Vinci is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6291,8 +6291,8 @@ export const ALL_QUESTIONS = [
       "Titian"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Michelangelo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Michelangelo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Michelangelo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Michelangelo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6306,8 +6306,8 @@ export const ALL_QUESTIONS = [
       "Edgar Degas"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Claude Monet.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Claude Monet** is the essential takeaway for this question.",
+    "explanation": "Claude Monet (1840\u20131926) was a founder of French Impressionist painting. His 1872 painting 'Impression, Sunrise' gave the movement its name.",
+    "tip": "\ud83d\udca1 **Giverny Garden:** Monet painted his famous 'Water Lilies' series in his personal garden at Giverny.",
     "difficulty": "Medium"
   },
   {
@@ -6321,8 +6321,8 @@ export const ALL_QUESTIONS = [
       "Joan Mir\u00f3"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Salvador Dal\u00ed.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Salvador Dal\u00ed** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Salvador Dal\u00ed.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Salvador Dal\u00ed is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6336,8 +6336,8 @@ export const ALL_QUESTIONS = [
       "Joan Mir\u00f3"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Pablo Picasso.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pablo Picasso** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pablo Picasso.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pablo Picasso is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6351,8 +6351,8 @@ export const ALL_QUESTIONS = [
       "Albert Namatjira"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Sidney Nolan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sidney Nolan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sidney Nolan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sidney Nolan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6366,8 +6366,8 @@ export const ALL_QUESTIONS = [
       "Emily Kame Kngwarreye"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Albert Namatjira.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Albert Namatjira** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Albert Namatjira.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Albert Namatjira is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6381,8 +6381,8 @@ export const ALL_QUESTIONS = [
       "Tom Roberts"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Brett Whiteley.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Brett Whiteley** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Brett Whiteley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Brett Whiteley is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6396,8 +6396,8 @@ export const ALL_QUESTIONS = [
       "Frederick McCubbin"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Tom Roberts.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tom Roberts** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tom Roberts.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tom Roberts is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6411,8 +6411,8 @@ export const ALL_QUESTIONS = [
       "Charles Conder"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Arthur Streeton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Arthur Streeton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Arthur Streeton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Arthur Streeton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6426,8 +6426,8 @@ export const ALL_QUESTIONS = [
       "Walter Withers"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Frederick McCubbin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Frederick McCubbin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Frederick McCubbin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Frederick McCubbin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6441,8 +6441,8 @@ export const ALL_QUESTIONS = [
       "Joseph Haydn"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Wolfgang Amadeus Mozart.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Wolfgang Amadeus Mozart** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Wolfgang Amadeus Mozart.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Wolfgang Amadeus Mozart is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6456,8 +6456,8 @@ export const ALL_QUESTIONS = [
       "Richard Wagner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Ludwig van Beethoven.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ludwig van Beethoven** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ludwig van Beethoven.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ludwig van Beethoven is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6471,8 +6471,8 @@ export const ALL_QUESTIONS = [
       "Vivaldi"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Johann Sebastian Bach.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Johann Sebastian Bach** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Johann Sebastian Bach.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Johann Sebastian Bach is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6486,8 +6486,8 @@ export const ALL_QUESTIONS = [
       "Scarlatti"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Antonio Vivaldi.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Antonio Vivaldi** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Antonio Vivaldi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Antonio Vivaldi is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6501,8 +6501,8 @@ export const ALL_QUESTIONS = [
       "Rimsky-Korsakov"
     ],
     "answer": 0,
-    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and backstage rehearsals.",
-    "tip": "\ud83d\udca1 **Degas & Dancers:** Degas = Dancers! Over half of all Degas' artworks feature ballet dancers.",
+    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and rehearsals.",
+    "tip": "\ud83d\udca1 **Degas & Dancers:** Over half of all Degas' artworks feature ballet dancers!",
     "difficulty": "Medium"
   },
   {
@@ -6516,8 +6516,8 @@ export const ALL_QUESTIONS = [
       "Donizetti"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Giacomo Puccini.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Giacomo Puccini** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Giacomo Puccini.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Giacomo Puccini is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6531,8 +6531,8 @@ export const ALL_QUESTIONS = [
       "Vincenzo Bellini"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Giuseppe Verdi.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Giuseppe Verdi** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Giuseppe Verdi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Giuseppe Verdi is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6546,8 +6546,8 @@ export const ALL_QUESTIONS = [
       "Gustav Mahler"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Richard Wagner.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Richard Wagner** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Richard Wagner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Richard Wagner is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6561,8 +6561,8 @@ export const ALL_QUESTIONS = [
       "George Eliot"
     ],
     "answer": 0,
-    "explanation": "Jane Austen is the acclaimed author who wrote Pride and Prejudice.",
-    "tip": "\ud83d\udca1 **Literary Author:** Jane Austen wrote this celebrated book.",
+    "explanation": "Jane Austen published Pride and Prejudice in 1813, centering on Elizabeth Bennet and Fitzwilliam Darcy.",
+    "tip": "\ud83d\udca1 **Jane Austen:** 'It is a truth universally acknowledged...' opening line of Pride and Prejudice.",
     "difficulty": "Medium"
   },
   {
@@ -6576,8 +6576,8 @@ export const ALL_QUESTIONS = [
       "Jane Austen"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Charlotte Bront\u00eb.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Charlotte Bront\u00eb** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Charlotte Bront\u00eb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Charlotte Bront\u00eb is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6591,8 +6591,8 @@ export const ALL_QUESTIONS = [
       "George Eliot"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Emily Bront\u00eb.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Emily Bront\u00eb** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Emily Bront\u00eb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Emily Bront\u00eb is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6606,8 +6606,8 @@ export const ALL_QUESTIONS = [
       "Virginia Woolf"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is George Eliot (Mary Ann Evans).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **George Eliot (Mary Ann Evans)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is George Eliot (Mary Ann Evans).",
+    "tip": "\ud83d\udca1 **Trivia Key:** George Eliot (Mary Ann Evans) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6621,8 +6621,8 @@ export const ALL_QUESTIONS = [
       "Trollope"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Charles Dickens.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Charles Dickens** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Charles Dickens.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Charles Dickens is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6636,8 +6636,8 @@ export const ALL_QUESTIONS = [
       "D.H. Lawrence"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Thomas Hardy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Hardy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thomas Hardy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thomas Hardy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6651,8 +6651,8 @@ export const ALL_QUESTIONS = [
       "Arthur Koestler"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is George Orwell (Eric Blair).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **George Orwell (Eric Blair)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is George Orwell (Eric Blair).",
+    "tip": "\ud83d\udca1 **Trivia Key:** George Orwell (Eric Blair) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6666,8 +6666,8 @@ export const ALL_QUESTIONS = [
       "John Steinbeck"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is F. Scott Fitzgerald.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **F. Scott Fitzgerald** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is F. Scott Fitzgerald.",
+    "tip": "\ud83d\udca1 **Trivia Key:** F. Scott Fitzgerald is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6681,8 +6681,8 @@ export const ALL_QUESTIONS = [
       "William Faulkner"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Ernest Hemingway.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ernest Hemingway** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ernest Hemingway.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ernest Hemingway is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6696,8 +6696,8 @@ export const ALL_QUESTIONS = [
       "Harper Lee"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is John Steinbeck.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Steinbeck** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Steinbeck.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Steinbeck is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6711,8 +6711,8 @@ export const ALL_QUESTIONS = [
       "Flannery O'Connor"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Harper Lee.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Harper Lee** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Harper Lee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Harper Lee is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6726,8 +6726,8 @@ export const ALL_QUESTIONS = [
       "Ivan Turgenev"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Leo Tolstoy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Leo Tolstoy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Leo Tolstoy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Leo Tolstoy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6741,8 +6741,8 @@ export const ALL_QUESTIONS = [
       "Ivan Turgenev"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Fyodor Dostoevsky.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fyodor Dostoevsky** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fyodor Dostoevsky.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fyodor Dostoevsky is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6756,8 +6756,8 @@ export const ALL_QUESTIONS = [
       "W.B. Yeats"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is James Joyce.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **James Joyce** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is James Joyce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** James Joyce is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6771,8 +6771,8 @@ export const ALL_QUESTIONS = [
       "J.M. Synge"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Oscar Wilde.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Oscar Wilde** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Oscar Wilde.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Oscar Wilde is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6786,8 +6786,8 @@ export const ALL_QUESTIONS = [
       "Seamus Heaney"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Samuel Beckett.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Samuel Beckett** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Samuel Beckett.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Samuel Beckett is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6801,8 +6801,8 @@ export const ALL_QUESTIONS = [
       "\u00c9mile Zola"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Victor Hugo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Victor Hugo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Victor Hugo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Victor Hugo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6816,8 +6816,8 @@ export const ALL_QUESTIONS = [
       "Jules Verne"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Alexandre Dumas.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Alexandre Dumas** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Alexandre Dumas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Alexandre Dumas is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6831,8 +6831,8 @@ export const ALL_QUESTIONS = [
       "Maupassant"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Gustave Flaubert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gustave Flaubert** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gustave Flaubert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gustave Flaubert is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6846,8 +6846,8 @@ export const ALL_QUESTIONS = [
       "Jean-Paul Sartre"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Marcel Proust.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Marcel Proust** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Marcel Proust.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Marcel Proust is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6861,8 +6861,8 @@ export const ALL_QUESTIONS = [
       "Andr\u00e9 Gide"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Albert Camus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Albert Camus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Albert Camus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Albert Camus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6876,8 +6876,8 @@ export const ALL_QUESTIONS = [
       "Borges"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Miguel de Cervantes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Miguel de Cervantes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Miguel de Cervantes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Miguel de Cervantes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6891,8 +6891,8 @@ export const ALL_QUESTIONS = [
       "Neruda"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Gabriel Garc\u00eda M\u00e1rquez.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gabriel Garc\u00eda M\u00e1rquez** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gabriel Garc\u00eda M\u00e1rquez.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gabriel Garc\u00eda M\u00e1rquez is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6906,8 +6906,8 @@ export const ALL_QUESTIONS = [
       "Borges"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Pablo Neruda.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pablo Neruda** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pablo Neruda.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pablo Neruda is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6921,8 +6921,8 @@ export const ALL_QUESTIONS = [
       "Alexander Pope"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is John Milton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Milton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Milton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Milton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6936,8 +6936,8 @@ export const ALL_QUESTIONS = [
       "Thomas Malory"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Geoffrey Chaucer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Geoffrey Chaucer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Geoffrey Chaucer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Geoffrey Chaucer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6951,8 +6951,8 @@ export const ALL_QUESTIONS = [
       "Tasso"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Dante Alighieri.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dante Alighieri** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dante Alighieri.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dante Alighieri is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6966,8 +6966,8 @@ export const ALL_QUESTIONS = [
       "Homer"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Virgil.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Virgil** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Virgil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Virgil is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6981,8 +6981,8 @@ export const ALL_QUESTIONS = [
       "Lucretius"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Virgil.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Virgil** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Virgil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Virgil is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -6996,8 +6996,8 @@ export const ALL_QUESTIONS = [
       "Catullus"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Ovid.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ovid** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ovid.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ovid is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7011,8 +7011,8 @@ export const ALL_QUESTIONS = [
       "Sappho"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Homer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Homer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Homer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Homer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7026,8 +7026,8 @@ export const ALL_QUESTIONS = [
       "Telesilla"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Sappho.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sappho** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sappho.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sappho is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7041,8 +7041,8 @@ export const ALL_QUESTIONS = [
       "Cellini"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Michelangelo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Michelangelo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Michelangelo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Michelangelo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7056,8 +7056,8 @@ export const ALL_QUESTIONS = [
       "Maillol"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Auguste Rodin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Auguste Rodin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Auguste Rodin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Auguste Rodin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7071,8 +7071,8 @@ export const ALL_QUESTIONS = [
       "Artemision Bronze"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Venus de Milo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Venus de Milo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Venus de Milo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Venus de Milo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7086,8 +7086,8 @@ export const ALL_QUESTIONS = [
       "Peplos Kore"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Winged Victory of Samothrace.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Winged Victory of Samothrace** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Winged Victory of Samothrace.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Winged Victory of Samothrace is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7101,8 +7101,8 @@ export const ALL_QUESTIONS = [
       "Jan Steen"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Rembrandt van Rijn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rembrandt van Rijn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rembrandt van Rijn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rembrandt van Rijn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7116,8 +7116,8 @@ export const ALL_QUESTIONS = [
       "Pieter de Hooch"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Johannes Vermeer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Johannes Vermeer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Johannes Vermeer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Johannes Vermeer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7131,8 +7131,8 @@ export const ALL_QUESTIONS = [
       "James Ensor"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Edvard Munch.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Edvard Munch** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Edvard Munch.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Edvard Munch is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7146,8 +7146,8 @@ export const ALL_QUESTIONS = [
       "Max Kurzweil"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Gustav Klimt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gustav Klimt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gustav Klimt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gustav Klimt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7161,8 +7161,8 @@ export const ALL_QUESTIONS = [
       "Camille Pissarro"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Claude Monet.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Claude Monet** is the essential takeaway for this question.",
+    "explanation": "Claude Monet (1840\u20131926) was a founder of French Impressionist painting. His 1872 painting 'Impression, Sunrise' gave the movement its name.",
+    "tip": "\ud83d\udca1 **Giverny Garden:** Monet painted his famous 'Water Lilies' series in his personal garden at Giverny.",
     "difficulty": "Medium"
   },
   {
@@ -7176,8 +7176,8 @@ export const ALL_QUESTIONS = [
       "Paul C\u00e9zanne"
     ],
     "answer": 0,
-    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and backstage rehearsals.",
-    "tip": "\ud83d\udca1 **Degas & Dancers:** Degas = Dancers! Over half of all Degas' artworks feature ballet dancers.",
+    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and rehearsals.",
+    "tip": "\ud83d\udca1 **Degas & Dancers:** Over half of all Degas' artworks feature ballet dancers!",
     "difficulty": "Medium"
   },
   {
@@ -7191,8 +7191,8 @@ export const ALL_QUESTIONS = [
       "Georges Seurat"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Paul Gauguin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Paul Gauguin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Paul Gauguin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Paul Gauguin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7206,8 +7206,8 @@ export const ALL_QUESTIONS = [
       "Henri de Toulouse-Lautrec"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Georges Seurat.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Georges Seurat** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Georges Seurat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Georges Seurat is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7221,8 +7221,8 @@ export const ALL_QUESTIONS = [
       "Henri Matisse"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Paul C\u00e9zanne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Paul C\u00e9zanne** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Paul C\u00e9zanne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Paul C\u00e9zanne is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7236,8 +7236,8 @@ export const ALL_QUESTIONS = [
       "Raoul Dufy"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Henri Matisse.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Henri Matisse** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Henri Matisse.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Henri Matisse is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7251,8 +7251,8 @@ export const ALL_QUESTIONS = [
       "Leonora Carrington"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Frida Kahlo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Frida Kahlo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Frida Kahlo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Frida Kahlo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7266,8 +7266,8 @@ export const ALL_QUESTIONS = [
       "Claes Oldenburg"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Andy Warhol.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Andy Warhol** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Andy Warhol.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Andy Warhol is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7281,8 +7281,8 @@ export const ALL_QUESTIONS = [
       "Jean-Michel Basquiat"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Roy Lichtenstein.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Roy Lichtenstein** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Roy Lichtenstein.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Roy Lichtenstein is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7296,8 +7296,8 @@ export const ALL_QUESTIONS = [
       "Franz Kline"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Jackson Pollock.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jackson Pollock** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jackson Pollock.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jackson Pollock is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7311,8 +7311,8 @@ export const ALL_QUESTIONS = [
       "Franz Kline"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Mark Rothko.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mark Rothko** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mark Rothko.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mark Rothko is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7326,8 +7326,8 @@ export const ALL_QUESTIONS = [
       "Damien Hirst"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Henry Moore.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Henry Moore** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Henry Moore.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Henry Moore is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7341,8 +7341,8 @@ export const ALL_QUESTIONS = [
       "Anish Kapoor"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Damien Hirst.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Damien Hirst** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Damien Hirst.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Damien Hirst is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7356,8 +7356,8 @@ export const ALL_QUESTIONS = [
       "Blek le Rat"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Banksy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Banksy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Banksy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Banksy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7371,8 +7371,8 @@ export const ALL_QUESTIONS = [
       "Lohengrin"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Fidelio.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fidelio** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fidelio.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fidelio is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7386,8 +7386,8 @@ export const ALL_QUESTIONS = [
       "Johannes Brahms"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Felix Mendelssohn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Felix Mendelssohn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Felix Mendelssohn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Felix Mendelssohn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7401,8 +7401,8 @@ export const ALL_QUESTIONS = [
       "Franz Liszt"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Richard Wagner.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Richard Wagner** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Richard Wagner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Richard Wagner is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7416,8 +7416,8 @@ export const ALL_QUESTIONS = [
       "Schumann"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Fr\u00e9d\u00e9ric Chopin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fr\u00e9d\u00e9ric Chopin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fr\u00e9d\u00e9ric Chopin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fr\u00e9d\u00e9ric Chopin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7431,8 +7431,8 @@ export const ALL_QUESTIONS = [
       "Zolt\u00e1n Kod\u00e1ly"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Franz Liszt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Franz Liszt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Franz Liszt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Franz Liszt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7446,8 +7446,8 @@ export const ALL_QUESTIONS = [
       "Franz Leh\u00e1r"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Johann Strauss II.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Johann Strauss II** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Johann Strauss II.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Johann Strauss II is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7461,8 +7461,8 @@ export const ALL_QUESTIONS = [
       "Bohuslav Martin\u016f"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Anton\u00edn Dvo\u0159\u00e1k.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Anton\u00edn Dvo\u0159\u00e1k** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Anton\u00edn Dvo\u0159\u00e1k.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Anton\u00edn Dvo\u0159\u00e1k is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7476,8 +7476,8 @@ export const ALL_QUESTIONS = [
       "Modest Mussorgsky"
     ],
     "answer": 0,
-    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and backstage rehearsals.",
-    "tip": "\ud83d\udca1 **Degas & Dancers:** Degas = Dancers! Over half of all Degas' artworks feature ballet dancers.",
+    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and rehearsals.",
+    "tip": "\ud83d\udca1 **Degas & Dancers:** Over half of all Degas' artworks feature ballet dancers!",
     "difficulty": "Medium"
   },
   {
@@ -7491,8 +7491,8 @@ export const ALL_QUESTIONS = [
       "Aram Khachaturian"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Sergei Prokofiev.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sergei Prokofiev** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sergei Prokofiev.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sergei Prokofiev is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7506,8 +7506,8 @@ export const ALL_QUESTIONS = [
       "Sean O'Casey"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is George Bernard Shaw.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **George Bernard Shaw** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is George Bernard Shaw.",
+    "tip": "\ud83d\udca1 **Trivia Key:** George Bernard Shaw is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7521,8 +7521,8 @@ export const ALL_QUESTIONS = [
       "Edward Albee"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Arthur Miller.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Arthur Miller** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Arthur Miller.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Arthur Miller is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7536,8 +7536,8 @@ export const ALL_QUESTIONS = [
       "Thornton Wilder"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Tennessee Williams.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tennessee Williams** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tennessee Williams.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tennessee Williams is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7551,8 +7551,8 @@ export const ALL_QUESTIONS = [
       "David Mamet"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Eugene O'Neill.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Eugene O'Neill** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Eugene O'Neill.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Eugene O'Neill is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7566,8 +7566,8 @@ export const ALL_QUESTIONS = [
       "August Wilson"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Edward Albee.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Edward Albee** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Edward Albee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Edward Albee is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7581,8 +7581,8 @@ export const ALL_QUESTIONS = [
       "Suzan-Lori Parks"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is August Wilson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **August Wilson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is August Wilson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** August Wilson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7596,8 +7596,8 @@ export const ALL_QUESTIONS = [
       "Beaumarchais"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Moli\u00e8re.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Moli\u00e8re** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Moli\u00e8re.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Moli\u00e8re is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7611,8 +7611,8 @@ export const ALL_QUESTIONS = [
       "Victor Hugo"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Edmond Rostand.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Edmond Rostand** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Edmond Rostand.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Edmond Rostand is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7626,8 +7626,8 @@ export const ALL_QUESTIONS = [
       "Knut Hamsun"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Henrik Ibsen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Henrik Ibsen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Henrik Ibsen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Henrik Ibsen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7641,8 +7641,8 @@ export const ALL_QUESTIONS = [
       "Ingmar Bergman"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is August Strindberg.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **August Strindberg** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is August Strindberg.",
+    "tip": "\ud83d\udca1 **Trivia Key:** August Strindberg is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7656,8 +7656,8 @@ export const ALL_QUESTIONS = [
       "Nikolai Gogol"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Anton Chekhov.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Anton Chekhov** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Anton Chekhov.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Anton Chekhov is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7671,8 +7671,8 @@ export const ALL_QUESTIONS = [
       "Alexander Griboyedov"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Nikolai Gogol.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nikolai Gogol** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nikolai Gogol.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nikolai Gogol is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7686,8 +7686,8 @@ export const ALL_QUESTIONS = [
       "Aristophanes"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Sophocles.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sophocles** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sophocles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sophocles is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7701,8 +7701,8 @@ export const ALL_QUESTIONS = [
       "Aristophanes"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Aeschylus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aeschylus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aeschylus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aeschylus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7716,8 +7716,8 @@ export const ALL_QUESTIONS = [
       "Aristophanes"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Euripides.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Euripides** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Euripides.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Euripides is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7731,8 +7731,8 @@ export const ALL_QUESTIONS = [
       "Plautus"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Aristophanes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aristophanes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aristophanes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aristophanes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7746,8 +7746,8 @@ export const ALL_QUESTIONS = [
       "Masaoka Shiki"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Matsuo Bash\u014d.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Matsuo Bash\u014d** is the essential takeaway for this question.",
+    "explanation": "Matsuo Bash\u014d composed Narrow Road to the Deep North (Oku no Hosomichi) in 1689 during his travel across Japan.",
+    "tip": "\ud83d\udca1 **Matsuo Bash\u014d:** Japan's most famous Edo-period haiku master.",
     "difficulty": "Medium"
   },
   {
@@ -7761,8 +7761,8 @@ export const ALL_QUESTIONS = [
       "Ono no Komachi"
     ],
     "answer": 0,
-    "explanation": "In arts lit, the correct answer to this question is Murasaki Shikibu.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Murasaki Shikibu** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Murasaki Shikibu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Murasaki Shikibu is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7776,8 +7776,8 @@ export const ALL_QUESTIONS = [
       "A pod"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A parliament.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A parliament** is the essential takeaway for this question.",
+    "explanation": "A group of owls is traditionally called a parliament, a term popularized by C.S. Lewis and medieval English folklore.",
+    "tip": "\ud83d\udca1 **Parliament of Owls:** Wise birds sitting in solemn council!",
     "difficulty": "Medium"
   },
   {
@@ -7791,8 +7791,8 @@ export const ALL_QUESTIONS = [
       "A mob"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A murder.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A murder** is the essential takeaway for this question.",
+    "explanation": "A group of crows is called a murder, a 15th-century venery term stemming from medieval superstition associating crows with death.",
+    "tip": "\ud83d\udca1 **Murder of Crows:** Derived from medieval superstition.",
     "difficulty": "Medium"
   },
   {
@@ -7806,8 +7806,8 @@ export const ALL_QUESTIONS = [
       "A flock"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is An unkindness.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **An unkindness** is the essential takeaway for this question.",
+    "explanation": "A group of ravens is called an unkindness (or a conspiracy), dating back to traditional medieval English hunting terms.",
+    "tip": "\ud83d\udca1 **Unkindness of Ravens:** Historic 15th-century venery term.",
     "difficulty": "Medium"
   },
   {
@@ -7821,8 +7821,8 @@ export const ALL_QUESTIONS = [
       "A colony"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A flamboyance.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A flamboyance** is the essential takeaway for this question.",
+    "explanation": "A group of flamingos is called a flamboyance, describing their bright pink plumage and dramatic group displays.",
+    "tip": "\ud83d\udca1 **Flamboyance:** Vivid pink feathers and group displays!",
     "difficulty": "Medium"
   },
   {
@@ -7836,8 +7836,8 @@ export const ALL_QUESTIONS = [
       "A flight"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A tower.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A tower** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A tower.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A tower is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7851,8 +7851,8 @@ export const ALL_QUESTIONS = [
       "A thundering"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A crash.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A crash** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A crash.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A crash is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7866,8 +7866,8 @@ export const ALL_QUESTIONS = [
       "A nest"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A prickle.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A prickle** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A prickle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A prickle is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7881,8 +7881,8 @@ export const ALL_QUESTIONS = [
       "A swarm"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A smack.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A smack** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A smack.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A smack is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7896,8 +7896,8 @@ export const ALL_QUESTIONS = [
       "A scamper"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A business.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A business** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A business.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A business is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7911,8 +7911,8 @@ export const ALL_QUESTIONS = [
       "A den"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A skulk.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A skulk** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A skulk.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A skulk is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7926,8 +7926,8 @@ export const ALL_QUESTIONS = [
       "A flock"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A gaggle.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A gaggle** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A gaggle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A gaggle is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7941,8 +7941,8 @@ export const ALL_QUESTIONS = [
       "A V-shape"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A skein.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A skein** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A skein.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A skein is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7956,8 +7956,8 @@ export const ALL_QUESTIONS = [
       "A family"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A pod.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A pod** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A pod.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A pod is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7971,8 +7971,8 @@ export const ALL_QUESTIONS = [
       "A pack"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A pod.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A pod** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A pod.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A pod is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -7986,8 +7986,8 @@ export const ALL_QUESTIONS = [
       "A troop"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A pride.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A pride** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A pride.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A pride is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8001,8 +8001,8 @@ export const ALL_QUESTIONS = [
       "A stealth"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A leap.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A leap** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A leap.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A leap is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8016,8 +8016,8 @@ export const ALL_QUESTIONS = [
       "A band"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A troop.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A troop** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A troop.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A troop is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8031,8 +8031,8 @@ export const ALL_QUESTIONS = [
       "A herd"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A mob.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A mob** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A mob.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A mob is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8046,8 +8046,8 @@ export const ALL_QUESTIONS = [
       "A gang"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A mob.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A mob** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A mob.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A mob is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8061,8 +8061,8 @@ export const ALL_QUESTIONS = [
       "A heavy"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A wisdom.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A wisdom** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A wisdom.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A wisdom is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8076,8 +8076,8 @@ export const ALL_QUESTIONS = [
       "A chatter"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is An exaltation.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **An exaltation** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is An exaltation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** An exaltation is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8091,8 +8091,8 @@ export const ALL_QUESTIONS = [
       "A flock"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A murmuration.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A murmuration** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A murmuration.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A murmuration is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8106,8 +8106,8 @@ export const ALL_QUESTIONS = [
       "A feathering"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is An ostentation.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **An ostentation** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is An ostentation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** An ostentation is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8121,8 +8121,8 @@ export const ALL_QUESTIONS = [
       "A pod"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A waddle.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A waddle** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A waddle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A waddle is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8136,8 +8136,8 @@ export const ALL_QUESTIONS = [
       "A pod"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A raft.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A raft** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A raft.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A raft is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8151,8 +8151,8 @@ export const ALL_QUESTIONS = [
       "Under sworn oath"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is In private / in a judge's chambers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **In private / in a judge's chambers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is In private / in a judge's chambers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** In private / in a judge's chambers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8166,8 +8166,8 @@ export const ALL_QUESTIONS = [
       "With evidence"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is In secret / under seal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **In secret / under seal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is In secret / under seal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** In secret / under seal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8181,8 +8181,8 @@ export const ALL_QUESTIONS = [
       "Jury foreman"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Friend of the court.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Friend of the court** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Friend of the court.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Friend of the court is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8196,8 +8196,8 @@ export const ALL_QUESTIONS = [
       "A legal draft"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is The existing state of affairs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The existing state of affairs** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The existing state of affairs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The existing state of affairs is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8211,8 +8211,8 @@ export const ALL_QUESTIONS = [
       "Property deed"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is You shall have the body (protection against unlawful detention).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **You shall have the body (protection against unlawful detention)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is You shall have the body (protection against unlawful detention).",
+    "tip": "\ud83d\udca1 **Trivia Key:** You shall have the body (protection against unlawful detention) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8226,8 +8226,8 @@ export const ALL_QUESTIONS = [
       "Conditional"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is In good faith / genuine.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **In good faith / genuine** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is In good faith / genuine.",
+    "tip": "\ud83d\udca1 **Trivia Key:** In good faith / genuine is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8241,8 +8241,8 @@ export const ALL_QUESTIONS = [
       "Permanently"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is In fact / in reality.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **In fact / in reality** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is In fact / in reality.",
+    "tip": "\ud83d\udca1 **Trivia Key:** In fact / in reality is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8256,8 +8256,8 @@ export const ALL_QUESTIONS = [
       "Informally"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is By right of law.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **By right of law** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is By right of law.",
+    "tip": "\ud83d\udca1 **Trivia Key:** By right of law is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8271,8 +8271,8 @@ export const ALL_QUESTIONS = [
       "For government"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is For the public good (free of charge).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **For the public good (free of charge)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is For the public good (free of charge).",
+    "tip": "\ud83d\udca1 **Trivia Key:** For the public good (free of charge) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8286,8 +8286,8 @@ export const ALL_QUESTIONS = [
       "Annual event"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Created for a specific purpose.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Created for a specific purpose** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Created for a specific purpose.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Created for a specific purpose is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8301,8 +8301,8 @@ export const ALL_QUESTIONS = [
       "As aforesaid"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is By or in itself.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **By or in itself** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is By or in itself.",
+    "tip": "\ud83d\udca1 **Trivia Key:** By or in itself is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8316,8 +8316,8 @@ export const ALL_QUESTIONS = [
       "School principal"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Bounteous mother (one's former university).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bounteous mother (one's former university)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bounteous mother (one's former university).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bounteous mother (one's former university) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8331,8 +8331,8 @@ export const ALL_QUESTIONS = [
       "A diplomatic envoy"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is An unwelcome or unacceptable person.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **An unwelcome or unacceptable person** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is An unwelcome or unacceptable person.",
+    "tip": "\ud83d\udca1 **Trivia Key:** An unwelcome or unacceptable person is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8346,8 +8346,8 @@ export const ALL_QUESTIONS = [
       "Great work"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Seize the day.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Seize the day** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Seize the day.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Seize the day is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8361,8 +8361,8 @@ export const ALL_QUESTIONS = [
       "Peace be with you"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Remember that you must die.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Remember that you must die** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Remember that you must die.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Remember that you must die is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8376,8 +8376,8 @@ export const ALL_QUESTIONS = [
       "Buyer's remorse"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Let the buyer beware.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Let the buyer beware** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Let the buyer beware.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Let the buyer beware is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8391,8 +8391,8 @@ export const ALL_QUESTIONS = [
       "A legal objection"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Something for something.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Something for something** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Something for something.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Something for something is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8406,8 +8406,8 @@ export const ALL_QUESTIONS = [
       "Motivations"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Method of operating.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Method of operating** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Method of operating.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Method of operating is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8421,8 +8421,8 @@ export const ALL_QUESTIONS = [
       "In addition"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is And the rest / and so forth.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **And the rest / and so forth** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is And the rest / and so forth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** And the rest / and so forth is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8436,8 +8436,8 @@ export const ALL_QUESTIONS = [
       "Rest in peace"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is For example.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **For example** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is For example.",
+    "tip": "\ud83d\udca1 **Trivia Key:** For example is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8451,8 +8451,8 @@ export const ALL_QUESTIONS = [
       "Compare (cf.)"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is That is / in other words.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **That is / in other words** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is That is / in other words.",
+    "tip": "\ud83d\udca1 **Trivia Key:** That is / in other words is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8466,8 +8466,8 @@ export const ALL_QUESTIONS = [
       "No benchmark"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Note well / pay close attention.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Note well / pay close attention** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Note well / pay close attention.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Note well / pay close attention is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8481,8 +8481,8 @@ export const ALL_QUESTIONS = [
       "Shakespeare's Much Ado About Nothing"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Mrs. Malaprop in Sheridan's 1775 play The Rivals.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mrs. Malaprop in Sheridan's 1775 play The Rivals** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mrs. Malaprop in Sheridan's 1775 play The Rivals.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mrs. Malaprop in Sheridan's 1775 play The Rivals is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8496,8 +8496,8 @@ export const ALL_QUESTIONS = [
       "German 'Arbeiter'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Czech word 'robota' (forced labor).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Czech word 'robota' (forced labor)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Czech word 'robota' (forced labor).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Czech word 'robota' (forced labor) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8511,8 +8511,8 @@ export const ALL_QUESTIONS = [
       "Lord Boycott"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Captain Charles Boycott targeted in Ireland 1880.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Captain Charles Boycott targeted in Ireland 1880** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Captain Charles Boycott targeted in Ireland 1880.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Captain Charles Boycott targeted in Ireland 1880 is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8526,8 +8526,8 @@ export const ALL_QUESTIONS = [
       "Lord Chauvin"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Nicolas Chauvin, fanatical soldier of Napoleon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nicolas Chauvin, fanatical soldier of Napoleon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nicolas Chauvin, fanatical soldier of Napoleon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nicolas Chauvin, fanatical soldier of Napoleon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8541,8 +8541,8 @@ export const ALL_QUESTIONS = [
       "King Quixote"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Don Quixote, hero of Cervantes' 1605 novel.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Don Quixote, hero of Cervantes' 1605 novel** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Don Quixote, hero of Cervantes' 1605 novel.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Don Quixote, hero of Cervantes' 1605 novel is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8556,8 +8556,8 @@ export const ALL_QUESTIONS = [
       "Italian 'siluetta'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is \u00c9tienne de Silhouette, French finance minister.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **\u00c9tienne de Silhouette, French finance minister** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is \u00c9tienne de Silhouette, French finance minister.",
+    "tip": "\ud83d\udca1 **Trivia Key:** \u00c9tienne de Silhouette, French finance minister is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8571,8 +8571,8 @@ export const ALL_QUESTIONS = [
       "Joy of traveling"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Pleasure derived from another's misfortune.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pleasure derived from another's misfortune** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pleasure derived from another's misfortune.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pleasure derived from another's misfortune is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8586,8 +8586,8 @@ export const ALL_QUESTIONS = [
       "A shadow puppet"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A look-alike or double of a living person.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A look-alike or double of a living person** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A look-alike or double of a living person.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A look-alike or double of a living person is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8601,8 +8601,8 @@ export const ALL_QUESTIONS = [
       "Playing card"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Blank card (complete freedom to act).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Blank card (complete freedom to act)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Blank card (complete freedom to act).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Blank card (complete freedom to act) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8616,8 +8616,8 @@ export const ALL_QUESTIONS = [
       "Wrong answer"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is False step (tactless social blunder).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **False step (tactless social blunder)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is False step (tactless social blunder).",
+    "tip": "\ud83d\udca1 **Trivia Key:** False step (tactless social blunder) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8631,8 +8631,8 @@ export const ALL_QUESTIONS = [
       "Dreamed before"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Already seen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Already seen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Already seen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Already seen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8646,8 +8646,8 @@ export const ALL_QUESTIONS = [
       "Side-by-side"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Head-to-head (private chat for two).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Head-to-head (private chat for two)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Head-to-head (private chat for two).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Head-to-head (private chat for two) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8661,8 +8661,8 @@ export const ALL_QUESTIONS = [
       "Foolish silliness"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Audacity, nerve, or supreme self-confidence.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Audacity, nerve, or supreme self-confidence** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Audacity, nerve, or supreme self-confidence.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Audacity, nerve, or supreme self-confidence is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8676,8 +8676,8 @@ export const ALL_QUESTIONS = [
       "Compound"
     ],
     "answer": 0,
-    "explanation": "A spoonerism is a humorous verbal slip in which corresponding consonants or vowels are transposed between two words, such as 'shoving leopard' for 'loving shepherd'.",
-    "tip": "\ud83d\udca1 **Dr. Spooner:** Named after Rev. William Archibald Spooner, famed for his accidental slips of the tongue!",
+    "explanation": "A spoonerism is a humorous verbal slip swapping corresponding initial sounds between words, such as 'shoving leopard' for 'loving shepherd'.",
+    "tip": "\ud83d\udca1 **Dr. Spooner:** Named after Rev. William Archibald Spooner!",
     "difficulty": "Medium"
   },
   {
@@ -8691,8 +8691,8 @@ export const ALL_QUESTIONS = [
       "Acronym"
     ],
     "answer": 0,
-    "explanation": "A portmanteau is a new word formed by blending the sounds and meanings of two existing words, such as 'brunch' (breakfast + lunch) or 'motel' (motor + hotel).",
-    "tip": "\ud83d\udca1 **Word Blend:** Combining two words together into one (coined by Lewis Carroll in Through the Looking-Glass).",
+    "explanation": "A portmanteau blends the sounds and meanings of two words into a single new word, such as 'brunch' (breakfast + lunch) or 'smog' (smoke + fog).",
+    "tip": "\ud83d\udca1 **Word Blend:** Combining two words together into one!",
     "difficulty": "Medium"
   },
   {
@@ -8706,8 +8706,8 @@ export const ALL_QUESTIONS = [
       "Palindrome"
     ],
     "answer": 0,
-    "explanation": "A contronym (or auto-antonym, Janus word) is a word that possesses two contradictory meanings depending on context, such as 'cleave' (to split vs to stick together) or 'dust' (to remove vs to sprinkle).",
-    "tip": "\ud83d\udca1 **Janus Word:** Contronyms are words that are their own opposite (named after Janus, the two-faced Roman god)!",
+    "explanation": "A contronym (or auto-antonym, Janus word) is a word that possesses two opposite meanings depending on context, such as 'cleave' (to split vs to stick together).",
+    "tip": "\ud83d\udca1 **Janus Word:** A word that is its own opposite!",
     "difficulty": "Medium"
   },
   {
@@ -8721,7 +8721,7 @@ export const ALL_QUESTIONS = [
       "Metonymy"
     ],
     "answer": 0,
-    "explanation": "An oxymoron is a figure of speech that juxtaposes two contradictory or opposite terms side-by-side for emphasis, such as 'deafening silence' or 'sweet sorrow'.",
+    "explanation": "An oxymoron brings together two contradictory terms side-by-side for emphasis, such as 'deafening silence' or 'sweet sorrow'.",
     "tip": "\ud83d\udca1 **Contradictory Terms:** Two opposing words placed right next to each other!",
     "difficulty": "Medium"
   },
@@ -8736,8 +8736,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "An eponym is a person, place, or thing after which something is named, such as Earl of Sandwich (sandwich) or Charles Boycott (boycott).",
-    "tip": "\ud83d\udca1 **Name Origin:** Eponyms are words derived directly from a real or mythical person's name.",
+    "explanation": "An eponym is a word, invention, or place named after a real or mythical person, such as Earl of Sandwich (sandwich) or Charles Boycott (boycott).",
+    "tip": "\ud83d\udca1 **Name Origin:** Derived directly from a person's name!",
     "difficulty": "Medium"
   },
   {
@@ -8751,8 +8751,8 @@ export const ALL_QUESTIONS = [
       "Acronym"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Anagram.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Anagram** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Anagram.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Anagram is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8766,8 +8766,8 @@ export const ALL_QUESTIONS = [
       "Oxymoron"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Palindrome.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Palindrome** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Palindrome.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Palindrome is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8781,8 +8781,8 @@ export const ALL_QUESTIONS = [
       "Acrostic"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Pangram.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pangram** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pangram.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pangram is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8796,8 +8796,8 @@ export const ALL_QUESTIONS = [
       "Metonymy"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Onomatopoeia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Onomatopoeia** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Onomatopoeia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Onomatopoeia is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8811,8 +8811,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Hyperbole.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hyperbole** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hyperbole.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hyperbole is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8826,8 +8826,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Synecdoche.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Synecdoche** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Synecdoche.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Synecdoche is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8841,8 +8841,8 @@ export const ALL_QUESTIONS = [
       "Onomatopoeia"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Metonymy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Metonymy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Metonymy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Metonymy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8856,8 +8856,8 @@ export const ALL_QUESTIONS = [
       "Yes."
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Go..",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Go.** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Go..",
+    "tip": "\ud83d\udca1 **Trivia Key:** Go. is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8871,8 +8871,8 @@ export const ALL_QUESTIONS = [
       "O"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is E.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **E** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is E.",
+    "tip": "\ud83d\udca1 **Trivia Key:** E is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8886,8 +8886,8 @@ export const ALL_QUESTIONS = [
       "R"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is T.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **T** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is T.",
+    "tip": "\ud83d\udca1 **Trivia Key:** T is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8901,8 +8901,8 @@ export const ALL_QUESTIONS = [
       "Gypsys"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Rhythms.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rhythms** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rhythms.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rhythms is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8916,8 +8916,8 @@ export const ALL_QUESTIONS = [
       "Exempt"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Dreamt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dreamt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dreamt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dreamt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8931,8 +8931,8 @@ export const ALL_QUESTIONS = [
       "Ningry and Tangry"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Angry and Hungry.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Angry and Hungry** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Angry and Hungry.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Angry and Hungry is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8946,8 +8946,8 @@ export const ALL_QUESTIONS = [
       "Old English 'thugge'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Hindi 'thag' (cult of stranglers).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hindi 'thag' (cult of stranglers)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hindi 'thag' (cult of stranglers).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hindi 'thag' (cult of stranglers) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8961,8 +8961,8 @@ export const ALL_QUESTIONS = [
       "Persian 'asin'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Arabic 'hashashin'.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Arabic 'hashashin'** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Arabic 'hashashin'.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Arabic 'hashashin' is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8976,8 +8976,8 @@ export const ALL_QUESTIONS = [
       "German 'Klick'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is French printing plate sound.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **French printing plate sound** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is French printing plate sound.",
+    "tip": "\ud83d\udca1 **Trivia Key:** French printing plate sound is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -8991,8 +8991,8 @@ export const ALL_QUESTIONS = [
       "Spanish 'cuarenta'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is 40 days isolation in Venice during plague.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **40 days isolation in Venice during plague** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 40 days isolation in Venice during plague.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 40 days isolation in Venice during plague is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9006,8 +9006,8 @@ export const ALL_QUESTIONS = [
       "French 'trivielle'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Latin 'trivium' (intersection of 3 roads / 3 lower arts).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Latin 'trivium' (intersection of 3 roads / 3 lower arts)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Latin 'trivium' (intersection of 3 roads / 3 lower arts).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Latin 'trivium' (intersection of 3 roads / 3 lower arts) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9021,8 +9021,8 @@ export const ALL_QUESTIONS = [
       "French 'janituer'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Janus, the Roman god of doors and beginnings.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Janus, the Roman god of doors and beginnings** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Janus, the Roman god of doors and beginnings.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Janus, the Roman god of doors and beginnings is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9036,8 +9036,8 @@ export const ALL_QUESTIONS = [
       "French 'candide'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Latin 'candidus' (glowing white).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Latin 'candidus' (glowing white)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Latin 'candidus' (glowing white).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Latin 'candidus' (glowing white) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9051,8 +9051,8 @@ export const ALL_QUESTIONS = [
       "French 'candidat'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Roman office seekers who wore glowing white togas.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Roman office seekers who wore glowing white togas** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Roman office seekers who wore glowing white togas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Roman office seekers who wore glowing white togas is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9066,8 +9066,8 @@ export const ALL_QUESTIONS = [
       "Dutch 'zand-wicht'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is John Montagu, 4th Earl of Sandwich in 1762.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Montagu, 4th Earl of Sandwich in 1762** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Montagu, 4th Earl of Sandwich in 1762.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Montagu, 4th Earl of Sandwich in 1762 is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9081,8 +9081,8 @@ export const ALL_QUESTIONS = [
       "Italian 'sabotata'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is French workers throwing wooden shoes (sabots) into machinery.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **French workers throwing wooden shoes (sabots) into machinery** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is French workers throwing wooden shoes (sabots) into machinery.",
+    "tip": "\ud83d\udca1 **Trivia Key:** French workers throwing wooden shoes (sabots) into machinery is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9096,8 +9096,8 @@ export const ALL_QUESTIONS = [
       "Latin 'palma'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is 12th-century popular Latin love poem Pamphilus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **12th-century popular Latin love poem Pamphilus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 12th-century popular Latin love poem Pamphilus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 12th-century popular Latin love poem Pamphilus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9111,8 +9111,8 @@ export const ALL_QUESTIONS = [
       "French 'barbe-side'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is US Civil War General Ambrose Burnside.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **US Civil War General Ambrose Burnside** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is US Civil War General Ambrose Burnside.",
+    "tip": "\ud83d\udca1 **Trivia Key:** US Civil War General Ambrose Burnside is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9126,8 +9126,8 @@ export const ALL_QUESTIONS = [
       "French 'narcisse'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Narcissus, hunter in Greek myth who fell in love with his reflection.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Narcissus, hunter in Greek myth who fell in love with his reflection** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Narcissus, hunter in Greek myth who fell in love with his reflection.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Narcissus, hunter in Greek myth who fell in love with his reflection is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9141,8 +9141,8 @@ export const ALL_QUESTIONS = [
       "German 'Nemes'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Nemesis, Greek goddess of divine retribution.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nemesis, Greek goddess of divine retribution** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nemesis, Greek goddess of divine retribution.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nemesis, Greek goddess of divine retribution is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9156,8 +9156,8 @@ export const ALL_QUESTIONS = [
       "French 'pand\u00e9mon'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Capital of Hell in John Milton's Paradise Lost.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Capital of Hell in John Milton's Paradise Lost** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Capital of Hell in John Milton's Paradise Lost.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Capital of Hell in John Milton's Paradise Lost is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9171,8 +9171,8 @@ export const ALL_QUESTIONS = [
       "French 'utopie'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Sir Thomas More's 1516 book Utopia (Greek for 'no place').",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Thomas More's 1516 book Utopia (Greek for 'no place')** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Thomas More's 1516 book Utopia (Greek for 'no place').",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Thomas More's 1516 book Utopia (Greek for 'no place') is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9186,8 +9186,8 @@ export const ALL_QUESTIONS = [
       "French 'guerre-mander'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Massachusetts Governor Elbridge Gerry + salamander shape.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Massachusetts Governor Elbridge Gerry + salamander shape** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Massachusetts Governor Elbridge Gerry + salamander shape.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Massachusetts Governor Elbridge Gerry + salamander shape is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9201,8 +9201,8 @@ export const ALL_QUESTIONS = [
       "French 'mauvais'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Samuel Maverick, Texas rancher who refused to brand cattle.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Samuel Maverick, Texas rancher who refused to brand cattle** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Samuel Maverick, Texas rancher who refused to brand cattle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Samuel Maverick, Texas rancher who refused to brand cattle is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9216,8 +9216,8 @@ export const ALL_QUESTIONS = [
       "French 'di\u00e9sel'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Rudolf Diesel, German mechanical engineer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rudolf Diesel, German mechanical engineer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rudolf Diesel, German mechanical engineer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rudolf Diesel, German mechanical engineer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9231,8 +9231,8 @@ export const ALL_QUESTIONS = [
       "German 'Pasteur'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Louis Pasteur, French microbiologist.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Louis Pasteur, French microbiologist** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Louis Pasteur, French microbiologist.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Louis Pasteur, French microbiologist is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9246,8 +9246,8 @@ export const ALL_QUESTIONS = [
       "French 'saxo'"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Adolphe Sax, Belgian instrument designer who patented it in 1846.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Adolphe Sax, Belgian instrument designer who patented it in 1846** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Adolphe Sax, Belgian instrument designer who patented it in 1846.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Adolphe Sax, Belgian instrument designer who patented it in 1846 is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9261,8 +9261,8 @@ export const ALL_QUESTIONS = [
       "By whose authority?"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Who benefits?.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Who benefits?** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Who benefits?.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Who benefits? is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9276,8 +9276,8 @@ export const ALL_QUESTIONS = [
       "A social trend"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is A practical compromise allowing conflicting parties to coexist.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A practical compromise allowing conflicting parties to coexist** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A practical compromise allowing conflicting parties to coexist.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A practical compromise allowing conflicting parties to coexist is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9291,8 +9291,8 @@ export const ALL_QUESTIONS = [
       "In a artificial state"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is In its original place or position.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **In its original place or position** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is In its original place or position.",
+    "tip": "\ud83d\udca1 **Trivia Key:** In its original place or position is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9306,8 +9306,8 @@ export const ALL_QUESTIONS = [
       "Out of necessity"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Done as a favor without legal obligation.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Done as a favor without legal obligation** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Done as a favor without legal obligation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Done as a favor without legal obligation is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9321,8 +9321,8 @@ export const ALL_QUESTIONS = [
       "Inside the court"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Among other things.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Among other things** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Among other things.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Among other things is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9336,8 +9336,8 @@ export const ALL_QUESTIONS = [
       "In good standing"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is By the fact itself.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **By the fact itself** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is By the fact itself.",
+    "tip": "\ud83d\udca1 **Trivia Key:** By the fact itself is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9351,8 +9351,8 @@ export const ALL_QUESTIONS = [
       "Primary witness"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is First among equals.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **First among equals** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is First among equals.",
+    "tip": "\ud83d\udca1 **Trivia Key:** First among equals is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9366,8 +9366,8 @@ export const ALL_QUESTIONS = [
       "In summary"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is An essential condition or element.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **An essential condition or element** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is An essential condition or element.",
+    "tip": "\ud83d\udca1 **Trivia Key:** An essential condition or element is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9381,8 +9381,8 @@ export const ALL_QUESTIONS = [
       "Flat earth"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Clean slate or blank slate.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Clean slate or blank slate** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Clean slate or blank slate.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Clean slate or blank slate is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9396,8 +9396,8 @@ export const ALL_QUESTIONS = [
       "High mountain"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Solid ground or dry land.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Solid ground or dry land** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Solid ground or dry land.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Solid ground or dry land is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9411,8 +9411,8 @@ export const ALL_QUESTIONS = [
       "National song"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Voice of the people.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Voice of the people** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Voice of the people.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Voice of the people is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9426,8 +9426,8 @@ export const ALL_QUESTIONS = [
       "Persian (al-gabr)"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Arabic (al-jabr).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Arabic (al-jabr)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Arabic (al-jabr).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Arabic (al-jabr) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9441,8 +9441,8 @@ export const ALL_QUESTIONS = [
       "Persian"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Arabic (al-kuhl).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Arabic (al-kuhl)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Arabic (al-kuhl).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Arabic (al-kuhl) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9456,8 +9456,8 @@ export const ALL_QUESTIONS = [
       "Zulu"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Swahili (journey).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Swahili (journey)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Swahili (journey).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Swahili (journey) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9471,8 +9471,8 @@ export const ALL_QUESTIONS = [
       "Tagalog"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Japanese (empty orchestra).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese (empty orchestra)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Japanese (empty orchestra).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Japanese (empty orchestra) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9486,8 +9486,8 @@ export const ALL_QUESTIONS = [
       "Korean"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Japanese (taikun / great lord).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese (taikun / great lord)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Japanese (taikun / great lord).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Japanese (taikun / great lord) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9501,8 +9501,8 @@ export const ALL_QUESTIONS = [
       "Thai"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Japanese.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Japanese.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Japanese is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9516,8 +9516,8 @@ export const ALL_QUESTIONS = [
       "Malay"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Japanese (harbor wave).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese (harbor wave)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Japanese (harbor wave).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Japanese (harbor wave) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9531,8 +9531,8 @@ export const ALL_QUESTIONS = [
       "Urdu"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Persian / Hindi.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Persian / Hindi** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Persian / Hindi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Persian / Hindi is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9546,8 +9546,8 @@ export const ALL_QUESTIONS = [
       "Italian"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Hindi / Portuguese.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hindi / Portuguese** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hindi / Portuguese.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hindi / Portuguese is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9561,8 +9561,8 @@ export const ALL_QUESTIONS = [
       "Sinhala"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Hindi (Gujarati / Bengali).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hindi (Gujarati / Bengali)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hindi (Gujarati / Bengali).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hindi (Gujarati / Bengali) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9576,8 +9576,8 @@ export const ALL_QUESTIONS = [
       "Sinhala"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Tamil (kattu-maram).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tamil (kattu-maram)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tamil (kattu-maram).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tamil (kattu-maram) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9591,8 +9591,8 @@ export const ALL_QUESTIONS = [
       "Pali"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Sanskrit (heavy / teacher).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sanskrit (heavy / teacher)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sanskrit (heavy / teacher).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sanskrit (heavy / teacher) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9606,8 +9606,8 @@ export const ALL_QUESTIONS = [
       "Arabic"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Sanskrit (descent).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sanskrit (descent)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sanskrit (descent).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sanskrit (descent) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9621,8 +9621,8 @@ export const ALL_QUESTIONS = [
       "Urdu"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Sanskrit (Jagannatha / Lord of World).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sanskrit (Jagannatha / Lord of World)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sanskrit (Jagannatha / Lord of World).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sanskrit (Jagannatha / Lord of World) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9636,8 +9636,8 @@ export const ALL_QUESTIONS = [
       "Dutch"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Chinese (Hokkien ke-tsiap).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chinese (Hokkien ke-tsiap)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chinese (Hokkien ke-tsiap).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chinese (Hokkien ke-tsiap) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9651,8 +9651,8 @@ export const ALL_QUESTIONS = [
       "Vietnamese"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is Chinese (t\u00e1i f\u0113n) / Greek (typhon).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chinese (t\u00e1i f\u0113n) / Greek (typhon)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chinese (t\u00e1i f\u0113n) / Greek (typhon).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chinese (t\u00e1i f\u0113n) / Greek (typhon) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9666,8 +9666,8 @@ export const ALL_QUESTIONS = [
       "Swedish"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is German (children's garden).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **German (children's garden)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is German (children's garden).",
+    "tip": "\ud83d\udca1 **Trivia Key:** German (children's garden) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9681,8 +9681,8 @@ export const ALL_QUESTIONS = [
       "Danish"
     ],
     "answer": 0,
-    "explanation": "In language, the correct answer to this question is German (desire to wander).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **German (desire to wander)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is German (desire to wander).",
+    "tip": "\ud83d\udca1 **Trivia Key:** German (desire to wander) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9696,8 +9696,8 @@ export const ALL_QUESTIONS = [
       "Mercury"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Jupiter.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jupiter** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jupiter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jupiter is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9711,8 +9711,8 @@ export const ALL_QUESTIONS = [
       "Diana"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Juno.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Juno** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Juno.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Juno is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9726,8 +9726,8 @@ export const ALL_QUESTIONS = [
       "Mars"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Neptune.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Neptune** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Neptune.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Neptune is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9741,8 +9741,8 @@ export const ALL_QUESTIONS = [
       "Mercury"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Pluto.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pluto** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pluto.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pluto is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9756,8 +9756,8 @@ export const ALL_QUESTIONS = [
       "Vulcan"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Mars.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mars** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mars.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mars is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9771,8 +9771,8 @@ export const ALL_QUESTIONS = [
       "Vesta"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Minerva.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Minerva** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Minerva.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Minerva is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9786,8 +9786,8 @@ export const ALL_QUESTIONS = [
       "Hyperion"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Apollo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Apollo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Apollo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Apollo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9801,8 +9801,8 @@ export const ALL_QUESTIONS = [
       "Ceres"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Diana.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Diana** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Diana.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Diana is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9816,8 +9816,8 @@ export const ALL_QUESTIONS = [
       "Vesta"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Venus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Venus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Venus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Venus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9831,8 +9831,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Mercury.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mercury** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mercury.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mercury is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9846,8 +9846,8 @@ export const ALL_QUESTIONS = [
       "Pluto"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Vulcan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Vulcan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Vulcan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Vulcan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9861,8 +9861,8 @@ export const ALL_QUESTIONS = [
       "Vulcan"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Bacchus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bacchus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bacchus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bacchus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9876,8 +9876,8 @@ export const ALL_QUESTIONS = [
       "Venus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Ceres.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ceres** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ceres.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ceres is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9891,8 +9891,8 @@ export const ALL_QUESTIONS = [
       "Diana"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Vesta.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Vesta** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Vesta.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Vesta is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9906,8 +9906,8 @@ export const ALL_QUESTIONS = [
       "Mercury"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Cupid.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cupid** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cupid.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cupid is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9921,8 +9921,8 @@ export const ALL_QUESTIONS = [
       "Freyr"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Odin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Odin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Odin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Odin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9936,8 +9936,8 @@ export const ALL_QUESTIONS = [
       "Heimdall"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Thor.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thor** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thor.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thor is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9951,8 +9951,8 @@ export const ALL_QUESTIONS = [
       "Baldr"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Loki.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Loki** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Loki.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Loki is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9966,8 +9966,8 @@ export const ALL_QUESTIONS = [
       "Freyr"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Heimdall.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Heimdall** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Heimdall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Heimdall is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9981,8 +9981,8 @@ export const ALL_QUESTIONS = [
       "Ginnungagap"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Bifr\u00f6st.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bifr\u00f6st** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bifr\u00f6st.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bifr\u00f6st is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -9996,8 +9996,8 @@ export const ALL_QUESTIONS = [
       "Niflheim"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Yggdrasil.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Yggdrasil** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Yggdrasil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Yggdrasil is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10011,8 +10011,8 @@ export const ALL_QUESTIONS = [
       "Gladsheim"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Valhalla.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Valhalla** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Valhalla.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Valhalla is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10026,8 +10026,8 @@ export const ALL_QUESTIONS = [
       "G\u00f6tterd\u00e4mmerung"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Ragnar\u00f6k.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ragnar\u00f6k** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ragnar\u00f6k.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ragnar\u00f6k is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10041,8 +10041,8 @@ export const ALL_QUESTIONS = [
       "Horus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Ra.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ra** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ra is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10056,8 +10056,8 @@ export const ALL_QUESTIONS = [
       "Horus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Osiris.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Osiris** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Osiris.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Osiris is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10071,8 +10071,8 @@ export const ALL_QUESTIONS = [
       "Thoth"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Anubis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Anubis** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Anubis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Anubis is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10086,8 +10086,8 @@ export const ALL_QUESTIONS = [
       "Ra"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Horus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Horus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Horus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Horus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10101,8 +10101,8 @@ export const ALL_QUESTIONS = [
       "Sobek"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Set.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Set** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Set.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Set is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10116,8 +10116,8 @@ export const ALL_QUESTIONS = [
       "Ptah"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Thoth.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thoth** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thoth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thoth is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10131,8 +10131,8 @@ export const ALL_QUESTIONS = [
       "Sekhmet"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Isis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Isis** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Isis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Isis is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10146,8 +10146,8 @@ export const ALL_QUESTIONS = [
       "Tefnut"
     ],
     "answer": 0,
-    "explanation": "In ancient Egyptian religion, Bastet was revered as the protective deity of the home, domesticity, women, children, and cats.",
-    "tip": "\ud83d\udca1 **Bastet & Cats:** Ancient Egyptians sacredly honored domestic cats as earthly incarnations of the goddess Bastet.",
+    "explanation": "The correct answer for this trivia question is Bastet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bastet is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10161,8 +10161,8 @@ export const ALL_QUESTIONS = [
       "Tefnut"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Sekhmet.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sekhmet** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sekhmet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sekhmet is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10176,8 +10176,8 @@ export const ALL_QUESTIONS = [
       "Twelve Tables"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Code of Hammurabi.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Code of Hammurabi** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Code of Hammurabi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Code of Hammurabi is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10191,8 +10191,8 @@ export const ALL_QUESTIONS = [
       "Odyssey"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Epic of Gilgamesh.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Epic of Gilgamesh** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Epic of Gilgamesh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Epic of Gilgamesh is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10206,8 +10206,8 @@ export const ALL_QUESTIONS = [
       "Ptolemy I"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Alexander the Great.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Alexander the Great** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Alexander the Great.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Alexander the Great is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10221,8 +10221,8 @@ export const ALL_QUESTIONS = [
       "14 AD"
     ],
     "answer": 0,
-    "explanation": "44 BC is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **44 BC** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 44 BC.",
+    "tip": "\ud83d\udca1 **Year:** 44 BC is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10236,8 +10236,8 @@ export const ALL_QUESTIONS = [
       "Nero"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Augustus (Octavian).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Augustus (Octavian)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Augustus (Octavian).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Augustus (Octavian) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10251,8 +10251,8 @@ export const ALL_QUESTIONS = [
       "Commodus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Nero.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nero** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nero.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nero is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10266,8 +10266,8 @@ export const ALL_QUESTIONS = [
       "Marcus Aurelius"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hadrian.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hadrian** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hadrian.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hadrian is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10281,8 +10281,8 @@ export const ALL_QUESTIONS = [
       "Julian"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Constantine the Great.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Constantine the Great** is the essential takeaway for this question.",
+    "explanation": "Constantine the Great became the first Christian Roman Emperor after issuing the Edict of Milan in 313 AD.",
+    "tip": "\ud83d\udca1 **Constantine:** Legalized Christianity and founded Constantinople (Istanbul).",
     "difficulty": "Medium"
   },
   {
@@ -10296,8 +10296,8 @@ export const ALL_QUESTIONS = [
       "Clovis I"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Charlemagne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Charlemagne** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Charlemagne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Charlemagne is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10311,8 +10311,8 @@ export const ALL_QUESTIONS = [
       "1485"
     ],
     "answer": 0,
-    "explanation": "1066 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1066** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1066.",
+    "tip": "\ud83d\udca1 **Year:** 1066 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10326,8 +10326,8 @@ export const ALL_QUESTIONS = [
       "Devonshire Tapestry"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Bayeux Tapestry.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Bayeux Tapestry** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Bayeux Tapestry.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Bayeux Tapestry is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10341,8 +10341,8 @@ export const ALL_QUESTIONS = [
       "Edward I"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is King John.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **King John** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is King John.",
+    "tip": "\ud83d\udca1 **Trivia Key:** King John is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10356,8 +10356,8 @@ export const ALL_QUESTIONS = [
       "Antonine Plague"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Black Death.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Black Death** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Black Death.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Black Death is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10371,8 +10371,8 @@ export const ALL_QUESTIONS = [
       "Charlotte Corday"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Joan of Arc.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Joan of Arc** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Joan of Arc.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Joan of Arc is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10386,8 +10386,8 @@ export const ALL_QUESTIONS = [
       "1683"
     ],
     "answer": 0,
-    "explanation": "1453 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1453** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1453.",
+    "tip": "\ud83d\udca1 **Year:** 1453 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10401,8 +10401,8 @@ export const ALL_QUESTIONS = [
       "1488"
     ],
     "answer": 0,
-    "explanation": "1492 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1492** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1492.",
+    "tip": "\ud83d\udca1 **Year:** 1492 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10416,8 +10416,8 @@ export const ALL_QUESTIONS = [
       "Philip Melanchthon"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Martin Luther.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Martin Luther** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Martin Luther.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Martin Luther is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10431,8 +10431,8 @@ export const ALL_QUESTIONS = [
       "Charles I"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Henry VIII.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Henry VIII** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Henry VIII.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Henry VIII is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10446,8 +10446,8 @@ export const ALL_QUESTIONS = [
       "Divorced, Died, Beheaded"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Divorced, Beheaded, Died, Divorced, Beheaded, Survived.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Divorced, Beheaded, Died, Divorced, Beheaded, Survived** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Divorced, Beheaded, Died, Divorced, Beheaded, Survived.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Divorced, Beheaded, Died, Divorced, Beheaded, Survived is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10461,8 +10461,8 @@ export const ALL_QUESTIONS = [
       "Mary Queen of Scots"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Elizabeth I.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Elizabeth I** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Elizabeth I.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Elizabeth I is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10476,8 +10476,8 @@ export const ALL_QUESTIONS = [
       "1666"
     ],
     "answer": 0,
-    "explanation": "1588 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1588** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1588.",
+    "tip": "\ud83d\udca1 **Year:** 1588 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10491,8 +10491,8 @@ export const ALL_QUESTIONS = [
       "Rye House Plot"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Gunpowder Plot.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Gunpowder Plot** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Gunpowder Plot.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Gunpowder Plot is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10506,8 +10506,8 @@ export const ALL_QUESTIONS = [
       "1707"
     ],
     "answer": 0,
-    "explanation": "1666 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1666** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1666.",
+    "tip": "\ud83d\udca1 **Year:** 1666 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10521,8 +10521,8 @@ export const ALL_QUESTIONS = [
       "Louis XIII"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Louis XIV.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Louis XIV** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Louis XIV.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Louis XIV is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10536,8 +10536,8 @@ export const ALL_QUESTIONS = [
       "1791"
     ],
     "answer": 0,
-    "explanation": "1776 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1776** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1776.",
+    "tip": "\ud83d\udca1 **Year:** 1776 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10551,8 +10551,8 @@ export const ALL_QUESTIONS = [
       "1848"
     ],
     "answer": 0,
-    "explanation": "1789 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1789** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1789.",
+    "tip": "\ud83d\udca1 **Year:** 1789 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10566,8 +10566,8 @@ export const ALL_QUESTIONS = [
       "Charles de Gaulle"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Napoleon Bonaparte.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Napoleon Bonaparte** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Napoleon Bonaparte.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Napoleon Bonaparte is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10581,8 +10581,8 @@ export const ALL_QUESTIONS = [
       "1821"
     ],
     "answer": 0,
-    "explanation": "1815 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1815** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1815.",
+    "tip": "\ud83d\udca1 **Year:** 1815 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10596,8 +10596,8 @@ export const ALL_QUESTIONS = [
       "Queen Mary II"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Queen Victoria.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Queen Victoria** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Queen Victoria.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Queen Victoria is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10611,8 +10611,8 @@ export const ALL_QUESTIONS = [
       "1918"
     ],
     "answer": 0,
-    "explanation": "1914 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1914** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1914.",
+    "tip": "\ud83d\udca1 **Year:** 1914 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10626,8 +10626,8 @@ export const ALL_QUESTIONS = [
       "1920"
     ],
     "answer": 0,
-    "explanation": "1918 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1918** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1918.",
+    "tip": "\ud83d\udca1 **Year:** 1918 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10641,8 +10641,8 @@ export const ALL_QUESTIONS = [
       "1914"
     ],
     "answer": 0,
-    "explanation": "1917 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1917** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1917.",
+    "tip": "\ud83d\udca1 **Year:** 1917 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10656,8 +10656,8 @@ export const ALL_QUESTIONS = [
       "1933"
     ],
     "answer": 0,
-    "explanation": "1929 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1929** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1929.",
+    "tip": "\ud83d\udca1 **Year:** 1929 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10671,8 +10671,8 @@ export const ALL_QUESTIONS = [
       "1941"
     ],
     "answer": 0,
-    "explanation": "1939 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1939** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1939.",
+    "tip": "\ud83d\udca1 **Year:** 1939 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10686,8 +10686,8 @@ export const ALL_QUESTIONS = [
       "1948"
     ],
     "answer": 0,
-    "explanation": "1945 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1945** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1945.",
+    "tip": "\ud83d\udca1 **Year:** 1945 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10701,8 +10701,8 @@ export const ALL_QUESTIONS = [
       "1972"
     ],
     "answer": 0,
-    "explanation": "1969 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1969** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1969.",
+    "tip": "\ud83d\udca1 **Year:** 1969 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10716,8 +10716,8 @@ export const ALL_QUESTIONS = [
       "1990"
     ],
     "answer": 0,
-    "explanation": "1989 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1989** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1989.",
+    "tip": "\ud83d\udca1 **Year:** 1989 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10731,8 +10731,8 @@ export const ALL_QUESTIONS = [
       "1990"
     ],
     "answer": 0,
-    "explanation": "1991 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1991** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1991.",
+    "tip": "\ud83d\udca1 **Year:** 1991 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -10746,8 +10746,8 @@ export const ALL_QUESTIONS = [
       "Poseidon"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Zeus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Zeus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Zeus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Zeus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10761,8 +10761,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Ares.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ares** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ares.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ares is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10776,8 +10776,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Poseidon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Poseidon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Poseidon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Poseidon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10791,8 +10791,8 @@ export const ALL_QUESTIONS = [
       "Ares"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hades.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hades** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hades.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hades is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10806,8 +10806,8 @@ export const ALL_QUESTIONS = [
       "Artemis"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Athena.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Athena** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Athena.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Athena is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10821,8 +10821,8 @@ export const ALL_QUESTIONS = [
       "Artemis"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Aphrodite.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Aphrodite** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Aphrodite.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Aphrodite is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10836,8 +10836,8 @@ export const ALL_QUESTIONS = [
       "Zeus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hermes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hermes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hermes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hermes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10851,8 +10851,8 @@ export const ALL_QUESTIONS = [
       "Artemis"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hestia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hestia** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hestia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hestia is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10866,8 +10866,8 @@ export const ALL_QUESTIONS = [
       "Persephone"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Demeter.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Demeter** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Demeter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Demeter is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10881,8 +10881,8 @@ export const ALL_QUESTIONS = [
       "Hephaestus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Dionysus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dionysus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dionysus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dionysus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10896,8 +10896,8 @@ export const ALL_QUESTIONS = [
       "Apollo"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hephaestus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hephaestus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hephaestus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hephaestus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10911,8 +10911,8 @@ export const ALL_QUESTIONS = [
       "Demeter"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Artemis.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Artemis** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Artemis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Artemis is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10926,8 +10926,8 @@ export const ALL_QUESTIONS = [
       "Dionysus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Apollo.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Apollo** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Apollo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Apollo is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10941,8 +10941,8 @@ export const ALL_QUESTIONS = [
       "Demeter"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hera.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hera** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hera.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hera is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10956,8 +10956,8 @@ export const ALL_QUESTIONS = [
       "Dionysus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Eros.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Eros** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Eros.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Eros is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10971,8 +10971,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Heracles (Hercules).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Heracles (Hercules)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Heracles (Hercules).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Heracles (Hercules) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -10986,8 +10986,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Theseus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Theseus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Theseus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Theseus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11001,8 +11001,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Perseus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Perseus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Perseus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Perseus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11016,8 +11016,8 @@ export const ALL_QUESTIONS = [
       "Odysseus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Jason.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jason** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jason.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jason is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11031,8 +11031,8 @@ export const ALL_QUESTIONS = [
       "Menelaus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Odysseus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Odysseus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Odysseus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Odysseus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11046,8 +11046,8 @@ export const ALL_QUESTIONS = [
       "Diomedes"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Achilles.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Achilles** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Achilles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Achilles is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11061,8 +11061,8 @@ export const ALL_QUESTIONS = [
       "Aeneas"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hector.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hector** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hector.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hector is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11076,8 +11076,8 @@ export const ALL_QUESTIONS = [
       "Deiphobus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Paris.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Paris** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Paris.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Paris is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11091,8 +11091,8 @@ export const ALL_QUESTIONS = [
       "Odysseus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Agamemnon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Agamemnon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Agamemnon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Agamemnon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11106,8 +11106,8 @@ export const ALL_QUESTIONS = [
       "Diomedes"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Menelaus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Menelaus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Menelaus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Menelaus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11121,8 +11121,8 @@ export const ALL_QUESTIONS = [
       "Tantalus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Daedalus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Daedalus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Daedalus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Daedalus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11136,8 +11136,8 @@ export const ALL_QUESTIONS = [
       "Bellerophon"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Icarus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Icarus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Icarus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Icarus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11151,8 +11151,8 @@ export const ALL_QUESTIONS = [
       "Jason"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Bellerophon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bellerophon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bellerophon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bellerophon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11166,8 +11166,8 @@ export const ALL_QUESTIONS = [
       "Prometheus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Sisyphus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sisyphus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sisyphus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sisyphus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11181,8 +11181,8 @@ export const ALL_QUESTIONS = [
       "Cronus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Prometheus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Prometheus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Prometheus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Prometheus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11196,8 +11196,8 @@ export const ALL_QUESTIONS = [
       "Oceanus"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Atlas.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Atlas** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Atlas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Atlas is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11211,8 +11211,8 @@ export const ALL_QUESTIONS = [
       "Tityos"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Tantalus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tantalus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tantalus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tantalus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11226,8 +11226,8 @@ export const ALL_QUESTIONS = [
       "Eris"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Persephone.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Persephone** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Persephone.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Persephone is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11241,8 +11241,8 @@ export const ALL_QUESTIONS = [
       "Medea"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Hecate.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hecate** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hecate.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hecate is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11256,8 +11256,8 @@ export const ALL_QUESTIONS = [
       "Scylla"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Circe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Circe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Circe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Circe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11271,8 +11271,8 @@ export const ALL_QUESTIONS = [
       "Sirens"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Calypso.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Calypso** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Calypso.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Calypso is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11286,8 +11286,8 @@ export const ALL_QUESTIONS = [
       "Chimera"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Cerberus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cerberus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cerberus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cerberus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11301,8 +11301,8 @@ export const ALL_QUESTIONS = [
       "Sphinx"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Chimera.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chimera** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chimera.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chimera is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11316,8 +11316,8 @@ export const ALL_QUESTIONS = [
       "Typhon"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Lernean Hydra.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Lernean Hydra** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Lernean Hydra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Lernean Hydra is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11331,8 +11331,8 @@ export const ALL_QUESTIONS = [
       "Cyclops"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Minotaur.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Minotaur** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Minotaur.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Minotaur is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11346,8 +11346,8 @@ export const ALL_QUESTIONS = [
       "Gorgons"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Centaurs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Centaurs** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Centaurs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Centaurs is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11361,8 +11361,8 @@ export const ALL_QUESTIONS = [
       "Nymphs"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Satyrs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Satyrs** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Satyrs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Satyrs is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11376,8 +11376,8 @@ export const ALL_QUESTIONS = [
       "The Graeae"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Gorgons (Medusa).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Gorgons (Medusa)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Gorgons (Medusa).",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Gorgons (Medusa) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11391,8 +11391,8 @@ export const ALL_QUESTIONS = [
       "The Mates"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Furies (Erinyes).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Furies (Erinyes)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Furies (Erinyes).",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Furies (Erinyes) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11406,8 +11406,8 @@ export const ALL_QUESTIONS = [
       "The Gorgons"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Harpies.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Harpies** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Harpies.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Harpies is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11421,8 +11421,8 @@ export const ALL_QUESTIONS = [
       "The Muses"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Sirens.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Sirens** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Sirens.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Sirens is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11436,8 +11436,8 @@ export const ALL_QUESTIONS = [
       "The Nymphs"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Nine Muses.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Nine Muses** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Nine Muses.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Nine Muses is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11451,8 +11451,8 @@ export const ALL_QUESTIONS = [
       "The Horae"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Three Graces (Charites).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Three Graces (Charites)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Three Graces (Charites).",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Three Graces (Charites) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11466,8 +11466,8 @@ export const ALL_QUESTIONS = [
       "The Parcae"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Fates (Moirai).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Fates (Moirai)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Fates (Moirai).",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Fates (Moirai) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11481,8 +11481,8 @@ export const ALL_QUESTIONS = [
       "The Shieldmaidens"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Norns.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Norns** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Norns.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Norns is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11496,8 +11496,8 @@ export const ALL_QUESTIONS = [
       "The Giantesses"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is The Valkyries.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Valkyries** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Valkyries.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Valkyries is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11511,8 +11511,8 @@ export const ALL_QUESTIONS = [
       "Garmr"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Fenrir.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fenrir** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fenrir.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fenrir is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11526,8 +11526,8 @@ export const ALL_QUESTIONS = [
       "Fafnir"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is J\u00f6rmungandr (Midgard Serpent).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **J\u00f6rmungandr (Midgard Serpent)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is J\u00f6rmungandr (Midgard Serpent).",
+    "tip": "\ud83d\udca1 **Trivia Key:** J\u00f6rmungandr (Midgard Serpent) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11541,8 +11541,8 @@ export const ALL_QUESTIONS = [
       "Grani"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Sleipnir.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sleipnir** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sleipnir.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sleipnir is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11556,8 +11556,8 @@ export const ALL_QUESTIONS = [
       "Heimdall"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Baldr.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Baldr** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Baldr.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Baldr is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11571,8 +11571,8 @@ export const ALL_QUESTIONS = [
       "Tyr"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Freyr.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Freyr** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Freyr.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Freyr is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11586,8 +11586,8 @@ export const ALL_QUESTIONS = [
       "Sif"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Freyja.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Freyja** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Freyja.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Freyja is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11601,8 +11601,8 @@ export const ALL_QUESTIONS = [
       "Sif"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Frigg.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Frigg** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Frigg.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Frigg is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11616,8 +11616,8 @@ export const ALL_QUESTIONS = [
       "Sif"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Idunn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Idunn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Idunn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Idunn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11631,8 +11631,8 @@ export const ALL_QUESTIONS = [
       "Heimdall"
     ],
     "answer": 0,
-    "explanation": "In mythology, the correct answer to this question is Tyr.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tyr** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tyr.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tyr is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11646,8 +11646,8 @@ export const ALL_QUESTIONS = [
       "98.75"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is 99.94.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **99.94** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 99.94.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 99.94 is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11661,8 +11661,8 @@ export const ALL_QUESTIONS = [
       "Carlton"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Collingwood.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Collingwood** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Collingwood.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Collingwood is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11676,8 +11676,8 @@ export const ALL_QUESTIONS = [
       "Richmond"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Brisbane Lions.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Brisbane Lions** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Brisbane Lions.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Brisbane Lions is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11691,8 +11691,8 @@ export const ALL_QUESTIONS = [
       "Sydney Swans"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Hawthorn.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hawthorn** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hawthorn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hawthorn is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11706,8 +11706,8 @@ export const ALL_QUESTIONS = [
       "Richmond"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Melbourne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Melbourne** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Melbourne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Melbourne is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11721,8 +11721,8 @@ export const ALL_QUESTIONS = [
       "Australian Open"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Wimbledon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Wimbledon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Wimbledon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Wimbledon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11736,8 +11736,8 @@ export const ALL_QUESTIONS = [
       "Australian Open"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The French Open (Roland-Garros).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The French Open (Roland-Garros)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The French Open (Roland-Garros).",
+    "tip": "\ud83d\udca1 **Trivia Key:** The French Open (Roland-Garros) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11751,8 +11751,8 @@ export const ALL_QUESTIONS = [
       "US Open"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Australian Open.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Australian Open** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Australian Open.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Australian Open is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11766,8 +11766,8 @@ export const ALL_QUESTIONS = [
       "Australian Open"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is US Open.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **US Open** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is US Open.",
+    "tip": "\ud83d\udca1 **Trivia Key:** US Open is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11781,8 +11781,8 @@ export const ALL_QUESTIONS = [
       "2004"
     ],
     "answer": 0,
-    "explanation": "2000 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **2000** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 2000.",
+    "tip": "\ud83d\udca1 **Year:** 2000 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -11796,8 +11796,8 @@ export const ALL_QUESTIONS = [
       "1964"
     ],
     "answer": 0,
-    "explanation": "1956 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1956** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1956.",
+    "tip": "\ud83d\udca1 **Year:** 1956 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -11811,8 +11811,8 @@ export const ALL_QUESTIONS = [
       "Pete Sampras"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Novak Djokovic.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Novak Djokovic** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Novak Djokovic.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Novak Djokovic is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11826,8 +11826,8 @@ export const ALL_QUESTIONS = [
       "Martina Navratilova"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Margaret Court.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Margaret Court** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Margaret Court.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Margaret Court is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11841,8 +11841,8 @@ export const ALL_QUESTIONS = [
       "Kyle Chalmers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ian Thorpe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ian Thorpe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ian Thorpe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ian Thorpe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11856,8 +11856,8 @@ export const ALL_QUESTIONS = [
       "Ariarne Titmus"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Dawn Fraser.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dawn Fraser** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dawn Fraser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dawn Fraser is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11871,8 +11871,8 @@ export const ALL_QUESTIONS = [
       "Leisel Jones"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Shane Gould.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Shane Gould** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Shane Gould.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Shane Gould is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11886,8 +11886,8 @@ export const ALL_QUESTIONS = [
       "Sally Pearson"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Cathy Freeman.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cathy Freeman** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cathy Freeman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cathy Freeman is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11901,8 +11901,8 @@ export const ALL_QUESTIONS = [
       "Raelene Boyle"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Betty Cuthbert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Betty Cuthbert** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Betty Cuthbert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Betty Cuthbert is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11916,8 +11916,8 @@ export const ALL_QUESTIONS = [
       "Melinda Gainsford-Taylor"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Sally Pearson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sally Pearson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sally Pearson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sally Pearson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11931,8 +11931,8 @@ export const ALL_QUESTIONS = [
       "Alicia Coutts"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Stephanie Rice.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Stephanie Rice** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Stephanie Rice.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Stephanie Rice is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11946,8 +11946,8 @@ export const ALL_QUESTIONS = [
       "Ralph Doubell"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ron Clarke.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ron Clarke** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ron Clarke.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ron Clarke is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11961,8 +11961,8 @@ export const ALL_QUESTIONS = [
       "Ralph Doubell"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Herb Elliott.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Herb Elliott** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Herb Elliott.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Herb Elliott is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11976,8 +11976,8 @@ export const ALL_QUESTIONS = [
       "Merv Lincoln"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is John Landy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **John Landy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is John Landy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** John Landy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -11991,8 +11991,8 @@ export const ALL_QUESTIONS = [
       "Peter Thomson"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Greg Norman.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Greg Norman** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Greg Norman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Greg Norman is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12006,8 +12006,8 @@ export const ALL_QUESTIONS = [
       "Geoff Ogilvy"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Adam Scott.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Adam Scott** is the essential takeaway for this question.",
+    "explanation": "Adam Scott won the Masters Tournament at Augusta National in 2013, becoming the first Australian to wear the Green Jacket.",
+    "tip": "\ud83d\udca1 **Green Jacket:** Scott won in a rainy playoff yelling 'C'mon Aussie!' on the 10th green.",
     "difficulty": "Medium"
   },
   {
@@ -12021,8 +12021,8 @@ export const ALL_QUESTIONS = [
       "Adam Scott"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Peter Thomson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Thomson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Peter Thomson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Peter Thomson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12036,8 +12036,8 @@ export const ALL_QUESTIONS = [
       "Peter Pan"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Archer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Archer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Archer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Archer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12051,8 +12051,8 @@ export const ALL_QUESTIONS = [
       "Tulloch"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Phar Lap.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Phar Lap** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Phar Lap.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Phar Lap is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12066,8 +12066,8 @@ export const ALL_QUESTIONS = [
       "Winx"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Makybe Diva.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Makybe Diva** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Makybe Diva.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Makybe Diva is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12081,8 +12081,8 @@ export const ALL_QUESTIONS = [
       "Sunline"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Black Caviar.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Black Caviar** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Black Caviar.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Black Caviar is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12096,8 +12096,8 @@ export const ALL_QUESTIONS = [
       "Sunline"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Winx.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Winx** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Winx.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Winx is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12111,8 +12111,8 @@ export const ALL_QUESTIONS = [
       "Kingston Town"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Winx.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Winx** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Winx.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Winx is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12126,8 +12126,8 @@ export const ALL_QUESTIONS = [
       "So You Think"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Kingston Town.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kingston Town** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kingston Town.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kingston Town is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12141,8 +12141,8 @@ export const ALL_QUESTIONS = [
       "The Trans-Tasman Trophy"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Ashes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Ashes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Ashes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Ashes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12156,8 +12156,8 @@ export const ALL_QUESTIONS = [
       "Craig McDermott"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Shane Warne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Shane Warne** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Shane Warne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Shane Warne is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12171,8 +12171,8 @@ export const ALL_QUESTIONS = [
       "Dennis Lillee"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Shane Warne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Shane Warne** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Shane Warne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Shane Warne is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12186,8 +12186,8 @@ export const ALL_QUESTIONS = [
       "Brett Lee"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Glenn McGrath.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Glenn McGrath** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Glenn McGrath.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Glenn McGrath is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12201,8 +12201,8 @@ export const ALL_QUESTIONS = [
       "Ricky Ponting"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Sir Donald Bradman.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Donald Bradman** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Donald Bradman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Donald Bradman is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12216,8 +12216,8 @@ export const ALL_QUESTIONS = [
       "Justin Langer"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Matthew Hayden.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Matthew Hayden** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Matthew Hayden.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Matthew Hayden is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12231,8 +12231,8 @@ export const ALL_QUESTIONS = [
       "Allan Border"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Mark Taylor.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mark Taylor** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mark Taylor.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mark Taylor is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12246,8 +12246,8 @@ export const ALL_QUESTIONS = [
       "Mark Taylor"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Steve Waugh.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Steve Waugh** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Steve Waugh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Steve Waugh is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12261,8 +12261,8 @@ export const ALL_QUESTIONS = [
       "Steve Smith"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ricky Ponting.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ricky Ponting** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ricky Ponting.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ricky Ponting is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12276,8 +12276,8 @@ export const ALL_QUESTIONS = [
       "Sydney Roosters"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Brisbane Broncos.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Brisbane Broncos** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Brisbane Broncos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Brisbane Broncos is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12291,8 +12291,8 @@ export const ALL_QUESTIONS = [
       "Newcastle Knights"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Melbourne Storm.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Melbourne Storm** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Melbourne Storm.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Melbourne Storm is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12306,8 +12306,8 @@ export const ALL_QUESTIONS = [
       "Balmain Tigers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is St. George Dragons.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **St. George Dragons** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is St. George Dragons.",
+    "tip": "\ud83d\udca1 **Trivia Key:** St. George Dragons is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12321,8 +12321,8 @@ export const ALL_QUESTIONS = [
       "Balmain Tigers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is South Sydney Rabbitohs.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **South Sydney Rabbitohs** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is South Sydney Rabbitohs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** South Sydney Rabbitohs is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12336,8 +12336,8 @@ export const ALL_QUESTIONS = [
       "Leigh Matthews Trophy"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Brownlow Medal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Brownlow Medal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Brownlow Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Brownlow Medal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12351,8 +12351,8 @@ export const ALL_QUESTIONS = [
       "Jock McHale Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Norm Smith Medal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Norm Smith Medal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Norm Smith Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Norm Smith Medal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12366,8 +12366,8 @@ export const ALL_QUESTIONS = [
       "Leigh Matthews Trophy"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Coleman Medal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Coleman Medal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Coleman Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Coleman Medal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12381,8 +12381,8 @@ export const ALL_QUESTIONS = [
       "Provan-Summons Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Dally M Medal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Dally M Medal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Dally M Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Dally M Medal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12396,8 +12396,8 @@ export const ALL_QUESTIONS = [
       "Sunderland Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Clive Churchill Medal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Clive Churchill Medal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Clive Churchill Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Clive Churchill Medal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12411,8 +12411,8 @@ export const ALL_QUESTIONS = [
       "Arthur Beetson Medal"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Wally Lewis Medal.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Wally Lewis Medal** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Wally Lewis Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Wally Lewis Medal is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12426,8 +12426,8 @@ export const ALL_QUESTIONS = [
       "ACT"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Queensland Maroons.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Queensland Maroons** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Queensland Maroons.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Queensland Maroons is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12441,8 +12441,8 @@ export const ALL_QUESTIONS = [
       "1985"
     ],
     "answer": 0,
-    "explanation": "1980 is the exact year in which this historic event took place.",
-    "tip": "\ud83d\udca1 **Key Date:** Remember **1980** as the year of this historic milestone.",
+    "explanation": "This historic event took place in the year 1980.",
+    "tip": "\ud83d\udca1 **Year:** 1980 is the key date to remember for this event.",
     "difficulty": "Medium"
   },
   {
@@ -12456,8 +12456,8 @@ export const ALL_QUESTIONS = [
       "Alisa Camplin"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Steven Bradbury.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Steven Bradbury** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Steven Bradbury.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Steven Bradbury is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12471,8 +12471,8 @@ export const ALL_QUESTIONS = [
       "Lydia Lassila"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Alisa Camplin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Alisa Camplin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Alisa Camplin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Alisa Camplin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12486,8 +12486,8 @@ export const ALL_QUESTIONS = [
       "Zali Steggall"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Torah Bright.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Torah Bright** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Torah Bright.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Torah Bright is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12501,8 +12501,8 @@ export const ALL_QUESTIONS = [
       "Kirstie Marshall"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Zali Steggall.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Zali Steggall** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Zali Steggall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Zali Steggall is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12516,8 +12516,8 @@ export const ALL_QUESTIONS = [
       "Richie Porte"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Cadel Evans.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cadel Evans** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cadel Evans.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cadel Evans is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12531,8 +12531,8 @@ export const ALL_QUESTIONS = [
       "Mark Webber"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Sir Jack Brabham.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Jack Brabham** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sir Jack Brabham.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sir Jack Brabham is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12546,8 +12546,8 @@ export const ALL_QUESTIONS = [
       "Mark Webber"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Alan Jones.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Alan Jones** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Alan Jones.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Alan Jones is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12561,8 +12561,8 @@ export const ALL_QUESTIONS = [
       "Allan Moffat"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Peter Brock.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Brock** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Peter Brock.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Peter Brock is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12576,8 +12576,8 @@ export const ALL_QUESTIONS = [
       "Mark Skaife"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Craig Lowndes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Craig Lowndes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Craig Lowndes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Craig Lowndes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12591,8 +12591,8 @@ export const ALL_QUESTIONS = [
       "John Landy"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ralph Doubell.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ralph Doubell** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ralph Doubell.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ralph Doubell is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12606,8 +12606,8 @@ export const ALL_QUESTIONS = [
       "Chilla Porter"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Charles Porter.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Charles Porter** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Charles Porter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Charles Porter is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12621,8 +12621,8 @@ export const ALL_QUESTIONS = [
       "Kurtis Marschall"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Steve Hooker.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Steve Hooker** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Steve Hooker.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Steve Hooker is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12636,8 +12636,8 @@ export const ALL_QUESTIONS = [
       "Henry Frayne"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Fabrice Lapierre.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fabrice Lapierre** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fabrice Lapierre.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fabrice Lapierre is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12651,8 +12651,8 @@ export const ALL_QUESTIONS = [
       "Dane Bird-Smith"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Jared Tallent.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jared Tallent** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jared Tallent.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jared Tallent is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12666,8 +12666,8 @@ export const ALL_QUESTIONS = [
       "James Magnussen"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Kyle Chalmers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kyle Chalmers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kyle Chalmers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kyle Chalmers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12681,8 +12681,8 @@ export const ALL_QUESTIONS = [
       "Jack McLoughlin"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Mack Horton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mack Horton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mack Horton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mack Horton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12696,8 +12696,8 @@ export const ALL_QUESTIONS = [
       "Cate Campbell"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ariarne Titmus.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ariarne Titmus** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ariarne Titmus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ariarne Titmus is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12711,8 +12711,8 @@ export const ALL_QUESTIONS = [
       "Cate Campbell"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Emma McKeon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Emma McKeon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Emma McKeon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Emma McKeon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12726,8 +12726,8 @@ export const ALL_QUESTIONS = [
       "Emily Seebohm"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Kaylee McKeown.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kaylee McKeown** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kaylee McKeown.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kaylee McKeown is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12741,8 +12741,8 @@ export const ALL_QUESTIONS = [
       "Duncan Free"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is James Tomkins, Drew Ginn, Nick Green, Mike McKay.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **James Tomkins, Drew Ginn, Nick Green, Mike McKay** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is James Tomkins, Drew Ginn, Nick Green, Mike McKay.",
+    "tip": "\ud83d\udca1 **Trivia Key:** James Tomkins, Drew Ginn, Nick Green, Mike McKay is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12756,8 +12756,8 @@ export const ALL_QUESTIONS = [
       "Joshua Dunkley-Smith"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Drew Ginn and Duncan Free.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Drew Ginn and Duncan Free** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Drew Ginn and Duncan Free.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Drew Ginn and Duncan Free is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12771,8 +12771,8 @@ export const ALL_QUESTIONS = [
       "Bede Murray"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is David Crawshay and Scott Brennan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **David Crawshay and Scott Brennan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is David Crawshay and Scott Brennan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** David Crawshay and Scott Brennan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12786,8 +12786,8 @@ export const ALL_QUESTIONS = [
       "Iain Jensen"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Tom Slingsby & Tom Burton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tom Slingsby & Tom Burton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tom Slingsby & Tom Burton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tom Slingsby & Tom Burton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12801,8 +12801,8 @@ export const ALL_QUESTIONS = [
       "Iain Jensen"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Mathew Belcher.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mathew Belcher** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mathew Belcher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mathew Belcher is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12816,8 +12816,8 @@ export const ALL_QUESTIONS = [
       "Saya Sakakibara"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Logan Martin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Logan Martin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Logan Martin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Logan Martin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12831,8 +12831,8 @@ export const ALL_QUESTIONS = [
       "Arisa Trew"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Keegan Palmer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Keegan Palmer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Keegan Palmer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Keegan Palmer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12846,8 +12846,8 @@ export const ALL_QUESTIONS = [
       "Clint Robinson"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Jessica Fox.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jessica Fox** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jessica Fox.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jessica Fox is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12861,8 +12861,8 @@ export const ALL_QUESTIONS = [
       "Thomas Green"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Clint Robinson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Clint Robinson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Clint Robinson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Clint Robinson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12876,8 +12876,8 @@ export const ALL_QUESTIONS = [
       "Jean van der Westhuyzen"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ken Wallace.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ken Wallace** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ken Wallace.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ken Wallace is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12891,8 +12891,8 @@ export const ALL_QUESTIONS = [
       "Riley Fitzsimmons and Jordan Wood"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Thomas Green and Jean van der Westhuyzen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Green and Jean van der Westhuyzen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thomas Green and Jean van der Westhuyzen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thomas Green and Jean van der Westhuyzen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12906,8 +12906,8 @@ export const ALL_QUESTIONS = [
       "The Pearls"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Aussie Stingers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Aussie Stingers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Aussie Stingers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Aussie Stingers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12921,8 +12921,8 @@ export const ALL_QUESTIONS = [
       "The Stingers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Opals.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Opals** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Opals.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Opals is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12936,8 +12936,8 @@ export const ALL_QUESTIONS = [
       "The Pearls"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Australian Diamonds.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Australian Diamonds** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Australian Diamonds.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Australian Diamonds is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12951,8 +12951,8 @@ export const ALL_QUESTIONS = [
       "The Wallaroos"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Matildas.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Matildas** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Matildas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Matildas is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12966,8 +12966,8 @@ export const ALL_QUESTIONS = [
       "The Wallabies"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Socceroos.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Socceroos** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Socceroos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Socceroos is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12981,8 +12981,8 @@ export const ALL_QUESTIONS = [
       "The Wallabies"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Boomers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Boomers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Boomers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Boomers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -12996,8 +12996,8 @@ export const ALL_QUESTIONS = [
       "The Boomers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Wallabies.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Wallabies** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Wallabies.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Wallabies is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13011,8 +13011,8 @@ export const ALL_QUESTIONS = [
       "The Boomers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Kangaroos.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Kangaroos** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Kangaroos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Kangaroos is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13026,8 +13026,8 @@ export const ALL_QUESTIONS = [
       "The Boomers"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Kookaburras.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Kookaburras** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Kookaburras.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Kookaburras is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13041,8 +13041,8 @@ export const ALL_QUESTIONS = [
       "The Diamonds"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is The Hockeyroos.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Hockeyroos** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Hockeyroos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Hockeyroos is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13056,8 +13056,8 @@ export const ALL_QUESTIONS = [
       "David Warner"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ricky Ponting.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ricky Ponting** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ricky Ponting.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ricky Ponting is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13071,8 +13071,8 @@ export const ALL_QUESTIONS = [
       "Mark Taylor"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Allan Border.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Allan Border** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Allan Border.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Allan Border is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13086,8 +13086,8 @@ export const ALL_QUESTIONS = [
       "Brad Haddin"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Adam Gilchrist.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Adam Gilchrist** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Adam Gilchrist.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Adam Gilchrist is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13101,8 +13101,8 @@ export const ALL_QUESTIONS = [
       "Wally Grout"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ian Healy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ian Healy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ian Healy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ian Healy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13116,8 +13116,8 @@ export const ALL_QUESTIONS = [
       "Wally Grout"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Rod Marsh.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rod Marsh** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rod Marsh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rod Marsh is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13131,8 +13131,8 @@ export const ALL_QUESTIONS = [
       "Craig McDermott"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Dennis Lillee.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Dennis Lillee** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Dennis Lillee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Dennis Lillee is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13146,8 +13146,8 @@ export const ALL_QUESTIONS = [
       "Rodney Hogg"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Jeff Thomson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jeff Thomson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jeff Thomson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jeff Thomson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13161,8 +13161,8 @@ export const ALL_QUESTIONS = [
       "Craig McDermott"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Mitchell Johnson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mitchell Johnson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mitchell Johnson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mitchell Johnson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13176,8 +13176,8 @@ export const ALL_QUESTIONS = [
       "Brett Lee"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Mitchell Johnson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mitchell Johnson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mitchell Johnson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mitchell Johnson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13191,8 +13191,8 @@ export const ALL_QUESTIONS = [
       "Brett Lee"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Mitchell Starc.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mitchell Starc** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mitchell Starc.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mitchell Starc is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13206,8 +13206,8 @@ export const ALL_QUESTIONS = [
       "Stuart MacGill"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Nathan Lyon.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nathan Lyon** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nathan Lyon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nathan Lyon is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13221,8 +13221,8 @@ export const ALL_QUESTIONS = [
       "Brad Hogg"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Stuart MacGill.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Stuart MacGill** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Stuart MacGill.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Stuart MacGill is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13236,8 +13236,8 @@ export const ALL_QUESTIONS = [
       "Matthew Hayden"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Ricky Ponting.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ricky Ponting** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ricky Ponting.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ricky Ponting is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13251,8 +13251,8 @@ export const ALL_QUESTIONS = [
       "Bill Lawry and Bob Simpson"
     ],
     "answer": 0,
-    "explanation": "In sports, the correct answer to this question is Matthew Hayden and Justin Langer.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Matthew Hayden and Justin Langer** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Matthew Hayden and Justin Langer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Matthew Hayden and Justin Langer is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13266,8 +13266,8 @@ export const ALL_QUESTIONS = [
       "Fremantle Australia"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Working Dog Productions.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Working Dog Productions** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Working Dog Productions.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Working Dog Productions is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13281,8 +13281,8 @@ export const ALL_QUESTIONS = [
       "Hacksaw Ridge"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Mad Max: Fury Road.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mad Max: Fury Road** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mad Max: Fury Road.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mad Max: Fury Road is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13296,8 +13296,8 @@ export const ALL_QUESTIONS = [
       "Eric Bana"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Heath Ledger.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Heath Ledger** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Heath Ledger.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Heath Ledger is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13311,8 +13311,8 @@ export const ALL_QUESTIONS = [
       "Toni Collette"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Cate Blanchett.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cate Blanchett** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cate Blanchett.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cate Blanchett is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13326,8 +13326,8 @@ export const ALL_QUESTIONS = [
       "Judy Davis"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Nicole Kidman.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Nicole Kidman** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Nicole Kidman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Nicole Kidman is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13341,8 +13341,8 @@ export const ALL_QUESTIONS = [
       "Guy Pearce"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Russell Crowe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Russell Crowe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Russell Crowe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Russell Crowe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13356,8 +13356,8 @@ export const ALL_QUESTIONS = [
       "Hugo Weaving"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Geoffrey Rush.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Geoffrey Rush** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Geoffrey Rush.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Geoffrey Rush is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13371,8 +13371,8 @@ export const ALL_QUESTIONS = [
       "Helpmann Awards"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Logie Awards.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Logie Awards** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Logie Awards.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Logie Awards is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13386,8 +13386,8 @@ export const ALL_QUESTIONS = [
       "Tamworth Awards"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The ARIA Awards.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The ARIA Awards** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The ARIA Awards.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The ARIA Awards is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13401,8 +13401,8 @@ export const ALL_QUESTIONS = [
       "Moran Prize"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Archibald Prize.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Archibald Prize** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Archibald Prize.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Archibald Prize is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13416,8 +13416,8 @@ export const ALL_QUESTIONS = [
       "Dobell Prize"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Wynne Prize.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Wynne Prize** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Wynne Prize.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Wynne Prize is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13431,8 +13431,8 @@ export const ALL_QUESTIONS = [
       "Ramsay Prize"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Sulman Prize.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Sulman Prize** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Sulman Prize.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Sulman Prize is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13446,8 +13446,8 @@ export const ALL_QUESTIONS = [
       "Midnight Oil"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is AC/DC.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **AC/DC** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is AC/DC.",
+    "tip": "\ud83d\udca1 **Trivia Key:** AC/DC is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13461,8 +13461,8 @@ export const ALL_QUESTIONS = [
       "Men at Work"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is INXS.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **INXS** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is INXS.",
+    "tip": "\ud83d\udca1 **Trivia Key:** INXS is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13476,8 +13476,8 @@ export const ALL_QUESTIONS = [
       "Hoodoo Gurus"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Midnight Oil.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Midnight Oil** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Midnight Oil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Midnight Oil is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13491,8 +13491,8 @@ export const ALL_QUESTIONS = [
       "Australian Crawl"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Cold Chisel.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Cold Chisel** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Cold Chisel.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Cold Chisel is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13506,8 +13506,8 @@ export const ALL_QUESTIONS = [
       "Little River Band"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Seekers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Seekers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Seekers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Seekers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13521,8 +13521,8 @@ export const ALL_QUESTIONS = [
       "Daddy Cool"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Easybeats.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Easybeats** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Easybeats.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Easybeats is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13536,8 +13536,8 @@ export const ALL_QUESTIONS = [
       "Little River Band"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Bee Gees.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Bee Gees** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Bee Gees.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Bee Gees is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13551,8 +13551,8 @@ export const ALL_QUESTIONS = [
       "Crowded House"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Men at Work.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Men at Work** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Men at Work.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Men at Work is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13566,8 +13566,8 @@ export const ALL_QUESTIONS = [
       "Go-Betweens"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Crowded House.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Crowded House** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Crowded House.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Crowded House is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13581,8 +13581,8 @@ export const ALL_QUESTIONS = [
       "Natalie Imbruglia"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Kylie Minogue.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kylie Minogue** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kylie Minogue.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kylie Minogue is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13596,8 +13596,8 @@ export const ALL_QUESTIONS = [
       "Tones and I"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Delta Goodrem.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Delta Goodrem** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Delta Goodrem.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Delta Goodrem is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13611,8 +13611,8 @@ export const ALL_QUESTIONS = [
       "Vance Joy"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Sia.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sia** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sia is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13626,8 +13626,8 @@ export const ALL_QUESTIONS = [
       "Mallrat"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Tones and I.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tones and I** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tones and I.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tones and I is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13641,8 +13641,8 @@ export const ALL_QUESTIONS = [
       "Matt Corby"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Vance Joy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Vance Joy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Vance Joy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Vance Joy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13656,8 +13656,8 @@ export const ALL_QUESTIONS = [
       "Flume"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Gotye.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gotye** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gotye.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gotye is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13671,8 +13671,8 @@ export const ALL_QUESTIONS = [
       "Pnau"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Flume.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Flume** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Flume.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Flume is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13686,8 +13686,8 @@ export const ALL_QUESTIONS = [
       "Blue Heelers"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Neighbours.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Neighbours** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Neighbours.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Neighbours is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13701,8 +13701,8 @@ export const ALL_QUESTIONS = [
       "Packed to the Rafters"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Home and Away.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Home and Away** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Home and Away.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Home and Away is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13716,8 +13716,8 @@ export const ALL_QUESTIONS = [
       "Ada Nicodemou"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Ray Meagher.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ray Meagher** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ray Meagher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ray Meagher is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13731,8 +13731,8 @@ export const ALL_QUESTIONS = [
       "All Saints"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is A Country Practice.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **A Country Practice** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is A Country Practice.",
+    "tip": "\ud83d\udca1 **Trivia Key:** A Country Practice is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13746,8 +13746,8 @@ export const ALL_QUESTIONS = [
       "Rush"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Blue Heelers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Blue Heelers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Blue Heelers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Blue Heelers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13761,8 +13761,8 @@ export const ALL_QUESTIONS = [
       "Magda Szubanski"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Jane Turner and Gina Riley.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jane Turner and Gina Riley** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jane Turner and Gina Riley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jane Turner and Gina Riley is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13776,8 +13776,8 @@ export const ALL_QUESTIONS = [
       "Julia Morris"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Kitty Flanagan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kitty Flanagan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kitty Flanagan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kitty Flanagan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13791,8 +13791,8 @@ export const ALL_QUESTIONS = [
       "Matchbox Pictures"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Working Dog Productions.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Working Dog Productions** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Working Dog Productions.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Working Dog Productions is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13806,8 +13806,8 @@ export const ALL_QUESTIONS = [
       "Strictly Ballroom"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Castle.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Castle** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Castle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Castle is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13821,8 +13821,8 @@ export const ALL_QUESTIONS = [
       "Strictly Ballroom"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Crocodile Dundee.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Crocodile Dundee** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Crocodile Dundee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Crocodile Dundee is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13836,8 +13836,8 @@ export const ALL_QUESTIONS = [
       "Babe"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Mad Max.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mad Max** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mad Max.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mad Max is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13851,8 +13851,8 @@ export const ALL_QUESTIONS = [
       "Peter Rabbit"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Babe.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Babe** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Babe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Babe is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13866,8 +13866,8 @@ export const ALL_QUESTIONS = [
       "Rango"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Happy Feet.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Happy Feet** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Happy Feet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Happy Feet is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13881,8 +13881,8 @@ export const ALL_QUESTIONS = [
       "The Great Gatsby"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Strictly Ballroom.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Strictly Ballroom** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Strictly Ballroom.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Strictly Ballroom is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13896,8 +13896,8 @@ export const ALL_QUESTIONS = [
       "La La Land"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Moulin Rouge!.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Moulin Rouge!** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Moulin Rouge!.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Moulin Rouge! is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13911,8 +13911,8 @@ export const ALL_QUESTIONS = [
       "Sirens"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Adventures of Priscilla, Queen of the Desert.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Adventures of Priscilla, Queen of the Desert** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Adventures of Priscilla, Queen of the Desert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Adventures of Priscilla, Queen of the Desert is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13926,8 +13926,8 @@ export const ALL_QUESTIONS = [
       "Strictly Ballroom"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Muriel's Wedding.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Muriel's Wedding** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Muriel's Wedding.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Muriel's Wedding is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13941,8 +13941,8 @@ export const ALL_QUESTIONS = [
       "Red Dog"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Dish.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Dish** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Dish.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Dish is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13956,8 +13956,8 @@ export const ALL_QUESTIONS = [
       "Rams"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Red Dog.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Red Dog** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Red Dog.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Red Dog is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13971,8 +13971,8 @@ export const ALL_QUESTIONS = [
       "Singin' in the Rain"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Citizen Kane.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Citizen Kane** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Citizen Kane.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Citizen Kane is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -13986,8 +13986,8 @@ export const ALL_QUESTIONS = [
       "The Maltese Falcon"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Casablanca.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Casablanca** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Casablanca.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Casablanca is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14001,8 +14001,8 @@ export const ALL_QUESTIONS = [
       "Taxi Driver"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Godfather.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Godfather** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Godfather.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Godfather is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14016,8 +14016,8 @@ export const ALL_QUESTIONS = [
       "Alien"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Star Wars: Episode IV - A New Hope.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Star Wars: Episode IV - A New Hope** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Star Wars: Episode IV - A New Hope.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Star Wars: Episode IV - A New Hope is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14031,8 +14031,8 @@ export const ALL_QUESTIONS = [
       "The Pianist"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Schindler's List.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Schindler's List** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Schindler's List.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Schindler's List is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14046,8 +14046,8 @@ export const ALL_QUESTIONS = [
       "Ben-Hur"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Titanic.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Titanic** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Titanic.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Titanic is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14061,8 +14061,8 @@ export const ALL_QUESTIONS = [
       "Gladiator"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Lord of the Rings: The Return of the King.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Lord of the Rings: The Return of the King** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Lord of the Rings: The Return of the King.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Lord of the Rings: The Return of the King is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14076,8 +14076,8 @@ export const ALL_QUESTIONS = [
       "Star Wars: The Force Awakens"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Avatar.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Avatar** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Avatar.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Avatar is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14091,8 +14091,8 @@ export const ALL_QUESTIONS = [
       "Mary Poppins"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Wizard of Oz.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Wizard of Oz** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Wizard of Oz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Wizard of Oz is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14106,8 +14106,8 @@ export const ALL_QUESTIONS = [
       "Oliver!"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Sound of Music.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Sound of Music** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Sound of Music.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Sound of Music is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14121,8 +14121,8 @@ export const ALL_QUESTIONS = [
       "Led Zeppelin"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Beatles.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Beatles** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Beatles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Beatles is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14136,8 +14136,8 @@ export const ALL_QUESTIONS = [
       "The Kinks"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Rolling Stones.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Rolling Stones** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Rolling Stones.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Rolling Stones is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14151,8 +14151,8 @@ export const ALL_QUESTIONS = [
       "Deep Purple"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Queen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Queen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Queen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Queen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14166,8 +14166,8 @@ export const ALL_QUESTIONS = [
       "Yes"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Pink Floyd.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Pink Floyd** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Pink Floyd.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Pink Floyd is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14181,8 +14181,8 @@ export const ALL_QUESTIONS = [
       "The Who"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Led Zeppelin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Led Zeppelin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Led Zeppelin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Led Zeppelin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14196,8 +14196,8 @@ export const ALL_QUESTIONS = [
       "Elvis Presley"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Michael Jackson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Michael Jackson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Michael Jackson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Michael Jackson is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14211,8 +14211,8 @@ export const ALL_QUESTIONS = [
       "Little Richard"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Elvis Presley.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Elvis Presley** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Elvis Presley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Elvis Presley is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14226,8 +14226,8 @@ export const ALL_QUESTIONS = [
       "Leonard Cohen"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Bob Dylan.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bob Dylan** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bob Dylan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bob Dylan is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14241,8 +14241,8 @@ export const ALL_QUESTIONS = [
       "Neil Young"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Bruce Springsteen.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bruce Springsteen** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bruce Springsteen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bruce Springsteen is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14256,8 +14256,8 @@ export const ALL_QUESTIONS = [
       "Peter Combe"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Wiggles.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Wiggles** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Wiggles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Wiggles is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14271,8 +14271,8 @@ export const ALL_QUESTIONS = [
       "Bananas in Pyjamas"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Play School.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Play School** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Play School.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Play School is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14286,8 +14286,8 @@ export const ALL_QUESTIONS = [
       "Blinky Bill"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Bluey.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bluey** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bluey.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bluey is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14301,8 +14301,8 @@ export const ALL_QUESTIONS = [
       "Adam Zwar"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is David McCormack.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **David McCormack** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is David McCormack.",
+    "tip": "\ud83d\udca1 **Trivia Key:** David McCormack is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14316,8 +14316,8 @@ export const ALL_QUESTIONS = [
       "Myf Warhurst"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Melanie Zanetti.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Melanie Zanetti** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Melanie Zanetti.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Melanie Zanetti is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14331,8 +14331,8 @@ export const ALL_QUESTIONS = [
       "Matt & Alex"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Hamish & Andy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hamish & Andy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hamish & Andy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hamish & Andy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14346,8 +14346,8 @@ export const ALL_QUESTIONS = [
       "The Chaser"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Roy & HG.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Roy & HG** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Roy & HG.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Roy & HG is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14361,8 +14361,8 @@ export const ALL_QUESTIONS = [
       "The D-Generation"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Chaser.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Chaser** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Chaser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Chaser is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14376,8 +14376,8 @@ export const ALL_QUESTIONS = [
       "Comedy Company"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The D-Generation.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The D-Generation** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The D-Generation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The D-Generation is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14391,8 +14391,8 @@ export const ALL_QUESTIONS = [
       "Comedy Company"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Fast Forward.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Fast Forward** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Fast Forward.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Fast Forward is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14406,8 +14406,8 @@ export const ALL_QUESTIONS = [
       "Full Frontal"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Comedy Company.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Comedy Company** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Comedy Company.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Comedy Company is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14421,8 +14421,8 @@ export const ALL_QUESTIONS = [
       "Gruen"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Good News Week.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Good News Week** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Good News Week.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Good News Week is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14436,8 +14436,8 @@ export const ALL_QUESTIONS = [
       "Hard Quiz"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Gruen (The Gruen Transfer).",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gruen (The Gruen Transfer)** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gruen (The Gruen Transfer).",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gruen (The Gruen Transfer) is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14451,8 +14451,8 @@ export const ALL_QUESTIONS = [
       "Spicks and Specks"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Hard Quiz.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hard Quiz** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hard Quiz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hard Quiz is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14466,8 +14466,8 @@ export const ALL_QUESTIONS = [
       "Good News Week"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Spicks and Specks.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Spicks and Specks** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Spicks and Specks.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Spicks and Specks is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14481,8 +14481,8 @@ export const ALL_QUESTIONS = [
       "Good News Week"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is RocKwiz.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **RocKwiz** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is RocKwiz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** RocKwiz is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14496,8 +14496,8 @@ export const ALL_QUESTIONS = [
       "Kerry O'Brien"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is David Speers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **David Speers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is David Speers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** David Speers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14511,8 +14511,8 @@ export const ALL_QUESTIONS = [
       "Annabel Crabb"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Leigh Sales.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Leigh Sales** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Leigh Sales.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Leigh Sales is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14526,8 +14526,8 @@ export const ALL_QUESTIONS = [
       "Paul Barry"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Kerry O'Brien.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kerry O'Brien** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kerry O'Brien.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kerry O'Brien is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14541,8 +14541,8 @@ export const ALL_QUESTIONS = [
       "Laura Tingle"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Annabel Crabb.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Annabel Crabb** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Annabel Crabb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Annabel Crabb is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14556,8 +14556,8 @@ export const ALL_QUESTIONS = [
       "Foreign Correspondent"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Media Watch.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Media Watch** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Media Watch.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Media Watch is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14571,8 +14571,8 @@ export const ALL_QUESTIONS = [
       "Foreign Correspondent"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Four Corners.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Four Corners** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Four Corners.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Four Corners is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14586,8 +14586,8 @@ export const ALL_QUESTIONS = [
       "Sunday"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is 60 Minutes.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **60 Minutes** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is 60 Minutes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** 60 Minutes is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14601,8 +14601,8 @@ export const ALL_QUESTIONS = [
       "Grant Denyer"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Eddie McGuire.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Eddie McGuire** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Eddie McGuire.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Eddie McGuire is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14616,8 +14616,8 @@ export const ALL_QUESTIONS = [
       "Graham Kennedy"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Daryl Somers.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Daryl Somers** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Daryl Somers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Daryl Somers is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14631,8 +14631,8 @@ export const ALL_QUESTIONS = [
       "Daryl Somers"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Graham Kennedy.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Graham Kennedy** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Graham Kennedy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Graham Kennedy is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14646,8 +14646,8 @@ export const ALL_QUESTIONS = [
       "Mike Walsh"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Bert Newton.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bert Newton** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bert Newton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bert Newton is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14661,8 +14661,8 @@ export const ALL_QUESTIONS = [
       "Mike Walsh"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Don Lane.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Don Lane** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Don Lane.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Don Lane is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14676,8 +14676,8 @@ export const ALL_QUESTIONS = [
       "Daryl Somers"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Mike Walsh.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mike Walsh** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mike Walsh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mike Walsh is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14691,8 +14691,8 @@ export const ALL_QUESTIONS = [
       "Derryn Hinch"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Ray Martin.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Ray Martin** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Ray Martin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Ray Martin is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14706,8 +14706,8 @@ export const ALL_QUESTIONS = [
       "Tracy Grimshaw"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Kerri-Anne Kennerley.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Kerri-Anne Kennerley** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Kerri-Anne Kennerley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Kerri-Anne Kennerley is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14721,8 +14721,8 @@ export const ALL_QUESTIONS = [
       "Mike Willesee"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Tracy Grimshaw.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Tracy Grimshaw** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Tracy Grimshaw.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Tracy Grimshaw is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14736,8 +14736,8 @@ export const ALL_QUESTIONS = [
       "Ray Martin"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Mike Willesee.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Mike Willesee** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Mike Willesee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Mike Willesee is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14751,8 +14751,8 @@ export const ALL_QUESTIONS = [
       "Sarah Ferguson"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Jana Wendt.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jana Wendt** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jana Wendt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jana Wendt is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14766,8 +14766,8 @@ export const ALL_QUESTIONS = [
       "Tim Winton"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Thomas Keneally.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Keneally** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Thomas Keneally.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Thomas Keneally is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14781,8 +14781,8 @@ export const ALL_QUESTIONS = [
       "Fear and Loathing"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Truman Show.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Truman Show** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Truman Show.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Truman Show is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14796,8 +14796,8 @@ export const ALL_QUESTIONS = [
       "Phillip Noyce"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Peter Weir.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Weir** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Peter Weir.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Peter Weir is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14811,8 +14811,8 @@ export const ALL_QUESTIONS = [
       "Bruce Beresford"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Phillip Noyce.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Phillip Noyce** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Phillip Noyce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Phillip Noyce is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14826,8 +14826,8 @@ export const ALL_QUESTIONS = [
       "Gillian Armstrong"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Bruce Beresford.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Bruce Beresford** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Bruce Beresford.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Bruce Beresford is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14841,8 +14841,8 @@ export const ALL_QUESTIONS = [
       "Fred Schepisi"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Gillian Armstrong.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Gillian Armstrong** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Gillian Armstrong.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Gillian Armstrong is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14856,8 +14856,8 @@ export const ALL_QUESTIONS = [
       "Fran Walsh"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Jane Campion.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Jane Campion** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Jane Campion.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Jane Campion is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14871,8 +14871,8 @@ export const ALL_QUESTIONS = [
       "Bright Star"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is The Power of the Dog.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **The Power of the Dog** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is The Power of the Dog.",
+    "tip": "\ud83d\udca1 **Trivia Key:** The Power of the Dog is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14886,8 +14886,8 @@ export const ALL_QUESTIONS = [
       "Eric Bana"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Hugh Jackman.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Hugh Jackman** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Hugh Jackman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Hugh Jackman is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14901,8 +14901,8 @@ export const ALL_QUESTIONS = [
       "Hugh Jackman"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Chris Hemsworth.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Chris Hemsworth** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Chris Hemsworth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Chris Hemsworth is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14916,8 +14916,8 @@ export const ALL_QUESTIONS = [
       "Samara Weaving"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Margot Robbie.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Margot Robbie** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Margot Robbie.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Margot Robbie is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14931,8 +14931,8 @@ export const ALL_QUESTIONS = [
       "Sarah Snook"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Toni Collette.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Toni Collette** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Toni Collette.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Toni Collette is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14946,8 +14946,8 @@ export const ALL_QUESTIONS = [
       "Margot Robbie"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Sarah Snook.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Sarah Snook** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Sarah Snook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Sarah Snook is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14961,8 +14961,8 @@ export const ALL_QUESTIONS = [
       "Isla Fisher"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Rose Byrne.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rose Byrne** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rose Byrne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rose Byrne is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14976,8 +14976,8 @@ export const ALL_QUESTIONS = [
       "Margot Robbie"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Isla Fisher.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Isla Fisher** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Isla Fisher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Isla Fisher is the key answer to remember.",
     "difficulty": "Medium"
   },
   {
@@ -14991,8 +14991,8 @@ export const ALL_QUESTIONS = [
       "Kitty Flanagan"
     ],
     "answer": 0,
-    "explanation": "In pop culture, the correct answer to this question is Rebel Wilson.",
-    "tip": "\ud83d\udca1 **Trivia Key:** **Rebel Wilson** is the essential takeaway for this question.",
+    "explanation": "The correct answer for this trivia question is Rebel Wilson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** Rebel Wilson is the key answer to remember.",
     "difficulty": "Medium"
   }
 ];
