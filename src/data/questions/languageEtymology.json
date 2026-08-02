@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "lang_fact_1",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of owls?",
+    "options": [
+      "A parliament",
+      "A murder",
+      "A wisdom",
+      "A pod"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A parliament.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A parliament** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_2",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of crows?",
+    "options": [
+      "A murder",
+      "A parliament",
+      "A flock",
+      "A mob"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A murder.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A murder** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_3",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of ravens?",
+    "options": [
+      "An unkindness",
+      "A murder",
+      "A parliament",
+      "A flock"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is An unkindness.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **An unkindness** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_4",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of flamingos?",
+    "options": [
+      "A flamboyance",
+      "A flight",
+      "A murder",
+      "A colony"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A flamboyance.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A flamboyance** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_5",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of giraffes?",
+    "options": [
+      "A tower",
+      "A herd",
+      "A tallness",
+      "A flight"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A tower.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A tower** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_6",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of rhinoceroses?",
+    "options": [
+      "A crash",
+      "A herd",
+      "A stampede",
+      "A thundering"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A crash.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A crash** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_7",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of hedgehogs?",
+    "options": [
+      "A prickle",
+      "A prickly",
+      "A family",
+      "A nest"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A prickle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A prickle** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_8",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of jellyfish?",
+    "options": [
+      "A smack",
+      "A sting",
+      "A drift",
+      "A swarm"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A smack.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A smack** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_9",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of ferrets?",
+    "options": [
+      "A business",
+      "A gang",
+      "A pack",
+      "A scamper"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A business.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A business** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_10",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of foxes?",
+    "options": [
+      "A skulk",
+      "A slyness",
+      "A pack",
+      "A den"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A skulk.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A skulk** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_11",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of geese on land?",
+    "options": [
+      "A gaggle",
+      "A skein",
+      "A flight",
+      "A flock"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A gaggle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A gaggle** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_12",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of geese in flight?",
+    "options": [
+      "A skein",
+      "A gaggle",
+      "A flock",
+      "A V-shape"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A skein.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A skein** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_13",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of whales?",
+    "options": [
+      "A pod",
+      "A school",
+      "A herd",
+      "A family"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A pod.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A pod** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_14",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of dolphins?",
+    "options": [
+      "A pod",
+      "A school",
+      "A splash",
+      "A pack"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A pod.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A pod** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_15",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of lions?",
+    "options": [
+      "A pride",
+      "A roar",
+      "A pack",
+      "A troop"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A pride.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A pride** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_16",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of leopards?",
+    "options": [
+      "A leap",
+      "A pride",
+      "A spot",
+      "A stealth"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A leap.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A leap** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_17",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of monkeys?",
+    "options": [
+      "A troop",
+      "A tribe",
+      "A gang",
+      "A band"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A troop.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A troop** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_18",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of kangaroos?",
+    "options": [
+      "A mob",
+      "A troop",
+      "A bound",
+      "A herd"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A mob.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A mob** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_19",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of emus?",
+    "options": [
+      "A mob",
+      "A flock",
+      "A stride",
+      "A gang"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A mob.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A mob** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_20",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of wombats?",
+    "options": [
+      "A wisdom",
+      "A mob",
+      "A burrow",
+      "A heavy"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A wisdom.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A wisdom** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_21",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of larks?",
+    "options": [
+      "An exaltation",
+      "A flight",
+      "A song",
+      "A chatter"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is An exaltation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **An exaltation** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_22",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of starlings in flight?",
+    "options": [
+      "A murmuration",
+      "A swarm",
+      "A cloud",
+      "A flock"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A murmuration.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A murmuration** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_23",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of peacocks?",
+    "options": [
+      "An ostentation",
+      "A pride",
+      "A display",
+      "A feathering"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is An ostentation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **An ostentation** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_24",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of penguins on land?",
+    "options": [
+      "A waddle",
+      "A colony",
+      "A huddle",
+      "A pod"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A waddle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A waddle** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_25",
+    "category": "language",
+    "question": "What is the traditional collective noun for a group of penguins in water?",
+    "options": [
+      "A raft",
+      "A waddle",
+      "A drift",
+      "A pod"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A raft.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A raft** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_26",
+    "category": "language",
+    "question": "What does the Latin phrase 'in camera' mean in legal terms?",
+    "options": [
+      "In private / in a judge's chambers",
+      "Under video recording",
+      "In public court",
+      "Under sworn oath"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is In private / in a judge's chambers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **In private / in a judge's chambers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_27",
+    "category": "language",
+    "question": "What does the Latin phrase 'sub rosa' mean?",
+    "options": [
+      "In secret / under seal",
+      "Under rose bushes",
+      "In open view",
+      "With evidence"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is In secret / under seal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **In secret / under seal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_28",
+    "category": "language",
+    "question": "What does the Latin phrase 'amicus curiae' translate to?",
+    "options": [
+      "Friend of the court",
+      "Hostile witness",
+      "Chief judge",
+      "Jury foreman"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Friend of the court.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Friend of the court** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_29",
+    "category": "language",
+    "question": "What does the Latin phrase 'status quo' refer to?",
+    "options": [
+      "The existing state of affairs",
+      "A new precedent",
+      "An illegal act",
+      "A legal draft"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is The existing state of affairs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The existing state of affairs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_30",
+    "category": "language",
+    "question": "What does the Latin writ 'habeas corpus' literally mean?",
+    "options": [
+      "You shall have the body (protection against unlawful detention)",
+      "Autopsy report",
+      "Criminal sentence",
+      "Property deed"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is You shall have the body (protection against unlawful detention).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **You shall have the body (protection against unlawful detention)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_31",
+    "category": "language",
+    "question": "What does the Latin phrase 'bona fide' mean?",
+    "options": [
+      "In good faith / genuine",
+      "In bad faith",
+      "Unverified",
+      "Conditional"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is In good faith / genuine.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **In good faith / genuine** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_32",
+    "category": "language",
+    "question": "What does the Latin phrase 'de facto' mean?",
+    "options": [
+      "In fact / in reality",
+      "By right of law",
+      "Temporarily",
+      "Permanently"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is In fact / in reality.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **In fact / in reality** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_33",
+    "category": "language",
+    "question": "What does the Latin phrase 'de jure' mean?",
+    "options": [
+      "By right of law",
+      "In practice",
+      "Illegally",
+      "Informally"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is By right of law.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **By right of law** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_34",
+    "category": "language",
+    "question": "What does the Latin phrase 'pro bono' mean?",
+    "options": [
+      "For the public good (free of charge)",
+      "For high profit",
+      "By court order",
+      "For government"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is For the public good (free of charge).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **For the public good (free of charge)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_35",
+    "category": "language",
+    "question": "What does the Latin phrase 'ad hoc' mean?",
+    "options": [
+      "Created for a specific purpose",
+      "Permanent committee",
+      "Random selection",
+      "Annual event"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Created for a specific purpose.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Created for a specific purpose** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_36",
+    "category": "language",
+    "question": "What does the Latin phrase 'per se' mean?",
+    "options": [
+      "By or in itself",
+      "For example",
+      "In conclusion",
+      "As aforesaid"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is By or in itself.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **By or in itself** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_37",
+    "category": "language",
+    "question": "What does the Latin phrase 'alma mater' literally translate to?",
+    "options": [
+      "Bounteous mother (one's former university)",
+      "Maternal grandmother",
+      "First degree",
+      "School principal"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Bounteous mother (one's former university).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bounteous mother (one's former university)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_38",
+    "category": "language",
+    "question": "What does the Latin phrase 'persona non grata' mean?",
+    "options": [
+      "An unwelcome or unacceptable person",
+      "An anonymous donor",
+      "A VIP guest",
+      "A diplomatic envoy"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is An unwelcome or unacceptable person.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **An unwelcome or unacceptable person** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_39",
+    "category": "language",
+    "question": "What does the Latin phrase 'carpe diem' mean?",
+    "options": [
+      "Seize the day",
+      "Remember death",
+      "Beware of the dog",
+      "Great work"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Seize the day.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Seize the day** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_40",
+    "category": "language",
+    "question": "What does the Latin phrase 'memento mori' translate to?",
+    "options": [
+      "Remember that you must die",
+      "Seize the moment",
+      "Love conquers all",
+      "Peace be with you"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Remember that you must die.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Remember that you must die** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_41",
+    "category": "language",
+    "question": "What does the Latin legal warning 'caveat emptor' mean?",
+    "options": [
+      "Let the buyer beware",
+      "Let the seller beware",
+      "Cash on delivery",
+      "Buyer's remorse"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Let the buyer beware.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Let the buyer beware** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_42",
+    "category": "language",
+    "question": "What does the Latin phrase 'quid pro quo' mean?",
+    "options": [
+      "Something for something",
+      "Something for nothing",
+      "Without condition",
+      "A legal objection"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Something for something.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Something for something** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_43",
+    "category": "language",
+    "question": "What does the Latin phrase 'modus operandi' (M.O.) refer to?",
+    "options": [
+      "Method of operating",
+      "Mode of living",
+      "Criminal record",
+      "Motivations"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Method of operating.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Method of operating** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_44",
+    "category": "language",
+    "question": "What does the Latin phrase 'et cetera' (etc.) mean?",
+    "options": [
+      "And the rest / and so forth",
+      "For example",
+      "That is to say",
+      "In addition"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is And the rest / and so forth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **And the rest / and so forth** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_45",
+    "category": "language",
+    "question": "What does the Latin abbreviation 'e.g.' (exempli gratia) mean?",
+    "options": [
+      "For example",
+      "That is to say (i.e.)",
+      "Note well (N.B.)",
+      "Rest in peace"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is For example.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **For example** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_46",
+    "category": "language",
+    "question": "What does the Latin abbreviation 'i.e.' (id est) mean?",
+    "options": [
+      "That is / in other words",
+      "For example (e.g.)",
+      "Note well (N.B.)",
+      "Compare (cf.)"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is That is / in other words.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **That is / in other words** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_47",
+    "category": "language",
+    "question": "What does the Latin abbreviation 'N.B.' (nota bene) mean?",
+    "options": [
+      "Note well / pay close attention",
+      "For example",
+      "That is to say",
+      "No benchmark"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Note well / pay close attention.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Note well / pay close attention** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_48",
+    "category": "language",
+    "question": "Where does the term 'malapropism' originate?",
+    "options": [
+      "Mrs. Malaprop in Sheridan's 1775 play The Rivals",
+      "French word 'maladroit'",
+      "Latin 'malus proprius'",
+      "Shakespeare's Much Ado About Nothing"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Mrs. Malaprop in Sheridan's 1775 play The Rivals.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mrs. Malaprop in Sheridan's 1775 play The Rivals** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_49",
+    "category": "language",
+    "question": "Where does the word 'robot' originate?",
+    "options": [
+      "Czech word 'robota' (forced labor)",
+      "Greek word 'robotos'",
+      "Latin 'robor'",
+      "German 'Arbeiter'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Czech word 'robota' (forced labor).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Czech word 'robota' (forced labor)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_50",
+    "category": "language",
+    "question": "Where does the word 'boycott' originate?",
+    "options": [
+      "Captain Charles Boycott targeted in Ireland 1880",
+      "French town of Boycotte",
+      "Dutch verb 'boikotten'",
+      "Lord Boycott"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Captain Charles Boycott targeted in Ireland 1880.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Captain Charles Boycott targeted in Ireland 1880** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_51",
+    "category": "language",
+    "question": "Where does the term 'chauvinism' originate?",
+    "options": [
+      "Nicolas Chauvin, fanatical soldier of Napoleon",
+      "French word 'chauve'",
+      "Chaucer's Canterbury Tales",
+      "Lord Chauvin"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Nicolas Chauvin, fanatical soldier of Napoleon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nicolas Chauvin, fanatical soldier of Napoleon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_52",
+    "category": "language",
+    "question": "Where does the word 'quixotic' originate?",
+    "options": [
+      "Don Quixote, hero of Cervantes' 1605 novel",
+      "Greek god Quixote",
+      "Latin 'quid'",
+      "King Quixote"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Don Quixote, hero of Cervantes' 1605 novel.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Don Quixote, hero of Cervantes' 1605 novel** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_53",
+    "category": "language",
+    "question": "Where does the word 'silhouette' originate?",
+    "options": [
+      "\u00c9tienne de Silhouette, French finance minister",
+      "French painter Silhouette",
+      "Latin 'silva'",
+      "Italian 'siluetta'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is \u00c9tienne de Silhouette, French finance minister.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **\u00c9tienne de Silhouette, French finance minister** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_54",
+    "category": "language",
+    "question": "What emotion does the German word 'schadenfreude' describe?",
+    "options": [
+      "Pleasure derived from another's misfortune",
+      "Fear of open spaces",
+      "Feeling of nostalgia",
+      "Joy of traveling"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Pleasure derived from another's misfortune.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pleasure derived from another's misfortune** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_55",
+    "category": "language",
+    "question": "What does the German word 'doppelg\u00e4nger' refer to?",
+    "options": [
+      "A look-alike or double of a living person",
+      "A ghost haunting a castle",
+      "A twin born hours apart",
+      "A shadow puppet"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A look-alike or double of a living person.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A look-alike or double of a living person** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_56",
+    "category": "language",
+    "question": "What does the French phrase 'carte blanche' literally translate to?",
+    "options": [
+      "Blank card (complete freedom to act)",
+      "White map",
+      "First menu item",
+      "Playing card"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Blank card (complete freedom to act).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Blank card (complete freedom to act)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_57",
+    "category": "language",
+    "question": "What does the French phrase 'faux pas' refer to?",
+    "options": [
+      "False step (tactless social blunder)",
+      "False path",
+      "Fake pass",
+      "Wrong answer"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is False step (tactless social blunder).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **False step (tactless social blunder)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_58",
+    "category": "language",
+    "question": "What does the French phrase 'd\u00e9j\u00e0 vu' translate to?",
+    "options": [
+      "Already seen",
+      "Never seen",
+      "Always known",
+      "Dreamed before"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Already seen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Already seen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_59",
+    "category": "language",
+    "question": "What does the French phrase 't\u00eate-\u00e0-t\u00eate' mean?",
+    "options": [
+      "Head-to-head (private chat for two)",
+      "Hand-to-hand combat",
+      "Face-to-face meeting",
+      "Side-by-side"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Head-to-head (private chat for two).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Head-to-head (private chat for two)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_60",
+    "category": "language",
+    "question": "What quality does the Yiddish word 'chutzpah' describe?",
+    "options": [
+      "Audacity, nerve, or supreme self-confidence",
+      "Deep sorrow or grief",
+      "Bad luck or misfortune",
+      "Foolish silliness"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Audacity, nerve, or supreme self-confidence.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Audacity, nerve, or supreme self-confidence** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_61",
+    "category": "language",
+    "question": "What error involves transposing initial sounds of words (e.g., 'queer old dean')?",
+    "options": [
+      "Spoonerism",
+      "Onomatopoeia",
+      "Malapropism",
+      "Compound"
+    ],
+    "answer": 0,
+    "explanation": "A spoonerism is a humorous verbal slip in which corresponding consonants or vowels are transposed between two words, such as 'shoving leopard' for 'loving shepherd'.",
+    "tip": "\ud83d\udca1 **Dr. Spooner:** Named after Rev. William Archibald Spooner, famed for his accidental slips of the tongue!",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_62",
+    "category": "language",
+    "question": "What term describes blending two words and their meanings into one (e.g. motel)?",
+    "options": [
+      "Portmanteau word",
+      "Contronym",
+      "Eponym",
+      "Acronym"
+    ],
+    "answer": 0,
+    "explanation": "A portmanteau is a new word formed by blending the sounds and meanings of two existing words, such as 'brunch' (breakfast + lunch) or 'motel' (motor + hotel).",
+    "tip": "\ud83d\udca1 **Word Blend:** Combining two words together into one (coined by Lewis Carroll in Through the Looking-Glass).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_63",
+    "category": "language",
+    "question": "What term describes a word that can mean its own opposite (e.g. cleave, dust)?",
+    "options": [
+      "Contronym",
+      "Oxymoron",
+      "Eponym",
+      "Palindrome"
+    ],
+    "answer": 0,
+    "explanation": "A contronym (or auto-antonym, Janus word) is a word that possesses two contradictory meanings depending on context, such as 'cleave' (to split vs to stick together) or 'dust' (to remove vs to sprinkle).",
+    "tip": "\ud83d\udca1 **Janus Word:** Contronyms are words that are their own opposite (named after Janus, the two-faced Roman god)!",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_64",
+    "category": "language",
+    "question": "What figure of speech pairs contradictory terms (e.g., deafening silence)?",
+    "options": [
+      "Oxymoron",
+      "Hyperbole",
+      "Synecdoche",
+      "Metonymy"
+    ],
+    "answer": 0,
+    "explanation": "An oxymoron is a figure of speech that juxtaposes two contradictory or opposite terms side-by-side for emphasis, such as 'deafening silence' or 'sweet sorrow'.",
+    "tip": "\ud83d\udca1 **Contradictory Terms:** Two opposing words placed right next to each other!",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_65",
+    "category": "language",
+    "question": "What term describes a person after whom a place, invention, or discovery is named?",
+    "options": [
+      "Eponym",
+      "Anagram",
+      "Pangram",
+      "Onomatopoeia"
+    ],
+    "answer": 0,
+    "explanation": "An eponym is a person, place, or thing after which something is named, such as Earl of Sandwich (sandwich) or Charles Boycott (boycott).",
+    "tip": "\ud83d\udca1 **Name Origin:** Eponyms are words derived directly from a real or mythical person's name.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_66",
+    "category": "language",
+    "question": "What term describes rearranging the letters of a word to form a new word?",
+    "options": [
+      "Anagram",
+      "Palindrome",
+      "Pangram",
+      "Acronym"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Anagram.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Anagram** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_67",
+    "category": "language",
+    "question": "What term describes a word reading the same backward as forward (e.g., radar)?",
+    "options": [
+      "Palindrome",
+      "Anagram",
+      "Pangram",
+      "Oxymoron"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Palindrome.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Palindrome** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_68",
+    "category": "language",
+    "question": "What term describes a sentence containing all 26 letters of the alphabet?",
+    "options": [
+      "Pangram",
+      "Anagram",
+      "Palindrome",
+      "Acrostic"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Pangram.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pangram** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_69",
+    "category": "language",
+    "question": "What term describes a word that imitates the sound it describes (e.g., buzz, hiss)?",
+    "options": [
+      "Onomatopoeia",
+      "Hyperbole",
+      "Synecdoche",
+      "Metonymy"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Onomatopoeia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Onomatopoeia** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_70",
+    "category": "language",
+    "question": "What figure of speech uses extreme exaggeration for effect?",
+    "options": [
+      "Hyperbole",
+      "Synecdoche",
+      "Metonymy",
+      "Onomatopoeia"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Hyperbole.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hyperbole** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_71",
+    "category": "language",
+    "question": "What figure of speech uses a part of something to represent the whole (e.g. suits for lawyers)?",
+    "options": [
+      "Synecdoche",
+      "Metonymy",
+      "Hyperbole",
+      "Onomatopoeia"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Synecdoche.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Synecdoche** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_72",
+    "category": "language",
+    "question": "What figure of speech refers to something by the name of a closely related concept (e.g. 'the Crown' for monarchy)?",
+    "options": [
+      "Metonymy",
+      "Synecdoche",
+      "Hyperbole",
+      "Onomatopoeia"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Metonymy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Metonymy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_73",
+    "category": "language",
+    "question": "What is the shortest grammatically complete sentence in the English language?",
+    "options": [
+      "Go.",
+      "I am.",
+      "No.",
+      "Yes."
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Go..",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Go.** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_74",
+    "category": "language",
+    "question": "What is the most frequently used letter in the English language?",
+    "options": [
+      "E",
+      "A",
+      "T",
+      "O"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is E.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **E** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_75",
+    "category": "language",
+    "question": "What is the most frequently used consonant in the English language?",
+    "options": [
+      "T",
+      "N",
+      "S",
+      "R"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is T.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **T** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_76",
+    "category": "language",
+    "question": "Which seven-letter English word contains no vowels (A, E, I, O, U)?",
+    "options": [
+      "Rhythms",
+      "Slyly",
+      "Spryly",
+      "Gypsys"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Rhythms.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rhythms** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_77",
+    "category": "language",
+    "question": "What is the only English word ending in the letters 'mt'?",
+    "options": [
+      "Dreamt",
+      "Unkempt",
+      "Prompt",
+      "Exempt"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Dreamt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dreamt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_78",
+    "category": "language",
+    "question": "What are the only two common English words ending in '-gry'?",
+    "options": [
+      "Angry and Hungry",
+      "Agry and Bogry",
+      "Bulgry and Hungary",
+      "Ningry and Tangry"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Angry and Hungry.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Angry and Hungry** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_79",
+    "category": "language",
+    "question": "Where does the word 'thug' originate?",
+    "options": [
+      "Hindi 'thag' (cult of stranglers)",
+      "Gaelic 'tiug'",
+      "German 'Tag'",
+      "Old English 'thugge'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Hindi 'thag' (cult of stranglers).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hindi 'thag' (cult of stranglers)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_80",
+    "category": "language",
+    "question": "Where does the word 'assassin' originate?",
+    "options": [
+      "Arabic 'hashashin'",
+      "Latin 'assassinus'",
+      "Greek 'asphyxia'",
+      "Persian 'asin'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Arabic 'hashashin'.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Arabic 'hashashin'** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_81",
+    "category": "language",
+    "question": "Where does the word 'clich\u00e9' originate?",
+    "options": [
+      "French printing plate sound",
+      "Latin 'clivis'",
+      "Greek 'kleis'",
+      "German 'Klick'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is French printing plate sound.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **French printing plate sound** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_82",
+    "category": "language",
+    "question": "Where does the word 'quarantine' originate?",
+    "options": [
+      "40 days isolation in Venice during plague",
+      "Latin 'quartus'",
+      "French 'quarante'",
+      "Spanish 'cuarenta'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is 40 days isolation in Venice during plague.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **40 days isolation in Venice during plague** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_83",
+    "category": "language",
+    "question": "Where does the word 'trivia' originate?",
+    "options": [
+      "Latin 'trivium' (intersection of 3 roads / 3 lower arts)",
+      "Latin 'trivialis'",
+      "Greek 'tri-via'",
+      "French 'trivielle'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Latin 'trivium' (intersection of 3 roads / 3 lower arts).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Latin 'trivium' (intersection of 3 roads / 3 lower arts)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_84",
+    "category": "language",
+    "question": "Where does the word 'janitor' originate?",
+    "options": [
+      "Janus, the Roman god of doors and beginnings",
+      "Latin 'janua'",
+      "Greek 'Ganos'",
+      "French 'janituer'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Janus, the Roman god of doors and beginnings.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Janus, the Roman god of doors and beginnings** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_85",
+    "category": "language",
+    "question": "Where does the word 'candid' originate?",
+    "options": [
+      "Latin 'candidus' (glowing white)",
+      "Latin 'candela'",
+      "Greek 'kandis'",
+      "French 'candide'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Latin 'candidus' (glowing white).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Latin 'candidus' (glowing white)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_86",
+    "category": "language",
+    "question": "Where does the word 'candidate' originate?",
+    "options": [
+      "Roman office seekers who wore glowing white togas",
+      "Latin 'caput'",
+      "Greek 'kandis'",
+      "French 'candidat'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Roman office seekers who wore glowing white togas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Roman office seekers who wore glowing white togas** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_87",
+    "category": "language",
+    "question": "Where does the term 'sandwich' originate?",
+    "options": [
+      "John Montagu, 4th Earl of Sandwich in 1762",
+      "Sandwich, Kent town",
+      "German 'Sand-wich'",
+      "Dutch 'zand-wicht'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is John Montagu, 4th Earl of Sandwich in 1762.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Montagu, 4th Earl of Sandwich in 1762** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_88",
+    "category": "language",
+    "question": "Where does the word 'sabotage' originate?",
+    "options": [
+      "French workers throwing wooden shoes (sabots) into machinery",
+      "Spanish 'sabotear'",
+      "Dutch 'sabbelen'",
+      "Italian 'sabotata'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is French workers throwing wooden shoes (sabots) into machinery.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **French workers throwing wooden shoes (sabots) into machinery** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_89",
+    "category": "language",
+    "question": "Where does the word 'pamphlet' originate?",
+    "options": [
+      "12th-century popular Latin love poem Pamphilus",
+      "Greek 'pan-phletos'",
+      "French 'papier-feuille'",
+      "Latin 'palma'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is 12th-century popular Latin love poem Pamphilus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **12th-century popular Latin love poem Pamphilus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_90",
+    "category": "language",
+    "question": "Where does the word 'sideburns' originate?",
+    "options": [
+      "US Civil War General Ambrose Burnside",
+      "English 'side-burns'",
+      "German 'Seiten-bart'",
+      "French 'barbe-side'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is US Civil War General Ambrose Burnside.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **US Civil War General Ambrose Burnside** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_91",
+    "category": "language",
+    "question": "Where does the word 'narcissist' originate?",
+    "options": [
+      "Narcissus, hunter in Greek myth who fell in love with his reflection",
+      "Latin 'narcoticus'",
+      "Greek 'narkao'",
+      "French 'narcisse'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Narcissus, hunter in Greek myth who fell in love with his reflection.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Narcissus, hunter in Greek myth who fell in love with his reflection** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_92",
+    "category": "language",
+    "question": "Where does the word 'nemesis' originate?",
+    "options": [
+      "Nemesis, Greek goddess of divine retribution",
+      "Latin 'nemus'",
+      "Greek 'nemo'",
+      "German 'Nemes'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Nemesis, Greek goddess of divine retribution.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nemesis, Greek goddess of divine retribution** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_93",
+    "category": "language",
+    "question": "Where does the word 'pandemonium' originate?",
+    "options": [
+      "Capital of Hell in John Milton's Paradise Lost",
+      "Greek 'pan-demos'",
+      "Latin 'pandere'",
+      "French 'pand\u00e9mon'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Capital of Hell in John Milton's Paradise Lost.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Capital of Hell in John Milton's Paradise Lost** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_94",
+    "category": "language",
+    "question": "Where does the word 'utopia' originate?",
+    "options": [
+      "Sir Thomas More's 1516 book Utopia (Greek for 'no place')",
+      "Greek 'eu-topia'",
+      "Latin 'utopius'",
+      "French 'utopie'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Sir Thomas More's 1516 book Utopia (Greek for 'no place').",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Thomas More's 1516 book Utopia (Greek for 'no place')** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_95",
+    "category": "language",
+    "question": "Where does the term 'gerrymander' originate?",
+    "options": [
+      "Massachusetts Governor Elbridge Gerry + salamander shape",
+      "General Gerry",
+      "German 'Gerry-mander'",
+      "French 'guerre-mander'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Massachusetts Governor Elbridge Gerry + salamander shape.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Massachusetts Governor Elbridge Gerry + salamander shape** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_96",
+    "category": "language",
+    "question": "Where does the word 'maverick' originate?",
+    "options": [
+      "Samuel Maverick, Texas rancher who refused to brand cattle",
+      "General Maverick",
+      "Dutch 'maverik'",
+      "French 'mauvais'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Samuel Maverick, Texas rancher who refused to brand cattle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Samuel Maverick, Texas rancher who refused to brand cattle** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_97",
+    "category": "language",
+    "question": "Where does the term 'diesel' originate?",
+    "options": [
+      "Rudolf Diesel, German mechanical engineer",
+      "Dutch 'diesel'",
+      "German 'Dunst-oel'",
+      "French 'di\u00e9sel'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Rudolf Diesel, German mechanical engineer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rudolf Diesel, German mechanical engineer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_98",
+    "category": "language",
+    "question": "Where does the term 'pasteurization' originate?",
+    "options": [
+      "Louis Pasteur, French microbiologist",
+      "Latin 'pastor'",
+      "French 'p\u00e2tisserie'",
+      "German 'Pasteur'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Louis Pasteur, French microbiologist.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Louis Pasteur, French microbiologist** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_99",
+    "category": "language",
+    "question": "Where does the word 'saxophone' originate?",
+    "options": [
+      "Adolphe Sax, Belgian instrument designer who patented it in 1846",
+      "Saxony region",
+      "Latin 'saxum'",
+      "French 'saxo'"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Adolphe Sax, Belgian instrument designer who patented it in 1846.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Adolphe Sax, Belgian instrument designer who patented it in 1846** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_100",
+    "category": "language",
+    "question": "What does the Latin phrase 'cui bono' translate to?",
+    "options": [
+      "Who benefits?",
+      "In good faith",
+      "To what end?",
+      "By whose authority?"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Who benefits?.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Who benefits?** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_101",
+    "category": "language",
+    "question": "What does the Latin phrase 'modus vivendi' refer to?",
+    "options": [
+      "A practical compromise allowing conflicting parties to coexist",
+      "A method of working",
+      "A way of dying",
+      "A social trend"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is A practical compromise allowing conflicting parties to coexist.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A practical compromise allowing conflicting parties to coexist** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_102",
+    "category": "language",
+    "question": "What does the Latin phrase 'in situ' mean?",
+    "options": [
+      "In its original place or position",
+      "In transit",
+      "Under study",
+      "In a artificial state"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is In its original place or position.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **In its original place or position** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_103",
+    "category": "language",
+    "question": "What does the Latin phrase 'ex gratia' mean?",
+    "options": [
+      "Done as a favor without legal obligation",
+      "With great thanks",
+      "By right of law",
+      "Out of necessity"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Done as a favor without legal obligation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Done as a favor without legal obligation** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_104",
+    "category": "language",
+    "question": "What does the Latin phrase 'inter alia' mean?",
+    "options": [
+      "Among other things",
+      "Between friends",
+      "In the middle",
+      "Inside the court"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Among other things.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Among other things** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_105",
+    "category": "language",
+    "question": "What does the Latin phrase 'ipso facto' mean?",
+    "options": [
+      "By the fact itself",
+      "In accordance with law",
+      "After the event",
+      "In good standing"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is By the fact itself.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **By the fact itself** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_106",
+    "category": "language",
+    "question": "What does the Latin phrase 'primus inter pares' mean?",
+    "options": [
+      "First among equals",
+      "First of all",
+      "Equal under law",
+      "Primary witness"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is First among equals.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **First among equals** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_107",
+    "category": "language",
+    "question": "What does the Latin phrase 'sine qua non' mean?",
+    "options": [
+      "An essential condition or element",
+      "Without doubt",
+      "Without equal",
+      "In summary"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is An essential condition or element.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **An essential condition or element** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_108",
+    "category": "language",
+    "question": "What does the Latin phrase 'tabula rasa' translate to?",
+    "options": [
+      "Clean slate or blank slate",
+      "Round table",
+      "Secret council",
+      "Flat earth"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Clean slate or blank slate.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Clean slate or blank slate** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_109",
+    "category": "language",
+    "question": "What does the Latin phrase 'terra firma' mean?",
+    "options": [
+      "Solid ground or dry land",
+      "Unknown land",
+      "Federal land",
+      "High mountain"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Solid ground or dry land.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Solid ground or dry land** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_110",
+    "category": "language",
+    "question": "What does the Latin phrase 'vox populi' translate to?",
+    "options": [
+      "Voice of the people",
+      "Popular vote",
+      "Public outcry",
+      "National song"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Voice of the people.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Voice of the people** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_111",
+    "category": "language",
+    "question": "What language is the original source of the word 'algebra'?",
+    "options": [
+      "Arabic (al-jabr)",
+      "Greek (algos)",
+      "Latin (algebra)",
+      "Persian (al-gabr)"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Arabic (al-jabr).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Arabic (al-jabr)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_112",
+    "category": "language",
+    "question": "What language is the original source of the word 'alcohol'?",
+    "options": [
+      "Arabic (al-kuhl)",
+      "Latin (spiritus)",
+      "Greek (alkos)",
+      "Persian"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Arabic (al-kuhl).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Arabic (al-kuhl)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_113",
+    "category": "language",
+    "question": "What language is the original source of the word 'safari'?",
+    "options": [
+      "Swahili (journey)",
+      "Arabic (safar)",
+      "Afrikaans",
+      "Zulu"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Swahili (journey).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Swahili (journey)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_114",
+    "category": "language",
+    "question": "What language is the original source of the word 'karaoke'?",
+    "options": [
+      "Japanese (empty orchestra)",
+      "Korean",
+      "Mandarin",
+      "Tagalog"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Japanese (empty orchestra).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese (empty orchestra)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_115",
+    "category": "language",
+    "question": "What language is the original source of the word 'tycoon'?",
+    "options": [
+      "Japanese (taikun / great lord)",
+      "Chinese",
+      "Hindi",
+      "Korean"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Japanese (taikun / great lord).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese (taikun / great lord)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_116",
+    "category": "language",
+    "question": "What language is the original source of the word 'bento'?",
+    "options": [
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Thai"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Japanese.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_117",
+    "category": "language",
+    "question": "What language is the original source of the word 'tsunami'?",
+    "options": [
+      "Japanese (harbor wave)",
+      "Chinese",
+      "Polynesian",
+      "Malay"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Japanese (harbor wave).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Japanese (harbor wave)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_118",
+    "category": "language",
+    "question": "What language is the original source of the word 'pyjamas'?",
+    "options": [
+      "Persian / Hindi",
+      "Arabic",
+      "Turkish",
+      "Urdu"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Persian / Hindi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Persian / Hindi** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_119",
+    "category": "language",
+    "question": "What language is the original source of the word 'verandah'?",
+    "options": [
+      "Hindi / Portuguese",
+      "Spanish",
+      "Dutch",
+      "Italian"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Hindi / Portuguese.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hindi / Portuguese** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_120",
+    "category": "language",
+    "question": "What language is the original source of the word 'bungalow'?",
+    "options": [
+      "Hindi (Gujarati / Bengali)",
+      "Swahili",
+      "Tamil",
+      "Sinhala"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Hindi (Gujarati / Bengali).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hindi (Gujarati / Bengali)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_121",
+    "category": "language",
+    "question": "What language is the original source of the word 'catamaran'?",
+    "options": [
+      "Tamil (kattu-maram)",
+      "Polynesian",
+      "Malay",
+      "Sinhala"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Tamil (kattu-maram).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tamil (kattu-maram)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_122",
+    "category": "language",
+    "question": "What language is the original source of the word 'guru'?",
+    "options": [
+      "Sanskrit (heavy / teacher)",
+      "Hindi",
+      "Tibetan",
+      "Pali"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Sanskrit (heavy / teacher).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sanskrit (heavy / teacher)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_123",
+    "category": "language",
+    "question": "What language is the original source of the word 'avatar'?",
+    "options": [
+      "Sanskrit (descent)",
+      "Hindi",
+      "Persian",
+      "Arabic"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Sanskrit (descent).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sanskrit (descent)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_124",
+    "category": "language",
+    "question": "What language is the original source of the word 'juggernaut'?",
+    "options": [
+      "Sanskrit (Jagannatha / Lord of World)",
+      "Hindi",
+      "Persian",
+      "Urdu"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Sanskrit (Jagannatha / Lord of World).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sanskrit (Jagannatha / Lord of World)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_125",
+    "category": "language",
+    "question": "What language is the original source of the word 'ketchup'?",
+    "options": [
+      "Chinese (Hokkien ke-tsiap)",
+      "Malay",
+      "Japanese",
+      "Dutch"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Chinese (Hokkien ke-tsiap).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chinese (Hokkien ke-tsiap)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_126",
+    "category": "language",
+    "question": "What language is the original source of the word 'typhoon'?",
+    "options": [
+      "Chinese (t\u00e1i f\u0113n) / Greek (typhon)",
+      "Japanese",
+      "Filipino",
+      "Vietnamese"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is Chinese (t\u00e1i f\u0113n) / Greek (typhon).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chinese (t\u00e1i f\u0113n) / Greek (typhon)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_127",
+    "category": "language",
+    "question": "What language is the original source of the word 'kindergarten'?",
+    "options": [
+      "German (children's garden)",
+      "Dutch",
+      "Danish",
+      "Swedish"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is German (children's garden).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **German (children's garden)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "lang_fact_128",
+    "category": "language",
+    "question": "What language is the original source of the word 'wanderlust'?",
+    "options": [
+      "German (desire to wander)",
+      "Dutch",
+      "Norwegian",
+      "Danish"
+    ],
+    "answer": 0,
+    "explanation": "In language, the correct answer to this question is German (desire to wander).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **German (desire to wander)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

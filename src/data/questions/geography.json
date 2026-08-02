@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "geo_cap_1",
+    "category": "geography",
+    "question": "What is the official capital city of Canada?",
+    "options": [
+      "Ottawa",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Ottawa is the national capital and seat of government of Canada.",
+    "tip": "\ud83d\udca1 **National Capital:** Ottawa is the official capital city of Canada.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_2",
+    "category": "geography",
+    "question": "What is the official capital city of Australia?",
+    "options": [
+      "Canberra",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Canberra is the national capital and seat of government of Australia.",
+    "tip": "\ud83d\udca1 **National Capital:** Canberra is the official capital city of Australia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_3",
+    "category": "geography",
+    "question": "What is the official capital city of Brazil?",
+    "options": [
+      "Bras\u00edlia",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Bras\u00edlia is the national capital and seat of government of Brazil.",
+    "tip": "\ud83d\udca1 **National Capital:** Bras\u00edlia is the official capital city of Brazil.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_4",
+    "category": "geography",
+    "question": "What is the official capital city of Turkey?",
+    "options": [
+      "Ankara",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Ankara is the national capital and seat of government of Turkey.",
+    "tip": "\ud83d\udca1 **National Capital:** Ankara is the official capital city of Turkey.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_5",
+    "category": "geography",
+    "question": "What is the official capital city of Switzerland?",
+    "options": [
+      "Bern",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Bern is the national capital and seat of government of Switzerland.",
+    "tip": "\ud83d\udca1 **National Capital:** Bern is the official capital city of Switzerland.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_6",
+    "category": "geography",
+    "question": "What is the official capital city of New Zealand?",
+    "options": [
+      "Wellington",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Wellington is the national capital and seat of government of New Zealand.",
+    "tip": "\ud83d\udca1 **National Capital:** Wellington is the official capital city of New Zealand.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_7",
+    "category": "geography",
+    "question": "What is the official capital city of Nigeria?",
+    "options": [
+      "Abuja",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Abuja is the national capital and seat of government of Nigeria.",
+    "tip": "\ud83d\udca1 **National Capital:** Abuja is the official capital city of Nigeria.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_8",
+    "category": "geography",
+    "question": "What is the official capital city of Pakistan?",
+    "options": [
+      "Islamabad",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Islamabad is the national capital and seat of government of Pakistan.",
+    "tip": "\ud83d\udca1 **National Capital:** Islamabad is the official capital city of Pakistan.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_9",
+    "category": "geography",
+    "question": "What is the official capital city of Morocco?",
+    "options": [
+      "Rabat",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Rabat is the national capital and seat of government of Morocco.",
+    "tip": "\ud83d\udca1 **National Capital:** Rabat is the official capital city of Morocco.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_10",
+    "category": "geography",
+    "question": "What is the official capital city of Vietnam?",
+    "options": [
+      "Hanoi",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Hanoi is the national capital and seat of government of Vietnam.",
+    "tip": "\ud83d\udca1 **National Capital:** Hanoi is the official capital city of Vietnam.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_11",
+    "category": "geography",
+    "question": "What is the official capital city of Japan?",
+    "options": [
+      "Tokyo",
+      "Rome",
+      "London",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "Tokyo is the national capital and seat of government of Japan.",
+    "tip": "\ud83d\udca1 **National Capital:** Tokyo is the official capital city of Japan.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_12",
+    "category": "geography",
+    "question": "What is the official capital city of South Korea?",
+    "options": [
+      "Seoul",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Seoul is the national capital and seat of government of South Korea.",
+    "tip": "\ud83d\udca1 **National Capital:** Seoul is the official capital city of South Korea.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_13",
+    "category": "geography",
+    "question": "What is the official capital city of Germany?",
+    "options": [
+      "Berlin",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Berlin is the national capital and seat of government of Germany.",
+    "tip": "\ud83d\udca1 **National Capital:** Berlin is the official capital city of Germany.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_14",
+    "category": "geography",
+    "question": "What is the official capital city of Italy?",
+    "options": [
+      "Rome",
+      "Tokyo",
+      "London",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "Rome is the national capital and seat of government of Italy.",
+    "tip": "\ud83d\udca1 **National Capital:** Rome is the official capital city of Italy.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_15",
+    "category": "geography",
+    "question": "What is the official capital city of Spain?",
+    "options": [
+      "Madrid",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Madrid is the national capital and seat of government of Spain.",
+    "tip": "\ud83d\udca1 **National Capital:** Madrid is the official capital city of Spain.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_16",
+    "category": "geography",
+    "question": "What is the official capital city of Portugal?",
+    "options": [
+      "Lisbon",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Lisbon is the national capital and seat of government of Portugal.",
+    "tip": "\ud83d\udca1 **National Capital:** Lisbon is the official capital city of Portugal.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_17",
+    "category": "geography",
+    "question": "What is the official capital city of Netherlands?",
+    "options": [
+      "Amsterdam",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Amsterdam is the national capital and seat of government of Netherlands.",
+    "tip": "\ud83d\udca1 **National Capital:** Amsterdam is the official capital city of Netherlands.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_18",
+    "category": "geography",
+    "question": "What is the official capital city of Belgium?",
+    "options": [
+      "Brussels",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Brussels is the national capital and seat of government of Belgium.",
+    "tip": "\ud83d\udca1 **National Capital:** Brussels is the official capital city of Belgium.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_19",
+    "category": "geography",
+    "question": "What is the official capital city of Austria?",
+    "options": [
+      "Vienna",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Vienna is the national capital and seat of government of Austria.",
+    "tip": "\ud83d\udca1 **National Capital:** Vienna is the official capital city of Austria.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_20",
+    "category": "geography",
+    "question": "What is the official capital city of Greece?",
+    "options": [
+      "Athens",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Athens is the national capital and seat of government of Greece.",
+    "tip": "\ud83d\udca1 **National Capital:** Athens is the official capital city of Greece.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_21",
+    "category": "geography",
+    "question": "What is the official capital city of Egypt?",
+    "options": [
+      "Cairo",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Cairo is the national capital and seat of government of Egypt.",
+    "tip": "\ud83d\udca1 **National Capital:** Cairo is the official capital city of Egypt.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_22",
+    "category": "geography",
+    "question": "What is the official capital city of Kenya?",
+    "options": [
+      "Nairobi",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Nairobi is the national capital and seat of government of Kenya.",
+    "tip": "\ud83d\udca1 **National Capital:** Nairobi is the official capital city of Kenya.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_23",
+    "category": "geography",
+    "question": "What is the official capital city of Argentina?",
+    "options": [
+      "Buenos Aires",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Buenos Aires is the national capital and seat of government of Argentina.",
+    "tip": "\ud83d\udca1 **National Capital:** Buenos Aires is the official capital city of Argentina.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_24",
+    "category": "geography",
+    "question": "What is the official capital city of Chile?",
+    "options": [
+      "Santiago",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Santiago is the national capital and seat of government of Chile.",
+    "tip": "\ud83d\udca1 **National Capital:** Santiago is the official capital city of Chile.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_25",
+    "category": "geography",
+    "question": "What is the official capital city of Colombia?",
+    "options": [
+      "Bogot\u00e1",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Bogot\u00e1 is the national capital and seat of government of Colombia.",
+    "tip": "\ud83d\udca1 **National Capital:** Bogot\u00e1 is the official capital city of Colombia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_26",
+    "category": "geography",
+    "question": "What is the official capital city of Peru?",
+    "options": [
+      "Lima",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Lima is the national capital and seat of government of Peru.",
+    "tip": "\ud83d\udca1 **National Capital:** Lima is the official capital city of Peru.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_27",
+    "category": "geography",
+    "question": "What is the official capital city of Thailand?",
+    "options": [
+      "Bangkok",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Bangkok is the national capital and seat of government of Thailand.",
+    "tip": "\ud83d\udca1 **National Capital:** Bangkok is the official capital city of Thailand.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_28",
+    "category": "geography",
+    "question": "What is the official capital city of Indonesia?",
+    "options": [
+      "Jakarta",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Jakarta is the national capital and seat of government of Indonesia.",
+    "tip": "\ud83d\udca1 **National Capital:** Jakarta is the official capital city of Indonesia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_29",
+    "category": "geography",
+    "question": "What is the official capital city of Philippines?",
+    "options": [
+      "Manila",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Manila is the national capital and seat of government of Philippines.",
+    "tip": "\ud83d\udca1 **National Capital:** Manila is the official capital city of Philippines.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_30",
+    "category": "geography",
+    "question": "What is the official capital city of Malaysia?",
+    "options": [
+      "Kuala Lumpur",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Kuala Lumpur is the national capital and seat of government of Malaysia.",
+    "tip": "\ud83d\udca1 **National Capital:** Kuala Lumpur is the official capital city of Malaysia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_31",
+    "category": "geography",
+    "question": "What is the official capital city of Saudi Arabia?",
+    "options": [
+      "Riyadh",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Riyadh is the national capital and seat of government of Saudi Arabia.",
+    "tip": "\ud83d\udca1 **National Capital:** Riyadh is the official capital city of Saudi Arabia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_32",
+    "category": "geography",
+    "question": "What is the official capital city of UAE?",
+    "options": [
+      "Abu Dhabi",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Abu Dhabi is the national capital and seat of government of UAE.",
+    "tip": "\ud83d\udca1 **National Capital:** Abu Dhabi is the official capital city of UAE.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_33",
+    "category": "geography",
+    "question": "What is the official capital city of Iran?",
+    "options": [
+      "Tehran",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Tehran is the national capital and seat of government of Iran.",
+    "tip": "\ud83d\udca1 **National Capital:** Tehran is the official capital city of Iran.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_34",
+    "category": "geography",
+    "question": "What is the official capital city of Iraq?",
+    "options": [
+      "Baghdad",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Baghdad is the national capital and seat of government of Iraq.",
+    "tip": "\ud83d\udca1 **National Capital:** Baghdad is the official capital city of Iraq.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_35",
+    "category": "geography",
+    "question": "What is the official capital city of Norway?",
+    "options": [
+      "Oslo",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Oslo is the national capital and seat of government of Norway.",
+    "tip": "\ud83d\udca1 **National Capital:** Oslo is the official capital city of Norway.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_36",
+    "category": "geography",
+    "question": "What is the official capital city of Sweden?",
+    "options": [
+      "Stockholm",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Stockholm is the national capital and seat of government of Sweden.",
+    "tip": "\ud83d\udca1 **National Capital:** Stockholm is the official capital city of Sweden.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_37",
+    "category": "geography",
+    "question": "What is the official capital city of Finland?",
+    "options": [
+      "Helsinki",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Helsinki is the national capital and seat of government of Finland.",
+    "tip": "\ud83d\udca1 **National Capital:** Helsinki is the official capital city of Finland.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_38",
+    "category": "geography",
+    "question": "What is the official capital city of Denmark?",
+    "options": [
+      "Copenhagen",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Copenhagen is the national capital and seat of government of Denmark.",
+    "tip": "\ud83d\udca1 **National Capital:** Copenhagen is the official capital city of Denmark.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_39",
+    "category": "geography",
+    "question": "What is the official capital city of Iceland?",
+    "options": [
+      "Reykjav\u00edk",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Reykjav\u00edk is the national capital and seat of government of Iceland.",
+    "tip": "\ud83d\udca1 **National Capital:** Reykjav\u00edk is the official capital city of Iceland.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_40",
+    "category": "geography",
+    "question": "What is the official capital city of Ireland?",
+    "options": [
+      "Dublin",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Dublin (from Irish 'Dubhlinn' meaning 'black pool') is the capital and largest city of Ireland, located at the mouth of the River Liffey.",
+    "tip": "\ud83d\udca1 **Black Pool:** Dublin derives from Irish 'Dubh Linn' (Black Pool), home of the famous Guinness Brewery at St James's Gate!",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_41",
+    "category": "geography",
+    "question": "What is the official capital city of Poland?",
+    "options": [
+      "Warsaw",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Warsaw is the national capital and seat of government of Poland.",
+    "tip": "\ud83d\udca1 **National Capital:** Warsaw is the official capital city of Poland.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_42",
+    "category": "geography",
+    "question": "What is the official capital city of Czech Republic?",
+    "options": [
+      "Prague",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Prague is the national capital and seat of government of Czech Republic.",
+    "tip": "\ud83d\udca1 **National Capital:** Prague is the official capital city of Czech Republic.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_43",
+    "category": "geography",
+    "question": "What is the official capital city of Hungary?",
+    "options": [
+      "Budapest",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Budapest is the national capital and seat of government of Hungary.",
+    "tip": "\ud83d\udca1 **National Capital:** Budapest is the official capital city of Hungary.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_44",
+    "category": "geography",
+    "question": "What is the official capital city of Romania?",
+    "options": [
+      "Bucharest",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Bucharest is the national capital and seat of government of Romania.",
+    "tip": "\ud83d\udca1 **National Capital:** Bucharest is the official capital city of Romania.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_45",
+    "category": "geography",
+    "question": "What is the official capital city of Ukraine?",
+    "options": [
+      "Kyiv",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Kyiv is the national capital and seat of government of Ukraine.",
+    "tip": "\ud83d\udca1 **National Capital:** Kyiv is the official capital city of Ukraine.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_46",
+    "category": "geography",
+    "question": "What is the official capital city of Russia?",
+    "options": [
+      "Moscow",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Moscow is the national capital and seat of government of Russia.",
+    "tip": "\ud83d\udca1 **National Capital:** Moscow is the official capital city of Russia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_47",
+    "category": "geography",
+    "question": "What is the official capital city of South Africa?",
+    "options": [
+      "Pretoria",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Pretoria is the national capital and seat of government of South Africa.",
+    "tip": "\ud83d\udca1 **National Capital:** Pretoria is the official capital city of South Africa.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_48",
+    "category": "geography",
+    "question": "What is the official capital city of Cuba?",
+    "options": [
+      "Havana",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Havana is the national capital and seat of government of Cuba.",
+    "tip": "\ud83d\udca1 **National Capital:** Havana is the official capital city of Cuba.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_49",
+    "category": "geography",
+    "question": "What is the official capital city of Jamaica?",
+    "options": [
+      "Kingston",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Kingston is the national capital and seat of government of Jamaica.",
+    "tip": "\ud83d\udca1 **National Capital:** Kingston is the official capital city of Jamaica.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_50",
+    "category": "geography",
+    "question": "What is the official capital city of Croatia?",
+    "options": [
+      "Zagreb",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Zagreb is the national capital and seat of government of Croatia.",
+    "tip": "\ud83d\udca1 **National Capital:** Zagreb is the official capital city of Croatia.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_51",
+    "category": "geography",
+    "question": "What is the official capital city of Fiji?",
+    "options": [
+      "Suva",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Suva is the national capital and seat of government of Fiji.",
+    "tip": "\ud83d\udca1 **National Capital:** Suva is the official capital city of Fiji.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_52",
+    "category": "geography",
+    "question": "What is the official capital city of Papua New Guinea?",
+    "options": [
+      "Port Moresby",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Port Moresby is the national capital and seat of government of Papua New Guinea.",
+    "tip": "\ud83d\udca1 **National Capital:** Port Moresby is the official capital city of Papua New Guinea.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_53",
+    "category": "geography",
+    "question": "What is the official capital city of Samoa?",
+    "options": [
+      "Apia",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Apia is the national capital and seat of government of Samoa.",
+    "tip": "\ud83d\udca1 **National Capital:** Apia is the official capital city of Samoa.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_54",
+    "category": "geography",
+    "question": "What is the official capital city of Vanuatu?",
+    "options": [
+      "Port Vila",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Port Vila is the national capital and seat of government of Vanuatu.",
+    "tip": "\ud83d\udca1 **National Capital:** Port Vila is the official capital city of Vanuatu.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_55",
+    "category": "geography",
+    "question": "What is the official capital city of Solomon Islands?",
+    "options": [
+      "Honiara",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Honiara is the national capital and seat of government of Solomon Islands.",
+    "tip": "\ud83d\udca1 **National Capital:** Honiara is the official capital city of Solomon Islands.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_56",
+    "category": "geography",
+    "question": "What is the official capital city of Tonga?",
+    "options": [
+      "Nuku'alofa",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Nuku'alofa is the national capital and seat of government of Tonga.",
+    "tip": "\ud83d\udca1 **National Capital:** Nuku'alofa is the official capital city of Tonga.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_57",
+    "category": "geography",
+    "question": "What is the official capital city of United States?",
+    "options": [
+      "Washington, D.C.",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Washington, D.C. is the national capital and seat of government of United States.",
+    "tip": "\ud83d\udca1 **National Capital:** Washington, D.C. is the official capital city of United States.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_58",
+    "category": "geography",
+    "question": "What is the official capital city of China?",
+    "options": [
+      "Beijing",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Beijing is the national capital and seat of government of China.",
+    "tip": "\ud83d\udca1 **National Capital:** Beijing is the official capital city of China.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_59",
+    "category": "geography",
+    "question": "What is the official capital city of India?",
+    "options": [
+      "New Delhi",
+      "Rome",
+      "Tokyo",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "New Delhi is the national capital and seat of government of India.",
+    "tip": "\ud83d\udca1 **National Capital:** New Delhi is the official capital city of India.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_cap_60",
+    "category": "geography",
+    "question": "What is the official capital city of United Kingdom?",
+    "options": [
+      "London",
+      "Rome",
+      "Tokyo",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "London is the national capital and seat of government of United Kingdom.",
+    "tip": "\ud83d\udca1 **National Capital:** London is the official capital city of United Kingdom.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_61",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain peak in Australia (mainland)'?",
+    "options": [
+      "Mount Kosciuszko",
+      "Mount Bogong",
+      "Mount Feathertop",
+      "Ben Lomond"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Kosciuszko.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Kosciuszko** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_62",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain peak in the world above sea level'?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga",
+      "Lhotse"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Everest.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Everest** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_63",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Second highest mountain peak in the world'?",
+    "options": [
+      "K2",
+      "Kangchenjunga",
+      "Lhotse",
+      "Makalu"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is K2.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **K2** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_64",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain peak in North America'?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Rainier",
+      "Mount Whitney"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Denali.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Denali** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_65",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain peak in South America'?",
+    "options": [
+      "Aconcagua",
+      "Ojos del Salado",
+      "Huascar\u00e1n",
+      "Chimborazo"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Aconcagua.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aconcagua** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_66",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain peak in Africa'?",
+    "options": [
+      "Mount Kilimanjaro",
+      "Mount Kenya",
+      "Mount Stanley",
+      "Ras Dashen"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Kilimanjaro.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Kilimanjaro** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_67",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain peak in Europe'?",
+    "options": [
+      "Mount Elbrus",
+      "Mont Blanc",
+      "Matterhorn",
+      "Eiger"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Elbrus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Elbrus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_68",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Largest island in the world (excluding continents)'?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo",
+      "Madagascar"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Greenland.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Greenland** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_69",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Second largest island in the world'?",
+    "options": [
+      "New Guinea",
+      "Borneo",
+      "Madagascar",
+      "Baffin Island"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is New Guinea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **New Guinea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_70",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Third largest island in the world'?",
+    "options": [
+      "Borneo",
+      "Madagascar",
+      "Sumatra",
+      "Honshu"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Borneo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Borneo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_71",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Largest island in the Mediterranean Sea'?",
+    "options": [
+      "Sicily",
+      "Sardinia",
+      "Cyprus",
+      "Corsica"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Sicily.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sicily** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_72",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Longest river in the world'?",
+    "options": [
+      "The Nile River",
+      "The Amazon River",
+      "The Yangtze River",
+      "The Mississippi River"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Nile River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Nile River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_73",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Largest river in the world by water volume'?",
+    "options": [
+      "The Amazon River",
+      "The Nile River",
+      "The Congo River",
+      "The Yangtze River"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Amazon River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Amazon River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_74",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Longest river in Asia'?",
+    "options": [
+      "The Yangtze River",
+      "The Yellow River",
+      "The Mekong River",
+      "The Amur River"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Yangtze River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Yangtze River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_75",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Longest river system in North America'?",
+    "options": [
+      "The Mississippi-Missouri River",
+      "The Yukon River",
+      "St. Lawrence River",
+      "Rio Grande"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Mississippi-Missouri River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Mississippi-Missouri River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_76",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Longest river in Europe'?",
+    "options": [
+      "The Volga River",
+      "The Danube River",
+      "The Dnieper River",
+      "The Rhine River"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Volga River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Volga River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_77",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Second longest river in Europe'?",
+    "options": [
+      "The Danube River",
+      "The Volga River",
+      "The Rhine River",
+      "The Elbe River"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Danube River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Danube River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_78",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's largest landlocked country by area'?",
+    "options": [
+      "Kazakhstan",
+      "Mongolia",
+      "Chad",
+      "Bolivia"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Kazakhstan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kazakhstan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_79",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's second largest landlocked country'?",
+    "options": [
+      "Mongolia",
+      "Chad",
+      "Niger",
+      "Mali"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mongolia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mongolia** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_80",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'European nation divided into 26 cantons'?",
+    "options": [
+      "Switzerland",
+      "Austria",
+      "Germany",
+      "Belgium"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Switzerland.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Switzerland** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_81",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Strait separating mainland Australia from Tasmania'?",
+    "options": [
+      "Bass Strait",
+      "Torres Strait",
+      "Cook Strait",
+      "Clarence Strait"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Bass Strait.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bass Strait** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_82",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Strait separating Australia from Papua New Guinea'?",
+    "options": [
+      "Torres Strait",
+      "Bass Strait",
+      "Arafura Sea",
+      "Coral Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Torres Strait.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Torres Strait** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_83",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Strait separating North and South Islands of NZ'?",
+    "options": [
+      "Cook Strait",
+      "Foveaux Strait",
+      "Bass Strait",
+      "Dampier Strait"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Cook Strait.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cook Strait** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_84",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Deepest ocean trench on Earth'?",
+    "options": [
+      "The Mariana Trench",
+      "The Tonga Trench",
+      "Puerto Rico Trench",
+      "Java Trench"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Mariana Trench.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Mariana Trench** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_85",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Country with the longest coastline in the world'?",
+    "options": [
+      "Canada",
+      "Indonesia",
+      "Norway",
+      "Australia"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Canada.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Canada** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_86",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Saltiest body of water on Earth'?",
+    "options": [
+      "The Dead Sea",
+      "The Red Sea",
+      "The Caspian Sea",
+      "Mediterranean Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Dead Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Dead Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_87",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's largest hot desert'?",
+    "options": [
+      "The Sahara Desert",
+      "The Gobi Desert",
+      "The Arabian Desert",
+      "The Kalahari Desert"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Sahara Desert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Sahara Desert** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_88",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's largest desert overall'?",
+    "options": [
+      "Antarctica",
+      "The Sahara",
+      "The Arctic",
+      "The Gobi"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Antarctica.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Antarctica** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_89",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Driest non-polar desert on Earth'?",
+    "options": [
+      "The Atacama Desert",
+      "The Namib Desert",
+      "The Mojave Desert",
+      "Sonoran Desert"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Atacama Desert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Atacama Desert** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_90",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's largest coral reef system'?",
+    "options": [
+      "The Great Barrier Reef",
+      "Ningaloo Reef",
+      "Belize Reef",
+      "Red Sea Reef"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Great Barrier Reef.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Great Barrier Reef** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_91",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Capital of Northern Territory Australia'?",
+    "options": [
+      "Darwin",
+      "Alice Springs",
+      "Katherine",
+      "Palmerston"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Darwin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Darwin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_92",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Capital of Tasmania Australia'?",
+    "options": [
+      "Hobart",
+      "Launceston",
+      "Devonport",
+      "Burnie"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Hobart.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hobart** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_93",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Capital of Western Australia'?",
+    "options": [
+      "Perth",
+      "Fremantle",
+      "Broome",
+      "Albany"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Perth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Perth** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_94",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Capital of South Australia'?",
+    "options": [
+      "Adelaide",
+      "Mount Gambier",
+      "Whyalla",
+      "Port Augusta"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Adelaide.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Adelaide** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_95",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Capital of Queensland Australia'?",
+    "options": [
+      "Brisbane",
+      "Gold Coast",
+      "Cairns",
+      "Townsville"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Brisbane.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Brisbane** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_96",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Mountain range along eastern coast of Australia'?",
+    "options": [
+      "The Great Dividing Range",
+      "Flinders Ranges",
+      "MacDonnell Ranges",
+      "Blue Mountains"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Great Dividing Range.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Great Dividing Range** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_97",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest peak in Victoria Australia'?",
+    "options": [
+      "Mount Bogong",
+      "Mount Feathertop",
+      "Mount Buller",
+      "Mount Hotham"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Bogong.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Bogong** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_98",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest peak in Queensland Australia'?",
+    "options": [
+      "Mount Bartle Frere",
+      "Mount Superbus",
+      "Glass House Mts",
+      "Mount Bellenden Ker"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Bartle Frere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Bartle Frere** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_99",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest peak in Tasmania Australia'?",
+    "options": [
+      "Mount Ossa",
+      "Legges Tor",
+      "Barn Bluff",
+      "Cradle Mountain"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Ossa.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Ossa** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_100",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest peak in Western Australia'?",
+    "options": [
+      "Mount Meharry",
+      "Mount Bruce",
+      "Bluff Knoll",
+      "Mount Nameless"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Meharry.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Meharry** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_101",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest peak in South Australia'?",
+    "options": [
+      "St Mary Peak",
+      "Mount St Mary",
+      "Mount Remarkable",
+      "Mount Lofty"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is St Mary Peak.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **St Mary Peak** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_102",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Country bordering only the UK'?",
+    "options": [
+      "Republic of Ireland",
+      "Portugal",
+      "Monaco",
+      "San Marino"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Republic of Ireland.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Republic of Ireland** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_103",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Country bordering only Spain'?",
+    "options": [
+      "Portugal",
+      "Andorra",
+      "Monaco",
+      "Gibraltar"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Portugal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Portugal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_104",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Microstate enclosed inside Rome Italy'?",
+    "options": [
+      "Vatican City",
+      "San Marino",
+      "Monaco",
+      "Liechtenstein"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Vatican City.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Vatican City** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_105",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Microstate enclosed inside northeastern Italy'?",
+    "options": [
+      "San Marino",
+      "Vatican City",
+      "Monaco",
+      "Andorra"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is San Marino.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **San Marino** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_106",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Enclaved kingdom enclosed inside South Africa'?",
+    "options": [
+      "Lesotho",
+      "Eswatini",
+      "Botswana",
+      "Namibia"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Lesotho.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lesotho** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_107",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Boundary mountain range between Europe and Asia'?",
+    "options": [
+      "The Ural Mountains",
+      "The Caucasus",
+      "The Alps",
+      "The Carpathians"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Ural Mountains.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Ural Mountains** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_108",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Canal connecting Mediterranean and Red Sea'?",
+    "options": [
+      "The Suez Canal",
+      "The Panama Canal",
+      "Erie Canal",
+      "Kiel Canal"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Suez Canal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Suez Canal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_109",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Canal connecting Atlantic and Pacific Oceans'?",
+    "options": [
+      "The Panama Canal",
+      "The Suez Canal",
+      "Corinth Canal",
+      "Kiel Canal"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Panama Canal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Panama Canal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_110",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Australia's largest lake by surface area'?",
+    "options": [
+      "Lake Eyre (Kati Thanda)",
+      "Lake Torrens",
+      "Lake Gairdner",
+      "Lake Argyle"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Lake Eyre (Kati Thanda).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lake Eyre (Kati Thanda)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_111",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's largest freshwater lake by surface area'?",
+    "options": [
+      "Lake Superior",
+      "Lake Baikal",
+      "Lake Victoria",
+      "Lake Michigan"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Lake Superior.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lake Superior** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_112",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's deepest freshwater lake'?",
+    "options": [
+      "Lake Baikal",
+      "Lake Superior",
+      "Lake Tanganyika",
+      "Crater Lake"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Lake Baikal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lake Baikal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_113",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'World's largest inland sea / saline lake'?",
+    "options": [
+      "The Caspian Sea",
+      "The Aral Sea",
+      "The Black Sea",
+      "The Baltic Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Caspian Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Caspian Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_114",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Active volcano that destroyed Pompeii in 79 AD'?",
+    "options": [
+      "Mount Vesuvius",
+      "Mount Etna",
+      "Stromboli",
+      "Santorini"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Vesuvius.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Vesuvius** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_115",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Active volcano on island of Sicily'?",
+    "options": [
+      "Mount Etna",
+      "Mount Vesuvius",
+      "Stromboli",
+      "Vulcano"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Etna.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Etna** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_116",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain in Japan'?",
+    "options": [
+      "Mount Fuji",
+      "Mount Aso",
+      "Mount Unzen",
+      "Mount Sakurajima"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Fuji.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Fuji** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_117",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Indonesian volcano that erupted cataclysmically in 1883'?",
+    "options": [
+      "Krakatoa",
+      "Tambora",
+      "Merapi",
+      "Pinatubo"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Krakatoa.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Krakatoa** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_118",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Indonesian volcano whose 1815 eruption caused Year Without a Summer'?",
+    "options": [
+      "Mount Tambora",
+      "Krakatoa",
+      "Mount Merapi",
+      "Mount Toba"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Mount Tambora.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mount Tambora** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_119",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Sea located between Australia and New Zealand'?",
+    "options": [
+      "The Tasman Sea",
+      "The Coral Sea",
+      "The Timor Sea",
+      "The Arafura Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Tasman Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Tasman Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_120",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Sea off Queensland coast containing Great Barrier Reef'?",
+    "options": [
+      "The Coral Sea",
+      "The Tasman Sea",
+      "The Timor Sea",
+      "Solomon Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Coral Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Coral Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_121",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Sea located between Northern Territory and Indonesia'?",
+    "options": [
+      "The Arafura Sea",
+      "The Coral Sea",
+      "The Tasman Sea",
+      "Bismarck Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Arafura Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Arafura Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_122",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Sea located between NW Australia and Timor'?",
+    "options": [
+      "The Timor Sea",
+      "The Arafura Sea",
+      "The Coral Sea",
+      "Banda Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Timor Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Timor Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_123",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain in the British Isles'?",
+    "options": [
+      "Ben Nevis",
+      "Snowdon",
+      "Scafell Pike",
+      "Slieve Donard"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Ben Nevis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ben Nevis** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_124",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Highest mountain in New Zealand'?",
+    "options": [
+      "Aoraki / Mount Cook",
+      "Mount Aspiring",
+      "Mount Ruapehu",
+      "Mount Tasman"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Aoraki / Mount Cook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aoraki / Mount Cook** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_125",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Longest river in the United Kingdom'?",
+    "options": [
+      "The River Severn",
+      "The River Thames",
+      "The River Trent",
+      "The River Clyde"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The River Severn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The River Severn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_126",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Longest river in Germany'?",
+    "options": [
+      "The Rhine River",
+      "The Danube River",
+      "The Elbe River",
+      "The Main River"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Rhine River.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Rhine River** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_127",
+    "category": "geography",
+    "question": "Which geographical feature holds the title of 'Largest island in the Caribbean'?",
+    "options": [
+      "Cuba",
+      "Hispaniola",
+      "Jamaica",
+      "Puerto Rico"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Cuba.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cuba** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_128",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Second largest island in the Caribbean'?",
+    "options": [
+      "Hispaniola",
+      "Cuba",
+      "Jamaica",
+      "Puerto Rico"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is Hispaniola.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hispaniola** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_129",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Sea bounded by Europe, Asia, and Africa'?",
+    "options": [
+      "The Mediterranean Sea",
+      "The Black Sea",
+      "The Red Sea",
+      "The Baltic Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The Mediterranean Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Mediterranean Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "geo_feat_130",
+    "category": "geography",
+    "question": "What geographical landmark or feature is: 'Sea between Great Britain and Scandinavia'?",
+    "options": [
+      "The North Sea",
+      "The Baltic Sea",
+      "The Norwegian Sea",
+      "The Irish Sea"
+    ],
+    "answer": 0,
+    "explanation": "In geography, the correct answer to this question is The North Sea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The North Sea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

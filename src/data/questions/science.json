@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "sci_elem_1",
+    "category": "science",
+    "question": "What is the chemical symbol for Gold on the Periodic Table?",
+    "options": [
+      "Au",
+      "Ag",
+      "Pb",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Au.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Au** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_2",
+    "category": "science",
+    "question": "What is the chemical symbol for Silver on the Periodic Table?",
+    "options": [
+      "Ag",
+      "Au",
+      "Pb",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ag.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ag** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_3",
+    "category": "science",
+    "question": "What is the chemical symbol for Lead on the Periodic Table?",
+    "options": [
+      "Pb",
+      "Au",
+      "Ag",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Pb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pb** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_4",
+    "category": "science",
+    "question": "What is the chemical symbol for Mercury on the Periodic Table?",
+    "options": [
+      "Hg",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Hg.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hg** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_5",
+    "category": "science",
+    "question": "What is the chemical symbol for Iron on the Periodic Table?",
+    "options": [
+      "Fe",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Fe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_6",
+    "category": "science",
+    "question": "What is the chemical symbol for Copper on the Periodic Table?",
+    "options": [
+      "Cu",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Cu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cu** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_7",
+    "category": "science",
+    "question": "What is the chemical symbol for Tin on the Periodic Table?",
+    "options": [
+      "Sn",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Sn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_8",
+    "category": "science",
+    "question": "What is the chemical symbol for Tungsten on the Periodic Table?",
+    "options": [
+      "W",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is W.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **W** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_9",
+    "category": "science",
+    "question": "What is the chemical symbol for Potassium on the Periodic Table?",
+    "options": [
+      "K",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is K.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **K** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_10",
+    "category": "science",
+    "question": "What is the chemical symbol for Sodium on the Periodic Table?",
+    "options": [
+      "Na",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Na.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Na** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_11",
+    "category": "science",
+    "question": "What is the chemical symbol for Antimony on the Periodic Table?",
+    "options": [
+      "Sb",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Sb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sb** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_12",
+    "category": "science",
+    "question": "What is the chemical symbol for Bismuth on the Periodic Table?",
+    "options": [
+      "Bi",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Bi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bi** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_13",
+    "category": "science",
+    "question": "What is the chemical symbol for Titanium on the Periodic Table?",
+    "options": [
+      "Ti",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ti.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ti** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_14",
+    "category": "science",
+    "question": "What is the chemical symbol for Uranium on the Periodic Table?",
+    "options": [
+      "U",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is U.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **U** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_15",
+    "category": "science",
+    "question": "What is the chemical symbol for Plutonium on the Periodic Table?",
+    "options": [
+      "Pu",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Pu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pu** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_16",
+    "category": "science",
+    "question": "What is the chemical symbol for Platinum on the Periodic Table?",
+    "options": [
+      "Pt",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Pt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_17",
+    "category": "science",
+    "question": "What is the chemical symbol for Xenon on the Periodic Table?",
+    "options": [
+      "Xe",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Xe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Xe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_18",
+    "category": "science",
+    "question": "What is the chemical symbol for Radon on the Periodic Table?",
+    "options": [
+      "Rn",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Rn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_19",
+    "category": "science",
+    "question": "What is the chemical symbol for Carbon on the Periodic Table?",
+    "options": [
+      "C",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is C.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **C** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_elem_20",
+    "category": "science",
+    "question": "What is the chemical symbol for Silicon on the Periodic Table?",
+    "options": [
+      "Si",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Si.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Si** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_21",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Hardest naturally occurring substance on Earth'?",
+    "options": [
+      "Diamond",
+      "Corundum",
+      "Topaz",
+      "Quartz"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Diamond.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Diamond** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_22",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Smallest bone in the human body'?",
+    "options": [
+      "Stapes (Stirrup)",
+      "Malleus",
+      "Incus",
+      "Femur"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Stapes (Stirrup).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Stapes (Stirrup)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_23",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Longest bone in the human body'?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Fibula",
+      "Humerus"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Femur.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Femur** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_24",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organ that produces insulin in human body'?",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Kidney",
+      "Gallbladder"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Pancreas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pancreas** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_25",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organ that produces bile and filters blood'?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Spleen",
+      "Kidney"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Liver.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Liver** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_26",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organ that filters waste into urine'?",
+    "options": [
+      "Kidneys",
+      "Liver",
+      "Bladder",
+      "Pancreas"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Kidneys.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kidneys** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_27",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Transparent front part of the human eye'?",
+    "options": [
+      "Cornea",
+      "Retina",
+      "Sclera",
+      "Lens"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Cornea.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cornea** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_28",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Light-sensitive layer lining back of human eye'?",
+    "options": [
+      "Retina",
+      "Cornea",
+      "Choroid",
+      "Iris"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Retina.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Retina** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_29",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Main gas making up the Sun's mass'?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Hydrogen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hydrogen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_30",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Gas making up approximately 78% of Earth's atmosphere'?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Argon",
+      "Carbon Dioxide"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Nitrogen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nitrogen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_31",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Gas making up approximately 21% of Earth's atmosphere'?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Argon",
+      "Carbon Dioxide"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Oxygen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Oxygen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_32",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Noble gas making up 0.93% of Earth's atmosphere'?",
+    "options": [
+      "Argon",
+      "Helium",
+      "Neon",
+      "Krypton"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Argon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Argon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_33",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Planet known as the Red Planet'?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Mars.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mars** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_34",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest planet in our solar system'?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Jupiter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jupiter** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_35",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Planet with the most extensive planetary ring system'?",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Saturn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Saturn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_36",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Planet closest to the Sun in our solar system'?",
+    "options": [
+      "Mercury",
+      "Venus",
+      "Earth",
+      "Mars"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Mercury.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mercury** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_37",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Hottest planet in our solar system'?",
+    "options": [
+      "Venus",
+      "Mercury",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Venus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Venus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_38",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Approximate speed of light in a vacuum'?",
+    "options": [
+      "300,000 km/s",
+      "150,000 km/s",
+      "1,000,000 km/s",
+      "30,000 km/s"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is 300,000 km/s.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **300,000 km/s** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_39",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of electrical resistance'?",
+    "options": [
+      "Ohm",
+      "Volt",
+      "Ampere",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ohm.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ohm** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_40",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of electrical current'?",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Ohm",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ampere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ampere** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_41",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of electric potential difference'?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Volt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Volt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_42",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of power'?",
+    "options": [
+      "Watt",
+      "Joule",
+      "Newton",
+      "Pascal"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Watt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Watt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_43",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of force'?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Pascal",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Newton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Newton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_44",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of pressure'?",
+    "options": [
+      "Pascal",
+      "Newton",
+      "Joule",
+      "Bar"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Pascal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pascal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_45",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of work or energy'?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Joule.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Joule** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_46",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of frequency'?",
+    "options": [
+      "Hertz",
+      "Decibel",
+      "Lumen",
+      "Tesla"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Hertz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hertz** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_47",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Scale measuring mineral scratch hardness'?",
+    "options": [
+      "Mohs Scale",
+      "Richter Scale",
+      "Beaufort Scale",
+      "Kelvin Scale"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Mohs Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mohs Scale** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_48",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Scale measuring wind force at sea'?",
+    "options": [
+      "Beaufort Scale",
+      "Mohs Scale",
+      "Fujita Scale",
+      "Saffir-Simpson Scale"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Beaufort Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Beaufort Scale** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_49",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Scale measuring tornado damage intensity'?",
+    "options": [
+      "Fujita Scale",
+      "Richter Scale",
+      "Beaufort Scale",
+      "Saffir-Simpson Scale"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Fujita Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fujita Scale** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_50",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Scale measuring hurricane wind intensity'?",
+    "options": [
+      "Saffir-Simpson Scale",
+      "Beaufort Scale",
+      "Fujita Scale",
+      "Richter Scale"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Saffir-Simpson Scale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Saffir-Simpson Scale** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_51",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Green pigment that absorbs light during photosynthesis in plants'?",
+    "options": [
+      "Chlorophyll",
+      "Carotene",
+      "Xanthophyll",
+      "Anthocyanin"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Chlorophyll.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chlorophyll** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_52",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organelle known as the powerhouse of the cell'?",
+    "options": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome",
+      "Golgi Apparatus"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Mitochondria.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mitochondria** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_53",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Structures carrying DNA inside the cell nucleus'?",
+    "options": [
+      "Chromosomes",
+      "Ribosomes",
+      "Lysosomes",
+      "Vacuoles"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Chromosomes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chromosomes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_54",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Number of chromosomes in a normal human somatic cell'?",
+    "options": [
+      "46 (23 pairs)",
+      "48 (24 pairs)",
+      "44 (22 pairs)",
+      "42 (21 pairs)"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is 46 (23 pairs).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **46 (23 pairs)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_55",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Scottish scientist who discovered penicillin in 1928'?",
+    "options": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Robert Koch",
+      "Edward Jenner"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Alexander Fleming.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Alexander Fleming** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_56",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'English physician who developed the smallpox vaccine in 1796'?",
+    "options": [
+      "Edward Jenner",
+      "Louis Pasteur",
+      "Robert Koch",
+      "Jonas Salk"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Edward Jenner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Edward Jenner** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_57",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'French scientist who developed rabies vaccine and pasteurization'?",
+    "options": [
+      "Louis Pasteur",
+      "Edward Jenner",
+      "Robert Koch",
+      "Joseph Lister"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Louis Pasteur.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Louis Pasteur** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_58",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'English chemist whose X-ray diffraction images led to DNA structure discovery'?",
+    "options": [
+      "Rosalind Franklin",
+      "Ada Yonath",
+      "Barbara McClintock",
+      "Dorothy Hodgkin"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Rosalind Franklin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rosalind Franklin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_59",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Atmospheric phenomenon causing the Northern Lights'?",
+    "options": [
+      "Aurora Borealis",
+      "Aurora Australis",
+      "St. Elmo's Fire",
+      "Zodiacal Light"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Aurora Borealis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aurora Borealis** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_60",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Atmospheric phenomenon causing the Southern Lights'?",
+    "options": [
+      "Aurora Australis",
+      "Aurora Borealis",
+      "St. Elmo's Fire",
+      "Zodiacal Light"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Aurora Australis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aurora Australis** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_61",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Outermost layer of Earth's atmosphere'?",
+    "options": [
+      "Exosphere",
+      "Thermosphere",
+      "Mesosphere",
+      "Stratosphere"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Exosphere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Exosphere** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_62",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Atmospheric layer containing the protective ozone layer'?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Stratosphere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Stratosphere** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_63",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Atmospheric layer containing almost all weather phenomena'?",
+    "options": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Troposphere.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Troposphere** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_64",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Subatomic particle with a negative electric charge'?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Photon"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Electron.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Electron** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_65",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Subatomic particle with a positive electric charge'?",
+    "options": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Neutrino"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Proton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Proton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_66",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Subatomic particle with no electric charge'?",
+    "options": [
+      "Neutron",
+      "Proton",
+      "Electron",
+      "Positron"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Neutron.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Neutron** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_67",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Quantum particle of electromagnetic radiation (light)'?",
+    "options": [
+      "Photon",
+      "Electron",
+      "Gluon",
+      "Quark"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Photon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Photon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_68",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Particle giving mass to other fundamental particles (CERN 2012)'?",
+    "options": [
+      "Higgs Boson",
+      "Tachyon",
+      "Graviton",
+      "Neutrino"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Higgs Boson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Higgs Boson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_69",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Universal donor red blood cell type'?",
+    "options": [
+      "O Negative",
+      "AB Positive",
+      "A Positive",
+      "B Negative"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is O Negative.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **O Negative** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_70",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Universal recipient red blood cell type'?",
+    "options": [
+      "AB Positive",
+      "O Negative",
+      "A Negative",
+      "B Positive"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is AB Positive.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **AB Positive** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_71",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Primary structural protein in human hair and nails'?",
+    "options": [
+      "Keratin",
+      "Collagen",
+      "Elastin",
+      "Fibrin"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Keratin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Keratin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_72",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Primary structural protein in human skin and connective tissues'?",
+    "options": [
+      "Collagen",
+      "Keratin",
+      "Myosin",
+      "Actin"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Collagen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Collagen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_73",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Only mammal capable of true sustained flight'?",
+    "options": [
+      "Bat",
+      "Flying Squirrel",
+      "Sugar Glider",
+      "Flying Lemur"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Bat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bat** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_74",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Mammals that lay eggs instead of giving live birth (Monotremes)'?",
+    "options": [
+      "Platypus & Echidna",
+      "Koala & Wombat",
+      "Kangaroo & Wallaby",
+      "Numbat & Quoll"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Platypus & Echidna.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Platypus & Echidna** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_75",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest living primate species'?",
+    "options": [
+      "Gorilla",
+      "Orangutan",
+      "Chimpanzee",
+      "Gibbon"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Gorilla.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gorilla** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_76",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest animal species known to have ever existed'?",
+    "options": [
+      "Blue Whale",
+      "Fin Whale",
+      "Argentinosaurus",
+      "Sperm Whale"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Blue Whale.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Blue Whale** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_77",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest living land animal'?",
+    "options": [
+      "African Bush Elephant",
+      "Asian Elephant",
+      "White Rhinoceros",
+      "Hippopotamus"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is African Bush Elephant.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **African Bush Elephant** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_78",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Tallest living land animal species'?",
+    "options": [
+      "Giraffe",
+      "African Elephant",
+      "Ostrich",
+      "Camel"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Giraffe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Giraffe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_79",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest living bird species by mass'?",
+    "options": [
+      "Ostrich",
+      "Emu",
+      "Cassowary",
+      "Albatross"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ostrich.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ostrich** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_80",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Bird species with the largest wingspan'?",
+    "options": [
+      "Wandering Albatross",
+      "Andean Condor",
+      "Trumpeter Swan",
+      "Pelican"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Wandering Albatross.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Wandering Albatross** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_81",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Second largest living bird by height (native to Australia)'?",
+    "options": [
+      "Emu",
+      "Cassowary",
+      "Brolga",
+      "Jabiru"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Emu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Emu** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_82",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Australian bird capable of extraordinary sound mimicry'?",
+    "options": [
+      "Lyrebird",
+      "Kookaburra",
+      "Bowerbird",
+      "Magpie"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Lyrebird.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lyrebird** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_83",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Australian bird that constructs complex bowers decorated with blue objects'?",
+    "options": [
+      "Satin Bowerbird",
+      "Lyrebird",
+      "Regent Bowerbird",
+      "Noisy Miner"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Satin Bowerbird.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Satin Bowerbird** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_84",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Longest-living vertebrate species known (up to 400+ years)'?",
+    "options": [
+      "Greenland Shark",
+      "Galapagos Tortoise",
+      "Bowhead Whale",
+      "Ocean Quahog"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Greenland Shark.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Greenland Shark** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_85",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Longest-living non-colonial animal species (500+ years)'?",
+    "options": [
+      "Ocean Quahog",
+      "Greenland Shark",
+      "Red Sea Urchin",
+      "Immortal Jellyfish"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ocean Quahog.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ocean Quahog** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_86",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Species of jellyfish capable of reverting its cell cycle (biologically immortal)'?",
+    "options": [
+      "Turritopsis dohrnii",
+      "Box Jellyfish",
+      "Lion's Mane",
+      "Moon Jellyfish"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Turritopsis dohrnii.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Turritopsis dohrnii** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_87",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Venomous box jellyfish species native to northern Australian waters'?",
+    "options": [
+      "Chironex fleckeri",
+      "Irukandji",
+      "Bluebottle",
+      "Sea Wasp"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Chironex fleckeri.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chironex fleckeri** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_88",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Tiny box jellyfish responsible for severe cramps and feelings of impending doom'?",
+    "options": [
+      "Irukandji",
+      "Chironex fleckeri",
+      "Bluebottle",
+      "Lion's Mane"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Irukandji.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Irukandji** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_89",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Highly venomous octopus species with iridescent blue rings'?",
+    "options": [
+      "Blue-ringed Octopus",
+      "Giant Pacific Octopus",
+      "Blanket Octopus",
+      "Mimic Octopus"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Blue-ringed Octopus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Blue-ringed Octopus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_90",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest living reptile species by mass'?",
+    "options": [
+      "Saltwater Crocodile",
+      "Nile Crocodile",
+      "Komodo Dragon",
+      "Leatherback Turtle"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Saltwater Crocodile.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Saltwater Crocodile** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_91",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest living lizard species'?",
+    "options": [
+      "Komodo Dragon",
+      "Perentie",
+      "Lace Monitor",
+      "Gila Monster"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Komodo Dragon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Komodo Dragon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_92",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Australia's largest native lizard species'?",
+    "options": [
+      "Perentie",
+      "Lace Monitor",
+      "Goanna",
+      "Frilled-neck Lizard"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Perentie.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Perentie** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_93",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Most venomous land snake in the world by LD50 measure'?",
+    "options": [
+      "Inland Taipan",
+      "Eastern Brown Snake",
+      "Black Mamba",
+      "King Cobra"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Inland Taipan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Inland Taipan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_94",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Snake species responsible for most fatal snakebites in Australia'?",
+    "options": [
+      "Eastern Brown Snake",
+      "Inland Taipan",
+      "Red-bellied Black",
+      "Tiger Snake"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Eastern Brown Snake.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Eastern Brown Snake** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_95",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest living fish species'?",
+    "options": [
+      "Whale Shark",
+      "Great White Shark",
+      "Basking Shark",
+      "Tiger Shark"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Whale Shark.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Whale Shark** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_96",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest extant macropredatory shark species'?",
+    "options": [
+      "Great White Shark",
+      "Tiger Shark",
+      "Bull Shark",
+      "Hammerhead Shark"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Great White Shark.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Great White Shark** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_97",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Speed of sound in dry air at 20\u00b0C'?",
+    "options": [
+      "343 m/s (Mach 1)",
+      "300 m/s",
+      "500 m/s",
+      "1,000 m/s"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is 343 m/s (Mach 1).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **343 m/s (Mach 1)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_98",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Freezing point of water on the Fahrenheit scale'?",
+    "options": [
+      "32\u00b0F",
+      "0\u00b0F",
+      "100\u00b0F",
+      "212\u00b0F"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is 32\u00b0F.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **32\u00b0F** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_99",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Boiling point of water on the Fahrenheit scale'?",
+    "options": [
+      "212\u00b0F",
+      "100\u00b0F",
+      "180\u00b0F",
+      "32\u00b0F"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is 212\u00b0F.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **212\u00b0F** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_100",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Absolute zero temperature on the Celsius scale'?",
+    "options": [
+      "-273.15\u00b0C",
+      "-100\u00b0C",
+      "-459.67\u00b0C",
+      "0\u00b0C"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is -273.15\u00b0C.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **-273.15\u00b0C** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_101",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI base unit of thermodynamic temperature'?",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit",
+      "Rankine"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Kelvin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kelvin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_102",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI base unit of luminous intensity'?",
+    "options": [
+      "Candela",
+      "Lumen",
+      "Lux",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Candela.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Candela** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_103",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of luminous flux'?",
+    "options": [
+      "Lumen",
+      "Candela",
+      "Lux",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Lumen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lumen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_104",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of illuminance'?",
+    "options": [
+      "Lux",
+      "Lumen",
+      "Candela",
+      "Watt"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Lux.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lux** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_105",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'SI unit of magnetic flux density'?",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Gauss",
+      "Henry"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Tesla.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tesla** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_106",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Law of thermodynamics stating energy cannot be created or destroyed'?",
+    "options": [
+      "First Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "Third Law",
+      "Zeroth Law"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is First Law of Thermodynamics.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **First Law of Thermodynamics** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_107",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Law of thermodynamics stating entropy of isolated system always increases'?",
+    "options": [
+      "Second Law of Thermodynamics",
+      "First Law",
+      "Third Law",
+      "Zeroth Law"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Second Law of Thermodynamics.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Second Law of Thermodynamics** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_108",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Newton's Law stating object remains at rest unless acted upon by force'?",
+    "options": [
+      "Newton's First Law (Inertia)",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Gravitation"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Newton's First Law (Inertia).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Newton's First Law (Inertia)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_109",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Newton's Law stating Force equals mass times acceleration (F=ma)'?",
+    "options": [
+      "Newton's Second Law",
+      "Newton's First Law",
+      "Newton's Third Law",
+      "Hooke's Law"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Newton's Second Law.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Newton's Second Law** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_110",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Newton's Law stating every action has equal and opposite reaction'?",
+    "options": [
+      "Newton's Third Law",
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Kepler's Law"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Newton's Third Law.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Newton's Third Law** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_111",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Astronomer who formulated the three laws of planetary motion'?",
+    "options": [
+      "Johannes Kepler",
+      "Galileo Galilei",
+      "Nicolaus Copernicus",
+      "Tycho Brahe"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Johannes Kepler.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Johannes Kepler** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_112",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Astronomer who proposed heliocentric model in 1543'?",
+    "options": [
+      "Nicolaus Copernicus",
+      "Galileo",
+      "Ptolemy",
+      "Kepler"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Nicolaus Copernicus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nicolaus Copernicus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_113",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Astronomer who discovered the four largest moons of Jupiter in 1610'?",
+    "options": [
+      "Galileo Galilei",
+      "Kepler",
+      "Huygens",
+      "Cassini"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Galileo Galilei.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Galileo Galilei** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_114",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest moon in our solar system'?",
+    "options": [
+      "Ganymede",
+      "Titan",
+      "Callisto",
+      "Io"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ganymede.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ganymede** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_115",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Saturn's largest moon with dense atmosphere and methane lakes'?",
+    "options": [
+      "Titan",
+      "Enceladus",
+      "Mimas",
+      "Rhea"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Titan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Titan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_116",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Volcanically active moon of Jupiter'?",
+    "options": [
+      "Io",
+      "Europa",
+      "Ganymede",
+      "Callisto"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Io.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Io** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_117",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Moon of Jupiter with smooth ice crust covering global subsurface ocean'?",
+    "options": [
+      "Europa",
+      "Io",
+      "Ganymede",
+      "Callisto"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Europa.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Europa** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_118",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Unit of astronomical distance equal to 9.46 trillion kilometres'?",
+    "options": [
+      "Light Year",
+      "Parsec",
+      "Astronomical Unit",
+      "Megaparsec"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Light Year.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Light Year** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_119",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Unit of distance equal to average distance between Earth and Sun'?",
+    "options": [
+      "Astronomical Unit (AU)",
+      "Light Year",
+      "Parsec",
+      "Gigametre"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Astronomical Unit (AU).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Astronomical Unit (AU)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_120",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Unit of astronomical distance equal to 3.26 light years'?",
+    "options": [
+      "Parsec",
+      "Light Year",
+      "Astronomical Unit",
+      "Kiloclick"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Parsec.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Parsec** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_121",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organ responsible for pumping oxygenated blood throughout human body'?",
+    "options": [
+      "Heart",
+      "Lungs",
+      "Liver",
+      "Kidney"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Heart.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Heart** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_122",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organ responsible for gas exchange (taking in O2, expelling CO2)'?",
+    "options": [
+      "Lungs",
+      "Heart",
+      "Kidneys",
+      "Trachea"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Lungs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lungs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_123",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest internal organ in human body'?",
+    "options": [
+      "Liver",
+      "Brain",
+      "Pancreas",
+      "Heart"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Liver.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Liver** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_124",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Largest organ of human body overall'?",
+    "options": [
+      "Skin",
+      "Liver",
+      "Intestines",
+      "Lungs"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Skin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Skin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_125",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Outermost cellular membrane of plant cells'?",
+    "options": [
+      "Cell Wall",
+      "Cell Membrane",
+      "Cytoplasm",
+      "Vacuole"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Cell Wall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cell Wall** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_126",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Central organelle containing cell genetic material'?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Lysosome"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Nucleus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nucleus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_127",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Fluid substance filling cell interior'?",
+    "options": [
+      "Cytoplasm",
+      "Cytosol",
+      "Nucleoplasm",
+      "Plasma"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Cytoplasm.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cytoplasm** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_128",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organelles synthesizing proteins in cells'?",
+    "options": [
+      "Ribosomes",
+      "Mitochondria",
+      "Golgi Apparatus",
+      "Vacuoles"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Ribosomes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ribosomes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_129",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Cellular waste disposal organelles'?",
+    "options": [
+      "Lysosomes",
+      "Ribosomes",
+      "Vacuoles",
+      "Peroxisomes"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Lysosomes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lysosomes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "sci_fact_130",
+    "category": "science",
+    "question": "What scientific element, law, or concept is: 'Organelle modifying and packaging proteins'?",
+    "options": [
+      "Golgi Apparatus",
+      "Endoplasmic Reticulum",
+      "Mitochondria",
+      "Nucleus"
+    ],
+    "answer": 0,
+    "explanation": "In science, the correct answer to this question is Golgi Apparatus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Golgi Apparatus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

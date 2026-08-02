@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "myth_fact_1",
+    "category": "mythology",
+    "question": "In Roman mythology, who was king of the gods and ruler of the sky (Greek Zeus)?",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Mercury"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Jupiter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jupiter** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_2",
+    "category": "mythology",
+    "question": "In Roman mythology, who was queen of the gods and goddess of marriage (Greek Hera)?",
+    "options": [
+      "Juno",
+      "Venus",
+      "Minerva",
+      "Diana"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Juno.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Juno** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_3",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of the sea and oceans (Greek Poseidon)?",
+    "options": [
+      "Neptune",
+      "Jupiter",
+      "Pluto",
+      "Mars"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Neptune.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Neptune** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_4",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of the underworld and wealth (Greek Hades)?",
+    "options": [
+      "Pluto",
+      "Mars",
+      "Vulcan",
+      "Mercury"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Pluto.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pluto** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_5",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of war and agricultural guardian (Greek Ares)?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Apollo",
+      "Vulcan"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Mars.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mars** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_6",
+    "category": "mythology",
+    "question": "In Roman mythology, who was goddess of wisdom, warfare, and crafts (Greek Athena)?",
+    "options": [
+      "Minerva",
+      "Venus",
+      "Diana",
+      "Vesta"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Minerva.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Minerva** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_7",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of the sun, music, and prophecy (Greek Apollo)?",
+    "options": [
+      "Apollo",
+      "Sol",
+      "Helios",
+      "Hyperion"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Apollo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Apollo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_8",
+    "category": "mythology",
+    "question": "In Roman mythology, who was goddess of the hunt and moon (Greek Artemis)?",
+    "options": [
+      "Diana",
+      "Venus",
+      "Juno",
+      "Ceres"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Diana.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Diana** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_9",
+    "category": "mythology",
+    "question": "In Roman mythology, who was goddess of love and beauty (Greek Aphrodite)?",
+    "options": [
+      "Venus",
+      "Diana",
+      "Minerva",
+      "Vesta"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Venus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Venus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_10",
+    "category": "mythology",
+    "question": "In Roman mythology, who was messenger god of financial gain and trade (Greek Hermes)?",
+    "options": [
+      "Mercury",
+      "Mars",
+      "Vulcan",
+      "Apollo"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Mercury.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mercury** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_11",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of fire and metalworking (Greek Hephaestus)?",
+    "options": [
+      "Vulcan",
+      "Mars",
+      "Mercury",
+      "Pluto"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Vulcan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Vulcan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_12",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of wine and ecstasy (Greek Dionysus)?",
+    "options": [
+      "Bacchus",
+      "Apollo",
+      "Mercury",
+      "Vulcan"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Bacchus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bacchus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_13",
+    "category": "mythology",
+    "question": "In Roman mythology, who was goddess of agriculture and grain (Greek Demeter)?",
+    "options": [
+      "Ceres",
+      "Vesta",
+      "Juno",
+      "Venus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Ceres.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ceres** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_14",
+    "category": "mythology",
+    "question": "In Roman mythology, who was goddess of the hearth and home (Greek Hestia)?",
+    "options": [
+      "Vesta",
+      "Ceres",
+      "Juno",
+      "Diana"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Vesta.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Vesta** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_15",
+    "category": "mythology",
+    "question": "In Roman mythology, who was god of desire, affection, and erotic love (Greek Eros)?",
+    "options": [
+      "Cupid",
+      "Apollo",
+      "Bacchus",
+      "Mercury"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Cupid.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cupid** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_16",
+    "category": "mythology",
+    "question": "In Norse mythology, who is the Allfather and chief ruler of Asgard?",
+    "options": [
+      "Odin",
+      "Thor",
+      "Loki",
+      "Freyr"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Odin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Odin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_17",
+    "category": "mythology",
+    "question": "In Norse mythology, who is the thunder god wielding the hammer Mj\u00f6lnir?",
+    "options": [
+      "Thor",
+      "Odin",
+      "Loki",
+      "Heimdall"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Thor.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thor** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_18",
+    "category": "mythology",
+    "question": "In Norse mythology, who is the shape-shifting trickster god?",
+    "options": [
+      "Loki",
+      "Thor",
+      "Odin",
+      "Baldr"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Loki.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Loki** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_19",
+    "category": "mythology",
+    "question": "In Norse mythology, who guards the burning rainbow bridge Bifr\u00f6st?",
+    "options": [
+      "Heimdall",
+      "Tyr",
+      "Njord",
+      "Freyr"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Heimdall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Heimdall** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_20",
+    "category": "mythology",
+    "question": "What is the burning rainbow bridge connecting Midgard to Asgard in Norse mythology?",
+    "options": [
+      "Bifr\u00f6st",
+      "Yggdrasil",
+      "Valhalla",
+      "Ginnungagap"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Bifr\u00f6st.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bifr\u00f6st** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_21",
+    "category": "mythology",
+    "question": "What is the immense sacred World Tree in Norse cosmology?",
+    "options": [
+      "Yggdrasil",
+      "Bifr\u00f6st",
+      "Valhalla",
+      "Niflheim"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Yggdrasil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Yggdrasil** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_22",
+    "category": "mythology",
+    "question": "What is the majestic hall ruled by Odin where fallen warriors gather?",
+    "options": [
+      "Valhalla",
+      "Folkvangr",
+      "Helheim",
+      "Gladsheim"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Valhalla.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Valhalla** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_23",
+    "category": "mythology",
+    "question": "What is the series of catastrophic events and final battle in Norse mythology called?",
+    "options": [
+      "Ragnar\u00f6k",
+      "Fimbulwinter",
+      "Muspelheim",
+      "G\u00f6tterd\u00e4mmerung"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Ragnar\u00f6k.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ragnar\u00f6k** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_24",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was the falcon-headed sun god and king of gods?",
+    "options": [
+      "Ra",
+      "Osiris",
+      "Anubis",
+      "Horus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Ra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ra** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_25",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was green-skinned god of the underworld and judge of the dead?",
+    "options": [
+      "Osiris",
+      "Anubis",
+      "Set",
+      "Horus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Osiris.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Osiris** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_26",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was jackal-headed god of mummification and embalming?",
+    "options": [
+      "Anubis",
+      "Osiris",
+      "Horus",
+      "Thoth"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Anubis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Anubis** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_27",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was falcon-headed sky god and protector of pharaohs?",
+    "options": [
+      "Horus",
+      "Anubis",
+      "Set",
+      "Ra"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Horus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Horus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_28",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was god of chaos, storms, and murderer of Osiris?",
+    "options": [
+      "Set",
+      "Anubis",
+      "Thoth",
+      "Sobek"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Set.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Set** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_29",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was ibis-headed god of wisdom, writing, and magic?",
+    "options": [
+      "Thoth",
+      "Anubis",
+      "Horus",
+      "Ptah"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Thoth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thoth** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_30",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was goddess of magic and mother of Horus?",
+    "options": [
+      "Isis",
+      "Hathor",
+      "Bastet",
+      "Sekhmet"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Isis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Isis** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_31",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was cat-headed goddess of protection and home?",
+    "options": [
+      "Bastet",
+      "Sekhmet",
+      "Hathor",
+      "Tefnut"
+    ],
+    "answer": 0,
+    "explanation": "In ancient Egyptian religion, Bastet was revered as the protective deity of the home, domesticity, women, children, and cats.",
+    "tip": "\ud83d\udca1 **Bastet & Cats:** Ancient Egyptians sacredly honored domestic cats as earthly incarnations of the goddess Bastet.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_32",
+    "category": "mythology",
+    "question": "In Egyptian mythology, who was lioness-headed goddess of war and healing?",
+    "options": [
+      "Sekhmet",
+      "Bastet",
+      "Hathor",
+      "Tefnut"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Sekhmet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sekhmet** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_33",
+    "category": "mythology",
+    "question": "What ancient Babylonian law code is famous for establishing 'an eye for an eye'?",
+    "options": [
+      "Code of Hammurabi",
+      "Code of Ur-Nammu",
+      "Edict of Ashoka",
+      "Twelve Tables"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Code of Hammurabi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Code of Hammurabi** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_34",
+    "category": "mythology",
+    "question": "What Mesopotamian text is widely considered the world's oldest surviving epic poem?",
+    "options": [
+      "Epic of Gilgamesh",
+      "Enuma Elish",
+      "Rigveda",
+      "Odyssey"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Epic of Gilgamesh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Epic of Gilgamesh** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_35",
+    "category": "mythology",
+    "question": "Which Macedonian king conquered the Persian Empire and created an empire stretching to India?",
+    "options": [
+      "Alexander the Great",
+      "Philip II",
+      "Antigonus",
+      "Ptolemy I"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Alexander the Great.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Alexander the Great** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_36",
+    "category": "mythology",
+    "question": "In what year BC was Julius Caesar assassinated on the Ides of March?",
+    "options": [
+      "44 BC",
+      "27 BC",
+      "100 BC",
+      "14 AD"
+    ],
+    "answer": 0,
+    "explanation": "44 BC is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **44 BC** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_37",
+    "category": "mythology",
+    "question": "Who became the first Roman Emperor in 27 BC, taking the title Augustus?",
+    "options": [
+      "Augustus (Octavian)",
+      "Julius Caesar",
+      "Tiberius",
+      "Nero"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Augustus (Octavian).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Augustus (Octavian)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_38",
+    "category": "mythology",
+    "question": "Which Roman Emperor presided over Rome during the Great Fire of 64 AD?",
+    "options": [
+      "Nero",
+      "Caligula",
+      "Domitian",
+      "Commodus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Nero.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nero** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_39",
+    "category": "mythology",
+    "question": "Which Roman Emperor ordered the construction of a stone wall across northern Britain in 122 AD?",
+    "options": [
+      "Hadrian",
+      "Trajan",
+      "Antoninus Pius",
+      "Marcus Aurelius"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hadrian.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hadrian** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_40",
+    "category": "mythology",
+    "question": "Who was the first Christian Roman Emperor, legalizing Christianity with the Edict of Milan in 313 AD?",
+    "options": [
+      "Constantine the Great",
+      "Theodosius I",
+      "Diocletian",
+      "Julian"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Constantine the Great.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Constantine the Great** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_41",
+    "category": "mythology",
+    "question": "Which King of the Franks was crowned Emperor of the Romans by Pope Leo III on Christmas Day 800 AD?",
+    "options": [
+      "Charlemagne",
+      "Charles Martel",
+      "Pepin the Short",
+      "Clovis I"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Charlemagne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Charlemagne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_42",
+    "category": "mythology",
+    "question": "In what year did the Battle of Hastings take place, marking the Norman Conquest of England?",
+    "options": [
+      "1066",
+      "1215",
+      "1415",
+      "1485"
+    ],
+    "answer": 0,
+    "explanation": "1066 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1066** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_43",
+    "category": "mythology",
+    "question": "What famous medieval embroidered cloth depicts the events leading to the 1066 Norman Conquest?",
+    "options": [
+      "The Bayeux Tapestry",
+      "Lady and Unicorn",
+      "Apocalypse Tapestry",
+      "Devonshire Tapestry"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Bayeux Tapestry.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Bayeux Tapestry** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_44",
+    "category": "mythology",
+    "question": "Which English king granted the Magna Carta under pressure from rebellious barons at Runnymede in 1215?",
+    "options": [
+      "King John",
+      "Henry II",
+      "Richard Lionheart",
+      "Edward I"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is King John.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **King John** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_45",
+    "category": "mythology",
+    "question": "What devastating pandemic swept across Europe between 1346 and 1353, killing millions?",
+    "options": [
+      "The Black Death",
+      "Justinian Plague",
+      "Spanish Flu",
+      "Antonine Plague"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Black Death.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Black Death** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_46",
+    "category": "mythology",
+    "question": "Which French peasant girl led French forces during the Hundred Years' War before being burned at the stake in 1431?",
+    "options": [
+      "Joan of Arc",
+      "Eleanor of Aquitaine",
+      "Catherine de' Medici",
+      "Charlotte Corday"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Joan of Arc.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Joan of Arc** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_47",
+    "category": "mythology",
+    "question": "In what year did the Fall of Constantinople mark the end of the Byzantine Empire?",
+    "options": [
+      "1453",
+      "1492",
+      "1517",
+      "1683"
+    ],
+    "answer": 0,
+    "explanation": "1453 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1453** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_48",
+    "category": "mythology",
+    "question": "In what year did Christopher Columbus make his first voyage across the Atlantic, reaching the Bahamas?",
+    "options": [
+      "1492",
+      "1498",
+      "1500",
+      "1488"
+    ],
+    "answer": 0,
+    "explanation": "1492 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1492** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_49",
+    "category": "mythology",
+    "question": "Which German monk initiated the Protestant Reformation by posting his 95 Theses in 1517?",
+    "options": [
+      "Martin Luther",
+      "John Calvin",
+      "Huldrych Zwingli",
+      "Philip Melanchthon"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Martin Luther.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Martin Luther** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_50",
+    "category": "mythology",
+    "question": "Which Tudor monarch broke with Rome and established the Church of England in 1534?",
+    "options": [
+      "Henry VIII",
+      "Henry VII",
+      "Edward VI",
+      "Charles I"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Henry VIII.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Henry VIII** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_51",
+    "category": "mythology",
+    "question": "What was the fate of King Henry VIII's six wives in chronological order?",
+    "options": [
+      "Divorced, Beheaded, Died, Divorced, Beheaded, Survived",
+      "Beheaded, Divorced, Died",
+      "Died, Divorced, Beheaded",
+      "Divorced, Died, Beheaded"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Divorced, Beheaded, Died, Divorced, Beheaded, Survived.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Divorced, Beheaded, Died, Divorced, Beheaded, Survived** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_52",
+    "category": "mythology",
+    "question": "Which English queen reigned during the defeat of the Spanish Armada in 1588?",
+    "options": [
+      "Elizabeth I",
+      "Mary I",
+      "Victoria",
+      "Mary Queen of Scots"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Elizabeth I.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Elizabeth I** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_53",
+    "category": "mythology",
+    "question": "In what year was the Spanish Armada defeated by the English navy?",
+    "options": [
+      "1588",
+      "1571",
+      "1605",
+      "1666"
+    ],
+    "answer": 0,
+    "explanation": "1588 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1588** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_54",
+    "category": "mythology",
+    "question": "What failed Catholic plot in 1605 aimed to blow up the English Parliament and King James I?",
+    "options": [
+      "The Gunpowder Plot",
+      "Ridolfi Plot",
+      "Babington Plot",
+      "Rye House Plot"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Gunpowder Plot.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Gunpowder Plot** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_55",
+    "category": "mythology",
+    "question": "In what year did the Great Fire of London destroy over 13,000 houses?",
+    "options": [
+      "1666",
+      "1605",
+      "1642",
+      "1707"
+    ],
+    "answer": 0,
+    "explanation": "1666 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1666** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_56",
+    "category": "mythology",
+    "question": "Which French monarch, known as the 'Sun King', built the Palace of Versailles?",
+    "options": [
+      "Louis XIV",
+      "Louis XV",
+      "Louis XVI",
+      "Louis XIII"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Louis XIV.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Louis XIV** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_57",
+    "category": "mythology",
+    "question": "In what year was the United States Declaration of Independence adopted in Philadelphia?",
+    "options": [
+      "1776",
+      "1789",
+      "1783",
+      "1791"
+    ],
+    "answer": 0,
+    "explanation": "1776 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1776** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_58",
+    "category": "mythology",
+    "question": "In what year did the French Revolution begin with the storming of the Bastille?",
+    "options": [
+      "1789",
+      "1799",
+      "1815",
+      "1848"
+    ],
+    "answer": 0,
+    "explanation": "1789 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1789** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_59",
+    "category": "mythology",
+    "question": "Which French military leader was defeated at the Battle of Waterloo in 1815?",
+    "options": [
+      "Napoleon Bonaparte",
+      "Louis-Napol\u00e9on",
+      "Lafayette",
+      "Charles de Gaulle"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Napoleon Bonaparte.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Napoleon Bonaparte** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_60",
+    "category": "mythology",
+    "question": "In what year was the Battle of Waterloo fought in present-day Belgium?",
+    "options": [
+      "1815",
+      "1805",
+      "1812",
+      "1821"
+    ],
+    "answer": 0,
+    "explanation": "1815 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1815** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_61",
+    "category": "mythology",
+    "question": "Which British monarch reigned for 63 years from 1837 to 1901 during the height of the British Empire?",
+    "options": [
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Queen Anne",
+      "Queen Mary II"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Queen Victoria.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Queen Victoria** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_62",
+    "category": "mythology",
+    "question": "In what year did World War I begin in Europe?",
+    "options": [
+      "1914",
+      "1912",
+      "1917",
+      "1918"
+    ],
+    "answer": 0,
+    "explanation": "1914 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1914** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_63",
+    "category": "mythology",
+    "question": "In what year did World War I end with the signing of the Armistice?",
+    "options": [
+      "1918",
+      "1917",
+      "1919",
+      "1920"
+    ],
+    "answer": 0,
+    "explanation": "1918 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1918** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_64",
+    "category": "mythology",
+    "question": "In what year did the Russian Revolution overthrow Tsar Nicholas II and bring the Bolsheviks to power?",
+    "options": [
+      "1917",
+      "1905",
+      "1922",
+      "1914"
+    ],
+    "answer": 0,
+    "explanation": "1917 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1917** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_65",
+    "category": "mythology",
+    "question": "In what year did the Wall Street Crash trigger the Great Depression?",
+    "options": [
+      "1929",
+      "1931",
+      "1925",
+      "1933"
+    ],
+    "answer": 0,
+    "explanation": "1929 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1929** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_66",
+    "category": "mythology",
+    "question": "In what year did World War II begin in Europe with the invasion of Poland?",
+    "options": [
+      "1939",
+      "1938",
+      "1940",
+      "1941"
+    ],
+    "answer": 0,
+    "explanation": "1939 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1939** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_67",
+    "category": "mythology",
+    "question": "In what year did World War II officially end following the surrender of Japan?",
+    "options": [
+      "1945",
+      "1944",
+      "1946",
+      "1948"
+    ],
+    "answer": 0,
+    "explanation": "1945 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1945** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_68",
+    "category": "mythology",
+    "question": "In what year did Neil Armstrong and Buzz Aldrin walk on the Moon during the Apollo 11 mission?",
+    "options": [
+      "1969",
+      "1968",
+      "1970",
+      "1972"
+    ],
+    "answer": 0,
+    "explanation": "1969 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1969** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_69",
+    "category": "mythology",
+    "question": "In what year did the Fall of the Berlin Wall symbolize the end of the Cold War?",
+    "options": [
+      "1989",
+      "1991",
+      "1987",
+      "1990"
+    ],
+    "answer": 0,
+    "explanation": "1989 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1989** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_70",
+    "category": "mythology",
+    "question": "In what year was the Soviet Union (USSR) officially dissolved?",
+    "options": [
+      "1991",
+      "1989",
+      "1993",
+      "1990"
+    ],
+    "answer": 0,
+    "explanation": "1991 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1991** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_71",
+    "category": "mythology",
+    "question": "In Greek mythology, who was king of the gods and ruler of Mount Olympus?",
+    "options": [
+      "Zeus",
+      "Ares",
+      "Hermes",
+      "Poseidon"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Zeus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Zeus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_72",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of war and bloodlust?",
+    "options": [
+      "Ares",
+      "Zeus",
+      "Hermes",
+      "Apollo"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Ares.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ares** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_73",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of the sea, earthquakes, and horses?",
+    "options": [
+      "Poseidon",
+      "Zeus",
+      "Hades",
+      "Apollo"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Poseidon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Poseidon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_74",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of the underworld and ruler of the dead?",
+    "options": [
+      "Hades",
+      "Zeus",
+      "Poseidon",
+      "Ares"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hades.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hades** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_75",
+    "category": "mythology",
+    "question": "In Greek mythology, who was goddess of wisdom, strategic warfare, and handicraft?",
+    "options": [
+      "Athena",
+      "Hera",
+      "Aphrodite",
+      "Artemis"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Athena.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Athena** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_76",
+    "category": "mythology",
+    "question": "In Greek mythology, who was goddess of love, beauty, passion, and procreation?",
+    "options": [
+      "Aphrodite",
+      "Athena",
+      "Hera",
+      "Artemis"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Aphrodite.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aphrodite** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_77",
+    "category": "mythology",
+    "question": "In Greek mythology, who was messenger of the gods and guide to the underworld?",
+    "options": [
+      "Hermes",
+      "Apollo",
+      "Ares",
+      "Zeus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hermes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hermes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_78",
+    "category": "mythology",
+    "question": "In Greek mythology, who was goddess of the hearth, home, and domestic life?",
+    "options": [
+      "Hestia",
+      "Demeter",
+      "Hera",
+      "Artemis"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hestia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hestia** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_79",
+    "category": "mythology",
+    "question": "In Greek mythology, who was goddess of agriculture, harvest, and fertility?",
+    "options": [
+      "Demeter",
+      "Hestia",
+      "Hera",
+      "Persephone"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Demeter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Demeter** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_80",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of wine, winemaking, orchards, and theater?",
+    "options": [
+      "Dionysus",
+      "Apollo",
+      "Hermes",
+      "Hephaestus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Dionysus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dionysus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_81",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of fire, metalworking, and blacksmiths?",
+    "options": [
+      "Hephaestus",
+      "Ares",
+      "Hermes",
+      "Apollo"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hephaestus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hephaestus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_82",
+    "category": "mythology",
+    "question": "In Greek mythology, who was goddess of wild animals, the hunt, vegetation, and chastity?",
+    "options": [
+      "Artemis",
+      "Athena",
+      "Aphrodite",
+      "Demeter"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Artemis.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Artemis** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_83",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of sun, light, music, poetry, and healing?",
+    "options": [
+      "Apollo",
+      "Helios",
+      "Hermes",
+      "Dionysus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Apollo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Apollo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_84",
+    "category": "mythology",
+    "question": "In Greek mythology, who was queen of gods and goddess of marriage and women?",
+    "options": [
+      "Hera",
+      "Athena",
+      "Aphrodite",
+      "Demeter"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hera.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hera** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_85",
+    "category": "mythology",
+    "question": "In Greek mythology, who was god of love and desire, son of Aphrodite?",
+    "options": [
+      "Eros",
+      "Apollo",
+      "Hermes",
+      "Dionysus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Eros.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Eros** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_86",
+    "category": "mythology",
+    "question": "In Greek mythology, who was hero who performed Twelve Labors?",
+    "options": [
+      "Heracles (Hercules)",
+      "Theseus",
+      "Perseus",
+      "Jason"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Heracles (Hercules).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Heracles (Hercules)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_87",
+    "category": "mythology",
+    "question": "In Greek mythology, who was hero who slew the Minotaur in the Cretan Labyrinth?",
+    "options": [
+      "Theseus",
+      "Heracles",
+      "Perseus",
+      "Jason"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Theseus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Theseus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_88",
+    "category": "mythology",
+    "question": "In Greek mythology, who was hero who beheaded Medusa the Gorgon?",
+    "options": [
+      "Perseus",
+      "Theseus",
+      "Heracles",
+      "Jason"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Perseus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Perseus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_89",
+    "category": "mythology",
+    "question": "In Greek mythology, who was leader of the Argonauts who retrieved the Golden Fleece?",
+    "options": [
+      "Jason",
+      "Perseus",
+      "Theseus",
+      "Odysseus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Jason.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jason** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_90",
+    "category": "mythology",
+    "question": "In Greek mythology, who was king of Ithaca whose 10-year journey home is told in the Odyssey?",
+    "options": [
+      "Odysseus",
+      "Agamemnon",
+      "Achilles",
+      "Menelaus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Odysseus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Odysseus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_91",
+    "category": "mythology",
+    "question": "In Greek mythology, who was greatest warrior of the Greeks in the Trojan War, invulnerable except for his heel?",
+    "options": [
+      "Achilles",
+      "Hector",
+      "Ajax",
+      "Diomedes"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Achilles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Achilles** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_92",
+    "category": "mythology",
+    "question": "In Greek mythology, who was Trojan prince and champion killed by Achilles?",
+    "options": [
+      "Hector",
+      "Paris",
+      "Priam",
+      "Aeneas"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hector.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hector** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_93",
+    "category": "mythology",
+    "question": "In Greek mythology, who was Trojan prince whose abduction of Helen sparked the Trojan War?",
+    "options": [
+      "Paris",
+      "Hector",
+      "Priam",
+      "Deiphobus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Paris.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Paris** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_94",
+    "category": "mythology",
+    "question": "In Greek mythology, who was king of Mycenae and commander of Greek forces at Troy?",
+    "options": [
+      "Agamemnon",
+      "Menelaus",
+      "Achilles",
+      "Odysseus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Agamemnon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Agamemnon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_95",
+    "category": "mythology",
+    "question": "In Greek mythology, who was king of Sparta and husband of Helen of Troy?",
+    "options": [
+      "Menelaus",
+      "Agamemnon",
+      "Nestor",
+      "Diomedes"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Menelaus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Menelaus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_96",
+    "category": "mythology",
+    "question": "In Greek mythology, who was architect who built the Labyrinth and made wax wings for his son Icarus?",
+    "options": [
+      "Daedalus",
+      "Icarus",
+      "Minos",
+      "Tantalus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Daedalus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Daedalus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_97",
+    "category": "mythology",
+    "question": "In Greek mythology, who was youth who flew too close to the sun with wax wings?",
+    "options": [
+      "Icarus",
+      "Daedalus",
+      "Phaethon",
+      "Bellerophon"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Icarus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Icarus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_98",
+    "category": "mythology",
+    "question": "In Greek mythology, who was hero who rode winged horse Pegasus to defeat the Chimera?",
+    "options": [
+      "Bellerophon",
+      "Perseus",
+      "Theseus",
+      "Jason"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Bellerophon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bellerophon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_99",
+    "category": "mythology",
+    "question": "In Greek mythology, who was king condemned to roll a boulder up a hill for eternity?",
+    "options": [
+      "Sisyphus",
+      "Tantalus",
+      "Ixion",
+      "Prometheus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Sisyphus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sisyphus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_100",
+    "category": "mythology",
+    "question": "In Greek mythology, who was Titan who stole fire from gods to give to humanity?",
+    "options": [
+      "Prometheus",
+      "Epimetheus",
+      "Atlas",
+      "Cronus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Prometheus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Prometheus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_101",
+    "category": "mythology",
+    "question": "In Greek mythology, who was Titan condemned to hold up the celestial heavens for eternity?",
+    "options": [
+      "Atlas",
+      "Prometheus",
+      "Cronus",
+      "Oceanus"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Atlas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Atlas** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_102",
+    "category": "mythology",
+    "question": "In Greek mythology, who was king punished in Tartarus with eternal hunger and thirst?",
+    "options": [
+      "Tantalus",
+      "Sisyphus",
+      "Ixion",
+      "Tityos"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Tantalus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tantalus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_103",
+    "category": "mythology",
+    "question": "In Greek mythology, who was queen of the underworld and wife of Hades?",
+    "options": [
+      "Persephone",
+      "Demeter",
+      "Hecate",
+      "Eris"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Persephone.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Persephone** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_104",
+    "category": "mythology",
+    "question": "In Greek mythology, who was goddess of witchcraft, magic, night, and moon?",
+    "options": [
+      "Hecate",
+      "Persephone",
+      "Circe",
+      "Medea"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Hecate.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hecate** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_105",
+    "category": "mythology",
+    "question": "In Greek mythology, who was sorceress on island of Aiaia who turned Odysseus' men into pigs?",
+    "options": [
+      "Circe",
+      "Medea",
+      "Calypso",
+      "Scylla"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Circe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Circe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_106",
+    "category": "mythology",
+    "question": "In Greek mythology, who was nymph who detained Odysseus on her island Ogygia for 7 years?",
+    "options": [
+      "Calypso",
+      "Circe",
+      "Nausicaa",
+      "Sirens"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Calypso.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Calypso** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_107",
+    "category": "mythology",
+    "question": "In Greek mythology, who was three-headed dog guarding the entrance to the underworld?",
+    "options": [
+      "Cerberus",
+      "Orthrus",
+      "Fenrir",
+      "Chimera"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Cerberus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cerberus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_108",
+    "category": "mythology",
+    "question": "In Greek mythology, who was monstrous fire-breathing lion-goat-snake creature killed by Bellerophon?",
+    "options": [
+      "Chimera",
+      "Hydra",
+      "Manticore",
+      "Sphinx"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Chimera.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chimera** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_109",
+    "category": "mythology",
+    "question": "In Greek mythology, who was many-headed water serpent slain by Heracles?",
+    "options": [
+      "Lernean Hydra",
+      "Chimera",
+      "Python",
+      "Typhon"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Lernean Hydra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lernean Hydra** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_110",
+    "category": "mythology",
+    "question": "In Greek mythology, who was half-man, half-bull monster kept in the Cretan Labyrinth?",
+    "options": [
+      "The Minotaur",
+      "Centaur",
+      "Satyr",
+      "Cyclops"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Minotaur.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Minotaur** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_111",
+    "category": "mythology",
+    "question": "In Greek mythology, who were half-man, half-horse creatures of the mountains of Thessaly?",
+    "options": [
+      "Centaurs",
+      "Satyrs",
+      "Sirens",
+      "Gorgons"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Centaurs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Centaurs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_112",
+    "category": "mythology",
+    "question": "In Greek mythology, who were half-man, half-goat nature spirits of Dionysus?",
+    "options": [
+      "Satyrs",
+      "Centaurs",
+      "Fauns",
+      "Nymphs"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Satyrs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Satyrs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_113",
+    "category": "mythology",
+    "question": "In Greek mythology, who were three snake-haired sisters whose gaze turned onlookers to stone?",
+    "options": [
+      "The Gorgons (Medusa)",
+      "The Harpies",
+      "The Furies",
+      "The Graeae"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Gorgons (Medusa).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Gorgons (Medusa)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_114",
+    "category": "mythology",
+    "question": "In Greek mythology, who were winged female spirits of vengeance?",
+    "options": [
+      "The Furies (Erinyes)",
+      "The Harpies",
+      "The Gorgons",
+      "The Mates"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Furies (Erinyes).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Furies (Erinyes)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_115",
+    "category": "mythology",
+    "question": "In Greek mythology, who were bird-women who snatched food and souls?",
+    "options": [
+      "The Harpies",
+      "The Furies",
+      "The Sirens",
+      "The Gorgons"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Harpies.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Harpies** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_116",
+    "category": "mythology",
+    "question": "In Greek mythology, who were dangerous creature maidens whose enchanting songs lured sailors to shipwreck?",
+    "options": [
+      "The Sirens",
+      "The Harpies",
+      "The Nereids",
+      "The Muses"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Sirens.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Sirens** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_117",
+    "category": "mythology",
+    "question": "In Greek mythology, who were nine goddesses of music, poetry, arts, and sciences?",
+    "options": [
+      "The Nine Muses",
+      "The Three Graces",
+      "The Fates",
+      "The Nymphs"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Nine Muses.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Nine Muses** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_118",
+    "category": "mythology",
+    "question": "In Greek mythology, who were three goddesses of charm, beauty, and grace?",
+    "options": [
+      "The Three Graces (Charites)",
+      "The Muses",
+      "The Fates",
+      "The Horae"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Three Graces (Charites).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Three Graces (Charites)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_119",
+    "category": "mythology",
+    "question": "In Greek mythology, who were three sister deities who spun, measured, and cut thread of life?",
+    "options": [
+      "The Fates (Moirai)",
+      "The Norns",
+      "The Graces",
+      "The Parcae"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Fates (Moirai).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Fates (Moirai)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_120",
+    "category": "mythology",
+    "question": "In Norse mythology, who were three maiden fate weavers of destiny at Ur\u00f0arbrunnr?",
+    "options": [
+      "The Norns",
+      "The Fates",
+      "The Valkyries",
+      "The Shieldmaidens"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Norns.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Norns** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_121",
+    "category": "mythology",
+    "question": "In Norse mythology, who were noble female spirits who chose those who die in battle and take them to Valhalla?",
+    "options": [
+      "The Valkyries",
+      "The Norns",
+      "The Disir",
+      "The Giantesses"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is The Valkyries.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Valkyries** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_122",
+    "category": "mythology",
+    "question": "In Norse mythology, who was giant wolf and son of Loki who bites off Tyr's hand and kills Odin at Ragnar\u00f6k?",
+    "options": [
+      "Fenrir",
+      "J\u00f6rmungandr",
+      "Sleipnir",
+      "Garmr"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Fenrir.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fenrir** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_123",
+    "category": "mythology",
+    "question": "In Norse mythology, who was vast sea serpent surrounding Midgard and arch-enemy of Thor?",
+    "options": [
+      "J\u00f6rmungandr (Midgard Serpent)",
+      "N\u00ed\u00f0h\u00f6ggr",
+      "Fenrir",
+      "Fafnir"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is J\u00f6rmungandr (Midgard Serpent).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **J\u00f6rmungandr (Midgard Serpent)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_124",
+    "category": "mythology",
+    "question": "In Norse mythology, who was eight-legged horse ridden by Odin?",
+    "options": [
+      "Sleipnir",
+      "Skinfaxi",
+      "Gullfaxi",
+      "Grani"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Sleipnir.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sleipnir** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_125",
+    "category": "mythology",
+    "question": "In Norse mythology, who was god of spring, light, and beauty whose death was engineered by Loki with mistletoe?",
+    "options": [
+      "Baldr",
+      "Hodr",
+      "Freyr",
+      "Heimdall"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Baldr.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Baldr** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_126",
+    "category": "mythology",
+    "question": "In Norse mythology, who was god of sunshine, fertile rain, and prosperity, brother of Freyja?",
+    "options": [
+      "Freyr",
+      "Freyja",
+      "Njord",
+      "Tyr"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Freyr.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Freyr** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_127",
+    "category": "mythology",
+    "question": "In Norse mythology, who was goddess of love, beauty, fertility, gold, and magic (Sei\u00f0r)?",
+    "options": [
+      "Freyja",
+      "Frigg",
+      "Idunn",
+      "Sif"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Freyja.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Freyja** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_128",
+    "category": "mythology",
+    "question": "In Norse mythology, who was the wife of Odin and queen of Asgard known for her wisdom and foresight?",
+    "options": [
+      "Frigg",
+      "Freyja",
+      "Idunn",
+      "Sif"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Frigg.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Frigg** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_129",
+    "category": "mythology",
+    "question": "In Norse mythology, who was goddess who guarded golden apples granting eternal youth to gods?",
+    "options": [
+      "Idunn",
+      "Frigg",
+      "Freyja",
+      "Sif"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Idunn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Idunn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "myth_fact_130",
+    "category": "mythology",
+    "question": "In Norse mythology, who was one-handed god of war and law who sacrificed his hand to bind Fenrir?",
+    "options": [
+      "Tyr",
+      "Thor",
+      "Odin",
+      "Heimdall"
+    ],
+    "answer": 0,
+    "explanation": "In mythology, the correct answer to this question is Tyr.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tyr** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

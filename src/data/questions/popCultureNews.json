@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "pop_fact_1",
+    "category": "pop_culture",
+    "question": "Which Australian production company created the ABC government infrastructure satire series Utopia?",
+    "options": [
+      "Working Dog Productions",
+      "Matchbox Pictures",
+      "Junction Films",
+      "Fremantle Australia"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Working Dog Productions.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Working Dog Productions** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_2",
+    "category": "pop_culture",
+    "question": "Which 2015 action film directed by George Miller won six Academy Awards?",
+    "options": [
+      "Mad Max: Fury Road",
+      "The Water Diviner",
+      "Lion",
+      "Hacksaw Ridge"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Mad Max: Fury Road.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mad Max: Fury Road** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_3",
+    "category": "pop_culture",
+    "question": "Which Australian actor won a posthumous Academy Award for playing the Joker in The Dark Knight?",
+    "options": [
+      "Heath Ledger",
+      "Hugh Jackman",
+      "Russell Crowe",
+      "Eric Bana"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Heath Ledger.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Heath Ledger** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_4",
+    "category": "pop_culture",
+    "question": "Which Australian actress won Academy Awards for her roles in The Aviator and Blue Jasmine?",
+    "options": [
+      "Cate Blanchett",
+      "Nicole Kidman",
+      "Margot Robbie",
+      "Toni Collette"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Cate Blanchett.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cate Blanchett** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_5",
+    "category": "pop_culture",
+    "question": "Which Australian actress won the Best Actress Oscar for her role as Virginia Woolf in The Hours (2002)?",
+    "options": [
+      "Nicole Kidman",
+      "Cate Blanchett",
+      "Naomi Watts",
+      "Judy Davis"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Nicole Kidman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nicole Kidman** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_6",
+    "category": "pop_culture",
+    "question": "Which Australian actor won the Best Actor Oscar in 2001 for his role as Maximus in Gladiator?",
+    "options": [
+      "Russell Crowe",
+      "Geoffrey Rush",
+      "Hugh Jackman",
+      "Guy Pearce"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Russell Crowe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Russell Crowe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_7",
+    "category": "pop_culture",
+    "question": "Which Australian actor won the Best Actor Oscar in 1997 for his role as pianist David Helfgott in Shine?",
+    "options": [
+      "Geoffrey Rush",
+      "Russell Crowe",
+      "Heath Ledger",
+      "Hugo Weaving"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Geoffrey Rush.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Geoffrey Rush** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_8",
+    "category": "pop_culture",
+    "question": "What is Australia's highest annual television award, featuring the Gold Logie?",
+    "options": [
+      "The Logie Awards",
+      "AACTA Awards",
+      "ARIA Awards",
+      "Helpmann Awards"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Logie Awards.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Logie Awards** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_9",
+    "category": "pop_culture",
+    "question": "What is Australia's premier annual music industry award presented by the Australian Recording Industry Association?",
+    "options": [
+      "The ARIA Awards",
+      "APRA Awards",
+      "Logie Awards",
+      "Tamworth Awards"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The ARIA Awards.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The ARIA Awards** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_10",
+    "category": "pop_culture",
+    "question": "What prestigious annual Australian portraiture painting prize is awarded by the Art Gallery of New South Wales?",
+    "options": [
+      "The Archibald Prize",
+      "Wynne Prize",
+      "Sulman Prize",
+      "Moran Prize"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Archibald Prize.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Archibald Prize** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_11",
+    "category": "pop_culture",
+    "question": "What annual Australian painting prize is awarded for Australian landscape painting or figure sculpture?",
+    "options": [
+      "The Wynne Prize",
+      "Archibald Prize",
+      "Sulman Prize",
+      "Dobell Prize"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Wynne Prize.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Wynne Prize** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_12",
+    "category": "pop_culture",
+    "question": "What annual Australian painting prize is awarded for the best subject painting, genre painting, or mural?",
+    "options": [
+      "The Sulman Prize",
+      "Archibald Prize",
+      "Wynne Prize",
+      "Ramsay Prize"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Sulman Prize.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Sulman Prize** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_13",
+    "category": "pop_culture",
+    "question": "Which legendary Australian rock band released the world-conquering 1980 album Back in Black?",
+    "options": [
+      "AC/DC",
+      "INXS",
+      "Cold Chisel",
+      "Midnight Oil"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is AC/DC.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **AC/DC** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_14",
+    "category": "pop_culture",
+    "question": "Which Australian rock band was fronted by charismatic lead singer Michael Hutchence?",
+    "options": [
+      "INXS",
+      "AC/DC",
+      "The Seekers",
+      "Men at Work"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is INXS.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **INXS** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_15",
+    "category": "pop_culture",
+    "question": "Which Australian rock band fronted by Peter Garrett released environmental anthems like Beds Are Burning?",
+    "options": [
+      "Midnight Oil",
+      "Cold Chisel",
+      "The Angels",
+      "Hoodoo Gurus"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Midnight Oil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Midnight Oil** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_16",
+    "category": "pop_culture",
+    "question": "Which Australian rock band fronted by Jimmy Barnes sang iconic anthems like Khe Sanh and Flame Trees?",
+    "options": [
+      "Cold Chisel",
+      "Midnight Oil",
+      "INXS",
+      "Australian Crawl"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Cold Chisel.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cold Chisel** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_17",
+    "category": "pop_culture",
+    "question": "Which 1960s Australian folk-pop group fronted by Judith Durham achieved international hits like Georgy Girl?",
+    "options": [
+      "The Seekers",
+      "The Easybeats",
+      "Bee Gees",
+      "Little River Band"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Seekers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Seekers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_18",
+    "category": "pop_culture",
+    "question": "Which 1960s Australian rock band hit global charts in 1966 with Friday on My Mind?",
+    "options": [
+      "The Easybeats",
+      "The Seekers",
+      "Bee Gees",
+      "Daddy Cool"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Easybeats.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Easybeats** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_19",
+    "category": "pop_culture",
+    "question": "Which Australian-raised brothers formed the pop trio behind the Saturday Night Fever soundtrack?",
+    "options": [
+      "The Bee Gees",
+      "The Easybeats",
+      "Air Supply",
+      "Little River Band"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Bee Gees.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Bee Gees** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_20",
+    "category": "pop_culture",
+    "question": "Which Australian pop rock band topped the US Billboard Hot 100 in 1981 with Down Under?",
+    "options": [
+      "Men at Work",
+      "INXS",
+      "Little River Band",
+      "Crowded House"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Men at Work.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Men at Work** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_21",
+    "category": "pop_culture",
+    "question": "Which band fronted by Neil Finn released international hits like Don't Dream It's Over and Something So Strong?",
+    "options": [
+      "Crowded House",
+      "Split Enz",
+      "Men at Work",
+      "Go-Betweens"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Crowded House.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Crowded House** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_22",
+    "category": "pop_culture",
+    "question": "Which Australian pop icon achieved massive global hits with Locomotion, Spinning Around, and Can't Get You Out of My Head?",
+    "options": [
+      "Kylie Minogue",
+      "Dannii Minogue",
+      "Delta Goodrem",
+      "Natalie Imbruglia"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Kylie Minogue.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kylie Minogue** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_23",
+    "category": "pop_culture",
+    "question": "Which Australian singer broke records with her 2003 debut album Innocent Eyes, spawning 5 number-one singles?",
+    "options": [
+      "Delta Goodrem",
+      "Kylie Minogue",
+      "Sia",
+      "Tones and I"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Delta Goodrem.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Delta Goodrem** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_24",
+    "category": "pop_culture",
+    "question": "Which Adelaide-born pop singer and songwriter scored massive global hits with Chandelier and Cheap Thrills?",
+    "options": [
+      "Sia",
+      "Tones and I",
+      "Courtney Barnett",
+      "Vance Joy"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Sia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sia** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_25",
+    "category": "pop_culture",
+    "question": "Which Australian artist broke global streaming records in 2019 with her viral hit Dance Monkey?",
+    "options": [
+      "Tones and I",
+      "Sia",
+      "Tash Sultana",
+      "Mallrat"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Tones and I.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tones and I** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_26",
+    "category": "pop_culture",
+    "question": "Which Melbourne singer-songwriter won the 2013 Hottest 100 with his folk hit Riptide?",
+    "options": [
+      "Vance Joy",
+      "Dean Lewis",
+      "Gotye",
+      "Matt Corby"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Vance Joy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Vance Joy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_27",
+    "category": "pop_culture",
+    "question": "Which Australian artist won 3 Grammy Awards in 2013 for his global number-one hit Somebody That I Used to Know?",
+    "options": [
+      "Gotye",
+      "Vance Joy",
+      "Chet Faker",
+      "Flume"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Gotye.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gotye** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_28",
+    "category": "pop_culture",
+    "question": "Which Australian electronic producer won the 2017 Grammy Award for Best Dance/Electronic Album for Skin?",
+    "options": [
+      "Flume",
+      "R\u00dcF\u00dcS DU SOL",
+      "Empire of the Sun",
+      "Pnau"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Flume.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Flume** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_29",
+    "category": "pop_culture",
+    "question": "What long-running Australian soap opera set in Ramsay Street, Erinsborough, debuted in 1985?",
+    "options": [
+      "Neighbours",
+      "Home and Away",
+      "Sons and Daughters",
+      "Blue Heelers"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Neighbours.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Neighbours** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_30",
+    "category": "pop_culture",
+    "question": "What long-running Australian soap opera set in coastal Summer Bay debuted in 1988?",
+    "options": [
+      "Home and Away",
+      "Neighbours",
+      "A Country Practice",
+      "Packed to the Rafters"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Home and Away.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Home and Away** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_31",
+    "category": "pop_culture",
+    "question": "Which actor played the iconic character Alf Stewart on Home and Away for over 35 years?",
+    "options": [
+      "Ray Meagher",
+      "Norman Coburn",
+      "Johnny Ruffo",
+      "Ada Nicodemou"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Ray Meagher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ray Meagher** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_32",
+    "category": "pop_culture",
+    "question": "What beloved Australian drama series set in rural Wandin Valley ran on the Seven Network from 1981 to 1993?",
+    "options": [
+      "A Country Practice",
+      "The Flying Doctors",
+      "GP",
+      "All Saints"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is A Country Practice.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **A Country Practice** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_33",
+    "category": "pop_culture",
+    "question": "What acclaimed police drama series set in rural Mount Thomas ran on Australian TV from 1994 to 2006?",
+    "options": [
+      "Blue Heelers",
+      "Water Rats",
+      "Stingers",
+      "Rush"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Blue Heelers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Blue Heelers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_34",
+    "category": "pop_culture",
+    "question": "Which comedy duo created and starred in the hit Australian Suburban comedy series Kath & Kim?",
+    "options": [
+      "Jane Turner and Gina Riley",
+      "Kitty Flanagan",
+      "Judith Lucy",
+      "Magda Szubanski"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Jane Turner and Gina Riley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jane Turner and Gina Riley** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_35",
+    "category": "pop_culture",
+    "question": "Which Australian comedian wrote, directed, and starred in the hit legal comedy series Fisk?",
+    "options": [
+      "Kitty Flanagan",
+      "Celeste Barber",
+      "Judith Lucy",
+      "Julia Morris"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Kitty Flanagan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kitty Flanagan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_36",
+    "category": "pop_culture",
+    "question": "Which production company created iconic Australian comedies like Frontline, The Panel, Utopia, and The Castle?",
+    "options": [
+      "Working Dog Productions",
+      "ABC Comedy",
+      "Junction Films",
+      "Matchbox Pictures"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Working Dog Productions.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Working Dog Productions** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_37",
+    "category": "pop_culture",
+    "question": "Which 1997 Australian comedy film features the Kerrigan family fighting the compulsory acquisition of their home?",
+    "options": [
+      "The Castle",
+      "The Dish",
+      "Kenny",
+      "Strictly Ballroom"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Castle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Castle** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_38",
+    "category": "pop_culture",
+    "question": "Which 1986 Outback comedy film starring Paul Hogan became the highest-grossing Australian film of all time?",
+    "options": [
+      "Crocodile Dundee",
+      "Mad Max",
+      "The Dish",
+      "Strictly Ballroom"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Crocodile Dundee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Crocodile Dundee** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_39",
+    "category": "pop_culture",
+    "question": "Which 1979 dystopian action film directed by George Miller launched Mel Gibson to international stardom?",
+    "options": [
+      "Mad Max",
+      "Gallipoli",
+      "Lethal Weapon",
+      "Babe"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Mad Max.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mad Max** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_40",
+    "category": "pop_culture",
+    "question": "Which 1995 Australian family film directed by Chris Noonan tells the story of a pig who wants to be a sheepdog?",
+    "options": [
+      "Babe",
+      "Happy Feet",
+      "Charlotte's Web",
+      "Peter Rabbit"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Babe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Babe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_41",
+    "category": "pop_culture",
+    "question": "Which 2006 animated film directed by George Miller won the Academy Award for Best Animated Feature?",
+    "options": [
+      "Happy Feet",
+      "Babe",
+      "Guardians of Ga'Hoole",
+      "Rango"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Happy Feet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Happy Feet** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_42",
+    "category": "pop_culture",
+    "question": "Which 1992 romantic comedy film directed by Baz Luhrmann launched his 'Red Curtain Trilogy'?",
+    "options": [
+      "Strictly Ballroom",
+      "Romeo + Juliet",
+      "Moulin Rouge!",
+      "The Great Gatsby"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Strictly Ballroom.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Strictly Ballroom** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_43",
+    "category": "pop_culture",
+    "question": "Which 2001 musical film directed by Baz Luhrmann received eight Academy Award nominations?",
+    "options": [
+      "Moulin Rouge!",
+      "Strictly Ballroom",
+      "Chicago",
+      "La La Land"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Moulin Rouge!.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Moulin Rouge!** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_44",
+    "category": "pop_culture",
+    "question": "Which 1994 Australian comedy-drama film follows three drag performers traveling across the desert in a lavender bus?",
+    "options": [
+      "The Adventures of Priscilla, Queen of the Desert",
+      "Muriel's Wedding",
+      "The Castle",
+      "Sirens"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Adventures of Priscilla, Queen of the Desert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Adventures of Priscilla, Queen of the Desert** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_45",
+    "category": "pop_culture",
+    "question": "Which 1994 Australian comedy film starring Toni Collette tells the story of an ABBA-obsessed outcast?",
+    "options": [
+      "Muriel's Wedding",
+      "Priscilla",
+      "The Castle",
+      "Strictly Ballroom"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Muriel's Wedding.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Muriel's Wedding** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_46",
+    "category": "pop_culture",
+    "question": "Which 2000 Australian comedy film tells the story of Parkes Observatory's role in broadcasting the 1969 Apollo 11 moon landing?",
+    "options": [
+      "The Dish",
+      "The Castle",
+      "Paper Planes",
+      "Red Dog"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Dish.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Dish** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_47",
+    "category": "pop_culture",
+    "question": "Which 2011 Australian family film tells the true story of a loyal Kelpie cross in Western Australia's Pilbara region?",
+    "options": [
+      "Red Dog",
+      "Oddball",
+      "Koko",
+      "Rams"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Red Dog.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Red Dog** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_48",
+    "category": "pop_culture",
+    "question": "Which 1941 masterpiece film co-written, directed by, and starring Orson Welles centers on newspaper tycoon Charles Foster Kane?",
+    "options": [
+      "Citizen Kane",
+      "Casablanca",
+      "The Godfather",
+      "Singin' in the Rain"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Citizen Kane.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Citizen Kane** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_49",
+    "category": "pop_culture",
+    "question": "Which 1942 romantic drama starring Humphrey Bogart and Ingrid Bergman is set in French Morocco during WWII?",
+    "options": [
+      "Casablanca",
+      "Gone with the Wind",
+      "Roman Holiday",
+      "The Maltese Falcon"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Casablanca.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Casablanca** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_50",
+    "category": "pop_culture",
+    "question": "Which 1972 crime film directed by Francis Ford Coppola stars Marlon Brando as mafia patriarch Vito Corleone?",
+    "options": [
+      "The Godfather",
+      "Goodfellas",
+      "Scarface",
+      "Taxi Driver"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Godfather.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Godfather** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_51",
+    "category": "pop_culture",
+    "question": "Which 1977 epic space-opera film written and directed by George Lucas launched one of cinema's biggest franchises?",
+    "options": [
+      "Star Wars: Episode IV - A New Hope",
+      "Star Trek",
+      "2001: A Space Odyssey",
+      "Alien"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Star Wars: Episode IV - A New Hope.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Star Wars: Episode IV - A New Hope** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_52",
+    "category": "pop_culture",
+    "question": "Which 1993 Holocaust drama film directed by Steven Spielberg won seven Academy Awards, including Best Picture?",
+    "options": [
+      "Schindler's List",
+      "Saving Private Ryan",
+      "Life is Beautiful",
+      "The Pianist"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Schindler's List.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Schindler's List** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_53",
+    "category": "pop_culture",
+    "question": "Which 1997 epic romance and disaster film directed by James Cameron won 11 Academy Awards?",
+    "options": [
+      "Titanic",
+      "Avatar",
+      "Lord of the Rings",
+      "Ben-Hur"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Titanic.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Titanic** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_54",
+    "category": "pop_culture",
+    "question": "Which 2003 fantasy film directed by Peter Jackson swept the 76th Academy Awards, winning all 11 nominated categories?",
+    "options": [
+      "The Lord of the Rings: The Return of the King",
+      "Harry Potter",
+      "The Hobbit",
+      "Gladiator"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Lord of the Rings: The Return of the King.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Lord of the Rings: The Return of the King** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_55",
+    "category": "pop_culture",
+    "question": "Which 2009 sci-fi film directed by James Cameron became the highest-grossing film of all time?",
+    "options": [
+      "Avatar",
+      "Titanic",
+      "Avengers: Endgame",
+      "Star Wars: The Force Awakens"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Avatar.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Avatar** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_56",
+    "category": "pop_culture",
+    "question": "Which classic 1939 musical fantasy film starred Judy Garland as Dorothy Gale traveling to the Emerald City?",
+    "options": [
+      "The Wizard of Oz",
+      "Singin' in the Rain",
+      "The Sound of Music",
+      "Mary Poppins"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Wizard of Oz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Wizard of Oz** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_57",
+    "category": "pop_culture",
+    "question": "Which 1965 musical film starring Julie Andrews as Maria von Trapp won five Academy Awards?",
+    "options": [
+      "The Sound of Music",
+      "Mary Poppins",
+      "My Fair Lady",
+      "Oliver!"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Sound of Music.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Sound of Music** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_58",
+    "category": "pop_culture",
+    "question": "Which English rock band formed in Liverpool in 1960 comprised John, Paul, George, and Ringo?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "Led Zeppelin"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Beatles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Beatles** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_59",
+    "category": "pop_culture",
+    "question": "Which English rock band fronted by Mick Jagger and Keith Richards was formed in London in 1962?",
+    "options": [
+      "The Rolling Stones",
+      "The Beatles",
+      "The Who",
+      "The Kinks"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Rolling Stones.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Rolling Stones** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_60",
+    "category": "pop_culture",
+    "question": "Which British rock band fronted by Freddie Mercury released the iconic 1975 suite Bohemian Rhapsody?",
+    "options": [
+      "Queen",
+      "Led Zeppelin",
+      "Pink Floyd",
+      "Deep Purple"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Queen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Queen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_61",
+    "category": "pop_culture",
+    "question": "Which British progressive rock band released the monumental 1973 album The Dark Side of the Moon?",
+    "options": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "Genesis",
+      "Yes"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Pink Floyd.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pink Floyd** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_62",
+    "category": "pop_culture",
+    "question": "Which British hard rock band composed the 1971 rock epic Stairway to Heaven?",
+    "options": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath",
+      "The Who"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Led Zeppelin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Led Zeppelin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_63",
+    "category": "pop_culture",
+    "question": "Which American pop icon released the 1982 album Thriller, which became the highest-selling album of all time?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Stevie Wonder",
+      "Elvis Presley"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Michael Jackson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Michael Jackson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_64",
+    "category": "pop_culture",
+    "question": "Which American music icon, dubbed 'The King of Rock and Roll', recorded hits like Hound Dog and Jailhouse Rock?",
+    "options": [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Buddy Holly",
+      "Little Richard"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Elvis Presley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Elvis Presley** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_65",
+    "category": "pop_culture",
+    "question": "Which American singer-songwriter was awarded the 2016 Nobel Prize in Literature?",
+    "options": [
+      "Bob Dylan",
+      "Bruce Springsteen",
+      "Paul Simon",
+      "Leonard Cohen"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Bob Dylan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bob Dylan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_66",
+    "category": "pop_culture",
+    "question": "Which American rock singer-songwriter, nicknamed 'The Boss', released Born in the U.S.A. in 1984?",
+    "options": [
+      "Bruce Springsteen",
+      "Bob Dylan",
+      "Tom Petty",
+      "Neil Young"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Bruce Springsteen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bruce Springsteen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_67",
+    "category": "pop_culture",
+    "question": "Which Australian children's music group formed in Sydney in 1991 featuring Anthony, Murray, Greg, and Jeff?",
+    "options": [
+      "The Wiggles",
+      "Hi-5",
+      "Play School",
+      "Peter Combe"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Wiggles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Wiggles** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_68",
+    "category": "pop_culture",
+    "question": "Which popular Australian ABC children's television show has aired continuously since 1966?",
+    "options": [
+      "Play School",
+      "The Wiggles",
+      "Hi-5",
+      "Bananas in Pyjamas"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Play School.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Play School** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_69",
+    "category": "pop_culture",
+    "question": "Which animated Australian children's TV series about a Blue Heeler family became a global phenomenon on Disney+?",
+    "options": [
+      "Bluey",
+      "Little J & Big Cuz",
+      "Kangoo",
+      "Blinky Bill"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Bluey.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bluey** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_70",
+    "category": "pop_culture",
+    "question": "Who voices the character of Bandit Heeler (Bluey's dad) in the series Bluey?",
+    "options": [
+      "David McCormack",
+      "Melanie Zanetti",
+      "Hamish Blake",
+      "Adam Zwar"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is David McCormack.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **David McCormack** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_71",
+    "category": "pop_culture",
+    "question": "Who voices the character of Chilli Heeler (Bluey's mum) in the series Bluey?",
+    "options": [
+      "Melanie Zanetti",
+      "David McCormack",
+      "Megan Washington",
+      "Myf Warhurst"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Melanie Zanetti.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Melanie Zanetti** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_72",
+    "category": "pop_culture",
+    "question": "Which Australian radio duo hosted a top-rating national drive show on Triple J and later hit podcasters?",
+    "options": [
+      "Hamish & Andy",
+      "Merrick & Rosso",
+      "Roy & HG",
+      "Matt & Alex"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Hamish & Andy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hamish & Andy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_73",
+    "category": "pop_culture",
+    "question": "Which satirical sports comedy duo played by John Doyle and Greig Pickhaver created characters Rampaging Roy Slaven and HG Nelson?",
+    "options": [
+      "Roy & HG",
+      "Hamish & Andy",
+      "Merrick & Rosso",
+      "The Chaser"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Roy & HG.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Roy & HG** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_74",
+    "category": "pop_culture",
+    "question": "Which Australian satirical comedy group created TV shows like The Election Chaser, CNNNN, and The Chaser's War on Everything?",
+    "options": [
+      "The Chaser",
+      "Working Dog",
+      "Good News Week",
+      "The D-Generation"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Chaser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Chaser** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_75",
+    "category": "pop_culture",
+    "question": "Which legendary 1980s Australian sketch comedy show produced by Working Dog members featured characters like Shirty the Bear?",
+    "options": [
+      "The D-Generation",
+      "Fast Forward",
+      "Full Frontal",
+      "Comedy Company"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The D-Generation.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The D-Generation** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_76",
+    "category": "pop_culture",
+    "question": "Which 1990s Australian sketch comedy show produced by Steve Vizard featured Magda Szubanski's character Chenille?",
+    "options": [
+      "Fast Forward",
+      "The D-Generation",
+      "Full Frontal",
+      "Comedy Company"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Fast Forward.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fast Forward** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_77",
+    "category": "pop_culture",
+    "question": "Which 1980s Australian sketch comedy show introduced Mark Mitchell's iconic character Con the Fruiterer?",
+    "options": [
+      "The Comedy Company",
+      "Fast Forward",
+      "The D-Generation",
+      "Full Frontal"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Comedy Company.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Comedy Company** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_78",
+    "category": "pop_culture",
+    "question": "Which Australian news satire show hosted by Paul McDermott ran on ABC and Network Ten between 1996 and 2012?",
+    "options": [
+      "Good News Week",
+      "The Glass House",
+      "The Weekly with Charlie Pickering",
+      "Gruen"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Good News Week.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Good News Week** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_79",
+    "category": "pop_culture",
+    "question": "Which ABC advertising satire show hosted by Wil Anderson debuted in 2008?",
+    "options": [
+      "Gruen (The Gruen Transfer)",
+      "Good News Week",
+      "The Weekly",
+      "Hard Quiz"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Gruen (The Gruen Transfer).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gruen (The Gruen Transfer)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_80",
+    "category": "pop_culture",
+    "question": "Which ABC comedy quiz show hosted by Tom Gleeson awards a brass mug as its top prize?",
+    "options": [
+      "Hard Quiz",
+      "Fisk",
+      "Gruen",
+      "Spicks and Specks"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Hard Quiz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hard Quiz** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_81",
+    "category": "pop_culture",
+    "question": "Which beloved ABC music quiz show hosted by Adam Hills featured team captains Myf Warhurst and Alan Brough?",
+    "options": [
+      "Spicks and Specks",
+      "RocKwiz",
+      "Hard Quiz",
+      "Good News Week"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Spicks and Specks.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Spicks and Specks** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_82",
+    "category": "pop_culture",
+    "question": "Which SBS music trivia show set in the Gershwin Room at Melbourne's Esplanade Hotel was co-hosted by Julia Zemiro and Brian Nankervis?",
+    "options": [
+      "RocKwiz",
+      "Spicks and Specks",
+      "Hard Quiz",
+      "Good News Week"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is RocKwiz.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **RocKwiz** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_83",
+    "category": "pop_culture",
+    "question": "Which Australian journalist and presenter has hosted ABC's flagship 7.30 program and later Insiders?",
+    "options": [
+      "David Speers",
+      "Leigh Sales",
+      "Sarah Ferguson",
+      "Kerry O'Brien"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is David Speers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **David Speers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_84",
+    "category": "pop_culture",
+    "question": "Which veteran Australian journalist hosted 7.30 for 12 years before stepping down in 2022?",
+    "options": [
+      "Leigh Sales",
+      "Sarah Ferguson",
+      "Kerry O'Brien",
+      "Annabel Crabb"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Leigh Sales.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Leigh Sales** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_85",
+    "category": "pop_culture",
+    "question": "Which veteran Australian journalist hosted 4 Days / 7.30 Report for nearly two decades from 1995 to 2010?",
+    "options": [
+      "Kerry O'Brien",
+      "Leigh Sales",
+      "David Speers",
+      "Paul Barry"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Kerry O'Brien.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kerry O'Brien** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_86",
+    "category": "pop_culture",
+    "question": "Which Australian political journalist and author presents Kitchen Cabinet on the ABC?",
+    "options": [
+      "Annabel Crabb",
+      "Leigh Sales",
+      "Sarah Ferguson",
+      "Laura Tingle"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Annabel Crabb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Annabel Crabb** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_87",
+    "category": "pop_culture",
+    "question": "Which long-running ABC media analysis program has been presented by Paul Barry since 2013?",
+    "options": [
+      "Media Watch",
+      "Four Corners",
+      "7.30",
+      "Foreign Correspondent"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Media Watch.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Media Watch** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_88",
+    "category": "pop_culture",
+    "question": "Which flagship ABC investigative journalism program first aired in 1961, making it Australia's longest-running TV series?",
+    "options": [
+      "Four Corners",
+      "Media Watch",
+      "7.30",
+      "Foreign Correspondent"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Four Corners.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Four Corners** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_89",
+    "category": "pop_culture",
+    "question": "Which long-running 60-minute news magazine show debuted on Nine Network in 1979?",
+    "options": [
+      "60 Minutes",
+      "A Current Affair",
+      "Four Corners",
+      "Sunday"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is 60 Minutes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **60 Minutes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_90",
+    "category": "pop_culture",
+    "question": "Which Australian television personality hosted Australia's version of Who Wants to Be a Millionaire?",
+    "options": [
+      "Eddie McGuire",
+      "Daryl Somers",
+      "Larry Emdur",
+      "Grant Denyer"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Eddie McGuire.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Eddie McGuire** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_91",
+    "category": "pop_culture",
+    "question": "Which Australian TV personality hosted Hey Hey It's Saturday for nearly three decades?",
+    "options": [
+      "Daryl Somers",
+      "Eddie McGuire",
+      "Larry Emdur",
+      "Graham Kennedy"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Daryl Somers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Daryl Somers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_92",
+    "category": "pop_culture",
+    "question": "Which legend of Australian broadcasting was dubbed 'The King' of Australian television?",
+    "options": [
+      "Graham Kennedy",
+      "Bert Newton",
+      "Don Lane",
+      "Daryl Somers"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Graham Kennedy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Graham Kennedy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_93",
+    "category": "pop_culture",
+    "question": "Which beloved Australian TV icon was fondly known as 'Moonface' and co-hosted In Melbourne Tonight?",
+    "options": [
+      "Bert Newton",
+      "Graham Kennedy",
+      "Don Lane",
+      "Mike Walsh"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Bert Newton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bert Newton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_94",
+    "category": "pop_culture",
+    "question": "Which American-born talk show host presented The Don Lane Show on Nine Network between 1975 and 1983?",
+    "options": [
+      "Don Lane",
+      "Bert Newton",
+      "Graham Kennedy",
+      "Mike Walsh"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Don Lane.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Don Lane** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_95",
+    "category": "pop_culture",
+    "question": "Which pioneer of Australian daytime TV hosted The Mike Walsh Show from 1973 to 1985?",
+    "options": [
+      "Mike Walsh",
+      "Ray Martin",
+      "Midday Show",
+      "Daryl Somers"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Mike Walsh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mike Walsh** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_96",
+    "category": "pop_culture",
+    "question": "Which Australian journalist hosted the Nine Network's Midday show from 1985 to 1993?",
+    "options": [
+      "Ray Martin",
+      "Mike Walsh",
+      "Kerri-Anne Kennerley",
+      "Derryn Hinch"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Ray Martin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ray Martin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_97",
+    "category": "pop_culture",
+    "question": "Which Australian television presenter hosted daytime television for decades on Midday and Good Morning Australia?",
+    "options": [
+      "Kerri-Anne Kennerley",
+      "Ray Martin",
+      "Denise Drysdale",
+      "Tracy Grimshaw"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Kerri-Anne Kennerley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kerri-Anne Kennerley** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_98",
+    "category": "pop_culture",
+    "question": "Which Australian journalist hosted Nine's A Current Affair for 17 years from 2006 to 2022?",
+    "options": [
+      "Tracy Grimshaw",
+      "Jana Wendt",
+      "Ray Martin",
+      "Mike Willesee"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Tracy Grimshaw.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tracy Grimshaw** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_99",
+    "category": "pop_culture",
+    "question": "Which veteran Australian journalist was the inaugural host of A Current Affair when it launched in 1971?",
+    "options": [
+      "Mike Willesee",
+      "Tracy Grimshaw",
+      "Jana Wendt",
+      "Ray Martin"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Mike Willesee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mike Willesee** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_100",
+    "category": "pop_culture",
+    "question": "Which acclaimed Australian television journalist was nicknamed the 'Perfumed Poison Dart' for her fierce interviewing?",
+    "options": [
+      "Jana Wendt",
+      "Tracy Grimshaw",
+      "Leigh Sales",
+      "Sarah Ferguson"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Jana Wendt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jana Wendt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_101",
+    "category": "pop_culture",
+    "question": "Which Australian author wrote the international bestseller Schindler's Ark, adapted by Spielberg into Schindler's List?",
+    "options": [
+      "Thomas Keneally",
+      "Peter Carey",
+      "Patrick White",
+      "Tim Winton"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Thomas Keneally.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Keneally** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_102",
+    "category": "pop_culture",
+    "question": "Which 1998 Australian film directed by Peter Weir stars Jim Carrey as a man unaware his life is a TV show?",
+    "options": [
+      "The Truman Show",
+      "Gattaca",
+      "Dead Poets Society",
+      "Fear and Loathing"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Truman Show.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Truman Show** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_103",
+    "category": "pop_culture",
+    "question": "Which Australian director made his Hollywood breakthrough with Dead Poets Society and The Truman Show?",
+    "options": [
+      "Peter Weir",
+      "Baz Luhrmann",
+      "George Miller",
+      "Phillip Noyce"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Peter Weir.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Weir** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_104",
+    "category": "pop_culture",
+    "question": "Which Australian director directed Hollywood blockbusters Patriot Games, Clear and Present Danger, and Salt?",
+    "options": [
+      "Phillip Noyce",
+      "Peter Weir",
+      "Fred Schepisi",
+      "Bruce Beresford"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Phillip Noyce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Phillip Noyce** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_105",
+    "category": "pop_culture",
+    "question": "Which Australian director directed the Oscar-winning films Breaker Morant (1980) and Driving Miss Daisy (1989)?",
+    "options": [
+      "Bruce Beresford",
+      "Peter Weir",
+      "Fred Schepisi",
+      "Gillian Armstrong"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Bruce Beresford.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bruce Beresford** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_106",
+    "category": "pop_culture",
+    "question": "Which Australian director directed My Brilliant Career (1979) and Little Women (1994)?",
+    "options": [
+      "Gillian Armstrong",
+      "Bruce Beresford",
+      "Jane Campion",
+      "Fred Schepisi"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Gillian Armstrong.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gillian Armstrong** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_107",
+    "category": "pop_culture",
+    "question": "Which New Zealand director became the first woman to win the Palme d'Or at Cannes for The Piano (1993)?",
+    "options": [
+      "Jane Campion",
+      "Gillian Armstrong",
+      "Niki Caro",
+      "Fran Walsh"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Jane Campion.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jane Campion** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_108",
+    "category": "pop_culture",
+    "question": "Which 2021 film directed by Jane Campion won her the Academy Award for Best Director?",
+    "options": [
+      "The Power of the Dog",
+      "The Piano",
+      "An Angel at My Table",
+      "Bright Star"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is The Power of the Dog.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Power of the Dog** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_109",
+    "category": "pop_culture",
+    "question": "Which Australian actor starred as Wolverine across 9 films in the X-Men franchise between 2000 and 2024?",
+    "options": [
+      "Hugh Jackman",
+      "Russell Crowe",
+      "Chris Hemsworth",
+      "Eric Bana"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Hugh Jackman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hugh Jackman** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_110",
+    "category": "pop_culture",
+    "question": "Which Australian actor plays Thor in the Marvel Cinematic Universe starting with the 2011 film Thor?",
+    "options": [
+      "Chris Hemsworth",
+      "Liam Hemsworth",
+      "Luke Hemsworth",
+      "Hugh Jackman"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Chris Hemsworth.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chris Hemsworth** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_111",
+    "category": "pop_culture",
+    "question": "Which Australian actress achieved international stardom playing Barbie in Greta Gerwig's 2023 blockbuster?",
+    "options": [
+      "Margot Robbie",
+      "Cate Blanchett",
+      "Nicole Kidman",
+      "Samara Weaving"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Margot Robbie.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Margot Robbie** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_112",
+    "category": "pop_culture",
+    "question": "Which Australian actress starred in Hereditary and Knives Out?",
+    "options": [
+      "Toni Collette",
+      "Margot Robbie",
+      "Rose Byrne",
+      "Sarah Snook"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Toni Collette.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Toni Collette** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_113",
+    "category": "pop_culture",
+    "question": "Which Australian actress played Shiv Roy in HBO's hit drama series Succession?",
+    "options": [
+      "Sarah Snook",
+      "Toni Collette",
+      "Rose Byrne",
+      "Margot Robbie"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Sarah Snook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sarah Snook** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_114",
+    "category": "pop_culture",
+    "question": "Which Australian actress starred in Bridesmaids, Neighbors, and Physical?",
+    "options": [
+      "Rose Byrne",
+      "Sarah Snook",
+      "Toni Collette",
+      "Isla Fisher"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Rose Byrne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rose Byrne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_115",
+    "category": "pop_culture",
+    "question": "Which Australian actress starred in Wedding Crashers, Confessions of a Shopaholic, and Now You See Me?",
+    "options": [
+      "Isla Fisher",
+      "Rose Byrne",
+      "Rebel Wilson",
+      "Margot Robbie"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Isla Fisher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Isla Fisher** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "pop_fact_116",
+    "category": "pop_culture",
+    "question": "Which Australian actress and comedian starred in Pitch Perfect, Bridesmaids, and Isn't It Romantic?",
+    "options": [
+      "Rebel Wilson",
+      "Isla Fisher",
+      "Celeste Barber",
+      "Kitty Flanagan"
+    ],
+    "answer": 0,
+    "explanation": "In pop culture, the correct answer to this question is Rebel Wilson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rebel Wilson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

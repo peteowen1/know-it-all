@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "aus_pm_1",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '1st PM of Australia (1901-1903)'?",
+    "options": [
+      "Edmund Barton",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Edmund Barton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Edmund Barton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_2",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '2nd, 5th, and 7th PM of Australia'?",
+    "options": [
+      "Alfred Deakin",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Alfred Deakin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Alfred Deakin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_3",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '3rd PM of Australia (1904)'?",
+    "options": [
+      "Chris Watson",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Chris Watson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Chris Watson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_4",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '4th PM of Australia (1904-1905)'?",
+    "options": [
+      "George Reid",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is George Reid.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **George Reid** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_5",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '5th, 8th, and 10th PM of Australia'?",
+    "options": [
+      "Andrew Fisher",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Andrew Fisher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Andrew Fisher** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_6",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '6th PM of Australia (1913-1914)'?",
+    "options": [
+      "Joseph Cook",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Joseph Cook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Joseph Cook** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_7",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '7th PM of Australia (1915-1923)'?",
+    "options": [
+      "Billy Hughes",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Billy Hughes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Billy Hughes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_8",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '8th PM of Australia (1923-1929)'?",
+    "options": [
+      "Stanley Bruce",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Stanley Bruce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Stanley Bruce** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_9",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '9th PM of Australia (1929-1932)'?",
+    "options": [
+      "James Scullin",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is James Scullin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **James Scullin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_10",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '10th PM of Australia (1932-1939)'?",
+    "options": [
+      "Joseph Lyons",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Joseph Lyons.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Joseph Lyons** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_11",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '11th PM of Australia (1939)'?",
+    "options": [
+      "Earle Page",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Earle Page.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Earle Page** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_12",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '12th PM of Australia (1939-41, 1949-66)'?",
+    "options": [
+      "Robert Menzies",
+      "Gough Whitlam",
+      "John Howard",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Robert Menzies.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Robert Menzies** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_13",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '13th PM of Australia (1941)'?",
+    "options": [
+      "Arthur Fadden",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Arthur Fadden.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Arthur Fadden** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_14",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '14th PM of Australia (1941-1945)'?",
+    "options": [
+      "John Curtin",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is John Curtin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Curtin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_15",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '15th PM of Australia (July 1945)'?",
+    "options": [
+      "Frank Forde",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Frank Forde.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Frank Forde** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_16",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '16th PM of Australia (1945-1949)'?",
+    "options": [
+      "Ben Chifley",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Ben Chifley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ben Chifley** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_17",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '17th PM of Australia (1966-1967)'?",
+    "options": [
+      "Harold Holt",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Harold Holt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Harold Holt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_18",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '18th PM of Australia (1967-1968)'?",
+    "options": [
+      "John McEwen",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is John McEwen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John McEwen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_19",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '19th PM of Australia (1968-1971)'?",
+    "options": [
+      "John Gorton",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is John Gorton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Gorton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_20",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '20th PM of Australia (1971-1972)'?",
+    "options": [
+      "William McMahon",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is William McMahon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **William McMahon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_21",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '21st PM of Australia (1972-1975)'?",
+    "options": [
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Gough Whitlam.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gough Whitlam** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_22",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '22nd PM of Australia (1975-1983)'?",
+    "options": [
+      "Malcolm Fraser",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Malcolm Fraser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Fraser** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_23",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '23rd PM of Australia (1983-1991)'?",
+    "options": [
+      "Bob Hawke",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Bob Hawke.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bob Hawke** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_24",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '24th PM of Australia (1991-1996)'?",
+    "options": [
+      "Paul Keating",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Paul Keating.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Paul Keating** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_25",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '25th PM of Australia (1996-2007)'?",
+    "options": [
+      "John Howard",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "Other Option 4"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is John Howard.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Howard** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_26",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '26th PM of Australia (2007-2010, 2013)'?",
+    "options": [
+      "Kevin Rudd",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Kevin Rudd.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kevin Rudd** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_27",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '27th PM of Australia (2010-2013)'?",
+    "options": [
+      "Julia Gillard",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Julia Gillard.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Julia Gillard** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_28",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '28th PM of Australia (2013-2015)'?",
+    "options": [
+      "Tony Abbott",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Tony Abbott.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tony Abbott** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_29",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '29th PM of Australia (2015-2018)'?",
+    "options": [
+      "Malcolm Turnbull",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Malcolm Turnbull.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Turnbull** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_30",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '30th PM of Australia (2018-2022)'?",
+    "options": [
+      "Scott Morrison",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Scott Morrison.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Scott Morrison** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_pm_31",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister is recognized as: '31st PM of Australia (2022-present)'?",
+    "options": [
+      "Anthony Albanese",
+      "Gough Whitlam",
+      "Robert Menzies",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Anthony Albanese.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Anthony Albanese** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_32",
+    "category": "aus_history",
+    "question": "In what year did the First Fleet land at Sydney Cove under Captain Arthur Phillip?",
+    "options": [
+      "1788",
+      "1770",
+      "1789",
+      "1798"
+    ],
+    "answer": 0,
+    "explanation": "1788 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1788** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_33",
+    "category": "aus_history",
+    "question": "Which navigator chartered Botany Bay and mapped Australia's east coast aboard HMS Endeavour in 1770?",
+    "options": [
+      "Captain James Cook",
+      "Matthew Flinders",
+      "William Dampier",
+      "Arthur Phillip"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Captain James Cook.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Captain James Cook** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_34",
+    "category": "aus_history",
+    "question": "Who, alongside George Bass, completed the first circumnavigation of Tasmania in 1798-99?",
+    "options": [
+      "Matthew Flinders",
+      "James Cook",
+      "Thomas Mitchell",
+      "Charles Sturt"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Matthew Flinders.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Matthew Flinders** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_35",
+    "category": "aus_history",
+    "question": "What armed gold miners' rebellion took place in Ballarat, Victoria, on 3 December 1854?",
+    "options": [
+      "The Eureka Stockade",
+      "The Vinegar Hill Revolt",
+      "The Castlemaine Uprising",
+      "The Lambing Flat Riots"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Eureka Stockade.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Eureka Stockade** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_36",
+    "category": "aus_history",
+    "question": "Which notorious bushranger was captured at Glenrowan and executed at Melbourne Gaol in 1880?",
+    "options": [
+      "Ned Kelly",
+      "Ben Hall",
+      "Captain Moonlite",
+      "Thunderbolt"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Ned Kelly.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ned Kelly** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_37",
+    "category": "aus_history",
+    "question": "In what year did the six Australian colonies federate into the Commonwealth of Australia?",
+    "options": [
+      "1901",
+      "1900",
+      "1899",
+      "1910"
+    ],
+    "answer": 0,
+    "explanation": "1901 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1901** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_38",
+    "category": "aus_history",
+    "question": "Which landmark High Court decision in June 1992 rejected the legal doctrine of 'terra nullius'?",
+    "options": [
+      "The Mabo Decision",
+      "The Wik Decision",
+      "The Franklin Dam Case",
+      "The Engineers Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Mabo Decision.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Mabo Decision** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_39",
+    "category": "aus_history",
+    "question": "Which 1996 High Court decision established that native title could coexist with pastoral leases?",
+    "options": [
+      "The Wik Decision",
+      "The Mabo Decision",
+      "The Tasmanian Dam Case",
+      "The Concrete Pipes Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Wik Decision.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Wik Decision** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_40",
+    "category": "aus_history",
+    "question": "In what year was the federal referendum held that allowed Indigenous Australians to be included in the national census?",
+    "options": [
+      "1967",
+      "1975",
+      "1992",
+      "1901"
+    ],
+    "answer": 0,
+    "explanation": "1967 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1967** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_41",
+    "category": "aus_history",
+    "question": "Which Gurindji elder led the famous nine-year Wave Hill Walk-off starting in 1966?",
+    "options": [
+      "Vincent Lingiari",
+      "Eddie Mabo",
+      "Neville Bonner",
+      "Charles Perkins"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Vincent Lingiari.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Vincent Lingiari** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_42",
+    "category": "aus_history",
+    "question": "Who was the first Indigenous person elected to the Australian Parliament (Senate, 1971)?",
+    "options": [
+      "Neville Bonner",
+      "Ken Wyatt",
+      "Linda Burney",
+      "Nova Peris"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Neville Bonner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Neville Bonner** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_43",
+    "category": "aus_history",
+    "question": "What was Australia's temporary national capital city from 1901 until Parliament House opened in Canberra in 1927?",
+    "options": [
+      "Melbourne",
+      "Sydney",
+      "Adelaide",
+      "Geelong"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Melbourne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Melbourne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_44",
+    "category": "aus_history",
+    "question": "Which American architect designed the master layout for Canberra after winning an international competition in 1912?",
+    "options": [
+      "Walter Burley Griffin",
+      "Frank Lloyd Wright",
+      "J\u00f8rn Utzon",
+      "Harry Seidler"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Walter Burley Griffin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Walter Burley Griffin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_45",
+    "category": "aus_history",
+    "question": "Which Premier of NSW officially opened the Sydney Harbour Bridge on 19 March 1932?",
+    "options": [
+      "Jack Lang",
+      "Sir Henry Parkes",
+      "Robert Askin",
+      "Neville Wran"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Jack Lang.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jack Lang** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_46",
+    "category": "aus_history",
+    "question": "Who is widely remembered as the 'Father of Federation' following his 1889 Tenterfield Oration?",
+    "options": [
+      "Sir Henry Parkes",
+      "Sir Edmund Barton",
+      "Alfred Deakin",
+      "Sir Samuel Griffith"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Henry Parkes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Henry Parkes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_47",
+    "category": "aus_history",
+    "question": "What cyclone devastated the city of Darwin on Christmas Eve and Christmas Day in 1974?",
+    "options": [
+      "Cyclone Tracy",
+      "Cyclone Althea",
+      "Cyclone Yasi",
+      "Cyclone Larry"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Cyclone Tracy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cyclone Tracy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_48",
+    "category": "aus_history",
+    "question": "Which student leader led the 1965 Freedom Ride bus tour through rural NSW towns?",
+    "options": [
+      "Charles Perkins",
+      "Vincent Lingiari",
+      "Gary Foley",
+      "Eddie Mabo"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Charles Perkins.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Charles Perkins** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_49",
+    "category": "aus_history",
+    "question": "What was South Australia's unique founding status compared to New South Wales and Van Diemen's Land?",
+    "options": [
+      "Established as a free colony (no convicts)",
+      "Founded as a Dutch colony",
+      "Founded as a French penal settlement",
+      "Owned by a private trading company"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Established as a free colony (no convicts).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Established as a free colony (no convicts)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_50",
+    "category": "aus_history",
+    "question": "What was Western Australia originally named when established in 1829?",
+    "options": [
+      "The Swan River Colony",
+      "The Perth Settlement",
+      "King George Sound",
+      "Albany Colony"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Swan River Colony.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Swan River Colony** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_51",
+    "category": "aus_history",
+    "question": "What was Tasmania officially named prior to 1856?",
+    "options": [
+      "Van Diemen's Land",
+      "New Holland",
+      "Swan River Settlement",
+      "Moreton Bay"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Van Diemen's Land.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Van Diemen's Land** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_52",
+    "category": "aus_history",
+    "question": "What legal document signed in 1986 severed all remaining constitutional ties between Australia and the UK?",
+    "options": [
+      "The Australia Act 1986",
+      "The Statute of Westminster",
+      "The Constitution Act",
+      "The Balfour Declaration"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Australia Act 1986.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Australia Act 1986** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_53",
+    "category": "aus_history",
+    "question": "Which Australian pioneer aviator made the first trans-Pacific flight from the US to Australia in 1928?",
+    "options": [
+      "Sir Charles Kingsford Smith",
+      "Bert Hinkler",
+      "Hudson Fysh",
+      "Lawrence Hargrave"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Charles Kingsford Smith.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Charles Kingsford Smith** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_54",
+    "category": "aus_history",
+    "question": "Which pioneer aviator completed the first solo flight from England to Australia in 1928?",
+    "options": [
+      "Bert Hinkler",
+      "Sir Charles Kingsford Smith",
+      "Amy Johnson",
+      "Hudson Fysh"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Bert Hinkler.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bert Hinkler** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_55",
+    "category": "aus_history",
+    "question": "Who was the first woman to fly solo from England to Australia in 1930?",
+    "options": [
+      "Amy Johnson",
+      "Jean Batten",
+      "Lores Bonney",
+      "Nancy Bird Walton"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Amy Johnson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Amy Johnson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_56",
+    "category": "aus_history",
+    "question": "Which Australian scientist co-discovered penicillin's therapeutic value and won the 1945 Nobel Prize in Medicine?",
+    "options": [
+      "Sir Howard Florey",
+      "Sir Macfarlane Burnet",
+      "Sir John Eccles",
+      "Peter Doherty"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Howard Florey.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Howard Florey** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_57",
+    "category": "aus_history",
+    "question": "Which Australian virologist won the 1960 Nobel Prize in Physiology or Medicine for acquired immunological tolerance?",
+    "options": [
+      "Sir Macfarlane Burnet",
+      "Sir Howard Florey",
+      "Peter Doherty",
+      "Fiona Stanley"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Macfarlane Burnet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Macfarlane Burnet** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_58",
+    "category": "aus_history",
+    "question": "Which Australian immunologist won the 1996 Nobel Prize in Medicine alongside Rolf Zinkernagel?",
+    "options": [
+      "Peter Doherty",
+      "Sir Macfarlane Burnet",
+      "Sir Howard Florey",
+      "Gustav Nossal"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Peter Doherty.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Doherty** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_59",
+    "category": "aus_history",
+    "question": "Which Australian scientists won the 2005 Nobel Prize in Medicine for discovering H. pylori's role in ulcers?",
+    "options": [
+      "Barry Marshall & Robin Warren",
+      "Howard Florey & Ernst Chain",
+      "Peter Doherty & Rolf Zinkernagel",
+      "Elizabeth Blackburn"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Barry Marshall & Robin Warren.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Barry Marshall & Robin Warren** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_60",
+    "category": "aus_history",
+    "question": "Which Australian molecular biologist won the 2009 Nobel Prize in Medicine for her discovery of telomerase?",
+    "options": [
+      "Elizabeth Blackburn",
+      "Fiona Stanley",
+      "Suzanne Cory",
+      "Jenny Graves"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Elizabeth Blackburn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Elizabeth Blackburn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_61",
+    "category": "aus_history",
+    "question": "What is the official state animal emblem of New South Wales?",
+    "options": [
+      "The Platypus",
+      "The Koala",
+      "The Hairy-nosed Wombat",
+      "The Red Kangaroo"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Platypus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Platypus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_62",
+    "category": "aus_history",
+    "question": "What is the official state animal emblem of Victoria?",
+    "options": [
+      "Leadbeater's Possum",
+      "The Koala",
+      "The Tasmanian Devil",
+      "The Numbat"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Leadbeater's Possum.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Leadbeater's Possum** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_63",
+    "category": "aus_history",
+    "question": "What is the official state animal emblem of Queensland?",
+    "options": [
+      "The Koala",
+      "The Platypus",
+      "The Kangaroo",
+      "The Cassowary"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Koala.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Koala** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_64",
+    "category": "aus_history",
+    "question": "What is the official state animal emblem of Western Australia?",
+    "options": [
+      "The Numbat",
+      "The Quokka",
+      "The Thorny Devil",
+      "The Black Swan"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Numbat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Numbat** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_65",
+    "category": "aus_history",
+    "question": "What is the official state animal emblem of South Australia?",
+    "options": [
+      "Southern Hairy-nosed Wombat",
+      "The Koala",
+      "The Bilby",
+      "The Dingo"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Southern Hairy-nosed Wombat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Southern Hairy-nosed Wombat** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_66",
+    "category": "aus_history",
+    "question": "What is the official state animal emblem of Tasmania?",
+    "options": [
+      "The Tasmanian Devil",
+      "The Thylacine",
+      "The Wombat",
+      "The Platypus"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Tasmanian Devil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Tasmanian Devil** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_67",
+    "category": "aus_history",
+    "question": "What is the official animal emblem of the Northern Territory?",
+    "options": [
+      "The Red Kangaroo",
+      "The Saltwater Crocodile",
+      "The Dingo",
+      "The Thorny Devil"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Red Kangaroo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Red Kangaroo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_68",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of New South Wales?",
+    "options": [
+      "The Kookaburra",
+      "The Black Swan",
+      "The Helmeted Honeyeater",
+      "The Brolga"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Kookaburra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Kookaburra** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_69",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of Victoria?",
+    "options": [
+      "The Helmeted Honeyeater",
+      "The Kookaburra",
+      "The Superb Lyrebird",
+      "The Black Swan"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Helmeted Honeyeater.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Helmeted Honeyeater** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_70",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of Western Australia?",
+    "options": [
+      "The Black Swan",
+      "The Wedge-tailed Eagle",
+      "The Carnaby's Cockatoo",
+      "The Kookaburra"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Black Swan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Black Swan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_71",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of Queensland?",
+    "options": [
+      "The Brolga",
+      "The Cassowary",
+      "The Rainbow Lorikeet",
+      "The Kookaburra"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Brolga.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Brolga** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_72",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of South Australia?",
+    "options": [
+      "Piping Shrike (White-backed Magpie)",
+      "The Wedge-tailed Eagle",
+      "The Pelican",
+      "The Kookaburra"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Piping Shrike (White-backed Magpie).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Piping Shrike (White-backed Magpie)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_73",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of Tasmania?",
+    "options": [
+      "Yellow Wattlebird",
+      "Tasmanian Native Hen",
+      "Orange-bellied Parrot",
+      "Kookaburra"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Yellow Wattlebird.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Yellow Wattlebird** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_74",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of the Australian Capital Territory?",
+    "options": [
+      "Gang-gang Cockatoo",
+      "Crimson Rosella",
+      "Kookaburra",
+      "Superb Lyrebird"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Gang-gang Cockatoo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gang-gang Cockatoo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_75",
+    "category": "aus_history",
+    "question": "What is the official bird emblem of the Northern Territory?",
+    "options": [
+      "Wedge-tailed Eagle",
+      "Brolga",
+      "Jabiru",
+      "Kookaburra"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Wedge-tailed Eagle.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Wedge-tailed Eagle** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_76",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister gave the famous 'Well may we say God save the Queen' speech in 1975?",
+    "options": [
+      "Gough Whitlam",
+      "Paul Keating",
+      "Bob Hawke",
+      "Malcolm Fraser"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Gough Whitlam.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gough Whitlam** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_77",
+    "category": "aus_history",
+    "question": "Which Prime Minister famously promised 'by 1990 no Australian child will be living in poverty'?",
+    "options": [
+      "Bob Hawke",
+      "Gough Whitlam",
+      "Paul Keating",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Bob Hawke.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Bob Hawke** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_78",
+    "category": "aus_history",
+    "question": "Which Prime Minister created the Australian Federal Police (AFP) in 1979 following the Sydney Hilton bombing?",
+    "options": [
+      "Malcolm Fraser",
+      "Gough Whitlam",
+      "Bob Hawke",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Malcolm Fraser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Fraser** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_79",
+    "category": "aus_history",
+    "question": "Which Premier of Queensland governed continuously for over 19 years from 1968 to 1987?",
+    "options": [
+      "Sir Joh Bjelke-Petersen",
+      "Wayne Goss",
+      "Peter Beattie",
+      "Frank Nicklin"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Joh Bjelke-Petersen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Joh Bjelke-Petersen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_80",
+    "category": "aus_history",
+    "question": "Which Premier of South Australia led progressive reforms in the 1970s including land rights and decriminalising homosexuality?",
+    "options": [
+      "Don Dunstan",
+      "Sir Thomas Playford",
+      "David Tonkin",
+      "John Bannon"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Don Dunstan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Don Dunstan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_81",
+    "category": "aus_history",
+    "question": "Which Premier of Victoria served as Premier from 1955 to 1972, making him VIC's longest-serving Premier?",
+    "options": [
+      "Sir Henry Bolte",
+      "John Cain Jr",
+      "Rupert Hamer",
+      "Jeff Kennett"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Henry Bolte.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Henry Bolte** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_82",
+    "category": "aus_history",
+    "question": "Which Premier of NSW served as Premier from 1976 to 1986, leading Labor to multiple landslide election wins?",
+    "options": [
+      "Neville Wran",
+      "Bob Carr",
+      "Jack Lang",
+      "Robert Askin"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Neville Wran.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Neville Wran** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_83",
+    "category": "aus_history",
+    "question": "Which Premier of Western Australia served as Premier from 1959 to 1971, overseeing major mining expansions?",
+    "options": [
+      "Sir David Brand",
+      "Sir Charles Court",
+      "Brian Burke",
+      "Richard Court"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir David Brand.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir David Brand** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_84",
+    "category": "aus_history",
+    "question": "In what year did the Black Saturday bushfires take place in Victoria, claiming 173 lives?",
+    "options": [
+      "2009",
+      "1983",
+      "2019",
+      "1967"
+    ],
+    "answer": 0,
+    "explanation": "2009 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **2009** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_85",
+    "category": "aus_history",
+    "question": "In what year did the Ash Wednesday bushfires strike Victoria and South Australia, killing 75 people?",
+    "options": [
+      "1983",
+      "1967",
+      "1974",
+      "2009"
+    ],
+    "answer": 0,
+    "explanation": "1983 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1983** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_86",
+    "category": "aus_history",
+    "question": "In what year did the Black Tuesday bushfires destroy 1,400 homes in Hobart and southern Tasmania?",
+    "options": [
+      "1967",
+      "1983",
+      "1975",
+      "1994"
+    ],
+    "answer": 0,
+    "explanation": "1967 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1967** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_87",
+    "category": "aus_history",
+    "question": "Which historic 1951 referendum initiated by Robert Menzies failed to pass, seeking to ban a political party?",
+    "options": [
+      "The Communist Party Referendum",
+      "The Conscription Referendum",
+      "The Republic Referendum",
+      "The Price Control Referendum"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Communist Party Referendum.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Communist Party Referendum** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_88",
+    "category": "aus_history",
+    "question": "Which Governor-General of Australia delivered the 2008 National Apology alongside Kevin Rudd?",
+    "options": [
+      "Michael Jeffery",
+      "Quentin Bryce",
+      "Peter Hollingworth",
+      "William Deane"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Michael Jeffery.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Michael Jeffery** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_89",
+    "category": "aus_history",
+    "question": "Who was Australia's first female Governor-General, serving from 2008 to 2014?",
+    "options": [
+      "Dame Quentin Bryce",
+      "Dame Roma Mitchell",
+      "Marie Bashir",
+      "Margaret Beazley"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Dame Quentin Bryce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dame Quentin Bryce** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_90",
+    "category": "aus_history",
+    "question": "What was the name of the vessel that Captain James Cook sailed into Botany Bay in April 1770?",
+    "options": [
+      "HMS Endeavour",
+      "HMS Bounty",
+      "HMS Investigator",
+      "HMS Sirius"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is HMS Endeavour.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **HMS Endeavour** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_91",
+    "category": "aus_history",
+    "question": "What was the flagship of the First Fleet commanded by Captain Arthur Phillip in 1788?",
+    "options": [
+      "HMS Sirius",
+      "HMS Supply",
+      "Alexander",
+      "Charlotte"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is HMS Sirius.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **HMS Sirius** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_92",
+    "category": "aus_history",
+    "question": "What was the name of the smallest of the eleven ships in the First Fleet?",
+    "options": [
+      "HMS Supply",
+      "HMS Sirius",
+      "Friendship",
+      "Lady Penrhyn"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is HMS Supply.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **HMS Supply** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_93",
+    "category": "aus_history",
+    "question": "In what year did the Snowy Mountains Hydroelectric Scheme construction officially begin?",
+    "options": [
+      "1949",
+      "1945",
+      "1955",
+      "1960"
+    ],
+    "answer": 0,
+    "explanation": "1949 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1949** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_94",
+    "category": "aus_history",
+    "question": "In what year was the Snowy Mountains Hydroelectric Scheme officially completed?",
+    "options": [
+      "1974",
+      "1969",
+      "1980",
+      "1985"
+    ],
+    "answer": 0,
+    "explanation": "1974 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1974** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_95",
+    "category": "aus_history",
+    "question": "What major 1971 High Court ruling affirmed Commonwealth power over corporate trading under Section 51(xx)?",
+    "options": [
+      "The Concrete Pipes Case",
+      "The Engineers Case",
+      "The Franklin Dam Case",
+      "The Bank Nationalisation Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Concrete Pipes Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Concrete Pipes Case** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_96",
+    "category": "aus_history",
+    "question": "What landmark 1983 High Court ruling stopped the damming of the Gordon River in Tasmania?",
+    "options": [
+      "The Franklin Dam Case",
+      "The Mabo Case",
+      "The Wik Case",
+      "The Concrete Pipes Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Franklin Dam Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Franklin Dam Case** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_97",
+    "category": "aus_history",
+    "question": "What major 1920 High Court decision overturned the doctrine of implied immunity of state instrumentalities?",
+    "options": [
+      "The Engineers Case",
+      "The Concrete Pipes Case",
+      "The Bank Nationalisation Case",
+      "The Communist Party Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Engineers Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Engineers Case** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_98",
+    "category": "aus_history",
+    "question": "What major 1951 High Court ruling invalidated Robert Menzies' legislation banning the Communist Party?",
+    "options": [
+      "The Communist Party Case",
+      "The Bank Nationalisation Case",
+      "The Engineers Case",
+      "The Second Uniform Tax Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Communist Party Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Communist Party Case** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_99",
+    "category": "aus_history",
+    "question": "Which Australian Prime Minister signed the AUKUS security pact alongside Joe Biden and Boris Johnson in 2021?",
+    "options": [
+      "Scott Morrison",
+      "Malcolm Turnbull",
+      "Anthony Albanese",
+      "Tony Abbott"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Scott Morrison.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Scott Morrison** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_100",
+    "category": "aus_history",
+    "question": "In what year was the Australian Capital Territory (ACT) officially formed as a federal territory?",
+    "options": [
+      "1911",
+      "1901",
+      "1927",
+      "1938"
+    ],
+    "answer": 0,
+    "explanation": "1911 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1911** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_101",
+    "category": "aus_history",
+    "question": "In what year did the Northern Territory achieve self-government?",
+    "options": [
+      "1978",
+      "1911",
+      "1988",
+      "1995"
+    ],
+    "answer": 0,
+    "explanation": "1978 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1978** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_102",
+    "category": "aus_history",
+    "question": "Which explorer attempted to cross Australia from east to west in 1848 and vanished without a trace?",
+    "options": [
+      "Ludwig Leichhardt",
+      "Robert O'Hara Burke",
+      "Charles Sturt",
+      "John McDouall Stuart"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Ludwig Leichhardt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ludwig Leichhardt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_103",
+    "category": "aus_history",
+    "question": "Who was the first explorer to successfully cross the Australian continent from south to north and back (1861-1862)?",
+    "options": [
+      "John McDouall Stuart",
+      "Burke and Wills",
+      "Edward John Eyre",
+      "Thomas Mitchell"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is John McDouall Stuart.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John McDouall Stuart** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_104",
+    "category": "aus_history",
+    "question": "Which explorer crossed the Simpson Desert on foot with camels in 1939?",
+    "options": [
+      "Cecil Madigan",
+      "John McDouall Stuart",
+      "Len Beadell",
+      "Douglas Mawson"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Cecil Madigan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cecil Madigan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_105",
+    "category": "aus_history",
+    "question": "Which Antarctic explorer led the 1911-1914 Australasian Antarctic Expedition?",
+    "options": [
+      "Sir Douglas Mawson",
+      "Edgeworth David",
+      "Frank Hurley",
+      "Robert Falcon Scott"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Douglas Mawson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Douglas Mawson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_106",
+    "category": "aus_history",
+    "question": "Who served as Governor-General of Australia during World War II from 1936 to 1944?",
+    "options": [
+      "Lord Gowrie",
+      "Duke of Gloucester",
+      "Lord Stonehaven",
+      "Sir Isaac Isaacs"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Lord Gowrie.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Lord Gowrie** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_107",
+    "category": "aus_history",
+    "question": "Who was the first Australian-born Governor-General of Australia, appointed in 1931?",
+    "options": [
+      "Sir Isaac Isaacs",
+      "Sir William McKell",
+      "Lord Casey",
+      "Sir John Kerr"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir Isaac Isaacs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Isaac Isaacs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_108",
+    "category": "aus_history",
+    "question": "Who was the second Australian-born Governor-General, appointed by Ben Chifley in 1947?",
+    "options": [
+      "Sir William McKell",
+      "Sir Isaac Isaacs",
+      "Lord Casey",
+      "Sir Zelman Cowen"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Sir William McKell.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir William McKell** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_109",
+    "category": "aus_history",
+    "question": "Which landmark Melbourne department store was founded by Sidney Myer in 1911?",
+    "options": [
+      "Myer",
+      "David Jones",
+      "Grace Bros",
+      "Foy & Gibson"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Myer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Myer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_110",
+    "category": "aus_history",
+    "question": "Which retail company was founded in Sydney by David Jones in 1838, making it one of the world's oldest department stores?",
+    "options": [
+      "David Jones",
+      "Myer",
+      "Grace Bros",
+      "Waltons"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is David Jones.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **David Jones** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_111",
+    "category": "aus_history",
+    "question": "Which iconic Australian hat manufacturer was founded by Benjamin Dunkerley in Tasmania in 1872?",
+    "options": [
+      "Akubra",
+      "R.M. Williams",
+      "Driza-Bone",
+      "Bonds"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Akubra.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Akubra** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_112",
+    "category": "aus_history",
+    "question": "Which iconic bushwear company was founded by Reginald Murray Williams in South Australia in 1932?",
+    "options": [
+      "R.M. Williams",
+      "Akubra",
+      "Driza-Bone",
+      "Blundstone"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is R.M. Williams.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **R.M. Williams** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_113",
+    "category": "aus_history",
+    "question": "Which Tasmanian boot manufacturer was founded in Hobart in 1870?",
+    "options": [
+      "Blundstone",
+      "R.M. Williams",
+      "Redback",
+      "Rossi"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Blundstone.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Blundstone** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_114",
+    "category": "aus_history",
+    "question": "What oil and gas field discovered in Bass Strait in 1965 transformed Australia's energy supply?",
+    "options": [
+      "Gippsland Basin (Kingfish/Halibut)",
+      "North West Shelf",
+      "Cooper Basin",
+      "Browse Basin"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Gippsland Basin (Kingfish/Halibut).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gippsland Basin (Kingfish/Halibut)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_115",
+    "category": "aus_history",
+    "question": "What major natural gas project off the WA coast commenced shipments in 1989?",
+    "options": [
+      "The North West Shelf Project",
+      "Gorgon LNG",
+      "Wheatstone",
+      "Pluto LNG"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The North West Shelf Project.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The North West Shelf Project** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_116",
+    "category": "aus_history",
+    "question": "Which major Australian airline was founded as Queensland and Northern Territory Aerial Services in 1920?",
+    "options": [
+      "Qantas",
+      "Ansett",
+      "Trans Australia Airlines",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Qantas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Qantas** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_117",
+    "category": "aus_history",
+    "question": "Which domestic airline operated in Australia from 1936 until its high-profile collapse in 2001?",
+    "options": [
+      "Ansett Australia",
+      "Compass Airlines",
+      "Impulse Airlines",
+      "East-West Airlines"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Ansett Australia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ansett Australia** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_118",
+    "category": "aus_history",
+    "question": "Which government-owned domestic airline operated in Australia from 1946 until merging with Qantas in 1992?",
+    "options": [
+      "Trans Australia Airlines (TAA)",
+      "Ansett",
+      "Australian National Airways",
+      "Compass"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Trans Australia Airlines (TAA).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Trans Australia Airlines (TAA)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_119",
+    "category": "aus_history",
+    "question": "What historic 1968 High Court decision affirmed federal power over offshore seabed minerals?",
+    "options": [
+      "The Seas and Submerged Lands Case",
+      "The Concrete Pipes Case",
+      "The Bank Nationalisation Case",
+      "The Engineers Case"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The Seas and Submerged Lands Case.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Seas and Submerged Lands Case** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_120",
+    "category": "aus_history",
+    "question": "Which Prime Minister introduced the Family Law Act 1975 establishing no-fault divorce in Australia?",
+    "options": [
+      "Gough Whitlam",
+      "Malcolm Fraser",
+      "Bob Hawke",
+      "Paul Keating"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Gough Whitlam.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gough Whitlam** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_121",
+    "category": "aus_history",
+    "question": "Which Prime Minister established the Special Broadcasting Service (SBS) in 1978?",
+    "options": [
+      "Malcolm Fraser",
+      "Gough Whitlam",
+      "Bob Hawke",
+      "John Howard"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Malcolm Fraser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Malcolm Fraser** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_122",
+    "category": "aus_history",
+    "question": "Which Australian coin replaced the one-dollar note in November 1984?",
+    "options": [
+      "The $1 Coin",
+      "The $2 Coin",
+      "The 50c Coin",
+      "The $5 Note"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The $1 Coin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The $1 Coin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_123",
+    "category": "aus_history",
+    "question": "Which Australian coin replaced the two-dollar note in June 1988?",
+    "options": [
+      "The $2 Coin",
+      "The $1 Coin",
+      "The 50c Coin",
+      "The Gold Coin"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is The $2 Coin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The $2 Coin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_124",
+    "category": "aus_history",
+    "question": "In what year were 1 cent and 2 cent coins officially withdrawn from circulation in Australia?",
+    "options": [
+      "1992",
+      "1990",
+      "1995",
+      "1988"
+    ],
+    "answer": 0,
+    "explanation": "1992 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1992** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_125",
+    "category": "aus_history",
+    "question": "In what year did Australia introduce polymer bank notes, starting with the commemorative $10 note?",
+    "options": [
+      "1988",
+      "1992",
+      "1996",
+      "2000"
+    ],
+    "answer": 0,
+    "explanation": "1988 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1988** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_126",
+    "category": "aus_history",
+    "question": "Which Australian scientist and engineer invented the Black Box flight data recorder in 1953?",
+    "options": [
+      "Dr David Warren",
+      "Sir Howard Florey",
+      "Lawrence Hargrave",
+      "John O'Sullivan"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Dr David Warren.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dr David Warren** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_127",
+    "category": "aus_history",
+    "question": "Which CSIRO scientist led the team that invented core Wi-Fi technology in the 1990s?",
+    "options": [
+      "Dr John O'Sullivan",
+      "Dr David Warren",
+      "Fiona Stanley",
+      "Ian Frazer"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Dr John O'Sullivan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dr John O'Sullivan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_128",
+    "category": "aus_history",
+    "question": "Which Australian co-invented the Gardasil cervical cancer vaccine in 2006?",
+    "options": [
+      "Prof Ian Frazer",
+      "Dr Fiona Stanley",
+      "Barry Marshall",
+      "Peter Doherty"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Prof Ian Frazer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Prof Ian Frazer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_129",
+    "category": "aus_history",
+    "question": "Which Australian medical researcher was named Australian of the Year in 2003 for work in child health?",
+    "options": [
+      "Dr Fiona Stanley",
+      "Ian Frazer",
+      "Gustav Nossal",
+      "Fred Hollows"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Dr Fiona Stanley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dr Fiona Stanley** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "aus_hist_130",
+    "category": "aus_history",
+    "question": "Which eye surgeon restored sight to over one million people in developing nations through his foundation?",
+    "options": [
+      "Fred Hollows",
+      "Victor Chang",
+      "Mark Lidwill",
+      "Graeme Clark"
+    ],
+    "answer": 0,
+    "explanation": "In aus history, the correct answer to this question is Fred Hollows.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fred Hollows** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

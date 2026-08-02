@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "spt_fact_1",
+    "category": "sports",
+    "question": "What was Sir Donald Bradman's final, legendary Test cricket batting average?",
+    "options": [
+      "99.94",
+      "100.00",
+      "95.50",
+      "98.75"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is 99.94.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **99.94** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_2",
+    "category": "sports",
+    "question": "Which VFL/AFL club won four consecutive premierships between 1927 and 1930?",
+    "options": [
+      "Collingwood",
+      "Melbourne",
+      "Hawthorn",
+      "Carlton"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Collingwood.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Collingwood** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_3",
+    "category": "sports",
+    "question": "Which AFL club achieved a premiership three-peat between 2001 and 2003 under Leigh Matthews?",
+    "options": [
+      "Brisbane Lions",
+      "Hawthorn",
+      "Geelong",
+      "Richmond"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Brisbane Lions.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Brisbane Lions** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_4",
+    "category": "sports",
+    "question": "Which AFL club achieved a premiership three-peat between 2013 and 2015 under Alastair Clarkson?",
+    "options": [
+      "Hawthorn",
+      "Geelong",
+      "Richmond",
+      "Sydney Swans"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Hawthorn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Hawthorn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_5",
+    "category": "sports",
+    "question": "Which VFL club achieved a premiership three-peat between 1955 and 1957 under Norm Smith?",
+    "options": [
+      "Melbourne",
+      "Collingwood",
+      "Essendon",
+      "Richmond"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Melbourne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Melbourne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_6",
+    "category": "sports",
+    "question": "Which London grass court tennis tournament is the oldest Grand Slam in the world?",
+    "options": [
+      "Wimbledon",
+      "French Open",
+      "US Open",
+      "Australian Open"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Wimbledon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Wimbledon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_7",
+    "category": "sports",
+    "question": "Which Paris red clay court tennis tournament is named after a French aviator?",
+    "options": [
+      "The French Open (Roland-Garros)",
+      "Wimbledon",
+      "US Open",
+      "Australian Open"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The French Open (Roland-Garros).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The French Open (Roland-Garros)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_8",
+    "category": "sports",
+    "question": "Which Melbourne Park hard court tennis tournament is the first Grand Slam of the calendar year?",
+    "options": [
+      "Australian Open",
+      "Wimbledon",
+      "French Open",
+      "US Open"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Australian Open.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Australian Open** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_9",
+    "category": "sports",
+    "question": "Which New York hard court tennis tournament is played at Flushing Meadows?",
+    "options": [
+      "US Open",
+      "Wimbledon",
+      "French Open",
+      "Australian Open"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is US Open.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **US Open** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_10",
+    "category": "sports",
+    "question": "In what year were the Summer Olympic Games hosted in Sydney, Australia?",
+    "options": [
+      "2000",
+      "1996",
+      "1956",
+      "2004"
+    ],
+    "answer": 0,
+    "explanation": "2000 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **2000** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_11",
+    "category": "sports",
+    "question": "In what year were the Summer Olympic Games hosted in Melbourne, Australia?",
+    "options": [
+      "1956",
+      "1960",
+      "1948",
+      "1964"
+    ],
+    "answer": 0,
+    "explanation": "1956 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1956** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_12",
+    "category": "sports",
+    "question": "Which Serbian tennis legend holds the record for most men's Grand Slam singles titles?",
+    "options": [
+      "Novak Djokovic",
+      "Rafael Nadal",
+      "Roger Federer",
+      "Pete Sampras"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Novak Djokovic.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Novak Djokovic** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_13",
+    "category": "sports",
+    "question": "Which Australian tennis legend holds the all-time record for most women's Grand Slam singles titles (24)?",
+    "options": [
+      "Margaret Court",
+      "Serena Williams",
+      "Steffi Graf",
+      "Martina Navratilova"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Margaret Court.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Margaret Court** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_14",
+    "category": "sports",
+    "question": "Which Australian swimmer won 5 Olympic Gold medals, nicknamed 'The Thorpedo'?",
+    "options": [
+      "Ian Thorpe",
+      "Grant Hackett",
+      "Kieren Perkins",
+      "Kyle Chalmers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ian Thorpe.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ian Thorpe** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_15",
+    "category": "sports",
+    "question": "Which Australian swimmer won gold in the 100m freestyle at three consecutive Olympics (1956, 1960, 1964)?",
+    "options": [
+      "Dawn Fraser",
+      "Shane Gould",
+      "Stephanie Rice",
+      "Ariarne Titmus"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Dawn Fraser.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dawn Fraser** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_16",
+    "category": "sports",
+    "question": "Which 15-year-old Australian swimmer won 5 individual medals (3 gold) at the 1972 Munich Olympics?",
+    "options": [
+      "Shane Gould",
+      "Dawn Fraser",
+      "Susie O'Neill",
+      "Leisel Jones"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Shane Gould.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Shane Gould** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_17",
+    "category": "sports",
+    "question": "Which Australian sprinter won gold in the 400m at Sydney 2000 while wearing a full-body suit?",
+    "options": [
+      "Cathy Freeman",
+      "Betty Cuthbert",
+      "Shirley Strickland",
+      "Sally Pearson"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Cathy Freeman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cathy Freeman** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_18",
+    "category": "sports",
+    "question": "Which Australian track legend won 3 gold medals at the 1956 Melbourne Olympics, known as the 'Golden Girl'?",
+    "options": [
+      "Betty Cuthbert",
+      "Cathy Freeman",
+      "Shirley Strickland",
+      "Raelene Boyle"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Betty Cuthbert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Betty Cuthbert** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_19",
+    "category": "sports",
+    "question": "Which Australian athlete won gold in the 100m hurdles at the 2012 London Olympics?",
+    "options": [
+      "Sally Pearson",
+      "Cathy Freeman",
+      "Jana Pittman",
+      "Melinda Gainsford-Taylor"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Sally Pearson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sally Pearson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_20",
+    "category": "sports",
+    "question": "Which Australian swimmer won 3 individual medley gold medals at the 2008 Beijing Olympics?",
+    "options": [
+      "Stephanie Rice",
+      "Leisel Jones",
+      "Libby Trickett",
+      "Alicia Coutts"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Stephanie Rice.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Stephanie Rice** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_21",
+    "category": "sports",
+    "question": "Which Australian middle-distance runner broke 17 world records during his career in the 1960s?",
+    "options": [
+      "Ron Clarke",
+      "Herb Elliott",
+      "John Landy",
+      "Ralph Doubell"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ron Clarke.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ron Clarke** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_22",
+    "category": "sports",
+    "question": "Which Australian runner went undefeated over 1500m and the mile, winning gold at the 1960 Rome Olympics?",
+    "options": [
+      "Herb Elliott",
+      "Ron Clarke",
+      "John Landy",
+      "Ralph Doubell"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Herb Elliott.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Herb Elliott** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_23",
+    "category": "sports",
+    "question": "Which Australian runner famously stopped to help fallen competitor Ron Clarke during the 1956 National Championships?",
+    "options": [
+      "John Landy",
+      "Herb Elliott",
+      "Ron Clarke",
+      "Merv Lincoln"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is John Landy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Landy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_24",
+    "category": "sports",
+    "question": "Which Australian golfer held the World No. 1 ranking for a total of 331 weeks in the 1980s and 1990s?",
+    "options": [
+      "Greg Norman",
+      "Adam Scott",
+      "Jason Day",
+      "Peter Thomson"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Greg Norman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Greg Norman** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_25",
+    "category": "sports",
+    "question": "Who was the first Australian golfer to win the Masters Tournament at Augusta in 2013?",
+    "options": [
+      "Adam Scott",
+      "Greg Norman",
+      "Jason Day",
+      "Geoff Ogilvy"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Adam Scott.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Adam Scott** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_26",
+    "category": "sports",
+    "question": "Which Australian golfer won The Open Championship five times between 1954 and 1965?",
+    "options": [
+      "Peter Thomson",
+      "Greg Norman",
+      "Kel Nagle",
+      "Adam Scott"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Peter Thomson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Thomson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_27",
+    "category": "sports",
+    "question": "Which horse won the inaugural Melbourne Cup in 1861 and repeated the win in 1862?",
+    "options": [
+      "Archer",
+      "Carbine",
+      "Phar Lap",
+      "Peter Pan"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Archer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Archer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_28",
+    "category": "sports",
+    "question": "Which Depression-era racehorse won 37 of his 51 starts, including the 1930 Melbourne Cup?",
+    "options": [
+      "Phar Lap",
+      "Carbine",
+      "Bernborough",
+      "Tulloch"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Phar Lap.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Phar Lap** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_29",
+    "category": "sports",
+    "question": "Which racehorse is the only horse to win three consecutive Melbourne Cups (2003, 2004, 2005)?",
+    "options": [
+      "Makybe Diva",
+      "Black Caviar",
+      "Sunline",
+      "Winx"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Makybe Diva.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Makybe Diva** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_30",
+    "category": "sports",
+    "question": "Which legendary Australian sprinter mare retired undefeated after 25 race starts?",
+    "options": [
+      "Black Caviar",
+      "Winx",
+      "Makybe Diva",
+      "Sunline"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Black Caviar.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Black Caviar** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_31",
+    "category": "sports",
+    "question": "Which champion Australian thoroughbred mare won 33 consecutive races, including 4 Cox Plates?",
+    "options": [
+      "Winx",
+      "Black Caviar",
+      "Makybe Diva",
+      "Sunline"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Winx.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Winx** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_32",
+    "category": "sports",
+    "question": "Which horse won four consecutive Cox Plates between 2015 and 2018?",
+    "options": [
+      "Winx",
+      "Sunline",
+      "Northerly",
+      "Kingston Town"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Winx.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Winx** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_33",
+    "category": "sports",
+    "question": "Which racehorse won three consecutive Cox Plates between 1980 and 1982?",
+    "options": [
+      "Kingston Town",
+      "Winx",
+      "Sunline",
+      "So You Think"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Kingston Town.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kingston Town** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_34",
+    "category": "sports",
+    "question": "What mock obituary published in The Sporting Times in 1882 gave birth to which famous cricket rivalry?",
+    "options": [
+      "The Ashes",
+      "The Border-Gavaskar Trophy",
+      "The Frank Worrell Trophy",
+      "The Trans-Tasman Trophy"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Ashes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Ashes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_35",
+    "category": "sports",
+    "question": "Which Australian leg-spinner bowled the famous 'Ball of the Century' to Mike Gatting in 1993?",
+    "options": [
+      "Shane Warne",
+      "Glenn McGrath",
+      "Dennis Lillee",
+      "Craig McDermott"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Shane Warne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Shane Warne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_36",
+    "category": "sports",
+    "question": "Who holds the record for most Test wickets taken by an Australian bowler (708)?",
+    "options": [
+      "Shane Warne",
+      "Glenn McGrath",
+      "Nathan Lyon",
+      "Dennis Lillee"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Shane Warne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Shane Warne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_37",
+    "category": "sports",
+    "question": "Who holds the record for most Test wickets taken by an Australian fast bowler (563)?",
+    "options": [
+      "Glenn McGrath",
+      "Dennis Lillee",
+      "Mitchell Starc",
+      "Brett Lee"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Glenn McGrath.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Glenn McGrath** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_38",
+    "category": "sports",
+    "question": "Which batsman scored 334 in a single day against England at Headingley in 1930?",
+    "options": [
+      "Sir Donald Bradman",
+      "Mark Taylor",
+      "Matthew Hayden",
+      "Ricky Ponting"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Sir Donald Bradman.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Donald Bradman** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_39",
+    "category": "sports",
+    "question": "Which Australian opening batsman set a then-world record Test score of 380 against Zimbabwe in 2003?",
+    "options": [
+      "Matthew Hayden",
+      "Mark Taylor",
+      "David Warner",
+      "Justin Langer"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Matthew Hayden.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Matthew Hayden** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_40",
+    "category": "sports",
+    "question": "Which Australian captain declared his innings closed on 334* out of respect for Don Bradman's record?",
+    "options": [
+      "Mark Taylor",
+      "Steve Waugh",
+      "Ricky Ponting",
+      "Allan Border"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Mark Taylor.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mark Taylor** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_41",
+    "category": "sports",
+    "question": "Which Australian captain led Australia to a world-record 16 consecutive Test match victories between 1999 and 2001?",
+    "options": [
+      "Steve Waugh",
+      "Ricky Ponting",
+      "Allan Border",
+      "Mark Taylor"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Steve Waugh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Steve Waugh** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_42",
+    "category": "sports",
+    "question": "Which Australian captain led Australia to another 16-consecutive Test wins streak between 2005 and 2008?",
+    "options": [
+      "Ricky Ponting",
+      "Steve Waugh",
+      "Michael Clarke",
+      "Steve Smith"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ricky Ponting.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ricky Ponting** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_43",
+    "category": "sports",
+    "question": "Which club won the inaugural National Rugby League (NRL) premiership in 1998?",
+    "options": [
+      "Brisbane Broncos",
+      "Canterbury Bulldogs",
+      "Melbourne Storm",
+      "Sydney Roosters"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Brisbane Broncos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Brisbane Broncos** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_44",
+    "category": "sports",
+    "question": "Which NRL club won the 1999 Grand Final with a dramatic late penalty try against St George Illawarra?",
+    "options": [
+      "Melbourne Storm",
+      "Brisbane Broncos",
+      "Sydney Roosters",
+      "Newcastle Knights"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Melbourne Storm.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Melbourne Storm** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_45",
+    "category": "sports",
+    "question": "Which Sydney rugby league club won 11 consecutive premierships between 1956 and 1966?",
+    "options": [
+      "St. George Dragons",
+      "South Sydney Rabbitohs",
+      "Eastern Suburbs",
+      "Balmain Tigers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is St. George Dragons.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **St. George Dragons** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_46",
+    "category": "sports",
+    "question": "Which NRL club has won the most total premierships in Australian rugby league history (21)?",
+    "options": [
+      "South Sydney Rabbitohs",
+      "St. George Dragons",
+      "Sydney Roosters",
+      "Balmain Tigers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is South Sydney Rabbitohs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **South Sydney Rabbitohs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_47",
+    "category": "sports",
+    "question": "What is the name of the AFL's highest individual award, presented annually to the fairest and best player?",
+    "options": [
+      "The Brownlow Medal",
+      "Norm Smith Medal",
+      "Coleman Medal",
+      "Leigh Matthews Trophy"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Brownlow Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Brownlow Medal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_48",
+    "category": "sports",
+    "question": "What award is presented to the best player on the ground in the AFL Grand Final?",
+    "options": [
+      "The Norm Smith Medal",
+      "Brownlow Medal",
+      "Gary Ayres Award",
+      "Jock McHale Medal"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Norm Smith Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Norm Smith Medal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_49",
+    "category": "sports",
+    "question": "What award is presented annually to the leading goal-kicker in the AFL home-and-away season?",
+    "options": [
+      "The Coleman Medal",
+      "Brownlow Medal",
+      "Norm Smith Medal",
+      "Leigh Matthews Trophy"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Coleman Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Coleman Medal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_50",
+    "category": "sports",
+    "question": "What is the highest individual award presented annually to the best and fairest player in the NRL?",
+    "options": [
+      "The Dally M Medal",
+      "Clive Churchill Medal",
+      "Rothmans Medal",
+      "Provan-Summons Medal"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Dally M Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Dally M Medal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_51",
+    "category": "sports",
+    "question": "What award is presented to the player of the match in the NRL Grand Final?",
+    "options": [
+      "The Clive Churchill Medal",
+      "Dally M Medal",
+      "Wally Lewis Medal",
+      "Sunderland Medal"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Clive Churchill Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Clive Churchill Medal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_52",
+    "category": "sports",
+    "question": "What award is presented to the player of the series in rugby league's State of Origin?",
+    "options": [
+      "The Wally Lewis Medal",
+      "Clive Churchill Medal",
+      "Dally M Medal",
+      "Arthur Beetson Medal"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Wally Lewis Medal.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Wally Lewis Medal** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_53",
+    "category": "sports",
+    "question": "Which state team has won the most State of Origin rugby league series?",
+    "options": [
+      "Queensland Maroons",
+      "New South Wales Blues",
+      "Victoria",
+      "ACT"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Queensland Maroons.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Queensland Maroons** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_54",
+    "category": "sports",
+    "question": "In what year was the first standalone State of Origin rugby league match played at Lang Park?",
+    "options": [
+      "1980",
+      "1982",
+      "1978",
+      "1985"
+    ],
+    "answer": 0,
+    "explanation": "1980 is the exact year in which this historic event took place.",
+    "tip": "\ud83d\udca1 **Key Date:** Remember **1980** as the year of this historic milestone.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_55",
+    "category": "sports",
+    "question": "Which Australian speed skater won gold at the 2002 Winter Olympics after all four opponents fell on the final turn?",
+    "options": [
+      "Steven Bradbury",
+      "Dale Begg-Smith",
+      "Torah Bright",
+      "Alisa Camplin"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Steven Bradbury.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Steven Bradbury** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_56",
+    "category": "sports",
+    "question": "Which Australian aerial skier won gold at the 2002 Salt Lake City Winter Olympics, Australia's first female winter gold?",
+    "options": [
+      "Alisa Camplin",
+      "Torah Bright",
+      "Jacqui Cooper",
+      "Lydia Lassila"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Alisa Camplin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Alisa Camplin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_57",
+    "category": "sports",
+    "question": "Which Australian snowboarder won gold in the halfpipe at the 2010 Vancouver Winter Olympics?",
+    "options": [
+      "Torah Bright",
+      "Alisa Camplin",
+      "Holly Crawford",
+      "Zali Steggall"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Torah Bright.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Torah Bright** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_58",
+    "category": "sports",
+    "question": "Which Australian alpine skier won Australia's first individual Winter Olympic medal (bronze in slalom at Nagano 1998)?",
+    "options": [
+      "Zali Steggall",
+      "Steven Bradbury",
+      "Malcolm Milne",
+      "Kirstie Marshall"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Zali Steggall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Zali Steggall** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_59",
+    "category": "sports",
+    "question": "Which Australian cyclist won the yellow jersey at the 2011 Tour de France?",
+    "options": [
+      "Cadel Evans",
+      "Robbie McEwen",
+      "Rohan Dennis",
+      "Richie Porte"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Cadel Evans.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cadel Evans** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_60",
+    "category": "sports",
+    "question": "Which Australian driver won three Formula One World Drivers' Championships (1959, 1960, 1966), building his own car?",
+    "options": [
+      "Sir Jack Brabham",
+      "Alan Jones",
+      "Daniel Ricciardo",
+      "Mark Webber"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Sir Jack Brabham.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sir Jack Brabham** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_61",
+    "category": "sports",
+    "question": "Which Australian driver won the 1980 Formula One World Drivers' Championship driving for Williams?",
+    "options": [
+      "Alan Jones",
+      "Sir Jack Brabham",
+      "Daniel Ricciardo",
+      "Mark Webber"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Alan Jones.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Alan Jones** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_62",
+    "category": "sports",
+    "question": "Which Touring Car driver was known as 'King of the Mountain' for winning the Bathurst 1000 nine times?",
+    "options": [
+      "Peter Brock",
+      "Craig Lowndes",
+      "Dick Johnson",
+      "Allan Moffat"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Peter Brock.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Brock** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_63",
+    "category": "sports",
+    "question": "Which Supercars driver won the Bathurst 1000 seven times and accumulated 107 career race wins?",
+    "options": [
+      "Craig Lowndes",
+      "Peter Brock",
+      "Jamie Whincup",
+      "Mark Skaife"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Craig Lowndes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Craig Lowndes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_64",
+    "category": "sports",
+    "question": "Which Australian middle-distance runner won gold in the 800m at the 1968 Mexico City Olympics?",
+    "options": [
+      "Ralph Doubell",
+      "Herb Elliott",
+      "Ron Clarke",
+      "John Landy"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ralph Doubell.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ralph Doubell** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_65",
+    "category": "sports",
+    "question": "Which Australian high jumper won gold at the 1956 Melbourne Olympics with a world-record jump?",
+    "options": [
+      "Charles Porter",
+      "John Winter",
+      "Tim Forsyth",
+      "Chilla Porter"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Charles Porter.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Charles Porter** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_66",
+    "category": "sports",
+    "question": "Which Australian pole vaulter won gold at the 2008 Beijing Olympics with an Olympic record clearance?",
+    "options": [
+      "Steve Hooker",
+      "Dmitri Markov",
+      "Paul Burgess",
+      "Kurtis Marschall"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Steve Hooker.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Steve Hooker** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_67",
+    "category": "sports",
+    "question": "Which Australian long jumper won gold at the 2008 Beijing Olympics?",
+    "options": [
+      "Fabrice Lapierre",
+      "Mitchell Watt",
+      "Jai Taurima",
+      "Henry Frayne"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Fabrice Lapierre.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fabrice Lapierre** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_68",
+    "category": "sports",
+    "question": "Which Australian walker won gold in the 50km walk at the 2008 Beijing Olympics?",
+    "options": [
+      "Jared Tallent",
+      "Nathan Deakes",
+      "Luke Adams",
+      "Dane Bird-Smith"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Jared Tallent.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jared Tallent** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_69",
+    "category": "sports",
+    "question": "Which Australian swimmer won gold in the 100m freestyle at the 2016 Rio Olympics?",
+    "options": [
+      "Kyle Chalmers",
+      "Cameron McEvoy",
+      "Mack Horton",
+      "James Magnussen"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Kyle Chalmers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kyle Chalmers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_70",
+    "category": "sports",
+    "question": "Which Australian swimmer won gold in the 400m freestyle at the 2016 Rio Olympics?",
+    "options": [
+      "Mack Horton",
+      "Kyle Chalmers",
+      "Grant Hackett",
+      "Jack McLoughlin"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Mack Horton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mack Horton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_71",
+    "category": "sports",
+    "question": "Which Australian swimmer won the 200m and 400m freestyle double at the 2020 Tokyo Olympics?",
+    "options": [
+      "Ariarne Titmus",
+      "Kaylee McKeown",
+      "Emma McKeon",
+      "Cate Campbell"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ariarne Titmus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ariarne Titmus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_72",
+    "category": "sports",
+    "question": "Which Australian swimmer won 7 medals (4 gold) at the 2020 Tokyo Olympics, the most by any female swimmer at a single Games?",
+    "options": [
+      "Emma McKeon",
+      "Ariarne Titmus",
+      "Kaylee McKeown",
+      "Cate Campbell"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Emma McKeon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Emma McKeon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_73",
+    "category": "sports",
+    "question": "Which Australian backstroke swimmer won 3 gold medals at the 2020 Tokyo Olympics?",
+    "options": [
+      "Kaylee McKeown",
+      "Emma McKeon",
+      "Ariarne Titmus",
+      "Emily Seebohm"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Kaylee McKeown.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Kaylee McKeown** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_74",
+    "category": "sports",
+    "question": "Which Australian rowers won gold in the men's coxless four at the 1992 Barcelona and 1996 Atlanta Olympics (Oarsome Foursome)?",
+    "options": [
+      "James Tomkins, Drew Ginn, Nick Green, Mike McKay",
+      "Steve Redgrave",
+      "Bede Murray",
+      "Duncan Free"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is James Tomkins, Drew Ginn, Nick Green, Mike McKay.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **James Tomkins, Drew Ginn, Nick Green, Mike McKay** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_75",
+    "category": "sports",
+    "question": "Which Australian rowers won gold in the men's pair at the 2008 Beijing Olympics?",
+    "options": [
+      "Drew Ginn and Duncan Free",
+      "James Tomkins and Matthew Pinsent",
+      "David Crawshay and Scott Brennan",
+      "Joshua Dunkley-Smith"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Drew Ginn and Duncan Free.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Drew Ginn and Duncan Free** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_76",
+    "category": "sports",
+    "question": "Which Australian double sculls rowers won gold at the 2008 Beijing Olympics?",
+    "options": [
+      "David Crawshay and Scott Brennan",
+      "Drew Ginn and Duncan Free",
+      "James Tomkins and Nick Green",
+      "Bede Murray"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is David Crawshay and Scott Brennan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **David Crawshay and Scott Brennan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_77",
+    "category": "sports",
+    "question": "Which Australian sailor won back-to-back Laser class Olympic gold medals in 2012 and 2016?",
+    "options": [
+      "Tom Slingsby & Tom Burton",
+      "Mat Belcher",
+      "Will Ryan",
+      "Iain Jensen"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Tom Slingsby & Tom Burton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tom Slingsby & Tom Burton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_78",
+    "category": "sports",
+    "question": "Which Australian sailor won gold in the 470 class at the 2012 and 2020 Olympics?",
+    "options": [
+      "Mathew Belcher",
+      "Tom Slingsby",
+      "Nathan Outteridge",
+      "Iain Jensen"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Mathew Belcher.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mathew Belcher** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_79",
+    "category": "sports",
+    "question": "Which Australian BMX racer won gold in the men's BMX freestyle at the 2020 Tokyo Olympics?",
+    "options": [
+      "Logan Martin",
+      "Sam Willoughby",
+      "Anthony Dean",
+      "Saya Sakakibara"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Logan Martin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Logan Martin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_80",
+    "category": "sports",
+    "question": "Which Australian skateboarder won gold in the men's park event at the 2020 Tokyo Olympics at age 18?",
+    "options": [
+      "Keegan Palmer",
+      "Shane O'Neill",
+      "Poppy Starr Olsen",
+      "Arisa Trew"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Keegan Palmer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Keegan Palmer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_81",
+    "category": "sports",
+    "question": "Which Australian canoeist won gold in the C1 event at the 2020 Tokyo Olympics and 3 gold at Paris 2024?",
+    "options": [
+      "Jessica Fox",
+      "Noerie Fox",
+      "Ken Wallace",
+      "Clint Robinson"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Jessica Fox.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jessica Fox** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_82",
+    "category": "sports",
+    "question": "Which Australian kayaker won gold in the K1 1000m at the 1992 Barcelona Olympics?",
+    "options": [
+      "Clint Robinson",
+      "Ken Wallace",
+      "Jessica Fox",
+      "Thomas Green"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Clint Robinson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Clint Robinson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_83",
+    "category": "sports",
+    "question": "Which Australian kayaker won gold in the K1 500m at the 2008 Beijing Olympics?",
+    "options": [
+      "Ken Wallace",
+      "Clint Robinson",
+      "Thomas Green",
+      "Jean van der Westhuyzen"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ken Wallace.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ken Wallace** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_84",
+    "category": "sports",
+    "question": "Which Australian men's K2 1000m team won gold at the 2020 Tokyo Olympics?",
+    "options": [
+      "Thomas Green and Jean van der Westhuyzen",
+      "Ken Wallace and Lani Belcher",
+      "Clint Robinson and Nathan Baggaley",
+      "Riley Fitzsimmons and Jordan Wood"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Thomas Green and Jean van der Westhuyzen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Green and Jean van der Westhuyzen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_85",
+    "category": "sports",
+    "question": "Which Australian women's water polo team won gold at the inaugural 2000 Sydney Olympics?",
+    "options": [
+      "The Aussie Stingers",
+      "The Matildas",
+      "The Opals",
+      "The Pearls"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Aussie Stingers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Aussie Stingers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_86",
+    "category": "sports",
+    "question": "Which Australian national women's basketball team has won multiple Olympic medals?",
+    "options": [
+      "The Opals",
+      "The Matildas",
+      "The Diamonds",
+      "The Stingers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Opals.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Opals** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_87",
+    "category": "sports",
+    "question": "Which Australian national netball team has won 12 World Netball Championships?",
+    "options": [
+      "The Australian Diamonds",
+      "The Opals",
+      "The Matildas",
+      "The Pearls"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Australian Diamonds.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Australian Diamonds** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_88",
+    "category": "sports",
+    "question": "Which Australian national women's football team reached the semi-finals of the 2023 FIFA Women's World Cup?",
+    "options": [
+      "The Matildas",
+      "The Opals",
+      "The Diamonds",
+      "The Wallaroos"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Matildas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Matildas** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_89",
+    "category": "sports",
+    "question": "Which Australian national men's football team reached the Round of 16 at the 2006 and 2022 World Cups?",
+    "options": [
+      "The Socceroos",
+      "The Olyroos",
+      "The Boomers",
+      "The Wallabies"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Socceroos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Socceroos** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_90",
+    "category": "sports",
+    "question": "Which Australian national men's basketball team won bronze at the 2020 Tokyo Olympics?",
+    "options": [
+      "The Boomers",
+      "The Opals",
+      "The Socceroos",
+      "The Wallabies"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Boomers.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Boomers** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_91",
+    "category": "sports",
+    "question": "Which Australian national men's rugby union team won the Rugby World Cup in 1991 and 1999?",
+    "options": [
+      "The Wallabies",
+      "The Kangaroos",
+      "The Kookaburras",
+      "The Boomers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Wallabies.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Wallabies** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_92",
+    "category": "sports",
+    "question": "Which Australian national men's rugby league team has won 12 Rugby League World Cups?",
+    "options": [
+      "The Kangaroos",
+      "The Wallabies",
+      "The Socceroos",
+      "The Boomers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Kangaroos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Kangaroos** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_93",
+    "category": "sports",
+    "question": "Which Australian national men's field hockey team won gold at the 2004 Athens Olympics?",
+    "options": [
+      "The Kookaburras",
+      "The Hockeyroos",
+      "The Wallabies",
+      "The Boomers"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Kookaburras.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Kookaburras** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_94",
+    "category": "sports",
+    "question": "Which Australian national women's field hockey team won 3 Olympic gold medals (1988, 1996, 2000)?",
+    "options": [
+      "The Hockeyroos",
+      "The Kookaburras",
+      "The Matildas",
+      "The Diamonds"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is The Hockeyroos.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **The Hockeyroos** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_95",
+    "category": "sports",
+    "question": "Which Australian cricketer hit 66 sixes in Test matches and scored 13,378 Test runs?",
+    "options": [
+      "Ricky Ponting",
+      "Steve Waugh",
+      "Allan Border",
+      "David Warner"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ricky Ponting.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ricky Ponting** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_96",
+    "category": "sports",
+    "question": "Which Australian cricketer was the first player in history to score 11,000 Test runs?",
+    "options": [
+      "Allan Border",
+      "Steve Waugh",
+      "Ricky Ponting",
+      "Mark Taylor"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Allan Border.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Allan Border** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_97",
+    "category": "sports",
+    "question": "Which Australian wicketkeeper-batsman scored 17 Test centuries and took 416 dismissals?",
+    "options": [
+      "Adam Gilchrist",
+      "Ian Healy",
+      "Rod Marsh",
+      "Brad Haddin"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Adam Gilchrist.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Adam Gilchrist** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_98",
+    "category": "sports",
+    "question": "Which Australian wicketkeeper took 395 Test dismissals between 1988 and 1999?",
+    "options": [
+      "Ian Healy",
+      "Adam Gilchrist",
+      "Rod Marsh",
+      "Wally Grout"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ian Healy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ian Healy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_99",
+    "category": "sports",
+    "question": "Which Australian wicketkeeper formed a legendary combination with fast bowler Dennis Lillee ('c Marsh b Lillee' 95 times)?",
+    "options": [
+      "Rod Marsh",
+      "Ian Healy",
+      "Adam Gilchrist",
+      "Wally Grout"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Rod Marsh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rod Marsh** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_100",
+    "category": "sports",
+    "question": "Which Australian fast bowler took 355 Test wickets between 1971 and 1984?",
+    "options": [
+      "Dennis Lillee",
+      "Jeff Thomson",
+      "Glenn McGrath",
+      "Craig McDermott"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Dennis Lillee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dennis Lillee** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_101",
+    "category": "sports",
+    "question": "Which Australian fast bowler was famed for his slinging action and extreme speed in the 1970s alongside Dennis Lillee?",
+    "options": [
+      "Jeff Thomson",
+      "Dennis Lillee",
+      "Len Pascoe",
+      "Rodney Hogg"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Jeff Thomson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jeff Thomson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_102",
+    "category": "sports",
+    "question": "Which Australian fast bowler took 313 Test wickets, including 8 for 53 at Lord's in 1997?",
+    "options": [
+      "Mitchell Johnson",
+      "Brett Lee",
+      "Jason Gillespie",
+      "Craig McDermott"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Mitchell Johnson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mitchell Johnson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_103",
+    "category": "sports",
+    "question": "Which Australian left-arm fast bowler took 37 wickets in the 2013-14 Ashes series sweep?",
+    "options": [
+      "Mitchell Johnson",
+      "Mitchell Starc",
+      "Glenn McGrath",
+      "Brett Lee"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Mitchell Johnson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mitchell Johnson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_104",
+    "category": "sports",
+    "question": "Which Australian left-arm fast bowler holds the record for most wickets in a single Cricket World Cup (27 in 2019)?",
+    "options": [
+      "Mitchell Starc",
+      "Mitchell Johnson",
+      "Glenn McGrath",
+      "Brett Lee"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Mitchell Starc.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mitchell Starc** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_105",
+    "category": "sports",
+    "question": "Which Australian off-spinner has taken over 500 Test wickets, known as 'Garry' or 'GOAT'?",
+    "options": [
+      "Nathan Lyon",
+      "Shane Warne",
+      "Ashley Mallett",
+      "Stuart MacGill"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Nathan Lyon.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nathan Lyon** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_106",
+    "category": "sports",
+    "question": "Which Australian leg-spinner took 208 Test wickets despite playing in the shadow of Shane Warne?",
+    "options": [
+      "Stuart MacGill",
+      "Shane Warne",
+      "Nathan Lyon",
+      "Brad Hogg"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Stuart MacGill.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Stuart MacGill** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_107",
+    "category": "sports",
+    "question": "Which Australian batsman scored twin centuries in his final Test match against South Africa in 2006?",
+    "options": [
+      "Ricky Ponting",
+      "Steve Waugh",
+      "Justin Langer",
+      "Matthew Hayden"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Ricky Ponting.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ricky Ponting** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "spt_fact_108",
+    "category": "sports",
+    "question": "Which Australian opening partnership comprised 5,655 runs across 113 Test innings between 1997 and 2007?",
+    "options": [
+      "Matthew Hayden and Justin Langer",
+      "Mark Taylor and Michael Slater",
+      "David Warner and Aaron Finch",
+      "Bill Lawry and Bob Simpson"
+    ],
+    "answer": 0,
+    "explanation": "In sports, the correct answer to this question is Matthew Hayden and Justin Langer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Matthew Hayden and Justin Langer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]

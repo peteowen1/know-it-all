@@ -1,0 +1,1907 @@
+[
+  {
+    "id": "arts_fact_1",
+    "category": "arts_lit",
+    "question": "Whose skull does Hamlet hold during his famous graveyard soliloquy in Act 5?",
+    "options": [
+      "Yorick",
+      "Puck",
+      "Touchstone",
+      "Falstaff"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Yorick.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Yorick** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_2",
+    "category": "arts_lit",
+    "question": "What title is Macbeth given after fulfilling the witches' first prophecy?",
+    "options": [
+      "Thane of Cawdor",
+      "Thane of Glamis",
+      "Thane of Fife",
+      "Earl of Atholl"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Thane of Cawdor.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thane of Cawdor** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_3",
+    "category": "arts_lit",
+    "question": "Who is the villainous ensign who manipulates Othello into believing Desdemona is unfaithful?",
+    "options": [
+      "Iago",
+      "Cassio",
+      "Roderigo",
+      "Brabantio"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Iago.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Iago** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_4",
+    "category": "arts_lit",
+    "question": "Who is King Lear's faithful youngest daughter who refuses to flatter him?",
+    "options": [
+      "Cordelia",
+      "Goneril",
+      "Regan",
+      "Bianca"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Cordelia.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Cordelia** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_5",
+    "category": "arts_lit",
+    "question": "What are the names of the two feuding families in Shakespeare's Romeo and Juliet?",
+    "options": [
+      "Capulet and Montague",
+      "Montechi & Cappelletti",
+      "Medici & Sforza",
+      "Orsini & Colonna"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Capulet and Montague.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Capulet and Montague** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_6",
+    "category": "arts_lit",
+    "question": "What warning does the soothsayer give to Julius Caesar in Shakespeare's play?",
+    "options": [
+      "Beware the Ides of March",
+      "Et tu, Brute?",
+      "The die is cast",
+      "Friends, Romans, countrymen"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Beware the Ides of March.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Beware the Ides of March** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_7",
+    "category": "arts_lit",
+    "question": "Who is the exiled Duke of Milan in Shakespeare's The Tempest?",
+    "options": [
+      "Prospero",
+      "Caliban",
+      "Ariel",
+      "Ferdinand"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Prospero.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Prospero** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_8",
+    "category": "arts_lit",
+    "question": "Which mischievous fairy serves Oberon in A Midsummer Night's Dream?",
+    "options": [
+      "Puck (Robin Goodfellow)",
+      "Bottom",
+      "Titania",
+      "Lysander"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Puck (Robin Goodfellow).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Puck (Robin Goodfellow)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_9",
+    "category": "arts_lit",
+    "question": "Which pompous steward in Twelfth Night is tricked into wearing yellow stockings?",
+    "options": [
+      "Malvolio",
+      "Orsino",
+      "Sir Toby Belch",
+      "Aguecheek"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Malvolio.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Malvolio** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_10",
+    "category": "arts_lit",
+    "question": "Who is the Jewish moneylender in Shakespeare's The Merchant of Venice?",
+    "options": [
+      "Shylock",
+      "Antonio",
+      "Bassanio",
+      "Gratiano"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Shylock.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Shylock** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_11",
+    "category": "arts_lit",
+    "question": "Which character delivers the 'All the world's a stage' speech in As You Like It?",
+    "options": [
+      "Jaques",
+      "Touchstone",
+      "Orlando",
+      "Rosalind"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Jaques.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jaques** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_12",
+    "category": "arts_lit",
+    "question": "Which Australian author won the Booker Prize twice (for Oscar and Lucinda and True History of the Kelly Gang)?",
+    "options": [
+      "Peter Carey",
+      "Tim Winton",
+      "Patrick White",
+      "Thomas Keneally"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Peter Carey.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Peter Carey** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_13",
+    "category": "arts_lit",
+    "question": "Which Australian author won the 1982 Booker Prize for Schindler's Ark?",
+    "options": [
+      "Thomas Keneally",
+      "Peter Carey",
+      "Patrick White",
+      "Richard Flanagan"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Thomas Keneally.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Keneally** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_14",
+    "category": "arts_lit",
+    "question": "Which Australian author won the 2014 Booker Prize for The Narrow Road to the Deep North?",
+    "options": [
+      "Richard Flanagan",
+      "Peter Carey",
+      "Tim Winton",
+      "Alexis Wright"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Richard Flanagan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Richard Flanagan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_15",
+    "category": "arts_lit",
+    "question": "Who won the 1973 Nobel Prize in Literature, becoming Australia's only Nobel literature laureate?",
+    "options": [
+      "Patrick White",
+      "Peter Carey",
+      "Miles Franklin",
+      "Christina Stead"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Patrick White.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Patrick White** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_16",
+    "category": "arts_lit",
+    "question": "Which Western Australian author wrote the acclaimed 1991 novel Cloudstreet?",
+    "options": [
+      "Tim Winton",
+      "Peter Carey",
+      "David Malouf",
+      "Helen Garner"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Tim Winton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tim Winton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_17",
+    "category": "arts_lit",
+    "question": "Which Australian feminist and author wrote My Brilliant Career in 1901?",
+    "options": [
+      "Miles Franklin",
+      "Tim Winton",
+      "Patrick White",
+      "Kate Grenville"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Miles Franklin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Miles Franklin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_18",
+    "category": "arts_lit",
+    "question": "Who authored the 2005 Miles Franklin Award-winning novel The Secret River?",
+    "options": [
+      "Kate Grenville",
+      "Thea Astley",
+      "Geraldine Brooks",
+      "Gillian Mears"
+    ],
+    "answer": 0,
+    "explanation": "Kate Grenville's 2005 novel 'The Secret River' explores colonial frontier conflict between British settlers and the Indigenous Dharug people along the Hawkesbury River, winning the Miles Franklin Award.",
+    "tip": "\ud83d\udca1 **Hawkesbury Trilogy:** 'The Secret River' is the 1st book in Kate Grenville's Hawkesbury trilogy.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_19",
+    "category": "arts_lit",
+    "question": "Which Australian author wrote the internationally bestselling 2005 novel The Book Thief?",
+    "options": [
+      "Markus Zusak",
+      "Trent Dalton",
+      "Christos Tsiolkas",
+      "Garth Nix"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Markus Zusak.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Markus Zusak** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_20",
+    "category": "arts_lit",
+    "question": "Which Australian author wrote the hit 2018 semi-autobiographical novel Boy Swallows Universe?",
+    "options": [
+      "Trent Dalton",
+      "Craig Silvey",
+      "Robbie Arnott",
+      "Richard Fidler"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Trent Dalton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Trent Dalton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_21",
+    "category": "arts_lit",
+    "question": "Who authored the classic 1967 Australian mystery novel Picnic at Hanging Rock?",
+    "options": [
+      "Joan Lindsay",
+      "Shirley Hazzard",
+      "Kylie Tennant",
+      "Ruth Park"
+    ],
+    "answer": 0,
+    "explanation": "Joan Lindsay is the acclaimed author who wrote Picnic at Hanging Rock.",
+    "tip": "\ud83d\udca1 **Literary Author:** Joan Lindsay wrote this celebrated book.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_22",
+    "category": "arts_lit",
+    "question": "Who authored the epic 1977 Australian family saga novel The Thorn Birds?",
+    "options": [
+      "Colleen McCullough",
+      "Jon Cleary",
+      "Morris West",
+      "D'Arcy Niland"
+    ],
+    "answer": 0,
+    "explanation": "Colleen McCullough is the acclaimed author who wrote The Thorn Birds.",
+    "tip": "\ud83d\udca1 **Literary Author:** Colleen McCullough wrote this celebrated book.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_23",
+    "category": "arts_lit",
+    "question": "Which artist and author wrote and illustrated the 1918 classic children's book The Magic Pudding?",
+    "options": [
+      "Norman Lindsay",
+      "May Gibbs",
+      "Dorothy Wall",
+      "Ethel Turner"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Norman Lindsay.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Norman Lindsay** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_24",
+    "category": "arts_lit",
+    "question": "Which Australian author created Snugglepot and Cuddlepie in 1918?",
+    "options": [
+      "May Gibbs",
+      "Norman Lindsay",
+      "Dorothy Wall",
+      "Ruth Park"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is May Gibbs.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **May Gibbs** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_25",
+    "category": "arts_lit",
+    "question": "Which Australian author created the lovable koala character Blinky Bill in 1933?",
+    "options": [
+      "Dorothy Wall",
+      "May Gibbs",
+      "Norman Lindsay",
+      "Ethel Turner"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Dorothy Wall.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dorothy Wall** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_26",
+    "category": "arts_lit",
+    "question": "Who authored the classic 1894 Australian children's book Seven Little Australians?",
+    "options": [
+      "Ethel Turner",
+      "May Gibbs",
+      "Dorothy Wall",
+      "Mary Grant Bruce"
+    ],
+    "answer": 0,
+    "explanation": "Ethel Turner is the acclaimed author who wrote this literary work.",
+    "tip": "\ud83d\udca1 **Literary Author:** Ethel Turner wrote this celebrated book.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_27",
+    "category": "arts_lit",
+    "question": "Which Dutch master painted 'The Starry Night' in 1889 while staying at Saint-R\u00e9my-de-Provence?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Paul Gauguin"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Vincent van Gogh.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Vincent van Gogh** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_28",
+    "category": "arts_lit",
+    "question": "Which Italian polymath painted the Mona Lisa and The Last Supper?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Sandro Botticelli"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Leonardo da Vinci.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Leonardo da Vinci** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_29",
+    "category": "arts_lit",
+    "question": "Which Renaissance master painted the ceiling of the Sistine Chapel between 1508 and 1512?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Titian"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Michelangelo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Michelangelo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_30",
+    "category": "arts_lit",
+    "question": "Which French Impressionist master painted Impression, Sunrise in 1872, giving the movement its name?",
+    "options": [
+      "Claude Monet",
+      "\u00c9douard Manet",
+      "Pierre-Auguste Renoir",
+      "Edgar Degas"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Claude Monet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Claude Monet** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_31",
+    "category": "arts_lit",
+    "question": "Which Surrealist master painted melting clocks in The Persistence of Memory (1931)?",
+    "options": [
+      "Salvador Dal\u00ed",
+      "Ren\u00e9 Magritte",
+      "Max Ernst",
+      "Joan Mir\u00f3"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Salvador Dal\u00ed.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Salvador Dal\u00ed** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_32",
+    "category": "arts_lit",
+    "question": "Which Spanish cubist master painted the monumental anti-war canvas Guernica in 1937?",
+    "options": [
+      "Pablo Picasso",
+      "Georges Braque",
+      "Juan Gris",
+      "Joan Mir\u00f3"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Pablo Picasso.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pablo Picasso** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_33",
+    "category": "arts_lit",
+    "question": "Which Australian artist painted the iconic 1940s Ned Kelly series of paintings?",
+    "options": [
+      "Sidney Nolan",
+      "Arthur Boyd",
+      "Russell Drysdale",
+      "Albert Namatjira"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Sidney Nolan.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sidney Nolan** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_34",
+    "category": "arts_lit",
+    "question": "Which Indigenous watercolor artist painted renowned landscapes of the MacDonnell Ranges?",
+    "options": [
+      "Albert Namatjira",
+      "Clifford Possum",
+      "Rover Thomas",
+      "Emily Kame Kngwarreye"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Albert Namatjira.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Albert Namatjira** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_35",
+    "category": "arts_lit",
+    "question": "Which Sydney artist won the Archibald Prize twice and was famed for his sensuous Sydney Harbour paintings?",
+    "options": [
+      "Brett Whiteley",
+      "Sidney Nolan",
+      "Arthur Streeton",
+      "Tom Roberts"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Brett Whiteley.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Brett Whiteley** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_36",
+    "category": "arts_lit",
+    "question": "Which Heidelberg School artist painted Shearing the Rams in 1890?",
+    "options": [
+      "Tom Roberts",
+      "Arthur Streeton",
+      "Charles Conder",
+      "Frederick McCubbin"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Tom Roberts.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tom Roberts** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_37",
+    "category": "arts_lit",
+    "question": "Which Heidelberg School artist painted Golden Summer, Eaglemont in 1889?",
+    "options": [
+      "Arthur Streeton",
+      "Tom Roberts",
+      "Frederick McCubbin",
+      "Charles Conder"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Arthur Streeton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Arthur Streeton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_38",
+    "category": "arts_lit",
+    "question": "Which Heidelberg School artist painted the historic triptych The Pioneer in 1904?",
+    "options": [
+      "Frederick McCubbin",
+      "Tom Roberts",
+      "Arthur Streeton",
+      "Walter Withers"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Frederick McCubbin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Frederick McCubbin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_39",
+    "category": "arts_lit",
+    "question": "Which Austrian prodigy composed The Magic Flute, Don Giovanni, and Symphony No. 40?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Franz Schubert",
+      "Joseph Haydn"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Wolfgang Amadeus Mozart.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Wolfgang Amadeus Mozart** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_40",
+    "category": "arts_lit",
+    "question": "Which German composer wrote nine symphonies, culminating in the Ode to Joy in his Ninth Symphony?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Johannes Brahms",
+      "Richard Wagner"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Ludwig van Beethoven.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ludwig van Beethoven** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_41",
+    "category": "arts_lit",
+    "question": "Which Baroque master composed the Brandenburg Concertos and The Well-Tempered Clavier?",
+    "options": [
+      "Johann Sebastian Bach",
+      "George Frideric Handel",
+      "Telemann",
+      "Vivaldi"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Johann Sebastian Bach.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Johann Sebastian Bach** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_42",
+    "category": "arts_lit",
+    "question": "Which Italian Baroque composer composed the violin concerto suite The Four Seasons?",
+    "options": [
+      "Antonio Vivaldi",
+      "Claudio Monteverdi",
+      "Corelli",
+      "Scarlatti"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Antonio Vivaldi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Antonio Vivaldi** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_43",
+    "category": "arts_lit",
+    "question": "Which Russian composer wrote the music for the classic ballets Swan Lake and The Nutcracker?",
+    "options": [
+      "Pyotr Ilyich Tchaikovsky",
+      "Stravinsky",
+      "Prokofiev",
+      "Rimsky-Korsakov"
+    ],
+    "answer": 0,
+    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and backstage rehearsals.",
+    "tip": "\ud83d\udca1 **Degas & Dancers:** Degas = Dancers! Over half of all Degas' artworks feature ballet dancers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_44",
+    "category": "arts_lit",
+    "question": "Which Italian opera composer wrote La Boh\u00e8me, Tosca, and Madame Butterfly?",
+    "options": [
+      "Giacomo Puccini",
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Donizetti"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Giacomo Puccini.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Giacomo Puccini** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_45",
+    "category": "arts_lit",
+    "question": "Which Italian composer wrote the grand operas La Traviata, Rigoletto, and Aida?",
+    "options": [
+      "Giuseppe Verdi",
+      "Giacomo Puccini",
+      "Gioachino Rossini",
+      "Vincenzo Bellini"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Giuseppe Verdi.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Giuseppe Verdi** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_46",
+    "category": "arts_lit",
+    "question": "Which German opera composer created the epic four-opera cycle Der Ring des Nibelungen?",
+    "options": [
+      "Richard Wagner",
+      "Richard Strauss",
+      "Johannes Brahms",
+      "Gustav Mahler"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Richard Wagner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Richard Wagner** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_47",
+    "category": "arts_lit",
+    "question": "Who authored the classic 1813 romantic novel Pride and Prejudice?",
+    "options": [
+      "Jane Austen",
+      "Charlotte Bront\u00eb",
+      "Emily Bront\u00eb",
+      "George Eliot"
+    ],
+    "answer": 0,
+    "explanation": "Jane Austen is the acclaimed author who wrote Pride and Prejudice.",
+    "tip": "\ud83d\udca1 **Literary Author:** Jane Austen wrote this celebrated book.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_48",
+    "category": "arts_lit",
+    "question": "Which Victorian author wrote Jane Eyre under the pen name Currer Bell?",
+    "options": [
+      "Charlotte Bront\u00eb",
+      "Emily Bront\u00eb",
+      "Anne Bront\u00eb",
+      "Jane Austen"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Charlotte Bront\u00eb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Charlotte Bront\u00eb** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_49",
+    "category": "arts_lit",
+    "question": "Which Victorian author wrote Wuthering Heights under the pen name Ellis Bell?",
+    "options": [
+      "Emily Bront\u00eb",
+      "Charlotte Bront\u00eb",
+      "Anne Bront\u00eb",
+      "George Eliot"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Emily Bront\u00eb.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Emily Bront\u00eb** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_50",
+    "category": "arts_lit",
+    "question": "Which Victorian author wrote Middlemarch under the male pen name George Eliot?",
+    "options": [
+      "George Eliot (Mary Ann Evans)",
+      "Charlotte Bront\u00eb",
+      "Elizabeth Gaskell",
+      "Virginia Woolf"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is George Eliot (Mary Ann Evans).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **George Eliot (Mary Ann Evans)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_51",
+    "category": "arts_lit",
+    "question": "Which Victorian author created Oliver Twist, Ebenezer Scrooge, and Great Expectations?",
+    "options": [
+      "Charles Dickens",
+      "Thomas Hardy",
+      "Thackeray",
+      "Trollope"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Charles Dickens.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Charles Dickens** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_52",
+    "category": "arts_lit",
+    "question": "Which English author wrote Tess of the d'Urbervilles and Far from the Madding Crowd?",
+    "options": [
+      "Thomas Hardy",
+      "Charles Dickens",
+      "George Eliot",
+      "D.H. Lawrence"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Thomas Hardy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Thomas Hardy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_53",
+    "category": "arts_lit",
+    "question": "Which English author wrote the dystopian classics Nineteen Eighty-Four and Animal Farm?",
+    "options": [
+      "George Orwell (Eric Blair)",
+      "Aldous Huxley",
+      "H.G. Wells",
+      "Arthur Koestler"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is George Orwell (Eric Blair).",
+    "tip": "\ud83d\udca1 **Trivia Key:** **George Orwell (Eric Blair)** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_54",
+    "category": "arts_lit",
+    "question": "Which American author wrote Jazz Age masterpiece The Great Gatsby in 1925?",
+    "options": [
+      "F. Scott Fitzgerald",
+      "Ernest Hemingway",
+      "William Faulkner",
+      "John Steinbeck"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is F. Scott Fitzgerald.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **F. Scott Fitzgerald** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_55",
+    "category": "arts_lit",
+    "question": "Which American author wrote The Old Man and the Sea and For Whom the Bell Tolls?",
+    "options": [
+      "Ernest Hemingway",
+      "F. Scott Fitzgerald",
+      "John Steinbeck",
+      "William Faulkner"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Ernest Hemingway.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ernest Hemingway** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_56",
+    "category": "arts_lit",
+    "question": "Which Nobel literature laureate wrote The Grapes of Wrath and Of Mice and Men?",
+    "options": [
+      "John Steinbeck",
+      "Ernest Hemingway",
+      "William Faulkner",
+      "Harper Lee"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is John Steinbeck.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Steinbeck** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_57",
+    "category": "arts_lit",
+    "question": "Which Southern author wrote the Pulitzer-winning novel To Kill a Mockingbird?",
+    "options": [
+      "Harper Lee",
+      "Truman Capote",
+      "Toni Morrison",
+      "Flannery O'Connor"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Harper Lee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Harper Lee** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_58",
+    "category": "arts_lit",
+    "question": "Which Russian literary giant wrote War and Peace and Anna Karenina?",
+    "options": [
+      "Leo Tolstoy",
+      "Fyodor Dostoevsky",
+      "Anton Chekhov",
+      "Ivan Turgenev"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Leo Tolstoy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Leo Tolstoy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_59",
+    "category": "arts_lit",
+    "question": "Which Russian novelist wrote Crime and Punishment and The Brothers Karamazov?",
+    "options": [
+      "Fyodor Dostoevsky",
+      "Leo Tolstoy",
+      "Nikolai Gogol",
+      "Ivan Turgenev"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Fyodor Dostoevsky.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fyodor Dostoevsky** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_60",
+    "category": "arts_lit",
+    "question": "Which Irish modernist author wrote the groundbreaking 1922 novel Ulysses?",
+    "options": [
+      "James Joyce",
+      "Samuel Beckett",
+      "Oscar Wilde",
+      "W.B. Yeats"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is James Joyce.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **James Joyce** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_61",
+    "category": "arts_lit",
+    "question": "Which Irish playwright wrote The Importance of Being Earnest and The Picture of Dorian Gray?",
+    "options": [
+      "Oscar Wilde",
+      "George Bernard Shaw",
+      "Samuel Beckett",
+      "J.M. Synge"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Oscar Wilde.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Oscar Wilde** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_62",
+    "category": "arts_lit",
+    "question": "Which Irish playwright wrote the absurdist masterwork Waiting for Godot?",
+    "options": [
+      "Samuel Beckett",
+      "James Joyce",
+      "Oscar Wilde",
+      "Seamus Heaney"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Samuel Beckett.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Samuel Beckett** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_63",
+    "category": "arts_lit",
+    "question": "Which French author wrote Les Mis\u00e9rables and The Hunchback of Notre-Dame?",
+    "options": [
+      "Victor Hugo",
+      "Alexandre Dumas",
+      "Gustave Flaubert",
+      "\u00c9mile Zola"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Victor Hugo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Victor Hugo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_64",
+    "category": "arts_lit",
+    "question": "Which French author wrote The Count of Monte Cristo and The Three Musketeers?",
+    "options": [
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Honor\u00e9 de Balzac",
+      "Jules Verne"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Alexandre Dumas.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Alexandre Dumas** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_65",
+    "category": "arts_lit",
+    "question": "Which French novelist wrote the 1856 realist masterpiece Madame Bovary?",
+    "options": [
+      "Gustave Flaubert",
+      "\u00c9mile Zola",
+      "Marcel Proust",
+      "Maupassant"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Gustave Flaubert.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gustave Flaubert** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_66",
+    "category": "arts_lit",
+    "question": "Which French author wrote the seven-volume epic In Search of Lost Time?",
+    "options": [
+      "Marcel Proust",
+      "Gustave Flaubert",
+      "Albert Camus",
+      "Jean-Paul Sartre"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Marcel Proust.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Marcel Proust** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_67",
+    "category": "arts_lit",
+    "question": "Which French-Algerian existentialist author wrote The Stranger (L'\u00c9tranger) and The Plague?",
+    "options": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "Saint-Exup\u00e9ry",
+      "Andr\u00e9 Gide"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Albert Camus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Albert Camus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_68",
+    "category": "arts_lit",
+    "question": "Which Spanish author wrote the two-part masterpiece Don Quixote (1605/1615)?",
+    "options": [
+      "Miguel de Cervantes",
+      "Lorca",
+      "Garc\u00eda M\u00e1rquez",
+      "Borges"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Miguel de Cervantes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Miguel de Cervantes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_69",
+    "category": "arts_lit",
+    "question": "Which Colombian Nobel literature laureate wrote One Hundred Years of Solitude?",
+    "options": [
+      "Gabriel Garc\u00eda M\u00e1rquez",
+      "Vargas Llosa",
+      "Borges",
+      "Neruda"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Gabriel Garc\u00eda M\u00e1rquez.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gabriel Garc\u00eda M\u00e1rquez** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_70",
+    "category": "arts_lit",
+    "question": "Which Chilean Nobel laureate poet wrote Twenty Love Poems and a Song of Despair?",
+    "options": [
+      "Pablo Neruda",
+      "Gabriela Mistral",
+      "Octavio Paz",
+      "Borges"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Pablo Neruda.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Pablo Neruda** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_71",
+    "category": "arts_lit",
+    "question": "Which English epic poet wrote Paradise Lost in 1667?",
+    "options": [
+      "John Milton",
+      "Geoffrey Chaucer",
+      "William Blake",
+      "Alexander Pope"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is John Milton.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **John Milton** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_72",
+    "category": "arts_lit",
+    "question": "Which 14th-century poet authored The Canterbury Tales in Middle English?",
+    "options": [
+      "Geoffrey Chaucer",
+      "John Gower",
+      "William Langland",
+      "Thomas Malory"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Geoffrey Chaucer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Geoffrey Chaucer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_73",
+    "category": "arts_lit",
+    "question": "Which Italian medieval poet wrote the epic three-part Divine Comedy?",
+    "options": [
+      "Dante Alighieri",
+      "Petrarch",
+      "Boccaccio",
+      "Tasso"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Dante Alighieri.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Dante Alighieri** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_74",
+    "category": "arts_lit",
+    "question": "Which Roman poet acts as Dante's guide through Hell in the Inferno?",
+    "options": [
+      "Virgil",
+      "Ovid",
+      "Horace",
+      "Homer"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Virgil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Virgil** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_75",
+    "category": "arts_lit",
+    "question": "Which Roman poet authored the epic national foundation poem The Aeneid?",
+    "options": [
+      "Virgil",
+      "Ovid",
+      "Horace",
+      "Lucretius"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Virgil.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Virgil** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_76",
+    "category": "arts_lit",
+    "question": "Which Roman poet authored Metamorphoses, detailing mythological transformations?",
+    "options": [
+      "Ovid",
+      "Virgil",
+      "Horace",
+      "Catullus"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Ovid.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Ovid** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_77",
+    "category": "arts_lit",
+    "question": "Which ancient Greek epic poet is credited with composing the Iliad and Odyssey?",
+    "options": [
+      "Homer",
+      "Hesiod",
+      "Pindar",
+      "Sappho"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Homer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Homer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_78",
+    "category": "arts_lit",
+    "question": "Which ancient Greek lyric poetess lived on the island of Lesbos?",
+    "options": [
+      "Sappho",
+      "Corinna",
+      "Anyte",
+      "Telesilla"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Sappho.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sappho** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_79",
+    "category": "arts_lit",
+    "question": "Which Renaissance sculptor carved the iconic marble statue of David in Florence?",
+    "options": [
+      "Michelangelo",
+      "Donatello",
+      "Bernini",
+      "Cellini"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Michelangelo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Michelangelo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_80",
+    "category": "arts_lit",
+    "question": "Which French sculptor created the famous bronze statue The Thinker?",
+    "options": [
+      "Auguste Rodin",
+      "Camille Claudel",
+      "Bourdelle",
+      "Maillol"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Auguste Rodin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Auguste Rodin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_81",
+    "category": "arts_lit",
+    "question": "Which famous ancient Greek marble sculpture of Aphrodite is housed in the Louvre Museum?",
+    "options": [
+      "Venus de Milo",
+      "Winged Victory",
+      "Discobolos",
+      "Artemision Bronze"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Venus de Milo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Venus de Milo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_82",
+    "category": "arts_lit",
+    "question": "Which ancient Hellenistic marble sculpture depicting Nike is displayed at the top of the Louvre staircase?",
+    "options": [
+      "Winged Victory of Samothrace",
+      "Venus de Milo",
+      "Laoco\u00f6n",
+      "Peplos Kore"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Winged Victory of Samothrace.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Winged Victory of Samothrace** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_83",
+    "category": "arts_lit",
+    "question": "Which Dutch Golden Age master painted The Night Watch in 1642?",
+    "options": [
+      "Rembrandt van Rijn",
+      "Johannes Vermeer",
+      "Frans Hals",
+      "Jan Steen"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Rembrandt van Rijn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Rembrandt van Rijn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_84",
+    "category": "arts_lit",
+    "question": "Which Dutch Golden Age master painted Girl with a Pearl Earring?",
+    "options": [
+      "Johannes Vermeer",
+      "Rembrandt",
+      "Frans Hals",
+      "Pieter de Hooch"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Johannes Vermeer.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Johannes Vermeer** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_85",
+    "category": "arts_lit",
+    "question": "Which Expressionist painter created the famous 1893 artwork The Scream?",
+    "options": [
+      "Edvard Munch",
+      "Gustav Klimt",
+      "Egon Schiele",
+      "James Ensor"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Edvard Munch.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Edvard Munch** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_86",
+    "category": "arts_lit",
+    "question": "Which Austrian Symbolist master painted the golden canvas The Kiss (1907-08)?",
+    "options": [
+      "Gustav Klimt",
+      "Egon Schiele",
+      "Oskar Kokoschka",
+      "Max Kurzweil"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Gustav Klimt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Gustav Klimt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_87",
+    "category": "arts_lit",
+    "question": "Which Impressionist master painted the Water Lilies series at his Giverny garden?",
+    "options": [
+      "Claude Monet",
+      "Pierre-Auguste Renoir",
+      "Edgar Degas",
+      "Camille Pissarro"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Claude Monet.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Claude Monet** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_88",
+    "category": "arts_lit",
+    "question": "Which Impressionist artist is famous for depicting ballet dancers on stage and rehearsal?",
+    "options": [
+      "Edgar Degas",
+      "Pierre-Auguste Renoir",
+      "\u00c9douard Manet",
+      "Paul C\u00e9zanne"
+    ],
+    "answer": 0,
+    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and backstage rehearsals.",
+    "tip": "\ud83d\udca1 **Degas & Dancers:** Degas = Dancers! Over half of all Degas' artworks feature ballet dancers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_89",
+    "category": "arts_lit",
+    "question": "Which Post-Impressionist master lived and painted in Tahiti during his later life?",
+    "options": [
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Paul C\u00e9zanne",
+      "Georges Seurat"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Paul Gauguin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Paul Gauguin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_90",
+    "category": "arts_lit",
+    "question": "Which French painter developed the technique of Pointillism, seen in A Sunday on La Grande Jatte?",
+    "options": [
+      "Georges Seurat",
+      "Paul Signac",
+      "Paul C\u00e9zanne",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Georges Seurat.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Georges Seurat** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_91",
+    "category": "arts_lit",
+    "question": "Which French Post-Impressionist painter is widely considered the 'Father of Modern Art'?",
+    "options": [
+      "Paul C\u00e9zanne",
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Henri Matisse"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Paul C\u00e9zanne.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Paul C\u00e9zanne** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_92",
+    "category": "arts_lit",
+    "question": "Which French master led the Fauvism movement and created expressive paper cut-outs in later life?",
+    "options": [
+      "Henri Matisse",
+      "Andr\u00e9 Derain",
+      "Maurice de Vlaminck",
+      "Raoul Dufy"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Henri Matisse.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Henri Matisse** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_93",
+    "category": "arts_lit",
+    "question": "Which Mexican painter is internationally celebrated for her uncompromising self-portraits?",
+    "options": [
+      "Frida Kahlo",
+      "Diego Rivera",
+      "Mar\u00eda Izquierdo",
+      "Leonora Carrington"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Frida Kahlo.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Frida Kahlo** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_94",
+    "category": "arts_lit",
+    "question": "Which Pop Art icon created Campbell's Soup Cans and Marilyn Diptych?",
+    "options": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Jasper Johns",
+      "Claes Oldenburg"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Andy Warhol.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Andy Warhol** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_95",
+    "category": "arts_lit",
+    "question": "Which Pop Art pioneer used comic strip Ben-Day dots in paintings like Whaam!?",
+    "options": [
+      "Roy Lichtenstein",
+      "Andy Warhol",
+      "Keith Haring",
+      "Jean-Michel Basquiat"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Roy Lichtenstein.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Roy Lichtenstein** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_96",
+    "category": "arts_lit",
+    "question": "Which Abstract Expressionist painter pioneered the drip painting technique?",
+    "options": [
+      "Jackson Pollock",
+      "Willem de Kooning",
+      "Mark Rothko",
+      "Franz Kline"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Jackson Pollock.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Jackson Pollock** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_97",
+    "category": "arts_lit",
+    "question": "Which Abstract Expressionist painter created large color-field canvases of stacked rectangular hues?",
+    "options": [
+      "Mark Rothko",
+      "Jackson Pollock",
+      "Ad Reinhardt",
+      "Franz Kline"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Mark Rothko.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Mark Rothko** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_98",
+    "category": "arts_lit",
+    "question": "Which British modernist sculptor created large abstract reclining bronze figures?",
+    "options": [
+      "Henry Moore",
+      "Barbara Hepworth",
+      "Anthony Caro",
+      "Damien Hirst"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Henry Moore.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Henry Moore** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_99",
+    "category": "arts_lit",
+    "question": "Which Young British Artist created The Physical Impossibility of Death in the Mind of Someone Living (a shark in formaldehyde)?",
+    "options": [
+      "Damien Hirst",
+      "Tracey Emin",
+      "Banksy",
+      "Anish Kapoor"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Damien Hirst.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Damien Hirst** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_100",
+    "category": "arts_lit",
+    "question": "Which anonymous street artist created Girl with Balloon and shredded it live at auction?",
+    "options": [
+      "Banksy",
+      "Invader",
+      "Shepard Fairey",
+      "Blek le Rat"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Banksy.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Banksy** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_101",
+    "category": "arts_lit",
+    "question": "What is Ludwig van Beethoven's only opera?",
+    "options": [
+      "Fidelio",
+      "Der Freisch\u00fctz",
+      "Parsifal",
+      "Lohengrin"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Fidelio.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fidelio** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_102",
+    "category": "arts_lit",
+    "question": "Which Romantic composer wrote the Wedding March in A Midsummer Night's Dream?",
+    "options": [
+      "Felix Mendelssohn",
+      "Richard Wagner",
+      "Robert Schumann",
+      "Johannes Brahms"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Felix Mendelssohn.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Felix Mendelssohn** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_103",
+    "category": "arts_lit",
+    "question": "Which composer wrote the Bridal Chorus ('Here Comes the Bride') in the opera Lohengrin?",
+    "options": [
+      "Richard Wagner",
+      "Felix Mendelssohn",
+      "Brahms",
+      "Franz Liszt"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Richard Wagner.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Richard Wagner** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_104",
+    "category": "arts_lit",
+    "question": "Which Polish-French virtuoso pianist was known as the 'Poet of the Piano'?",
+    "options": [
+      "Fr\u00e9d\u00e9ric Chopin",
+      "Franz Liszt",
+      "Sergei Rachmaninoff",
+      "Schumann"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Fr\u00e9d\u00e9ric Chopin.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Fr\u00e9d\u00e9ric Chopin** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_105",
+    "category": "arts_lit",
+    "question": "Which Hungarian composer wrote the Hungarian Rhapsodies for solo piano?",
+    "options": [
+      "Franz Liszt",
+      "Fr\u00e9d\u00e9ric Chopin",
+      "B\u00e9la Bart\u00f3k",
+      "Zolt\u00e1n Kod\u00e1ly"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Franz Liszt.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Franz Liszt** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_106",
+    "category": "arts_lit",
+    "question": "Which Austrian composer was crowned 'The Waltz King' for composing The Blue Danube?",
+    "options": [
+      "Johann Strauss II",
+      "Johann Strauss I",
+      "Richard Strauss",
+      "Franz Leh\u00e1r"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Johann Strauss II.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Johann Strauss II** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_107",
+    "category": "arts_lit",
+    "question": "Which Czech composer composed the Ninth Symphony ('From the New World') while in America?",
+    "options": [
+      "Anton\u00edn Dvo\u0159\u00e1k",
+      "Bed\u0159ich Smetana",
+      "Leo\u0161 Jan\u00e1\u010dek",
+      "Bohuslav Martin\u016f"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Anton\u00edn Dvo\u0159\u00e1k.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Anton\u00edn Dvo\u0159\u00e1k** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_108",
+    "category": "arts_lit",
+    "question": "Which Russian composer wrote the avant-garde ballet score The Rite of Spring that caused a 1913 riot?",
+    "options": [
+      "Igor Stravinsky",
+      "Sergei Prokofiev",
+      "Dmitri Shostakovich",
+      "Modest Mussorgsky"
+    ],
+    "answer": 0,
+    "explanation": "French Impressionist Edgar Degas (1834\u20131917) created over 1,500 paintings, pastels, and sculptures depicting ballet dancers, capturing movement and backstage rehearsals.",
+    "tip": "\ud83d\udca1 **Degas & Dancers:** Degas = Dancers! Over half of all Degas' artworks feature ballet dancers.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_109",
+    "category": "arts_lit",
+    "question": "Which Russian composer wrote the children's musical story Peter and the Wolf?",
+    "options": [
+      "Sergei Prokofiev",
+      "Dmitri Shostakovich",
+      "Igor Stravinsky",
+      "Aram Khachaturian"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Sergei Prokofiev.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sergei Prokofiev** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_110",
+    "category": "arts_lit",
+    "question": "Which Irish playwright wrote Pygmalion, adapted into the musical My Fair Lady?",
+    "options": [
+      "George Bernard Shaw",
+      "Oscar Wilde",
+      "J.M. Synge",
+      "Sean O'Casey"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is George Bernard Shaw.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **George Bernard Shaw** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_111",
+    "category": "arts_lit",
+    "question": "Which American playwright wrote Death of a Salesman and The Crucible?",
+    "options": [
+      "Arthur Miller",
+      "Tennessee Williams",
+      "Eugene O'Neill",
+      "Edward Albee"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Arthur Miller.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Arthur Miller** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_112",
+    "category": "arts_lit",
+    "question": "Which American playwright wrote A Streetcar Named Desire and Cat on a Hot Tin Roof?",
+    "options": [
+      "Tennessee Williams",
+      "Arthur Miller",
+      "Eugene O'Neill",
+      "Thornton Wilder"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Tennessee Williams.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Tennessee Williams** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_113",
+    "category": "arts_lit",
+    "question": "Which Nobel literature laureate wrote Long Day's Journey into Night?",
+    "options": [
+      "Eugene O'Neill",
+      "Arthur Miller",
+      "Tennessee Williams",
+      "David Mamet"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Eugene O'Neill.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Eugene O'Neill** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_114",
+    "category": "arts_lit",
+    "question": "Which American playwright wrote Who's Afraid of Virginia Woolf?",
+    "options": [
+      "Edward Albee",
+      "Arthur Miller",
+      "Sam Shepard",
+      "August Wilson"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Edward Albee.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Edward Albee** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_115",
+    "category": "arts_lit",
+    "question": "Which African-American playwright wrote Fences and the ten-play Pittsburgh Cycle?",
+    "options": [
+      "August Wilson",
+      "Lorraine Hansberry",
+      "Amiri Baraka",
+      "Suzan-Lori Parks"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is August Wilson.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **August Wilson** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_116",
+    "category": "arts_lit",
+    "question": "Which French classical playwright wrote Tartuffe and The Misanthrope?",
+    "options": [
+      "Moli\u00e8re",
+      "Jean Racine",
+      "Pierre Corneille",
+      "Beaumarchais"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Moli\u00e8re.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Moli\u00e8re** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_117",
+    "category": "arts_lit",
+    "question": "Which French playwright wrote the 1897 verse play Cyrano de Bergerac?",
+    "options": [
+      "Edmond Rostand",
+      "Alexandre Dumas fils",
+      "Alfred de Musset",
+      "Victor Hugo"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Edmond Rostand.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Edmond Rostand** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_118",
+    "category": "arts_lit",
+    "question": "Which Norwegian playwright is considered the Father of Realism for plays like A Doll's House?",
+    "options": [
+      "Henrik Ibsen",
+      "August Strindberg",
+      "Bj\u00f8rnstjerne Bj\u00f8rnson",
+      "Knut Hamsun"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Henrik Ibsen.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Henrik Ibsen** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_119",
+    "category": "arts_lit",
+    "question": "Which Swedish playwright wrote the naturalistic tragedy Miss Julie?",
+    "options": [
+      "August Strindberg",
+      "Henrik Ibsen",
+      "P\u00e4r Lagerkvist",
+      "Ingmar Bergman"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is August Strindberg.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **August Strindberg** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_120",
+    "category": "arts_lit",
+    "question": "Which Russian dramatist wrote The Cherry Orchard, Uncle Vanya, and The Seagull?",
+    "options": [
+      "Anton Chekhov",
+      "Ivan Turgenev",
+      "Maxim Gorky",
+      "Nikolai Gogol"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Anton Chekhov.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Anton Chekhov** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_121",
+    "category": "arts_lit",
+    "question": "Which Russian author wrote the satirical play The Inspector General?",
+    "options": [
+      "Nikolai Gogol",
+      "Anton Chekhov",
+      "Alexander Pushkin",
+      "Alexander Griboyedov"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Nikolai Gogol.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Nikolai Gogol** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_122",
+    "category": "arts_lit",
+    "question": "Which ancient Greek dramatist wrote Oedipus Rex and Antigone?",
+    "options": [
+      "Sophocles",
+      "Aeschylus",
+      "Euripides",
+      "Aristophanes"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Sophocles.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Sophocles** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_123",
+    "category": "arts_lit",
+    "question": "Which ancient Greek dramatist is known as the Father of Tragedy for works like The Oresteia?",
+    "options": [
+      "Aeschylus",
+      "Sophocles",
+      "Euripides",
+      "Aristophanes"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Aeschylus.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aeschylus** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_124",
+    "category": "arts_lit",
+    "question": "Which ancient Greek tragedian wrote Medea, Electra, and The Bacchae?",
+    "options": [
+      "Euripides",
+      "Sophocles",
+      "Aeschylus",
+      "Aristophanes"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Euripides.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Euripides** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_125",
+    "category": "arts_lit",
+    "question": "Which ancient Greek comic playwright wrote Lysistrata and The Clouds?",
+    "options": [
+      "Aristophanes",
+      "Menander",
+      "Terence",
+      "Plautus"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Aristophanes.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Aristophanes** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_126",
+    "category": "arts_lit",
+    "question": "Who wrote the epic 17th-century Japanese haiku masterpiece Narrow Road to the Deep North?",
+    "options": [
+      "Matsuo Bash\u014d",
+      "Yosa Buson",
+      "Kobayashi Issa",
+      "Masaoka Shiki"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Matsuo Bash\u014d.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Matsuo Bash\u014d** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "arts_fact_127",
+    "category": "arts_lit",
+    "question": "Which 11th-century Japanese noblewoman wrote The Tale of Genji, considered the world's first novel?",
+    "options": [
+      "Murasaki Shikibu",
+      "Sei Sh\u014dnagon",
+      "Izumi Shikibu",
+      "Ono no Komachi"
+    ],
+    "answer": 0,
+    "explanation": "In arts lit, the correct answer to this question is Murasaki Shikibu.",
+    "tip": "\ud83d\udca1 **Trivia Key:** **Murasaki Shikibu** is the essential takeaway for this question.",
+    "difficulty": "Medium"
+  }
+]
