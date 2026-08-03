@@ -1,4 +1,4 @@
-import { localDateKey, addDaysToKey, daysBetween } from './dates';
+import { localDateKey, addDaysToKey, daysBetween } from './dates.js';
 
 // Spaced repetition for the weakness vault.
 //
@@ -26,6 +26,19 @@ export function newEntry(id, today = localDateKey()) {
 }
 
 /**
+ * A key is only usable if it is a real YYYY-MM-DD date.
+ *
+ * The round-trip check catches values that match the pattern but are not real
+ * days — "2026-02-31" parses without complaint and rolls over to 3 March.
+ */
+const isValidDateKey = (s) => {
+  if (typeof s !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return false;
+  const [y, m, d] = s.split('-').map(Number);
+  const probe = new Date(y, m - 1, d);
+  return probe.getFullYear() === y && probe.getMonth() === m - 1 && probe.getDate() === d;
+};
+
+/**
  * Accepts either the current entry format or the original `string[]` of ids and
  * returns entries. Migration happens on read rather than through a storage
  * version bump, because bumping the version would silently discard a vault the
@@ -35,6 +48,7 @@ export function normaliseVault(raw, today = localDateKey()) {
   if (!Array.isArray(raw)) return [];
   const seen = new Set();
   const out = [];
+  let dropped = 0;
   for (const item of raw) {
     if (typeof item === 'string') {
       if (seen.has(item)) continue;
@@ -50,12 +64,24 @@ export function normaliseVault(raw, today = localDateKey()) {
       out.push({
         id: item.id,
         box: Number.isInteger(item.box) ? Math.max(0, Math.min(item.box, GRADUATED_BOX)) : 0,
-        due: typeof item.due === 'string' ? item.due : today,
+        // Must be a real date, not merely a string. A value like "" or "soon"
+        // makes daysBetween return NaN, and `NaN >= 0` is false — so the entry
+        // would never become due again and would sit in the vault forever
+        // without ever being offered for revision.
+        due: isValidDateKey(item.due) ? item.due : today,
         lapses: Number.isInteger(item.lapses) ? item.lapses : 0,
         reps: Number.isInteger(item.reps) ? item.reps : 0,
-        added: typeof item.added === 'string' ? item.added : today
+        added: isValidDateKey(item.added) ? item.added : today
       });
+      continue;
     }
+    dropped++;
+  }
+  // The caller persists the normalised vault immediately, overwriting the raw
+  // stored value — so anything dropped here is gone from storage within the
+  // same page load. Silence would mean a user's vault shrinking with no trace.
+  if (dropped > 0) {
+    console.warn(`Vault: ignored ${dropped} unreadable entr${dropped === 1 ? 'y' : 'ies'}.`);
   }
   return out;
 }

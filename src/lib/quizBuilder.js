@@ -1,7 +1,7 @@
-import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank';
-import { CATEGORY_LIST } from '../data/categories';
-import { hashString, makeRng, shuffle } from './rng';
-import { localDateKey } from './dates';
+import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank.js';
+import { CATEGORY_LIST } from '../data/categories.js';
+import { hashString, makeRng, shuffle } from './rng.js';
+import { localDateKey } from './dates.js';
 
 // A "quiz" is a list of question ids plus a seed. Options are materialised from
 // (question id, seed) so a question's A/B/C/D order is stable for the length of

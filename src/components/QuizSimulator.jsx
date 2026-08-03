@@ -22,6 +22,7 @@ const catOf = (q) =>
 
 export default function QuizSimulator({
   questions,
+  seed,
   title = null,
   subtitle = null,
   onComplete,
@@ -53,8 +54,12 @@ export default function QuizSimulator({
   // Shares the paper, not the score: the recipient gets the same questions in
   // the same order with the same option positions, which is the only way two
   // scores are comparable.
+  //
+  // It must be THIS round's seed. Minting a fresh one here would re-shuffle the
+  // recipient's options, so "the trap answer was C" would not survive the trip —
+  // silently breaking the one thing the feature exists to do.
   const shareChallenge = async () => {
-    const url = challengeUrl(questions, Date.now());
+    const url = challengeUrl(questions, seed);
     setShareUrl(url);
     try {
       await navigator.clipboard.writeText(url);

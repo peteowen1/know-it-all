@@ -251,6 +251,7 @@ export default function App() {
             <QuizSimulator
               key={`quiz-${quiz.seed}`}
               questions={quiz.questions}
+              seed={quiz.seed}
               onComplete={handleComplete}
               onMissed={handleMissed}
               onCorrect={handleCorrect}
@@ -263,6 +264,7 @@ export default function App() {
           <QuizSimulator
             key={`daily-${dailyQuiz.seed}`}
             questions={dailyQuiz.questions}
+            seed={dailyQuiz.seed}
             title="Daily Five"
             subtitle="The same five questions for everyone today. Come back tomorrow for a new set."
             onComplete={handleComplete}
@@ -276,6 +278,7 @@ export default function App() {
           <QuizSimulator
             key={`rev-${revisionQuiz.seed}`}
             questions={revisionQuiz.questions}
+            seed={revisionQuiz.seed}
             title="Revision round"
             subtitle="Questions you have missed before, back on schedule. Getting one right pushes it further away; getting it wrong brings it straight back."
             onComplete={handleComplete}
@@ -289,6 +292,7 @@ export default function App() {
           <QuizSimulator
             key={`chal-${challengeQuiz.seed}`}
             questions={challengeQuiz.questions}
+            seed={challengeQuiz.seed}
             title="Challenge round"
             subtitle={
               challengeQuiz.missing

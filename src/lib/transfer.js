@@ -65,11 +65,43 @@ export function importProgress(code) {
   return {
     ok: true,
     data: {
-      stats: parsed.s,
-      vault: Array.isArray(parsed.k) ? parsed.k : [],
+      // Coerced, not trusted. `JSON.parse` happily yields the STRING "50" for a
+      // count, and the merge below adds these with `+`. String concatenation
+      // would turn 500 + "50" into "50050", and because handleComplete then does
+      // `prev.totalAnswered + total` on the result, every later quiz would
+      // re-concatenate — corruption that compounds silently and forever.
+      stats: coerceStats(parsed.s),
+      vault: Array.isArray(parsed.k) ? parsed.k.filter((e) => e && typeof e === 'object') : [],
       recentIds: Array.isArray(parsed.r) ? parsed.r.filter((x) => typeof x === 'string') : []
     }
   };
+}
+
+const asNumber = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : 0);
+
+function coerceStats(raw) {
+  return {
+    ...raw,
+    highScore: asNumber(raw.highScore),
+    bestPercentage: asNumber(raw.bestPercentage),
+    totalQuizzes: asNumber(raw.totalQuizzes),
+    totalAnswered: asNumber(raw.totalAnswered),
+    totalCorrect: asNumber(raw.totalCorrect),
+    streak: asNumber(raw.streak),
+    lastPlayDate: typeof raw.lastPlayDate === 'string' ? raw.lastPlayDate : null,
+    categoryStats: coerceCounts(raw.categoryStats),
+    difficultyStats: coerceCounts(raw.difficultyStats)
+  };
+}
+
+function coerceCounts(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {};
+  const out = {};
+  for (const [key, val] of Object.entries(raw)) {
+    if (!val || typeof val !== 'object') continue;
+    out[key] = { total: asNumber(val.total), correct: asNumber(val.correct) };
+  }
+  return out;
 }
 
 /**
@@ -101,6 +133,11 @@ export function mergeProgress(local, incoming) {
   // than the pessimistic evidence supports.
   const byId = new Map(local.vault.map((e) => [e.id, e]));
   for (const entry of incoming.vault) {
+    // Skip anything without a usable id rather than trusting the caller to have
+    // filtered. A `null` element here previously threw a TypeError inside an
+    // onClick handler, where React's ErrorBoundary does not catch it — so the
+    // button silently did nothing and the user got no message at all.
+    if (!entry || typeof entry !== 'object' || typeof entry.id !== 'string') continue;
     const mine = byId.get(entry.id);
     if (!mine) {
       byId.set(entry.id, entry);
@@ -122,11 +159,18 @@ export function mergeProgress(local, incoming) {
   };
 }
 
-function mergeCounts(a = {}, b = {}) {
-  const out = { ...a };
+function mergeCounts(a, b) {
+  // `= {}` defaults only fire for undefined, not null, and an explicit null here
+  // would make Object.entries throw. Normalise both sides instead of defaulting.
+  const out = a && typeof a === 'object' ? { ...a } : {};
+  if (!b || typeof b !== 'object') return out;
   for (const [key, val] of Object.entries(b)) {
+    if (!val || typeof val !== 'object') continue;
     const mine = out[key] || { total: 0, correct: 0 };
-    out[key] = { total: mine.total + (val.total || 0), correct: mine.correct + (val.correct || 0) };
+    out[key] = {
+      total: asNumber(mine.total) + asNumber(val.total),
+      correct: asNumber(mine.correct) + asNumber(val.correct)
+    };
   }
   return out;
 }

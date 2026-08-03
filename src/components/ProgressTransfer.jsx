@@ -36,7 +36,20 @@ export default function ProgressTransfer({ profile, onImport }) {
       setStatus({ ok: false, message: result.error });
       return;
     }
-    const merged = mergeProgress(profile, result.data);
+    let merged;
+    try {
+      merged = mergeProgress(profile, result.data);
+    } catch (err) {
+      // React error boundaries do not catch throws from event handlers, so
+      // without this the button would appear to do nothing at all: no error, no
+      // success, no clue whether the paste was even received.
+      console.error('Progress merge failed on malformed data:', err);
+      setStatus({
+        ok: false,
+        message: 'That code contains data this app could not read. Nothing was changed.'
+      });
+      return;
+    }
     onImport(merged);
     setStatus({
       ok: true,
