@@ -74,19 +74,19 @@ export default function App() {
   useEffect(() => save('missed', missedIds), [missedIds]);
   useEffect(() => save('setup', setup), [setup]);
 
-  // Streak: increments on consecutive calendar days, resets if a day is skipped.
+  // A streak is broken the moment you miss a day, so it has to be checked on
+  // load rather than only on completion — otherwise a stale streak from three
+  // weeks ago would still be showing in the header.
+  //
+  // lastPlayDate is advanced only by finishing a quiz, never by opening the
+  // app, so browsing without playing does not extend the streak.
   useEffect(() => {
     const today = todayKey();
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
     setStats((prev) => {
-      if (prev.lastPlayDate === today) return prev;
-      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-      const continuing = prev.lastPlayDate === yesterday;
-      return {
-        ...prev,
-        streak: continuing ? prev.streak : prev.streak > 0 ? 0 : prev.streak,
-        // lastPlayDate is only advanced on quiz completion, not on page load,
-        // so opening the app without playing doesn't count as a day.
-      };
+      const stillLive = prev.lastPlayDate === today || prev.lastPlayDate === yesterday;
+      if (stillLive || prev.streak === 0) return prev;
+      return { ...prev, streak: 0 };
     });
   }, []);
 
