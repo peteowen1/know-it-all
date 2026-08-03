@@ -1,108 +1,114 @@
 import React from 'react';
-import { CATEGORIES } from '../data/questionsData';
-import { Award, Flame, Target, TrendingUp, CheckCircle, Lightbulb, ShieldAlert } from 'lucide-react';
+import { Award, Flame, Target, TrendingUp, ShieldAlert, Compass } from 'lucide-react';
+import { CATEGORY_LIST, DIFFICULTIES } from '../data/categories';
 
-export default function AnalyticsDashboard({ stats }) {
+const pct = (correct, total) => (total ? Math.round((correct / total) * 100) : 0);
+
+export default function AnalyticsDashboard({ stats, bankStats, weaknessCount, seenCount, totalBank }) {
   const categoryStats = stats.categoryStats || {};
+  const difficultyStats = stats.difficultyStats || {};
 
-  // Compute category accuracy
-  const categoryBreakdown = Object.keys(CATEGORIES).map(catKey => {
-    const cat = CATEGORIES[catKey];
-    const catData = categoryStats[cat.id] || { total: 0, correct: 0 };
-    const accuracy = catData.total > 0 ? Math.round((catData.correct / catData.total) * 100) : 0;
-    return {
-      ...cat,
-      total: catData.total,
-      correct: catData.correct,
-      accuracy
-    };
+  const breakdown = CATEGORY_LIST.map((cat) => {
+    const d = categoryStats[cat.id] || { total: 0, correct: 0 };
+    return { ...cat, ...d, accuracy: pct(d.correct, d.total), bankCount: bankStats.byCategory[cat.id] || 0 };
   });
 
-  // Sort categories by lowest accuracy to give recommendation
-  const weakestCat = [...categoryBreakdown]
-    .filter(c => c.total > 0)
-    .sort((a, b) => a.accuracy - b.accuracy)[0];
+  // Only recommend a focus once there is enough data for the number to mean
+  // anything — a single wrong answer is not a weakness.
+  const rated = breakdown.filter((c) => c.total >= 5);
+  const weakest = [...rated].sort((a, b) => a.accuracy - b.accuracy)[0];
+  const strongest = [...rated].sort((a, b) => b.accuracy - a.accuracy)[0];
+  const unexplored = breakdown.filter((c) => c.total === 0);
 
   const badges = [
-    { title: 'First Quiz', desc: 'Completed 1 full quiz', unlocked: stats.totalQuizzes >= 1, icon: '📜' },
-    { title: 'Saturday Coffee', desc: '3 Day Quiz Streak', unlocked: stats.streak >= 3, icon: '☕' },
-    { title: 'High Scorer', desc: 'Scored 20+ out of 25', unlocked: stats.highScore >= 20, icon: '🥇' },
-    { title: 'Perfect 25', desc: 'Achieved 25/25 perfection', unlocked: stats.highScore === 25, icon: '🏆' },
-    { title: 'Trivia Centurion', desc: 'Answered 100+ questions', unlocked: stats.totalAnswered >= 100, icon: '💯' }
+    { title: 'First round', desc: 'Finish one quiz', unlocked: stats.totalQuizzes >= 1, icon: '📜' },
+    { title: 'Week of it', desc: 'Seven day streak', unlocked: stats.streak >= 7, icon: '☕' },
+    { title: 'Century', desc: 'Answer 100 questions', unlocked: stats.totalAnswered >= 100, icon: '💯' },
+    { title: 'Half the bank', desc: `See ${Math.floor(totalBank / 2)} different questions`, unlocked: seenCount >= totalBank / 2, icon: '📚' },
+    { title: 'Sharp', desc: '80% overall accuracy over 100+ questions', unlocked: stats.totalAnswered >= 100 && stats.overallAccuracy >= 80, icon: '🎯' },
+    { title: 'Vault cleared', desc: 'Empty the weakness vault after missing 20+', unlocked: stats.totalAnswered >= 100 && weaknessCount === 0, icon: '🧹' }
   ];
 
   return (
     <div className="analytics-container">
       <div className="analytics-header">
-        <h2>📊 Performance Analytics & Category Heatmap</h2>
-        <p>Track your strengths, identify blind spots, and monitor your quiz mastery over time.</p>
+        <h2>Progress</h2>
+        <p>Where you are strong, where you are not, and what to drill next.</p>
       </div>
 
-      {/* Overview Cards */}
       <div className="stats-cards-grid">
         <div className="stat-card">
           <div className="card-icon-bg icon-blue"><Target size={24} /></div>
           <div>
             <span className="stat-value">{stats.totalQuizzes || 0}</span>
-            <span className="stat-title">Quizzes Completed</span>
+            <span className="stat-title">Rounds completed</span>
           </div>
         </div>
-
         <div className="stat-card">
           <div className="card-icon-bg icon-amber"><Flame size={24} /></div>
           <div>
-            <span className="stat-value">{stats.streak || 0} Days</span>
-            <span className="stat-title">Current Streak</span>
+            <span className="stat-value">{stats.streak || 0}</span>
+            <span className="stat-title">Day streak</span>
           </div>
         </div>
-
-        <div className="stat-card">
-          <div className="card-icon-bg icon-green"><Award size={24} /></div>
-          <div>
-            <span className="stat-value">{stats.highScore || 0} / 25</span>
-            <span className="stat-title">Personal Best</span>
-          </div>
-        </div>
-
         <div className="stat-card">
           <div className="card-icon-bg icon-purple"><TrendingUp size={24} /></div>
           <div>
             <span className="stat-value">{stats.overallAccuracy || 0}%</span>
-            <span className="stat-title">Overall Accuracy</span>
+            <span className="stat-title">Overall accuracy</span>
+          </div>
+        </div>
+        <div className="stat-card">
+          <div className="card-icon-bg icon-green"><Award size={24} /></div>
+          <div>
+            <span className="stat-value">{seenCount} / {totalBank}</span>
+            <span className="stat-title">Bank seen</span>
           </div>
         </div>
       </div>
 
-      {/* Weakness Alert / Recommendation */}
-      {weakestCat && (
+      {weakest && strongest && weakest.id !== strongest.id && (
         <div className="recommendation-banner">
           <ShieldAlert size={22} className="rec-icon" />
           <div>
-            <h4>Recommended Study Focus: {weakestCat.icon} {weakestCat.name}</h4>
-            <p>Your accuracy in this category is <strong>{weakestCat.accuracy}%</strong> ({weakestCat.correct}/{weakestCat.total} correct). Practice flashcards in this category to bump your Saturday score!</p>
+            <h4>Drill next: {weakest.icon} {weakest.name}</h4>
+            <p>
+              You are on {weakest.accuracy}% there ({weakest.correct}/{weakest.total}) against{' '}
+              {strongest.accuracy}% in {strongest.name}. That gap is {strongest.accuracy - weakest.accuracy}{' '}
+              points — closing it is worth more than anything else you could practise.
+            </p>
           </div>
         </div>
       )}
 
-      {/* Category Accuracy Heatmap Bars */}
+      {unexplored.length > 0 && stats.totalQuizzes > 0 && (
+        <div className="recommendation-banner subtle">
+          <Compass size={22} className="rec-icon" />
+          <div>
+            <h4>Not touched yet</h4>
+            <p>
+              {unexplored.map((c) => c.name).join(', ')} — no data at all. Run a focused round before
+              trusting the numbers above.
+            </p>
+          </div>
+        </div>
+      )}
+
       <div className="category-heatmap-card">
-        <h3>Category Accuracy Breakdown</h3>
+        <h3>By category</h3>
         <div className="heatmap-bars-grid">
-          {categoryBreakdown.map(cat => (
+          {breakdown.map((cat) => (
             <div key={cat.id} className="heatmap-item">
               <div className="cat-header-label">
                 <span>{cat.icon} {cat.name}</span>
                 <span className="accuracy-label">
-                  {cat.total > 0 ? `${cat.accuracy}% (${cat.correct}/${cat.total})` : 'No data yet'}
+                  {cat.total > 0 ? `${cat.accuracy}% (${cat.correct}/${cat.total})` : 'no data'}
                 </span>
               </div>
               <div className="bar-track">
-                <div 
-                  className="bar-fill" 
-                  style={{ 
-                    width: `${cat.accuracy}%`,
-                    backgroundColor: cat.color 
-                  }} 
+                <div
+                  className="bar-fill"
+                  style={{ width: `${cat.accuracy}%`, backgroundColor: cat.color }}
                 />
               </div>
             </div>
@@ -110,17 +116,39 @@ export default function AnalyticsDashboard({ stats }) {
         </div>
       </div>
 
-      {/* Achievements / Trophy Case */}
+      <div className="category-heatmap-card">
+        <h3>By difficulty</h3>
+        <div className="heatmap-bars-grid">
+          {DIFFICULTIES.map((d) => {
+            const s = difficultyStats[d.id] || { total: 0, correct: 0 };
+            const accuracy = pct(s.correct, s.total);
+            return (
+              <div key={d.id} className="heatmap-item">
+                <div className="cat-header-label">
+                  <span>{d.label} <span className="setup-note">{d.hint}</span></span>
+                  <span className="accuracy-label">
+                    {s.total > 0 ? `${accuracy}% (${s.correct}/${s.total})` : 'no data'}
+                  </span>
+                </div>
+                <div className="bar-track">
+                  <div className="bar-fill" style={{ width: `${accuracy}%`, backgroundColor: d.color }} />
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
       <div className="achievements-section">
-        <h3>🏆 Achievements & Mastery Badges</h3>
+        <h3>Milestones</h3>
         <div className="badges-grid">
-          {badges.map((b, i) => (
-            <div key={i} className={`badge-card ${b.unlocked ? 'unlocked' : 'locked'}`}>
+          {badges.map((b) => (
+            <div key={b.title} className={`badge-card ${b.unlocked ? 'unlocked' : 'locked'}`}>
               <span className="badge-card-icon">{b.icon}</span>
               <div>
                 <h4>{b.title}</h4>
                 <p>{b.desc}</p>
-                <span className="status-pill">{b.unlocked ? 'Unlocked' : 'Locked'}</span>
+                <span className="status-pill">{b.unlocked ? 'Done' : 'Not yet'}</span>
               </div>
             </div>
           ))}

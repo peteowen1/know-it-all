@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "lang_001",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does the Latin phrase 'vox populi' translate to?",
+    "answer": "Voice of the people",
+    "distractors": [
+      "Popular vote",
+      "Public outcry",
+      "Song of the nation"
+    ],
+    "explanation": "It survives in journalism as the 'vox pop', the street interview, and in the fuller tag 'vox populi, vox Dei' — the voice of the people is the voice of God.",
+    "hook": "The TV street interview is literally named after this phrase."
+  },
+  {
+    "id": "lang_002",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of dolphins?",
+    "answer": "A pod",
+    "distractors": [
+      "A school",
+      "A splash",
+      "A shoal"
+    ],
+    "explanation": "Pods apply to dolphins, whales and seals; schools and shoals are fish, with a shoal loosely grouped and a school swimming in coordination.",
+    "hook": "Pods for mammals, schools for fish that move together, shoals for fish that just gather."
+  },
+  {
+    "id": "lang_003",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'de facto' mean?",
+    "answer": "In fact, whether or not by right",
+    "distractors": [
+      "By law",
+      "In good faith",
+      "After the event"
+    ],
+    "explanation": "Its opposite is 'de jure', meaning by law; a de facto leader holds power without formal title, and in Australia the term also describes an unmarried partnership.",
+    "hook": "De facto is how things are, de jure is how they are meant to be."
+  },
+  {
+    "id": "lang_004",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the fear of confined spaces called?",
+    "answer": "Claustrophobia",
+    "distractors": [
+      "Agoraphobia",
+      "Acrophobia",
+      "Arachnophobia"
+    ],
+    "explanation": "Agoraphobia is fear of open or public spaces, acrophobia of heights and arachnophobia of spiders; the root claustrum is Latin for a closed place.",
+    "hook": "Claustro closed, agora marketplace, acro high, arachne spider."
+  },
+  {
+    "id": "lang_005",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'et cetera' literally mean?",
+    "answer": "And the rest",
+    "distractors": [
+      "And so on forever",
+      "And similar things",
+      "And the others named"
+    ],
+    "explanation": "From Latin et, 'and', plus cetera, 'the remaining things'; the common misspelling 'ect' comes from mishearing it as 'excetera'.",
+    "hook": "It is et-cetera, not ex-cetera — which is why 'ect' is always wrong."
+  },
+  {
+    "id": "lang_006",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is a group of geese on the ground called?",
+    "answer": "A gaggle",
+    "distractors": [
+      "A skein",
+      "A flock",
+      "A covey"
+    ],
+    "explanation": "In flight the same birds are a skein or a wedge; a covey is partridges or quail, and the distinction between ground and air is genuinely traditional.",
+    "hook": "Gaggle on the ground, skein in the sky — same geese, different word."
+  },
+  {
+    "id": "lang_007",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does the word 'quarantine' originally derive from?",
+    "answer": "The Italian for forty days",
+    "distractors": [
+      "The Latin for isolation",
+      "The Greek for illness",
+      "The French for waiting"
+    ],
+    "explanation": "Venetian authorities held plague ships offshore for quaranta giorni, forty days, before allowing crews ashore in the fourteenth century.",
+    "hook": "Forty days off the Venetian coast is where the word begins."
+  },
+  {
+    "id": "lang_008",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the term for a word spelled the same forwards and backwards?",
+    "answer": "A palindrome",
+    "distractors": [
+      "An anagram",
+      "A homonym",
+      "An acronym"
+    ],
+    "explanation": "An anagram rearranges letters, a homonym sounds the same with different meaning, and an acronym is formed from initials; 'racecar' and 'level' are palindromes.",
+    "hook": "Palindrome reverses, anagram rearranges, acronym abbreviates."
+  },
+  {
+    "id": "lang_009",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'RSVP' stand for?",
+    "answer": "Répondez s'il vous plaît",
+    "distractors": [
+      "Reply soon, very pressing",
+      "Reservation sent, verify promptly",
+      "Rendezvous s'il vous plaît"
+    ],
+    "explanation": "The French means 'reply, if you please', which is why 'please RSVP' is technically redundant.",
+    "hook": "'Please RSVP' says please twice."
+  },
+  {
+    "id": "lang_010",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the study of word origins called?",
+    "answer": "Etymology",
+    "distractors": [
+      "Entomology",
+      "Ethnology",
+      "Epistemology"
+    ],
+    "explanation": "Entomology is the study of insects, ethnology of cultures and epistemology of knowledge; the pairing of etymology and entomology is a classic quiz trap.",
+    "hook": "Etymology words, entomology insects — one letter apart, endlessly confused."
+  },
+  {
+    "id": "lang_011",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of fish swimming together?",
+    "answer": "A school",
+    "distractors": [
+      "A pod",
+      "A pride",
+      "A herd"
+    ],
+    "explanation": "The word has nothing to do with education; it comes from the Dutch and Old English for a crowd or troop, the same root as 'shoal'.",
+    "hook": "The fish 'school' and the education 'school' are unrelated words that collided."
+  },
+  {
+    "id": "lang_012",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'carpe diem' mean?",
+    "answer": "Seize the day",
+    "distractors": [
+      "Live forever",
+      "Fear nothing",
+      "Trust the moment"
+    ],
+    "explanation": "From Horace's Odes, the fuller line adds 'quam minimum credula postero' — put little trust in tomorrow, which shifts the meaning from ambition to mortality.",
+    "hook": "Horace's full line is about death, not about ambition."
+  },
+  {
+    "id": "lang_013",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is a word that imitates a sound, like 'buzz' or 'hiss', called?",
+    "answer": "Onomatopoeia",
+    "distractors": [
+      "Alliteration",
+      "Assonance",
+      "Sibilance"
+    ],
+    "explanation": "Alliteration repeats initial consonants, assonance repeats vowel sounds, and sibilance is the repetition of s sounds specifically.",
+    "hook": "Onomatopoeia sounds like the thing; alliteration just repeats the first letter."
+  },
+  {
+    "id": "lang_014",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "Which language has the most native speakers worldwide?",
+    "answer": "Mandarin Chinese",
+    "distractors": [
+      "English",
+      "Spanish",
+      "Hindi"
+    ],
+    "explanation": "It has roughly 920 million native speakers; English leads on total speakers once second-language users are counted, with well over a billion.",
+    "hook": "Mandarin wins on native speakers; English wins once you count learners."
+  },
+  {
+    "id": "lang_015",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does the prefix 'bi-' mean?",
+    "answer": "Two",
+    "distractors": [
+      "Half",
+      "Around",
+      "Against"
+    ],
+    "explanation": "Semi- means half, circum- means around and anti- means against; the confusion in 'biweekly' between twice a week and every two weeks is genuinely unresolved in English.",
+    "hook": "'Biweekly' means both twice a week and fortnightly, and dictionaries admit it."
+  },
+  {
+    "id": "lang_016",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the term for a name that reads the same as its subject's occupation, like a baker named Baker?",
+    "answer": "An aptronym",
+    "distractors": [
+      "An eponym",
+      "A pseudonym",
+      "A toponym"
+    ],
+    "explanation": "An eponym is a name that gives its name to something, a pseudonym is an assumed name, and a toponym is a place name.",
+    "hook": "Aptronym apt, eponym gives its name, toponym places, pseudonym hides."
+  },
+  {
+    "id": "lang_017",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'per se' mean?",
+    "answer": "By itself",
+    "distractors": [
+      "Per person",
+      "As stated",
+      "Above all"
+    ],
+    "explanation": "Latin for 'through itself', it marks a thing considered in isolation rather than in combination; it is frequently misspelled 'per say'.",
+    "hook": "Per se is Latin, so 'per say' is always a mistake."
+  },
+  {
+    "id": "lang_018",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of wolves?",
+    "answer": "A pack",
+    "distractors": [
+      "A pride",
+      "A troop",
+      "A clowder"
+    ],
+    "explanation": "A clowder is cats, a troop is baboons and a pride is lions; wolf 'packs' in the wild are usually just family groups, and the alpha-wolf idea comes from a discredited captive study.",
+    "hook": "Wild wolf packs are families — the 'alpha wolf' came from a flawed zoo study."
+  },
+  {
+    "id": "lang_019",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does the word 'salary' derive from?",
+    "answer": "The Latin for salt",
+    "distractors": [
+      "The Latin for service",
+      "The Greek for silver",
+      "The Old French for a year"
+    ],
+    "explanation": "Roman soldiers received an allowance connected with salt, the salarium, though whether they were literally paid in salt is disputed; the phrase 'worth his salt' shares the root.",
+    "hook": "'Worth his salt' and 'salary' come from the same Roman allowance."
+  },
+  {
+    "id": "lang_020",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is a group of crows properly called?",
+    "answer": "A murder",
+    "distractors": [
+      "A flight",
+      "A chatter",
+      "A congregation"
+    ],
+    "explanation": "It comes from the fifteenth-century Book of St Albans, a list of hunting terms that also gave us an exaltation of larks and an unkindness of ravens.",
+    "hook": "One fifteenth-century hunting book invented most of these terms."
+  },
+  {
+    "id": "lang_021",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'ad hoc' mean?",
+    "answer": "For this specific purpose",
+    "distractors": [
+      "Without limit",
+      "At random",
+      "In advance"
+    ],
+    "explanation": "Literally 'to this' in Latin; an ad hoc committee is formed for one task and dissolved, as opposed to a standing committee.",
+    "hook": "An ad hoc committee is built for one job and then thrown away."
+  },
+  {
+    "id": "lang_022",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "Which two languages contribute most of the vocabulary of modern English?",
+    "answer": "Latin and French",
+    "distractors": [
+      "German and Dutch",
+      "Greek and Norse",
+      "Celtic and Gaelic"
+    ],
+    "explanation": "English is Germanic in grammar and core vocabulary, but the Norman conquest and later scholarly borrowing mean most dictionary entries have Latin or French roots.",
+    "hook": "Germanic bones, Latin flesh — which is why 'pig' is Saxon and 'pork' is Norman."
+  },
+  {
+    "id": "lang_023",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the term for a phrase whose meaning cannot be deduced from its individual words?",
+    "answer": "An idiom",
+    "distractors": [
+      "A cliché",
+      "A metaphor",
+      "A euphemism"
+    ],
+    "explanation": "'Kick the bucket' is an idiom; a cliché is merely overused, a metaphor makes an implicit comparison and a euphemism softens something unpleasant.",
+    "hook": "Idioms are the reason translation software still stumbles."
+  },
+  {
+    "id": "lang_024",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of kangaroos?",
+    "answer": "A mob",
+    "distractors": [
+      "A troop",
+      "A herd",
+      "A colony"
+    ],
+    "explanation": "'Mob' is standard Australian usage for kangaroos and also for cattle and sheep in rural speech; a colony is used for ants, bats and rabbits.",
+    "hook": "Mob covers kangaroos, cattle and sheep in Australian usage."
+  },
+  {
+    "id": "lang_025",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does the abbreviation 'i.e.' stand for?",
+    "answer": "Id est, that is",
+    "distractors": [
+      "In example",
+      "In effect",
+      "Ita est"
+    ],
+    "explanation": "It introduces a restatement, while 'e.g.' from exempli gratia introduces examples; mixing them is one of the most common errors in formal writing.",
+    "hook": "i.e. means 'in other words', e.g. means 'for example'."
+  },
+  {
+    "id": "lang_026",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the fear of spiders called?",
+    "answer": "Arachnophobia",
+    "distractors": [
+      "Ophidiophobia",
+      "Entomophobia",
+      "Myrmecophobia"
+    ],
+    "explanation": "Ophidiophobia is fear of snakes, entomophobia of insects generally and myrmecophobia of ants; the root is Arachne, the weaver of Greek myth turned into a spider.",
+    "hook": "Arachne was a weaver Athena turned into a spider — hence the whole class name."
+  },
+  {
+    "id": "lang_027",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is a word formed from the initials of a phrase, pronounced as a word?",
+    "answer": "An acronym",
+    "distractors": [
+      "An initialism",
+      "An abbreviation",
+      "A contraction"
+    ],
+    "explanation": "NASA and radar are acronyms; FBI and DVD are initialisms because you say the letters. Both are abbreviations, but only one is spoken as a word.",
+    "hook": "If you say it as a word it is an acronym; if you spell it out it is an initialism."
+  },
+  {
+    "id": "lang_028",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'status quo' mean?",
+    "answer": "The existing state of affairs",
+    "distractors": [
+      "A formal agreement",
+      "A temporary arrangement",
+      "An official quotation"
+    ],
+    "explanation": "Shortened from 'in statu quo ante', in the state in which things were before; diplomats use 'status quo ante bellum' for the pre-war position.",
+    "hook": "The full Latin adds 'as things were before' — the short form drops the time reference."
+  },
+  {
+    "id": "lang_029",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "Which word describes a statement that contradicts itself but may be true?",
+    "answer": "A paradox",
+    "distractors": [
+      "An oxymoron",
+      "A tautology",
+      "A syllogism"
+    ],
+    "explanation": "An oxymoron pairs contradictory words like 'deafening silence'; a tautology repeats itself needlessly and a syllogism is a form of logical argument.",
+    "hook": "Oxymoron is two words fighting; paradox is a whole idea fighting itself."
+  },
+  {
+    "id": "lang_030",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of ants?",
+    "answer": "A colony",
+    "distractors": [
+      "A swarm",
+      "A nest",
+      "A brood"
+    ],
+    "explanation": "A swarm applies to bees and locusts in motion, a nest is the structure rather than the group, and a brood is the young of a single parent.",
+    "hook": "Colony for ants, swarm for bees on the move, nest for the building."
+  },
+  {
+    "id": "lang_031",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does 'bona fide' mean?",
+    "answer": "In good faith",
+    "distractors": [
+      "Legally binding",
+      "Well established",
+      "Fully paid"
+    ],
+    "explanation": "The opposite is mala fide, in bad faith; a 'bona fide' offer is genuine rather than a pretence, and the phrase is Latin ablative, not plural.",
+    "hook": "The 'bona fides' you present are proofs of good faith, not a plural of bona fide."
+  },
+  {
+    "id": "lang_032",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "Which alphabet is used to write Russian?",
+    "answer": "Cyrillic",
+    "distractors": [
+      "Greek",
+      "Latin",
+      "Glagolitic"
+    ],
+    "explanation": "Named for Saint Cyril, it derives from Greek and is used for Russian, Bulgarian, Serbian and several Central Asian languages.",
+    "hook": "Cyrillic came out of Greek, which is why some letters look familiar but sound different."
+  },
+  {
+    "id": "lang_033",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the term for a mild word substituted for a blunt one?",
+    "answer": "A euphemism",
+    "distractors": [
+      "A dysphemism",
+      "A malapropism",
+      "A spoonerism"
+    ],
+    "explanation": "A dysphemism does the opposite and makes something harsher; a malapropism substitutes a similar-sounding wrong word, and a spoonerism swaps initial sounds.",
+    "hook": "'Passed away' is a euphemism; 'croaked' is a dysphemism."
+  },
+  {
+    "id": "lang_034",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What does the Latin phrase 'et al.' abbreviate?",
+    "answer": "Et alii, and others",
+    "distractors": [
+      "Et alia loco, and elsewhere",
+      "Et altera, and the alternative",
+      "Et alibi, and there"
+    ],
+    "explanation": "Used in citations for additional authors; note the full stop belongs after 'al' because that word alone is abbreviated.",
+    "hook": "Only 'al' is shortened, which is why the full stop goes there and not after 'et'."
+  },
+  {
+    "id": "lang_035",
+    "category": "language",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of bees?",
+    "answer": "A swarm",
+    "distractors": [
+      "A colony",
+      "A cluster",
+      "A flight"
+    ],
+    "explanation": "A swarm is bees in motion, particularly when leaving to found a new nest; the resident group in a hive is properly a colony.",
+    "hook": "In the hive it is a colony; on the move it is a swarm."
+  },
+  {
+    "id": "lang_036",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Where does the word 'assassin' originate?",
+    "answer": "An Arabic word connected with hashish",
+    "distractors": [
+      "A Persian word for shadow",
+      "A Turkish word for knife",
+      "A Hebrew word for zealot"
+    ],
+    "explanation": "It derives from hashishin, a name applied by others to the Nizari Ismaili sect in medieval Syria and Persia, whose reputation for targeted killings reached Europe via the Crusades.",
+    "hook": "The Crusaders brought the word home along with a lurid story about drugged killers."
+  },
+  {
+    "id": "lang_037",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the term 'spoonerism' describe?",
+    "answer": "A swapping of initial sounds between words",
+    "distractors": [
+      "A misused similar-sounding word",
+      "A deliberate mispronunciation",
+      "A word made from initials"
+    ],
+    "explanation": "Named for Reverend William Spooner of Oxford, credited with lines like 'a blushing crow' for 'a crushing blow'; most attributed examples were probably invented by students.",
+    "hook": "Spooner was real; most of his famous slips were made up by undergraduates."
+  },
+  {
+    "id": "lang_038",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the word 'nice' originally mean in Middle English?",
+    "answer": "Foolish or ignorant",
+    "distractors": [
+      "Precise",
+      "Pleasant",
+      "Delicate"
+    ],
+    "explanation": "From Latin nescius, not knowing, it drifted through 'fussy' and 'precise' to its modern blandness — one of the most travelled semantic shifts in English.",
+    "hook": "It once meant stupid, then fussy, then precise, then pleasant."
+  },
+  {
+    "id": "lang_039",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which language family does Finnish belong to?",
+    "answer": "Uralic",
+    "distractors": [
+      "Indo-European",
+      "Turkic",
+      "Altaic"
+    ],
+    "explanation": "Finnish, Estonian and Hungarian are Uralic, unrelated to the Indo-European languages surrounding them, which is why Finnish looks so unlike Swedish.",
+    "hook": "Finnish, Estonian and Hungarian are cousins; none of them is related to Swedish."
+  },
+  {
+    "id": "lang_040",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the term 'malapropism' describe?",
+    "answer": "The mistaken use of a similar-sounding word",
+    "distractors": [
+      "A swapped pair of initial sounds",
+      "An unintended double meaning",
+      "A word invented by an author"
+    ],
+    "explanation": "Named after Mrs Malaprop in Sheridan's play The Rivals, whose 'pineapple of politeness' should have been 'pinnacle'.",
+    "hook": "Mrs Malaprop's 'pineapple of politeness' is the founding example."
+  },
+  {
+    "id": "lang_041",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the Australian word 'furphy' mean?",
+    "answer": "A rumour or false story",
+    "distractors": [
+      "A shortcut",
+      "A stubborn person",
+      "A sudden storm"
+    ],
+    "explanation": "It comes from the Furphy water carts around which soldiers gathered and gossiped during the First World War, the company name still visible on the tanks.",
+    "hook": "Soldiers swapped rumours at the water cart, and the manufacturer's name stuck."
+  },
+  {
+    "id": "lang_042",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the longest word in English composed entirely of alternating consonants and vowels?",
+    "answer": "Honorificabilitudinitatibus",
+    "distractors": [
+      "Antidisestablishmentarianism",
+      "Floccinaucinihilipilification",
+      "Pneumonoultramicroscopicsilicovolcanoconiosis"
+    ],
+    "explanation": "It appears in Shakespeare's Love's Labour's Lost and means 'the state of being able to achieve honours'; at 27 letters it is his longest word.",
+    "hook": "Shakespeare's longest word alternates consonant and vowel all the way through."
+  },
+  {
+    "id": "lang_043",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the phrase 'the whole nine yards' most likely originally refer to?",
+    "answer": "Its origin is genuinely unknown",
+    "distractors": [
+      "A machine gun ammunition belt",
+      "A bolt of cloth for a suit",
+      "A cement mixer's capacity"
+    ],
+    "explanation": "All three popular explanations post-date the phrase's earliest recorded uses in the 1900s; lexicographers regard the origin as unresolved.",
+    "hook": "Every confident explanation for this phrase is younger than the phrase itself."
+  },
+  {
+    "id": "lang_044",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which script did the Rosetta Stone allow scholars to decipher?",
+    "answer": "Egyptian hieroglyphs",
+    "distractors": [
+      "Linear B",
+      "Cuneiform",
+      "Mayan glyphs"
+    ],
+    "explanation": "The stone carried the same decree in hieroglyphs, demotic and Greek; Jean-François Champollion completed the decipherment in 1822.",
+    "hook": "Three scripts, one text — the Greek was the key that unlocked the other two."
+  },
+  {
+    "id": "lang_045",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the term for a word that is its own opposite, like 'cleave'?",
+    "answer": "A contronym",
+    "distractors": [
+      "A homograph",
+      "A heteronym",
+      "A synonym"
+    ],
+    "explanation": "Also called Janus words after the two-faced Roman god; 'sanction', 'dust' and 'oversight' are other examples.",
+    "hook": "Janus words face both ways — sanction can permit or punish."
+  },
+  {
+    "id": "lang_046",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which Australian English term describes a rural or remote area?",
+    "answer": "The outback",
+    "distractors": [
+      "The scrub",
+      "The paddock",
+      "The station"
+    ],
+    "explanation": "'The bush' covers any non-urban country while 'the outback' implies the arid interior; a station is a large pastoral property and a paddock a fenced field.",
+    "hook": "Bush is anywhere rural; outback is specifically the dry interior."
+  },
+  {
+    "id": "lang_047",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the Greek prefix 'hyper-' mean?",
+    "answer": "Over or above",
+    "distractors": [
+      "Under",
+      "Around",
+      "Through"
+    ],
+    "explanation": "Its counterpart 'hypo-' means under, which is why hyperthermia is dangerous overheating and hypothermia dangerous cooling.",
+    "hook": "Hyper over, hypo under — hyperthermia burns, hypothermia freezes."
+  },
+  {
+    "id": "lang_048",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the collective noun for a group of ravens?",
+    "answer": "An unkindness",
+    "distractors": [
+      "A murder",
+      "A conspiracy",
+      "A storytelling"
+    ],
+    "explanation": "Crows get a murder and ravens an unkindness, both from the fifteenth-century Book of St Albans; 'conspiracy' is lemurs.",
+    "hook": "Crows murder, ravens are unkind, lemurs conspire."
+  },
+  {
+    "id": "lang_049",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which word means the use of a part to represent the whole, like 'wheels' for a car?",
+    "answer": "Synecdoche",
+    "distractors": [
+      "Metonymy",
+      "Hyperbole",
+      "Litotes"
+    ],
+    "explanation": "Metonymy substitutes something associated rather than a part, as in 'the Crown' for the monarchy; litotes is understatement by negation, as in 'not bad'.",
+    "hook": "Synecdoche is a part of the thing; metonymy is something next to the thing."
+  },
+  {
+    "id": "lang_050",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the word 'robot' derive from?",
+    "answer": "A Czech word for forced labour",
+    "distractors": [
+      "A Russian word for machine",
+      "A Greek word for servant",
+      "A German word for worker"
+    ],
+    "explanation": "Karel Čapek introduced it in his 1920 play R.U.R., crediting his brother Josef with the coinage; robota meant serf labour.",
+    "hook": "The word was invented in a Czech play four years before the first real robot arm."
+  },
+  {
+    "id": "lang_051",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which two-letter word has the most distinct meanings in the Oxford English Dictionary?",
+    "answer": "Set",
+    "distractors": [
+      "Run",
+      "Go",
+      "Take"
+    ],
+    "explanation": "'Set' held the record historically with over 400 senses, though the OED's 2011 revision gave 'run' the largest entry with around 645.",
+    "hook": "'Set' held the record for a century until 'run' overtook it in 2011."
+  },
+  {
+    "id": "lang_052",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is a portmanteau word?",
+    "answer": "A word blending the sounds and meanings of two others",
+    "distractors": [
+      "A word borrowed unchanged from another language",
+      "A word formed from initials",
+      "A word with no known origin"
+    ],
+    "explanation": "Lewis Carroll coined the term in Through the Looking-Glass, using 'slithy' from lithe and slimy; brunch and smog are ordinary examples.",
+    "hook": "Carroll named the technique after a suitcase that opens into two halves."
+  },
+  {
+    "id": "lang_053",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which language is written in the Devanagari script?",
+    "answer": "Hindi",
+    "distractors": [
+      "Urdu",
+      "Tamil",
+      "Bengali"
+    ],
+    "explanation": "Sanskrit, Marathi and Nepali also use it; Urdu is essentially the same spoken language as Hindi but written in a Perso-Arabic script.",
+    "hook": "Hindi and Urdu are close to the same language wearing different alphabets."
+  },
+  {
+    "id": "lang_054",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does 'tautology' mean in language?",
+    "answer": "Saying the same thing twice in different words",
+    "distractors": [
+      "Contradicting oneself",
+      "Overstating for effect",
+      "Using unnecessarily long words"
+    ],
+    "explanation": "'Free gift' and 'PIN number' are tautologies; in logic the term instead means a statement true under every interpretation.",
+    "hook": "'PIN number' expands to 'personal identification number number'."
+  },
+  {
+    "id": "lang_055",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which language has no verb 'to have' in the standard sense, expressing possession with 'to be at'?",
+    "answer": "Irish",
+    "distractors": [
+      "Welsh",
+      "Icelandic",
+      "Basque"
+    ],
+    "explanation": "Irish says the equivalent of 'a book is at me' rather than 'I have a book'; the construction survives in Hiberno-English phrasing.",
+    "hook": "In Irish you do not have a book — the book is at you."
+  },
+  {
+    "id": "lang_056",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the Australian phrase 'fair dinkum' mean?",
+    "answer": "Genuine or true",
+    "distractors": [
+      "Reasonably priced",
+      "Equally shared",
+      "Barely acceptable"
+    ],
+    "explanation": "'Dinkum' appears in English dialect meaning work or a fair share, and reached Australia with nineteenth-century migrants before acquiring its truth sense.",
+    "hook": "'Dinkum' started out meaning a fair share of work, not honesty."
+  },
+  {
+    "id": "lang_057",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the term for the smallest unit of sound that distinguishes meaning?",
+    "answer": "A phoneme",
+    "distractors": [
+      "A morpheme",
+      "A grapheme",
+      "A syllable"
+    ],
+    "explanation": "A morpheme is the smallest meaningful unit and a grapheme the smallest written unit; 'pat' and 'bat' differ by one phoneme.",
+    "hook": "Phoneme sound, morpheme meaning, grapheme writing."
+  },
+  {
+    "id": "lang_058",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which word entered English from the Australian Dharug language, meaning a curved throwing stick?",
+    "answer": "Boomerang",
+    "distractors": [
+      "Didgeridoo",
+      "Corroboree",
+      "Woomera"
+    ],
+    "explanation": "Dharug was spoken around Sydney; 'didgeridoo' is not an Aboriginal word at all but an English imitation of the instrument's sound.",
+    "hook": "'Didgeridoo' is not an Aboriginal word — it is English onomatopoeia."
+  },
+  {
+    "id": "lang_059",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the Latin 'caveat emptor' mean?",
+    "answer": "Let the buyer beware",
+    "distractors": [
+      "Let the seller declare",
+      "Buyer's choice is final",
+      "The price is the price"
+    ],
+    "explanation": "A principle of common law placing responsibility on purchasers to inspect goods; consumer protection statutes have substantially displaced it.",
+    "hook": "Consumer law spent a century dismantling this one phrase."
+  },
+  {
+    "id": "lang_060",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the term for words that sound alike but differ in meaning and spelling?",
+    "answer": "Homophones",
+    "distractors": [
+      "Homographs",
+      "Heteronyms",
+      "Homonyms"
+    ],
+    "explanation": "Homographs share spelling but not necessarily sound, heteronyms share spelling with different pronunciation, and homonyms share both spelling and sound.",
+    "hook": "Phone means sound, graph means writing — the rest follows."
+  },
+  {
+    "id": "lang_061",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which country's official language is Tagalog-based Filipino?",
+    "answer": "The Philippines",
+    "distractors": [
+      "Indonesia",
+      "Malaysia",
+      "Timor-Leste"
+    ],
+    "explanation": "Filipino and English are both official; the language contains thousands of Spanish loanwords from three centuries of colonial rule.",
+    "hook": "Three hundred years of Spanish rule left the vocabulary but not the language."
+  },
+  {
+    "id": "lang_062",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the origin of the word 'sandwich'?",
+    "answer": "An English earldom",
+    "distractors": [
+      "A Dutch baking term",
+      "An Arabic flatbread",
+      "A French verb meaning to press"
+    ],
+    "explanation": "The fourth Earl of Sandwich is said to have asked for meat between bread so he could keep working, or gambling, without cutlery.",
+    "hook": "An earl who would not stop playing cards gave the world lunch."
+  },
+  {
+    "id": "lang_063",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which punctuation mark is called an interrobang?",
+    "answer": "A combined question mark and exclamation mark",
+    "distractors": [
+      "A double hyphen",
+      "An inverted comma pair",
+      "A sideways ellipsis"
+    ],
+    "explanation": "Invented in 1962 by advertising executive Martin Speckter, it never achieved widespread use but is included in Unicode.",
+    "hook": "An ad man invented it in 1962 and almost nobody adopted it."
+  },
+  {
+    "id": "lang_064",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the word 'muscle' literally derive from?",
+    "answer": "The Latin for little mouse",
+    "distractors": [
+      "The Greek for strength",
+      "The Latin for cord",
+      "The Old French for swelling"
+    ],
+    "explanation": "Musculus, a small mouse, describes how a flexing bicep looks like a mouse moving under the skin; 'mussel' the shellfish shares the root.",
+    "hook": "The Romans thought a flexing bicep looked like a mouse under the skin."
+  },
+  {
+    "id": "lang_065",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which of these is a Germanic language?",
+    "answer": "Dutch",
+    "distractors": [
+      "Romanian",
+      "Albanian",
+      "Latvian"
+    ],
+    "explanation": "Romanian is Romance, Albanian is its own Indo-European branch and Latvian is Baltic; Dutch sits between English and German in the West Germanic group.",
+    "hook": "Dutch is the language sitting halfway between English and German."
+  },
+  {
+    "id": "lang_066",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the Latin phrase 'in situ' mean?",
+    "answer": "In its original place",
+    "distractors": [
+      "Under examination",
+      "In progress",
+      "At the time"
+    ],
+    "explanation": "Used in archaeology for objects found undisturbed and in medicine for cancers that have not spread beyond their original tissue.",
+    "hook": "In archaeology it means undisturbed; in medicine it means it has not spread."
+  },
+  {
+    "id": "lang_067",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the collective noun for a group of larks?",
+    "answer": "An exaltation",
+    "distractors": [
+      "A murmuration",
+      "A charm",
+      "A parliament"
+    ],
+    "explanation": "Murmuration is starlings, charm is goldfinches and parliament is owls; the lark term reflects the bird's soaring song flight.",
+    "hook": "Larks are exalted, starlings murmur, goldfinches charm."
+  },
+  {
+    "id": "lang_068",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which alphabet has the fewest letters of any in current use?",
+    "answer": "Rotokas",
+    "distractors": [
+      "Hawaiian",
+      "Greek",
+      "Hebrew"
+    ],
+    "explanation": "The Papua New Guinean language uses twelve letters; Hawaiian has thirteen and is often wrongly cited as the smallest.",
+    "hook": "Twelve letters for Rotokas, thirteen for Hawaiian — the usual answer is the runner-up."
+  },
+  {
+    "id": "lang_069",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the German word 'schadenfreude' mean?",
+    "answer": "Pleasure at another's misfortune",
+    "distractors": [
+      "Longing for a lost place",
+      "Anxiety about the future",
+      "Guilt about pleasure"
+    ],
+    "explanation": "German compounds Schaden, harm, with Freude, joy; English has no single-word equivalent, which is why the loan stuck.",
+    "hook": "Harm plus joy, welded together — English never bothered to build its own."
+  },
+  {
+    "id": "lang_070",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which language contributed the words 'algebra', 'alcohol' and 'algorithm' to English?",
+    "answer": "Arabic",
+    "distractors": [
+      "Persian",
+      "Hebrew",
+      "Turkish"
+    ],
+    "explanation": "The 'al-' prefix is the Arabic definite article; 'algorithm' comes from the mathematician al-Khwarizmi, whose name also gave 'algebra' via his book title.",
+    "hook": "If it starts with 'al-', suspect Arabic — the 'al' is just 'the'."
+  },
+  {
+    "id": "lang_071",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the term for the deliberate use of understatement by negating the opposite?",
+    "answer": "Litotes",
+    "distractors": [
+      "Hyperbole",
+      "Meiosis",
+      "Bathos"
+    ],
+    "explanation": "'Not bad' for excellent is litotes; hyperbole is exaggeration and bathos is an anticlimactic drop from the elevated to the trivial.",
+    "hook": "'Not bad at all' is the most English rhetorical device there is."
+  },
+  {
+    "id": "lang_072",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does the Australian slang term 'chuck a sickie' mean?",
+    "answer": "To take a day off work by feigning illness",
+    "distractors": [
+      "To work an unpaid overtime shift",
+      "To resign from a job without notice",
+      "To swap a rostered shift with a colleague"
+    ],
+    "explanation": "The construction 'chuck a' plus a noun is productive in Australian English — chuck a wobbly, chuck a u-ey, chuck a sickie all follow the same pattern.",
+    "hook": "'Chuck a' plus almost any noun works in Australian English."
+  },
+  {
+    "id": "lang_073",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What does 'prima facie' mean in legal usage?",
+    "answer": "Sufficient at first sight unless rebutted",
+    "distractors": [
+      "Formally lodged before the court",
+      "Of the first importance in law",
+      "Established entirely without precedent"
+    ],
+    "explanation": "A prima facie case has enough evidence to proceed unless rebutted; it does not mean the case has been proven.",
+    "hook": "It means 'enough to go on', not 'proven'."
+  },
+  {
+    "id": "lang_074",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "Which language is the most widely spoken in South America after Spanish?",
+    "answer": "Portuguese",
+    "distractors": [
+      "Quechua",
+      "English",
+      "Guarani"
+    ],
+    "explanation": "Brazil's population makes Portuguese the continent's second language by speakers; Quechua and Guarani are the largest indigenous languages, and Guarani is co-official in Paraguay.",
+    "hook": "Paraguay is the one South American country where an indigenous language is co-official."
+  },
+  {
+    "id": "lang_075",
+    "category": "language",
+    "difficulty": "medium",
+    "question": "What is the term for a name derived from a place, like 'denim' from Nîmes?",
+    "answer": "A toponym",
+    "distractors": [
+      "An eponym",
+      "An exonym",
+      "A demonym"
+    ],
+    "explanation": "A demonym names the people of a place, an exonym is an outsiders' name for a place, and an eponym derives from a person's name.",
+    "hook": "Denim is 'de Nîmes' and jeans are 'Genoa' — both cities in disguise."
+  },
+  {
+    "id": "lang_076",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language holds the record for the largest number of noun cases?",
+    "answer": "Hungarian",
+    "distractors": [
+      "Finnish",
+      "Georgian",
+      "Sanskrit"
+    ],
+    "explanation": "Depending on how case is defined, Hungarian is usually credited with about eighteen, with Finnish around fifteen; the counts are disputed by linguists.",
+    "hook": "Hungarian and Finnish both have well over a dozen cases — English has three pronoun forms."
+  },
+  {
+    "id": "lang_077",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is a hapax legomenon?",
+    "answer": "A word appearing only once in a body of text",
+    "distractors": [
+      "A word borrowed twice from one language",
+      "A word with no rhyme",
+      "A word coined by a single author"
+    ],
+    "explanation": "Greek for 'said once', it matters in biblical and classical scholarship because a single occurrence gives translators almost no context to work from.",
+    "hook": "One appearance, no context — the translator's nightmare."
+  },
+  {
+    "id": "lang_078",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which extinct language was deciphered by Michael Ventris in 1952?",
+    "answer": "Linear B",
+    "distractors": [
+      "Linear A",
+      "Etruscan",
+      "Hittite"
+    ],
+    "explanation": "He showed it recorded an early form of Greek; Linear A, the older Minoan script, remains undeciphered to this day.",
+    "hook": "Linear B was cracked in 1952; Linear A is still unreadable."
+  },
+  {
+    "id": "lang_079",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does the term 'lexicography' describe?",
+    "answer": "The compiling of dictionaries",
+    "distractors": [
+      "The study of sentence structure",
+      "The classification of scripts",
+      "The history of printing"
+    ],
+    "explanation": "Samuel Johnson defined the lexicographer as a harmless drudge; his 1755 dictionary took nine years and was largely the work of one man with six assistants.",
+    "hook": "Johnson called himself a harmless drudge and took nine years over it."
+  },
+  {
+    "id": "lang_080",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which grammatical mood expresses wishes, hypotheticals and demands?",
+    "answer": "The subjunctive",
+    "distractors": [
+      "The imperative",
+      "The indicative",
+      "The conditional"
+    ],
+    "explanation": "'If I were you' is subjunctive; the imperative commands, the indicative states fact, and the form is fading in English but robust in Romance languages.",
+    "hook": "'If I were' rather than 'if I was' is the last subjunctive most people use."
+  },
+  {
+    "id": "lang_081",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the linguistic term for the way a word's meaning becomes less negative over time?",
+    "answer": "Amelioration",
+    "distractors": [
+      "Pejoration",
+      "Broadening",
+      "Semantic bleaching"
+    ],
+    "explanation": "'Nice' improving from foolish to pleasant is amelioration; pejoration is the reverse, as with 'villain', which once meant a farm worker.",
+    "hook": "'Nice' improved; 'villain' went from farmhand to criminal."
+  },
+  {
+    "id": "lang_082",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language family includes Swahili, Zulu and Xhosa?",
+    "answer": "Niger-Congo",
+    "distractors": [
+      "Afro-Asiatic",
+      "Nilo-Saharan",
+      "Khoisan"
+    ],
+    "explanation": "All three are Bantu languages within Niger-Congo; Afro-Asiatic covers Arabic, Hebrew and Amharic, and Khoisan is known for its click consonants.",
+    "hook": "Bantu sits inside Niger-Congo; Arabic and Hebrew are in a completely different family."
+  },
+  {
+    "id": "lang_083",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the name for a language that develops from a pidgin as a first language for children?",
+    "answer": "A creole",
+    "distractors": [
+      "A patois",
+      "A dialect",
+      "A lingua franca"
+    ],
+    "explanation": "Pidgins are simplified contact languages with no native speakers; once a generation grows up speaking one, its grammar elaborates and it becomes a creole.",
+    "hook": "A pidgin becomes a creole the moment children are born into it."
+  },
+  {
+    "id": "lang_084",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which English word is thought to have the most letters without repeating any?",
+    "answer": "Uncopyrightable",
+    "distractors": [
+      "Dermatoglyphics",
+      "Ambidextrously",
+      "Subdermatoglyphic"
+    ],
+    "explanation": "At fifteen letters, all distinct, it is the standard answer; 'dermatoglyphics' also has fifteen and 'subdermatoglyphic' seventeen but is not in general dictionaries.",
+    "hook": "Fifteen letters, no repeats — and its meaning is a nice joke about wordplay."
+  },
+  {
+    "id": "lang_085",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does the Sapir-Whorf hypothesis propose?",
+    "answer": "That language shapes how its speakers perceive the world",
+    "distractors": [
+      "That all languages share one deep grammar",
+      "That children learn language by imitation alone",
+      "That writing precedes speech in development"
+    ],
+    "explanation": "The strong form, that language determines thought, is generally rejected; a weaker version, that language influences habitual attention, retains support.",
+    "hook": "The strong version is dead; the weak version — language nudges attention — survives."
+  },
+  {
+    "id": "lang_086",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language has the largest number of official speakers in Switzerland?",
+    "answer": "German",
+    "distractors": [
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "explanation": "German is spoken by about sixty per cent, French around twenty-three, Italian eight, and Romansh under one per cent but still official.",
+    "hook": "Four official languages, and the fourth has fewer speakers than a mid-sized town."
+  },
+  {
+    "id": "lang_087",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for the omission of a sound or syllable in speech, as in 'cam'ra'?",
+    "answer": "Elision",
+    "distractors": [
+      "Epenthesis",
+      "Metathesis",
+      "Assimilation"
+    ],
+    "explanation": "Epenthesis inserts a sound, metathesis swaps sounds as in 'aks' for 'ask', and assimilation makes neighbouring sounds more alike.",
+    "hook": "Elision drops, epenthesis adds, metathesis swaps."
+  },
+  {
+    "id": "lang_088",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which script is used to write Japanese alongside kanji and katakana?",
+    "answer": "Hiragana",
+    "distractors": [
+      "Hangul",
+      "Bopomofo",
+      "Kana-kanji"
+    ],
+    "explanation": "Hiragana handles grammatical elements, katakana foreign loanwords, and kanji borrowed Chinese characters; Hangul is the Korean alphabet.",
+    "hook": "Three scripts in one sentence: kanji for meaning, hiragana for grammar, katakana for imports."
+  },
+  {
+    "id": "lang_089",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which Aboriginal Australian language has the most speakers today?",
+    "answer": "Kriol",
+    "distractors": [
+      "Pitjantjatjara",
+      "Warlpiri",
+      "Arrernte"
+    ],
+    "explanation": "Australian Kriol, an English-based creole spoken across northern Australia, has more speakers than any traditional language; Pitjantjatjara and Warlpiri are the largest of those.",
+    "hook": "The most spoken Aboriginal language today is a creole, not a traditional language."
+  },
+  {
+    "id": "lang_090",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the origin of the word 'clue'?",
+    "answer": "A ball of thread",
+    "distractors": [
+      "A tracking footprint",
+      "A whispered hint",
+      "A marked stone"
+    ],
+    "explanation": "From 'clew', the thread Theseus used to find his way out of the labyrinth; the sense of a guide through a mystery is a direct metaphor from that myth.",
+    "hook": "Every clue is Theseus's thread through the labyrinth."
+  },
+  {
+    "id": "lang_091",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does the term 'lipogram' describe in writing?",
+    "answer": "A text deliberately omitting a particular letter",
+    "distractors": [
+      "A text read the same in both directions",
+      "A poem with a hidden name",
+      "A sentence using every letter"
+    ],
+    "explanation": "Georges Perec's novel La Disparition was written entirely without the letter e, and Gilbert Adair's English translation A Void managed the same feat.",
+    "hook": "A whole French novel with no letter e, translated into English with no letter e."
+  },
+  {
+    "id": "lang_092",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which term describes a sentence containing every letter of the alphabet?",
+    "answer": "A pangram",
+    "distractors": [
+      "A lipogram",
+      "An anagram",
+      "A pantoum"
+    ],
+    "explanation": "'The quick brown fox jumps over the lazy dog' is the standard example, used for testing typefaces and keyboards.",
+    "hook": "The quick brown fox exists because typesetters needed every letter in one line."
+  },
+  {
+    "id": "lang_093",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language did the Norman conquest bring into English administration after 1066?",
+    "answer": "Norman French",
+    "distractors": [
+      "Latin",
+      "Old Norse",
+      "Frisian"
+    ],
+    "explanation": "For three centuries law and government ran in French, which is why legal English still uses 'plaintiff', 'tort' and 'attorney', and why food on the table has French names.",
+    "hook": "The Saxons raised the cow; the Normans ate the beef."
+  },
+  {
+    "id": "lang_094",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for a word's dictionary form, from which other forms derive?",
+    "answer": "The lemma",
+    "distractors": [
+      "The stem",
+      "The root",
+      "The morph"
+    ],
+    "explanation": "'Run' is the lemma covering runs, ran and running; the stem is what remains after affixes are removed, and the root is the irreducible core.",
+    "hook": "The lemma is the headword you would look up."
+  },
+  {
+    "id": "lang_095",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language is the oldest still in everyday use with a continuous written record?",
+    "answer": "Chinese",
+    "distractors": [
+      "Greek",
+      "Hebrew",
+      "Tamil"
+    ],
+    "explanation": "Chinese writing runs continuously from oracle bones around 1200 BCE; Greek and Tamil both have claims stretching over 2,500 years, and the question is genuinely contested.",
+    "hook": "Chinese, Greek and Tamil all have claims — it depends what you count as continuous."
+  },
+  {
+    "id": "lang_096",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does the rhetorical term 'chiasmus' describe?",
+    "answer": "A reversed parallel structure across two clauses",
+    "distractors": [
+      "A phrase repeated at the start of clauses",
+      "A question asked without wanting an answer",
+      "A deliberate omission of conjunctions"
+    ],
+    "explanation": "Named for the Greek letter chi because the two halves cross like an X, as in 'ask not what your country can do for you'; anaphora is the repeated opening phrase.",
+    "hook": "The name comes from the letter X — the two halves cross over."
+  },
+  {
+    "id": "lang_097",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which country has the most official languages?",
+    "answer": "Bolivia",
+    "distractors": [
+      "India",
+      "South Africa",
+      "Zimbabwe"
+    ],
+    "explanation": "Its 2009 constitution recognises Spanish plus thirty-six indigenous languages; Zimbabwe has sixteen and South Africa twelve.",
+    "hook": "Thirty-seven official languages in one constitution."
+  },
+  {
+    "id": "lang_098",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for the study of meaning in language?",
+    "answer": "Semantics",
+    "distractors": [
+      "Syntax",
+      "Phonology",
+      "Pragmatics"
+    ],
+    "explanation": "Syntax covers structure, phonology sound systems, and pragmatics how context changes meaning — the difference between what a sentence says and what a speaker means by it.",
+    "hook": "Semantics is what the words mean; pragmatics is what you meant by them."
+  },
+  {
+    "id": "lang_099",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Roughly how many words are first recorded in Shakespeare's works?",
+    "answer": "About 1,700",
+    "distractors": [
+      "About 200",
+      "About 12,000",
+      "Fewer than 50"
+    ],
+    "explanation": "First attestation is not the same as invention; many were probably already in speech, and the figure partly reflects how thoroughly his texts were mined by dictionary makers.",
+    "hook": "First recorded is not first invented — his texts were simply searched hardest."
+  },
+  {
+    "id": "lang_100",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the linguistic term for a word borrowed directly from another language without translation?",
+    "answer": "A loanword",
+    "distractors": [
+      "A calque",
+      "A cognate",
+      "A doublet"
+    ],
+    "explanation": "A calque translates the parts instead, as 'skyscraper' becomes 'gratte-ciel' in French; a cognate shares an ancestor rather than being borrowed.",
+    "hook": "Loanword takes the word; calque takes the idea and rebuilds it locally."
+  },
+  {
+    "id": "lang_101",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which Australian English word for swimwear is standard in Victoria?",
+    "answer": "Bathers",
+    "distractors": [
+      "Togs",
+      "Swimmers",
+      "Cossie"
+    ],
+    "explanation": "Queenslanders say togs and New South Welshmen swimmers or cossie; it is one of the sharpest regional splits in Australian English.",
+    "hook": "You can place an Australian's home state from what they call their swimwear."
+  },
+  {
+    "id": "lang_102",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the name for the linguistic phenomenon where a negative requires another negative, as in French 'ne...pas'?",
+    "answer": "Negative concord",
+    "distractors": [
+      "Double negation",
+      "Negative raising",
+      "Polarity reversal"
+    ],
+    "explanation": "Standard English rejects it as a double negative, but it is grammatically required in French and standard in many English dialects, including African American English.",
+    "hook": "'I didn't see nothing' is ungrammatical in standard English and mandatory in French."
+  },
+  {
+    "id": "lang_103",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which word means the practice of using a proper name as a general term, like 'hoover' for vacuum?",
+    "answer": "A genericised trademark",
+    "distractors": [
+      "A metonym",
+      "An eponym",
+      "A neologism"
+    ],
+    "explanation": "Aspirin, escalator and thermos have all lost trademark protection this way; companies fight hard against it, which is why Google publishes usage guidance.",
+    "hook": "Aspirin and escalator were once brand names and lost the protection by becoming too popular."
+  },
+  {
+    "id": "lang_104",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "In which year did L.L. Zamenhof publish the first Esperanto grammar?",
+    "answer": "1887",
+    "distractors": [
+      "1851",
+      "1901",
+      "1925"
+    ],
+    "explanation": "He designed it in multilingual Białystok as a politically neutral second language rather than a replacement for any national tongue, and published under the pen name Doktoro Esperanto.",
+    "hook": "'Esperanto' was his pen name meaning 'one who hopes', and the language took it."
+  },
+  {
+    "id": "lang_105",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for the smallest meaningful grammatical unit, such as the '-ed' in 'walked'?",
+    "answer": "A morpheme",
+    "distractors": [
+      "A phoneme",
+      "A lexeme",
+      "A syllable"
+    ],
+    "explanation": "Free morphemes stand alone as words; bound morphemes like '-ed' and 'un-' cannot, but still carry meaning.",
+    "hook": "'Unhelpfulness' is four morphemes stacked into one word."
+  },
+  {
+    "id": "lang_106",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which classical language is the liturgical language of Hinduism?",
+    "answer": "Sanskrit",
+    "distractors": [
+      "Pali",
+      "Prakrit",
+      "Avestan"
+    ],
+    "explanation": "Pali is the canonical language of Theravada Buddhism and Avestan of Zoroastrianism; Sanskrit's Panini wrote a grammar around the fourth century BCE still admired for its rigour.",
+    "hook": "Panini's Sanskrit grammar is over two thousand years old and linguists still study its method."
+  },
+  {
+    "id": "lang_107",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does the term 'anaphora' mean in rhetoric?",
+    "answer": "Repetition of a phrase at the start of successive clauses",
+    "distractors": [
+      "Repetition at the end of clauses",
+      "A reversal of word order",
+      "Omission of conjunctions"
+    ],
+    "explanation": "Churchill's 'we shall fight on the beaches' sequence is anaphora; epistrophe repeats at the end and asyndeton omits conjunctions.",
+    "hook": "Anaphora at the start, epistrophe at the end — Churchill used the first, Lincoln the second."
+  },
+  {
+    "id": "lang_108",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which two languages are the official working languages of the United Nations Secretariat?",
+    "answer": "English and French",
+    "distractors": [
+      "English and Spanish",
+      "English and Russian",
+      "French and Arabic"
+    ],
+    "explanation": "There are six official languages — Arabic, Chinese, English, French, Russian and Spanish — but only two working languages for day-to-day Secretariat business.",
+    "hook": "Six official, two working — the distinction trips up most quiz takers."
+  },
+  {
+    "id": "lang_109",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the collective noun for a group of crocodiles?",
+    "answer": "A bask",
+    "distractors": [
+      "A float",
+      "A congregation",
+      "A nest"
+    ],
+    "explanation": "'Bask' applies on land and 'float' in water, both describing exactly what the animals are doing; a congregation is alligators.",
+    "hook": "They bask on the bank and float in the river — the word changes with the location."
+  },
+  {
+    "id": "lang_110",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which dictionary project took seventy years to complete its first edition?",
+    "answer": "The Oxford English Dictionary",
+    "distractors": [
+      "Webster's Third New International",
+      "The Macquarie Dictionary",
+      "Larousse"
+    ],
+    "explanation": "Begun in 1857 and completed in 1928, it relied on volunteer readers submitting quotation slips, one of the most prolific of whom was an inmate of Broadmoor asylum.",
+    "hook": "One of its most productive contributors wrote from a criminal asylum."
+  },
+  {
+    "id": "lang_111",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the origin of the phrase 'red herring'?",
+    "answer": "A cured fish used to train or mislead hounds",
+    "distractors": [
+      "A signal flag on fishing boats",
+      "A market trader's dishonest stock",
+      "A medieval legal term"
+    ],
+    "explanation": "The smoked fish turns reddish and pungent; the figurative sense of a deliberate distraction was popularised by the journalist William Cobbett in 1807.",
+    "hook": "Smoking turns the herring red, and the smell was strong enough to pull a hound off a trail."
+  },
+  {
+    "id": "lang_112",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which term describes languages that place the verb before the subject as their default order?",
+    "answer": "VSO languages",
+    "distractors": [
+      "SOV languages",
+      "SVO languages",
+      "OVS languages"
+    ],
+    "explanation": "Irish, Welsh and Classical Arabic are VSO; English is SVO and Japanese, Turkish and Hindi are SOV, which is the most common order worldwide.",
+    "hook": "Subject-object-verb is the world's most common order, not the English arrangement."
+  },
+  {
+    "id": "lang_113",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for a word or phrase that means the opposite of its literal reading through tone?",
+    "answer": "Verbal irony",
+    "distractors": [
+      "Dramatic irony",
+      "Situational irony",
+      "Sarcasm"
+    ],
+    "explanation": "Sarcasm is verbal irony with intent to wound; dramatic irony occurs when the audience knows what a character does not, and situational irony when outcomes invert expectations.",
+    "hook": "Sarcasm is verbal irony with the safety off."
+  },
+  {
+    "id": "lang_114",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which writing system is read from right to left?",
+    "answer": "Arabic",
+    "distractors": [
+      "Thai",
+      "Korean",
+      "Georgian"
+    ],
+    "explanation": "Hebrew, Persian and Urdu also run right to left, but Arabic numerals within those texts still run left to right, which is why mixed text is complex to typeset.",
+    "hook": "The numbers inside right-to-left text still run left to right."
+  },
+  {
+    "id": "lang_115",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does the linguistic term 'code-switching' describe?",
+    "answer": "Alternating between languages or varieties within a conversation",
+    "distractors": [
+      "Translating idioms literally",
+      "Inventing words for new concepts",
+      "Adjusting volume for emphasis"
+    ],
+    "explanation": "It is a marker of fluency rather than confusion, and speakers switch systematically, often at grammatically permissible boundaries and for social effect.",
+    "hook": "Switching mid-sentence is a sign of mastering both languages, not muddling them."
+  },
+  {
+    "id": "lang_116",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which English monarch's reign saw the Great Vowel Shift largely complete?",
+    "answer": "Elizabeth I",
+    "distractors": [
+      "Henry V",
+      "Charles II",
+      "Victoria"
+    ],
+    "explanation": "The shift ran roughly from 1400 to 1700, changing long vowel pronunciation while spelling stayed fixed by printing — the main reason English spelling looks arbitrary.",
+    "hook": "The vowels moved, the spelling did not, and English has been illogical ever since."
+  },
+  {
+    "id": "lang_117",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for an inscription or verse where initial letters spell a word?",
+    "answer": "An acrostic",
+    "distractors": [
+      "A palindrome",
+      "An anagram",
+      "A cipher"
+    ],
+    "explanation": "Lewis Carroll wrote an acrostic poem spelling Alice Pleasance Liddell; the technique also appears in several biblical psalms following the Hebrew alphabet.",
+    "hook": "The last poem in Through the Looking-Glass spells out Alice's full name."
+  },
+  {
+    "id": "lang_118",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which Australian place name means 'meeting place' in a local Aboriginal language and became a capital city name?",
+    "answer": "Canberra",
+    "distractors": [
+      "Wollongong",
+      "Toowoomba",
+      "Bendigo"
+    ],
+    "explanation": "Usually glossed from the Ngunnawal word Kamberra, though the precise meaning is debated; the pronunciation with stress on the first syllable was fixed at the 1913 naming ceremony.",
+    "hook": "The stress on the first syllable was decided at an official ceremony in 1913."
+  },
+  {
+    "id": "lang_119",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the name for the tendency of frequently used words to resist regularisation?",
+    "answer": "Frequency effect",
+    "distractors": [
+      "Analogical levelling",
+      "Grammaticalisation",
+      "Suppletion"
+    ],
+    "explanation": "Common irregular verbs like 'be' and 'go' survive precisely because they are used constantly; rarer irregulars regularise, as 'holp' became 'helped'.",
+    "hook": "Irregular verbs survive by being used too often to be forgotten."
+  },
+  {
+    "id": "lang_120",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language contributed the word 'tsunami' to English?",
+    "answer": "Japanese",
+    "distractors": [
+      "Malay",
+      "Tagalog",
+      "Hawaiian"
+    ],
+    "explanation": "It means 'harbour wave', reflecting that the waves are barely noticeable in deep water and only build dramatically near shore.",
+    "hook": "'Harbour wave' — because out at sea you would not notice one passing under you."
+  },
+  {
+    "id": "lang_121",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What does 'sine qua non' mean?",
+    "answer": "An indispensable condition",
+    "distractors": [
+      "Without further comment",
+      "Beyond reasonable doubt",
+      "Under no circumstances"
+    ],
+    "explanation": "Literally 'without which not' in Latin; in law it describes a cause without which the result would not have occurred.",
+    "hook": "'Without which, not' — an absolute requirement, stated backwards."
+  },
+  {
+    "id": "lang_122",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which term describes the study of how context contributes to meaning?",
+    "answer": "Pragmatics",
+    "distractors": [
+      "Semantics",
+      "Morphology",
+      "Etymology"
+    ],
+    "explanation": "Grice's maxims of conversation belong here: when someone says 'can you pass the salt', pragmatics explains why nobody answers 'yes' and keeps eating.",
+    "hook": "Semantics knows 'can you pass the salt' is a question; pragmatics knows it is a request."
+  },
+  {
+    "id": "lang_123",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which Romance language is spoken natively in Romania and Moldova?",
+    "answer": "Romanian",
+    "distractors": [
+      "Moldovan",
+      "Ruthenian",
+      "Aromanian"
+    ],
+    "explanation": "Moldovan and Romanian are the same language under different political names; Romanian is the only major Romance language in Eastern Europe, surrounded by Slavic and Hungarian speakers.",
+    "hook": "A Latin island in a Slavic sea, with the same language answering to two names."
+  },
+  {
+    "id": "lang_124",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for a printing or writing error that survives into published text?",
+    "answer": "An erratum",
+    "distractors": [
+      "A colophon",
+      "A ligature",
+      "A widow"
+    ],
+    "explanation": "A colophon is a publisher's note at the end of a book, a ligature joins two letters into one glyph, and a widow is a stranded final line at the top of a page.",
+    "hook": "Erratum error, colophon note, ligature joined letters, widow stranded line."
+  },
+  {
+    "id": "lang_125",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which alphabet did the Romans adapt from the Etruscans?",
+    "answer": "The Latin alphabet",
+    "distractors": [
+      "The Greek alphabet",
+      "The Runic alphabet",
+      "The Phoenician alphabet"
+    ],
+    "explanation": "The Etruscans had themselves taken it from a Greek variant, which came from Phoenician — a chain of borrowing running from the Levant to modern English.",
+    "hook": "Phoenician to Greek to Etruscan to Latin to this sentence."
+  },
+  {
+    "id": "lang_126",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the name of the phenomenon where a word loses its meaning after repetition?",
+    "answer": "Semantic satiation",
+    "distractors": [
+      "Lexical fatigue",
+      "Phonetic erosion",
+      "Aphasia"
+    ],
+    "explanation": "Repeating a word thirty times reduces it to bare sound as the neural response habituates; the effect was named in psychological research in 1962.",
+    "hook": "Say any word thirty times and your brain stops hearing the meaning."
+  },
+  {
+    "id": "lang_127",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which language is the official language of Brazil?",
+    "answer": "Portuguese",
+    "distractors": [
+      "Spanish",
+      "Brazilian",
+      "Tupi"
+    ],
+    "explanation": "Brazil is the only Portuguese-speaking country in the Americas, a result of the 1494 Treaty of Tordesillas dividing the New World between Portugal and Spain.",
+    "hook": "A line drawn on a map in 1494 is why Brazil speaks a different language to its neighbours."
+  },
+  {
+    "id": "lang_128",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "What is the term for a rhetorical question asked without expecting an answer?",
+    "answer": "Erotema",
+    "distractors": [
+      "Aporia",
+      "Apostrophe",
+      "Antiphrasis"
+    ],
+    "explanation": "Aporia is feigned doubt, apostrophe addresses an absent person or abstraction, and antiphrasis uses a word to mean its opposite.",
+    "hook": "Erotema asks without wanting an answer; aporia pretends not to know."
+  },
+  {
+    "id": "lang_129",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which Australian word derives from an Aboriginal term for a ceremonial gathering?",
+    "answer": "Corroboree",
+    "distractors": [
+      "Billabong",
+      "Coolamon",
+      "Yakka"
+    ],
+    "explanation": "From the Dharug garaabara; billabong comes from Wiradjuri for a dead river channel, coolamon is a carrying vessel and yakka means work.",
+    "hook": "Corroboree gathering, billabong backwater, coolamon carrier, yakka work."
+  },
+  {
+    "id": "lang_130",
+    "category": "language",
+    "difficulty": "hard",
+    "question": "Which linguist proposed that humans possess an innate universal grammar?",
+    "answer": "Noam Chomsky",
+    "distractors": [
+      "Ferdinand de Saussure",
+      "Roman Jakobson",
+      "Steven Pinker"
+    ],
+    "explanation": "His 1957 Syntactic Structures argued children acquire language too fast and from too little input to be learning purely by imitation; the theory remains contested.",
+    "hook": "The argument is that children learn too fast for imitation alone to explain it."
+  }
+]

@@ -2,12 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>gw-quiz-trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Saturday Quiz Trainer — 1,040 general knowledge questions</title>
+    <meta
+      name="description"
+      content="Weekend-quiz style general knowledge training. 1,040 questions across eight categories, every one with a real explanation and a memory hook."
+    />
+    <meta property="og:title" content="Saturday Quiz Trainer" />
+    <meta
+      property="og:description"
+      content="1,040 weekend-quiz questions with explanations and memory hooks. Tracks what you get wrong and drills it back."
+    />
+    <meta property="og:type" content="website" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Offline support. Only registered over https (i.e. the deployed site) —
+      // on the local dev server it would cache stale assets and confuse HMR.
+      //
+      // Failure is not surfaced to the user, because the app works online
+      // regardless. It is logged, because the same rejection covers genuine
+      // developer faults — a syntax error in sw.js, a wrong path, a bad MIME
+      // type from the host — which would otherwise be invisible after a deploy
+      // unless someone thought to open DevTools.
+      if ('serviceWorker' in navigator && location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch((err) => {
+            console.warn('Service worker registration failed; offline mode unavailable.', err);
+          });
+        });
+      }
+    </script>
   </body>
 </html>

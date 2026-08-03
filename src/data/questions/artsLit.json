@@ -1,1907 +1,1822 @@
 [
   {
-    "id": "arts_fact_1",
+    "id": "art_001",
     "category": "arts_lit",
-    "question": "Whose skull does Hamlet hold during his famous graveyard soliloquy in Act 5?",
-    "options": [
-      "Yorick",
-      "Puck",
-      "Touchstone",
-      "Falstaff"
+    "difficulty": "easy",
+    "question": "Whose skull does Hamlet address in the graveyard scene?",
+    "answer": "Yorick",
+    "distractors": [
+      "Polonius",
+      "Ophelia",
+      "Laertes"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Yorick is the primary answer associated with Whose skull does Hamlet hold during his famous graveyard soliloquy in Act 5.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Yorick** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Yorick was the old king's jester, and the line is 'Alas, poor Yorick! I knew him, Horatio' — not 'I knew him well', which is the version everyone misquotes.",
+    "hook": "The famous quote is wrong: it is 'I knew him, Horatio', with no 'well'."
   },
   {
-    "id": "arts_fact_2",
+    "id": "art_002",
     "category": "arts_lit",
-    "question": "What title is Macbeth given after fulfilling the witches' first prophecy?",
-    "options": [
-      "Thane of Cawdor",
-      "Thane of Glamis",
-      "Thane of Fife",
-      "Earl of Atholl"
+    "difficulty": "easy",
+    "question": "Who wrote Pride and Prejudice?",
+    "answer": "Jane Austen",
+    "distractors": [
+      "Charlotte Brontë",
+      "George Eliot",
+      "Elizabeth Gaskell"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Thane of Cawdor is the primary answer associated with What title is Macbeth given after fulfilling the witches' first prophecy.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Thane of Cawdor** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Published anonymously in 1813 as 'by the author of Sense and Sensibility', it was originally drafted under the title First Impressions.",
+    "hook": "Every Austen novel was published anonymously in her lifetime."
   },
   {
-    "id": "arts_fact_3",
+    "id": "art_003",
     "category": "arts_lit",
-    "question": "Who is the villainous ensign who manipulates Othello into believing Desdemona is unfaithful?",
-    "options": [
-      "Iago",
-      "Cassio",
-      "Roderigo",
-      "Brabantio"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Iago is the primary answer associated with Who is the villainous ensign who manipulates Othello into believing Desdemona is unfaithful.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Iago** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_4",
-    "category": "arts_lit",
-    "question": "Who is King Lear's faithful youngest daughter who refuses to flatter him?",
-    "options": [
-      "Cordelia",
-      "Goneril",
-      "Regan",
-      "Bianca"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Cordelia is the primary answer associated with Who is King Lear's faithful youngest daughter who refuses to flatter him.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cordelia** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_5",
-    "category": "arts_lit",
-    "question": "What are the names of the two feuding families in Shakespeare's Romeo and Juliet?",
-    "options": [
-      "Capulet and Montague",
-      "Montechi & Cappelletti",
-      "Medici & Sforza",
-      "Orsini & Colonna"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Capulet and Montague is the primary answer associated with What are the names of the two feuding families in Shakespeare's Romeo and Juliet.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Capulet and Montague** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_6",
-    "category": "arts_lit",
-    "question": "What warning does the soothsayer give to Julius Caesar in Shakespeare's play?",
-    "options": [
-      "Beware the Ides of March",
-      "Et tu, Brute?",
-      "The die is cast",
-      "Friends, Romans, countrymen"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Beware the Ides of March is the primary answer associated with What warning does the soothsayer give to Julius Caesar in Shakespeare's play.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Beware the Ides of March** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_7",
-    "category": "arts_lit",
-    "question": "Who is the exiled Duke of Milan in Shakespeare's The Tempest?",
-    "options": [
-      "Prospero",
-      "Caliban",
-      "Ariel",
-      "Ferdinand"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Prospero is the primary answer associated with Who is the exiled Duke of Milan in Shakespeare's The Tempest.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Prospero** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_8",
-    "category": "arts_lit",
-    "question": "Which mischievous fairy serves Oberon in A Midsummer Night's Dream?",
-    "options": [
-      "Puck (Robin Goodfellow)",
-      "Bottom",
-      "Titania",
-      "Lysander"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Puck (Robin Goodfellow) is the primary answer associated with Which mischievous fairy serves Oberon in A Midsummer Night's Dream.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Puck (Robin Goodfellow)** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_9",
-    "category": "arts_lit",
-    "question": "Which pompous steward in Twelfth Night is tricked into wearing yellow stockings?",
-    "options": [
-      "Malvolio",
-      "Orsino",
-      "Sir Toby Belch",
-      "Aguecheek"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Malvolio is the primary answer associated with Which pompous steward in Twelfth Night is tricked into wearing yellow stockings.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Malvolio** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_10",
-    "category": "arts_lit",
-    "question": "Who is the Jewish moneylender in Shakespeare's The Merchant of Venice?",
-    "options": [
-      "Shylock",
-      "Antonio",
-      "Bassanio",
-      "Gratiano"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Shylock is the primary answer associated with Who is the Jewish moneylender in Shakespeare's The Merchant of Venice.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Shylock** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_11",
-    "category": "arts_lit",
-    "question": "Which character delivers the 'All the world's a stage' speech in As You Like It?",
-    "options": [
-      "Jaques",
-      "Touchstone",
-      "Orlando",
-      "Rosalind"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Jaques is the primary answer associated with Which character delivers the 'All the world's a stage' speech in As You Like It.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Jaques** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_12",
-    "category": "arts_lit",
-    "question": "Which Australian author won the Booker Prize twice (for Oscar and Lucinda and True History of the Kelly Gang)?",
-    "options": [
-      "Peter Carey",
-      "Tim Winton",
-      "Patrick White",
-      "Thomas Keneally"
-    ],
-    "answer": 0,
-    "explanation": "Peter Carey is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Peter Carey wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_13",
-    "category": "arts_lit",
-    "question": "Which Australian author won the 1982 Booker Prize for Schindler's Ark?",
-    "options": [
-      "Thomas Keneally",
-      "Peter Carey",
-      "Patrick White",
-      "Richard Flanagan"
-    ],
-    "answer": 0,
-    "explanation": "Thomas Keneally is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Thomas Keneally wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_14",
-    "category": "arts_lit",
-    "question": "Which Australian author won the 2014 Booker Prize for The Narrow Road to the Deep North?",
-    "options": [
-      "Richard Flanagan",
-      "Peter Carey",
-      "Tim Winton",
-      "Alexis Wright"
-    ],
-    "answer": 0,
-    "explanation": "Richard Flanagan is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Richard Flanagan wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_15",
-    "category": "arts_lit",
-    "question": "Who won the 1973 Nobel Prize in Literature, becoming Australia's only Nobel literature laureate?",
-    "options": [
-      "Patrick White",
-      "Peter Carey",
-      "Miles Franklin",
-      "Christina Stead"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Patrick White is the primary answer associated with Who won the 1973 Nobel Prize in Literature, becoming Australia's only Nobel literature laureate.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Patrick White** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_16",
-    "category": "arts_lit",
-    "question": "Which Western Australian author wrote the acclaimed 1991 novel Cloudstreet?",
-    "options": [
-      "Tim Winton",
-      "Peter Carey",
-      "David Malouf",
-      "Helen Garner"
-    ],
-    "answer": 0,
-    "explanation": "Tim Winton is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Tim Winton wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_17",
-    "category": "arts_lit",
-    "question": "Which Australian feminist and author wrote My Brilliant Career in 1901?",
-    "options": [
-      "Miles Franklin",
-      "Tim Winton",
-      "Patrick White",
-      "Kate Grenville"
-    ],
-    "answer": 0,
-    "explanation": "Miles Franklin is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Miles Franklin wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_18",
-    "category": "arts_lit",
-    "question": "Who authored the 2005 Miles Franklin Award-winning novel The Secret River?",
-    "options": [
-      "Kate Grenville",
-      "Thea Astley",
-      "Geraldine Brooks",
-      "Gillian Mears"
-    ],
-    "answer": 0,
-    "explanation": "Kate Grenville is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Kate Grenville wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_19",
-    "category": "arts_lit",
-    "question": "Which Australian author wrote the internationally bestselling 2005 novel The Book Thief?",
-    "options": [
-      "Markus Zusak",
-      "Trent Dalton",
-      "Christos Tsiolkas",
-      "Garth Nix"
-    ],
-    "answer": 0,
-    "explanation": "Markus Zusak is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Markus Zusak wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_20",
-    "category": "arts_lit",
-    "question": "Which Australian author wrote the hit 2018 semi-autobiographical novel Boy Swallows Universe?",
-    "options": [
-      "Trent Dalton",
-      "Craig Silvey",
-      "Robbie Arnott",
-      "Richard Fidler"
-    ],
-    "answer": 0,
-    "explanation": "Trent Dalton is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Trent Dalton wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_21",
-    "category": "arts_lit",
-    "question": "Who authored the classic 1967 Australian mystery novel Picnic at Hanging Rock?",
-    "options": [
-      "Joan Lindsay",
-      "Shirley Hazzard",
-      "Kylie Tennant",
-      "Ruth Park"
-    ],
-    "answer": 0,
-    "explanation": "Joan Lindsay is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Joan Lindsay wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_22",
-    "category": "arts_lit",
-    "question": "Who authored the epic 1977 Australian family saga novel The Thorn Birds?",
-    "options": [
-      "Colleen McCullough",
-      "Jon Cleary",
-      "Morris West",
-      "D'Arcy Niland"
-    ],
-    "answer": 0,
-    "explanation": "Colleen McCullough is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Colleen McCullough wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_23",
-    "category": "arts_lit",
-    "question": "Which artist and author wrote and illustrated the 1918 classic children's book The Magic Pudding?",
-    "options": [
-      "Norman Lindsay",
-      "May Gibbs",
-      "Dorothy Wall",
-      "Ethel Turner"
-    ],
-    "answer": 0,
-    "explanation": "Norman Lindsay is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Norman Lindsay wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_24",
-    "category": "arts_lit",
-    "question": "Which Australian author created Snugglepot and Cuddlepie in 1918?",
-    "options": [
-      "May Gibbs",
-      "Norman Lindsay",
-      "Dorothy Wall",
-      "Ruth Park"
-    ],
-    "answer": 0,
-    "explanation": "May Gibbs is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** May Gibbs wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_25",
-    "category": "arts_lit",
-    "question": "Which Australian author created the lovable koala character Blinky Bill in 1933?",
-    "options": [
-      "Dorothy Wall",
-      "May Gibbs",
-      "Norman Lindsay",
-      "Ethel Turner"
-    ],
-    "answer": 0,
-    "explanation": "Dorothy Wall is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Dorothy Wall wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_26",
-    "category": "arts_lit",
-    "question": "Who authored the classic 1894 Australian children's book Seven Little Australians?",
-    "options": [
-      "Ethel Turner",
-      "May Gibbs",
-      "Dorothy Wall",
-      "Mary Grant Bruce"
-    ],
-    "answer": 0,
-    "explanation": "Ethel Turner is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Ethel Turner wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_27",
-    "category": "arts_lit",
-    "question": "Which Dutch master painted 'The Starry Night' in 1889 while staying at Saint-R\u00e9my-de-Provence?",
-    "options": [
-      "Vincent van Gogh",
-      "Claude Monet",
-      "Pablo Picasso",
-      "Paul Gauguin"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Vincent van Gogh is the primary answer associated with Which Dutch master painted 'The Starry Night' in 1889 while staying at Saint-R\u00e9my-de-Provence.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Vincent van Gogh** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_28",
-    "category": "arts_lit",
-    "question": "Which Italian polymath painted the Mona Lisa and The Last Supper?",
-    "options": [
-      "Leonardo da Vinci",
+    "difficulty": "easy",
+    "question": "Which artist painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "distractors": [
       "Michelangelo",
-      "Raphael",
-      "Sandro Botticelli"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Leonardo da Vinci is the primary answer associated with Which Italian polymath painted the Mona Lisa and The Last Supper.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Leonardo da Vinci** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_29",
-    "category": "arts_lit",
-    "question": "Which Renaissance master painted the ceiling of the Sistine Chapel between 1508 and 1512?",
-    "options": [
-      "Michelangelo",
-      "Leonardo da Vinci",
       "Raphael",
       "Titian"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Michelangelo is the primary answer associated with Which Renaissance master painted the ceiling of the Sistine Chapel between 1508 and 1512.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Michelangelo** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Painted around 1503-19, it became globally famous largely after being stolen from the Louvre in 1911 by an Italian handyman who wanted it returned to Italy.",
+    "hook": "The theft in 1911 made it famous — before that it was just another Renaissance portrait."
   },
   {
-    "id": "arts_fact_30",
+    "id": "art_004",
     "category": "arts_lit",
-    "question": "Which French Impressionist master painted Impression, Sunrise in 1872, giving the movement its name?",
-    "options": [
+    "difficulty": "easy",
+    "question": "Who wrote the play Romeo and Juliet?",
+    "answer": "William Shakespeare",
+    "distractors": [
+      "Christopher Marlowe",
+      "Ben Jonson",
+      "John Webster"
+    ],
+    "explanation": "Written in the early 1590s, it drew on Arthur Brooke's narrative poem of 1562, itself based on Italian sources; almost none of Shakespeare's plots were original.",
+    "hook": "He borrowed nearly every plot he ever used — the language is what was his."
+  },
+  {
+    "id": "art_005",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Australian author wrote the novel Cloudstreet?",
+    "answer": "Tim Winton",
+    "distractors": [
+      "Peter Carey",
+      "David Malouf",
+      "Richard Flanagan"
+    ],
+    "explanation": "Published in 1991 and set in post-war Perth, it won the Miles Franklin Award, one of four Winton has taken.",
+    "hook": "Winton has four Miles Franklins — more than any other novelist."
+  },
+  {
+    "id": "art_006",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Who painted The Starry Night?",
+    "answer": "Vincent van Gogh",
+    "distractors": [
+      "Paul Gauguin",
       "Claude Monet",
-      "\u00c9douard Manet",
-      "Pierre-Auguste Renoir",
-      "Edgar Degas"
+      "Paul Cézanne"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Claude Monet is the primary answer associated with Which French Impressionist master painted Impression, Sunrise in 1872, giving the movement its name.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Claude Monet** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Painted in 1889 from the window of an asylum at Saint-Rémy, it depicts a view he saw before sunrise with an imagined village added.",
+    "hook": "Painted from an asylum window, with the village invented."
   },
   {
-    "id": "arts_fact_31",
+    "id": "art_007",
     "category": "arts_lit",
-    "question": "Which Surrealist master painted melting clocks in The Persistence of Memory (1931)?",
-    "options": [
-      "Salvador Dal\u00ed",
-      "Ren\u00e9 Magritte",
-      "Max Ernst",
-      "Joan Mir\u00f3"
+    "difficulty": "easy",
+    "question": "Which novel opens with the line 'Call me Ishmael'?",
+    "answer": "Moby-Dick",
+    "distractors": [
+      "The Old Man and the Sea",
+      "Treasure Island",
+      "Lord Jim"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Salvador Dal\u00ed is the primary answer associated with Which Surrealist master painted melting clocks in The Persistence of Memory (1931).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Salvador Dal\u00ed** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Herman Melville's 1851 novel sold poorly in his lifetime and was only reappraised as a masterpiece in the 1920s, thirty years after his death.",
+    "hook": "It flopped completely and was rediscovered three decades after Melville died."
   },
   {
-    "id": "arts_fact_32",
+    "id": "art_008",
     "category": "arts_lit",
-    "question": "Which Spanish cubist master painted the monumental anti-war canvas Guernica in 1937?",
-    "options": [
-      "Pablo Picasso",
-      "Georges Braque",
-      "Juan Gris",
-      "Joan Mir\u00f3"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Pablo Picasso is the primary answer associated with Which Spanish cubist master painted the monumental anti-war canvas Guernica in 1937.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Pablo Picasso** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_33",
-    "category": "arts_lit",
-    "question": "Which Australian artist painted the iconic 1940s Ned Kelly series of paintings?",
-    "options": [
-      "Sidney Nolan",
-      "Arthur Boyd",
-      "Russell Drysdale",
-      "Albert Namatjira"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Sidney Nolan is the primary answer associated with Which Australian artist painted the iconic 1940s Ned Kelly series of paintings.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Sidney Nolan** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_34",
-    "category": "arts_lit",
-    "question": "Which Indigenous watercolor artist painted renowned landscapes of the MacDonnell Ranges?",
-    "options": [
-      "Albert Namatjira",
-      "Clifford Possum",
-      "Rover Thomas",
-      "Emily Kame Kngwarreye"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Albert Namatjira is the primary answer associated with Which Indigenous watercolor artist painted renowned landscapes of the MacDonnell Ranges.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Albert Namatjira** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_35",
-    "category": "arts_lit",
-    "question": "Which Sydney artist won the Archibald Prize twice and was famed for his sensuous Sydney Harbour paintings?",
-    "options": [
-      "Brett Whiteley",
-      "Sidney Nolan",
-      "Arthur Streeton",
-      "Tom Roberts"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Brett Whiteley is the primary answer associated with Which Sydney artist won the Archibald Prize twice and was famed for his sensuous Sydney Harbour paintings.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Brett Whiteley** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_36",
-    "category": "arts_lit",
-    "question": "Which Heidelberg School artist painted Shearing the Rams in 1890?",
-    "options": [
-      "Tom Roberts",
-      "Arthur Streeton",
-      "Charles Conder",
-      "Frederick McCubbin"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Tom Roberts is the primary answer associated with Which Heidelberg School artist painted Shearing the Rams in 1890.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Tom Roberts** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_37",
-    "category": "arts_lit",
-    "question": "Which Heidelberg School artist painted Golden Summer, Eaglemont in 1889?",
-    "options": [
-      "Arthur Streeton",
-      "Tom Roberts",
-      "Frederick McCubbin",
-      "Charles Conder"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Arthur Streeton is the primary answer associated with Which Heidelberg School artist painted Golden Summer, Eaglemont in 1889.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Arthur Streeton** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_38",
-    "category": "arts_lit",
-    "question": "Which Heidelberg School artist painted the historic triptych The Pioneer in 1904?",
-    "options": [
-      "Frederick McCubbin",
-      "Tom Roberts",
-      "Arthur Streeton",
-      "Walter Withers"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Frederick McCubbin is the primary answer associated with Which Heidelberg School artist painted the historic triptych The Pioneer in 1904.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Frederick McCubbin** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_39",
-    "category": "arts_lit",
-    "question": "Which Austrian prodigy composed The Magic Flute, Don Giovanni, and Symphony No. 40?",
-    "options": [
+    "difficulty": "easy",
+    "question": "Who composed the Ninth Symphony containing the Ode to Joy?",
+    "answer": "Ludwig van Beethoven",
+    "distractors": [
       "Wolfgang Amadeus Mozart",
-      "Ludwig van Beethoven",
       "Franz Schubert",
-      "Joseph Haydn"
+      "Johannes Brahms"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Wolfgang Amadeus Mozart is the primary answer associated with Which Austrian prodigy composed The Magic Flute, Don Giovanni, and Symphony No. 40.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Wolfgang Amadeus Mozart** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Completed in 1824 when he was almost totally deaf, it was the first major symphony to use voices; the Ode to Joy is now the anthem of the European Union.",
+    "hook": "He was too deaf to hear the applause and had to be turned around to see it."
   },
   {
-    "id": "arts_fact_40",
+    "id": "art_009",
     "category": "arts_lit",
-    "question": "Which German composer wrote nine symphonies, culminating in the Ode to Joy in his Ninth Symphony?",
-    "options": [
-      "Ludwig van Beethoven",
-      "Johann Sebastian Bach",
-      "Johannes Brahms",
-      "Richard Wagner"
+    "difficulty": "easy",
+    "question": "Which Shakespeare play features the three witches and 'Double, double toil and trouble'?",
+    "answer": "Macbeth",
+    "distractors": [
+      "King Lear",
+      "The Tempest",
+      "Julius Caesar"
     ],
-    "answer": 0,
-    "explanation": "Ludwig van Beethoven is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Ludwig van Beethoven wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Theatrical superstition holds that saying the play's name inside a theatre brings bad luck, so actors call it 'the Scottish play'.",
+    "hook": "Actors will not say the title indoors — it is 'the Scottish play'."
   },
   {
-    "id": "arts_fact_41",
+    "id": "art_010",
     "category": "arts_lit",
-    "question": "Which Baroque master composed the Brandenburg Concertos and The Well-Tempered Clavier?",
-    "options": [
+    "difficulty": "easy",
+    "question": "Which author wrote the dystopian novel Nineteen Eighty-Four?",
+    "answer": "George Orwell",
+    "distractors": [
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "H.G. Wells"
+    ],
+    "explanation": "Published in 1949 and written on the Scottish island of Jura while he was dying of tuberculosis; the title is often said to invert 1948, the year he finished it.",
+    "hook": "He wrote it on a remote Scottish island while dying, and the title may just be 1948 reversed."
+  },
+  {
+    "id": "art_011",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which artist cut off part of his own ear in 1888?",
+    "answer": "Vincent van Gogh",
+    "distractors": [
+      "Edvard Munch",
+      "Egon Schiele",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "explanation": "The incident in Arles followed a violent argument with Paul Gauguin; he sold very few paintings in his lifetime and died at thirty-seven.",
+    "hook": "An argument with Gauguin, and the most famous ear in art history."
+  },
+  {
+    "id": "art_012",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Who wrote the Harry Potter series?",
+    "answer": "J.K. Rowling",
+    "distractors": [
+      "Philip Pullman",
+      "Roald Dahl",
+      "C.S. Lewis"
+    ],
+    "explanation": "The first book was rejected by twelve publishers before Bloomsbury took it, on the advice of the chairman's eight-year-old daughter.",
+    "hook": "Twelve publishers said no; a child talked the thirteenth into it."
+  },
+  {
+    "id": "art_013",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which sculpture by Michelangelo stands over five metres tall in Florence?",
+    "answer": "David",
+    "distractors": [
+      "The Pietà",
+      "Moses",
+      "The Dying Slave"
+    ],
+    "explanation": "Carved from 1501 to 1504 from a block other sculptors had abandoned as flawed; the original now stands in the Accademia with a copy outside the Palazzo Vecchio.",
+    "hook": "The marble had been rejected as unusable before he touched it."
+  },
+  {
+    "id": "art_014",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Who wrote the novel To Kill a Mockingbird?",
+    "answer": "Harper Lee",
+    "distractors": [
+      "Flannery O'Connor",
+      "Carson McCullers",
+      "Eudora Welty"
+    ],
+    "explanation": "Published in 1960, it won the Pulitzer and remained her only published novel until Go Set a Watchman, an earlier draft, appeared in 2015.",
+    "hook": "One novel for fifty-five years, and the second was really the first draft."
+  },
+  {
+    "id": "art_015",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which composer wrote The Four Seasons?",
+    "answer": "Antonio Vivaldi",
+    "distractors": [
       "Johann Sebastian Bach",
       "George Frideric Handel",
-      "Telemann",
-      "Vivaldi"
+      "Joseph Haydn"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Johann Sebastian Bach is the primary answer associated with Which Baroque master composed the Brandenburg Concertos and The Well-Tempered Clavier.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Johann Sebastian Bach** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1725, each concerto is paired with a sonnet, possibly written by the composer himself, describing the scene the music depicts.",
+    "hook": "Each concerto comes with its own poem explaining what the music is describing."
   },
   {
-    "id": "arts_fact_42",
+    "id": "art_016",
     "category": "arts_lit",
-    "question": "Which Italian Baroque composer composed the violin concerto suite The Four Seasons?",
-    "options": [
-      "Antonio Vivaldi",
-      "Claudio Monteverdi",
-      "Corelli",
-      "Scarlatti"
+    "difficulty": "easy",
+    "question": "Which Australian building was designed by Danish architect Jørn Utzon?",
+    "answer": "The Sydney Opera House",
+    "distractors": [
+      "Parliament House, Canberra",
+      "Federation Square",
+      "The Shrine of Remembrance"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Antonio Vivaldi is the primary answer associated with Which Italian Baroque composer composed the violin concerto suite The Four Seasons.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Antonio Vivaldi** for this question.",
-    "difficulty": "Medium"
+    "explanation": "His 1957 competition entry was reportedly rescued from a rejection pile; he resigned in 1966 amid political disputes and never saw the finished building.",
+    "hook": "He quit before it opened and never returned to see it."
   },
   {
-    "id": "arts_fact_43",
+    "id": "art_017",
     "category": "arts_lit",
-    "question": "Which Russian composer wrote the music for the classic ballets Swan Lake and The Nutcracker?",
-    "options": [
-      "Pyotr Ilyich Tchaikovsky",
-      "Stravinsky",
-      "Prokofiev",
-      "Rimsky-Korsakov"
-    ],
-    "answer": 0,
-    "explanation": "Pyotr Ilyich Tchaikovsky is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Pyotr Ilyich Tchaikovsky wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_44",
-    "category": "arts_lit",
-    "question": "Which Italian opera composer wrote La Boh\u00e8me, Tosca, and Madame Butterfly?",
-    "options": [
-      "Giacomo Puccini",
-      "Giuseppe Verdi",
-      "Gioachino Rossini",
-      "Donizetti"
-    ],
-    "answer": 0,
-    "explanation": "Giacomo Puccini is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Giacomo Puccini wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_45",
-    "category": "arts_lit",
-    "question": "Which Italian composer wrote the grand operas La Traviata, Rigoletto, and Aida?",
-    "options": [
-      "Giuseppe Verdi",
-      "Giacomo Puccini",
-      "Gioachino Rossini",
-      "Vincenzo Bellini"
-    ],
-    "answer": 0,
-    "explanation": "Giuseppe Verdi is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Giuseppe Verdi wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_46",
-    "category": "arts_lit",
-    "question": "Which German opera composer created the epic four-opera cycle Der Ring des Nibelungen?",
-    "options": [
-      "Richard Wagner",
-      "Richard Strauss",
-      "Johannes Brahms",
-      "Gustav Mahler"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Richard Wagner is the primary answer associated with Which German opera composer created the epic four-opera cycle Der Ring des Nibelungen.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Richard Wagner** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_47",
-    "category": "arts_lit",
-    "question": "Who authored the classic 1813 romantic novel Pride and Prejudice?",
-    "options": [
-      "Jane Austen",
-      "Charlotte Bront\u00eb",
-      "Emily Bront\u00eb",
-      "George Eliot"
-    ],
-    "answer": 0,
-    "explanation": "Jane Austen is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Jane Austen wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_48",
-    "category": "arts_lit",
-    "question": "Which Victorian author wrote Jane Eyre under the pen name Currer Bell?",
-    "options": [
-      "Charlotte Bront\u00eb",
-      "Emily Bront\u00eb",
-      "Anne Bront\u00eb",
-      "Jane Austen"
-    ],
-    "answer": 0,
-    "explanation": "Charlotte Bront\u00eb is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Charlotte Bront\u00eb wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_49",
-    "category": "arts_lit",
-    "question": "Which Victorian author wrote Wuthering Heights under the pen name Ellis Bell?",
-    "options": [
-      "Emily Bront\u00eb",
-      "Charlotte Bront\u00eb",
-      "Anne Bront\u00eb",
-      "George Eliot"
-    ],
-    "answer": 0,
-    "explanation": "Emily Bront\u00eb is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Emily Bront\u00eb wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_50",
-    "category": "arts_lit",
-    "question": "Which Victorian author wrote Middlemarch under the male pen name George Eliot?",
-    "options": [
-      "George Eliot (Mary Ann Evans)",
-      "Charlotte Bront\u00eb",
-      "Elizabeth Gaskell",
-      "Virginia Woolf"
-    ],
-    "answer": 0,
-    "explanation": "George Eliot (Mary Ann Evans) is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** George Eliot (Mary Ann Evans) wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_51",
-    "category": "arts_lit",
-    "question": "Which Victorian author created Oliver Twist, Ebenezer Scrooge, and Great Expectations?",
-    "options": [
-      "Charles Dickens",
-      "Thomas Hardy",
-      "Thackeray",
-      "Trollope"
-    ],
-    "answer": 0,
-    "explanation": "Charles Dickens is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Charles Dickens wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_52",
-    "category": "arts_lit",
-    "question": "Which English author wrote Tess of the d'Urbervilles and Far from the Madding Crowd?",
-    "options": [
-      "Thomas Hardy",
-      "Charles Dickens",
-      "George Eliot",
-      "D.H. Lawrence"
-    ],
-    "answer": 0,
-    "explanation": "Thomas Hardy is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Thomas Hardy wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_53",
-    "category": "arts_lit",
-    "question": "Which English author wrote the dystopian classics Nineteen Eighty-Four and Animal Farm?",
-    "options": [
-      "George Orwell (Eric Blair)",
-      "Aldous Huxley",
-      "H.G. Wells",
-      "Arthur Koestler"
-    ],
-    "answer": 0,
-    "explanation": "George Orwell (Eric Blair) is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** George Orwell (Eric Blair) wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_54",
-    "category": "arts_lit",
-    "question": "Which American author wrote Jazz Age masterpiece The Great Gatsby in 1925?",
-    "options": [
-      "F. Scott Fitzgerald",
+    "difficulty": "easy",
+    "question": "Who wrote The Great Gatsby?",
+    "answer": "F. Scott Fitzgerald",
+    "distractors": [
       "Ernest Hemingway",
-      "William Faulkner",
-      "John Steinbeck"
-    ],
-    "answer": 0,
-    "explanation": "F. Scott Fitzgerald is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** F. Scott Fitzgerald wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_55",
-    "category": "arts_lit",
-    "question": "Which American author wrote The Old Man and the Sea and For Whom the Bell Tolls?",
-    "options": [
-      "Ernest Hemingway",
-      "F. Scott Fitzgerald",
       "John Steinbeck",
       "William Faulkner"
     ],
-    "answer": 0,
-    "explanation": "Ernest Hemingway is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Ernest Hemingway wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1925 to modest sales, it was rediscovered when copies were distributed to American troops during the Second World War.",
+    "hook": "It became a classic because the army handed it out to soldiers."
   },
   {
-    "id": "arts_fact_56",
+    "id": "art_018",
     "category": "arts_lit",
-    "question": "Which Nobel literature laureate wrote The Grapes of Wrath and Of Mice and Men?",
-    "options": [
-      "John Steinbeck",
-      "Ernest Hemingway",
-      "William Faulkner",
-      "Harper Lee"
+    "difficulty": "easy",
+    "question": "Which artist is famous for painting melting clocks in The Persistence of Memory?",
+    "answer": "Salvador Dalí",
+    "distractors": [
+      "René Magritte",
+      "Max Ernst",
+      "Joan Miró"
     ],
-    "answer": 0,
-    "explanation": "John Steinbeck is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** John Steinbeck wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Painted in 1931, the soft watches were reportedly inspired by camembert cheese melting in the sun rather than by relativity, as is often claimed.",
+    "hook": "The clocks came from melting cheese, not from Einstein."
   },
   {
-    "id": "arts_fact_57",
+    "id": "art_019",
     "category": "arts_lit",
-    "question": "Which Southern author wrote the Pulitzer-winning novel To Kill a Mockingbird?",
-    "options": [
-      "Harper Lee",
-      "Truman Capote",
-      "Toni Morrison",
-      "Flannery O'Connor"
+    "difficulty": "easy",
+    "question": "Who wrote the epic poem The Odyssey?",
+    "answer": "Homer",
+    "distractors": [
+      "Virgil",
+      "Ovid",
+      "Hesiod"
     ],
-    "answer": 0,
-    "explanation": "Harper Lee is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Harper Lee wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Virgil wrote the Aeneid in deliberate imitation of it; whether Homer was one person, several, or a tradition of oral performers is still debated.",
+    "hook": "Homer for Greek, Virgil for Roman — the Aeneid is the sequel Rome wrote for itself."
   },
   {
-    "id": "arts_fact_58",
+    "id": "art_020",
     "category": "arts_lit",
-    "question": "Which Russian literary giant wrote War and Peace and Anna Karenina?",
-    "options": [
-      "Leo Tolstoy",
-      "Fyodor Dostoevsky",
-      "Anton Chekhov",
-      "Ivan Turgenev"
+    "difficulty": "easy",
+    "question": "Which ceiling did Michelangelo paint between 1508 and 1512?",
+    "answer": "The Sistine Chapel",
+    "distractors": [
+      "St Peter's Basilica",
+      "The Pantheon",
+      "Santa Maria del Fiore"
     ],
-    "answer": 0,
-    "explanation": "Leo Tolstoy is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Leo Tolstoy wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "He worked standing on scaffolding, not lying down as legend has it, and considered himself a sculptor pressed unwillingly into painting.",
+    "hook": "He painted it standing up, and complained about the job the entire time."
   },
   {
-    "id": "arts_fact_59",
+    "id": "art_021",
     "category": "arts_lit",
-    "question": "Which Russian novelist wrote Crime and Punishment and The Brothers Karamazov?",
-    "options": [
-      "Fyodor Dostoevsky",
-      "Leo Tolstoy",
-      "Nikolai Gogol",
-      "Ivan Turgenev"
+    "difficulty": "easy",
+    "question": "Which novel features the characters Sherlock Holmes and Dr Watson?",
+    "answer": "A Study in Scarlet",
+    "distractors": [
+      "The Moonstone",
+      "The Woman in White",
+      "The Riddle of the Sands"
     ],
-    "answer": 0,
-    "explanation": "Fyodor Dostoevsky is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Fyodor Dostoevsky wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Arthur Conan Doyle introduced them in 1887 and later killed Holmes off at the Reichenbach Falls, only to revive him after a decade of public outcry.",
+    "hook": "Doyle killed Holmes and was forced by readers to bring him back."
   },
   {
-    "id": "arts_fact_60",
+    "id": "art_022",
     "category": "arts_lit",
-    "question": "Which Irish modernist author wrote the groundbreaking 1922 novel Ulysses?",
-    "options": [
-      "James Joyce",
-      "Samuel Beckett",
-      "Oscar Wilde",
-      "W.B. Yeats"
+    "difficulty": "easy",
+    "question": "Which Australian artist is best known for his series of Ned Kelly paintings?",
+    "answer": "Sidney Nolan",
+    "distractors": [
+      "Arthur Boyd",
+      "Albert Namatjira",
+      "Brett Whiteley"
     ],
-    "answer": 0,
-    "explanation": "James Joyce is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** James Joyce wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "The 1946-47 series reduced Kelly to a black helmet shape against the bush, and is held by the National Gallery of Australia.",
+    "hook": "Kelly became a black rectangle with a slot — the most recognisable shape in Australian art."
   },
   {
-    "id": "arts_fact_61",
+    "id": "art_023",
     "category": "arts_lit",
-    "question": "Which Irish playwright wrote The Importance of Being Earnest and The Picture of Dorian Gray?",
-    "options": [
-      "Oscar Wilde",
+    "difficulty": "easy",
+    "question": "Who wrote the Chronicles of Narnia?",
+    "answer": "C.S. Lewis",
+    "distractors": [
+      "J.R.R. Tolkien",
+      "Roald Dahl",
+      "Kenneth Grahame"
+    ],
+    "explanation": "He and Tolkien were close friends in the Oxford group known as the Inklings, though Tolkien disliked Narnia's mixing of mythologies.",
+    "hook": "Tolkien was his best friend and thought Narnia was a mess."
+  },
+  {
+    "id": "art_024",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which instrument did Louis Armstrong famously play?",
+    "answer": "The trumpet",
+    "distractors": [
+      "The saxophone",
+      "The clarinet",
+      "The trombone"
+    ],
+    "explanation": "He began on cornet, moved to trumpet, and effectively invented the jazz solo as a form; his 1964 recording of Hello, Dolly! knocked the Beatles off the US number one spot.",
+    "hook": "At sixty-two he knocked the Beatles off number one."
+  },
+  {
+    "id": "art_025",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Who wrote the novel Frankenstein?",
+    "answer": "Mary Shelley",
+    "distractors": [
+      "Bram Stoker",
+      "Emily Brontë",
+      "Ann Radcliffe"
+    ],
+    "explanation": "She was eighteen when she conceived it during a wet summer at Lake Geneva in 1816, in a ghost-story contest with Byron and her future husband.",
+    "hook": "Written at eighteen, out of a rained-out holiday and a dare."
+  },
+  {
+    "id": "art_026",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which art movement is Claude Monet most associated with?",
+    "answer": "Impressionism",
+    "distractors": [
+      "Cubism",
+      "Surrealism",
+      "Expressionism"
+    ],
+    "explanation": "The movement took its name from a hostile review of his painting Impression, Sunrise in 1874; the artists then adopted the insult as their label.",
+    "hook": "The name started as an insult from a critic, and they kept it."
+  },
+  {
+    "id": "art_027",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which poet wrote 'The Man from Snowy River'?",
+    "answer": "Banjo Paterson",
+    "distractors": [
+      "Henry Lawson",
+      "C.J. Dennis",
+      "Dorothea Mackellar"
+    ],
+    "explanation": "Published in the Bulletin in 1890, he also wrote Waltzing Matilda and Clancy of the Overflow; Lawson was his contemporary and literary sparring partner.",
+    "hook": "Paterson romanticised the bush, Lawson found it grim — they argued about it in print."
+  },
+  {
+    "id": "art_028",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which novel by Charles Dickens begins 'It was the best of times, it was the worst of times'?",
+    "answer": "A Tale of Two Cities",
+    "distractors": [
+      "Great Expectations",
+      "Oliver Twist",
+      "Bleak House"
+    ],
+    "explanation": "Published in 1859 and set during the French Revolution, it is among the best-selling novels ever written; the two cities are London and Paris.",
+    "hook": "The two cities are London and Paris, and the book has sold in the hundreds of millions."
+  },
+  {
+    "id": "art_029",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Italian artist painted The Birth of Venus?",
+    "answer": "Sandro Botticelli",
+    "distractors": [
+      "Titian",
+      "Caravaggio",
+      "Giotto"
+    ],
+    "explanation": "Painted around 1485 for the Medici, it was among the first large-scale canvases in Renaissance Tuscany rather than a wooden panel or fresco.",
+    "hook": "One of the first big Renaissance works painted on canvas rather than wood."
+  },
+  {
+    "id": "art_030",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Who wrote the play A Streetcar Named Desire?",
+    "answer": "Tennessee Williams",
+    "distractors": [
+      "Arthur Miller",
+      "Eugene O'Neill",
+      "Edward Albee"
+    ],
+    "explanation": "It won the 1948 Pulitzer and made Marlon Brando a star; the streetcar line named Desire genuinely ran in New Orleans.",
+    "hook": "There really was a Desire streetcar line in New Orleans."
+  },
+  {
+    "id": "art_031",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Australian poet wrote 'I love a sunburnt country'?",
+    "answer": "Dorothea Mackellar",
+    "distractors": [
+      "Judith Wright",
+      "Banjo Paterson",
+      "Les Murray"
+    ],
+    "explanation": "The line comes from My Country, written in 1904 when she was homesick in England at the age of nineteen.",
+    "hook": "Written by a homesick teenager in England, not in the sunburnt country at all."
+  },
+  {
+    "id": "art_032",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which composer was deaf for much of his later career?",
+    "answer": "Ludwig van Beethoven",
+    "distractors": [
+      "Frédéric Chopin",
+      "Franz Liszt",
+      "Richard Wagner"
+    ],
+    "explanation": "His hearing began failing in his late twenties; he continued composing by feeling vibrations through the floor and his conversation books survive as a record.",
+    "hook": "He wrote his greatest works after he could no longer hear them."
+  },
+  {
+    "id": "art_033",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which novel features the character Elizabeth Bennet?",
+    "answer": "Pride and Prejudice",
+    "distractors": [
+      "Jane Eyre",
+      "Middlemarch",
+      "Wuthering Heights"
+    ],
+    "explanation": "Austen called her 'as delightful a creature as ever appeared in print'; the novel's famous opening sentence about a single man in possession of a good fortune is ironic.",
+    "hook": "Austen herself said she was the most delightful character in print."
+  },
+  {
+    "id": "art_034",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Who painted Guernica in response to the bombing of a Basque town?",
+    "answer": "Pablo Picasso",
+    "distractors": [
+      "Joan Miró",
+      "Salvador Dalí",
+      "Diego Rivera"
+    ],
+    "explanation": "Painted in 1937 in black, white and grey, it hung in New York for decades at his insistence until Spain returned to democracy.",
+    "hook": "He refused to let it go to Spain while Franco lived."
+  },
+  {
+    "id": "art_035",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which playwright wrote The Importance of Being Earnest?",
+    "answer": "Oscar Wilde",
+    "distractors": [
       "George Bernard Shaw",
-      "Samuel Beckett",
-      "J.M. Synge"
+      "Noël Coward",
+      "J.M. Barrie"
     ],
-    "answer": 0,
-    "explanation": "Oscar Wilde is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Oscar Wilde wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "It premiered in February 1895 at the height of his fame; within months he was imprisoned for gross indecency and his name was removed from the playbills.",
+    "hook": "His greatest triumph and his ruin came within three months of each other."
   },
   {
-    "id": "arts_fact_62",
+    "id": "art_036",
     "category": "arts_lit",
-    "question": "Which Irish playwright wrote the absurdist masterwork Waiting for Godot?",
-    "options": [
-      "Samuel Beckett",
-      "James Joyce",
-      "Oscar Wilde",
-      "Seamus Heaney"
+    "difficulty": "medium",
+    "question": "Which title is Macbeth granted after the witches' first prophecy comes true?",
+    "answer": "Thane of Cawdor",
+    "distractors": [
+      "Thane of Glamis",
+      "Thane of Fife",
+      "Earl of Ross"
     ],
-    "answer": 0,
-    "explanation": "Samuel Beckett is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Samuel Beckett wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "He is already Thane of Glamis when the play opens; Macduff is Thane of Fife, and it is his family Macbeth later murders.",
+    "hook": "Glamis he has, Cawdor he gets, king he takes — the three-step prophecy."
   },
   {
-    "id": "arts_fact_63",
+    "id": "art_037",
     "category": "arts_lit",
-    "question": "Which French author wrote Les Mis\u00e9rables and The Hunchback of Notre-Dame?",
-    "options": [
-      "Victor Hugo",
-      "Alexandre Dumas",
-      "Gustave Flaubert",
-      "\u00c9mile Zola"
+    "difficulty": "medium",
+    "question": "Which Australian became the country's only Nobel laureate in Literature, in 1973?",
+    "answer": "Patrick White",
+    "distractors": [
+      "Peter Carey",
+      "Christina Stead",
+      "Thomas Keneally"
     ],
-    "answer": 0,
-    "explanation": "Victor Hugo is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Victor Hugo wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "He won for an epic and psychological narrative art that introduced a new continent into literature, and used the prize money to fund an award for older unrecognised writers.",
+    "hook": "He gave the prize money away to fund an award for overlooked writers."
   },
   {
-    "id": "arts_fact_64",
+    "id": "art_038",
     "category": "arts_lit",
-    "question": "Which French author wrote The Count of Monte Cristo and The Three Musketeers?",
-    "options": [
-      "Alexandre Dumas",
-      "Victor Hugo",
-      "Honor\u00e9 de Balzac",
-      "Jules Verne"
+    "difficulty": "medium",
+    "question": "Which novel won Richard Flanagan the 2014 Booker Prize?",
+    "answer": "The Narrow Road to the Deep North",
+    "distractors": [
+      "Gould's Book of Fish",
+      "The Sound of One Hand Clapping",
+      "Death of a River Guide"
     ],
-    "answer": 0,
-    "explanation": "Alexandre Dumas is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Alexandre Dumas wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Set among Australian prisoners on the Burma Railway, it draws on his father's experience; the title comes from a work by the Japanese poet Bashō.",
+    "hook": "The title is borrowed from Bashō — a Japanese poem for a book about Japanese captivity."
   },
   {
-    "id": "arts_fact_65",
+    "id": "art_039",
     "category": "arts_lit",
-    "question": "Which French novelist wrote the 1856 realist masterpiece Madame Bovary?",
-    "options": [
-      "Gustave Flaubert",
-      "\u00c9mile Zola",
-      "Marcel Proust",
-      "Maupassant"
+    "difficulty": "medium",
+    "question": "Which artist created the readymade sculpture Fountain, a signed urinal?",
+    "answer": "Marcel Duchamp",
+    "distractors": [
+      "Man Ray",
+      "Kurt Schwitters",
+      "Tristan Tzara"
     ],
-    "answer": 0,
-    "explanation": "Gustave Flaubert is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Gustave Flaubert wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Submitted anonymously to a 1917 New York exhibition and rejected, it is now regularly voted the most influential artwork of the twentieth century; the original is lost.",
+    "hook": "The most influential artwork of the century, and no original survives."
   },
   {
-    "id": "arts_fact_66",
+    "id": "art_040",
     "category": "arts_lit",
-    "question": "Which French author wrote the seven-volume epic In Search of Lost Time?",
-    "options": [
-      "Marcel Proust",
-      "Gustave Flaubert",
-      "Albert Camus",
-      "Jean-Paul Sartre"
+    "difficulty": "medium",
+    "question": "Which novel by Peter Carey won the Booker Prize in 2001?",
+    "answer": "True History of the Kelly Gang",
+    "distractors": [
+      "Oscar and Lucinda",
+      "Illywhacker",
+      "Jack Maggs"
     ],
-    "answer": 0,
-    "explanation": "Marcel Proust is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Marcel Proust wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Written in Kelly's unpunctuated voice, it made Carey one of the few writers to win the Booker twice, having taken it for Oscar and Lucinda in 1988.",
+    "hook": "Carey has two Bookers — Oscar and Lucinda in 1988, Ned Kelly in 2001."
   },
   {
-    "id": "arts_fact_67",
+    "id": "art_041",
     "category": "arts_lit",
-    "question": "Which French-Algerian existentialist author wrote The Stranger (L'\u00c9tranger) and The Plague?",
-    "options": [
-      "Albert Camus",
-      "Jean-Paul Sartre",
-      "Saint-Exup\u00e9ry",
-      "Andr\u00e9 Gide"
+    "difficulty": "medium",
+    "question": "Which Shakespeare play is set on an island ruled by Prospero?",
+    "answer": "The Tempest",
+    "distractors": [
+      "Twelfth Night",
+      "As You Like It",
+      "A Midsummer Night's Dream"
     ],
-    "answer": 0,
-    "explanation": "Albert Camus is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Albert Camus wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Generally taken as his last solo play, Prospero's renunciation of magic is often read as Shakespeare's own farewell to the stage.",
+    "hook": "Prospero drowning his book is usually read as Shakespeare retiring."
   },
   {
-    "id": "arts_fact_68",
+    "id": "art_042",
     "category": "arts_lit",
-    "question": "Which Spanish author wrote the two-part masterpiece Don Quixote (1605/1615)?",
-    "options": [
-      "Miguel de Cervantes",
-      "Lorca",
-      "Garc\u00eda M\u00e1rquez",
-      "Borges"
+    "difficulty": "medium",
+    "question": "Which artist is famous for Campbell's Soup Cans and screenprints of Marilyn Monroe?",
+    "answer": "Andy Warhol",
+    "distractors": [
+      "Roy Lichtenstein",
+      "Jasper Johns",
+      "Robert Rauschenberg"
     ],
-    "answer": 0,
-    "explanation": "Miguel de Cervantes is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Miguel de Cervantes wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "A leader of American Pop Art, he ran a studio called the Factory and predicted that everyone would be world-famous for fifteen minutes.",
+    "hook": "The fifteen minutes of fame line is his, and he meant it as a warning."
   },
   {
-    "id": "arts_fact_69",
+    "id": "art_043",
     "category": "arts_lit",
-    "question": "Which Colombian Nobel literature laureate wrote One Hundred Years of Solitude?",
-    "options": [
-      "Gabriel Garc\u00eda M\u00e1rquez",
-      "Vargas Llosa",
-      "Borges",
-      "Neruda"
+    "difficulty": "medium",
+    "question": "Which Russian novelist wrote War and Peace?",
+    "answer": "Leo Tolstoy",
+    "distractors": [
+      "Fyodor Dostoevsky",
+      "Ivan Turgenev",
+      "Nikolai Gogol"
     ],
-    "answer": 0,
-    "explanation": "Gabriel Garc\u00eda M\u00e1rquez is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Gabriel Garc\u00eda M\u00e1rquez wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published serially from 1865, he insisted it was not a novel at all; it runs to well over half a million words and contains substantial passages in French.",
+    "hook": "He denied it was a novel, and much of it is in French."
   },
   {
-    "id": "arts_fact_70",
+    "id": "art_044",
     "category": "arts_lit",
-    "question": "Which Chilean Nobel laureate poet wrote Twenty Love Poems and a Song of Despair?",
-    "options": [
-      "Pablo Neruda",
-      "Gabriela Mistral",
-      "Octavio Paz",
-      "Borges"
+    "difficulty": "medium",
+    "question": "Which painting was stolen from Oslo's National Gallery in 1994 and recovered months later?",
+    "answer": "The Scream",
+    "distractors": [
+      "Madonna",
+      "The Dance of Life",
+      "The Sick Child"
     ],
-    "answer": 0,
-    "explanation": "Pablo Neruda is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Pablo Neruda wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Edvard Munch made several versions; thieves left a note reading 'thanks for the poor security', and a different version was stolen again in 2004.",
+    "hook": "The thieves left a thank-you note mocking the security."
   },
   {
-    "id": "arts_fact_71",
+    "id": "art_045",
     "category": "arts_lit",
-    "question": "Which English epic poet wrote Paradise Lost in 1667?",
-    "options": [
-      "John Milton",
-      "Geoffrey Chaucer",
-      "William Blake",
-      "Alexander Pope"
+    "difficulty": "medium",
+    "question": "Which Australian novelist wrote Schindler's Ark, the basis for Schindler's List?",
+    "answer": "Thomas Keneally",
+    "distractors": [
+      "Peter Carey",
+      "David Malouf",
+      "Frank Moorhouse"
     ],
-    "answer": 0,
-    "explanation": "John Milton is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** John Milton wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "It won the 1982 Booker Prize amid debate about whether a work drawing so heavily on documented fact qualified as a novel.",
+    "hook": "A Booker won by a book people argued was not really fiction."
   },
   {
-    "id": "arts_fact_72",
+    "id": "art_046",
     "category": "arts_lit",
-    "question": "Which 14th-century poet authored The Canterbury Tales in Middle English?",
-    "options": [
-      "Geoffrey Chaucer",
-      "John Gower",
-      "William Langland",
-      "Thomas Malory"
+    "difficulty": "medium",
+    "question": "Which composer wrote the operas The Ring of the Nibelung?",
+    "answer": "Richard Wagner",
+    "distractors": [
+      "Giuseppe Verdi",
+      "Giacomo Puccini",
+      "Richard Strauss"
     ],
-    "answer": 0,
-    "explanation": "Geoffrey Chaucer is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Geoffrey Chaucer wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "The four-opera cycle takes about fifteen hours and he built a purpose-designed theatre at Bayreuth to stage it, still used for annual festivals.",
+    "hook": "He built an entire theatre because no existing one could stage it properly."
   },
   {
-    "id": "arts_fact_73",
+    "id": "art_047",
     "category": "arts_lit",
-    "question": "Which Italian medieval poet wrote the epic three-part Divine Comedy?",
-    "options": [
-      "Dante Alighieri",
-      "Petrarch",
-      "Boccaccio",
-      "Tasso"
+    "difficulty": "medium",
+    "question": "Which novel opens 'It is a truth universally acknowledged'?",
+    "answer": "Pride and Prejudice",
+    "distractors": [
+      "Emma",
+      "Persuasion",
+      "Sense and Sensibility"
     ],
-    "answer": 0,
-    "explanation": "Dante Alighieri is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Dante Alighieri wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "The sentence is ironic: it is the neighbourhood's assumption, not the narrator's, that a wealthy single man must want a wife.",
+    "hook": "The famous line is a joke at the neighbours' expense, not a statement of fact."
   },
   {
-    "id": "arts_fact_74",
+    "id": "art_048",
     "category": "arts_lit",
-    "question": "Which Roman poet acts as Dante's guide through Hell in the Inferno?",
-    "options": [
-      "Virgil",
-      "Ovid",
-      "Horace",
-      "Homer"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Virgil is the primary answer associated with Which Roman poet acts as Dante's guide through Hell in the Inferno.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Virgil** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_75",
-    "category": "arts_lit",
-    "question": "Which Roman poet authored the epic national foundation poem The Aeneid?",
-    "options": [
-      "Virgil",
-      "Ovid",
-      "Horace",
-      "Lucretius"
-    ],
-    "answer": 0,
-    "explanation": "Virgil is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Virgil wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_76",
-    "category": "arts_lit",
-    "question": "Which Roman poet authored Metamorphoses, detailing mythological transformations?",
-    "options": [
-      "Ovid",
-      "Virgil",
-      "Horace",
-      "Catullus"
-    ],
-    "answer": 0,
-    "explanation": "Ovid is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Ovid wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_77",
-    "category": "arts_lit",
-    "question": "Which ancient Greek epic poet is credited with composing the Iliad and Odyssey?",
-    "options": [
-      "Homer",
-      "Hesiod",
-      "Pindar",
-      "Sappho"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Homer is the primary answer associated with Which ancient Greek epic poet is credited with composing the Iliad and Odyssey.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Homer** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_78",
-    "category": "arts_lit",
-    "question": "Which ancient Greek lyric poetess lived on the island of Lesbos?",
-    "options": [
-      "Sappho",
-      "Corinna",
-      "Anyte",
-      "Telesilla"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Sappho is the primary answer associated with Which ancient Greek lyric poetess lived on the island of Lesbos.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Sappho** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_79",
-    "category": "arts_lit",
-    "question": "Which Renaissance sculptor carved the iconic marble statue of David in Florence?",
-    "options": [
-      "Michelangelo",
-      "Donatello",
-      "Bernini",
-      "Cellini"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Michelangelo is the primary answer associated with Which Renaissance sculptor carved the iconic marble statue of David in Florence.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Michelangelo** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_80",
-    "category": "arts_lit",
-    "question": "Which French sculptor created the famous bronze statue The Thinker?",
-    "options": [
-      "Auguste Rodin",
-      "Camille Claudel",
-      "Bourdelle",
-      "Maillol"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Auguste Rodin is the primary answer associated with Which French sculptor created the famous bronze statue The Thinker.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Auguste Rodin** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_81",
-    "category": "arts_lit",
-    "question": "Which famous ancient Greek marble sculpture of Aphrodite is housed in the Louvre Museum?",
-    "options": [
-      "Venus de Milo",
-      "Winged Victory",
-      "Discobolos",
-      "Artemision Bronze"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Venus de Milo is the primary answer associated with Which famous ancient Greek marble sculpture of Aphrodite is housed in the Louvre Museum.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Venus de Milo** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_82",
-    "category": "arts_lit",
-    "question": "Which ancient Hellenistic marble sculpture depicting Nike is displayed at the top of the Louvre staircase?",
-    "options": [
-      "Winged Victory of Samothrace",
-      "Venus de Milo",
-      "Laoco\u00f6n",
-      "Peplos Kore"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Winged Victory of Samothrace is the primary answer associated with Which ancient Hellenistic marble sculpture depicting Nike is displayed at the top of the Louvre staircase.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Winged Victory of Samothrace** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_83",
-    "category": "arts_lit",
-    "question": "Which Dutch Golden Age master painted The Night Watch in 1642?",
-    "options": [
-      "Rembrandt van Rijn",
+    "difficulty": "medium",
+    "question": "Which Dutch painter created The Night Watch?",
+    "answer": "Rembrandt",
+    "distractors": [
       "Johannes Vermeer",
       "Frans Hals",
       "Jan Steen"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Rembrandt van Rijn is the primary answer associated with Which Dutch Golden Age master painted The Night Watch in 1642.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Rembrandt van Rijn** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Completed in 1642, the painting was later trimmed to fit a wall in Amsterdam's town hall, permanently removing figures from the left side.",
+    "hook": "It was cut down to fit a wall, and the missing figures are gone for good."
   },
   {
-    "id": "arts_fact_84",
+    "id": "art_049",
     "category": "arts_lit",
-    "question": "Which Dutch Golden Age master painted Girl with a Pearl Earring?",
-    "options": [
-      "Johannes Vermeer",
-      "Rembrandt",
-      "Frans Hals",
-      "Pieter de Hooch"
+    "difficulty": "medium",
+    "question": "Which literary award is Australia's most prestigious for a novel of Australian life?",
+    "answer": "The Miles Franklin Award",
+    "distractors": [
+      "The Stella Prize",
+      "The Vogel Award",
+      "The Prime Minister's Literary Award"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Johannes Vermeer is the primary answer associated with Which Dutch Golden Age master painted Girl with a Pearl Earring.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Johannes Vermeer** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Funded by the estate of the author of My Brilliant Career, it requires the novel to present Australian life in any of its phases, a clause that has caused repeated controversy.",
+    "hook": "The 'Australian life' clause in the will has caused arguments for seventy years."
   },
   {
-    "id": "arts_fact_85",
+    "id": "art_050",
     "category": "arts_lit",
-    "question": "Which Expressionist painter created the famous 1893 artwork The Scream?",
-    "options": [
-      "Edvard Munch",
-      "Gustav Klimt",
-      "Egon Schiele",
-      "James Ensor"
+    "difficulty": "medium",
+    "question": "Which Irish writer wrote Ulysses?",
+    "answer": "James Joyce",
+    "distractors": [
+      "Samuel Beckett",
+      "W.B. Yeats",
+      "Flann O'Brien"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Edvard Munch is the primary answer associated with Which Expressionist painter created the famous 1893 artwork The Scream.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Edvard Munch** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1922, it follows one day in Dublin, 16 June 1904, now celebrated as Bloomsday; the date is when he first walked out with Nora Barnacle.",
+    "hook": "The whole novel happens on the day he first went walking with his future wife."
   },
   {
-    "id": "arts_fact_86",
+    "id": "art_051",
     "category": "arts_lit",
-    "question": "Which Austrian Symbolist master painted the golden canvas The Kiss (1907-08)?",
-    "options": [
-      "Gustav Klimt",
-      "Egon Schiele",
-      "Oskar Kokoschka",
-      "Max Kurzweil"
+    "difficulty": "medium",
+    "question": "Which artist painted the ceiling fresco known as The Creation of Adam?",
+    "answer": "Michelangelo",
+    "distractors": [
+      "Raphael",
+      "Leonardo da Vinci",
+      "Botticelli"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Gustav Klimt is the primary answer associated with Which Austrian Symbolist master painted the golden canvas The Kiss (1907-08).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Gustav Klimt** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The shape surrounding God has been argued to resemble a cross-section of the human brain, though whether that was intentional remains speculation.",
+    "hook": "The red cloak around God looks strikingly like a brain in cross-section."
   },
   {
-    "id": "arts_fact_87",
+    "id": "art_052",
     "category": "arts_lit",
-    "question": "Which Impressionist master painted the Water Lilies series at his Giverny garden?",
-    "options": [
-      "Claude Monet",
+    "difficulty": "medium",
+    "question": "Which Australian artist won the Archibald Prize and painted Alchemy?",
+    "answer": "Brett Whiteley",
+    "distractors": [
+      "Sidney Nolan",
+      "John Olsen",
+      "Arthur Boyd"
+    ],
+    "explanation": "He won the Archibald, Wynne and Sulman prizes in the same year in 1978, a feat unmatched before or since.",
+    "hook": "He swept all three major prizes in a single year — nobody else has."
+  },
+  {
+    "id": "art_053",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which novel by Emily Brontë is set on the Yorkshire moors?",
+    "answer": "Wuthering Heights",
+    "distractors": [
+      "Jane Eyre",
+      "Villette",
+      "Agnes Grey"
+    ],
+    "explanation": "Her only novel, published in 1847 under the pen name Ellis Bell; Jane Eyre was by her sister Charlotte and Agnes Grey by Anne.",
+    "hook": "Three sisters, three novels, three male pen names — Currer, Ellis and Acton Bell."
+  },
+  {
+    "id": "art_054",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which artist painted the Water Lilies series at his garden in Giverny?",
+    "answer": "Claude Monet",
+    "distractors": [
       "Pierre-Auguste Renoir",
-      "Edgar Degas",
-      "Camille Pissarro"
+      "Camille Pissarro",
+      "Alfred Sisley"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Claude Monet is the primary answer associated with Which Impressionist master painted the Water Lilies series at his Giverny garden.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Claude Monet** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He produced around 250 paintings of the pond over thirty years, working on with increasingly severe cataracts that visibly altered his palette.",
+    "hook": "You can date the late ones by how his cataracts changed the colours."
   },
   {
-    "id": "arts_fact_88",
+    "id": "art_055",
     "category": "arts_lit",
-    "question": "Which Impressionist artist is famous for depicting ballet dancers on stage and rehearsal?",
-    "options": [
-      "Edgar Degas",
-      "Pierre-Auguste Renoir",
-      "\u00c9douard Manet",
-      "Paul C\u00e9zanne"
+    "difficulty": "medium",
+    "question": "Which playwright wrote Waiting for Godot?",
+    "answer": "Samuel Beckett",
+    "distractors": [
+      "Harold Pinter",
+      "Eugène Ionesco",
+      "Tom Stoppard"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Edgar Degas is the primary answer associated with Which Impressionist artist is famous for depicting ballet dancers on stage and rehearsal.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Edgar Degas** for this question.",
-    "difficulty": "Medium"
+    "explanation": "First staged in French in 1953, he wrote it in French and translated it himself; he described it as a play in which nothing happens, twice.",
+    "hook": "Famously summarised as a play where nothing happens — twice."
   },
   {
-    "id": "arts_fact_89",
+    "id": "art_056",
     "category": "arts_lit",
-    "question": "Which Post-Impressionist master lived and painted in Tahiti during his later life?",
-    "options": [
-      "Paul Gauguin",
-      "Vincent van Gogh",
-      "Paul C\u00e9zanne",
-      "Georges Seurat"
+    "difficulty": "medium",
+    "question": "Which Colombian author wrote One Hundred Years of Solitude?",
+    "answer": "Gabriel García Márquez",
+    "distractors": [
+      "Mario Vargas Llosa",
+      "Jorge Luis Borges",
+      "Isabel Allende"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Paul Gauguin is the primary answer associated with Which Post-Impressionist master lived and painted in Tahiti during his later life.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Paul Gauguin** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The 1967 novel defined magical realism and won him the 1982 Nobel; he reportedly sold his car to fund the writing of it.",
+    "hook": "He sold the family car to buy time to finish it."
   },
   {
-    "id": "arts_fact_90",
+    "id": "art_057",
     "category": "arts_lit",
-    "question": "Which French painter developed the technique of Pointillism, seen in A Sunday on La Grande Jatte?",
-    "options": [
-      "Georges Seurat",
-      "Paul Signac",
-      "Paul C\u00e9zanne",
-      "Henri de Toulouse-Lautrec"
+    "difficulty": "medium",
+    "question": "Which Australian Indigenous artist was famous for watercolour landscapes of the Central Desert?",
+    "answer": "Albert Namatjira",
+    "distractors": [
+      "Emily Kame Kngwarreye",
+      "Rover Thomas",
+      "Clifford Possum Tjapaltjarri"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Georges Seurat is the primary answer associated with Which French painter developed the technique of Pointillism, seen in A Sunday on La Grande Jatte.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Georges Seurat** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He became the first Aboriginal person granted Australian citizenship, in 1957, while most Aboriginal people remained under restrictive state laws.",
+    "hook": "He was given citizenship in his own country as a special exception."
   },
   {
-    "id": "arts_fact_91",
+    "id": "art_058",
     "category": "arts_lit",
-    "question": "Which French Post-Impressionist painter is widely considered the 'Father of Modern Art'?",
-    "options": [
-      "Paul C\u00e9zanne",
-      "Paul Gauguin",
-      "Vincent van Gogh",
-      "Henri Matisse"
+    "difficulty": "medium",
+    "question": "Which Greek tragedy features a king who unknowingly kills his father and marries his mother?",
+    "answer": "Oedipus Rex",
+    "distractors": [
+      "Antigone",
+      "Medea",
+      "The Oresteia"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Paul C\u00e9zanne is the primary answer associated with Which French Post-Impressionist painter is widely considered the 'Father of Modern Art'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Paul C\u00e9zanne** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Sophocles' play gave Freud the name for his theory; Antigone, also by Sophocles, concerns Oedipus's daughter.",
+    "hook": "Sophocles wrote both Oedipus and the sequel about his daughter Antigone."
   },
   {
-    "id": "arts_fact_92",
+    "id": "art_059",
     "category": "arts_lit",
-    "question": "Which French master led the Fauvism movement and created expressive paper cut-outs in later life?",
-    "options": [
-      "Henri Matisse",
-      "Andr\u00e9 Derain",
-      "Maurice de Vlaminck",
-      "Raoul Dufy"
+    "difficulty": "medium",
+    "question": "Which artist's blue and rose periods preceded his invention of Cubism?",
+    "answer": "Pablo Picasso",
+    "distractors": [
+      "Georges Braque",
+      "Juan Gris",
+      "Fernand Léger"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Henri Matisse is the primary answer associated with Which French master led the Fauvism movement and created expressive paper cut-outs in later life.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Henri Matisse** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He developed Cubism with Georges Braque from around 1907, breaking objects into simultaneous viewpoints; the two worked so closely their canvases are sometimes hard to tell apart.",
+    "hook": "Blue, then rose, then Cubism — and Braque was there for the third."
   },
   {
-    "id": "arts_fact_93",
+    "id": "art_060",
     "category": "arts_lit",
-    "question": "Which Mexican painter is internationally celebrated for her uncompromising self-portraits?",
-    "options": [
-      "Frida Kahlo",
-      "Diego Rivera",
-      "Mar\u00eda Izquierdo",
-      "Leonora Carrington"
+    "difficulty": "medium",
+    "question": "Which novel by Margaret Atwood is set in the Republic of Gilead?",
+    "answer": "The Handmaid's Tale",
+    "distractors": [
+      "Oryx and Crake",
+      "Cat's Eye",
+      "Alias Grace"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Frida Kahlo is the primary answer associated with Which Mexican painter is internationally celebrated for her uncompromising self-portraits.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Frida Kahlo** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1985, she has said she included nothing that had not happened somewhere at some point in history; the sequel The Testaments won the Booker in 2019.",
+    "hook": "Her rule while writing: nothing in it that had not already happened somewhere."
   },
   {
-    "id": "arts_fact_94",
+    "id": "art_061",
     "category": "arts_lit",
-    "question": "Which Pop Art icon created Campbell's Soup Cans and Marilyn Diptych?",
-    "options": [
-      "Andy Warhol",
-      "Roy Lichtenstein",
-      "Jasper Johns",
-      "Claes Oldenburg"
+    "difficulty": "medium",
+    "question": "Which composer wrote the opera The Magic Flute?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "distractors": [
+      "Joseph Haydn",
+      "Christoph Gluck",
+      "Antonio Salieri"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Andy Warhol is the primary answer associated with Which Pop Art icon created Campbell's Soup Cans and Marilyn Diptych.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Andy Warhol** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Premiered in September 1791, weeks before his death at thirty-five; it is a Singspiel, with spoken dialogue rather than continuous sung recitative.",
+    "hook": "Premiered weeks before he died, and it has spoken dialogue like a musical."
   },
   {
-    "id": "arts_fact_95",
+    "id": "art_062",
     "category": "arts_lit",
-    "question": "Which Pop Art pioneer used comic strip Ben-Day dots in paintings like Whaam!?",
-    "options": [
-      "Roy Lichtenstein",
-      "Andy Warhol",
-      "Keith Haring",
-      "Jean-Michel Basquiat"
+    "difficulty": "medium",
+    "question": "Which Australian novel by Miles Franklin was published in 1901?",
+    "answer": "My Brilliant Career",
+    "distractors": [
+      "The Getting of Wisdom",
+      "Such is Life",
+      "For the Term of His Natural Life"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Roy Lichtenstein is the primary answer associated with Which Pop Art pioneer used comic strip Ben-Day dots in paintings like Whaam!.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Roy Lichtenstein** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Written when she was a teenager, she withdrew it from publication for decades because her family recognised themselves in it; the 1979 film starred Judy Davis.",
+    "hook": "She suppressed her own book for decades because relatives took offence."
   },
   {
-    "id": "arts_fact_96",
+    "id": "art_063",
     "category": "arts_lit",
-    "question": "Which Abstract Expressionist painter pioneered the drip painting technique?",
-    "options": [
-      "Jackson Pollock",
-      "Willem de Kooning",
-      "Mark Rothko",
-      "Franz Kline"
+    "difficulty": "medium",
+    "question": "Which movement in art is characterised by dripped and poured paint on large canvases?",
+    "answer": "Abstract Expressionism",
+    "distractors": [
+      "Fauvism",
+      "Constructivism",
+      "Futurism"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Jackson Pollock is the primary answer associated with Which Abstract Expressionist painter pioneered the drip painting technique.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Jackson Pollock** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Jackson Pollock's drip technique made him its emblem; the National Gallery of Australia's purchase of Blue Poles for $1.3 million in 1973 caused a national political row.",
+    "hook": "Blue Poles cost $1.3 million in 1973 and nearly became an election issue."
   },
   {
-    "id": "arts_fact_97",
+    "id": "art_064",
     "category": "arts_lit",
-    "question": "Which Abstract Expressionist painter created large color-field canvases of stacked rectangular hues?",
-    "options": [
-      "Mark Rothko",
-      "Jackson Pollock",
-      "Ad Reinhardt",
-      "Franz Kline"
+    "difficulty": "medium",
+    "question": "Which poet wrote 'Do not go gentle into that good night'?",
+    "answer": "Dylan Thomas",
+    "distractors": [
+      "W.H. Auden",
+      "T.S. Eliot",
+      "Philip Larkin"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Mark Rothko is the primary answer associated with Which Abstract Expressionist painter created large color-field canvases of stacked rectangular hues.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mark Rothko** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Written in 1947 as his father was dying, it is a villanelle, a strict nineteen-line form with two repeating refrains.",
+    "hook": "It is a villanelle — the repetition is a rule of the form, not a stylistic choice."
   },
   {
-    "id": "arts_fact_98",
+    "id": "art_065",
     "category": "arts_lit",
-    "question": "Which British modernist sculptor created large abstract reclining bronze figures?",
-    "options": [
+    "difficulty": "medium",
+    "question": "Which novel features Captain Ahab's pursuit of a white whale?",
+    "answer": "Moby-Dick",
+    "distractors": [
+      "Billy Budd",
+      "The Sea-Wolf",
+      "Typee"
+    ],
+    "explanation": "Melville drew on the real sinking of the whaleship Essex by a sperm whale in 1820, whose survivors resorted to cannibalism.",
+    "hook": "Based on a real whale that sank a real ship — the Essex, in 1820."
+  },
+  {
+    "id": "art_066",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Australian playwright wrote The Removalists and Don's Party?",
+    "answer": "David Williamson",
+    "distractors": [
+      "Ray Lawler",
+      "Patrick White",
+      "Louis Nowra"
+    ],
+    "explanation": "He became Australia's most performed playwright from the 1970s; Ray Lawler's Summer of the Seventeenth Doll had opened the way in 1955.",
+    "hook": "Lawler broke the ground in 1955; Williamson built the house in the 1970s."
+  },
+  {
+    "id": "art_067",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which French novelist wrote In Search of Lost Time?",
+    "answer": "Marcel Proust",
+    "distractors": [
+      "Gustave Flaubert",
+      "Émile Zola",
+      "Albert Camus"
+    ],
+    "explanation": "At around 1.2 million words it is often cited as the longest novel ever published; the madeleine dipped in tea occurs early in the first volume.",
+    "hook": "Longest novel ever published, and the famous cake appears in the first hundred pages."
+  },
+  {
+    "id": "art_068",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which sculptor created The Thinker?",
+    "answer": "Auguste Rodin",
+    "distractors": [
+      "Antonio Canova",
       "Henry Moore",
-      "Barbara Hepworth",
-      "Anthony Caro",
-      "Damien Hirst"
+      "Alberto Giacometti"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Henry Moore is the primary answer associated with Which British modernist sculptor created large abstract reclining bronze figures.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Henry Moore** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It began as part of a larger work, The Gates of Hell, depicting Dante contemplating his poem, before being enlarged and cast independently.",
+    "hook": "He is not thinking in general — he is Dante looking down into hell."
   },
   {
-    "id": "arts_fact_99",
+    "id": "art_069",
     "category": "arts_lit",
-    "question": "Which Young British Artist created The Physical Impossibility of Death in the Mind of Someone Living (a shark in formaldehyde)?",
-    "options": [
-      "Damien Hirst",
+    "difficulty": "medium",
+    "question": "Which Shakespeare character says 'To be, or not to be'?",
+    "answer": "Hamlet",
+    "distractors": [
+      "Othello",
+      "King Lear",
+      "Richard III"
+    ],
+    "explanation": "The soliloquy weighs existence against suicide and comes in Act 3, well after the play's midpoint, not at its opening as often assumed.",
+    "hook": "It comes in Act 3, not at the start — a common misremembering."
+  },
+  {
+    "id": "art_070",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Nigerian author wrote Things Fall Apart?",
+    "answer": "Chinua Achebe",
+    "distractors": [
+      "Wole Soyinka",
+      "Ben Okri",
+      "Chimamanda Ngozi Adichie"
+    ],
+    "explanation": "Published in 1958, it takes its title from Yeats's poem The Second Coming and is the most widely read African novel in English.",
+    "hook": "The title is lifted straight from a Yeats poem."
+  },
+  {
+    "id": "art_071",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which architectural style is characterised by pointed arches and flying buttresses?",
+    "answer": "Gothic",
+    "distractors": [
+      "Romanesque",
+      "Baroque",
+      "Neoclassical"
+    ],
+    "explanation": "The name was originally a Renaissance insult implying barbarism; Romanesque used round arches and much thicker walls to carry the same loads.",
+    "hook": "'Gothic' began as an insult meaning barbaric."
+  },
+  {
+    "id": "art_072",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which author created the detective Hercule Poirot?",
+    "answer": "Agatha Christie",
+    "distractors": [
+      "Dorothy L. Sayers",
+      "Georges Simenon",
+      "Raymond Chandler"
+    ],
+    "explanation": "She is the best-selling novelist of all time, and killed Poirot off in Curtain, written during the Second World War but published in 1975.",
+    "hook": "She wrote his death in the 1940s and locked it in a vault for thirty years."
+  },
+  {
+    "id": "art_073",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Australian singer-songwriter wrote 'From Little Things Big Things Grow' with Kev Carmody?",
+    "answer": "Paul Kelly",
+    "distractors": [
+      "Nick Cave",
+      "Archie Roach",
+      "Neil Murray"
+    ],
+    "explanation": "Written in 1991, it tells the story of Vincent Lingiari and the Gurindji walk-off at Wave Hill that led to the first land handback in 1975.",
+    "hook": "A song that is really a history lesson about the Wave Hill walk-off."
+  },
+  {
+    "id": "art_074",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which novel by George Orwell features the commandment 'All animals are equal, but some animals are more equal than others'?",
+    "answer": "Animal Farm",
+    "distractors": [
+      "Nineteen Eighty-Four",
+      "Burmese Days",
+      "Coming Up for Air"
+    ],
+    "explanation": "Published in 1945, several publishers rejected it for offending the Soviet ally; T.S. Eliot at Faber was among those who turned it down.",
+    "hook": "T.S. Eliot rejected it for being politically inconvenient in 1944."
+  },
+  {
+    "id": "art_075",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which artist painted American Gothic, showing a farmer with a pitchfork?",
+    "answer": "Grant Wood",
+    "distractors": [
+      "Edward Hopper",
+      "Andrew Wyeth",
+      "Thomas Hart Benton"
+    ],
+    "explanation": "Painted in 1930, the models were his dentist and his sister, and the pair are meant to be father and daughter rather than husband and wife.",
+    "hook": "The models were his dentist and his sister, posed as father and daughter."
+  },
+  {
+    "id": "art_076",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian was the first to win the Booker Prize, in 1982?",
+    "answer": "Thomas Keneally",
+    "distractors": [
+      "Peter Carey",
+      "Richard Flanagan",
+      "David Malouf"
+    ],
+    "explanation": "Schindler's Ark took the prize in 1982; Peter Carey followed in 1988 and 2001, and Richard Flanagan in 2014, making four Booker wins for Australia.",
+    "hook": "Keneally 1982, Carey 1988 and 2001, Flanagan 2014 — the whole Australian list."
+  },
+  {
+    "id": "art_077",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Italian poet wrote the Divine Comedy?",
+    "answer": "Dante Alighieri",
+    "distractors": [
+      "Petrarch",
+      "Boccaccio",
+      "Ariosto"
+    ],
+    "explanation": "Written in Tuscan vernacular rather than Latin, it helped establish modern Italian; Virgil guides him through hell and purgatory but cannot enter paradise.",
+    "hook": "Virgil takes him as far as paradise and then has to stop — he was a pagan."
+  },
+  {
+    "id": "art_078",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which artist painted The Garden of Earthly Delights?",
+    "answer": "Hieronymus Bosch",
+    "distractors": [
+      "Pieter Bruegel the Elder",
+      "Matthias Grünewald",
+      "Albrecht Dürer"
+    ],
+    "explanation": "The triptych was painted around 1500 and its right panel of hell includes a figure with musical notation written on his buttocks, which musicians have since transcribed and performed.",
+    "hook": "Someone transcribed the tune written on a damned soul's backside — it exists as a recording."
+  },
+  {
+    "id": "art_079",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian novelist wrote The Man Who Loved Children?",
+    "answer": "Christina Stead",
+    "distractors": [
+      "Henry Handel Richardson",
+      "Eleanor Dark",
+      "Miles Franklin"
+    ],
+    "explanation": "Published in 1940 to little notice, it was rediscovered in 1965 after an essay by Randall Jarrell and is now widely regarded as a masterpiece.",
+    "hook": "Ignored for twenty-five years until one critic's essay resurrected it."
+  },
+  {
+    "id": "art_080",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian author wrote under the pen name Henry Handel Richardson?",
+    "answer": "Ethel Florence Lindesay Richardson",
+    "distractors": [
+      "Stella Miles Franklin",
+      "Barbara Baynton",
+      "Katharine Susannah Prichard"
+    ],
+    "explanation": "She adopted a male name to be taken seriously; her trilogy The Fortunes of Richard Mahony traces a doctor's decline during and after the gold rushes.",
+    "hook": "Another Australian woman who published under a man's name to be read."
+  },
+  {
+    "id": "art_081",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which composer wrote the Enigma Variations?",
+    "answer": "Edward Elgar",
+    "distractors": [
+      "Gustav Holst",
+      "Ralph Vaughan Williams",
+      "Frederick Delius"
+    ],
+    "explanation": "Each variation portrays a friend, and he hinted at a hidden theme running through the whole work that he never revealed; theories are still published.",
+    "hook": "He took the secret theme to his grave and people are still guessing."
+  },
+  {
+    "id": "art_082",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which novel by Vladimir Nabokov is told through a fictional poem and its commentary?",
+    "answer": "Pale Fire",
+    "distractors": [
+      "Lolita",
+      "Pnin",
+      "Ada"
+    ],
+    "explanation": "Published in 1962, it presents a 999-line poem followed by an unreliable editor's notes, and can be read in almost any order.",
+    "hook": "A novel disguised as a poem plus footnotes, readable in any order you like."
+  },
+  {
+    "id": "art_083",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian artist represented the country with the work Kngwarreye at the Venice Biennale in 1997?",
+    "answer": "Emily Kame Kngwarreye",
+    "distractors": [
+      "Rover Thomas",
+      "Fiona Hall",
+      "Tracey Moffatt"
+    ],
+    "explanation": "She began painting on canvas in her late seventies and produced some 3,000 works in eight years before her death in 1996.",
+    "hook": "She started painting at nearly eighty and made three thousand works in eight years."
+  },
+  {
+    "id": "art_084",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Japanese novelist wrote The Tale of Genji, often called the world's first novel?",
+    "answer": "Murasaki Shikibu",
+    "distractors": [
+      "Sei Shōnagon",
+      "Yasunari Kawabata",
+      "Bashō"
+    ],
+    "explanation": "Written around 1010 by a lady of the Heian court, it predates European novels by centuries; Sei Shōnagon was a contemporary and rival diarist.",
+    "hook": "The first novel was written by a Japanese woman a thousand years ago."
+  },
+  {
+    "id": "art_085",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which painter is associated with the Heidelberg School of Australian impressionism?",
+    "answer": "Tom Roberts",
+    "distractors": [
+      "Russell Drysdale",
+      "Margaret Preston",
+      "Grace Cossington Smith"
+    ],
+    "explanation": "Working with Arthur Streeton and Frederick McCubbin from the 1880s, he painted Shearing the Rams and The Big Picture of the opening of federal parliament.",
+    "hook": "Roberts, Streeton and McCubbin — the Heidelberg trio who invented the Australian landscape look."
+  },
+  {
+    "id": "art_086",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which poet wrote the collection Leaves of Grass, revised throughout his life?",
+    "answer": "Walt Whitman",
+    "distractors": [
+      "Emily Dickinson",
+      "Ralph Waldo Emerson",
+      "Henry Wadsworth Longfellow"
+    ],
+    "explanation": "First published at his own expense in 1855 with twelve poems, it grew across nine editions to more than 400 by the 1892 'deathbed' edition.",
+    "hook": "One book, nine editions, thirty-seven years of revision."
+  },
+  {
+    "id": "art_087",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which artist created the installation The Physical Impossibility of Death in the Mind of Someone Living?",
+    "answer": "Damien Hirst",
+    "distractors": [
       "Tracey Emin",
-      "Banksy",
-      "Anish Kapoor"
+      "Anish Kapoor",
+      "Rachel Whiteread"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Damien Hirst is the primary answer associated with Which Young British Artist created The Physical Impossibility of Death in the Mind of Someone Living (a shark in formaldehyde).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Damien Hirst** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The 1991 work is a tiger shark in formaldehyde; the original specimen decayed and had to be replaced, raising questions about what the artwork actually is.",
+    "hook": "The shark rotted and was swapped — so is it still the same artwork?"
   },
   {
-    "id": "arts_fact_100",
+    "id": "art_088",
     "category": "arts_lit",
-    "question": "Which anonymous street artist created Girl with Balloon and shredded it live at auction?",
-    "options": [
-      "Banksy",
-      "Invader",
-      "Shepard Fairey",
-      "Blek le Rat"
+    "difficulty": "hard",
+    "question": "Which Shakespeare play contains the stage direction 'Exit, pursued by a bear'?",
+    "answer": "The Winter's Tale",
+    "distractors": [
+      "As You Like It",
+      "Cymbeline",
+      "Pericles"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Banksy is the primary answer associated with Which anonymous street artist created Girl with Balloon and shredded it live at auction.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Banksy** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It marks the abrupt tonal shift at the play's midpoint; scholars still argue over whether a real bear or a costumed actor was used at the Globe.",
+    "hook": "Nobody knows whether the Globe used a costume or an actual bear."
   },
   {
-    "id": "arts_fact_101",
+    "id": "art_089",
     "category": "arts_lit",
-    "question": "What is Ludwig van Beethoven's only opera?",
-    "options": [
-      "Fidelio",
-      "Der Freisch\u00fctz",
-      "Parsifal",
-      "Lohengrin"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Fidelio is the primary answer associated with What is Ludwig van Beethoven's only opera.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Fidelio** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_102",
-    "category": "arts_lit",
-    "question": "Which Romantic composer wrote the Wedding March in A Midsummer Night's Dream?",
-    "options": [
-      "Felix Mendelssohn",
-      "Richard Wagner",
-      "Robert Schumann",
-      "Johannes Brahms"
-    ],
-    "answer": 0,
-    "explanation": "Felix Mendelssohn is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Felix Mendelssohn wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_103",
-    "category": "arts_lit",
-    "question": "Which composer wrote the Bridal Chorus ('Here Comes the Bride') in the opera Lohengrin?",
-    "options": [
-      "Richard Wagner",
-      "Felix Mendelssohn",
-      "Brahms",
-      "Franz Liszt"
-    ],
-    "answer": 0,
-    "explanation": "Richard Wagner is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Richard Wagner wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_104",
-    "category": "arts_lit",
-    "question": "Which Polish-French virtuoso pianist was known as the 'Poet of the Piano'?",
-    "options": [
-      "Fr\u00e9d\u00e9ric Chopin",
-      "Franz Liszt",
-      "Sergei Rachmaninoff",
-      "Schumann"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Fr\u00e9d\u00e9ric Chopin is the primary answer associated with Which Polish-French virtuoso pianist was known as the 'Poet of the Piano'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Fr\u00e9d\u00e9ric Chopin** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_105",
-    "category": "arts_lit",
-    "question": "Which Hungarian composer wrote the Hungarian Rhapsodies for solo piano?",
-    "options": [
-      "Franz Liszt",
-      "Fr\u00e9d\u00e9ric Chopin",
-      "B\u00e9la Bart\u00f3k",
-      "Zolt\u00e1n Kod\u00e1ly"
-    ],
-    "answer": 0,
-    "explanation": "Franz Liszt is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Franz Liszt wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_106",
-    "category": "arts_lit",
-    "question": "Which Austrian composer was crowned 'The Waltz King' for composing The Blue Danube?",
-    "options": [
-      "Johann Strauss II",
-      "Johann Strauss I",
-      "Richard Strauss",
-      "Franz Leh\u00e1r"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Johann Strauss II is the primary answer associated with Which Austrian composer was crowned 'The Waltz King' for composing The Blue Danube.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Johann Strauss II** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_107",
-    "category": "arts_lit",
-    "question": "Which Czech composer composed the Ninth Symphony ('From the New World') while in America?",
-    "options": [
-      "Anton\u00edn Dvo\u0159\u00e1k",
-      "Bed\u0159ich Smetana",
-      "Leo\u0161 Jan\u00e1\u010dek",
-      "Bohuslav Martin\u016f"
-    ],
-    "answer": 0,
-    "explanation": "In arts lit, Anton\u00edn Dvo\u0159\u00e1k is the primary answer associated with Which Czech composer composed the Ninth Symphony ('From the New World') while in America.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Anton\u00edn Dvo\u0159\u00e1k** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_108",
-    "category": "arts_lit",
-    "question": "Which Russian composer wrote the avant-garde ballet score The Rite of Spring that caused a 1913 riot?",
-    "options": [
-      "Igor Stravinsky",
+    "difficulty": "hard",
+    "question": "Which twentieth-century composer wrote the ballet The Rite of Spring, which caused a riot at its premiere?",
+    "answer": "Igor Stravinsky",
+    "distractors": [
       "Sergei Prokofiev",
-      "Dmitri Shostakovich",
-      "Modest Mussorgsky"
+      "Béla Bartók",
+      "Maurice Ravel"
     ],
-    "answer": 0,
-    "explanation": "Igor Stravinsky is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Igor Stravinsky wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "The 1913 Paris premiere provoked uproar over its dissonance and Nijinsky's choreography; the disturbance was probably as much about the dancing as the music.",
+    "hook": "The riot was arguably about the choreography more than the notes."
   },
   {
-    "id": "arts_fact_109",
+    "id": "art_090",
     "category": "arts_lit",
-    "question": "Which Russian composer wrote the children's musical story Peter and the Wolf?",
-    "options": [
-      "Sergei Prokofiev",
-      "Dmitri Shostakovich",
-      "Igor Stravinsky",
-      "Aram Khachaturian"
+    "difficulty": "hard",
+    "question": "Which Australian poet wrote the collection Selected Poems and the poem 'Bora Ring'?",
+    "answer": "Judith Wright",
+    "distractors": [
+      "Kenneth Slessor",
+      "A.D. Hope",
+      "Gwen Harwood"
     ],
-    "answer": 0,
-    "explanation": "Sergei Prokofiev is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Sergei Prokofiev wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "She was also a leading conservationist and campaigner for Aboriginal land rights, helping found the Wildlife Preservation Society of Queensland.",
+    "hook": "One of Australia's major poets was also one of its first serious environmentalists."
   },
   {
-    "id": "arts_fact_110",
+    "id": "art_091",
     "category": "arts_lit",
-    "question": "Which Irish playwright wrote Pygmalion, adapted into the musical My Fair Lady?",
-    "options": [
-      "George Bernard Shaw",
-      "Oscar Wilde",
-      "J.M. Synge",
-      "Sean O'Casey"
+    "difficulty": "hard",
+    "question": "Which literary hoax fooled the Australian modernist journal Angry Penguins in 1944?",
+    "answer": "The Ern Malley affair",
+    "distractors": [
+      "The Demidenko affair",
+      "The Ossian forgeries",
+      "The Hitler diaries"
     ],
-    "answer": 0,
-    "explanation": "George Bernard Shaw is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** George Bernard Shaw wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Two conservative poets invented a dead mechanic-poet and assembled nonsense verse in an afternoon; editor Max Harris published it and was later prosecuted for obscenity.",
+    "hook": "The fake poet was more successful than his real inventors ever were."
   },
   {
-    "id": "arts_fact_111",
+    "id": "art_092",
     "category": "arts_lit",
-    "question": "Which American playwright wrote Death of a Salesman and The Crucible?",
-    "options": [
-      "Arthur Miller",
-      "Tennessee Williams",
-      "Eugene O'Neill",
-      "Edward Albee"
+    "difficulty": "hard",
+    "question": "Which German writer wrote Faust in two parts over sixty years?",
+    "answer": "Johann Wolfgang von Goethe",
+    "distractors": [
+      "Friedrich Schiller",
+      "Heinrich Heine",
+      "Thomas Mann"
     ],
-    "answer": 0,
-    "explanation": "Arthur Miller is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Arthur Miller wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "He began it in his twenties and finished part two shortly before his death in 1832; the bargain with Mephistopheles gave the language the term 'Faustian'.",
+    "hook": "Sixty years on one work, finished months before he died."
   },
   {
-    "id": "arts_fact_112",
+    "id": "art_093",
     "category": "arts_lit",
-    "question": "Which American playwright wrote A Streetcar Named Desire and Cat on a Hot Tin Roof?",
-    "options": [
-      "Tennessee Williams",
-      "Arthur Miller",
-      "Eugene O'Neill",
-      "Thornton Wilder"
+    "difficulty": "hard",
+    "question": "Which artist painted Las Meninas, in which the painter himself appears at the easel?",
+    "answer": "Diego Velázquez",
+    "distractors": [
+      "Francisco Goya",
+      "El Greco",
+      "Bartolomé Murillo"
     ],
-    "answer": 0,
-    "explanation": "Tennessee Williams is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Tennessee Williams wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Painted in 1656, the perspective places the viewer where the king and queen stand, visible only as a reflection in a mirror at the back.",
+    "hook": "You are standing where the king was — the mirror at the back proves it."
   },
   {
-    "id": "arts_fact_113",
+    "id": "art_094",
     "category": "arts_lit",
-    "question": "Which Nobel literature laureate wrote Long Day's Journey into Night?",
-    "options": [
-      "Eugene O'Neill",
-      "Arthur Miller",
-      "Tennessee Williams",
-      "David Mamet"
+    "difficulty": "hard",
+    "question": "Which Australian novel won the inaugural Stella Prize in 2013?",
+    "answer": "Mateship with Birds",
+    "distractors": [
+      "The Natural Way of Things",
+      "Questions of Travel",
+      "The Golden Age"
     ],
-    "answer": 0,
-    "explanation": "Eugene O'Neill is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Eugene O'Neill wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Carrie Tiffany's novel took the first Stella, established to address the under-recognition of Australian women writers and named after Stella Miles Franklin.",
+    "hook": "The Stella is named for Miles Franklin's actual first name."
   },
   {
-    "id": "arts_fact_114",
+    "id": "art_095",
     "category": "arts_lit",
-    "question": "Which American playwright wrote Who's Afraid of Virginia Woolf?",
-    "options": [
-      "Edward Albee",
-      "Arthur Miller",
-      "Sam Shepard",
-      "August Wilson"
+    "difficulty": "hard",
+    "question": "Which architectural movement produced the Bauhaus school in Germany?",
+    "answer": "Modernism",
+    "distractors": [
+      "Art Nouveau",
+      "Art Deco",
+      "Brutalism"
     ],
-    "answer": 0,
-    "explanation": "Edward Albee is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Edward Albee wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Founded by Walter Gropius in 1919 and closed under Nazi pressure in 1933, its emigrating staff spread its ideas to the United States and beyond.",
+    "hook": "Shutting it down in 1933 exported its ideas to the rest of the world."
   },
   {
-    "id": "arts_fact_115",
+    "id": "art_096",
     "category": "arts_lit",
-    "question": "Which African-American playwright wrote Fences and the ten-play Pittsburgh Cycle?",
-    "options": [
-      "August Wilson",
-      "Lorraine Hansberry",
-      "Amiri Baraka",
-      "Suzan-Lori Parks"
+    "difficulty": "hard",
+    "question": "Which Russian composer wrote the ballets Swan Lake and The Nutcracker?",
+    "answer": "Pyotr Ilyich Tchaikovsky",
+    "distractors": [
+      "Nikolai Rimsky-Korsakov",
+      "Modest Mussorgsky",
+      "Alexander Borodin"
     ],
-    "answer": 0,
-    "explanation": "August Wilson is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** August Wilson wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Swan Lake failed at its 1877 premiere and only became a staple after a posthumous 1895 revival with new choreography.",
+    "hook": "Swan Lake flopped in his lifetime and became famous after he died."
   },
   {
-    "id": "arts_fact_116",
+    "id": "art_097",
     "category": "arts_lit",
-    "question": "Which French classical playwright wrote Tartuffe and The Misanthrope?",
-    "options": [
-      "Moli\u00e8re",
-      "Jean Racine",
-      "Pierre Corneille",
-      "Beaumarchais"
+    "difficulty": "hard",
+    "question": "Which poem by T.S. Eliot begins 'April is the cruellest month'?",
+    "answer": "The Waste Land",
+    "distractors": [
+      "The Love Song of J. Alfred Prufrock",
+      "Four Quartets",
+      "Ash Wednesday"
     ],
-    "answer": 0,
-    "explanation": "Moli\u00e8re is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Moli\u00e8re wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1922, Ezra Pound cut it to roughly half its original length, an edit Eliot acknowledged by dedicating it to him as 'il miglior fabbro'.",
+    "hook": "Pound cut half of it, and Eliot's dedication calls him 'the better craftsman'."
   },
   {
-    "id": "arts_fact_117",
+    "id": "art_098",
     "category": "arts_lit",
-    "question": "Which French playwright wrote the 1897 verse play Cyrano de Bergerac?",
-    "options": [
-      "Edmond Rostand",
-      "Alexandre Dumas fils",
-      "Alfred de Musset",
-      "Victor Hugo"
+    "difficulty": "hard",
+    "question": "Which Australian film director made Picnic at Hanging Rock and Witness?",
+    "answer": "Peter Weir",
+    "distractors": [
+      "Bruce Beresford",
+      "Fred Schepisi",
+      "Gillian Armstrong"
     ],
-    "answer": 0,
-    "explanation": "Edmond Rostand is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Edmond Rostand wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Part of the Australian New Wave of the 1970s, his 1975 film adapted Joan Lindsay's novel about schoolgirls vanishing, a story many still believe is true.",
+    "hook": "The disappearance is fiction, but half the country thinks it really happened."
   },
   {
-    "id": "arts_fact_118",
+    "id": "art_099",
     "category": "arts_lit",
-    "question": "Which Norwegian playwright is considered the Father of Realism for plays like A Doll's House?",
-    "options": [
-      "Henrik Ibsen",
-      "August Strindberg",
-      "Bj\u00f8rnstjerne Bj\u00f8rnson",
-      "Knut Hamsun"
+    "difficulty": "hard",
+    "question": "Which artist is known for large-scale wrapped buildings and landscapes?",
+    "answer": "Christo",
+    "distractors": [
+      "Andy Goldsworthy",
+      "Richard Serra",
+      "Robert Smithson"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Henrik Ibsen is the primary answer associated with Which Norwegian playwright is considered the Father of Realism for plays like A Doll's House.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Henrik Ibsen** for this question.",
-    "difficulty": "Medium"
+    "explanation": "With Jeanne-Claude he wrapped the Reichstag and Pont Neuf; their 1969 wrapping of Little Bay in Sydney was among the largest artworks ever made at the time.",
+    "hook": "Their first monumental wrapping was an Australian coastline, not a European monument."
   },
   {
-    "id": "arts_fact_119",
+    "id": "art_100",
     "category": "arts_lit",
-    "question": "Which Swedish playwright wrote the naturalistic tragedy Miss Julie?",
-    "options": [
-      "August Strindberg",
-      "Henrik Ibsen",
-      "P\u00e4r Lagerkvist",
-      "Ingmar Bergman"
+    "difficulty": "hard",
+    "question": "Which novel by Laurence Sterne includes a completely black page and a marbled page?",
+    "answer": "Tristram Shandy",
+    "distractors": [
+      "Gulliver's Travels",
+      "Tom Jones",
+      "Clarissa"
     ],
-    "answer": 0,
-    "explanation": "August Strindberg is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** August Strindberg wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published from 1759, its digressions and typographic games anticipate postmodern fiction by two centuries; the narrator is not born until volume three.",
+    "hook": "The narrator does not manage to get himself born until volume three."
   },
   {
-    "id": "arts_fact_120",
+    "id": "art_101",
     "category": "arts_lit",
-    "question": "Which Russian dramatist wrote The Cherry Orchard, Uncle Vanya, and The Seagull?",
-    "options": [
-      "Anton Chekhov",
-      "Ivan Turgenev",
-      "Maxim Gorky",
-      "Nikolai Gogol"
+    "difficulty": "hard",
+    "question": "Which Australian author wrote the Miles Franklin-winning novel The Secret River?",
+    "answer": "Kate Grenville",
+    "distractors": [
+      "Alexis Wright",
+      "Charlotte Wood",
+      "Helen Garner"
     ],
-    "answer": 0,
-    "explanation": "Anton Chekhov is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Anton Chekhov wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published in 2005 and drawing on her own ancestor's settlement on the Hawkesbury, it prompted a public debate with historians about fiction's claims on the past.",
+    "hook": "It started a public argument between a novelist and historians about who owns the past."
   },
   {
-    "id": "arts_fact_121",
+    "id": "art_102",
     "category": "arts_lit",
-    "question": "Which Russian author wrote the satirical play The Inspector General?",
-    "options": [
-      "Nikolai Gogol",
-      "Anton Chekhov",
-      "Alexander Pushkin",
-      "Alexander Griboyedov"
+    "difficulty": "hard",
+    "question": "Which Indigenous Australian author won the Miles Franklin for Carpentaria?",
+    "answer": "Alexis Wright",
+    "distractors": [
+      "Melissa Lucashenko",
+      "Kim Scott",
+      "Tara June Winch"
     ],
-    "answer": 0,
-    "explanation": "Nikolai Gogol is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Nikolai Gogol wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Her 2007 win followed Kim Scott's shared award for Benang in 2000; Scott won again for That Deadman Dance and Lucashenko for Too Much Lip.",
+    "hook": "Scott 2000, Wright 2007, Scott again 2011, Lucashenko 2019 — the Miles Franklin roll."
   },
   {
-    "id": "arts_fact_122",
+    "id": "art_103",
     "category": "arts_lit",
-    "question": "Which ancient Greek dramatist wrote Oedipus Rex and Antigone?",
-    "options": [
-      "Sophocles",
-      "Aeschylus",
+    "difficulty": "hard",
+    "question": "Which Renaissance artist wrote the Lives of the Artists, effectively founding art history?",
+    "answer": "Giorgio Vasari",
+    "distractors": [
+      "Leon Battista Alberti",
+      "Benvenuto Cellini",
+      "Baldassare Castiglione"
+    ],
+    "explanation": "Published in 1550, it is the source of most Renaissance anecdotes and coined the term 'Renaissance' itself, though its facts are often unreliable.",
+    "hook": "He invented both art history and most of the gossip that fills it."
+  },
+  {
+    "id": "art_104",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which opera by Puccini is set in Japan and features the aria 'Un bel dì'?",
+    "answer": "Madama Butterfly",
+    "distractors": [
+      "Tosca",
+      "Turandot",
+      "La Bohème"
+    ],
+    "explanation": "It failed at its 1904 La Scala premiere and succeeded only after substantial revision; Turandot, set in China, was left unfinished at his death.",
+    "hook": "Butterfly in Japan, Turandot in China — and he died before finishing the second."
+  },
+  {
+    "id": "art_105",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian writer's Monkey Grip drew on her own Melbourne diaries?",
+    "answer": "Helen Garner",
+    "distractors": [
+      "Elizabeth Jolley",
+      "Beverley Farmer",
+      "Amanda Lohrey"
+    ],
+    "explanation": "Published in 1977, critics attacked it for reading like a diary, an accusation she has since said was essentially accurate and beside the point.",
+    "hook": "Critics said it read like a diary; she agreed and said so what."
+  },
+  {
+    "id": "art_106",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which artist painted the Australian outback work Sofala in 1947?",
+    "answer": "Russell Drysdale",
+    "distractors": [
+      "Sidney Nolan",
+      "Arthur Streeton",
+      "William Dobell"
+    ],
+    "explanation": "His drought-stricken country towns redefined how Australians pictured the inland, replacing the sunny pastoralism of the Heidelberg painters.",
+    "hook": "He replaced the golden Heidelberg landscape with drought and empty verandahs."
+  },
+  {
+    "id": "art_107",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian portrait prize was the subject of a 1944 court case over whether a winning work was a caricature?",
+    "answer": "The Archibald Prize",
+    "distractors": [
+      "The Wynne Prize",
+      "The Sulman Prize",
+      "The Doug Moran Prize"
+    ],
+    "explanation": "William Dobell's portrait of Joshua Smith was challenged in the NSW Supreme Court as a caricature rather than a portrait; the court upheld the award.",
+    "hook": "A court had to rule on whether a painting counted as a portrait at all."
+  },
+  {
+    "id": "art_108",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which poet wrote the Australian modernist poem 'Five Bells'?",
+    "answer": "Kenneth Slessor",
+    "distractors": [
+      "Judith Wright",
+      "A.D. Hope",
+      "James McAuley"
+    ],
+    "explanation": "Written in 1939 as an elegy for his friend Joe Lynch, who drowned in Sydney Harbour, it gave its name to a John Olsen mural in the Opera House.",
+    "hook": "An elegy for a drowned friend that ended up painted on the Opera House wall."
+  },
+  {
+    "id": "art_109",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Czech-born writer wrote The Metamorphosis?",
+    "answer": "Franz Kafka",
+    "distractors": [
+      "Milan Kundera",
+      "Rainer Maria Rilke",
+      "Robert Musil"
+    ],
+    "explanation": "He instructed his friend Max Brod to burn his unpublished manuscripts; Brod ignored him and published The Trial, The Castle and Amerika instead.",
+    "hook": "Almost everything he is famous for was supposed to be burned."
+  },
+  {
+    "id": "art_110",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which style of Japanese woodblock print includes Hokusai's Great Wave?",
+    "answer": "Ukiyo-e",
+    "distractors": [
+      "Sumi-e",
+      "Nihonga",
+      "Yamato-e"
+    ],
+    "explanation": "The term means 'pictures of the floating world'; these cheap prints reached Europe as packing material and heavily influenced Van Gogh and Monet.",
+    "hook": "They arrived in Europe as wrapping paper and changed Impressionism."
+  },
+  {
+    "id": "art_111",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which English novelist wrote Middlemarch under a male pen name?",
+    "answer": "George Eliot",
+    "distractors": [
+      "Elizabeth Gaskell",
+      "Frances Burney",
+      "Maria Edgeworth"
+    ],
+    "explanation": "Mary Ann Evans chose the name to be taken seriously and to avoid scrutiny of her relationship with a married man; Virginia Woolf called the novel one of the few written for grown-up people.",
+    "hook": "Woolf called it one of the few English novels written for adults."
+  },
+  {
+    "id": "art_112",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which twentieth-century Australian sculpture and gallery bequest created the Museum of Old and New Art?",
+    "answer": "David Walsh's collection",
+    "distractors": [
+      "The Felton Bequest",
+      "The Besen Collection",
+      "The Holmes à Court Collection"
+    ],
+    "explanation": "Funded by professional gambling winnings and opened in Hobart in 2011, MONA reshaped Tasmanian tourism and is built largely underground into a sandstone cliff.",
+    "hook": "A museum funded by beating the bookmakers, cut into a Hobart cliff."
+  },
+  {
+    "id": "art_113",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Greek playwright wrote the comedy Lysistrata?",
+    "answer": "Aristophanes",
+    "distractors": [
       "Euripides",
-      "Aristophanes"
-    ],
-    "answer": 0,
-    "explanation": "Sophocles is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Sophocles wrote this famous work.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "arts_fact_123",
-    "category": "arts_lit",
-    "question": "Which ancient Greek dramatist is known as the Father of Tragedy for works like The Oresteia?",
-    "options": [
       "Aeschylus",
-      "Sophocles",
-      "Euripides",
-      "Aristophanes"
+      "Menander"
     ],
-    "answer": 0,
-    "explanation": "In arts lit, Aeschylus is the primary answer associated with Which ancient Greek dramatist is known as the Father of Tragedy for works like The Oresteia.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Aeschylus** for this question.",
-    "difficulty": "Medium"
+    "explanation": "In it the women of Greece withhold sex to force an end to the Peloponnesian War; Aeschylus, Sophocles and Euripides wrote tragedy, not comedy.",
+    "hook": "The three great tragedians plus one great comedian — Aristophanes is the comedian."
   },
   {
-    "id": "arts_fact_124",
+    "id": "art_114",
     "category": "arts_lit",
-    "question": "Which ancient Greek tragedian wrote Medea, Electra, and The Bacchae?",
-    "options": [
-      "Euripides",
-      "Sophocles",
-      "Aeschylus",
-      "Aristophanes"
+    "difficulty": "hard",
+    "question": "Which Australian novelist wrote the Miles Franklin-winning Remembering Babylon?",
+    "answer": "David Malouf",
+    "distractors": [
+      "Tim Winton",
+      "Murray Bail",
+      "Rodney Hall"
     ],
-    "answer": 0,
-    "explanation": "Euripides is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Euripides wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1993 about a European boy raised by Aboriginal people and returning to a settler community, it won the inaugural International Dublin Literary Award.",
+    "hook": "It won the first ever Dublin literary award, then the world's richest."
   },
   {
-    "id": "arts_fact_125",
+    "id": "art_115",
     "category": "arts_lit",
-    "question": "Which ancient Greek comic playwright wrote Lysistrata and The Clouds?",
-    "options": [
-      "Aristophanes",
-      "Menander",
-      "Terence",
-      "Plautus"
+    "difficulty": "hard",
+    "question": "Which painter is credited with the first purely abstract paintings around 1910?",
+    "answer": "Wassily Kandinsky",
+    "distractors": [
+      "Piet Mondrian",
+      "Kazimir Malevich",
+      "Hilma af Klint"
     ],
-    "answer": 0,
-    "explanation": "Aristophanes is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Aristophanes wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "The claim is contested: Hilma af Klint produced abstract work from 1906 but stipulated it not be shown until decades after her death, so it was unknown until 1986.",
+    "hook": "Hilma af Klint got there first but hid the work for eighty years."
   },
   {
-    "id": "arts_fact_126",
+    "id": "art_116",
     "category": "arts_lit",
-    "question": "Who wrote the epic 17th-century Japanese haiku masterpiece Narrow Road to the Deep North?",
-    "options": [
-      "Matsuo Bash\u014d",
-      "Yosa Buson",
-      "Kobayashi Issa",
-      "Masaoka Shiki"
+    "difficulty": "hard",
+    "question": "Which novel by Herman Hesse follows a young Brahmin's search for enlightenment?",
+    "answer": "Siddhartha",
+    "distractors": [
+      "Steppenwolf",
+      "The Glass Bead Game",
+      "Demian"
     ],
-    "answer": 0,
-    "explanation": "Matsuo Bash\u014d is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Matsuo Bash\u014d wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Published in 1922, it became a counterculture text in the 1960s; the protagonist is not the Buddha but a contemporary who meets him.",
+    "hook": "The title character is not the Buddha — he meets the Buddha and walks on."
   },
   {
-    "id": "arts_fact_127",
+    "id": "art_117",
     "category": "arts_lit",
-    "question": "Which 11th-century Japanese noblewoman wrote The Tale of Genji, considered the world's first novel?",
-    "options": [
-      "Murasaki Shikibu",
-      "Sei Sh\u014dnagon",
-      "Izumi Shikibu",
-      "Ono no Komachi"
+    "difficulty": "hard",
+    "question": "Which Australian arts institution holds Jackson Pollock's Blue Poles?",
+    "answer": "The National Gallery of Australia",
+    "distractors": [
+      "The Art Gallery of NSW",
+      "The National Gallery of Victoria",
+      "The Queensland Art Gallery"
     ],
-    "answer": 0,
-    "explanation": "Murasaki Shikibu is the acclaimed author of this celebrated literary work.",
-    "tip": "\ud83d\udca1 **Literary Author:** Murasaki Shikibu wrote this famous work.",
-    "difficulty": "Medium"
+    "explanation": "Bought in 1973 for A$1.3 million on Whitlam's personal authorisation, it caused a political storm and is now valued in the hundreds of millions.",
+    "hook": "The most attacked purchase in Australian art turned out to be the best investment."
+  },
+  {
+    "id": "art_118",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which French writer wrote Madame Bovary and was prosecuted for obscenity?",
+    "answer": "Gustave Flaubert",
+    "distractors": [
+      "Stendhal",
+      "Honoré de Balzac",
+      "Guy de Maupassant"
+    ],
+    "explanation": "The 1857 trial ended in acquittal and made the book a bestseller; he was famous for spending days searching for a single precise word.",
+    "hook": "The obscenity trial was the best publicity the book could have had."
+  },
+  {
+    "id": "art_119",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which twentieth-century movement did André Breton define in a 1924 manifesto?",
+    "answer": "Surrealism",
+    "distractors": [
+      "Dada",
+      "Futurism",
+      "Vorticism"
+    ],
+    "explanation": "It grew out of Dada and drew on Freud's theories of the unconscious, aiming to release imagination through automatic writing and dream imagery.",
+    "hook": "Dada came first and was nihilist; Surrealism came out of it with Freud attached."
+  },
+  {
+    "id": "art_120",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian wrote the best-selling memoir A Fortunate Life?",
+    "answer": "A.B. Facey",
+    "distractors": [
+      "Sally Morgan",
+      "Robert Dessaix",
+      "Donald Horne"
+    ],
+    "explanation": "Published in 1981 when he was eighty-seven and nine months before his death, his account of an orphaned childhood and Gallipoli sold over a million copies.",
+    "hook": "Published at eighty-seven, nine months before he died, and it sold a million."
+  },
+  {
+    "id": "art_121",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which musical form did Johann Sebastian Bach perfect in The Well-Tempered Clavier?",
+    "answer": "The fugue",
+    "distractors": [
+      "The sonata",
+      "The concerto grosso",
+      "The rondo"
+    ],
+    "explanation": "The two books contain a prelude and fugue in every major and minor key, demonstrating a tuning system that made all twenty-four keys usable.",
+    "hook": "Twenty-four keys, twice over, to prove a tuning system worked."
+  },
+  {
+    "id": "art_122",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian Indigenous painting movement began at a settlement school in 1971?",
+    "answer": "The Papunya Tula movement",
+    "distractors": [
+      "The Hermannsburg School",
+      "The Yirrkala bark movement",
+      "The Utopia batik movement"
+    ],
+    "explanation": "Teacher Geoffrey Bardon encouraged Western Desert men to paint their designs in acrylic on board, launching the most significant art movement in modern Australia.",
+    "hook": "It started with a schoolteacher handing out paint at a desert settlement."
+  },
+  {
+    "id": "art_123",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which poet wrote 'The Rime of the Ancient Mariner'?",
+    "answer": "Samuel Taylor Coleridge",
+    "distractors": [
+      "William Wordsworth",
+      "Percy Bysshe Shelley",
+      "John Keats"
+    ],
+    "explanation": "It opened Lyrical Ballads in 1798, the collection he produced with Wordsworth that is usually taken to begin English Romanticism.",
+    "hook": "It is the first poem in the book that started English Romanticism."
+  },
+  {
+    "id": "art_124",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which architect designed the Guggenheim Museum in Bilbao?",
+    "answer": "Frank Gehry",
+    "distractors": [
+      "Zaha Hadid",
+      "Renzo Piano",
+      "Norman Foster"
+    ],
+    "explanation": "Opened in 1997, its titanium curves revived a declining industrial city so effectively that urban planners now speak of the 'Bilbao effect'.",
+    "hook": "One building revived a whole city — planners named the phenomenon after it."
+  },
+  {
+    "id": "art_125",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian composer wrote the opera Voss, based on Patrick White's novel?",
+    "answer": "Richard Meale",
+    "distractors": [
+      "Peter Sculthorpe",
+      "Brett Dean",
+      "Ross Edwards"
+    ],
+    "explanation": "Premiered in Adelaide in 1986 with a libretto by David Malouf, it brought together three major figures of Australian arts in one work.",
+    "hook": "White's novel, Malouf's libretto, Meale's music — three heavyweights on one stage."
+  },
+  {
+    "id": "art_126",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which American poet published almost nothing in her lifetime despite writing nearly 1,800 poems?",
+    "answer": "Emily Dickinson",
+    "distractors": [
+      "Marianne Moore",
+      "Elizabeth Bishop",
+      "Sylvia Plath"
+    ],
+    "explanation": "Fewer than a dozen appeared in print before her death in 1886; her sister found the rest bound in hand-sewn booklets and had them published.",
+    "hook": "Her sister found 1,800 poems sewn into little booklets after she died."
+  },
+  {
+    "id": "art_127",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Italian film director made La Dolce Vita and 8½?",
+    "answer": "Federico Fellini",
+    "distractors": [
+      "Michelangelo Antonioni",
+      "Vittorio De Sica",
+      "Luchino Visconti"
+    ],
+    "explanation": "La Dolce Vita gave the word 'paparazzi' to the world, from the surname of a photographer character in the film.",
+    "hook": "'Paparazzi' is just a character's surname from one of his films."
+  },
+  {
+    "id": "art_128",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Australian novel by Christos Tsiolkas turns on a man striking someone else's child?",
+    "answer": "The Slap",
+    "distractors": [
+      "Loaded",
+      "Barracuda",
+      "Dead Europe"
+    ],
+    "explanation": "Published in 2008, it tells the same incident from eight characters' perspectives and was adapted into television series in both Australia and the United States.",
+    "hook": "One incident, eight narrators, two countries' television adaptations."
+  },
+  {
+    "id": "art_129",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Spanish architect designed the still-unfinished Sagrada Família?",
+    "answer": "Antoni Gaudí",
+    "distractors": [
+      "Santiago Calatrava",
+      "Rafael Moneo",
+      "Ricardo Bofill"
+    ],
+    "explanation": "Begun in 1882 and taken over by him in 1883, he devoted the last years of his life to it and is buried in its crypt; completion is projected for the 2030s.",
+    "hook": "Under construction for over 140 years, and the architect is buried inside it."
+  },
+  {
+    "id": "art_130",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which literary prize did Bob Dylan win in 2016, to widespread surprise?",
+    "answer": "The Nobel Prize in Literature",
+    "distractors": [
+      "The Pulitzer Prize",
+      "The Booker Prize",
+      "The PEN/Faulkner Award"
+    ],
+    "explanation": "The citation praised new poetic expressions within the great American song tradition; he did not respond for two weeks and skipped the ceremony.",
+    "hook": "He ignored the Swedish Academy's calls for a fortnight, then skipped the ceremony."
   }
 ]

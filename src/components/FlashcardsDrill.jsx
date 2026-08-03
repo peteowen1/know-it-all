@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FLASHCARD_DECKS } from '../data/flashcardsData';
-import { RotateCw, CheckCircle, AlertCircle, ArrowLeft, ArrowRight, Shuffle, Layers } from 'lucide-react';
+import { CheckCircle, ArrowLeft, ArrowRight } from 'lucide-react';
 
 export default function FlashcardsDrill() {
   const [selectedDeckId, setSelectedDeckId] = useState(FLASHCARD_DECKS[0].id);
@@ -25,7 +25,7 @@ export default function FlashcardsDrill() {
     setCardIndex((prev) => (prev - 1 + activeDeck.cards.length) % activeDeck.cards.length);
   };
 
-  const toggleMastered = (cardId) => {
+  const toggleMastered = () => {
     const key = `${selectedDeckId}_${cardIndex}`;
     setMasteredCards(prev => ({
       ...prev,

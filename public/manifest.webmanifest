@@ -1,0 +1,19 @@
+{
+  "name": "Saturday Quiz Trainer",
+  "short_name": "Quiz Trainer",
+  "description": "1,040 weekend-quiz general knowledge questions with explanations and memory hooks.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
