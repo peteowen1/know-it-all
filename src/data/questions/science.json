@@ -1,1952 +1,1822 @@
 [
   {
-    "id": "sci_elem_1",
+    "id": "sci_001",
     "category": "science",
-    "question": "What is the chemical symbol for Gold on the Periodic Table?",
-    "options": [
-      "Au",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "distractors": [
       "Ag",
-      "Pb",
-      "Other Option 4"
+      "Go",
+      "Gd"
     ],
-    "answer": 0,
-    "explanation": "Gold's chemical symbol Au comes from 'aurum', the Latin word for gold, meaning 'shining dawn'. Its atomic number is 79.",
-    "tip": "\ud83d\udca1 **Au = Aurum:** Latin for 'shining dawn' (Gold's chemical symbol).",
-    "difficulty": "Medium"
+    "explanation": "It comes from the Latin aurum, meaning 'shining dawn'; Ag is silver from argentum, and Gd is gadolinium.",
+    "hook": "Latin names explain the odd symbols — aurum for gold, argentum for silver."
   },
   {
-    "id": "sci_elem_2",
+    "id": "sci_002",
     "category": "science",
-    "question": "What is the chemical symbol for Silver on the Periodic Table?",
-    "options": [
-      "Ag",
-      "Au",
-      "Pb",
-      "Other Option 4"
+    "difficulty": "easy",
+    "question": "How many bones are there in the adult human body?",
+    "answer": "206",
+    "distractors": [
+      "186",
+      "231",
+      "254"
     ],
-    "answer": 0,
-    "explanation": "Silver's chemical symbol Ag derives from 'argentum', the Latin word for silver. Its atomic number is 47.",
-    "tip": "\ud83d\udca1 **Ag = Argentum:** Latin for silver (giving Argentina its country name!).",
-    "difficulty": "Medium"
+    "explanation": "Babies are born with around 270, but many fuse during growth, particularly in the skull and spine; more than half of the adult total is in the hands and feet.",
+    "hook": "You start with 270 and lose about 64 to fusion by adulthood."
   },
   {
-    "id": "sci_elem_3",
+    "id": "sci_003",
     "category": "science",
-    "question": "What is the chemical symbol for Lead on the Periodic Table?",
-    "options": [
-      "Pb",
-      "Au",
-      "Ag",
-      "Other Option 4"
-    ],
-    "answer": 0,
-    "explanation": "Lead's chemical symbol Pb comes from 'plumbum', the Latin word for lead, which is also the root of the English word 'plumber'.",
-    "tip": "\ud83d\udca1 **Pb = Plumbum:** Ancient Romans used lead pipes for plumbing!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_4",
-    "category": "science",
-    "question": "What is the chemical symbol for Mercury on the Periodic Table?",
-    "options": [
-      "Hg",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Mercury's chemical symbol Hg comes from 'hydrargyrum', meaning 'liquid silver' in Greek. It is the only metal liquid at room temperature.",
-    "tip": "\ud83d\udca1 **Hg = Hydrargyrum:** Greek for 'liquid silver'!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_5",
-    "category": "science",
-    "question": "What is the chemical symbol for Iron on the Periodic Table?",
-    "options": [
-      "Fe",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Iron's chemical symbol Fe comes from 'ferrum', the Latin word for iron. Its atomic number is 26.",
-    "tip": "\ud83d\udca1 **Fe = Ferrum:** Latin for iron (ferrous metals).",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_6",
-    "category": "science",
-    "question": "What is the chemical symbol for Copper on the Periodic Table?",
-    "options": [
-      "Cu",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Copper's chemical symbol Cu comes from 'cuprum', derived from the island of Cyprus where it was mined in antiquity.",
-    "tip": "\ud83d\udca1 **Cu = Cuprum:** Named after the Mediterranean island of Cyprus!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_7",
-    "category": "science",
-    "question": "What is the chemical symbol for Tin on the Periodic Table?",
-    "options": [
-      "Sn",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Tin's chemical symbol Sn comes from 'stannum', the Latin word for tin. Its atomic number is 50.",
-    "tip": "\ud83d\udca1 **Sn = Stannum:** Latin name for tin!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_8",
-    "category": "science",
-    "question": "What is the chemical symbol for Tungsten on the Periodic Table?",
-    "options": [
-      "W",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Tungsten's chemical symbol W comes from 'wolfram', the German name for the mineral wolframite.",
-    "tip": "\ud83d\udca1 **W = Wolfram:** German for tungsten, possessing the highest melting point of all pure metals (3,422\u00b0C).",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_9",
-    "category": "science",
-    "question": "What is the chemical symbol for Potassium on the Periodic Table?",
-    "options": [
-      "K",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Potassium's chemical symbol K comes from 'kalium', derived from Arabic 'al-qalyah' meaning plant ashes.",
-    "tip": "\ud83d\udca1 **K = Kalium:** Derived from plant ash (alkali).",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_10",
-    "category": "science",
-    "question": "What is the chemical symbol for Sodium on the Periodic Table?",
-    "options": [
-      "Na",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Sodium's chemical symbol Na comes from 'natrium', the Latin word for natron, an Egyptian mineral salt.",
-    "tip": "\ud83d\udca1 **Na = Natrium:** Latin for natron salt!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_11",
-    "category": "science",
-    "question": "What is the chemical symbol for Antimony on the Periodic Table?",
-    "options": [
-      "Sb",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "Antimony's chemical symbol Sb comes from 'stibium', the Latin name for black eye cosmetic (kohl).",
-    "tip": "\ud83d\udca1 **Sb = Stibium:** Ancient eye cosmetic kohl!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_12",
-    "category": "science",
-    "question": "What is the chemical symbol for Bismuth on the Periodic Table?",
-    "options": [
-      "Bi",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Bi is the primary answer associated with What is the chemical symbol for Bismuth on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Bi** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_13",
-    "category": "science",
-    "question": "What is the chemical symbol for Titanium on the Periodic Table?",
-    "options": [
-      "Ti",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Ti is the primary answer associated with What is the chemical symbol for Titanium on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ti** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_14",
-    "category": "science",
-    "question": "What is the chemical symbol for Uranium on the Periodic Table?",
-    "options": [
-      "U",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, U is the primary answer associated with What is the chemical symbol for Uranium on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **U** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_15",
-    "category": "science",
-    "question": "What is the chemical symbol for Plutonium on the Periodic Table?",
-    "options": [
-      "Pu",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Pu is the primary answer associated with What is the chemical symbol for Plutonium on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Pu** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_16",
-    "category": "science",
-    "question": "What is the chemical symbol for Platinum on the Periodic Table?",
-    "options": [
-      "Pt",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Pt is the primary answer associated with What is the chemical symbol for Platinum on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Pt** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_17",
-    "category": "science",
-    "question": "What is the chemical symbol for Xenon on the Periodic Table?",
-    "options": [
-      "Xe",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Xe is the primary answer associated with What is the chemical symbol for Xenon on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Xe** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_18",
-    "category": "science",
-    "question": "What is the chemical symbol for Radon on the Periodic Table?",
-    "options": [
-      "Rn",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Rn is the primary answer associated with What is the chemical symbol for Radon on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Rn** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_19",
-    "category": "science",
-    "question": "What is the chemical symbol for Carbon on the Periodic Table?",
-    "options": [
-      "C",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, C is the primary answer associated with What is the chemical symbol for Carbon on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **C** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_elem_20",
-    "category": "science",
-    "question": "What is the chemical symbol for Silicon on the Periodic Table?",
-    "options": [
-      "Si",
-      "Au",
-      "Ag",
-      "Pb"
-    ],
-    "answer": 0,
-    "explanation": "In science, Si is the primary answer associated with What is the chemical symbol for Silicon on the Periodic Table.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Si** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_21",
-    "category": "science",
-    "question": "What is: Hardest naturally occurring substance on Earth'??",
-    "options": [
-      "Diamond",
-      "Corundum",
-      "Topaz",
-      "Quartz"
-    ],
-    "answer": 0,
-    "explanation": "In science, Diamond is the primary answer associated with What is: Hardest naturally occurring substance on Earth'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Diamond** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_22",
-    "category": "science",
-    "question": "What is: Smallest bone in the human body'??",
-    "options": [
-      "Stapes (Stirrup)",
-      "Malleus",
-      "Incus",
-      "Femur"
-    ],
-    "answer": 0,
-    "explanation": "In science, Stapes (Stirrup) is the primary answer associated with What is: Smallest bone in the human body'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Stapes (Stirrup)** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_23",
-    "category": "science",
-    "question": "What is: Longest bone in the human body'??",
-    "options": [
-      "Femur",
-      "Tibia",
-      "Fibula",
-      "Humerus"
-    ],
-    "answer": 0,
-    "explanation": "In science, Femur is the primary answer associated with What is: Longest bone in the human body'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Femur** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_24",
-    "category": "science",
-    "question": "What is: Organ that produces insulin in human body'??",
-    "options": [
-      "Pancreas",
-      "Liver",
-      "Kidney",
-      "Gallbladder"
-    ],
-    "answer": 0,
-    "explanation": "In science, Pancreas is the primary answer associated with What is: Organ that produces insulin in human body'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Pancreas** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_25",
-    "category": "science",
-    "question": "What is: Organ that produces bile and filters blood'??",
-    "options": [
-      "Liver",
-      "Pancreas",
-      "Spleen",
-      "Kidney"
-    ],
-    "answer": 0,
-    "explanation": "In science, Liver is the primary answer associated with What is: Organ that produces bile and filters blood'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Liver** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_26",
-    "category": "science",
-    "question": "What is: Organ that filters waste into urine'??",
-    "options": [
-      "Kidneys",
-      "Liver",
-      "Bladder",
-      "Pancreas"
-    ],
-    "answer": 0,
-    "explanation": "In science, Kidneys is the primary answer associated with What is: Organ that filters waste into urine'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Kidneys** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_27",
-    "category": "science",
-    "question": "What is: Transparent front part of the human eye'??",
-    "options": [
-      "Cornea",
-      "Retina",
-      "Sclera",
-      "Lens"
-    ],
-    "answer": 0,
-    "explanation": "In science, Cornea is the primary answer associated with What is: Transparent front part of the human eye'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cornea** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_28",
-    "category": "science",
-    "question": "What is: Light-sensitive layer lining back of human eye'??",
-    "options": [
-      "Retina",
-      "Cornea",
-      "Choroid",
-      "Iris"
-    ],
-    "answer": 0,
-    "explanation": "In science, Retina is the primary answer associated with What is: Light-sensitive layer lining back of human eye'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Retina** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_29",
-    "category": "science",
-    "question": "What is: Main gas making up the Sun's mass'??",
-    "options": [
-      "Hydrogen",
-      "Helium",
-      "Oxygen",
-      "Nitrogen"
-    ],
-    "answer": 0,
-    "explanation": "In science, Hydrogen is the primary answer associated with What is: Main gas making up the Sun's mass'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Hydrogen** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_30",
-    "category": "science",
-    "question": "What is: Gas making up approximately 78% of Earth's atmosphere'??",
-    "options": [
-      "Nitrogen",
-      "Oxygen",
-      "Argon",
-      "Carbon Dioxide"
-    ],
-    "answer": 0,
-    "explanation": "In science, Nitrogen is the primary answer associated with What is: Gas making up approximately 78% of Earth's atmosphere'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Nitrogen** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_31",
-    "category": "science",
-    "question": "What is: Gas making up approximately 21% of Earth's atmosphere'??",
-    "options": [
-      "Oxygen",
-      "Nitrogen",
-      "Argon",
-      "Carbon Dioxide"
-    ],
-    "answer": 0,
-    "explanation": "In science, Oxygen is the primary answer associated with What is: Gas making up approximately 21% of Earth's atmosphere'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Oxygen** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_32",
-    "category": "science",
-    "question": "What is: Noble gas making up 0.93% of Earth's atmosphere'??",
-    "options": [
-      "Argon",
-      "Helium",
-      "Neon",
-      "Krypton"
-    ],
-    "answer": 0,
-    "explanation": "In science, Argon is the primary answer associated with What is: Noble gas making up 0.93% of Earth's atmosphere'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Argon** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_33",
-    "category": "science",
-    "question": "What is: Planet known as the Red Planet'??",
-    "options": [
-      "Mars",
+    "difficulty": "easy",
+    "question": "Which planet is closest to the Sun?",
+    "answer": "Mercury",
+    "distractors": [
       "Venus",
+      "Mars",
+      "Earth"
+    ],
+    "explanation": "Despite its proximity, Venus is hotter because its dense carbon dioxide atmosphere traps heat, while Mercury has almost no atmosphere at all.",
+    "hook": "Closest to the Sun is not hottest — that title goes to Venus."
+  },
+  {
+    "id": "sci_004",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "answer": "Carbon dioxide",
+    "distractors": [
+      "Oxygen",
+      "Nitrogen",
+      "Methane"
+    ],
+    "explanation": "Plants take in carbon dioxide and water and, using light energy, produce glucose and release oxygen; the process runs in reverse during respiration at night.",
+    "hook": "Plants breathe in what we breathe out, and vice versa."
+  },
+  {
+    "id": "sci_005",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the largest organ of the human body?",
+    "answer": "The skin",
+    "distractors": [
+      "The liver",
+      "The lungs",
+      "The brain"
+    ],
+    "explanation": "It covers roughly two square metres and weighs about four kilograms in an adult; the liver is the largest internal organ.",
+    "hook": "Biggest organ overall is the skin; biggest one inside you is the liver."
+  },
+  {
+    "id": "sci_006",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "distractors": [
       "Jupiter",
+      "Venus",
+      "Mercury"
+    ],
+    "explanation": "Iron oxide dust gives the surface its colour; it has the tallest volcano in the solar system, Olympus Mons, roughly three times the height of Everest.",
+    "hook": "The red is rust — iron oxide across the whole surface."
+  },
+  {
+    "id": "sci_007",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the hardest naturally occurring substance?",
+    "answer": "Diamond",
+    "distractors": [
+      "Quartz",
+      "Corundum",
+      "Titanium"
+    ],
+    "explanation": "It sits at ten on the Mohs scale and is pure carbon in a tetrahedral lattice; graphite is the same element in a different arrangement and is one of the softest minerals.",
+    "hook": "Diamond and pencil lead are the same element — only the arrangement differs."
+  },
+  {
+    "id": "sci_008",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "How many chambers does the human heart have?",
+    "answer": "Four",
+    "distractors": [
+      "Two",
+      "Three",
+      "Six"
+    ],
+    "explanation": "Two atria receive blood and two ventricles pump it out; the left ventricle is the most muscular because it drives blood around the entire body.",
+    "hook": "Atria collect, ventricles eject — two of each."
+  },
+  {
+    "id": "sci_009",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the chemical formula for water?",
+    "answer": "H2O",
+    "distractors": [
+      "CO2",
+      "H2O2",
+      "NaCl"
+    ],
+    "explanation": "Two hydrogen atoms bond to one oxygen at an angle of about 104.5 degrees, and that bent shape is why water is a polar molecule and such a good solvent.",
+    "hook": "The bent shape, not the formula, is what makes water dissolve almost everything."
+  },
+  {
+    "id": "sci_010",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which is the largest planet in the solar system?",
+    "answer": "Jupiter",
+    "distractors": [
+      "Saturn",
+      "Neptune",
+      "Uranus"
+    ],
+    "explanation": "It has more than twice the mass of all other planets combined and its Great Red Spot is a storm that has raged for at least 190 years.",
+    "hook": "It outweighs every other planet put together, twice over."
+  },
+  {
+    "id": "sci_011",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of crows?",
+    "answer": "A murder",
+    "distractors": [
+      "A parliament",
+      "A charm",
+      "A murmuration"
+    ],
+    "explanation": "A parliament is owls, a charm is finches or goldfinches, and a murmuration is starlings; the crow term dates from fifteenth-century books of courtly terms.",
+    "hook": "Murder of crows, parliament of owls, murmuration of starlings."
+  },
+  {
+    "id": "sci_012",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which blood type is the universal donor for red cells?",
+    "answer": "O negative",
+    "distractors": [
+      "AB positive",
+      "A negative",
+      "O positive"
+    ],
+    "explanation": "It carries neither A, B nor Rh antigens, so it can be given to anyone; AB positive is the universal recipient, able to accept any type.",
+    "hook": "O negative gives to everyone; AB positive takes from everyone."
+  },
+  {
+    "id": "sci_013",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What force keeps planets in orbit around the Sun?",
+    "answer": "Gravity",
+    "distractors": [
+      "Magnetism",
+      "Centrifugal force",
+      "The strong nuclear force"
+    ],
+    "explanation": "Newton described it as an attractive force between masses; Einstein reframed it as the curvature of spacetime, which better explains Mercury's orbital wobble.",
+    "hook": "Newton called it a force; Einstein called it a dent in spacetime."
+  },
+  {
+    "id": "sci_014",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the fastest land animal over a short distance?",
+    "answer": "The cheetah",
+    "distractors": [
+      "The pronghorn",
+      "The lion",
+      "The greyhound"
+    ],
+    "explanation": "It can reach about 110 kilometres per hour but only for around twenty seconds; the pronghorn antelope is slower at peak but can hold high speed far longer.",
+    "hook": "Fastest sprinter is the cheetah; the pronghorn wins any race over a kilometre."
+  },
+  {
+    "id": "sci_015",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "How many planets are in the solar system?",
+    "answer": "Eight",
+    "distractors": [
+      "Nine",
+      "Seven",
+      "Ten"
+    ],
+    "explanation": "Pluto was reclassified as a dwarf planet in 2006 because it has not cleared its orbital neighbourhood, one of three criteria set by the International Astronomical Union.",
+    "hook": "Pluto failed one test of three: it never cleared its own orbit."
+  },
+  {
+    "id": "sci_016",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which vitamin is produced in the skin from sunlight?",
+    "answer": "Vitamin D",
+    "distractors": [
+      "Vitamin C",
+      "Vitamin A",
+      "Vitamin B12"
+    ],
+    "explanation": "Ultraviolet B converts a cholesterol derivative into vitamin D3, essential for calcium absorption; deficiency causes rickets in children.",
+    "hook": "The only vitamin your own skin manufactures, given enough sun."
+  },
+  {
+    "id": "sci_017",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the centre of an atom called?",
+    "answer": "The nucleus",
+    "distractors": [
+      "The nucleolus",
+      "The core",
+      "The proton shell"
+    ],
+    "explanation": "It contains protons and neutrons and holds almost all the atom's mass in about one hundred-thousandth of its diameter, so atoms are overwhelmingly empty space.",
+    "hook": "If an atom were a stadium, the nucleus would be a pea on the centre spot."
+  },
+  {
+    "id": "sci_018",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which animal is the largest ever known to have lived?",
+    "answer": "The blue whale",
+    "distractors": [
+      "The African elephant",
+      "The argentinosaurus",
+      "The megalodon"
+    ],
+    "explanation": "It reaches thirty metres and up to 180 tonnes; its heart alone weighs about 180 kilograms and its call can carry hundreds of kilometres underwater.",
+    "hook": "Bigger than any dinosaur, and its heart weighs as much as a small car engine."
+  },
+  {
+    "id": "sci_019",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What does DNA stand for?",
+    "answer": "Deoxyribonucleic acid",
+    "distractors": [
+      "Dinucleic acid",
+      "Diribonucleic acid",
+      "Deoxyribose nuclear acid"
+    ],
+    "explanation": "Its double-helix structure was published by Watson and Crick in 1953, drawing critically on Rosalind Franklin's X-ray diffraction image known as Photo 51.",
+    "hook": "Photo 51 was Franklin's image, and it is what made the helix obvious."
+  },
+  {
+    "id": "sci_020",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "At what temperature in Celsius does water boil at sea level?",
+    "answer": "100 degrees",
+    "distractors": [
+      "90 degrees",
+      "110 degrees",
+      "212 degrees"
+    ],
+    "explanation": "The Celsius scale was defined by water's freezing and boiling points at standard pressure; at altitude the boiling point drops, which is why high-altitude cooking takes longer.",
+    "hook": "212 is the Fahrenheit answer — a classic wrong-scale trap."
+  },
+  {
+    "id": "sci_021",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which gas makes up about seventy-eight per cent of Earth's atmosphere?",
+    "answer": "Nitrogen",
+    "distractors": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "explanation": "Oxygen accounts for about twenty-one per cent and argon most of the remainder; carbon dioxide is only around 0.04 per cent despite its climatic importance.",
+    "hook": "Air is mostly nitrogen — oxygen is only a fifth of what you breathe."
+  },
+  {
+    "id": "sci_022",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the study of fossils called?",
+    "answer": "Palaeontology",
+    "distractors": [
+      "Archaeology",
+      "Geology",
+      "Anthropology"
+    ],
+    "explanation": "Archaeology studies human material culture, geology studies rocks and Earth processes, and anthropology studies human societies; palaeontology covers ancient life through its preserved remains.",
+    "hook": "Fossils are palaeontology; human artefacts are archaeology."
+  },
+  {
+    "id": "sci_023",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which organ of the human body produces insulin?",
+    "answer": "The pancreas",
+    "distractors": [
+      "The liver",
+      "The kidney",
+      "The thyroid"
+    ],
+    "explanation": "Beta cells in the islets of Langerhans release insulin to lower blood glucose; type 1 diabetes results from their autoimmune destruction.",
+    "hook": "Islets of Langerhans — the pancreatic cells named after the student who spotted them."
+  },
+  {
+    "id": "sci_024",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of lions?",
+    "answer": "A pride",
+    "distractors": [
+      "A pack",
+      "A herd",
+      "A troop"
+    ],
+    "explanation": "A pack is wolves, a troop is monkeys or baboons, and a herd is grazing animals; lion prides are matrilineal, with related females forming the stable core.",
+    "hook": "Pride of lions, pack of wolves, troop of baboons."
+  },
+  {
+    "id": "sci_025",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which scientist proposed the theory of evolution by natural selection?",
+    "answer": "Charles Darwin",
+    "distractors": [
+      "Gregor Mendel",
+      "Jean-Baptiste Lamarck",
+      "Louis Pasteur"
+    ],
+    "explanation": "He published On the Origin of Species in 1859, prompted into print by Alfred Russel Wallace independently reaching the same conclusion.",
+    "hook": "Wallace got there too — which is why Darwin finally published."
+  },
+  {
+    "id": "sci_026",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "How many teeth does a typical adult human have?",
+    "answer": "32",
+    "distractors": [
+      "28",
+      "24",
+      "36"
+    ],
+    "explanation": "The count includes four wisdom teeth, which many people have removed or never develop; children have twenty milk teeth.",
+    "hook": "Twenty as a child, thirty-two as an adult — if the wisdom teeth show up."
+  },
+  {
+    "id": "sci_027",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which planet has the most prominent ring system?",
+    "answer": "Saturn",
+    "distractors": [
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ],
+    "explanation": "Its rings are mostly water ice, span up to 280,000 kilometres and are less than a kilometre thick; all four gas giants have rings but the others are faint.",
+    "hook": "Wide enough to cross most of the Earth-Moon gap, thinner than a mountain."
+  },
+  {
+    "id": "sci_028",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the smallest unit of an element that retains its properties?",
+    "answer": "An atom",
+    "distractors": [
+      "A molecule",
+      "A cell",
+      "A proton"
+    ],
+    "explanation": "Split it and you get subatomic particles that no longer behave like the element; a molecule is two or more atoms bonded together.",
+    "hook": "Break the atom and you no longer have the element."
+  },
+  {
+    "id": "sci_029",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which Australian animal lays eggs but feeds its young milk?",
+    "answer": "The echidna",
+    "distractors": [
+      "The koala",
+      "The wombat",
+      "The quoll"
+    ],
+    "explanation": "It and the platypus are the only surviving monotremes; the milk is secreted from patches of skin rather than nipples and the young lap it up.",
+    "hook": "Monotremes lay eggs and sweat milk — no nipples involved."
+  },
+  {
+    "id": "sci_030",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the speed of light in a vacuum, approximately?",
+    "answer": "300,000 kilometres per second",
+    "distractors": [
+      "300,000 metres per second",
+      "30,000 kilometres per second",
+      "3 million kilometres per second"
+    ],
+    "explanation": "The exact figure is 299,792,458 metres per second, and since 1983 the metre has been defined by it rather than the other way round.",
+    "hook": "The metre is now defined by the speed of light, not light by the metre."
+  },
+  {
+    "id": "sci_031",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which part of the plant conducts photosynthesis most actively?",
+    "answer": "The leaf",
+    "distractors": [
+      "The root",
+      "The stem",
+      "The flower"
+    ],
+    "explanation": "Chloroplasts are concentrated in leaf tissue, and the flat broad shape maximises light capture while stomata on the underside control gas exchange.",
+    "hook": "Leaves are flat for the same reason solar panels are."
+  },
+  {
+    "id": "sci_032",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for sodium?",
+    "answer": "Na",
+    "distractors": [
+      "So",
+      "Sd",
+      "S"
+    ],
+    "explanation": "It derives from natrium, the Latin name; S is sulfur, and potassium's K comes from kalium in the same way.",
+    "hook": "Na from natrium, K from kalium — the pair that trip everyone up."
+  },
+  {
+    "id": "sci_033",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which sense is most closely linked to memory and emotion in the brain?",
+    "answer": "Smell",
+    "distractors": [
+      "Sight",
+      "Hearing",
+      "Touch"
+    ],
+    "explanation": "Olfactory signals reach the amygdala and hippocampus without first passing through the thalamus, unlike every other sense, which is why smells trigger memories so abruptly.",
+    "hook": "Smell is the only sense that skips the brain's relay station on the way in."
+  },
+  {
+    "id": "sci_034",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What is the process by which liquid becomes gas at its surface below boiling point?",
+    "answer": "Evaporation",
+    "distractors": [
+      "Condensation",
+      "Sublimation",
+      "Precipitation"
+    ],
+    "explanation": "Condensation is the reverse, sublimation is solid straight to gas as with dry ice, and precipitation is water falling from clouds.",
+    "hook": "Sublimation skips the liquid stage entirely — dry ice is the classic example."
+  },
+  {
+    "id": "sci_035",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which mammal is the only one capable of true sustained flight?",
+    "answer": "The bat",
+    "distractors": [
+      "The flying squirrel",
+      "The sugar glider",
+      "The colugo"
+    ],
+    "explanation": "Gliders and colugos only glide on membranes; bats have true powered flight and make up around a fifth of all mammal species.",
+    "hook": "Gliders fall with style; only bats actually fly."
+  },
+  {
+    "id": "sci_036",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which protein gives skin and connective tissue its structural strength?",
+    "answer": "Collagen",
+    "distractors": [
+      "Keratin",
+      "Elastin",
+      "Myosin"
+    ],
+    "explanation": "It is the most abundant protein in mammals, about a third of total protein content; keratin makes hair and nails and elastin allows tissue to spring back.",
+    "hook": "Collagen for strength, elastin for stretch, keratin for hair and nails."
+  },
+  {
+    "id": "sci_037",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which moon of Saturn has a dense atmosphere and lakes of liquid methane?",
+    "answer": "Titan",
+    "distractors": [
+      "Europa",
+      "Enceladus",
+      "Ganymede"
+    ],
+    "explanation": "It is the only moon with a substantial atmosphere and the only body besides Earth known to have stable surface liquid; the Huygens probe landed there in 2005.",
+    "hook": "Rain, rivers and lakes — but made of methane, not water."
+  },
+  {
+    "id": "sci_038",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the SI unit of electrical resistance?",
+    "answer": "The ohm",
+    "distractors": [
+      "The volt",
+      "The ampere",
+      "The watt"
+    ],
+    "explanation": "Ohm's law states that voltage equals current times resistance; the volt measures potential difference, the ampere current, and the watt power.",
+    "hook": "V = IR — volts, amps, ohms in one equation."
+  },
+  {
+    "id": "sci_039",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which element has the atomic number 1?",
+    "answer": "Hydrogen",
+    "distractors": [
+      "Helium",
+      "Carbon",
+      "Lithium"
+    ],
+    "explanation": "It is the simplest and most abundant element in the universe, making up about seventy-five per cent of normal matter by mass.",
+    "hook": "One proton, and three quarters of all the ordinary matter there is."
+  },
+  {
+    "id": "sci_040",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the term for animals that are active at dusk and dawn?",
+    "answer": "Crepuscular",
+    "distractors": [
+      "Nocturnal",
+      "Diurnal",
+      "Cathemeral"
+    ],
+    "explanation": "Many prey species favour low light because it offers cover without full darkness; cathemeral animals are active irregularly across the whole day.",
+    "hook": "Crepuscular for twilight, diurnal for day, nocturnal for night."
+  },
+  {
+    "id": "sci_041",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which scientist formulated the three laws of motion?",
+    "answer": "Isaac Newton",
+    "distractors": [
+      "Galileo Galilei",
+      "Johannes Kepler",
+      "Robert Hooke"
+    ],
+    "explanation": "Published in the Principia in 1687, they held as the foundation of mechanics until relativity and quantum theory revealed their limits at extreme speeds and scales.",
+    "hook": "The Principia stood unchallenged for over two centuries."
+  },
+  {
+    "id": "sci_042",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the largest bone in the human body?",
+    "answer": "The femur",
+    "distractors": [
+      "The tibia",
+      "The humerus",
+      "The pelvis"
+    ],
+    "explanation": "The thigh bone is roughly a quarter of a person's height and can bear loads many times body weight; the smallest bone is the stapes in the middle ear.",
+    "hook": "Femur biggest, stapes smallest — thigh to ear."
+  },
+  {
+    "id": "sci_043",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which particle carries a negative electric charge?",
+    "answer": "The electron",
+    "distractors": [
+      "The proton",
+      "The neutron",
+      "The positron"
+    ],
+    "explanation": "Protons are positive, neutrons neutral, and the positron is the electron's positively charged antimatter counterpart, predicted by Dirac and found in 1932.",
+    "hook": "The positron is the electron's antimatter twin — same mass, opposite charge."
+  },
+  {
+    "id": "sci_044",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the name of the galaxy containing our solar system?",
+    "answer": "The Milky Way",
+    "distractors": [
+      "Andromeda",
+      "Triangulum",
+      "The Magellanic Cloud"
+    ],
+    "explanation": "A barred spiral about 100,000 light years across containing several hundred billion stars; Andromeda is the nearest large galaxy and is approaching us.",
+    "hook": "Andromeda is on a collision course — about four billion years out."
+  },
+  {
+    "id": "sci_045",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which acid is found in the human stomach?",
+    "answer": "Hydrochloric acid",
+    "distractors": [
+      "Sulfuric acid",
+      "Citric acid",
+      "Acetic acid"
+    ],
+    "explanation": "It keeps the stomach at a pH of about 1.5 to 3.5, killing pathogens and activating pepsin; a mucus layer prevents the stomach digesting itself.",
+    "hook": "Strong enough to dissolve metal, held off by a layer of mucus."
+  },
+  {
+    "id": "sci_046",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the collective noun for a group of jellyfish?",
+    "answer": "A smack",
+    "distractors": [
+      "A bloom",
+      "A shoal",
+      "A colony"
+    ],
+    "explanation": "'Bloom' is also used and is the more scientific term for a population surge, but 'smack' is the traditional collective noun favoured by quiz setters.",
+    "hook": "A smack of jellyfish — which is also what it feels like."
+  },
+  {
+    "id": "sci_047",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which planet rotates on its side, with an axial tilt of about 98 degrees?",
+    "answer": "Uranus",
+    "distractors": [
+      "Neptune",
+      "Venus",
       "Saturn"
     ],
-    "answer": 0,
-    "explanation": "In science, Mars is the primary answer associated with What is: Planet known as the Red Planet'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mars** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The tilt is thought to result from an ancient collision, giving each pole roughly forty-two years of continuous sunlight followed by forty-two years of darkness.",
+    "hook": "It rolls around the Sun like a barrel instead of spinning like a top."
   },
   {
-    "id": "sci_fact_34",
+    "id": "sci_048",
     "category": "science",
-    "question": "What is: Largest planet in our solar system'??",
-    "options": [
-      "Jupiter",
-      "Saturn",
-      "Uranus",
-      "Neptune"
+    "difficulty": "medium",
+    "question": "What is the medical term for the kneecap?",
+    "answer": "The patella",
+    "distractors": [
+      "The scapula",
+      "The clavicle",
+      "The sternum"
     ],
-    "answer": 0,
-    "explanation": "In science, Jupiter is the primary answer associated with What is: Largest planet in our solar system'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Jupiter** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It is a sesamoid bone embedded in the quadriceps tendon; the scapula is the shoulder blade, the clavicle the collarbone and the sternum the breastbone.",
+    "hook": "Patella knee, scapula shoulder, clavicle collar, sternum chest."
   },
   {
-    "id": "sci_fact_35",
+    "id": "sci_049",
     "category": "science",
-    "question": "What is: Planet with the most extensive planetary ring system'??",
-    "options": [
-      "Saturn",
-      "Jupiter",
-      "Uranus",
-      "Neptune"
+    "difficulty": "medium",
+    "question": "Which type of rock forms from cooled magma or lava?",
+    "answer": "Igneous",
+    "distractors": [
+      "Sedimentary",
+      "Metamorphic",
+      "Conglomerate"
     ],
-    "answer": 0,
-    "explanation": "In science, Saturn is the primary answer associated with What is: Planet with the most extensive planetary ring system'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Saturn** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Sedimentary rock forms from compressed deposits and metamorphic from existing rock altered by heat and pressure; granite and basalt are the common igneous examples.",
+    "hook": "Igneous from fire, sedimentary from settling, metamorphic from change."
   },
   {
-    "id": "sci_fact_36",
+    "id": "sci_050",
     "category": "science",
-    "question": "What is: Planet closest to the Sun in our solar system'??",
-    "options": [
-      "Mercury",
-      "Venus",
-      "Earth",
-      "Mars"
+    "difficulty": "medium",
+    "question": "Which element is the most abundant in the Earth's crust?",
+    "answer": "Oxygen",
+    "distractors": [
+      "Silicon",
+      "Iron",
+      "Aluminium"
     ],
-    "answer": 0,
-    "explanation": "In science, Mercury is the primary answer associated with What is: Planet closest to the Sun in our solar system'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mercury** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It makes up about forty-six per cent of the crust by mass, bound up in silicates and oxides; silicon is second at around twenty-eight per cent.",
+    "hook": "Nearly half the crust is oxygen, locked into rock rather than floating free."
   },
   {
-    "id": "sci_fact_37",
+    "id": "sci_051",
     "category": "science",
-    "question": "What is: Hottest planet in our solar system'??",
-    "options": [
-      "Venus",
+    "difficulty": "medium",
+    "question": "What is the name for an animal that eats both plants and meat?",
+    "answer": "An omnivore",
+    "distractors": [
+      "A herbivore",
+      "A carnivore",
+      "A detritivore"
+    ],
+    "explanation": "Detritivores such as earthworms feed on decomposing material; bears, pigs and humans are classic omnivores with dentition suited to both diets.",
+    "hook": "Your own teeth are the giveaway — canines for meat, molars for grinding plants."
+  },
+  {
+    "id": "sci_052",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which scientist discovered penicillin in 1928?",
+    "answer": "Alexander Fleming",
+    "distractors": [
+      "Howard Florey",
+      "Ernst Chain",
+      "Louis Pasteur"
+    ],
+    "explanation": "He noticed mould killing bacteria on a contaminated culture plate but could not purify it; Florey and Chain made it a usable drug and all three shared the 1945 Nobel.",
+    "hook": "Discovery and drug were separate achievements twelve years apart."
+  },
+  {
+    "id": "sci_053",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the largest species of shark?",
+    "answer": "The whale shark",
+    "distractors": [
+      "The great white",
+      "The basking shark",
+      "The tiger shark"
+    ],
+    "explanation": "It reaches about eighteen metres and feeds by filtering plankton; the basking shark is the second largest and also a filter feeder.",
+    "hook": "The two biggest sharks both eat plankton — size and menace are unrelated."
+  },
+  {
+    "id": "sci_054",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which gland regulates metabolism through hormones in the neck?",
+    "answer": "The thyroid",
+    "distractors": [
+      "The pituitary",
+      "The adrenal",
+      "The thymus"
+    ],
+    "explanation": "It produces thyroxine under instruction from the pituitary; iodine deficiency causes goitre, which is why table salt is iodised in many countries.",
+    "hook": "Iodised salt exists because of this one gland."
+  },
+  {
+    "id": "sci_055",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the term for the change of a solid directly into a gas?",
+    "answer": "Sublimation",
+    "distractors": [
+      "Evaporation",
+      "Deposition",
+      "Condensation"
+    ],
+    "explanation": "Dry ice and iodine both sublime at ordinary pressures; deposition is the reverse process, gas straight to solid, which is how frost forms.",
+    "hook": "Frost is deposition — gas to solid with no puddle in between."
+  },
+  {
+    "id": "sci_056",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which planet has a day longer than its year?",
+    "answer": "Venus",
+    "distractors": [
       "Mercury",
       "Mars",
-      "Jupiter"
+      "Neptune"
     ],
-    "answer": 0,
-    "explanation": "In science, Venus is the primary answer associated with What is: Hottest planet in our solar system'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Venus** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It takes about 243 Earth days to rotate once but only 225 to orbit the Sun, and it rotates backwards relative to most planets.",
+    "hook": "A day there outlasts a year, and the sun rises in the west."
   },
   {
-    "id": "sci_fact_38",
+    "id": "sci_057",
     "category": "science",
-    "question": "What is: Approximate speed of light in a vacuum'??",
-    "options": [
-      "300,000 km/s",
-      "150,000 km/s",
-      "1,000,000 km/s",
-      "30,000 km/s"
+    "difficulty": "medium",
+    "question": "What is the scientific name for the voice box?",
+    "answer": "The larynx",
+    "distractors": [
+      "The pharynx",
+      "The trachea",
+      "The oesophagus"
     ],
-    "answer": 0,
-    "explanation": "In science, 300,000 km/s is the primary answer associated with What is: Approximate speed of light in a vacuum'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **300,000 km/s** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The pharynx is the throat above it, the trachea the windpipe below, and the oesophagus the food tube behind; the larynx houses the vocal folds.",
+    "hook": "Pharynx above, larynx in the middle, trachea below."
   },
   {
-    "id": "sci_fact_39",
+    "id": "sci_058",
     "category": "science",
-    "question": "What is: SI unit of electrical resistance'??",
-    "options": [
-      "Ohm",
-      "Volt",
-      "Ampere",
-      "Watt"
+    "difficulty": "medium",
+    "question": "Which subatomic particle was discovered at CERN in 2012?",
+    "answer": "The Higgs boson",
+    "distractors": [
+      "The neutrino",
+      "The top quark",
+      "The muon"
     ],
-    "answer": 0,
-    "explanation": "In science, Ohm is the primary answer associated with What is: SI unit of electrical resistance'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ohm** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Its existence explains how fundamental particles acquire mass; Peter Higgs and François Englert shared the 2013 Nobel Prize the year after confirmation.",
+    "hook": "Predicted in 1964, found in 2012, Nobel in 2013 — a forty-eight-year wait."
   },
   {
-    "id": "sci_fact_40",
+    "id": "sci_059",
     "category": "science",
-    "question": "What is: SI unit of electrical current'??",
-    "options": [
-      "Ampere",
-      "Volt",
-      "Ohm",
-      "Watt"
+    "difficulty": "medium",
+    "question": "What is the pH of a neutral solution at 25 degrees Celsius?",
+    "answer": "7",
+    "distractors": [
+      "0",
+      "10",
+      "14"
     ],
-    "answer": 0,
-    "explanation": "In science, Ampere is the primary answer associated with What is: SI unit of electrical current'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ampere** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The scale is logarithmic, so pH 4 is ten times more acidic than pH 5; below seven is acidic and above is alkaline.",
+    "hook": "Each step is ten times — lemon juice at pH 2 is a hundred times more acidic than coffee at 4."
   },
   {
-    "id": "sci_fact_41",
+    "id": "sci_060",
     "category": "science",
-    "question": "What is: SI unit of electric potential difference'??",
-    "options": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Watt"
+    "difficulty": "medium",
+    "question": "Which Australian marsupial has a backwards-facing pouch?",
+    "answer": "The wombat",
+    "distractors": [
+      "The kangaroo",
+      "The possum",
+      "The bandicoot"
     ],
-    "answer": 0,
-    "explanation": "In science, Volt is the primary answer associated with What is: SI unit of electric potential difference'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Volt** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The pouch faces the rear so soil does not fill it while digging; bandicoots also have rear-facing pouches for the same reason.",
+    "hook": "Diggers need rear-facing pouches or they fill the joey with dirt."
   },
   {
-    "id": "sci_fact_42",
+    "id": "sci_061",
     "category": "science",
-    "question": "What is: SI unit of power'??",
-    "options": [
-      "Watt",
-      "Joule",
-      "Newton",
-      "Pascal"
+    "difficulty": "medium",
+    "question": "What is the powerhouse of the cell?",
+    "answer": "The mitochondrion",
+    "distractors": [
+      "The ribosome",
+      "The nucleus",
+      "The Golgi apparatus"
     ],
-    "answer": 0,
-    "explanation": "In science, Watt is the primary answer associated with What is: SI unit of power'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Watt** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It produces ATP through respiration and carries its own DNA inherited only from the mother, evidence that it began as a separate bacterium absorbed by an ancestral cell.",
+    "hook": "It has its own DNA because it used to be a free-living bacterium."
   },
   {
-    "id": "sci_fact_43",
+    "id": "sci_062",
     "category": "science",
-    "question": "What is: SI unit of force'??",
-    "options": [
-      "Newton",
-      "Joule",
-      "Pascal",
-      "Watt"
+    "difficulty": "medium",
+    "question": "Which metal is liquid at room temperature?",
+    "answer": "Mercury",
+    "distractors": [
+      "Gallium",
+      "Lead",
+      "Sodium"
     ],
-    "answer": 0,
-    "explanation": "In science, Newton is the primary answer associated with What is: SI unit of force'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Newton** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Gallium melts at about thirty degrees, so it liquefies in the hand but not at standard room temperature; mercury is the only metal liquid under normal conditions.",
+    "hook": "Gallium melts in your palm, but only mercury is liquid on the shelf."
   },
   {
-    "id": "sci_fact_44",
+    "id": "sci_063",
     "category": "science",
-    "question": "What is: SI unit of pressure'??",
-    "options": [
-      "Pascal",
-      "Newton",
-      "Joule",
-      "Bar"
+    "difficulty": "medium",
+    "question": "What is the term for a group of organisms interbreeding in a particular area?",
+    "answer": "A population",
+    "distractors": [
+      "A community",
+      "An ecosystem",
+      "A biome"
     ],
-    "answer": 0,
-    "explanation": "In science, Pascal is the primary answer associated with What is: SI unit of pressure'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Pascal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "A community is all populations in an area, an ecosystem adds the physical environment, and a biome is a large-scale climatic and vegetation zone.",
+    "hook": "Population, community, ecosystem, biome — each one wider than the last."
   },
   {
-    "id": "sci_fact_45",
+    "id": "sci_064",
     "category": "science",
-    "question": "What is: SI unit of work or energy'??",
-    "options": [
-      "Joule",
-      "Watt",
-      "Newton",
-      "Pascal"
+    "difficulty": "medium",
+    "question": "Which vitamin deficiency causes scurvy?",
+    "answer": "Vitamin C",
+    "distractors": [
+      "Vitamin D",
+      "Vitamin B1",
+      "Vitamin K"
     ],
-    "answer": 0,
-    "explanation": "In science, Joule is the primary answer associated with What is: SI unit of work or energy'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Joule** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Without it the body cannot synthesise collagen properly, causing bleeding gums and poor wound healing; James Lind's 1747 citrus trial was one of the first controlled clinical experiments.",
+    "hook": "Lind's citrus trial in 1747 was arguably the first clinical trial ever run."
   },
   {
-    "id": "sci_fact_46",
+    "id": "sci_065",
     "category": "science",
-    "question": "What is: SI unit of frequency'??",
-    "options": [
-      "Hertz",
-      "Decibel",
-      "Lumen",
-      "Tesla"
+    "difficulty": "medium",
+    "question": "What is the closest star to Earth after the Sun?",
+    "answer": "Proxima Centauri",
+    "distractors": [
+      "Alpha Centauri A",
+      "Sirius",
+      "Barnard's Star"
     ],
-    "answer": 0,
-    "explanation": "In science, Hertz is the primary answer associated with What is: SI unit of frequency'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Hertz** for this question.",
-    "difficulty": "Medium"
+    "explanation": "A red dwarf about 4.24 light years away and part of the Alpha Centauri triple system; it hosts at least one planet in its habitable zone.",
+    "hook": "Four light years away and it still has a planet in the habitable zone."
   },
   {
-    "id": "sci_fact_47",
+    "id": "sci_066",
     "category": "science",
-    "question": "What is: Scale measuring mineral scratch hardness'??",
-    "options": [
-      "Mohs Scale",
-      "Richter Scale",
-      "Beaufort Scale",
-      "Kelvin Scale"
+    "difficulty": "medium",
+    "question": "Which blood vessel carries blood away from the heart?",
+    "answer": "The artery",
+    "distractors": [
+      "The vein",
+      "The capillary",
+      "The venule"
     ],
-    "answer": 0,
-    "explanation": "In science, Mohs Scale is the primary answer associated with What is: Scale measuring mineral scratch hardness'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mohs Scale** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Arteries carry blood away and veins return it; the pulmonary artery is the exception in carrying deoxygenated blood, since it runs to the lungs.",
+    "hook": "Arteries away, veins back — the pulmonary artery is the one exception to the oxygen rule."
   },
   {
-    "id": "sci_fact_48",
+    "id": "sci_067",
     "category": "science",
-    "question": "What is: Scale measuring wind force at sea'??",
-    "options": [
-      "Beaufort Scale",
-      "Mohs Scale",
-      "Fujita Scale",
-      "Saffir-Simpson Scale"
+    "difficulty": "medium",
+    "question": "What is the study of the weather called?",
+    "answer": "Meteorology",
+    "distractors": [
+      "Climatology",
+      "Astrology",
+      "Hydrology"
     ],
-    "answer": 0,
-    "explanation": "In science, Beaufort Scale is the primary answer associated with What is: Scale measuring wind force at sea'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Beaufort Scale** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Climatology studies long-term patterns rather than day-to-day conditions; the name comes from the Greek for things high in the air, not from meteors.",
+    "hook": "Nothing to do with meteors — the Greek root just means 'things up high'."
   },
   {
-    "id": "sci_fact_49",
+    "id": "sci_068",
     "category": "science",
-    "question": "What is: Scale measuring tornado damage intensity'??",
-    "options": [
-      "Fujita Scale",
-      "Richter Scale",
-      "Beaufort Scale",
-      "Saffir-Simpson Scale"
+    "difficulty": "medium",
+    "question": "Which mammal has the longest gestation period?",
+    "answer": "The African elephant",
+    "distractors": [
+      "The blue whale",
+      "The giraffe",
+      "The rhinoceros"
     ],
-    "answer": 0,
-    "explanation": "In science, Fujita Scale is the primary answer associated with What is: Scale measuring tornado damage intensity'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Fujita Scale** for this question.",
-    "difficulty": "Medium"
+    "explanation": "About twenty-two months, long enough for the calf to be born with a well-developed brain able to keep up with the herd almost immediately.",
+    "hook": "Nearly two years pregnant, and the calf walks within hours."
   },
   {
-    "id": "sci_fact_50",
+    "id": "sci_069",
     "category": "science",
-    "question": "What is: Scale measuring hurricane wind intensity'??",
-    "options": [
-      "Saffir-Simpson Scale",
-      "Beaufort Scale",
-      "Fujita Scale",
-      "Richter Scale"
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for potassium?",
+    "answer": "K",
+    "distractors": [
+      "P",
+      "Po",
+      "Pt"
     ],
-    "answer": 0,
-    "explanation": "In science, Saffir-Simpson Scale is the primary answer associated with What is: Scale measuring hurricane wind intensity'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Saffir-Simpson Scale** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It comes from the Latin kalium, itself from Arabic al-qalyah, plant ash; P is phosphorus, Po polonium and Pt platinum.",
+    "hook": "K from kalium, and P is already taken by phosphorus."
   },
   {
-    "id": "sci_fact_51",
+    "id": "sci_070",
     "category": "science",
-    "question": "What is: Green pigment that absorbs light during photosynthesis in plants'??",
-    "options": [
-      "Chlorophyll",
-      "Carotene",
-      "Xanthophyll",
-      "Anthocyanin"
+    "difficulty": "medium",
+    "question": "Which layer of the atmosphere contains the ozone layer?",
+    "answer": "The stratosphere",
+    "distractors": [
+      "The troposphere",
+      "The mesosphere",
+      "The thermosphere"
     ],
-    "answer": 0,
-    "explanation": "In science, Chlorophyll is the primary answer associated with What is: Green pigment that absorbs light during photosynthesis in plants'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Chlorophyll** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Weather occurs in the troposphere below; ozone in the stratosphere absorbs ultraviolet radiation, and the Montreal Protocol of 1987 successfully reversed its depletion.",
+    "hook": "The Montreal Protocol is the rare environmental treaty that actually worked."
   },
   {
-    "id": "sci_fact_52",
+    "id": "sci_071",
     "category": "science",
-    "question": "What is: Organelle known as the powerhouse of the cell'??",
-    "options": [
-      "Mitochondria",
-      "Nucleus",
-      "Ribosome",
-      "Golgi Apparatus"
+    "difficulty": "medium",
+    "question": "What is the name of the largest volcano in the solar system?",
+    "answer": "Olympus Mons",
+    "distractors": [
+      "Mauna Loa",
+      "Mount Etna",
+      "Maat Mons"
     ],
-    "answer": 0,
-    "explanation": "In science, Mitochondria is the primary answer associated with What is: Organelle known as the powerhouse of the cell'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mitochondria** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The Martian shield volcano is about 22 kilometres high and 600 across, roughly the size of France; low gravity and no plate movement let it grow in one place for millions of years.",
+    "hook": "It grew huge because Mars has no moving plates to slide the volcano off its hot spot."
   },
   {
-    "id": "sci_fact_53",
+    "id": "sci_072",
     "category": "science",
-    "question": "What is: Structures carrying DNA inside the cell nucleus'??",
-    "options": [
-      "Chromosomes",
-      "Ribosomes",
-      "Lysosomes",
-      "Vacuoles"
+    "difficulty": "medium",
+    "question": "Which two elements make up common table salt?",
+    "answer": "Sodium and chlorine",
+    "distractors": [
+      "Sodium and carbon",
+      "Potassium and chlorine",
+      "Calcium and chlorine"
     ],
-    "answer": 0,
-    "explanation": "In science, Chromosomes is the primary answer associated with What is: Structures carrying DNA inside the cell nucleus'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Chromosomes** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Both are dangerous alone — sodium reacts violently with water and chlorine is toxic — yet bonded they form an essential nutrient.",
+    "hook": "An explosive metal plus a poison gas equals a table condiment."
   },
   {
-    "id": "sci_fact_54",
+    "id": "sci_073",
     "category": "science",
-    "question": "What is: Number of chromosomes in a normal human somatic cell'??",
-    "options": [
-      "46 (23 pairs)",
-      "48 (24 pairs)",
-      "44 (22 pairs)",
-      "42 (21 pairs)"
+    "difficulty": "medium",
+    "question": "What is the term for the number of protons in an atom?",
+    "answer": "The atomic number",
+    "distractors": [
+      "The mass number",
+      "The valence",
+      "The isotope number"
     ],
-    "answer": 0,
-    "explanation": "In science, 46 (23 pairs) is the primary answer associated with What is: Number of chromosomes in a normal human somatic cell'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **46 (23 pairs)** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It defines which element the atom is; the mass number counts protons plus neutrons, and isotopes are atoms of one element with differing neutron counts.",
+    "hook": "Protons decide the element; neutrons only decide the isotope."
   },
   {
-    "id": "sci_fact_55",
+    "id": "sci_074",
     "category": "science",
-    "question": "What is: Scottish scientist who discovered penicillin in 1928'??",
-    "options": [
-      "Alexander Fleming",
-      "Louis Pasteur",
-      "Robert Koch",
-      "Edward Jenner"
+    "difficulty": "medium",
+    "question": "Which Australian bird is the world's second-tallest?",
+    "answer": "The emu",
+    "distractors": [
+      "The cassowary",
+      "The brolga",
+      "The jabiru"
     ],
-    "answer": 0,
-    "explanation": "In science, Alexander Fleming is the primary answer associated with What is: Scottish scientist who discovered penicillin in 1928'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Alexander Fleming** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It stands up to 1.9 metres, behind only the ostrich; the cassowary is heavier but shorter and is considered the most dangerous bird alive.",
+    "hook": "Ostrich tallest, emu second, cassowary heaviest and angriest."
   },
   {
-    "id": "sci_fact_56",
+    "id": "sci_075",
     "category": "science",
-    "question": "What is: English physician who developed the smallpox vaccine in 1796'??",
-    "options": [
-      "Edward Jenner",
-      "Louis Pasteur",
-      "Robert Koch",
-      "Jonas Salk"
+    "difficulty": "medium",
+    "question": "What is the SI unit of force?",
+    "answer": "The newton",
+    "distractors": [
+      "The joule",
+      "The pascal",
+      "The watt"
     ],
-    "answer": 0,
-    "explanation": "In science, Edward Jenner is the primary answer associated with What is: English physician who developed the smallpox vaccine in 1796'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Edward Jenner** for this question.",
-    "difficulty": "Medium"
+    "explanation": "One newton accelerates one kilogram at one metre per second squared; the joule measures energy, the pascal pressure and the watt power.",
+    "hook": "Newton force, joule energy, watt power, pascal pressure."
   },
   {
-    "id": "sci_fact_57",
+    "id": "sci_076",
     "category": "science",
-    "question": "What is: French scientist who developed rabies vaccine and pasteurization'??",
-    "options": [
-      "Louis Pasteur",
-      "Edward Jenner",
-      "Robert Koch",
-      "Joseph Lister"
+    "difficulty": "medium",
+    "question": "Which organ filters waste from the blood to produce urine?",
+    "answer": "The kidney",
+    "distractors": [
+      "The liver",
+      "The spleen",
+      "The bladder"
     ],
-    "answer": 0,
-    "explanation": "In science, Louis Pasteur is the primary answer associated with What is: French scientist who developed rabies vaccine and pasteurization'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Louis Pasteur** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The two kidneys filter around 180 litres of blood daily, returning almost all of it and excreting one to two litres as urine.",
+    "hook": "180 litres filtered a day, and you only notice about one of them."
   },
   {
-    "id": "sci_fact_58",
+    "id": "sci_077",
     "category": "science",
-    "question": "What is: English chemist whose X-ray diffraction images led to DNA structure discovery'??",
-    "options": [
-      "Rosalind Franklin",
-      "Ada Yonath",
-      "Barbara McClintock",
-      "Dorothy Hodgkin"
+    "difficulty": "medium",
+    "question": "What is the collective noun for a group of owls?",
+    "answer": "A parliament",
+    "distractors": [
+      "A murder",
+      "A gaggle",
+      "A convocation"
     ],
-    "answer": 0,
-    "explanation": "In science, Rosalind Franklin is the primary answer associated with What is: English chemist whose X-ray diffraction images led to DNA structure discovery'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Rosalind Franklin** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The term was popularised by C.S. Lewis in The Chronicles of Narnia, drawing on Chaucer's Parliament of Fowls; a convocation is eagles.",
+    "hook": "Parliament of owls, convocation of eagles, gaggle of geese on the ground."
   },
   {
-    "id": "sci_fact_59",
+    "id": "sci_078",
     "category": "science",
-    "question": "What is: Atmospheric phenomenon causing the Northern Lights'??",
-    "options": [
-      "Aurora Borealis",
-      "Aurora Australis",
-      "St. Elmo's Fire",
-      "Zodiacal Light"
+    "difficulty": "medium",
+    "question": "Which scientist developed the periodic table's predictive arrangement in 1869?",
+    "answer": "Dmitri Mendeleev",
+    "distractors": [
+      "Antoine Lavoisier",
+      "John Dalton",
+      "Henry Moseley"
     ],
-    "answer": 0,
-    "explanation": "In science, Aurora Borealis is the primary answer associated with What is: Atmospheric phenomenon causing the Northern Lights'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Aurora Borealis** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He left gaps for undiscovered elements and predicted their properties accurately; Moseley later reordered the table by atomic number rather than atomic weight.",
+    "hook": "He left blanks and told everyone what would fill them — and he was right."
   },
   {
-    "id": "sci_fact_60",
+    "id": "sci_079",
     "category": "science",
-    "question": "What is: Atmospheric phenomenon causing the Southern Lights'??",
-    "options": [
-      "Aurora Australis",
-      "Aurora Borealis",
-      "St. Elmo's Fire",
-      "Zodiacal Light"
+    "difficulty": "medium",
+    "question": "What is the name for the boundary around a black hole beyond which nothing escapes?",
+    "answer": "The event horizon",
+    "distractors": [
+      "The singularity",
+      "The accretion disc",
+      "The photon sphere"
     ],
-    "answer": 0,
-    "explanation": "In science, Aurora Australis is the primary answer associated with What is: Atmospheric phenomenon causing the Southern Lights'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Aurora Australis** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The singularity is the theoretical point of infinite density at the centre; the accretion disc is the glowing matter spiralling in, which is what telescopes actually image.",
+    "hook": "The famous black hole photograph shows the accretion disc, not the hole."
   },
   {
-    "id": "sci_fact_61",
+    "id": "sci_080",
     "category": "science",
-    "question": "What is: Outermost layer of Earth's atmosphere'??",
-    "options": [
-      "Exosphere",
-      "Thermosphere",
-      "Mesosphere",
-      "Stratosphere"
+    "difficulty": "medium",
+    "question": "Which gas is responsible for the smell of rotten eggs?",
+    "answer": "Hydrogen sulfide",
+    "distractors": [
+      "Sulfur dioxide",
+      "Ammonia",
+      "Methane"
     ],
-    "answer": 0,
-    "explanation": "In science, Exosphere is the primary answer associated with What is: Outermost layer of Earth's atmosphere'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Exosphere** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It is detectable at extremely low concentrations but deadens the sense of smell at high ones, which makes it dangerous in industrial settings.",
+    "hook": "You smell it at tiny doses and stop smelling it at lethal ones."
   },
   {
-    "id": "sci_fact_62",
+    "id": "sci_081",
     "category": "science",
-    "question": "What is: Atmospheric layer containing the protective ozone layer'??",
-    "options": [
-      "Stratosphere",
-      "Troposphere",
-      "Mesosphere",
-      "Thermosphere"
+    "difficulty": "medium",
+    "question": "What is the term for an animal with a backbone?",
+    "answer": "A vertebrate",
+    "distractors": [
+      "An invertebrate",
+      "An arthropod",
+      "A chordate"
     ],
-    "answer": 0,
-    "explanation": "In science, Stratosphere is the primary answer associated with What is: Atmospheric layer containing the protective ozone layer'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Stratosphere** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Vertebrates are a subgroup of chordates, which include a few backbone-less relatives; around ninety-seven per cent of animal species are invertebrates.",
+    "hook": "Nearly all animals have no backbone — vertebrates are the rare case."
   },
   {
-    "id": "sci_fact_63",
+    "id": "sci_082",
     "category": "science",
-    "question": "What is: Atmospheric layer containing almost all weather phenomena'??",
-    "options": [
-      "Troposphere",
-      "Stratosphere",
-      "Mesosphere",
-      "Thermosphere"
+    "difficulty": "medium",
+    "question": "Which planet is the densest in the solar system?",
+    "answer": "Earth",
+    "distractors": [
+      "Mercury",
+      "Jupiter",
+      "Venus"
     ],
-    "answer": 0,
-    "explanation": "In science, Troposphere is the primary answer associated with What is: Atmospheric layer containing almost all weather phenomena'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Troposphere** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Its average density is about 5.5 grams per cubic centimetre thanks to its iron core; Saturn is the least dense and would float in a sufficiently large ocean.",
+    "hook": "Earth is the densest planet; Saturn would float in water."
   },
   {
-    "id": "sci_fact_64",
+    "id": "sci_083",
     "category": "science",
-    "question": "What is: Subatomic particle with a negative electric charge'??",
-    "options": [
-      "Electron",
-      "Proton",
-      "Neutron",
-      "Photon"
+    "difficulty": "medium",
+    "question": "What is the largest muscle in the human body?",
+    "answer": "The gluteus maximus",
+    "distractors": [
+      "The quadriceps",
+      "The latissimus dorsi",
+      "The heart"
     ],
-    "answer": 0,
-    "explanation": "In science, Electron is the primary answer associated with What is: Subatomic particle with a negative electric charge'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Electron** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It powers hip extension and is unusually large in humans compared with other primates, an adaptation for endurance running.",
+    "hook": "Our oversized backside is an adaptation for long-distance running."
   },
   {
-    "id": "sci_fact_65",
+    "id": "sci_084",
     "category": "science",
-    "question": "What is: Subatomic particle with a positive electric charge'??",
-    "options": [
-      "Proton",
-      "Electron",
-      "Neutron",
-      "Neutrino"
+    "difficulty": "medium",
+    "question": "Which process splits a heavy atomic nucleus to release energy?",
+    "answer": "Nuclear fission",
+    "distractors": [
+      "Nuclear fusion",
+      "Radioactive decay",
+      "Ionisation"
     ],
-    "answer": 0,
-    "explanation": "In science, Proton is the primary answer associated with What is: Subatomic particle with a positive electric charge'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Proton** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Fission powers reactors and atomic bombs; fusion joins light nuclei and powers the Sun, and remains difficult to sustain on Earth.",
+    "hook": "Fission splits, fusion joins — reactors do the first, stars do the second."
   },
   {
-    "id": "sci_fact_66",
+    "id": "sci_085",
     "category": "science",
-    "question": "What is: Subatomic particle with no electric charge'??",
-    "options": [
-      "Neutron",
-      "Proton",
-      "Electron",
-      "Positron"
+    "difficulty": "medium",
+    "question": "Which Australian tree species is the tallest flowering plant in the world?",
+    "answer": "The mountain ash",
+    "distractors": [
+      "The karri",
+      "The river red gum",
+      "The jarrah"
     ],
-    "answer": 0,
-    "explanation": "In science, Neutron is the primary answer associated with What is: Subatomic particle with no electric charge'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Neutron** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Eucalyptus regnans in Victoria and Tasmania exceeds ninety metres; only coast redwoods, which are conifers rather than flowering plants, grow taller.",
+    "hook": "Redwoods are taller, but they don't flower — so the record is Australian."
   },
   {
-    "id": "sci_fact_67",
+    "id": "sci_086",
     "category": "science",
-    "question": "What is: Quantum particle of electromagnetic radiation (light)'??",
-    "options": [
-      "Photon",
-      "Electron",
-      "Gluon",
-      "Quark"
+    "difficulty": "hard",
+    "question": "Which enzyme unwinds the DNA double helix during replication?",
+    "answer": "Helicase",
+    "distractors": [
+      "Polymerase",
+      "Ligase",
+      "Primase"
     ],
-    "answer": 0,
-    "explanation": "In science, Photon is the primary answer associated with What is: Quantum particle of electromagnetic radiation (light)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Photon** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Helicase separates the strands, primase lays down RNA primers, polymerase builds the new strand and ligase seals the fragments together.",
+    "hook": "Helicase unzips, primase starts, polymerase builds, ligase glues."
   },
   {
-    "id": "sci_fact_68",
+    "id": "sci_087",
     "category": "science",
-    "question": "What is: Particle giving mass to other fundamental particles (CERN 2012)'??",
-    "options": [
-      "Higgs Boson",
-      "Tachyon",
-      "Graviton",
-      "Neutrino"
+    "difficulty": "hard",
+    "question": "What is the name of the effect where light shifts to longer wavelengths as sources recede?",
+    "answer": "Redshift",
+    "distractors": [
+      "Blueshift",
+      "Refraction",
+      "Diffraction"
     ],
-    "answer": 0,
-    "explanation": "In science, Higgs Boson is the primary answer associated with What is: Particle giving mass to other fundamental particles (CERN 2012)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Higgs Boson** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Hubble used it in 1929 to show that distant galaxies are receding faster the further away they are, the founding evidence for an expanding universe.",
+    "hook": "Redshift is how we know the universe is expanding at all."
   },
   {
-    "id": "sci_fact_69",
+    "id": "sci_088",
     "category": "science",
-    "question": "What is: Universal donor red blood cell type'??",
-    "options": [
-      "O Negative",
-      "AB Positive",
-      "A Positive",
-      "B Negative"
+    "difficulty": "hard",
+    "question": "Which particle is thought to make up most of the universe's mass but has never been directly detected?",
+    "answer": "Dark matter",
+    "distractors": [
+      "The neutrino",
+      "The graviton",
+      "Antimatter"
     ],
-    "answer": 0,
-    "explanation": "In science, O Negative is the primary answer associated with What is: Universal donor red blood cell type'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **O Negative** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It is inferred from galactic rotation curves and gravitational lensing; dark energy, a separate phenomenon, accounts for the accelerating expansion of space.",
+    "hook": "Galaxies spin too fast for the matter we can see — that gap is dark matter."
   },
   {
-    "id": "sci_fact_70",
+    "id": "sci_089",
     "category": "science",
-    "question": "What is: Universal recipient red blood cell type'??",
-    "options": [
-      "AB Positive",
-      "O Negative",
-      "A Negative",
-      "B Positive"
+    "difficulty": "hard",
+    "question": "What is the term for the temperature at which a magnet loses its magnetism?",
+    "answer": "The Curie point",
+    "distractors": [
+      "The Néel temperature",
+      "Absolute zero",
+      "The triple point"
     ],
-    "answer": 0,
-    "explanation": "In science, AB Positive is the primary answer associated with What is: Universal recipient red blood cell type'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **AB Positive** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Above it thermal agitation destroys magnetic ordering; iron's Curie point is 770 degrees Celsius, and the Néel temperature is the equivalent for antiferromagnets.",
+    "hook": "Named for Pierre Curie, not Marie — he worked on magnetism before radioactivity."
   },
   {
-    "id": "sci_fact_71",
+    "id": "sci_090",
     "category": "science",
-    "question": "What is: Primary structural protein in human hair and nails'??",
-    "options": [
-      "Keratin",
-      "Collagen",
-      "Elastin",
-      "Fibrin"
+    "difficulty": "hard",
+    "question": "Which part of the brain coordinates balance and fine motor control?",
+    "answer": "The cerebellum",
+    "distractors": [
+      "The cerebrum",
+      "The medulla",
+      "The hypothalamus"
     ],
-    "answer": 0,
-    "explanation": "In science, Keratin is the primary answer associated with What is: Primary structural protein in human hair and nails'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Keratin** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It holds over half the brain's neurons in about a tenth of its volume; the medulla governs breathing and heart rate, and the hypothalamus regulates hormones and temperature.",
+    "hook": "A tenth of the volume, more than half the neurons."
   },
   {
-    "id": "sci_fact_72",
+    "id": "sci_091",
     "category": "science",
-    "question": "What is: Primary structural protein in human skin and connective tissues'??",
-    "options": [
-      "Collagen",
-      "Keratin",
-      "Myosin",
-      "Actin"
+    "difficulty": "hard",
+    "question": "What is the half-life of carbon-14, used in radiocarbon dating?",
+    "answer": "About 5,730 years",
+    "distractors": [
+      "About 1,600 years",
+      "About 12,000 years",
+      "About 50,000 years"
     ],
-    "answer": 0,
-    "explanation": "In science, Collagen is the primary answer associated with What is: Primary structural protein in human skin and connective tissues'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Collagen** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The method is reliable to roughly 50,000 years, about nine half-lives, after which too little carbon-14 remains to measure accurately.",
+    "hook": "Nine half-lives is the practical limit — beyond that there is nothing left to count."
   },
   {
-    "id": "sci_fact_73",
+    "id": "sci_092",
     "category": "science",
-    "question": "What is: Only mammal capable of true sustained flight'??",
-    "options": [
-      "Bat",
-      "Flying Squirrel",
-      "Sugar Glider",
-      "Flying Lemur"
+    "difficulty": "hard",
+    "question": "Which law states that entropy in an isolated system never decreases?",
+    "answer": "The second law of thermodynamics",
+    "distractors": [
+      "The first law of thermodynamics",
+      "Boyle's law",
+      "Hess's law"
     ],
-    "answer": 0,
-    "explanation": "In science, Bat is the primary answer associated with What is: Only mammal capable of true sustained flight'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Bat** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The first law is conservation of energy; the second explains why heat flows from hot to cold and why perpetual motion machines cannot work.",
+    "hook": "The first law says you can't win; the second says you can't break even."
   },
   {
-    "id": "sci_fact_74",
+    "id": "sci_093",
     "category": "science",
-    "question": "What is: Mammals that lay eggs instead of giving live birth (Monotremes)'??",
-    "options": [
-      "Platypus & Echidna",
-      "Koala & Wombat",
-      "Kangaroo & Wallaby",
-      "Numbat & Quoll"
+    "difficulty": "hard",
+    "question": "What is the name for the phenomenon where a fluid's viscosity drops under stress?",
+    "answer": "Thixotropy",
+    "distractors": [
+      "Dilatancy",
+      "Capillarity",
+      "Rheopexy"
     ],
-    "answer": 0,
-    "explanation": "In science, Platypus & Echidna is the primary answer associated with What is: Mammals that lay eggs instead of giving live birth (Monotremes)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Platypus & Echidna** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Tomato sauce and non-drip paint are thixotropic; dilatancy is the opposite, as in cornflour and water, which stiffens when struck.",
+    "hook": "Sauce thins when shaken; cornflour thickens when hit — opposite behaviours."
   },
   {
-    "id": "sci_fact_75",
+    "id": "sci_094",
     "category": "science",
-    "question": "What is: Largest living primate species'??",
-    "options": [
-      "Gorilla",
-      "Orangutan",
-      "Chimpanzee",
-      "Gibbon"
-    ],
-    "answer": 0,
-    "explanation": "In science, Gorilla is the primary answer associated with What is: Largest living primate species'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Gorilla** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_76",
-    "category": "science",
-    "question": "What is: Largest animal species known to have ever existed'??",
-    "options": [
-      "Blue Whale",
-      "Fin Whale",
-      "Argentinosaurus",
-      "Sperm Whale"
-    ],
-    "answer": 0,
-    "explanation": "In science, Blue Whale is the primary answer associated with What is: Largest animal species known to have ever existed'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Blue Whale** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_77",
-    "category": "science",
-    "question": "What is: Largest living land animal'??",
-    "options": [
-      "African Bush Elephant",
-      "Asian Elephant",
-      "White Rhinoceros",
-      "Hippopotamus"
-    ],
-    "answer": 0,
-    "explanation": "In science, African Bush Elephant is the primary answer associated with What is: Largest living land animal'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **African Bush Elephant** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_78",
-    "category": "science",
-    "question": "What is: Tallest living land animal species'??",
-    "options": [
-      "Giraffe",
-      "African Elephant",
-      "Ostrich",
-      "Camel"
-    ],
-    "answer": 0,
-    "explanation": "In science, Giraffe is the primary answer associated with What is: Tallest living land animal species'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Giraffe** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_79",
-    "category": "science",
-    "question": "What is the largest living bird species on Earth by mass?",
-    "options": [
-      "Ostrich",
-      "Emu",
-      "Cassowary",
-      "Albatross"
-    ],
-    "answer": 0,
-    "explanation": "The Common Ostrich (Struthio camelus) native to Africa is the world's largest and heaviest living bird species, weighing up to 156 kg (344 lbs) and laying the largest eggs of any living land animal.",
-    "tip": "\ud83d\udca1 **Ostrich Records:** Heaviest living bird (up to 156 kg) + fastest land speed of any bird (70 km/h)!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_80",
-    "category": "science",
-    "question": "What is: Bird species with the largest wingspan'??",
-    "options": [
-      "Wandering Albatross",
-      "Andean Condor",
-      "Trumpeter Swan",
-      "Pelican"
-    ],
-    "answer": 0,
-    "explanation": "In science, Wandering Albatross is the primary answer associated with What is: Bird species with the largest wingspan'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Wandering Albatross** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_81",
-    "category": "science",
-    "question": "What is: Second largest living bird by height (native to Australia)'??",
-    "options": [
-      "Emu",
-      "Cassowary",
-      "Brolga",
-      "Jabiru"
-    ],
-    "answer": 0,
-    "explanation": "The Common Ostrich (Struthio camelus) is the world's largest and heaviest living bird species, weighing up to 156 kg and incapable of flight.",
-    "tip": "\ud83d\udca1 **Ostrich Records:** World's heaviest bird + fastest running bird on land (70 km/h)!",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_82",
-    "category": "science",
-    "question": "What is: Australian bird capable of extraordinary sound mimicry'??",
-    "options": [
-      "Lyrebird",
-      "Kookaburra",
-      "Bowerbird",
-      "Magpie"
-    ],
-    "answer": 0,
-    "explanation": "In science, Lyrebird is the primary answer associated with What is: Australian bird capable of extraordinary sound mimicry'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lyrebird** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_83",
-    "category": "science",
-    "question": "What is: Australian bird that constructs complex bowers decorated with blue objects'??",
-    "options": [
-      "Satin Bowerbird",
-      "Lyrebird",
-      "Regent Bowerbird",
-      "Noisy Miner"
-    ],
-    "answer": 0,
-    "explanation": "In science, Satin Bowerbird is the primary answer associated with What is: Australian bird that constructs complex bowers decorated with blue objects'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Satin Bowerbird** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_84",
-    "category": "science",
-    "question": "What is: Longest-living vertebrate species known (up to 400+ years)'??",
-    "options": [
-      "Greenland Shark",
-      "Galapagos Tortoise",
-      "Bowhead Whale",
-      "Ocean Quahog"
-    ],
-    "answer": 0,
-    "explanation": "In science, Greenland Shark is the primary answer associated with What is: Longest-living vertebrate species known (up to 400+ years)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Greenland Shark** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_85",
-    "category": "science",
-    "question": "What is: Longest-living non-colonial animal species (500+ years)'??",
-    "options": [
-      "Ocean Quahog",
-      "Greenland Shark",
-      "Red Sea Urchin",
-      "Immortal Jellyfish"
-    ],
-    "answer": 0,
-    "explanation": "In science, Ocean Quahog is the primary answer associated with What is: Longest-living non-colonial animal species (500+ years)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ocean Quahog** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_86",
-    "category": "science",
-    "question": "What is: Species of jellyfish capable of reverting its cell cycle (biologically immortal)'??",
-    "options": [
-      "Turritopsis dohrnii",
-      "Box Jellyfish",
-      "Lion's Mane",
-      "Moon Jellyfish"
-    ],
-    "answer": 0,
-    "explanation": "In science, Turritopsis dohrnii is the primary answer associated with What is: Species of jellyfish capable of reverting its cell cycle (biologically immortal)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Turritopsis dohrnii** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_87",
-    "category": "science",
-    "question": "What is: Venomous box jellyfish species native to northern Australian waters'??",
-    "options": [
-      "Chironex fleckeri",
-      "Irukandji",
-      "Bluebottle",
-      "Sea Wasp"
-    ],
-    "answer": 0,
-    "explanation": "In science, Chironex fleckeri is the primary answer associated with What is: Venomous box jellyfish species native to northern Australian waters'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Chironex fleckeri** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_88",
-    "category": "science",
-    "question": "What is: Tiny box jellyfish responsible for severe cramps and feelings of impending doom'??",
-    "options": [
-      "Irukandji",
-      "Chironex fleckeri",
-      "Bluebottle",
-      "Lion's Mane"
-    ],
-    "answer": 0,
-    "explanation": "In science, Irukandji is the primary answer associated with What is: Tiny box jellyfish responsible for severe cramps and feelings of impending doom'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Irukandji** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_89",
-    "category": "science",
-    "question": "What is: Highly venomous octopus species with iridescent blue rings'??",
-    "options": [
-      "Blue-ringed Octopus",
-      "Giant Pacific Octopus",
-      "Blanket Octopus",
-      "Mimic Octopus"
-    ],
-    "answer": 0,
-    "explanation": "In science, Blue-ringed Octopus is the primary answer associated with What is: Highly venomous octopus species with iridescent blue rings'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Blue-ringed Octopus** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_90",
-    "category": "science",
-    "question": "What is: Largest living reptile species by mass'??",
-    "options": [
-      "Saltwater Crocodile",
-      "Nile Crocodile",
-      "Komodo Dragon",
-      "Leatherback Turtle"
-    ],
-    "answer": 0,
-    "explanation": "In science, Saltwater Crocodile is the primary answer associated with What is: Largest living reptile species by mass'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Saltwater Crocodile** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_91",
-    "category": "science",
-    "question": "What is: Largest living lizard species'??",
-    "options": [
-      "Komodo Dragon",
-      "Perentie",
-      "Lace Monitor",
-      "Gila Monster"
-    ],
-    "answer": 0,
-    "explanation": "In science, Komodo Dragon is the primary answer associated with What is: Largest living lizard species'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Komodo Dragon** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_92",
-    "category": "science",
-    "question": "What is: Australia's largest native lizard species'??",
-    "options": [
-      "Perentie",
-      "Lace Monitor",
-      "Goanna",
-      "Frilled-neck Lizard"
-    ],
-    "answer": 0,
-    "explanation": "In science, Perentie is the primary answer associated with What is: Australia's largest native lizard species'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Perentie** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_93",
-    "category": "science",
-    "question": "What is: Most venomous land snake in the world by LD50 measure'??",
-    "options": [
-      "Inland Taipan",
-      "Eastern Brown Snake",
-      "Black Mamba",
-      "King Cobra"
-    ],
-    "answer": 0,
-    "explanation": "In science, Inland Taipan is the primary answer associated with What is: Most venomous land snake in the world by LD50 measure'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Inland Taipan** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_94",
-    "category": "science",
-    "question": "What is: Snake species responsible for most fatal snakebites in Australia'??",
-    "options": [
-      "Eastern Brown Snake",
-      "Inland Taipan",
-      "Red-bellied Black",
-      "Tiger Snake"
-    ],
-    "answer": 0,
-    "explanation": "In science, Eastern Brown Snake is the primary answer associated with What is: Snake species responsible for most fatal snakebites in Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Eastern Brown Snake** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_95",
-    "category": "science",
-    "question": "What is: Largest living fish species'??",
-    "options": [
-      "Whale Shark",
-      "Great White Shark",
-      "Basking Shark",
-      "Tiger Shark"
-    ],
-    "answer": 0,
-    "explanation": "In science, Whale Shark is the primary answer associated with What is: Largest living fish species'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Whale Shark** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_96",
-    "category": "science",
-    "question": "What is: Largest extant macropredatory shark species'??",
-    "options": [
-      "Great White Shark",
-      "Tiger Shark",
-      "Bull Shark",
-      "Hammerhead Shark"
-    ],
-    "answer": 0,
-    "explanation": "In science, Great White Shark is the primary answer associated with What is: Largest extant macropredatory shark species'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Great White Shark** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_97",
-    "category": "science",
-    "question": "What is: Speed of sound in dry air at 20\u00b0C'??",
-    "options": [
-      "343 m/s (Mach 1)",
-      "300 m/s",
-      "500 m/s",
-      "1,000 m/s"
-    ],
-    "answer": 0,
-    "explanation": "In science, 343 m/s (Mach 1) is the primary answer associated with What is: Speed of sound in dry air at 20\u00b0C'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **343 m/s (Mach 1)** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_98",
-    "category": "science",
-    "question": "What is: Freezing point of water on the Fahrenheit scale'??",
-    "options": [
-      "32\u00b0F",
-      "0\u00b0F",
-      "100\u00b0F",
-      "212\u00b0F"
-    ],
-    "answer": 0,
-    "explanation": "In science, 32\u00b0F is the primary answer associated with What is: Freezing point of water on the Fahrenheit scale'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **32\u00b0F** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_99",
-    "category": "science",
-    "question": "What is: Boiling point of water on the Fahrenheit scale'??",
-    "options": [
-      "212\u00b0F",
-      "100\u00b0F",
-      "180\u00b0F",
-      "32\u00b0F"
-    ],
-    "answer": 0,
-    "explanation": "In science, 212\u00b0F is the primary answer associated with What is: Boiling point of water on the Fahrenheit scale'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **212\u00b0F** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_100",
-    "category": "science",
-    "question": "What is: Absolute zero temperature on the Celsius scale'??",
-    "options": [
-      "-273.15\u00b0C",
-      "-100\u00b0C",
-      "-459.67\u00b0C",
-      "0\u00b0C"
-    ],
-    "answer": 0,
-    "explanation": "In science, -273.15\u00b0C is the primary answer associated with What is: Absolute zero temperature on the Celsius scale'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **-273.15\u00b0C** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_101",
-    "category": "science",
-    "question": "What is: SI base unit of thermodynamic temperature'??",
-    "options": [
-      "Kelvin",
-      "Celsius",
-      "Fahrenheit",
-      "Rankine"
-    ],
-    "answer": 0,
-    "explanation": "In science, Kelvin is the primary answer associated with What is: SI base unit of thermodynamic temperature'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Kelvin** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_102",
-    "category": "science",
-    "question": "What is: SI base unit of luminous intensity'??",
-    "options": [
-      "Candela",
-      "Lumen",
-      "Lux",
-      "Watt"
-    ],
-    "answer": 0,
-    "explanation": "In science, Candela is the primary answer associated with What is: SI base unit of luminous intensity'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Candela** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_103",
-    "category": "science",
-    "question": "What is: SI unit of luminous flux'??",
-    "options": [
-      "Lumen",
-      "Candela",
-      "Lux",
-      "Watt"
-    ],
-    "answer": 0,
-    "explanation": "In science, Lumen is the primary answer associated with What is: SI unit of luminous flux'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lumen** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_104",
-    "category": "science",
-    "question": "What is: SI unit of illuminance'??",
-    "options": [
-      "Lux",
-      "Lumen",
-      "Candela",
-      "Watt"
-    ],
-    "answer": 0,
-    "explanation": "In science, Lux is the primary answer associated with What is: SI unit of illuminance'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lux** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_105",
-    "category": "science",
-    "question": "What is: SI unit of magnetic flux density'??",
-    "options": [
-      "Tesla",
-      "Weber",
-      "Gauss",
-      "Henry"
-    ],
-    "answer": 0,
-    "explanation": "In science, Tesla is the primary answer associated with What is: SI unit of magnetic flux density'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Tesla** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_106",
-    "category": "science",
-    "question": "What is: Law of thermodynamics stating energy cannot be created or destroyed'??",
-    "options": [
-      "First Law of Thermodynamics",
-      "Second Law of Thermodynamics",
-      "Third Law",
-      "Zeroth Law"
-    ],
-    "answer": 0,
-    "explanation": "In science, First Law of Thermodynamics is the primary answer associated with What is: Law of thermodynamics stating energy cannot be created or destroyed'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **First Law of Thermodynamics** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_107",
-    "category": "science",
-    "question": "What is: Law of thermodynamics stating entropy of isolated system always increases'??",
-    "options": [
-      "Second Law of Thermodynamics",
-      "First Law",
-      "Third Law",
-      "Zeroth Law"
-    ],
-    "answer": 0,
-    "explanation": "In science, Second Law of Thermodynamics is the primary answer associated with What is: Law of thermodynamics stating entropy of isolated system always increases'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Second Law of Thermodynamics** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_108",
-    "category": "science",
-    "question": "What is: Newton's Law stating object remains at rest unless acted upon by force'??",
-    "options": [
-      "Newton's First Law (Inertia)",
-      "Newton's Second Law",
-      "Newton's Third Law",
-      "Law of Gravitation"
-    ],
-    "answer": 0,
-    "explanation": "In science, Newton's First Law (Inertia) is the primary answer associated with What is: Newton's Law stating object remains at rest unless acted upon by force'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Newton's First Law (Inertia)** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_109",
-    "category": "science",
-    "question": "What is: Newton's Law stating Force equals mass times acceleration (F=ma)'??",
-    "options": [
-      "Newton's Second Law",
-      "Newton's First Law",
-      "Newton's Third Law",
-      "Hooke's Law"
-    ],
-    "answer": 0,
-    "explanation": "In science, Newton's Second Law is the primary answer associated with What is: Newton's Law stating Force equals mass times acceleration (F=ma)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Newton's Second Law** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_110",
-    "category": "science",
-    "question": "What is: Newton's Law stating every action has equal and opposite reaction'??",
-    "options": [
-      "Newton's Third Law",
-      "Newton's First Law",
-      "Newton's Second Law",
-      "Kepler's Law"
-    ],
-    "answer": 0,
-    "explanation": "In science, Newton's Third Law is the primary answer associated with What is: Newton's Law stating every action has equal and opposite reaction'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Newton's Third Law** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_111",
-    "category": "science",
-    "question": "What is: Astronomer who formulated the three laws of planetary motion'??",
-    "options": [
-      "Johannes Kepler",
-      "Galileo Galilei",
-      "Nicolaus Copernicus",
-      "Tycho Brahe"
-    ],
-    "answer": 0,
-    "explanation": "In science, Johannes Kepler is the primary answer associated with What is: Astronomer who formulated the three laws of planetary motion'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Johannes Kepler** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "sci_fact_112",
-    "category": "science",
-    "question": "What is: Astronomer who proposed heliocentric model in 1543'??",
-    "options": [
-      "Nicolaus Copernicus",
-      "Galileo",
+    "difficulty": "hard",
+    "question": "Which scientist first calculated the Earth's circumference around 240 BCE?",
+    "answer": "Eratosthenes",
+    "distractors": [
       "Ptolemy",
-      "Kepler"
+      "Archimedes",
+      "Aristarchus"
     ],
-    "answer": 0,
-    "explanation": "In science, Nicolaus Copernicus is the primary answer associated with What is: Astronomer who proposed heliocentric model in 1543'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Nicolaus Copernicus** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He compared shadow angles at Alexandria and Syene at noon on the solstice and came within a few per cent of the true figure using geometry alone.",
+    "hook": "Two sticks, two cities and some geometry got him within a few per cent."
   },
   {
-    "id": "sci_fact_113",
+    "id": "sci_095",
     "category": "science",
-    "question": "What is: Astronomer who discovered the four largest moons of Jupiter in 1610'??",
-    "options": [
-      "Galileo Galilei",
-      "Kepler",
-      "Huygens",
-      "Cassini"
+    "difficulty": "hard",
+    "question": "What is the term for the sudden brightening of a star that ejects its outer layers?",
+    "answer": "A nova",
+    "distractors": [
+      "A supernova",
+      "A quasar",
+      "A pulsar"
     ],
-    "answer": 0,
-    "explanation": "In science, Galileo Galilei is the primary answer associated with What is: Astronomer who discovered the four largest moons of Jupiter in 1610'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Galileo Galilei** for this question.",
-    "difficulty": "Medium"
+    "explanation": "A nova is a surface explosion on a white dwarf that leaves the star intact and can recur; a supernova destroys the star and is billions of times brighter.",
+    "hook": "A nova survives and can happen again; a supernova is a one-off ending."
   },
   {
-    "id": "sci_fact_114",
+    "id": "sci_096",
     "category": "science",
-    "question": "What is: Largest moon in our solar system'??",
-    "options": [
-      "Ganymede",
-      "Titan",
-      "Callisto",
-      "Io"
+    "difficulty": "hard",
+    "question": "Which hormone regulates the sleep-wake cycle?",
+    "answer": "Melatonin",
+    "distractors": [
+      "Cortisol",
+      "Serotonin",
+      "Adrenaline"
     ],
-    "answer": 0,
-    "explanation": "In science, Ganymede is the primary answer associated with What is: Largest moon in our solar system'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ganymede** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The pineal gland releases it in darkness; blue light suppresses production, which is why screens before bed delay sleep onset.",
+    "hook": "Blue light switches it off — that is the whole screens-before-bed problem."
   },
   {
-    "id": "sci_fact_115",
+    "id": "sci_097",
     "category": "science",
-    "question": "What is: Saturn's largest moon with dense atmosphere and methane lakes'??",
-    "options": [
-      "Titan",
-      "Enceladus",
-      "Mimas",
-      "Rhea"
+    "difficulty": "hard",
+    "question": "What is the name for the boundary between the Earth's crust and mantle?",
+    "answer": "The Mohorovičić discontinuity",
+    "distractors": [
+      "The Gutenberg discontinuity",
+      "The Lehmann discontinuity",
+      "The asthenosphere"
     ],
-    "answer": 0,
-    "explanation": "In science, Titan is the primary answer associated with What is: Saturn's largest moon with dense atmosphere and methane lakes'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Titan** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Usually shortened to the Moho, it was identified from seismic wave refraction in 1909; the Gutenberg discontinuity separates mantle from outer core.",
+    "hook": "The Moho for crust-mantle, Gutenberg for mantle-core."
   },
   {
-    "id": "sci_fact_116",
+    "id": "sci_098",
     "category": "science",
-    "question": "What is: Volcanically active moon of Jupiter'??",
-    "options": [
-      "Io",
-      "Europa",
-      "Ganymede",
-      "Callisto"
+    "difficulty": "hard",
+    "question": "Which element is named after the Greek word for 'lazy'?",
+    "answer": "Argon",
+    "distractors": [
+      "Neon",
+      "Xenon",
+      "Krypton"
     ],
-    "answer": 0,
-    "explanation": "In science, Io is the primary answer associated with What is: Volcanically active moon of Jupiter'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Io** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It was so named for its chemical inertness; neon means 'new', krypton 'hidden' and xenon 'stranger', all discovered by Ramsay and Travers in the 1890s.",
+    "hook": "Argon lazy, neon new, krypton hidden, xenon stranger — one team named them all."
   },
   {
-    "id": "sci_fact_117",
+    "id": "sci_099",
     "category": "science",
-    "question": "What is: Moon of Jupiter with smooth ice crust covering global subsurface ocean'??",
-    "options": [
-      "Europa",
-      "Io",
-      "Ganymede",
-      "Callisto"
+    "difficulty": "hard",
+    "question": "What is the term for an organism that can produce its own food from inorganic sources?",
+    "answer": "An autotroph",
+    "distractors": [
+      "A heterotroph",
+      "A saprotroph",
+      "A mixotroph"
     ],
-    "answer": 0,
-    "explanation": "In science, Europa is the primary answer associated with What is: Moon of Jupiter with smooth ice crust covering global subsurface ocean'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Europa** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Plants are photoautotrophs using light; deep-sea vent bacteria are chemoautotrophs using chemical energy with no sunlight at all.",
+    "hook": "Some autotrophs never see the sun — vent bacteria run on chemistry alone."
   },
   {
-    "id": "sci_fact_118",
+    "id": "sci_100",
     "category": "science",
-    "question": "What is: Unit of astronomical distance equal to 9.46 trillion kilometres'??",
-    "options": [
-      "Light Year",
-      "Parsec",
-      "Astronomical Unit",
-      "Megaparsec"
+    "difficulty": "hard",
+    "question": "Which physicist proposed the uncertainty principle?",
+    "answer": "Werner Heisenberg",
+    "distractors": [
+      "Niels Bohr",
+      "Erwin Schrödinger",
+      "Max Planck"
     ],
-    "answer": 0,
-    "explanation": "In science, Light Year is the primary answer associated with What is: Unit of astronomical distance equal to 9.46 trillion kilometres'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Light Year** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It states that position and momentum cannot both be known precisely; Schrödinger's wave equation and Bohr's complementarity are the other pillars of early quantum theory.",
+    "hook": "The more precisely you know where it is, the less you know where it is going."
   },
   {
-    "id": "sci_fact_119",
+    "id": "sci_101",
     "category": "science",
-    "question": "What is: Unit of distance equal to average distance between Earth and Sun'??",
-    "options": [
-      "Astronomical Unit (AU)",
-      "Light Year",
-      "Parsec",
-      "Gigametre"
+    "difficulty": "hard",
+    "question": "What is the largest known structure in the observable universe called?",
+    "answer": "A galaxy filament",
+    "distractors": [
+      "A galaxy cluster",
+      "A nebula",
+      "A supernova remnant"
     ],
-    "answer": 0,
-    "explanation": "In science, Astronomical Unit (AU) is the primary answer associated with What is: Unit of distance equal to average distance between Earth and Sun'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Astronomical Unit (AU)** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Filaments and walls of galaxies form the cosmic web, stretching hundreds of millions of light years and separated by immense voids.",
+    "hook": "At the largest scale the universe looks like a web, not a scatter."
   },
   {
-    "id": "sci_fact_120",
+    "id": "sci_102",
     "category": "science",
-    "question": "What is: Unit of astronomical distance equal to 3.26 light years'??",
-    "options": [
-      "Parsec",
-      "Light Year",
-      "Astronomical Unit",
-      "Kiloclick"
+    "difficulty": "hard",
+    "question": "Which blood cells are responsible for clotting?",
+    "answer": "Platelets",
+    "distractors": [
+      "Red blood cells",
+      "Lymphocytes",
+      "Neutrophils"
     ],
-    "answer": 0,
-    "explanation": "In science, Parsec is the primary answer associated with What is: Unit of astronomical distance equal to 3.26 light years'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Parsec** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Platelets are cell fragments produced from megakaryocytes in bone marrow; lymphocytes and neutrophils are white cells fighting infection.",
+    "hook": "Platelets are not whole cells at all — they are fragments broken off larger ones."
   },
   {
-    "id": "sci_fact_121",
+    "id": "sci_103",
     "category": "science",
-    "question": "What is: Organ responsible for pumping oxygenated blood throughout human body'??",
-    "options": [
-      "Heart",
-      "Lungs",
-      "Liver",
-      "Kidney"
+    "difficulty": "hard",
+    "question": "What is the name of the theoretical particle that mediates gravity?",
+    "answer": "The graviton",
+    "distractors": [
+      "The photon",
+      "The gluon",
+      "The W boson"
     ],
-    "answer": 0,
-    "explanation": "In science, Heart is the primary answer associated with What is: Organ responsible for pumping oxygenated blood throughout human body'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Heart** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It remains hypothetical because gravity has not been successfully unified with quantum mechanics; photons mediate electromagnetism and gluons the strong force.",
+    "hook": "Every other force has its confirmed carrier particle; gravity's is still missing."
   },
   {
-    "id": "sci_fact_122",
+    "id": "sci_104",
     "category": "science",
-    "question": "What is: Organ responsible for gas exchange (taking in O2, expelling CO2)'??",
-    "options": [
-      "Lungs",
-      "Heart",
-      "Kidneys",
-      "Trachea"
+    "difficulty": "hard",
+    "question": "Which Australian scientist won a Nobel Prize for work on acquired immunological tolerance?",
+    "answer": "Macfarlane Burnet",
+    "distractors": [
+      "Howard Florey",
+      "John Eccles",
+      "Peter Doherty"
     ],
-    "answer": 0,
-    "explanation": "In science, Lungs is the primary answer associated with What is: Organ responsible for gas exchange (taking in O2, expelling CO2)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lungs** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He shared the 1960 prize with Peter Medawar; Eccles won in 1963 for nerve cell signalling and Doherty in 1996 for immune recognition of virus-infected cells.",
+    "hook": "Burnet 1960, Eccles 1963, Doherty 1996 — three Australian medicine Nobels in sequence."
   },
   {
-    "id": "sci_fact_123",
+    "id": "sci_105",
     "category": "science",
-    "question": "What is: Largest internal organ in human body'??",
-    "options": [
-      "Liver",
-      "Brain",
-      "Pancreas",
-      "Heart"
+    "difficulty": "hard",
+    "question": "What is the term for the study of the interaction of light and matter to identify substances?",
+    "answer": "Spectroscopy",
+    "distractors": [
+      "Chromatography",
+      "Calorimetry",
+      "Titration"
     ],
-    "answer": 0,
-    "explanation": "In science, Liver is the primary answer associated with What is: Largest internal organ in human body'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Liver** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Each element absorbs and emits at characteristic wavelengths, which is how helium was identified in the Sun's spectrum in 1868 before being found on Earth.",
+    "hook": "Helium was discovered in the Sun before anyone found any here."
   },
   {
-    "id": "sci_fact_124",
+    "id": "sci_106",
     "category": "science",
-    "question": "What is: Largest organ of human body overall'??",
-    "options": [
-      "Skin",
-      "Liver",
-      "Intestines",
-      "Lungs"
+    "difficulty": "hard",
+    "question": "Which layer of the Earth is liquid?",
+    "answer": "The outer core",
+    "distractors": [
+      "The inner core",
+      "The mantle",
+      "The crust"
     ],
-    "answer": 0,
-    "explanation": "In science, Skin is the primary answer associated with What is: Largest organ of human body overall'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Skin** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The inner core is solid despite being hotter, because immense pressure prevents melting; convection in the liquid outer core generates Earth's magnetic field.",
+    "hook": "The hotter inner core is solid — pressure beats temperature down there."
   },
   {
-    "id": "sci_fact_125",
+    "id": "sci_107",
     "category": "science",
-    "question": "What is: Outermost cellular membrane of plant cells'??",
-    "options": [
-      "Cell Wall",
-      "Cell Membrane",
-      "Cytoplasm",
-      "Vacuole"
+    "difficulty": "hard",
+    "question": "What is the name for the phenomenon where an organism's traits change without altering its DNA sequence?",
+    "answer": "Epigenetics",
+    "distractors": [
+      "Mutation",
+      "Recombination",
+      "Genetic drift"
     ],
-    "answer": 0,
-    "explanation": "In science, Cell Wall is the primary answer associated with What is: Outermost cellular membrane of plant cells'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cell Wall** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Chemical tags such as methylation switch genes on or off, and some marks can be inherited; the Dutch Hunger Winter cohort provided striking human evidence.",
+    "hook": "The genome is the score; epigenetics decides which parts get played."
   },
   {
-    "id": "sci_fact_126",
+    "id": "sci_108",
     "category": "science",
-    "question": "What is: Central organelle containing cell genetic material'??",
-    "options": [
-      "Nucleus",
-      "Ribosome",
-      "Mitochondria",
-      "Lysosome"
+    "difficulty": "hard",
+    "question": "Which unit measures the energy of earthquakes on a logarithmic scale used by seismologists today?",
+    "answer": "The moment magnitude scale",
+    "distractors": [
+      "The Richter scale",
+      "The Mercalli scale",
+      "The Beaufort scale"
     ],
-    "answer": 0,
-    "explanation": "In science, Nucleus is the primary answer associated with What is: Central organelle containing cell genetic material'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Nucleus** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Richter's scale saturates for very large events and has been superseded professionally; Mercalli measures observed intensity and Beaufort measures wind.",
+    "hook": "News reports still say Richter; seismologists stopped using it decades ago."
   },
   {
-    "id": "sci_fact_127",
+    "id": "sci_109",
     "category": "science",
-    "question": "What is: Fluid substance filling cell interior'??",
-    "options": [
-      "Cytoplasm",
-      "Cytosol",
-      "Nucleoplasm",
-      "Plasma"
+    "difficulty": "hard",
+    "question": "What is the collective noun for a group of ferrets?",
+    "answer": "A business",
+    "distractors": [
+      "A skulk",
+      "A leap",
+      "A cete"
     ],
-    "answer": 0,
-    "explanation": "In science, Cytoplasm is the primary answer associated with What is: Fluid substance filling cell interior'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cytoplasm** for this question.",
-    "difficulty": "Medium"
+    "explanation": "A skulk is foxes, a leap is leopards and a cete is badgers; the ferret term is a corruption of 'busyness', describing their constant motion.",
+    "hook": "Business of ferrets, skulk of foxes, leap of leopards, cete of badgers."
   },
   {
-    "id": "sci_fact_128",
+    "id": "sci_110",
     "category": "science",
-    "question": "What is: Organelles synthesizing proteins in cells'??",
-    "options": [
-      "Ribosomes",
-      "Mitochondria",
-      "Golgi Apparatus",
-      "Vacuoles"
+    "difficulty": "hard",
+    "question": "Which gas laws relate pressure and volume at constant temperature?",
+    "answer": "Boyle's law",
+    "distractors": [
+      "Charles's law",
+      "Avogadro's law",
+      "Dalton's law"
     ],
-    "answer": 0,
-    "explanation": "In science, Ribosomes is the primary answer associated with What is: Organelles synthesizing proteins in cells'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ribosomes** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Charles's law relates volume and temperature, Avogadro's relates volume and quantity, and Dalton's covers partial pressures in mixtures.",
+    "hook": "Boyle pressure-volume, Charles volume-temperature — the pair that get confused."
   },
   {
-    "id": "sci_fact_129",
+    "id": "sci_111",
     "category": "science",
-    "question": "What is: Cellular waste disposal organelles'??",
-    "options": [
-      "Lysosomes",
-      "Ribosomes",
-      "Vacuoles",
-      "Peroxisomes"
+    "difficulty": "hard",
+    "question": "Which animal has the most complex eyes known, with up to sixteen photoreceptor types?",
+    "answer": "The mantis shrimp",
+    "distractors": [
+      "The dragonfly",
+      "The chameleon",
+      "The giant squid"
     ],
-    "answer": 0,
-    "explanation": "In science, Lysosomes is the primary answer associated with What is: Cellular waste disposal organelles'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lysosomes** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Humans have three colour receptor types; the mantis shrimp's many receptors appear to allow fast recognition rather than finer colour discrimination.",
+    "hook": "Sixteen receptor types, but the evidence says it sees colour worse than we do, not better."
   },
   {
-    "id": "sci_fact_130",
+    "id": "sci_112",
     "category": "science",
-    "question": "What is: Organelle modifying and packaging proteins'??",
-    "options": [
-      "Golgi Apparatus",
-      "Endoplasmic Reticulum",
-      "Mitochondria",
-      "Nucleus"
+    "difficulty": "hard",
+    "question": "What is the term for a solution that resists changes in pH?",
+    "answer": "A buffer",
+    "distractors": [
+      "A catalyst",
+      "An electrolyte",
+      "A colloid"
     ],
-    "answer": 0,
-    "explanation": "In science, Golgi Apparatus is the primary answer associated with What is: Organelle modifying and packaging proteins'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Golgi Apparatus** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Blood is buffered by bicarbonate to stay near pH 7.4; a shift of a few tenths in either direction is life-threatening.",
+    "hook": "Your blood pH has about a tenth of a point of leeway before things go badly wrong."
+  },
+  {
+    "id": "sci_113",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which comet is visible from Earth roughly every 76 years?",
+    "answer": "Halley's Comet",
+    "distractors": [
+      "Hale-Bopp",
+      "Comet Encke",
+      "Comet Shoemaker-Levy"
+    ],
+    "explanation": "Edmond Halley predicted its return in 1758 by recognising earlier sightings as one object; it last appeared in 1986 and returns around 2061.",
+    "hook": "He never lived to see the return he predicted — it came sixteen years after his death."
+  },
+  {
+    "id": "sci_114",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the name for the pigment that makes plants green?",
+    "answer": "Chlorophyll",
+    "distractors": [
+      "Carotene",
+      "Anthocyanin",
+      "Xanthophyll"
+    ],
+    "explanation": "It absorbs red and blue light and reflects green; autumn colour appears when it breaks down, revealing carotenes and xanthophylls that were there all along.",
+    "hook": "Autumn colours were always there — the green was just covering them."
+  },
+  {
+    "id": "sci_115",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which physicist's equations unified electricity, magnetism and light?",
+    "answer": "James Clerk Maxwell",
+    "distractors": [
+      "Michael Faraday",
+      "André-Marie Ampère",
+      "Heinrich Hertz"
+    ],
+    "explanation": "His four equations, published in the 1860s, showed light is an electromagnetic wave; Hertz later demonstrated radio waves experimentally, confirming the prediction.",
+    "hook": "Faraday did the experiments, Maxwell wrote the maths, Hertz proved it with radio."
+  },
+  {
+    "id": "sci_116",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the name of the process by which cells engulf external material?",
+    "answer": "Phagocytosis",
+    "distractors": [
+      "Osmosis",
+      "Exocytosis",
+      "Diffusion"
+    ],
+    "explanation": "White blood cells use it to destroy pathogens; exocytosis is the reverse, expelling material, and osmosis moves water across a membrane.",
+    "hook": "Phago means 'eating' in Greek — the cell literally swallows."
+  },
+  {
+    "id": "sci_117",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which Australian invention underpins modern wireless local area networks?",
+    "answer": "CSIRO's wi-fi patent",
+    "distractors": [
+      "The black box flight recorder",
+      "The bionic ear",
+      "Spray-on skin"
+    ],
+    "explanation": "Radio astronomers solved the problem of signal echo in enclosed spaces, and the resulting patent earned CSIRO hundreds of millions in settlements from technology firms.",
+    "hook": "Wi-fi came out of radio astronomy — solving echo in rooms, not in space."
+  },
+  {
+    "id": "sci_118",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the term for two species evolving in response to each other?",
+    "answer": "Coevolution",
+    "distractors": [
+      "Convergent evolution",
+      "Divergent evolution",
+      "Speciation"
+    ],
+    "explanation": "Orchids and their specific pollinating moths are a classic case; convergent evolution is unrelated species independently developing similar traits, as with wings.",
+    "hook": "Darwin predicted a moth with a foot-long tongue from an orchid's shape — it was found later."
+  },
+  {
+    "id": "sci_119",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which scale measures the hardness of minerals from talc to diamond?",
+    "answer": "The Mohs scale",
+    "distractors": [
+      "The Rockwell scale",
+      "The Brinell scale",
+      "The Vickers scale"
+    ],
+    "explanation": "It runs one to ten and is ordinal, not linear: diamond at ten is roughly four times harder than corundum at nine, not eleven per cent harder.",
+    "hook": "The steps are wildly uneven — the gap from 9 to 10 dwarfs the whole rest of the scale."
+  },
+  {
+    "id": "sci_120",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the name for a star that emits regular pulses of radiation?",
+    "answer": "A pulsar",
+    "distractors": [
+      "A quasar",
+      "A magnetar",
+      "A blazar"
+    ],
+    "explanation": "Jocelyn Bell Burnell detected the first in 1967 and the signal was briefly labelled LGM-1 for 'little green men'; the Nobel went to her supervisor, not to her.",
+    "hook": "The first one was jokingly catalogued as 'little green men' before the physics was understood."
+  },
+  {
+    "id": "sci_121",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which acid is the main component of vinegar?",
+    "answer": "Acetic acid",
+    "distractors": [
+      "Citric acid",
+      "Lactic acid",
+      "Formic acid"
+    ],
+    "explanation": "Vinegar is typically four to eight per cent acetic acid; formic acid gives ant and nettle stings their bite, and lactic acid builds up in working muscle.",
+    "hook": "Formic acid is named for ants — formica is Latin for ant."
+  },
+  {
+    "id": "sci_122",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the term for the apparent backward motion of a planet in the sky?",
+    "answer": "Retrograde motion",
+    "distractors": [
+      "Precession",
+      "Parallax",
+      "Nutation"
+    ],
+    "explanation": "It is an illusion caused by Earth overtaking an outer planet in its orbit; explaining it drove Ptolemy's epicycles and was elegantly solved by Copernicus.",
+    "hook": "It is just overtaking — the same illusion as passing a car on the freeway."
+  },
+  {
+    "id": "sci_123",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which organelle packages proteins for secretion from the cell?",
+    "answer": "The Golgi apparatus",
+    "distractors": [
+      "The ribosome",
+      "The lysosome",
+      "The endoplasmic reticulum"
+    ],
+    "explanation": "Ribosomes build proteins, the endoplasmic reticulum folds and transports them, the Golgi sorts and packages, and lysosomes break down waste.",
+    "hook": "Ribosome builds, ER folds, Golgi wraps, lysosome disposes — a cellular production line."
+  },
+  {
+    "id": "sci_124",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the name of the Australian telescope that received Apollo 11's moonwalk footage?",
+    "answer": "Parkes",
+    "distractors": [
+      "Siding Spring",
+      "Mount Stromlo",
+      "Tidbinbilla"
+    ],
+    "explanation": "The Parkes radio telescope in New South Wales relayed most of the television broadcast to a worldwide audience of some 600 million, a story dramatised in the 2000 film The Dish.",
+    "hook": "The Dish is a true story — most of the moonwalk reached the world via a paddock in NSW."
+  },
+  {
+    "id": "sci_125",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which condition results from a deficiency of thiamine, vitamin B1?",
+    "answer": "Beriberi",
+    "distractors": [
+      "Pellagra",
+      "Rickets",
+      "Scurvy"
+    ],
+    "explanation": "It became common when polished white rice replaced brown; pellagra comes from niacin deficiency, rickets from vitamin D and scurvy from vitamin C.",
+    "hook": "Polishing rice removed the vitamin and caused the disease."
+  },
+  {
+    "id": "sci_126",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the name for the point in an orbit closest to the Sun?",
+    "answer": "Perihelion",
+    "distractors": [
+      "Aphelion",
+      "Perigee",
+      "Apogee"
+    ],
+    "explanation": "Aphelion is the farthest point from the Sun; perigee and apogee are the equivalents for orbits around Earth, as with the Moon.",
+    "hook": "Peri means near, ap means far; helion for the Sun, gee for the Earth."
+  },
+  {
+    "id": "sci_127",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which theory explains the movement of the Earth's lithospheric plates?",
+    "answer": "Plate tectonics",
+    "distractors": [
+      "Continental drift",
+      "Isostasy",
+      "Uniformitarianism"
+    ],
+    "explanation": "Wegener proposed continental drift in 1912 without a mechanism and was largely dismissed; seafloor spreading evidence in the 1960s supplied one and vindicated him posthumously.",
+    "hook": "Wegener was right and ridiculed — the proof arrived thirty years after he died."
+  },
+  {
+    "id": "sci_128",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the term for the smallest possible unit of any physical property?",
+    "answer": "A quantum",
+    "distractors": [
+      "An atom",
+      "A photon",
+      "A fermion"
+    ],
+    "explanation": "Planck introduced the idea in 1900 to solve the black-body radiation problem; a photon is specifically the quantum of the electromagnetic field.",
+    "hook": "Planck invented the idea reluctantly, as a mathematical trick that turned out to be real."
+  },
+  {
+    "id": "sci_129",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which Australian marsupial predator became extinct in the twentieth century?",
+    "answer": "The thylacine",
+    "distractors": [
+      "The quoll",
+      "The numbat",
+      "The Tasmanian devil"
+    ],
+    "explanation": "The last known individual died at Hobart Zoo in 1936, two months after the species was granted protection; the numbat and devil survive but are threatened.",
+    "hook": "Protection arrived two months before the last one died."
+  },
+  {
+    "id": "sci_130",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "What is the name for the study of how organisms are classified and named?",
+    "answer": "Taxonomy",
+    "distractors": [
+      "Ecology",
+      "Ethology",
+      "Morphology"
+    ],
+    "explanation": "Linnaeus established binomial nomenclature in the eighteenth century; ethology studies behaviour, ecology studies relationships and morphology studies form.",
+    "hook": "Kingdom, Phylum, Class, Order, Family, Genus, Species — the Linnaean ladder."
   }
 ]

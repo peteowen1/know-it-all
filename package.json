@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run validate && vite build",
+    "build:only": "vite build",
+    "validate": "node scripts/validate-questions.mjs",
     "lint": "oxlint",
     "preview": "vite preview"
   },

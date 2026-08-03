@@ -1,1952 +1,1822 @@
 [
   {
-    "id": "geo_cap_1",
+    "id": "geo_001",
     "category": "geography",
-    "question": "What is the official capital city of Canada?",
-    "options": [
-      "Ottawa",
-      "Rome",
-      "Tokyo",
-      "London"
+    "difficulty": "easy",
+    "question": "Which is the largest country in the world by land area?",
+    "answer": "Russia",
+    "distractors": [
+      "Canada",
+      "China",
+      "The United States"
     ],
-    "answer": 0,
-    "explanation": "Ottawa is the official capital city and seat of government for Canada.",
-    "tip": "\ud83d\udca1 **National Capital:** Ottawa is the capital city of Canada.",
-    "difficulty": "Medium"
+    "explanation": "It covers about 17 million square kilometres across eleven time zones, roughly twice the area of the second-placed country and more than the whole of Antarctica.",
+    "hook": "Eleven time zones — you can leave Kaliningrad at breakfast and arrive in Kamchatka half a day later."
   },
   {
-    "id": "geo_cap_2",
+    "id": "geo_002",
     "category": "geography",
-    "question": "What is the official capital city of Australia?",
-    "options": [
-      "Canberra",
-      "Rome",
-      "Tokyo",
-      "London"
+    "difficulty": "easy",
+    "question": "Which river is the longest in Africa?",
+    "answer": "The Nile",
+    "distractors": [
+      "The Congo",
+      "The Niger",
+      "The Zambezi"
     ],
-    "answer": 0,
-    "explanation": "Canberra is the official capital city and seat of government for Australia.",
-    "tip": "\ud83d\udca1 **National Capital:** Canberra is the capital city of Australia.",
-    "difficulty": "Medium"
+    "explanation": "Running about 6,650 kilometres from the Great Lakes region to the Mediterranean, it drains eleven countries; the Amazon carries far more water but has long disputed the length record.",
+    "hook": "Longest in Africa, longest in the world by most measures — but the Amazon wins on volume."
   },
   {
-    "id": "geo_cap_3",
+    "id": "geo_003",
     "category": "geography",
-    "question": "What is the official capital city of Brazil?",
-    "options": [
-      "Bras\u00edlia",
-      "Rome",
-      "Tokyo",
-      "London"
+    "difficulty": "easy",
+    "question": "What is the capital city of Canada?",
+    "answer": "Ottawa",
+    "distractors": [
+      "Toronto",
+      "Montreal",
+      "Vancouver"
     ],
-    "answer": 0,
-    "explanation": "Bras\u00edlia is the official capital city and seat of government for Brazil.",
-    "tip": "\ud83d\udca1 **National Capital:** Bras\u00edlia is the capital city of Brazil.",
-    "difficulty": "Medium"
+    "explanation": "Queen Victoria chose it in 1857 as a compromise between English-speaking Upper Canada and French-speaking Lower Canada; Toronto and Montreal are both far larger.",
+    "hook": "A compromise capital picked by a queen who never went there."
   },
   {
-    "id": "geo_cap_4",
+    "id": "geo_004",
     "category": "geography",
-    "question": "What is the official capital city of Turkey?",
-    "options": [
-      "Ankara",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Ankara is the official capital city and seat of government for Turkey.",
-    "tip": "\ud83d\udca1 **National Capital:** Ankara is the capital city of Turkey.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_5",
-    "category": "geography",
-    "question": "What is the official capital city of Switzerland?",
-    "options": [
-      "Bern",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Bern is the official capital city and seat of government for Switzerland.",
-    "tip": "\ud83d\udca1 **National Capital:** Bern is the capital city of Switzerland.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_6",
-    "category": "geography",
-    "question": "What is the official capital city of New Zealand?",
-    "options": [
-      "Wellington",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Wellington is the official capital city and seat of government for New Zealand.",
-    "tip": "\ud83d\udca1 **National Capital:** Wellington is the capital city of New Zealand.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_7",
-    "category": "geography",
-    "question": "What is the official capital city of Nigeria?",
-    "options": [
-      "Abuja",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Abuja is the official capital city and seat of government for Nigeria.",
-    "tip": "\ud83d\udca1 **National Capital:** Abuja is the capital city of Nigeria.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_8",
-    "category": "geography",
-    "question": "What is the official capital city of Pakistan?",
-    "options": [
-      "Islamabad",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Islamabad is the official capital city and seat of government for Pakistan.",
-    "tip": "\ud83d\udca1 **National Capital:** Islamabad is the capital city of Pakistan.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_9",
-    "category": "geography",
-    "question": "What is the official capital city of Morocco?",
-    "options": [
-      "Rabat",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Rabat is the official capital city and seat of government for Morocco.",
-    "tip": "\ud83d\udca1 **National Capital:** Rabat is the capital city of Morocco.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_10",
-    "category": "geography",
-    "question": "What is the official capital city of Vietnam?",
-    "options": [
-      "Hanoi",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Hanoi is the official capital city and seat of government for Vietnam.",
-    "tip": "\ud83d\udca1 **National Capital:** Hanoi is the capital city of Vietnam.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_11",
-    "category": "geography",
-    "question": "What is the official capital city of Japan?",
-    "options": [
-      "Tokyo",
-      "Rome",
-      "London",
-      "Other Option 4"
-    ],
-    "answer": 0,
-    "explanation": "Tokyo is the official capital city and seat of government for Japan.",
-    "tip": "\ud83d\udca1 **National Capital:** Tokyo is the capital city of Japan.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_12",
-    "category": "geography",
-    "question": "What is the official capital city of South Korea?",
-    "options": [
-      "Seoul",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Seoul is the official capital city and seat of government for South Korea.",
-    "tip": "\ud83d\udca1 **National Capital:** Seoul is the capital city of South Korea.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_13",
-    "category": "geography",
-    "question": "What is the official capital city of Germany?",
-    "options": [
-      "Berlin",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Berlin is the official capital city and seat of government for Germany.",
-    "tip": "\ud83d\udca1 **National Capital:** Berlin is the capital city of Germany.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_14",
-    "category": "geography",
-    "question": "What is the official capital city of Italy?",
-    "options": [
-      "Rome",
-      "Tokyo",
-      "London",
-      "Other Option 4"
-    ],
-    "answer": 0,
-    "explanation": "Rome is the official capital city and seat of government for Italy.",
-    "tip": "\ud83d\udca1 **National Capital:** Rome is the capital city of Italy.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_15",
-    "category": "geography",
-    "question": "What is the official capital city of Spain?",
-    "options": [
-      "Madrid",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Madrid is the official capital city and seat of government for Spain.",
-    "tip": "\ud83d\udca1 **National Capital:** Madrid is the capital city of Spain.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_16",
-    "category": "geography",
-    "question": "What is the official capital city of Portugal?",
-    "options": [
-      "Lisbon",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Lisbon is the official capital city and seat of government for Portugal.",
-    "tip": "\ud83d\udca1 **National Capital:** Lisbon is the capital city of Portugal.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_17",
-    "category": "geography",
-    "question": "What is the official capital city of Netherlands?",
-    "options": [
-      "Amsterdam",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Amsterdam is the official capital city and seat of government for Netherlands.",
-    "tip": "\ud83d\udca1 **National Capital:** Amsterdam is the capital city of Netherlands.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_18",
-    "category": "geography",
-    "question": "What is the official capital city of Belgium?",
-    "options": [
-      "Brussels",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Brussels is the official capital city and seat of government for Belgium.",
-    "tip": "\ud83d\udca1 **National Capital:** Brussels is the capital city of Belgium.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_19",
-    "category": "geography",
-    "question": "What is the official capital city of Austria?",
-    "options": [
-      "Vienna",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Vienna is the official capital city and seat of government for Austria.",
-    "tip": "\ud83d\udca1 **National Capital:** Vienna is the capital city of Austria.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_20",
-    "category": "geography",
-    "question": "What is the official capital city of Greece?",
-    "options": [
-      "Athens",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Athens is the official capital city and seat of government for Greece.",
-    "tip": "\ud83d\udca1 **National Capital:** Athens is the capital city of Greece.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_21",
-    "category": "geography",
-    "question": "What is the official capital city of Egypt?",
-    "options": [
-      "Cairo",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Cairo is the official capital city and seat of government for Egypt.",
-    "tip": "\ud83d\udca1 **National Capital:** Cairo is the capital city of Egypt.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_22",
-    "category": "geography",
-    "question": "What is the official capital city of Kenya?",
-    "options": [
-      "Nairobi",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Nairobi is the official capital city and seat of government for Kenya.",
-    "tip": "\ud83d\udca1 **National Capital:** Nairobi is the capital city of Kenya.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_23",
-    "category": "geography",
-    "question": "What is the official capital city of Argentina?",
-    "options": [
-      "Buenos Aires",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Buenos Aires is the official capital city and seat of government for Argentina.",
-    "tip": "\ud83d\udca1 **National Capital:** Buenos Aires is the capital city of Argentina.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_24",
-    "category": "geography",
-    "question": "What is the official capital city of Chile?",
-    "options": [
-      "Santiago",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Santiago is the official capital city and seat of government for Chile.",
-    "tip": "\ud83d\udca1 **National Capital:** Santiago is the capital city of Chile.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_25",
-    "category": "geography",
-    "question": "What is the official capital city of Colombia?",
-    "options": [
-      "Bogot\u00e1",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Bogot\u00e1 is the official capital city and seat of government for Colombia.",
-    "tip": "\ud83d\udca1 **National Capital:** Bogot\u00e1 is the capital city of Colombia.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_26",
-    "category": "geography",
-    "question": "What is the official capital city of Peru?",
-    "options": [
-      "Lima",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Lima is the official capital city and seat of government for Peru.",
-    "tip": "\ud83d\udca1 **National Capital:** Lima is the capital city of Peru.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_27",
-    "category": "geography",
-    "question": "What is the official capital city of Thailand?",
-    "options": [
-      "Bangkok",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Bangkok is the official capital city and seat of government for Thailand.",
-    "tip": "\ud83d\udca1 **National Capital:** Bangkok is the capital city of Thailand.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_28",
-    "category": "geography",
-    "question": "What is the official capital city of Indonesia?",
-    "options": [
-      "Jakarta",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Jakarta is the official capital city and seat of government for Indonesia.",
-    "tip": "\ud83d\udca1 **National Capital:** Jakarta is the capital city of Indonesia.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_29",
-    "category": "geography",
-    "question": "What is the official capital city of Philippines?",
-    "options": [
-      "Manila",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Manila is the official capital city and seat of government for Philippines.",
-    "tip": "\ud83d\udca1 **National Capital:** Manila is the capital city of Philippines.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_30",
-    "category": "geography",
-    "question": "What is the official capital city of Malaysia?",
-    "options": [
-      "Kuala Lumpur",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Kuala Lumpur is the official capital city and seat of government for Malaysia.",
-    "tip": "\ud83d\udca1 **National Capital:** Kuala Lumpur is the capital city of Malaysia.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_31",
-    "category": "geography",
-    "question": "What is the official capital city of Saudi Arabia?",
-    "options": [
-      "Riyadh",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Riyadh is the official capital city and seat of government for Saudi Arabia.",
-    "tip": "\ud83d\udca1 **National Capital:** Riyadh is the capital city of Saudi Arabia.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_32",
-    "category": "geography",
-    "question": "What is the official capital city of UAE?",
-    "options": [
-      "Abu Dhabi",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Abu Dhabi is the official capital city and seat of government for UAE.",
-    "tip": "\ud83d\udca1 **National Capital:** Abu Dhabi is the capital city of UAE.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_33",
-    "category": "geography",
-    "question": "What is the official capital city of Iran?",
-    "options": [
-      "Tehran",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Tehran is the official capital city and seat of government for Iran.",
-    "tip": "\ud83d\udca1 **National Capital:** Tehran is the capital city of Iran.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_34",
-    "category": "geography",
-    "question": "What is the official capital city of Iraq?",
-    "options": [
-      "Baghdad",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Baghdad is the official capital city and seat of government for Iraq.",
-    "tip": "\ud83d\udca1 **National Capital:** Baghdad is the capital city of Iraq.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_35",
-    "category": "geography",
-    "question": "What is the official capital city of Norway?",
-    "options": [
-      "Oslo",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Oslo is the official capital city and seat of government for Norway.",
-    "tip": "\ud83d\udca1 **National Capital:** Oslo is the capital city of Norway.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_36",
-    "category": "geography",
-    "question": "What is the official capital city of Sweden?",
-    "options": [
-      "Stockholm",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Stockholm is the official capital city and seat of government for Sweden.",
-    "tip": "\ud83d\udca1 **National Capital:** Stockholm is the capital city of Sweden.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_37",
-    "category": "geography",
-    "question": "What is the official capital city of Finland?",
-    "options": [
-      "Helsinki",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Helsinki is the official capital city and seat of government for Finland.",
-    "tip": "\ud83d\udca1 **National Capital:** Helsinki is the capital city of Finland.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_38",
-    "category": "geography",
-    "question": "What is the official capital city of Denmark?",
-    "options": [
-      "Copenhagen",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Copenhagen is the official capital city and seat of government for Denmark.",
-    "tip": "\ud83d\udca1 **National Capital:** Copenhagen is the capital city of Denmark.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_39",
-    "category": "geography",
-    "question": "What is the official capital city of Iceland?",
-    "options": [
-      "Reykjav\u00edk",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Reykjav\u00edk is the official capital city and seat of government for Iceland.",
-    "tip": "\ud83d\udca1 **National Capital:** Reykjav\u00edk is the capital city of Iceland.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_40",
-    "category": "geography",
-    "question": "What is the official capital city of Ireland?",
-    "options": [
-      "Dublin",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Dublin is the official capital city and seat of government for Ireland.",
-    "tip": "\ud83d\udca1 **National Capital:** Dublin is the capital city of Ireland.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_41",
-    "category": "geography",
-    "question": "What is the official capital city of Poland?",
-    "options": [
-      "Warsaw",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Warsaw is the official capital city and seat of government for Poland.",
-    "tip": "\ud83d\udca1 **National Capital:** Warsaw is the capital city of Poland.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_42",
-    "category": "geography",
-    "question": "What is the official capital city of Czech Republic?",
-    "options": [
-      "Prague",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Prague is the official capital city and seat of government for Czech Republic.",
-    "tip": "\ud83d\udca1 **National Capital:** Prague is the capital city of Czech Republic.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_43",
-    "category": "geography",
-    "question": "What is the official capital city of Hungary?",
-    "options": [
-      "Budapest",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Budapest is the official capital city and seat of government for Hungary.",
-    "tip": "\ud83d\udca1 **National Capital:** Budapest is the capital city of Hungary.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_44",
-    "category": "geography",
-    "question": "What is the official capital city of Romania?",
-    "options": [
-      "Bucharest",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Bucharest is the official capital city and seat of government for Romania.",
-    "tip": "\ud83d\udca1 **National Capital:** Bucharest is the capital city of Romania.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_45",
-    "category": "geography",
-    "question": "What is the official capital city of Ukraine?",
-    "options": [
-      "Kyiv",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Kyiv is the official capital city and seat of government for Ukraine.",
-    "tip": "\ud83d\udca1 **National Capital:** Kyiv is the capital city of Ukraine.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_46",
-    "category": "geography",
-    "question": "What is the official capital city of Russia?",
-    "options": [
-      "Moscow",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Moscow is the official capital city and seat of government for Russia.",
-    "tip": "\ud83d\udca1 **National Capital:** Moscow is the capital city of Russia.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_47",
-    "category": "geography",
-    "question": "What is the official capital city of South Africa?",
-    "options": [
-      "Pretoria",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Pretoria is the official capital city and seat of government for South Africa.",
-    "tip": "\ud83d\udca1 **National Capital:** Pretoria is the capital city of South Africa.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_48",
-    "category": "geography",
-    "question": "What is the official capital city of Cuba?",
-    "options": [
-      "Havana",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Havana is the official capital city and seat of government for Cuba.",
-    "tip": "\ud83d\udca1 **National Capital:** Havana is the capital city of Cuba.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_49",
-    "category": "geography",
-    "question": "What is the official capital city of Jamaica?",
-    "options": [
-      "Kingston",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Kingston is the official capital city and seat of government for Jamaica.",
-    "tip": "\ud83d\udca1 **National Capital:** Kingston is the capital city of Jamaica.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_50",
-    "category": "geography",
-    "question": "What is the official capital city of Croatia?",
-    "options": [
-      "Zagreb",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Zagreb is the official capital city and seat of government for Croatia.",
-    "tip": "\ud83d\udca1 **National Capital:** Zagreb is the capital city of Croatia.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_51",
-    "category": "geography",
-    "question": "What is the official capital city of Fiji?",
-    "options": [
-      "Suva",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Suva is the official capital city and seat of government for Fiji.",
-    "tip": "\ud83d\udca1 **National Capital:** Suva is the capital city of Fiji.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_52",
-    "category": "geography",
-    "question": "What is the official capital city of Papua New Guinea?",
-    "options": [
-      "Port Moresby",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Port Moresby is the official capital city and seat of government for Papua New Guinea.",
-    "tip": "\ud83d\udca1 **National Capital:** Port Moresby is the capital city of Papua New Guinea.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_53",
-    "category": "geography",
-    "question": "What is the official capital city of Samoa?",
-    "options": [
-      "Apia",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Apia is the official capital city and seat of government for Samoa.",
-    "tip": "\ud83d\udca1 **National Capital:** Apia is the capital city of Samoa.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_54",
-    "category": "geography",
-    "question": "What is the official capital city of Vanuatu?",
-    "options": [
-      "Port Vila",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Port Vila is the official capital city and seat of government for Vanuatu.",
-    "tip": "\ud83d\udca1 **National Capital:** Port Vila is the capital city of Vanuatu.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_55",
-    "category": "geography",
-    "question": "What is the official capital city of Solomon Islands?",
-    "options": [
-      "Honiara",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Honiara is the official capital city and seat of government for Solomon Islands.",
-    "tip": "\ud83d\udca1 **National Capital:** Honiara is the capital city of Solomon Islands.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_56",
-    "category": "geography",
-    "question": "What is the official capital city of Tonga?",
-    "options": [
-      "Nuku'alofa",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Nuku'alofa is the official capital city and seat of government for Tonga.",
-    "tip": "\ud83d\udca1 **National Capital:** Nuku'alofa is the capital city of Tonga.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_57",
-    "category": "geography",
-    "question": "What is the official capital city of United States?",
-    "options": [
-      "Washington, D.C.",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Washington, D.C. is the official capital city and seat of government for United States.",
-    "tip": "\ud83d\udca1 **National Capital:** Washington, D.C. is the capital city of United States.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_58",
-    "category": "geography",
-    "question": "What is the official capital city of China?",
-    "options": [
-      "Beijing",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "Beijing is the official capital city and seat of government for China.",
-    "tip": "\ud83d\udca1 **National Capital:** Beijing is the capital city of China.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_59",
-    "category": "geography",
-    "question": "What is the official capital city of India?",
-    "options": [
-      "New Delhi",
-      "Rome",
-      "Tokyo",
-      "London"
-    ],
-    "answer": 0,
-    "explanation": "New Delhi is the official capital city and seat of government for India.",
-    "tip": "\ud83d\udca1 **National Capital:** New Delhi is the capital city of India.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_cap_60",
-    "category": "geography",
-    "question": "What is the official capital city of United Kingdom?",
-    "options": [
-      "London",
-      "Rome",
-      "Tokyo",
-      "Other Option 4"
-    ],
-    "answer": 0,
-    "explanation": "London is the official capital city and seat of government for United Kingdom.",
-    "tip": "\ud83d\udca1 **National Capital:** London is the capital city of United Kingdom.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_61",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain peak in Australia (mainland)'?",
-    "options": [
-      "Mount Kosciuszko",
-      "Mount Bogong",
-      "Mount Feathertop",
-      "Ben Lomond"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Mount Kosciuszko is the primary answer associated with Which geographical feature holds the title of 'Highest mountain peak in Australia (mainland)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Kosciuszko** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_62",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain peak in the world above sea level'?",
-    "options": [
-      "Mount Everest",
+    "difficulty": "easy",
+    "question": "Which mountain is the highest above sea level?",
+    "answer": "Mount Everest",
+    "distractors": [
       "K2",
       "Kangchenjunga",
-      "Lhotse"
+      "Denali"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Everest is the primary answer associated with Which geographical feature holds the title of 'Highest mountain peak in the world above sea level'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Everest** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It stands 8,849 metres above sea level on the Nepal-Tibet border; measured from base to summit Mauna Kea is taller, and measured from Earth's centre Chimborazo wins.",
+    "hook": "Three different mountains hold the record depending on where you start measuring."
   },
   {
-    "id": "geo_feat_63",
+    "id": "geo_005",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Second highest mountain peak in the world'?",
-    "options": [
-      "K2",
-      "Kangchenjunga",
-      "Lhotse",
-      "Makalu"
+    "difficulty": "easy",
+    "question": "Which desert is the largest hot desert in the world?",
+    "answer": "The Sahara",
+    "distractors": [
+      "The Gobi",
+      "The Kalahari",
+      "The Arabian"
     ],
-    "answer": 0,
-    "explanation": "In geography, K2 is the primary answer associated with What geographical landmark or feature is: 'Second highest mountain peak in the world'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **K2** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It spans roughly nine million square kilometres across northern Africa, about the size of the United States; Antarctica is technically the largest desert of any kind.",
+    "hook": "Antarctica is the biggest desert — a desert is about rainfall, not heat."
   },
   {
-    "id": "geo_feat_64",
+    "id": "geo_006",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain peak in North America'?",
-    "options": [
-      "Denali",
-      "Mount Logan",
-      "Mount Rainier",
-      "Mount Whitney"
+    "difficulty": "easy",
+    "question": "What is the capital of Japan?",
+    "answer": "Tokyo",
+    "distractors": [
+      "Kyoto",
+      "Osaka",
+      "Yokohama"
     ],
-    "answer": 0,
-    "explanation": "In geography, Denali is the primary answer associated with Which geographical feature holds the title of 'Highest mountain peak in North America'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Denali** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It became the seat of government in 1868 when the emperor moved from Kyoto, and its name means 'eastern capital'; the greater metropolitan area is the world's most populous.",
+    "hook": "Kyoto and Tokyo are anagrams of each other, and one replaced the other."
   },
   {
-    "id": "geo_feat_65",
+    "id": "geo_007",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain peak in South America'?",
-    "options": [
-      "Aconcagua",
-      "Ojos del Salado",
-      "Huascar\u00e1n",
-      "Chimborazo"
+    "difficulty": "easy",
+    "question": "Which ocean is the largest?",
+    "answer": "The Pacific",
+    "distractors": [
+      "The Atlantic",
+      "The Indian",
+      "The Southern"
     ],
-    "answer": 0,
-    "explanation": "In geography, Aconcagua is the primary answer associated with Which geographical feature holds the title of 'Highest mountain peak in South America'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Aconcagua** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It covers about a third of Earth's surface, more than all the land on the planet combined, and contains the Mariana Trench, the deepest point in any ocean.",
+    "hook": "One ocean covers more of the planet than every continent put together."
   },
   {
-    "id": "geo_feat_66",
+    "id": "geo_008",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain peak in Africa'?",
-    "options": [
-      "Mount Kilimanjaro",
-      "Mount Kenya",
-      "Mount Stanley",
-      "Ras Dashen"
+    "difficulty": "easy",
+    "question": "Which country has the largest population in the world?",
+    "answer": "India",
+    "distractors": [
+      "China",
+      "The United States",
+      "Indonesia"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Kilimanjaro is the primary answer associated with Which geographical feature holds the title of 'Highest mountain peak in Africa'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Kilimanjaro** for this question.",
-    "difficulty": "Medium"
+    "explanation": "India passed China in 2023 according to UN estimates, with both nations above 1.4 billion; the two together hold about a third of humanity.",
+    "hook": "The lead changed hands in 2023 after China had held it for centuries."
   },
   {
-    "id": "geo_feat_67",
+    "id": "geo_009",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain peak in Europe'?",
-    "options": [
-      "Mount Elbrus",
-      "Mont Blanc",
-      "Matterhorn",
-      "Eiger"
+    "difficulty": "easy",
+    "question": "Which sea separates Europe from Africa?",
+    "answer": "The Mediterranean",
+    "distractors": [
+      "The Black Sea",
+      "The Red Sea",
+      "The Adriatic"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Elbrus is the primary answer associated with Which geographical feature holds the title of 'Highest mountain peak in Europe'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Elbrus** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Its name means 'in the middle of the land', and it connects to the Atlantic through the nine-mile Strait of Gibraltar and to the Red Sea via the Suez Canal.",
+    "hook": "The name literally means 'middle of the earth' — which is how the Romans saw it."
   },
   {
-    "id": "geo_feat_68",
+    "id": "geo_010",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Largest island in the world (excluding continents)'?",
-    "options": [
-      "Greenland",
+    "difficulty": "easy",
+    "question": "What is the capital of New Zealand?",
+    "answer": "Wellington",
+    "distractors": [
+      "Auckland",
+      "Christchurch",
+      "Dunedin"
+    ],
+    "explanation": "It became capital in 1865, replacing Auckland because the South Island was threatening to form its own colony and wanted the seat of government further south.",
+    "hook": "The capital moved south to stop the South Island seceding."
+  },
+  {
+    "id": "geo_011",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which continent contains the Amazon rainforest?",
+    "answer": "South America",
+    "distractors": [
+      "Africa",
+      "Asia",
+      "North America"
+    ],
+    "explanation": "It spans nine countries with roughly sixty per cent in Brazil, covers about 5.5 million square kilometres, and holds around ten per cent of all known species.",
+    "hook": "Nine countries share it, but Brazil holds three fifths."
+  },
+  {
+    "id": "geo_012",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of Egypt?",
+    "answer": "Cairo",
+    "distractors": [
+      "Alexandria",
+      "Luxor",
+      "Giza"
+    ],
+    "explanation": "Founded in 969 CE by the Fatimids, it sits at the head of the Nile Delta and is the largest city in the Arab world; a new administrative capital is being built to its east.",
+    "hook": "The pyramids are at Giza, right next door — not in the capital itself."
+  },
+  {
+    "id": "geo_013",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which strait separates Australia from Tasmania?",
+    "answer": "Bass Strait",
+    "distractors": [
+      "Torres Strait",
+      "Cook Strait",
+      "The Great Australian Bight"
+    ],
+    "explanation": "It is around 240 kilometres wide and named for George Bass, who with Matthew Flinders proved Tasmania was an island in 1798; Torres Strait separates Australia from New Guinea.",
+    "hook": "Bass at the bottom, Torres at the top — alphabetical order runs south to north."
+  },
+  {
+    "id": "geo_014",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which country is home to Machu Picchu?",
+    "answer": "Peru",
+    "distractors": [
+      "Bolivia",
+      "Ecuador",
+      "Chile"
+    ],
+    "explanation": "The fifteenth-century Inca citadel sits at 2,430 metres in the Andes and was brought to Western attention by Hiram Bingham in 1911, though local farmers had never lost track of it.",
+    "hook": "It was never 'lost' — locals were farming there when Bingham arrived."
+  },
+  {
+    "id": "geo_015",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the smallest country in the world by area?",
+    "answer": "Vatican City",
+    "distractors": [
+      "Monaco",
+      "San Marino",
+      "Nauru"
+    ],
+    "explanation": "It covers 0.49 square kilometres inside Rome and has fewer than a thousand residents; Monaco is second at about two square kilometres.",
+    "hook": "Half a square kilometre — you could walk its border in under an hour."
+  },
+  {
+    "id": "geo_016",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which Australian city sits on the Swan River?",
+    "answer": "Perth",
+    "distractors": [
+      "Adelaide",
+      "Brisbane",
+      "Hobart"
+    ],
+    "explanation": "Founded as the Swan River Colony in 1829, it is one of the most isolated major cities on Earth, closer to Jakarta than to Sydney.",
+    "hook": "Perth is closer to Jakarta than to Sydney."
+  },
+  {
+    "id": "geo_017",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which country is shaped like a boot?",
+    "answer": "Italy",
+    "distractors": [
+      "Greece",
+      "Portugal",
+      "Croatia"
+    ],
+    "explanation": "The peninsula's outline gives Sicily the appearance of a football at the toe; the country also contains two independent enclaves, San Marino and Vatican City.",
+    "hook": "The boot is kicking Sicily, and there are two countries inside it."
+  },
+  {
+    "id": "geo_018",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of Spain?",
+    "answer": "Madrid",
+    "distractors": [
+      "Barcelona",
+      "Seville",
+      "Valencia"
+    ],
+    "explanation": "Philip II moved the court there in 1561 partly because it sits almost exactly at the geographic centre of the Iberian Peninsula, marked by the Puerta del Sol.",
+    "hook": "It was chosen for being in the middle of the map, not for anything else."
+  },
+  {
+    "id": "geo_019",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which is the world's largest island?",
+    "answer": "Greenland",
+    "distractors": [
       "New Guinea",
       "Borneo",
       "Madagascar"
     ],
-    "answer": 0,
-    "explanation": "In geography, Greenland is the primary answer associated with Which geographical feature holds the title of 'Largest island in the world (excluding continents)'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Greenland** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It covers about 2.2 million square kilometres; Australia is larger but is classified as a continental landmass rather than an island.",
+    "hook": "Australia is bigger but doesn't count — it is a continent, not an island."
   },
   {
-    "id": "geo_feat_69",
+    "id": "geo_020",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Second largest island in the world'?",
-    "options": [
-      "New Guinea",
-      "Borneo",
-      "Madagascar",
-      "Baffin Island"
+    "difficulty": "easy",
+    "question": "Which two countries share the world's longest international border?",
+    "answer": "Canada and the United States",
+    "distractors": [
+      "Russia and China",
+      "Argentina and Chile",
+      "India and Bangladesh"
     ],
-    "answer": 0,
-    "explanation": "In geography, New Guinea is the primary answer associated with What geographical landmark or feature is: 'Second largest island in the world'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **New Guinea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The boundary runs about 8,890 kilometres including the Alaska section, much of it along the 49th parallel, and is the longest undefended border in the world.",
+    "hook": "Nearly 9,000 kilometres, and much of it is a dead-straight line of latitude."
   },
   {
-    "id": "geo_feat_70",
+    "id": "geo_021",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Third largest island in the world'?",
-    "options": [
-      "Borneo",
-      "Madagascar",
-      "Sumatra",
-      "Honshu"
+    "difficulty": "easy",
+    "question": "Which lake is the largest freshwater lake in Africa by area?",
+    "answer": "Lake Victoria",
+    "distractors": [
+      "Lake Tanganyika",
+      "Lake Malawi",
+      "Lake Chad"
     ],
-    "answer": 0,
-    "explanation": "In geography, Borneo is the primary answer associated with What geographical landmark or feature is: 'Third largest island in the world'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Borneo** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Shared by Tanzania, Uganda and Kenya, it is the world's second-largest freshwater lake by surface area; Lake Tanganyika is deeper and holds more water.",
+    "hook": "Widest in Africa, but Tanganyika is far deeper and holds more."
   },
   {
-    "id": "geo_feat_71",
+    "id": "geo_022",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Largest island in the Mediterranean Sea'?",
-    "options": [
-      "Sicily",
+    "difficulty": "easy",
+    "question": "What is the capital of Argentina?",
+    "answer": "Buenos Aires",
+    "distractors": [
+      "Cordoba",
+      "Rosario",
+      "Montevideo"
+    ],
+    "explanation": "The name means 'good airs' and its residents are called porteños, 'people of the port'; Montevideo, often confused with it, is the capital of neighbouring Uruguay.",
+    "hook": "'Good airs' for the city; its people are named for the port, not the city."
+  },
+  {
+    "id": "geo_023",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which mountain range separates Europe from Asia in western Russia?",
+    "answer": "The Urals",
+    "distractors": [
+      "The Caucasus",
+      "The Carpathians",
+      "The Alps"
+    ],
+    "explanation": "The range runs roughly 2,500 kilometres north to south and is the conventional dividing line between the two continents, along with the Ural River and the Caucasus.",
+    "hook": "A single mountain range is the reason Russia counts as two continents."
+  },
+  {
+    "id": "geo_024",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which country has the most time zones?",
+    "answer": "France",
+    "distractors": [
+      "Russia",
+      "The United States",
+      "Australia"
+    ],
+    "explanation": "Counting its overseas departments and territories from French Polynesia to Réunion, France spans twelve time zones; Russia has eleven within one contiguous landmass.",
+    "hook": "France beats Russia because of islands, not land."
+  },
+  {
+    "id": "geo_025",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of Kenya?",
+    "answer": "Nairobi",
+    "distractors": [
+      "Mombasa",
+      "Kampala",
+      "Dar es Salaam"
+    ],
+    "explanation": "It began as a railway depot in 1899 and is the only capital city in the world with a national park inside its boundaries.",
+    "hook": "The only capital where lions live within the city limits."
+  },
+  {
+    "id": "geo_026",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which Australian state is the largest by area?",
+    "answer": "Western Australia",
+    "distractors": [
+      "Queensland",
+      "The Northern Territory",
+      "South Australia"
+    ],
+    "explanation": "It covers 2.5 million square kilometres, about a third of the continent and larger than Western Europe, yet holds barely a tenth of the national population.",
+    "hook": "A third of the continent, a tenth of the people."
+  },
+  {
+    "id": "geo_027",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which canal connects the Mediterranean Sea to the Red Sea?",
+    "answer": "The Suez Canal",
+    "distractors": [
+      "The Panama Canal",
+      "The Kiel Canal",
+      "The Corinth Canal"
+    ],
+    "explanation": "Opened in 1869 and about 193 kilometres long, it has no locks because both seas sit at roughly the same level; it carries around twelve per cent of global trade.",
+    "hook": "No locks needed — the two seas are already level."
+  },
+  {
+    "id": "geo_028",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of Brazil?",
+    "answer": "Brasília",
+    "distractors": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador"
+    ],
+    "explanation": "Purpose-built on the central plateau and inaugurated in 1960, it was laid out by Lúcio Costa in the shape of an aeroplane and replaced Rio de Janeiro as capital.",
+    "hook": "From the air, the city plan looks like a plane."
+  },
+  {
+    "id": "geo_029",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which country contains the source of the Mekong River?",
+    "answer": "China",
+    "distractors": [
+      "Laos",
+      "Thailand",
+      "Myanmar"
+    ],
+    "explanation": "It rises on the Tibetan Plateau and runs about 4,900 kilometres through six countries to its delta in Vietnam, making it South-East Asia's longest river.",
+    "hook": "Six countries drink from one Tibetan glacier."
+  },
+  {
+    "id": "geo_030",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which is the deepest lake in the world?",
+    "answer": "Lake Baikal",
+    "distractors": [
+      "The Caspian Sea",
+      "Lake Tanganyika",
+      "Crater Lake"
+    ],
+    "explanation": "The Siberian rift lake reaches 1,642 metres and holds about twenty per cent of the world's unfrozen fresh water, more than all the North American Great Lakes combined.",
+    "hook": "One Siberian lake holds a fifth of the planet's liquid fresh water."
+  },
+  {
+    "id": "geo_031",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of South Korea?",
+    "answer": "Seoul",
+    "distractors": [
+      "Busan",
+      "Incheon",
+      "Pyongyang"
+    ],
+    "explanation": "It has been the capital since 1394 and sits only about fifty kilometres from the Demilitarised Zone; Pyongyang is the capital of North Korea.",
+    "hook": "The capital of the South sits within artillery range of the border."
+  },
+  {
+    "id": "geo_032",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which African country was never formally colonised by a European power?",
+    "answer": "Ethiopia",
+    "distractors": [
+      "Ghana",
+      "Kenya",
+      "Senegal"
+    ],
+    "explanation": "It defeated Italy at Adwa in 1896 and, apart from a five-year Italian occupation from 1936, retained independence throughout the scramble for Africa.",
+    "hook": "Adwa 1896 — the battle that kept one African country off the colonial map."
+  },
+  {
+    "id": "geo_033",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which US state is the largest by area?",
+    "answer": "Alaska",
+    "distractors": [
+      "Texas",
+      "California",
+      "Montana"
+    ],
+    "explanation": "It covers about 1.7 million square kilometres, more than twice the size of Texas, and was purchased from Russia in 1867 for $7.2 million.",
+    "hook": "Bought from Russia for two cents an acre and now twice the size of Texas."
+  },
+  {
+    "id": "geo_034",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which mountain range runs the length of western South America?",
+    "answer": "The Andes",
+    "distractors": [
+      "The Rockies",
+      "The Sierra Madre",
+      "The Atlas"
+    ],
+    "explanation": "At about 7,000 kilometres it is the world's longest continental mountain range, running through seven countries and containing Aconcagua, the highest peak outside Asia.",
+    "hook": "Longest range on land — 7,000 kilometres through seven countries."
+  },
+  {
+    "id": "geo_035",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "What is the capital of Portugal?",
+    "answer": "Lisbon",
+    "distractors": [
+      "Porto",
+      "Madrid",
+      "Seville"
+    ],
+    "explanation": "It sits on the Tagus estuary and was largely rebuilt after the catastrophic earthquake and tsunami of 1755, an event that shaped European philosophy as much as architecture.",
+    "hook": "The 1755 earthquake rebuilt the city and rattled the Enlightenment."
+  },
+  {
+    "id": "geo_036",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Colombia?",
+    "answer": "Bogotá",
+    "distractors": [
+      "Medellín",
+      "Cali",
+      "Cartagena"
+    ],
+    "explanation": "It sits on a plateau at about 2,640 metres in the Andes, making it one of the highest capital cities in the world despite being close to the equator.",
+    "hook": "Near the equator but cool all year — altitude beats latitude."
+  },
+  {
+    "id": "geo_037",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country has the longest coastline in the world?",
+    "answer": "Canada",
+    "distractors": [
+      "Russia",
+      "Indonesia",
+      "Norway"
+    ],
+    "explanation": "Its Arctic archipelago pushes the total past 200,000 kilometres, more than four times the next country's; coastline length depends heavily on the scale used to measure it.",
+    "hook": "Thousands of Arctic islands make one country's coast longer than everyone else's combined."
+  },
+  {
+    "id": "geo_038",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which is the highest waterfall in the world by single drop?",
+    "answer": "Angel Falls",
+    "distractors": [
+      "Victoria Falls",
+      "Niagara Falls",
+      "Iguazu Falls"
+    ],
+    "explanation": "The Venezuelan cascade drops 979 metres from Auyán-tepui, so far that much of the water vaporises before reaching the bottom in the dry season.",
+    "hook": "It falls so far the water turns to mist on the way down."
+  },
+  {
+    "id": "geo_039",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country is entirely surrounded by South Africa?",
+    "answer": "Lesotho",
+    "distractors": [
+      "Eswatini",
+      "Botswana",
+      "Zimbabwe"
+    ],
+    "explanation": "It is one of only three countries completely enclosed by a single other state, along with San Marino and Vatican City, and its lowest point is the highest of any nation.",
+    "hook": "Its lowest point is higher than any other country's lowest point."
+  },
+  {
+    "id": "geo_040",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Switzerland?",
+    "answer": "Bern",
+    "distractors": [
+      "Zurich",
+      "Geneva",
+      "Basel"
+    ],
+    "explanation": "Switzerland has no formal capital in law; Bern is the 'federal city' and seat of government, which is why the question trips up people who assume Zurich or Geneva.",
+    "hook": "Switzerland technically has no capital — just a federal city."
+  },
+  {
+    "id": "geo_041",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which sea is the saltiest large body of water on Earth's surface?",
+    "answer": "The Dead Sea",
+    "distractors": [
+      "The Red Sea",
+      "The Caspian Sea",
+      "The Aral Sea"
+    ],
+    "explanation": "At around ten times ocean salinity, its density lets bathers float without effort; its surface is also the lowest exposed land elevation on Earth at about 430 metres below sea level.",
+    "hook": "Saltiest water, lowest land — the same place holds both records."
+  },
+  {
+    "id": "geo_042",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country has Vientiane as its capital?",
+    "answer": "Laos",
+    "distractors": [
+      "Cambodia",
+      "Myanmar",
+      "Vietnam"
+    ],
+    "explanation": "It sits on the Mekong facing Thailand, and the country is the only landlocked state in South-East Asia.",
+    "hook": "The only South-East Asian country with no coastline."
+  },
+  {
+    "id": "geo_043",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which line of latitude passes through the centre of Australia?",
+    "answer": "The Tropic of Capricorn",
+    "distractors": [
+      "The Tropic of Cancer",
+      "The equator",
+      "The Antarctic Circle"
+    ],
+    "explanation": "It crosses at about 23.4 degrees south, running near Rockhampton and Alice Springs, and marks the southern limit of where the sun can pass directly overhead.",
+    "hook": "Rockhampton has a marker on the street where the line crosses town."
+  },
+  {
+    "id": "geo_044",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Morocco?",
+    "answer": "Rabat",
+    "distractors": [
+      "Casablanca",
+      "Marrakesh",
+      "Fez"
+    ],
+    "explanation": "Casablanca is far larger and better known, but the seat of government and the royal palace are in Rabat on the Atlantic coast.",
+    "hook": "The famous city is Casablanca; the capital is the quieter one up the coast."
+  },
+  {
+    "id": "geo_045",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country contains the world's largest salt flat?",
+    "answer": "Bolivia",
+    "distractors": [
+      "Chile",
+      "Argentina",
+      "Peru"
+    ],
+    "explanation": "The Salar de Uyuni covers over 10,000 square kilometres and is so flat it is used to calibrate satellite altimeters; it holds a large share of the world's lithium reserves.",
+    "hook": "So flat that satellites use it as a ruler."
+  },
+  {
+    "id": "geo_046",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which two countries does the Iguazu Falls sit between?",
+    "answer": "Argentina and Brazil",
+    "distractors": [
+      "Brazil and Paraguay",
+      "Chile and Argentina",
+      "Peru and Ecuador"
+    ],
+    "explanation": "The falls stretch nearly three kilometres with about 275 individual drops; Paraguay is nearby at the triple frontier but does not share the falls themselves.",
+    "hook": "Three countries meet nearby, but only two share the water."
+  },
+  {
+    "id": "geo_047",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Vietnam?",
+    "answer": "Hanoi",
+    "distractors": [
+      "Ho Chi Minh City",
+      "Hue",
+      "Da Nang"
+    ],
+    "explanation": "It has been the capital since reunification in 1976; Ho Chi Minh City, formerly Saigon, is larger and remains the commercial centre.",
+    "hook": "The bigger city is in the south; the capital stayed in the north."
+  },
+  {
+    "id": "geo_048",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which African river flows through Cairo into the Mediterranean via a large delta?",
+    "answer": "The Nile",
+    "distractors": [
+      "The Orange",
+      "The Limpopo",
+      "The Senegal"
+    ],
+    "explanation": "The delta gave the word 'delta' its geographic meaning, from the triangular Greek letter; the Aswan High Dam has since sharply reduced the silt reaching it.",
+    "hook": "The word 'delta' comes from this river's triangular mouth and a Greek letter."
+  },
+  {
+    "id": "geo_049",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country was formerly known as Siam?",
+    "answer": "Thailand",
+    "distractors": [
+      "Myanmar",
+      "Cambodia",
+      "Sri Lanka"
+    ],
+    "explanation": "The name changed in 1939, briefly reverted, and became permanent in 1949; the country is the only one in South-East Asia never colonised by a European power.",
+    "hook": "It kept its independence and changed its name — most of its neighbours did the opposite."
+  },
+  {
+    "id": "geo_050",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Nigeria?",
+    "answer": "Abuja",
+    "distractors": [
+      "Lagos",
+      "Kano",
+      "Ibadan"
+    ],
+    "explanation": "Purpose-built and made capital in 1991 for its central, ethnically neutral location; Lagos remains far larger and is one of the fastest-growing cities in the world.",
+    "hook": "The capital moved inland to be nobody's home turf."
+  },
+  {
+    "id": "geo_051",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which strait separates Spain from Morocco?",
+    "answer": "The Strait of Gibraltar",
+    "distractors": [
+      "The Bosphorus",
+      "The Dardanelles",
+      "The Strait of Hormuz"
+    ],
+    "explanation": "At its narrowest it is about fourteen kilometres wide and is the only natural connection between the Atlantic and the Mediterranean.",
+    "hook": "Fourteen kilometres is all that separates two continents there."
+  },
+  {
+    "id": "geo_052",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country has the most volcanoes?",
+    "answer": "Indonesia",
+    "distractors": [
+      "Japan",
+      "The United States",
+      "Chile"
+    ],
+    "explanation": "It has around 130 active volcanoes along the Ring of Fire, including Krakatoa and Tambora, whose 1815 eruption caused the following 'year without a summer'.",
+    "hook": "One 1815 eruption there cancelled summer across the northern hemisphere."
+  },
+  {
+    "id": "geo_053",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Chile?",
+    "answer": "Santiago",
+    "distractors": [
+      "Valparaíso",
+      "Concepción",
+      "Antofagasta"
+    ],
+    "explanation": "It sits in a valley beneath the Andes, though the national congress meets in Valparaíso, an arrangement dating from the Pinochet era.",
+    "hook": "The government sits in one city and the parliament in another."
+  },
+  {
+    "id": "geo_054",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which is the world's driest non-polar desert?",
+    "answer": "The Atacama",
+    "distractors": [
+      "The Sahara",
+      "The Namib",
+      "The Mojave"
+    ],
+    "explanation": "Some weather stations in northern Chile have never recorded rain; its clear skies and altitude make it the site of the world's most powerful optical telescopes.",
+    "hook": "Some spots there have no recorded rainfall at all — which is why the telescopes went in."
+  },
+  {
+    "id": "geo_055",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country is home to the Great Barrier Reef?",
+    "answer": "Australia",
+    "distractors": [
+      "Indonesia",
+      "The Philippines",
+      "Papua New Guinea"
+    ],
+    "explanation": "The reef runs about 2,300 kilometres along the Queensland coast, is made of roughly 2,900 individual reefs, and is the largest structure built by living organisms.",
+    "hook": "The biggest thing on Earth built by living creatures, and it is visible from orbit."
+  },
+  {
+    "id": "geo_056",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Ireland?",
+    "answer": "Dublin",
+    "distractors": [
+      "Belfast",
+      "Cork",
+      "Galway"
+    ],
+    "explanation": "Founded by Vikings around 841, it sits on the River Liffey; Belfast is the capital of Northern Ireland, which remains part of the United Kingdom.",
+    "hook": "Two capitals on one island — Dublin for the Republic, Belfast for the North."
+  },
+  {
+    "id": "geo_057",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which mountain is the highest in Africa?",
+    "answer": "Kilimanjaro",
+    "distractors": [
+      "Mount Kenya",
+      "Mount Stanley",
+      "Ras Dashen"
+    ],
+    "explanation": "The dormant Tanzanian volcano rises 5,895 metres and is the tallest free-standing mountain in the world, not part of any range.",
+    "hook": "It belongs to no range — it just stands there alone on the plain."
+  },
+  {
+    "id": "geo_058",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country's flag features a maple leaf?",
+    "answer": "Canada",
+    "distractors": [
+      "Lebanon",
+      "Norway",
+      "Latvia"
+    ],
+    "explanation": "Adopted in 1965 after a bitter parliamentary debate known as the Great Flag Debate, it replaced the Canadian Red Ensign; Lebanon's flag carries a cedar.",
+    "hook": "Canada has a maple, Lebanon has a cedar — both flags are one tree."
+  },
+  {
+    "id": "geo_059",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Turkey?",
+    "answer": "Ankara",
+    "distractors": [
+      "Istanbul",
+      "Izmir",
+      "Antalya"
+    ],
+    "explanation": "Atatürk moved the capital there in 1923 to break with the Ottoman past; Istanbul is far larger and is the only major city sitting on two continents.",
+    "hook": "The famous city straddles two continents; the capital is the inland one."
+  },
+  {
+    "id": "geo_060",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which sea is bordered by Kazakhstan, Russia, Azerbaijan, Iran and Turkmenistan?",
+    "answer": "The Caspian Sea",
+    "distractors": [
+      "The Black Sea",
+      "The Aral Sea",
+      "The Baltic Sea"
+    ],
+    "explanation": "It is the largest enclosed inland body of water on Earth; whether it counts as a sea or a lake has real legal consequences for how its oil is divided.",
+    "hook": "Sea or lake is not a pedantic question there — it decides who owns the oil."
+  },
+  {
+    "id": "geo_061",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which Australian desert is the largest?",
+    "answer": "The Great Victoria Desert",
+    "distractors": [
+      "The Simpson Desert",
+      "The Gibson Desert",
+      "The Tanami Desert"
+    ],
+    "explanation": "It spans about 350,000 square kilometres across Western Australia and South Australia, larger than the United Kingdom; the Simpson is better known for its parallel dunes.",
+    "hook": "Bigger than the UK, and most Australians could not point to it on a map."
+  },
+  {
+    "id": "geo_062",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Norway?",
+    "answer": "Oslo",
+    "distractors": [
+      "Bergen",
+      "Stockholm",
+      "Copenhagen"
+    ],
+    "explanation": "It was called Christiania from 1624 until 1925 after the Danish king who rebuilt it following a fire, then reverted to its older name.",
+    "hook": "For three hundred years it was named after a Danish king."
+  },
+  {
+    "id": "geo_063",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country contains the Serengeti National Park?",
+    "answer": "Tanzania",
+    "distractors": [
+      "Kenya",
+      "Uganda",
+      "Zambia"
+    ],
+    "explanation": "The great wildebeest migration circles between it and Kenya's Maasai Mara, which is the same ecosystem under a different name across the border.",
+    "hook": "The Serengeti and the Maasai Mara are one ecosystem with two passports."
+  },
+  {
+    "id": "geo_064",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which is the longest river in Asia?",
+    "answer": "The Yangtze",
+    "distractors": [
+      "The Yellow River",
+      "The Mekong",
+      "The Ganges"
+    ],
+    "explanation": "At about 6,300 kilometres it is the third-longest river in the world and the longest to run entirely within one country; the Three Gorges Dam sits on it.",
+    "hook": "Third longest on Earth, and the longest that never leaves home."
+  },
+  {
+    "id": "geo_065",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Peru?",
+    "answer": "Lima",
+    "distractors": [
+      "Cusco",
+      "Arequipa",
+      "Quito"
+    ],
+    "explanation": "Founded by Francisco Pizarro in 1535 as the City of Kings, it sits in coastal desert and gets almost no rainfall despite persistent grey cloud.",
+    "hook": "Permanently overcast and almost never rains — the locals call the cloud the donkey's belly."
+  },
+  {
+    "id": "geo_066",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country has the highest capital city in the world?",
+    "answer": "Bolivia",
+    "distractors": [
+      "Nepal",
+      "Ecuador",
+      "Bhutan"
+    ],
+    "explanation": "La Paz, the seat of government, sits above 3,600 metres; Sucre is the constitutional capital, and Quito in Ecuador is the next highest.",
+    "hook": "Two capitals in one country — the high one governs, the other is constitutional."
+  },
+  {
+    "id": "geo_067",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which strait is the busiest shipping lane between the Indian and Pacific Oceans?",
+    "answer": "The Strait of Malacca",
+    "distractors": [
+      "The Strait of Hormuz",
+      "The Bosphorus",
+      "The Bering Strait"
+    ],
+    "explanation": "Roughly a quarter of world trade passes between Malaysia, Singapore and Sumatra; at its narrowest it is only about 2.8 kilometres wide.",
+    "hook": "A quarter of world trade squeezes through a gap under three kilometres wide."
+  },
+  {
+    "id": "geo_068",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Sweden?",
+    "answer": "Stockholm",
+    "distractors": [
+      "Gothenburg",
+      "Malmo",
+      "Uppsala"
+    ],
+    "explanation": "Built across fourteen islands where Lake Mälaren meets the Baltic, it hosts the Nobel Prize ceremonies for every category except peace, which is awarded in Oslo.",
+    "hook": "All the Nobels are handed out there except peace, which goes to Norway."
+  },
+  {
+    "id": "geo_069",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which US city sits at the confluence of the Allegheny and Monongahela rivers?",
+    "answer": "Pittsburgh",
+    "distractors": [
+      "Cincinnati",
+      "St Louis",
+      "Louisville"
+    ],
+    "explanation": "The two rivers meet to form the Ohio, and the city's location made it a steel capital; it has more bridges than Venice.",
+    "hook": "Two rivers go in, one comes out, and there are more bridges than in Venice."
+  },
+  {
+    "id": "geo_070",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country's territory includes the Faroe Islands and Greenland?",
+    "answer": "Denmark",
+    "distractors": [
+      "Norway",
+      "Iceland",
+      "The Netherlands"
+    ],
+    "explanation": "Both are self-governing within the Kingdom of Denmark; Greenland left the European Communities in 1985 while Denmark stayed, the first such departure.",
+    "hook": "Greenland quit the EU decades before Brexit was a word."
+  },
+  {
+    "id": "geo_071",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of the Philippines?",
+    "answer": "Manila",
+    "distractors": [
+      "Quezon City",
+      "Cebu",
+      "Davao"
+    ],
+    "explanation": "It is the capital within the larger Metro Manila region; Quezon City briefly held the title from 1948 to 1976 and remains the more populous city.",
+    "hook": "The capital is not the biggest city in its own metro area."
+  },
+  {
+    "id": "geo_072",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which African country is the largest by area?",
+    "answer": "Algeria",
+    "distractors": [
+      "Sudan",
+      "Libya",
+      "The Democratic Republic of the Congo"
+    ],
+    "explanation": "It became the largest when South Sudan split from Sudan in 2011; about eighty per cent of its territory is Sahara.",
+    "hook": "It only took the title in 2011, when Sudan split in two."
+  },
+  {
+    "id": "geo_073",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which mountain is the highest in Australia?",
+    "answer": "Mount Kosciuszko",
+    "distractors": [
+      "Mount Bogong",
+      "Bluff Knoll",
+      "Mount Ossa"
+    ],
+    "explanation": "At 2,228 metres it is modest by world standards and can be walked up in a few hours; Australia's highest territory peak is Mawson Peak on Heard Island.",
+    "hook": "The mainland's highest point is a walk, not a climb."
+  },
+  {
+    "id": "geo_074",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Austria?",
+    "answer": "Vienna",
+    "distractors": [
+      "Salzburg",
+      "Graz",
+      "Innsbruck"
+    ],
+    "explanation": "The seat of the Habsburgs for centuries, it hosts several UN agencies and OPEC and regularly tops global liveability rankings.",
+    "hook": "Habsburg capital, then UN city — it never stopped hosting other people's business."
+  },
+  {
+    "id": "geo_075",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country is the only one to border both the Atlantic and Indian Oceans in Africa?",
+    "answer": "South Africa",
+    "distractors": [
+      "Egypt",
+      "Morocco",
+      "Somalia"
+    ],
+    "explanation": "The two oceans are conventionally divided at Cape Agulhas, the continent's southernmost point, rather than at the more famous Cape of Good Hope.",
+    "hook": "The oceans meet at Agulhas, not the Cape of Good Hope — a common trap."
+  },
+  {
+    "id": "geo_076",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Hungary?",
+    "answer": "Budapest",
+    "distractors": [
+      "Bratislava",
+      "Belgrade",
+      "Bucharest"
+    ],
+    "explanation": "It was formed in 1873 by merging Buda and Óbuda on one bank of the Danube with Pest on the other; the city sits on more than a hundred thermal springs.",
+    "hook": "Two towns on opposite banks became one city and kept both names."
+  },
+  {
+    "id": "geo_077",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which island is the largest in the Mediterranean?",
+    "answer": "Sicily",
+    "distractors": [
       "Sardinia",
       "Cyprus",
-      "Corsica"
+      "Crete"
     ],
-    "answer": 0,
-    "explanation": "In geography, Sicily is the primary answer associated with Which geographical feature holds the title of 'Largest island in the Mediterranean Sea'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Sicily** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It covers about 25,700 square kilometres and contains Mount Etna, Europe's most active volcano; Sardinia is second and Cyprus third.",
+    "hook": "Sicily, Sardinia, Cyprus, Corsica, Crete — the Mediterranean top five in order."
   },
   {
-    "id": "geo_feat_72",
+    "id": "geo_078",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Longest river in the world'?",
-    "options": [
-      "The Nile River",
-      "The Amazon River",
-      "The Yangtze River",
-      "The Mississippi River"
+    "difficulty": "medium",
+    "question": "Which country is Timbuktu in?",
+    "answer": "Mali",
+    "distractors": [
+      "Niger",
+      "Chad",
+      "Mauritania"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Nile River is the primary answer associated with Which geographical feature holds the title of 'Longest river in the world'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Nile River** for this question.",
-    "difficulty": "Medium"
+    "explanation": "A centre of Islamic scholarship and trans-Saharan trade from the fourteenth century, its libraries held hundreds of thousands of manuscripts, many smuggled out for safety in 2012.",
+    "hook": "The byword for the middle of nowhere was once a university town."
   },
   {
-    "id": "geo_feat_73",
+    "id": "geo_079",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Largest river in the world by water volume'?",
-    "options": [
-      "The Amazon River",
-      "The Nile River",
-      "The Congo River",
-      "The Yangtze River"
+    "difficulty": "medium",
+    "question": "What is the capital of Indonesia?",
+    "answer": "Jakarta",
+    "distractors": [
+      "Surabaya",
+      "Bandung",
+      "Kuala Lumpur"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Amazon River is the primary answer associated with Which geographical feature holds the title of 'Largest river in the world by water volume'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Amazon River** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It sits on Java and is sinking rapidly from groundwater extraction, which is why the government is building a new capital, Nusantara, on Borneo.",
+    "hook": "The capital is sinking, so the country is building a new one on another island."
   },
   {
-    "id": "geo_feat_74",
+    "id": "geo_080",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Longest river in Asia'?",
-    "options": [
-      "The Yangtze River",
-      "The Yellow River",
-      "The Mekong River",
-      "The Amur River"
+    "difficulty": "medium",
+    "question": "Which two seas does the Bosphorus connect?",
+    "answer": "The Black Sea and the Sea of Marmara",
+    "distractors": [
+      "The Aegean and the Adriatic",
+      "The Baltic and the North Sea",
+      "The Red Sea and the Arabian Sea"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Yangtze River is the primary answer associated with Which geographical feature holds the title of 'Longest river in Asia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Yangtze River** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The strait runs through Istanbul and, with the Dardanelles beyond the Marmara, forms Russia's only warm-water route from the Black Sea to the Mediterranean.",
+    "hook": "It is the reason Istanbul has mattered to every empire in the region."
   },
   {
-    "id": "geo_feat_75",
+    "id": "geo_081",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Longest river system in North America'?",
-    "options": [
-      "The Mississippi-Missouri River",
-      "The Yukon River",
-      "St. Lawrence River",
-      "Rio Grande"
+    "difficulty": "medium",
+    "question": "Which country has the largest Muslim population in the world?",
+    "answer": "Indonesia",
+    "distractors": [
+      "Pakistan",
+      "India",
+      "Saudi Arabia"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Mississippi-Missouri River is the primary answer associated with Which geographical feature holds the title of 'Longest river system in North America'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Mississippi-Missouri River** for this question.",
-    "difficulty": "Medium"
+    "explanation": "About 230 million Indonesians are Muslim, more than the entire Arab world combined; Pakistan and India follow.",
+    "hook": "The largest Muslim nation is in South-East Asia, not the Middle East."
   },
   {
-    "id": "geo_feat_76",
+    "id": "geo_082",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Longest river in Europe'?",
-    "options": [
-      "The Volga River",
-      "The Danube River",
-      "The Dnieper River",
-      "The Rhine River"
+    "difficulty": "medium",
+    "question": "What is the capital of Ethiopia?",
+    "answer": "Addis Ababa",
+    "distractors": [
+      "Asmara",
+      "Khartoum",
+      "Mogadishu"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Volga River is the primary answer associated with Which geographical feature holds the title of 'Longest river in Europe'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Volga River** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The name means 'new flower' in Amharic; it hosts the African Union headquarters and sits at around 2,350 metres, among the highest capitals in Africa.",
+    "hook": "'New flower' in Amharic, and the political capital of the whole continent."
   },
   {
-    "id": "geo_feat_77",
+    "id": "geo_083",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Second longest river in Europe'?",
-    "options": [
-      "The Danube River",
-      "The Volga River",
-      "The Rhine River",
-      "The Elbe River"
+    "difficulty": "medium",
+    "question": "Which is the world's largest bay by shoreline length?",
+    "answer": "Hudson Bay",
+    "distractors": [
+      "The Bay of Bengal",
+      "The Gulf of Mexico",
+      "The Great Australian Bight"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Danube River is the primary answer associated with What geographical landmark or feature is: 'Second longest river in Europe'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Danube River** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The Canadian inland sea has a shoreline of over 12,000 kilometres; the Bay of Bengal is larger by surface area.",
+    "hook": "Biggest by coastline is Canadian; biggest by area is Bengal."
   },
   {
-    "id": "geo_feat_78",
+    "id": "geo_084",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's largest landlocked country by area'?",
-    "options": [
-      "Kazakhstan",
+    "difficulty": "medium",
+    "question": "Which country's highest point is Ben Nevis?",
+    "answer": "The United Kingdom",
+    "distractors": [
+      "Ireland",
+      "Norway",
+      "Iceland"
+    ],
+    "explanation": "The Scottish peak reaches 1,345 metres and is the highest point in the British Isles; Ireland's highest is Carrauntoohil in County Kerry.",
+    "hook": "Britain's roof is under 1,400 metres — lower than many alpine ski villages."
+  },
+  {
+    "id": "geo_085",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Finland?",
+    "answer": "Helsinki",
+    "distractors": [
+      "Tampere",
+      "Turku",
+      "Tallinn"
+    ],
+    "explanation": "It became capital in 1812 under Russian rule, replacing Turku, and sits about eighty kilometres across the Gulf of Finland from Tallinn in Estonia.",
+    "hook": "Two capitals face each other across eighty kilometres of Baltic water."
+  },
+  {
+    "id": "geo_086",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country contains the world's largest cave passage, Son Doong?",
+    "answer": "Vietnam",
+    "distractors": [
+      "Malaysia",
+      "China",
+      "Laos"
+    ],
+    "explanation": "Discovered in 1991 and first surveyed in 2009, the chamber is large enough to hold a New York City block including skyscrapers, and has its own jungle and clouds.",
+    "hook": "A cave with its own weather system and forest inside it."
+  },
+  {
+    "id": "geo_087",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which line of longitude marks zero degrees?",
+    "answer": "The Greenwich meridian",
+    "distractors": [
+      "The International Date Line",
+      "The Tropic of Cancer",
+      "The Antarctic Circle"
+    ],
+    "explanation": "Fixed by international agreement in 1884 at the Royal Observatory in London, largely because most existing sea charts already used it; the date line sits roughly opposite at 180 degrees.",
+    "hook": "Zero was set in London in 1884 because most captains were already using those charts."
+  },
+  {
+    "id": "geo_088",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Cuba?",
+    "answer": "Havana",
+    "distractors": [
+      "Santiago de Cuba",
+      "Santo Domingo",
+      "San Juan"
+    ],
+    "explanation": "Founded in 1519, it was the assembly point for Spanish treasure fleets returning to Europe, which is why it was fortified so heavily.",
+    "hook": "The treasure fleets gathered there, so the walls went up."
+  },
+  {
+    "id": "geo_089",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country lies immediately south of Egypt?",
+    "answer": "Sudan",
+    "distractors": [
+      "Libya",
+      "Ethiopia",
+      "Chad"
+    ],
+    "explanation": "The two share a long desert border and a disputed area at Halaib on the Red Sea; South Sudan, further south, became independent in 2011.",
+    "hook": "Sudan is between Egypt and South Sudan — three countries in a vertical line."
+  },
+  {
+    "id": "geo_090",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which is the largest lake entirely within Canada?",
+    "answer": "Great Bear Lake",
+    "distractors": [
+      "Great Slave Lake",
+      "Lake Winnipeg",
+      "Lake Superior"
+    ],
+    "explanation": "It covers about 31,000 square kilometres in the Northwest Territories; Lake Superior is larger but is shared with the United States.",
+    "hook": "Superior is bigger but shared — the biggest all-Canadian lake is in the far north."
+  },
+  {
+    "id": "geo_091",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which country has the world's longest place name for its capital in ceremonial form?",
+    "answer": "Thailand",
+    "distractors": [
+      "Sri Lanka",
+      "Myanmar",
+      "Wales"
+    ],
+    "explanation": "Bangkok's full ceremonial name runs to 168 letters in Thai and is recognised by Guinness as the longest place name in the world; Thais normally call it Krung Thep.",
+    "hook": "Bangkok's real name has 168 letters — locals use the first two words."
+  },
+  {
+    "id": "geo_092",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which country is the only one to lie on the equator in three continents' worth of longitude spread?",
+    "answer": "Kiribati",
+    "distractors": [
+      "Indonesia",
+      "Ecuador",
+      "Maldives"
+    ],
+    "explanation": "Its islands straddle both the equator and the 180th meridian, so it spans all four hemispheres; in 1995 it moved the date line east so the whole country shares one date.",
+    "hook": "The only country in all four hemispheres — and it bent the date line to stay tidy."
+  },
+  {
+    "id": "geo_093",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which two countries share the island of Hispaniola?",
+    "answer": "Haiti and the Dominican Republic",
+    "distractors": [
+      "Cuba and Jamaica",
+      "Trinidad and Tobago",
+      "Saint Kitts and Nevis"
+    ],
+    "explanation": "Haiti occupies the western third and became the first Black republic in 1804 after a successful slave revolt; the two states speak different languages and have sharply different forest cover.",
+    "hook": "One island, two languages, and a border you can see from space in the tree line."
+  },
+  {
+    "id": "geo_094",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which is the world's largest landlocked country?",
+    "answer": "Kazakhstan",
+    "distractors": [
       "Mongolia",
       "Chad",
       "Bolivia"
     ],
-    "answer": 0,
-    "explanation": "In geography, Kazakhstan is the primary answer associated with What geographical landmark or feature is: 'World's largest landlocked country by area'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Kazakhstan** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It covers 2.7 million square kilometres and borders the Caspian, which does not count as ocean access; Mongolia is second.",
+    "hook": "The Caspian does not count as a sea for this purpose — hence landlocked."
   },
   {
-    "id": "geo_feat_79",
+    "id": "geo_095",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's second largest landlocked country'?",
-    "options": [
-      "Mongolia",
-      "Chad",
-      "Niger",
-      "Mali"
+    "difficulty": "hard",
+    "question": "Which two landlocked countries are surrounded entirely by other landlocked countries?",
+    "answer": "Liechtenstein and Uzbekistan",
+    "distractors": [
+      "Nepal and Bhutan",
+      "Austria and Hungary",
+      "Paraguay and Bolivia"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mongolia is the primary answer associated with What geographical landmark or feature is: 'World's second largest landlocked country'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mongolia** for this question.",
-    "difficulty": "Medium"
+    "explanation": "These are the only doubly landlocked states: to reach the sea you must cross at least two borders. Liechtenstein sits between Switzerland and Austria, Uzbekistan among five landlocked neighbours.",
+    "hook": "Doubly landlocked — two borders minimum before you smell salt water."
   },
   {
-    "id": "geo_feat_80",
+    "id": "geo_096",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'European nation divided into 26 cantons'?",
-    "options": [
-      "Switzerland",
-      "Austria",
-      "Germany",
-      "Belgium"
+    "difficulty": "hard",
+    "question": "Which river forms most of the border between the United States and Mexico?",
+    "answer": "The Rio Grande",
+    "distractors": [
+      "The Colorado",
+      "The Pecos",
+      "The Gila"
     ],
-    "answer": 0,
-    "explanation": "In geography, Switzerland is the primary answer associated with What geographical landmark or feature is: 'European nation divided into 26 cantons'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Switzerland** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It runs about 3,000 kilometres from Colorado to the Gulf of Mexico and is called the Río Bravo del Norte on the Mexican side.",
+    "hook": "One river, two names — Grande in the north, Bravo in the south."
   },
   {
-    "id": "geo_feat_81",
+    "id": "geo_097",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Strait separating mainland Australia from Tasmania'?",
-    "options": [
-      "Bass Strait",
-      "Torres Strait",
-      "Cook Strait",
-      "Clarence Strait"
+    "difficulty": "hard",
+    "question": "Which sea has shrunk to a fraction of its former size due to Soviet irrigation projects?",
+    "answer": "The Aral Sea",
+    "distractors": [
+      "The Caspian Sea",
+      "The Dead Sea",
+      "Lake Chad"
     ],
-    "answer": 0,
-    "explanation": "In geography, Bass Strait is the primary answer associated with What geographical landmark or feature is: 'Strait separating mainland Australia from Tasmania'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Bass Strait** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Diverting the Amu Darya and Syr Darya for cotton reduced it by around ninety per cent since 1960, stranding fishing fleets in desert and creating a salt plain called the Aralkum.",
+    "hook": "Ships now sit on sand a hundred kilometres from any water."
   },
   {
-    "id": "geo_feat_82",
+    "id": "geo_098",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Strait separating Australia from Papua New Guinea'?",
-    "options": [
-      "Torres Strait",
-      "Bass Strait",
-      "Arafura Sea",
-      "Coral Sea"
+    "difficulty": "hard",
+    "question": "What is the capital of Kazakhstan?",
+    "answer": "Astana",
+    "distractors": [
+      "Almaty",
+      "Tashkent",
+      "Bishkek"
     ],
-    "answer": 0,
-    "explanation": "In geography, Torres Strait is the primary answer associated with What geographical landmark or feature is: 'Strait separating Australia from Papua New Guinea'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Torres Strait** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The capital moved from Almaty in 1997; the city was renamed Nur-Sultan in 2019 and back to Astana in 2022, making it a favourite of quiz setters.",
+    "hook": "The name changed twice in three years — check the date on the question."
   },
   {
-    "id": "geo_feat_83",
+    "id": "geo_099",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Strait separating North and South Islands of NZ'?",
-    "options": [
-      "Cook Strait",
-      "Foveaux Strait",
-      "Bass Strait",
-      "Dampier Strait"
+    "difficulty": "hard",
+    "question": "Which is the world's largest river by discharge volume?",
+    "answer": "The Amazon",
+    "distractors": [
+      "The Nile",
+      "The Congo",
+      "The Yangtze"
     ],
-    "answer": 0,
-    "explanation": "In geography, Cook Strait is the primary answer associated with What geographical landmark or feature is: 'Strait separating North and South Islands of NZ'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cook Strait** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It discharges about a fifth of all river water reaching the oceans, more than the next seven rivers combined, and freshens the Atlantic for over a hundred kilometres offshore.",
+    "hook": "It pushes fresh water a hundred kilometres out into the Atlantic."
   },
   {
-    "id": "geo_feat_84",
+    "id": "geo_100",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Deepest ocean trench on Earth'?",
-    "options": [
-      "The Mariana Trench",
-      "The Tonga Trench",
-      "Puerto Rico Trench",
-      "Java Trench"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The Mariana Trench is the primary answer associated with Which geographical feature holds the title of 'Deepest ocean trench on Earth'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Mariana Trench** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_85",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Country with the longest coastline in the world'?",
-    "options": [
-      "Canada",
-      "Indonesia",
-      "Norway",
+    "difficulty": "hard",
+    "question": "Which continent has no permanent human population?",
+    "answer": "Antarctica",
+    "distractors": [
+      "South America",
+      "Africa",
       "Australia"
     ],
-    "answer": 0,
-    "explanation": "In geography, Canada is the primary answer associated with What geographical landmark or feature is: 'Country with the longest coastline in the world'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Canada** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Around 1,000 to 5,000 researchers rotate through its stations by season, but nobody is a permanent resident and the Antarctic Treaty bars territorial settlement.",
+    "hook": "The population swings by a factor of five between summer and winter."
   },
   {
-    "id": "geo_feat_86",
+    "id": "geo_101",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Saltiest body of water on Earth'?",
-    "options": [
-      "The Dead Sea",
-      "The Red Sea",
-      "The Caspian Sea",
-      "Mediterranean Sea"
+    "difficulty": "hard",
+    "question": "Which African country was created as a homeland for freed American slaves?",
+    "answer": "Liberia",
+    "distractors": [
+      "Sierra Leone",
+      "Ghana",
+      "Ivory Coast"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Dead Sea is the primary answer associated with What geographical landmark or feature is: 'Saltiest body of water on Earth'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Dead Sea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Founded by the American Colonization Society in 1822 and independent from 1847, its capital Monrovia is named for US president James Monroe and its flag closely resembles the Stars and Stripes.",
+    "hook": "A capital named for a US president and a flag with one star."
   },
   {
-    "id": "geo_feat_87",
+    "id": "geo_102",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's largest hot desert'?",
-    "options": [
-      "The Sahara Desert",
-      "The Gobi Desert",
-      "The Arabian Desert",
-      "The Kalahari Desert"
+    "difficulty": "hard",
+    "question": "What is the lowest point on land not covered by ice?",
+    "answer": "The shore of the Dead Sea",
+    "distractors": [
+      "Death Valley",
+      "The Danakil Depression",
+      "The Turpan Depression"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Sahara Desert is the primary answer associated with What geographical landmark or feature is: 'World's largest hot desert'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Sahara Desert** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It sits about 430 metres below sea level and continues to drop as the sea evaporates; Death Valley is only 86 metres below and Turpan around 154.",
+    "hook": "430 metres below sea level, and getting lower every year."
   },
   {
-    "id": "geo_feat_88",
+    "id": "geo_103",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's largest desert overall'?",
-    "options": [
-      "Antarctica",
-      "The Sahara",
-      "The Arctic",
-      "The Gobi"
+    "difficulty": "hard",
+    "question": "Which country's territory includes the southernmost permanently inhabited town in the world?",
+    "answer": "Chile",
+    "distractors": [
+      "Argentina",
+      "New Zealand",
+      "South Africa"
     ],
-    "answer": 0,
-    "explanation": "In geography, Antarctica is the primary answer associated with What geographical landmark or feature is: 'World's largest desert overall'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Antarctica** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Puerto Williams on Navarino Island sits south of Argentina's Ushuaia, which is more famous and larger but slightly further north.",
+    "hook": "Ushuaia gets the tourists; a Chilean town further south gets the record."
   },
   {
-    "id": "geo_feat_89",
+    "id": "geo_104",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Driest non-polar desert on Earth'?",
-    "options": [
-      "The Atacama Desert",
-      "The Namib Desert",
-      "The Mojave Desert",
-      "Sonoran Desert"
+    "difficulty": "hard",
+    "question": "Which two countries are separated by the Khyber Pass?",
+    "answer": "Afghanistan and Pakistan",
+    "distractors": [
+      "India and Nepal",
+      "Iran and Iraq",
+      "Tajikistan and China"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Atacama Desert is the primary answer associated with What geographical landmark or feature is: 'Driest non-polar desert on Earth'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Atacama Desert** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The pass through the Spin Ghar range has been the main invasion and trade route into the Indian subcontinent for millennia, used by Alexander, the Mughals and the British.",
+    "hook": "Every invader of India for two thousand years used the same mountain gap."
   },
   {
-    "id": "geo_feat_90",
+    "id": "geo_105",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's largest coral reef system'?",
-    "options": [
-      "The Great Barrier Reef",
-      "Ningaloo Reef",
-      "Belize Reef",
-      "Red Sea Reef"
+    "difficulty": "hard",
+    "question": "Which is the largest island in the Indian Ocean?",
+    "answer": "Madagascar",
+    "distractors": [
+      "Sri Lanka",
+      "Sumatra",
+      "Socotra"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Great Barrier Reef is the primary answer associated with What geographical landmark or feature is: 'World's largest coral reef system'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Great Barrier Reef** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It separated from the Indian subcontinent around 88 million years ago, and roughly ninety per cent of its wildlife is found nowhere else; its people have Austronesian as well as African ancestry.",
+    "hook": "Its first settlers sailed from Borneo, not from Africa a few hundred kilometres away."
   },
   {
-    "id": "geo_feat_91",
+    "id": "geo_106",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Capital of Northern Territory Australia'?",
-    "options": [
-      "Darwin",
-      "Alice Springs",
-      "Katherine",
-      "Palmerston"
+    "difficulty": "hard",
+    "question": "Which country has the most UNESCO World Heritage Sites?",
+    "answer": "Italy",
+    "distractors": [
+      "China",
+      "Spain",
+      "France"
     ],
-    "answer": 0,
-    "explanation": "Darwin is the official capital city and seat of government for Northern Territory Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Darwin is the capital city of Northern Territory Australia'.",
-    "difficulty": "Medium"
+    "explanation": "It has held the lead for years with around sixty listings, narrowly ahead of China; Spain, Germany and France follow.",
+    "hook": "Italy and China trade the lead; everyone else is a distant third."
   },
   {
-    "id": "geo_feat_92",
+    "id": "geo_107",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Capital of Tasmania Australia'?",
-    "options": [
-      "Hobart",
-      "Launceston",
-      "Devonport",
-      "Burnie"
+    "difficulty": "hard",
+    "question": "Which capital city sits on the Potomac River?",
+    "answer": "Washington, DC",
+    "distractors": [
+      "Richmond",
+      "Ottawa",
+      "Philadelphia"
     ],
-    "answer": 0,
-    "explanation": "Hobart is the official capital city and seat of government for Tasmania Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Hobart is the capital city of Tasmania Australia'.",
-    "difficulty": "Medium"
+    "explanation": "The district was carved from land ceded by Maryland and Virginia in 1790; the Virginia portion was returned in 1847, which is why the district's diamond shape is incomplete.",
+    "hook": "The original square is missing a corner — Virginia took its land back in 1847."
   },
   {
-    "id": "geo_feat_93",
+    "id": "geo_108",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Capital of Western Australia'?",
-    "options": [
-      "Perth",
-      "Fremantle",
-      "Broome",
-      "Albany"
+    "difficulty": "hard",
+    "question": "Which country contains both the wettest and one of the driest inhabited places on Earth?",
+    "answer": "India",
+    "distractors": [
+      "Chile",
+      "Colombia",
+      "Australia"
     ],
-    "answer": 0,
-    "explanation": "Perth is the official capital city and seat of government for Western Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Perth is the capital city of Western Australia'.",
-    "difficulty": "Medium"
+    "explanation": "Mawsynram and Cherrapunji in Meghalaya record the world's highest rainfall, while parts of Rajasthan's Thar Desert are near-arid; the monsoon explains both.",
+    "hook": "The same monsoon that drowns Meghalaya never reaches the Thar."
   },
   {
-    "id": "geo_feat_94",
+    "id": "geo_109",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Capital of South Australia'?",
-    "options": [
-      "Adelaide",
-      "Mount Gambier",
-      "Whyalla",
-      "Port Augusta"
+    "difficulty": "hard",
+    "question": "Which country's exclusive economic zone is the largest in the world?",
+    "answer": "France",
+    "distractors": [
+      "The United States",
+      "Australia",
+      "Russia"
     ],
-    "answer": 0,
-    "explanation": "Adelaide is the official capital city and seat of government for South Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Adelaide is the capital city of South Australia'.",
-    "difficulty": "Medium"
+    "explanation": "Its scattered overseas territories, especially in the Pacific and Indian Oceans, give it over eleven million square kilometres of maritime zone, narrowly ahead of the United States.",
+    "hook": "France's empire is mostly gone, but the water rights are not."
   },
   {
-    "id": "geo_feat_95",
+    "id": "geo_110",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Capital of Queensland Australia'?",
-    "options": [
-      "Brisbane",
-      "Gold Coast",
-      "Cairns",
-      "Townsville"
+    "difficulty": "hard",
+    "question": "Which mountain's summit is the furthest point from the centre of the Earth?",
+    "answer": "Chimborazo",
+    "distractors": [
+      "Everest",
+      "Mauna Kea",
+      "Aconcagua"
     ],
-    "answer": 0,
-    "explanation": "Brisbane is the official capital city and seat of government for Queensland Australia'.",
-    "tip": "\ud83d\udca1 **National Capital:** Brisbane is the capital city of Queensland Australia'.",
-    "difficulty": "Medium"
+    "explanation": "The Ecuadorian volcano sits near the equatorial bulge, so despite being 6,263 metres above sea level its peak is about two kilometres further from Earth's core than Everest's.",
+    "hook": "The planet bulges at the equator, so the 'highest' peak depends on your definition."
   },
   {
-    "id": "geo_feat_96",
+    "id": "geo_111",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Mountain range along eastern coast of Australia'?",
-    "options": [
-      "The Great Dividing Range",
-      "Flinders Ranges",
-      "MacDonnell Ranges",
-      "Blue Mountains"
+    "difficulty": "hard",
+    "question": "Which two countries have the most neighbours, with fourteen each?",
+    "answer": "China and Russia",
+    "distractors": [
+      "Brazil and India",
+      "Germany and France",
+      "Sudan and Congo"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Great Dividing Range is the primary answer associated with What geographical landmark or feature is: 'Mountain range along eastern coast of Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Great Dividing Range** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Both border fourteen countries; Brazil is next with ten, sharing a frontier with every South American state except Chile and Ecuador.",
+    "hook": "Fourteen each for the two giants, and Brazil touches all but two of its continent."
   },
   {
-    "id": "geo_feat_97",
+    "id": "geo_112",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest peak in Victoria Australia'?",
-    "options": [
-      "Mount Bogong",
-      "Mount Feathertop",
-      "Mount Buller",
-      "Mount Hotham"
+    "difficulty": "hard",
+    "question": "Which strait separates the North and South Islands of New Zealand?",
+    "answer": "Cook Strait",
+    "distractors": [
+      "Foveaux Strait",
+      "Bass Strait",
+      "Torres Strait"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Bogong is the primary answer associated with Which geographical feature holds the title of 'Highest peak in Victoria Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Bogong** for this question.",
-    "difficulty": "Medium"
+    "explanation": "About twenty-two kilometres at its narrowest, it is regarded as one of the roughest stretches of water in the world; Foveaux Strait separates the South Island from Stewart Island.",
+    "hook": "Cook between the two main islands, Foveaux for the third one below."
   },
   {
-    "id": "geo_feat_98",
+    "id": "geo_113",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest peak in Queensland Australia'?",
-    "options": [
-      "Mount Bartle Frere",
-      "Mount Superbus",
-      "Glass House Mts",
-      "Mount Bellenden Ker"
+    "difficulty": "hard",
+    "question": "Which country has the world's highest proportion of its land as national park?",
+    "answer": "Venezuela",
+    "distractors": [
+      "Costa Rica",
+      "Bhutan",
+      "New Zealand"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Bartle Frere is the primary answer associated with Which geographical feature holds the title of 'Highest peak in Queensland Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Bartle Frere** for this question.",
-    "difficulty": "Medium"
+    "explanation": "More than half its territory is under some form of protection, including Canaima National Park, which contains Angel Falls and is larger than Belgium.",
+    "hook": "One of its national parks alone is bigger than Belgium."
   },
   {
-    "id": "geo_feat_99",
+    "id": "geo_114",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest peak in Tasmania Australia'?",
-    "options": [
-      "Mount Ossa",
-      "Legges Tor",
-      "Barn Bluff",
-      "Cradle Mountain"
+    "difficulty": "hard",
+    "question": "Which African lake has shrunk by roughly ninety per cent since the 1960s?",
+    "answer": "Lake Chad",
+    "distractors": [
+      "Lake Victoria",
+      "Lake Turkana",
+      "Lake Malawi"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Ossa is the primary answer associated with Which geographical feature holds the title of 'Highest peak in Tasmania Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Ossa** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Shared by Chad, Cameroon, Niger and Nigeria, it has contracted through drought and irrigation, contributing directly to regional conflict and displacement.",
+    "hook": "Four countries share a lake that is now a tenth of the size their grandparents knew."
   },
   {
-    "id": "geo_feat_100",
+    "id": "geo_115",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest peak in Western Australia'?",
-    "options": [
-      "Mount Meharry",
-      "Mount Bruce",
-      "Bluff Knoll",
-      "Mount Nameless"
+    "difficulty": "hard",
+    "question": "Which city is the capital of both a country and a separate autonomous region?",
+    "answer": "Rome",
+    "distractors": [
+      "Brussels",
+      "Madrid",
+      "Copenhagen"
     ],
-    "answer": 0,
-    "explanation": "In geography, Mount Meharry is the primary answer associated with Which geographical feature holds the title of 'Highest peak in Western Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Meharry** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It is the capital of Italy and of the Lazio region, and also contains Vatican City, a separate sovereign state — three seats of government within one urban area.",
+    "hook": "A country, a region and an independent state all headquartered in the same city."
   },
   {
-    "id": "geo_feat_101",
+    "id": "geo_116",
     "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest peak in South Australia'?",
-    "options": [
-      "St Mary Peak",
-      "Mount St Mary",
-      "Mount Remarkable",
-      "Mount Lofty"
+    "difficulty": "hard",
+    "question": "Which desert runs along the Atlantic coast of Namibia?",
+    "answer": "The Namib",
+    "distractors": [
+      "The Kalahari",
+      "The Karoo",
+      "The Danakil"
     ],
-    "answer": 0,
-    "explanation": "In geography, St Mary Peak is the primary answer associated with Which geographical feature holds the title of 'Highest peak in South Australia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **St Mary Peak** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Thought to be the oldest desert on Earth at some 55 million years, its coastal fog sustains beetles that harvest water from the air, and its Sossusvlei dunes are among the world's tallest.",
+    "hook": "Beetles there drink fog because rain almost never comes."
   },
   {
-    "id": "geo_feat_102",
+    "id": "geo_117",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Country bordering only the UK'?",
-    "options": [
-      "Republic of Ireland",
-      "Portugal",
-      "Monaco",
-      "San Marino"
+    "difficulty": "hard",
+    "question": "Which country was the last to be admitted to the United Nations?",
+    "answer": "South Sudan",
+    "distractors": [
+      "Montenegro",
+      "East Timor",
+      "Switzerland"
     ],
-    "answer": 0,
-    "explanation": "In geography, Republic of Ireland is the primary answer associated with What geographical landmark or feature is: 'Country bordering only the UK'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Republic of Ireland** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It joined in July 2011 as the 193rd member days after independence; Switzerland only joined in 2002 after a referendum, despite hosting UN offices for decades.",
+    "hook": "Switzerland hosted the UN for fifty years before joining it."
   },
   {
-    "id": "geo_feat_103",
+    "id": "geo_118",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Country bordering only Spain'?",
-    "options": [
-      "Portugal",
-      "Andorra",
-      "Monaco",
-      "Gibraltar"
+    "difficulty": "hard",
+    "question": "Which peninsula contains Spain and Portugal?",
+    "answer": "The Iberian Peninsula",
+    "distractors": [
+      "The Balkan Peninsula",
+      "The Apennine Peninsula",
+      "The Jutland Peninsula"
     ],
-    "answer": 0,
-    "explanation": "In geography, Portugal is the primary answer associated with What geographical landmark or feature is: 'Country bordering only Spain'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Portugal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It also includes Andorra, Gibraltar and a sliver of southern France, and is separated from the rest of Europe by the Pyrenees.",
+    "hook": "The Pyrenees make it almost an island — hence the old line that Europe ends there."
   },
   {
-    "id": "geo_feat_104",
+    "id": "geo_119",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Microstate enclosed inside Rome Italy'?",
-    "options": [
-      "Vatican City",
-      "San Marino",
-      "Monaco",
-      "Liechtenstein"
+    "difficulty": "hard",
+    "question": "What is the name of the deepest known point in any ocean?",
+    "answer": "Challenger Deep",
+    "distractors": [
+      "Sirena Deep",
+      "Horizon Deep",
+      "Milwaukee Deep"
     ],
-    "answer": 0,
-    "explanation": "In geography, Vatican City is the primary answer associated with What geographical landmark or feature is: 'Microstate enclosed inside Rome Italy'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Vatican City** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It lies in the Mariana Trench at about 10,935 metres; Everest could be dropped in with more than two kilometres of water to spare above it.",
+    "hook": "Everest would sink into it with two kilometres of water left over."
   },
   {
-    "id": "geo_feat_105",
+    "id": "geo_120",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Microstate enclosed inside northeastern Italy'?",
-    "options": [
-      "San Marino",
-      "Vatican City",
-      "Monaco",
-      "Andorra"
+    "difficulty": "hard",
+    "question": "Which European capital is furthest north?",
+    "answer": "Reykjavik",
+    "distractors": [
+      "Helsinki",
+      "Oslo",
+      "Stockholm"
     ],
-    "answer": 0,
-    "explanation": "In geography, San Marino is the primary answer associated with What geographical landmark or feature is: 'Microstate enclosed inside northeastern Italy'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **San Marino** for this question.",
-    "difficulty": "Medium"
+    "explanation": "At about 64 degrees north it sits just south of the Arctic Circle, and its name means 'smoky bay' after the steam from local hot springs.",
+    "hook": "'Smoky bay' — named for geothermal steam mistaken for smoke."
   },
   {
-    "id": "geo_feat_106",
+    "id": "geo_121",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Enclaved kingdom enclosed inside South Africa'?",
-    "options": [
-      "Lesotho",
-      "Eswatini",
-      "Botswana",
-      "Namibia"
+    "difficulty": "hard",
+    "question": "Which river runs through more countries than any other?",
+    "answer": "The Danube",
+    "distractors": [
+      "The Nile",
+      "The Rhine",
+      "The Mekong"
     ],
-    "answer": 0,
-    "explanation": "In geography, Lesotho is the primary answer associated with What geographical landmark or feature is: 'Enclaved kingdom enclosed inside South Africa'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lesotho** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It flows through or borders ten countries from Germany's Black Forest to the Black Sea, passing four capitals: Vienna, Bratislava, Budapest and Belgrade.",
+    "hook": "Four capitals on one river — Vienna, Bratislava, Budapest, Belgrade."
   },
   {
-    "id": "geo_feat_107",
+    "id": "geo_122",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Boundary mountain range between Europe and Asia'?",
-    "options": [
-      "The Ural Mountains",
-      "The Caucasus",
-      "The Alps",
-      "The Carpathians"
+    "difficulty": "hard",
+    "question": "Which country has the largest area of tropical rainforest after Brazil?",
+    "answer": "The Democratic Republic of the Congo",
+    "distractors": [
+      "The Republic of Indonesia",
+      "The Republic of Peru",
+      "Papua New Guinea"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Ural Mountains is the primary answer associated with What geographical landmark or feature is: 'Boundary mountain range between Europe and Asia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Ural Mountains** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The Congo Basin is the world's second-largest contiguous rainforest and, unlike the Amazon, is still considered a net carbon sink.",
+    "hook": "The Congo Basin still absorbs more carbon than it releases — the Amazon no longer reliably does."
   },
   {
-    "id": "geo_feat_108",
+    "id": "geo_123",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Canal connecting Mediterranean and Red Sea'?",
-    "options": [
-      "The Suez Canal",
-      "The Panama Canal",
-      "Erie Canal",
-      "Kiel Canal"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The Suez Canal is the primary answer associated with What geographical landmark or feature is: 'Canal connecting Mediterranean and Red Sea'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Suez Canal** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_109",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Canal connecting Atlantic and Pacific Oceans'?",
-    "options": [
-      "The Panama Canal",
-      "The Suez Canal",
-      "Corinth Canal",
-      "Kiel Canal"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The Panama Canal is the primary answer associated with What geographical landmark or feature is: 'Canal connecting Atlantic and Pacific Oceans'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Panama Canal** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_110",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Australia's largest lake by surface area'?",
-    "options": [
-      "Lake Eyre (Kati Thanda)",
+    "difficulty": "hard",
+    "question": "Which Australian lake is the country's lowest point and rarely fills?",
+    "answer": "Lake Eyre",
+    "distractors": [
       "Lake Torrens",
       "Lake Gairdner",
-      "Lake Argyle"
+      "Lake Frome"
     ],
-    "answer": 0,
-    "explanation": "In geography, Lake Eyre (Kati Thanda) is the primary answer associated with What geographical landmark or feature is: 'Australia's largest lake by surface area'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lake Eyre (Kati Thanda)** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Kati Thanda-Lake Eyre sits about fifteen metres below sea level and has filled completely only a handful of times since 1900, drawing pelicans from thousands of kilometres away when it does.",
+    "hook": "When it fills, pelicans arrive from the coast within days — nobody is quite sure how they know."
   },
   {
-    "id": "geo_feat_111",
+    "id": "geo_124",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's largest freshwater lake by surface area'?",
-    "options": [
-      "Lake Superior",
-      "Lake Baikal",
-      "Lake Victoria",
-      "Lake Michigan"
+    "difficulty": "hard",
+    "question": "Which two countries claim the largest overlapping sectors of Antarctica?",
+    "answer": "Australia and Norway",
+    "distractors": [
+      "Britain and Argentina",
+      "Chile and New Zealand",
+      "France and Russia"
     ],
-    "answer": 0,
-    "explanation": "In geography, Lake Superior is the primary answer associated with What geographical landmark or feature is: 'World's largest freshwater lake by surface area'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lake Superior** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Australia claims about forty-two per cent of the continent and Norway a further large wedge; the Antarctic Treaty of 1959 freezes all such claims without extinguishing them.",
+    "hook": "Australia claims almost half of Antarctica, and the treaty simply parked the argument."
   },
   {
-    "id": "geo_feat_112",
+    "id": "geo_125",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's deepest freshwater lake'?",
-    "options": [
-      "Lake Baikal",
-      "Lake Superior",
-      "Lake Tanganyika",
-      "Crater Lake"
+    "difficulty": "hard",
+    "question": "Which city was known as Constantinople before 1930?",
+    "answer": "Istanbul",
+    "distractors": [
+      "Ankara",
+      "Athens",
+      "Thessaloniki"
     ],
-    "answer": 0,
-    "explanation": "In geography, Lake Baikal is the primary answer associated with What geographical landmark or feature is: 'World's deepest freshwater lake'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Lake Baikal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Founded as Byzantium, renamed for Constantine in 330 CE, it was the Ottoman capital from 1453 and formally became Istanbul by Turkish postal law in 1930.",
+    "hook": "Byzantium, then Constantinople, then Istanbul — three names, one city, sixteen centuries."
   },
   {
-    "id": "geo_feat_113",
+    "id": "geo_126",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'World's largest inland sea / saline lake'?",
-    "options": [
-      "The Caspian Sea",
-      "The Aral Sea",
-      "The Black Sea",
-      "The Baltic Sea"
+    "difficulty": "hard",
+    "question": "Which country's mainland is closest to Antarctica?",
+    "answer": "Chile",
+    "distractors": [
+      "Argentina",
+      "New Zealand",
+      "South Africa"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Caspian Sea is the primary answer associated with What geographical landmark or feature is: 'World's largest inland sea / saline lake'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Caspian Sea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Cape Froward in Chile and the tip of the Antarctic Peninsula are separated by about 1,000 kilometres of Drake Passage, the roughest sea crossing regularly attempted by ships.",
+    "hook": "The Drake Passage is the shortest way south and the worst water on Earth."
   },
   {
-    "id": "geo_feat_114",
+    "id": "geo_127",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Active volcano that destroyed Pompeii in 79 AD'?",
-    "options": [
-      "Mount Vesuvius",
-      "Mount Etna",
-      "Stromboli",
-      "Santorini"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Mount Vesuvius is the primary answer associated with What geographical landmark or feature is: 'Active volcano that destroyed Pompeii in 79 AD'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Vesuvius** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_115",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Active volcano on island of Sicily'?",
-    "options": [
-      "Mount Etna",
-      "Mount Vesuvius",
-      "Stromboli",
-      "Vulcano"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Mount Etna is the primary answer associated with What geographical landmark or feature is: 'Active volcano on island of Sicily'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Etna** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_116",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain in Japan'?",
-    "options": [
-      "Mount Fuji",
-      "Mount Aso",
-      "Mount Unzen",
-      "Mount Sakurajima"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Mount Fuji is the primary answer associated with Which geographical feature holds the title of 'Highest mountain in Japan'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Fuji** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_117",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Indonesian volcano that erupted cataclysmically in 1883'?",
-    "options": [
-      "Krakatoa",
-      "Tambora",
-      "Merapi",
-      "Pinatubo"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Krakatoa is the primary answer associated with What geographical landmark or feature is: 'Indonesian volcano that erupted cataclysmically in 1883'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Krakatoa** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_118",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Indonesian volcano whose 1815 eruption caused Year Without a Summer'?",
-    "options": [
-      "Mount Tambora",
-      "Krakatoa",
-      "Mount Merapi",
-      "Mount Toba"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Mount Tambora is the primary answer associated with What geographical landmark or feature is: 'Indonesian volcano whose 1815 eruption caused Year Without a Summer'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mount Tambora** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_119",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Sea located between Australia and New Zealand'?",
-    "options": [
-      "The Tasman Sea",
+    "difficulty": "hard",
+    "question": "Which sea is bordered by no land at all?",
+    "answer": "The Sargasso Sea",
+    "distractors": [
       "The Coral Sea",
-      "The Timor Sea",
-      "The Arafura Sea"
+      "The Labrador Sea",
+      "The Weddell Sea"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Tasman Sea is the primary answer associated with What geographical landmark or feature is: 'Sea located between Australia and New Zealand'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Tasman Sea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It is defined by four ocean currents in the North Atlantic rather than coastlines, and its floating sargassum weed is the breeding ground for European and American eels.",
+    "hook": "The only sea with currents for borders instead of coasts."
   },
   {
-    "id": "geo_feat_120",
+    "id": "geo_128",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Sea off Queensland coast containing Great Barrier Reef'?",
-    "options": [
-      "The Coral Sea",
-      "The Tasman Sea",
-      "The Timor Sea",
-      "Solomon Sea"
+    "difficulty": "hard",
+    "question": "Which Australian town is the country's most remote large settlement, served by the Ghan railway?",
+    "answer": "Alice Springs",
+    "distractors": [
+      "Coober Pedy",
+      "Broken Hill",
+      "Mount Isa"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Coral Sea is the primary answer associated with What geographical landmark or feature is: 'Sea off Queensland coast containing Great Barrier Reef'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Coral Sea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It sits almost exactly in the continent's centre, roughly 1,500 kilometres from the nearest coastal city, and the Ghan takes its name from Afghan cameleers who worked the route.",
+    "hook": "The Ghan is short for Afghan — named for the cameleers who opened the interior."
   },
   {
-    "id": "geo_feat_121",
+    "id": "geo_129",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Sea located between Northern Territory and Indonesia'?",
-    "options": [
-      "The Arafura Sea",
-      "The Coral Sea",
-      "The Tasman Sea",
-      "Bismarck Sea"
+    "difficulty": "hard",
+    "question": "Which country's capital city is closest to the equator?",
+    "answer": "Ecuador",
+    "distractors": [
+      "Kenya",
+      "Indonesia",
+      "Colombia"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Arafura Sea is the primary answer associated with What geographical landmark or feature is: 'Sea located between Northern Territory and Indonesia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Arafura Sea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Quito lies about twenty-five kilometres south of the line, and the country takes its Spanish name directly from the equator itself.",
+    "hook": "The country is literally named 'equator' in Spanish."
   },
   {
-    "id": "geo_feat_122",
+    "id": "geo_130",
     "category": "geography",
-    "question": "What geographical landmark or feature is: 'Sea located between NW Australia and Timor'?",
-    "options": [
-      "The Timor Sea",
-      "The Arafura Sea",
-      "The Coral Sea",
-      "Banda Sea"
+    "difficulty": "hard",
+    "question": "Which mountain range forms the border between France and Spain?",
+    "answer": "The Pyrenees",
+    "distractors": [
+      "The Alps",
+      "The Apennines",
+      "The Cantabrians"
     ],
-    "answer": 0,
-    "explanation": "In geography, The Timor Sea is the primary answer associated with What geographical landmark or feature is: 'Sea located between NW Australia and Timor'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Timor Sea** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_123",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain in the British Isles'?",
-    "options": [
-      "Ben Nevis",
-      "Snowdon",
-      "Scafell Pike",
-      "Slieve Donard"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Ben Nevis is the primary answer associated with Which geographical feature holds the title of 'Highest mountain in the British Isles'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ben Nevis** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_124",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Highest mountain in New Zealand'?",
-    "options": [
-      "Aoraki / Mount Cook",
-      "Mount Aspiring",
-      "Mount Ruapehu",
-      "Mount Tasman"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Aoraki / Mount Cook is the primary answer associated with Which geographical feature holds the title of 'Highest mountain in New Zealand'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Aoraki / Mount Cook** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_125",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Longest river in the United Kingdom'?",
-    "options": [
-      "The River Severn",
-      "The River Thames",
-      "The River Trent",
-      "The River Clyde"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The River Severn is the primary answer associated with Which geographical feature holds the title of 'Longest river in the United Kingdom'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The River Severn** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_126",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Longest river in Germany'?",
-    "options": [
-      "The Rhine River",
-      "The Danube River",
-      "The Elbe River",
-      "The Main River"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The Rhine River is the primary answer associated with Which geographical feature holds the title of 'Longest river in Germany'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Rhine River** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_127",
-    "category": "geography",
-    "question": "Which geographical feature holds the title of 'Largest island in the Caribbean'?",
-    "options": [
-      "Cuba",
-      "Hispaniola",
-      "Jamaica",
-      "Puerto Rico"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Cuba is the primary answer associated with Which geographical feature holds the title of 'Largest island in the Caribbean'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cuba** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_128",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Second largest island in the Caribbean'?",
-    "options": [
-      "Hispaniola",
-      "Cuba",
-      "Jamaica",
-      "Puerto Rico"
-    ],
-    "answer": 0,
-    "explanation": "In geography, Hispaniola is the primary answer associated with What geographical landmark or feature is: 'Second largest island in the Caribbean'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Hispaniola** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_129",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Sea bounded by Europe, Asia, and Africa'?",
-    "options": [
-      "The Mediterranean Sea",
-      "The Black Sea",
-      "The Red Sea",
-      "The Baltic Sea"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The Mediterranean Sea is the primary answer associated with What geographical landmark or feature is: 'Sea bounded by Europe, Asia, and Africa'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Mediterranean Sea** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "geo_feat_130",
-    "category": "geography",
-    "question": "What geographical landmark or feature is: 'Sea between Great Britain and Scandinavia'?",
-    "options": [
-      "The North Sea",
-      "The Baltic Sea",
-      "The Norwegian Sea",
-      "The Irish Sea"
-    ],
-    "answer": 0,
-    "explanation": "In geography, The North Sea is the primary answer associated with What geographical landmark or feature is: 'Sea between Great Britain and Scandinavia'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The North Sea** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The range runs about 490 kilometres from the Atlantic to the Mediterranean, and the microstate of Andorra sits within it, jointly headed by a French president and a Spanish bishop.",
+    "hook": "Andorra's two heads of state are a French president and a Catalan bishop."
   }
 ]

@@ -1451,3 +1451,195 @@ body {
 }
 
 
+
+/* ============================================================
+   Quiz setup bar, added with the v4 engine rewrite
+   ============================================================ */
+
+.quiz-setup {
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.setup-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.setup-label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+}
+
+.setup-summary {
+  font-size: 1rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.setup-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.setup-panel {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+  display: grid;
+  gap: 1.1rem;
+}
+
+.setup-group-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.setup-note {
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.chip-row {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.chip-row.wrap {
+  flex-wrap: wrap;
+  overflow-x: visible;
+}
+
+.setup-warning {
+  color: var(--accent-gold);
+  font-size: 0.85rem;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 8px;
+  padding: 0.6rem 0.85rem;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+}
+
+.btn-ghost:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+/* Eliminated by fifty-fifty: visibly gone, but the layout must not shift. */
+.option-btn.eliminated {
+  opacity: 0.18;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+.quiz-intro {
+  margin-bottom: 1.25rem;
+}
+
+.quiz-intro h2 {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+}
+
+.quiz-intro p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.tab-count {
+  margin-left: 0.4rem;
+  background: var(--accent-rose);
+  color: white;
+  border-radius: 999px;
+  padding: 0 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.actions-bar.centered {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.vault-header-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.recommendation-banner.subtle {
+  background: rgba(148, 163, 184, 0.08);
+  border-color: var(--border-color);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.app-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  max-width: 70ch;
+}
+
+/* Hint button doubles as the fifty-fifty control now. */
+.hint-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* ---- Mobile: this needs to work on a phone at the breakfast table ---- */
+@media (max-width: 720px) {
+  .app-layout { padding: 1rem 0.85rem; }
+  .header-top { gap: 0.85rem; }
+  .brand-title h1 { font-size: 1.35rem; }
+  .header-stats { width: 100%; }
+  .nav-tabs { overflow-x: auto; }
+  .options-grid { grid-template-columns: 1fr; }
+  .setup-summary-row { align-items: flex-start; flex-direction: column; }
+  .setup-actions { width: 100%; }
+  .setup-actions .btn { flex: 1; justify-content: center; }
+  .quiz-top-bar { flex-direction: column; align-items: stretch; gap: 0.75rem; }
+  .mode-toggle { justify-content: space-between; }
+  .vault-split-layout { grid-template-columns: 1fr; }
+  .score-summary-grid { grid-template-columns: repeat(2, 1fr); }
+  .compact-row-main { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .compact-right { width: 100%; justify-content: flex-start; flex-wrap: wrap; }
+  .question-text { font-size: 1.15rem; }
+}

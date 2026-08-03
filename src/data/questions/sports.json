@@ -1,1622 +1,1822 @@
 [
   {
-    "id": "spt_fact_1",
+    "id": "spt_001",
     "category": "sports",
-    "question": "What was Sir Donald Bradman's final, legendary Test cricket batting average?",
-    "options": [
-      "99.94",
-      "100.00",
-      "95.50",
-      "98.75"
+    "difficulty": "easy",
+    "question": "Which trophy do Australia and England contest in Test cricket?",
+    "answer": "The Ashes",
+    "distractors": [
+      "The Wisden Trophy",
+      "The Frank Worrell Trophy",
+      "The Border-Gavaskar Trophy"
     ],
-    "answer": 0,
-    "explanation": "In sports, 99.94 is the primary answer associated with What was Sir Donald Bradman's final, legendary Test cricket batting average.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **99.94** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The urn dates from an 1882 mock obituary in the Sporting Times after Australia's first win on English soil, declaring English cricket dead and its ashes taken to Australia.",
+    "hook": "It began as a newspaper joke obituary for English cricket."
   },
   {
-    "id": "spt_fact_2",
+    "id": "spt_002",
     "category": "sports",
-    "question": "Which VFL/AFL club won four consecutive premierships between 1927 and 1930?",
-    "options": [
-      "Collingwood",
-      "Melbourne",
-      "Hawthorn",
-      "Carlton"
+    "difficulty": "easy",
+    "question": "Which race is described as the one that stops a nation?",
+    "answer": "The Melbourne Cup",
+    "distractors": [
+      "The Cox Plate",
+      "The Golden Slipper",
+      "The Caulfield Cup"
     ],
-    "answer": 0,
-    "explanation": "In sports, Collingwood is the primary answer associated with Which VFL/AFL club won four consecutive premierships between 1927 and 1930.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Collingwood** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Run over 3,200 metres at Flemington on the first Tuesday in November, it is a public holiday in metropolitan Melbourne and has been run since 1861.",
+    "hook": "The only horse race anywhere that comes with its own public holiday."
   },
   {
-    "id": "spt_fact_3",
+    "id": "spt_003",
     "category": "sports",
-    "question": "Which AFL club achieved a premiership three-peat between 2001 and 2003 under Leigh Matthews?",
-    "options": [
-      "Brisbane Lions",
-      "Hawthorn",
-      "Geelong",
-      "Richmond"
+    "difficulty": "easy",
+    "question": "How many players are on the field per team in a game of Australian rules football?",
+    "answer": "Eighteen",
+    "distractors": [
+      "Fifteen",
+      "Thirteen",
+      "Eleven"
     ],
-    "answer": 0,
-    "explanation": "In sports, Brisbane Lions is the primary answer associated with Which AFL club achieved a premiership three-peat between 2001 and 2003 under Leigh Matthews.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Brisbane Lions** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Rugby union has fifteen, rugby league thirteen and soccer eleven; the eighteen-a-side oval game is played on the largest field of any football code.",
+    "hook": "Eighteen for Aussie rules, fifteen union, thirteen league, eleven soccer."
   },
   {
-    "id": "spt_fact_4",
+    "id": "spt_004",
     "category": "sports",
-    "question": "Which AFL club achieved a premiership three-peat between 2013 and 2015 under Alastair Clarkson?",
-    "options": [
-      "Hawthorn",
-      "Geelong",
-      "Richmond",
-      "Sydney Swans"
+    "difficulty": "easy",
+    "question": "Which Australian won seven medals at the Tokyo Olympics, a national record?",
+    "answer": "Emma McKeon",
+    "distractors": [
+      "Ariarne Titmus",
+      "Kaylee McKeown",
+      "Cate Campbell"
     ],
-    "answer": 0,
-    "explanation": "In sports, Hawthorn is the primary answer associated with Which AFL club achieved a premiership three-peat between 2013 and 2015 under Alastair Clarkson.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Hawthorn** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Four of the seven were gold, the most by any Australian at a single Games; Ian Thorpe's five career golds came across Sydney and Athens.",
+    "hook": "Seven medals at one Games — no Australian has ever managed more."
   },
   {
-    "id": "spt_fact_5",
+    "id": "spt_005",
     "category": "sports",
-    "question": "Which VFL club achieved a premiership three-peat between 1955 and 1957 under Norm Smith?",
-    "options": [
-      "Melbourne",
-      "Collingwood",
-      "Essendon",
-      "Richmond"
+    "difficulty": "easy",
+    "question": "How often are the Summer Olympic Games held?",
+    "answer": "Every four years",
+    "distractors": [
+      "Every two years",
+      "Every three years",
+      "Every five years"
     ],
-    "answer": 0,
-    "explanation": "In sports, Melbourne is the primary answer associated with Which VFL club achieved a premiership three-peat between 1955 and 1957 under Norm Smith.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Melbourne** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The four-year gap is called an Olympiad; the 2020 Tokyo Games were postponed to 2021 by the pandemic but kept their original name.",
+    "hook": "Tokyo 2020 was held in 2021 and still called 2020."
   },
   {
-    "id": "spt_fact_6",
+    "id": "spt_006",
     "category": "sports",
-    "question": "Which London grass court tennis tournament is the oldest Grand Slam in the world?",
-    "options": [
-      "Wimbledon",
-      "French Open",
-      "US Open",
-      "Australian Open"
+    "difficulty": "easy",
+    "question": "Which country has won the most FIFA World Cups?",
+    "answer": "Brazil",
+    "distractors": [
+      "Germany",
+      "Italy",
+      "Argentina"
     ],
-    "answer": 0,
-    "explanation": "In sports, Wimbledon is the primary answer associated with Which London grass court tennis tournament is the oldest Grand Slam in the world.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Wimbledon** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Brazil has five titles, Germany and Italy four each, and Brazil is the only nation to have played in every tournament since 1930.",
+    "hook": "Five titles, and the only country never to miss a World Cup."
   },
   {
-    "id": "spt_fact_7",
+    "id": "spt_007",
     "category": "sports",
-    "question": "Which Paris red clay court tennis tournament is named after a French aviator?",
-    "options": [
-      "The French Open (Roland-Garros)",
-      "Wimbledon",
-      "US Open",
-      "Australian Open"
+    "difficulty": "easy",
+    "question": "In tennis, what term describes a score of zero?",
+    "answer": "Love",
+    "distractors": [
+      "Nil",
+      "Duck",
+      "Blank"
     ],
-    "answer": 0,
-    "explanation": "In sports, The French Open (Roland-Garros) is the primary answer associated with Which Paris red clay court tennis tournament is named after a French aviator.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The French Open (Roland-Garros)** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It probably comes from the French l'oeuf, the egg, for the zero's shape; 'duck' is the cricket equivalent, from duck's egg.",
+    "hook": "Tennis has an egg, cricket has a duck — both shapes of zero."
   },
   {
-    "id": "spt_fact_8",
+    "id": "spt_008",
     "category": "sports",
-    "question": "Which Melbourne Park hard court tennis tournament is the first Grand Slam of the calendar year?",
-    "options": [
-      "Australian Open",
-      "Wimbledon",
-      "French Open",
-      "US Open"
+    "difficulty": "easy",
+    "question": "Which Australian tennis tournament is one of the four grand slams?",
+    "answer": "The Australian Open",
+    "distractors": [
+      "The Sydney International",
+      "The Brisbane International",
+      "The Hopman Cup"
     ],
-    "answer": 0,
-    "explanation": "In sports, Australian Open is the primary answer associated with Which Melbourne Park hard court tennis tournament is the first Grand Slam of the calendar year.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Australian Open** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Held in Melbourne each January, it joins Roland Garros, Wimbledon and the US Open; it moved to Melbourne Park with a retractable roof in 1988.",
+    "hook": "Australian Open, French Open, Wimbledon, US Open — January to September."
   },
   {
-    "id": "spt_fact_9",
+    "id": "spt_009",
     "category": "sports",
-    "question": "Which New York hard court tennis tournament is played at Flushing Meadows?",
-    "options": [
-      "US Open",
-      "Wimbledon",
-      "French Open",
-      "Australian Open"
+    "difficulty": "easy",
+    "question": "How many holes are played in a standard round of golf?",
+    "answer": "Eighteen",
+    "distractors": [
+      "Nine",
+      "Twelve",
+      "Twenty-four"
     ],
-    "answer": 0,
-    "explanation": "In sports, US Open is the primary answer associated with Which New York hard court tennis tournament is played at Flushing Meadows.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **US Open** for this question.",
-    "difficulty": "Medium"
+    "explanation": "St Andrews settled on eighteen in 1764 by combining short holes, and the rest of the golfing world followed the Old Course's lead.",
+    "hook": "St Andrews merged some holes in 1764 and everyone else copied the number."
   },
   {
-    "id": "spt_fact_10",
+    "id": "spt_010",
     "category": "sports",
-    "question": "In what year were the Summer Olympic Games hosted in Sydney, Australia?",
-    "options": [
-      "2000",
-      "1996",
-      "1956",
-      "2004"
+    "difficulty": "easy",
+    "question": "Which sport uses terms including 'scrum', 'ruck' and 'lineout'?",
+    "answer": "Rugby union",
+    "distractors": [
+      "Rugby league",
+      "Australian rules football",
+      "Gaelic football"
     ],
-    "answer": 0,
-    "explanation": "In sports, 2000 is the primary answer associated with In what year were the Summer Olympic Games hosted in Sydney, Australia.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **2000** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Rugby league abolished the lineout and heavily simplified the scrum, which is one of the clearest ways to tell the codes apart on television.",
+    "hook": "No lineout means you are watching league, not union."
   },
   {
-    "id": "spt_fact_11",
+    "id": "spt_011",
     "category": "sports",
-    "question": "In what year were the Summer Olympic Games hosted in Melbourne, Australia?",
-    "options": [
-      "1956",
-      "1960",
-      "1948",
-      "1964"
+    "difficulty": "easy",
+    "question": "Which Australian cricketer is regarded as the greatest batsman of all time?",
+    "answer": "Donald Bradman",
+    "distractors": [
+      "Ricky Ponting",
+      "Steve Smith",
+      "Greg Chappell"
     ],
-    "answer": 0,
-    "explanation": "In sports, 1956 is the primary answer associated with In what year were the Summer Olympic Games hosted in Melbourne, Australia.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **1956** for this question.",
-    "difficulty": "Medium"
+    "explanation": "His Test average of 99.94 stands far above anyone else's; he needed four runs in his final innings to average 100 and was dismissed for a duck.",
+    "hook": "Four runs short of a hundred average, out second ball, in his last innings."
   },
   {
-    "id": "spt_fact_12",
+    "id": "spt_012",
     "category": "sports",
-    "question": "Which Serbian tennis legend holds the record for most men's Grand Slam singles titles?",
-    "options": [
-      "Novak Djokovic",
-      "Rafael Nadal",
-      "Roger Federer",
-      "Pete Sampras"
+    "difficulty": "easy",
+    "question": "Which sport is played at Wimbledon?",
+    "answer": "Tennis",
+    "distractors": [
+      "Cricket",
+      "Badminton",
+      "Squash"
     ],
-    "answer": 0,
-    "explanation": "In sports, Novak Djokovic is the primary answer associated with Which Serbian tennis legend holds the record for most men's Grand Slam singles titles.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Novak Djokovic** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The only grand slam still played on grass, it has been contested since 1877 and enforces an all-white clothing rule for players.",
+    "hook": "The last grass slam, and the only one with a dress code."
   },
   {
-    "id": "spt_fact_13",
+    "id": "spt_013",
     "category": "sports",
-    "question": "Which Australian tennis legend holds the all-time record for most women's Grand Slam singles titles (24)?",
-    "options": [
-      "Margaret Court",
-      "Serena Williams",
-      "Steffi Graf",
-      "Martina Navratilova"
+    "difficulty": "easy",
+    "question": "How many points is a try worth in rugby union?",
+    "answer": "Five",
+    "distractors": [
+      "Four",
+      "Six",
+      "Three"
     ],
-    "answer": 0,
-    "explanation": "In sports, Margaret Court is the primary answer associated with Which Australian tennis legend holds the all-time record for most women's Grand Slam singles titles (24).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Margaret Court** for this question.",
-    "difficulty": "Medium"
+    "explanation": "A conversion adds two, a penalty or drop goal three; rugby league scores four for a try and two for the conversion.",
+    "hook": "Union five, league four — the try is worth more in union."
   },
   {
-    "id": "spt_fact_14",
+    "id": "spt_014",
     "category": "sports",
-    "question": "Which Australian swimmer won 5 Olympic Gold medals, nicknamed 'The Thorpedo'?",
-    "options": [
-      "Ian Thorpe",
-      "Grant Hackett",
-      "Kieren Perkins",
-      "Kyle Chalmers"
+    "difficulty": "easy",
+    "question": "Which Australian sporting event is contested annually between NSW and Queensland?",
+    "answer": "State of Origin",
+    "distractors": [
+      "The Sheffield Shield",
+      "The Grand Final",
+      "The Bledisloe Cup"
     ],
-    "answer": 0,
-    "explanation": "In sports, Ian Thorpe is the primary answer associated with Which Australian swimmer won 5 Olympic Gold medals, nicknamed 'The Thorpedo'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ian Thorpe** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The rugby league series began in 1980, selecting players by the state where they played their first senior game rather than where they currently live.",
+    "hook": "You play for where you started, not where you live — that is the whole 'origin' idea."
   },
   {
-    "id": "spt_fact_15",
+    "id": "spt_015",
     "category": "sports",
-    "question": "Which Australian swimmer won gold in the 100m freestyle at three consecutive Olympics (1956, 1960, 1964)?",
-    "options": [
-      "Dawn Fraser",
-      "Shane Gould",
-      "Stephanie Rice",
-      "Ariarne Titmus"
+    "difficulty": "easy",
+    "question": "Which country invented the modern game of cricket?",
+    "answer": "England",
+    "distractors": [
+      "Australia",
+      "India",
+      "South Africa"
     ],
-    "answer": 0,
-    "explanation": "In sports, Dawn Fraser is the primary answer associated with Which Australian swimmer won gold in the 100m freestyle at three consecutive Olympics (1956, 1960, 1964).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Dawn Fraser** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It developed in south-east England by the sixteenth century, and the MCC at Lord's has held custody of the laws of the game since 1788.",
+    "hook": "The laws of cricket have lived at Lord's since 1788."
   },
   {
-    "id": "spt_fact_16",
+    "id": "spt_016",
     "category": "sports",
-    "question": "Which 15-year-old Australian swimmer won 5 individual medals (3 gold) at the 1972 Munich Olympics?",
-    "options": [
-      "Shane Gould",
-      "Dawn Fraser",
-      "Susie O'Neill",
-      "Leisel Jones"
+    "difficulty": "easy",
+    "question": "How many players are on a basketball team on court at one time?",
+    "answer": "Five",
+    "distractors": [
+      "Six",
+      "Seven",
+      "Four"
     ],
-    "answer": 0,
-    "explanation": "In sports, Shane Gould is the primary answer associated with Which 15-year-old Australian swimmer won 5 individual medals (3 gold) at the 1972 Munich Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Shane Gould** for this question.",
-    "difficulty": "Medium"
+    "explanation": "James Naismith invented the game in 1891 using peach baskets, with teams of nine; the five-a-side format was standardised by 1897.",
+    "hook": "It started nine-a-side with actual peach baskets nailed to a balcony."
   },
   {
-    "id": "spt_fact_17",
+    "id": "spt_017",
     "category": "sports",
-    "question": "Which Australian sprinter won gold in the 400m at Sydney 2000 while wearing a full-body suit?",
-    "options": [
-      "Cathy Freeman",
-      "Betty Cuthbert",
-      "Shirley Strickland",
-      "Sally Pearson"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Cathy Freeman is the primary answer associated with Which Australian sprinter won gold in the 400m at Sydney 2000 while wearing a full-body suit.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cathy Freeman** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_18",
-    "category": "sports",
-    "question": "Which Australian track legend won 3 gold medals at the 1956 Melbourne Olympics, known as the 'Golden Girl'?",
-    "options": [
-      "Betty Cuthbert",
-      "Cathy Freeman",
-      "Shirley Strickland",
-      "Raelene Boyle"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Betty Cuthbert is the primary answer associated with Which Australian track legend won 3 gold medals at the 1956 Melbourne Olympics, known as the 'Golden Girl'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Betty Cuthbert** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_19",
-    "category": "sports",
-    "question": "Which Australian athlete won gold in the 100m hurdles at the 2012 London Olympics?",
-    "options": [
-      "Sally Pearson",
-      "Cathy Freeman",
-      "Jana Pittman",
-      "Melinda Gainsford-Taylor"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Sally Pearson is the primary answer associated with Which Australian athlete won gold in the 100m hurdles at the 2012 London Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Sally Pearson** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_20",
-    "category": "sports",
-    "question": "Which Australian swimmer won 3 individual medley gold medals at the 2008 Beijing Olympics?",
-    "options": [
-      "Stephanie Rice",
-      "Leisel Jones",
-      "Libby Trickett",
-      "Alicia Coutts"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Stephanie Rice is the primary answer associated with Which Australian swimmer won 3 individual medley gold medals at the 2008 Beijing Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Stephanie Rice** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_21",
-    "category": "sports",
-    "question": "Which Australian middle-distance runner broke 17 world records during his career in the 1960s?",
-    "options": [
-      "Ron Clarke",
-      "Herb Elliott",
-      "John Landy",
-      "Ralph Doubell"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Ron Clarke is the primary answer associated with Which Australian middle-distance runner broke 17 world records during his career in the 1960s.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ron Clarke** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_22",
-    "category": "sports",
-    "question": "Which Australian runner went undefeated over 1500m and the mile, winning gold at the 1960 Rome Olympics?",
-    "options": [
-      "Herb Elliott",
-      "Ron Clarke",
-      "John Landy",
-      "Ralph Doubell"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Herb Elliott is the primary answer associated with Which Australian runner went undefeated over 1500m and the mile, winning gold at the 1960 Rome Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Herb Elliott** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_23",
-    "category": "sports",
-    "question": "Which Australian runner famously stopped to help fallen competitor Ron Clarke during the 1956 National Championships?",
-    "options": [
-      "John Landy",
-      "Herb Elliott",
-      "Ron Clarke",
-      "Merv Lincoln"
-    ],
-    "answer": 0,
-    "explanation": "In sports, John Landy is the primary answer associated with Which Australian runner famously stopped to help fallen competitor Ron Clarke during the 1956 National Championships.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **John Landy** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_24",
-    "category": "sports",
-    "question": "Which Australian golfer held the World No. 1 ranking for a total of 331 weeks in the 1980s and 1990s?",
-    "options": [
-      "Greg Norman",
-      "Adam Scott",
-      "Jason Day",
-      "Peter Thomson"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Greg Norman is the primary answer associated with Which Australian golfer held the World No. 1 ranking for a total of 331 weeks in the 1980s and 1990s.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Greg Norman** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_25",
-    "category": "sports",
-    "question": "Who was the first Australian golfer to win the Masters Tournament at Augusta in 2013?",
-    "options": [
-      "Adam Scott",
+    "difficulty": "easy",
+    "question": "Which Australian golfer won the 2013 US Masters?",
+    "answer": "Adam Scott",
+    "distractors": [
       "Greg Norman",
       "Jason Day",
-      "Geoff Ogilvy"
+      "Karrie Webb"
     ],
-    "answer": 0,
-    "explanation": "In sports, Adam Scott is the primary answer associated with Who was the first Australian golfer to win the Masters Tournament at Augusta in 2013.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Adam Scott** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He became the first Australian to win at Augusta, beating Angel Cabrera in a play-off; Greg Norman finished runner-up there three times without winning.",
+    "hook": "Norman lost the Masters three times; Scott finally broke the drought in 2013."
   },
   {
-    "id": "spt_fact_26",
+    "id": "spt_018",
     "category": "sports",
-    "question": "Which Australian golfer won The Open Championship five times between 1954 and 1965?",
-    "options": [
-      "Peter Thomson",
-      "Greg Norman",
-      "Kel Nagle",
-      "Adam Scott"
+    "difficulty": "easy",
+    "question": "What is a score of three under par on a single golf hole called?",
+    "answer": "An albatross",
+    "distractors": [
+      "An eagle",
+      "A birdie",
+      "A condor"
     ],
-    "answer": 0,
-    "explanation": "In sports, Peter Thomson is the primary answer associated with Which Australian golfer won The Open Championship five times between 1954 and 1965.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Peter Thomson** for this question.",
-    "difficulty": "Medium"
+    "explanation": "One under is a birdie, two under an eagle and four under a condor, which has been recorded only a handful of times in history.",
+    "hook": "Birdie, eagle, albatross, condor — the bird gets bigger as the score gets lower."
   },
   {
-    "id": "spt_fact_27",
+    "id": "spt_019",
     "category": "sports",
-    "question": "Which horse won the inaugural Melbourne Cup in 1861 and repeated the win in 1862?",
-    "options": [
-      "Archer",
-      "Carbine",
-      "Phar Lap",
-      "Peter Pan"
+    "difficulty": "easy",
+    "question": "Which Australian city hosts the AFL Grand Final each year?",
+    "answer": "Melbourne",
+    "distractors": [
+      "Sydney",
+      "Adelaide",
+      "Perth"
     ],
-    "answer": 0,
-    "explanation": "In sports, Archer is the primary answer associated with Which horse won the inaugural Melbourne Cup in 1861 and repeated the win in 1862.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Archer** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It is contractually locked to the MCG until 2059; the only exceptions were 2020 in Brisbane and 2021 in Perth because of pandemic border closures.",
+    "hook": "Locked to the MCG until 2059 — only a pandemic has ever moved it."
   },
   {
-    "id": "spt_fact_28",
+    "id": "spt_020",
     "category": "sports",
-    "question": "Which Depression-era racehorse won 37 of his 51 starts, including the 1930 Melbourne Cup?",
-    "options": [
-      "Phar Lap",
-      "Carbine",
-      "Bernborough",
-      "Tulloch"
+    "difficulty": "easy",
+    "question": "In soccer, how long is a standard match excluding stoppage time?",
+    "answer": "Ninety minutes",
+    "distractors": [
+      "Eighty minutes",
+      "One hundred minutes",
+      "Sixty minutes"
     ],
-    "answer": 0,
-    "explanation": "In sports, Phar Lap is the primary answer associated with Which Depression-era racehorse won 37 of his 51 starts, including the 1930 Melbourne Cup.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Phar Lap** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Two halves of forty-five minutes; rugby union plays eighty and Australian rules four quarters of twenty minutes plus substantial time on.",
+    "hook": "Ninety soccer, eighty rugby, and Aussie rules has no fixed length at all."
   },
   {
-    "id": "spt_fact_29",
+    "id": "spt_021",
     "category": "sports",
-    "question": "Which racehorse is the only horse to win three consecutive Melbourne Cups (2003, 2004, 2005)?",
-    "options": [
+    "difficulty": "easy",
+    "question": "Which Australian won seven world surfing titles?",
+    "answer": "Layne Beachley",
+    "distractors": [
+      "Stephanie Gilmore",
+      "Mark Richards",
+      "Wendy Botha"
+    ],
+    "explanation": "She won six consecutively from 1998 and a seventh in 2006; Stephanie Gilmore later won eight, taking the outright record.",
+    "hook": "Beachley made seven, then Gilmore made eight — both Australian."
+  },
+  {
+    "id": "spt_022",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many rings are on the Olympic flag?",
+    "answer": "Five",
+    "distractors": [
+      "Four",
+      "Six",
+      "Seven"
+    ],
+    "explanation": "They represent the five inhabited continents, and the six colours including the white background were chosen so that every national flag of 1913 contained at least one.",
+    "hook": "The colours were picked so every nation's flag shared at least one."
+  },
+  {
+    "id": "spt_023",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which sport features the Tour de France?",
+    "answer": "Cycling",
+    "distractors": [
+      "Motor racing",
+      "Marathon running",
+      "Rowing"
+    ],
+    "explanation": "First run in 1903 to sell newspapers, the leader wears yellow because the organising paper L'Auto was printed on yellow newsprint.",
+    "hook": "The yellow jersey matches the newsprint the sponsoring paper was printed on."
+  },
+  {
+    "id": "spt_024",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian horse won the 1930 Melbourne Cup and became a national icon?",
+    "answer": "Phar Lap",
+    "distractors": [
       "Makybe Diva",
-      "Black Caviar",
-      "Sunline",
-      "Winx"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Makybe Diva is the primary answer associated with Which racehorse is the only horse to win three consecutive Melbourne Cups (2003, 2004, 2005).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Makybe Diva** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_30",
-    "category": "sports",
-    "question": "Which legendary Australian sprinter mare retired undefeated after 25 race starts?",
-    "options": [
-      "Black Caviar",
       "Winx",
-      "Makybe Diva",
-      "Sunline"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Black Caviar is the primary answer associated with Which legendary Australian sprinter mare retired undefeated after 25 race starts.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Black Caviar** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_31",
-    "category": "sports",
-    "question": "Which champion Australian thoroughbred mare won 33 consecutive races, including 4 Cox Plates?",
-    "options": [
-      "Winx",
-      "Black Caviar",
-      "Makybe Diva",
-      "Sunline"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Winx is the primary answer associated with Which champion Australian thoroughbred mare won 33 consecutive races, including 4 Cox Plates.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Winx** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_32",
-    "category": "sports",
-    "question": "Which horse won four consecutive Cox Plates between 2015 and 2018?",
-    "options": [
-      "Winx",
-      "Sunline",
-      "Northerly",
       "Kingston Town"
     ],
-    "answer": 0,
-    "explanation": "In sports, Winx is the primary answer associated with Which horse won four consecutive Cox Plates between 2015 and 2018.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Winx** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He died in California in 1932 in circumstances still debated; his hide is in Melbourne, his skeleton in New Zealand and his heart in Canberra.",
+    "hook": "His body is split between three museums in two countries."
   },
   {
-    "id": "spt_fact_33",
+    "id": "spt_025",
     "category": "sports",
-    "question": "Which racehorse won three consecutive Cox Plates between 1980 and 1982?",
-    "options": [
-      "Kingston Town",
+    "difficulty": "easy",
+    "question": "In cricket, what is a score of zero by a batsman called?",
+    "answer": "A duck",
+    "distractors": [
+      "A love",
+      "A blank",
+      "A nil"
+    ],
+    "explanation": "From 'duck's egg' for the round zero; out first ball is a golden duck, and out first ball of the match is a diamond duck.",
+    "hook": "Golden duck first ball, diamond duck first ball of the innings."
+  },
+  {
+    "id": "spt_026",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country hosts the Formula One Monaco Grand Prix?",
+    "answer": "Monaco",
+    "distractors": [
+      "France",
+      "Italy",
+      "Switzerland"
+    ],
+    "explanation": "Run on public streets since 1929, it is the slowest circuit on the calendar and the hardest to overtake on, yet remains the most prestigious race.",
+    "hook": "The slowest, narrowest track on the calendar is also the one drivers most want to win."
+  },
+  {
+    "id": "spt_027",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many players are in a netball team on court?",
+    "answer": "Seven",
+    "distractors": [
+      "Six",
+      "Five",
+      "Eight"
+    ],
+    "explanation": "Each has a designated position restricting where they may move, and only the goal shooter and goal attack may score.",
+    "hook": "Seven players, and only two of them are allowed to score."
+  },
+  {
+    "id": "spt_028",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian swimmer won gold at three consecutive Olympics in the 100m freestyle?",
+    "answer": "Dawn Fraser",
+    "distractors": [
+      "Shane Gould",
+      "Susie O'Neill",
+      "Emma McKeon"
+    ],
+    "explanation": "She won in 1956, 1960 and 1964, and was banned for ten years after allegedly taking a flag from a Tokyo palace, ending her career.",
+    "hook": "Three golds in a row, then banned for a decade over a flag."
+  },
+  {
+    "id": "spt_029",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What piece of equipment is used to hit the ball in badminton?",
+    "answer": "A racquet",
+    "distractors": [
+      "A bat",
+      "A paddle",
+      "A stick"
+    ],
+    "explanation": "Badminton and tennis use racquets, table tennis uses a paddle or bat, and cricket and baseball use bats; the badminton shuttlecock is the fastest projectile in any racquet sport.",
+    "hook": "The shuttlecock leaves the racquet faster than any other sporting projectile."
+  },
+  {
+    "id": "spt_030",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many VFL/AFL premierships have Carlton and Essendon each won?",
+    "answer": "Sixteen",
+    "distractors": [
+      "Twelve",
+      "Fourteen",
+      "Nineteen"
+    ],
+    "explanation": "They are tied at the top, with Collingwood on fifteen; Carlton's last came in 1995 and Essendon's in 2000, so neither has won this century.",
+    "hook": "Two clubs tied on sixteen, neither having won since 2000."
+  },
+  {
+    "id": "spt_031",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which sport would you perform a 'slam dunk'?",
+    "answer": "Basketball",
+    "distractors": [
+      "Volleyball",
+      "Netball",
+      "Handball"
+    ],
+    "explanation": "The dunk was banned in US college basketball from 1967 to 1976, a rule widely believed to have been aimed at Kareem Abdul-Jabbar.",
+    "hook": "College basketball banned it for nine years to slow down one player."
+  },
+  {
+    "id": "spt_032",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian was known as the 'Rocket' in tennis?",
+    "answer": "Rod Laver",
+    "distractors": [
+      "Ken Rosewall",
+      "John Newcombe",
+      "Pat Rafter"
+    ],
+    "explanation": "He is the only player to win the calendar-year grand slam twice, in 1962 and 1969; the Australian Open's main court is named after him.",
+    "hook": "The only person to win all four slams in one year, twice."
+  },
+  {
+    "id": "spt_033",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many minutes long is each quarter in an AFL match, excluding time on?",
+    "answer": "Twenty",
+    "distractors": [
+      "Fifteen",
+      "Twenty-five",
+      "Thirty"
+    ],
+    "explanation": "Time on is added for stoppages, so quarters typically run nearer thirty minutes; the clock stops whenever the ball is out of play.",
+    "hook": "Twenty minutes on paper, closer to thirty in reality."
+  },
+  {
+    "id": "spt_034",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country originated the martial art of judo?",
+    "answer": "Japan",
+    "distractors": [
+      "China",
+      "Korea",
+      "Thailand"
+    ],
+    "explanation": "Jigoro Kano founded it in 1882; taekwondo is Korean, kung fu Chinese and muay thai Thai.",
+    "hook": "Judo and karate Japanese, taekwondo Korean, kung fu Chinese."
+  },
+  {
+    "id": "spt_035",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What colour jersey does the leader of the Tour de France wear?",
+    "answer": "Yellow",
+    "distractors": [
+      "Green",
+      "Polka dot",
+      "White"
+    ],
+    "explanation": "Green marks the points leader, polka dot the best climber and white the best young rider under twenty-six.",
+    "hook": "Yellow overall, green sprints, polka dot mountains, white for the youngsters."
+  },
+  {
+    "id": "spt_036",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which Olympics did the women's pole vault make its debut?",
+    "answer": "Sydney 2000",
+    "distractors": [
+      "Atlanta 1996",
+      "Athens 2004",
+      "Barcelona 1992"
+    ],
+    "explanation": "Australia's Tatiana Grigorieva took silver behind Stacy Dragila of the United States; Emma George had held multiple world records through the 1990s.",
+    "hook": "Women's pole vault only entered the Olympics in 2000, and Australia took silver."
+  },
+  {
+    "id": "spt_037",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian cricketer took 708 Test wickets?",
+    "answer": "Shane Warne",
+    "distractors": [
+      "Glenn McGrath",
+      "Dennis Lillee",
+      "Nathan Lyon"
+    ],
+    "explanation": "His first ball in Ashes cricket, the so-called Ball of the Century to Mike Gatting in 1993, turned a foot and remains the sport's most replayed delivery.",
+    "hook": "One delivery in 1993 defined a twenty-year career."
+  },
+  {
+    "id": "spt_038",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which mare won three consecutive Melbourne Cups from 2003 to 2005?",
+    "answer": "Makybe Diva",
+    "distractors": [
       "Winx",
-      "Sunline",
-      "So You Think"
+      "Black Caviar",
+      "Sunline"
     ],
-    "answer": 0,
-    "explanation": "In sports, Kingston Town is the primary answer associated with Which racehorse won three consecutive Cox Plates between 1980 and 1982.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Kingston Town** for this question.",
-    "difficulty": "Medium"
+    "explanation": "No other horse has won three; Winx won thirty-three consecutive races but never contested the Cup, and Black Caviar was an unbeaten sprinter.",
+    "hook": "Three Cups is a record no horse has come close to since."
   },
   {
-    "id": "spt_fact_34",
+    "id": "spt_039",
     "category": "sports",
-    "question": "What mock obituary published in The Sporting Times in 1882 gave birth to which famous cricket rivalry?",
-    "options": [
-      "The Ashes",
-      "The Border-Gavaskar Trophy",
-      "The Frank Worrell Trophy",
-      "The Trans-Tasman Trophy"
+    "difficulty": "medium",
+    "question": "How many Test-playing nations were there when Australia played its first Test in 1877?",
+    "answer": "Two",
+    "distractors": [
+      "Three",
+      "Four",
+      "Six"
     ],
-    "answer": 0,
-    "explanation": "In sports, The Ashes is the primary answer associated with What mock obituary published in The Sporting Times in 1882 gave birth to which famous cricket rivalry.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Ashes** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Only Australia and England; South Africa joined in 1889, and the number now stands at twelve after Afghanistan and Ireland were admitted in 2017.",
+    "hook": "Test cricket began as a two-country sport and took over a century to reach ten."
   },
   {
-    "id": "spt_fact_35",
+    "id": "spt_040",
     "category": "sports",
-    "question": "Which Australian leg-spinner bowled the famous 'Ball of the Century' to Mike Gatting in 1993?",
-    "options": [
-      "Shane Warne",
-      "Glenn McGrath",
-      "Dennis Lillee",
-      "Craig McDermott"
+    "difficulty": "medium",
+    "question": "Which sprinter holds the men's 100 metres world record?",
+    "answer": "Usain Bolt",
+    "distractors": [
+      "Tyson Gay",
+      "Yohan Blake",
+      "Justin Gatlin"
     ],
-    "answer": 0,
-    "explanation": "In sports, Shane Warne is the primary answer associated with Which Australian leg-spinner bowled the famous 'Ball of the Century' to Mike Gatting in 1993.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Shane Warne** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He ran 9.58 seconds in Berlin in 2009, a mark that has stood far longer than any previous 100m record in the electronic timing era.",
+    "hook": "9.58 in 2009, and nobody has been within a tenth of it since."
   },
   {
-    "id": "spt_fact_36",
+    "id": "spt_041",
     "category": "sports",
-    "question": "Who holds the record for most Test wickets taken by an Australian bowler (708)?",
-    "options": [
-      "Shane Warne",
-      "Glenn McGrath",
-      "Nathan Lyon",
-      "Dennis Lillee"
+    "difficulty": "medium",
+    "question": "Which Australian won the 1983 America's Cup for Australia II?",
+    "answer": "John Bertrand",
+    "distractors": [
+      "Alan Bond",
+      "Ben Lexcen",
+      "James Hardy"
     ],
-    "answer": 0,
-    "explanation": "In sports, Shane Warne is the primary answer associated with Who holds the record for most Test wickets taken by an Australian bowler (708).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Shane Warne** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He skippered the boat, Alan Bond funded the syndicate and Ben Lexcen designed the winged keel; it ended the New York Yacht Club's 132-year hold on the trophy.",
+    "hook": "It ended the longest winning streak in the history of sport — 132 years."
   },
   {
-    "id": "spt_fact_37",
+    "id": "spt_042",
     "category": "sports",
-    "question": "Who holds the record for most Test wickets taken by an Australian fast bowler (563)?",
-    "options": [
-      "Glenn McGrath",
-      "Dennis Lillee",
-      "Mitchell Starc",
-      "Brett Lee"
+    "difficulty": "medium",
+    "question": "In rugby league, how many tackles does a team have before handing over possession?",
+    "answer": "Six",
+    "distractors": [
+      "Four",
+      "Five",
+      "Eight"
     ],
-    "answer": 0,
-    "explanation": "In sports, Glenn McGrath is the primary answer associated with Who holds the record for most Test wickets taken by an Australian fast bowler (563).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Glenn McGrath** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The rule started at four tackles in 1966 and moved to six in 1972; it is the structural difference that makes league so much faster than union.",
+    "hook": "Six tackles then hand over — union has no such limit, which is why rucks matter."
   },
   {
-    "id": "spt_fact_38",
+    "id": "spt_043",
     "category": "sports",
-    "question": "Which batsman scored 334 in a single day against England at Headingley in 1930?",
-    "options": [
-      "Sir Donald Bradman",
-      "Mark Taylor",
-      "Matthew Hayden",
-      "Ricky Ponting"
+    "difficulty": "medium",
+    "question": "Which Australian cyclist won the Tour de France in 2011?",
+    "answer": "Cadel Evans",
+    "distractors": [
+      "Richie Porte",
+      "Michael Rogers",
+      "Stuart O'Grady"
     ],
-    "answer": 0,
-    "explanation": "In sports, Sir Donald Bradman is the primary answer associated with Which batsman scored 334 in a single day against England at Headingley in 1930.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Sir Donald Bradman** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He remains the only Australian to win it, taking the yellow jersey on the penultimate-day time trial after trailing throughout the final week.",
+    "hook": "He took the lead with one day to go, in the time trial."
   },
   {
-    "id": "spt_fact_39",
+    "id": "spt_044",
     "category": "sports",
-    "question": "Which Australian opening batsman set a then-world record Test score of 380 against Zimbabwe in 2003?",
-    "options": [
-      "Matthew Hayden",
-      "Mark Taylor",
-      "David Warner",
-      "Justin Langer"
+    "difficulty": "medium",
+    "question": "Which trophy do Australia and New Zealand contest in rugby union?",
+    "answer": "The Bledisloe Cup",
+    "distractors": [
+      "The Tri Nations Trophy",
+      "The Webb Ellis Cup",
+      "The Mandela Challenge Plate"
     ],
-    "answer": 0,
-    "explanation": "In sports, Matthew Hayden is the primary answer associated with Which Australian opening batsman set a then-world record Test score of 380 against Zimbabwe in 2003.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Matthew Hayden** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Donated by a New Zealand Governor-General in 1931, New Zealand has held it almost continuously since 2003; the Webb Ellis Cup is the World Cup itself.",
+    "hook": "Australia last held it in 2002 — the longest drought in the fixture's history."
   },
   {
-    "id": "spt_fact_40",
+    "id": "spt_045",
     "category": "sports",
-    "question": "Which Australian captain declared his innings closed on 334* out of respect for Don Bradman's record?",
-    "options": [
-      "Mark Taylor",
-      "Steve Waugh",
-      "Ricky Ponting",
-      "Allan Border"
+    "difficulty": "medium",
+    "question": "How many Olympic gold medals did Michael Phelps win in total?",
+    "answer": "Twenty-three",
+    "distractors": [
+      "Eighteen",
+      "Twenty-one",
+      "Twenty-eight"
     ],
-    "answer": 0,
-    "explanation": "In sports, Mark Taylor is the primary answer associated with Which Australian captain declared his innings closed on 334* out of respect for Don Bradman's record.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mark Taylor** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He won twenty-eight medals in all across four Games, including eight golds in Beijing in 2008, the most at a single Olympics.",
+    "hook": "Twenty-three golds, twenty-eight medals — more than most countries."
   },
   {
-    "id": "spt_fact_41",
+    "id": "spt_046",
     "category": "sports",
-    "question": "Which Australian captain led Australia to a world-record 16 consecutive Test match victories between 1999 and 2001?",
-    "options": [
-      "Steve Waugh",
-      "Ricky Ponting",
-      "Allan Border",
-      "Mark Taylor"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Steve Waugh is the primary answer associated with Which Australian captain led Australia to a world-record 16 consecutive Test match victories between 1999 and 2001.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Steve Waugh** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_42",
-    "category": "sports",
-    "question": "Which Australian captain led Australia to another 16-consecutive Test wins streak between 2005 and 2008?",
-    "options": [
-      "Ricky Ponting",
+    "difficulty": "medium",
+    "question": "Which Australian cricketer captained the side to the 2003 and 2007 World Cup titles?",
+    "answer": "Ricky Ponting",
+    "distractors": [
       "Steve Waugh",
       "Michael Clarke",
-      "Steve Smith"
+      "Allan Border"
     ],
-    "answer": 0,
-    "explanation": "In sports, Ricky Ponting is the primary answer associated with Which Australian captain led Australia to another 16-consecutive Test wins streak between 2005 and 2008.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ricky Ponting** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Steve Waugh won the 1999 final and Michael Clarke the 2015 title on home soil, giving Australia five World Cups in total by 2015.",
+    "hook": "Waugh 1999, Ponting 2003 and 2007, Clarke 2015 — four captains, five titles with 1987."
   },
   {
-    "id": "spt_fact_43",
+    "id": "spt_047",
     "category": "sports",
-    "question": "Which club won the inaugural National Rugby League (NRL) premiership in 1998?",
-    "options": [
-      "Brisbane Broncos",
-      "Canterbury Bulldogs",
-      "Melbourne Storm",
-      "Sydney Roosters"
+    "difficulty": "medium",
+    "question": "Which stadium is known as the 'G' by Australians?",
+    "answer": "The Melbourne Cricket Ground",
+    "distractors": [
+      "The Sydney Cricket Ground",
+      "The Gabba",
+      "Adelaide Oval"
     ],
-    "answer": 0,
-    "explanation": "In sports, Brisbane Broncos is the primary answer associated with Which club won the inaugural National Rugby League (NRL) premiership in 1998.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Brisbane Broncos** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It seats about 100,000, hosted the 1956 Olympics and holds the traditional Boxing Day Test each year.",
+    "hook": "Olympic stadium, Test venue and Grand Final home — all one ground."
   },
   {
-    "id": "spt_fact_44",
+    "id": "spt_048",
     "category": "sports",
-    "question": "Which NRL club won the 1999 Grand Final with a dramatic late penalty try against St George Illawarra?",
-    "options": [
-      "Melbourne Storm",
-      "Brisbane Broncos",
-      "Sydney Roosters",
-      "Newcastle Knights"
+    "difficulty": "medium",
+    "question": "In which sport is the Stanley Cup awarded?",
+    "answer": "Ice hockey",
+    "distractors": [
+      "American football",
+      "Baseball",
+      "Lacrosse"
     ],
-    "answer": 0,
-    "explanation": "In sports, Melbourne Storm is the primary answer associated with Which NRL club won the 1999 Grand Final with a dramatic late penalty try against St George Illawarra.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Melbourne Storm** for this question.",
-    "difficulty": "Medium"
+    "explanation": "First awarded in 1893, it is the oldest trophy competed for by professional athletes in North America, and every winning player's name is engraved on it.",
+    "hook": "Every winner's name goes on the trophy itself, which is why it keeps getting taller."
   },
   {
-    "id": "spt_fact_45",
+    "id": "spt_049",
     "category": "sports",
-    "question": "Which Sydney rugby league club won 11 consecutive premierships between 1956 and 1966?",
-    "options": [
-      "St. George Dragons",
-      "South Sydney Rabbitohs",
-      "Eastern Suburbs",
-      "Balmain Tigers"
+    "difficulty": "medium",
+    "question": "Which Australian netball team competition is contested with New Zealand clubs' successor leagues?",
+    "answer": "Suncorp Super Netball",
+    "distractors": [
+      "The ANZ Championship",
+      "The Constellation Cup",
+      "The Netball World Cup"
     ],
-    "answer": 0,
-    "explanation": "In sports, St. George Dragons is the primary answer associated with Which Sydney rugby league club won 11 consecutive premierships between 1956 and 1966.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **St. George Dragons** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The trans-Tasman ANZ Championship split in 2017 into Australia's Super Netball and New Zealand's ANZ Premiership; the Constellation Cup is the international series.",
+    "hook": "The trans-Tasman league split in two in 2017 — one competition became two."
   },
   {
-    "id": "spt_fact_46",
+    "id": "spt_050",
     "category": "sports",
-    "question": "Which NRL club has won the most total premierships in Australian rugby league history (21)?",
-    "options": [
-      "South Sydney Rabbitohs",
-      "St. George Dragons",
-      "Sydney Roosters",
-      "Balmain Tigers"
+    "difficulty": "medium",
+    "question": "How many players are in a baseball team's batting lineup?",
+    "answer": "Nine",
+    "distractors": [
+      "Eight",
+      "Ten",
+      "Eleven"
     ],
-    "answer": 0,
-    "explanation": "In sports, South Sydney Rabbitohs is the primary answer associated with Which NRL club has won the most total premierships in Australian rugby league history (21).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **South Sydney Rabbitohs** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Nine fielders and nine batters, though the designated hitter rule allows one player to bat in place of the pitcher without fielding.",
+    "hook": "Nine on the field, nine in the order, and the designated hitter breaks the symmetry."
   },
   {
-    "id": "spt_fact_47",
+    "id": "spt_051",
     "category": "sports",
-    "question": "What is the name of the AFL's highest individual award, presented annually to the fairest and best player?",
-    "options": [
-      "The Brownlow Medal",
-      "Norm Smith Medal",
-      "Coleman Medal",
-      "Leigh Matthews Trophy"
+    "difficulty": "medium",
+    "question": "Which Australian lit the cauldron and then won the 400 metres in Sydney?",
+    "answer": "Cathy Freeman",
+    "distractors": [
+      "Jane Saville",
+      "Nova Peris",
+      "Raelene Boyle"
     ],
-    "answer": 0,
-    "explanation": "In sports, The Brownlow Medal is the primary answer associated with What is the name of the AFL's highest individual award, presented annually to the fairest and best player.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Brownlow Medal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The two moments were eleven days apart in the same stadium, and the race remains among the most watched broadcasts in Australian television history.",
+    "hook": "She lit the flame and won the race in the same stadium, eleven days apart."
   },
   {
-    "id": "spt_fact_48",
+    "id": "spt_052",
     "category": "sports",
-    "question": "What award is presented to the best player on the ground in the AFL Grand Final?",
-    "options": [
+    "difficulty": "medium",
+    "question": "Which boxing weight division is contested at over 90.7 kilograms?",
+    "answer": "Heavyweight",
+    "distractors": [
+      "Cruiserweight",
+      "Light heavyweight",
+      "Middleweight"
+    ],
+    "explanation": "Cruiserweight sits just below at around 90.7 kilograms; heavyweight has no upper limit, which is why it produces the sport's biggest names.",
+    "hook": "Heavyweight is the only division with no ceiling."
+  },
+  {
+    "id": "spt_053",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian AFL player kicked over 1,300 career goals?",
+    "answer": "Tony Lockett",
+    "distractors": [
+      "Gary Ablett Senior",
+      "Jason Dunstall",
+      "Buddy Franklin"
+    ],
+    "explanation": "He finished on 1,360, passing Gordon Coventry's long-standing record in 1999; Buddy Franklin became only the sixth player to reach a thousand.",
+    "hook": "1,360 goals, and only six players in history have even reached a thousand."
+  },
+  {
+    "id": "spt_054",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which sport contests the Ryder Cup?",
+    "answer": "Golf",
+    "distractors": [
+      "Tennis",
+      "Sailing",
+      "Polo"
+    ],
+    "explanation": "Contested biennially between the United States and Europe, it uses matchplay rather than strokeplay and pays no prize money to the players.",
+    "hook": "No prize money, and it produces more pressure than any major."
+  },
+  {
+    "id": "spt_055",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many gold medals did Australia win at the 2000 Sydney Olympics?",
+    "answer": "Sixteen",
+    "distractors": [
+      "Nine",
+      "Twelve",
+      "Twenty-two"
+    ],
+    "explanation": "It was Australia's best Games at the time, with fifty-eight medals in total; Athens in 2004 delivered seventeen golds, the national record.",
+    "hook": "Sydney sixteen, Athens seventeen — the away Games actually edged the home ones."
+  },
+  {
+    "id": "spt_056",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In cricket, what is it called when a bowler takes three wickets in three consecutive deliveries?",
+    "answer": "A hat-trick",
+    "distractors": [
+      "A triple",
+      "A treble",
+      "A maiden"
+    ],
+    "explanation": "The term originated in cricket, where a bowler achieving it was presented with a hat; a maiden is an over with no runs scored.",
+    "hook": "The hat was literal — a bowler who did it was given one."
+  },
+  {
+    "id": "spt_057",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian swimmer broke the 400m freestyle world record aged fifteen in 1971?",
+    "answer": "Shane Gould",
+    "distractors": [
+      "Dawn Fraser",
+      "Lisa Curry",
+      "Tracey Wickham"
+    ],
+    "explanation": "She held every world record from 100 to 1500 metres freestyle simultaneously, then retired at sixteen after winning three golds in Munich.",
+    "hook": "She held every freestyle world record at once and retired at sixteen."
+  },
+  {
+    "id": "spt_058",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which country won the first FIFA World Cup in 1930?",
+    "answer": "Uruguay",
+    "distractors": [
+      "Brazil",
+      "Argentina",
+      "Italy"
+    ],
+    "explanation": "They hosted and beat Argentina 4-2 in the final; the two teams could not agree on a ball, so one was used in each half.",
+    "hook": "They played the two halves with different balls because neither side would give way."
+  },
+  {
+    "id": "spt_059",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian rules football award is given to the best and fairest player of the season?",
+    "answer": "The Brownlow Medal",
+    "distractors": [
       "The Norm Smith Medal",
-      "Brownlow Medal",
-      "Gary Ayres Award",
-      "Jock McHale Medal"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Norm Smith Medal is the primary answer associated with What award is presented to the best player on the ground in the AFL Grand Final.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Norm Smith Medal** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_49",
-    "category": "sports",
-    "question": "What award is presented annually to the leading goal-kicker in the AFL home-and-away season?",
-    "options": [
       "The Coleman Medal",
-      "Brownlow Medal",
-      "Norm Smith Medal",
-      "Leigh Matthews Trophy"
+      "The Leigh Matthews Trophy"
     ],
-    "answer": 0,
-    "explanation": "In sports, The Coleman Medal is the primary answer associated with What award is presented annually to the leading goal-kicker in the AFL home-and-away season.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Coleman Medal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Umpires vote three, two and one after each match; the Norm Smith goes to the best on ground in the Grand Final and the Coleman to the leading goalkicker.",
+    "hook": "Brownlow season, Norm Smith Grand Final, Coleman goals."
   },
   {
-    "id": "spt_fact_50",
+    "id": "spt_060",
     "category": "sports",
-    "question": "What is the highest individual award presented annually to the best and fairest player in the NRL?",
-    "options": [
-      "The Dally M Medal",
-      "Clive Churchill Medal",
-      "Rothmans Medal",
-      "Provan-Summons Medal"
+    "difficulty": "medium",
+    "question": "Which nation has won the most Olympic gold medals overall?",
+    "answer": "The United States",
+    "distractors": [
+      "The Soviet Union",
+      "China",
+      "Great Britain"
     ],
-    "answer": 0,
-    "explanation": "In sports, The Dally M Medal is the primary answer associated with What is the highest individual award presented annually to the best and fairest player in the NRL.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Dally M Medal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It has over a thousand summer golds, well clear of any other nation; the Soviet Union accumulated its total in far fewer Games before dissolving in 1991.",
+    "hook": "The Soviet Union's rate per Games was higher — it simply ran out of Games."
   },
   {
-    "id": "spt_fact_51",
+    "id": "spt_061",
     "category": "sports",
-    "question": "What award is presented to the player of the match in the NRL Grand Final?",
-    "options": [
-      "The Clive Churchill Medal",
-      "Dally M Medal",
-      "Wally Lewis Medal",
-      "Sunderland Medal"
+    "difficulty": "medium",
+    "question": "Which Australian tennis player won the 1971 and 1980 Wimbledon women's singles titles?",
+    "answer": "Evonne Goolagong Cawley",
+    "distractors": [
+      "Margaret Court",
+      "Lesley Bowrey",
+      "Wendy Turnbull"
     ],
-    "answer": 0,
-    "explanation": "In sports, The Clive Churchill Medal is the primary answer associated with What award is presented to the player of the match in the NRL Grand Final.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Clive Churchill Medal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Her 1980 win made her the first mother to take the title in sixty-six years; Margaret Court holds the all-time record of twenty-four grand slam singles titles.",
+    "hook": "First mother to win Wimbledon in sixty-six years."
   },
   {
-    "id": "spt_fact_52",
+    "id": "spt_062",
     "category": "sports",
-    "question": "What award is presented to the player of the series in rugby league's State of Origin?",
-    "options": [
-      "The Wally Lewis Medal",
-      "Clive Churchill Medal",
-      "Dally M Medal",
-      "Arthur Beetson Medal"
+    "difficulty": "medium",
+    "question": "In athletics, how many events make up the decathlon?",
+    "answer": "Ten",
+    "distractors": [
+      "Seven",
+      "Eight",
+      "Twelve"
     ],
-    "answer": 0,
-    "explanation": "In sports, The Wally Lewis Medal is the primary answer associated with What award is presented to the player of the series in rugby league's State of Origin.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Wally Lewis Medal** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The heptathlon has seven and the pentathlon five; the decathlon is contested over two days and its winner is traditionally called the world's greatest athlete.",
+    "hook": "Deca ten, hepta seven, penta five — Greek numbers do the work."
   },
   {
-    "id": "spt_fact_53",
+    "id": "spt_063",
     "category": "sports",
-    "question": "Which state team has won the most State of Origin rugby league series?",
-    "options": [
-      "Queensland Maroons",
-      "New South Wales Blues",
-      "Victoria",
-      "ACT"
+    "difficulty": "medium",
+    "question": "Which Australian Formula One driver won the world championship in 1980?",
+    "answer": "Alan Jones",
+    "distractors": [
+      "Jack Brabham",
+      "Mark Webber",
+      "Daniel Ricciardo"
     ],
-    "answer": 0,
-    "explanation": "In sports, Queensland Maroons is the primary answer associated with Which state team has won the most State of Origin rugby league series.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Queensland Maroons** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Jack Brabham had won three titles in 1959, 1960 and 1966, the last in a car of his own construction, which no driver has done since.",
+    "hook": "Brabham won a title in a car bearing his own name — still unique."
   },
   {
-    "id": "spt_fact_54",
+    "id": "spt_064",
     "category": "sports",
-    "question": "In what year was the first standalone State of Origin rugby league match played at Lang Park?",
-    "options": [
-      "1980",
-      "1982",
-      "1978",
-      "1985"
+    "difficulty": "medium",
+    "question": "How long is an Olympic swimming pool?",
+    "answer": "Fifty metres",
+    "distractors": [
+      "Twenty-five metres",
+      "One hundred metres",
+      "Thirty-three metres"
     ],
-    "answer": 0,
-    "explanation": "In sports, 1980 is the primary answer associated with In what year was the first standalone State of Origin rugby league match played at Lang Park.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **1980** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Short-course world records are set in twenty-five metre pools and tracked separately, because extra turns make them significantly faster.",
+    "hook": "Short-course records are faster because turns are quicker than swimming."
   },
   {
-    "id": "spt_fact_55",
+    "id": "spt_065",
     "category": "sports",
-    "question": "Which Australian speed skater won gold at the 2002 Winter Olympics after all four opponents fell on the final turn?",
-    "options": [
-      "Steven Bradbury",
-      "Dale Begg-Smith",
-      "Torah Bright",
-      "Alisa Camplin"
+    "difficulty": "medium",
+    "question": "Which sport does the Sheffield Shield contest in Australia?",
+    "answer": "First-class cricket",
+    "distractors": [
+      "Rugby league",
+      "Australian rules football",
+      "Field hockey"
     ],
-    "answer": 0,
-    "explanation": "In sports, Steven Bradbury is the primary answer associated with Which Australian speed skater won gold at the 2002 Winter Olympics after all four opponents fell on the final turn.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Steven Bradbury** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Contested between the states since 1892, it is the traditional pathway to Test selection and is named for an English earl who funded it.",
+    "hook": "An English earl paid for the trophy that picks Australia's Test team."
   },
   {
-    "id": "spt_fact_56",
+    "id": "spt_066",
     "category": "sports",
-    "question": "Which Australian aerial skier won gold at the 2002 Salt Lake City Winter Olympics, Australia's first female winter gold?",
-    "options": [
-      "Alisa Camplin",
-      "Torah Bright",
-      "Jacqui Cooper",
-      "Lydia Lassila"
+    "difficulty": "medium",
+    "question": "Which country dominates the sport of table tennis at Olympic level?",
+    "answer": "China",
+    "distractors": [
+      "Japan",
+      "South Korea",
+      "Sweden"
     ],
-    "answer": 0,
-    "explanation": "In sports, Alisa Camplin is the primary answer associated with Which Australian aerial skier won gold at the 2002 Salt Lake City Winter Olympics, Australia's first female winter gold.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Alisa Camplin** for this question.",
-    "difficulty": "Medium"
+    "explanation": "China has won the overwhelming majority of Olympic table tennis golds since the sport's introduction in 1988, prompting rule changes intended to level the field.",
+    "hook": "The rules have been changed several times specifically to make it less one-sided."
   },
   {
-    "id": "spt_fact_57",
+    "id": "spt_067",
     "category": "sports",
-    "question": "Which Australian snowboarder won gold in the halfpipe at the 2010 Vancouver Winter Olympics?",
-    "options": [
-      "Torah Bright",
-      "Alisa Camplin",
-      "Holly Crawford",
-      "Zali Steggall"
+    "difficulty": "medium",
+    "question": "Which Australian won the 2019 and 2022 Wimbledon-era world number one ranking in women's tennis?",
+    "answer": "Ashleigh Barty",
+    "distractors": [
+      "Sam Stosur",
+      "Jelena Dokic",
+      "Daria Saville"
     ],
-    "answer": 0,
-    "explanation": "In sports, Torah Bright is the primary answer associated with Which Australian snowboarder won gold in the halfpipe at the 2010 Vancouver Winter Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Torah Bright** for this question.",
-    "difficulty": "Medium"
+    "explanation": "She won the French Open in 2019, Wimbledon in 2021 and the Australian Open in 2022, then retired at twenty-five while ranked number one.",
+    "hook": "She retired at twenty-five as world number one, months after winning at home."
   },
   {
-    "id": "spt_fact_58",
+    "id": "spt_068",
     "category": "sports",
-    "question": "Which Australian alpine skier won Australia's first individual Winter Olympic medal (bronze in slalom at Nagano 1998)?",
-    "options": [
-      "Zali Steggall",
-      "Steven Bradbury",
-      "Malcolm Milne",
-      "Kirstie Marshall"
+    "difficulty": "medium",
+    "question": "In rowing, what is the coxswain's role?",
+    "answer": "To steer and direct the crew without rowing",
+    "distractors": [
+      "To set the stroke rate from the bow",
+      "To row at the stern seat",
+      "To time the race from shore"
     ],
-    "answer": 0,
-    "explanation": "In sports, Zali Steggall is the primary answer associated with Which Australian alpine skier won Australia's first individual Winter Olympic medal (bronze in slalom at Nagano 1998).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Zali Steggall** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The cox steers and calls the race while the stroke seat sets the rhythm; coxed and coxless events are scored as separate disciplines.",
+    "hook": "The cox is the only person in the boat facing forwards."
   },
   {
-    "id": "spt_fact_59",
+    "id": "spt_069",
     "category": "sports",
-    "question": "Which Australian cyclist won the yellow jersey at the 2011 Tour de France?",
-    "options": [
-      "Cadel Evans",
-      "Robbie McEwen",
-      "Rohan Dennis",
-      "Richie Porte"
+    "difficulty": "medium",
+    "question": "Which Australian city hosted the 1982 Commonwealth Games?",
+    "answer": "Brisbane",
+    "distractors": [
+      "Melbourne",
+      "Perth",
+      "Sydney"
     ],
-    "answer": 0,
-    "explanation": "In sports, Cadel Evans is the primary answer associated with Which Australian cyclist won the yellow jersey at the 2011 Tour de France.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Cadel Evans** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Perth hosted in 1962, Melbourne in 2006 and the Gold Coast in 2018; the 1982 Games are remembered for the mechanical kangaroo mascot Matilda.",
+    "hook": "The winking mechanical kangaroo is the most enduring thing about those Games."
   },
   {
-    "id": "spt_fact_60",
+    "id": "spt_070",
     "category": "sports",
-    "question": "Which Australian driver won three Formula One World Drivers' Championships (1959, 1960, 1966), building his own car?",
-    "options": [
-      "Sir Jack Brabham",
-      "Alan Jones",
-      "Daniel Ricciardo",
-      "Mark Webber"
+    "difficulty": "medium",
+    "question": "How many strikes does it take to make a perfect game in ten-pin bowling?",
+    "answer": "Twelve",
+    "distractors": [
+      "Ten",
+      "Eleven",
+      "Nine"
     ],
-    "answer": 0,
-    "explanation": "In sports, Sir Jack Brabham is the primary answer associated with Which Australian driver won three Formula One World Drivers' Championships (1959, 1960, 1966), building his own car.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Sir Jack Brabham** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Ten frames plus two bonus balls in the tenth produce a score of 300; the tenth frame allows three deliveries if the first two are strikes.",
+    "hook": "Ten frames but twelve strikes — the last frame gives you two extra balls."
   },
   {
-    "id": "spt_fact_61",
+    "id": "spt_071",
     "category": "sports",
-    "question": "Which Australian driver won the 1980 Formula One World Drivers' Championship driving for Williams?",
-    "options": [
-      "Alan Jones",
-      "Sir Jack Brabham",
-      "Daniel Ricciardo",
-      "Mark Webber"
+    "difficulty": "medium",
+    "question": "Which sport features the positions 'hooker', 'flanker' and 'fly-half'?",
+    "answer": "Rugby union",
+    "distractors": [
+      "Rugby league",
+      "Gaelic football",
+      "American football"
     ],
-    "answer": 0,
-    "explanation": "In sports, Alan Jones is the primary answer associated with Which Australian driver won the 1980 Formula One World Drivers' Championship driving for Williams.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Alan Jones** for this question.",
-    "difficulty": "Medium"
+    "explanation": "League shares the hooker but has no flanker and calls the fly-half a five-eighth, one of the code's clearest terminology differences.",
+    "hook": "Fly-half in union, five-eighth in league — same job, different name."
   },
   {
-    "id": "spt_fact_62",
+    "id": "spt_072",
     "category": "sports",
-    "question": "Which Touring Car driver was known as 'King of the Mountain' for winning the Bathurst 1000 nine times?",
-    "options": [
-      "Peter Brock",
-      "Craig Lowndes",
-      "Dick Johnson",
-      "Allan Moffat"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Peter Brock is the primary answer associated with Which Touring Car driver was known as 'King of the Mountain' for winning the Bathurst 1000 nine times.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Peter Brock** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_63",
-    "category": "sports",
-    "question": "Which Supercars driver won the Bathurst 1000 seven times and accumulated 107 career race wins?",
-    "options": [
-      "Craig Lowndes",
-      "Peter Brock",
-      "Jamie Whincup",
-      "Mark Skaife"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Craig Lowndes is the primary answer associated with Which Supercars driver won the Bathurst 1000 seven times and accumulated 107 career race wins.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Craig Lowndes** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_64",
-    "category": "sports",
-    "question": "Which Australian middle-distance runner won gold in the 800m at the 1968 Mexico City Olympics?",
-    "options": [
-      "Ralph Doubell",
-      "Herb Elliott",
-      "Ron Clarke",
-      "John Landy"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Ralph Doubell is the primary answer associated with Which Australian middle-distance runner won gold in the 800m at the 1968 Mexico City Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ralph Doubell** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_65",
-    "category": "sports",
-    "question": "Which Australian high jumper won gold at the 1956 Melbourne Olympics with a world-record jump?",
-    "options": [
-      "Charles Porter",
-      "John Winter",
-      "Tim Forsyth",
-      "Chilla Porter"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Charles Porter is the primary answer associated with Which Australian high jumper won gold at the 1956 Melbourne Olympics with a world-record jump.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Charles Porter** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_66",
-    "category": "sports",
-    "question": "Which Australian pole vaulter won gold at the 2008 Beijing Olympics with an Olympic record clearance?",
-    "options": [
-      "Steve Hooker",
-      "Dmitri Markov",
-      "Paul Burgess",
-      "Kurtis Marschall"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Steve Hooker is the primary answer associated with Which Australian pole vaulter won gold at the 2008 Beijing Olympics with an Olympic record clearance.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Steve Hooker** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_67",
-    "category": "sports",
-    "question": "Which Australian long jumper won gold at the 2008 Beijing Olympics?",
-    "options": [
-      "Fabrice Lapierre",
-      "Mitchell Watt",
-      "Jai Taurima",
-      "Henry Frayne"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Fabrice Lapierre is the primary answer associated with Which Australian long jumper won gold at the 2008 Beijing Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Fabrice Lapierre** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_68",
-    "category": "sports",
-    "question": "Which Australian walker won gold in the 50km walk at the 2008 Beijing Olympics?",
-    "options": [
-      "Jared Tallent",
-      "Nathan Deakes",
-      "Luke Adams",
-      "Dane Bird-Smith"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Jared Tallent is the primary answer associated with Which Australian walker won gold in the 50km walk at the 2008 Beijing Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Jared Tallent** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_69",
-    "category": "sports",
-    "question": "Which Australian swimmer won gold in the 100m freestyle at the 2016 Rio Olympics?",
-    "options": [
-      "Kyle Chalmers",
-      "Cameron McEvoy",
-      "Mack Horton",
-      "James Magnussen"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Kyle Chalmers is the primary answer associated with Which Australian swimmer won gold in the 100m freestyle at the 2016 Rio Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Kyle Chalmers** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_70",
-    "category": "sports",
-    "question": "Which Australian swimmer won gold in the 400m freestyle at the 2016 Rio Olympics?",
-    "options": [
-      "Mack Horton",
-      "Kyle Chalmers",
-      "Grant Hackett",
-      "Jack McLoughlin"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Mack Horton is the primary answer associated with Which Australian swimmer won gold in the 400m freestyle at the 2016 Rio Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mack Horton** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_71",
-    "category": "sports",
-    "question": "Which Australian swimmer won the 200m and 400m freestyle double at the 2020 Tokyo Olympics?",
-    "options": [
-      "Ariarne Titmus",
-      "Kaylee McKeown",
-      "Emma McKeon",
-      "Cate Campbell"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Ariarne Titmus is the primary answer associated with Which Australian swimmer won the 200m and 400m freestyle double at the 2020 Tokyo Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ariarne Titmus** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_72",
-    "category": "sports",
-    "question": "Which Australian swimmer won 7 medals (4 gold) at the 2020 Tokyo Olympics, the most by any female swimmer at a single Games?",
-    "options": [
-      "Emma McKeon",
-      "Ariarne Titmus",
-      "Kaylee McKeown",
-      "Cate Campbell"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Emma McKeon is the primary answer associated with Which Australian swimmer won 7 medals (4 gold) at the 2020 Tokyo Olympics, the most by any female swimmer at a single Games.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Emma McKeon** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_73",
-    "category": "sports",
-    "question": "Which Australian backstroke swimmer won 3 gold medals at the 2020 Tokyo Olympics?",
-    "options": [
-      "Kaylee McKeown",
-      "Emma McKeon",
-      "Ariarne Titmus",
-      "Emily Seebohm"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Kaylee McKeown is the primary answer associated with Which Australian backstroke swimmer won 3 gold medals at the 2020 Tokyo Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Kaylee McKeown** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_74",
-    "category": "sports",
-    "question": "Which Australian rowers won gold in the men's coxless four at the 1992 Barcelona and 1996 Atlanta Olympics (Oarsome Foursome)?",
-    "options": [
-      "James Tomkins, Drew Ginn, Nick Green, Mike McKay",
-      "Steve Redgrave",
-      "Bede Murray",
-      "Duncan Free"
-    ],
-    "answer": 0,
-    "explanation": "In sports, James Tomkins, Drew Ginn, Nick Green, Mike McKay is the primary answer associated with Which Australian rowers won gold in the men's coxless four at the 1992 Barcelona and 1996 Atlanta Olympics (Oarsome Foursome).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **James Tomkins, Drew Ginn, Nick Green, Mike McKay** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_75",
-    "category": "sports",
-    "question": "Which Australian rowers won gold in the men's pair at the 2008 Beijing Olympics?",
-    "options": [
-      "Drew Ginn and Duncan Free",
-      "James Tomkins and Matthew Pinsent",
-      "David Crawshay and Scott Brennan",
-      "Joshua Dunkley-Smith"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Drew Ginn and Duncan Free is the primary answer associated with Which Australian rowers won gold in the men's pair at the 2008 Beijing Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Drew Ginn and Duncan Free** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_76",
-    "category": "sports",
-    "question": "Which Australian double sculls rowers won gold at the 2008 Beijing Olympics?",
-    "options": [
-      "David Crawshay and Scott Brennan",
-      "Drew Ginn and Duncan Free",
-      "James Tomkins and Nick Green",
-      "Bede Murray"
-    ],
-    "answer": 0,
-    "explanation": "In sports, David Crawshay and Scott Brennan is the primary answer associated with Which Australian double sculls rowers won gold at the 2008 Beijing Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **David Crawshay and Scott Brennan** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_77",
-    "category": "sports",
-    "question": "Which Australian sailor won back-to-back Laser class Olympic gold medals in 2012 and 2016?",
-    "options": [
-      "Tom Slingsby & Tom Burton",
-      "Mat Belcher",
-      "Will Ryan",
-      "Iain Jensen"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Tom Slingsby & Tom Burton is the primary answer associated with Which Australian sailor won back-to-back Laser class Olympic gold medals in 2012 and 2016.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Tom Slingsby & Tom Burton** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_78",
-    "category": "sports",
-    "question": "Which Australian sailor won gold in the 470 class at the 2012 and 2020 Olympics?",
-    "options": [
-      "Mathew Belcher",
-      "Tom Slingsby",
-      "Nathan Outteridge",
-      "Iain Jensen"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Mathew Belcher is the primary answer associated with Which Australian sailor won gold in the 470 class at the 2012 and 2020 Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mathew Belcher** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_79",
-    "category": "sports",
-    "question": "Which Australian BMX racer won gold in the men's BMX freestyle at the 2020 Tokyo Olympics?",
-    "options": [
-      "Logan Martin",
-      "Sam Willoughby",
-      "Anthony Dean",
-      "Saya Sakakibara"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Logan Martin is the primary answer associated with Which Australian BMX racer won gold in the men's BMX freestyle at the 2020 Tokyo Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Logan Martin** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_80",
-    "category": "sports",
-    "question": "Which Australian skateboarder won gold in the men's park event at the 2020 Tokyo Olympics at age 18?",
-    "options": [
-      "Keegan Palmer",
-      "Shane O'Neill",
-      "Poppy Starr Olsen",
-      "Arisa Trew"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Keegan Palmer is the primary answer associated with Which Australian skateboarder won gold in the men's park event at the 2020 Tokyo Olympics at age 18.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Keegan Palmer** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_81",
-    "category": "sports",
-    "question": "Which Australian canoeist won gold in the C1 event at the 2020 Tokyo Olympics and 3 gold at Paris 2024?",
-    "options": [
-      "Jessica Fox",
-      "Noerie Fox",
-      "Ken Wallace",
-      "Clint Robinson"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Jessica Fox is the primary answer associated with Which Australian canoeist won gold in the C1 event at the 2020 Tokyo Olympics and 3 gold at Paris 2024.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Jessica Fox** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_82",
-    "category": "sports",
-    "question": "Which Australian kayaker won gold in the K1 1000m at the 1992 Barcelona Olympics?",
-    "options": [
-      "Clint Robinson",
-      "Ken Wallace",
-      "Jessica Fox",
-      "Thomas Green"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Clint Robinson is the primary answer associated with Which Australian kayaker won gold in the K1 1000m at the 1992 Barcelona Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Clint Robinson** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_83",
-    "category": "sports",
-    "question": "Which Australian kayaker won gold in the K1 500m at the 2008 Beijing Olympics?",
-    "options": [
-      "Ken Wallace",
-      "Clint Robinson",
-      "Thomas Green",
-      "Jean van der Westhuyzen"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Ken Wallace is the primary answer associated with Which Australian kayaker won gold in the K1 500m at the 2008 Beijing Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ken Wallace** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_84",
-    "category": "sports",
-    "question": "Which Australian men's K2 1000m team won gold at the 2020 Tokyo Olympics?",
-    "options": [
-      "Thomas Green and Jean van der Westhuyzen",
-      "Ken Wallace and Lani Belcher",
-      "Clint Robinson and Nathan Baggaley",
-      "Riley Fitzsimmons and Jordan Wood"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Thomas Green and Jean van der Westhuyzen is the primary answer associated with Which Australian men's K2 1000m team won gold at the 2020 Tokyo Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Thomas Green and Jean van der Westhuyzen** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_85",
-    "category": "sports",
-    "question": "Which Australian women's water polo team won gold at the inaugural 2000 Sydney Olympics?",
-    "options": [
-      "The Aussie Stingers",
-      "The Matildas",
-      "The Opals",
-      "The Pearls"
-    ],
-    "answer": 0,
-    "explanation": "Gold's chemical symbol Au comes from 'aurum', the Latin word for gold, meaning 'shining dawn'. Its atomic number is 79.",
-    "tip": "\ud83d\udca1 **Au = Aurum:** Latin for 'shining dawn' (Gold's chemical symbol).",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_86",
-    "category": "sports",
-    "question": "Which Australian national women's basketball team has won multiple Olympic medals?",
-    "options": [
-      "The Opals",
-      "The Matildas",
-      "The Diamonds",
-      "The Stingers"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Opals is the primary answer associated with Which Australian national women's basketball team has won multiple Olympic medals.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Opals** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_87",
-    "category": "sports",
-    "question": "Which Australian national netball team has won 12 World Netball Championships?",
-    "options": [
-      "The Australian Diamonds",
-      "The Opals",
-      "The Matildas",
-      "The Pearls"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Australian Diamonds is the primary answer associated with Which Australian national netball team has won 12 World Netball Championships.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Australian Diamonds** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_88",
-    "category": "sports",
-    "question": "Which Australian national women's football team reached the semi-finals of the 2023 FIFA Women's World Cup?",
-    "options": [
-      "The Matildas",
-      "The Opals",
-      "The Diamonds",
-      "The Wallaroos"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Matildas is the primary answer associated with Which Australian national women's football team reached the semi-finals of the 2023 FIFA Women's World Cup.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Matildas** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_89",
-    "category": "sports",
-    "question": "Which Australian national men's football team reached the Round of 16 at the 2006 and 2022 World Cups?",
-    "options": [
-      "The Socceroos",
-      "The Olyroos",
-      "The Boomers",
-      "The Wallabies"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Socceroos is the primary answer associated with Which Australian national men's football team reached the Round of 16 at the 2006 and 2022 World Cups.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Socceroos** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_90",
-    "category": "sports",
-    "question": "Which Australian national men's basketball team won bronze at the 2020 Tokyo Olympics?",
-    "options": [
-      "The Boomers",
-      "The Opals",
-      "The Socceroos",
-      "The Wallabies"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Boomers is the primary answer associated with Which Australian national men's basketball team won bronze at the 2020 Tokyo Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Boomers** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_91",
-    "category": "sports",
-    "question": "Which Australian national men's rugby union team won the Rugby World Cup in 1991 and 1999?",
-    "options": [
-      "The Wallabies",
-      "The Kangaroos",
-      "The Kookaburras",
-      "The Boomers"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Wallabies is the primary answer associated with Which Australian national men's rugby union team won the Rugby World Cup in 1991 and 1999.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Wallabies** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_92",
-    "category": "sports",
-    "question": "Which Australian national men's rugby league team has won 12 Rugby League World Cups?",
-    "options": [
-      "The Kangaroos",
-      "The Wallabies",
-      "The Socceroos",
-      "The Boomers"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Kangaroos is the primary answer associated with Which Australian national men's rugby league team has won 12 Rugby League World Cups.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Kangaroos** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_93",
-    "category": "sports",
-    "question": "Which Australian national men's field hockey team won gold at the 2004 Athens Olympics?",
-    "options": [
-      "The Kookaburras",
-      "The Hockeyroos",
-      "The Wallabies",
-      "The Boomers"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Kookaburras is the primary answer associated with Which Australian national men's field hockey team won gold at the 2004 Athens Olympics.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Kookaburras** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_94",
-    "category": "sports",
-    "question": "Which Australian national women's field hockey team won 3 Olympic gold medals (1988, 1996, 2000)?",
-    "options": [
-      "The Hockeyroos",
-      "The Kookaburras",
-      "The Matildas",
-      "The Diamonds"
-    ],
-    "answer": 0,
-    "explanation": "In sports, The Hockeyroos is the primary answer associated with Which Australian national women's field hockey team won 3 Olympic gold medals (1988, 1996, 2000).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **The Hockeyroos** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_95",
-    "category": "sports",
-    "question": "Which Australian cricketer hit 66 sixes in Test matches and scored 13,378 Test runs?",
-    "options": [
+    "difficulty": "medium",
+    "question": "Which Australian cricketer scored 380 in a Test innings against Zimbabwe in 2003?",
+    "answer": "Matthew Hayden",
+    "distractors": [
       "Ricky Ponting",
-      "Steve Waugh",
-      "Allan Border",
+      "Michael Clarke",
       "David Warner"
     ],
-    "answer": 0,
-    "explanation": "In sports, Ricky Ponting is the primary answer associated with Which Australian cricketer hit 66 sixes in Test matches and scored 13,378 Test runs.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ricky Ponting** for this question.",
-    "difficulty": "Medium"
+    "explanation": "It stood as the highest individual Test score for six months until Brian Lara made 400 not out against England in 2004.",
+    "hook": "The record lasted six months before Lara took it back with 400."
   },
   {
-    "id": "spt_fact_96",
+    "id": "spt_073",
     "category": "sports",
-    "question": "Which Australian cricketer was the first player in history to score 11,000 Test runs?",
-    "options": [
-      "Allan Border",
-      "Steve Waugh",
-      "Ricky Ponting",
-      "Mark Taylor"
+    "difficulty": "medium",
+    "question": "In which sport is the Davis Cup contested?",
+    "answer": "Tennis",
+    "distractors": [
+      "Golf",
+      "Sailing",
+      "Cycling"
     ],
-    "answer": 0,
-    "explanation": "In sports, Allan Border is the primary answer associated with Which Australian cricketer was the first player in history to score 11,000 Test runs.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Allan Border** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Founded in 1900 as an international men's team competition; the women's equivalent is the Billie Jean King Cup, formerly the Fed Cup.",
+    "hook": "Davis Cup men, Billie Jean King Cup women — same idea, two trophies."
   },
   {
-    "id": "spt_fact_97",
+    "id": "spt_074",
     "category": "sports",
-    "question": "Which Australian wicketkeeper-batsman scored 17 Test centuries and took 416 dismissals?",
-    "options": [
-      "Adam Gilchrist",
-      "Ian Healy",
-      "Rod Marsh",
-      "Brad Haddin"
+    "difficulty": "medium",
+    "question": "Which Australian rugby league club has won the most premierships?",
+    "answer": "South Sydney Rabbitohs",
+    "distractors": [
+      "St George Dragons",
+      "Sydney Roosters",
+      "Brisbane Broncos"
     ],
-    "answer": 0,
-    "explanation": "In sports, Adam Gilchrist is the primary answer associated with Which Australian wicketkeeper-batsman scored 17 Test centuries and took 416 dismissals.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Adam Gilchrist** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Souths have twenty-one titles, most from the early decades; St George's eleven consecutive premierships from 1956 to 1966 remain unmatched in Australian sport.",
+    "hook": "Eleven premierships in a row by St George is the most dominant run in Australian sport."
   },
   {
-    "id": "spt_fact_98",
+    "id": "spt_075",
     "category": "sports",
-    "question": "Which Australian wicketkeeper took 395 Test dismissals between 1988 and 1999?",
-    "options": [
-      "Ian Healy",
-      "Adam Gilchrist",
-      "Rod Marsh",
-      "Wally Grout"
+    "difficulty": "medium",
+    "question": "How many players are on a volleyball team on court?",
+    "answer": "Six",
+    "distractors": [
+      "Five",
+      "Seven",
+      "Eight"
     ],
-    "answer": 0,
-    "explanation": "In sports, Ian Healy is the primary answer associated with Which Australian wicketkeeper took 395 Test dismissals between 1988 and 1999.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ian Healy** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Beach volleyball uses two per side; the libero is a defensive specialist in indoor volleyball who wears a different coloured shirt and cannot attack.",
+    "hook": "Six indoors, two on the sand, and one of the six wears a different shirt."
   },
   {
-    "id": "spt_fact_99",
+    "id": "spt_076",
     "category": "sports",
-    "question": "Which Australian wicketkeeper formed a legendary combination with fast bowler Dennis Lillee ('c Marsh b Lillee' 95 times)?",
-    "options": [
-      "Rod Marsh",
-      "Ian Healy",
-      "Adam Gilchrist",
-      "Wally Grout"
-    ],
-    "answer": 0,
-    "explanation": "In sports, Rod Marsh is the primary answer associated with Which Australian wicketkeeper formed a legendary combination with fast bowler Dennis Lillee ('c Marsh b Lillee' 95 times).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Rod Marsh** for this question.",
-    "difficulty": "Medium"
-  },
-  {
-    "id": "spt_fact_100",
-    "category": "sports",
-    "question": "Which Australian fast bowler took 355 Test wickets between 1971 and 1984?",
-    "options": [
-      "Dennis Lillee",
-      "Jeff Thomson",
+    "difficulty": "hard",
+    "question": "Which Australian bowler took a hat-trick in the 1994 Ashes at the MCG?",
+    "answer": "Shane Warne",
+    "distractors": [
       "Glenn McGrath",
-      "Craig McDermott"
+      "Craig McDermott",
+      "Merv Hughes"
     ],
-    "answer": 0,
-    "explanation": "In sports, Dennis Lillee is the primary answer associated with Which Australian fast bowler took 355 Test wickets between 1971 and 1984.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Dennis Lillee** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He dismissed Phil DeFreitas, Darren Gough and Devon Malcolm on Boxing Day; it was the first Ashes hat-trick by an Australian since Hugh Trumble in 1904.",
+    "hook": "The first Australian Ashes hat-trick in ninety years."
   },
   {
-    "id": "spt_fact_101",
+    "id": "spt_077",
     "category": "sports",
-    "question": "Which Australian fast bowler was famed for his slinging action and extreme speed in the 1970s alongside Dennis Lillee?",
-    "options": [
-      "Jeff Thomson",
-      "Dennis Lillee",
-      "Len Pascoe",
-      "Rodney Hogg"
+    "difficulty": "hard",
+    "question": "Which Australian won an Olympic gold medal in speed skating in 2002?",
+    "answer": "Steven Bradbury",
+    "distractors": [
+      "Alisa Camplin",
+      "Dale Begg-Smith",
+      "Torah Bright"
     ],
-    "answer": 0,
-    "explanation": "In sports, Jeff Thomson is the primary answer associated with Which Australian fast bowler was famed for his slinging action and extreme speed in the 1970s alongside Dennis Lillee.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Jeff Thomson** for this question.",
-    "difficulty": "Medium"
+    "explanation": "He won the 1000m short track when every other finalist crashed on the last corner; Alisa Camplin won aerial skiing gold at the same Games days later.",
+    "hook": "Australia's first Winter gold came from being the last man standing, literally."
   },
   {
-    "id": "spt_fact_102",
+    "id": "spt_078",
     "category": "sports",
-    "question": "Which Australian fast bowler took 313 Test wickets, including 8 for 53 at Lord's in 1997?",
-    "options": [
-      "Mitchell Johnson",
-      "Brett Lee",
-      "Jason Gillespie",
-      "Craig McDermott"
+    "difficulty": "hard",
+    "question": "Which cricketer has the highest individual score in a Test innings?",
+    "answer": "Brian Lara",
+    "distractors": [
+      "Matthew Hayden",
+      "Don Bradman",
+      "Virender Sehwag"
     ],
-    "answer": 0,
-    "explanation": "In sports, Mitchell Johnson is the primary answer associated with Which Australian fast bowler took 313 Test wickets, including 8 for 53 at Lord's in 1997.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mitchell Johnson** for this question.",
-    "difficulty": "Medium"
+    "explanation": "His 400 not out against England in Antigua in 2004 reclaimed the record he had lost to Matthew Hayden; he also holds the first-class record with 501 not out.",
+    "hook": "He holds both the Test record with 400 and the first-class record with 501."
   },
   {
-    "id": "spt_fact_103",
+    "id": "spt_079",
     "category": "sports",
-    "question": "Which Australian left-arm fast bowler took 37 wickets in the 2013-14 Ashes series sweep?",
-    "options": [
-      "Mitchell Johnson",
-      "Mitchell Starc",
-      "Glenn McGrath",
-      "Brett Lee"
+    "difficulty": "hard",
+    "question": "What is the record number of Melbourne Cups won by a single jockey?",
+    "answer": "Four",
+    "distractors": [
+      "Three",
+      "Five",
+      "Seven"
     ],
-    "answer": 0,
-    "explanation": "In sports, Mitchell Johnson is the primary answer associated with Which Australian left-arm fast bowler took 37 wickets in the 2013-14 Ashes series sweep.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mitchell Johnson** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Bobby Lewis managed it between 1902 and 1927 and Harry White between 1974 and 1979; Glen Boss won three consecutively aboard Makybe Diva.",
+    "hook": "Four Cups each for two jockeys fifty years apart, and nobody has reached five."
   },
   {
-    "id": "spt_fact_104",
+    "id": "spt_080",
     "category": "sports",
-    "question": "Which Australian left-arm fast bowler holds the record for most wickets in a single Cricket World Cup (27 in 2019)?",
-    "options": [
-      "Mitchell Starc",
-      "Mitchell Johnson",
-      "Glenn McGrath",
-      "Brett Lee"
+    "difficulty": "hard",
+    "question": "In which year did Australia first compete at the Olympic Games as a nation rather than as individuals?",
+    "answer": "1908",
+    "distractors": [
+      "1896",
+      "1900",
+      "1920"
     ],
-    "answer": 0,
-    "explanation": "In sports, Mitchell Starc is the primary answer associated with Which Australian left-arm fast bowler holds the record for most wickets in a single Cricket World Cup (27 in 2019).",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Mitchell Starc** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Edwin Flack competed in Athens in 1896 as an individual; from 1908 to 1912 Australia and New Zealand competed jointly as Australasia before separating.",
+    "hook": "For two Games Australia and New Zealand competed as one team called Australasia."
   },
   {
-    "id": "spt_fact_105",
+    "id": "spt_081",
     "category": "sports",
-    "question": "Which Australian off-spinner has taken over 500 Test wickets, known as 'Garry' or 'GOAT'?",
-    "options": [
+    "difficulty": "hard",
+    "question": "Which Australian tennis player won all four grand slams in 1970?",
+    "answer": "Margaret Court",
+    "distractors": [
+      "Evonne Goolagong Cawley",
+      "Rod Laver",
+      "Ken Rosewall"
+    ],
+    "explanation": "She is one of only three women to complete a calendar-year grand slam in singles, alongside Maureen Connolly and Steffi Graf.",
+    "hook": "Three women have done the calendar slam in singles, and she is the Australian."
+  },
+  {
+    "id": "spt_082",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which sport's rules were codified at Rugby School and spread through the British Empire?",
+    "answer": "Rugby football",
+    "distractors": [
+      "Association football",
+      "Cricket",
+      "Field hockey"
+    ],
+    "explanation": "The story of William Webb Ellis picking up the ball in 1823 is almost certainly apocryphal, but the World Cup trophy is named after him regardless.",
+    "hook": "The founding story is probably invented, and they named the World Cup after it anyway."
+  },
+  {
+    "id": "spt_083",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which AFL club was formed by the 1996 merger of Fitzroy and the Brisbane Bears?",
+    "answer": "The Brisbane Lions",
+    "distractors": [
+      "The Sydney Swans",
+      "The Western Bulldogs",
+      "The Kangaroos"
+    ],
+    "explanation": "The Sydney Swans were not a merger but a relocation, having moved north from South Melbourne in 1982.",
+    "hook": "Brisbane is a merger; Sydney is a relocation — two different things."
+  },
+  {
+    "id": "spt_084",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which bowling tactic did England use against Australia in the 1932-33 Ashes series?",
+    "answer": "Bodyline",
+    "distractors": [
+      "Underarm bowling",
+      "The doosra",
+      "Leg theory spin"
+    ],
+    "explanation": "Fast bowling at the batsman's body with a packed leg-side field was designed to counter Bradman; it caused a diplomatic incident and the laws were later changed.",
+    "hook": "A cricket tactic that became a genuine diplomatic incident between two governments."
+  },
+  {
+    "id": "spt_085",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which incident in 1981 saw an Australian bowler roll the ball along the ground to deny New Zealand a six?",
+    "answer": "The underarm incident",
+    "distractors": [
+      "The Bodyline series",
+      "The Chappell-Hadlee dispute",
+      "The Auckland walk-off"
+    ],
+    "explanation": "Trevor Chappell bowled underarm on his captain and brother Greg's instruction; it was legal at the time and was banned in one-day cricket immediately afterwards.",
+    "hook": "It was entirely legal, which is precisely why the law was changed within days."
+  },
+  {
+    "id": "spt_086",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won consecutive Olympic gold medals in the 400m freestyle in 2000 and 2004?",
+    "answer": "Ian Thorpe",
+    "distractors": [
+      "Grant Hackett",
+      "Kieren Perkins",
+      "Mack Horton"
+    ],
+    "explanation": "Grant Hackett won the 1500m at both Games, and Kieren Perkins had won that event in 1992 and 1996 — four consecutive Olympic 1500m titles for Australia.",
+    "hook": "Perkins then Hackett gave Australia four straight Olympic 1500m titles."
+  },
+  {
+    "id": "spt_087",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which country won the first Rugby World Cup in 1987?",
+    "answer": "New Zealand",
+    "distractors": [
+      "Australia",
+      "South Africa",
+      "England"
+    ],
+    "explanation": "Australia won in 1991 and 1999, South Africa in 1995, 2007, 2019 and 2023; South Africa was excluded from the first two tournaments over apartheid.",
+    "hook": "South Africa missed the first two World Cups entirely and has since won four."
+  },
+  {
+    "id": "spt_088",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian athlete won gold in the 1500m at the 1960 Rome Olympics?",
+    "answer": "Herb Elliott",
+    "distractors": [
+      "John Landy",
+      "Ron Clarke",
+      "Percy Cerutty"
+    ],
+    "explanation": "He won by a record margin in world-record time and was never beaten over the mile or 1500m in his career; Percy Cerutty was his coach.",
+    "hook": "Never beaten over the mile or 1500m, ever, in his entire career."
+  },
+  {
+    "id": "spt_089",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which golf tournament is played at the same course every year?",
+    "answer": "The Masters",
+    "distractors": [
+      "The Open Championship",
+      "The US Open",
+      "The PGA Championship"
+    ],
+    "explanation": "Augusta National has hosted it since 1934; the other three majors rotate venues, and the Open uses a fixed pool of links courses.",
+    "hook": "The only major with a permanent home."
+  },
+  {
+    "id": "spt_090",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What is the highest number of Brownlow Medals won by any single player?",
+    "answer": "Three",
+    "distractors": [
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "explanation": "Haydn Bunton Senior, Dick Reynolds, Bob Skilton and Ian Stewart each won three; no player has managed a fourth in the medal's century of history.",
+    "hook": "Four players on three each, and nobody has ever won a fourth."
+  },
+  {
+    "id": "spt_091",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian beat world record holder Matt Biondi in the 1988 200m freestyle?",
+    "answer": "Duncan Armstrong",
+    "distractors": [
+      "Jon Sieben",
+      "Neil Brooks",
+      "Michael Klim"
+    ],
+    "explanation": "Swimming from lane six, he drafted off Biondi's wash for most of the race and won in world record time in Seoul.",
+    "hook": "He beat the world record holder by surfing his wash from the next lane."
+  },
+  {
+    "id": "spt_092",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian boxer held a world title and was known as 'The Man'?",
+    "answer": "Jeff Fenech",
+    "distractors": [
+      "Lionel Rose",
+      "Kostya Tszyu",
+      "Anthony Mundine"
+    ],
+    "explanation": "He won world titles in three weight divisions; Lionel Rose was the first Indigenous Australian world champion, taking the bantamweight title in 1968.",
+    "hook": "Lionel Rose was first, in 1968, and became Australian of the Year for it."
+  },
+  {
+    "id": "spt_093",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In cricket, what is the fielding position directly behind the wicketkeeper called?",
+    "answer": "Long stop",
+    "distractors": [
+      "Fine leg",
+      "Third man",
+      "Gully"
+    ],
+    "explanation": "It is rarely used in modern cricket now that keepers reliably stop the ball; fine leg and third man are behind square on either side.",
+    "hook": "A position so obsolete that seeing one used is itself the news."
+  },
+  {
+    "id": "spt_094",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won the Wimbledon men's singles in 1987?",
+    "answer": "Pat Cash",
+    "distractors": [
+      "John Newcombe",
+      "Lleyton Hewitt",
+      "Pat Rafter"
+    ],
+    "explanation": "He climbed into the players' box to reach his family after beating Ivan Lendl, starting a tradition later copied by many champions.",
+    "hook": "He invented the climb into the players' box after winning."
+  },
+  {
+    "id": "spt_095",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How many countries have hosted the Summer Olympics more than twice?",
+    "answer": "Two",
+    "distractors": [
+      "One",
+      "Four",
+      "Six"
+    ],
+    "explanation": "The United States has hosted four times and will host a fifth in 2028; the United Kingdom has hosted three, all in London.",
+    "hook": "London is the only city to host three times."
+  },
+  {
+    "id": "spt_096",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian sprinter set a 200m world record in 1968 that stood for decades in Australian terms?",
+    "answer": "Peter Norman",
+    "distractors": [
+      "Raelene Boyle",
+      "Matt Shirvington",
+      "Patrick Johnson"
+    ],
+    "explanation": "His 20.06 seconds in Mexico City remains the Australian record; he wore a human rights badge on the podium in support of Smith and Carlos and was ostracised afterwards.",
+    "hook": "The third man on that famous podium was Australian, and it cost him his career."
+  },
+  {
+    "id": "spt_097",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which sport's world governing body is the FIA?",
+    "answer": "Motorsport",
+    "distractors": [
+      "Cycling",
+      "Athletics",
+      "Sailing"
+    ],
+    "explanation": "The Fédération Internationale de l'Automobile governs Formula One and rallying; cycling's body is the UCI, athletics' is World Athletics and sailing's is World Sailing.",
+    "hook": "FIA cars, UCI bikes, FINA swimming — the acronyms are all French in origin."
+  },
+  {
+    "id": "spt_098",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian cricketer captained the side in the 2018 ball-tampering incident in South Africa?",
+    "answer": "Steve Smith",
+    "distractors": [
+      "Tim Paine",
+      "Michael Clarke",
+      "David Warner"
+    ],
+    "explanation": "He and David Warner received twelve-month bans and Cameron Bancroft nine months; Tim Paine took over the captaincy immediately afterwards.",
+    "hook": "Two twelve-month bans and a captaincy change inside a week."
+  },
+  {
+    "id": "spt_099",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian yacht race runs from Sydney on Boxing Day?",
+    "answer": "The Sydney to Hobart",
+    "distractors": [
+      "The Brisbane to Gladstone",
+      "The Melbourne to Osaka",
+      "The Fremantle to Bali"
+    ],
+    "explanation": "Run since 1945 over 628 nautical miles, the 1998 race killed six sailors when a violent storm struck the fleet in Bass Strait.",
+    "hook": "The 1998 race killed six sailors and rewrote offshore safety rules worldwide."
+  },
+  {
+    "id": "spt_100",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian was the first woman to win an Olympic marathon medal for the country?",
+    "answer": "Lisa Ondieki",
+    "distractors": [
+      "Kerryn McCann",
+      "Benita Willis",
+      "Jess Trengove"
+    ],
+    "explanation": "She took silver in Seoul in 1988 competing as Lisa Martin; Kerryn McCann won Commonwealth Games marathon golds in 2002 and 2006.",
+    "hook": "Silver in Seoul 1988 — Australia's only Olympic marathon medal by a woman."
+  },
+  {
+    "id": "spt_101",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In rugby league, what is the Dally M Medal awarded for?",
+    "answer": "The best player of the NRL season",
+    "distractors": [
+      "The best forward of the season",
+      "The grand final's best player",
+      "The season's top try scorer"
+    ],
+    "explanation": "Named for Dally Messenger, an early code-switching star; the Clive Churchill Medal goes to the best player in the grand final.",
+    "hook": "Dally M for the season, Clive Churchill for the grand final."
+  },
+  {
+    "id": "spt_102",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won an Olympic gold medal in the 1500m freestyle in 1992 and 1996?",
+    "answer": "Kieren Perkins",
+    "distractors": [
+      "Grant Hackett",
+      "Ian Thorpe",
+      "Duncan Armstrong"
+    ],
+    "explanation": "His 1996 win came from lane eight after barely qualifying for the final, one of the most improbable title defences in Olympic swimming.",
+    "hook": "He defended the title from lane eight after scraping into the final."
+  },
+  {
+    "id": "spt_103",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which country introduced the modern marathon distance of 42.195 kilometres?",
+    "answer": "The United Kingdom",
+    "distractors": [
+      "Greece",
+      "France",
+      "The United States"
+    ],
+    "explanation": "The 1908 London Olympics extended the course so it could start at Windsor Castle and finish before the royal box; the distance was standardised in 1921.",
+    "hook": "The odd distance exists so the race could finish in front of the royal box."
+  },
+  {
+    "id": "spt_104",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian racehorse won thirty-three consecutive races between 2015 and 2019?",
+    "answer": "Winx",
+    "distractors": [
+      "Black Caviar",
+      "Makybe Diva",
+      "Sunline"
+    ],
+    "explanation": "She won four Cox Plates in a row; Black Caviar retired unbeaten after twenty-five starts, all at sprint distances.",
+    "hook": "Thirty-three in a row for Winx, twenty-five unbeaten for Black Caviar."
+  },
+  {
+    "id": "spt_105",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which sport uses the terms 'peloton', 'domestique' and 'echelon'?",
+    "answer": "Road cycling",
+    "distractors": [
+      "Rowing",
+      "Speed skating",
+      "Cross-country skiing"
+    ],
+    "explanation": "A domestique sacrifices their own result to support the team leader; an echelon is a diagonal formation used to shelter from crosswinds.",
+    "hook": "The domestique is a rider paid to lose so someone else can win."
+  },
+  {
+    "id": "spt_106",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian AFL team entered the competition in 2012 as its eighteenth club?",
+    "answer": "Greater Western Sydney Giants",
+    "distractors": [
+      "Gold Coast Suns",
+      "Port Adelaide",
+      "Fremantle"
+    ],
+    "explanation": "The Gold Coast Suns entered in 2011 as the seventeenth, and the two expansion clubs received significant draft concessions to build lists from scratch.",
+    "hook": "Gold Coast 2011, GWS 2012 — the last two clubs added."
+  },
+  {
+    "id": "spt_107",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In cricket, what does a bowler's economy rate measure?",
+    "answer": "Runs conceded per over",
+    "distractors": [
+      "Runs conceded per wicket",
+      "Balls bowled per wicket",
+      "Wickets per match"
+    ],
+    "explanation": "Average is runs per wicket and strike rate is balls per wicket; economy matters most in limited-overs cricket where containment can outweigh wicket-taking.",
+    "hook": "Economy per over, average per wicket, strike rate in balls."
+  },
+  {
+    "id": "spt_108",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won Olympic gold in the men's 100m butterfly in 1984?",
+    "answer": "Jon Sieben",
+    "distractors": [
+      "Duncan Armstrong",
+      "Neil Brooks",
+      "Michael Klim"
+    ],
+    "explanation": "He came from fifth at the turn to beat world record holder Michael Gross in Los Angeles, taking almost two seconds off his personal best.",
+    "hook": "He improved his own best by nearly two seconds to win — in a final."
+  },
+  {
+    "id": "spt_109",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which nation won the most medals at the 2020 Tokyo Paralympic Games?",
+    "answer": "China",
+    "distractors": [
+      "Great Britain",
+      "The United States",
+      "Australia"
+    ],
+    "explanation": "China has topped the Paralympic medal table at every Summer Games since 2004; Australia finished eighth in Tokyo with eighty medals.",
+    "hook": "China has topped the Paralympic table at every Games since Athens."
+  },
+  {
+    "id": "spt_110",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian golfer led the 1996 US Masters by six shots and lost?",
+    "answer": "Greg Norman",
+    "distractors": [
+      "Adam Scott",
+      "Jason Day",
+      "Craig Parry"
+    ],
+    "explanation": "He shot 78 in the final round while Nick Faldo shot 67, a collapse that remains one of golf's most discussed final days.",
+    "hook": "Six shots up on Sunday morning, five behind by Sunday night."
+  },
+  {
+    "id": "spt_111",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian sprinter won four Commonwealth Games gold medals in the 1970s?",
+    "answer": "Raelene Boyle",
+    "distractors": [
+      "Marjorie Jackson",
+      "Betty Cuthbert",
+      "Melinda Gainsford-Taylor"
+    ],
+    "explanation": "She won three Olympic silvers, all behind East German sprinters later implicated in state doping programmes; Betty Cuthbert won four Olympic golds in the 1950s and 1960s.",
+    "hook": "Three Olympic silvers, all behind athletes from a state doping programme."
+  },
+  {
+    "id": "spt_112",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which sport contests the Webb Ellis Cup?",
+    "answer": "Rugby union",
+    "distractors": [
+      "Rugby league",
+      "American football",
+      "Gaelic football"
+    ],
+    "explanation": "Rugby league's world championship trophy is the Paul Barrière Trophy; Australia has won the league world cup twelve times, more than any other nation in any code.",
+    "hook": "Australia has twelve rugby league world cups — the most dominant record in any team sport."
+  },
+  {
+    "id": "spt_113",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian cricket ground hosts the traditional Boxing Day Test?",
+    "answer": "The Melbourne Cricket Ground",
+    "distractors": [
+      "The Sydney Cricket Ground",
+      "The Gabba",
+      "Adelaide Oval"
+    ],
+    "explanation": "The SCG traditionally holds the New Year Test that follows; crowds at the MCG on the first day regularly exceed 80,000.",
+    "hook": "Boxing Day in Melbourne, New Year in Sydney — the summer's fixed points."
+  },
+  {
+    "id": "spt_114",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which country has won the most Olympic medals in sailing?",
+    "answer": "Great Britain",
+    "distractors": [
+      "Australia",
+      "The United States",
+      "Denmark"
+    ],
+    "explanation": "Britain has topped the Olympic sailing medal table at several recent Games; Australia's most successful sailors include Tom Burton and the 470 crews.",
+    "hook": "The island nation that invented yacht racing still leads the medal table."
+  },
+  {
+    "id": "spt_115",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In tennis, what is the tiebreak score required to win a standard set tiebreak?",
+    "answer": "Seven points with a margin of two",
+    "distractors": [
+      "Six points with a margin of two",
+      "Ten points with a margin of two",
+      "Five points outright"
+    ],
+    "explanation": "Final-set rules varied for decades until the four slams standardised on a ten-point tiebreak at six games all in 2022.",
+    "hook": "The four slams only agreed on a single final-set rule in 2022."
+  },
+  {
+    "id": "spt_116",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won the Formula One world championship in 1959, 1960 and 1966?",
+    "answer": "Jack Brabham",
+    "distractors": [
+      "Alan Jones",
+      "Mark Webber",
+      "Larry Perkins"
+    ],
+    "explanation": "His 1966 title came in a car built by his own team, making him the only driver ever to win a world championship in a car bearing his own name.",
+    "hook": "The only champion to beat everyone in a car with his own name on it."
+  },
+  {
+    "id": "spt_117",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which cricket format was introduced in England in 2003 and revolutionised the sport commercially?",
+    "answer": "Twenty20",
+    "distractors": [
+      "One Day Internationals",
+      "The Hundred",
+      "List A cricket"
+    ],
+    "explanation": "Designed to fit an evening, it produced the Indian Premier League in 2008, now the wealthiest cricket competition in the world by a wide margin.",
+    "hook": "Invented to fill English evenings, and it made Indian cricket the richest in the world."
+  },
+  {
+    "id": "spt_118",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who was the first Indigenous Australian to represent the country in any sport?",
+    "answer": "Faith Thomas",
+    "distractors": [
+      "Lionel Rose",
+      "Evonne Goolagong Cawley",
+      "Jason Gillespie"
+    ],
+    "explanation": "She played cricket for Australia in 1958; Lionel Rose became world bantamweight boxing champion in 1968 and was named Australian of the Year for it.",
+    "hook": "A fast bowler in 1958, a decade before Lionel Rose won his world title."
+  },
+  {
+    "id": "spt_119",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian AFL competition began a national women's league in 2017?",
+    "answer": "AFL Women's",
+    "distractors": [
+      "The W-League",
+      "Super Netball",
+      "The WBBL"
+    ],
+    "explanation": "AFLW launched in 2017 with eight clubs; the Women's Big Bash League in cricket had begun in 2015 and the W-League in soccer in 2008.",
+    "hook": "W-League 2008, WBBL 2015, AFLW 2017 — the order Australian women's leagues arrived."
+  },
+  {
+    "id": "spt_120",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which nation won the inaugural Women's Cricket World Cup in 1973?",
+    "answer": "England",
+    "distractors": [
+      "Australia",
+      "New Zealand",
+      "India"
+    ],
+    "explanation": "It was held two years before the first men's tournament; Australia has since won the competition more times than any other nation.",
+    "hook": "The women's World Cup predates the men's by two years."
+  },
+  {
+    "id": "spt_121",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian holds the record for the most Test wickets by a spin bowler after Muttiah Muralitharan?",
+    "answer": "Shane Warne",
+    "distractors": [
       "Nathan Lyon",
-      "Shane Warne",
-      "Ashley Mallett",
+      "Clarrie Grimmett",
       "Stuart MacGill"
     ],
-    "answer": 0,
-    "explanation": "In sports, Nathan Lyon is the primary answer associated with Which Australian off-spinner has taken over 500 Test wickets, known as 'Garry' or 'GOAT'.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Nathan Lyon** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Muralitharan finished with 800 and Warne 708; Nathan Lyon has become Australia's most successful off-spinner and passed 500.",
+    "hook": "800 for Murali, 708 for Warne, and Lyon past 500 — the spin ladder."
   },
   {
-    "id": "spt_fact_106",
+    "id": "spt_122",
     "category": "sports",
-    "question": "Which Australian leg-spinner took 208 Test wickets despite playing in the shadow of Shane Warne?",
-    "options": [
-      "Stuart MacGill",
-      "Shane Warne",
-      "Nathan Lyon",
-      "Brad Hogg"
+    "difficulty": "hard",
+    "question": "In which sport did Australia win its first Olympic gold medal at a Winter Games?",
+    "answer": "Short track speed skating",
+    "distractors": [
+      "Aerial skiing",
+      "Snowboarding",
+      "Moguls"
     ],
-    "answer": 0,
-    "explanation": "In sports, Stuart MacGill is the primary answer associated with Which Australian leg-spinner took 208 Test wickets despite playing in the shadow of Shane Warne.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Stuart MacGill** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Steven Bradbury's 2002 win in the 1000m came days before Alisa Camplin's aerial skiing gold at the same Games.",
+    "hook": "Two Australian Winter golds within a week, after a century of none."
   },
   {
-    "id": "spt_fact_107",
+    "id": "spt_123",
     "category": "sports",
-    "question": "Which Australian batsman scored twin centuries in his final Test match against South Africa in 2006?",
-    "options": [
-      "Ricky Ponting",
-      "Steve Waugh",
-      "Justin Langer",
-      "Matthew Hayden"
+    "difficulty": "hard",
+    "question": "Which international football tournament did Australia first qualify for in 1974 before a thirty-two-year absence?",
+    "answer": "The FIFA World Cup",
+    "distractors": [
+      "The Asian Cup",
+      "The Confederations Cup",
+      "The Olympic Games"
     ],
-    "answer": 0,
-    "explanation": "In sports, Ricky Ponting is the primary answer associated with Which Australian batsman scored twin centuries in his final Test match against South Africa in 2006.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Ricky Ponting** for this question.",
-    "difficulty": "Medium"
+    "explanation": "The Socceroos next qualified in 2006 after beating Uruguay on penalties, and Australia moved from the Oceania to the Asian confederation the same year.",
+    "hook": "One appearance in 1974, then nothing until a penalty shootout in 2005."
   },
   {
-    "id": "spt_fact_108",
+    "id": "spt_124",
     "category": "sports",
-    "question": "Which Australian opening partnership comprised 5,655 runs across 113 Test innings between 1997 and 2007?",
-    "options": [
-      "Matthew Hayden and Justin Langer",
-      "Mark Taylor and Michael Slater",
-      "David Warner and Aaron Finch",
-      "Bill Lawry and Bob Simpson"
+    "difficulty": "hard",
+    "question": "Which Australian tennis player won the US Open in 1997 and 1998?",
+    "answer": "Pat Rafter",
+    "distractors": [
+      "Pat Cash",
+      "Lleyton Hewitt",
+      "Mark Philippoussis"
     ],
-    "answer": 0,
-    "explanation": "In sports, Matthew Hayden and Justin Langer is the primary answer associated with Which Australian opening partnership comprised 5,655 runs across 113 Test innings between 1997 and 2007.",
-    "tip": "\ud83d\udca1 **Trivia Focus:** Remember **Matthew Hayden and Justin Langer** for this question.",
-    "difficulty": "Medium"
+    "explanation": "Lleyton Hewitt won the US Open in 2001 and Wimbledon in 2002, and was the youngest man to reach world number one at twenty.",
+    "hook": "Rafter took two US Opens; Hewitt took the third Australian one in 2001."
+  },
+  {
+    "id": "spt_125",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian sports institution was founded in Canberra in 1981 after a poor Olympic showing?",
+    "answer": "The Australian Institute of Sport",
+    "distractors": [
+      "The Australian Sports Commission",
+      "Sport Australia",
+      "The Olympic Winter Institute"
+    ],
+    "explanation": "Australia won no gold at the 1976 Montreal Games, prompting its creation; the model has since been copied by Britain, Canada and others.",
+    "hook": "Zero golds in Montreal produced the institute that fixed it."
+  },
+  {
+    "id": "spt_126",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many players are on a cricket team on the field?",
+    "answer": "Eleven",
+    "distractors": [
+      "Nine",
+      "Ten",
+      "Twelve"
+    ],
+    "explanation": "Eleven per side, with a twelfth man permitted to field as a substitute but not to bat, bowl or keep wicket in the traditional laws.",
+    "hook": "The twelfth man can field and carry drinks, and nothing else."
+  },
+  {
+    "id": "spt_127",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian won the Wimbledon women's doubles and reached the 2011 US Open final?",
+    "answer": "Sam Stosur",
+    "distractors": [
+      "Ashleigh Barty",
+      "Jelena Dokic",
+      "Alicia Molik"
+    ],
+    "explanation": "She won the 2011 US Open singles title, beating Serena Williams in straight sets, and was a former doubles world number one.",
+    "hook": "She beat Serena Williams in a US Open final in straight sets."
+  },
+  {
+    "id": "spt_128",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In which sport do teams compete for the Sheffield Shield's one-day equivalent?",
+    "answer": "Cricket",
+    "distractors": [
+      "Hockey",
+      "Baseball",
+      "Softball"
+    ],
+    "explanation": "The domestic one-day competition has run under many sponsor names since 1969; the Shield remains the four-day first-class competition.",
+    "hook": "Shield for the long form, and the one-day cup keeps changing its name."
+  },
+  {
+    "id": "spt_129",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won an Olympic gold medal in the women's 400m freestyle in 2021?",
+    "answer": "Ariarne Titmus",
+    "distractors": [
+      "Emma McKeon",
+      "Kaylee McKeown",
+      "Cate Campbell"
+    ],
+    "explanation": "She beat Katie Ledecky, who had been unbeaten in major finals over the distance for years; her coach's reaction became one of the Games' defining images.",
+    "hook": "Her coach's celebration got more airtime than the race."
+  },
+  {
+    "id": "spt_130",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian rules football rule change of 1973 introduced the centre square?",
+    "answer": "The centre square restriction",
+    "distractors": [
+      "The interchange bench rule",
+      "The out of bounds on the full rule",
+      "The blood rule"
+    ],
+    "explanation": "It limited the number of players allowed inside the square at a centre bounce to four per team, breaking up the congestion of unrestricted ruck contests.",
+    "hook": "Four players a side inside the square — the first serious attempt to stop congestion."
   }
 ]

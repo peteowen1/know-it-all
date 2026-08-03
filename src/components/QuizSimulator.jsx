@@ -1,404 +1,359 @@
-import React, { useState, useEffect } from 'react';
-import { CATEGORIES, ALL_QUESTIONS } from '../data/questionsData';
-import { HelpCircle, CheckCircle2, XCircle, Lightbulb, ArrowRight, RotateCcw, Award, Clock, Eye, Check, X, ChevronDown, ChevronUp, List, Layers } from 'lucide-react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import {
+  HelpCircle, CheckCircle2, XCircle, ArrowRight, RotateCcw, Clock, Eye,
+  Check, X, ChevronDown, ChevronUp, List, Layers, Scissors, Brain
+} from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { CATEGORIES } from '../data/categories';
 
-export default function QuizSimulator({ questions, isDailyMode = false, onCompleteQuiz, onSaveMissedQuestion }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [isAnswered, setIsAnswered] = useState(false);
-  const [showHint, setShowHint] = useState(false);
-  const [userAnswers, setUserAnswers] = useState({});
+const GRADES = [
+  { min: 92, title: 'Quizmaster', badge: '🏆', note: 'You would win the pub.' },
+  { min: 76, title: 'Saturday Scholar', badge: '🥇', note: 'Comfortably above the room.' },
+  { min: 60, title: 'Coffee & Paper Regular', badge: '🥈', note: 'Respectable. The hard ones are where the gap is.' },
+  { min: 40, title: 'Getting There', badge: '🥉', note: 'Work the weak categories and this moves fast.' },
+  { min: 0, title: 'Warming Up', badge: '📖', note: 'Read the explanations — that is where the gains are.' }
+];
+
+const gradeFor = (pct) => GRADES.find((g) => pct >= g.min);
+
+const catOf = (q) =>
+  CATEGORIES[q?.category] || { name: 'General', icon: '❓', color: '#6b7280', short: 'General' };
+
+export default function QuizSimulator({
+  questions,
+  title = null,
+  subtitle = null,
+  onComplete,
+  onMissed,
+  onCorrect,
+  onNewQuiz
+}) {
+  const [index, setIndex] = useState(0);
+  const [selected, setSelected] = useState(null);
+  const [answered, setAnswered] = useState(false);
+  const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
-  const [isFinished, setIsFinished] = useState(false);
-  const [quizMode, setQuizMode] = useState('multiple_choice'); // 'multiple_choice' or 'newspaper_reveal'
-  const [isRevealed, setIsRevealed] = useState(false);
-  
-  // Finish Screen Review State
-  const [reviewFilter, setReviewFilter] = useState('all'); // 'all', 'missed', 'correct'
-  const [viewStyle, setViewStyle] = useState('compact'); // 'compact' or 'detailed'
-  const [expandedItems, setExpandedItems] = useState({});
+  const [finished, setFinished] = useState(false);
 
-  // Timer state
-  const [secondsElapsed, setSecondsElapsed] = useState(0);
-  const [timerActive, setTimerActive] = useState(true);
+  const [mode, setMode] = useState('multiple_choice');
+  const [revealed, setRevealed] = useState(false);
+  const [eliminated, setEliminated] = useState([]);
+  const [usedFiftyFifty, setUsedFiftyFifty] = useState(false);
+
+  const [reviewFilter, setReviewFilter] = useState('all');
+  const [viewStyle, setViewStyle] = useState('compact');
+  const [expanded, setExpanded] = useState({});
+
+  const [seconds, setSeconds] = useState(0);
+  const completedRef = useRef(false);
 
   useEffect(() => {
-    let interval = null;
-    if (timerActive && !isFinished) {
-      interval = setInterval(() => {
-        setSecondsElapsed(prev => prev + 1);
-      }, 1000);
-    } else {
-      clearInterval(interval);
-    }
-    return () => clearInterval(interval);
-  }, [timerActive, isFinished]);
+    if (finished) return undefined;
+    const t = setInterval(() => setSeconds((s) => s + 1), 1000);
+    return () => clearInterval(t);
+  }, [finished]);
 
-  const rawQ = questions[currentIndex];
-  const currentQ = ALL_QUESTIONS.find(q => q.id === rawQ?.id || q.question === rawQ?.question) || rawQ;
-  const catObj = CATEGORIES[currentQ?.category?.toUpperCase()] || { name: 'General', icon: '❓', color: '#6b7280' };
+  const current = questions[index];
+  const category = catOf(current);
 
-  const handleSelectOption = (idx) => {
-    if (isAnswered) return;
-    setSelectedOption(idx);
-    setIsAnswered(true);
-    
-    const isCorrect = idx === currentQ.answer;
-    if (isCorrect) {
-      setScore(prev => prev + 1);
-    } else {
-      onSaveMissedQuestion(currentQ);
-    }
+  const formatTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 
-    setUserAnswers(prev => ({
+  const recordAnswer = (question, chosenIndex, isCorrect) => {
+    setAnswers((prev) => [
       ...prev,
-      [currentIndex]: {
-        questionId: currentQ.id,
-        category: currentQ.category,
-        userSelect: idx,
-        correctOption: currentQ.answer,
+      {
+        id: question.id,
+        category: question.category,
+        difficulty: question.difficulty,
+        chosenIndex,
+        correctIndex: question.correctIndex,
         isCorrect
       }
-    }));
-  };
-
-  const handleNewspaperReveal = (markedCorrect) => {
-    setIsRevealed(true);
-    setIsAnswered(true);
-    if (markedCorrect) {
-      setScore(prev => prev + 1);
+    ]);
+    if (isCorrect) {
+      setScore((s) => s + 1);
+      onCorrect?.(question.id);
     } else {
-      onSaveMissedQuestion(currentQ);
-    }
-
-    setUserAnswers(prev => ({
-      ...prev,
-      [currentIndex]: {
-        questionId: currentQ.id,
-        category: currentQ.category,
-        userSelect: markedCorrect ? currentQ.answer : -1,
-        correctOption: currentQ.answer,
-        isCorrect: markedCorrect
-      }
-    }));
-  };
-
-  const handleNext = () => {
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex(prev => prev + 1);
-      setSelectedOption(null);
-      setIsAnswered(false);
-      setShowHint(false);
-      setIsRevealed(false);
-    } else {
-      setIsFinished(true);
-      setTimerActive(false);
-      
-      const finalScore = score + (selectedOption === currentQ.answer ? 1 : 0);
-      onCompleteQuiz(finalScore, questions.length, userAnswers);
-
-      if (finalScore >= (questions.length * 0.75)) {
-        confetti({
-          particleCount: 100,
-          spread: 70,
-          origin: { y: 0.6 }
-        });
-      }
+      onMissed?.(question);
     }
   };
 
-  const handleRestart = () => {
-    setCurrentIndex(0);
-    setSelectedOption(null);
-    setIsAnswered(false);
-    setShowHint(false);
-    setIsRevealed(false);
-    setUserAnswers({});
-    setScore(0);
-    setIsFinished(false);
-    setSecondsElapsed(0);
-    setTimerActive(true);
-    setReviewFilter('all');
-    setExpandedItems({});
+  const handleSelect = (idx) => {
+    if (answered) return;
+    setSelected(idx);
+    setAnswered(true);
+    recordAnswer(current, idx, idx === current.correctIndex);
   };
 
-  const toggleExpandItem = (idx) => {
-    setExpandedItems(prev => ({
-      ...prev,
-      [idx]: !prev[idx]
-    }));
+  const handleSelfGrade = (gotIt) => {
+    setRevealed(true);
+    setAnswered(true);
+    recordAnswer(current, gotIt ? current.correctIndex : -1, gotIt);
   };
 
-  const toggleExpandAll = () => {
-    const allExpanded = Object.keys(expandedItems).length === questions.length && Object.values(expandedItems).every(Boolean);
-    const nextState = {};
-    questions.forEach((_, i) => {
-      nextState[i] = !allExpanded;
+  // A real aid rather than a spoiler: removes two wrong options. The old build
+  // showed the memory hook as a "hint", which usually contains the answer.
+  const useFiftyFifty = () => {
+    if (usedFiftyFifty || answered) return;
+    const wrong = current.options
+      .map((_, i) => i)
+      .filter((i) => i !== current.correctIndex)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 2);
+    setEliminated(wrong);
+    setUsedFiftyFifty(true);
+  };
+
+  const next = () => {
+    if (index < questions.length - 1) {
+      setIndex((i) => i + 1);
+      setSelected(null);
+      setAnswered(false);
+      setRevealed(false);
+      setEliminated([]);
+      setUsedFiftyFifty(false);
+      return;
+    }
+    setFinished(true);
+  };
+
+  // Report once, after the final answer is in state.
+  useEffect(() => {
+    if (!finished || completedRef.current) return;
+    completedRef.current = true;
+    onComplete?.({
+      score,
+      total: questions.length,
+      answers,
+      questionIds: questions.map((q) => q.id)
     });
-    setExpandedItems(nextState);
-  };
+    if (score / questions.length >= 0.75) {
+      confetti({ particleCount: 120, spread: 75, origin: { y: 0.6 } });
+    }
+  }, [finished, score, answers, questions, onComplete]);
 
-  const formatTime = (secs) => {
-    const mins = Math.floor(secs / 60);
-    const remainderSecs = secs % 60;
-    return `${mins}:${remainderSecs < 10 ? '0' : ''}${remainderSecs}`;
-  };
+  const reviewRows = useMemo(
+    () =>
+      questions
+        .map((q, i) => ({ q, i, a: answers.find((x) => x.id === q.id) || {} }))
+        .filter(({ a }) => {
+          if (reviewFilter === 'missed') return a.isCorrect === false;
+          if (reviewFilter === 'correct') return a.isCorrect === true;
+          return true;
+        }),
+    [questions, answers, reviewFilter]
+  );
 
-  if (!questions || questions.length === 0) {
-    return <div className="card">No questions available.</div>;
+  if (!questions?.length) {
+    return (
+      <div className="card empty-state">
+        <h3>No questions match those filters</h3>
+        <p>Widen the category or difficulty selection and start again.</p>
+      </div>
+    );
   }
 
-  if (isFinished) {
-    const percentage = Math.round((score / questions.length) * 100);
-    let gradeTitle = 'Beginner Solver';
-    let gradeBadge = '🥉';
-    if (percentage >= 90) { gradeTitle = 'Saturday Master Mind'; gradeBadge = '🏆'; }
-    else if (percentage >= 75) { gradeTitle = 'Good Weekend Scholar'; gradeBadge = '🥇'; }
-    else if (percentage >= 60) { gradeTitle = 'Coffee & Paper Regular'; gradeBadge = '🥈'; }
-
+  // ------------------------------------------------------------- results
+  if (finished) {
+    const pct = Math.round((score / questions.length) * 100);
+    const grade = gradeFor(pct);
     const missedCount = questions.length - score;
 
-    const filteredReviewQuestions = questions.map((q, idx) => {
-      const ansInfo = userAnswers[idx] || {};
-      return { q, idx, ansInfo };
-    }).filter(({ ansInfo }) => {
-      if (reviewFilter === 'missed') return !ansInfo.isCorrect;
-      if (reviewFilter === 'correct') return ansInfo.isCorrect;
-      return true;
-    });
+    const perCategory = {};
+    for (const a of answers) {
+      const c = (perCategory[a.category] ||= { total: 0, correct: 0 });
+      c.total++;
+      if (a.isCorrect) c.correct++;
+    }
+    const weakest = Object.entries(perCategory)
+      .filter(([, v]) => v.total >= 2)
+      .sort((a, b) => a[1].correct / a[1].total - b[1].correct / b[1].total)[0];
 
-    const isAllExpanded = Object.keys(expandedItems).length === questions.length && Object.values(expandedItems).every(Boolean);
+    const allExpanded =
+      Object.keys(expanded).length === questions.length && Object.values(expanded).every(Boolean);
 
     return (
       <div className="quiz-finished-card">
         <div className="finish-header">
-          <span className="badge-icon">{gradeBadge}</span>
-          <h2>Quiz Completed!</h2>
-          <p className="finish-subtitle">{gradeTitle}</p>
+          <span className="badge-icon">{grade.badge}</span>
+          <h2>{score} out of {questions.length}</h2>
+          <p className="finish-subtitle">{grade.title} — {grade.note}</p>
         </div>
 
         <div className="score-summary-grid">
           <div className="summary-box">
-            <span className="box-val">{score} / {questions.length}</span>
-            <span className="box-label">Final Score</span>
+            <span className="box-val">{pct}%</span>
+            <span className="box-label">Accuracy</span>
           </div>
-
           <div className="summary-box">
-            <span className="box-val">{percentage}%</span>
-            <span className="box-label">Accuracy Rate</span>
+            <span className="box-val">{formatTime(seconds)}</span>
+            <span className="box-label">Time taken</span>
           </div>
-
           <div className="summary-box">
-            <span className="box-val">{formatTime(secondsElapsed)}</span>
-            <span className="box-label">Time Taken</span>
+            <span className="box-val">{formatTime(Math.round(seconds / questions.length))}</span>
+            <span className="box-label">Per question</span>
+          </div>
+          <div className="summary-box">
+            <span className="box-val">{missedCount}</span>
+            <span className="box-label">Added to vault</span>
           </div>
         </div>
 
-        <div className="actions-bar" style={{ justifyContent: 'center', marginBottom: '2rem' }}>
-          <button className="btn btn-primary" onClick={handleRestart}>
-            <RotateCcw size={18} /> Retake Quiz
+        {weakest && (
+          <div className="recommendation-banner">
+            <Brain size={20} className="rec-icon" />
+            <div>
+              <h4>Weakest category this round: {catOf({ category: weakest[0] }).name}</h4>
+              <p>
+                {weakest[1].correct} of {weakest[1].total} correct. Run a focused round on that
+                category — it is the fastest way to move the total.
+              </p>
+            </div>
+          </div>
+        )}
+
+        <div className="actions-bar centered">
+          <button className="btn btn-primary" onClick={onNewQuiz}>
+            <RotateCcw size={18} /> New quiz
           </button>
         </div>
 
-        {/* Detailed End-of-Quiz Review Section */}
         <div className="review-section">
           <div className="review-header">
             <div className="review-title-row">
               <div>
-                <h3><HelpCircle size={20} /> Official Saturday Answer Key</h3>
-                <p className="review-subtitle">Review questions, answers, and explanations at a glance</p>
+                <h3><HelpCircle size={20} /> Answer sheet</h3>
+                <p className="review-subtitle">
+                  Every question with its explanation and memory hook. This is the part that
+                  actually improves your score.
+                </p>
               </div>
-
               <div className="view-style-toggle">
-                <button 
+                <button
                   className={`view-btn ${viewStyle === 'compact' ? 'active' : ''}`}
                   onClick={() => setViewStyle('compact')}
-                  title="Compact 1-Page Answer Sheet"
                 >
                   <List size={16} /> Compact
                 </button>
-                <button 
+                <button
                   className={`view-btn ${viewStyle === 'detailed' ? 'active' : ''}`}
                   onClick={() => setViewStyle('detailed')}
-                  title="Detailed 4-Option View"
                 >
                   <Layers size={16} /> Detailed
                 </button>
               </div>
             </div>
-            
+
             <div className="review-controls-bar">
               <div className="review-filter-bar">
-                <button 
-                  className={`filter-chip ${reviewFilter === 'all' ? 'active' : ''}`}
-                  onClick={() => setReviewFilter('all')}
-                >
-                  All ({questions.length})
-                </button>
-                <button 
-                  className={`filter-chip ${reviewFilter === 'missed' ? 'active' : ''}`}
-                  onClick={() => setReviewFilter('missed')}
-                  style={{ borderColor: missedCount > 0 ? 'var(--accent-rose)' : '' }}
-                >
-                  Missed ({missedCount})
-                </button>
-                <button 
-                  className={`filter-chip ${reviewFilter === 'correct' ? 'active' : ''}`}
-                  onClick={() => setReviewFilter('correct')}
-                >
-                  Correct ({score})
-                </button>
+                {[
+                  ['all', `All (${questions.length})`],
+                  ['missed', `Missed (${missedCount})`],
+                  ['correct', `Correct (${score})`]
+                ].map(([key, label]) => (
+                  <button
+                    key={key}
+                    className={`filter-chip ${reviewFilter === key ? 'active' : ''}`}
+                    onClick={() => setReviewFilter(key)}
+                  >
+                    {label}
+                  </button>
+                ))}
               </div>
-
-              <button className="btn-text-toggle" onClick={toggleExpandAll}>
-                {isAllExpanded ? 'Collapse All Explanations' : 'Expand All Explanations'}
+              <button
+                className="btn-text-toggle"
+                onClick={() => {
+                  const nextState = {};
+                  questions.forEach((_, i) => { nextState[i] = !allExpanded; });
+                  setExpanded(nextState);
+                }}
+              >
+                {allExpanded ? 'Collapse all' : 'Expand all'}
               </button>
             </div>
           </div>
 
           <div className={`review-list ${viewStyle}`}>
-            {filteredReviewQuestions.length === 0 ? (
-              <div className="empty-review-msg">No questions match the selected filter.</div>
+            {reviewRows.length === 0 ? (
+              <div className="empty-review-msg">Nothing matches that filter.</div>
             ) : (
-              filteredReviewQuestions.map(({ q, idx, ansInfo }) => {
-                const cObj = CATEGORIES[q.category.toUpperCase()] || { name: 'General', icon: '❓', color: '#6b7280' };
-                const isUserCorrect = ansInfo.isCorrect;
-                const userChoiceIdx = ansInfo.userSelect;
-                const correctIdx = q.answer;
-                const isExpanded = !!expandedItems[idx];
+              reviewRows.map(({ q, i, a }) => {
+                const c = catOf(q);
+                const correct = a.isCorrect === true;
+                const isOpen = !!expanded[i];
 
-                // Compact Row Render
                 if (viewStyle === 'compact') {
                   return (
-                    <div key={q.id || idx} className={`compact-review-row ${isUserCorrect ? 'row-correct' : 'row-incorrect'}`}>
-                      <div className="compact-row-main" onClick={() => toggleExpandItem(idx)}>
+                    <div key={q.id} className={`compact-review-row ${correct ? 'row-correct' : 'row-incorrect'}`}>
+                      <div className="compact-row-main" onClick={() => setExpanded((p) => ({ ...p, [i]: !p[i] }))}>
                         <div className="compact-left">
-                          <span className="q-badge-sm">Q{idx + 1}</span>
-                          <span className="cat-icon-sm" title={cObj.name}>{cObj.icon}</span>
+                          <span className="q-badge-sm">Q{i + 1}</span>
+                          <span className="cat-icon-sm" title={c.name}>{c.icon}</span>
                           <span className="compact-q-text">{q.question}</span>
                         </div>
-
                         <div className="compact-right">
-                          {quizMode === 'multiple_choice' ? (
-                            isUserCorrect ? (
-                              <span className="ans-pill-compact pill-right">
-                                <Check size={14} /> {q.options[correctIdx]}
-                              </span>
-                            ) : (
-                              <div className="wrong-right-pair">
-                                <span className="ans-pill-compact pill-wrong" title="Your Choice">
-                                  <X size={14} /> {userChoiceIdx >= 0 ? q.options[userChoiceIdx] : 'None'}
-                                </span>
-                                <span className="ans-pill-compact pill-right" title="Correct Answer">
-                                  <Check size={14} /> {q.options[correctIdx]}
-                                </span>
-                              </div>
-                            )
-                          ) : (
-                            <div className="wrong-right-pair">
-                              <span className={`ans-pill-compact ${isUserCorrect ? 'pill-right' : 'pill-wrong'}`}>
-                                {isUserCorrect ? <Check size={14} /> : <X size={14} />} {isUserCorrect ? 'Got It' : 'Missed'}
-                              </span>
-                              <span className="ans-pill-compact pill-gold">
-                                Answer: {q.options[correctIdx]}
-                              </span>
-                            </div>
+                          {!correct && a.chosenIndex >= 0 && (
+                            <span className="ans-pill-compact pill-wrong" title="Your answer">
+                              <X size={14} /> {q.options[a.chosenIndex]}
+                            </span>
                           )}
-
-                          <button className="expand-chevron-btn">
-                            {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                          <span className="ans-pill-compact pill-right" title="Correct answer">
+                            <Check size={14} /> {q.answer}
+                          </span>
+                          <button className="expand-chevron-btn" aria-label="Toggle explanation">
+                            {isOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
                           </button>
                         </div>
                       </div>
-
-                      {/* Expandable Explanation Drawer */}
-                      {isExpanded && (
+                      {isOpen && (
                         <div className="compact-exp-drawer">
-                          <p className="exp-text"><strong>Quizmaster Explanation:</strong> {q.explanation}</p>
-                          {q.tip && (
-                            <div className="tip-box-sm">
-                              <strong>💡 Memory Trick:</strong> {q.tip}
-                            </div>
-                          )}
+                          <p className="exp-text">{q.explanation}</p>
+                          <div className="tip-box-sm"><strong>Remember it:</strong> {q.hook}</div>
                         </div>
                       )}
                     </div>
                   );
                 }
 
-                // Detailed Card Render
                 return (
-                  <div key={q.id || idx} className={`review-card ${isUserCorrect ? 'correct-card' : 'incorrect-card'}`}>
+                  <div key={q.id} className={`review-card ${correct ? 'correct-card' : 'incorrect-card'}`}>
                     <div className="review-card-top">
                       <div className="review-card-meta">
-                        <span className="q-num-badge">Q{idx + 1}</span>
-                        <span className="category-pill" style={{ backgroundColor: `${cObj.color}22`, color: cObj.color, borderColor: `${cObj.color}44` }}>
-                          <span>{cObj.icon}</span> {cObj.name}
+                        <span className="q-num-badge">Q{i + 1}</span>
+                        <span
+                          className="category-pill"
+                          style={{ backgroundColor: `${c.color}22`, color: c.color, borderColor: `${c.color}44` }}
+                        >
+                          <span>{c.icon}</span> {c.name}
                         </span>
+                        <span className={`diff-pill ${q.difficulty}`}>{q.difficulty}</span>
                       </div>
-                      
-                      <span className={`status-tag ${isUserCorrect ? 'tag-correct' : 'tag-incorrect'}`}>
-                        {isUserCorrect ? (
-                          <><Check size={14} /> Correct</>
-                        ) : (
-                          <><X size={14} /> Incorrect</>
-                        )}
+                      <span className={`status-tag ${correct ? 'tag-correct' : 'tag-incorrect'}`}>
+                        {correct ? <><Check size={14} /> Correct</> : <><X size={14} /> Missed</>}
                       </span>
                     </div>
 
                     <h4 className="review-question-text">{q.question}</h4>
 
-                    {/* Multiple Choice Mode Review */}
-                    {quizMode === 'multiple_choice' && (
-                      <div className="review-answers-grid">
-                        {q.options.map((optStr, optIdx) => {
-                          let optClass = 'review-opt-normal';
-                          if (optIdx === correctIdx) {
-                            optClass = 'review-opt-correct';
-                          } else if (optIdx === userChoiceIdx && !isUserCorrect) {
-                            optClass = 'review-opt-wrong';
-                          }
+                    <div className="review-answers-grid">
+                      {q.options.map((opt, oi) => {
+                        let cls = 'review-opt-normal';
+                        if (oi === q.correctIndex) cls = 'review-opt-correct';
+                        else if (oi === a.chosenIndex && !correct) cls = 'review-opt-wrong';
+                        return (
+                          <div key={oi} className={`review-opt-pill ${cls}`}>
+                            <span className="opt-letter">{String.fromCharCode(65 + oi)}</span>
+                            <span className="opt-text">{opt}</span>
+                            {oi === q.correctIndex && <CheckCircle2 size={16} className="icon-right" />}
+                            {oi === a.chosenIndex && !correct && <XCircle size={16} className="icon-wrong" />}
+                          </div>
+                        );
+                      })}
+                    </div>
 
-                          return (
-                            <div key={optIdx} className={`review-opt-pill ${optClass}`}>
-                              <span className="opt-letter">{String.fromCharCode(65 + optIdx)}</span>
-                              <span className="opt-text">{optStr}</span>
-                              {optIdx === correctIdx && <CheckCircle2 size={16} className="icon-right" />}
-                              {optIdx === userChoiceIdx && !isUserCorrect && <XCircle size={16} className="icon-wrong" />}
-                              {optIdx === userChoiceIdx && isUserCorrect && (
-                                <span className="your-badge">Your Answer</span>
-                              )}
-                              {optIdx === userChoiceIdx && !isUserCorrect && (
-                                <span className="your-wrong-badge">Your Answer</span>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    )}
-
-                    {/* Newspaper Reveal Mode Review */}
-                    {quizMode === 'newspaper_reveal' && (
-                      <div className="newspaper-review-ans">
-                        <div className="official-ans-banner">
-                          <span className="ans-tag-label">Official Answer:</span>
-                          <span className="ans-tag-val">{q.options[correctIdx]}</span>
-                        </div>
-                        <div className={`user-self-grade ${isUserCorrect ? 'grade-yes' : 'grade-no'}`}>
-                          {isUserCorrect ? '✓ Self-graded as Correct' : '✕ Self-graded as Missed'}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Explanation & Memory Tip */}
                     <div className="review-explanation-box">
-                      <p className="exp-text"><strong>Explanation:</strong> {q.explanation}</p>
-                      {q.tip && (
-                        <div className="tip-box" style={{ marginTop: '0.5rem' }}>
-                          <strong>💡 Memory Trick:</strong> {q.tip}
-                        </div>
-                      )}
+                      <p className="exp-text">{q.explanation}</p>
+                      <div className="tip-box"><strong>Remember it:</strong> {q.hook}</div>
                     </div>
                   </div>
                 );
@@ -410,112 +365,131 @@ export default function QuizSimulator({ questions, isDailyMode = false, onComple
     );
   }
 
+  // ------------------------------------------------------------- question
   return (
     <div className="quiz-simulator">
-      {/* Top Controller Bar */}
+      {title && (
+        <div className="quiz-intro">
+          <h2>{title}</h2>
+          {subtitle && <p>{subtitle}</p>}
+        </div>
+      )}
+
       <div className="quiz-top-bar">
         <div className="progress-container">
           <div className="progress-text">
-            <span>Question {currentIndex + 1} of {questions.length}</span>
-            <span className="score-pill">Score: {score}</span>
+            <span>Question {index + 1} of {questions.length}</span>
+            <span className="score-pill">Score {score}</span>
           </div>
           <div className="progress-bar-track">
-            <div 
-              className="progress-bar-fill" 
-              style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} 
+            <div
+              className="progress-bar-fill"
+              style={{ width: `${((index + 1) / questions.length) * 100}%` }}
             />
           </div>
         </div>
 
         <div className="mode-toggle">
-          <button 
-            className={`mode-btn ${quizMode === 'multiple_choice' ? 'active' : ''}`}
-            onClick={() => setQuizMode('multiple_choice')}
-            title="Training Mode with 4 Options"
+          <button
+            className={`mode-btn ${mode === 'multiple_choice' ? 'active' : ''}`}
+            onClick={() => setMode('multiple_choice')}
+            title="Four options, pick one"
           >
-            Multiple Choice
+            Multiple choice
           </button>
-          <button 
-            className={`mode-btn ${quizMode === 'newspaper_reveal' ? 'active' : ''}`}
-            onClick={() => setQuizMode('newspaper_reveal')}
-            title="Real Newspaper Mode (Recall first, then reveal)"
+          <button
+            className={`mode-btn ${mode === 'recall' ? 'active' : ''}`}
+            onClick={() => setMode('recall')}
+            title="No options — answer in your head, then reveal"
           >
-            Newspaper Reveal
+            Recall
           </button>
           <div className="timer-badge">
             <Clock size={16} />
-            <span>{formatTime(secondsElapsed)}</span>
+            <span>{formatTime(seconds)}</span>
           </div>
         </div>
       </div>
 
-      {/* Main Question Card */}
       <div className="question-card">
         <div className="question-header">
-          <span className="category-pill" style={{ backgroundColor: `${catObj.color}22`, color: catObj.color, borderColor: `${catObj.color}44` }}>
-            <span className="cat-icon">{catObj.icon}</span> {catObj.name}
+          <span
+            className="category-pill"
+            style={{ backgroundColor: `${category.color}22`, color: category.color, borderColor: `${category.color}44` }}
+          >
+            <span className="cat-icon">{category.icon}</span> {category.name}
           </span>
-          <span className={`diff-pill ${currentQ.difficulty.toLowerCase()}`}>
-            {currentQ.difficulty}
-          </span>
+          <span className={`diff-pill ${current.difficulty}`}>{current.difficulty}</span>
         </div>
 
-        <h2 className="question-text">{currentQ.question}</h2>
+        <h2 className="question-text">{current.question}</h2>
 
-        {/* Mode 1: Multiple Choice Options */}
-        {quizMode === 'multiple_choice' && (
-          <div className="options-grid">
-            {currentQ.options.map((opt, idx) => {
-              let optState = '';
-              if (isAnswered) {
-                if (idx === currentQ.answer) optState = 'correct';
-                else if (idx === selectedOption) optState = 'incorrect';
-                else optState = 'disabled';
-              }
+        {mode === 'multiple_choice' && (
+          <>
+            <div className="options-grid">
+              {current.options.map((opt, idx) => {
+                const isGone = eliminated.includes(idx);
+                let state = '';
+                if (answered) {
+                  if (idx === current.correctIndex) state = 'correct';
+                  else if (idx === selected) state = 'incorrect';
+                  else state = 'disabled';
+                } else if (isGone) {
+                  state = 'eliminated';
+                }
+                return (
+                  <button
+                    key={idx}
+                    className={`option-btn ${state} ${selected === idx ? 'selected' : ''}`}
+                    onClick={() => handleSelect(idx)}
+                    disabled={answered || isGone}
+                  >
+                    <span className="option-prefix">{String.fromCharCode(65 + idx)}</span>
+                    <span className="option-label">{opt}</span>
+                    {answered && idx === current.correctIndex && <CheckCircle2 className="icon-right" size={20} />}
+                    {answered && idx === selected && idx !== current.correctIndex && (
+                      <XCircle className="icon-wrong" size={20} />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
 
-              return (
-                <button
-                  key={idx}
-                  className={`option-btn ${optState} ${selectedOption === idx ? 'selected' : ''}`}
-                  onClick={() => handleSelectOption(idx)}
-                  disabled={isAnswered}
-                >
-                  <span className="option-prefix">{String.fromCharCode(65 + idx)}</span>
-                  <span className="option-label">{opt}</span>
-                  {isAnswered && idx === currentQ.answer && <CheckCircle2 className="icon-right" size={20} />}
-                  {isAnswered && idx === selectedOption && idx !== currentQ.answer && <XCircle className="icon-wrong" size={20} />}
+            {!answered && (
+              <div className="hint-section">
+                <button className="hint-btn" onClick={useFiftyFifty} disabled={usedFiftyFifty}>
+                  <Scissors size={16} />
+                  {usedFiftyFifty ? 'Two options removed' : 'Fifty-fifty (remove two wrong answers)'}
                 </button>
-              );
-            })}
-          </div>
+              </div>
+            )}
+          </>
         )}
 
-        {/* Mode 2: Newspaper Reveal Mode */}
-        {quizMode === 'newspaper_reveal' && (
+        {mode === 'recall' && (
           <div className="newspaper-reveal-box">
-            {!isRevealed ? (
+            {!revealed ? (
               <div className="reveal-prompt">
-                <p>Think of your answer in your head as if reading the Saturday paper!</p>
-                <button className="btn btn-secondary" onClick={() => setIsRevealed(true)}>
-                  <Eye size={18} /> Reveal Answer
+                <p>Answer it in your head first, the way you would reading the paper. No options.</p>
+                <button className="btn btn-secondary" onClick={() => setRevealed(true)}>
+                  <Eye size={18} /> Reveal answer
                 </button>
               </div>
             ) : (
               <div className="revealed-content">
                 <div className="answer-highlight">
-                  <span className="ans-label">Correct Answer:</span>
-                  <span className="ans-val">{currentQ.options[currentQ.answer]}</span>
+                  <span className="ans-label">Answer</span>
+                  <span className="ans-val">{current.answer}</span>
                 </div>
-
-                {!isAnswered && (
+                {!answered && (
                   <div className="self-grading-buttons">
-                    <p>Did you get it right?</p>
+                    <p>Did you get it?</p>
                     <div className="grade-btns">
-                      <button className="btn btn-success" onClick={() => handleNewspaperReveal(true)}>
-                        <CheckCircle2 size={18} /> Yes, Got It!
+                      <button className="btn btn-success" onClick={() => handleSelfGrade(true)}>
+                        <CheckCircle2 size={18} /> Got it
                       </button>
-                      <button className="btn btn-danger" onClick={() => handleNewspaperReveal(false)}>
-                        <XCircle size={18} /> Missed It
+                      <button className="btn btn-danger" onClick={() => handleSelfGrade(false)}>
+                        <XCircle size={18} /> Missed it
                       </button>
                     </div>
                   </div>
@@ -525,38 +499,18 @@ export default function QuizSimulator({ questions, isDailyMode = false, onComple
           </div>
         )}
 
-        {/* Hint Box */}
-        {!isAnswered && (
-          <div className="hint-section">
-            <button className="hint-btn" onClick={() => setShowHint(!showHint)}>
-              <Lightbulb size={16} /> {showHint ? 'Hide Quizmaster Hint' : 'Need a Hint?'}
-            </button>
-            {showHint && (
-              <div className="hint-card">
-                <p>💡 {currentQ.tip}</p>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Post-Answer Explanation Box */}
-        {isAnswered && (
+        {answered && (
           <div className="explanation-card">
-            <h3><HelpCircle size={18} /> Quizmaster's Deep Dive & Explanation</h3>
-            <p className="explanation-text">{currentQ.explanation}</p>
-            {currentQ.tip && (
-              <div className="tip-box">
-                <strong>🧠 Memory Trick:</strong> {currentQ.tip}
-              </div>
-            )}
+            <h3><HelpCircle size={18} /> Why</h3>
+            <p className="explanation-text">{current.explanation}</p>
+            <div className="tip-box"><strong>Remember it:</strong> {current.hook}</div>
           </div>
         )}
 
-        {/* Next Button */}
-        {isAnswered && (
+        {answered && (
           <div className="next-action-bar">
-            <button className="btn btn-primary next-btn" onClick={handleNext}>
-              <span>{currentIndex < questions.length - 1 ? 'Next Question' : 'Complete & View Results'}</span>
+            <button className="btn btn-primary next-btn" onClick={next}>
+              <span>{index < questions.length - 1 ? 'Next question' : 'See results'}</span>
               <ArrowRight size={18} />
             </button>
           </div>
