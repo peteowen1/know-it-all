@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   HelpCircle, CheckCircle2, XCircle, ArrowRight, RotateCcw, Clock, Eye,
-  Check, X, ChevronDown, ChevronUp, List, Layers, Scissors, Brain
+  Check, X, ChevronDown, ChevronUp, List, Layers, Scissors, Brain, Share2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { CATEGORIES } from '../data/categories';
+import { challengeUrl } from '../lib/transfer';
 
 const GRADES = [
   { min: 92, title: 'Quizmaster', badge: '🏆', note: 'You would win the pub.' },
@@ -45,7 +46,26 @@ export default function QuizSimulator({
   const [expanded, setExpanded] = useState({});
 
   const [seconds, setSeconds] = useState(0);
+  const [shareState, setShareState] = useState(null);
+  const [shareUrl, setShareUrl] = useState('');
   const completedRef = useRef(false);
+
+  // Shares the paper, not the score: the recipient gets the same questions in
+  // the same order with the same option positions, which is the only way two
+  // scores are comparable.
+  const shareChallenge = async () => {
+    const url = challengeUrl(questions, Date.now());
+    setShareUrl(url);
+    try {
+      await navigator.clipboard.writeText(url);
+      setShareState('copied');
+      setTimeout(() => setShareState(null), 2500);
+    } catch {
+      // Clipboard is blocked without a user gesture in some browsers and over
+      // plain http. Fall back to showing the link rather than failing silently.
+      setShareState('failed');
+    }
+  };
 
   useEffect(() => {
     if (finished) return undefined;
@@ -216,7 +236,16 @@ export default function QuizSimulator({
           <button className="btn btn-primary" onClick={onNewQuiz}>
             <RotateCcw size={18} /> New quiz
           </button>
+          <button className="btn btn-ghost" onClick={shareChallenge} title="Copy a link that gives someone this exact paper">
+            {shareState === 'copied' ? <><Check size={18} /> Link copied</> : <><Share2 size={18} /> Challenge someone</>}
+          </button>
         </div>
+        {shareState === 'failed' && (
+          <p className="transfer-status bad centered-text">
+            Could not reach the clipboard. Here is the link — copy it manually:
+            <textarea className="transfer-box" readOnly rows={2} value={shareUrl} onFocus={(e) => e.target.select()} />
+          </p>
+        )}
 
         <div className="review-section">
           <div className="review-header">

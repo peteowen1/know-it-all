@@ -1193,15 +1193,15 @@
     "id": "pop_086",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which song spent the most weeks at number one on the US Billboard Hot 100?",
-    "answer": "Old Town Road",
+    "question": "Which song holds the record for most weeks at number one on the US Billboard Hot 100?",
+    "answer": "All I Want for Christmas Is You",
     "distractors": [
-      "Despacito",
-      "One Sweet Day",
-      "Blinding Lights"
+      "Old Town Road by Lil Nas X",
+      "Despacito by Luis Fonsi",
+      "One Sweet Day by Mariah Carey and Boyz II Men"
     ],
-    "explanation": "Lil Nas X's track held the top spot for nineteen weeks in 2019 after being removed from the country chart, a decision that generated enormous publicity.",
-    "hook": "Being thrown off the country chart is what made it unstoppable."
+    "explanation": "Mariah Carey's 1994 recording did not top the chart at all until 2019, then returned each December to accumulate 22 non-consecutive weeks, passing Old Town Road's 19 straight weeks.",
+    "hook": "It took twenty-five years to reach number one and then did it every Christmas since."
   },
   {
     "id": "pop_087",

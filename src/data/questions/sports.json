@@ -1277,15 +1277,15 @@
     "id": "spt_092",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian boxer held a world title and was known as 'The Man'?",
+    "question": "Which Australian boxer won world titles in three weight divisions and was called the 'Marrickville Mauler'?",
     "answer": "Jeff Fenech",
     "distractors": [
+      "Anthony Mundine",
       "Lionel Rose",
-      "Kostya Tszyu",
-      "Anthony Mundine"
+      "Kostya Tszyu"
     ],
-    "explanation": "He won world titles in three weight divisions; Lionel Rose was the first Indigenous Australian world champion, taking the bantamweight title in 1968.",
-    "hook": "Lionel Rose was first, in 1968, and became Australian of the Year for it."
+    "explanation": "Anthony Mundine, who fought later, was the one known as 'The Man'; Lionel Rose was the first Indigenous Australian world champion, taking the bantamweight title in 1968.",
+    "hook": "Fenech the Marrickville Mauler, Mundine 'The Man' — two nicknames people constantly swap."
   },
   {
     "id": "spt_093",
@@ -1320,28 +1320,28 @@
     "category": "sports",
     "difficulty": "hard",
     "question": "How many countries have hosted the Summer Olympics more than twice?",
-    "answer": "Two",
+    "answer": "Three",
     "distractors": [
       "One",
-      "Four",
+      "Two",
       "Six"
     ],
-    "explanation": "The United States has hosted four times and will host a fifth in 2028; the United Kingdom has hosted three, all in London.",
-    "hook": "London is the only city to host three times."
+    "explanation": "The United States has hosted four times with a fifth due in 2028, and Britain and France three each — France reaching three when Paris hosted in 2024.",
+    "hook": "Paris 2024 made it three countries; London is still the only city with three."
   },
   {
     "id": "spt_096",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian sprinter set a 200m world record in 1968 that stood for decades in Australian terms?",
+    "question": "Which Australian sprinter stood on the podium during the Black Power salute at the 1968 Olympics?",
     "answer": "Peter Norman",
     "distractors": [
       "Raelene Boyle",
       "Matt Shirvington",
       "Patrick Johnson"
     ],
-    "explanation": "His 20.06 seconds in Mexico City remains the Australian record; he wore a human rights badge on the podium in support of Smith and Carlos and was ostracised afterwards.",
-    "hook": "The third man on that famous podium was Australian, and it cost him his career."
+    "explanation": "He won silver in 20.06 seconds and wore a human rights badge in support of Tommie Smith and John Carlos; his time stood as the Australian record for 56 years until Gout Gout ran 20.04 in December 2024.",
+    "hook": "The third man on that famous podium was Australian, and supporting the protest cost him his career."
   },
   {
     "id": "spt_097",
@@ -1543,15 +1543,15 @@
     "id": "spt_111",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian sprinter won four Commonwealth Games gold medals in the 1970s?",
-    "answer": "Raelene Boyle",
+    "question": "How many Commonwealth Games gold medals did Raelene Boyle win across 1970 and 1974?",
+    "answer": "Six",
     "distractors": [
-      "Marjorie Jackson",
-      "Betty Cuthbert",
-      "Melinda Gainsford-Taylor"
+      "Three",
+      "Four",
+      "Eight"
     ],
-    "explanation": "She won three Olympic silvers, all behind East German sprinters later implicated in state doping programmes; Betty Cuthbert won four Olympic golds in the 1950s and 1960s.",
-    "hook": "Three Olympic silvers, all behind athletes from a state doping programme."
+    "explanation": "She swept the 100m, 200m and sprint relay at both Edinburgh and Christchurch, and took three Olympic silvers, all behind East German sprinters later implicated in state doping.",
+    "hook": "Six Commonwealth golds, and three Olympic silvers behind a doping programme."
   },
   {
     "id": "spt_112",
@@ -1809,14 +1809,14 @@
     "id": "spt_130",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian rules football rule change of 1973 introduced the centre square?",
-    "answer": "The centre square restriction",
+    "question": "Which shape was introduced at the centre bounce in Australian rules football in 1973?",
+    "answer": "A centre diamond",
     "distractors": [
-      "The interchange bench rule",
-      "The out of bounds on the full rule",
-      "The blood rule"
+      "A centre square",
+      "A centre circle",
+      "A goal square"
     ],
-    "explanation": "It limited the number of players allowed inside the square at a centre bounce to four per team, breaking up the congestion of unrestricted ruck contests.",
-    "hook": "Four players a side inside the square — the first serious attempt to stop congestion."
+    "explanation": "The diamond with 45-metre sides limited how many players could contest the bounce; it was replaced by the centre square in 1975, which is the marking still used.",
+    "hook": "Diamond first in 1973, square from 1975 — the square everyone pictures came second."
   }
 ]

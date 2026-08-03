@@ -1,43 +1,55 @@
 import React, { useMemo, useState } from 'react';
-import { Trash2, BookOpen, Play } from 'lucide-react';
+import { Trash2, BookOpen, Play, Clock, AlertTriangle } from 'lucide-react';
 import { CATEGORIES } from '../data/categories';
+import { getQuestion } from '../data/questionBank';
 import { materialise } from '../lib/quizBuilder';
+import { isDue, describeDue, INTERVALS, GRADUATED_BOX } from '../lib/scheduler';
 
-export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, onStartRevision }) {
+export default function WeaknessVault({ vault, summary, onRemove, onClearAll, onStartRevision }) {
   const [activeId, setActiveId] = useState(null);
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
-  // Incremented every time a question is opened. The seed has to change per
-  // visit or the vault could be beaten by memorising "it was the third one" —
-  // seeding off anything derived from the question itself (its id, or that id's
-  // length) is constant for that question and reshuffles to the same order
-  // every single time, which is the trap this counter exists to avoid.
+  // Seeding the shuffle off anything derived from the question itself — its id,
+  // or that id's length — is constant, so it would reshuffle to the same order
+  // every visit and the vault could be beaten by remembering a position.
   const [visit, setVisit] = useState(0);
 
-  const active = useMemo(() => {
-    const q = missedQuestions.find((m) => m.id === activeId);
-    return q ? materialise(q, visit) : null;
-  }, [activeId, visit, missedQuestions]);
+  // Due first, then by how far along the schedule they are: the questions you
+  // know least well should be the ones at the top of the list.
+  const rows = useMemo(
+    () =>
+      vault
+        .map((entry) => ({ entry, question: getQuestion(entry.id) }))
+        .filter((r) => r.question)
+        .sort((a, b) => {
+          const dueDiff = Number(isDue(b.entry)) - Number(isDue(a.entry));
+          if (dueDiff) return dueDiff;
+          return a.entry.box - b.entry.box || b.entry.lapses - a.entry.lapses;
+        }),
+    [vault]
+  );
 
-  if (!missedQuestions?.length) {
+  const active = useMemo(() => {
+    const row = rows.find((r) => r.entry.id === activeId);
+    return row ? { ...materialise(row.question, visit), entry: row.entry } : null;
+  }, [activeId, visit, rows]);
+
+  if (!rows.length) {
     return (
       <div className="empty-vault-card">
         <span className="empty-icon">🎉</span>
         <h2>Nothing in the vault</h2>
         <p>Questions you get wrong land here automatically, with their explanations.</p>
-        <p className="empty-sub">Play a round and anything you miss will be waiting to be drilled.</p>
+        <p className="empty-sub">
+          They then come back on a schedule — one day later, then three, then a week, then three
+          weeks, then two months. Clear all five and the question leaves for good.
+        </p>
       </div>
     );
   }
 
-  const byCategory = missedQuestions.reduce((acc, q) => {
-    acc[q.category] = (acc[q.category] || 0) + 1;
-    return acc;
-  }, {});
-  const worst = Object.entries(byCategory).sort((a, b) => b[1] - a[1])[0];
-
-  const pick = (q) => {
-    setActiveId(q.id);
+  const pick = (row) => {
+    setActiveId(row.entry.id);
     setVisit((v) => v + 1);
     setSelected(null);
     setAnswered(false);
@@ -49,15 +61,24 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
         <div>
           <h2>Weakness vault</h2>
           <p>
-            {missedQuestions.length} question{missedQuestions.length === 1 ? '' : 's'} you have
-            missed
-            {worst && ` — most of them in ${CATEGORIES[worst[0]]?.name ?? worst[0]}`}. Get one right
-            here and it leaves the list.
+            {summary.due > 0 ? (
+              <>
+                <strong>{summary.due} due now</strong> of {summary.total} tracked.
+              </>
+            ) : (
+              <>
+                Nothing due today — {summary.total} tracked, next one {describeDue({ due: summary.nextDue })}.
+              </>
+            )}
+            {summary.struggling > 0 && ` ${summary.struggling} you have now missed more than once.`}
           </p>
         </div>
         <div className="vault-header-actions">
-          <button className="btn btn-primary" onClick={onStartRevision}>
-            <Play size={16} /> Drill all {missedQuestions.length}
+          <button className="btn btn-primary" onClick={() => onStartRevision()} disabled={!summary.due}>
+            <Play size={16} /> Drill {summary.due} due
+          </button>
+          <button className="btn btn-ghost" onClick={() => onStartRevision({ all: true })}>
+            Drill all {summary.total}
           </button>
           <button className="btn btn-outline-danger" onClick={onClearAll}>
             <Trash2 size={16} /> Clear
@@ -67,13 +88,14 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
 
       <div className="vault-split-layout">
         <div className="missed-questions-list">
-          {missedQuestions.map((q) => {
-            const cat = CATEGORIES[q.category] || { name: 'General', icon: '❓' };
+          {rows.map(({ entry, question }) => {
+            const cat = CATEGORIES[question.category] || { name: 'General', icon: '❓' };
+            const due = isDue(entry);
             return (
               <div
-                key={q.id}
-                className={`missed-q-item ${activeId === q.id ? 'active' : ''}`}
-                onClick={() => pick(q)}
+                key={entry.id}
+                className={`missed-q-item ${activeId === entry.id ? 'active' : ''} ${due ? 'is-due' : ''}`}
+                onClick={() => pick({ entry, question })}
               >
                 <div className="missed-q-top">
                   <span className="cat-badge">{cat.icon} {cat.short || cat.name}</span>
@@ -82,14 +104,27 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
                     title="Remove from vault"
                     onClick={(e) => {
                       e.stopPropagation();
-                      onRemove(q.id);
-                      if (activeId === q.id) setActiveId(null);
+                      onRemove(entry.id);
+                      if (activeId === entry.id) setActiveId(null);
                     }}
                   >
                     ×
                   </button>
                 </div>
-                <p className="missed-q-title">{q.question}</p>
+                <p className="missed-q-title">{question.question}</p>
+                <div className="missed-q-meta">
+                  <span className={`due-pill ${due ? 'due-now' : ''}`}>
+                    <Clock size={12} /> {describeDue(entry)}
+                  </span>
+                  <span className="box-pill" title={`Stage ${entry.box + 1} of ${GRADUATED_BOX}`}>
+                    {'●'.repeat(entry.box)}{'○'.repeat(GRADUATED_BOX - entry.box)}
+                  </span>
+                  {entry.lapses >= 2 && (
+                    <span className="lapse-pill" title={`Missed ${entry.lapses} times`}>
+                      <AlertTriangle size={12} /> {entry.lapses}
+                    </span>
+                  )}
+                </div>
               </div>
             );
           })}
@@ -98,7 +133,13 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
         <div className="vault-practice-pane">
           {active ? (
             <div className="vault-practice-card">
-              <span className={`diff-pill ${active.difficulty}`}>{active.difficulty}</span>
+              <div className="vault-practice-meta">
+                <span className={`diff-pill ${active.difficulty}`}>{active.difficulty}</span>
+                <span className="setup-note">
+                  Stage {active.entry.box + 1} of {GRADUATED_BOX} · next interval{' '}
+                  {INTERVALS[Math.min(active.entry.box, INTERVALS.length - 1)]} days
+                </span>
+              </div>
               <h3>{active.question}</h3>
 
               <div className="options-grid">
@@ -127,25 +168,18 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
                 <div className="vault-explanation-box">
                   <p>{active.explanation}</p>
                   <p className="tip-text"><strong>Remember it:</strong> {active.hook}</p>
-                  {selected === active.correctIndex && (
-                    <div className="mastered-action">
-                      <p className="success-msg">Correct — that one is done.</p>
-                      <button
-                        className="btn btn-success"
-                        onClick={() => { onRemove(active.id); setActiveId(null); }}
-                      >
-                        Remove from vault
-                      </button>
-                    </div>
-                  )}
+                  <p className="empty-sub">
+                    Practising here does not advance the schedule — only the drill rounds do, so
+                    that the intervals keep meaning something.
+                  </p>
                 </div>
               )}
             </div>
           ) : (
             <div className="select-prompt-card">
               <BookOpen size={40} className="icon-muted" />
-              <h3>Pick a question to drill</h3>
-              <p>Or hit "Drill all" to run every missed question as a quiz.</p>
+              <h3>Pick a question to look at</h3>
+              <p>Or run a drill round, which is what actually moves questions along the schedule.</p>
             </div>
           )}
         </div>

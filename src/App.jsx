@@ -5,9 +5,12 @@ import FlashcardsDrill from './components/FlashcardsDrill';
 import WeaknessVault from './components/WeaknessVault';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import QuizSetup from './components/QuizSetup';
-import { ALL_QUESTIONS, BANK_STATS, getQuestion } from './data/questionBank';
+import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
+import { buildChallengeQuiz } from './lib/quizBuilder';
 import { localDateKey, previousDateKey } from './lib/dates';
+import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
+import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
 
 // Bump when the shape of anything in localStorage changes. This changes the key
 // prefix, so old entries are orphaned — never read again — rather than being
@@ -75,9 +78,14 @@ export default function App() {
 
   const [stats, setStats] = useState(() => ({ ...EMPTY_STATS, ...load('stats', {}, isObject) }));
   const [recentIds, setRecentIds] = useState(() => load('recent', [], isArray));
-  // Stored as ids only — question text and explanations always come from the
-  // live bank, so fixing a question fixes it everywhere retrospectively.
-  const [missedIds, setMissedIds] = useState(() => load('missed', [], isArray));
+  // Vault entries carry only an id plus scheduling state — never question text.
+  // Everything displayed is resolved from the live bank, so correcting a
+  // question corrects it retrospectively everywhere it has been saved.
+  //
+  // normaliseVault also migrates the original `string[]` format in place rather
+  // than through a storage version bump, which would have discarded a vault the
+  // user had been accumulating.
+  const [vault, setVault] = useState(() => normaliseVault(load('missed', [], isArray)));
 
   const [setup, setSetup] = useState(() => ({
     ...DEFAULT_SETUP,
@@ -89,10 +97,11 @@ export default function App() {
   );
   const [dailyQuiz, setDailyQuiz] = useState(() => buildDailyQuiz(5));
   const [revisionQuiz, setRevisionQuiz] = useState(null);
+  const [challengeQuiz, setChallengeQuiz] = useState(null);
 
   useEffect(() => save('stats', stats), [stats]);
   useEffect(() => save('recent', recentIds), [recentIds]);
-  useEffect(() => save('missed', missedIds), [missedIds]);
+  useEffect(() => save('missed', vault), [vault]);
   useEffect(() => save('setup', setup), [setup]);
 
   // A streak is broken the moment you miss a day, so it has to be checked on
@@ -121,18 +130,40 @@ export default function App() {
     [setup, recentIds]
   );
 
-  const startRevision = useCallback(() => {
-    if (!missedIds.length) return;
-    setRevisionQuiz(buildRevisionQuiz(missedIds, Date.now()));
-    setActiveTab('revision');
-  }, [missedIds]);
+  /**
+   * Drill the vault. Defaults to only what is actually due, which is the whole
+   * point of the schedule; `all` overrides that for someone who wants to grind
+   * the full list regardless.
+   */
+  const startRevision = useCallback(
+    ({ all = false } = {}) => {
+      const pool = all ? vault : dueEntries(vault);
+      if (!pool.length) return;
+      setRevisionQuiz(buildRevisionQuiz(pool.map((e) => e.id), Date.now()));
+      setActiveTab('revision');
+    },
+    [vault]
+  );
 
   const handleMissed = useCallback((question) => {
-    setMissedIds((prev) => (prev.includes(question.id) ? prev : [...prev, question.id]));
+    setVault((prev) => recordMiss(prev, question.id));
   }, []);
 
-  const handleMastered = useCallback((id) => {
-    setMissedIds((prev) => prev.filter((q) => q !== id));
+  const handleCorrect = useCallback((id) => {
+    setVault((prev) => recordHit(prev, id));
+  }, []);
+
+  /** Manual removal from the vault, from the vault UI's remove button. */
+  const handleForget = useCallback((id) => {
+    setVault((prev) => prev.filter((e) => e.id !== id));
+  }, []);
+
+  const startChallenge = useCallback((challenge) => {
+    const built = buildChallengeQuiz(challenge.ids, challenge.seed);
+    if (!built.questions.length) return false;
+    setChallengeQuiz(built);
+    setActiveTab('challenge');
+    return true;
   }, []);
 
   const handleComplete = useCallback((result) => {
@@ -179,13 +210,28 @@ export default function App() {
       .forEach((k) => localStorage.removeItem(k));
     setStats({ ...EMPTY_STATS });
     setRecentIds([]);
-    setMissedIds([]);
+    setVault([]);
   };
 
-  const missedQuestions = missedIds.map(getQuestion).filter(Boolean);
+  /** Replace local state wholesale after a progress import. */
+  const applyImported = useCallback((merged) => {
+    setStats({ ...EMPTY_STATS, ...merged.stats });
+    setVault(normaliseVault(merged.vault));
+    setRecentIds(merged.recentIds);
+  }, []);
+
+  // A challenge link is read once on mount and then stripped from the address
+  // bar, so refreshing or sharing the page later doesn't silently drop the
+  // reader back into someone else's round.
+  useEffect(() => {
+    const challenge = readChallengeFromUrl();
+    if (challenge && startChallenge(challenge)) clearChallengeFromUrl();
+  }, [startChallenge]);
+
   const overallAccuracy = stats.totalAnswered
     ? Math.round((stats.totalCorrect / stats.totalAnswered) * 100)
     : 0;
+  const summary = vaultSummary(vault);
 
   return (
     <div className="app-layout">
@@ -194,7 +240,7 @@ export default function App() {
         setActiveTab={setActiveTab}
         bankSize={BANK_STATS.total}
         stats={{ ...stats, overallAccuracy }}
-        weaknessCount={missedIds.length}
+        weaknessCount={summary.due}
         onReset={resetEverything}
       />
 
@@ -207,6 +253,7 @@ export default function App() {
               questions={quiz.questions}
               onComplete={handleComplete}
               onMissed={handleMissed}
+              onCorrect={handleCorrect}
               onNewQuiz={() => startQuiz({})}
             />
           </>
@@ -220,6 +267,7 @@ export default function App() {
             subtitle="The same five questions for everyone today. Come back tomorrow for a new set."
             onComplete={handleComplete}
             onMissed={handleMissed}
+            onCorrect={handleCorrect}
             onNewQuiz={() => setDailyQuiz(buildDailyQuiz(5))}
           />
         )}
@@ -228,12 +276,29 @@ export default function App() {
           <QuizSimulator
             key={`rev-${revisionQuiz.seed}`}
             questions={revisionQuiz.questions}
-            title="Revision Round"
-            subtitle="Questions you have previously missed, in a fresh order."
+            title="Revision round"
+            subtitle="Questions you have missed before, back on schedule. Getting one right pushes it further away; getting it wrong brings it straight back."
             onComplete={handleComplete}
             onMissed={handleMissed}
-            onCorrect={handleMastered}
-            onNewQuiz={startRevision}
+            onCorrect={handleCorrect}
+            onNewQuiz={() => startRevision()}
+          />
+        )}
+
+        {activeTab === 'challenge' && challengeQuiz && (
+          <QuizSimulator
+            key={`chal-${challengeQuiz.seed}`}
+            questions={challengeQuiz.questions}
+            title="Challenge round"
+            subtitle={
+              challengeQuiz.missing
+                ? `Someone sent you this exact paper. ${challengeQuiz.missing} question(s) no longer exist in the bank and have been dropped.`
+                : 'Someone sent you this exact paper — same questions, same order, same options. Compare scores honestly.'
+            }
+            onComplete={handleComplete}
+            onMissed={handleMissed}
+            onCorrect={handleCorrect}
+            onNewQuiz={() => setActiveTab('quiz')}
           />
         )}
 
@@ -241,9 +306,10 @@ export default function App() {
 
         {activeTab === 'vault' && (
           <WeaknessVault
-            missedQuestions={missedQuestions}
-            onRemove={handleMastered}
-            onClearAll={() => setMissedIds([])}
+            vault={vault}
+            summary={summary}
+            onRemove={handleForget}
+            onClearAll={() => setVault([])}
             onStartRevision={startRevision}
           />
         )}
@@ -252,9 +318,11 @@ export default function App() {
           <AnalyticsDashboard
             stats={{ ...stats, overallAccuracy }}
             bankStats={BANK_STATS}
-            weaknessCount={missedIds.length}
+            vaultSummary={summary}
             seenCount={recentIds.length}
             totalBank={ALL_QUESTIONS.length}
+            profile={{ stats, vault, recentIds }}
+            onImport={applyImported}
           />
         )}
       </main>
