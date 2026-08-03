@@ -45,8 +45,15 @@ jobs:
 
       # Publishing steps are skipped on pull requests: a PR should prove the
       # build is sound without pushing anything live.
+      #
+      # enablement: true turns Pages on if it isn't already. Without it the very
+      # first deploy on a new repository fails with a bare "Not Found", because
+      # the workflow runs before anyone has visited Settings → Pages. That is
+      # exactly what happened on the first deploy here.
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
