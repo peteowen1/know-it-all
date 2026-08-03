@@ -3,6 +3,11 @@ name: Build and deploy
 on:
   push:
     branches: [main]
+  # Also build on pull requests so a change is validated, linted and compiled
+  # BEFORE it reaches main. Without this the first signal that a PR is broken
+  # would be a failed deploy after merging it.
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 # GITHUB_TOKEN permissions needed by actions/deploy-pages.
@@ -38,14 +43,19 @@ jobs:
 
       - run: npm run build:only
 
+      # Publishing steps are skipped on pull requests: a PR should prove the
+      # build is sound without pushing anything live.
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: dist
 
   deploy:
     needs: build
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
