@@ -31,9 +31,16 @@ export function makeRng(seed) {
 /**
  * Fisher-Yates. Returns a new array; never mutates the input.
  *
- * The old code used `arr.sort(() => 0.5 - Math.random())`, which is not a
- * uniform shuffle — V8's sort makes the first element far likelier to stay put.
- * That mattered here because every correct answer was stored at index 0.
+ * Used here because the previous build had no option shuffle at all: `answer`
+ * was a fixed index, always 0, into a static options array, so the correct
+ * answer was always option A.
+ *
+ * Separately, that build used `arr.sort(() => 0.5 - Math.random())` to choose
+ * and order which *questions* appeared in a quiz. That is not a uniform shuffle
+ * — measured on a four-element array, the first element stays put about 36 per
+ * cent of the time against 25 per cent for a real shuffle. It never touched
+ * option order, so it was not the cause of the always-A bug, but it is the
+ * reason nothing in this file uses comparator-based shuffling.
  */
 export function shuffle(arr, rng = Math.random) {
   const out = [...arr];

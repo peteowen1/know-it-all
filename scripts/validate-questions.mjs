@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 // Question-bank validator. Run with `npm run validate`.
 //
-// This exists because the previous bank shipped 999 questions in which the
-// correct answer was ALWAYS option A, 846 explanations were the literal string
-// "<X> is the primary answer associated with <question>", and 102 questions
-// shared a recycled distractor set. Every one of those is now a hard failure.
+// This exists because the bank it replaced shipped with the correct answer at
+// option A for every single question, machine-generated template text in place
+// of most explanations, and one recycled set of wrong answers reused across
+// dozens of questions. Each of those is now a hard failure here.
+//
+// The data that had those faults was deleted in the same commit that added this
+// file, so the specific counts are not checkable from the working tree — see
+// commit 6dc4630 if you need the numbers.
 
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -103,7 +107,16 @@ for (const q of all) {
   // Explanation + hook must be real writing, and must not merely restate.
   for (const [field, min] of [['explanation', MIN_EXPLANATION_WORDS], ['hook', MIN_HOOK_WORDS]]) {
     const v = q[field];
-    if (typeof v !== 'string') continue;
+    // Deliberately a failure rather than a `continue`. The required-field loop
+    // above already rejects a non-string here, so this is unreachable today —
+    // but skipping instead of failing would make the template-phrase and length
+    // checks silently depend on that other loop never being edited. This script
+    // is the only thing standing between a bad edit and shipping filler text,
+    // so it must not rely on a second piece of code staying in sync.
+    if (typeof v !== 'string') {
+      fail(id, `${field} is not a string, so it could not be checked`);
+      continue;
+    }
     for (const phrase of TEMPLATE_PHRASES) {
       if (v.includes(phrase)) fail(id, `${field} contains template phrase "${phrase}"`);
     }
@@ -130,12 +143,36 @@ for (const q of all) {
 }
 
 // ---------------------------------------------------------------- bank-wide
+// Two questions legitimately sharing three plausible wrong answers is fine and
+// happens naturally — "Adelaide / Perth / Sydney" suits any number of distinct
+// city questions. Piling many questions onto one set is not fine: that is how
+// the previous bank ended up with the same three wrong answers under dozens of
+// questions, making the right one guessable without knowing anything.
+//
+// So this checks two different things. Per-set depth catches one set being
+// leaned on. The bank-wide share catches the subtler regression a per-set
+// threshold would miss entirely: a generator recycling sets two at a time
+// across many different combinations never trips any single set's limit, but
+// drives the overall proportion of duplicated sets up.
+let questionsInSharedSets = 0;
 for (const [key, ids] of distractorSets) {
+  if (ids.length >= 2) questionsInSharedSets += ids.length;
   if (ids.length > 3) {
     fail(ids[0], `distractor set reused by ${ids.length} questions [${key}] — recycled wrong answers`);
   } else if (ids.length === 3) {
     warn(ids[0], `distractor set reused 3x [${key}]`);
   }
+}
+
+const MAX_SHARED_SHARE = 0.08;
+const sharedShare = all.length ? questionsInSharedSets / all.length : 0;
+if (sharedShare > MAX_SHARED_SHARE) {
+  fail(
+    'bank',
+    `${questionsInSharedSets} of ${all.length} questions (${(sharedShare * 100).toFixed(1)}%) ` +
+      `share a distractor set with another question, above the ${MAX_SHARED_SHARE * 100}% ceiling ` +
+      '— wrong answers are being recycled'
+  );
 }
 
 // Same correct answer appearing over and over is a content smell.
@@ -169,6 +206,10 @@ for (const d of VALID_DIFFICULTIES) {
 console.log(`\nQuestion bank: ${all.length} questions across ${files.length} files`);
 console.log('  by category:  ' + VALID_CATEGORIES.map((c) => `${c}=${byCat[c] || 0}`).join('  '));
 console.log('  by difficulty: ' + VALID_DIFFICULTIES.map((d) => `${d}=${byDiff[d] || 0}`).join('  '));
+console.log(
+  `  distractor reuse: ${questionsInSharedSets} questions share a set with another ` +
+    `(${(sharedShare * 100).toFixed(1)}%, ceiling ${MAX_SHARED_SHARE * 100}%)`
+);
 
 if (warnings.length) {
   console.log(`\n${warnings.length} warning(s):`);

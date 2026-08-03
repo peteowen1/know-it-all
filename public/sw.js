@@ -37,8 +37,15 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       fetch(request)
         .then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE_VERSION).then((cache) => cache.put('./index.html', copy));
+          // fetch() does not reject on a 4xx/5xx, so this must be gated on
+          // response.ok. Without the check, a transient error page served by
+          // the CDN — most likely in the minutes after a deploy — would be
+          // cached as the app shell and then served on every later offline
+          // load, until some future successful navigation overwrote it.
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_VERSION).then((cache) => cache.put('./index.html', copy));
+          }
           return response;
         })
         .catch(() => caches.match('./index.html'))

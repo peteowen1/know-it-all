@@ -7,9 +7,12 @@ import AnalyticsDashboard from './components/AnalyticsDashboard';
 import QuizSetup from './components/QuizSetup';
 import { ALL_QUESTIONS, BANK_STATS, getQuestion } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
+import { localDateKey, previousDateKey } from './lib/dates';
 
-// Bump when the shape of anything in localStorage changes, so old saves are
-// dropped rather than crashing on a field that no longer exists.
+// Bump when the shape of anything in localStorage changes. This changes the key
+// prefix, so old entries are orphaned — never read again — rather than being
+// parsed into a shape the current code does not expect. Note they are not
+// deleted: only the Reset button removes them.
 const STORAGE_VERSION = 'v4';
 const KEY = (name) => `sqt_${STORAGE_VERSION}_${name}`;
 
@@ -18,21 +21,38 @@ const KEY = (name) => `sqt_${STORAGE_VERSION}_${name}`;
 // and useful anyway.
 const RECENT_MEMORY = 350;
 
-function load(name, fallback) {
+/**
+ * Read a persisted value.
+ *
+ * `isValid` is not optional in practice: a try/catch around JSON.parse only
+ * catches *syntactically* bad data. `JSON.parse('null')` succeeds and returns
+ * null, and the truthiness check below tests the raw string, not the result —
+ * so without a shape check a stored "null" would be handed straight back and
+ * blow up later at the call site, far from here, as a blank white page.
+ */
+function load(name, fallback, isValid = () => true) {
   try {
     const raw = localStorage.getItem(KEY(name));
-    return raw ? JSON.parse(raw) : fallback;
+    if (raw === null) return fallback;
+    const parsed = JSON.parse(raw);
+    return isValid(parsed) ? parsed : fallback;
   } catch {
     return fallback;
   }
 }
 
+const isArray = (v) => Array.isArray(v);
+const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
+
 function save(name, value) {
   try {
     localStorage.setItem(KEY(name), JSON.stringify(value));
-  } catch {
-    // Storage full or blocked (private browsing). Losing progress is
-    // preferable to breaking the quiz, so this is deliberately silent.
+  } catch (err) {
+    // Storage full, or blocked in private browsing. Carrying on unsaved beats
+    // breaking the quiz, but this is silent data loss from the user's point of
+    // view — they will only notice when their streak has vanished tomorrow —
+    // so make it discoverable in the console rather than invisible.
+    console.warn(`Could not save "${name}"; progress will not persist.`, err);
   }
 }
 
@@ -48,24 +68,25 @@ const EMPTY_STATS = {
   difficultyStats: {}
 };
 
-const todayKey = () => new Date().toISOString().slice(0, 10);
+const DEFAULT_SETUP = { count: 25, categories: 'all', difficulty: 'all' };
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('quiz');
 
-  const [stats, setStats] = useState(() => ({ ...EMPTY_STATS, ...load('stats', {}) }));
-  const [recentIds, setRecentIds] = useState(() => load('recent', []));
+  const [stats, setStats] = useState(() => ({ ...EMPTY_STATS, ...load('stats', {}, isObject) }));
+  const [recentIds, setRecentIds] = useState(() => load('recent', [], isArray));
   // Stored as ids only — question text and explanations always come from the
   // live bank, so fixing a question fixes it everywhere retrospectively.
-  const [missedIds, setMissedIds] = useState(() => load('missed', []));
+  const [missedIds, setMissedIds] = useState(() => load('missed', [], isArray));
 
-  const [setup, setSetup] = useState(() => load('setup', {
-    count: 25,
-    categories: 'all',
-    difficulty: 'all'
+  const [setup, setSetup] = useState(() => ({
+    ...DEFAULT_SETUP,
+    ...load('setup', {}, isObject)
   }));
 
-  const [quiz, setQuiz] = useState(() => buildQuiz({ ...load('setup', { count: 25 }) }));
+  const [quiz, setQuiz] = useState(() =>
+    buildQuiz({ ...DEFAULT_SETUP, ...load('setup', {}, isObject) })
+  );
   const [dailyQuiz, setDailyQuiz] = useState(() => buildDailyQuiz(5));
   const [revisionQuiz, setRevisionQuiz] = useState(null);
 
@@ -81,8 +102,8 @@ export default function App() {
   // lastPlayDate is advanced only by finishing a quiz, never by opening the
   // app, so browsing without playing does not extend the streak.
   useEffect(() => {
-    const today = todayKey();
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    const today = localDateKey();
+    const yesterday = previousDateKey();
     setStats((prev) => {
       const stillLive = prev.lastPlayDate === today || prev.lastPlayDate === yesterday;
       if (stillLive || prev.streak === 0) return prev;
@@ -120,8 +141,8 @@ export default function App() {
     setRecentIds((prev) => [...questionIds, ...prev.filter((id) => !questionIds.includes(id))].slice(0, RECENT_MEMORY));
 
     setStats((prev) => {
-      const today = todayKey();
-      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+      const today = localDateKey();
+      const yesterday = previousDateKey();
       let streak = prev.streak;
       if (prev.lastPlayDate !== today) {
         streak = prev.lastPlayDate === yesterday ? prev.streak + 1 : 1;

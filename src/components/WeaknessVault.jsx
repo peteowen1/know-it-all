@@ -7,13 +7,17 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
   const [activeId, setActiveId] = useState(null);
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
+  // Incremented every time a question is opened. The seed has to change per
+  // visit or the vault could be beaten by memorising "it was the third one" —
+  // seeding off anything derived from the question itself (its id, or that id's
+  // length) is constant for that question and reshuffles to the same order
+  // every single time, which is the trap this counter exists to avoid.
+  const [visit, setVisit] = useState(0);
 
-  // Options are re-shuffled with a fresh seed each visit, so drilling the vault
-  // can't be passed by memorising "it was the third one".
   const active = useMemo(() => {
     const q = missedQuestions.find((m) => m.id === activeId);
-    return q ? materialise(q, activeId?.length ?? 1) : null;
-  }, [activeId, missedQuestions]);
+    return q ? materialise(q, visit) : null;
+  }, [activeId, visit, missedQuestions]);
 
   if (!missedQuestions?.length) {
     return (
@@ -34,6 +38,7 @@ export default function WeaknessVault({ missedQuestions, onRemove, onClearAll, o
 
   const pick = (q) => {
     setActiveId(q.id);
+    setVisit((v) => v + 1);
     setSelected(null);
     setAnswered(false);
   };

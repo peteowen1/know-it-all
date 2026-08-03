@@ -1,6 +1,7 @@
 import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank';
 import { CATEGORY_LIST } from '../data/categories';
 import { hashString, makeRng, shuffle } from './rng';
+import { localDateKey } from './dates';
 
 // A "quiz" is a list of question ids plus a seed. Options are materialised from
 // (question id, seed) so a question's A/B/C/D order is stable for the length of
@@ -36,11 +37,14 @@ function rampByDifficulty(questions) {
 /**
  * Build a quiz.
  *
- * No-repeat guarantees, in order of strength:
- *  1. within a quiz — a question id can appear at most once (Set);
- *  2. within a quiz — no two questions may share a normalised stem;
- *  3. across quizzes — ids in `recentIds` are skipped while enough unseen
- *     questions remain, so you don't see the same 25 every Saturday.
+ * Two hard constraints, both enforced unconditionally in tryAdd and therefore
+ * impossible for the algorithm to violate:
+ *  - a question id appears at most once in a round;
+ *  - no two questions in a round share a normalised stem.
+ *
+ * Plus one soft preference: ids in `recentIds` are skipped so you don't see the
+ * same 25 every Saturday, but this yields once the unseen pool runs dry rather
+ * than returning a short round.
  */
 export function buildQuiz({
   count = 25,
@@ -110,10 +114,12 @@ export function buildQuiz({
 }
 
 /**
- * The daily quiz is the same for everyone on a given date and stable if you
- * reload — seeded off the date rather than the clock.
+ * The daily quiz is stable across reloads because it is seeded off the date
+ * rather than the clock. The date must be LOCAL: seeded off UTC it would roll
+ * over mid-morning in Australia, so opening it at breakfast would still serve
+ * yesterday's five questions.
  */
-export function buildDailyQuiz(count = 5, dateKey = new Date().toISOString().slice(0, 10)) {
+export function buildDailyQuiz(count = 5, dateKey = localDateKey()) {
   return buildQuiz({ count, seed: hashString(`daily:${dateKey}`) });
 }
 

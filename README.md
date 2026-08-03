@@ -59,16 +59,23 @@ enforces both, along with a blocklist of template phrases.
 ## How the engine works
 
 - **`src/lib/rng.js`** — FNV-1a hash plus mulberry32, and a real Fisher-Yates
-  shuffle. The old code used `sort(() => 0.5 - Math.random())`, which is not a
-  uniform shuffle.
+  shuffle.
 - **`src/lib/quizBuilder.js`** — builds a round. Option order is seeded on
   `(question id, quiz seed)` so it stays fixed for the length of the quiz but
-  differs next time. Guarantees no repeated id and no repeated stem within a
-  round, and prefers questions absent from the last ~350 seen.
+  differs next time. Two hard constraints — no repeated id, no repeated stem
+  within a round — plus a soft preference for questions absent from the last
+  ~350 seen, which yields once the unseen pool runs dry.
+- **`src/lib/dates.js`** — local calendar days. Streaks and the daily quiz must
+  not use `toISOString()`: it is UTC, which would roll the day over at 10-11am
+  in Australia rather than at midnight.
 - **`src/data/questionBank.js`** — loads and indexes the eight JSON files.
 
-Everything persists to `localStorage` under a versioned key prefix (`sqt_v4_*`),
-so a schema change drops old saves rather than crashing on them.
+Everything persists to `localStorage` under a versioned key prefix (`sqt_v4_*`).
+Bumping the version changes the prefix, so entries written by an older schema are
+orphaned — never read again — rather than parsed into a shape the current code
+does not expect. They are not deleted; only the Reset button does that. Values
+are shape-checked on read, because `JSON.parse` succeeding does not mean the
+result is the type the caller expects.
 
 ## Deploying
 
