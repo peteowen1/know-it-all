@@ -39,6 +39,11 @@ jobs:
       # rather than deploying broken questions.
       - run: npm run validate
 
+      # Logic tests for the scheduler and transfer modules. These import the
+      # real source files, so a regression in the spaced-repetition schedule or
+      # the progress merge fails the build rather than shipping.
+      - run: npm test
+
       - run: npm run lint
 
       - run: npm run build:only

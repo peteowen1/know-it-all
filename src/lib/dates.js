@@ -22,6 +22,38 @@ export function localDateKey(date = new Date()) {
  * long and a fixed subtraction lands on the wrong day at the boundary.
  */
 export function previousDateKey(date = new Date()) {
-  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 1);
-  return localDateKey(d);
+  return addDaysKey(-1, date);
+}
+
+/** The local date `days` from `date`, as a YYYY-MM-DD key. */
+export function addDaysKey(days, date = new Date()) {
+  return localDateKey(new Date(date.getFullYear(), date.getMonth(), date.getDate() + days));
+}
+
+/**
+ * Add days to a YYYY-MM-DD key, returning a key.
+ *
+ * Takes the key rather than a Date so scheduling is a pure function of the day
+ * it is given. Computing from `new Date()` instead would make the scheduler
+ * untestable and would quietly ignore any date passed to it.
+ */
+export function addDaysToKey(key, days) {
+  const [y, m, d] = key.split('-').map(Number);
+  return localDateKey(new Date(y, m - 1, d + days));
+}
+
+/**
+ * Whole days from `fromKey` to `toKey`, both YYYY-MM-DD.
+ *
+ * Parsed as local noon rather than midnight: a date-only string given to the
+ * Date constructor is treated as UTC, and midnight UTC can fall on the previous
+ * local day. Noon leaves twelve hours of slack either side, which no timezone
+ * offset or DST shift can cross.
+ */
+export function daysBetween(fromKey, toKey) {
+  const parse = (k) => {
+    const [y, m, d] = k.split('-').map(Number);
+    return new Date(y, m - 1, d, 12, 0, 0).getTime();
+  };
+  return Math.round((parse(toKey) - parse(fromKey)) / 86400000);
 }

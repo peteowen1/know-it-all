@@ -1643,3 +1643,114 @@ body {
   .compact-right { width: 100%; justify-content: flex-start; flex-wrap: wrap; }
   .question-text { font-size: 1.15rem; }
 }
+
+/* ============================================================
+   Spaced repetition, progress transfer and challenge sharing
+   ============================================================ */
+
+.missed-q-item.is-due {
+  border-left: 3px solid var(--accent-gold);
+}
+
+.missed-q-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.due-pill,
+.box-pill,
+.lapse-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  background: rgba(148, 163, 184, 0.1);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+
+.due-pill.due-now {
+  color: var(--accent-gold);
+  background: rgba(245, 158, 11, 0.15);
+}
+
+.lapse-pill {
+  color: var(--accent-rose);
+  background: rgba(244, 63, 94, 0.12);
+}
+
+/* Box progress dots. letter-spacing so the filled and empty circles read as a
+   gauge rather than a word. */
+.box-pill {
+  letter-spacing: 0.12em;
+  font-size: 0.6rem;
+}
+
+.vault-practice-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.transfer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.transfer-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.transfer-box {
+  width: 100%;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.6rem;
+  resize: vertical;
+  word-break: break-all;
+}
+
+.transfer-box:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+}
+
+.transfer-status {
+  margin-top: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.transfer-status.ok { color: var(--accent-green); }
+.transfer-status.bad { color: var(--accent-rose); }
+
+.centered-text {
+  justify-content: center;
+  text-align: center;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actions-bar.centered {
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}

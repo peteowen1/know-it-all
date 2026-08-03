@@ -1053,15 +1053,15 @@
     "id": "lang_076",
     "category": "language",
     "difficulty": "hard",
-    "question": "Which language holds the record for the largest number of noun cases?",
-    "answer": "Hungarian",
+    "question": "Roughly how many noun cases does Hungarian have?",
+    "answer": "About eighteen",
     "distractors": [
-      "Finnish",
-      "Georgian",
-      "Sanskrit"
+      "About four",
+      "About forty",
+      "About sixty"
     ],
-    "explanation": "Depending on how case is defined, Hungarian is usually credited with about eighteen, with Finnish around fifteen; the counts are disputed by linguists.",
-    "hook": "Hungarian and Finnish both have well over a dozen cases — English has three pronoun forms."
+    "explanation": "Finnish has around fifteen, and both dwarf English — but neither holds the record: that goes to Tabasaran in the Caucasus, credited with anywhere from 48 to 64 depending on how a case is defined.",
+    "hook": "Hungarian and Finnish are famous for cases; a Caucasian language quietly has three times as many."
   },
   {
     "id": "lang_077",
@@ -1417,15 +1417,15 @@
     "id": "lang_102",
     "category": "language",
     "difficulty": "hard",
-    "question": "What is the name for the linguistic phenomenon where a negative requires another negative, as in French 'ne...pas'?",
-    "answer": "Negative concord",
+    "question": "What is the term for negation split across two words, as in French 'ne...pas'?",
+    "answer": "Bipartite negation",
     "distractors": [
-      "Double negation",
+      "Negative concord",
       "Negative raising",
       "Polarity reversal"
     ],
-    "explanation": "Standard English rejects it as a double negative, but it is grammatically required in French and standard in many English dialects, including African American English.",
-    "hook": "'I didn't see nothing' is ungrammatical in standard English and mandatory in French."
+    "explanation": "Negative concord is the different phenomenon where several negative words reinforce one meaning, as in 'I didn't see nothing' — ungrammatical in standard English but standard in many dialects and required in some languages.",
+    "hook": "French splits one negative across two words; negative concord stacks several negatives into one."
   },
   {
     "id": "lang_103",
@@ -1613,14 +1613,14 @@
     "id": "lang_116",
     "category": "language",
     "difficulty": "hard",
-    "question": "Which English monarch's reign saw the Great Vowel Shift largely complete?",
-    "answer": "Elizabeth I",
+    "question": "Which change explains why English spelling so often disagrees with English pronunciation?",
+    "answer": "The Great Vowel Shift",
     "distractors": [
-      "Henry V",
-      "Charles II",
-      "Victoria"
+      "The Norman Conquest",
+      "Grimm's Law",
+      "The Danelaw settlement"
     ],
-    "explanation": "The shift ran roughly from 1400 to 1700, changing long vowel pronunciation while spelling stayed fixed by printing — the main reason English spelling looks arbitrary.",
+    "explanation": "Running roughly from 1400 to 1700, it altered the pronunciation of long vowels while printing was fixing spelling in place, so the written forms preserve a pronunciation that has since moved.",
     "hook": "The vowels moved, the spelling did not, and English has been illogical ever since."
   },
   {
@@ -1816,7 +1816,7 @@
       "Roman Jakobson",
       "Steven Pinker"
     ],
-    "explanation": "His 1957 Syntactic Structures argued children acquire language too fast and from too little input to be learning purely by imitation; the theory remains contested.",
-    "hook": "The argument is that children learn too fast for imitation alone to explain it."
+    "explanation": "His 1959 review of Skinner's Verbal Behavior argued children acquire language too fast, and from too little input, to be learning purely by imitation — the poverty-of-the-stimulus argument. The theory remains contested.",
+    "hook": "The argument landed in a book review demolishing behaviourism, not in a grammar textbook."
   }
 ]

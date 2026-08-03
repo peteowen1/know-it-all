@@ -5,7 +5,11 @@
     "difficulty": "easy",
     "question": "Who served as Australia's first Prime Minister?",
     "answer": "Edmund Barton",
-    "distractors": ["Alfred Deakin", "Chris Watson", "George Reid"],
+    "distractors": [
+      "Alfred Deakin",
+      "Chris Watson",
+      "George Reid"
+    ],
     "explanation": "Barton led the first federal ministry from 1 January 1901 and quit politics in 1903 to become a founding justice of the High Court, where he sat until his death in 1920.",
     "hook": "Barton was first into the Lodge and first onto the High Court bench — first at both."
   },
@@ -15,7 +19,11 @@
     "difficulty": "easy",
     "question": "In which year did the six Australian colonies federate into a single Commonwealth?",
     "answer": "1901",
-    "distractors": ["1888", "1911", "1927"],
+    "distractors": [
+      "1888",
+      "1911",
+      "1927"
+    ],
     "explanation": "Federation took effect on 1 January 1901, deliberately timed to open the new century, after referendums in each colony and an Act of the British Parliament in 1900.",
     "hook": "New century, new nation — 1-1-1901 is three ones in a row."
   },
@@ -25,7 +33,11 @@
     "difficulty": "easy",
     "question": "Which city served as the seat of federal Parliament before Canberra opened in 1927?",
     "answer": "Melbourne",
-    "distractors": ["Sydney", "Adelaide", "Hobart"],
+    "distractors": [
+      "Sydney",
+      "Adelaide",
+      "Hobart"
+    ],
     "explanation": "Parliament sat in Melbourne for 26 years, a compromise because Sydney and Melbourne could not agree on which of them should be the permanent capital.",
     "hook": "Sydney and Melbourne wouldn't share, so Canberra was born in the paddocks between them."
   },
@@ -35,7 +47,11 @@
     "difficulty": "easy",
     "question": "Which Australian Prime Minister disappeared while swimming at Cheviot Beach in December 1967?",
     "answer": "Harold Holt",
-    "distractors": ["John Gorton", "William McMahon", "Ben Chifley"],
+    "distractors": [
+      "John Gorton",
+      "William McMahon",
+      "Ben Chifley"
+    ],
     "explanation": "Holt vanished in heavy surf on 17 December 1967 and his body was never recovered; a Melbourne swimming centre was later named in his honour, an irony noted ever since.",
     "hook": "The PM who vanished at sea has a swimming pool named after him."
   },
@@ -45,7 +61,11 @@
     "difficulty": "easy",
     "question": "Which armed miners' rebellion took place at Ballarat in December 1854?",
     "answer": "The Eureka Stockade",
-    "distractors": ["The Rum Rebellion", "The Castle Hill Rising", "The Lambing Flat Riots"],
+    "distractors": [
+      "The Rum Rebellion",
+      "The Castle Hill Rising",
+      "The Lambing Flat Riots"
+    ],
     "explanation": "Diggers burned their licences and swore allegiance under the Southern Cross flag; the stockade fell in about twenty minutes, but every man tried for treason was acquitted and the licence was abolished.",
     "hook": "They lost the battle in twenty minutes and won the argument within a year."
   },
@@ -55,7 +75,11 @@
     "difficulty": "easy",
     "question": "Which navigator charted Australia's east coast aboard HMS Endeavour in 1770?",
     "answer": "James Cook",
-    "distractors": ["Matthew Flinders", "Abel Tasman", "William Dampier"],
+    "distractors": [
+      "Matthew Flinders",
+      "Abel Tasman",
+      "William Dampier"
+    ],
     "explanation": "He made landfall at Botany Bay in April 1770 and ran the coast north, later holing the Endeavour on the Great Barrier Reef and beaching her for repairs near modern Cooktown.",
     "hook": "Cook came in 1770 — seven-seventy for the man who sailed the seven seas."
   },
@@ -65,7 +89,11 @@
     "difficulty": "easy",
     "question": "What is the common name for the 1975 event in which the Governor-General sacked the Whitlam government?",
     "answer": "The Dismissal",
-    "distractors": ["The Split", "The Petrov Affair", "The Loans Affair"],
+    "distractors": [
+      "The Split",
+      "The Petrov Affair",
+      "The Loans Affair"
+    ],
     "explanation": "On 11 November 1975 Sir John Kerr withdrew Gough Whitlam's commission during a Senate supply deadlock and installed Malcolm Fraser as caretaker Prime Minister pending an election.",
     "hook": "Remembrance Day 1975 — 11/11 is a date Australians remember for two reasons."
   },
@@ -75,7 +103,11 @@
     "difficulty": "easy",
     "question": "Which Australian Prime Minister held office for the longest total period?",
     "answer": "Robert Menzies",
-    "distractors": ["John Howard", "Bob Hawke", "Billy Hughes"],
+    "distractors": [
+      "John Howard",
+      "Bob Hawke",
+      "Billy Hughes"
+    ],
     "explanation": "He served 1939-41 and again 1949-66, more than eighteen years in total, and founded the Liberal Party in the gap between his two terms.",
     "hook": "He lost the job, built a whole new party, then took it back for sixteen straight years."
   },
@@ -85,7 +117,11 @@
     "difficulty": "easy",
     "question": "Which document did First Nations delegates issue at Uluru in May 2017?",
     "answer": "The Uluru Statement from the Heart",
-    "distractors": ["The Barunga Statement", "The Redfern Address", "The Yirrkala Bark Petitions"],
+    "distractors": [
+      "The Barunga Statement",
+      "The Redfern Address",
+      "The Yirrkala Bark Petitions"
+    ],
     "explanation": "Delegates to the First Nations Constitutional Convention called for a constitutionally enshrined Voice to Parliament and a Makarrata Commission for treaty and truth-telling.",
     "hook": "Voice, Treaty, Truth — three words, in that order, from the heart of the continent."
   },
@@ -95,7 +131,11 @@
     "difficulty": "easy",
     "question": "Who became Australia's first female Prime Minister in 2010?",
     "answer": "Julia Gillard",
-    "distractors": ["Quentin Bryce", "Penny Wong", "Julie Bishop"],
+    "distractors": [
+      "Quentin Bryce",
+      "Penny Wong",
+      "Julie Bishop"
+    ],
     "explanation": "She replaced Kevin Rudd as Labor leader in June 2010 and governed in minority after the August election produced a hung parliament, the first since 1940.",
     "hook": "2010 delivered the first woman PM and the first hung parliament in seventy years, in one year."
   },
@@ -105,7 +145,11 @@
     "difficulty": "easy",
     "question": "What is the popular name for the policy of restricting non-European immigration from 1901?",
     "answer": "The White Australia policy",
-    "distractors": ["The Colombo Plan", "The Assimilation Policy", "The Populate or Perish scheme"],
+    "distractors": [
+      "The Colombo Plan",
+      "The Assimilation Policy",
+      "The Populate or Perish scheme"
+    ],
     "explanation": "The Immigration Restriction Act 1901 used a dictation test in any European language to exclude unwanted arrivals; the last formal elements were removed by the Whitlam government in 1973.",
     "hook": "A dictation test in any European language — you could be failed in Gaelic if they wanted you gone."
   },
@@ -115,7 +159,11 @@
     "difficulty": "easy",
     "question": "In which year did Australian and New Zealand troops land at Gallipoli?",
     "answer": "1915",
-    "distractors": ["1914", "1916", "1918"],
+    "distractors": [
+      "1914",
+      "1916",
+      "1918"
+    ],
     "explanation": "The landing at Anzac Cove on 25 April began an eight-month campaign costing more than 8,000 Australian lives before the December evacuation, itself a near-flawless operation.",
     "hook": "The one part of Gallipoli that went perfectly was leaving."
   },
@@ -125,7 +173,11 @@
     "difficulty": "easy",
     "question": "Which Australian city hosted the 2000 Summer Olympic Games?",
     "answer": "Sydney",
-    "distractors": ["Melbourne", "Brisbane", "Perth"],
+    "distractors": [
+      "Melbourne",
+      "Brisbane",
+      "Perth"
+    ],
     "explanation": "It beat Beijing by two votes for the 2000 Games, which IOC president Juan Antonio Samaranch called the best ever; Melbourne had hosted in 1956 and Brisbane is set for 2032.",
     "hook": "Melbourne 1956, Sydney 2000, Brisbane 2032 — Australia's Olympic hat-trick."
   },
@@ -135,7 +187,11 @@
     "difficulty": "easy",
     "question": "Which colony was founded in 1836 as a free settlement with no convict transportation?",
     "answer": "South Australia",
-    "distractors": ["Victoria", "Queensland", "Western Australia"],
+    "distractors": [
+      "Victoria",
+      "Queensland",
+      "Western Australia"
+    ],
     "explanation": "It was established on Edward Gibbon Wakefield's systematic colonisation model, funding migration by land sales; Western Australia, also founded free, later requested convicts to solve a labour shortage.",
     "hook": "One colony never took convicts. The other started free and then asked for them."
   },
@@ -145,7 +201,11 @@
     "difficulty": "easy",
     "question": "What name was given to the site where the First Fleet settled after leaving Botany Bay in January 1788?",
     "answer": "Sydney Cove",
-    "distractors": ["Port Phillip", "Norfolk Bay", "Moreton Bay"],
+    "distractors": [
+      "Port Phillip",
+      "Norfolk Bay",
+      "Moreton Bay"
+    ],
     "explanation": "Arthur Phillip found Botany Bay's water and soil poor, moved a few kilometres north into Port Jackson, and named the cove for Home Secretary Lord Sydney on 26 January 1788.",
     "hook": "Botany Bay was the plan; the move north was the fix eight days later."
   },
@@ -155,7 +215,11 @@
     "difficulty": "easy",
     "question": "Which structure opened in 1932 with its ribbon slashed by a man on horseback?",
     "answer": "The Sydney Harbour Bridge",
-    "distractors": ["The Sydney Opera House", "The Story Bridge", "The West Gate Bridge"],
+    "distractors": [
+      "The Sydney Opera House",
+      "The Story Bridge",
+      "The West Gate Bridge"
+    ],
     "explanation": "Francis de Groot of the paramilitary New Guard cut the ribbon with a sword before Premier Jack Lang could; the ribbon was retied and Lang performed the official opening.",
     "hook": "The ribbon was cut twice — once by a sword, once by the Premier."
   },
@@ -165,7 +229,11 @@
     "difficulty": "easy",
     "question": "Which animal appears alongside the emu on the Commonwealth Coat of Arms?",
     "answer": "The red kangaroo",
-    "distractors": ["The wedge-tailed eagle", "The koala", "The platypus"],
+    "distractors": [
+      "The wedge-tailed eagle",
+      "The koala",
+      "The platypus"
+    ],
     "explanation": "The pair were chosen partly because neither can easily walk backwards, read as a nation that only moves forward; the shield between them carries the six state badges.",
     "hook": "Neither animal walks backwards — that is the whole point of the pairing."
   },
@@ -175,7 +243,11 @@
     "difficulty": "easy",
     "question": "What did the 1967 referendum change in relation to Aboriginal Australians?",
     "answer": "It let the Commonwealth make laws for them and counted them in the census",
-    "distractors": ["It granted them the federal vote", "It created land rights", "It abolished state protection boards"],
+    "distractors": [
+      "It granted them the federal vote",
+      "It created land rights",
+      "It abolished state protection boards"
+    ],
     "explanation": "It passed with 90.77 per cent support, the highest yes vote in Australian referendum history; the federal vote had already been granted separately in 1962.",
     "hook": "Ninety per cent said yes in 1967 — no referendum before or since has come close."
   },
@@ -185,7 +257,11 @@
     "difficulty": "easy",
     "question": "Which pair of explorers died at Cooper Creek returning from their 1860-61 crossing of the continent?",
     "answer": "Burke and Wills",
-    "distractors": ["Hume and Hovell", "Blaxland and Lawson", "Leichhardt and Gilbert"],
+    "distractors": [
+      "Hume and Hovell",
+      "Blaxland and Lawson",
+      "Leichhardt and Gilbert"
+    ],
     "explanation": "They reached the tidal mangroves near the Gulf of Carpentaria but missed the relief party at the Dig Tree by around nine hours, and both died on the return leg.",
     "hook": "They missed rescue by hours — the Dig Tree marks the worst timing in Australian history."
   },
@@ -195,7 +271,11 @@
     "difficulty": "easy",
     "question": "Which bushranger wore homemade plate armour at the siege of Glenrowan in 1880?",
     "answer": "Ned Kelly",
-    "distractors": ["Ben Hall", "Captain Thunderbolt", "Dan Morgan"],
+    "distractors": [
+      "Ben Hall",
+      "Captain Thunderbolt",
+      "Dan Morgan"
+    ],
     "explanation": "The 44-kilogram suit was beaten from stolen plough mouldboards and covered everything but his legs, which is where police shot him; he was hanged at Old Melbourne Gaol that November.",
     "hook": "The armour stopped bullets everywhere except the legs it did not cover."
   },
@@ -205,7 +285,11 @@
     "difficulty": "easy",
     "question": "Which capital city was designed by Walter Burley Griffin and Marion Mahony Griffin?",
     "answer": "Canberra",
-    "distractors": ["Wellington", "Ottawa", "Brasilia"],
+    "distractors": [
+      "Wellington",
+      "Ottawa",
+      "Brasilia"
+    ],
     "explanation": "Their 1912 competition-winning plan used concentric circles and sightlines to the surrounding hills; Marion Mahony Griffin's renderings are widely credited with winning the judges over.",
     "hook": "A set of circles aimed at hills — that is the Griffin plan in one line."
   },
@@ -215,7 +299,11 @@
     "difficulty": "easy",
     "question": "Which Prime Minister delivered the national Apology to the Stolen Generations in February 2008?",
     "answer": "Kevin Rudd",
-    "distractors": ["Paul Keating", "Julia Gillard", "Malcolm Turnbull"],
+    "distractors": [
+      "Paul Keating",
+      "Julia Gillard",
+      "Malcolm Turnbull"
+    ],
     "explanation": "He delivered it as the first substantive business of the 42nd Parliament, using the word 'sorry' three times; the Bringing Them Home report had recommended such an apology eleven years earlier.",
     "hook": "First item of business, first sitting day, 2008."
   },
@@ -225,7 +313,11 @@
     "difficulty": "easy",
     "question": "What is the title of Australia's national anthem, made official in 1984?",
     "answer": "Advance Australia Fair",
-    "distractors": ["Waltzing Matilda", "God Save the Queen", "Song of Australia"],
+    "distractors": [
+      "Waltzing Matilda",
+      "God Save the Queen",
+      "Song of Australia"
+    ],
     "explanation": "Peter Dodds McCormick wrote it in the 1870s; a 1977 national plebiscite chose it over Waltzing Matilda, and in 2021 'young and free' became 'one and free'.",
     "hook": "Waltzing Matilda ran second in the 1977 poll and has been the unofficial anthem ever since."
   },
@@ -235,7 +327,11 @@
     "difficulty": "easy",
     "question": "Which court replaced the Privy Council in London as Australia's final court of appeal?",
     "answer": "The High Court of Australia",
-    "distractors": ["The Federal Court", "The Supreme Court of NSW", "The Administrative Appeals Tribunal"],
+    "distractors": [
+      "The Federal Court",
+      "The Supreme Court of NSW",
+      "The Administrative Appeals Tribunal"
+    ],
     "explanation": "Appeals to London were closed in stages, ending with the Australia Acts of 1986; the High Court, created in 1903, has been the final court ever since.",
     "hook": "1986 is when the legal umbilical cord to London was finally cut."
   },
@@ -245,7 +341,11 @@
     "difficulty": "easy",
     "question": "During which conflict did John Curtin declare that Australia looked to America 'free of any pangs'?",
     "answer": "The Second World War",
-    "distractors": ["The Korean War", "The First World War", "The Boer War"],
+    "distractors": [
+      "The Korean War",
+      "The First World War",
+      "The Boer War"
+    ],
     "explanation": "He published the statement days after Pearl Harbor, signalling a strategic pivot from Britain to the United States as Japanese forces advanced through South-East Asia.",
     "hook": "Pearl Harbor in December, and by New Year Australia had swapped its great and powerful friend."
   },
@@ -255,7 +355,11 @@
     "difficulty": "easy",
     "question": "What is the floral emblem of Australia?",
     "answer": "The golden wattle",
-    "distractors": ["The waratah", "Sturt's desert pea", "The kangaroo paw"],
+    "distractors": [
+      "The waratah",
+      "Sturt's desert pea",
+      "The kangaroo paw"
+    ],
     "explanation": "Acacia pycnantha was proclaimed the national floral emblem in 1988 and gives the country its green-and-gold sporting colours; Wattle Day falls on 1 September.",
     "hook": "Green and gold are wattle colours — the sporting uniform is a flower."
   },
@@ -265,7 +369,11 @@
     "difficulty": "easy",
     "question": "Which Australian state was originally named Van Diemen's Land?",
     "answer": "Tasmania",
-    "distractors": ["Victoria", "South Australia", "Queensland"],
+    "distractors": [
+      "Victoria",
+      "South Australia",
+      "Queensland"
+    ],
     "explanation": "Abel Tasman named it for the Dutch East Indies governor in 1642; the colony was renamed in 1856, partly to shed its association with convict transportation.",
     "hook": "The island dropped the Dutchman's name to escape its convict reputation."
   },
@@ -275,7 +383,11 @@
     "difficulty": "easy",
     "question": "Which 1992 High Court decision rejected the doctrine of terra nullius?",
     "answer": "Mabo v Queensland (No 2)",
-    "distractors": ["Wik v Queensland", "The Engineers case", "Cole v Whitfield"],
+    "distractors": [
+      "Wik v Queensland",
+      "The Engineers case",
+      "Cole v Whitfield"
+    ],
     "explanation": "The court recognised native title surviving the Crown's acquisition of sovereignty, prompting the Native Title Act 1993; Eddie Koiki Mabo died five months before judgment.",
     "hook": "Mabo never heard the verdict — he died in January 1992, the court ruled in June."
   },
@@ -285,7 +397,11 @@
     "difficulty": "easy",
     "question": "How many stars appear in total on the Australian national flag?",
     "answer": "Six",
-    "distractors": ["Five", "Seven", "Eight"],
+    "distractors": [
+      "Five",
+      "Seven",
+      "Eight"
+    ],
     "explanation": "Five make up the Southern Cross and the sixth is the Commonwealth Star below the Union Jack, whose seventh point was added in 1908 to represent the territories.",
     "hook": "Five for the Cross, one for the Commonwealth — and that one has seven points."
   },
@@ -295,7 +411,11 @@
     "difficulty": "easy",
     "question": "Which scheme built sixteen dams and seven power stations in the Australian Alps between 1949 and 1974?",
     "answer": "The Snowy Mountains Scheme",
-    "distractors": ["The Ord River Scheme", "The Hume Project", "The Burdekin Scheme"],
+    "distractors": [
+      "The Ord River Scheme",
+      "The Hume Project",
+      "The Burdekin Scheme"
+    ],
     "explanation": "It employed 100,000 workers, roughly seventy per cent of them migrants from more than thirty countries, and is often described as the making of multicultural Australia.",
     "hook": "It built power stations and, almost by accident, a multicultural nation."
   },
@@ -305,7 +425,11 @@
     "difficulty": "easy",
     "question": "Which Prime Minister introduced Medicare in its current form in 1984?",
     "answer": "Bob Hawke",
-    "distractors": ["Gough Whitlam", "Paul Keating", "Malcolm Fraser"],
+    "distractors": [
+      "Gough Whitlam",
+      "Paul Keating",
+      "Malcolm Fraser"
+    ],
     "explanation": "His government revived universal health insurance after Fraser dismantled Whitlam's Medibank; the levy began at one per cent of taxable income.",
     "hook": "Medibank became Medicare — same idea, two names, ten years apart."
   },
@@ -315,7 +439,11 @@
     "difficulty": "easy",
     "question": "In which year did Australia adopt decimal currency?",
     "answer": "1966",
-    "distractors": ["1959", "1971", "1975"],
+    "distractors": [
+      "1959",
+      "1971",
+      "1975"
+    ],
     "explanation": "The changeover on 14 February 1966 replaced pounds, shillings and pence with dollars and cents, promoted by a jingle set to the tune of Click Go the Shears.",
     "hook": "Valentine's Day 1966 — the day the pound got dumped."
   },
@@ -325,7 +453,11 @@
     "difficulty": "easy",
     "question": "Which Australian territory contains the seat of federal government?",
     "answer": "The Australian Capital Territory",
-    "distractors": ["The Northern Territory", "Jervis Bay Territory", "Norfolk Island"],
+    "distractors": [
+      "The Northern Territory",
+      "Jervis Bay Territory",
+      "Norfolk Island"
+    ],
     "explanation": "It was excised from New South Wales in 1911 under a constitutional requirement that the capital sit in NSW but at least 100 miles from Sydney.",
     "hook": "The Constitution said 'in NSW but 100 miles from Sydney' — Canberra is that compromise made geographic."
   },
@@ -335,7 +467,11 @@
     "difficulty": "easy",
     "question": "Which ship carried Matthew Flinders on the first circumnavigation of the Australian mainland?",
     "answer": "HMS Investigator",
-    "distractors": ["HMS Endeavour", "HMS Supply", "HMS Beagle"],
+    "distractors": [
+      "HMS Endeavour",
+      "HMS Supply",
+      "HMS Beagle"
+    ],
     "explanation": "He completed the circuit in 1801-03 and popularised the name 'Australia'; his cat Trim went with him and is commemorated in a statue outside the State Library of NSW.",
     "hook": "He sailed the Investigator, named the continent, and took his cat."
   },
@@ -345,7 +481,11 @@
     "difficulty": "easy",
     "question": "What was the popular name for the conscription lottery used during the Vietnam War?",
     "answer": "The birthday ballot",
-    "distractors": ["The Kitchener draft", "The lottery of numbers", "The Anzac levy"],
+    "distractors": [
+      "The Kitchener draft",
+      "The lottery of numbers",
+      "The Anzac levy"
+    ],
     "explanation": "Marbles marked with birth dates were drawn to select twenty-year-old men for two years' service; Whitlam abolished conscription within days of taking office in December 1972.",
     "hook": "Your birthday came out of a barrel — that was the entire selection process."
   },
@@ -355,7 +495,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister called Malcolm Fraser 'Kerr's cur' on the steps of Parliament House?",
     "answer": "Gough Whitlam",
-    "distractors": ["Bob Hawke", "Bill Hayden", "Jim Cairns"],
+    "distractors": [
+      "Bob Hawke",
+      "Bill Hayden",
+      "Jim Cairns"
+    ],
     "explanation": "He delivered the line after the proclamation dissolving Parliament was read, opening with 'Well may we say God Save the Queen, because nothing will save the Governor-General'.",
     "hook": "The prayer came first, the insult second, and both entered the language."
   },
@@ -365,7 +509,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister served three separate non-consecutive terms in the office's first decade?",
     "answer": "Alfred Deakin",
-    "distractors": ["Andrew Fisher", "George Reid", "Joseph Cook"],
+    "distractors": [
+      "Andrew Fisher",
+      "George Reid",
+      "Joseph Cook"
+    ],
     "explanation": "He held the job in 1903-04, 1905-08 and 1909-10, governing through the three-party instability that ended when his Protectionists fused with the Free Traders.",
     "hook": "One man holds three of the first ten prime ministerships — that is why the numbering jumps."
   },
@@ -375,7 +523,11 @@
     "difficulty": "medium",
     "question": "Who led the world's first national labour government, formed in Australia in 1904?",
     "answer": "Chris Watson",
-    "distractors": ["Andrew Fisher", "Billy Hughes", "James Scullin"],
+    "distractors": [
+      "Andrew Fisher",
+      "Billy Hughes",
+      "James Scullin"
+    ],
     "explanation": "His minority government lasted four months but marked the first time anywhere that a labour party formed a national administration; at 37 he remains the youngest Australian PM.",
     "hook": "Australia gave the world its first Labor government, and it lasted about as long as a cricket series."
   },
@@ -385,7 +537,11 @@
     "difficulty": "medium",
     "question": "Which Australian Prime Minister was nicknamed 'The Little Digger'?",
     "answer": "Billy Hughes",
-    "distractors": ["John Curtin", "Ben Chifley", "Earle Page"],
+    "distractors": [
+      "John Curtin",
+      "Ben Chifley",
+      "Earle Page"
+    ],
     "explanation": "He earned the name from troops during the First World War, led Australia at the Paris Peace Conference, and was expelled from the Labor Party over conscription in 1916.",
     "hook": "Expelled from Labor, joined the Nationalists, and the diggers loved him anyway."
   },
@@ -395,7 +551,11 @@
     "difficulty": "medium",
     "question": "How many days did Frank Forde serve as Prime Minister in 1945?",
     "answer": "Eight",
-    "distractors": ["Nineteen", "Twenty-three", "Forty"],
+    "distractors": [
+      "Nineteen",
+      "Twenty-three",
+      "Forty"
+    ],
     "explanation": "He was caretaker between John Curtin's death and the Labor caucus electing Ben Chifley, giving him the shortest prime ministership in Australian history.",
     "hook": "Forde eight, Page nineteen, McEwen twenty-three — the three caretaker sprints."
   },
@@ -405,7 +565,11 @@
     "difficulty": "medium",
     "question": "What did Robert Menzies ask voters to approve in the 1951 referendum that he narrowly lost?",
     "answer": "A ban on the Communist Party",
-    "distractors": ["Extended federal price controls", "Four-year parliamentary terms", "Nationalisation of the airlines"],
+    "distractors": [
+      "Extended federal price controls",
+      "Four-year parliamentary terms",
+      "Nationalisation of the airlines"
+    ],
     "explanation": "After the High Court struck down his Communist Party Dissolution Act he sought the power directly and lost 49.4 to 50.6 per cent, with Labor's Doc Evatt leading the no case.",
     "hook": "Lost by roughly one per cent — the closest a referendum has come without passing."
   },
@@ -415,7 +579,11 @@
     "difficulty": "medium",
     "question": "Which Soviet diplomat's 1954 defection triggered a royal commission and split the Labor Party?",
     "answer": "Vladimir Petrov",
-    "distractors": ["Alexander Kerensky", "Ivan Skripov", "Georgy Zarubin"],
+    "distractors": [
+      "Alexander Kerensky",
+      "Ivan Skripov",
+      "Georgy Zarubin"
+    ],
     "explanation": "His defection and the airport struggle over his wife Evdokia dominated the 1954 election aftermath and fed the 1955 split that produced the Democratic Labor Party.",
     "hook": "One defector, one airport tug-of-war, and Labor spent seventeen years out of office."
   },
@@ -425,7 +593,11 @@
     "difficulty": "medium",
     "question": "Which Australian shared the 1945 Nobel Prize in Medicine for turning penicillin into a usable drug?",
     "answer": "Howard Florey",
-    "distractors": ["Macfarlane Burnet", "John Eccles", "Peter Doherty"],
+    "distractors": [
+      "Macfarlane Burnet",
+      "John Eccles",
+      "Peter Doherty"
+    ],
     "explanation": "He and Ernst Chain developed Alexander Fleming's observation into a therapy, running the first human trials in Oxford in 1941; he later appeared on the Australian $50 note.",
     "hook": "Fleming spotted the mould; the Adelaide man made it a medicine."
   },
@@ -435,7 +607,11 @@
     "difficulty": "medium",
     "question": "Which two Australians shared the 2005 Nobel Prize in Medicine for linking Helicobacter pylori to ulcers?",
     "answer": "Barry Marshall and Robin Warren",
-    "distractors": ["Elizabeth Blackburn and Jack Szostak", "Peter Doherty and Rolf Zinkernagel", "John Eccles and Bernard Katz"],
+    "distractors": [
+      "Elizabeth Blackburn and Jack Szostak",
+      "Peter Doherty and Rolf Zinkernagel",
+      "John Eccles and Bernard Katz"
+    ],
     "explanation": "Marshall drank a culture of the bacterium to prove it caused gastritis after the medical establishment dismissed the theory; the pair worked in Perth.",
     "hook": "He drank the bacteria himself because nobody believed him."
   },
@@ -445,7 +621,11 @@
     "difficulty": "medium",
     "question": "Who became Australia's first female Governor-General in 2008?",
     "answer": "Quentin Bryce",
-    "distractors": ["Julia Gillard", "Marie Bashir", "Linda Dessau"],
+    "distractors": [
+      "Julia Gillard",
+      "Marie Bashir",
+      "Linda Dessau"
+    ],
     "explanation": "She served until 2014 and swore in her own son-in-law Bill Shorten as a minister; she had earlier been Governor of Queensland.",
     "hook": "First woman in the job, and she swore in her daughter's husband."
   },
@@ -455,7 +635,11 @@
     "difficulty": "medium",
     "question": "Roughly what share of Australians voted no to a republic in the 1999 referendum?",
     "answer": "About 55 per cent",
-    "distractors": ["About 51 per cent", "About 62 per cent", "About 68 per cent"],
+    "distractors": [
+      "About 51 per cent",
+      "About 62 per cent",
+      "About 68 per cent"
+    ],
     "explanation": "The proposal for a president chosen by a two-thirds parliamentary majority failed in all six states, splitting republicans who wanted a directly elected head of state.",
     "hook": "It lost not to monarchists alone but to republicans who wanted to pick the president themselves."
   },
@@ -465,7 +649,11 @@
     "difficulty": "medium",
     "question": "Whose government introduced the Goods and Services Tax in July 2000?",
     "answer": "John Howard",
-    "distractors": ["Paul Keating", "Bob Hawke", "Malcolm Fraser"],
+    "distractors": [
+      "Paul Keating",
+      "Bob Hawke",
+      "Malcolm Fraser"
+    ],
     "explanation": "He took a ten per cent GST to the 1998 election after previously ruling one out, winning a majority of seats while losing the two-party-preferred vote.",
     "hook": "He said 'never ever' in 1995 and legislated it five years later."
   },
@@ -475,7 +663,11 @@
     "difficulty": "medium",
     "question": "Which Australian city was devastated by Cyclone Tracy on Christmas Eve 1974?",
     "answer": "Darwin",
-    "distractors": ["Townsville", "Cairns", "Broome"],
+    "distractors": [
+      "Townsville",
+      "Cairns",
+      "Broome"
+    ],
     "explanation": "Tracy destroyed roughly seventy per cent of the city's buildings and killed sixty-six people; most of the population was evacuated south in the largest airlift in Australian history.",
     "hook": "Christmas Eve 1974 — a capital city was largely emptied by air within a week."
   },
@@ -485,7 +677,11 @@
     "difficulty": "medium",
     "question": "In which colony did the Rum Rebellion of 1808 depose a governor?",
     "answer": "New South Wales",
-    "distractors": ["Van Diemen's Land", "Swan River Colony", "Moreton Bay"],
+    "distractors": [
+      "Van Diemen's Land",
+      "Swan River Colony",
+      "Moreton Bay"
+    ],
     "explanation": "The NSW Corps arrested Governor William Bligh in the only successful armed takeover of government in Australian history; Bligh had already survived the Bounty mutiny in 1789.",
     "hook": "Bligh is the only man to lose both a ship and a colony to mutiny."
   },
@@ -495,7 +691,11 @@
     "difficulty": "medium",
     "question": "Who said 'this is the recession we had to have'?",
     "answer": "Paul Keating",
-    "distractors": ["Bob Hawke", "John Howard", "Peter Costello"],
+    "distractors": [
+      "Bob Hawke",
+      "John Howard",
+      "Peter Costello"
+    ],
     "explanation": "He said it as Treasurer in November 1990; unemployment peaked near eleven per cent and the phrase followed him into the prime ministership and out of it.",
     "hook": "Said as Treasurer, worn as Prime Minister — the line that would not die."
   },
@@ -505,7 +705,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister promised that no Australian child would be living in poverty by 1990?",
     "answer": "Bob Hawke",
-    "distractors": ["Malcolm Fraser", "Paul Keating", "Gough Whitlam"],
+    "distractors": [
+      "Malcolm Fraser",
+      "Paul Keating",
+      "Gough Whitlam"
+    ],
     "explanation": "He ad-libbed 'will be living in' over the drafted 'need to live in' at the 1987 campaign launch, and later said he regretted the phrasing.",
     "hook": "The speech said 'need to live in'; he said 'will be living in' and owned it for life."
   },
@@ -515,7 +719,11 @@
     "difficulty": "medium",
     "question": "In which year did Papua New Guinea gain independence from Australian administration?",
     "answer": "1975",
-    "distractors": ["1968", "1971", "1980"],
+    "distractors": [
+      "1968",
+      "1971",
+      "1980"
+    ],
     "explanation": "Independence came on 16 September 1975 under Michael Somare, ending Australian administration of the combined territories of Papua and New Guinea.",
     "hook": "A big year for Whitlam — PNG independence in September, dismissal in November."
   },
@@ -525,7 +733,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister lost his own seat while in office in 2007?",
     "answer": "John Howard",
-    "distractors": ["Kevin Rudd", "Paul Keating", "Billy McMahon"],
+    "distractors": [
+      "Kevin Rudd",
+      "Paul Keating",
+      "Billy McMahon"
+    ],
     "explanation": "He lost Bennelong to Maxine McKew, becoming only the second Prime Minister after Stanley Bruce in 1929 to be personally defeated while holding the office.",
     "hook": "Bruce in 1929, Howard in 2007 — the only two to lose the country and their own seat at once."
   },
@@ -535,7 +747,11 @@
     "difficulty": "medium",
     "question": "Outside which building did the Aboriginal Tent Embassy first appear in January 1972?",
     "answer": "Old Parliament House, Canberra",
-    "distractors": ["The High Court", "Government House", "Sydney Town Hall"],
+    "distractors": [
+      "The High Court",
+      "Government House",
+      "Sydney Town Hall"
+    ],
     "explanation": "Four activists planted a beach umbrella on the lawns in protest at the McMahon government's rejection of land rights; the embassy has been occupied on and off ever since.",
     "hook": "It started as a beach umbrella on a lawn and became the longest protest in the country."
   },
@@ -545,7 +761,11 @@
     "difficulty": "medium",
     "question": "Which parliament was the first in the world to grant women both the vote and the right to stand for election?",
     "answer": "South Australia",
-    "distractors": ["Victoria", "New South Wales", "New Zealand"],
+    "distractors": [
+      "Victoria",
+      "New South Wales",
+      "New Zealand"
+    ],
     "explanation": "The 1894 Act took effect in 1895; New Zealand had granted women the vote in 1893 but not the right to stand, making South Australia first for both.",
     "hook": "New Zealand got the vote first; South Australia got the vote and the candidacy."
   },
@@ -555,7 +775,11 @@
     "difficulty": "medium",
     "question": "To which conflict did Robert Menzies commit Australian troops in 1965 without a formal declaration of war?",
     "answer": "The Vietnam War",
-    "distractors": ["The Malayan Emergency", "The Korean War", "Konfrontasi"],
+    "distractors": [
+      "The Malayan Emergency",
+      "The Korean War",
+      "Konfrontasi"
+    ],
     "explanation": "He announced a battalion for South Vietnam in April 1965; around 60,000 Australians served and 521 died before the last advisers left in 1972.",
     "hook": "521 Australian deaths, no declaration of war, and a conscription ballot behind it."
   },
@@ -565,7 +789,11 @@
     "difficulty": "medium",
     "question": "What was the title of the 1997 report on the forcible removal of Aboriginal children?",
     "answer": "Bringing Them Home",
-    "distractors": ["Deaths in Custody", "Little Children are Sacred", "Closing the Gap"],
+    "distractors": [
+      "Deaths in Custody",
+      "Little Children are Sacred",
+      "Closing the Gap"
+    ],
     "explanation": "The Human Rights and Equal Opportunity Commission inquiry documented the Stolen Generations and recommended a national apology, delivered eleven years later.",
     "hook": "The report asked for an apology in 1997; it arrived in 2008."
   },
@@ -575,7 +803,11 @@
     "difficulty": "medium",
     "question": "Which mainland Australian state is the smallest by area?",
     "answer": "Victoria",
-    "distractors": ["Tasmania", "South Australia", "New South Wales"],
+    "distractors": [
+      "Tasmania",
+      "South Australia",
+      "New South Wales"
+    ],
     "explanation": "Victoria covers about 227,000 square kilometres, less than a tenth of Western Australia; Tasmania is smaller still but is an island state, not mainland.",
     "hook": "Smallest mainland state, and it packs a quarter of the population in."
   },
@@ -585,7 +817,11 @@
     "difficulty": "medium",
     "question": "Which Australian-born scientist won the 2009 Nobel Prize in Medicine for co-discovering telomerase?",
     "answer": "Elizabeth Blackburn",
-    "distractors": ["Barry Marshall", "Suzanne Cory", "Fiona Wood"],
+    "distractors": [
+      "Barry Marshall",
+      "Suzanne Cory",
+      "Fiona Wood"
+    ],
     "explanation": "Born in Hobart, she shared the prize with Carol Greider and Jack Szostak for work on how telomeres protect chromosomes, central to ageing and cancer research.",
     "hook": "Telomeres are the plastic tips on shoelaces; she found the enzyme that rebuilds them."
   },
@@ -595,7 +831,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister introduced free university tuition and Medibank in the 1970s?",
     "answer": "Gough Whitlam",
-    "distractors": ["Malcolm Fraser", "Bob Hawke", "William McMahon"],
+    "distractors": [
+      "Malcolm Fraser",
+      "Bob Hawke",
+      "William McMahon"
+    ],
     "explanation": "His three years produced Medibank, free tertiary tuition, the end of conscription, no-fault divorce and recognition of the People's Republic of China.",
     "hook": "Three years, and the list of reforms still fills a page."
   },
@@ -605,7 +845,11 @@
     "difficulty": "medium",
     "question": "Which Australian state was proclaimed separate from New South Wales in 1859?",
     "answer": "Queensland",
-    "distractors": ["Victoria", "South Australia", "Tasmania"],
+    "distractors": [
+      "Victoria",
+      "South Australia",
+      "Tasmania"
+    ],
     "explanation": "It separated on 6 December 1859 and was named for Queen Victoria, eight years after Victoria itself had split from NSW in 1851.",
     "hook": "Victoria left NSW in 1851, Queensland in 1859 — both named for the same queen."
   },
@@ -615,7 +859,11 @@
     "difficulty": "medium",
     "question": "Which city is home to Australia's oldest university, founded in 1850?",
     "answer": "Sydney",
-    "distractors": ["Melbourne", "Hobart", "Adelaide"],
+    "distractors": [
+      "Melbourne",
+      "Hobart",
+      "Adelaide"
+    ],
     "explanation": "The University of Sydney was incorporated in 1850 and opened in 1852; the University of Melbourne followed in 1853, making them the original sandstone pair.",
     "hook": "Sydney 1850, Melbourne 1853 — the older rivalry predates the football one."
   },
@@ -625,7 +873,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister was known as 'Honest Joe' and died in office in 1939?",
     "answer": "Joseph Lyons",
-    "distractors": ["James Scullin", "Stanley Bruce", "Earle Page"],
+    "distractors": [
+      "James Scullin",
+      "Stanley Bruce",
+      "Earle Page"
+    ],
     "explanation": "He left Labor to lead the United Australia Party and was the first Prime Minister to die in office; his widow Enid became the first woman elected to the House of Representatives.",
     "hook": "He died in office and his widow became the first woman in the House."
   },
@@ -635,7 +887,11 @@
     "difficulty": "medium",
     "question": "Which mining proposal prompted the 1963 bark petitions presented to federal parliament?",
     "answer": "Bauxite mining on the Gove Peninsula",
-    "distractors": ["Uranium mining at Jabiluka", "Copper mining at Roxby Downs", "Sand mining on Fraser Island"],
+    "distractors": [
+      "Uranium mining at Jabiluka",
+      "Copper mining at Roxby Downs",
+      "Sand mining on Fraser Island"
+    ],
     "explanation": "The Yirrkala bark petitions protested the excision of Yolngu land and were the first traditional documents recognised by the Commonwealth Parliament.",
     "hook": "The first Aboriginal document Parliament accepted was painted on bark."
   },
@@ -645,7 +901,11 @@
     "difficulty": "medium",
     "question": "In which year did federal parliament first sit in Canberra?",
     "answer": "1927",
-    "distractors": ["1913", "1921", "1931"],
+    "distractors": [
+      "1913",
+      "1921",
+      "1931"
+    ],
     "explanation": "The Duke of York, later George VI, opened the provisional Parliament House on 9 May 1927; the permanent building opened exactly sixty-one years later in 1988.",
     "hook": "9 May is the parliamentary birthday — 1901 Melbourne, 1927 Canberra, 1988 the new House."
   },
@@ -655,7 +915,11 @@
     "difficulty": "medium",
     "question": "Which Victorian gold town grew from tent camp to major city within a few years of 1851?",
     "answer": "Ballarat",
-    "distractors": ["Broken Hill", "Kalgoorlie", "Charters Towers"],
+    "distractors": [
+      "Broken Hill",
+      "Kalgoorlie",
+      "Charters Towers"
+    ],
     "explanation": "Victoria's gold rush multiplied the colony's population sevenfold in a decade, and Ballarat and Bendigo became substantial cities almost overnight.",
     "hook": "Victoria's population went up sevenfold in ten years — that is what gold does."
   },
@@ -665,7 +929,11 @@
     "difficulty": "medium",
     "question": "Who was the first Australian-born person appointed Governor-General?",
     "answer": "Isaac Isaacs",
-    "distractors": ["William McKell", "Richard Casey", "Paul Hasluck"],
+    "distractors": [
+      "William McKell",
+      "Richard Casey",
+      "Paul Hasluck"
+    ],
     "explanation": "James Scullin insisted on the appointment in 1931 over George V's objections, establishing that the Australian government, not London, chose the office-holder.",
     "hook": "Scullin argued with a king to get an Australian in the job."
   },
@@ -675,7 +943,11 @@
     "difficulty": "medium",
     "question": "Which voting innovation of 1856 became known internationally as the 'Australian ballot'?",
     "answer": "The secret ballot",
-    "distractors": ["Compulsory voting", "Preferential voting", "Universal suffrage"],
+    "distractors": [
+      "Compulsory voting",
+      "Preferential voting",
+      "Universal suffrage"
+    ],
     "explanation": "Victoria and South Australia both legislated for secret voting in 1856; the practice spread worldwide under that name, reaching Britain in 1872.",
     "hook": "The world calls the secret ballot Australian because two colonies did it first."
   },
@@ -685,7 +957,11 @@
     "difficulty": "medium",
     "question": "Which commodity remained rationed in Australia until 1950, five years after the war ended?",
     "answer": "Petrol",
-    "distractors": ["Sugar", "Butter", "Tea"],
+    "distractors": [
+      "Sugar",
+      "Butter",
+      "Tea"
+    ],
     "explanation": "Clothing, tea, sugar, butter and meat were rationed by coupon books from 1942, but petrol restrictions outlasted every other control by years.",
     "hook": "Petrol rationing outlasted the war by five years."
   },
@@ -695,7 +971,11 @@
     "difficulty": "medium",
     "question": "Which city held the 1956 Olympic Games, the first in the southern hemisphere?",
     "answer": "Melbourne",
-    "distractors": ["Sydney", "Adelaide", "Perth"],
+    "distractors": [
+      "Sydney",
+      "Adelaide",
+      "Perth"
+    ],
     "explanation": "Quarantine rules forced the equestrian events to Stockholm, the only time an Olympics has been split between hemispheres; the tradition of athletes mingling at the closing ceremony began there.",
     "hook": "The horses went to Sweden because Australia would not let them in."
   },
@@ -705,7 +985,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister was the only one sworn in while a member of the Senate?",
     "answer": "John Gorton",
-    "distractors": ["Harold Holt", "John McEwen", "Billy McMahon"],
+    "distractors": [
+      "Harold Holt",
+      "John McEwen",
+      "Billy McMahon"
+    ],
     "explanation": "He was a senator when the Liberal Party elected him after Holt's disappearance in 1968, then resigned to contest and win Holt's seat of Higgins.",
     "hook": "Sworn in from the Senate, then moved house to the lower chamber."
   },
@@ -715,7 +999,11 @@
     "difficulty": "medium",
     "question": "How many of the forty-five referendum proposals put to Australians have been approved?",
     "answer": "Eight",
-    "distractors": ["Twelve", "Five", "Nineteen"],
+    "distractors": [
+      "Twelve",
+      "Five",
+      "Nineteen"
+    ],
     "explanation": "A referendum needs a national majority plus majorities in four of six states, a double majority that has defeated most proposals; the last successful one was in 1977.",
     "hook": "Eight from forty-five, and nothing has passed since 1977."
   },
@@ -725,7 +1013,11 @@
     "difficulty": "medium",
     "question": "Which territory was transferred from South Australia to the Commonwealth in 1911?",
     "answer": "The Northern Territory",
-    "distractors": ["The Australian Capital Territory", "Jervis Bay Territory", "The Coral Sea Islands"],
+    "distractors": [
+      "The Australian Capital Territory",
+      "Jervis Bay Territory",
+      "The Coral Sea Islands"
+    ],
     "explanation": "South Australia had administered it since 1863 and handed it over as the costs of development mounted; the ACT was excised from NSW the same year.",
     "hook": "1911 gave the Commonwealth both its mainland territories in one go."
   },
@@ -735,7 +1027,11 @@
     "difficulty": "medium",
     "question": "Whose government floated the Australian dollar in December 1983?",
     "answer": "Bob Hawke",
-    "distractors": ["Malcolm Fraser", "John Howard", "Gough Whitlam"],
+    "distractors": [
+      "Malcolm Fraser",
+      "John Howard",
+      "Gough Whitlam"
+    ],
     "explanation": "Treasurer Paul Keating and the Prime Minister removed the fixed exchange rate, the central act of a deregulation programme that also opened banking to foreign entrants.",
     "hook": "December 1983 — the dollar stopped being a government decision and became a market price."
   },
@@ -745,7 +1041,11 @@
     "difficulty": "medium",
     "question": "Which Australian state has only one house of parliament?",
     "answer": "Queensland",
-    "distractors": ["Tasmania", "Western Australia", "South Australia"],
+    "distractors": [
+      "Tasmania",
+      "Western Australia",
+      "South Australia"
+    ],
     "explanation": "It abolished its Legislative Council in 1922 after the government stacked the chamber with members pledged to vote it out of existence; the territories are also unicameral.",
     "hook": "Its upper house voted itself out of existence — appointed for exactly that purpose."
   },
@@ -755,7 +1055,11 @@
     "difficulty": "medium",
     "question": "Which international mission did Australia lead in East Timor in 1999?",
     "answer": "INTERFET",
-    "distractors": ["UNTAC", "UNAMET", "ISAF"],
+    "distractors": [
+      "UNTAC",
+      "UNAMET",
+      "ISAF"
+    ],
     "explanation": "The International Force East Timor restored order after the independence ballot, and was Australia's largest military deployment since Vietnam.",
     "hook": "Biggest deployment between Vietnam and Iraq, and it was next door."
   },
@@ -765,7 +1069,11 @@
     "difficulty": "medium",
     "question": "Which Australian Prime Minister had served as a diplomat in Beijing and speaks Mandarin?",
     "answer": "Kevin Rudd",
-    "distractors": ["Malcolm Turnbull", "Julia Gillard", "Scott Morrison"],
+    "distractors": [
+      "Malcolm Turnbull",
+      "Julia Gillard",
+      "Scott Morrison"
+    ],
     "explanation": "He studied Chinese at ANU and worked in the Australian embassy in Beijing in the 1980s before entering politics, later addressing Chinese audiences in Mandarin as Prime Minister.",
     "hook": "The only Australian PM who could take questions in Mandarin."
   },
@@ -775,7 +1083,11 @@
     "difficulty": "medium",
     "question": "Which two-word slogan did Arthur Calwell use to promote post-war mass migration?",
     "answer": "Populate or perish",
-    "distractors": ["Advance or decline", "Grow or go", "Fill the north"],
+    "distractors": [
+      "Advance or decline",
+      "Grow or go",
+      "Fill the north"
+    ],
     "explanation": "The Immigration Minister used it to sell mass European migration after 1945, aiming at one per cent annual population growth from arrivals alone.",
     "hook": "Two words launched the biggest migration programme in Australian history."
   },
@@ -785,7 +1097,11 @@
     "difficulty": "medium",
     "question": "Which bird is the animal emblem of New South Wales?",
     "answer": "The kookaburra",
-    "distractors": ["The magpie", "The lyrebird", "The black swan"],
+    "distractors": [
+      "The magpie",
+      "The lyrebird",
+      "The black swan"
+    ],
     "explanation": "The laughing kookaburra was adopted in 1971; Victoria's is the helmeted honeyeater, Western Australia's the black swan, and the ACT's the gang-gang cockatoo.",
     "hook": "NSW laughs, WA swims black, the ACT wears a red crest."
   },
@@ -795,7 +1111,11 @@
     "difficulty": "medium",
     "question": "Which Australian state took the black swan as its emblem?",
     "answer": "Western Australia",
-    "distractors": ["South Australia", "Tasmania", "Victoria"],
+    "distractors": [
+      "South Australia",
+      "Tasmania",
+      "Victoria"
+    ],
     "explanation": "The Swan River Colony took its name from the birds Willem de Vlamingh recorded in 1697, and the black swan has been the state's badge since colonial days.",
     "hook": "A Dutch sailor named the river for the birds, and the state kept them."
   },
@@ -805,7 +1125,11 @@
     "difficulty": "medium",
     "question": "In which year did convict transportation to Western Australia finally end?",
     "answer": "1868",
-    "distractors": ["1840", "1852", "1888"],
+    "distractors": [
+      "1840",
+      "1852",
+      "1888"
+    ],
     "explanation": "Transportation to eastern Australia ended in 1852 after a colonial anti-transportation campaign, but Western Australia had requested convicts for labour and kept receiving them for another sixteen years.",
     "hook": "The east stopped taking convicts in 1852; the west kept going for another sixteen years."
   },
@@ -815,7 +1139,11 @@
     "difficulty": "medium",
     "question": "Which Prime Minister served the second-longest continuous term, from 1996 to 2007?",
     "answer": "John Howard",
-    "distractors": ["Bob Hawke", "Malcolm Fraser", "Robert Menzies"],
+    "distractors": [
+      "Bob Hawke",
+      "Malcolm Fraser",
+      "Robert Menzies"
+    ],
     "explanation": "He won four elections and served eleven and a half consecutive years, behind Menzies' unbroken sixteen from 1949 but ahead of Hawke's eight.",
     "hook": "Menzies sixteen, Howard eleven, Hawke eight — the modern endurance ladder."
   },
@@ -825,7 +1153,11 @@
     "difficulty": "medium",
     "question": "In which building was the first federal Parliament opened on 9 May 1901?",
     "answer": "The Royal Exhibition Building",
-    "distractors": ["Sydney Town Hall", "Melbourne Town Hall", "Government House, Melbourne"],
+    "distractors": [
+      "Sydney Town Hall",
+      "Melbourne Town Hall",
+      "Government House, Melbourne"
+    ],
     "explanation": "It was the only venue that could seat the 12,000 guests; Parliament then moved to the Victorian Parliament House on Spring Street for twenty-six years.",
     "hook": "The first parliament needed a room for 12,000 — only one building could do it."
   },
@@ -835,7 +1167,11 @@
     "difficulty": "medium",
     "question": "How many Victoria Crosses were awarded to Australians for the battle of Lone Pine in 1915?",
     "answer": "Seven",
-    "distractors": ["Three", "Five", "Eleven"],
+    "distractors": [
+      "Three",
+      "Five",
+      "Eleven"
+    ],
     "explanation": "Seven were awarded for four days of fighting, the most for any single Australian action; the battle was intended as a diversion for the August offensive.",
     "hook": "Seven VCs in four days — no other Australian action comes close."
   },
@@ -845,7 +1181,11 @@
     "difficulty": "medium",
     "question": "How many recommendations did the 1991 Royal Commission into Aboriginal Deaths in Custody make?",
     "answer": "339",
-    "distractors": ["54", "148", "512"],
+    "distractors": [
+      "54",
+      "148",
+      "512"
+    ],
     "explanation": "It investigated ninety-nine deaths between 1980 and 1989 and found that over-representation in custody, not deliberate killing, was the underlying cause.",
     "hook": "339 recommendations, and the incarceration rate is the number that never moved."
   },
@@ -855,7 +1195,11 @@
     "difficulty": "medium",
     "question": "Which 1989 inquiry exposed police corruption in Queensland and ended a premier's career?",
     "answer": "The Fitzgerald Inquiry",
-    "distractors": ["The Wood Royal Commission", "The Costigan Commission", "The Moffitt Inquiry"],
+    "distractors": [
+      "The Wood Royal Commission",
+      "The Costigan Commission",
+      "The Moffitt Inquiry"
+    ],
     "explanation": "Tony Fitzgerald's report brought down Joh Bjelke-Petersen's government, jailed a police commissioner and three ministers, and reshaped Queensland's political institutions.",
     "hook": "A police commissioner and three ministers went to prison off one report."
   },
@@ -865,7 +1209,11 @@
     "difficulty": "medium",
     "question": "In which year did Australia legislate marriage equality following a postal survey?",
     "answer": "2017",
-    "distractors": ["2013", "2015", "2019"],
+    "distractors": [
+      "2013",
+      "2015",
+      "2019"
+    ],
     "explanation": "The voluntary postal survey returned 61.6 per cent yes on a 79.5 per cent response rate, and Parliament passed the amending Act that December.",
     "hook": "61.6 per cent yes, and Parliament moved within a fortnight."
   },
@@ -875,7 +1223,11 @@
     "difficulty": "medium",
     "question": "Which institution was established in 1911 as Australia's government-owned bank?",
     "answer": "The Commonwealth Bank",
-    "distractors": ["The Reserve Bank", "The Rural Bank", "The State Savings Bank"],
+    "distractors": [
+      "The Reserve Bank",
+      "The Rural Bank",
+      "The State Savings Bank"
+    ],
     "explanation": "Andrew Fisher's Labor government founded it as a state-owned savings and trading bank; its central banking functions were split off into the Reserve Bank in 1960 and it was privatised in the 1990s.",
     "hook": "One bank became two in 1960 — the Reserve took the central role, the other kept the branches."
   },
@@ -885,7 +1237,11 @@
     "difficulty": "medium",
     "question": "Which state uses the Hare-Clark proportional system to elect its lower house?",
     "answer": "Tasmania",
-    "distractors": ["South Australia", "Victoria", "Western Australia"],
+    "distractors": [
+      "South Australia",
+      "Victoria",
+      "Western Australia"
+    ],
     "explanation": "Its House of Assembly uses multi-member Hare-Clark, as does the ACT Legislative Assembly, producing far more minor-party and independent members than single-member systems.",
     "hook": "Tasmania and the ACT share an electoral system nobody else uses."
   },
@@ -895,7 +1251,11 @@
     "difficulty": "medium",
     "question": "Which ship was the flagship of the First Fleet in 1788?",
     "answer": "HMS Sirius",
-    "distractors": ["HMS Bounty", "HMS Supply", "HMS Endeavour"],
+    "distractors": [
+      "HMS Bounty",
+      "HMS Supply",
+      "HMS Endeavour"
+    ],
     "explanation": "Arthur Phillip sailed ahead in the faster Supply to scout Botany Bay while the flagship followed; Sirius was later wrecked off Norfolk Island in 1790.",
     "hook": "The flagship came second — Phillip swapped ships to arrive first."
   },
@@ -905,7 +1265,11 @@
     "difficulty": "hard",
     "question": "Which 1920 High Court decision abandoned the doctrines of implied immunities and reserved state powers?",
     "answer": "The Engineers case",
-    "distractors": ["The Boilermakers case", "Cole v Whitfield", "The Bank Nationalisation case"],
+    "distractors": [
+      "The Boilermakers case",
+      "Cole v Whitfield",
+      "The Bank Nationalisation case"
+    ],
     "explanation": "Amalgamated Society of Engineers v Adelaide Steamship established that Commonwealth powers should be read on their natural meaning, decisively shifting constitutional interpretation toward federal authority.",
     "hook": "One 1920 judgment set the direction of Australian federalism for a century."
   },
@@ -915,7 +1279,11 @@
     "difficulty": "hard",
     "question": "Which Premier of Victoria served continuously from 1955 to 1972, the state's longest tenure?",
     "answer": "Henry Bolte",
-    "distractors": ["Rupert Hamer", "Jeff Kennett", "John Cain"],
+    "distractors": [
+      "Rupert Hamer",
+      "Jeff Kennett",
+      "John Cain"
+    ],
     "explanation": "His seventeen years covered Victoria's manufacturing boom and included the last execution carried out in Australia, that of Ronald Ryan in 1967.",
     "hook": "His Victoria carried out the last hanging in Australian history."
   },
@@ -925,7 +1293,11 @@
     "difficulty": "hard",
     "question": "Who was the last person legally executed in Australia?",
     "answer": "Ronald Ryan",
-    "distractors": ["Robert Tait", "Jean Lee", "Eric Cooke"],
+    "distractors": [
+      "Robert Tait",
+      "Jean Lee",
+      "Eric Cooke"
+    ],
     "explanation": "He was hanged at Pentridge Prison in February 1967 for shooting a warder during an escape; the public reaction accelerated the abolition of capital punishment in every state.",
     "hook": "1967 — the hanging that ended hanging in Australia."
   },
@@ -935,9 +1307,13 @@
     "difficulty": "hard",
     "question": "Which 1996 High Court decision held that native title could coexist with pastoral leases?",
     "answer": "Wik Peoples v Queensland",
-    "distractors": ["Mabo (No 2)", "Yorta Yorta", "Ward v Western Australia"],
+    "distractors": [
+      "Mabo (No 2)",
+      "Yorta Yorta",
+      "Ward v Western Australia"
+    ],
     "explanation": "The four-to-three ruling prompted the Howard government's ten-point plan and the 1998 Native Title Amendment Act, debated in one of the longest sittings in Senate history.",
-    "hook": "It said the two titles could share the land; the Senate then argued about it for ninety hours."
+    "hook": "It said the two titles could share the land; the Senate then argued about it for over a hundred hours."
   },
   {
     "id": "aus_095",
@@ -945,7 +1321,11 @@
     "difficulty": "hard",
     "question": "Which caretaker Prime Minister used his twenty-three days in office to veto a successor in 1968?",
     "answer": "John McEwen",
-    "distractors": ["John Gorton", "Frank Forde", "Earle Page"],
+    "distractors": [
+      "John Gorton",
+      "Frank Forde",
+      "Earle Page"
+    ],
     "explanation": "He refused to serve under Billy McMahon after Holt's disappearance, effectively installing John Gorton as Liberal leader and Prime Minister.",
     "hook": "Twenty-three days was long enough to decide who came next."
   },
@@ -955,7 +1335,11 @@
     "difficulty": "hard",
     "question": "What was the name of the 1975 scheme to borrow petrodollars that damaged the Whitlam government?",
     "answer": "The Loans Affair",
-    "distractors": ["The Petrov Affair", "The Khemlani Bond", "The Iraqi Loans"],
+    "distractors": [
+      "The Petrov Affair",
+      "The Khemlani Bond",
+      "The Iraqi Loans"
+    ],
     "explanation": "Minister Rex Connor sought four billion dollars through Pakistani broker Tirath Khemlani outside Treasury channels; the scandal cost two ministers their jobs and gave the Senate its pretext to block supply.",
     "hook": "A minister, a commodities broker and four billion dollars — the road to 11 November."
   },
@@ -965,7 +1349,11 @@
     "difficulty": "hard",
     "question": "Which Chief Justice advised the Governor-General in writing before the 1975 Dismissal?",
     "answer": "Garfield Barwick",
-    "distractors": ["Owen Dixon", "Anthony Mason", "Harry Gibbs"],
+    "distractors": [
+      "Owen Dixon",
+      "Anthony Mason",
+      "Harry Gibbs"
+    ],
     "explanation": "He confirmed that Kerr could dismiss a government unable to secure supply; it emerged decades later that Anthony Mason had also been consulted informally.",
     "hook": "Two High Court judges advised Kerr — only one was known about at the time."
   },
@@ -975,7 +1363,11 @@
     "difficulty": "hard",
     "question": "Which external territory did Australia acquire from the United Kingdom in 1955?",
     "answer": "The Cocos (Keeling) Islands",
-    "distractors": ["Norfolk Island", "Heard Island", "Christmas Island"],
+    "distractors": [
+      "Norfolk Island",
+      "Heard Island",
+      "Christmas Island"
+    ],
     "explanation": "Christmas Island followed in 1958; the Cocos voted to integrate fully with Australia in a UN-supervised act of self-determination in 1984.",
     "hook": "Cocos 1955, Christmas Island 1958 — three years apart, both from Britain."
   },
@@ -985,7 +1377,11 @@
     "difficulty": "hard",
     "question": "Which breakaway party formed after the 1955 Labor split kept Labor from office on preferences?",
     "answer": "The Democratic Labor Party",
-    "distractors": ["The Country Party", "The United Australia Party", "The Australia Party"],
+    "distractors": [
+      "The Country Party",
+      "The United Australia Party",
+      "The Australia Party"
+    ],
     "explanation": "Formed from the Anti-Communist Labor Party after the Petrov-era split, its preferences flowed to the Coalition and helped keep Labor out of federal office until 1972.",
     "hook": "A party that rarely won seats kept Labor out of power for seventeen years on preferences alone."
   },
@@ -995,7 +1391,11 @@
     "difficulty": "hard",
     "question": "In which year was Australia's first federal invalid and old-age pension legislated?",
     "answer": "1908",
-    "distractors": ["1901", "1915", "1923"],
+    "distractors": [
+      "1901",
+      "1915",
+      "1923"
+    ],
     "explanation": "Deakin's government legislated it in 1908 and Fisher's administration paid the first pensions from July 1909, part of the early 'Australian settlement' of state-led welfare.",
     "hook": "Legislated by one government, paid by the next — 1908 into 1909."
   },
@@ -1005,7 +1405,11 @@
     "difficulty": "hard",
     "question": "Which 1907 arbitration case established the Australian concept of a basic wage?",
     "answer": "The Harvester judgment",
-    "distractors": ["The Engineers case", "The Boilermakers case", "The Waterside Workers case"],
+    "distractors": [
+      "The Engineers case",
+      "The Boilermakers case",
+      "The Waterside Workers case"
+    ],
     "explanation": "Justice Higgins set a fair and reasonable wage of seven shillings a day for an unskilled labourer supporting a wife and three children, anchoring Australian wage fixing for decades.",
     "hook": "Seven shillings a day, calculated from a family budget — the origin of the minimum wage."
   },
@@ -1013,11 +1417,15 @@
     "id": "aus_102",
     "category": "aus_history",
     "difficulty": "hard",
-    "question": "Which emancipated convict received the colony's first land grant at Rose Hill in 1789?",
+    "question": "Which emancipated convict was granted the colony's first farm at Rose Hill?",
     "answer": "James Ruse",
-    "distractors": ["Simeon Lord", "Francis Greenway", "Mary Reibey"],
-    "explanation": "Governor Phillip granted him land as a test of whether the colony could feed itself; Macquarie later expanded emancipist policy far more broadly.",
-    "hook": "The first farm was an experiment: could wheat grow here at all?"
+    "distractors": [
+      "Simeon Lord",
+      "Francis Greenway",
+      "Mary Reibey"
+    ],
+    "explanation": "He was given land to work in 1789 as a test of whether the colony could feed itself, and received formal title to thirty acres in 1791 once he had brought in a harvest.",
+    "hook": "He had to grow the crop first and was granted the land afterwards."
   },
   {
     "id": "aus_103",
@@ -1025,7 +1433,11 @@
     "difficulty": "hard",
     "question": "Which 1942 battle is regarded as the first outright defeat of Japanese land forces in the Pacific War?",
     "answer": "Milne Bay",
-    "distractors": ["Kokoda", "Buna-Gona", "The Coral Sea"],
+    "distractors": [
+      "Kokoda",
+      "Buna-Gona",
+      "The Coral Sea"
+    ],
     "explanation": "Australian troops repelled the Japanese landing in Papua that September; Field Marshal Slim later credited it with breaking the myth of Japanese invincibility on land.",
     "hook": "September 1942 — the first time Japanese infantry were beaten outright."
   },
@@ -1035,7 +1447,11 @@
     "difficulty": "hard",
     "question": "Who was the first Indigenous Australian elected to the House of Representatives, in 2010?",
     "answer": "Ken Wyatt",
-    "distractors": ["Neville Bonner", "Linda Burney", "Aden Ridgeway"],
+    "distractors": [
+      "Neville Bonner",
+      "Linda Burney",
+      "Aden Ridgeway"
+    ],
     "explanation": "He won Hasluck in 2010 and later became the first Indigenous Minister for Indigenous Australians; Neville Bonner had entered the Senate in 1971 and Linda Burney the House in 2016.",
     "hook": "Bonner Senate 1971, Wyatt House 2010, Burney first Indigenous woman in the House 2016."
   },
@@ -1045,7 +1461,11 @@
     "difficulty": "hard",
     "question": "Which statute severed the remaining legislative links between the Australian states and the UK Parliament?",
     "answer": "The Australia Act 1986",
-    "distractors": ["The Statute of Westminster Adoption Act 1942", "The Royal Style and Titles Act 1973", "The Constitution Alteration Act 1977"],
+    "distractors": [
+      "The Statute of Westminster Adoption Act 1942",
+      "The Royal Style and Titles Act 1973",
+      "The Constitution Alteration Act 1977"
+    ],
     "explanation": "Mirror Acts were passed in Canberra and Westminster, ending British legislative power over the states and closing the last Privy Council appeals from state supreme courts.",
     "hook": "1942 freed the Commonwealth; 1986 finally freed the states."
   },
@@ -1055,7 +1475,11 @@
     "difficulty": "hard",
     "question": "Which explorer vanished with his entire party attempting an east-west crossing in 1848?",
     "answer": "Ludwig Leichhardt",
-    "distractors": ["Charles Sturt", "Edmund Kennedy", "John McDouall Stuart"],
+    "distractors": [
+      "Charles Sturt",
+      "Edmund Kennedy",
+      "John McDouall Stuart"
+    ],
     "explanation": "The Prussian naturalist disappeared somewhere in the interior after a successful 1844-45 expedition to Port Essington; Patrick White's novel Voss is loosely based on him.",
     "hook": "He walked into the interior and became a novel — Patrick White's Voss."
   },
@@ -1065,7 +1489,11 @@
     "difficulty": "hard",
     "question": "Who completed the first successful south-to-north crossing of the continent and returned alive in 1862?",
     "answer": "John McDouall Stuart",
-    "distractors": ["Robert O'Hara Burke", "Augustus Gregory", "Ernest Giles"],
+    "distractors": [
+      "Robert O'Hara Burke",
+      "Augustus Gregory",
+      "Ernest Giles"
+    ],
     "explanation": "He reached the Indian Ocean near Darwin and got back, unlike Burke and Wills; his route was followed by the Overland Telegraph Line and later the Stuart Highway.",
     "hook": "Burke and Wills got the fame; he got there and back, and got the highway."
   },
@@ -1075,7 +1503,11 @@
     "difficulty": "hard",
     "question": "Which 1872 project connected Australia to Britain by telegraph?",
     "answer": "The Overland Telegraph Line",
-    "distractors": ["The Trans-Australian Railway", "The Snowy Scheme", "The Pacific Cable"],
+    "distractors": [
+      "The Trans-Australian Railway",
+      "The Snowy Scheme",
+      "The Pacific Cable"
+    ],
     "explanation": "Charles Todd's 3,200-kilometre line from Adelaide to Darwin met an undersea cable to Java, cutting message times to London from months to hours.",
     "hook": "Months by ship became hours by wire — 1872 was Australia's first broadband moment."
   },
@@ -1085,7 +1517,11 @@
     "difficulty": "hard",
     "question": "Which Prime Minister was expelled from the Labor Party over conscription in 1916?",
     "answer": "Billy Hughes",
-    "distractors": ["Andrew Fisher", "Joseph Cook", "James Scullin"],
+    "distractors": [
+      "Andrew Fisher",
+      "Joseph Cook",
+      "James Scullin"
+    ],
     "explanation": "He walked out of the caucus meeting with twenty-four supporters after losing the conscription plebiscite, then formed the Nationalist Party with his former opponents.",
     "hook": "He lost the vote, lost the party, kept the job."
   },
@@ -1095,7 +1531,11 @@
     "difficulty": "hard",
     "question": "How many conscription plebiscites did Australia hold during the First World War?",
     "answer": "Two",
-    "distractors": ["One", "Three", "Four"],
+    "distractors": [
+      "One",
+      "Three",
+      "Four"
+    ],
     "explanation": "Both the 1916 and 1917 votes were narrowly defeated, leaving Australia one of the few belligerents to fight the whole war with an entirely volunteer overseas force.",
     "hook": "Two votes, two defeats — the AIF stayed volunteer all the way through."
   },
@@ -1105,7 +1545,11 @@
     "difficulty": "hard",
     "question": "Which decade's banking collapse and land bust pushed both federation and the labour movement forward?",
     "answer": "The 1890s",
-    "distractors": ["The 1860s", "The 1920s", "The 1930s"],
+    "distractors": [
+      "The 1860s",
+      "The 1920s",
+      "The 1930s"
+    ],
     "explanation": "A Melbourne land boom burst and thirteen commercial banks suspended trading in 1893; the resulting depression and the great strikes produced both the Labor Party and the federation push.",
     "hook": "The 1890s depression made the Labor Party and the case for federation at the same time."
   },
@@ -1115,7 +1559,11 @@
     "difficulty": "hard",
     "question": "Whose government reconstituted the CSIRO in its modern form in 1949?",
     "answer": "Ben Chifley",
-    "distractors": ["John Curtin", "Robert Menzies", "Joseph Lyons"],
+    "distractors": [
+      "John Curtin",
+      "Robert Menzies",
+      "Joseph Lyons"
+    ],
     "explanation": "The Council for Scientific and Industrial Research became CSIRO that year; its later inventions include the core wireless LAN patent behind wi-fi and Aeroguard insect repellent.",
     "hook": "Its most lucrative invention turned out to be the maths inside wi-fi."
   },
@@ -1125,7 +1573,11 @@
     "difficulty": "hard",
     "question": "Which Australian city was bombed by Japanese aircraft in February 1942?",
     "answer": "Darwin",
-    "distractors": ["Townsville", "Broome", "Sydney"],
+    "distractors": [
+      "Townsville",
+      "Broome",
+      "Sydney"
+    ],
     "explanation": "The raids of 19 February involved more bombs than were dropped on Pearl Harbor and killed at least 235 people; Broome and Townsville were also attacked later that year.",
     "hook": "More bombs fell there than on Pearl Harbor, and the country was told very little."
   },
@@ -1135,7 +1587,11 @@
     "difficulty": "hard",
     "question": "Which vessel was sunk in Sydney Harbour during the Japanese midget submarine raid of May 1942?",
     "answer": "HMAS Kuttabul",
-    "distractors": ["HMAS Sydney", "USS Chicago", "HMAS Canberra"],
+    "distractors": [
+      "HMAS Sydney",
+      "USS Chicago",
+      "HMAS Canberra"
+    ],
     "explanation": "A torpedo aimed at the cruiser USS Chicago missed and struck the converted ferry serving as a depot ship, killing twenty-one sailors.",
     "hook": "The torpedo missed a cruiser and sank a converted ferry instead."
   },
@@ -1143,11 +1599,15 @@
     "id": "aus_115",
     "category": "aus_history",
     "difficulty": "hard",
-    "question": "Which federal electorate, named for a colonial statesman, has existed continuously since 1901?",
+    "question": "Which Australian federal division was abolished in 1969 and recreated in 1984 in a different part of NSW?",
     "answer": "Parkes",
-    "distractors": ["Bennelong", "Higgins", "Hasluck"],
-    "explanation": "It is one of the original 1901 divisions, named for Henry Parkes, the 'father of federation'; Wentworth and Grey are among the other survivors from that first set.",
-    "hook": "The father of federation got a seat in the first parliament and it is still there."
+    "distractors": [
+      "Wentworth",
+      "Bennelong",
+      "Grey"
+    ],
+    "explanation": "The original 1901 division covered suburban Sydney and was named for Henry Parkes, the 'father of federation'; the modern seat of the same name is in the state's north-west and is unrelated but for the name.",
+    "hook": "Same name, different seat, fifteen-year gap — a trap for anyone assuming the name means continuity."
   },
   {
     "id": "aus_116",
@@ -1155,7 +1615,11 @@
     "difficulty": "hard",
     "question": "Which 1938 waterfront dispute gave Robert Menzies the nickname 'Pig Iron Bob'?",
     "answer": "The Dalfram dispute",
-    "distractors": ["The 1928 waterside strike", "The shearers' strike", "The Mount Isa dispute"],
+    "distractors": [
+      "The 1928 waterside strike",
+      "The shearers' strike",
+      "The Mount Isa dispute"
+    ],
     "explanation": "Wharfies at Port Kembla refused to load pig iron bound for Japan in protest at the invasion of China, and Menzies as Attorney-General enforced the loading.",
     "hook": "One ship at Port Kembla gave him a nickname he never lost."
   },
@@ -1165,7 +1629,11 @@
     "difficulty": "hard",
     "question": "Which elected Indigenous body was created in 1990 and abolished in 2005?",
     "answer": "ATSIC",
-    "distractors": ["The Council for Aboriginal Reconciliation", "The National Indigenous Council", "The Office of Aboriginal Affairs"],
+    "distractors": [
+      "The Council for Aboriginal Reconciliation",
+      "The National Indigenous Council",
+      "The Office of Aboriginal Affairs"
+    ],
     "explanation": "The Aboriginal and Torres Strait Islander Commission combined elected representation with programme delivery; both major parties supported abolishing it in 2004-05.",
     "hook": "Elected representation plus a budget — the combination that made it powerful and vulnerable."
   },
@@ -1175,7 +1643,11 @@
     "difficulty": "hard",
     "question": "Which former state premier was jailed after the WA Inc royal commission?",
     "answer": "Brian Burke",
-    "distractors": ["Joh Bjelke-Petersen", "Neville Wran", "Robin Gray"],
+    "distractors": [
+      "Joh Bjelke-Petersen",
+      "Neville Wran",
+      "Robin Gray"
+    ],
     "explanation": "The commission examined Western Australian government dealings with businessmen in the 1980s; Burke was later convicted over travel allowance and other charges.",
     "hook": "WA Inc is the shorthand for a decade of deals and the premier who went to prison."
   },
@@ -1185,7 +1657,11 @@
     "difficulty": "hard",
     "question": "Which 1901 Act required the deportation of most Pacific Islander labourers from Queensland?",
     "answer": "The Pacific Island Labourers Act",
-    "distractors": ["The Immigration Restriction Act", "The Sugar Bounty Act", "The Contract Immigrants Act"],
+    "distractors": [
+      "The Immigration Restriction Act",
+      "The Sugar Bounty Act",
+      "The Contract Immigrants Act"
+    ],
     "explanation": "It ended the blackbirding trade that had brought some 62,000 Islanders to the cane fields; descendants of those who remained are the Australian South Sea Islanders.",
     "hook": "Two 1901 Acts built White Australia — one kept people out, this one sent people home."
   },
@@ -1195,7 +1671,11 @@
     "difficulty": "hard",
     "question": "Who was the first woman elected to the Australian House of Representatives, in 1943?",
     "answer": "Enid Lyons",
-    "distractors": ["Dorothy Tangney", "Edith Cowan", "Annabelle Rankin"],
+    "distractors": [
+      "Dorothy Tangney",
+      "Edith Cowan",
+      "Annabelle Rankin"
+    ],
     "explanation": "She won the Tasmanian seat of Darwin on the same day Dorothy Tangney became the first woman senator; Edith Cowan had entered the WA state parliament in 1921.",
     "hook": "Two firsts on one day in 1943 — one in the House, one in the Senate."
   },
@@ -1205,7 +1685,11 @@
     "difficulty": "hard",
     "question": "Who led the 1965 Freedom Ride through western New South Wales towns?",
     "answer": "Charles Perkins",
-    "distractors": ["Faith Bandler", "Vincent Lingiari", "Douglas Nicholls"],
+    "distractors": [
+      "Faith Bandler",
+      "Vincent Lingiari",
+      "Douglas Nicholls"
+    ],
     "explanation": "He took about thirty Sydney University students by bus to protest segregation at pools, clubs and cinemas in Walgett, Moree and elsewhere, drawing national coverage.",
     "hook": "A university bus trip put Australian segregation on the evening news."
   },
@@ -1215,7 +1699,11 @@
     "difficulty": "hard",
     "question": "Which two health economists designed the scheme that became Medibank?",
     "answer": "Scotton and Deeble",
-    "distractors": ["Coombs and Crawford", "Nimmo and Karmel", "Hancock and Gruen"],
+    "distractors": [
+      "Coombs and Crawford",
+      "Nimmo and Karmel",
+      "Hancock and Gruen"
+    ],
     "explanation": "John Deeble and Dick Scotton developed the universal insurance model from the mid-1960s; Labor adopted it and legislated it in 1974 after a joint sitting of both houses.",
     "hook": "Two academics designed Medibank years before a government would take it."
   },
@@ -1225,7 +1713,11 @@
     "difficulty": "hard",
     "question": "How many joint sittings of the Australian Parliament have followed a double dissolution?",
     "answer": "One",
-    "distractors": ["Two", "Three", "None"],
+    "distractors": [
+      "Two",
+      "Three",
+      "None"
+    ],
     "explanation": "The only one was held in August 1974, passing six Whitlam bills including Medibank; every other double dissolution has been resolved without a joint sitting.",
     "hook": "Seven double dissolutions, one joint sitting, six bills — 1974 stands alone."
   },
@@ -1235,7 +1727,11 @@
     "difficulty": "hard",
     "question": "Which company's 1998 restructure sparked the Australian waterfront dispute?",
     "answer": "Patrick Corporation",
-    "distractors": ["P&O Ports", "Adsteam", "Toll Holdings"],
+    "distractors": [
+      "P&O Ports",
+      "Adsteam",
+      "Toll Holdings"
+    ],
     "explanation": "It moved to dismiss its unionised workforce in April 1998, using balaclava-clad guards and dogs; the Maritime Union won reinstatement in court and container productivity rose sharply afterwards.",
     "hook": "Balaclavas and alsatians on the wharves — the industrial image of the 1990s."
   },
@@ -1245,7 +1741,11 @@
     "difficulty": "hard",
     "question": "Which territory held a 1998 referendum rejecting statehood?",
     "answer": "The Northern Territory",
-    "distractors": ["The Australian Capital Territory", "Norfolk Island", "Christmas Island"],
+    "distractors": [
+      "The Australian Capital Territory",
+      "Norfolk Island",
+      "Christmas Island"
+    ],
     "explanation": "The narrow no vote was widely attributed to Chief Minister Shane Stone's handling of the draft constitution and the proposed number of Senate seats.",
     "hook": "The Territory said no to statehood over the fine print, not the principle."
   },
@@ -1255,7 +1755,11 @@
     "difficulty": "hard",
     "question": "Which 1629 shipwreck off Western Australia was followed by mutiny and mass murder?",
     "answer": "The Batavia",
-    "distractors": ["The Zuytdorp", "The Zeewijk", "The Vergulde Draeck"],
+    "distractors": [
+      "The Zuytdorp",
+      "The Zeewijk",
+      "The Vergulde Draeck"
+    ],
     "explanation": "The Dutch East India Company ship struck a reef near the Abrolhos Islands and a mutiny led by Jeronimus Cornelisz killed more than a hundred survivors before rescue arrived.",
     "hook": "The wreck killed some; the mutineers killed far more."
   },
@@ -1265,7 +1769,11 @@
     "difficulty": "hard",
     "question": "Which Prime Minister led for only twenty months before Whitlam's 1972 victory?",
     "answer": "William McMahon",
-    "distractors": ["John Gorton", "Harold Holt", "Arthur Fadden"],
+    "distractors": [
+      "John Gorton",
+      "Harold Holt",
+      "Arthur Fadden"
+    ],
     "explanation": "His defeat ended twenty-three years of continuous coalition government; he had earlier been blocked from the leadership by John McEwen's veto.",
     "hook": "He finally got the job McEwen had vetoed, and lasted twenty months."
   },
@@ -1275,7 +1783,11 @@
     "difficulty": "hard",
     "question": "Which 1942 Act was backdated to 1939 to confirm Australia's legislative independence?",
     "answer": "The Statute of Westminster Adoption Act",
-    "distractors": ["The Australia Act", "The Nationality and Citizenship Act", "The Defence Act"],
+    "distractors": [
+      "The Australia Act",
+      "The Nationality and Citizenship Act",
+      "The Defence Act"
+    ],
     "explanation": "Australia had delayed adoption for a decade; the wartime Act was backdated to 3 September 1939 to remove doubt about the legality of its wartime measures.",
     "hook": "Backdated to the day war broke out, to make the war legally tidy."
   },
@@ -1285,7 +1797,11 @@
     "difficulty": "hard",
     "question": "Who was the first Governor of the Reserve Bank of Australia in 1960?",
     "answer": "H.C. Coombs",
-    "distractors": ["Roland Wilson", "John Phillips", "Bob Johnston"],
+    "distractors": [
+      "Roland Wilson",
+      "John Phillips",
+      "Bob Johnston"
+    ],
     "explanation": "Nugget Coombs had run post-war reconstruction, later chaired the Council for Aboriginal Affairs, and helped found what became the Australia Council for the Arts.",
     "hook": "He ran the central bank, Aboriginal affairs and the arts council — a one-man institution."
   },
@@ -1295,7 +1811,11 @@
     "difficulty": "hard",
     "question": "Who led the 1911-14 Australasian Antarctic Expedition?",
     "answer": "Douglas Mawson",
-    "distractors": ["Ernest Shackleton", "John King Davis", "Hubert Wilkins"],
+    "distractors": [
+      "Ernest Shackleton",
+      "John King Davis",
+      "Hubert Wilkins"
+    ],
     "explanation": "He survived a solo return trek after both companions died, and later appeared on the Australian $100 note; his hut at Cape Denison still stands.",
     "hook": "He walked back alone across the ice and ended up on the hundred-dollar note."
   }

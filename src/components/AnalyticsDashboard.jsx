@@ -1,10 +1,20 @@
 import React from 'react';
 import { Award, Flame, Target, TrendingUp, ShieldAlert, Compass } from 'lucide-react';
 import { CATEGORY_LIST, DIFFICULTIES } from '../data/categories';
+import ProgressTransfer from './ProgressTransfer';
 
 const pct = (correct, total) => (total ? Math.round((correct / total) * 100) : 0);
 
-export default function AnalyticsDashboard({ stats, bankStats, weaknessCount, seenCount, totalBank }) {
+export default function AnalyticsDashboard({
+  stats,
+  bankStats,
+  vaultSummary,
+  seenCount,
+  totalBank,
+  profile,
+  onImport
+}) {
+  const weaknessCount = vaultSummary?.total ?? 0;
   const categoryStats = stats.categoryStats || {};
   const difficultyStats = stats.difficultyStats || {};
 
@@ -138,6 +148,27 @@ export default function AnalyticsDashboard({ stats, bankStats, weaknessCount, se
           })}
         </div>
       </div>
+
+      {vaultSummary?.total > 0 && (
+        <div className="recommendation-banner subtle">
+          <Target size={22} className="rec-icon" />
+          <div>
+            <h4>
+              {vaultSummary.due > 0
+                ? `${vaultSummary.due} question${vaultSummary.due === 1 ? '' : 's'} due for revision`
+                : 'Nothing due for revision right now'}
+            </h4>
+            <p>
+              {vaultSummary.total} tracked in the vault
+              {vaultSummary.struggling > 0 && `, ${vaultSummary.struggling} missed more than once`}.
+              Questions return one day after you miss them, then three, seven, twenty-one and sixty
+              — clear all five and they leave for good.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {profile && onImport && <ProgressTransfer profile={profile} onImport={onImport} />}
 
       <div className="achievements-section">
         <h3>Milestones</h3>

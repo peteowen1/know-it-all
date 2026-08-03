@@ -1151,14 +1151,14 @@
     "id": "art_083",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which Australian artist represented the country with the work Kngwarreye at the Venice Biennale in 1997?",
+    "question": "Which artist showed at the 1997 Venice Biennale after taking up painting in her late seventies?",
     "answer": "Emily Kame Kngwarreye",
     "distractors": [
       "Rover Thomas",
       "Fiona Hall",
       "Tracey Moffatt"
     ],
-    "explanation": "She began painting on canvas in her late seventies and produced some 3,000 works in eight years before her death in 1996.",
+    "explanation": "Australia's 1997 pavilion, Fluent, showed her alongside Yvonne Koolmatrie and Judy Watson; she had produced some 3,000 works in the eight years before her death in 1996.",
     "hook": "She started painting at nearly eighty and made three thousand works in eight years."
   },
   {
@@ -1403,14 +1403,14 @@
     "id": "art_101",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which Australian author wrote the Miles Franklin-winning novel The Secret River?",
+    "question": "Which Australian author wrote The Secret River?",
     "answer": "Kate Grenville",
     "distractors": [
       "Alexis Wright",
       "Charlotte Wood",
       "Helen Garner"
     ],
-    "explanation": "Published in 2005 and drawing on her own ancestor's settlement on the Hawkesbury, it prompted a public debate with historians about fiction's claims on the past.",
+    "explanation": "Published in 2005 and drawing on her own ancestor's settlement on the Hawkesbury, it won the Commonwealth Writers' Prize and was shortlisted for the Miles Franklin, and prompted a public argument with historians about fiction's claims on the past.",
     "hook": "It started a public argument between a novelist and historians about who owns the past."
   },
   {
@@ -1438,8 +1438,8 @@
       "Benvenuto Cellini",
       "Baldassare Castiglione"
     ],
-    "explanation": "Published in 1550, it is the source of most Renaissance anecdotes and coined the term 'Renaissance' itself, though its facts are often unreliable.",
-    "hook": "He invented both art history and most of the gossip that fills it."
+    "explanation": "Published in 1550, it is the source of most Renaissance anecdotes and gave the period its name in Italian as the rinascita, or rebirth; the French 'Renaissance' came three centuries later via Michelet and Burckhardt.",
+    "hook": "He invented art history and the word 'rebirth' — but not the word 'Renaissance'."
   },
   {
     "id": "art_104",
@@ -1508,7 +1508,7 @@
       "A.D. Hope",
       "James McAuley"
     ],
-    "explanation": "Written in 1939 as an elegy for his friend Joe Lynch, who drowned in Sydney Harbour, it gave its name to a John Olsen mural in the Opera House.",
+    "explanation": "Written between 1935 and 1937 as an elegy for his friend Joe Lynch, who drowned in Sydney Harbour, and published in 1939; it later gave its name to a John Olsen mural in the Opera House.",
     "hook": "An elegy for a drowned friend that ended up painted on the Opera House wall."
   },
   {
@@ -1585,15 +1585,15 @@
     "id": "art_114",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which Australian novelist wrote the Miles Franklin-winning Remembering Babylon?",
+    "question": "Which Australian novelist wrote Remembering Babylon?",
     "answer": "David Malouf",
     "distractors": [
       "Tim Winton",
       "Murray Bail",
       "Rodney Hall"
     ],
-    "explanation": "Published in 1993 about a European boy raised by Aboriginal people and returning to a settler community, it won the inaugural International Dublin Literary Award.",
-    "hook": "It won the first ever Dublin literary award, then the world's richest."
+    "explanation": "Published in 1993 about a European boy raised by Aboriginal people, it won the inaugural International Dublin Literary Award but lost the Miles Franklin to Rodney Hall's The Grisly Wife.",
+    "hook": "It won the world's richest literary prize and still lost the Miles Franklin."
   },
   {
     "id": "art_115",

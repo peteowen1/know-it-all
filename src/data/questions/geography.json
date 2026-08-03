@@ -1515,15 +1515,15 @@
     "id": "geo_109",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country's exclusive economic zone is the largest in the world?",
-    "answer": "France",
+    "question": "Which ocean current system keeps north-western Europe far milder than its latitude suggests?",
+    "answer": "The North Atlantic Drift",
     "distractors": [
-      "The United States",
-      "Australia",
-      "Russia"
+      "The Humboldt Current",
+      "The Kuroshio Current",
+      "The Benguela Current"
     ],
-    "explanation": "Its scattered overseas territories, especially in the Pacific and Indian Oceans, give it over eleven million square kilometres of maritime zone, narrowly ahead of the United States.",
-    "hook": "France's empire is mostly gone, but the water rights are not."
+    "explanation": "An extension of the Gulf Stream, it carries warm water north-east so that Norway stays ice-free at latitudes that are frozen tundra in Canada and Siberia.",
+    "hook": "Bergen and Nuuk sit at similar latitudes; one has a harbour that never freezes."
   },
   {
     "id": "geo_110",
@@ -1725,15 +1725,15 @@
     "id": "geo_124",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which two countries claim the largest overlapping sectors of Antarctica?",
-    "answer": "Australia and Norway",
+    "question": "Which three countries have overlapping territorial claims on the Antarctic Peninsula?",
+    "answer": "Argentina, Chile and the United Kingdom",
     "distractors": [
-      "Britain and Argentina",
-      "Chile and New Zealand",
-      "France and Russia"
+      "Australia, France and Norway",
+      "Chile, Peru and Argentina",
+      "Norway, Sweden and Denmark"
     ],
-    "explanation": "Australia claims about forty-two per cent of the continent and Norway a further large wedge; the Antarctic Treaty of 1959 freezes all such claims without extinguishing them.",
-    "hook": "Australia claims almost half of Antarctica, and the treaty simply parked the argument."
+    "explanation": "Theirs are the only Antarctic claims that genuinely conflict; Australia, New Zealand, France, Norway and the UK all recognise one another's sectors, and the 1959 treaty froze every claim without extinguishing it.",
+    "hook": "Only the Peninsula is actually disputed — everywhere else the claimants politely agree."
   },
   {
     "id": "geo_125",

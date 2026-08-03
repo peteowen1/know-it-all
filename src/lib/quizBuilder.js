@@ -1,7 +1,7 @@
-import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank';
-import { CATEGORY_LIST } from '../data/categories';
-import { hashString, makeRng, shuffle } from './rng';
-import { localDateKey } from './dates';
+import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank.js';
+import { CATEGORY_LIST } from '../data/categories.js';
+import { hashString, makeRng, shuffle } from './rng.js';
+import { localDateKey } from './dates.js';
 
 // A "quiz" is a list of question ids plus a seed. Options are materialised from
 // (question id, seed) so a question's A/B/C/D order is stable for the length of
@@ -131,4 +131,21 @@ export function buildRevisionQuiz(questionIds, seed = Date.now()) {
     rng
   );
   return { seed, questions: questions.map((q) => materialise(q, seed)) };
+}
+
+/**
+ * Reproduce someone else's round exactly.
+ *
+ * Question order and option order both come from the shared seed, so two people
+ * comparing scores answered the identical paper — otherwise the comparison is
+ * meaningless. Unknown ids are dropped rather than failing the whole challenge,
+ * so a link still works after a question has been removed from the bank.
+ */
+export function buildChallengeQuiz(ids, seed) {
+  const questions = ids.map((id) => ALL_QUESTIONS.find((q) => q.id === id)).filter(Boolean);
+  return {
+    seed,
+    questions: questions.map((q) => materialise(q, seed)),
+    missing: ids.length - questions.length
+  };
 }
