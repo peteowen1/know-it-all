@@ -9,6 +9,8 @@
     "build:only": "vite build",
     "validate": "node scripts/validate-questions.mjs",
     "data:countries": "node scripts/build-countries.mjs",
+    "data:famous": "node scripts/build-famous.mjs",
+    "data:flags": "node scripts/build-flag-lookalikes.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "node scripts/test-logic.mjs",
@@ -22,6 +24,7 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",

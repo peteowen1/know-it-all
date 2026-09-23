@@ -9,7 +9,7 @@ import GameHub from './components/GameHub';
 // Loaded on first open so the 160 kB country table stays out of the first paint.
 const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
 const HigherLower = lazy(() => import('./games/geo/HigherLower'));
-import { recordRound } from './lib/gameStats';
+import { recordRound, recordItems } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
 import { buildChallengeQuiz } from './lib/quizBuilder';
@@ -67,6 +67,12 @@ function save(name, value) {
   }
 }
 
+const omit = (obj, key) => {
+  if (!(key in obj)) return obj;
+  const { [key]: _drop, ...rest } = obj;
+  return rest;
+};
+
 const EMPTY_STATS = {
   highScore: 0,
   bestPercentage: 0,
@@ -122,6 +128,17 @@ export default function App() {
   useEffect(() => save('setup', setup), [setup]);
   useEffect(() => save('games', gameStats), [gameStats]);
   useEffect(() => save('answerMode', answerMode), [answerMode]);
+
+  // Rounds left part-way through, keyed by game id, so switching tabs or
+  // reloading resumes where you were instead of throwing the round away.
+  const [savedRounds, setSavedRounds] = useState(() => load('rounds', {}, isObject));
+  useEffect(() => save('rounds', savedRounds), [savedRounds]);
+  const handleRoundChange = useCallback((gameId, round) => {
+    setSavedRounds((prev) => (round ? { ...prev, [gameId]: round } : omit(prev, gameId)));
+  }, []);
+  const handleGameAnswer = useCallback((gameId, key, correct) => {
+    setGameStats((prev) => recordItems(prev, gameId, [{ key, correct }]));
+  }, []);
 
   const handleGameRound = useCallback((gameId, result) => {
     setGameStats((prev) => recordRound(prev, gameId, { ...result, date: localDateKey() }));
@@ -235,6 +252,7 @@ export default function App() {
     setRecentIds([]);
     setVault([]);
     setGameStats({});
+    setSavedRounds({});
   };
 
   /** Replace local state wholesale after a progress import. */
@@ -261,6 +279,7 @@ export default function App() {
   return (
     <div className="app-layout">
       <Header
+        onHome={goHome}
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         bankSize={BANK_STATS.total}
@@ -287,8 +306,11 @@ export default function App() {
             stats={gameStats}
             answerMode={answerMode}
             onAnswerModeChange={setAnswerMode}
+            onAnswer={handleGameAnswer}
             onRoundComplete={handleGameRound}
             onExit={goHome}
+            savedRound={savedRounds[activeTab]}
+            onRoundChange={handleRoundChange}
           />
         )}
 

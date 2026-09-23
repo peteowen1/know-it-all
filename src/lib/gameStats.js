@@ -44,6 +44,20 @@ export function recordRound(stats, gameId, { score, total, answers = [], run = 0
 }
 
 /**
+ * Record single answers as they happen, without touching the round record.
+ * Games call this per answer so that leaving mid-round keeps what was learned.
+ */
+export function recordItems(stats, gameId, answers) {
+  const prev = gameEntry(stats, gameId);
+  const items = { ...prev.items };
+  for (const { key, correct } of answers) {
+    const it = items[key] || { seen: 0, correct: 0 };
+    items[key] = { seen: it.seen + 1, correct: it.correct + (correct ? 1 : 0) };
+  }
+  return { ...stats, [gameId]: { ...prev, items } };
+}
+
+/**
  * Draw weight per item for the next round: higher means more likely to come up.
  *
  * Unseen items get a small boost so a new player works through the whole set

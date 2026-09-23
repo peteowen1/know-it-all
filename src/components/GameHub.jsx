@@ -13,7 +13,9 @@ export default function GameHub({ onOpen, gameStats, quizStats, vaultDue }) {
     if (g.id === 'vault') return vaultDue ? `${vaultDue} due today` : null;
     const e = gameEntry(gameStats, g.id);
     if (!e.plays) return null;
-    return g.id === 'population' ? `best run ${e.bestRun}` : `${e.plays} played · best ${e.bestPct}%`;
+    if (g.id === 'population') return `best run ${e.bestRun}`;
+    if (g.id === 'first-names') return `${e.plays} played · best ${e.best}/15`;
+    return `${e.plays} played · best ${e.bestPct}%`;
   };
 
   return (

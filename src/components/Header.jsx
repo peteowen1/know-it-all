@@ -10,17 +10,17 @@ const TABS = [
   { id: 'analytics', label: 'Progress', icon: BarChart3 }
 ];
 
-export default function Header({ activeTab, setActiveTab, stats, bankSize, weaknessCount, onReset }) {
+export default function Header({ onHome, activeTab, setActiveTab, stats, bankSize, weaknessCount, onReset }) {
   return (
     <header className="app-header">
       <div className="header-top">
-        <div className="brand-title">
+        <button className="brand-title brand-home" onClick={onHome} title="Home">
           <div className="brand-logo"><span className="logo-icon">🧠</span></div>
           <div>
             <div className="tagline">Trivia, drilled until it sticks</div>
             <h1>Know-It-All</h1>
           </div>
-        </div>
+        </button>
 
         <div className="header-stats">
           <div className="stat-badge bank">

@@ -72,3 +72,38 @@
   .hl-vs { text-align: center; }
   .geo-prompt-text { font-size: 1.5rem; }
 }
+
+/* ------------------------------------------------------ famous first names */
+.card.names-game {
+  background: var(--bg-card); border: 1px solid var(--glass-border); border-radius: 16px;
+  padding: 1.5rem; max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;
+}
+.names-title { font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-primary); }
+.names-title strong { color: var(--accent-gold); }
+.names-input-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.names-prefix { font-weight: 700; color: var(--accent-gold); }
+.names-input-row input {
+  flex: 1; min-width: 140px; padding: 0.65rem 0.85rem; border-radius: 10px; font: inherit; font-size: 1.05rem;
+  background: rgba(15, 23, 42, 0.7); color: var(--text-primary); border: 1px solid var(--glass-border);
+}
+.names-input-row input:focus { outline: 2px solid var(--accent-blue); outline-offset: 1px; }
+.names-msg { font-size: 0.9rem; min-height: 1.4em; }
+.names-msg.good { color: var(--accent-green); }
+.names-msg.bad { color: var(--accent-rose); }
+.names-msg.meh { color: var(--text-secondary); }
+.names-board { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.5rem; }
+.names-slot {
+  display: flex; gap: 0.75rem; align-items: center; padding: 0.55rem 0.75rem; border-radius: 10px;
+  background: rgba(15, 23, 42, 0.5); border: 1px solid var(--border-color); min-height: 3.2rem;
+}
+.names-slot.got { border-color: var(--accent-green); background: rgba(16, 185, 129, 0.1); }
+.names-slot.missed { border-color: rgba(244, 63, 94, 0.4); }
+.names-rank { width: 1.6rem; text-align: right; color: var(--text-muted); font-weight: 700; font-size: 0.85rem; }
+.names-person { display: flex; flex-direction: column; line-height: 1.25; }
+.names-person span, .names-hidden { color: var(--text-secondary); font-size: 0.82rem; }
+.names-hidden { font-style: italic; }
+.game-record.small { font-size: 0.78rem; color: var(--text-muted); }
+
+/* Logo and title double as the home button. */
+.brand-home { background: none; border: 0; color: inherit; font: inherit; text-align: left; cursor: pointer; padding: 0; }
+.brand-home:hover h1 { color: var(--accent-gold); }

@@ -1,7 +1,8 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowRight, CheckCircle2, Eye, RotateCcw, XCircle, ArrowLeftRight } from 'lucide-react';
 import { COUNTRIES } from './countries';
-import { REGIONS, countryPool, buildGeoRound } from './geoPool';
+import { REGIONS, countryPool, buildGeoRound, identicalFlags } from './geoPool';
+import LOOKALIKES from '../../data/flagLookalikes.json';
 import { gameEntry, itemWeights, weakestItems } from '../../lib/gameStats';
 
 const Flag = ({ code, size = 'lg' }) => (
@@ -30,6 +31,37 @@ const KINDS = {
 };
 
 const LENGTHS = [10, 20, 50];
+const BY_CODE = new Map(COUNTRIES.map((c) => [c.code, c]));
+
+// An in-progress round is saved as country codes, not objects, so it is small
+// enough for localStorage and survives a data rebuild that changes a country's
+// other fields. A code that no longer exists voids the saved round.
+function serialiseRound(r) {
+  return {
+    // The settings the round was started with, so resuming also restores the
+    // setup screen and "Again" repeats the same kind of round.
+    settings: r.settings,
+    direction: r.direction,
+    region: r.region,
+    q: r.questions.map((q) => [q.target.code, q.options.map((o) => o.code)]),
+    index: r.index,
+    answers: r.answers,
+    picked: r.picked,
+    revealed: r.revealed
+  };
+}
+function restoreRound(saved) {
+  if (!saved || !Array.isArray(saved.q)) return null;
+  const questions = [];
+  for (const [t, opts] of saved.q) {
+    const target = BY_CODE.get(t);
+    const options = (opts || []).map((c) => BY_CODE.get(c));
+    if (!target || options.some((o) => !o)) return null;
+    questions.push({ target, options, correctIndex: options.indexOf(target) });
+  }
+  if (!Array.isArray(saved.answers) || saved.index >= questions.length) return null;
+  return { ...saved, questions };
+}
 
 /** What to show under the answer once it is revealed: the bits a quiz-setter would use next. */
 function factLine(c) {
@@ -42,19 +74,29 @@ function factLine(c) {
   return parts.join(' · ');
 }
 
-export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
+export default function CountryQuiz({
+  kind, stats, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit, savedRound, onRoundChange
+}) {
   const spec = KINDS[kind];
-  const [region, setRegion] = useState('World');
-  const [territories, setTerritories] = useState(false);
-  const [count, setCount] = useState(10);
-  const [direction, setDirection] = useState('forward');
-  const [round, setRound] = useState(null);
+  const initial = { region: 'World', territories: false, count: 10, direction: 'forward', hard: false, ...savedRound?.settings };
+  const [region, setRegion] = useState(initial.region);
+  const [territories, setTerritories] = useState(initial.territories);
+  // "All" is Infinity, which JSON cannot hold, so it is saved as 'all'.
+  const [count, setCount] = useState(initial.count === 'all' ? Infinity : initial.count);
+  const [direction, setDirection] = useState(initial.direction);
+  const [hard, setHard] = useState(initial.hard);
+  // Picks up a round left part-way through, from another tab or a reload.
+  const [round, setRound] = useState(() => restoreRound(savedRound));
+  useEffect(() => {
+    const live = round && round.index < round.questions.length;
+    onRoundChange(kind, live ? serialiseRound(round) : null);
+  }, [round, kind, onRoundChange]);
   // Index of the last question answered. A ref, not state: two clicks landing
   // before React re-renders both see the old state, and on the last question
   // that recorded the whole round twice.
-  const answeredUpTo = useRef(-1);
+  const answeredUpTo = useRef((savedRound?.answers?.length ?? 0) - 1);
 
-  const dir = spec.directions[direction];
+  const dir = spec.directions[round?.direction || direction];
   const pool = useMemo(
     () => countryPool(COUNTRIES, { region, territories, needs: spec.needs }),
     [region, territories, spec.needs]
@@ -69,10 +111,21 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
       count,
       seed: Date.now(),
       labelOf: dir.label,
-      weights: itemWeights(stats, kind, pool.map((c) => c.code))
+      weights: itemWeights(stats, kind, pool.map((c) => c.code)),
+      lookalikes: kind === 'flags' ? LOOKALIKES : null,
+      hard
     });
     answeredUpTo.current = -1;
-    setRound({ questions, index: 0, picked: null, revealed: false, answers: [] });
+    setRound({
+      settings: { region, territories, count: Number.isFinite(count) ? count : 'all', direction, hard },
+      direction,
+      region,
+      questions,
+      index: 0,
+      picked: null,
+      revealed: false,
+      answers: []
+    });
   };
 
   if (!round) {
@@ -104,6 +157,12 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
           ))}
           <Chip active={count === Infinity} onClick={() => setCount(Infinity)}>All {pool.length}</Chip>
         </SetupRow>
+        {kind === 'flags' && (
+          <SetupRow label="Wrong answers">
+            <Chip active={!hard} onClick={() => setHard(false)} title="Neighbouring countries">Normal: neighbours</Chip>
+            <Chip active={hard} onClick={() => setHard(true)} title="Flags that look like the answer">Hard: look-alike flags</Chip>
+          </SetupRow>
+        )}
         <SetupRow label="Answer">
           <AnswerModeToggle mode={answerMode} onChange={onAnswerModeChange} />
         </SetupRow>
@@ -139,7 +198,7 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
     return (
       <div className="card game-results">
         <h2>{score} / {questions.length}</h2>
-        <p className="game-record">{Math.round((score / questions.length) * 100)}% · {spec.title} · {region}</p>
+        <p className="game-record">{Math.round((score / questions.length) * 100)}% · {spec.title} · {round.region}</p>
         {missed.length > 0 && (
           <div className="missed-grid">
             {missed.map(({ target: c }) => (
@@ -169,9 +228,12 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
     answeredUpTo.current = index;
     const nextAnswers = [...answers, { key: q.target.code, correct }];
     setRound({ ...round, picked: pickedIndex, revealed: true, answers: nextAnswers });
+    // Saved per answer, so leaving mid-round never loses what was learned.
+    // The round record (plays, best score) is only written when it finishes.
+    onAnswer(kind, q.target.code, correct);
     if (index === questions.length - 1) {
       const score = nextAnswers.filter((a) => a.correct).length;
-      onRoundComplete(kind, { score, total: questions.length, answers: nextAnswers });
+      onRoundComplete(kind, { score, total: questions.length, answers: [] });
     }
   };
   const next = () => setRound({ ...round, index: index + 1, picked: null, revealed: false });
@@ -181,6 +243,7 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
       <div className="progress-text">
         <span>{index + 1} / {questions.length}</span>
         <span className="score-pill">Score {answers.filter((a) => a.correct).length}</span>
+        <button className="btn-text-toggle" onClick={() => setRound(null)} title="Abandon this round">End round</button>
       </div>
       <p className="geo-ask">{dir.ask}</p>
       <div className="geo-prompt">{dir.prompt(q.target)}</div>
@@ -228,6 +291,9 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
         <>
           <p className="geo-fact">
             <strong>{q.target.name}</strong> — capital {q.target.capitals[0]} · {factLine(q.target)}
+            {kind === 'flags' && identicalFlags(q.target, LOOKALIKES, BY_CODE).length > 0 && (
+              <><br />Same flag as {identicalFlags(q.target, LOOKALIKES, BY_CODE).join(', ')} apart from its proportions.</>
+            )}
           </p>
           <div className="next-action-bar">
             <button className="btn btn-primary next-btn" onClick={next} autoFocus>
