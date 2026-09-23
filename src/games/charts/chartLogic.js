@@ -101,8 +101,13 @@ export function topArtists(years, from, to, size, { noun = 'song' } = {}) {
     });
 }
 
-/** Accepted spellings of one answer: as written, without "The", without brackets. */
-function forms(answer) {
+/**
+ * Accepted spellings of one answer: as written, without "The", without
+ * brackets, without spaces, the part before a colon ("Rambo" for "Rambo:
+ * First Blood Part II"), and a leading abbreviation ("E.T." or "ET" for "E.T.
+ * the Extra-Terrestrial", which a player typed and had rejected).
+ */
+export function forms(answer) {
   const n = normalise(answer);
   const out = new Set([n]);
   out.add(n.replace(/^the /, ''));
@@ -110,6 +115,13 @@ function forms(answer) {
   const noBrackets = normalise(answer.replace(/\([^)]*\)/g, ''));
   if (noBrackets) out.add(noBrackets);
   out.add(n.replace(/ /g, ''));
+  const beforeColon = normalise(answer.split(':')[0]);
+  if (answer.includes(':') && beforeColon.length >= 3) out.add(beforeColon).add(beforeColon.replace(/^the /, ''));
+  const abbrev = answer.match(/^((?:[A-Za-z]\.){2,})/);
+  if (abbrev) {
+    const letters = abbrev[1].replace(/\./g, '').toLowerCase();
+    out.add(letters).add(letters.split('').join(' '));
+  }
   return out;
 }
 
