@@ -23,8 +23,10 @@ import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopu
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
+import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
 
+const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
 const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
@@ -429,6 +431,71 @@ test('recordItems updates items without counting a play', () => {
   assert.deepEqual(g.flags.items.MC, { seen: 1, correct: 0 });
 });
 
+// ----------------------------------------------------------------- charts
+test('music data: every year 1959-2025 has a full, ordered top 10', () => {
+  for (let y = 1959; y <= 2025; y++) {
+    const ranks = (MUSIC[y] || []).slice(0, 10).map((e) => e.rank);
+    assert.deepEqual(ranks, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], `year ${y}`);
+  }
+});
+test('music data: known year-end number ones', () => {
+  assert.equal(MUSIC[1965][0].title, 'Wooly Bully');
+  assert.equal(MUSIC[1985][0].title, 'Careless Whisper');
+  assert.equal(MUSIC[2012][0].title, 'Somebody That I Used to Know');
+});
+test('music data: merged artist cells carried down (1994 #10 is Ace of Base)', () => {
+  assert.equal(MUSIC[1994][9].artist, 'Ace of Base');
+});
+test('topSongs for one year is that year, in order', () => {
+  const b = topSongs(MUSIC, 1985, 1985, 10);
+  assert.equal(b.length, 10);
+  assert.equal(b[0].label, 'Careless Whisper');
+  assert.deepEqual(b.map((x) => x.rank), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+});
+test('topArtists: 1980s led by the acts a quiz would expect', () => {
+  const top5 = topArtists(MUSIC, 1980, 1989, 5).map((a) => a.label);
+  assert.ok(top5.includes('Madonna') && top5.includes('Michael Jackson'), top5.join(', '));
+});
+test('matchChartGuess: song title, artist, "the", brackets and typos', () => {
+  const b = topSongs(MUSIC, 1965, 1965, 10);
+  assert.equal(matchChartGuess('wooly bully', b).item.rank, 1);
+  assert.equal(matchChartGuess('Rolling Stones', b).item.label, "(I Can't Get No) Satisfaction");
+  assert.equal(matchChartGuess('satisfaction', b).item.rank, 3);
+  assert.equal(matchChartGuess('zzzz', b), null);
+});
+test('matchChartGuess: an artist with two songs finds the next on a repeat', () => {
+  const b = topSongs(MUSIC, 1994, 1994, 10);
+  const first = matchChartGuess('ace of base', b);
+  const second = matchChartGuess('ace of base', b, new Set([first.item.id]));
+  assert.notEqual(first.item.id, second.item.id);
+});
+test('buildChartQuiz: correct option is the real answer, options distinct', () => {
+  const qs = buildChartQuiz(MUSIC, { from: 1959, to: 2025, count: 20, seed: 5 });
+  assert.equal(qs.length, 20);
+  for (const q of qs) {
+    assert.equal(new Set(q.options).size, 4, q.prompt);
+    if (q.kind === 'year-of-song') assert.equal(q.options[q.correctIndex], String(q.year));
+    else assert.ok(q.options[q.correctIndex].includes(MUSIC[q.year][0].title));
+  }
+});
+
+test('buildChartQuiz: a short decade still gets a full round (2020s)', () => {
+  const qs = buildChartQuiz(MUSIC, { from: 2020, to: 2029, count: 10, seed: 1 });
+  assert.equal(qs.length, 10);
+  assert.equal(new Set(qs.map((q) => q.key)).size, 10, 'a question repeated');
+});
+test('buildChartQuiz: year decoys stay inside the data', () => {
+  for (let seed = 0; seed < 20; seed++) {
+    for (const q of buildChartQuiz(MUSIC, { from: 2020, to: 2029, count: 10, seed })) {
+      if (q.kind === 'year-of-song') assert.ok(q.options.every((y) => MUSIC[y]), q.options.join(','));
+    }
+  }
+});
+test('decadesOf drops the one-year 1950s', () => {
+  const d = decadesOf(MUSIC);
+  assert.equal(d[0], 1960);
+  assert.ok(d.includes(2020));
+});
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {

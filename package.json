@@ -11,6 +11,7 @@
     "data:countries": "node scripts/build-countries.mjs",
     "data:famous": "node scripts/build-famous.mjs",
     "data:flags": "node scripts/build-flag-lookalikes.mjs",
+    "data:music": "node scripts/build-music-charts.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "node scripts/test-logic.mjs",

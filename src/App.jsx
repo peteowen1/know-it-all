@@ -10,6 +10,7 @@ import GameHub from './components/GameHub';
 const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
 const HigherLower = lazy(() => import('./games/geo/HigherLower'));
 const FirstNames = lazy(() => import('./games/names/FirstNames'));
+const MusicCharts = lazy(() => import('./games/charts/MusicCharts'));
 import { recordRound, recordItems } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
@@ -317,6 +318,17 @@ export default function App() {
 
         {activeTab === 'population' && (
           <HigherLower stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
+        )}
+
+        {activeTab === 'music-years' && (
+          <MusicCharts
+            stats={gameStats}
+            answerMode={answerMode}
+            onAnswerModeChange={setAnswerMode}
+            onAnswer={handleGameAnswer}
+            onRoundComplete={handleGameRound}
+            onExit={goHome}
+          />
         )}
 
         {activeTab === 'first-names' && (
