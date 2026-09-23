@@ -35,10 +35,18 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
     [era]
   );
 
+  // A picked name the era filter has since removed falls back to random, and
+  // the chip row shows Random as selected, so what you see is what you get.
+  const pickedName = names.some((n) => n.first === picked) ? picked : null;
+  const roundId = useRef(0);
+
   const start = () => {
-    const pool = picked ? names.filter((n) => n.first === picked) : names;
-    const chosen = pool[Math.floor(Math.random() * pool.length)] || names[0];
+    if (!names.length) return;
+    const pool = pickedName ? names.filter((n) => n.first === pickedName) : names;
+    const chosen = pool[Math.floor(Math.random() * pool.length)];
+    roundId.current += 1;
     setGame({
+      id: roundId.current,
       first: chosen.first,
       board: chosen.people.slice(0, BOARD_SIZE),
       bonusPool: chosen.people.slice(BOARD_SIZE),
@@ -62,9 +70,9 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
             : `Name the fifteen most famous people with a given first name. Type surnames.`}
         </p>
         <SetupRow label="Name">
-          <Chip active={picked === null} onClick={() => setPicked(null)}><Shuffle size={14} /> Random</Chip>
+          <Chip active={pickedName === null} onClick={() => setPicked(null)}><Shuffle size={14} /> Random</Chip>
           {names.slice(0, 24).map((n) => (
-            <Chip key={n.first} active={picked === n.first} onClick={() => setPicked(n.first)}>{n.first}</Chip>
+            <Chip key={n.first} active={pickedName === n.first} onClick={() => setPicked(n.first)}>{n.first}</Chip>
           ))}
         </SetupRow>
         <SetupRow label="Era">
@@ -81,7 +89,9 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
           <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>Easy: show what they do + initial</Chip>
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: blank board</Chip>
         </SetupRow>
-        <button className="btn btn-primary game-start" onClick={start}>Start</button>
+        <button className="btn btn-primary game-start" onClick={start} disabled={!names.length}>
+          {names.length ? 'Start' : 'No names have fifteen people in this era'}
+        </button>
         <p className="game-record small">Fame = English Wikipedia readership, {data.source.replace(/^.*pageviews /, '')}.</p>
       </div>
     );
@@ -89,7 +99,9 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
 
   return (
     <Board
-      key={`${game.first}-${game.endsAt}`}
+      // One Board per round. Keying on the name would reuse the Board, and its
+      // finished-guard, when the same name comes up twice with no clock.
+      key={game.id}
       game={game}
       setGame={setGame}
       easy={answerMode === 'choice'}
@@ -142,7 +154,8 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   });
 
   useEffect(() => {
-    if (!over && found.length === board.length + bonusPool.length) finish();
+    // The round ends when the board is full; bonus finds are extra credit.
+    if (!over && board.every((p) => foundSet.has(p.id))) finish();
   });
 
   const submit = (e) => {
