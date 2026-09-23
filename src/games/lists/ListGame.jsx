@@ -89,6 +89,10 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   const [over, setOver] = useState(false);
   const inputs = useRef([]);
   const finished = useRef(false);
+  // Rows already locked, kept in a ref as well as state. Moving focus after a
+  // right answer blurs the old box, and its onBlur runs with the pre-update
+  // state; the ref lets that second check see the row is already done.
+  const locked = useRef(rows.map(() => false));
   const doneCount = done.filter(Boolean).length;
   const initials = useMemo(() => rows.map((r) => r.name.split(' ').map((w) => w[0]).join('. ') + '.'), [rows]);
 
@@ -115,12 +119,13 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   );
 
   const check = (i) => {
-    if (done[i] || over || !values[i].trim()) return;
+    if (locked.current[i] || over || !values[i].trim()) return;
     if (!rowMatches(values[i], rows[i])) {
       setWrong(i);
       return;
     }
-    const next = done.map((d, j) => d || j === i);
+    locked.current[i] = true;
+    const next = locked.current.slice();
     setDone(next);
     setWrong(null);
     if (next.every(Boolean)) {

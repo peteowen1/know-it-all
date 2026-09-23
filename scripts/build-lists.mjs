@@ -20,7 +20,10 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 import { UA } from './lib/wikitable.mjs';
 
 const OFFICES = {
-  auPM: { office: 'Q319145', title: 'Australian prime ministers', min: 31 },
+  // Australia numbers a person once, so a term missing its number can take
+  // the person's number from another term. Not so for the US, which numbers
+  // each non-consecutive term: a missing number there stays missing.
+  auPM: { office: 'Q319145', title: 'Australian prime ministers', min: 31, numberPerPerson: true },
   // Every real president has an official number; entries without one are
   // fiction or vandalism (Quentin Trembley, a novel's president, was one).
   usPres: { office: 'Q11696', title: 'US presidents', min: 45, requireNumber: true },
@@ -48,7 +51,7 @@ const year = (t) => (t ? Number(t.slice(1, 5)) : null);
 const qual = (claim, p) => (claim.qualifiers?.[p] || []).map((v) => v.datavalue?.value)[0];
 
 const out = { builtAt: new Date().toISOString().slice(0, 10), lists: {} };
-for (const [key, { office, title, min, requireNumber = false, since = 0, numbered = true }] of Object.entries(OFFICES)) {
+for (const [key, { office, title, min, requireNumber = false, since = 0, numbered = true, numberPerPerson = false }] of Object.entries(OFFICES)) {
   const found = await api({ action: 'query', list: 'search', srsearch: `haswbstatement:P39=${office}`, srlimit: 500, srprop: '' });
   const ids = found.query.search.map((r) => r.title);
   const rows = [];
@@ -73,7 +76,7 @@ for (const [key, { office, title, min, requireNumber = false, since = 0, numbere
         if (!start) continue;
         rows.push({
           start,
-          number: Number(qual(c, 'P1545') || personNumber) || null,
+          number: Number(qual(c, 'P1545') || (numberPerPerson ? personNumber : null)) || null,
           from: year(start),
           to: year(qual(c, 'P582')?.time),
           name,
@@ -88,7 +91,9 @@ for (const [key, { office, title, min, requireNumber = false, since = 0, numbere
   const seen = new Set();
   const terms = rows.filter((r) => {
     if (requireNumber && !r.number) return false;
-    if (r.from < since) return false;
+    // Keep a term still running at the cutoff: Salisbury was PM on 1 January
+    // 1900 although his term began in 1895.
+    if ((r.to ?? Infinity) < since) return false;
     const k = `${r.id}|${r.start.slice(0, 11)}`;
     if (seen.has(k)) return false;
     seen.add(k);

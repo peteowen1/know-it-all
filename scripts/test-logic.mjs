@@ -605,6 +605,9 @@ test('lists: US presidents number each non-consecutive term (Cleveland, Trump)',
   assert.ok(t.every((x) => x.number), 'an unnumbered row slipped in');
   assert.equal(t[0].name, 'George Washington');
 });
+test('lists: UK list includes the PM in office on 1 January 1900 (Salisbury)', () => {
+  assert.ok(LISTS.ukPM.terms[0].name.includes('Salisbury') || LISTS.ukPM.terms[0].name.includes('Gascoyne-Cecil'), LISTS.ukPM.terms[0].name);
+});
 test('lists: terms are in date order', () => {
   for (const [k, l] of Object.entries(LISTS)) {
     const years = l.terms.map((x) => x.from);
