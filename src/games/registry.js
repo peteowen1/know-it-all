@@ -26,7 +26,7 @@ export const GAMES = [
 
   // -------------------------------------------------------------------- pop
   { id: 'first-names', section: 'pop', tab: 'first-names', status: 'ready', icon: '🌟', title: 'Famous first names', blurb: 'Given "Tom", fill a board of the fifteen most famous Toms. Easy mode gives hints.' },
-  { id: 'music-years', section: 'pop', status: 'soon', icon: '🎵', title: 'Chart toppers by year', blurb: 'Biggest-selling and most-streamed artists and songs, by year or decade.' },
+  { id: 'music-years', section: 'pop', tab: 'music-years', status: 'ready', icon: '🎵', title: 'Chart toppers by year', blurb: 'Billboard year-end charts since 1959. Fill a year or decade, or take the quiz.' },
   { id: 'film-years', section: 'pop', status: 'soon', icon: '🎬', title: 'Films by year', blurb: 'Best Picture winners and box-office number ones.' },
   { id: 'tv-years', section: 'pop', status: 'soon', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe winners for drama and comedy.' },
 
