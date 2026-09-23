@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUp, ArrowDown, RotateCcw } from 'lucide-react';
 import { COUNTRIES, POPULATION_YEAR } from './countries';
 import { REGIONS, countryPool, nextChallenger, formatPopulation } from './geoPool';
@@ -18,6 +18,17 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
   const [region, setRegion] = useState('World');
   const [state, setState] = useState(null);
   const rand = useRef(makeRng(Date.now() >>> 0));
+
+  // A run in progress that has not been saved yet. A run is normally saved when
+  // it ends on a miss; if the player leaves mid-run instead, this is saved on
+  // the way out so a best run is never lost to the All games button.
+  const unsaved = useRef(null);
+  const save = useRef(onRoundComplete);
+  save.current = onRoundComplete;
+  useEffect(() => () => {
+    const u = unsaved.current;
+    if (u && u.run > 0) save.current('population', { score: u.run, total: u.answers.length, answers: u.answers, run: u.run });
+  }, []);
 
   const pool = useMemo(() => countryPool(COUNTRIES, { region, needs: 'population' }), [region]);
   const entry = gameEntry(stats, 'population');
@@ -54,7 +65,10 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
     const correct = higher === right.population > left.population;
     const nextAnswers = [...answers, { key: right.code, correct }];
     setState({ ...state, verdict: correct ? 'right' : 'wrong', run: run + (correct ? 1 : 0), answers: nextAnswers });
-    if (!correct) {
+    if (correct) {
+      unsaved.current = { run: run + 1, answers: nextAnswers };
+    } else {
+      unsaved.current = null;
       onRoundComplete('population', { score: run, total: nextAnswers.length, answers: nextAnswers, run });
     }
   };

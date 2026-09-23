@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useRef, useState } from 'react';
 import { ArrowRight, CheckCircle2, Eye, RotateCcw, XCircle, ArrowLeftRight } from 'lucide-react';
 import { COUNTRIES } from './countries';
 import { REGIONS, countryPool, buildGeoRound } from './geoPool';
@@ -49,6 +49,10 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
   const [count, setCount] = useState(10);
   const [direction, setDirection] = useState('forward');
   const [round, setRound] = useState(null);
+  // Index of the last question answered. A ref, not state: two clicks landing
+  // before React re-renders both see the old state, and on the last question
+  // that recorded the whole round twice.
+  const answeredUpTo = useRef(-1);
 
   const dir = spec.directions[direction];
   const pool = useMemo(
@@ -67,6 +71,7 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
       labelOf: dir.label,
       weights: itemWeights(stats, kind, pool.map((c) => c.code))
     });
+    answeredUpTo.current = -1;
     setRound({ questions, index: 0, picked: null, revealed: false, answers: [] });
   };
 
@@ -160,6 +165,8 @@ export default function CountryQuiz({ kind, stats, answerMode, onAnswerModeChang
   const answered = answers.length > index;
 
   const answer = (correct, pickedIndex = null) => {
+    if (answeredUpTo.current >= index) return;
+    answeredUpTo.current = index;
     const nextAnswers = [...answers, { key: q.target.code, correct }];
     setRound({ ...round, picked: pickedIndex, revealed: true, answers: nextAnswers });
     if (index === questions.length - 1) {
