@@ -10,8 +10,8 @@
       "The Frank Worrell Trophy",
       "The Border-Gavaskar Trophy"
     ],
-    "explanation": "The urn dates from an 1882 mock obituary in the Sporting Times after Australia's first win on English soil, declaring English cricket dead and its ashes taken to Australia.",
-    "hook": "It began as a newspaper joke obituary for English cricket."
+    "explanation": "The name comes from a mock obituary in London's Sporting Times after Australia won at The Oval in 1882, saying English cricket had died and its ashes would go to Australia. The tiny urn itself stays at Lord's, and Australia won the 2025-26 series at home 4-1.",
+    "hook": "A joke death notice in a newspaper created cricket's oldest rivalry."
   },
   {
     "id": "spt_002",
@@ -24,8 +24,8 @@
       "The Golden Slipper",
       "The Caulfield Cup"
     ],
-    "explanation": "Run over 3,200 metres at Flemington on the first Tuesday in November, it is a public holiday in metropolitan Melbourne and has been run since 1861.",
-    "hook": "The only horse race anywhere that comes with its own public holiday."
+    "explanation": "Run over 3,200 metres at Flemington on the first Tuesday in November since 1861, it is a public holiday across most of Victoria. The Cox Plate is the weight-for-age championship and the Golden Slipper is the richest race for two-year-olds.",
+    "hook": "First Tuesday in November: the office sweep is Australia's biggest betting ritual."
   },
   {
     "id": "spt_003",
@@ -36,24 +36,24 @@
     "distractors": [
       "Fifteen",
       "Thirteen",
-      "Eleven"
+      "Sixteen"
     ],
-    "explanation": "Rugby union has fifteen, rugby league thirteen and soccer eleven; the eighteen-a-side oval game is played on the largest field of any football code.",
-    "hook": "Eighteen for Aussie rules, fifteen union, thirteen league, eleven soccer."
+    "explanation": "Each side also has four interchange players on the bench. Rugby union fields fifteen, rugby league thirteen and soccer eleven, and the oval used for Aussie rules is the largest playing field of any football code.",
+    "hook": "Eighteen for Aussie rules, fifteen union, thirteen league, eleven soccer: count down as the fields get smaller."
   },
   {
     "id": "spt_004",
     "category": "sports",
     "difficulty": "easy",
-    "question": "Which Australian won seven medals at the Tokyo Olympics, a national record?",
+    "question": "Which Australian swimmer won seven medals at the Tokyo Olympics, a national record for a single Games?",
     "answer": "Emma McKeon",
     "distractors": [
       "Ariarne Titmus",
       "Kaylee McKeown",
-      "Cate Campbell"
+      "Ian Thorpe"
     ],
-    "explanation": "Four of the seven were gold, the most by any Australian at a single Games; Ian Thorpe's five career golds came across Sydney and Athens.",
-    "hook": "Seven medals at one Games — no Australian has ever managed more."
+    "explanation": "Her four golds and three bronzes equalled the record for any woman at one Games, set by Soviet gymnast Maria Gorokhovskaya in 1952. After Paris 2024 she has 14 Olympic medals, six of them gold, the most by any Australian.",
+    "hook": "Seven in Tokyo, fourteen in her career: McKeon owns both Australian medal records."
   },
   {
     "id": "spt_005",
@@ -66,22 +66,22 @@
       "Every three years",
       "Every five years"
     ],
-    "explanation": "The four-year gap is called an Olympiad; the 2020 Tokyo Games were postponed to 2021 by the pandemic but kept their original name.",
-    "hook": "Tokyo 2020 was held in 2021 and still called 2020."
+    "explanation": "The four-year span is called an Olympiad. Since 1994 the Winter Games have been staggered two years apart from the Summer Games, and Tokyo 2020 was held in 2021 but kept its original name.",
+    "hook": "Olympiad is four years; staggering the Winter Games means there is an Olympics every two."
   },
   {
     "id": "spt_006",
     "category": "sports",
     "difficulty": "easy",
-    "question": "Which country has won the most FIFA World Cups?",
+    "question": "Which country has won the most FIFA men's World Cups?",
     "answer": "Brazil",
     "distractors": [
       "Germany",
       "Italy",
       "Argentina"
     ],
-    "explanation": "Brazil has five titles, Germany and Italy four each, and Brazil is the only nation to have played in every tournament since 1930.",
-    "hook": "Five titles, and the only country never to miss a World Cup."
+    "explanation": "Brazil has five titles (1958, 1962, 1970, 1994, 2002), Germany and Italy four each and Argentina three. Brazil is the only nation to have played at every tournament, and Spain won the 2026 final 1-0 over Argentina for its second title.",
+    "hook": "Five stars on the yellow shirt, one for each title."
   },
   {
     "id": "spt_007",
@@ -92,10 +92,10 @@
     "distractors": [
       "Nil",
       "Duck",
-      "Blank"
+      "Nought"
     ],
-    "explanation": "It probably comes from the French l'oeuf, the egg, for the zero's shape; 'duck' is the cricket equivalent, from duck's egg.",
-    "hook": "Tennis has an egg, cricket has a duck — both shapes of zero."
+    "explanation": "A popular theory links it to the French l'oeuf, 'the egg', for the shape of a zero, though some historians prefer 'playing for love' (for nothing). Cricket's equivalent, a duck, also comes from an egg.",
+    "hook": "Tennis has an egg and cricket has a duck's egg: both zeros are egg-shaped."
   },
   {
     "id": "spt_008",
@@ -106,10 +106,10 @@
     "distractors": [
       "The Sydney International",
       "The Brisbane International",
-      "The Hopman Cup"
+      "The Kooyong Classic"
     ],
-    "explanation": "Held in Melbourne each January, it joins Roland Garros, Wimbledon and the US Open; it moved to Melbourne Park with a retractable roof in 1988.",
-    "hook": "Australian Open, French Open, Wimbledon, US Open — January to September."
+    "explanation": "Held in Melbourne each January, it moved from grass at Kooyong to hard courts at Melbourne Park (then Flinders Park) in 1988. Carlos Alcaraz won the 2026 men's title to complete a career grand slam.",
+    "hook": "The year's first slam: Melbourne in January, then Paris, London and New York."
   },
   {
     "id": "spt_009",
@@ -120,10 +120,10 @@
     "distractors": [
       "Nine",
       "Twelve",
-      "Twenty-four"
+      "Twenty-two"
     ],
-    "explanation": "St Andrews settled on eighteen in 1764 by combining short holes, and the rest of the golfing world followed the Old Course's lead.",
-    "hook": "St Andrews merged some holes in 1764 and everyone else copied the number."
+    "explanation": "The Old Course at St Andrews cut its round from twenty-two holes to eighteen in 1764 by merging short ones, and the rest of the golfing world followed. Before that, courses had whatever number of holes the land allowed.",
+    "hook": "St Andrews went from 22 to 18 and everyone copied the number."
   },
   {
     "id": "spt_010",
@@ -136,8 +136,8 @@
       "Australian rules football",
       "Gaelic football"
     ],
-    "explanation": "Rugby league abolished the lineout and heavily simplified the scrum, which is one of the clearest ways to tell the codes apart on television.",
-    "hook": "No lineout means you are watching league, not union."
+    "explanation": "Rugby league has no lineout (the ball is restarted by a scrum or a tap) and replaces the ruck with the play-the-ball. That split dates to 1895, when the northern English clubs broke away to form what became league.",
+    "hook": "A throw-in from the sideline to jumpers means union; league never kept the lineout."
   },
   {
     "id": "spt_011",
@@ -148,10 +148,10 @@
     "distractors": [
       "Ricky Ponting",
       "Steve Smith",
-      "Greg Chappell"
+      "Victor Trumper"
     ],
-    "explanation": "His Test average of 99.94 stands far above anyone else's; he needed four runs in his final innings to average 100 and was dismissed for a duck.",
-    "hook": "Four runs short of a hundred average, out second ball, in his last innings."
+    "explanation": "His Test average of 99.94 is roughly forty runs higher than anyone else with a long career. He needed only four runs in his final innings in 1948 to average 100 and was bowled second ball for a duck by Eric Hollies.",
+    "hook": "99.94: four runs short of a hundred average, out second ball."
   },
   {
     "id": "spt_012",
@@ -160,12 +160,12 @@
     "question": "Which sport is played at Wimbledon?",
     "answer": "Tennis",
     "distractors": [
-      "Cricket",
+      "Croquet",
       "Badminton",
       "Squash"
     ],
-    "explanation": "The only grand slam still played on grass, it has been contested since 1877 and enforces an all-white clothing rule for players.",
-    "hook": "The last grass slam, and the only one with a dress code."
+    "explanation": "The All England Lawn Tennis and Croquet Club began as a croquet club and added tennis in 1875, holding the first championships in 1877. It is the only grand slam still played on grass and keeps a strict all-white dress code.",
+    "hook": "The club was a croquet club first, which is why croquet is still in its name."
   },
   {
     "id": "spt_013",
@@ -178,22 +178,22 @@
       "Six",
       "Three"
     ],
-    "explanation": "A conversion adds two, a penalty or drop goal three; rugby league scores four for a try and two for the conversion.",
-    "hook": "Union five, league four — the try is worth more in union."
+    "explanation": "A conversion adds two and a penalty goal or drop goal three. In rugby league a try is worth four, and union raised its try from four to five points in 1992.",
+    "hook": "Union five, league four: union bumped its try up in 1992."
   },
   {
     "id": "spt_014",
     "category": "sports",
     "difficulty": "easy",
-    "question": "Which Australian sporting event is contested annually between NSW and Queensland?",
+    "question": "Which rugby league series is contested each year between New South Wales and Queensland?",
     "answer": "State of Origin",
     "distractors": [
+      "The City v Country Origin",
       "The Sheffield Shield",
-      "The Grand Final",
-      "The Bledisloe Cup"
+      "The Interstate Challenge"
     ],
-    "explanation": "The rugby league series began in 1980, selecting players by the state where they played their first senior game rather than where they currently live.",
-    "hook": "You play for where you started, not where you live — that is the whole 'origin' idea."
+    "explanation": "It began in 1980 because Queensland-born stars playing in Sydney had been lining up against their home state. Players are picked for the state where they first played senior football, and the winning side holds the Origin Shield.",
+    "hook": "You play for where you started, not where you live: that is the whole 'origin' idea."
   },
   {
     "id": "spt_015",
@@ -204,9 +204,9 @@
     "distractors": [
       "Australia",
       "India",
-      "South Africa"
+      "The Netherlands"
     ],
-    "explanation": "It developed in south-east England by the sixteenth century, and the MCC at Lord's has held custody of the laws of the game since 1788.",
+    "explanation": "It grew up in south-east England by the sixteenth century, and the Marylebone Cricket Club, founded in 1787, still writes the Laws of Cricket at Lord's. The first international match, though, was the USA v Canada in 1844.",
     "hook": "The laws of cricket have lived at Lord's since 1788."
   },
   {
@@ -220,7 +220,7 @@
       "Seven",
       "Four"
     ],
-    "explanation": "James Naismith invented the game in 1891 using peach baskets, with teams of nine; the five-a-side format was standardised by 1897.",
+    "explanation": "James Naismith invented the game in 1891 using peach baskets, with nine a side in the first game. Five-a-side became standard by 1897, and the backboard was added to stop spectators on the balcony interfering with shots.",
     "hook": "It started nine-a-side with actual peach baskets nailed to a balcony."
   },
   {
@@ -232,9 +232,9 @@
     "distractors": [
       "Greg Norman",
       "Jason Day",
-      "Karrie Webb"
+      "Cameron Smith"
     ],
-    "explanation": "He became the first Australian to win at Augusta, beating Angel Cabrera in a play-off; Greg Norman finished runner-up there three times without winning.",
+    "explanation": "He beat Angel Cabrera in a play-off to become the first Australian to win at Augusta. Greg Norman was runner-up there three times, and Cameron Smith later won the 2022 Open Championship at St Andrews.",
     "hook": "Norman lost the Masters three times; Scott finally broke the drought in 2013."
   },
   {
@@ -248,8 +248,8 @@
       "A birdie",
       "A condor"
     ],
-    "explanation": "One under is a birdie, two under an eagle and four under a condor, which has been recorded only a handful of times in history.",
-    "hook": "Birdie, eagle, albatross, condor — the bird gets bigger as the score gets lower."
+    "explanation": "One under is a birdie, two under an eagle and four under a condor, which has been recorded only a handful of times. Americans often call the albatross a 'double eagle'.",
+    "hook": "Birdie, eagle, albatross, condor: the bird gets bigger as the score gets lower."
   },
   {
     "id": "spt_019",
@@ -262,8 +262,8 @@
       "Adelaide",
       "Perth"
     ],
-    "explanation": "It is contractually locked to the MCG until 2059; the only exceptions were 2020 in Brisbane and 2021 in Perth because of pandemic border closures.",
-    "hook": "Locked to the MCG until 2059 — only a pandemic has ever moved it."
+    "explanation": "The AFL has a contract to play it at the MCG until 2059. The only exceptions were 2020 at the Gabba in Brisbane and 2021 at Perth Stadium, both forced by pandemic lockdowns in Victoria.",
+    "hook": "Locked to the MCG until 2059; only a pandemic has ever moved it."
   },
   {
     "id": "spt_020",
@@ -274,24 +274,24 @@
     "distractors": [
       "Eighty minutes",
       "One hundred minutes",
-      "Sixty minutes"
+      "Seventy minutes"
     ],
-    "explanation": "Two halves of forty-five minutes; rugby union plays eighty and Australian rules four quarters of twenty minutes plus substantial time on.",
-    "hook": "Ninety soccer, eighty rugby, and Aussie rules has no fixed length at all."
+    "explanation": "Two halves of forty-five minutes, with thirty minutes of extra time in knockout games that are level. Rugby union and rugby league both play eighty minutes.",
+    "hook": "Ninety for soccer, eighty for both rugby codes."
   },
   {
     "id": "spt_021",
     "category": "sports",
     "difficulty": "easy",
-    "question": "Which Australian won seven world surfing titles?",
+    "question": "Which Australian surfer won six consecutive women's world titles from 1998 to 2003?",
     "answer": "Layne Beachley",
     "distractors": [
       "Stephanie Gilmore",
-      "Mark Richards",
+      "Pauline Menczer",
       "Wendy Botha"
     ],
-    "explanation": "She won six consecutively from 1998 and a seventh in 2006; Stephanie Gilmore later won eight, taking the outright record.",
-    "hook": "Beachley made seven, then Gilmore made eight — both Australian."
+    "explanation": "Beachley added a seventh title in 2006. Stephanie Gilmore later won a record eight, the last in 2022, and Molly Picklum became the next Australian champion in 2025.",
+    "hook": "Beachley six in a row, Gilmore eight in all: both from Australia."
   },
   {
     "id": "spt_022",
@@ -304,7 +304,7 @@
       "Six",
       "Seven"
     ],
-    "explanation": "They represent the five inhabited continents, and the six colours including the white background were chosen so that every national flag of 1913 contained at least one.",
+    "explanation": "Pierre de Coubertin designed it in 1913 to represent the five inhabited continents. The five ring colours plus the white background were chosen so that every national flag of the time contained at least one of them.",
     "hook": "The colours were picked so every nation's flag shared at least one."
   },
   {
@@ -318,8 +318,8 @@
       "Marathon running",
       "Rowing"
     ],
-    "explanation": "First run in 1903 to sell newspapers, the leader wears yellow because the organising paper L'Auto was printed on yellow newsprint.",
-    "hook": "The yellow jersey matches the newsprint the sponsoring paper was printed on."
+    "explanation": "It was first run in 1903 by the newspaper L'Auto to sell copies, and the leader wears yellow because the paper was printed on yellow newsprint. Tadej Pogačar won his fifth title in 2026.",
+    "hook": "The yellow jersey matches the newsprint of the paper that invented the race."
   },
   {
     "id": "spt_024",
@@ -328,11 +328,11 @@
     "question": "Which Australian horse won the 1930 Melbourne Cup and became a national icon?",
     "answer": "Phar Lap",
     "distractors": [
-      "Makybe Diva",
+      "Carbine",
       "Winx",
       "Kingston Town"
     ],
-    "explanation": "He died in California in 1932 in circumstances still debated; his hide is in Melbourne, his skeleton in New Zealand and his heart in Canberra.",
+    "explanation": "The New Zealand-bred gelding won the Cup as the shortest-priced favourite in its history, then died suddenly in California in 1932. His hide is in Melbourne Museum, his skeleton in Wellington and his heart in Canberra.",
     "hook": "His body is split between three museums in two countries."
   },
   {
@@ -343,25 +343,25 @@
     "answer": "A duck",
     "distractors": [
       "A love",
-      "A blank",
+      "A blob",
       "A nil"
     ],
-    "explanation": "From 'duck's egg' for the round zero; out first ball is a golden duck, and out first ball of the match is a diamond duck.",
-    "hook": "Golden duck first ball, diamond duck first ball of the innings."
+    "explanation": "The name comes from 'duck's egg', for the round shape of a zero. Out first ball faced is a golden duck, and out without facing a ball at all (usually run out) is a diamond duck.",
+    "hook": "Golden duck: first ball. Diamond duck: no ball faced at all."
   },
   {
     "id": "spt_026",
     "category": "sports",
     "difficulty": "easy",
-    "question": "Which country hosts the Formula One Monaco Grand Prix?",
-    "answer": "Monaco",
+    "question": "Which Formula One grand prix is run through the streets of Monte Carlo?",
+    "answer": "The Monaco Grand Prix",
     "distractors": [
-      "France",
-      "Italy",
-      "Switzerland"
+      "The Singapore Grand Prix",
+      "The Azerbaijan Grand Prix",
+      "The Las Vegas Grand Prix"
     ],
-    "explanation": "Run on public streets since 1929, it is the slowest circuit on the calendar and the hardest to overtake on, yet remains the most prestigious race.",
-    "hook": "The slowest, narrowest track on the calendar is also the one drivers most want to win."
+    "explanation": "First run in 1929, it is the slowest and tightest circuit on the calendar and nearly impossible to overtake on. Winning Monaco, the Indianapolis 500 and Le Mans 24 Hours is called motorsport's Triple Crown, and only Graham Hill has done it.",
+    "hook": "The slowest track on the calendar is the one every driver most wants to win."
   },
   {
     "id": "spt_027",
@@ -374,7 +374,7 @@
       "Five",
       "Eight"
     ],
-    "explanation": "Each has a designated position restricting where they may move, and only the goal shooter and goal attack may score.",
+    "explanation": "Each wears a bib marked with a position that limits where they may go, and only the goal shooter and goal attack may score. Super Netball has allowed two-point 'super shots' from the outer circle in the last five minutes of each quarter since 2020.",
     "hook": "Seven players, and only two of them are allowed to score."
   },
   {
@@ -388,8 +388,8 @@
       "Susie O'Neill",
       "Emma McKeon"
     ],
-    "explanation": "She won in 1956, 1960 and 1964, and was banned for ten years after allegedly taking a flag from a Tokyo palace, ending her career.",
-    "hook": "Three golds in a row, then banned for a decade over a flag."
+    "explanation": "She won in 1956, 1960 and 1964, the first swimmer to win the same event at three Games. Swimming officials then banned her for ten years, largely for marching in the Tokyo opening ceremony against orders, not only for the flag souvenir she took from outside the Emperor's palace; the ban was cut to four years, too late for 1968.",
+    "hook": "Three golds in a row, then a ban over a parade and a palace flag."
   },
   {
     "id": "spt_029",
@@ -400,10 +400,10 @@
     "distractors": [
       "A bat",
       "A paddle",
-      "A stick"
+      "A mallet"
     ],
-    "explanation": "Badminton and tennis use racquets, table tennis uses a paddle or bat, and cricket and baseball use bats; the badminton shuttlecock is the fastest projectile in any racquet sport.",
-    "hook": "The shuttlecock leaves the racquet faster than any other sporting projectile."
+    "explanation": "Badminton, tennis and squash use racquets, table tennis uses a bat (Americans say paddle), and croquet a mallet. A badminton smash has been clocked at over 500 km/h, the fastest projectile in any racquet sport.",
+    "hook": "The shuttlecock leaves the racquet faster than any other racquet-sport projectile."
   },
   {
     "id": "spt_030",
@@ -414,10 +414,10 @@
     "distractors": [
       "Twelve",
       "Fourteen",
-      "Nineteen"
+      "Eighteen"
     ],
-    "explanation": "They are tied at the top, with Collingwood on fifteen; Carlton's last came in 1995 and Essendon's in 2000, so neither has won this century.",
-    "hook": "Two clubs tied on sixteen, neither having won since 2000."
+    "explanation": "Collingwood joined them on sixteen with its 2023 flag. Carlton's last came in 1995 and Essendon's in 2000, while Brisbane Lions won back-to-back in 2024 and 2025.",
+    "hook": "Blues, Bombers and Magpies: three clubs all stuck on sixteen."
   },
   {
     "id": "spt_031",
@@ -430,7 +430,7 @@
       "Netball",
       "Handball"
     ],
-    "explanation": "The dunk was banned in US college basketball from 1967 to 1976, a rule widely believed to have been aimed at Kareem Abdul-Jabbar.",
+    "explanation": "US college basketball banned the dunk from 1967 to 1976, a rule widely believed to target the dominant Lew Alcindor, later Kareem Abdul-Jabbar. He became the NBA's all-time top scorer anyway, a record LeBron James broke in 2023.",
     "hook": "College basketball banned it for nine years to slow down one player."
   },
   {
@@ -444,7 +444,7 @@
       "John Newcombe",
       "Pat Rafter"
     ],
-    "explanation": "He is the only player to win the calendar-year grand slam twice, in 1962 and 1969; the Australian Open's main court is named after him.",
+    "explanation": "He is the only player to win the calendar-year grand slam twice, as an amateur in 1962 and as a professional in 1969. The Australian Open's main court is Rod Laver Arena, and the Laver Cup is named after him.",
     "hook": "The only person to win all four slams in one year, twice."
   },
   {
@@ -456,9 +456,9 @@
     "distractors": [
       "Fifteen",
       "Twenty-five",
-      "Thirty"
+      "Sixteen"
     ],
-    "explanation": "Time on is added for stoppages, so quarters typically run nearer thirty minutes; the clock stops whenever the ball is out of play.",
+    "explanation": "Time on is added whenever the ball is dead, so quarters usually run close to thirty minutes. In 2020 quarters were cut to sixteen minutes plus time on to squeeze the season in during COVID.",
     "hook": "Twenty minutes on paper, closer to thirty in reality."
   },
   {
@@ -472,7 +472,7 @@
       "Korea",
       "Thailand"
     ],
-    "explanation": "Jigoro Kano founded it in 1882; taekwondo is Korean, kung fu Chinese and muay thai Thai.",
+    "explanation": "Jigoro Kano founded it in 1882 from older jujutsu styles, and it became an Olympic sport at Tokyo in 1964. Taekwondo is Korean, kung fu Chinese and muay thai Thai.",
     "hook": "Judo and karate Japanese, taekwondo Korean, kung fu Chinese."
   },
   {
@@ -484,10 +484,10 @@
     "distractors": [
       "Green",
       "Polka dot",
-      "White"
+      "Pink"
     ],
-    "explanation": "Green marks the points leader, polka dot the best climber and white the best young rider under twenty-six.",
-    "hook": "Yellow overall, green sprints, polka dot mountains, white for the youngsters."
+    "explanation": "Green is for the points leader, polka dot for the best climber and white for the best young rider. Pink is the leader's colour at the Giro d'Italia, again the colour of its sponsoring newspaper.",
+    "hook": "Yellow in France, pink in Italy: each matches its newspaper's paper."
   },
   {
     "id": "spt_036",
@@ -500,8 +500,8 @@
       "Athens 2004",
       "Barcelona 1992"
     ],
-    "explanation": "Australia's Tatiana Grigorieva took silver behind Stacy Dragila of the United States; Emma George had held multiple world records through the 1990s.",
-    "hook": "Women's pole vault only entered the Olympics in 2000, and Australia took silver."
+    "explanation": "Stacy Dragila of the United States won and Australia's Tatiana Grigorieva took silver. Nina Kennedy then won Australia's first Olympic pole vault gold at Paris 2024.",
+    "hook": "Debut in Sydney with an Australian silver; gold for Nina Kennedy in Paris."
   },
   {
     "id": "spt_037",
@@ -514,7 +514,7 @@
       "Dennis Lillee",
       "Nathan Lyon"
     ],
-    "explanation": "His first ball in Ashes cricket, the so-called Ball of the Century to Mike Gatting in 1993, turned a foot and remains the sport's most replayed delivery.",
+    "explanation": "Only Muttiah Muralitharan (800) has more, and James Anderson retired just short on 704. Warne's first ball in Ashes cricket, the 'Ball of the Century' to Mike Gatting in 1993, spun sharply across him to hit off stump.",
     "hook": "One delivery in 1993 defined a twenty-year career."
   },
   {
@@ -528,8 +528,8 @@
       "Black Caviar",
       "Sunline"
     ],
-    "explanation": "No other horse has won three; Winx won thirty-three consecutive races but never contested the Cup, and Black Caviar was an unbeaten sprinter.",
-    "hook": "Three Cups is a record no horse has come close to since."
+    "explanation": "No other horse has won three Melbourne Cups. Glen Boss rode her each time, and a statue of her stands on the foreshore at Port Lincoln, where her owner's tuna business is based.",
+    "hook": "Her name is built from the first two letters of five women who worked at her owner's tuna company."
   },
   {
     "id": "spt_039",
@@ -542,8 +542,8 @@
       "Four",
       "Six"
     ],
-    "explanation": "Only Australia and England; South Africa joined in 1889, and the number now stands at twelve after Afghanistan and Ireland were admitted in 2017.",
-    "hook": "Test cricket began as a two-country sport and took over a century to reach ten."
+    "explanation": "Only Australia and England; South Africa joined in 1889. Afghanistan and Ireland became the eleventh and twelfth Test nations in 2017.",
+    "hook": "Test cricket began as a two-country sport and took 123 years to reach ten."
   },
   {
     "id": "spt_040",
@@ -554,24 +554,24 @@
     "distractors": [
       "Tyson Gay",
       "Yohan Blake",
-      "Justin Gatlin"
+      "Asafa Powell"
     ],
-    "explanation": "He ran 9.58 seconds in Berlin in 2009, a mark that has stood far longer than any previous 100m record in the electronic timing era.",
-    "hook": "9.58 in 2009, and nobody has been within a tenth of it since."
+    "explanation": "He ran 9.58 seconds at the 2009 World Championships in Berlin, a year after his 9.69 in Beijing. He also holds the 200m record of 19.19, set at the same championships.",
+    "hook": "9.58 and 19.19: both records set in Berlin within a week in 2009."
   },
   {
     "id": "spt_041",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian won the 1983 America's Cup for Australia II?",
+    "question": "Who skippered Australia II to victory in the 1983 America's Cup?",
     "answer": "John Bertrand",
     "distractors": [
       "Alan Bond",
       "Ben Lexcen",
-      "James Hardy"
+      "Iain Murray"
     ],
-    "explanation": "He skippered the boat, Alan Bond funded the syndicate and Ben Lexcen designed the winged keel; it ended the New York Yacht Club's 132-year hold on the trophy.",
-    "hook": "It ended the longest winning streak in the history of sport — 132 years."
+    "explanation": "Alan Bond funded the syndicate and Ben Lexcen designed its secret winged keel. The win ended the New York Yacht Club's 132-year hold on the Cup, and Prime Minister Bob Hawke said any boss who sacked a worker for not turning up that day was a bum.",
+    "hook": "Bond paid, Lexcen designed, Bertrand steered: three men, one keel."
   },
   {
     "id": "spt_042",
@@ -584,8 +584,8 @@
       "Five",
       "Eight"
     ],
-    "explanation": "The rule started at four tackles in 1966 and moved to six in 1972; it is the structural difference that makes league so much faster than union.",
-    "hook": "Six tackles then hand over — union has no such limit, which is why rucks matter."
+    "explanation": "Until 1967 possession was unlimited, and the NSW competition brought in four tackles partly because St George had strangled games on the way to eleven straight premierships. Four became six in Sydney in 1971.",
+    "hook": "Six tackles then hand over; union has no such limit, which is why rucks matter."
   },
   {
     "id": "spt_043",
@@ -598,7 +598,7 @@
       "Michael Rogers",
       "Stuart O'Grady"
     ],
-    "explanation": "He remains the only Australian to win it, taking the yellow jersey on the penultimate-day time trial after trailing throughout the final week.",
+    "explanation": "He is still the only Australian winner, taking the yellow jersey in the time trial on the second-last day. Richie Porte's best was third in 2020.",
     "hook": "He took the lead with one day to go, in the time trial."
   },
   {
@@ -610,10 +610,10 @@
     "distractors": [
       "The Tri Nations Trophy",
       "The Webb Ellis Cup",
-      "The Mandela Challenge Plate"
+      "The Hopetoun Cup"
     ],
-    "explanation": "Donated by a New Zealand Governor-General in 1931, New Zealand has held it almost continuously since 2003; the Webb Ellis Cup is the World Cup itself.",
-    "hook": "Australia last held it in 2002 — the longest drought in the fixture's history."
+    "explanation": "It was donated by New Zealand Governor-General Lord Bledisloe and first contested in 1932. New Zealand has held it every year since 2003, and the Webb Ellis Cup is the Rugby World Cup trophy.",
+    "hook": "Australia last held it in 2002, the longest drought in the fixture's history."
   },
   {
     "id": "spt_045",
@@ -626,8 +626,8 @@
       "Twenty-one",
       "Twenty-eight"
     ],
-    "explanation": "He won twenty-eight medals in all across four Games, including eight golds in Beijing in 2008, the most at a single Olympics.",
-    "hook": "Twenty-three golds, twenty-eight medals — more than most countries."
+    "explanation": "He won twenty-eight medals in all across four Games (2004-2016). His eight golds at Beijing 2008 beat Mark Spitz's seven from 1972 as the most at a single Games.",
+    "hook": "Twenty-three golds out of twenty-eight medals."
   },
   {
     "id": "spt_046",
@@ -638,10 +638,10 @@
     "distractors": [
       "Steve Waugh",
       "Michael Clarke",
-      "Allan Border"
+      "Pat Cummins"
     ],
-    "explanation": "Steve Waugh won the 1999 final and Michael Clarke the 2015 title on home soil, giving Australia five World Cups in total by 2015.",
-    "hook": "Waugh 1999, Ponting 2003 and 2007, Clarke 2015 — four captains, five titles with 1987."
+    "explanation": "Australia has won six men's ODI World Cups: Allan Border in 1987, Steve Waugh in 1999, Ponting twice, Michael Clarke in 2015 and Pat Cummins in 2023. Ponting is the only captain to win two.",
+    "hook": "Border, Waugh, Ponting, Ponting, Clarke, Cummins: only one name appears twice."
   },
   {
     "id": "spt_047",
@@ -654,8 +654,8 @@
       "The Gabba",
       "Adelaide Oval"
     ],
-    "explanation": "It seats about 100,000, hosted the 1956 Olympics and holds the traditional Boxing Day Test each year.",
-    "hook": "Olympic stadium, Test venue and Grand Final home — all one ground."
+    "explanation": "It holds about 100,000, was the main stadium of the 1956 Olympics and hosted the first Test match in 1877.",
+    "hook": "First Test, Olympic Games and every normal Grand Final: all at the G."
   },
   {
     "id": "spt_048",
@@ -668,22 +668,22 @@
       "Baseball",
       "Lacrosse"
     ],
-    "explanation": "First awarded in 1893, it is the oldest trophy competed for by professional athletes in North America, and every winning player's name is engraved on it.",
-    "hook": "Every winner's name goes on the trophy itself, which is why it keeps getting taller."
+    "explanation": "First awarded in 1893, it is the oldest trophy contested by professional athletes in North America. Winning players' names are engraved on it, and each member of the winning team gets a day with the cup.",
+    "hook": "Every winner's name goes on the trophy, and every winner gets to take it home for a day."
   },
   {
     "id": "spt_049",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian netball team competition is contested with New Zealand clubs' successor leagues?",
-    "answer": "Suncorp Super Netball",
+    "question": "Which national netball league replaced Australia's half of the trans-Tasman ANZ Championship in 2017?",
+    "answer": "Super Netball",
     "distractors": [
-      "The ANZ Championship",
+      "The Commonwealth Bank Trophy",
       "The Constellation Cup",
-      "The Netball World Cup"
+      "The ANZ Premiership"
     ],
-    "explanation": "The trans-Tasman ANZ Championship split in 2017 into Australia's Super Netball and New Zealand's ANZ Premiership; the Constellation Cup is the international series.",
-    "hook": "The trans-Tasman league split in two in 2017 — one competition became two."
+    "explanation": "When the ANZ Championship split, Australia started Super Netball and New Zealand the ANZ Premiership. The Constellation Cup is the annual Test series between the Diamonds and Silver Ferns, and Suncorp's naming rights ended after the 2026 season.",
+    "hook": "One trans-Tasman league became two in 2017: Super Netball here, ANZ Premiership there."
   },
   {
     "id": "spt_050",
@@ -696,50 +696,50 @@
       "Ten",
       "Eleven"
     ],
-    "explanation": "Nine fielders and nine batters, though the designated hitter rule allows one player to bat in place of the pitcher without fielding.",
+    "explanation": "Nine players field and nine bat in a fixed order. Since 2022 both Major League Baseball leagues use the designated hitter, who bats in place of the pitcher without fielding.",
     "hook": "Nine on the field, nine in the order, and the designated hitter breaks the symmetry."
   },
   {
     "id": "spt_051",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian lit the cauldron and then won the 400 metres in Sydney?",
+    "question": "Which Australian lit the Olympic cauldron and then won the 400 metres at the Sydney Games?",
     "answer": "Cathy Freeman",
     "distractors": [
       "Jane Saville",
       "Nova Peris",
       "Raelene Boyle"
     ],
-    "explanation": "The two moments were eleven days apart in the same stadium, and the race remains among the most watched broadcasts in Australian television history.",
-    "hook": "She lit the flame and won the race in the same stadium, eleven days apart."
+    "explanation": "She lit the cauldron on 15 September 2000 and won the 400m final on 25 September in the same stadium, wearing a full-body hooded suit. Raelene Boyle was one of the women who carried the torch into the stadium before her.",
+    "hook": "Lit the flame, then won the race ten days later in the same stadium."
   },
   {
     "id": "spt_052",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which boxing weight division is contested at over 90.7 kilograms?",
+    "question": "Which professional boxing division has no upper weight limit?",
     "answer": "Heavyweight",
     "distractors": [
       "Cruiserweight",
       "Light heavyweight",
-      "Middleweight"
+      "Super middleweight"
     ],
-    "explanation": "Cruiserweight sits just below at around 90.7 kilograms; heavyweight has no upper limit, which is why it produces the sport's biggest names.",
-    "hook": "Heavyweight is the only division with no ceiling."
+    "explanation": "Cruiserweight tops out at 200 pounds (90.7 kg), and heavyweight is everyone above it. Amateur and Olympic boxing use 'super heavyweight' for the unlimited class instead.",
+    "hook": "Heavyweight is the only professional division with no ceiling."
   },
   {
     "id": "spt_053",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian AFL player kicked over 1,300 career goals?",
+    "question": "Who holds the VFL/AFL record for the most career goals?",
     "answer": "Tony Lockett",
     "distractors": [
       "Gary Ablett Senior",
       "Jason Dunstall",
-      "Buddy Franklin"
+      "Gordon Coventry"
     ],
-    "explanation": "He finished on 1,360, passing Gordon Coventry's long-standing record in 1999; Buddy Franklin became only the sixth player to reach a thousand.",
-    "hook": "1,360 goals, and only six players in history have even reached a thousand."
+    "explanation": "Lockett kicked 1,360 goals for St Kilda and Sydney, passing Gordon Coventry's 1,299 in 1999. Lance 'Buddy' Franklin became only the sixth player to reach 1,000 goals, in 2022.",
+    "hook": "Plugger passed Coventry's 1,299 at the SCG, and the crowd invaded the ground."
   },
   {
     "id": "spt_054",
@@ -752,7 +752,7 @@
       "Sailing",
       "Polo"
     ],
-    "explanation": "Contested biennially between the United States and Europe, it uses matchplay rather than strokeplay and pays no prize money to the players.",
+    "explanation": "Held every two years between the United States and Europe, it uses match play and pays no prize money to players. Europe won the 2025 edition at Bethpage Black in New York.",
     "hook": "No prize money, and it produces more pressure than any major."
   },
   {
@@ -766,8 +766,8 @@
       "Twelve",
       "Twenty-two"
     ],
-    "explanation": "It was Australia's best Games at the time, with fifty-eight medals in total; Athens in 2004 delivered seventeen golds, the national record.",
-    "hook": "Sydney sixteen, Athens seventeen — the away Games actually edged the home ones."
+    "explanation": "The team won fifty-eight medals in all. Athens 2004 and Tokyo 2020 each produced seventeen golds, and Paris 2024 set the national record with eighteen.",
+    "hook": "Sydney sixteen, Athens and Tokyo seventeen, Paris eighteen: it keeps going up by one."
   },
   {
     "id": "spt_056",
@@ -780,22 +780,22 @@
       "A treble",
       "A maiden"
     ],
-    "explanation": "The term originated in cricket, where a bowler achieving it was presented with a hat; a maiden is an over with no runs scored.",
-    "hook": "The hat was literal — a bowler who did it was given one."
+    "explanation": "The term began in cricket when HH Stephenson was given a hat, bought from a collection, for doing it in 1858. Football and hockey later borrowed it for three goals by one player.",
+    "hook": "The hat was literal: a bowler who did it was given one."
   },
   {
     "id": "spt_057",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian swimmer broke the 400m freestyle world record aged fifteen in 1971?",
+    "question": "Which Australian teenager held every women's freestyle world record from 100m to 1500m at the same time in 1971-72?",
     "answer": "Shane Gould",
     "distractors": [
       "Dawn Fraser",
       "Lisa Curry",
       "Tracey Wickham"
     ],
-    "explanation": "She held every world record from 100 to 1500 metres freestyle simultaneously, then retired at sixteen after winning three golds in Munich.",
-    "hook": "She held every freestyle world record at once and retired at sixteen."
+    "explanation": "She completed the set in December 1971, three weeks after turning fifteen, and also held the 200m individual medley record. She won three golds at Munich 1972 and retired at sixteen.",
+    "hook": "Every freestyle world record at once, and retired at sixteen."
   },
   {
     "id": "spt_058",
@@ -808,22 +808,22 @@
       "Argentina",
       "Italy"
     ],
-    "explanation": "They hosted and beat Argentina 4-2 in the final; the two teams could not agree on a ball, so one was used in each half.",
+    "explanation": "Uruguay hosted and beat Argentina 4-2 in the final in Montevideo. The teams could not agree on a ball, so Argentina's was used in the first half and Uruguay's in the second.",
     "hook": "They played the two halves with different balls because neither side would give way."
   },
   {
     "id": "spt_059",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian rules football award is given to the best and fairest player of the season?",
+    "question": "Which award is given to the best and fairest player of the AFL home-and-away season?",
     "answer": "The Brownlow Medal",
     "distractors": [
       "The Norm Smith Medal",
       "The Coleman Medal",
       "The Leigh Matthews Trophy"
     ],
-    "explanation": "Umpires vote three, two and one after each match; the Norm Smith goes to the best on ground in the Grand Final and the Coleman to the leading goalkicker.",
-    "hook": "Brownlow season, Norm Smith Grand Final, Coleman goals."
+    "explanation": "Field umpires give three, two and one votes after each match. The Norm Smith goes to the best on ground in the Grand Final, the Coleman to the leading goalkicker and the Leigh Matthews Trophy to the players' own MVP.",
+    "hook": "Brownlow for the season, Norm Smith for the Grand Final, Coleman for goals."
   },
   {
     "id": "spt_060",
@@ -836,8 +836,8 @@
       "China",
       "Great Britain"
     ],
-    "explanation": "It has over a thousand summer golds, well clear of any other nation; the Soviet Union accumulated its total in far fewer Games before dissolving in 1991.",
-    "hook": "The Soviet Union's rate per Games was higher — it simply ran out of Games."
+    "explanation": "The US has more than 1,100 Summer golds, far ahead of anyone else. The Soviet Union won at a higher rate per Games but competed only from 1952 to 1988 before dissolving.",
+    "hook": "The Soviet Union's rate per Games was higher; it simply ran out of Games."
   },
   {
     "id": "spt_061",
@@ -847,10 +847,10 @@
     "answer": "Evonne Goolagong Cawley",
     "distractors": [
       "Margaret Court",
-      "Lesley Bowrey",
+      "Lesley Turner Bowrey",
       "Wendy Turnbull"
     ],
-    "explanation": "Her 1980 win made her the first mother to take the title in sixty-six years; Margaret Court holds the all-time record of twenty-four grand slam singles titles.",
+    "explanation": "Her 1980 win made her the first mother to take the title since 1914. The Wiradjuri woman from Barellan won seven grand slam singles titles, and Margaret Court holds the all-time record of twenty-four.",
     "hook": "First mother to win Wimbledon in sixty-six years."
   },
   {
@@ -864,8 +864,8 @@
       "Eight",
       "Twelve"
     ],
-    "explanation": "The heptathlon has seven and the pentathlon five; the decathlon is contested over two days and its winner is traditionally called the world's greatest athlete.",
-    "hook": "Deca ten, hepta seven, penta five — Greek numbers do the work."
+    "explanation": "It is run over two days: 100m, long jump, shot put, high jump and 400m on day one, then hurdles, discus, pole vault, javelin and 1500m. Women's multi-event is the seven-event heptathlon.",
+    "hook": "Deca ten, hepta seven, penta five: the Greek numbers do the work."
   },
   {
     "id": "spt_063",
@@ -878,8 +878,8 @@
       "Mark Webber",
       "Daniel Ricciardo"
     ],
-    "explanation": "Jack Brabham had won three titles in 1959, 1960 and 1966, the last in a car of his own construction, which no driver has done since.",
-    "hook": "Brabham won a title in a car bearing his own name — still unique."
+    "explanation": "Driving for Williams, he gave the team its first title. Jack Brabham won three (1959, 1960, 1966), and Oscar Piastri led the 2025 championship for fifteen rounds before finishing third.",
+    "hook": "Brabham three titles, Jones one, and Webber and Piastri both came close."
   },
   {
     "id": "spt_064",
@@ -892,8 +892,8 @@
       "One hundred metres",
       "Thirty-three metres"
     ],
-    "explanation": "Short-course world records are set in twenty-five metre pools and tracked separately, because extra turns make them significantly faster.",
-    "hook": "Short-course records are faster because turns are quicker than swimming."
+    "explanation": "Records are kept separately for 'short course' twenty-five metre pools, because the extra turns make times faster. Many older Australian pools were built to 55 yards (about 50.3 metres) for imperial distances.",
+    "hook": "Long course fifty, short course twenty-five, and short-course times are quicker."
   },
   {
     "id": "spt_065",
@@ -906,7 +906,7 @@
       "Australian rules football",
       "Field hockey"
     ],
-    "explanation": "Contested between the states since 1892, it is the traditional pathway to Test selection and is named for an English earl who funded it.",
+    "explanation": "Played between the states since 1892-93, it is named after the third Earl of Sheffield, who funded the trophy after touring Australia with an English side. From 1999 to 2008 it was called the Pura Cup for sponsorship.",
     "hook": "An English earl paid for the trophy that picks Australia's Test team."
   },
   {
@@ -920,35 +920,35 @@
       "South Korea",
       "Sweden"
     ],
-    "explanation": "China has won the overwhelming majority of Olympic table tennis golds since the sport's introduction in 1988, prompting rule changes intended to level the field.",
-    "hook": "The rules have been changed several times specifically to make it less one-sided."
+    "explanation": "China has won the large majority of Olympic table tennis golds since the sport arrived in 1988, including all five at Paris 2024. Bigger 40mm balls and eleven-point games were partly aimed at making the sport less one-sided.",
+    "hook": "The rules have been changed several times to make it less one-sided, and China keeps winning."
   },
   {
     "id": "spt_067",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian won the 2019 and 2022 Wimbledon-era world number one ranking in women's tennis?",
+    "question": "Which Australian retired as world number one in 2022, two months after winning the Australian Open?",
     "answer": "Ashleigh Barty",
     "distractors": [
       "Sam Stosur",
       "Jelena Dokic",
       "Daria Saville"
     ],
-    "explanation": "She won the French Open in 2019, Wimbledon in 2021 and the Australian Open in 2022, then retired at twenty-five while ranked number one.",
-    "hook": "She retired at twenty-five as world number one, months after winning at home."
+    "explanation": "She won the French Open in 2019, Wimbledon in 2021 and her home slam in January 2022, the first Australian to win it since Chris O'Neil in 1978. She had also played professional cricket in the Women's Big Bash League in between.",
+    "hook": "She retired at twenty-five as world number one, weeks after winning at home."
   },
   {
     "id": "spt_068",
     "category": "sports",
     "difficulty": "medium",
     "question": "In rowing, what is the coxswain's role?",
-    "answer": "To steer and direct the crew without rowing",
+    "answer": "To steer and call the race without rowing",
     "distractors": [
       "To set the stroke rate from the bow",
       "To row at the stern seat",
-      "To time the race from shore"
+      "To time the race from the shore"
     ],
-    "explanation": "The cox steers and calls the race while the stroke seat sets the rhythm; coxed and coxless events are scored as separate disciplines.",
+    "explanation": "The cox steers and calls instructions, while the stroke seat nearest the stern sets the rhythm the crew follows. Coxes must meet a minimum weight, carrying sandbags if they are too light.",
     "hook": "The cox is the only person in the boat facing forwards."
   },
   {
@@ -962,7 +962,7 @@
       "Perth",
       "Sydney"
     ],
-    "explanation": "Perth hosted in 1962, Melbourne in 2006 and the Gold Coast in 2018; the 1982 Games are remembered for the mechanical kangaroo mascot Matilda.",
+    "explanation": "Sydney hosted in 1938, Perth in 1962, Melbourne in 2006 and the Gold Coast in 2018. Brisbane's Games are remembered for Matilda, a giant winking mechanical kangaroo mascot.",
     "hook": "The winking mechanical kangaroo is the most enduring thing about those Games."
   },
   {
@@ -976,8 +976,8 @@
       "Eleven",
       "Nine"
     ],
-    "explanation": "Ten frames plus two bonus balls in the tenth produce a score of 300; the tenth frame allows three deliveries if the first two are strikes.",
-    "hook": "Ten frames but twelve strikes — the last frame gives you two extra balls."
+    "explanation": "A game has ten frames, but strikes in the tenth frame earn two bonus balls, so twelve in a row are needed for the maximum score of 300.",
+    "hook": "Ten frames but twelve strikes: the last frame gives you two extra balls."
   },
   {
     "id": "spt_071",
@@ -990,8 +990,8 @@
       "Gaelic football",
       "American football"
     ],
-    "explanation": "League shares the hooker but has no flanker and calls the fly-half a five-eighth, one of the code's clearest terminology differences.",
-    "hook": "Fly-half in union, five-eighth in league — same job, different name."
+    "explanation": "League also has a hooker but no flankers, and calls its equivalent of the fly-half the five-eighth (or stand-off in England). Union's flankers are the numbers six and seven.",
+    "hook": "Fly-half in union, five-eighth in league: same job, different name."
   },
   {
     "id": "spt_072",
@@ -1004,7 +1004,7 @@
       "Michael Clarke",
       "David Warner"
     ],
-    "explanation": "It stood as the highest individual Test score for six months until Brian Lara made 400 not out against England in 2004.",
+    "explanation": "It was then the highest Test score, made at the WACA in Perth, but lasted only six months before Brian Lara made 400 not out against England. It remains the Australian record.",
     "hook": "The record lasted six months before Lara took it back with 400."
   },
   {
@@ -1016,24 +1016,24 @@
     "distractors": [
       "Golf",
       "Sailing",
-      "Cycling"
+      "Squash"
     ],
-    "explanation": "Founded in 1900 as an international men's team competition; the women's equivalent is the Billie Jean King Cup, formerly the Fed Cup.",
-    "hook": "Davis Cup men, Billie Jean King Cup women — same idea, two trophies."
+    "explanation": "Founded in 1900 as a men's national team competition, it has been won by Australia twenty-eight times, second only to the USA. The women's equivalent, formerly the Fed Cup, is now the Billie Jean King Cup.",
+    "hook": "Davis Cup men, Billie Jean King Cup women: same idea, two trophies."
   },
   {
     "id": "spt_074",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian rugby league club has won the most premierships?",
+    "question": "As of 2026, which rugby league club has won the most NSWRL/NRL premierships?",
     "answer": "South Sydney Rabbitohs",
     "distractors": [
       "St George Dragons",
       "Sydney Roosters",
       "Brisbane Broncos"
     ],
-    "explanation": "Souths have twenty-one titles, most from the early decades; St George's eleven consecutive premierships from 1956 to 1966 remain unmatched in Australian sport.",
-    "hook": "Eleven premierships in a row by St George is the most dominant run in Australian sport."
+    "explanation": "Souths have twenty-one titles, most won before 1972, with the latest in 2014. St George's eleven straight premierships from 1956 to 1966 remain the longest run in Australian sport.",
+    "hook": "The Rabbitohs' twenty-one is the tally; St George's eleven in a row is the streak."
   },
   {
     "id": "spt_075",
@@ -1044,38 +1044,38 @@
     "distractors": [
       "Five",
       "Seven",
-      "Eight"
+      "Four"
     ],
-    "explanation": "Beach volleyball uses two per side; the libero is a defensive specialist in indoor volleyball who wears a different coloured shirt and cannot attack.",
+    "explanation": "Beach volleyball uses two per side. Indoor teams have a libero, a defensive specialist in a different-coloured shirt who cannot attack the ball above net height.",
     "hook": "Six indoors, two on the sand, and one of the six wears a different shirt."
   },
   {
     "id": "spt_076",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian bowler took a hat-trick in the 1994 Ashes at the MCG?",
+    "question": "Which Australian bowler took a hat-trick in the 1994 Boxing Day Ashes Test at the MCG?",
     "answer": "Shane Warne",
     "distractors": [
       "Glenn McGrath",
       "Craig McDermott",
-      "Merv Hughes"
+      "Damien Fleming"
     ],
-    "explanation": "He dismissed Phil DeFreitas, Darren Gough and Devon Malcolm on Boxing Day; it was the first Ashes hat-trick by an Australian since Hugh Trumble in 1904.",
+    "explanation": "He dismissed Phil DeFreitas, Darren Gough and Devon Malcolm, the first Ashes hat-trick by an Australian since Hugh Trumble, also at the MCG, in 1904. Damien Fleming had taken one on Test debut in Pakistan two months earlier.",
     "hook": "The first Australian Ashes hat-trick in ninety years."
   },
   {
     "id": "spt_077",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian won an Olympic gold medal in speed skating in 2002?",
+    "question": "Which Australian won an Olympic gold medal in short-track speed skating in 2002?",
     "answer": "Steven Bradbury",
     "distractors": [
       "Alisa Camplin",
       "Dale Begg-Smith",
       "Torah Bright"
     ],
-    "explanation": "He won the 1000m short track when every other finalist crashed on the last corner; Alisa Camplin won aerial skiing gold at the same Games days later.",
-    "hook": "Australia's first Winter gold came from being the last man standing, literally."
+    "explanation": "He won the 1000m at Salt Lake City when all four rivals crashed on the last corner, giving Australia and the Southern Hemisphere their first Winter gold. 'Doing a Bradbury' now means winning by staying upright while others fall.",
+    "hook": "'Doing a Bradbury': last man standing wins the gold."
   },
   {
     "id": "spt_078",
@@ -1086,10 +1086,10 @@
     "distractors": [
       "Matthew Hayden",
       "Don Bradman",
-      "Virender Sehwag"
+      "Mahela Jayawardene"
     ],
-    "explanation": "His 400 not out against England in Antigua in 2004 reclaimed the record he had lost to Matthew Hayden; he also holds the first-class record with 501 not out.",
-    "hook": "He holds both the Test record with 400 and the first-class record with 501."
+    "explanation": "His 400 not out against England in Antigua in 2004 reclaimed the record he had lost to Hayden's 380. He also holds the first-class record of 501 not out for Warwickshire in 1994.",
+    "hook": "He holds both records: 400 in Tests and 501 in first-class cricket."
   },
   {
     "id": "spt_079",
@@ -1102,49 +1102,49 @@
       "Five",
       "Seven"
     ],
-    "explanation": "Bobby Lewis managed it between 1902 and 1927 and Harry White between 1974 and 1979; Glen Boss won three consecutively aboard Makybe Diva.",
-    "hook": "Four Cups each for two jockeys fifty years apart, and nobody has reached five."
+    "explanation": "Bobby Lewis won four between 1902 and 1927 and Harry White four between 1974 and 1979. Bart Cummings trained a record twelve winners, earning the name 'Cups King'.",
+    "hook": "Four for two jockeys, but twelve for trainer Bart Cummings."
   },
   {
     "id": "spt_080",
     "category": "sports",
     "difficulty": "hard",
-    "question": "In which year did Australia first compete at the Olympic Games as a nation rather than as individuals?",
-    "answer": "1908",
+    "question": "Under what name did Australia and New Zealand compete jointly at the 1908 and 1912 Olympics?",
+    "answer": "Australasia",
     "distractors": [
-      "1896",
-      "1900",
-      "1920"
+      "Oceania",
+      "The Antipodes",
+      "ANZAC"
     ],
-    "explanation": "Edwin Flack competed in Athens in 1896 as an individual; from 1908 to 1912 Australia and New Zealand competed jointly as Australasia before separating.",
-    "hook": "For two Games Australia and New Zealand competed as one team called Australasia."
+    "explanation": "The combined team won rugby union gold in London in 1908, beating Cornwall, which represented Great Britain. At Stockholm in 1912 the Australasian men's 4x200m freestyle relay set a world record to win gold.",
+    "hook": "For two Games Australia and New Zealand were one team, and won rugby gold together."
   },
   {
     "id": "spt_081",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian tennis player won all four grand slams in 1970?",
+    "question": "Which Australian tennis player won all four grand slam singles titles in 1970?",
     "answer": "Margaret Court",
     "distractors": [
       "Evonne Goolagong Cawley",
-      "Rod Laver",
-      "Ken Rosewall"
+      "Kerry Melville",
+      "Lesley Turner Bowrey"
     ],
-    "explanation": "She is one of only three women to complete a calendar-year grand slam in singles, alongside Maureen Connolly and Steffi Graf.",
-    "hook": "Three women have done the calendar slam in singles, and she is the Australian."
+    "explanation": "She is one of three women to complete a calendar-year grand slam in singles, with Maureen Connolly (1953) and Steffi Graf (1988). Her twenty-four major singles titles remain the all-time record.",
+    "hook": "Three women have done the calendar slam in singles, and Court is the Australian."
   },
   {
     "id": "spt_082",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which sport's rules were codified at Rugby School and spread through the British Empire?",
+    "question": "Which sport's rules were codified at an English school and later named after it?",
     "answer": "Rugby football",
     "distractors": [
       "Association football",
       "Cricket",
       "Field hockey"
     ],
-    "explanation": "The story of William Webb Ellis picking up the ball in 1823 is almost certainly apocryphal, but the World Cup trophy is named after him regardless.",
+    "explanation": "Rugby School pupils wrote the first written rules in 1845. The story that William Webb Ellis picked up the ball and ran in 1823 is almost certainly invented, but the World Cup trophy is named after him anyway.",
     "hook": "The founding story is probably invented, and they named the World Cup after it anyway."
   },
   {
@@ -1156,10 +1156,10 @@
     "distractors": [
       "The Sydney Swans",
       "The Western Bulldogs",
-      "The Kangaroos"
+      "North Melbourne"
     ],
-    "explanation": "The Sydney Swans were not a merger but a relocation, having moved north from South Melbourne in 1982.",
-    "hook": "Brisbane is a merger; Sydney is a relocation — two different things."
+    "explanation": "The merged club first played in 1997, and North Melbourne had almost merged with Fitzroy instead. The Sydney Swans were a relocation, not a merger, moving from South Melbourne in 1982.",
+    "hook": "Brisbane is a merger; Sydney is a relocation, two different things."
   },
   {
     "id": "spt_084",
@@ -1170,10 +1170,10 @@
     "distractors": [
       "Underarm bowling",
       "The doosra",
-      "Leg theory spin"
+      "Reverse swing"
     ],
-    "explanation": "Fast bowling at the batsman's body with a packed leg-side field was designed to counter Bradman; it caused a diplomatic incident and the laws were later changed.",
-    "hook": "A cricket tactic that became a genuine diplomatic incident between two governments."
+    "explanation": "Captain Douglas Jardine had Harold Larwood bowl fast at the batsman's body with a packed leg-side field to curb Bradman, whose average fell to 56.57. The English called it 'fast leg theory', and the row reached both governments.",
+    "hook": "England called it 'leg theory'; Australia called it Bodyline, and the Australian name stuck."
   },
   {
     "id": "spt_085",
@@ -1186,8 +1186,8 @@
       "The Chappell-Hadlee dispute",
       "The Auckland walk-off"
     ],
-    "explanation": "Trevor Chappell bowled underarm on his captain and brother Greg's instruction; it was legal at the time and was banned in one-day cricket immediately afterwards.",
-    "hook": "It was entirely legal, which is precisely why the law was changed within days."
+    "explanation": "New Zealand needed six off the last ball at the MCG, so captain Greg Chappell told his brother Trevor to bowl underarm. It was legal at the time, but both prime ministers condemned it and underarm bowling was soon banned in limited-overs cricket.",
+    "hook": "Legal on the day, banned soon after: the law was changed because of one ball."
   },
   {
     "id": "spt_086",
@@ -1200,8 +1200,8 @@
       "Kieren Perkins",
       "Mack Horton"
     ],
-    "explanation": "Grant Hackett won the 1500m at both Games, and Kieren Perkins had won that event in 1992 and 1996 — four consecutive Olympic 1500m titles for Australia.",
-    "hook": "Perkins then Hackett gave Australia four straight Olympic 1500m titles."
+    "explanation": "Grant Hackett won the 1500m at both Games after Kieren Perkins won it in 1992 and 1996, four straight 1500m titles for Australia. Mack Horton won the 400m at Rio 2016.",
+    "hook": "Thorpe owned the 400, while Perkins and Hackett shared the 1500."
   },
   {
     "id": "spt_087",
@@ -1214,8 +1214,8 @@
       "South Africa",
       "England"
     ],
-    "explanation": "Australia won in 1991 and 1999, South Africa in 1995, 2007, 2019 and 2023; South Africa was excluded from the first two tournaments over apartheid.",
-    "hook": "South Africa missed the first two World Cups entirely and has since won four."
+    "explanation": "Australia won in 1991 and 1999. South Africa, excluded from the first two tournaments over apartheid, has since won four (1995, 2007, 2019, 2023), the record, and Australia hosts the 2027 tournament.",
+    "hook": "South Africa missed the first two World Cups and has since won the most."
   },
   {
     "id": "spt_088",
@@ -1226,52 +1226,52 @@
     "distractors": [
       "John Landy",
       "Ron Clarke",
-      "Percy Cerutty"
+      "Ralph Doubell"
     ],
-    "explanation": "He won by a record margin in world-record time and was never beaten over the mile or 1500m in his career; Percy Cerutty was his coach.",
-    "hook": "Never beaten over the mile or 1500m, ever, in his entire career."
+    "explanation": "He won by about 2.8 seconds, still the biggest margin in an Olympic 1500m final, in world-record time. He was never beaten over the mile or 1500m as a senior, and retired soon after, still in his early twenties.",
+    "hook": "Never beaten over the mile or 1500m, then walked away young."
   },
   {
     "id": "spt_089",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which golf tournament is played at the same course every year?",
+    "question": "Which golf major is played at the same course every year?",
     "answer": "The Masters",
     "distractors": [
       "The Open Championship",
       "The US Open",
       "The PGA Championship"
     ],
-    "explanation": "Augusta National has hosted it since 1934; the other three majors rotate venues, and the Open uses a fixed pool of links courses.",
-    "hook": "The only major with a permanent home."
+    "explanation": "Augusta National in Georgia has hosted it since 1934, and the winner receives a green jacket. The Open rotates around a set list of British links courses, and the US Open and PGA move around America.",
+    "hook": "The only major with a permanent home, and the only one with a jacket."
   },
   {
     "id": "spt_090",
     "category": "sports",
     "difficulty": "hard",
-    "question": "What is the highest number of Brownlow Medals won by any single player?",
+    "question": "As of 2026, what is the highest number of Brownlow Medals won by any single player?",
     "answer": "Three",
     "distractors": [
       "Two",
       "Four",
       "Five"
     ],
-    "explanation": "Haydn Bunton Senior, Dick Reynolds, Bob Skilton and Ian Stewart each won three; no player has managed a fourth in the medal's century of history.",
+    "explanation": "Haydn Bunton Senior, Dick Reynolds, Bob Skilton and Ian Stewart each won three. Lachie Neale has two, and Nick Daicos won his first in 2026 with a record forty-seven votes.",
     "hook": "Four players on three each, and nobody has ever won a fourth."
   },
   {
     "id": "spt_091",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian beat world record holder Matt Biondi in the 1988 200m freestyle?",
+    "question": "Which Australian won the 200m freestyle at the 1988 Seoul Olympics in world-record time?",
     "answer": "Duncan Armstrong",
     "distractors": [
       "Jon Sieben",
       "Neil Brooks",
       "Michael Klim"
     ],
-    "explanation": "Swimming from lane six, he drafted off Biondi's wash for most of the race and won in world record time in Seoul.",
-    "hook": "He beat the world record holder by surfing his wash from the next lane."
+    "explanation": "From lane six he swam in the wash of Matt Biondi, then beat a field including world record holder Michael Gross. His coach Laurie Lawrence's excited poolside interview became as famous as the race.",
+    "hook": "He surfed Biondi's wash, then beat the world record holder."
   },
   {
     "id": "spt_092",
@@ -1284,8 +1284,8 @@
       "Lionel Rose",
       "Kostya Tszyu"
     ],
-    "explanation": "Anthony Mundine, who fought later, was the one known as 'The Man'; Lionel Rose was the first Indigenous Australian world champion, taking the bantamweight title in 1968.",
-    "hook": "Fenech the Marrickville Mauler, Mundine 'The Man' — two nicknames people constantly swap."
+    "explanation": "Fenech won bantamweight, super bantamweight and featherweight titles in the 1980s. Lionel Rose was the first Aboriginal world champion, winning the bantamweight title in Tokyo in 1968.",
+    "hook": "Marrickville is in Sydney's inner west, where Fenech grew up."
   },
   {
     "id": "spt_093",
@@ -1296,10 +1296,10 @@
     "distractors": [
       "Fine leg",
       "Third man",
-      "Gully"
+      "Short leg"
     ],
-    "explanation": "It is rarely used in modern cricket now that keepers reliably stop the ball; fine leg and third man are behind square on either side.",
-    "hook": "A position so obsolete that seeing one used is itself the news."
+    "explanation": "It was common in the nineteenth century, before wicketkeepers wore proper gloves and stood close. Today it appears only in village cricket, and fine leg and third man are the deep positions either side of it.",
+    "hook": "A position so obsolete that seeing one used is itself news."
   },
   {
     "id": "spt_094",
@@ -1312,7 +1312,7 @@
       "Lleyton Hewitt",
       "Pat Rafter"
     ],
-    "explanation": "He climbed into the players' box to reach his family after beating Ivan Lendl, starting a tradition later copied by many champions.",
+    "explanation": "After beating Ivan Lendl in the final he climbed through the crowd to his family's box, a celebration later champions copied. Lleyton Hewitt, in 2002, is the only Australian man to win it since.",
     "hook": "He invented the climb into the players' box after winning."
   },
   {
@@ -1324,10 +1324,10 @@
     "distractors": [
       "One",
       "Two",
-      "Six"
+      "Four"
     ],
-    "explanation": "The United States has hosted four times with a fifth due in 2028, and Britain and France three each — France reaching three when Paris hosted in 2024.",
-    "hook": "Paris 2024 made it three countries; London is still the only city with three."
+    "explanation": "The United States has hosted four times (1904, 1932, 1984, 1996) with a fifth due in Los Angeles in 2028. Britain has hosted three and France reached three when Paris hosted in 2024.",
+    "hook": "Paris 2024 gave both London and Paris a third Games; LA joins them in 2028."
   },
   {
     "id": "spt_096",
@@ -1336,12 +1336,12 @@
     "question": "Which Australian sprinter stood on the podium during the Black Power salute at the 1968 Olympics?",
     "answer": "Peter Norman",
     "distractors": [
-      "Raelene Boyle",
       "Matt Shirvington",
-      "Patrick Johnson"
+      "Patrick Johnson",
+      "Ralph Doubell"
     ],
-    "explanation": "He won silver in 20.06 seconds and wore a human rights badge in support of Tommie Smith and John Carlos; his time stood as the Australian record for 56 years until Gout Gout ran 20.04 in December 2024.",
-    "hook": "The third man on that famous podium was Australian, and supporting the protest cost him his career."
+    "explanation": "He won 200m silver in 20.06 and wore a human rights badge in support of Tommie Smith and John Carlos. His time stood as the Australian record for 56 years until Gout Gout ran 20.04 in December 2024.",
+    "hook": "The third man on that podium was Australian, and Smith and Carlos carried his coffin."
   },
   {
     "id": "spt_097",
@@ -1354,50 +1354,50 @@
       "Athletics",
       "Sailing"
     ],
-    "explanation": "The Fédération Internationale de l'Automobile governs Formula One and rallying; cycling's body is the UCI, athletics' is World Athletics and sailing's is World Sailing.",
-    "hook": "FIA cars, UCI bikes, FINA swimming — the acronyms are all French in origin."
+    "explanation": "The Fédération Internationale de l'Automobile runs Formula One and the World Rally Championship. Cycling's body is the UCI (Union Cycliste Internationale), another French name, because Paris was the hub of early international sport.",
+    "hook": "FIA cars, UCI bikes: both French names from sport's early days in Paris."
   },
   {
     "id": "spt_098",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian cricketer captained the side in the 2018 ball-tampering incident in South Africa?",
+    "question": "Which Australian cricketer was captain during the 2018 ball-tampering incident in South Africa?",
     "answer": "Steve Smith",
     "distractors": [
       "Tim Paine",
       "Michael Clarke",
       "David Warner"
     ],
-    "explanation": "He and David Warner received twelve-month bans and Cameron Bancroft nine months; Tim Paine took over the captaincy immediately afterwards.",
-    "hook": "Two twelve-month bans and a captaincy change inside a week."
+    "explanation": "Smith and vice-captain David Warner were banned for twelve months and Cameron Bancroft, who used sandpaper on the ball, for nine. Tim Paine took over as Test captain for the rest of the tour.",
+    "hook": "Sandpaper in Cape Town: two twelve-month bans and a new captain in a week."
   },
   {
     "id": "spt_099",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian yacht race runs from Sydney on Boxing Day?",
+    "question": "Which Australian yacht race starts in Sydney Harbour on Boxing Day?",
     "answer": "The Sydney to Hobart",
     "distractors": [
       "The Brisbane to Gladstone",
       "The Melbourne to Osaka",
       "The Fremantle to Bali"
     ],
-    "explanation": "Run since 1945 over 628 nautical miles, the 1998 race killed six sailors when a violent storm struck the fleet in Bass Strait.",
-    "hook": "The 1998 race killed six sailors and rewrote offshore safety rules worldwide."
+    "explanation": "Run since 1945 over 628 nautical miles, it finishes in Hobart's Constitution Dock. In 1998 a storm in Bass Strait sank five boats and killed six sailors, prompting new safety rules.",
+    "hook": "The 1998 race killed six sailors and rewrote offshore safety rules."
   },
   {
     "id": "spt_100",
     "category": "sports",
     "difficulty": "hard",
     "question": "Which Australian was the first woman to win an Olympic marathon medal for the country?",
-    "answer": "Lisa Ondieki",
+    "answer": "Lisa Martin",
     "distractors": [
       "Kerryn McCann",
       "Benita Willis",
-      "Jess Trengove"
+      "Jess Stenson"
     ],
-    "explanation": "She took silver in Seoul in 1988 competing as Lisa Martin; Kerryn McCann won Commonwealth Games marathon golds in 2002 and 2006.",
-    "hook": "Silver in Seoul 1988 — Australia's only Olympic marathon medal by a woman."
+    "explanation": "She won silver at Seoul in 1988 and later raced as Lisa Ondieki after marrying Kenyan runner Yobes Ondieki. Kerryn McCann won the Commonwealth Games marathon in 2002 and 2006.",
+    "hook": "Silver in Seoul 1988, still Australia's only Olympic marathon medal by a woman."
   },
   {
     "id": "spt_101",
@@ -1410,35 +1410,35 @@
       "The grand final's best player",
       "The season's top try scorer"
     ],
-    "explanation": "Named for Dally Messenger, an early code-switching star; the Clive Churchill Medal goes to the best player in the grand final.",
+    "explanation": "It is named after Dally Messenger, who switched from union to league in 1907 and became the code's first star. The Clive Churchill Medal goes to the best player in the grand final.",
     "hook": "Dally M for the season, Clive Churchill for the grand final."
   },
   {
     "id": "spt_102",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian won an Olympic gold medal in the 1500m freestyle in 1992 and 1996?",
+    "question": "Which Australian won Olympic gold in the 1500m freestyle in 1992 and 1996?",
     "answer": "Kieren Perkins",
     "distractors": [
       "Grant Hackett",
       "Ian Thorpe",
-      "Duncan Armstrong"
+      "Daniel Kowalski"
     ],
-    "explanation": "His 1996 win came from lane eight after barely qualifying for the final, one of the most improbable title defences in Olympic swimming.",
+    "explanation": "In 1996 he scraped into the final as the slowest qualifier and swam from lane eight to win, beating fellow Australian Daniel Kowalski. He had set the world record in Barcelona in 1992.",
     "hook": "He defended the title from lane eight after scraping into the final."
   },
   {
     "id": "spt_103",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which country introduced the modern marathon distance of 42.195 kilometres?",
-    "answer": "The United Kingdom",
+    "question": "At which city's Olympics was the marathon first run over 42.195 kilometres?",
+    "answer": "London",
     "distractors": [
-      "Greece",
-      "France",
-      "The United States"
+      "Athens",
+      "Paris",
+      "Stockholm"
     ],
-    "explanation": "The 1908 London Olympics extended the course so it could start at Windsor Castle and finish before the royal box; the distance was standardised in 1921.",
+    "explanation": "In 1908 the course started at Windsor Castle and finished in front of the royal box at White City. The distance became the standard in 1921; before that, marathons were roughly forty kilometres.",
     "hook": "The odd distance exists so the race could finish in front of the royal box."
   },
   {
@@ -1452,7 +1452,7 @@
       "Makybe Diva",
       "Sunline"
     ],
-    "explanation": "She won four Cox Plates in a row; Black Caviar retired unbeaten after twenty-five starts, all at sprint distances.",
+    "explanation": "She won four Cox Plates in a row and twenty-five Group 1 races, a world record. Black Caviar retired unbeaten in twenty-five starts, all at sprint distances.",
     "hook": "Thirty-three in a row for Winx, twenty-five unbeaten for Black Caviar."
   },
   {
@@ -1466,22 +1466,22 @@
       "Speed skating",
       "Cross-country skiing"
     ],
-    "explanation": "A domestique sacrifices their own result to support the team leader; an echelon is a diagonal formation used to shelter from crosswinds.",
+    "explanation": "The peloton is the main bunch; a domestique is a rider who works for the team leader; an echelon is a diagonal line riders form to shelter from a crosswind.",
     "hook": "The domestique is a rider paid to lose so someone else can win."
   },
   {
     "id": "spt_106",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian AFL team entered the competition in 2012 as its eighteenth club?",
+    "question": "Which AFL team entered the competition in 2012 as its eighteenth club?",
     "answer": "Greater Western Sydney Giants",
     "distractors": [
       "Gold Coast Suns",
       "Port Adelaide",
       "Fremantle"
     ],
-    "explanation": "The Gold Coast Suns entered in 2011 as the seventeenth, and the two expansion clubs received significant draft concessions to build lists from scratch.",
-    "hook": "Gold Coast 2011, GWS 2012 — the last two clubs added."
+    "explanation": "The Gold Coast Suns joined in 2011 as the seventeenth, and both received draft concessions to build lists from scratch. The Tasmania Devils are due to join as the nineteenth club in 2028.",
+    "hook": "Gold Coast 2011, GWS 2012, Tasmania 2028."
   },
   {
     "id": "spt_107",
@@ -1494,22 +1494,22 @@
       "Balls bowled per wicket",
       "Wickets per match"
     ],
-    "explanation": "Average is runs per wicket and strike rate is balls per wicket; economy matters most in limited-overs cricket where containment can outweigh wicket-taking.",
+    "explanation": "A bowling average is runs per wicket and a strike rate is balls per wicket. Economy matters most in limited-overs cricket, where stopping runs can be worth more than taking wickets.",
     "hook": "Economy per over, average per wicket, strike rate in balls."
   },
   {
     "id": "spt_108",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian won Olympic gold in the men's 100m butterfly in 1984?",
+    "question": "Which Australian won Olympic gold in the men's 200m butterfly in 1984?",
     "answer": "Jon Sieben",
     "distractors": [
       "Duncan Armstrong",
       "Neil Brooks",
       "Michael Klim"
     ],
-    "explanation": "He came from fifth at the turn to beat world record holder Michael Gross in Los Angeles, taking almost two seconds off his personal best.",
-    "hook": "He improved his own best by nearly two seconds to win — in a final."
+    "explanation": "The seventeen-year-old beat West German favourite Michael Gross, who had already won the 100m butterfly, in a world-record 1:57.04, about four seconds faster than he had ever swum. He was nicknamed 'The Shrimp' because of his size.",
+    "hook": "'The Shrimp' beat 'The Albatross', Michael Gross, in Los Angeles."
   },
   {
     "id": "spt_109",
@@ -1522,21 +1522,21 @@
       "The United States",
       "Australia"
     ],
-    "explanation": "China has topped the Paralympic medal table at every Summer Games since 2004; Australia finished eighth in Tokyo with eighty medals.",
+    "explanation": "China has topped the Summer Paralympic medal table at every Games since Athens 2004, including Paris 2024. Australia won eighty medals in Tokyo, twenty-one of them gold, finishing eighth on the gold table.",
     "hook": "China has topped the Paralympic table at every Games since Athens."
   },
   {
     "id": "spt_110",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian golfer led the 1996 US Masters by six shots and lost?",
+    "question": "Which Australian golfer led the 1996 US Masters by six shots going into the last round and lost?",
     "answer": "Greg Norman",
     "distractors": [
       "Adam Scott",
       "Jason Day",
       "Craig Parry"
     ],
-    "explanation": "He shot 78 in the final round while Nick Faldo shot 67, a collapse that remains one of golf's most discussed final days.",
+    "explanation": "He shot 78 on the final day while Nick Faldo shot 67 to win by five. Norman finished second at Augusta three times and never won there.",
     "hook": "Six shots up on Sunday morning, five behind by Sunday night."
   },
   {
@@ -1550,8 +1550,8 @@
       "Four",
       "Eight"
     ],
-    "explanation": "She swept the 100m, 200m and sprint relay at both Edinburgh and Christchurch, and took three Olympic silvers, all behind East German sprinters later implicated in state doping.",
-    "hook": "Six Commonwealth golds, and three Olympic silvers behind a doping programme."
+    "explanation": "She won the 100m, 200m and sprint relay at both Edinburgh and Christchurch, then added the 400m in Brisbane in 1982. Her three Olympic silvers came behind Poland's Irena Szewińska in 1968 and East Germany's Renate Stecher twice in 1972.",
+    "hook": "Three events, two Games, six golds."
   },
   {
     "id": "spt_112",
@@ -1564,22 +1564,22 @@
       "American football",
       "Gaelic football"
     ],
-    "explanation": "Rugby league's world championship trophy is the Paul Barrière Trophy; Australia has won the league world cup twelve times, more than any other nation in any code.",
-    "hook": "Australia has twelve rugby league world cups — the most dominant record in any team sport."
+    "explanation": "It is the trophy for the men's Rugby World Cup, first awarded in 1987. Rugby league's World Cup trophy is the Paul Barrière Trophy, which Australia has won twelve times.",
+    "hook": "Webb Ellis for union, Paul Barrière for league."
   },
   {
     "id": "spt_113",
     "category": "sports",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which Australian cricket ground hosts the traditional Boxing Day Test?",
     "answer": "The Melbourne Cricket Ground",
     "distractors": [
       "The Sydney Cricket Ground",
-      "The Gabba",
-      "Adelaide Oval"
+      "Perth Stadium",
+      "Bellerive Oval"
     ],
-    "explanation": "The SCG traditionally holds the New Year Test that follows; crowds at the MCG on the first day regularly exceed 80,000.",
-    "hook": "Boxing Day in Melbourne, New Year in Sydney — the summer's fixed points."
+    "explanation": "The SCG hosts the New Year Test that follows. The first-day Boxing Day crowd of 91,112 in 2013 was a Test cricket record.",
+    "hook": "Boxing Day in Melbourne, New Year in Sydney: the summer's fixed points."
   },
   {
     "id": "spt_114",
@@ -1590,24 +1590,24 @@
     "distractors": [
       "Australia",
       "The United States",
-      "Denmark"
+      "Norway"
     ],
-    "explanation": "Britain has topped the Olympic sailing medal table at several recent Games; Australia's most successful sailors include Tom Burton and the 470 crews.",
-    "hook": "The island nation that invented yacht racing still leads the medal table."
+    "explanation": "Britain has about sixty-five sailing medals, more than thirty of them gold, just ahead of the United States. Ben Ainslie won five medals in a row (four gold), and Australia's Matt Wearn won back-to-back golds in the ILCA 7 dinghy in 2021 and 2024.",
+    "hook": "Ben Ainslie alone won four golds for the nation that invented yacht racing."
   },
   {
     "id": "spt_115",
     "category": "sports",
-    "difficulty": "hard",
-    "question": "In tennis, what is the tiebreak score required to win a standard set tiebreak?",
+    "difficulty": "medium",
+    "question": "In tennis, what score wins a standard set tiebreak?",
     "answer": "Seven points with a margin of two",
     "distractors": [
       "Six points with a margin of two",
       "Ten points with a margin of two",
       "Five points outright"
     ],
-    "explanation": "Final-set rules varied for decades until the four slams standardised on a ten-point tiebreak at six games all in 2022.",
-    "hook": "The four slams only agreed on a single final-set rule in 2022."
+    "explanation": "Final sets were handled differently at each slam for decades, until all four agreed in 2022 to play a first-to-ten tiebreak at six games all. Wimbledon's 2010 Isner-Mahut match lasted over eleven hours because it had no tiebreak.",
+    "hook": "Seven normally, ten in a deciding set at the slams since 2022."
   },
   {
     "id": "spt_116",
@@ -1618,10 +1618,10 @@
     "distractors": [
       "Alan Jones",
       "Mark Webber",
-      "Larry Perkins"
+      "Tim Schenken"
     ],
-    "explanation": "His 1966 title came in a car built by his own team, making him the only driver ever to win a world championship in a car bearing his own name.",
-    "hook": "The only champion to beat everyone in a car with his own name on it."
+    "explanation": "His 1966 title came in a car built by his own Brabham team, which no driver has matched. He was knighted in 1979 for services to motor sport.",
+    "hook": "The only champion to win in a car with his own name on it."
   },
   {
     "id": "spt_117",
@@ -1634,36 +1634,36 @@
       "The Hundred",
       "List A cricket"
     ],
-    "explanation": "Designed to fit an evening, it produced the Indian Premier League in 2008, now the wealthiest cricket competition in the world by a wide margin.",
-    "hook": "Invented to fill English evenings, and it made Indian cricket the richest in the world."
+    "explanation": "English counties started it to draw after-work crowds, and it led to the Indian Premier League in 2008. India won the 2026 men's T20 World Cup, becoming the first team to win it three times.",
+    "hook": "Invented to fill English summer evenings, and it made Indian cricket the richest in the world."
   },
   {
     "id": "spt_118",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Who was the first Indigenous Australian to represent the country in any sport?",
+    "question": "Who in 1958 became the first Aboriginal woman to represent Australia in any sport, playing cricket?",
     "answer": "Faith Thomas",
     "distractors": [
-      "Lionel Rose",
       "Evonne Goolagong Cawley",
-      "Jason Gillespie"
+      "Nova Peris",
+      "Cathy Freeman"
     ],
-    "explanation": "She played cricket for Australia in 1958; Lionel Rose became world bantamweight boxing champion in 1968 and was named Australian of the Year for it.",
-    "hook": "A fast bowler in 1958, a decade before Lionel Rose won his world title."
+    "explanation": "She was a fast bowler who played one Test against England in Melbourne, and was also a nurse. Nova Peris became the first Aboriginal Australian Olympic gold medallist, with the women's hockey team in 1996.",
+    "hook": "A fast bowler in 1958, a decade before Lionel Rose's world title."
   },
   {
     "id": "spt_119",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian AFL competition began a national women's league in 2017?",
+    "question": "Which Australian women's competition played its first season in 2017 with eight clubs?",
     "answer": "AFL Women's",
     "distractors": [
       "The W-League",
-      "Super Netball",
-      "The WBBL"
+      "The WBBL",
+      "The WNBL"
     ],
-    "explanation": "AFLW launched in 2017 with eight clubs; the Women's Big Bash League in cricket had begun in 2015 and the W-League in soccer in 2008.",
-    "hook": "W-League 2008, WBBL 2015, AFLW 2017 — the order Australian women's leagues arrived."
+    "explanation": "AFLW's first match drew a sell-out crowd at Princes Park. The W-League (now A-League Women) began in 2008, the Women's Big Bash League in 2015 and the WNBL basketball league in 1981.",
+    "hook": "WNBL 1981, W-League 2008, WBBL 2015, AFLW 2017: the order Australian women's leagues arrived."
   },
   {
     "id": "spt_120",
@@ -1676,50 +1676,50 @@
       "New Zealand",
       "India"
     ],
-    "explanation": "It was held two years before the first men's tournament; Australia has since won the competition more times than any other nation.",
-    "hook": "The women's World Cup predates the men's by two years."
+    "explanation": "It was played two years before the first men's World Cup. Australia has won the most titles, seven, and India won its first in 2025.",
+    "hook": "The women's World Cup is two years older than the men's."
   },
   {
     "id": "spt_121",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian holds the record for the most Test wickets by a spin bowler after Muttiah Muralitharan?",
-    "answer": "Shane Warne",
+    "question": "Which Australian became the eighth bowler to take 500 Test wickets, reaching the mark against Pakistan in Perth in 2023?",
+    "answer": "Nathan Lyon",
     "distractors": [
-      "Nathan Lyon",
-      "Clarrie Grimmett",
-      "Stuart MacGill"
+      "Mitchell Starc",
+      "Josh Hazlewood",
+      "Pat Cummins"
     ],
-    "explanation": "Muralitharan finished with 800 and Warne 708; Nathan Lyon has become Australia's most successful off-spinner and passed 500.",
-    "hook": "800 for Murali, 708 for Warne, and Lyon past 500 — the spin ladder."
+    "explanation": "The off-spinner joined Shane Warne and Glenn McGrath as the only Australians past 500. He had passed 560 by 2026, the most by any off-spinner except Muttiah Muralitharan.",
+    "hook": "Warne, McGrath, then Lyon: Australia's three 500-wicket bowlers."
   },
   {
     "id": "spt_122",
     "category": "sports",
     "difficulty": "hard",
-    "question": "In which sport did Australia win its first Olympic gold medal at a Winter Games?",
-    "answer": "Short track speed skating",
+    "question": "Which team is due to join the AFL in 2028 as its nineteenth club?",
+    "answer": "The Tasmania Devils",
     "distractors": [
-      "Aerial skiing",
-      "Snowboarding",
-      "Moguls"
+      "The Tasmania Tigers",
+      "The Northern Territory Thunder",
+      "The Canberra Kangaroos"
     ],
-    "explanation": "Steven Bradbury's 2002 win in the 1000m came days before Alisa Camplin's aerial skiing gold at the same Games.",
-    "hook": "Two Australian Winter golds within a week, after a century of none."
+    "explanation": "Tasmania was granted a licence in 2023 on condition that a new stadium is built at Macquarie Point in Hobart. It will be the first new AFL club since Greater Western Sydney joined in 2012.",
+    "hook": "The Devils in 2028 will be the first AFL club based outside a mainland state."
   },
   {
     "id": "spt_123",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which international football tournament did Australia first qualify for in 1974 before a thirty-two-year absence?",
+    "question": "Which tournament did the Socceroos first qualify for in 1974 before a thirty-two-year absence?",
     "answer": "The FIFA World Cup",
     "distractors": [
       "The Asian Cup",
       "The Confederations Cup",
-      "The Olympic Games"
+      "The Olympic football tournament"
     ],
-    "explanation": "The Socceroos next qualified in 2006 after beating Uruguay on penalties, and Australia moved from the Oceania to the Asian confederation the same year.",
-    "hook": "One appearance in 1974, then nothing until a penalty shootout in 2005."
+    "explanation": "They qualified again for 2006 by beating Uruguay on penalties in Sydney in November 2005, and moved from the Oceania to the Asian confederation the same year. At the 2026 World Cup they reached the round of 32 before losing to Egypt on penalties.",
+    "hook": "One World Cup in 1974, then nothing until a penalty shootout in 2005."
   },
   {
     "id": "spt_124",
@@ -1732,8 +1732,8 @@
       "Lleyton Hewitt",
       "Mark Philippoussis"
     ],
-    "explanation": "Lleyton Hewitt won the US Open in 2001 and Wimbledon in 2002, and was the youngest man to reach world number one at twenty.",
-    "hook": "Rafter took two US Opens; Hewitt took the third Australian one in 2001."
+    "explanation": "He beat fellow Australian Mark Philippoussis in the 1998 final. Lleyton Hewitt won the US Open in 2001 and was then the youngest man to reach world number one, at twenty, until Carlos Alcaraz in 2022.",
+    "hook": "Rafter two US Opens, Hewitt one: three Australian titles in five years."
   },
   {
     "id": "spt_125",
@@ -1746,7 +1746,7 @@
       "Sport Australia",
       "The Olympic Winter Institute"
     ],
-    "explanation": "Australia won no gold at the 1976 Montreal Games, prompting its creation; the model has since been copied by Britain, Canada and others.",
+    "explanation": "Australia won no gold at Montreal in 1976, only one silver and four bronzes, which led to it. The AIS model was later copied by Britain, whose 'UK Sport' funding lifted it up the medal table.",
     "hook": "Zero golds in Montreal produced the institute that fixed it."
   },
   {
@@ -1760,49 +1760,49 @@
       "Ten",
       "Twelve"
     ],
-    "explanation": "Eleven per side, with a twelfth man permitted to field as a substitute but not to bat, bowl or keep wicket in the traditional laws.",
-    "hook": "The twelfth man can field and carry drinks, and nothing else."
+    "explanation": "A twelfth man may field as a substitute but traditionally cannot bat or bowl. Since 2019 international cricket has allowed concussion substitutes who can.",
+    "hook": "The twelfth man carries the drinks and, unless concussion strikes, never bats."
   },
   {
     "id": "spt_127",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which Australian won the Wimbledon women's doubles and reached the 2011 US Open final?",
+    "question": "Which Australian beat Serena Williams in the 2011 US Open women's singles final?",
     "answer": "Sam Stosur",
     "distractors": [
       "Ashleigh Barty",
       "Jelena Dokic",
       "Alicia Molik"
     ],
-    "explanation": "She won the 2011 US Open singles title, beating Serena Williams in straight sets, and was a former doubles world number one.",
-    "hook": "She beat Serena Williams in a US Open final in straight sets."
+    "explanation": "She won in straight sets, the first Australian woman to win a slam singles title since Evonne Goolagong Cawley in 1980. Before that she had been doubles world number one.",
+    "hook": "Straight sets against Serena, ending a thirty-one-year wait."
   },
   {
     "id": "spt_128",
     "category": "sports",
     "difficulty": "medium",
-    "question": "In which sport do teams compete for the Sheffield Shield's one-day equivalent?",
-    "answer": "Cricket",
+    "question": "Which trophy do Australia and India contest in Test cricket?",
+    "answer": "The Border-Gavaskar Trophy",
     "distractors": [
-      "Hockey",
-      "Baseball",
-      "Softball"
+      "The Chappell-Hadlee Trophy",
+      "The Frank Worrell Trophy",
+      "The Warne-Muralitharan Trophy"
     ],
-    "explanation": "The domestic one-day competition has run under many sponsor names since 1969; the Shield remains the four-day first-class competition.",
-    "hook": "Shield for the long form, and the one-day cup keeps changing its name."
+    "explanation": "It is named after Allan Border and Sunil Gavaskar, the first two men to score 10,000 Test runs. Australia won the 2024-25 series 3-1, its first series win in the rivalry since 2014-15.",
+    "hook": "Border and Gavaskar: the first two batsmen to 10,000 Test runs."
   },
   {
     "id": "spt_129",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian won an Olympic gold medal in the women's 400m freestyle in 2021?",
+    "question": "Which Australian won the women's 400m freestyle at both the Tokyo and Paris Olympics?",
     "answer": "Ariarne Titmus",
     "distractors": [
       "Emma McKeon",
       "Kaylee McKeown",
-      "Cate Campbell"
+      "Mollie O'Callaghan"
     ],
-    "explanation": "She beat Katie Ledecky, who had been unbeaten in major finals over the distance for years; her coach's reaction became one of the Games' defining images.",
+    "explanation": "She beat Katie Ledecky both times, and her coach Dean Boxall's wild celebration in Tokyo became a famous image. She retired in October 2025 aged twenty-five with four Olympic golds.",
     "hook": "Her coach's celebration got more airtime than the race."
   },
   {
@@ -1816,7 +1816,357 @@
       "A centre circle",
       "A goal square"
     ],
-    "explanation": "The diamond with 45-metre sides limited how many players could contest the bounce; it was replaced by the centre square in 1975, which is the marking still used.",
-    "hook": "Diamond first in 1973, square from 1975 — the square everyone pictures came second."
+    "explanation": "The diamond had forty-five metre sides and allowed only four players from each team inside at a bounce, to reduce congestion. It became the centre square in 1975, which grew to fifty metres in 2004.",
+    "hook": "Diamond first in 1973, square from 1975: the square everyone pictures came second."
+  },
+  {
+    "id": "spt_131",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian city will host the 2032 Summer Olympics?",
+    "answer": "Brisbane",
+    "distractors": [
+      "Melbourne",
+      "Perth",
+      "Adelaide"
+    ],
+    "explanation": "It will be Australia's third Summer Games, after Melbourne 1956 and Sydney 2000. Brisbane was chosen in 2021 as the first host picked under the IOC's new process without a competing vote.",
+    "hook": "Melbourne 1956, Sydney 2000, Brisbane 2032: one every generation or so."
+  },
+  {
+    "id": "spt_132",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In snooker, how many points is the black ball worth?",
+    "answer": "Seven",
+    "distractors": [
+      "Five",
+      "Six",
+      "Ten"
+    ],
+    "explanation": "The colours run yellow two, green three, brown four, blue five, pink six and black seven, with reds worth one. Potting a red then the black fifteen times, then all the colours, gives the maximum break of 147.",
+    "hook": "Black is last and biggest: seven points, and the key to a 147."
+  },
+  {
+    "id": "spt_133",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What was the result of the 2025-26 Ashes series in Australia?",
+    "answer": "Australia won 4-1",
+    "distractors": [
+      "Australia won 5-0",
+      "Australia won 3-1",
+      "The series was drawn 2-2"
+    ],
+    "explanation": "Australia won the first three Tests to retain the urn, then England won in Melbourne to end a run of eighteen Ashes Tests in Australia without a win. Mitchell Starc was player of the series with thirty-one wickets.",
+    "hook": "England's only win was at the MCG, its first Test win in Australia for fourteen years."
+  },
+  {
+    "id": "spt_134",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which sport does Australia's national women's team, the Diamonds, play?",
+    "answer": "Netball",
+    "distractors": [
+      "Basketball",
+      "Field hockey",
+      "Softball"
+    ],
+    "explanation": "The Diamonds have won the Netball World Cup twelve times, the most of any nation. The Opals play basketball, the Hockeyroos hockey and the Aussie Spirit softball.",
+    "hook": "Diamonds netball, Opals basketball, Hockeyroos hockey: the gems and the roos."
+  },
+  {
+    "id": "spt_135",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country won the 2026 FIFA men's World Cup?",
+    "answer": "Spain",
+    "distractors": [
+      "Argentina",
+      "France",
+      "England"
+    ],
+    "explanation": "Spain beat defending champions Argentina 1-0 after extra time in New Jersey, with Ferran Torres scoring in the 106th minute. It was Spain's second title after 2010, and the first 48-team World Cup.",
+    "hook": "Spain 2010 and 2026: both finals won 1-0 in extra time."
+  },
+  {
+    "id": "spt_136",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which rider won the 2026 Tour de France, his fifth title?",
+    "answer": "Tadej Pogačar",
+    "distractors": [
+      "Jonas Vingegaard",
+      "Remco Evenepoel",
+      "Primož Roglič"
+    ],
+    "explanation": "The Slovenian won by more than six minutes from Remco Evenepoel. That drew him level with the record of five held by Jacques Anquetil, Eddy Merckx, Bernard Hinault and Miguel Indurain.",
+    "hook": "Five yellow jerseys puts Pogačar level with the Tour's all-time greats."
+  },
+  {
+    "id": "spt_137",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country co-hosted the 2023 FIFA Women's World Cup with Australia?",
+    "answer": "New Zealand",
+    "distractors": [
+      "Japan",
+      "Fiji",
+      "Papua New Guinea"
+    ],
+    "explanation": "The Matildas reached the semi-finals for the first time and finished fourth. Their semi-final loss to England became the most-watched TV broadcast in Australian history.",
+    "hook": "The Matildas' best World Cup came at home, shared across the Tasman."
+  },
+  {
+    "id": "spt_138",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which sport would you see a 'googly'?",
+    "answer": "Cricket",
+    "distractors": [
+      "Baseball",
+      "Lawn bowls",
+      "Golf"
+    ],
+    "explanation": "It is a leg-spinner's ball that turns the opposite way to normal, invented by Englishman Bernard Bosanquet around 1900. Australians also call it a 'wrong'un' or a 'bosie' after him.",
+    "hook": "A googly is a 'wrong'un': the leg-spinner's ball that spins the wrong way."
+  },
+  {
+    "id": "spt_139",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many points is a goal worth in Australian rules football?",
+    "answer": "Six",
+    "distractors": [
+      "Three",
+      "Four",
+      "One"
+    ],
+    "explanation": "A behind, kicked between a goal post and a behind post or touched, scores one. Scores are written goals.behinds.total, so 12.10 (82) means twelve goals and ten behinds.",
+    "hook": "Six through the big sticks, one through the little ones."
+  },
+  {
+    "id": "spt_140",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club won the 2025 AFL premiership, beating Geelong in the Grand Final?",
+    "answer": "Brisbane Lions",
+    "distractors": [
+      "Collingwood",
+      "Hawthorn",
+      "Adelaide"
+    ],
+    "explanation": "They won by forty-seven points for back-to-back flags, their fifth premiership after the 2001-03 hat-trick. Will Ashcroft won the Norm Smith Medal.",
+    "hook": "Lions three-peat 2001-03, then back-to-back 2024-25."
+  },
+  {
+    "id": "spt_141",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club won the 2025 NRL premiership, beating Melbourne Storm 26-22?",
+    "answer": "Brisbane Broncos",
+    "distractors": [
+      "Penrith Panthers",
+      "Canterbury-Bankstown Bulldogs",
+      "Cronulla-Sutherland Sharks"
+    ],
+    "explanation": "It was the Broncos' first title since 2006, won from ten points down at half-time. Fullback Reece Walsh won the Clive Churchill Medal, and the win ended Penrith's run of four straight premierships from 2021 to 2024.",
+    "hook": "Brisbane's premiership double in 2025: Lions in the AFL, Broncos in the NRL."
+  },
+  {
+    "id": "spt_142",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which teenage sprinter broke Peter Norman's 56-year-old Australian 200m record in December 2024?",
+    "answer": "Gout Gout",
+    "distractors": [
+      "Rohan Browning",
+      "Lachlan Kennedy",
+      "Jake Doran"
+    ],
+    "explanation": "He ran 20.04 at the Australian All Schools, beating Norman's 20.06 from the 1968 Olympics. In April 2026 he ran 19.67, a world under-20 record.",
+    "hook": "Gout Gout beat Peter Norman's 20.06, then went under twenty seconds."
+  },
+  {
+    "id": "spt_143",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who in 2025 became the second female jockey to win the Melbourne Cup, riding Half Yours?",
+    "answer": "Jamie Melham",
+    "distractors": [
+      "Michelle Payne",
+      "Rachel King",
+      "Jamie Kah"
+    ],
+    "explanation": "Michelle Payne was the first, on 100-to-1 shot Prince of Penzance in 2015. Melham had also won the 2024 Caulfield Cup on Duke de Sessa, making her the first woman to win both Cups.",
+    "hook": "Payne first in 2015, Melham second in 2025: ten years apart."
+  },
+  {
+    "id": "spt_144",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which sport returns to the Olympics at Los Angeles 2028 for the first time since 1900?",
+    "answer": "Cricket",
+    "distractors": [
+      "Lacrosse",
+      "Squash",
+      "Baseball"
+    ],
+    "explanation": "The only Olympic cricket match, in Paris in 1900, was won by Great Britain against a French team made up mostly of British expats. In LA it will be played as Twenty20, and lacrosse also returns for the first time since 1908.",
+    "hook": "One match in 1900, then a 128-year wait."
+  },
+  {
+    "id": "spt_145",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many gold medals did Australia win at the Paris 2024 Olympics, a national record?",
+    "answer": "Eighteen",
+    "distractors": [
+      "Fourteen",
+      "Seventeen",
+      "Twenty-one"
+    ],
+    "explanation": "It beat the seventeen won at Athens 2004 and Tokyo 2020, and Australia finished fourth on the medal table with fifty-three medals in all.",
+    "hook": "Paris eighteen: one more than Athens and Tokyo."
+  },
+  {
+    "id": "spt_146",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who polled a record forty-seven votes to win the 2026 Brownlow Medal?",
+    "answer": "Nick Daicos",
+    "distractors": [
+      "Marcus Bontempelli",
+      "Bailey Smith",
+      "Patrick Cripps"
+    ],
+    "explanation": "He broke Patrick Cripps's record of forty-five from 2024, becoming Collingwood's first medallist since Dane Swan in 2011. On the same night Marcus Bontempelli passed Patrick Dangerfield's record for career three-vote games.",
+    "hook": "Daicos 47 beat Cripps 45: the Magpie finally won after three near misses."
+  },
+  {
+    "id": "spt_147",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which fourteen-year-old became Australia's youngest Olympic gold medallist at Paris 2024?",
+    "answer": "Arisa Trew",
+    "distractors": [
+      "Chloe Covell",
+      "Ruby Lilley",
+      "Poppy Starr Olsen"
+    ],
+    "explanation": "She won women's park skateboarding with 93.18 points, and was the first Australian woman to win an Olympic skateboarding medal. Keegan Palmer won the men's park event for the second straight Games.",
+    "hook": "Fourteen years and eighty-six days: Australia's youngest ever Olympic champion."
+  },
+  {
+    "id": "spt_148",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won the 2025 World Surf League women's title?",
+    "answer": "Molly Picklum",
+    "distractors": [
+      "Tyler Wright",
+      "Stephanie Gilmore",
+      "India Robinson"
+    ],
+    "explanation": "She beat American Caroline Marks at the WSL Finals at Cloudbreak in Fiji to win her first world title. She was the first Australian champion since Stephanie Gilmore's eighth title in 2022.",
+    "hook": "Picklum picked up the title Gilmore had last brought home in 2022."
+  },
+  {
+    "id": "spt_149",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "At Milano Cortina 2026, who became the first Australian to win two Winter Olympic gold medals?",
+    "answer": "Jakara Anthony",
+    "distractors": [
+      "Cooper Woods",
+      "Josie Baff",
+      "Torah Bright"
+    ],
+    "explanation": "She won moguls at Beijing 2022 and the new dual moguls event in 2026. Australia won three golds in Italy, its best Winter Games, with Cooper Woods (moguls) and Josie Baff (snowboard cross).",
+    "hook": "Anthony: moguls in Beijing, dual moguls in Italy, Australia's first two-time Winter champion."
+  },
+  {
+    "id": "spt_150",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian driver led the 2025 Formula One championship for fifteen rounds before finishing third?",
+    "answer": "Oscar Piastri",
+    "distractors": [
+      "Daniel Ricciardo",
+      "Jack Doohan",
+      "Mark Webber"
+    ],
+    "explanation": "His McLaren teammate Lando Norris won the title by two points from Max Verstappen. No Australian has been world champion since Alan Jones in 1980.",
+    "hook": "Piastri led the most rounds and still finished third."
+  },
+  {
+    "id": "spt_151",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which nation won its first Women's Cricket World Cup in 2025, beating South Africa in the final?",
+    "answer": "India",
+    "distractors": [
+      "England",
+      "New Zealand",
+      "Sri Lanka"
+    ],
+    "explanation": "India won by fifty-two runs in Navi Mumbai. Shafali Verma was player of the match, and Deepti Sharma became the first bowler to take five wickets in a Women's World Cup final.",
+    "hook": "India's women won at home in 2025; the men won the T20 World Cup at home in 2026."
+  },
+  {
+    "id": "spt_152",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which city hosted the 2026 Commonwealth Games after Victoria withdrew as host?",
+    "answer": "Glasgow",
+    "distractors": [
+      "Birmingham",
+      "Edinburgh",
+      "Gold Coast"
+    ],
+    "explanation": "Victoria pulled out in 2023, citing costs, and Glasgow stepped in with a smaller program of ten sports. Australia topped the medal table with seventy golds and 171 medals.",
+    "hook": "Victoria pulled out, Glasgow stepped in, and Australia still won the most."
+  },
+  {
+    "id": "spt_153",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won snowboard cross gold at the Milano Cortina 2026 Winter Olympics?",
+    "answer": "Josie Baff",
+    "distractors": [
+      "Belle Brockhoff",
+      "Torah Bright",
+      "Tess Coady"
+    ],
+    "explanation": "She became Australia's eighth Winter Olympic champion. Torah Bright won halfpipe gold in 2010, and Australia's first Winter gold was Steven Bradbury's in 2002.",
+    "hook": "Baff in snowboard cross, Bright in the halfpipe: two Australian snowboard golds."
+  },
+  {
+    "id": "spt_154",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which team won the 2026 men's T20 World Cup, the first to win the title three times?",
+    "answer": "India",
+    "distractors": [
+      "New Zealand",
+      "England",
+      "Australia"
+    ],
+    "explanation": "India beat New Zealand by ninety-six runs in the final in Ahmedabad, after also winning in 2007 and 2024. It was the first time a team defended the title and the first time a host nation won it.",
+    "hook": "India won in 2007, 2024 and 2026: the first T20 champion to defend the title."
+  },
+  {
+    "id": "spt_155",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "By winning the 2026 Australian Open, which man completed a career grand slam?",
+    "answer": "Carlos Alcaraz",
+    "distractors": [
+      "Jannik Sinner",
+      "Novak Djokovic",
+      "Alexander Zverev"
+    ],
+    "explanation": "He beat Novak Djokovic in four sets in the final, having already won the French Open, Wimbledon and US Open. Elena Rybakina won the women's title, beating Aryna Sabalenka.",
+    "hook": "Melbourne was the last slam missing from Alcaraz's collection."
   }
 ]

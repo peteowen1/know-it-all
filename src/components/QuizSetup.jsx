@@ -91,7 +91,7 @@ export default function QuizSetup({ setup, onStart, bankStats }) {
               Categories
               <span className="setup-note">
                 {draft.categories === 'all'
-                  ? 'All eight, evenly spread'
+                  ? `All ${bankStats ? Object.keys(bankStats.byCategory).length : ''}, evenly spread`
                   : `${available} questions available`}
               </span>
             </span>
@@ -100,7 +100,7 @@ export default function QuizSetup({ setup, onStart, bankStats }) {
                 className={`filter-chip ${draft.categories === 'all' ? 'active' : ''}`}
                 onClick={() => setDraft({ ...draft, categories: 'all' })}
               >
-                🌟 All eight
+                🌟 All categories
               </button>
               {CATEGORY_LIST.map((c) => (
                 <button

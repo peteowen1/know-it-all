@@ -10,8 +10,8 @@
       "Go",
       "Gd"
     ],
-    "explanation": "It comes from the Latin aurum, meaning 'shining dawn'; Ag is silver from argentum, and Gd is gadolinium.",
-    "hook": "Latin names explain the odd symbols — aurum for gold, argentum for silver."
+    "explanation": "It comes from the Latin aurum. Ag is silver (argentum), and Pb for lead (plumbum) and Fe for iron (ferrum) are the other Latin-derived symbols quiz-setters love.",
+    "hook": "Au! is what you'd shout if a gold bar landed on your foot."
   },
   {
     "id": "sci_002",
@@ -24,8 +24,8 @@
       "231",
       "254"
     ],
-    "explanation": "Babies are born with around 270, but many fuse during growth, particularly in the skull and spine; more than half of the adult total is in the hands and feet.",
-    "hook": "You start with 270 and lose about 64 to fusion by adulthood."
+    "explanation": "Babies have around 270 to 300 bony pieces, many of which fuse in the skull, spine and pelvis. Over half of the adult 206 are in the hands and feet, and the smallest is the stapes in the middle ear.",
+    "hook": "Two-oh-six: more than half of them are in your hands and feet."
   },
   {
     "id": "sci_003",
@@ -38,8 +38,8 @@
       "Mars",
       "Earth"
     ],
-    "explanation": "Despite its proximity, Venus is hotter because its dense carbon dioxide atmosphere traps heat, while Mercury has almost no atmosphere at all.",
-    "hook": "Closest to the Sun is not hottest — that title goes to Venus."
+    "explanation": "Mercury is closest but not hottest: Venus's thick carbon dioxide atmosphere traps heat and makes it the hottest planet at about 465 degrees. Mercury has almost no atmosphere, so its night side drops below minus 170.",
+    "hook": "Mercury, the winged messenger, runs the shortest lap round the Sun: a year of just 88 days."
   },
   {
     "id": "sci_004",
@@ -52,8 +52,8 @@
       "Nitrogen",
       "Methane"
     ],
-    "explanation": "Plants take in carbon dioxide and water and, using light energy, produce glucose and release oxygen; the process runs in reverse during respiration at night.",
-    "hook": "Plants breathe in what we breathe out, and vice versa."
+    "explanation": "Using light, plants turn carbon dioxide and water into glucose and give off oxygen. They also respire around the clock like animals, using some oxygen, but by day photosynthesis far outpaces it.",
+    "hook": "Plants breathe in what we breathe out, and hand back the oxygen."
   },
   {
     "id": "sci_005",
@@ -66,8 +66,8 @@
       "The lungs",
       "The brain"
     ],
-    "explanation": "It covers roughly two square metres and weighs about four kilograms in an adult; the liver is the largest internal organ.",
-    "hook": "Biggest organ overall is the skin; biggest one inside you is the liver."
+    "explanation": "An adult's skin covers about two square metres and weighs roughly four kilograms. The liver is the largest internal organ and also the heaviest solid one, at around 1.5 kilograms.",
+    "hook": "Outside champion: skin. Inside champion: liver."
   },
   {
     "id": "sci_006",
@@ -80,8 +80,8 @@
       "Venus",
       "Mercury"
     ],
-    "explanation": "Iron oxide dust gives the surface its colour; it has the tallest volcano in the solar system, Olympus Mons, roughly three times the height of Everest.",
-    "hook": "The red is rust — iron oxide across the whole surface."
+    "explanation": "Iron oxide dust gives Mars its colour. It also has Olympus Mons, the solar system's tallest volcano at about 22 kilometres, roughly two and a half Everests, and two tiny moons, Phobos and Deimos.",
+    "hook": "Mars is rusty: the whole planet is coated in iron oxide."
   },
   {
     "id": "sci_007",
@@ -94,8 +94,8 @@
       "Corundum",
       "Titanium"
     ],
-    "explanation": "It sits at ten on the Mohs scale and is pure carbon in a tetrahedral lattice; graphite is the same element in a different arrangement and is one of the softest minerals.",
-    "hook": "Diamond and pencil lead are the same element — only the arrangement differs."
+    "explanation": "Diamond tops the Mohs scale at 10 because every carbon atom is locked to four others. Graphite, the same element in flat sheets, is soft enough to write with; corundum (ruby and sapphire) is 9.",
+    "hook": "Diamond and pencil lead are both pure carbon: only the arrangement differs."
   },
   {
     "id": "sci_008",
@@ -108,8 +108,8 @@
       "Three",
       "Six"
     ],
-    "explanation": "Two atria receive blood and two ventricles pump it out; the left ventricle is the most muscular because it drives blood around the entire body.",
-    "hook": "Atria collect, ventricles eject — two of each."
+    "explanation": "Two atria receive blood and two ventricles pump it out. The left ventricle has the thickest wall because it pushes blood round the whole body; fish hearts have two chambers and most reptiles three.",
+    "hook": "Atria collect, ventricles eject: two of each."
   },
   {
     "id": "sci_009",
@@ -122,8 +122,8 @@
       "H2O2",
       "NaCl"
     ],
-    "explanation": "Two hydrogen atoms bond to one oxygen at an angle of about 104.5 degrees, and that bent shape is why water is a polar molecule and such a good solvent.",
-    "hook": "The bent shape, not the formula, is what makes water dissolve almost everything."
+    "explanation": "Two hydrogens bond to one oxygen at about 104.5 degrees, and that bent shape makes water polar and an excellent solvent. H2O2 is hydrogen peroxide, a bleach, despite differing by only one oxygen atom.",
+    "hook": "Add one O to H2O and you get hair bleach, not drinking water."
   },
   {
     "id": "sci_010",
@@ -136,8 +136,8 @@
       "Neptune",
       "Uranus"
     ],
-    "explanation": "It has more than twice the mass of all other planets combined and its Great Red Spot is a storm that has raged for at least 190 years.",
-    "hook": "It outweighs every other planet put together, twice over."
+    "explanation": "Jupiter is more than twice as massive as all the other planets combined. Its Great Red Spot is a storm wider than Earth that has been watched continuously since at least 1830.",
+    "hook": "Jupiter, king of the gods, is king of the planets: bigger than all the rest put together."
   },
   {
     "id": "sci_011",
@@ -150,8 +150,8 @@
       "A charm",
       "A murmuration"
     ],
-    "explanation": "A parliament is owls, a charm is finches or goldfinches, and a murmuration is starlings; the crow term dates from fifteenth-century books of courtly terms.",
-    "hook": "Murder of crows, parliament of owls, murmuration of starlings."
+    "explanation": "The term comes from fifteenth-century 'terms of venery', fanciful group names compiled for gentlemen. A parliament is owls, a charm is goldfinches and a murmuration is starlings.",
+    "hook": "Crows in black, gathered like a gang at a crime scene: a murder."
   },
   {
     "id": "sci_012",
@@ -164,8 +164,8 @@
       "A negative",
       "O positive"
     ],
-    "explanation": "It carries neither A, B nor Rh antigens, so it can be given to anyone; AB positive is the universal recipient, able to accept any type.",
-    "hook": "O negative gives to everyone; AB positive takes from everyone."
+    "explanation": "O negative red cells carry no A, B or RhD antigens, so almost anyone can receive them in an emergency. AB positive is the universal recipient; for plasma the roles flip and AB is the universal donor.",
+    "hook": "O for 'zero' antigens, negative for no Rh: nothing on the cell to object to."
   },
   {
     "id": "sci_013",
@@ -178,7 +178,7 @@
       "Centrifugal force",
       "The strong nuclear force"
     ],
-    "explanation": "Newton described it as an attractive force between masses; Einstein reframed it as the curvature of spacetime, which better explains Mercury's orbital wobble.",
+    "explanation": "Newton described gravity as a pull between masses in 1687. Einstein's general relativity (1915) recast it as curved spacetime, which explained the slow shift in Mercury's orbit that Newton's maths could not.",
     "hook": "Newton called it a force; Einstein called it a dent in spacetime."
   },
   {
@@ -192,8 +192,8 @@
       "The lion",
       "The greyhound"
     ],
-    "explanation": "It can reach about 110 kilometres per hour but only for around twenty seconds; the pronghorn antelope is slower at peak but can hold high speed far longer.",
-    "hook": "Fastest sprinter is the cheetah; the pronghorn wins any race over a kilometre."
+    "explanation": "Cheetahs reach roughly 100 to 110 kilometres per hour but only for about 20 to 30 seconds before overheating. The North American pronghorn is the endurance champion, holding high speed for kilometres.",
+    "hook": "Cheetah for the sprint, pronghorn for the marathon."
   },
   {
     "id": "sci_015",
@@ -206,8 +206,8 @@
       "Seven",
       "Ten"
     ],
-    "explanation": "Pluto was reclassified as a dwarf planet in 2006 because it has not cleared its orbital neighbourhood, one of three criteria set by the International Astronomical Union.",
-    "hook": "Pluto failed one test of three: it never cleared its own orbit."
+    "explanation": "The International Astronomical Union demoted Pluto to dwarf planet in 2006 because it has not cleared its orbital neighbourhood. The trigger was the 2005 discovery of Eris, a body more massive than Pluto.",
+    "hook": "My Very Educated Mother Just Served Us Noodles: eight words, eight planets, no Pizza for Pluto."
   },
   {
     "id": "sci_016",
@@ -220,8 +220,8 @@
       "Vitamin A",
       "Vitamin B12"
     ],
-    "explanation": "Ultraviolet B converts a cholesterol derivative into vitamin D3, essential for calcium absorption; deficiency causes rickets in children.",
-    "hook": "The only vitamin your own skin manufactures, given enough sun."
+    "explanation": "Ultraviolet B light converts a cholesterol derivative in skin into vitamin D3, which the body needs to absorb calcium. Deficiency causes rickets in children and osteomalacia in adults.",
+    "hook": "D for daylight: the one vitamin your own skin makes."
   },
   {
     "id": "sci_017",
@@ -234,7 +234,7 @@
       "The core",
       "The proton shell"
     ],
-    "explanation": "It contains protons and neutrons and holds almost all the atom's mass in about one hundred-thousandth of its diameter, so atoms are overwhelmingly empty space.",
+    "explanation": "The nucleus holds the protons and neutrons and nearly all the atom's mass in about a hundred-thousandth of its width. Ernest Rutherford, the New Zealander, discovered it in 1911 by firing alpha particles at gold foil.",
     "hook": "If an atom were a stadium, the nucleus would be a pea on the centre spot."
   },
   {
@@ -245,11 +245,11 @@
     "answer": "The blue whale",
     "distractors": [
       "The African elephant",
-      "The argentinosaurus",
-      "The megalodon"
+      "Argentinosaurus",
+      "Megalodon"
     ],
-    "explanation": "It reaches thirty metres and up to 180 tonnes; its heart alone weighs about 180 kilograms and its call can carry hundreds of kilometres underwater.",
-    "hook": "Bigger than any dinosaur, and its heart weighs as much as a small car engine."
+    "explanation": "Blue whales reach about 30 metres and up to around 190 tonnes, heavier than any known dinosaur. Its heart weighs roughly 180 kilograms, and a 2023 claim that the fossil whale Perucetus was heavier was later revised down.",
+    "hook": "The biggest animal ever is alive now and eats tiny krill."
   },
   {
     "id": "sci_019",
@@ -262,8 +262,8 @@
       "Diribonucleic acid",
       "Deoxyribose nuclear acid"
     ],
-    "explanation": "Its double-helix structure was published by Watson and Crick in 1953, drawing critically on Rosalind Franklin's X-ray diffraction image known as Photo 51.",
-    "hook": "Photo 51 was Franklin's image, and it is what made the helix obvious."
+    "explanation": "Watson and Crick published the double helix in 1953, relying on Photo 51, an X-ray image made in Rosalind Franklin's lab by her student Raymond Gosling. Its cousin RNA, ribonucleic acid, has one more oxygen on its sugar.",
+    "hook": "'Deoxy' means one oxygen short: DNA's sugar is missing one that RNA's has."
   },
   {
     "id": "sci_020",
@@ -276,8 +276,8 @@
       "110 degrees",
       "212 degrees"
     ],
-    "explanation": "The Celsius scale was defined by water's freezing and boiling points at standard pressure; at altitude the boiling point drops, which is why high-altitude cooking takes longer.",
-    "hook": "212 is the Fahrenheit answer — a classic wrong-scale trap."
+    "explanation": "Anders Celsius's original 1742 scale actually ran the other way, with 0 for boiling and 100 for freezing. At altitude the boiling point falls, to about 70 degrees on top of Everest.",
+    "hook": "212 is the Fahrenheit answer: a classic wrong-scale trap."
   },
   {
     "id": "sci_021",
@@ -290,8 +290,8 @@
       "Carbon dioxide",
       "Argon"
     ],
-    "explanation": "Oxygen accounts for about twenty-one per cent and argon most of the remainder; carbon dioxide is only around 0.04 per cent despite its climatic importance.",
-    "hook": "Air is mostly nitrogen — oxygen is only a fifth of what you breathe."
+    "explanation": "Oxygen is about 21 per cent and argon, the third most common gas, about 0.9 per cent. Carbon dioxide is only around 0.04 per cent despite its outsized effect on climate.",
+    "hook": "Air is mostly nitrogen: oxygen is only a fifth of each breath."
   },
   {
     "id": "sci_022",
@@ -304,8 +304,8 @@
       "Geology",
       "Anthropology"
     ],
-    "explanation": "Archaeology studies human material culture, geology studies rocks and Earth processes, and anthropology studies human societies; palaeontology covers ancient life through its preserved remains.",
-    "hook": "Fossils are palaeontology; human artefacts are archaeology."
+    "explanation": "Palaeontology studies ancient life through fossils, while archaeology studies human remains and artefacts. The classic trap is dinosaurs: they are palaeontology, never archaeology.",
+    "hook": "Dinosaurs go to palaeontologists; pottery goes to archaeologists."
   },
   {
     "id": "sci_023",
@@ -318,8 +318,8 @@
       "The kidney",
       "The thyroid"
     ],
-    "explanation": "Beta cells in the islets of Langerhans release insulin to lower blood glucose; type 1 diabetes results from their autoimmune destruction.",
-    "hook": "Islets of Langerhans — the pancreatic cells named after the student who spotted them."
+    "explanation": "Beta cells in the pancreas's islets of Langerhans make insulin, which lowers blood sugar. Insulin was first used to treat a diabetic patient in Toronto in 1922, earning Banting and Macleod the 1923 Nobel.",
+    "hook": "Islets of Langerhans: little islands of insulin factories in the pancreas."
   },
   {
     "id": "sci_024",
@@ -332,7 +332,7 @@
       "A herd",
       "A troop"
     ],
-    "explanation": "A pack is wolves, a troop is monkeys or baboons, and a herd is grazing animals; lion prides are matrilineal, with related females forming the stable core.",
+    "explanation": "A pride is built round related females, who do most of the hunting, with a few males who hold it for a few years. Lions are the only truly social big cat.",
     "hook": "Pride of lions, pack of wolves, troop of baboons."
   },
   {
@@ -346,8 +346,8 @@
       "Jean-Baptiste Lamarck",
       "Louis Pasteur"
     ],
-    "explanation": "He published On the Origin of Species in 1859, prompted into print by Alfred Russel Wallace independently reaching the same conclusion.",
-    "hook": "Wallace got there too — which is why Darwin finally published."
+    "explanation": "Darwin published On the Origin of Species in 1859, spurred by Alfred Russel Wallace independently reaching the same idea; their joint papers were read in 1858. Darwin's Beagle voyage called at Sydney, Hobart and King George Sound in 1836.",
+    "hook": "Lamarck said giraffes stretched their necks; Darwin said the long-necked ones survived."
   },
   {
     "id": "sci_026",
@@ -360,8 +360,8 @@
       "24",
       "36"
     ],
-    "explanation": "The count includes four wisdom teeth, which many people have removed or never develop; children have twenty milk teeth.",
-    "hook": "Twenty as a child, thirty-two as an adult — if the wisdom teeth show up."
+    "explanation": "The count of 32 includes four wisdom teeth, which many people never develop or have removed, leaving 28. Children have 20 baby teeth.",
+    "hook": "Twenty as a kid, thirty-two as an adult, if the wisdom teeth turn up."
   },
   {
     "id": "sci_027",
@@ -374,8 +374,8 @@
       "Uranus",
       "Neptune"
     ],
-    "explanation": "Its rings are mostly water ice, span up to 280,000 kilometres and are less than a kilometre thick; all four gas giants have rings but the others are faint.",
-    "hook": "Wide enough to cross most of the Earth-Moon gap, thinner than a mountain."
+    "explanation": "Saturn's main rings are mostly water ice, span about 280,000 kilometres, and are often only tens of metres thick. All four giant planets have rings, but the others are faint and dark.",
+    "hook": "Rings as wide as most of the Earth-Moon gap, yet thinner than a city block."
   },
   {
     "id": "sci_028",
@@ -388,8 +388,8 @@
       "A cell",
       "A proton"
     ],
-    "explanation": "Split it and you get subatomic particles that no longer behave like the element; a molecule is two or more atoms bonded together.",
-    "hook": "Break the atom and you no longer have the element."
+    "explanation": "Split an atom and you get protons, neutrons and electrons that no longer behave like the element. The word comes from the Greek atomos, 'uncuttable', coined by Democritus.",
+    "hook": "A-tom means 'un-cuttable', though physics eventually cut it."
   },
   {
     "id": "sci_029",
@@ -402,8 +402,8 @@
       "The wombat",
       "The quoll"
     ],
-    "explanation": "It and the platypus are the only surviving monotremes; the milk is secreted from patches of skin rather than nipples and the young lap it up.",
-    "hook": "Monotremes lay eggs and sweat milk — no nipples involved."
+    "explanation": "The echidna and platypus are the only living monotremes, egg-laying mammals. They have no nipples: milk seeps from skin patches and the young lap it up, and a baby echidna is called a puggle.",
+    "hook": "A baby echidna is a puggle: hatched from an egg, raised on milk."
   },
   {
     "id": "sci_030",
@@ -416,8 +416,8 @@
       "30,000 kilometres per second",
       "3 million kilometres per second"
     ],
-    "explanation": "The exact figure is 299,792,458 metres per second, and since 1983 the metre has been defined by it rather than the other way round.",
-    "hook": "The metre is now defined by the speed of light, not light by the metre."
+    "explanation": "The exact figure is 299,792,458 metres per second. Since 1983 the metre has been defined by it, and sunlight takes about eight minutes 20 seconds to reach Earth.",
+    "hook": "Light could circle the Earth about seven and a half times in one second."
   },
   {
     "id": "sci_031",
@@ -430,7 +430,7 @@
       "The stem",
       "The flower"
     ],
-    "explanation": "Chloroplasts are concentrated in leaf tissue, and the flat broad shape maximises light capture while stomata on the underside control gas exchange.",
+    "explanation": "Leaves are packed with chloroplasts, and their broad flat shape catches maximum light. Tiny pores called stomata, mostly on the underside, let carbon dioxide in and water vapour out.",
     "hook": "Leaves are flat for the same reason solar panels are."
   },
   {
@@ -444,8 +444,8 @@
       "Sd",
       "S"
     ],
-    "explanation": "It derives from natrium, the Latin name; S is sulfur, and potassium's K comes from kalium in the same way.",
-    "hook": "Na from natrium, K from kalium — the pair that trip everyone up."
+    "explanation": "Na comes from the Latin natrium, from the mineral natron used in Egyptian mummification. S is sulfur, and potassium's K comes from kalium the same way.",
+    "hook": "Na from natrium, K from kalium: the pair that trip everyone up."
   },
   {
     "id": "sci_033",
@@ -458,8 +458,8 @@
       "Hearing",
       "Touch"
     ],
-    "explanation": "Olfactory signals reach the amygdala and hippocampus without first passing through the thalamus, unlike every other sense, which is why smells trigger memories so abruptly.",
-    "hook": "Smell is the only sense that skips the brain's relay station on the way in."
+    "explanation": "Smell signals run straight to the olfactory bulb, which connects directly to the amygdala and hippocampus, the brain's emotion and memory centres. The other senses route through the thalamus first.",
+    "hook": "Proust's madeleine: one whiff and a whole childhood comes back."
   },
   {
     "id": "sci_034",
@@ -472,8 +472,8 @@
       "Sublimation",
       "Precipitation"
     ],
-    "explanation": "Condensation is the reverse, sublimation is solid straight to gas as with dry ice, and precipitation is water falling from clouds.",
-    "hook": "Sublimation skips the liquid stage entirely — dry ice is the classic example."
+    "explanation": "Evaporation happens at any temperature because the fastest molecules escape from the surface, taking heat with them. That is why sweat cools you and why a wet towel dries on a mild day.",
+    "hook": "Sweat works because evaporation steals heat as it goes."
   },
   {
     "id": "sci_035",
@@ -486,7 +486,7 @@
       "The sugar glider",
       "The colugo"
     ],
-    "explanation": "Gliders and colugos only glide on membranes; bats have true powered flight and make up around a fifth of all mammal species.",
+    "explanation": "Gliders like sugar gliders only descend on skin membranes; bats flap wings made of skin stretched over long finger bones. Bats make up about a fifth of all mammal species, and Australia's largest are flying foxes.",
     "hook": "Gliders fall with style; only bats actually fly."
   },
   {
@@ -500,7 +500,7 @@
       "Elastin",
       "Myosin"
     ],
-    "explanation": "It is the most abundant protein in mammals, about a third of total protein content; keratin makes hair and nails and elastin allows tissue to spring back.",
+    "explanation": "Collagen is the most abundant protein in mammals, about a quarter to a third of all protein. Keratin makes hair and nails, elastin lets tissue spring back, and myosin powers muscle contraction.",
     "hook": "Collagen for strength, elastin for stretch, keratin for hair and nails."
   },
   {
@@ -510,12 +510,12 @@
     "question": "Which moon of Saturn has a dense atmosphere and lakes of liquid methane?",
     "answer": "Titan",
     "distractors": [
-      "Europa",
       "Enceladus",
-      "Ganymede"
+      "Rhea",
+      "Europa"
     ],
-    "explanation": "It is the only moon with a substantial atmosphere and the only body besides Earth known to have stable surface liquid; the Huygens probe landed there in 2005.",
-    "hook": "Rain, rivers and lakes — but made of methane, not water."
+    "explanation": "Titan is the only moon with a thick atmosphere and the only body besides Earth known to have stable surface liquids. The Huygens probe landed there in 2005, and NASA's Dragonfly drone is due to launch for it in 2028.",
+    "hook": "Titan has rain, rivers and lakes, but of methane rather than water."
   },
   {
     "id": "sci_038",
@@ -528,13 +528,13 @@
       "The ampere",
       "The watt"
     ],
-    "explanation": "Ohm's law states that voltage equals current times resistance; the volt measures potential difference, the ampere current, and the watt power.",
-    "hook": "V = IR — volts, amps, ohms in one equation."
+    "explanation": "Ohm's law states voltage equals current times resistance. The volt measures potential difference, the ampere current and the watt power, and the ohm's symbol is the Greek capital omega.",
+    "hook": "V = IR: volts equal amps times ohms."
   },
   {
     "id": "sci_039",
     "category": "science",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which element has the atomic number 1?",
     "answer": "Hydrogen",
     "distractors": [
@@ -542,8 +542,8 @@
       "Carbon",
       "Lithium"
     ],
-    "explanation": "It is the simplest and most abundant element in the universe, making up about seventy-five per cent of normal matter by mass.",
-    "hook": "One proton, and three quarters of all the ordinary matter there is."
+    "explanation": "Hydrogen is the lightest and most abundant element, about three quarters of ordinary matter by mass. Helium, atomic number 2, is second, and together they make up about 98 per cent.",
+    "hook": "Hydrogen is number one on the table and number one in the universe."
   },
   {
     "id": "sci_040",
@@ -556,8 +556,8 @@
       "Diurnal",
       "Cathemeral"
     ],
-    "explanation": "Many prey species favour low light because it offers cover without full darkness; cathemeral animals are active irregularly across the whole day.",
-    "hook": "Crepuscular for twilight, diurnal for day, nocturnal for night."
+    "explanation": "Crepuscular comes from the Latin crepusculum, twilight. Kangaroos and wombats are crepuscular, which is why dawn and dusk are the riskiest times to drive in the bush.",
+    "hook": "Kangaroos on the road at dusk: that is crepuscular behaviour."
   },
   {
     "id": "sci_041",
@@ -570,8 +570,8 @@
       "Johannes Kepler",
       "Robert Hooke"
     ],
-    "explanation": "Published in the Principia in 1687, they held as the foundation of mechanics until relativity and quantum theory revealed their limits at extreme speeds and scales.",
-    "hook": "The Principia stood unchallenged for over two centuries."
+    "explanation": "Newton published them in the Principia in 1687, building on Galileo's work on inertia. Kepler's three laws describe planetary orbits, which Newton then explained with gravity.",
+    "hook": "Kepler did laws of planets, Newton did laws of motion."
   },
   {
     "id": "sci_042",
@@ -584,8 +584,8 @@
       "The humerus",
       "The pelvis"
     ],
-    "explanation": "The thigh bone is roughly a quarter of a person's height and can bear loads many times body weight; the smallest bone is the stapes in the middle ear.",
-    "hook": "Femur biggest, stapes smallest — thigh to ear."
+    "explanation": "The thigh bone is about a quarter of a person's height and is used by forensic scientists to estimate stature. The smallest bone is the stapes, or stirrup, in the middle ear.",
+    "hook": "Femur biggest, stapes smallest: thigh to ear."
   },
   {
     "id": "sci_043",
@@ -598,8 +598,8 @@
       "The neutron",
       "The positron"
     ],
-    "explanation": "Protons are positive, neutrons neutral, and the positron is the electron's positively charged antimatter counterpart, predicted by Dirac and found in 1932.",
-    "hook": "The positron is the electron's antimatter twin — same mass, opposite charge."
+    "explanation": "J.J. Thomson discovered the electron in 1897, the first subatomic particle found. The positron is its antimatter twin with positive charge, predicted by Dirac and found by Carl Anderson in 1932.",
+    "hook": "The positron is the electron's evil twin: same mass, opposite charge."
   },
   {
     "id": "sci_044",
@@ -610,10 +610,10 @@
     "distractors": [
       "Andromeda",
       "Triangulum",
-      "The Magellanic Cloud"
+      "The Large Magellanic Cloud"
     ],
-    "explanation": "A barred spiral about 100,000 light years across containing several hundred billion stars; Andromeda is the nearest large galaxy and is approaching us.",
-    "hook": "Andromeda is on a collision course — about four billion years out."
+    "explanation": "The Milky Way is a barred spiral about 100,000 light years across with 100 to 400 billion stars. The Magellanic Clouds are satellite galaxies visible only from the Southern Hemisphere, easily seen from outback Australia. A 2025 study cut the odds of a collision with Andromeda to about a coin flip within 10 billion years.",
+    "hook": "Galaxy comes from the Greek galaxias, 'milky': our Milky Way named them all."
   },
   {
     "id": "sci_045",
@@ -626,8 +626,8 @@
       "Citric acid",
       "Acetic acid"
     ],
-    "explanation": "It keeps the stomach at a pH of about 1.5 to 3.5, killing pathogens and activating pepsin; a mucus layer prevents the stomach digesting itself.",
-    "hook": "Strong enough to dissolve metal, held off by a layer of mucus."
+    "explanation": "Hydrochloric acid keeps the stomach at a pH of about 1.5 to 3.5, killing germs and activating the enzyme pepsin. A mucus lining stops it digesting the stomach itself.",
+    "hook": "It's the same acid hardware stores sell as 'spirits of salt' for cleaning concrete."
   },
   {
     "id": "sci_046",
@@ -636,12 +636,12 @@
     "question": "What is the collective noun for a group of jellyfish?",
     "answer": "A smack",
     "distractors": [
-      "A bloom",
-      "A shoal",
-      "A colony"
+      "A shiver",
+      "A pod",
+      "A shoal"
     ],
-    "explanation": "'Bloom' is also used and is the more scientific term for a population surge, but 'smack' is the traditional collective noun favoured by quiz setters.",
-    "hook": "A smack of jellyfish — which is also what it feels like."
+    "explanation": "Smack is the traditional term; scientists call a sudden population surge a bloom. A shiver is sharks, a pod is dolphins or whales and a shoal is fish.",
+    "hook": "A smack of jellyfish, which is what a sting feels like."
   },
   {
     "id": "sci_047",
@@ -654,8 +654,8 @@
       "Venus",
       "Saturn"
     ],
-    "explanation": "The tilt is thought to result from an ancient collision, giving each pole roughly forty-two years of continuous sunlight followed by forty-two years of darkness.",
-    "hook": "It rolls around the Sun like a barrel instead of spinning like a top."
+    "explanation": "An ancient giant collision probably knocked Uranus over, so each pole gets about 42 years of sunlight then 42 of darkness. It was the first planet found by telescope, by William Herschel in 1781.",
+    "hook": "Uranus rolls round the Sun like a barrel instead of spinning like a top."
   },
   {
     "id": "sci_048",
@@ -668,8 +668,8 @@
       "The clavicle",
       "The sternum"
     ],
-    "explanation": "It is a sesamoid bone embedded in the quadriceps tendon; the scapula is the shoulder blade, the clavicle the collarbone and the sternum the breastbone.",
-    "hook": "Patella knee, scapula shoulder, clavicle collar, sternum chest."
+    "explanation": "The patella is a sesamoid bone, one that grows inside a tendon, in this case the quadriceps tendon. The scapula is the shoulder blade, the clavicle the collarbone and the sternum the breastbone.",
+    "hook": "Patella sounds like 'plate': the little plate over your knee."
   },
   {
     "id": "sci_049",
@@ -682,8 +682,8 @@
       "Metamorphic",
       "Conglomerate"
     ],
-    "explanation": "Sedimentary rock forms from compressed deposits and metamorphic from existing rock altered by heat and pressure; granite and basalt are the common igneous examples.",
-    "hook": "Igneous from fire, sedimentary from settling, metamorphic from change."
+    "explanation": "Igneous rocks include granite (cooled slowly underground) and basalt (cooled fast at the surface). Sedimentary rock forms from compressed layers and metamorphic from rock changed by heat and pressure; conglomerate is a type of sedimentary rock.",
+    "hook": "Igneous from the Latin ignis, fire, as in ignition."
   },
   {
     "id": "sci_050",
@@ -696,8 +696,8 @@
       "Iron",
       "Aluminium"
     ],
-    "explanation": "It makes up about forty-six per cent of the crust by mass, bound up in silicates and oxides; silicon is second at around twenty-eight per cent.",
-    "hook": "Nearly half the crust is oxygen, locked into rock rather than floating free."
+    "explanation": "Oxygen makes up about 46 per cent of the crust by mass, locked into silicate and oxide minerals. Silicon is second at about 28 per cent, while iron dominates the planet as a whole because of the core.",
+    "hook": "Nearly half of every rock is oxygen, just not the kind you can breathe."
   },
   {
     "id": "sci_051",
@@ -710,8 +710,8 @@
       "A carnivore",
       "A detritivore"
     ],
-    "explanation": "Detritivores such as earthworms feed on decomposing material; bears, pigs and humans are classic omnivores with dentition suited to both diets.",
-    "hook": "Your own teeth are the giveaway — canines for meat, molars for grinding plants."
+    "explanation": "Bears, pigs, crows and humans are classic omnivores. Detritivores such as earthworms feed on dead and decaying matter, recycling nutrients into soil.",
+    "hook": "Omni means 'all': an omnivore eats all of it."
   },
   {
     "id": "sci_052",
@@ -724,8 +724,8 @@
       "Ernst Chain",
       "Louis Pasteur"
     ],
-    "explanation": "He noticed mould killing bacteria on a contaminated culture plate but could not purify it; Florey and Chain made it a usable drug and all three shared the 1945 Nobel.",
-    "hook": "Discovery and drug were separate achievements twelve years apart."
+    "explanation": "Fleming noticed mould killing bacteria on a culture plate but could not purify it. South Australian Howard Florey and Ernst Chain turned it into a usable drug around 1940, and all three shared the 1945 Nobel.",
+    "hook": "Fleming found it; Florey, from Adelaide, made it a medicine."
   },
   {
     "id": "sci_053",
@@ -738,22 +738,22 @@
       "The basking shark",
       "The tiger shark"
     ],
-    "explanation": "It reaches about eighteen metres and feeds by filtering plankton; the basking shark is the second largest and also a filter feeder.",
-    "hook": "The two biggest sharks both eat plankton — size and menace are unrelated."
+    "explanation": "Whale sharks grow to about 18 metres and filter-feed on plankton. Ningaloo Reef in Western Australia is one of the best places on Earth to swim with them, from about March to July.",
+    "hook": "The two biggest sharks both eat plankton: size and menace are unrelated."
   },
   {
     "id": "sci_054",
     "category": "science",
     "difficulty": "medium",
-    "question": "Which gland regulates metabolism through hormones in the neck?",
+    "question": "Which gland in the neck produces hormones that regulate metabolism?",
     "answer": "The thyroid",
     "distractors": [
       "The pituitary",
       "The adrenal",
       "The thymus"
     ],
-    "explanation": "It produces thyroxine under instruction from the pituitary; iodine deficiency causes goitre, which is why table salt is iodised in many countries.",
-    "hook": "Iodised salt exists because of this one gland."
+    "explanation": "The thyroid makes thyroxine, which needs iodine; deficiency causes goitre. Since 2009 Australian bread has had to be made with iodised salt to prevent it.",
+    "hook": "Aussie bread is iodised for the sake of this one butterfly-shaped gland."
   },
   {
     "id": "sci_055",
@@ -766,8 +766,8 @@
       "Deposition",
       "Condensation"
     ],
-    "explanation": "Dry ice and iodine both sublime at ordinary pressures; deposition is the reverse process, gas straight to solid, which is how frost forms.",
-    "hook": "Frost is deposition — gas to solid with no puddle in between."
+    "explanation": "Dry ice (solid carbon dioxide) sublimes at minus 78.5 degrees, which is why it makes stage fog. The reverse, gas straight to solid, is deposition, which is how frost forms on a cold morning.",
+    "hook": "Dry ice never leaves a puddle: it skips the liquid step."
   },
   {
     "id": "sci_056",
@@ -780,8 +780,8 @@
       "Mars",
       "Neptune"
     ],
-    "explanation": "It takes about 243 Earth days to rotate once but only 225 to orbit the Sun, and it rotates backwards relative to most planets.",
-    "hook": "A day there outlasts a year, and the sun rises in the west."
+    "explanation": "Venus takes about 243 Earth days to spin once but only 225 to orbit the Sun. It also spins backwards, so the Sun rises in the west.",
+    "hook": "On Venus you'd celebrate a birthday before the day was out."
   },
   {
     "id": "sci_057",
@@ -794,8 +794,8 @@
       "The trachea",
       "The oesophagus"
     ],
-    "explanation": "The pharynx is the throat above it, the trachea the windpipe below, and the oesophagus the food tube behind; the larynx houses the vocal folds.",
-    "hook": "Pharynx above, larynx in the middle, trachea below."
+    "explanation": "The larynx houses the vocal folds, and its cartilage forms the Adam's apple. The pharynx is the throat above it, the trachea the windpipe below and the oesophagus the food pipe behind.",
+    "hook": "Laryngitis loses your voice, pharyngitis gives you a sore throat."
   },
   {
     "id": "sci_058",
@@ -808,8 +808,8 @@
       "The top quark",
       "The muon"
     ],
-    "explanation": "Its existence explains how fundamental particles acquire mass; Peter Higgs and François Englert shared the 2013 Nobel Prize the year after confirmation.",
-    "hook": "Predicted in 1964, found in 2012, Nobel in 2013 — a forty-eight-year wait."
+    "explanation": "The Higgs boson confirms the field that gives fundamental particles their mass. Peter Higgs and François Englert shared the 2013 Nobel; the top quark was found at Fermilab in 1995.",
+    "hook": "Predicted 1964, found 2012: a forty-eight-year wait for the 'God particle'."
   },
   {
     "id": "sci_059",
@@ -822,8 +822,8 @@
       "10",
       "14"
     ],
-    "explanation": "The scale is logarithmic, so pH 4 is ten times more acidic than pH 5; below seven is acidic and above is alkaline.",
-    "hook": "Each step is ten times — lemon juice at pH 2 is a hundred times more acidic than coffee at 4."
+    "explanation": "The scale is logarithmic, so each step is a tenfold change. Below 7 is acidic, above is alkaline; the scale was introduced by Danish chemist Søren Sørensen at the Carlsberg brewery in 1909.",
+    "hook": "Lemon juice at pH 2 is about a thousand times more acidic than coffee at 5."
   },
   {
     "id": "sci_060",
@@ -833,11 +833,11 @@
     "answer": "The wombat",
     "distractors": [
       "The kangaroo",
-      "The possum",
-      "The bandicoot"
+      "The brushtail possum",
+      "The quokka"
     ],
-    "explanation": "The pouch faces the rear so soil does not fill it while digging; bandicoots also have rear-facing pouches for the same reason.",
-    "hook": "Diggers need rear-facing pouches or they fill the joey with dirt."
+    "explanation": "A rear-opening pouch stops soil filling it while the mother digs. Koalas, a wombat's closest living relatives, also have one; wombats are also famous for cube-shaped droppings.",
+    "hook": "Diggers need rear-facing pouches or the joey gets a face full of dirt."
   },
   {
     "id": "sci_061",
@@ -850,8 +850,8 @@
       "The nucleus",
       "The Golgi apparatus"
     ],
-    "explanation": "It produces ATP through respiration and carries its own DNA inherited only from the mother, evidence that it began as a separate bacterium absorbed by an ancestral cell.",
-    "hook": "It has its own DNA because it used to be a free-living bacterium."
+    "explanation": "Mitochondria make ATP, the cell's energy currency. They carry their own DNA, inherited only from the mother, a clue that they began as free-living bacteria swallowed by an ancestral cell.",
+    "hook": "Mitochondria are ex-bacteria that moved in and never left."
   },
   {
     "id": "sci_062",
@@ -864,7 +864,7 @@
       "Lead",
       "Sodium"
     ],
-    "explanation": "Gallium melts at about thirty degrees, so it liquefies in the hand but not at standard room temperature; mercury is the only metal liquid under normal conditions.",
+    "explanation": "Mercury melts at minus 39 degrees. Gallium melts at about 30 degrees, so it liquefies in your hand, and bromine is the only other element liquid at room temperature, a non-metal.",
     "hook": "Gallium melts in your palm, but only mercury is liquid on the shelf."
   },
   {
@@ -878,8 +878,8 @@
       "An ecosystem",
       "A biome"
     ],
-    "explanation": "A community is all populations in an area, an ecosystem adds the physical environment, and a biome is a large-scale climatic and vegetation zone.",
-    "hook": "Population, community, ecosystem, biome — each one wider than the last."
+    "explanation": "A community is all the populations of different species in an area, an ecosystem adds the physical environment, and a biome is a large climate-and-vegetation zone such as desert or rainforest.",
+    "hook": "Population, community, ecosystem, biome: each one wider than the last."
   },
   {
     "id": "sci_064",
@@ -892,8 +892,8 @@
       "Vitamin B1",
       "Vitamin K"
     ],
-    "explanation": "Without it the body cannot synthesise collagen properly, causing bleeding gums and poor wound healing; James Lind's 1747 citrus trial was one of the first controlled clinical experiments.",
-    "hook": "Lind's citrus trial in 1747 was arguably the first clinical trial ever run."
+    "explanation": "Without vitamin C the body cannot make collagen properly, so gums bleed and wounds reopen. James Lind's 1747 trial of citrus on sailors was one of the first controlled clinical trials, hence British sailors' nickname 'limeys'.",
+    "hook": "Limeys: British sailors got the nickname from the citrus that cured scurvy."
   },
   {
     "id": "sci_065",
@@ -906,8 +906,8 @@
       "Sirius",
       "Barnard's Star"
     ],
-    "explanation": "A red dwarf about 4.24 light years away and part of the Alpha Centauri triple system; it hosts at least one planet in its habitable zone.",
-    "hook": "Four light years away and it still has a planet in the habitable zone."
+    "explanation": "Proxima is a red dwarf about 4.24 light years away and part of the Alpha Centauri triple system. Too faint to see by eye, it hosts Proxima b, a planet in its habitable zone; Sirius is the brightest star in the night sky.",
+    "hook": "Proxima means 'nearest' in Latin, the clue is in the name."
   },
   {
     "id": "sci_066",
@@ -920,8 +920,8 @@
       "The capillary",
       "The venule"
     ],
-    "explanation": "Arteries carry blood away and veins return it; the pulmonary artery is the exception in carrying deoxygenated blood, since it runs to the lungs.",
-    "hook": "Arteries away, veins back — the pulmonary artery is the one exception to the oxygen rule."
+    "explanation": "Arteries carry blood away and veins bring it back. The pulmonary artery is the odd one out, carrying oxygen-poor blood to the lungs, so 'arteries carry oxygenated blood' is the classic wrong rule.",
+    "hook": "A for artery, A for away."
   },
   {
     "id": "sci_067",
@@ -934,8 +934,8 @@
       "Astrology",
       "Hydrology"
     ],
-    "explanation": "Climatology studies long-term patterns rather than day-to-day conditions; the name comes from the Greek for things high in the air, not from meteors.",
-    "hook": "Nothing to do with meteors — the Greek root just means 'things up high'."
+    "explanation": "The name comes from Aristotle's Meteorologica, from the Greek for 'things high in the air'. Climatology studies long-term averages; Australia's Bureau of Meteorology was founded in 1908.",
+    "hook": "Nothing to do with meteors: the Greek root just means 'things up high'."
   },
   {
     "id": "sci_068",
@@ -948,7 +948,7 @@
       "The giraffe",
       "The rhinoceros"
     ],
-    "explanation": "About twenty-two months, long enough for the calf to be born with a well-developed brain able to keep up with the herd almost immediately.",
+    "explanation": "African elephants are pregnant for about 22 months. The calf is born with a well-developed brain and can stand within an hour or so; a blue whale's pregnancy is only about 11 months.",
     "hook": "Nearly two years pregnant, and the calf walks within hours."
   },
   {
@@ -962,8 +962,8 @@
       "Po",
       "Pt"
     ],
-    "explanation": "It comes from the Latin kalium, itself from Arabic al-qalyah, plant ash; P is phosphorus, Po polonium and Pt platinum.",
-    "hook": "K from kalium, and P is already taken by phosphorus."
+    "explanation": "K comes from the Latin kalium, from the Arabic for plant ash. P is phosphorus, Po polonium (named by Marie Curie after Poland) and Pt platinum.",
+    "hook": "K from kalium, and P was already taken by phosphorus."
   },
   {
     "id": "sci_070",
@@ -976,8 +976,8 @@
       "The mesosphere",
       "The thermosphere"
     ],
-    "explanation": "Weather occurs in the troposphere below; ozone in the stratosphere absorbs ultraviolet radiation, and the Montreal Protocol of 1987 successfully reversed its depletion.",
-    "hook": "The Montreal Protocol is the rare environmental treaty that actually worked."
+    "explanation": "Stratospheric ozone absorbs harmful ultraviolet light. The 1987 Montreal Protocol banned CFCs, and the Antarctic ozone hole is on track to recover by around the 2060s.",
+    "hook": "Weather lives in the troposphere, sunscreen lives in the stratosphere."
   },
   {
     "id": "sci_071",
@@ -990,7 +990,7 @@
       "Mount Etna",
       "Maat Mons"
     ],
-    "explanation": "The Martian shield volcano is about 22 kilometres high and 600 across, roughly the size of France; low gravity and no plate movement let it grow in one place for millions of years.",
+    "explanation": "The Martian shield volcano is about 22 kilometres high and 600 across, roughly the size of Poland. With no moving plates, Mars kept it parked over one hot spot for hundreds of millions of years; Mauna Loa is Earth's largest active volcano.",
     "hook": "It grew huge because Mars has no moving plates to slide the volcano off its hot spot."
   },
   {
@@ -1004,7 +1004,7 @@
       "Potassium and chlorine",
       "Calcium and chlorine"
     ],
-    "explanation": "Both are dangerous alone — sodium reacts violently with water and chlorine is toxic — yet bonded they form an essential nutrient.",
+    "explanation": "Sodium is a metal that reacts violently with water and chlorine a toxic gas, yet bonded they form sodium chloride. Potassium chloride, a real distractor, is sold as a salt substitute.",
     "hook": "An explosive metal plus a poison gas equals a table condiment."
   },
   {
@@ -1018,7 +1018,7 @@
       "The valence",
       "The isotope number"
     ],
-    "explanation": "It defines which element the atom is; the mass number counts protons plus neutrons, and isotopes are atoms of one element with differing neutron counts.",
+    "explanation": "The atomic number fixes which element an atom is. The mass number counts protons plus neutrons, and isotopes are versions of one element with different neutron counts, such as carbon-12 and carbon-14.",
     "hook": "Protons decide the element; neutrons only decide the isotope."
   },
   {
@@ -1032,8 +1032,8 @@
       "The brolga",
       "The jabiru"
     ],
-    "explanation": "It stands up to 1.9 metres, behind only the ostrich; the cassowary is heavier but shorter and is considered the most dangerous bird alive.",
-    "hook": "Ostrich tallest, emu second, cassowary heaviest and angriest."
+    "explanation": "Emus stand up to about 1.9 metres, behind only the ostrich, and can run at about 50 kilometres per hour. The 1932 'Emu War' saw soldiers with machine guns fail to cull them in WA.",
+    "hook": "The emu lost only one war: it beat the army in 1932."
   },
   {
     "id": "sci_075",
@@ -1046,8 +1046,8 @@
       "The pascal",
       "The watt"
     ],
-    "explanation": "One newton accelerates one kilogram at one metre per second squared; the joule measures energy, the pascal pressure and the watt power.",
-    "hook": "Newton force, joule energy, watt power, pascal pressure."
+    "explanation": "One newton accelerates one kilogram at one metre per second squared, about the weight of a small apple. The joule measures energy, the pascal pressure and the watt power.",
+    "hook": "A newton is about one apple's weight, fittingly."
   },
   {
     "id": "sci_076",
@@ -1060,8 +1060,8 @@
       "The spleen",
       "The bladder"
     ],
-    "explanation": "The two kidneys filter around 180 litres of blood daily, returning almost all of it and excreting one to two litres as urine.",
-    "hook": "180 litres filtered a day, and you only notice about one of them."
+    "explanation": "The kidneys filter about 180 litres of blood plasma a day through about a million nephrons each, returning nearly all of it. They also control blood pressure and trigger red cell production.",
+    "hook": "180 litres filtered a day, and you only notice about one and a half of them."
   },
   {
     "id": "sci_077",
@@ -1074,8 +1074,8 @@
       "A gaggle",
       "A convocation"
     ],
-    "explanation": "The term was popularised by C.S. Lewis in The Chronicles of Narnia, drawing on Chaucer's Parliament of Fowls; a convocation is eagles.",
-    "hook": "Parliament of owls, convocation of eagles, gaggle of geese on the ground."
+    "explanation": "The phrase suggests a gathering of wise elders, fitting owls' bookish reputation. C.S. Lewis used it for the owls' council in The Silver Chair; a convocation is eagles and a gaggle is geese on the ground.",
+    "hook": "Wise old owls sit in parliament."
   },
   {
     "id": "sci_078",
@@ -1088,8 +1088,8 @@
       "John Dalton",
       "Henry Moseley"
     ],
-    "explanation": "He left gaps for undiscovered elements and predicted their properties accurately; Moseley later reordered the table by atomic number rather than atomic weight.",
-    "hook": "He left blanks and told everyone what would fill them — and he was right."
+    "explanation": "Mendeleev left gaps for undiscovered elements and predicted their properties; gallium, scandium and germanium soon filled them. Moseley later ordered the table by atomic number, and element 101 is mendelevium.",
+    "hook": "He left blanks and said what would fill them, and he was right."
   },
   {
     "id": "sci_079",
@@ -1102,8 +1102,8 @@
       "The accretion disc",
       "The photon sphere"
     ],
-    "explanation": "The singularity is the theoretical point of infinite density at the centre; the accretion disc is the glowing matter spiralling in, which is what telescopes actually image.",
-    "hook": "The famous black hole photograph shows the accretion disc, not the hole."
+    "explanation": "The singularity is the theoretical point of infinite density at the centre. The Event Horizon Telescope's 2019 image of M87's black hole shows a dark shadow ringed by glowing gas, not the horizon itself.",
+    "hook": "Horizon: like the edge of your view, you can't see past it."
   },
   {
     "id": "sci_080",
@@ -1116,7 +1116,7 @@
       "Ammonia",
       "Methane"
     ],
-    "explanation": "It is detectable at extremely low concentrations but deadens the sense of smell at high ones, which makes it dangerous in industrial settings.",
+    "explanation": "Humans can smell hydrogen sulfide at a few parts per billion, but at high concentrations it paralyses the sense of smell, which makes it deadly in sewers. Natural gas is odourless; the smell is added mercaptan.",
     "hook": "You smell it at tiny doses and stop smelling it at lethal ones."
   },
   {
@@ -1130,8 +1130,8 @@
       "An arthropod",
       "A chordate"
     ],
-    "explanation": "Vertebrates are a subgroup of chordates, which include a few backbone-less relatives; around ninety-seven per cent of animal species are invertebrates.",
-    "hook": "Nearly all animals have no backbone — vertebrates are the rare case."
+    "explanation": "Vertebrates are a subgroup of chordates, which also include backbone-less sea squirts and lancelets. About 95 per cent or more of animal species are invertebrates, most of them insects.",
+    "hook": "Nearly all animals have no backbone: vertebrates are the rare case."
   },
   {
     "id": "sci_082",
@@ -1144,8 +1144,8 @@
       "Jupiter",
       "Venus"
     ],
-    "explanation": "Its average density is about 5.5 grams per cubic centimetre thanks to its iron core; Saturn is the least dense and would float in a sufficiently large ocean.",
-    "hook": "Earth is the densest planet; Saturn would float in water."
+    "explanation": "Earth's average density is about 5.5 grams per cubic centimetre thanks to its big iron core; Mercury is a close second. Saturn is the least dense, less than water.",
+    "hook": "Earth is the densest planet; Saturn would float in a big enough bath."
   },
   {
     "id": "sci_083",
@@ -1158,8 +1158,8 @@
       "The latissimus dorsi",
       "The heart"
     ],
-    "explanation": "It powers hip extension and is unusually large in humans compared with other primates, an adaptation for endurance running.",
-    "hook": "Our oversized backside is an adaptation for long-distance running."
+    "explanation": "The gluteus maximus extends the hip and keeps the trunk upright when running. It is unusually large in humans compared with other apes, possibly an adaptation for endurance running.",
+    "hook": "Maximus by name, maximus by size."
   },
   {
     "id": "sci_084",
@@ -1172,22 +1172,22 @@
       "Radioactive decay",
       "Ionisation"
     ],
-    "explanation": "Fission powers reactors and atomic bombs; fusion joins light nuclei and powers the Sun, and remains difficult to sustain on Earth.",
-    "hook": "Fission splits, fusion joins — reactors do the first, stars do the second."
+    "explanation": "Fission of uranium or plutonium powers reactors and atomic bombs. Fusion joins light nuclei and powers the Sun, but is still hard to sustain on Earth; Australia's AUKUS submarines will run on fission reactors.",
+    "hook": "Fission splits, fusion joins: reactors do the first, stars do the second."
   },
   {
     "id": "sci_085",
     "category": "science",
     "difficulty": "medium",
-    "question": "Which Australian tree species is the tallest flowering plant in the world?",
-    "answer": "The mountain ash",
+    "question": "Centurion, a Tasmanian tree that has measured about 100 metres tall, is which eucalypt species?",
+    "answer": "Mountain ash",
     "distractors": [
-      "The karri",
-      "The river red gum",
-      "The jarrah"
+      "Karri",
+      "River red gum",
+      "Tasmanian blue gum"
     ],
-    "explanation": "Eucalyptus regnans in Victoria and Tasmania exceeds ninety metres; only coast redwoods, which are conifers rather than flowering plants, grow taller.",
-    "hook": "Redwoods are taller, but they don't flower — so the record is Australian."
+    "explanation": "Eucalyptus regnans is the tallest flowering plant species in Australia and among the tallest in the world; Centurion reached 100.5 metres in 2018 before fire took about four metres off. A yellow meranti in Borneo, Menara, now vies for the title of tallest flowering tree.",
+    "hook": "Regnans means 'ruling': the ruler of the gums."
   },
   {
     "id": "sci_086",
@@ -1200,8 +1200,8 @@
       "Ligase",
       "Primase"
     ],
-    "explanation": "Helicase separates the strands, primase lays down RNA primers, polymerase builds the new strand and ligase seals the fragments together.",
-    "hook": "Helicase unzips, primase starts, polymerase builds, ligase glues."
+    "explanation": "Helicase separates the two strands, primase lays short RNA primers, DNA polymerase builds the new strands and ligase seals the gaps. PCR tests skip helicase and use heat to separate strands instead.",
+    "hook": "Helicase unzips the helix, primase starts, polymerase builds, ligase glues."
   },
   {
     "id": "sci_087",
@@ -1214,22 +1214,22 @@
       "Refraction",
       "Diffraction"
     ],
-    "explanation": "Hubble used it in 1929 to show that distant galaxies are receding faster the further away they are, the founding evidence for an expanding universe.",
-    "hook": "Redshift is how we know the universe is expanding at all."
+    "explanation": "Edwin Hubble used redshifts in 1929 to show distant galaxies are receding faster the further away they are, building on Georges Lemaître's 1927 work. It is the light version of the Doppler effect.",
+    "hook": "It's the Doppler effect for light: a passing siren drops in pitch, a receding galaxy drops into red."
   },
   {
     "id": "sci_088",
     "category": "science",
     "difficulty": "hard",
-    "question": "Which particle is thought to make up most of the universe's mass but has never been directly detected?",
+    "question": "What is the invisible substance, detected only by its gravity, that makes up about 85 per cent of all matter in the universe?",
     "answer": "Dark matter",
     "distractors": [
-      "The neutrino",
-      "The graviton",
-      "Antimatter"
+      "Dark energy",
+      "Antimatter",
+      "Neutrinos"
     ],
-    "explanation": "It is inferred from galactic rotation curves and gravitational lensing; dark energy, a separate phenomenon, accounts for the accelerating expansion of space.",
-    "hook": "Galaxies spin too fast for the matter we can see — that gap is dark matter."
+    "explanation": "Dark matter is inferred from galaxies spinning too fast and from gravitational lensing, but its particle has never been detected. Dark energy is a separate mystery that drives the accelerating expansion of space.",
+    "hook": "Dark matter holds galaxies together; dark energy pushes the universe apart."
   },
   {
     "id": "sci_089",
@@ -1242,8 +1242,8 @@
       "Absolute zero",
       "The triple point"
     ],
-    "explanation": "Above it thermal agitation destroys magnetic ordering; iron's Curie point is 770 degrees Celsius, and the Néel temperature is the equivalent for antiferromagnets.",
-    "hook": "Named for Pierre Curie, not Marie — he worked on magnetism before radioactivity."
+    "explanation": "Above it, heat scrambles the aligned magnetic domains; iron's Curie point is about 770 degrees. Cooling lava locks in Earth's field below it, which is how seafloor stripes recorded magnetic reversals.",
+    "hook": "Named for Pierre Curie, not Marie: he studied magnetism before radioactivity."
   },
   {
     "id": "sci_090",
@@ -1256,8 +1256,8 @@
       "The medulla",
       "The hypothalamus"
     ],
-    "explanation": "It holds over half the brain's neurons in about a tenth of its volume; the medulla governs breathing and heart rate, and the hypothalamus regulates hormones and temperature.",
-    "hook": "A tenth of the volume, more than half the neurons."
+    "explanation": "The cerebellum, Latin for 'little brain', holds about 80 per cent of the brain's neurons in about a tenth of its volume. Alcohol impairs it early, which is why roadside sobriety tests check balance.",
+    "hook": "Little brain, big job: it makes a drunk walk wobble."
   },
   {
     "id": "sci_091",
@@ -1270,8 +1270,8 @@
       "About 12,000 years",
       "About 50,000 years"
     ],
-    "explanation": "The method is reliable to roughly 50,000 years, about nine half-lives, after which too little carbon-14 remains to measure accurately.",
-    "hook": "Nine half-lives is the practical limit — beyond that there is nothing left to count."
+    "explanation": "Willard Libby developed radiocarbon dating in the late 1940s and won the 1960 Nobel for it. It works to about 50,000 years, roughly nine half-lives, so dinosaur bones are dated by other methods such as potassium-argon.",
+    "hook": "No carbon dating for dinosaurs: it runs out at about 50,000 years."
   },
   {
     "id": "sci_092",
@@ -1284,22 +1284,22 @@
       "Boyle's law",
       "Hess's law"
     ],
-    "explanation": "The first law is conservation of energy; the second explains why heat flows from hot to cold and why perpetual motion machines cannot work.",
-    "hook": "The first law says you can't win; the second says you can't break even."
+    "explanation": "The first law is conservation of energy; the second says heat flows from hot to cold, ruling out perpetual motion machines. The third says absolute zero can never be reached.",
+    "hook": "First law: you can't win. Second: you can't break even. Third: you can't quit the game."
   },
   {
     "id": "sci_093",
     "category": "science",
     "difficulty": "hard",
-    "question": "What is the name for the phenomenon where a fluid's viscosity drops under stress?",
+    "question": "What is the name for the phenomenon where a fluid's viscosity drops when it is shaken or stirred?",
     "answer": "Thixotropy",
     "distractors": [
       "Dilatancy",
       "Capillarity",
       "Rheopexy"
     ],
-    "explanation": "Tomato sauce and non-drip paint are thixotropic; dilatancy is the opposite, as in cornflour and water, which stiffens when struck.",
-    "hook": "Sauce thins when shaken; cornflour thickens when hit — opposite behaviours."
+    "explanation": "Tomato sauce and non-drip paint thin when shaken and thicken again at rest. Dilatancy is the opposite, as in cornflour and water ('oobleck'), which turns solid when punched.",
+    "hook": "Shake the sauce bottle to thin it; punch the oobleck to stiffen it."
   },
   {
     "id": "sci_094",
@@ -1312,22 +1312,22 @@
       "Archimedes",
       "Aristarchus"
     ],
-    "explanation": "He compared shadow angles at Alexandria and Syene at noon on the solstice and came within a few per cent of the true figure using geometry alone.",
-    "hook": "Two sticks, two cities and some geometry got him within a few per cent."
+    "explanation": "The librarian of Alexandria compared the Sun's noon angle at Alexandria and Syene (Aswan) and used geometry to estimate the circumference. Depending on the length of his stadion, he was within a few to about 15 per cent.",
+    "hook": "Two cities, one shadow and some geometry measured the whole planet."
   },
   {
     "id": "sci_095",
     "category": "science",
     "difficulty": "hard",
-    "question": "What is the term for the sudden brightening of a star that ejects its outer layers?",
+    "question": "What is the name for a sudden, often repeated brightening caused when a white dwarf ignites gas pulled from a companion star?",
     "answer": "A nova",
     "distractors": [
       "A supernova",
-      "A quasar",
+      "A kilonova",
       "A pulsar"
     ],
-    "explanation": "A nova is a surface explosion on a white dwarf that leaves the star intact and can recur; a supernova destroys the star and is billions of times brighter.",
-    "hook": "A nova survives and can happen again; a supernova is a one-off ending."
+    "explanation": "A nova is a thermonuclear flash on a white dwarf's surface that leaves the star intact, so it can recur. A supernova destroys a star, and a kilonova is the flash from two colliding neutron stars.",
+    "hook": "Nova means 'new' because it looked like a new star; it's really an old one flaring."
   },
   {
     "id": "sci_096",
@@ -1340,8 +1340,8 @@
       "Serotonin",
       "Adrenaline"
     ],
-    "explanation": "The pineal gland releases it in darkness; blue light suppresses production, which is why screens before bed delay sleep onset.",
-    "hook": "Blue light switches it off — that is the whole screens-before-bed problem."
+    "explanation": "The pineal gland releases melatonin as light fades. Blue light from screens suppresses it, and in Australia melatonin tablets for adults aged 55 and over can be bought from pharmacists without a prescription.",
+    "hook": "Melatonin is the darkness hormone: it rises when the lights go down."
   },
   {
     "id": "sci_097",
@@ -1354,8 +1354,8 @@
       "The Lehmann discontinuity",
       "The asthenosphere"
     ],
-    "explanation": "Usually shortened to the Moho, it was identified from seismic wave refraction in 1909; the Gutenberg discontinuity separates mantle from outer core.",
-    "hook": "The Moho for crust-mantle, Gutenberg for mantle-core."
+    "explanation": "Croatian seismologist Andrija Mohorovičić found it in 1909 when earthquake waves suddenly sped up at depth. The Gutenberg discontinuity separates mantle from outer core, and the Lehmann discontinuity marks the inner core.",
+    "hook": "The Moho for crust to mantle, Gutenberg for mantle to core."
   },
   {
     "id": "sci_098",
@@ -1368,8 +1368,8 @@
       "Xenon",
       "Krypton"
     ],
-    "explanation": "It was so named for its chemical inertness; Rayleigh and Ramsay found it in 1894, and Ramsay went on with Morris Travers to isolate neon, krypton and xenon in 1898 — meaning 'new', 'hidden' and 'stranger' respectively.",
-    "hook": "Argon lazy, neon new, krypton hidden, xenon stranger — and Ramsay had a hand in all four."
+    "explanation": "Argon was named for its chemical inertness when Rayleigh and Ramsay found it in 1894. Ramsay and Morris Travers then isolated neon ('new'), krypton ('hidden') and xenon ('stranger') in 1898.",
+    "hook": "Argon lazy, neon new, krypton hidden, xenon stranger."
   },
   {
     "id": "sci_099",
@@ -1382,8 +1382,8 @@
       "A saprotroph",
       "A mixotroph"
     ],
-    "explanation": "Plants are photoautotrophs using light; deep-sea vent bacteria are chemoautotrophs using chemical energy with no sunlight at all.",
-    "hook": "Some autotrophs never see the sun — vent bacteria run on chemistry alone."
+    "explanation": "Plants are photoautotrophs using light; bacteria at deep-sea vents are chemoautotrophs using chemical energy with no sunlight at all. Heterotrophs, like us, must eat other organisms.",
+    "hook": "Auto means 'self', troph means 'feed': self-feeders."
   },
   {
     "id": "sci_100",
@@ -1396,27 +1396,27 @@
       "Erwin Schrödinger",
       "Max Planck"
     ],
-    "explanation": "It states that position and momentum cannot both be known precisely; Schrödinger's wave equation and Bohr's complementarity are the other pillars of early quantum theory.",
-    "hook": "The more precisely you know where it is, the less you know where it is going."
+    "explanation": "Heisenberg showed in 1927 that position and momentum cannot both be known precisely. He won the 1932 Nobel, and Breaking Bad's Walter White borrowed his name as an alias.",
+    "hook": "Walter White called himself Heisenberg: uncertain who he really was."
   },
   {
     "id": "sci_101",
     "category": "science",
     "difficulty": "hard",
-    "question": "What is the largest known structure in the observable universe called?",
-    "answer": "A galaxy filament",
+    "question": "What is the name for the vast web-like pattern of galaxy filaments and empty voids that forms the largest-scale structure of the universe?",
+    "answer": "The cosmic web",
     "distractors": [
-      "A galaxy cluster",
-      "A nebula",
-      "A supernova remnant"
+      "The Great Attractor",
+      "The cosmic microwave background",
+      "The Local Group"
     ],
-    "explanation": "Filaments and walls of galaxies form the cosmic web, stretching hundreds of millions of light years and separated by immense voids.",
-    "hook": "At the largest scale the universe looks like a web, not a scatter."
+    "explanation": "Galaxies lie along filaments and sheets hundreds of millions of light years long, separated by voids. Our galaxy sits in the Laniakea supercluster, named in 2014 from the Hawaiian for 'immeasurable heaven'.",
+    "hook": "At the largest scale, the universe looks like a spider's web, not a scatter."
   },
   {
     "id": "sci_102",
     "category": "science",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which blood cells are responsible for clotting?",
     "answer": "Platelets",
     "distractors": [
@@ -1424,8 +1424,8 @@
       "Lymphocytes",
       "Neutrophils"
     ],
-    "explanation": "Platelets are cell fragments produced from megakaryocytes in bone marrow; lymphocytes and neutrophils are white cells fighting infection.",
-    "hook": "Platelets are not whole cells at all — they are fragments broken off larger ones."
+    "explanation": "Platelets are fragments broken off giant bone-marrow cells called megakaryocytes and live only about 10 days. Aspirin makes them less sticky, which is why it is used to prevent heart attacks.",
+    "hook": "Platelets are little plates that stack up to plug a leak."
   },
   {
     "id": "sci_103",
@@ -1438,8 +1438,8 @@
       "The gluon",
       "The W boson"
     ],
-    "explanation": "It remains hypothetical because gravity has not been successfully unified with quantum mechanics; photons mediate electromagnetism and gluons the strong force.",
-    "hook": "Every other force has its confirmed carrier particle; gravity's is still missing."
+    "explanation": "The graviton remains hypothetical because gravity has never been reconciled with quantum mechanics. Photons carry electromagnetism, gluons the strong force and W and Z bosons the weak force.",
+    "hook": "Every other force has a confirmed carrier; gravity's is still missing."
   },
   {
     "id": "sci_104",
@@ -1452,8 +1452,8 @@
       "John Eccles",
       "Peter Doherty"
     ],
-    "explanation": "He shared the 1960 prize with Peter Medawar; Eccles won in 1963 for nerve cell signalling and Doherty in 1996 for immune recognition of virus-infected cells.",
-    "hook": "Burnet 1960, Eccles 1963, Doherty 1996 — three Australian medicine Nobels in sequence."
+    "explanation": "Burnet shared the 1960 medicine prize with Peter Medawar and became the first Australian of the Year in 1960. Florey won in 1945 for penicillin, Eccles in 1963 for nerve signalling and Doherty in 1996 for immune recognition of infected cells.",
+    "hook": "Burnet was the very first Australian of the Year, in the same year as his Nobel."
   },
   {
     "id": "sci_105",
@@ -1466,13 +1466,13 @@
       "Calorimetry",
       "Titration"
     ],
-    "explanation": "Each element absorbs and emits at characteristic wavelengths, which is how helium was identified in the Sun's spectrum in 1868 before being found on Earth.",
-    "hook": "Helium was discovered in the Sun before anyone found any here."
+    "explanation": "Each element absorbs and emits light at its own wavelengths, like a barcode. Helium was identified in the Sun's spectrum in 1868, 27 years before it was found on Earth, hence its name from helios, the Sun.",
+    "hook": "Helium was found in the Sun before anyone found any here."
   },
   {
     "id": "sci_106",
     "category": "science",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which layer of the Earth is liquid?",
     "answer": "The outer core",
     "distractors": [
@@ -1480,8 +1480,8 @@
       "The mantle",
       "The crust"
     ],
-    "explanation": "The inner core is solid despite being hotter, because immense pressure prevents melting; convection in the liquid outer core generates Earth's magnetic field.",
-    "hook": "The hotter inner core is solid — pressure beats temperature down there."
+    "explanation": "The inner core is solid despite being hotter, because the pressure is too great for melting. Swirling molten iron in the outer core generates Earth's magnetic field; the mantle is solid rock that creeps slowly.",
+    "hook": "The hotter inner core is solid: pressure beats temperature down there."
   },
   {
     "id": "sci_107",
@@ -1494,22 +1494,22 @@
       "Recombination",
       "Genetic drift"
     ],
-    "explanation": "Chemical tags such as methylation switch genes on or off, and some marks can be inherited; the Dutch Hunger Winter cohort provided striking human evidence.",
-    "hook": "The genome is the score; epigenetics decides which parts get played."
+    "explanation": "Chemical tags such as methyl groups switch genes on or off without rewriting them. Children conceived during the Dutch Hunger Winter of 1944-45 showed health effects decades later, a famous human example.",
+    "hook": "The genome is the sheet music; epigenetics decides which parts get played."
   },
   {
     "id": "sci_108",
     "category": "science",
     "difficulty": "hard",
-    "question": "Which unit measures the energy of earthquakes on a logarithmic scale used by seismologists today?",
+    "question": "Which scale do seismologists now use to report the size of large earthquakes?",
     "answer": "The moment magnitude scale",
     "distractors": [
       "The Richter scale",
       "The Mercalli scale",
-      "The Beaufort scale"
+      "The Rossi-Forel scale"
     ],
-    "explanation": "Richter's scale saturates for very large events and has been superseded professionally; Mercalli measures observed intensity and Beaufort measures wind.",
-    "hook": "News reports still say Richter; seismologists stopped using it decades ago."
+    "explanation": "Charles Richter's 1935 scale saturates for big quakes, so the moment magnitude scale (1979) replaced it. Each whole step releases about 32 times more energy; Mercalli and Rossi-Forel measure shaking felt, not size.",
+    "hook": "News reports still say Richter; seismologists moved on in the 1970s."
   },
   {
     "id": "sci_109",
@@ -1522,22 +1522,22 @@
       "A leap",
       "A cete"
     ],
-    "explanation": "A skulk is foxes, a leap is leopards and a cete is badgers; the ferret term is a corruption of 'busyness', describing their constant motion.",
-    "hook": "Business of ferrets, skulk of foxes, leap of leopards, cete of badgers."
+    "explanation": "The term probably comes from 'busyness', describing ferrets' constant scurrying. A skulk is foxes, a leap is leopards and a cete is badgers.",
+    "hook": "Ferrets are always busy: a business."
   },
   {
     "id": "sci_110",
     "category": "science",
     "difficulty": "hard",
-    "question": "Which gas laws relate pressure and volume at constant temperature?",
+    "question": "Which gas law relates pressure and volume at constant temperature?",
     "answer": "Boyle's law",
     "distractors": [
       "Charles's law",
       "Avogadro's law",
       "Dalton's law"
     ],
-    "explanation": "Charles's law relates volume and temperature, Avogadro's relates volume and quantity, and Dalton's covers partial pressures in mixtures.",
-    "hook": "Boyle pressure-volume, Charles volume-temperature — the pair that get confused."
+    "explanation": "Robert Boyle showed in 1662 that halving a gas's volume doubles its pressure. Charles's law links volume and temperature, Avogadro's volume and amount, and Dalton's covers partial pressures in mixtures.",
+    "hook": "Boyle squeezed the bottle; Charles heated the balloon."
   },
   {
     "id": "sci_111",
@@ -1550,8 +1550,8 @@
       "The chameleon",
       "The giant squid"
     ],
-    "explanation": "Humans have three colour receptor types; the mantis shrimp's many receptors appear to allow fast recognition rather than finer colour discrimination.",
-    "hook": "Sixteen receptor types, but the evidence says it sees colour worse than we do, not better."
+    "explanation": "Humans have three colour receptor types; mantis shrimp have about 12 for colour plus others for ultraviolet and polarised light. A 2014 study at the University of Queensland found they are actually poor at telling similar colours apart.",
+    "hook": "Sixteen receptor types, but it seems to see colour worse than we do, not better."
   },
   {
     "id": "sci_112",
@@ -1564,8 +1564,8 @@
       "An electrolyte",
       "A colloid"
     ],
-    "explanation": "Blood is buffered by bicarbonate to stay near pH 7.4; a shift of a few tenths in either direction is life-threatening.",
-    "hook": "Your blood pH has about a tenth of a point of leeway before things go badly wrong."
+    "explanation": "A buffer pairs a weak acid with its salt to mop up added acid or alkali. Blood is buffered by bicarbonate to stay between pH 7.35 and 7.45; outside that range is acidosis or alkalosis.",
+    "hook": "A buffer is a shock absorber for pH."
   },
   {
     "id": "sci_113",
@@ -1576,15 +1576,15 @@
     "distractors": [
       "Hale-Bopp",
       "Comet Encke",
-      "Comet Shoemaker-Levy"
+      "Comet Shoemaker-Levy 9"
     ],
-    "explanation": "Edmond Halley predicted its return in 1758 by recognising earlier sightings as one object; it last appeared in 1986 and returns around 2061.",
-    "hook": "He never lived to see the return he predicted — it came sixteen years after his death."
+    "explanation": "Edmond Halley predicted its return for 1758 by realising earlier sightings were one object; it appears on the Bayeux Tapestry in 1066. It last passed in 1986 and returns in 2061.",
+    "hook": "Halley died in 1742, sixteen years before his comet proved him right."
   },
   {
     "id": "sci_114",
     "category": "science",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "question": "What is the name for the pigment that makes plants green?",
     "answer": "Chlorophyll",
     "distractors": [
@@ -1592,8 +1592,8 @@
       "Anthocyanin",
       "Xanthophyll"
     ],
-    "explanation": "It absorbs red and blue light and reflects green; autumn colour appears when it breaks down, revealing carotenes and xanthophylls that were there all along.",
-    "hook": "Autumn colours were always there — the green was just covering them."
+    "explanation": "Chlorophyll absorbs red and blue light and reflects green. In autumn it breaks down, revealing yellow and orange carotenoids that were there all along; anthocyanins add the reds and purples.",
+    "hook": "Chloros is Greek for green, phyllon for leaf: 'green leaf'."
   },
   {
     "id": "sci_115",
@@ -1606,7 +1606,7 @@
       "André-Marie Ampère",
       "Heinrich Hertz"
     ],
-    "explanation": "His four equations, published in the 1860s, showed light is an electromagnetic wave; Hertz later demonstrated radio waves experimentally, confirming the prediction.",
+    "explanation": "Maxwell's equations of the 1860s showed light is an electromagnetic wave. Heinrich Hertz confirmed it by making radio waves in 1887, and Einstein kept a picture of Maxwell on his study wall.",
     "hook": "Faraday did the experiments, Maxwell wrote the maths, Hertz proved it with radio."
   },
   {
@@ -1620,22 +1620,22 @@
       "Exocytosis",
       "Diffusion"
     ],
-    "explanation": "White blood cells use it to destroy pathogens; exocytosis is the reverse, expelling material, and osmosis moves water across a membrane.",
-    "hook": "Phago means 'eating' in Greek — the cell literally swallows."
+    "explanation": "White blood cells such as macrophages use phagocytosis to swallow bacteria. Exocytosis is the reverse, pushing material out, and osmosis is water crossing a membrane.",
+    "hook": "Phago means 'eating' in Greek: the cell literally swallows."
   },
   {
     "id": "sci_117",
     "category": "science",
     "difficulty": "hard",
-    "question": "Which Australian invention underpins modern wireless local area networks?",
-    "answer": "CSIRO's wi-fi patent",
+    "question": "Which everyday wireless technology owes a key patent to CSIRO radio astronomers?",
+    "answer": "Wi-Fi",
     "distractors": [
-      "The black box flight recorder",
-      "The bionic ear",
-      "Spray-on skin"
+      "Bluetooth",
+      "GPS",
+      "Near-field communication"
     ],
-    "explanation": "Radio astronomers solved the problem of signal echo in enclosed spaces, and the resulting patent earned CSIRO hundreds of millions in settlements from technology firms.",
-    "hook": "Wi-fi came out of radio astronomy — solving echo in rooms, not in space."
+    "explanation": "John O'Sullivan's team, originally chasing signals from exploding black holes, solved the problem of radio echoes bouncing round rooms. CSIRO's patent earned it hundreds of millions of dollars from tech companies.",
+    "hook": "Wi-Fi came from Aussie astronomers hunting black holes."
   },
   {
     "id": "sci_118",
@@ -1648,8 +1648,8 @@
       "Divergent evolution",
       "Speciation"
     ],
-    "explanation": "Orchids and their specific pollinating moths are a classic case; convergent evolution is unrelated species independently developing similar traits, as with wings.",
-    "hook": "Darwin predicted a moth with a foot-long tongue from an orchid's shape — it was found later."
+    "explanation": "From a Madagascan orchid with a 30-centimetre nectar spur, Darwin predicted in 1862 a moth with a matching tongue; it was found in 1903. Convergent evolution is unrelated species evolving similar traits, like wings in bats and birds.",
+    "hook": "Darwin's orchid predicted its own moth four decades early."
   },
   {
     "id": "sci_119",
@@ -1662,27 +1662,27 @@
       "The Brinell scale",
       "The Vickers scale"
     ],
-    "explanation": "It runs one to ten and is ordinal, not linear: diamond at ten is roughly four times harder than corundum at nine, not eleven per cent harder.",
-    "hook": "The steps are wildly uneven — the gap from 9 to 10 dwarfs the whole rest of the scale."
+    "explanation": "Friedrich Mohs devised it in 1812 by what scratches what. It is ordinal, not even: diamond at 10 is about four times harder than corundum at 9. Rockwell, Brinell and Vickers are engineering tests for metals.",
+    "hook": "Talc, gypsum, calcite, fluorite, apatite, feldspar, quartz, topaz, corundum, diamond: 'Toronto Girls Can Flirt And Only Quit To Chase Dwarves'."
   },
   {
     "id": "sci_120",
     "category": "science",
     "difficulty": "hard",
-    "question": "What is the name for a star that emits regular pulses of radiation?",
+    "question": "What is the name for a rapidly spinning neutron star that emits regular pulses of radiation?",
     "answer": "A pulsar",
     "distractors": [
       "A quasar",
-      "A magnetar",
+      "A white dwarf",
       "A blazar"
     ],
-    "explanation": "Jocelyn Bell Burnell detected the first in 1967 and the signal was briefly labelled LGM-1 for 'little green men'; the Nobel went to her supervisor, not to her.",
-    "hook": "The first one was jokingly catalogued as 'little green men' before the physics was understood."
+    "explanation": "Jocelyn Bell Burnell detected the first in 1967; the signal was nicknamed LGM-1 for 'little green men'. Her supervisor Antony Hewish shared the 1974 Nobel and she did not; in 2018 she gave her US$3 million Breakthrough Prize to fund physics students.",
+    "hook": "The first pulsar was jokingly logged as 'little green men'."
   },
   {
     "id": "sci_121",
     "category": "science",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which acid is the main component of vinegar?",
     "answer": "Acetic acid",
     "distractors": [
@@ -1690,8 +1690,8 @@
       "Lactic acid",
       "Formic acid"
     ],
-    "explanation": "Vinegar is typically four to eight per cent acetic acid; formic acid gives ant and nettle stings their bite, and lactic acid builds up in working muscle.",
-    "hook": "Formic acid is named for ants — formica is Latin for ant."
+    "explanation": "Vinegar is about four to eight per cent acetic acid, from the Latin acetum, vinegar. Formic acid is in ant stings, lactic acid in sour milk and working muscle, and citric acid in lemons.",
+    "hook": "Formic acid is named for ants: formica is Latin for ant."
   },
   {
     "id": "sci_122",
@@ -1704,8 +1704,8 @@
       "Parallax",
       "Nutation"
     ],
-    "explanation": "It is an illusion caused by Earth overtaking an outer planet in its orbit; explaining it drove Ptolemy's epicycles and was elegantly solved by Copernicus.",
-    "hook": "It is just overtaking — the same illusion as passing a car on the freeway."
+    "explanation": "It is an illusion caused by Earth overtaking an outer planet such as Mars. Ptolemy explained it with epicycles; Copernicus's Sun-centred model explained it simply, and astrologers blame 'Mercury retrograde' for bad luck.",
+    "hook": "It's just overtaking: like passing a slower car on the freeway."
   },
   {
     "id": "sci_123",
@@ -1718,22 +1718,22 @@
       "The lysosome",
       "The endoplasmic reticulum"
     ],
-    "explanation": "Ribosomes build proteins, the endoplasmic reticulum folds and transports them, the Golgi sorts and packages, and lysosomes break down waste.",
-    "hook": "Ribosome builds, ER folds, Golgi wraps, lysosome disposes — a cellular production line."
+    "explanation": "Camillo Golgi described it in 1898 using a silver stain. Ribosomes build proteins, the endoplasmic reticulum folds them, the Golgi sorts and packages them, and lysosomes break down waste.",
+    "hook": "Ribosome builds, ER folds, Golgi wraps, lysosome disposes: a cellular post office."
   },
   {
     "id": "sci_124",
     "category": "science",
     "difficulty": "hard",
-    "question": "What is the name of the Australian telescope that received Apollo 11's moonwalk footage?",
+    "question": "Which NSW radio telescope, the star of the film The Dish, relayed most of the Apollo 11 moonwalk to world TV?",
     "answer": "Parkes",
     "distractors": [
+      "Honeysuckle Creek",
       "Siding Spring",
-      "Mount Stromlo",
-      "Tidbinbilla"
+      "Narrabri"
     ],
-    "explanation": "The Parkes radio telescope in New South Wales relayed most of the television broadcast to a worldwide audience of some 600 million, a story dramatised in the 2000 film The Dish.",
-    "hook": "The Dish is a true story — most of the moonwalk reached the world via a paddock in NSW."
+    "explanation": "Honeysuckle Creek near Canberra sent the first minutes including Armstrong's first step, then Parkes took over for most of the 2.5-hour broadcast to about 600 million viewers. The dish now also carries the Wiradjuri name Murriyang.",
+    "hook": "Honeysuckle got the first step, Parkes got the rest."
   },
   {
     "id": "sci_125",
@@ -1746,7 +1746,7 @@
       "Rickets",
       "Scurvy"
     ],
-    "explanation": "It became common when polished white rice replaced brown; pellagra comes from niacin deficiency, rickets from vitamin D and scurvy from vitamin C.",
+    "explanation": "Beriberi spread when polished white rice replaced brown rice in Asia, as polishing strips out thiamine. Pellagra comes from lack of niacin (B3), rickets from lack of vitamin D and scurvy from lack of vitamin C.",
     "hook": "Polishing rice removed the vitamin and caused the disease."
   },
   {
@@ -1760,7 +1760,7 @@
       "Perigee",
       "Apogee"
     ],
-    "explanation": "Aphelion is the farthest point from the Sun; perigee and apogee are the equivalents for orbits around Earth, as with the Moon.",
+    "explanation": "Earth reaches perihelion in early January, during the southern summer, so distance does not cause seasons; axial tilt does. Perigee and apogee are the nearest and farthest points of orbits round Earth, as with the Moon.",
     "hook": "Peri means near, ap means far; helion for the Sun, gee for the Earth."
   },
   {
@@ -1774,8 +1774,8 @@
       "Isostasy",
       "Uniformitarianism"
     ],
-    "explanation": "Wegener proposed continental drift in 1912 without a mechanism and was largely dismissed; seafloor spreading evidence in the 1960s supplied one and vindicated him posthumously.",
-    "hook": "Wegener was right and ridiculed — the proof arrived thirty years after he died."
+    "explanation": "Alfred Wegener proposed continental drift in 1912 but had no mechanism and was dismissed. Seafloor spreading evidence in the 1960s supplied one; Australia is moving north at about seven centimetres a year.",
+    "hook": "Australia drifts north about twice as fast as your fingernails grow."
   },
   {
     "id": "sci_128",
@@ -1788,13 +1788,13 @@
       "A photon",
       "A fermion"
     ],
-    "explanation": "Planck introduced the idea in 1900 to solve the black-body radiation problem; a photon is specifically the quantum of the electromagnetic field.",
-    "hook": "Planck invented the idea reluctantly, as a mathematical trick that turned out to be real."
+    "explanation": "Max Planck introduced energy quanta in 1900 to solve the black-body radiation problem, calling it an act of desperation. A photon is the quantum of light, as Einstein showed in 1905.",
+    "hook": "A 'quantum leap' is actually the smallest possible jump, not a giant one."
   },
   {
     "id": "sci_129",
     "category": "science",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which Australian marsupial predator became extinct in the twentieth century?",
     "answer": "The thylacine",
     "distractors": [
@@ -1802,13 +1802,13 @@
       "The numbat",
       "The Tasmanian devil"
     ],
-    "explanation": "The last known individual died at Hobart Zoo in 1936, two months after the species was granted protection; the numbat and devil survive but are threatened.",
+    "explanation": "The last known thylacine died at Hobart's Beaumaris Zoo in September 1936, two months after the species was protected. Numbats eat termites rather than hunting prey, and devils are threatened by a contagious facial cancer.",
     "hook": "Protection arrived two months before the last one died."
   },
   {
     "id": "sci_130",
     "category": "science",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "What is the name for the study of how organisms are classified and named?",
     "answer": "Taxonomy",
     "distractors": [
@@ -1816,7 +1816,357 @@
       "Ethology",
       "Morphology"
     ],
-    "explanation": "Linnaeus established binomial nomenclature in the eighteenth century; ethology studies behaviour, ecology studies relationships and morphology studies form.",
-    "hook": "Kingdom, Phylum, Class, Order, Family, Genus, Species — the Linnaean ladder."
+    "explanation": "Carl Linnaeus founded two-part scientific names such as Homo sapiens in the 1750s. Ethology studies behaviour, ecology relationships with the environment and morphology body form.",
+    "hook": "Kingdom, Phylum, Class, Order, Family, Genus, Species: King Philip Came Over For Good Soup."
+  },
+  {
+    "id": "sci_131",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What do honeybees collect from flowers and turn into honey?",
+    "answer": "Nectar",
+    "distractors": [
+      "Pollen",
+      "Sap",
+      "Dew"
+    ],
+    "explanation": "Bees drink sugary nectar, add enzymes and fan it with their wings until most of the water evaporates. Pollen is collected too, but as protein food for larvae, not for honey.",
+    "hook": "Pollen feeds the babies; nectar fills the honey pot."
+  },
+  {
+    "id": "sci_132",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "How many legs does an insect have?",
+    "answer": "Six",
+    "distractors": [
+      "Eight",
+      "Four",
+      "Ten"
+    ],
+    "explanation": "All insects have six legs and three body parts: head, thorax and abdomen. Spiders have eight legs and two body parts, so they are arachnids, not insects.",
+    "hook": "Six legs, insect; eight legs, spider."
+  },
+  {
+    "id": "sci_133",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which element has the chemical symbol Fe?",
+    "answer": "Iron",
+    "distractors": [
+      "Fluorine",
+      "Fermium",
+      "Lead"
+    ],
+    "explanation": "Fe comes from the Latin ferrum, which also gives 'ferrous' and 'ferric'. Iron is the most common element in Earth by mass because of the core, and Australia is the world's biggest iron ore exporter, mostly from WA's Pilbara.",
+    "hook": "Ferrum, ferrous, ferry-to-the-Pilbara: Fe is iron."
+  },
+  {
+    "id": "sci_134",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What does a seismograph measure?",
+    "answer": "Earthquakes",
+    "distractors": [
+      "Air pressure",
+      "Wind speed",
+      "Rainfall"
+    ],
+    "explanation": "A seismograph records ground shaking, letting scientists locate quakes by comparing arrival times at several stations. Air pressure is measured by a barometer and wind speed by an anemometer.",
+    "hook": "Seismos is Greek for 'shaking'."
+  },
+  {
+    "id": "sci_135",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Dolly, born in 1996 as the first mammal cloned from an adult cell, was what kind of animal?",
+    "answer": "A sheep",
+    "distractors": [
+      "A goat",
+      "A cow",
+      "A pig"
+    ],
+    "explanation": "Dolly was cloned at the Roslin Institute in Scotland from a mammary gland cell. The scientists named her after Dolly Parton for that reason.",
+    "hook": "Cloned from a mammary cell, so she was named after Dolly Parton."
+  },
+  {
+    "id": "sci_136",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "What kind of animal is the Komodo dragon?",
+    "answer": "A lizard",
+    "distractors": [
+      "A crocodilian",
+      "A snake",
+      "A salamander"
+    ],
+    "explanation": "It is the world's largest living lizard, up to about three metres long, found on a few Indonesian islands. It is a monitor, the same family as Australia's goannas, and its bite carries venom.",
+    "hook": "A Komodo dragon is a giant goanna."
+  },
+  {
+    "id": "sci_137",
+    "category": "science",
+    "difficulty": "easy",
+    "question": "Which organ in the human body produces bile?",
+    "answer": "The liver",
+    "distractors": [
+      "The gall bladder",
+      "The pancreas",
+      "The spleen"
+    ],
+    "explanation": "The liver makes bile, and the gall bladder only stores and concentrates it. Bile emulsifies fats in the small intestine, and people can live normally after having their gall bladder removed.",
+    "hook": "The gall bladder is the storage shed; the liver is the factory."
+  },
+  {
+    "id": "sci_138",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "As of 2026, which planet has the most confirmed moons?",
+    "answer": "Saturn",
+    "distractors": [
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ],
+    "explanation": "Saturn passed Jupiter in 2023 and a batch of 128 new moons in 2025 put it far ahead; by March 2026 the count was 285 against Jupiter's 101. Most are tiny captured rocks only a few kilometres across.",
+    "hook": "Saturn wins on rings and on moons, by a mile."
+  },
+  {
+    "id": "sci_139",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "In 2005 Australians Barry Marshall and Robin Warren won a Nobel for showing which bacterium causes most stomach ulcers?",
+    "answer": "Helicobacter pylori",
+    "distractors": [
+      "Escherichia coli",
+      "Staphylococcus aureus",
+      "Salmonella enterica"
+    ],
+    "explanation": "Doctors blamed ulcers on stress and acid until the pair's work at Royal Perth Hospital. To prove it, Marshall drank a culture of the bacterium in 1984 and developed gastritis.",
+    "hook": "Marshall drank the bug to prove his point."
+  },
+  {
+    "id": "sci_140",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which invention did Australian surgeon Graeme Clark develop to restore hearing to profoundly deaf people?",
+    "answer": "The cochlear implant",
+    "distractors": [
+      "The black box flight recorder",
+      "Spray-on skin",
+      "The ultrasound scanner"
+    ],
+    "explanation": "Clark's multi-channel 'bionic ear' was first implanted in Melbourne in 1978, and Cochlear Ltd was founded to make it. David Warren invented the black box and Fiona Wood spray-on skin.",
+    "hook": "Clark's 'bionic ear' went into the cochlea, the snail-shaped inner ear."
+  },
+  {
+    "id": "sci_141",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which vitamin is essential for blood clotting?",
+    "answer": "Vitamin K",
+    "distractors": [
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin B12"
+    ],
+    "explanation": "Vitamin K lets the liver make clotting factors, which is why newborns get a vitamin K injection. The blood thinner warfarin works by blocking it, and leafy greens are the main dietary source.",
+    "hook": "K for Koagulation, the German word that gave it its letter."
+  },
+  {
+    "id": "sci_142",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Devil facial tumour disease, which has devastated Tasmanian devils, is an unusual example of what?",
+    "answer": "A contagious cancer",
+    "distractors": [
+      "A viral infection",
+      "A fungal infection",
+      "A prion disease"
+    ],
+    "explanation": "The tumour cells themselves pass between devils through bites during fighting and mating. Only a handful of transmissible cancers are known, including one in dogs; it has cut devil numbers by about 80 per cent since 1996.",
+    "hook": "Devils bite each other and pass the cancer cells on directly."
+  },
+  {
+    "id": "sci_143",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What is the Latin name of the constellation known as the Southern Cross?",
+    "answer": "Crux",
+    "distractors": [
+      "Centaurus",
+      "Carina",
+      "Musca"
+    ],
+    "explanation": "Crux is the smallest of the 88 constellations and appears on the Australian and New Zealand flags. The two Pointers beside it, Alpha and Beta Centauri, belong to Centaurus.",
+    "hook": "Crux means cross; the Pointers belong to the Centaur."
+  },
+  {
+    "id": "sci_144",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "What was the name of the supercontinent that began breaking apart about 200 million years ago?",
+    "answer": "Pangaea",
+    "distractors": [
+      "Gondwana",
+      "Laurasia",
+      "Rodinia"
+    ],
+    "explanation": "Pangaea split into Laurasia in the north and Gondwana in the south, which later broke into Australia, Antarctica, Africa, South America and India. Rodinia was an earlier supercontinent.",
+    "hook": "Pan-gaea means 'all the Earth'; Gondwana was only the southern half."
+  },
+  {
+    "id": "sci_145",
+    "category": "science",
+    "difficulty": "medium",
+    "question": "Which space telescope, launched on Christmas Day 2021, observes mainly in infrared light?",
+    "answer": "The James Webb Space Telescope",
+    "distractors": [
+      "The Hubble Space Telescope",
+      "The Spitzer Space Telescope",
+      "The Kepler Space Telescope"
+    ],
+    "explanation": "Webb's 6.5-metre gold-coated mirror sits 1.5 million kilometres from Earth, shaded by a tennis-court-sized sunshield. Infrared lets it see through dust and spot the stretched light of the earliest galaxies.",
+    "hook": "Webb was a Christmas present to astronomers."
+  },
+  {
+    "id": "sci_146",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which dwarf planet, discovered in 2005 and more massive than Pluto, prompted the 2006 redefinition of a planet?",
+    "answer": "Eris",
+    "distractors": [
+      "Ceres",
+      "Makemake",
+      "Haumea"
+    ],
+    "explanation": "Eris is about 27 per cent more massive than Pluto, though New Horizons showed Pluto is slightly wider. Named after the Greek goddess of strife, it forced the vote that demoted Pluto.",
+    "hook": "Eris, goddess of discord, started the fight that cost Pluto its title."
+  },
+  {
+    "id": "sci_147",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which element, officially named in 2016, has the highest atomic number on the periodic table?",
+    "answer": "Oganesson",
+    "distractors": [
+      "Tennessine",
+      "Moscovium",
+      "Nihonium"
+    ],
+    "explanation": "Oganesson is element 118, named after Russian nuclear physicist Yuri Oganessian, only the second living person to have an element named after him. It completes row seven; no element 119 or 120 has yet been made.",
+    "hook": "The last element, 118, ends in -on like the other noble gases."
+  },
+  {
+    "id": "sci_148",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Since 2019 the kilogram has been defined by fixing the value of which constant?",
+    "answer": "Planck's constant",
+    "distractors": [
+      "Avogadro's constant",
+      "Boltzmann's constant",
+      "The speed of light"
+    ],
+    "explanation": "Before 2019 the kilogram was a platinum-iridium cylinder in a Paris vault, Le Grand K. Now it is measured with a Kibble balance tied to Planck's constant; Boltzmann's constant defines the kelvin.",
+    "hook": "Le Grand K retired; Planck took over the kilo."
+  },
+  {
+    "id": "sci_149",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which Tasmanian-born scientist shared the 2009 Nobel Prize for discovering telomerase?",
+    "answer": "Elizabeth Blackburn",
+    "distractors": [
+      "Suzanne Cory",
+      "Fiona Wood",
+      "Ruby Payne-Scott"
+    ],
+    "explanation": "Telomerase rebuilds telomeres, the protective caps on chromosome ends that shorten as cells age. Blackburn, born in Hobart, was the first Australian woman to win a Nobel.",
+    "hook": "Telomeres are like the plastic tips on shoelaces, and Blackburn found what rebuilds them."
+  },
+  {
+    "id": "sci_150",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which unit of astronomical distance equals about 3.26 light years?",
+    "answer": "The parsec",
+    "distractors": [
+      "The astronomical unit",
+      "The light-minute",
+      "The lunar distance"
+    ],
+    "explanation": "A parsec is the distance at which a star would shift by one arcsecond of parallax as Earth orbits the Sun. The astronomical unit is the Earth-Sun distance, about 150 million kilometres.",
+    "hook": "Han Solo bragged of doing the Kessel Run in 12 parsecs: a distance, not a time."
+  },
+  {
+    "id": "sci_151",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which element is the most electronegative, pulling electrons harder than any other?",
+    "answer": "Fluorine",
+    "distractors": [
+      "Oxygen",
+      "Chlorine",
+      "Nitrogen"
+    ],
+    "explanation": "Fluorine tops the Pauling scale at about 4.0, so it reacts with almost everything. It is added to Australian tap water as fluoride, and bonded to carbon it forms the non-stick coating Teflon.",
+    "hook": "Fluorine is the most grabby element on the table: top right, minus the noble gases."
+  },
+  {
+    "id": "sci_152",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which microbes built the living stromatolites of Shark Bay in Western Australia?",
+    "answer": "Cyanobacteria",
+    "distractors": [
+      "Archaea",
+      "Diatoms",
+      "Dinoflagellates"
+    ],
+    "explanation": "Cyanobacteria trap sediment in layered mats, and their ancient relatives pumped the oxygen into Earth's early atmosphere. Hamelin Pool at Shark Bay has the world's most diverse living stromatolites.",
+    "hook": "Cyano means blue-green: the blue-green algae that made our oxygen."
+  },
+  {
+    "id": "sci_153",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which mineral, from the Jack Hills in Western Australia, holds the oldest dated fragments of Earth's crust?",
+    "answer": "Zircon",
+    "distractors": [
+      "Garnet",
+      "Olivine",
+      "Quartz"
+    ],
+    "explanation": "Zircon crystals about 4.4 billion years old show that crust and probably water existed soon after Earth formed. Zircon survives erosion and traps uranium, which makes it ideal for dating.",
+    "hook": "Zircon is a time capsule: tough, and a built-in uranium clock."
+  },
+  {
+    "id": "sci_154",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Which planet has the fastest winds measured in the solar system?",
+    "answer": "Neptune",
+    "distractors": [
+      "Jupiter",
+      "Saturn",
+      "Uranus"
+    ],
+    "explanation": "Neptune's winds reach about 2,000 kilometres per hour, faster than the speed of sound on Earth. Voyager 2 flew past in 1989, and it remains the only spacecraft to visit.",
+    "hook": "The coldest, furthest planet is also the windiest."
+  },
+  {
+    "id": "sci_155",
+    "category": "science",
+    "difficulty": "hard",
+    "question": "Male platypuses deliver venom through a spur on which part of the body?",
+    "answer": "The hind legs",
+    "distractors": [
+      "The front feet",
+      "The bill",
+      "The tail"
+    ],
+    "explanation": "The spur on each hind ankle delivers venom that causes excruciating pain in humans but is rarely dangerous. Venom production rises in the breeding season, suggesting it is used against rival males.",
+    "hook": "The platypus kicks backwards: its sting is in the heel."
   }
 ]

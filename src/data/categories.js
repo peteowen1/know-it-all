@@ -66,6 +66,22 @@ export const CATEGORY_LIST = [
     icon: '🎬',
     color: '#14b8a6',
     blurb: 'Oscars, Beatles, Bond, television firsts and the songs everyone half-knows.'
+  },
+  {
+    id: 'food_drink',
+    name: 'Food & Drink',
+    short: 'Food & Drink',
+    icon: '🍷',
+    color: '#d97706',
+    blurb: 'Where dishes come from, cocktails, cheeses, wine regions, spirits and famous chefs.'
+  },
+  {
+    id: 'world_leaders',
+    name: 'Leaders, Royals & World Affairs',
+    short: 'Leaders & Royals',
+    icon: '👑',
+    color: '#0ea5e9',
+    blurb: 'Presidents and prime ministers, monarchs and the royal family, the UN and world politics.'
   }
 ];
 

@@ -10,8 +10,8 @@
       "China",
       "The United States"
     ],
-    "explanation": "It covers about 17 million square kilometres across eleven time zones, roughly twice the area of the second-placed country and more than the whole of Antarctica.",
-    "hook": "Eleven time zones — you can leave Kaliningrad at breakfast and arrive in Kamchatka half a day later."
+    "explanation": "Russia covers about 17.1 million square kilometres, roughly 1.7 times second-placed Canada and more than Antarctica, spread across eleven time zones. The next favourite follow-up is the second-largest country, Canada, which beats the US and China only because of its vast area of lakes.",
+    "hook": "Russia is so wide that when Kaliningrad has breakfast, Kamchatka is already having dinner."
   },
   {
     "id": "geo_002",
@@ -24,8 +24,8 @@
       "The Niger",
       "The Zambezi"
     ],
-    "explanation": "Running about 6,650 kilometres from the Great Lakes region to the Mediterranean, it drains eleven countries; the Amazon carries far more water but has long disputed the length record.",
-    "hook": "Longest in Africa, longest in the world by most measures — but the Amazon wins on volume."
+    "explanation": "Running about 6,650 kilometres from the Great Lakes to the Mediterranean, its basin touches eleven countries. It is usually ranked the world's longest river, but some Brazilian surveys make the Amazon longer, and the Amazon carries far more water either way; the Congo, the usual wrong answer, is Africa's deepest and second-longest.",
+    "hook": "Nile is long, Congo is deep, Amazon is heavy."
   },
   {
     "id": "geo_003",
@@ -38,8 +38,8 @@
       "Montreal",
       "Vancouver"
     ],
-    "explanation": "Queen Victoria chose it in 1857 as a compromise between English-speaking Upper Canada and French-speaking Lower Canada; Toronto and Montreal are both far larger.",
-    "hook": "A compromise capital picked by a queen who never went there."
+    "explanation": "Queen Victoria chose Ottawa in 1857 as a compromise between English-speaking Toronto and French-speaking Montreal (and Quebec City), and because it sat further from the American border. Toronto is the largest city, which is why it is the most common wrong answer.",
+    "hook": "Ottawa sits on the river between Ontario and Quebec, splitting the English–French difference."
   },
   {
     "id": "geo_004",
@@ -52,8 +52,8 @@
       "Kangchenjunga",
       "Denali"
     ],
-    "explanation": "It stands 8,849 metres above sea level on the Nepal-Tibet border; measured from base to summit Mauna Kea is taller, and measured from Earth's centre Chimborazo wins.",
-    "hook": "Three different mountains hold the record depending on where you start measuring."
+    "explanation": "Everest's official height, agreed by Nepal and China in 2020, is 8,848.86 metres, on the Nepal–Tibet border. K2 is second at 8,611 metres and Kangchenjunga third; measured base to summit Hawaii's Mauna Kea is taller, and measured from Earth's centre Ecuador's Chimborazo wins.",
+    "hook": "Everest, K2, Kangchenjunga: E, K, K, the top three in order."
   },
   {
     "id": "geo_005",
@@ -66,8 +66,8 @@
       "The Kalahari",
       "The Arabian"
     ],
-    "explanation": "It spans roughly nine million square kilometres across northern Africa, about the size of the United States; Antarctica is technically the largest desert of any kind.",
-    "hook": "Antarctica is the biggest desert — a desert is about rainfall, not heat."
+    "explanation": "The Sahara spans about nine million square kilometres across eleven countries, roughly the size of the United States or China. A desert is defined by low rainfall, not heat, so Antarctica is the largest desert overall and the Arctic second; the Arabian is the second-largest hot desert.",
+    "hook": "'Sahara' simply means 'desert' in Arabic, so 'Sahara Desert' is really 'Desert Desert'."
   },
   {
     "id": "geo_006",
@@ -80,8 +80,8 @@
       "Osaka",
       "Yokohama"
     ],
-    "explanation": "It became the seat of government in 1868 when the emperor moved from Kyoto, and its name means 'eastern capital'; the greater metropolitan area is the world's most populous.",
-    "hook": "Kyoto and Tokyo are anagrams of each other, and one replaced the other."
+    "explanation": "It became the imperial capital in 1868–69 when the Meiji emperor moved from Kyoto, and its name means 'eastern capital'. For decades it was the world's largest urban area, but the UN's 2025 estimates put it third behind Jakarta and Dhaka.",
+    "hook": "Kyoto and Tokyo are anagrams, and one replaced the other as capital."
   },
   {
     "id": "geo_007",
@@ -94,8 +94,8 @@
       "The Indian",
       "The Southern"
     ],
-    "explanation": "It covers about a third of Earth's surface, more than all the land on the planet combined, and contains the Mariana Trench, the deepest point in any ocean.",
-    "hook": "One ocean covers more of the planet than every continent put together."
+    "explanation": "It covers about a third of Earth's surface, more than all the land combined, and contains the Mariana Trench, the deepest point in any ocean. Ferdinand Magellan named it 'peaceful' after an unusually calm crossing in 1520–21; the Atlantic is second and the Arctic the smallest.",
+    "hook": "Magellan called it peaceful after one lucky calm voyage; the name stuck despite the typhoons."
   },
   {
     "id": "geo_008",
@@ -108,8 +108,8 @@
       "The United States",
       "Indonesia"
     ],
-    "explanation": "India passed China in 2023 according to UN estimates, with both nations above 1.4 billion; the two together hold about a third of humanity.",
-    "hook": "The lead changed hands in 2023 after China had held it for centuries."
+    "explanation": "India passed China in 2023 according to UN estimates, with both above 1.4 billion and together holding more than a third of humanity. China's population has been shrinking since 2022, while the United States remains a distant third.",
+    "hook": "2023 was the year the crown passed from China to India, and China has been shrinking ever since."
   },
   {
     "id": "geo_009",
@@ -122,8 +122,8 @@
       "The Red Sea",
       "The Adriatic"
     ],
-    "explanation": "Its name means 'in the middle of the land', and it connects to the Atlantic through the nine-mile Strait of Gibraltar and to the Red Sea via the Suez Canal.",
-    "hook": "The name literally means 'middle of the earth' — which is how the Romans saw it."
+    "explanation": "Its Latin name means 'in the middle of the land'. It meets the Atlantic through the 14-kilometre Strait of Gibraltar and reaches the Red Sea via the Suez Canal; the Red Sea, the common wrong answer, separates Africa from Asia instead.",
+    "hook": "Medi-terranean: 'middle of the lands', which is exactly how the Romans saw it."
   },
   {
     "id": "geo_010",
@@ -136,8 +136,8 @@
       "Christchurch",
       "Dunedin"
     ],
-    "explanation": "It became capital in 1865, replacing Auckland because the South Island was threatening to form its own colony and wanted the seat of government further south.",
-    "hook": "The capital moved south to stop the South Island seceding."
+    "explanation": "It replaced Auckland in 1865 after a commission of three Australians picked it for its central position on Cook Strait, partly to calm South Island talk of separation. Auckland is far larger, and Wellington is the southernmost capital of any sovereign state.",
+    "hook": "Australians chose New Zealand's capital, and they picked the windy middle."
   },
   {
     "id": "geo_011",
@@ -150,8 +150,8 @@
       "Asia",
       "North America"
     ],
-    "explanation": "It spans nine countries with roughly sixty per cent in Brazil, covers about 5.5 million square kilometres, and holds around ten per cent of all known species.",
-    "hook": "Nine countries share it, but Brazil holds three fifths."
+    "explanation": "The rainforest spans nine countries and territories, about sixty per cent of it in Brazil, and covers roughly 5.5 million square kilometres. The river was named by Spanish explorer Francisco de Orellana after fierce women warriors he reported fighting, echoing the Amazons of Greek myth.",
+    "hook": "Named after Greek warrior women by a Spaniard who thought he'd met some."
   },
   {
     "id": "geo_012",
@@ -164,22 +164,22 @@
       "Luxor",
       "Giza"
     ],
-    "explanation": "Founded in 969 CE by the Fatimids, it sits at the head of the Nile Delta and is the largest city in the Arab world; a new administrative capital is being built to its east.",
-    "hook": "The pyramids are at Giza, right next door — not in the capital itself."
+    "explanation": "Founded in 969 CE by the Fatimids, it sits at the head of the Nile Delta and is the largest city in the Arab world. Ministries have been moving to a purpose-built New Administrative Capital to the east, and Alexandria was the capital in Ptolemaic and Roman times.",
+    "hook": "The pyramids are at Giza, just across the river, so Giza is the classic trap."
   },
   {
     "id": "geo_013",
     "category": "geography",
     "difficulty": "easy",
-    "question": "Which strait separates Australia from Tasmania?",
+    "question": "Which strait separates mainland Australia from Tasmania?",
     "answer": "Bass Strait",
     "distractors": [
       "Torres Strait",
       "Cook Strait",
-      "The Great Australian Bight"
+      "Foveaux Strait"
     ],
-    "explanation": "It is around 240 kilometres wide and named for George Bass, who with Matthew Flinders proved Tasmania was an island in 1798; Torres Strait separates Australia from New Guinea.",
-    "hook": "Bass at the bottom, Torres at the top — alphabetical order runs south to north."
+    "explanation": "It is about 240 kilometres wide and named for surgeon George Bass, who with Matthew Flinders sailed around Tasmania in 1798–99 and proved it was an island. Torres Strait separates Australia from New Guinea, while Cook and Foveaux straits are in New Zealand.",
+    "hook": "Bass is the low note at the bottom of the map; Torres is up top."
   },
   {
     "id": "geo_014",
@@ -192,8 +192,8 @@
       "Ecuador",
       "Chile"
     ],
-    "explanation": "The fifteenth-century Inca citadel sits at 2,430 metres in the Andes and was brought to Western attention by Hiram Bingham in 1911, though local farmers had never lost track of it.",
-    "hook": "It was never 'lost' — locals were farming there when Bingham arrived."
+    "explanation": "The fifteenth-century Inca citadel sits about 2,430 metres up in the Andes above the Urubamba valley, a train or trek from the old Inca capital Cusco. Hiram Bingham publicised it in 1911, though local farmers were living there when he arrived.",
+    "hook": "Machu Picchu means 'old peak' in Quechua; the peak in every photo is Huayna Picchu, 'young peak'."
   },
   {
     "id": "geo_015",
@@ -206,8 +206,8 @@
       "San Marino",
       "Nauru"
     ],
-    "explanation": "It covers 0.49 square kilometres inside Rome and has fewer than a thousand residents; Monaco is second at about two square kilometres.",
-    "hook": "Half a square kilometre — you could walk its border in under an hour."
+    "explanation": "It covers less than half a square kilometre inside Rome and has fewer than a thousand residents. Monaco is second at about two square kilometres, Nauru third, and Tuvalu fourth.",
+    "hook": "You could walk the Vatican's whole border in under an hour, and that includes a coffee stop."
   },
   {
     "id": "geo_016",
@@ -220,8 +220,8 @@
       "Brisbane",
       "Hobart"
     ],
-    "explanation": "Founded as the Swan River Colony in 1829, it is one of the most isolated major cities on Earth, closer to Jakarta than to Sydney.",
-    "hook": "Perth is closer to Jakarta than to Sydney."
+    "explanation": "Founded as the Swan River Colony in 1829, it is one of the most isolated big cities on Earth, closer to Jakarta than to Sydney. The river was named by Dutch explorer Willem de Vlamingh in 1697 after its black swans, now WA's state emblem.",
+    "hook": "Black swans on the Swan: the bird is on the state flag too."
   },
   {
     "id": "geo_017",
@@ -234,8 +234,8 @@
       "Portugal",
       "Croatia"
     ],
-    "explanation": "The peninsula's outline gives Sicily the appearance of a football at the toe; the country also contains two independent enclaves, San Marino and Vatican City.",
-    "hook": "The boot is kicking Sicily, and there are two countries inside it."
+    "explanation": "The peninsula's outline has Calabria as the toe, Puglia as the heel and Sicily as the ball being kicked. Italy also completely surrounds two independent countries, San Marino and Vatican City.",
+    "hook": "The boot kicks Sicily, and it's carrying two tiny countries in its pocket."
   },
   {
     "id": "geo_018",
@@ -248,8 +248,8 @@
       "Seville",
       "Valencia"
     ],
-    "explanation": "Philip II moved the court there in 1561 partly because it sits almost exactly at the geographic centre of the Iberian Peninsula, marked by the Puerta del Sol.",
-    "hook": "It was chosen for being in the middle of the map, not for anything else."
+    "explanation": "Philip II moved his court there in 1561, helped by its position near the centre of the Iberian Peninsula. A plaque in the Puerta del Sol marks Kilometre Zero, the point from which Spain's national roads are measured; Barcelona is the second city and Catalonia's capital.",
+    "hook": "Every Spanish road distance is counted from one paving stone in central Madrid."
   },
   {
     "id": "geo_019",
@@ -262,8 +262,8 @@
       "Borneo",
       "Madagascar"
     ],
-    "explanation": "It covers about 2.2 million square kilometres; Australia is larger but is classified as a continental landmass rather than an island.",
-    "hook": "Australia is bigger but doesn't count — it is a continent, not an island."
+    "explanation": "It covers about 2.2 million square kilometres, most of it under an ice sheet up to three kilometres thick. Australia is bigger but counts as a continent; New Guinea is second and Borneo third.",
+    "hook": "Greenland is mostly white and Iceland is quite green: the Viking names were a marketing trick."
   },
   {
     "id": "geo_020",
@@ -272,26 +272,26 @@
     "question": "Which two countries share the world's longest international border?",
     "answer": "Canada and the United States",
     "distractors": [
+      "Russia and Kazakhstan",
       "Russia and China",
-      "Argentina and Chile",
-      "India and Bangladesh"
+      "Argentina and Chile"
     ],
-    "explanation": "The boundary runs about 8,890 kilometres including the Alaska section, much of it along the 49th parallel, and is the longest undefended border in the world.",
-    "hook": "Nearly 9,000 kilometres, and much of it is a dead-straight line of latitude."
+    "explanation": "The boundary runs about 8,890 kilometres including the Alaska section, much of it along the 49th parallel. Russia–Kazakhstan is second at about 7,600 kilometres and Argentina–Chile third, running down the spine of the Andes.",
+    "hook": "Nearly 9,000 kilometres, and a long stretch of it is a ruler-straight line of latitude."
   },
   {
     "id": "geo_021",
     "category": "geography",
     "difficulty": "easy",
-    "question": "Which lake is the largest freshwater lake in Africa by area?",
+    "question": "Which lake is the largest in Africa by area?",
     "answer": "Lake Victoria",
     "distractors": [
       "Lake Tanganyika",
       "Lake Malawi",
       "Lake Chad"
     ],
-    "explanation": "Shared by Tanzania, Uganda and Kenya, it is the world's second-largest freshwater lake by surface area; Lake Tanganyika is deeper and holds more water.",
-    "hook": "Widest in Africa, but Tanganyika is far deeper and holds more."
+    "explanation": "Shared by Tanzania, Uganda and Kenya, it is the world's second-largest freshwater lake by surface area after Lake Superior and a main source of the White Nile. Lake Tanganyika is deeper, longer and holds far more water.",
+    "hook": "Victoria is the widest, Tanganyika the deepest: breadth versus depth."
   },
   {
     "id": "geo_022",
@@ -300,12 +300,12 @@
     "question": "What is the capital of Argentina?",
     "answer": "Buenos Aires",
     "distractors": [
-      "Cordoba",
+      "Córdoba",
       "Rosario",
       "Montevideo"
     ],
-    "explanation": "The name means 'good airs' and its residents are called porteños, 'people of the port'; Montevideo, often confused with it, is the capital of neighbouring Uruguay.",
-    "hook": "'Good airs' for the city; its people are named for the port, not the city."
+    "explanation": "The name means 'good airs', and locals are called porteños, 'people of the port', on the Río de la Plata estuary. Montevideo, the capital of Uruguay, sits across the same estuary, which is why it is often confused.",
+    "hook": "Two capitals stare at each other across one river mouth, and only one is Argentine."
   },
   {
     "id": "geo_023",
@@ -318,22 +318,22 @@
       "The Carpathians",
       "The Alps"
     ],
-    "explanation": "The range runs roughly 2,500 kilometres north to south and is the conventional dividing line between the two continents, along with the Ural River and the Caucasus.",
-    "hook": "A single mountain range is the reason Russia counts as two continents."
+    "explanation": "The range runs about 2,500 kilometres north to south and is the conventional boundary, continued south by the Ural River. Further south the line runs through the Caucasus, whose Mount Elbrus is often named Europe's highest peak.",
+    "hook": "The Urals divide the continents; the Caucasus gives Europe its roof in Elbrus."
   },
   {
     "id": "geo_024",
     "category": "geography",
-    "difficulty": "easy",
-    "question": "Which country has the most time zones?",
+    "difficulty": "medium",
+    "question": "Which country spans the most time zones once overseas territories are counted?",
     "answer": "France",
     "distractors": [
       "Russia",
       "The United States",
-      "Australia"
+      "The United Kingdom"
     ],
-    "explanation": "Counting its overseas departments and territories from French Polynesia to Réunion, France spans twelve time zones; Russia has eleven within one contiguous landmass.",
-    "hook": "France beats Russia because of islands, not land."
+    "explanation": "Counting overseas departments and territories from French Polynesia to Réunion and New Caledonia, France spans twelve time zones, thirteen with its Antarctic claim. Russia has the most in one continuous landmass with eleven, and the US also has eleven counting its territories.",
+    "hook": "France wins on islands, not land: the sun never sets on the French Republic."
   },
   {
     "id": "geo_025",
@@ -346,8 +346,8 @@
       "Kampala",
       "Dar es Salaam"
     ],
-    "explanation": "It began as a railway depot in 1899 and is the only capital city in the world with a national park inside its boundaries.",
-    "hook": "The only capital where lions live within the city limits."
+    "explanation": "It began as a depot on the Uganda Railway in 1899, and its name comes from a Maasai phrase meaning 'cool water'. Nairobi National Park lies within the city limits, so giraffes and lions can be photographed against office towers; Mombasa is the main port.",
+    "hook": "Nairobi is the rare capital where lions share the skyline."
   },
   {
     "id": "geo_026",
@@ -357,11 +357,11 @@
     "answer": "Western Australia",
     "distractors": [
       "Queensland",
-      "The Northern Territory",
-      "South Australia"
+      "South Australia",
+      "New South Wales"
     ],
-    "explanation": "It covers 2.5 million square kilometres, about a third of the continent and larger than Western Europe, yet holds barely a tenth of the national population.",
-    "hook": "A third of the continent, a tenth of the people."
+    "explanation": "It covers about 2.5 million square kilometres, a third of the continent, yet holds only around a tenth of Australia's population. Queensland is second, and the Northern Territory third if territories are counted.",
+    "hook": "A third of the land, a tenth of the people."
   },
   {
     "id": "geo_027",
@@ -374,8 +374,8 @@
       "The Kiel Canal",
       "The Corinth Canal"
     ],
-    "explanation": "Opened in 1869 and about 193 kilometres long, it has no locks because both seas sit at roughly the same level; it carries around twelve per cent of global trade.",
-    "hook": "No locks needed — the two seas are already level."
+    "explanation": "Opened in 1869 and about 193 kilometres long, it has no locks because the two seas sit at almost the same level. Egypt nationalised it in 1956, triggering the Suez Crisis, and in 2021 the container ship Ever Given blocked it for six days.",
+    "hook": "Suez is flat and lockless; Panama has to lift ships over a hill."
   },
   {
     "id": "geo_028",
@@ -388,22 +388,22 @@
       "São Paulo",
       "Salvador"
     ],
-    "explanation": "Purpose-built on the central plateau and inaugurated in 1960, it was laid out by Lúcio Costa in the shape of an aeroplane and replaced Rio de Janeiro as capital.",
-    "hook": "From the air, the city plan looks like a plane."
+    "explanation": "Purpose-built on the central plateau and inaugurated in 1960, it was planned by Lúcio Costa with buildings by Oscar Niemeyer. Salvador was the colonial capital until 1763, then Rio de Janeiro until Brasília replaced it.",
+    "hook": "From the air the city plan looks like an aeroplane: Brasília was built to fly the capital inland."
   },
   {
     "id": "geo_029",
     "category": "geography",
-    "difficulty": "easy",
-    "question": "Which country contains the source of the Mekong River?",
+    "difficulty": "medium",
+    "question": "In which country does the Mekong River rise?",
     "answer": "China",
     "distractors": [
       "Laos",
       "Thailand",
       "Myanmar"
     ],
-    "explanation": "It rises on the Tibetan Plateau and runs about 4,900 kilometres through six countries to its delta in Vietnam, making it South-East Asia's longest river.",
-    "hook": "Six countries drink from one Tibetan glacier."
+    "explanation": "It rises on the Tibetan Plateau in Qinghai and runs about 4,900 kilometres through China, Myanmar, Laos, Thailand, Cambodia and Vietnam to its delta. The Yangtze and Yellow rivers rise on the same plateau, which is why it is called Asia's water tower.",
+    "hook": "One plateau in Tibet feeds the Mekong, the Yangtze and the Yellow River."
   },
   {
     "id": "geo_030",
@@ -416,8 +416,8 @@
       "Lake Tanganyika",
       "Crater Lake"
     ],
-    "explanation": "The Siberian rift lake reaches 1,642 metres and holds about twenty per cent of the world's unfrozen fresh water, more than all the North American Great Lakes combined.",
-    "hook": "One Siberian lake holds a fifth of the planet's liquid fresh water."
+    "explanation": "The Siberian rift lake reaches 1,642 metres and holds about a fifth of the world's unfrozen surface fresh water, more than all the North American Great Lakes combined. It is also the oldest lake at 25 million years, and Tanganyika is second-deepest.",
+    "hook": "Baikal is the deepest, oldest and biggest by volume: one lake, three records."
   },
   {
     "id": "geo_031",
@@ -430,22 +430,22 @@
       "Incheon",
       "Pyongyang"
     ],
-    "explanation": "It has been the capital since 1394 and sits only about fifty kilometres from the Demilitarised Zone; Pyongyang is the capital of North Korea.",
-    "hook": "The capital of the South sits within artillery range of the border."
+    "explanation": "It has been a capital since the Joseon dynasty chose it in 1394 and lies only about fifty kilometres from the Demilitarised Zone. Busan is the second city and main port, and Pyongyang is North Korea's capital.",
+    "hook": "Seoul simply means 'capital' in Korean."
   },
   {
     "id": "geo_032",
     "category": "geography",
     "difficulty": "easy",
-    "question": "Which African country was never formally colonised by a European power?",
+    "question": "Which African country defeated Italy at the Battle of Adwa in 1896 to keep its independence?",
     "answer": "Ethiopia",
     "distractors": [
-      "Ghana",
-      "Kenya",
-      "Senegal"
+      "Eritrea",
+      "Somalia",
+      "Sudan"
     ],
-    "explanation": "It defeated Italy at Adwa in 1896 and, apart from a five-year Italian occupation from 1936, retained independence throughout the scramble for Africa.",
-    "hook": "Adwa 1896 — the battle that kept one African country off the colonial map."
+    "explanation": "Emperor Menelik II's victory kept Ethiopia free through the scramble for Africa, apart from an Italian occupation from 1936 to 1941. Liberia is the other African country usually described as never colonised, and neighbouring Eritrea was an Italian colony.",
+    "hook": "Adwa 1896: the battle that kept Ethiopia off the colonial map, and why many African flags use its green, gold and red."
   },
   {
     "id": "geo_033",
@@ -458,8 +458,8 @@
       "California",
       "Montana"
     ],
-    "explanation": "It covers about 1.7 million square kilometres, more than twice the size of Texas, and was purchased from Russia in 1867 for $7.2 million.",
-    "hook": "Bought from Russia for two cents an acre and now twice the size of Texas."
+    "explanation": "It covers about 1.7 million square kilometres, more than twice Texas, and was bought from Russia in 1867 for $7.2 million. Critics called the purchase 'Seward's Folly' after the secretary of state who arranged it, until gold and then oil turned up.",
+    "hook": "Bought for about two cents an acre, and still more than twice the size of Texas."
   },
   {
     "id": "geo_034",
@@ -472,8 +472,8 @@
       "The Sierra Madre",
       "The Atlas"
     ],
-    "explanation": "At about 7,000 kilometres it is the world's longest continental mountain range, running through seven countries and containing Aconcagua, the highest peak outside Asia.",
-    "hook": "Longest range on land — 7,000 kilometres through seven countries."
+    "explanation": "At about 7,000 kilometres it is the world's longest continental range, running through seven countries from Venezuela to Argentina. It contains Aconcagua, at 6,961 metres the highest peak outside Asia.",
+    "hook": "Seven thousand kilometres through seven countries."
   },
   {
     "id": "geo_035",
@@ -483,11 +483,11 @@
     "answer": "Lisbon",
     "distractors": [
       "Porto",
-      "Madrid",
-      "Seville"
+      "Coimbra",
+      "Braga"
     ],
-    "explanation": "It sits on the Tagus estuary and was largely rebuilt after the catastrophic earthquake and tsunami of 1755, an event that shaped European philosophy as much as architecture.",
-    "hook": "The 1755 earthquake rebuilt the city and rattled the Enlightenment."
+    "explanation": "It sits on the Tagus estuary and was largely rebuilt after the earthquake, tsunami and fire of 1 November 1755. Coimbra was the capital in the Middle Ages, and Porto gave the country and port wine their names.",
+    "hook": "Porto named the country; Lisbon runs it."
   },
   {
     "id": "geo_036",
@@ -500,8 +500,8 @@
       "Cali",
       "Cartagena"
     ],
-    "explanation": "It sits on a plateau at about 2,640 metres in the Andes, making it one of the highest capital cities in the world despite being close to the equator.",
-    "hook": "Near the equator but cool all year — altitude beats latitude."
+    "explanation": "It sits on an Andean plateau at about 2,640 metres, so it is cool all year despite being only four degrees north of the equator. Among South American capitals only La Paz and Quito are higher.",
+    "hook": "Near the equator but jumper weather all year: altitude beats latitude."
   },
   {
     "id": "geo_037",
@@ -514,22 +514,22 @@
       "Indonesia",
       "Norway"
     ],
-    "explanation": "Its Arctic archipelago pushes the total past 200,000 kilometres, more than four times the next country's; coastline length depends heavily on the scale used to measure it.",
-    "hook": "Thousands of Arctic islands make one country's coast longer than everyone else's combined."
+    "explanation": "Its Arctic archipelago pushes the total past 200,000 kilometres by the CIA's count, several times Norway's or Indonesia's. Coastline length depends on the scale of the map, a puzzle known as the coastline paradox.",
+    "hook": "Thousands of Arctic islands give Canada more shoreline than anyone else."
   },
   {
     "id": "geo_038",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which is the highest waterfall in the world by single drop?",
+    "question": "Which is the world's highest uninterrupted waterfall?",
     "answer": "Angel Falls",
     "distractors": [
       "Victoria Falls",
-      "Niagara Falls",
+      "Tugela Falls",
       "Iguazu Falls"
     ],
-    "explanation": "The Venezuelan cascade drops 979 metres from Auyán-tepui, so far that much of the water vaporises before reaching the bottom in the dry season.",
-    "hook": "It falls so far the water turns to mist on the way down."
+    "explanation": "The Venezuelan falls drop 979 metres in all from the tepui Auyán-tepui, including an unbroken plunge of about 807 metres. They are named after American pilot Jimmie Angel, who crash-landed on top in 1937; South Africa's Tugela Falls is the usual runner-up.",
+    "hook": "Named for a pilot who landed on top, not for any heavenly angel."
   },
   {
     "id": "geo_039",
@@ -542,8 +542,8 @@
       "Botswana",
       "Zimbabwe"
     ],
-    "explanation": "It is one of only three countries completely enclosed by a single other state, along with San Marino and Vatican City, and its lowest point is the highest of any nation.",
-    "hook": "Its lowest point is higher than any other country's lowest point."
+    "explanation": "It is one of only three countries enclosed by a single other state, alongside San Marino and Vatican City. It is the only country lying entirely above 1,000 metres, and Eswatini, the usual wrong answer, also borders Mozambique.",
+    "hook": "The Kingdom in the Sky: Lesotho's lowest point is higher than any other country's."
   },
   {
     "id": "geo_040",
@@ -556,22 +556,22 @@
       "Geneva",
       "Basel"
     ],
-    "explanation": "Switzerland has no formal capital in law; Bern is the 'federal city' and seat of government, which is why the question trips up people who assume Zurich or Geneva.",
-    "hook": "Switzerland technically has no capital — just a federal city."
+    "explanation": "Swiss law names no capital; Bern is the 'federal city' and seat of government. Zurich is the largest city and financial centre, and Geneva hosts the UN's European headquarters, which is why both are common wrong answers.",
+    "hook": "Bern is named after a bear, and live bears still have a park there."
   },
   {
     "id": "geo_041",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which sea is the saltiest large body of water on Earth's surface?",
+    "question": "Which body of water, fed by the River Jordan and with no outlet, is almost ten times saltier than the ocean?",
     "answer": "The Dead Sea",
     "distractors": [
+      "The Sea of Galilee",
       "The Red Sea",
-      "The Caspian Sea",
-      "The Aral Sea"
+      "The Caspian Sea"
     ],
-    "explanation": "At around ten times ocean salinity, its density lets bathers float without effort; its surface is also the lowest exposed land elevation on Earth at about 430 metres below sea level.",
-    "hook": "Saltiest water, lowest land — the same place holds both records."
+    "explanation": "Its salt makes the water so dense that bathers float without effort, and its shore is the lowest dry land on Earth. It is shrinking by about a metre a year because the Jordan's water is diverted upstream; the Sea of Galilee, higher up the same river, is fresh.",
+    "hook": "Same river, two seas: Galilee is fresh and full of fish, the Dead Sea lives up to its name."
   },
   {
     "id": "geo_042",
@@ -584,22 +584,22 @@
       "Myanmar",
       "Vietnam"
     ],
-    "explanation": "It sits on the Mekong facing Thailand, and the country is the only landlocked state in South-East Asia.",
-    "hook": "The only South-East Asian country with no coastline."
+    "explanation": "Vientiane sits on the Mekong, looking across at Thailand, and Laos is the only landlocked country in South-East Asia. It is also the most heavily bombed country per person in history because of US air raids during the Vietnam War.",
+    "hook": "The only South-East Asian country with no beach."
   },
   {
     "id": "geo_043",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which line of latitude passes through the centre of Australia?",
+    "question": "Which line of latitude passes through Rockhampton and just north of Alice Springs?",
     "answer": "The Tropic of Capricorn",
     "distractors": [
       "The Tropic of Cancer",
-      "The equator",
-      "The Antarctic Circle"
+      "The 26th parallel south",
+      "The equator"
     ],
-    "explanation": "It crosses at about 23.4 degrees south, running near Rockhampton and Alice Springs, and marks the southern limit of where the sun can pass directly overhead.",
-    "hook": "Rockhampton has a marker on the street where the line crosses town."
+    "explanation": "It lies at about 23.4 degrees south and marks the most southerly point where the sun can be directly overhead, which happens at the December solstice. The 26th parallel south forms the border between South Australia and the Northern Territory.",
+    "hook": "Capricorn is the southern tropic, and Rockhampton marks it with a spire beside the highway."
   },
   {
     "id": "geo_044",
@@ -612,8 +612,8 @@
       "Marrakesh",
       "Fez"
     ],
-    "explanation": "Casablanca is far larger and better known, but the seat of government and the royal palace are in Rabat on the Atlantic coast.",
-    "hook": "The famous city is Casablanca; the capital is the quieter one up the coast."
+    "explanation": "Casablanca is far larger and famous from the 1942 film, but the royal palace and government are in Rabat on the Atlantic coast. Fez, Marrakesh, Meknes and Rabat are Morocco's four historic imperial cities.",
+    "hook": "Casablanca got the film; Rabat got the king."
   },
   {
     "id": "geo_045",
@@ -626,22 +626,22 @@
       "Argentina",
       "Peru"
     ],
-    "explanation": "The Salar de Uyuni covers over 10,000 square kilometres and is so flat it is used to calibrate satellite altimeters; it holds a large share of the world's lithium reserves.",
-    "hook": "So flat that satellites use it as a ruler."
+    "explanation": "The Salar de Uyuni covers more than 10,000 square kilometres at about 3,650 metres and is so flat it is used to calibrate satellites. Beneath it lies one of the world's largest lithium deposits, which Bolivia, Chile and Argentina together dominate as the 'lithium triangle'.",
+    "hook": "When it rains, Uyuni becomes the world's largest mirror."
   },
   {
     "id": "geo_046",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which two countries does the Iguazu Falls sit between?",
+    "question": "Which two countries share the Iguazu Falls?",
     "answer": "Argentina and Brazil",
     "distractors": [
       "Brazil and Paraguay",
-      "Chile and Argentina",
-      "Peru and Ecuador"
+      "Argentina and Paraguay",
+      "Brazil and Uruguay"
     ],
-    "explanation": "The falls stretch nearly three kilometres with about 275 individual drops; Paraguay is nearby at the triple frontier but does not share the falls themselves.",
-    "hook": "Three countries meet nearby, but only two share the water."
+    "explanation": "The falls stretch nearly three kilometres with about 275 separate drops, the biggest being the Devil's Throat. Paraguay meets the other two at the nearby Triple Frontier, but the falls themselves are on the Argentina–Brazil border.",
+    "hook": "On seeing Iguazu, Eleanor Roosevelt reportedly said 'Poor Niagara'."
   },
   {
     "id": "geo_047",
@@ -654,22 +654,22 @@
       "Hue",
       "Da Nang"
     ],
-    "explanation": "It has been the capital since reunification in 1976; Ho Chi Minh City, formerly Saigon, is larger and remains the commercial centre.",
-    "hook": "The bigger city is in the south; the capital stayed in the north."
+    "explanation": "Hanoi became capital of the reunified country in 1976, having been North Vietnam's capital since 1954. Ho Chi Minh City, formerly Saigon, is larger and the commercial hub, and Hue was the imperial capital under the Nguyen dynasty.",
+    "hook": "The North won the war, so the capital stayed in the North."
   },
   {
     "id": "geo_048",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which African river flows through Cairo into the Mediterranean via a large delta?",
+    "question": "The geographic term 'delta' was first applied by Herodotus to the mouth of which river?",
     "answer": "The Nile",
     "distractors": [
-      "The Orange",
-      "The Limpopo",
-      "The Senegal"
+      "The Danube",
+      "The Tigris",
+      "The Indus"
     ],
-    "explanation": "The delta gave the word 'delta' its geographic meaning, from the triangular Greek letter; the Aswan High Dam has since sharply reduced the silt reaching it.",
-    "hook": "The word 'delta' comes from this river's triangular mouth and a Greek letter."
+    "explanation": "The triangle of land where the Nile fans out into the Mediterranean reminded Greek writers of the capital letter delta. Since the Aswan High Dam opened in 1970, far less silt reaches the delta, and parts of the coast are now retreating.",
+    "hook": "Draw a capital Greek delta, point it south at Cairo, and you have the Nile's mouth."
   },
   {
     "id": "geo_049",
@@ -680,10 +680,10 @@
     "distractors": [
       "Myanmar",
       "Cambodia",
-      "Sri Lanka"
+      "Laos"
     ],
-    "explanation": "The name changed in 1939, briefly reverted, and became permanent in 1949; the country is the only one in South-East Asia never colonised by a European power.",
-    "hook": "It kept its independence and changed its name — most of its neighbours did the opposite."
+    "explanation": "The name changed in 1939, reverted in 1945 and became permanent in 1949; Thailand means 'land of the free'. It is the only South-East Asian country never colonised by a European power, and Siamese cats and the original 'Siamese twins' carry the old name.",
+    "hook": "'Land of the free' is the one neighbour that never had a colonial master."
   },
   {
     "id": "geo_050",
@@ -696,7 +696,7 @@
       "Kano",
       "Ibadan"
     ],
-    "explanation": "Purpose-built and made capital in 1991 for its central, ethnically neutral location; Lagos remains far larger and is one of the fastest-growing cities in the world.",
+    "explanation": "Abuja was built in the centre of the country and replaced Lagos as capital in 1991, partly to sit on neutral ground between the main ethnic regions. Lagos remains the largest city in Africa by most estimates.",
     "hook": "The capital moved inland to be nobody's home turf."
   },
   {
@@ -708,24 +708,24 @@
     "distractors": [
       "The Bosphorus",
       "The Dardanelles",
-      "The Strait of Hormuz"
+      "The Strait of Messina"
     ],
-    "explanation": "At its narrowest it is about fourteen kilometres wide and is the only natural connection between the Atlantic and the Mediterranean.",
-    "hook": "Fourteen kilometres is all that separates two continents there."
+    "explanation": "At its narrowest it is about fourteen kilometres wide and is the only natural link between the Atlantic and the Mediterranean. The ancients called its two headlands, the Rock of Gibraltar and Jebel Musa, the Pillars of Hercules.",
+    "hook": "Pillars of Hercules: the edge of the known world, fourteen kilometres wide."
   },
   {
     "id": "geo_052",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which country has the most volcanoes?",
+    "question": "Which country has the most historically active volcanoes?",
     "answer": "Indonesia",
     "distractors": [
       "Japan",
-      "The United States",
+      "Iceland",
       "Chile"
     ],
-    "explanation": "It has around 130 active volcanoes along the Ring of Fire, including Krakatoa and Tambora, whose 1815 eruption caused the following 'year without a summer'.",
-    "hook": "One 1815 eruption there cancelled summer across the northern hemisphere."
+    "explanation": "It has around 130 active volcanoes along the Ring of Fire, including Krakatoa and Tambora. Tambora's 1815 eruption was the deadliest in recorded history and caused 1816's 'year without a summer'.",
+    "hook": "One Indonesian eruption in 1815 cancelled summer across Europe and North America."
   },
   {
     "id": "geo_053",
@@ -738,8 +738,8 @@
       "Concepción",
       "Antofagasta"
     ],
-    "explanation": "It sits in a valley beneath the Andes, though the national congress meets in Valparaíso, an arrangement dating from the Pinochet era.",
-    "hook": "The government sits in one city and the parliament in another."
+    "explanation": "Santiago sits in a valley beneath the Andes, but the national congress has met in the port of Valparaíso since 1990. Chile is about 4,300 kilometres long but averages under 180 kilometres wide.",
+    "hook": "The government sits in Santiago, the parliament by the sea in Valparaíso."
   },
   {
     "id": "geo_054",
@@ -752,13 +752,13 @@
       "The Namib",
       "The Mojave"
     ],
-    "explanation": "Some weather stations in northern Chile have never recorded rain; its clear skies and altitude make it the site of the world's most powerful optical telescopes.",
-    "hook": "Some spots there have no recorded rainfall at all — which is why the telescopes went in."
+    "explanation": "Parts of northern Chile's Atacama have gone years without measurable rain, and its soils are so Mars-like that NASA tests rovers there. The clear, dry, high skies host the ALMA radio array and the European Extremely Large Telescope under construction.",
+    "hook": "Dry enough to test Mars rovers, clear enough for the world's biggest telescopes."
   },
   {
     "id": "geo_055",
     "category": "geography",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which country is home to the Great Barrier Reef?",
     "answer": "Australia",
     "distractors": [
@@ -766,22 +766,22 @@
       "The Philippines",
       "Papua New Guinea"
     ],
-    "explanation": "The reef runs about 2,300 kilometres along the Queensland coast, is made of roughly 2,900 individual reefs, and is the largest structure built by living organisms.",
-    "hook": "The biggest thing on Earth built by living creatures, and it is visible from orbit."
+    "explanation": "The reef runs about 2,300 kilometres along the Queensland coast and is made of roughly 2,900 separate reefs, the largest structure built by living things. It has suffered repeated mass coral bleaching events since 1998 as sea temperatures rise.",
+    "hook": "Bigger than Italy, and built by animals smaller than a fingernail."
   },
   {
     "id": "geo_056",
     "category": "geography",
-    "difficulty": "medium",
-    "question": "What is the capital of Ireland?",
+    "difficulty": "easy",
+    "question": "What is the capital of the Republic of Ireland?",
     "answer": "Dublin",
     "distractors": [
       "Belfast",
       "Cork",
       "Galway"
     ],
-    "explanation": "Founded by Vikings around 841, it sits on the River Liffey; Belfast is the capital of Northern Ireland, which remains part of the United Kingdom.",
-    "hook": "Two capitals on one island — Dublin for the Republic, Belfast for the North."
+    "explanation": "Founded by Vikings around 841 on the River Liffey, its name comes from the Irish 'dubh linn', 'black pool'. Belfast is the capital of Northern Ireland, which remains part of the United Kingdom.",
+    "hook": "Dubh linn, 'black pool', which is also why the stout is dark."
   },
   {
     "id": "geo_057",
@@ -794,22 +794,22 @@
       "Mount Stanley",
       "Ras Dashen"
     ],
-    "explanation": "The dormant Tanzanian volcano rises 5,895 metres and is the tallest free-standing mountain in the world, not part of any range.",
-    "hook": "It belongs to no range — it just stands there alone on the plain."
+    "explanation": "The dormant Tanzanian volcano rises 5,895 metres and is the world's tallest free-standing mountain. Mount Kenya is Africa's second-highest, and Kilimanjaro's summit glaciers are expected to vanish within a few decades.",
+    "hook": "Snow on the equator, but not for much longer."
   },
   {
     "id": "geo_058",
     "category": "geography",
-    "difficulty": "medium",
-    "question": "Which country's flag features a maple leaf?",
+    "difficulty": "easy",
+    "question": "Which country's flag features a red maple leaf?",
     "answer": "Canada",
     "distractors": [
       "Lebanon",
-      "Norway",
-      "Latvia"
+      "Switzerland",
+      "Japan"
     ],
-    "explanation": "Adopted in 1965 after a bitter parliamentary debate known as the Great Flag Debate, it replaced the Canadian Red Ensign; Lebanon's flag carries a cedar.",
-    "hook": "Canada has a maple, Lebanon has a cedar — both flags are one tree."
+    "explanation": "The flag was adopted in 1965 after the 'Great Flag Debate', replacing the Red Ensign with its Union Jack. Lebanon's flag, the usual mix-up, carries a green cedar tree instead.",
+    "hook": "Canada has a maple, Lebanon a cedar: two countries, each with one tree on the flag."
   },
   {
     "id": "geo_059",
@@ -822,8 +822,8 @@
       "Izmir",
       "Antalya"
     ],
-    "explanation": "Atatürk moved the capital there in 1923 to break with the Ottoman past; Istanbul is far larger and is the only major city sitting on two continents.",
-    "hook": "The famous city straddles two continents; the capital is the inland one."
+    "explanation": "Atatürk made Ankara the capital in 1923 to break with the Ottoman past and to sit safely in the Anatolian heartland. Istanbul is far larger and straddles Europe and Asia; since 2022 the country has asked the UN to call it Türkiye.",
+    "hook": "The famous city straddles two continents; the capital is the quieter inland one."
   },
   {
     "id": "geo_060",
@@ -834,10 +834,10 @@
     "distractors": [
       "The Black Sea",
       "The Aral Sea",
-      "The Baltic Sea"
+      "The Sea of Azov"
     ],
-    "explanation": "It is the largest enclosed inland body of water on Earth; whether it counts as a sea or a lake has real legal consequences for how its oil is divided.",
-    "hook": "Sea or lake is not a pedantic question there — it decides who owns the oil."
+    "explanation": "It is the world's largest enclosed inland body of water, and whether it is a sea or a lake decides how its oil and gas are divided; a 2018 treaty gave it a special status of its own. It is also the main source of wild beluga caviar.",
+    "hook": "Sea or lake is not pedantry here: the answer decides who owns the oil."
   },
   {
     "id": "geo_061",
@@ -846,12 +846,12 @@
     "question": "Which Australian desert is the largest?",
     "answer": "The Great Victoria Desert",
     "distractors": [
+      "The Great Sandy Desert",
       "The Simpson Desert",
-      "The Gibson Desert",
-      "The Tanami Desert"
+      "The Gibson Desert"
     ],
-    "explanation": "It spans about 350,000 square kilometres across Western Australia and South Australia, larger than the United Kingdom; the Simpson is better known for its parallel dunes.",
-    "hook": "Bigger than the UK, and most Australians could not point to it on a map."
+    "explanation": "It spans about 350,000 square kilometres across Western Australia and South Australia, larger than the United Kingdom, and was named by explorer Ernest Giles in 1875 after Queen Victoria. The Great Sandy Desert is second, and the Simpson is known for its parallel red dunes.",
+    "hook": "Great Victoria beats Great Sandy: the queen outranks the sand."
   },
   {
     "id": "geo_062",
@@ -861,11 +861,11 @@
     "answer": "Oslo",
     "distractors": [
       "Bergen",
-      "Stockholm",
-      "Copenhagen"
+      "Trondheim",
+      "Stavanger"
     ],
-    "explanation": "It was called Christiania from 1624 until 1925 after the Danish king who rebuilt it following a fire, then reverted to its older name.",
-    "hook": "For three hundred years it was named after a Danish king."
+    "explanation": "It was called Christiania (later Kristiania) from 1624 until 1925, after the Danish-Norwegian king Christian IV who rebuilt it after a fire. Bergen and Trondheim were both capitals of medieval Norway.",
+    "hook": "For three hundred years Oslo wore a Danish king's name."
   },
   {
     "id": "geo_063",
@@ -878,8 +878,8 @@
       "Uganda",
       "Zambia"
     ],
-    "explanation": "The great wildebeest migration circles between it and Kenya's Maasai Mara, which is the same ecosystem under a different name across the border.",
-    "hook": "The Serengeti and the Maasai Mara are one ecosystem with two passports."
+    "explanation": "Each year more than a million wildebeest circle between the Serengeti and Kenya's Maasai Mara, which is the same ecosystem on the other side of the border. The name comes from a Maasai word meaning 'endless plains'.",
+    "hook": "Serengeti in Tanzania, Maasai Mara in Kenya: one herd, two passports."
   },
   {
     "id": "geo_064",
@@ -892,8 +892,8 @@
       "The Mekong",
       "The Ganges"
     ],
-    "explanation": "At about 6,300 kilometres it is the third-longest river in the world and the longest to run entirely within one country; the Three Gorges Dam sits on it.",
-    "hook": "Third longest on Earth, and the longest that never leaves home."
+    "explanation": "At about 6,300 kilometres it is the world's third-longest river and the longest in any single country. The Three Gorges Dam on it is the world's largest power station by capacity, and the Yellow River is China's second-longest.",
+    "hook": "Third longest on Earth, and it never leaves home."
   },
   {
     "id": "geo_065",
@@ -904,24 +904,24 @@
     "distractors": [
       "Cusco",
       "Arequipa",
-      "Quito"
+      "Trujillo"
     ],
-    "explanation": "Founded by Francisco Pizarro in 1535 as the City of Kings, it sits in coastal desert and gets almost no rainfall despite persistent grey cloud.",
-    "hook": "Permanently overcast and almost never rains — the locals call the cloud the donkey's belly."
+    "explanation": "Francisco Pizarro founded it in 1535 as the City of Kings, on the coast rather than in the Inca capital Cusco. It sits in coastal desert, and after Cairo it is often called the second-largest desert city in the world.",
+    "hook": "Grey sky all winter but almost no rain: locals call the cloud 'the donkey's belly'."
   },
   {
     "id": "geo_066",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which country has the highest capital city in the world?",
+    "question": "Which country's seat of government, at more than 3,600 metres, is the highest in the world?",
     "answer": "Bolivia",
     "distractors": [
       "Nepal",
       "Ecuador",
-      "Bhutan"
+      "Peru"
     ],
-    "explanation": "La Paz, the seat of government, sits above 3,600 metres; Sucre is the constitutional capital, and Quito in Ecuador is the next highest.",
-    "hook": "Two capitals in one country — the high one governs, the other is constitutional."
+    "explanation": "La Paz houses Bolivia's government, while Sucre is the constitutional capital and home of the Supreme Court. Quito in Ecuador, at about 2,850 metres, is the highest official capital that is also the seat of government.",
+    "hook": "Bolivia splits the job: La Paz up high does the governing, Sucre holds the title."
   },
   {
     "id": "geo_067",
@@ -930,12 +930,12 @@
     "question": "Which strait is the busiest shipping lane between the Indian and Pacific Oceans?",
     "answer": "The Strait of Malacca",
     "distractors": [
-      "The Strait of Hormuz",
-      "The Bosphorus",
-      "The Bering Strait"
+      "The Sunda Strait",
+      "The Lombok Strait",
+      "The Torres Strait"
     ],
-    "explanation": "Roughly a quarter of world trade passes between Malaysia, Singapore and Sumatra; at its narrowest it is only about 2.8 kilometres wide.",
-    "hook": "A quarter of world trade squeezes through a gap under three kilometres wide."
+    "explanation": "Roughly a quarter of the world's traded goods pass between Malaysia, Singapore and Sumatra, including most of China's and Japan's oil imports. At its narrowest point near Singapore the shipping channel is under three kilometres wide.",
+    "hook": "Malacca is the world's shopping trolley lane, and Singapore sits at the checkout."
   },
   {
     "id": "geo_068",
@@ -945,11 +945,11 @@
     "answer": "Stockholm",
     "distractors": [
       "Gothenburg",
-      "Malmo",
+      "Malmö",
       "Uppsala"
     ],
-    "explanation": "Built across fourteen islands where Lake Mälaren meets the Baltic, it hosts the Nobel Prize ceremonies for every category except peace, which is awarded in Oslo.",
-    "hook": "All the Nobels are handed out there except peace, which goes to Norway."
+    "explanation": "Built across fourteen islands where Lake Mälaren meets the Baltic, it hosts the Nobel Prize ceremonies for every prize except peace, which is awarded in Oslo. Uppsala was the older religious and royal centre.",
+    "hook": "All the Nobels are handed out in Stockholm except peace, which goes to Oslo."
   },
   {
     "id": "geo_069",
@@ -962,22 +962,22 @@
       "St Louis",
       "Louisville"
     ],
-    "explanation": "The two rivers meet to form the Ohio, and the city's location made it a steel capital; it has more bridges than Venice.",
-    "hook": "Two rivers go in, one comes out, and there are more bridges than in Venice."
+    "explanation": "The two rivers join there to form the Ohio, and cheap coal and river transport made Pittsburgh the steel capital of America. With about 446 bridges it is nicknamed the City of Bridges.",
+    "hook": "Two rivers in, one out, and more bridges than Venice."
   },
   {
     "id": "geo_070",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which country's territory includes the Faroe Islands and Greenland?",
+    "question": "Which country's realm includes the Faroe Islands and Greenland?",
     "answer": "Denmark",
     "distractors": [
       "Norway",
       "Iceland",
       "The Netherlands"
     ],
-    "explanation": "Both are self-governing within the Kingdom of Denmark; Greenland left the European Communities in 1985 while Denmark stayed, the first such departure.",
-    "hook": "Greenland quit the EU decades before Brexit was a word."
+    "explanation": "Both are self-governing parts of the Kingdom of Denmark. Greenland left the European Communities in 1985, mainly over fishing rights, while Denmark stayed in, making it the first territory ever to leave.",
+    "hook": "Greenland quit Europe's club three decades before Brexit."
   },
   {
     "id": "geo_071",
@@ -987,11 +987,11 @@
     "answer": "Manila",
     "distractors": [
       "Quezon City",
-      "Cebu",
-      "Davao"
+      "Cebu City",
+      "Davao City"
     ],
-    "explanation": "It is the capital within the larger Metro Manila region; Quezon City briefly held the title from 1948 to 1976 and remains the more populous city.",
-    "hook": "The capital is not the biggest city in its own metro area."
+    "explanation": "Manila is the capital within the wider Metro Manila region, and it is one of the most densely populated cities on Earth. Neighbouring Quezon City was officially the capital from 1948 to 1976 and still has more people.",
+    "hook": "The capital isn't even the biggest city in its own metro area."
   },
   {
     "id": "geo_072",
@@ -1004,22 +1004,22 @@
       "Libya",
       "The Democratic Republic of the Congo"
     ],
-    "explanation": "It became the largest when South Sudan split from Sudan in 2011; about eighty per cent of its territory is Sahara.",
-    "hook": "It only took the title in 2011, when Sudan split in two."
+    "explanation": "Algeria became Africa's largest when South Sudan split from Sudan in 2011; more than eighty per cent of it is Sahara. The DR Congo is now second.",
+    "hook": "Algeria only took the title in 2011, when Sudan split in two."
   },
   {
     "id": "geo_073",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which mountain is the highest in Australia?",
+    "question": "Which mountain is the highest on the Australian mainland?",
     "answer": "Mount Kosciuszko",
     "distractors": [
+      "Mount Townsend",
       "Mount Bogong",
-      "Bluff Knoll",
       "Mount Ossa"
     ],
-    "explanation": "At 2,228 metres it is modest by world standards and can be walked up in a few hours; Australia's highest territory peak is Mawson Peak on Heard Island.",
-    "hook": "The mainland's highest point is a walk, not a climb."
+    "explanation": "At 2,228 metres it can be walked from Thredbo in a few hours, and neighbouring Mount Townsend is second. Polish explorer Paweł Strzelecki named it in 1840 after a Polish patriot, and the highest peak on undisputed Australian territory is Mawson Peak on Heard Island.",
+    "hook": "Named by a Pole after a Pole, and you can climb it in running shoes."
   },
   {
     "id": "geo_074",
@@ -1032,22 +1032,22 @@
       "Graz",
       "Innsbruck"
     ],
-    "explanation": "The seat of the Habsburgs for centuries, it hosts several UN agencies and OPEC and regularly tops global liveability rankings.",
-    "hook": "Habsburg capital, then UN city — it never stopped hosting other people's business."
+    "explanation": "The Habsburg capital for centuries, it now hosts OPEC, the International Atomic Energy Agency and a UN office, and often tops global liveability rankings. Salzburg, Mozart's birthplace, is the usual wrong answer.",
+    "hook": "Mozart was born in Salzburg but died in Vienna."
   },
   {
     "id": "geo_075",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which country is the only one to border both the Atlantic and Indian Oceans in Africa?",
+    "question": "Which is the only African country with coastlines on both the Atlantic and Indian Oceans?",
     "answer": "South Africa",
     "distractors": [
       "Egypt",
       "Morocco",
       "Somalia"
     ],
-    "explanation": "The two oceans are conventionally divided at Cape Agulhas, the continent's southernmost point, rather than at the more famous Cape of Good Hope.",
-    "hook": "The oceans meet at Agulhas, not the Cape of Good Hope — a common trap."
+    "explanation": "The two oceans are officially divided at Cape Agulhas, the continent's southernmost point, rather than at the more famous Cape of Good Hope. Egypt, the likely trap, has Mediterranean and Red Sea coasts but no ocean at all.",
+    "hook": "The oceans meet at Agulhas, not the Cape of Good Hope."
   },
   {
     "id": "geo_076",
@@ -1060,8 +1060,8 @@
       "Belgrade",
       "Bucharest"
     ],
-    "explanation": "It was formed in 1873 by merging Buda and Óbuda on one bank of the Danube with Pest on the other; the city sits on more than a hundred thermal springs.",
-    "hook": "Two towns on opposite banks became one city and kept both names."
+    "explanation": "It was formed in 1873 by merging hilly Buda and Óbuda on one bank of the Danube with flat Pest on the other. Its parliament building is one of the largest in Europe, and the city sits on more than a hundred thermal springs.",
+    "hook": "Buda on the hills, Pest on the flats, and the Danube in between."
   },
   {
     "id": "geo_077",
@@ -1074,21 +1074,21 @@
       "Cyprus",
       "Crete"
     ],
-    "explanation": "It covers about 25,700 square kilometres and contains Mount Etna, Europe's most active volcano; Sardinia is second and Cyprus third.",
-    "hook": "Sicily, Sardinia, Cyprus, Corsica, Crete — the Mediterranean top five in order."
+    "explanation": "It covers about 25,700 square kilometres and contains Mount Etna, Europe's most active volcano. Sardinia is second, Cyprus third, Corsica fourth and Crete fifth.",
+    "hook": "Size order: Sicily, Sardinia, Cyprus, Corsica, Crete."
   },
   {
     "id": "geo_078",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which country is Timbuktu in?",
+    "question": "In which country is Timbuktu?",
     "answer": "Mali",
     "distractors": [
       "Niger",
       "Chad",
       "Mauritania"
     ],
-    "explanation": "A centre of Islamic scholarship and trans-Saharan trade from the fourteenth century, its libraries held hundreds of thousands of manuscripts, many smuggled out for safety in 2012.",
+    "explanation": "From the fourteenth century it was a centre of Islamic scholarship and trans-Saharan trade in gold and salt. When jihadists occupied it in 2012, librarians smuggled hundreds of thousands of manuscripts to safety in rice sacks.",
     "hook": "The byword for the middle of nowhere was once a university town."
   },
   {
@@ -1099,11 +1099,11 @@
     "answer": "Jakarta",
     "distractors": [
       "Surabaya",
-      "Bandung",
-      "Kuala Lumpur"
+      "Nusantara",
+      "Bandung"
     ],
-    "explanation": "It sits on Java and is sinking rapidly from groundwater extraction, which is why the government is building a new capital, Nusantara, on Borneo.",
-    "hook": "The capital is sinking, so the country is building a new one on another island."
+    "explanation": "Indonesia is building a new capital, Nusantara, on Borneo because Jakarta is overcrowded and sinking, but the move needs a presidential decree that had still not been issued in 2026. Indonesia's Constitutional Court confirmed in May 2026 that Jakarta remains the capital until then.",
+    "hook": "Nusantara is built but not yet the capital, so Jakarta keeps the title for now."
   },
   {
     "id": "geo_080",
@@ -1112,12 +1112,12 @@
     "question": "Which two seas does the Bosphorus connect?",
     "answer": "The Black Sea and the Sea of Marmara",
     "distractors": [
-      "The Aegean and the Adriatic",
-      "The Baltic and the North Sea",
-      "The Red Sea and the Arabian Sea"
+      "The Sea of Marmara and the Aegean",
+      "The Black Sea and the Aegean",
+      "The Black Sea and the Sea of Azov"
     ],
-    "explanation": "The strait runs through Istanbul and, with the Dardanelles beyond the Marmara, forms Russia's only warm-water route from the Black Sea to the Mediterranean.",
-    "hook": "It is the reason Istanbul has mattered to every empire in the region."
+    "explanation": "The strait runs through Istanbul; beyond the Marmara, the Dardanelles lead on to the Aegean. Together they are Russia's only warm-water route from the Black Sea to the Mediterranean, which is why Gallipoli, on the Dardanelles, mattered in 1915.",
+    "hook": "Black, Bosphorus, Marmara, Dardanelles, Aegean: north to south in order."
   },
   {
     "id": "geo_081",
@@ -1128,10 +1128,10 @@
     "distractors": [
       "Pakistan",
       "India",
-      "Saudi Arabia"
+      "Bangladesh"
     ],
-    "explanation": "About 230 million Indonesians are Muslim, more than the entire Arab world combined; Pakistan and India follow.",
-    "hook": "The largest Muslim nation is in South-East Asia, not the Middle East."
+    "explanation": "About 240 million Indonesians are Muslim, but Pakistan is only just behind and is expected to overtake it within a few years because it is growing faster. India, though a Hindu-majority country, has the third-largest Muslim population.",
+    "hook": "The world's biggest Muslim nation is in South-East Asia, not the Middle East."
   },
   {
     "id": "geo_082",
@@ -1144,22 +1144,22 @@
       "Khartoum",
       "Mogadishu"
     ],
-    "explanation": "The name means 'new flower' in Amharic; it hosts the African Union headquarters and sits at around 2,350 metres, among the highest capitals in Africa.",
-    "hook": "'New flower' in Amharic, and the political capital of the whole continent."
+    "explanation": "The name means 'new flower' in Amharic, and at around 2,350 metres it is one of the highest capitals in Africa. It hosts the African Union headquarters, and Asmara is the capital of neighbouring Eritrea.",
+    "hook": "'New flower' and Africa's diplomatic capital."
   },
   {
     "id": "geo_083",
     "category": "geography",
-    "difficulty": "medium",
-    "question": "Which is the world's largest bay by shoreline length?",
+    "difficulty": "hard",
+    "question": "Which is the world's largest bay by length of shoreline?",
     "answer": "Hudson Bay",
     "distractors": [
       "The Bay of Bengal",
       "The Gulf of Mexico",
       "The Great Australian Bight"
     ],
-    "explanation": "The Canadian inland sea has a shoreline of over 12,000 kilometres; the Bay of Bengal is larger by surface area.",
-    "hook": "Biggest by coastline is Canadian; biggest by area is Bengal."
+    "explanation": "The Canadian inland sea has more than 12,000 kilometres of shoreline and is frozen for much of the year, making it a polar bear stronghold around Churchill, Manitoba. The Bay of Bengal is the largest bay by surface area.",
+    "hook": "Longest shore is Canadian, widest water is Bengal."
   },
   {
     "id": "geo_084",
@@ -1172,8 +1172,8 @@
       "Norway",
       "Iceland"
     ],
-    "explanation": "The Scottish peak reaches 1,345 metres and is the highest point in the British Isles; Ireland's highest is Carrauntoohil in County Kerry.",
-    "hook": "Britain's roof is under 1,400 metres — lower than many alpine ski villages."
+    "explanation": "The Scottish peak reaches 1,345 metres near Fort William and is the highest point in the British Isles. England's highest is Scafell Pike, Wales's is Snowdon (Yr Wyddfa), and Ireland's is Carrauntoohil.",
+    "hook": "Three Peaks Challenge: Ben Nevis, Scafell Pike and Snowdon in 24 hours."
   },
   {
     "id": "geo_085",
@@ -1186,13 +1186,13 @@
       "Turku",
       "Tallinn"
     ],
-    "explanation": "It became capital in 1812 under Russian rule, replacing Turku, and sits about eighty kilometres across the Gulf of Finland from Tallinn in Estonia.",
-    "hook": "Two capitals face each other across eighty kilometres of Baltic water."
+    "explanation": "It became capital in 1812 under Russian rule, replacing Turku, which was seen as too close to Sweden. It lies about eighty kilometres across the Gulf of Finland from Tallinn, Estonia's capital, the usual trap answer.",
+    "hook": "Helsinki and Tallinn face each other across eighty kilometres of Baltic water."
   },
   {
     "id": "geo_086",
     "category": "geography",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "question": "Which country contains the world's largest cave passage, Son Doong?",
     "answer": "Vietnam",
     "distractors": [
@@ -1200,22 +1200,22 @@
       "China",
       "Laos"
     ],
-    "explanation": "Discovered in 1991 and first surveyed in 2009, the chamber is large enough to hold a New York City block including skyscrapers, and has its own jungle and clouds.",
-    "hook": "A cave with its own weather system and forest inside it."
+    "explanation": "A local man found the entrance in 1990–91, and British cavers first surveyed it in 2009 in Phong Nha-Ke Bang National Park. Its main chamber could hold a New York city block, and roof collapses let in enough light for a jungle and its own clouds to grow inside.",
+    "hook": "A cave with its own forest and its own weather."
   },
   {
     "id": "geo_087",
     "category": "geography",
     "difficulty": "medium",
-    "question": "Which line of longitude marks zero degrees?",
+    "question": "Which meridian was chosen in 1884 as zero degrees longitude?",
     "answer": "The Greenwich meridian",
     "distractors": [
-      "The International Date Line",
-      "The Tropic of Cancer",
-      "The Antarctic Circle"
+      "The Paris meridian",
+      "The Ferro meridian",
+      "The International Date Line"
     ],
-    "explanation": "Fixed by international agreement in 1884 at the Royal Observatory in London, largely because most existing sea charts already used it; the date line sits roughly opposite at 180 degrees.",
-    "hook": "Zero was set in London in 1884 because most captains were already using those charts."
+    "explanation": "The International Meridian Conference in Washington chose it because most of the world's sea charts already used Greenwich; France abstained and kept the Paris meridian for decades. The modern GPS zero line actually runs about 100 metres east of the brass line at the observatory.",
+    "hook": "Tourists straddle the brass line at Greenwich, but their phones say zero is a short walk east."
   },
   {
     "id": "geo_088",
@@ -1228,8 +1228,8 @@
       "Santo Domingo",
       "San Juan"
     ],
-    "explanation": "Founded in 1519, it was the assembly point for Spanish treasure fleets returning to Europe, which is why it was fortified so heavily.",
-    "hook": "The treasure fleets gathered there, so the walls went up."
+    "explanation": "Founded in 1519 on its present site, it was the gathering point for Spanish treasure fleets, which is why it was so heavily fortified. Santo Domingo and San Juan are the capitals of the Dominican Republic and Puerto Rico.",
+    "hook": "The treasure fleets gathered at Havana, so the fortress walls went up."
   },
   {
     "id": "geo_089",
@@ -1242,13 +1242,13 @@
       "Ethiopia",
       "Chad"
     ],
-    "explanation": "The two share a long desert border and a disputed area at Halaib on the Red Sea; South Sudan, further south, became independent in 2011.",
-    "hook": "Sudan is between Egypt and South Sudan — three countries in a vertical line."
+    "explanation": "The two share a long desert border and argue over the Halaib Triangle on the Red Sea coast. Sudan has more ancient pyramids than Egypt, built by the kingdom of Kush at sites like Meroë.",
+    "hook": "Sudan has more pyramids than Egypt: an easy point most people lose."
   },
   {
     "id": "geo_090",
     "category": "geography",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "question": "Which is the largest lake entirely within Canada?",
     "answer": "Great Bear Lake",
     "distractors": [
@@ -1256,50 +1256,50 @@
       "Lake Winnipeg",
       "Lake Superior"
     ],
-    "explanation": "It covers about 31,000 square kilometres in the Northwest Territories; Lake Superior is larger but is shared with the United States.",
-    "hook": "Superior is bigger but shared — the biggest all-Canadian lake is in the far north."
+    "explanation": "It covers about 31,000 square kilometres in the Northwest Territories, straddling the Arctic Circle. Nearby Great Slave Lake is the deepest in North America at over 600 metres, and Lake Superior is larger but shared with the US.",
+    "hook": "Bear is bigger, Slave is deeper: two great northern lakes side by side."
   },
   {
     "id": "geo_091",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country has the world's longest place name for its capital in ceremonial form?",
-    "answer": "Thailand",
+    "question": "Guinness lists the full ceremonial name of which capital city as the longest place name in the world?",
+    "answer": "Bangkok",
     "distractors": [
-      "Sri Lanka",
-      "Myanmar",
-      "Wales"
+      "Sri Jayawardenepura Kotte",
+      "Kuala Lumpur",
+      "Naypyidaw"
     ],
-    "explanation": "Bangkok's full ceremonial name runs to 168 letters in Thai and is recognised by Guinness as the longest place name in the world; Thais normally call it Krung Thep.",
-    "hook": "Bangkok's real name has 168 letters — locals use the first two words."
+    "explanation": "Its ceremonial name, beginning \"Krung Thep Maha Nakhon\", runs to 168 letters in Thai, and Thais simply call the city Krung Thep, \"city of angels\". The longest single-word place name belongs to a hill in New Zealand's Hawke's Bay, at 85 letters.",
+    "hook": "Bangkok, like Los Angeles, is a 'city of angels'; it just takes 168 letters to say so."
   },
   {
     "id": "geo_092",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country is the only one to lie on the equator in three continents' worth of longitude spread?",
+    "question": "Which Pacific nation straddles both the equator and the 180th meridian, putting it in all four hemispheres?",
     "answer": "Kiribati",
     "distractors": [
-      "Indonesia",
-      "Ecuador",
-      "Maldives"
+      "Fiji",
+      "Tuvalu",
+      "Nauru"
     ],
-    "explanation": "Its islands straddle both the equator and the 180th meridian, so it spans all four hemispheres; in 1995 it moved the date line east so the whole country shares one date.",
-    "hook": "The only country in all four hemispheres — and it bent the date line to stay tidy."
+    "explanation": "Its 33 atolls spread across more than 3,000 kilometres of ocean. In 1995 it moved the International Date Line east so the whole country shares one date, which made its Caroline Island, renamed Millennium Island, among the first land to see 1 January 2000.",
+    "hook": "Kiribati bent the date line to put itself first in line for the new millennium."
   },
   {
     "id": "geo_093",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which two countries share the island of Hispaniola?",
     "answer": "Haiti and the Dominican Republic",
     "distractors": [
-      "Cuba and Jamaica",
-      "Trinidad and Tobago",
-      "Saint Kitts and Nevis"
+      "Haiti and Cuba",
+      "Cuba and the Dominican Republic",
+      "The Dominican Republic and Puerto Rico"
     ],
-    "explanation": "Haiti occupies the western third and became the first Black republic in 1804 after a successful slave revolt; the two states speak different languages and have sharply different forest cover.",
-    "hook": "One island, two languages, and a border you can see from space in the tree line."
+    "explanation": "French-speaking Haiti occupies the western third and in 1804 became the first Black-led republic after a successful slave revolt. The Spanish-speaking Dominican Republic holds the rest, and the border is visible from space because Haiti has lost far more of its forest.",
+    "hook": "One island, two languages, and a border you can see from orbit in the tree line."
   },
   {
     "id": "geo_094",
@@ -1312,27 +1312,27 @@
       "Chad",
       "Bolivia"
     ],
-    "explanation": "It covers 2.7 million square kilometres and borders the Caspian, which does not count as ocean access; Mongolia is second.",
-    "hook": "The Caspian does not count as a sea for this purpose — hence landlocked."
+    "explanation": "It covers about 2.7 million square kilometres, making it the ninth-largest country overall. Its Caspian coast does not count as sea access because the Caspian is enclosed; Mongolia is second, and Bolivia is the largest landlocked country in the Americas.",
+    "hook": "A Caspian beach but no ocean, so Kazakhstan is still landlocked."
   },
   {
     "id": "geo_095",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which two landlocked countries are surrounded entirely by other landlocked countries?",
+    "question": "Which two countries are doubly landlocked, surrounded entirely by other landlocked countries?",
     "answer": "Liechtenstein and Uzbekistan",
     "distractors": [
       "Nepal and Bhutan",
       "Austria and Hungary",
       "Paraguay and Bolivia"
     ],
-    "explanation": "These are the only doubly landlocked states: to reach the sea you must cross at least two borders. Liechtenstein sits between Switzerland and Austria, Uzbekistan among five landlocked neighbours.",
-    "hook": "Doubly landlocked — two borders minimum before you smell salt water."
+    "explanation": "To reach the sea from either you must cross at least two borders. Liechtenstein sits between Switzerland and Austria, and Uzbekistan is surrounded by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan and Turkmenistan.",
+    "hook": "Two borders minimum before you smell salt water."
   },
   {
     "id": "geo_096",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which river forms most of the border between the United States and Mexico?",
     "answer": "The Rio Grande",
     "distractors": [
@@ -1340,22 +1340,22 @@
       "The Pecos",
       "The Gila"
     ],
-    "explanation": "It runs about 3,000 kilometres from Colorado to the Gulf of Mexico and is called the Río Bravo del Norte on the Mexican side.",
-    "hook": "One river, two names — Grande in the north, Bravo in the south."
+    "explanation": "It rises in Colorado's San Juan Mountains and forms about 2,000 kilometres of the Texas–Mexico border before reaching the Gulf of Mexico. Mexicans call it the Río Bravo del Norte, and in dry years it has failed to reach the sea at all.",
+    "hook": "Grande on one bank, Bravo on the other."
   },
   {
     "id": "geo_097",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which sea has shrunk to a fraction of its former size due to Soviet irrigation projects?",
+    "question": "Which sea has shrunk to a fraction of its former size because of Soviet irrigation projects?",
     "answer": "The Aral Sea",
     "distractors": [
       "The Caspian Sea",
       "The Dead Sea",
-      "Lake Chad"
+      "The Sea of Azov"
     ],
-    "explanation": "Diverting the Amu Darya and Syr Darya for cotton reduced it by around ninety per cent since 1960, stranding fishing fleets in desert and creating a salt plain called the Aralkum.",
-    "hook": "Ships now sit on sand a hundred kilometres from any water."
+    "explanation": "Diverting the Amu Darya and Syr Darya rivers to grow cotton shrank it by about ninety per cent after 1960, leaving fishing boats stranded in a new salt desert, the Aralkum. A Kazakh dam built in 2005 has partly revived the northern section.",
+    "hook": "Ships now rust on sand, tens of kilometres from any water."
   },
   {
     "id": "geo_098",
@@ -1368,8 +1368,8 @@
       "Tashkent",
       "Bishkek"
     ],
-    "explanation": "The capital moved from Almaty in 1997; the city was renamed Nur-Sultan in 2019 and back to Astana in 2022, making it a favourite of quiz setters.",
-    "hook": "The name changed twice in three years — check the date on the question."
+    "explanation": "The capital moved from Almaty in 1997; the city was renamed Nur-Sultan in 2019 after the first president and changed back to Astana in 2022. Its name simply means 'capital' in Kazakh, and Almaty remains the largest city.",
+    "hook": "Akmola, Astana, Nur-Sultan, Astana: check the date on the question."
   },
   {
     "id": "geo_099",
@@ -1382,36 +1382,36 @@
       "The Congo",
       "The Yangtze"
     ],
-    "explanation": "It discharges about a fifth of all river water reaching the oceans, more than the next seven rivers combined, and freshens the Atlantic for over a hundred kilometres offshore.",
-    "hook": "It pushes fresh water a hundred kilometres out into the Atlantic."
+    "explanation": "It delivers about a fifth of all river water reaching the oceans, more than the next several rivers combined, and freshens the Atlantic far offshore. The Congo is second by discharge, while the Nile, though long, carries comparatively little.",
+    "hook": "Sailors could once drink fresh water out of sight of land off the Amazon's mouth."
   },
   {
     "id": "geo_100",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which continent has no permanent human population?",
-    "answer": "Antarctica",
+    "question": "Which research station sits at the geographic South Pole?",
+    "answer": "Amundsen–Scott South Pole Station",
     "distractors": [
-      "South America",
-      "Africa",
-      "Australia"
+      "McMurdo Station",
+      "Vostok Station",
+      "Mawson Station"
     ],
-    "explanation": "Around 1,000 to 5,000 researchers rotate through its stations by season, but nobody is a permanent resident and the Antarctic Treaty bars territorial settlement.",
-    "hook": "The population swings by a factor of five between summer and winter."
+    "explanation": "The United States has run it since 1956–57, and it honours Roald Amundsen, first to the pole in December 1911, and Robert Falcon Scott, who arrived a month later and died on the way back. The ice sheet slides about ten metres a year, so the pole marker is moved every 1 January.",
+    "hook": "The winner and the loser of the 1911–12 race share one name on the station."
   },
   {
     "id": "geo_101",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which African country was created as a homeland for freed American slaves?",
+    "question": "Which African country was founded as a homeland for freed American slaves?",
     "answer": "Liberia",
     "distractors": [
       "Sierra Leone",
       "Ghana",
       "Ivory Coast"
     ],
-    "explanation": "Founded by the American Colonization Society in 1822 and independent from 1847, its capital Monrovia is named for US president James Monroe and its flag closely resembles the Stars and Stripes.",
-    "hook": "A capital named for a US president and a flag with one star."
+    "explanation": "The American Colonization Society founded it in 1822, and it declared independence in 1847. Its capital Monrovia is named for US president James Monroe, while neighbouring Sierra Leone's capital Freetown was founded for freed slaves from Britain.",
+    "hook": "Monrovia for Monroe, and a flag like the Stars and Stripes with just one star."
   },
   {
     "id": "geo_102",
@@ -1424,8 +1424,8 @@
       "The Danakil Depression",
       "The Turpan Depression"
     ],
-    "explanation": "It sits about 430 metres below sea level and continues to drop as the sea evaporates; Death Valley is only 86 metres below and Turpan around 154.",
-    "hook": "430 metres below sea level, and getting lower every year."
+    "explanation": "It lies more than 430 metres below sea level and drops about a metre a year as the water shrinks. Death Valley, the lowest point in North America, is only 86 metres below, and Australia's lowest point, Kati Thanda–Lake Eyre, is about 15 metres below.",
+    "hook": "Four hundred metres down and still sinking."
   },
   {
     "id": "geo_103",
@@ -1438,22 +1438,22 @@
       "New Zealand",
       "South Africa"
     ],
-    "explanation": "Puerto Williams on Navarino Island sits south of Argentina's Ushuaia, which is more famous and larger but slightly further north.",
-    "hook": "Ushuaia gets the tourists; a Chilean town further south gets the record."
+    "explanation": "Puerto Williams on Navarino Island lies south of Argentina's Ushuaia, which is larger, better known and calls itself 'the end of the world'. The two towns face each other across the Beagle Channel, named after Darwin's ship.",
+    "hook": "Ushuaia gets the tourists; Chile's Puerto Williams gets the record."
   },
   {
     "id": "geo_104",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which two countries are separated by the Khyber Pass?",
+    "question": "Which two countries are linked by the Khyber Pass?",
     "answer": "Afghanistan and Pakistan",
     "distractors": [
-      "India and Nepal",
-      "Iran and Iraq",
+      "India and Pakistan",
+      "Iran and Afghanistan",
       "Tajikistan and China"
     ],
-    "explanation": "The pass through the Spin Ghar range has been the main invasion and trade route into the Indian subcontinent for millennia, used by Alexander, the Mughals and the British.",
-    "hook": "Every invader of India for two thousand years used the same mountain gap."
+    "explanation": "The pass through the Spin Ghar range has been the main route between Central Asia and the Indian subcontinent for millennia, used by Persian, Mughal and British armies. Today it carries the main highway from Kabul to Peshawar.",
+    "hook": "Kabul to Peshawar: every invader of India knew this gap."
   },
   {
     "id": "geo_105",
@@ -1466,8 +1466,8 @@
       "Sumatra",
       "Socotra"
     ],
-    "explanation": "It separated from the Indian subcontinent around 88 million years ago, and roughly ninety per cent of its wildlife is found nowhere else; its people have Austronesian as well as African ancestry.",
-    "hook": "Its first settlers sailed from Borneo, not from Africa a few hundred kilometres away."
+    "explanation": "It split from the Indian subcontinent around 88 million years ago, and about ninety per cent of its wildlife, including every lemur, is found nowhere else. Its first settlers sailed from Borneo, and Malagasy is closer to languages of Borneo than to any in Africa.",
+    "hook": "Africa is next door, but the language came from Borneo."
   },
   {
     "id": "geo_106",
@@ -1480,50 +1480,50 @@
       "Spain",
       "France"
     ],
-    "explanation": "It has held the lead for years with around sixty listings, narrowly ahead of China; Spain, Germany and France follow.",
-    "hook": "Italy and China trade the lead; everyone else is a distant third."
+    "explanation": "After the 2026 committee session in Busan, Italy had 62 sites to China's 61, each having added one that year. Germany, France and Spain follow some way behind, and the list now totals 1,273 sites.",
+    "hook": "Italy and China are neck and neck; everyone else is a distant third."
   },
   {
     "id": "geo_107",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which capital city sits on the Potomac River?",
     "answer": "Washington, DC",
     "distractors": [
       "Richmond",
-      "Ottawa",
+      "Annapolis",
       "Philadelphia"
     ],
-    "explanation": "The district was carved from land ceded by Maryland and Virginia in 1790; the Virginia portion was returned in 1847, which is why the district's diamond shape is incomplete.",
-    "hook": "The original square is missing a corner — Virginia took its land back in 1847."
+    "explanation": "George Washington chose the site in 1790 on land given by Maryland and Virginia; Philadelphia was the capital while it was built. Virginia's share was handed back in 1846, which is why the district's diamond shape is missing a corner.",
+    "hook": "The original diamond lost a corner when Virginia took its land back."
   },
   {
     "id": "geo_108",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country contains both the wettest and one of the driest inhabited places on Earth?",
+    "question": "Mawsynram and Cherrapunji, which compete for the title of wettest place on Earth, are in which country?",
     "answer": "India",
     "distractors": [
-      "Chile",
-      "Colombia",
-      "Australia"
+      "Bangladesh",
+      "Myanmar",
+      "Colombia"
     ],
-    "explanation": "Mawsynram and Cherrapunji in Meghalaya record the world's highest rainfall, while parts of Rajasthan's Thar Desert are near-arid; the monsoon explains both.",
-    "hook": "The same monsoon that drowns Meghalaya never reaches the Thar."
+    "explanation": "Both are in Meghalaya, whose name means 'abode of the clouds', where monsoon winds from the Bay of Bengal hit the Khasi Hills; Mawsynram averages about 11.8 metres of rain a year. Colombia's Pacific coast is the main rival claimant for the title.",
+    "hook": "Meghalaya, 'abode of the clouds', lives up to its name."
   },
   {
     "id": "geo_109",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which ocean current system keeps north-western Europe far milder than its latitude suggests?",
+    "question": "Which ocean current keeps north-western Europe much milder than its latitude suggests?",
     "answer": "The North Atlantic Drift",
     "distractors": [
       "The Humboldt Current",
       "The Kuroshio Current",
-      "The Benguela Current"
+      "The Labrador Current"
     ],
-    "explanation": "An extension of the Gulf Stream, it carries warm water north-east so that Norway stays ice-free at latitudes that are frozen tundra in Canada and Siberia.",
-    "hook": "Bergen and Nuuk sit at similar latitudes; one has a harbour that never freezes."
+    "explanation": "An extension of the Gulf Stream, it carries warm water north-east so that Norway's ports stay ice-free at latitudes that are frozen tundra in Canada. Scientists are watching for signs that the wider Atlantic circulation it belongs to is slowing.",
+    "hook": "Palm trees grow in western Scotland thanks to water warmed off Florida."
   },
   {
     "id": "geo_110",
@@ -1536,27 +1536,27 @@
       "Mauna Kea",
       "Aconcagua"
     ],
-    "explanation": "The Ecuadorian volcano sits near the equatorial bulge, so despite being 6,263 metres above sea level its peak is about two kilometres further from Earth's core than Everest's.",
-    "hook": "The planet bulges at the equator, so the 'highest' peak depends on your definition."
+    "explanation": "The Ecuadorian volcano is only 6,263 metres above sea level, but it sits on the equatorial bulge, so its peak is about two kilometres further from Earth's core than Everest's. Mauna Kea is the tallest measured from its base on the sea floor.",
+    "hook": "The Earth is fat at the waist, so Chimborazo stands on the belly."
   },
   {
     "id": "geo_111",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which two countries have the most neighbours, with fourteen each?",
+    "question": "Which two countries have the most land neighbours, with fourteen each?",
     "answer": "China and Russia",
     "distractors": [
       "Brazil and India",
       "Germany and France",
-      "Sudan and Congo"
+      "Brazil and Germany"
     ],
-    "explanation": "Both border fourteen countries; Brazil is next with ten, sharing a frontier with every South American state except Chile and Ecuador.",
-    "hook": "Fourteen each for the two giants, and Brazil touches all but two of its continent."
+    "explanation": "Both border fourteen countries. Brazil is next with ten, touching every South American country except Chile and Ecuador, and Germany has nine.",
+    "hook": "Fourteen each for the two giants; Brazil touches all but two of its continent."
   },
   {
     "id": "geo_112",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which strait separates the North and South Islands of New Zealand?",
     "answer": "Cook Strait",
     "distractors": [
@@ -1564,22 +1564,22 @@
       "Bass Strait",
       "Torres Strait"
     ],
-    "explanation": "About twenty-two kilometres at its narrowest, it is regarded as one of the roughest stretches of water in the world; Foveaux Strait separates the South Island from Stewart Island.",
-    "hook": "Cook between the two main islands, Foveaux for the third one below."
+    "explanation": "About 22 kilometres wide at its narrowest, it funnels westerly winds, making it one of the roughest stretches of water in the world. Foveaux Strait separates the South Island from Stewart Island, and Cook named the strait after himself in 1770 on his first voyage.",
+    "hook": "Cook between the two big islands, Foveaux down to the little one."
   },
   {
     "id": "geo_113",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country has the world's highest proportion of its land as national park?",
-    "answer": "Venezuela",
+    "question": "Angel Falls lies inside which national park, famous for its flat-topped tepui mountains?",
+    "answer": "Canaima National Park",
     "distractors": [
-      "Costa Rica",
-      "Bhutan",
-      "New Zealand"
+      "Iguazú National Park",
+      "Torres del Paine National Park",
+      "Los Glaciares National Park"
     ],
-    "explanation": "More than half its territory is under some form of protection, including Canaima National Park, which contains Angel Falls and is larger than Belgium.",
-    "hook": "One of its national parks alone is bigger than Belgium."
+    "explanation": "The Venezuelan park covers about 30,000 square kilometres, close to the size of Belgium, and is a UNESCO World Heritage Site. Its tepuis inspired Arthur Conan Doyle's 'The Lost World' and the floating cliffs of Pixar's 'Up'.",
+    "hook": "Conan Doyle put dinosaurs on top of a tepui, and Pixar floated a house to one."
   },
   {
     "id": "geo_114",
@@ -1592,27 +1592,27 @@
       "Lake Turkana",
       "Lake Malawi"
     ],
-    "explanation": "Shared by Chad, Cameroon, Niger and Nigeria, it has contracted through drought and irrigation, contributing directly to regional conflict and displacement.",
-    "hook": "Four countries share a lake that is now a tenth of the size their grandparents knew."
+    "explanation": "Shared by Chad, Cameroon, Niger and Nigeria, it is so shallow that drought and irrigation shrank it dramatically. The loss of water fed poverty and conflict in the region, including the rise of Boko Haram.",
+    "hook": "Four countries share a lake that is now a tenth of what their grandparents knew."
   },
   {
     "id": "geo_115",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which city is the capital of both a country and a separate autonomous region?",
+    "question": "Which city contains an entire sovereign state within its boundaries?",
     "answer": "Rome",
     "distractors": [
-      "Brussels",
-      "Madrid",
-      "Copenhagen"
+      "Nice",
+      "Milan",
+      "Madrid"
     ],
-    "explanation": "It is the capital of Italy and of the Lazio region, and also contains Vatican City, a separate sovereign state — three seats of government within one urban area.",
-    "hook": "A country, a region and an independent state all headquartered in the same city."
+    "explanation": "Vatican City, created by the 1929 Lateran Treaty, sits wholly inside Rome, making Rome the capital that surrounds another capital. Nice, the likely trap, is next to Monaco rather than around it, and San Marino is enclosed by Italy but not by any city.",
+    "hook": "Two capitals, one inside the other."
   },
   {
     "id": "geo_116",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which desert runs along the Atlantic coast of Namibia?",
     "answer": "The Namib",
     "distractors": [
@@ -1620,27 +1620,27 @@
       "The Karoo",
       "The Danakil"
     ],
-    "explanation": "Thought to be the oldest desert on Earth at some 55 million years, its coastal fog sustains beetles that harvest water from the air, and its Sossusvlei dunes are among the world's tallest.",
+    "explanation": "Thought to be the oldest desert on Earth at 55 million years or more, it survives on coastal fog, which some beetles harvest by tilting their backs into the wind. Its Sossusvlei dunes are among the tallest in the world, and the Kalahari lies inland to the east.",
     "hook": "Beetles there drink fog because rain almost never comes."
   },
   {
     "id": "geo_117",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country was the last to be admitted to the United Nations?",
+    "question": "Which country was the most recent to be admitted to the United Nations?",
     "answer": "South Sudan",
     "distractors": [
       "Montenegro",
       "East Timor",
       "Switzerland"
     ],
-    "explanation": "It joined in July 2011 as the 193rd member days after independence; Switzerland only joined in 2002 after a referendum, despite hosting UN offices for decades.",
-    "hook": "Switzerland hosted the UN for fifty years before joining it."
+    "explanation": "It joined in July 2011 as the 193rd member, days after independence, and no country has been admitted since; Palestine remains a non-member observer state. Switzerland only joined in 2002 after a referendum, despite hosting UN offices in Geneva since 1946.",
+    "hook": "Switzerland hosted the UN for half a century before joining it."
   },
   {
     "id": "geo_118",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "question": "Which peninsula contains Spain and Portugal?",
     "answer": "The Iberian Peninsula",
     "distractors": [
@@ -1648,8 +1648,8 @@
       "The Apennine Peninsula",
       "The Jutland Peninsula"
     ],
-    "explanation": "It also includes Andorra, Gibraltar and a sliver of southern France, and is separated from the rest of Europe by the Pyrenees.",
-    "hook": "The Pyrenees make it almost an island — hence the old line that Europe ends there."
+    "explanation": "It also includes Andorra, Gibraltar and a small corner of southern France, and is walled off from the rest of Europe by the Pyrenees. The name probably comes from the Ebro River, known to the Greeks and Romans as the Iber.",
+    "hook": "Iberia means 'land of the Ebro', which is also where Spain's airline got its name."
   },
   {
     "id": "geo_119",
@@ -1659,11 +1659,11 @@
     "answer": "Challenger Deep",
     "distractors": [
       "Sirena Deep",
-      "Horizon Deep",
+      "Tonga Trench",
       "Milwaukee Deep"
     ],
-    "explanation": "It lies in the Mariana Trench at about 10,935 metres; Everest could be dropped in with more than two kilometres of water to spare above it.",
-    "hook": "Everest would sink into it with two kilometres of water left over."
+    "explanation": "It lies at the southern end of the Mariana Trench, nearly 11,000 metres down, and is named after HMS Challenger, whose 1875 survey first sounded the trench. Filmmaker James Cameron made the first solo dive there in 2012.",
+    "hook": "Drop Everest in and there'd still be two kilometres of water above the summit."
   },
   {
     "id": "geo_120",
@@ -1676,22 +1676,22 @@
       "Oslo",
       "Stockholm"
     ],
-    "explanation": "At about 64 degrees north it sits just south of the Arctic Circle, and its name means 'smoky bay' after the steam from local hot springs.",
-    "hook": "'Smoky bay' — named for geothermal steam mistaken for smoke."
+    "explanation": "At about 64 degrees north it is the northernmost capital of any sovereign state, just short of the Arctic Circle. Its name means 'smoky bay', after steam from hot springs, and Helsinki is Europe's second-northernmost capital.",
+    "hook": "'Smoky bay': the smoke was geothermal steam."
   },
   {
     "id": "geo_121",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which river runs through more countries than any other?",
+    "question": "Which river runs through or along more countries than any other?",
     "answer": "The Danube",
     "distractors": [
       "The Nile",
       "The Rhine",
       "The Mekong"
     ],
-    "explanation": "It flows through or borders ten countries from Germany's Black Forest to the Black Sea, passing four capitals: Vienna, Bratislava, Budapest and Belgrade.",
-    "hook": "Four capitals on one river — Vienna, Bratislava, Budapest, Belgrade."
+    "explanation": "It flows through or borders ten countries from Germany's Black Forest to the Black Sea. It passes four capitals, more than any other river: Vienna, Bratislava, Budapest and Belgrade.",
+    "hook": "Four capitals on one river: Vienna, Bratislava, Budapest, Belgrade."
   },
   {
     "id": "geo_122",
@@ -1700,26 +1700,26 @@
     "question": "Which country has the largest area of tropical rainforest after Brazil?",
     "answer": "The Democratic Republic of the Congo",
     "distractors": [
-      "The Republic of Indonesia",
-      "The Republic of Peru",
+      "The Republic of the Congo",
+      "Indonesia",
       "Papua New Guinea"
     ],
-    "explanation": "The Congo Basin is the world's second-largest contiguous rainforest and, unlike the Amazon, is still considered a net carbon sink.",
-    "hook": "The Congo Basin still absorbs more carbon than it releases — the Amazon no longer reliably does."
+    "explanation": "The Congo Basin is the world's second-largest rainforest, and more than half of it is in the DR Congo. It is home to the bonobo and the okapi, and it still absorbs more carbon than it releases, which parts of the Amazon no longer do.",
+    "hook": "The world's second lung sits in the Congo Basin."
   },
   {
     "id": "geo_123",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which Australian lake is the country's lowest point and rarely fills?",
+    "question": "Which Australian lake is the country's lowest point and only rarely fills?",
     "answer": "Lake Eyre",
     "distractors": [
       "Lake Torrens",
       "Lake Gairdner",
       "Lake Frome"
     ],
-    "explanation": "Kati Thanda-Lake Eyre sits about fifteen metres below sea level and has filled completely only a handful of times since 1900, drawing pelicans from thousands of kilometres away when it does.",
-    "hook": "When it fills, pelicans arrive from the coast within days — nobody is quite sure how they know."
+    "explanation": "Kati Thanda–Lake Eyre sits about 15 metres below sea level at the bottom of a basin covering about a sixth of Australia. It has filled to capacity only a handful of times since European settlement, most famously in 1974, and when it does it draws huge flocks of pelicans.",
+    "hook": "When it fills, pelicans arrive from the coast within days, and nobody is sure how they know."
   },
   {
     "id": "geo_124",
@@ -1732,64 +1732,64 @@
       "Chile, Peru and Argentina",
       "Norway, Sweden and Denmark"
     ],
-    "explanation": "Theirs are the only Antarctic claims that genuinely conflict; Australia, New Zealand, France, Norway and the UK all recognise one another's sectors, and the 1959 treaty froze every claim without extinguishing it.",
-    "hook": "Only the Peninsula is actually disputed — everywhere else the claimants politely agree."
+    "explanation": "Theirs are the only Antarctic claims that overlap. Australia, New Zealand, France, Norway and the UK all recognise one another's sectors, Australia's being the largest at about 42 per cent of the continent, and the 1959 Antarctic Treaty froze every claim.",
+    "hook": "Only the peninsula is contested; everywhere else the claimants politely agree."
   },
   {
     "id": "geo_125",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which city was known as Constantinople before 1930?",
+    "question": "Which city was officially known as Constantinople until 1930?",
     "answer": "Istanbul",
     "distractors": [
       "Ankara",
-      "Athens",
+      "Izmir",
       "Thessaloniki"
     ],
-    "explanation": "Founded as Byzantium, renamed for Constantine in 330 CE, it was the Ottoman capital from 1453 and formally became Istanbul by Turkish postal law in 1930.",
-    "hook": "Byzantium, then Constantinople, then Istanbul — three names, one city, sixteen centuries."
+    "explanation": "Founded as the Greek colony Byzantium, it was renamed for the emperor Constantine in 330 CE and fell to the Ottomans in 1453. Turkey's 1930 postal law made 'Istanbul' the only accepted name, from a Greek phrase meaning 'to the city'.",
+    "hook": "Byzantium, Constantinople, Istanbul: three names, one city, sixteen centuries."
   },
   {
     "id": "geo_126",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which country's mainland is closest to Antarctica?",
+    "question": "Cape Horn, the rounding point for sailing ships between the Atlantic and Pacific, belongs to which country?",
     "answer": "Chile",
     "distractors": [
       "Argentina",
-      "New Zealand",
-      "South Africa"
+      "The United Kingdom",
+      "Uruguay"
     ],
-    "explanation": "Cape Froward in Chile and the tip of the Antarctic Peninsula are separated by about 1,000 kilometres of Drake Passage, the roughest sea crossing regularly attempted by ships.",
-    "hook": "The Drake Passage is the shortest way south and the worst water on Earth."
+    "explanation": "It is on Hornos Island in the Tierra del Fuego archipelago, on the edge of the Drake Passage, one of the roughest seas in the world. It was named in 1616 by Dutch sailors after the town of Hoorn, not because of its shape.",
+    "hook": "Named after a Dutch town, not a horn."
   },
   {
     "id": "geo_127",
     "category": "geography",
     "difficulty": "hard",
-    "question": "Which sea is bordered by no land at all?",
+    "question": "Which sea has no coastline, being bounded only by ocean currents?",
     "answer": "The Sargasso Sea",
     "distractors": [
       "The Coral Sea",
       "The Labrador Sea",
       "The Weddell Sea"
     ],
-    "explanation": "It is defined by four ocean currents in the North Atlantic rather than coastlines, and its floating sargassum weed is the breeding ground for European and American eels.",
-    "hook": "The only sea with currents for borders instead of coasts."
+    "explanation": "It sits in the North Atlantic, ringed by four currents including the Gulf Stream, with Bermuda inside it. Its floating sargassum weed is the spawning ground of both European and American eels.",
+    "hook": "The only sea with currents for borders."
   },
   {
     "id": "geo_128",
     "category": "geography",
-    "difficulty": "hard",
-    "question": "Which Australian town is the country's most remote large settlement, served by the Ghan railway?",
+    "difficulty": "medium",
+    "question": "The Ghan railway runs from Adelaide to Darwin via which town, roughly halfway?",
     "answer": "Alice Springs",
     "distractors": [
-      "Coober Pedy",
-      "Broken Hill",
-      "Mount Isa"
+      "Tennant Creek",
+      "Katherine",
+      "Coober Pedy"
     ],
-    "explanation": "It sits almost exactly in the continent's centre, roughly 1,500 kilometres from the nearest coastal city, and the Ghan takes its name from Afghan cameleers who worked the route.",
-    "hook": "The Ghan is short for Afghan — named for the cameleers who opened the interior."
+    "explanation": "The line reached Alice Springs in 1929 but was not extended to Darwin until 2004, completing a trip of about 2,979 kilometres. The Ghan is named after the Afghan cameleers who carried supplies through the interior before the railway.",
+    "hook": "The Ghan is short for Afghan, after the cameleers who got there first."
   },
   {
     "id": "geo_129",
@@ -1798,25 +1798,375 @@
     "question": "Which country's capital city is closest to the equator?",
     "answer": "Ecuador",
     "distractors": [
-      "Kenya",
-      "Indonesia",
-      "Colombia"
+      "Uganda",
+      "Gabon",
+      "São Tomé and Príncipe"
     ],
-    "explanation": "Quito lies about twenty-five kilometres south of the line, and the country takes its Spanish name directly from the equator itself.",
-    "hook": "The country is literally named 'equator' in Spanish."
+    "explanation": "Quito lies about 25 kilometres south of the line, just beating Kampala, São Tomé and Libreville, which are all within 45 kilometres of it. The country takes its Spanish name from the equator, measured there by an eighteenth-century French expedition.",
+    "hook": "The country is literally called 'equator' in Spanish."
   },
   {
     "id": "geo_130",
     "category": "geography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which mountain range forms the border between France and Spain?",
     "answer": "The Pyrenees",
     "distractors": [
       "The Alps",
-      "The Apennines",
-      "The Cantabrians"
+      "The Cantabrian Mountains",
+      "The Massif Central"
     ],
-    "explanation": "The range runs about 490 kilometres from the Atlantic to the Mediterranean, and the microstate of Andorra sits within it, jointly headed by a French president and a Spanish bishop.",
-    "hook": "Andorra's two heads of state are a French president and a Catalan bishop."
+    "explanation": "The range runs about 490 kilometres from the Bay of Biscay to the Mediterranean. The microstate of Andorra sits in the middle, jointly headed by the French president and the Bishop of Urgell in Catalonia.",
+    "hook": "Andorra has two heads of state, a French president and a Spanish bishop, and neither lives there."
+  },
+  {
+    "id": "geo_131",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "In which Australian state or territory is Uluru?",
+    "answer": "The Northern Territory",
+    "distractors": [
+      "South Australia",
+      "Western Australia",
+      "Queensland"
+    ],
+    "explanation": "The sandstone monolith rises about 348 metres in Uluṟu-Kata Tjuṯa National Park, about 450 kilometres by road from Alice Springs. It was handed back to its Anangu traditional owners in 1985, and climbing it was banned from October 2019.",
+    "hook": "Most of Uluru is underground, like an iceberg of rock."
+  },
+  {
+    "id": "geo_132",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which river flows through the centre of Paris?",
+    "answer": "The Seine",
+    "distractors": [
+      "The Loire",
+      "The Rhône",
+      "The Marne"
+    ],
+    "explanation": "It runs about 775 kilometres from Burgundy to the English Channel at Le Havre, and the Île de la Cité, home of Notre-Dame, sits in the middle of it. The Loire is France's longest river, and the Marne joins the Seine just east of Paris.",
+    "hook": "The Seine is the river of Paris; the Loire is the long one lined with châteaux."
+  },
+  {
+    "id": "geo_133",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which ocean lies between Africa and Australia?",
+    "answer": "The Indian Ocean",
+    "distractors": [
+      "The Pacific Ocean",
+      "The Atlantic Ocean",
+      "The Southern Ocean"
+    ],
+    "explanation": "It is the third-largest ocean and the warmest, and its seasonal monsoon winds shaped trade between Africa, Arabia and Asia for centuries. It is the only ocean named after a country.",
+    "hook": "The only ocean named after a country."
+  },
+  {
+    "id": "geo_134",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which strait separates Asia from North America?",
+    "answer": "The Bering Strait",
+    "distractors": [
+      "The Davis Strait",
+      "The Strait of Magellan",
+      "The Hudson Strait"
+    ],
+    "explanation": "About 82 kilometres wide, it separates Russia's Chukotka from Alaska and is named for Danish explorer Vitus Bering, who sailed it for Russia in 1728. During the last ice age a land bridge there, Beringia, let people walk into the Americas.",
+    "hook": "Two Diomede Islands in the middle are 4 kilometres apart but sit on either side of the date line."
+  },
+  {
+    "id": "geo_135",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which is the only Australian state or territory capital that is not on the coast?",
+    "answer": "Canberra",
+    "distractors": [
+      "Hobart",
+      "Darwin",
+      "Adelaide"
+    ],
+    "explanation": "It was chosen in 1908 as a compromise between rivals Sydney and Melbourne and designed by American architects Walter Burley Griffin and Marion Mahony Griffin. It is about 150 kilometres from the sea, and Lake Burley Griffin at its centre is artificial.",
+    "hook": "Sydney and Melbourne couldn't agree, so the capital went inland between them."
+  },
+  {
+    "id": "geo_136",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which is the longest river in Australia?",
+    "answer": "The Murray",
+    "distractors": [
+      "The Darling",
+      "The Murrumbidgee",
+      "The Lachlan"
+    ],
+    "explanation": "It runs about 2,500 kilometres from the Australian Alps to the sea near Goolwa in South Australia and forms most of the NSW–Victoria border. The Darling, Murrumbidgee and Lachlan are its longest tributaries, and the Murray–Darling Basin covers about a seventh of the continent.",
+    "hook": "Murray is the main road; the Darling and the Murrumbidgee are its side streets."
+  },
+  {
+    "id": "geo_137",
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "Which Italian city is built on more than 100 small islands linked by around 400 bridges?",
+    "answer": "Venice",
+    "distractors": [
+      "Naples",
+      "Genoa",
+      "Florence"
+    ],
+    "explanation": "It stands on wooden piles driven into a lagoon, and since 2020 the MOSE flood barriers have been raised to hold back the high tides known as acqua alta. The Grand Canal is crossed by only four bridges, the Rialto being the oldest.",
+    "hook": "A city on stilts, with gondolas instead of cars."
+  },
+  {
+    "id": "geo_138",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Papua New Guinea?",
+    "answer": "Port Moresby",
+    "distractors": [
+      "Lae",
+      "Honiara",
+      "Mount Hagen"
+    ],
+    "explanation": "It is on the south coast of New Guinea facing Australia, and was named in 1873 by Captain John Moresby after his father. PNG became independent from Australia in 1975, and Lae is its second city and main industrial port.",
+    "hook": "Captain Moresby named the harbour after his dad."
+  },
+  {
+    "id": "geo_139",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Fiji?",
+    "answer": "Suva",
+    "distractors": [
+      "Nadi",
+      "Lautoka",
+      "Apia"
+    ],
+    "explanation": "It is on the south-east coast of Viti Levu, Fiji's largest island, and is the largest city in the South Pacific outside Australia and New Zealand. Most tourists fly into Nadi on the other side of the island, which is why Nadi is the usual wrong answer.",
+    "hook": "You land in Nadi, but the government is in Suva."
+  },
+  {
+    "id": "geo_140",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "On which Japanese island does Mount Fuji stand?",
+    "answer": "Honshu",
+    "distractors": [
+      "Hokkaido",
+      "Kyushu",
+      "Shikoku"
+    ],
+    "explanation": "The 3,776-metre volcano sits on the border of Shizuoka and Yamanashi prefectures, about 100 kilometres south-west of Tokyo. It last erupted in 1707, and Honshu is the largest of Japan's four main islands, home to Tokyo, Kyoto and Osaka.",
+    "hook": "Honshu means \"main province\": the main island holds the main mountain."
+  },
+  {
+    "id": "geo_141",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which is the only South American country with coastlines on both the Pacific and the Caribbean?",
+    "answer": "Colombia",
+    "distractors": [
+      "Venezuela",
+      "Ecuador",
+      "Peru"
+    ],
+    "explanation": "Colombia's two coasts are separated by Panama, which was part of Colombia until 1903. The US backed Panama's independence and then built the Panama Canal across it.",
+    "hook": "Colombia lost the canal zone and kept the two coastlines."
+  },
+  {
+    "id": "geo_142",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which country calls itself Suomi in its own language?",
+    "answer": "Finland",
+    "distractors": [
+      "Estonia",
+      "Hungary",
+      "Iceland"
+    ],
+    "explanation": "Finnish is not an Indo-European language; its closest national relative is Estonian, and Hungarian is a distant cousin. Other favourite quiz examples of own-language names are Hellas for Greece, Magyarország for Hungary and Hrvatska for Croatia.",
+    "hook": "Suomi and saunas: the one Finnish word everyone knows is 'sauna'."
+  },
+  {
+    "id": "geo_143",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which city replaced Yangon as the capital of Myanmar in 2005–06?",
+    "answer": "Naypyidaw",
+    "distractors": [
+      "Mandalay",
+      "Bago",
+      "Mawlamyine"
+    ],
+    "explanation": "The military government built it from scratch in the jungle about 320 kilometres north of Yangon, and its highways have up to twenty lanes with almost no traffic. Mandalay was the last royal capital before British rule.",
+    "hook": "Twenty-lane highways and hardly any cars."
+  },
+  {
+    "id": "geo_144",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "In which country is Aconcagua, the highest mountain outside Asia?",
+    "answer": "Argentina",
+    "distractors": [
+      "Chile",
+      "Peru",
+      "Bolivia"
+    ],
+    "explanation": "It rises 6,961 metres in Mendoza province, just east of the Chilean border, and is one of the Seven Summits, the highest peaks on each continent. Ojos del Salado, the highest volcano on Earth, is second in South America and sits on the Argentina–Chile border.",
+    "hook": "Almost 7,000 metres and walkable without ropes, yet the thin air kills climbers."
+  },
+  {
+    "id": "geo_145",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which African country divides its government between three capitals, Pretoria, Cape Town and Bloemfontein?",
+    "answer": "South Africa",
+    "distractors": [
+      "Namibia",
+      "Botswana",
+      "Zimbabwe"
+    ],
+    "explanation": "Pretoria is the administrative capital, Cape Town houses parliament and Bloemfontein the Supreme Court of Appeal, a compromise from the 1910 union of four colonies. Johannesburg, the largest city, is none of them.",
+    "hook": "Executive, legislative, judicial: one branch of government per city."
+  },
+  {
+    "id": "geo_146",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which African kingdom changed its name from Swaziland in 2018?",
+    "answer": "Eswatini",
+    "distractors": [
+      "Lesotho",
+      "Botswana",
+      "Malawi"
+    ],
+    "explanation": "King Mswati III announced the change on the fiftieth anniversary of independence in April 2018; Eswatini means 'land of the Swazis' in siSwati. It is one of the world's last absolute monarchies, and it borders only South Africa and Mozambique.",
+    "hook": "It was only ever the Swazis' land; the new name just says so in their own language."
+  },
+  {
+    "id": "geo_147",
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "Which sea off north-eastern Australia gave its name to a 1942 naval battle?",
+    "answer": "The Coral Sea",
+    "distractors": [
+      "The Tasman Sea",
+      "The Arafura Sea",
+      "The Timor Sea"
+    ],
+    "explanation": "In May 1942 US and Australian forces turned back a Japanese invasion fleet heading for Port Moresby. It was the first naval battle fought by carrier aircraft in which the opposing ships never sighted each other.",
+    "hook": "A sea battle where the fleets never saw each other."
+  },
+  {
+    "id": "geo_148",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which is the world's coldest national capital by average annual temperature?",
+    "answer": "Ulaanbaatar",
+    "distractors": [
+      "Astana",
+      "Moscow",
+      "Reykjavik"
+    ],
+    "explanation": "Mongolia's capital averages about zero degrees across the year because it sits about 1,350 metres up in the middle of a continent, far from any moderating sea. Astana is second, and Reykjavik, though further north, is milder thanks to the Atlantic.",
+    "hook": "Reykjavik is further north, but the ocean keeps it warmer than landlocked Ulaanbaatar."
+  },
+  {
+    "id": "geo_149",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Under the 2023 Falepili Union treaty, Australia offers a special migration pathway to citizens of which Pacific nation threatened by rising seas?",
+    "answer": "Tuvalu",
+    "distractors": [
+      "Kiribati",
+      "Nauru",
+      "The Marshall Islands"
+    ],
+    "explanation": "The treaty, in force since 2024, lets up to 280 Tuvaluans a year move to Australia and commits Australia to help if Tuvalu faces a disaster. Tuvalu's highest point is under five metres above sea level, and the country earns a large share of its income from leasing its '.tv' internet domain.",
+    "hook": "Tuvalu makes money from '.tv' while its land slowly goes under water."
+  },
+  {
+    "id": "geo_150",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which is the world's most populous landlocked country?",
+    "answer": "Ethiopia",
+    "distractors": [
+      "Uganda",
+      "Kazakhstan",
+      "Afghanistan"
+    ],
+    "explanation": "With more than 120 million people, it has had no coastline since Eritrea became independent in 1993, and it now depends on Djibouti's port for most of its trade. Kazakhstan is the largest landlocked country by area, not by population.",
+    "hook": "Ethiopia lost its coast when Eritrea left in 1993."
+  },
+  {
+    "id": "geo_151",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which is the southernmost capital city of a sovereign state?",
+    "answer": "Wellington",
+    "distractors": [
+      "Canberra",
+      "Montevideo",
+      "Buenos Aires"
+    ],
+    "explanation": "At about 41 degrees south it lies well south of Canberra (35 degrees) and the Río de la Plata capitals, Montevideo and Buenos Aires. It is also known as the world's windiest city, thanks to the gap in the mountains made by Cook Strait.",
+    "hook": "Windy Welly, the bottom capital of the world."
+  },
+  {
+    "id": "geo_152",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which two rivers have formed the border between Germany and Poland since 1945?",
+    "answer": "The Oder and the Neisse",
+    "distractors": [
+      "The Elbe and the Saale",
+      "The Vistula and the Bug",
+      "The Rhine and the Moselle"
+    ],
+    "explanation": "The Oder–Neisse line was set at the Potsdam Conference, moving Poland about 200 kilometres west and expelling millions of Germans from the lands east of it. East Germany accepted it in 1950, and a reunited Germany confirmed it by treaty in 1990.",
+    "hook": "Poland was shifted west in 1945, and the Oder and Neisse mark where it stopped."
+  },
+  {
+    "id": "geo_153",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "What name is given to the point in the South Pacific furthest from any land, where old spacecraft are deliberately sunk?",
+    "answer": "Point Nemo",
+    "distractors": [
+      "Null Island",
+      "Bouvet Point",
+      "Cape Adare"
+    ],
+    "explanation": "It lies about 2,700 kilometres from the nearest land, and at times the closest humans are astronauts on the International Space Station overhead. Hundreds of spacecraft rest on the sea floor there, and the ISS is planned to join them early in the 2030s.",
+    "hook": "Named after Jules Verne's Captain Nemo, whose name is Latin for 'nobody'."
+  },
+  {
+    "id": "geo_154",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "Which Australian external territory in the Indian Ocean is famous for its mass migration of red crabs?",
+    "answer": "Christmas Island",
+    "distractors": [
+      "The Cocos (Keeling) Islands",
+      "Norfolk Island",
+      "Lord Howe Island"
+    ],
+    "explanation": "Tens of millions of crabs march from the forest to the sea to breed at the start of the wet season, and roads are closed for them. The island was named by an English captain on Christmas Day 1643, and it is closer to Jakarta than to Perth.",
+    "hook": "Once a year Christmas Island turns red, and the roads belong to crabs."
+  },
+  {
+    "id": "geo_155",
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "What does the name of the Nullarbor Plain mean in Latin?",
+    "answer": "No tree",
+    "distractors": [
+      "No water",
+      "Flat land",
+      "Empty plain"
+    ],
+    "explanation": "Surveyor Edmund Delisser coined the name from 'nullus arbor' in 1865 to describe the treeless limestone plain. The Trans-Australian Railway crosses it on the world's longest straight stretch of track, 478 kilometres.",
+    "hook": "Null arbor: zero trees, and 478 kilometres of dead-straight railway."
   }
 ]
