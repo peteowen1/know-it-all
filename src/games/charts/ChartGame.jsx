@@ -32,6 +32,10 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
   const [round, setRound] = useState(null);
   const roundId = useRef(0);
   const entry = gameEntry(stats, domain.id);
+  // Saved answers are keyed by chart only when a game has several, so Box
+  // office and Best Picture never collide. A one-chart game keeps plain keys;
+  // prefixing music as well would strand every answer already saved for it.
+  const itemKey = (k) => (chartKeys.length > 1 ? `${chartKey}:${k}` : k);
 
   const formats = {
     board: { label: chart.boardLabel, blurb: `Type ${chart.noun}s or ${chart.creditNoun}s to fill the board` },
@@ -154,7 +158,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         round={round}
         setRound={setRound}
         reveal={answerMode === 'reveal'}
-        onAnswer={(key, correct) => onAnswer(domain.id, `${chartKey}:${key}`, correct)}
+        onAnswer={(key, correct) => onAnswer(domain.id, itemKey(key), correct)}
         onFinish={(score, total) => onRoundComplete(domain.id, { score, total, answers: [] })}
         onAgain={start}
         onSettings={() => setRound(null)}
@@ -172,7 +176,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         onRoundComplete(domain.id, {
           score: r.found.length,
           total: r.items.length,
-          answers: r.items.map((it) => ({ key: `${chartKey}:${it.id}`, correct: r.found.includes(it.id) }))
+          answers: r.items.map((it) => ({ key: itemKey(it.id), correct: r.found.includes(it.id) }))
         })
       }
       onAgain={start}
