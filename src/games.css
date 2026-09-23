@@ -182,3 +182,17 @@
 .paper-row > div span { color: var(--text-secondary); font-size: 0.82rem; }
 .paper-score { font-family: var(--font-serif); font-size: 1.2rem; color: var(--accent-gold); min-width: 3.5rem; text-align: right; }
 .game-setup-head h2 { display: inline-flex; align-items: center; gap: 0.5rem; }
+
+/* --------------------------------------------------------------- timeline */
+.tl-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; max-width: 620px; width: 100%; margin: 0 auto; }
+.tl-card {
+  display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 0.8rem; border-radius: 12px;
+  border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.5);
+}
+.tl-card.got { border-color: var(--accent-green); background: rgba(16, 185, 129, 0.1); }
+.tl-card.missed { border-color: rgba(244, 63, 94, 0.5); }
+.tl-icon { font-size: 1.3rem; flex-shrink: 0; }
+.tl-text { flex: 1; min-width: 0; overflow-wrap: anywhere; line-height: 1.35; }
+.tl-year { display: block; color: var(--accent-gold); font-family: var(--font-serif); font-size: 1.1rem; }
+.tl-moves { display: flex; flex-direction: column; gap: 0.25rem; flex-shrink: 0; }
+.tl-move { padding: 0.25rem 0.5rem; }

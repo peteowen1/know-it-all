@@ -23,6 +23,7 @@ import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopu
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
+import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -658,6 +659,29 @@ test('weekly paper: same week, same paper; next week, a different one', () => {
   const a = pickWeekly(BY_CAT, '2026-09-19').questions.map((q) => q.id);
   assert.deepEqual(pickWeekly(BY_CAT, '2026-09-19').questions.map((q) => q.id), a);
   assert.notDeepEqual(pickWeekly(BY_CAT, '2026-09-26').questions.map((q) => q.id), a);
+});
+// --------------------------------------------------------------- timeline
+const TL = JSON.parse(readFileSync(new URL('../src/data/timeline.json', import.meta.url), 'utf8')).events;
+test('timeline: rounds have 5 distinct years, at most 2 per kind, easy gaps of 8+', () => {
+  for (let s = 0; s < 200; s++) {
+    for (const difficulty of ['easy', 'hard']) {
+      const r = buildRound(TL, { difficulty, seed: s });
+      assert.equal(r.length, 5);
+      const years = r.map((e) => e.year).sort((a, b) => a - b);
+      assert.equal(new Set(years).size, 5, `seed ${s} ${difficulty} repeats a year`);
+      const kinds = {};
+      for (const e of r) kinds[e.kind] = (kinds[e.kind] || 0) + 1;
+      assert.ok(Math.max(...Object.values(kinds)) <= 2, JSON.stringify(kinds));
+      if (difficulty === 'easy') for (let i = 1; i < 5; i++) assert.ok(years[i] - years[i - 1] >= 8, years.join(','));
+      else assert.ok(years[4] - years[0] <= 12, years.join(','));
+    }
+  }
+});
+test('timeline: scoring counts correctly ordered pairs', () => {
+  const ev = (year) => ({ year });
+  assert.deepEqual(scoreOrder([1, 2, 3, 4, 5].map(ev)), { correct: 10, total: 10 });
+  assert.deepEqual(scoreOrder([5, 4, 3, 2, 1].map(ev)), { correct: 0, total: 10 });
+  assert.deepEqual(scoreOrder([2, 1, 3, 4, 5].map(ev)), { correct: 9, total: 10 });
 });
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
