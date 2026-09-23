@@ -27,6 +27,9 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
 
   if (paper) {
     const first = scores[open];
+    // A replay is practice: it must not count again towards quiz totals, the
+    // streak or the vault, or replaying a paper would inflate all three.
+    const counts = !first;
     return (
       <QuizSimulator
         key={`weekly-${open}-${runId}`}
@@ -39,11 +42,11 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
             : `${WEEKLY_SHAPE.easy} warm-ups, ${WEEKLY_SHAPE.medium} middle-order, ${WEEKLY_SHAPE.hard} hard ones to finish. Same paper for everyone this week.`
         }
         onComplete={(result) => {
-          onComplete(result);
+          if (counts) onComplete(result);
           onPaperDone(open, result);
         }}
-        onMissed={onMissed}
-        onCorrect={onCorrect}
+        onMissed={counts ? onMissed : undefined}
+        onCorrect={counts ? onCorrect : undefined}
         onNewQuiz={() => setOpen(null)}
       />
     );

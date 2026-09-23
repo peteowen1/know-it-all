@@ -645,6 +645,15 @@ test('weekly paper: 25 questions, 8/10/7 in order, at most 3 per category, no re
     assert.equal(new Set(questions.map((q) => q.id)).size, 25);
   }
 });
+test('weekly paper: every Saturday for the next two years is a full 25', () => {
+  const short = [];
+  for (let w = 0; w < 104; w++) {
+    const key = addDaysToKey('2026-09-19', 7 * w);
+    const n = pickWeekly(BY_CAT, key).questions.length;
+    if (n !== 25) short.push(`${key}: ${n}`);
+  }
+  assert.deepEqual(short, []);
+});
 test('weekly paper: same week, same paper; next week, a different one', () => {
   const a = pickWeekly(BY_CAT, '2026-09-19').questions.map((q) => q.id);
   assert.deepEqual(pickWeekly(BY_CAT, '2026-09-19').questions.map((q) => q.id), a);

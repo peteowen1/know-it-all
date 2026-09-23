@@ -155,5 +155,8 @@ export function buildChallengeQuiz(ids, seed) {
 /** The Saturday paper for a week: see weekly.js for how it is picked. */
 export function buildWeeklyPaper(weekKey) {
   const { seed, questions } = pickWeekly(QUESTIONS_BY_CATEGORY, weekKey);
+  // The test suite checks two years of papers; this catches a bank edit that
+  // leaves some week short between test runs.
+  if (questions.length !== 25) console.warn(`Saturday paper for ${weekKey} has ${questions.length} questions, not 25.`);
   return { seed, weekKey, questions: questions.map((q) => materialise(q, seed)) };
 }
