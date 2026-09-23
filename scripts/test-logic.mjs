@@ -396,9 +396,14 @@ test('matchGuess: repeated surname finds the next most famous, then reports alre
   assert.equal(matchGuess('jones', 'Tom', TOMS, new Set(['jones'])).person.id, 'jones2');
   assert.equal(matchGuess('jones', 'Tom', TOMS, new Set(['jones', 'jones2'])).alreadyFound, true);
 });
-test('matchGuess: nonsense and one-letter guesses match nothing', () => {
+test('matchGuess: nonsense and stray letters match nothing', () => {
   assert.equal(matchGuess('zzzzzz', 'Tom', TOMS), null);
   assert.equal(matchGuess('h', 'Tom', TOMS), null);
+});
+test('matchGuess: regnal numerals by numeral, number, ordinal or word', () => {
+  const LIZ = [{ id: 'e1', name: 'Elizabeth I', rest: 'I', views: 5 }, { id: 'e2', name: 'Elizabeth II', rest: 'II', views: 9 }];
+  for (const g of ['I', '1', '1st', 'first', 'the first', 'Elizabeth I']) assert.equal(matchGuess(g, 'Elizabeth', LIZ)?.person.id, 'e1', g);
+  for (const g of ['ii', '2', '2nd', 'second']) assert.equal(matchGuess(g, 'Elizabeth', LIZ)?.person.id, 'e2', g);
 });
 
 // ------------------------------------------------------------ flag look-alikes
