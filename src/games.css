@@ -212,3 +212,8 @@
 .ny-sum-row span { color: var(--text-secondary); }
 
 .tl-end { text-align: center; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-gold); }
+
+/* ------------------------------------------------------------- obscure-est */
+.obs-reveal { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 0.75rem; }
+.obs-reveal > div { display: flex; flex-direction: column; gap: 0.25rem; padding: 0.7rem 0.9rem; border-radius: 12px; border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.5); }
+.obs-reveal em { font-style: normal; color: var(--accent-gold); font-weight: 700; margin-left: 0.3rem; }

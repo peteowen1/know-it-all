@@ -17,6 +17,7 @@
     "data:fourbyfour": "node scripts/build-fourbyfour.mjs",
     "data:lists": "node scripts/build-lists.mjs",
     "data:timeline": "node scripts/build-timeline.mjs",
+    "data:obscure": "node scripts/build-obscure.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "node scripts/test-logic.mjs",
