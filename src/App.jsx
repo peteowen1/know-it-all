@@ -11,6 +11,7 @@ const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
 const HigherLower = lazy(() => import('./games/geo/HigherLower'));
 const FirstNames = lazy(() => import('./games/names/FirstNames'));
 const MusicCharts = lazy(() => import('./games/charts/MusicCharts'));
+const FilmCharts = lazy(() => import('./games/charts/FilmCharts'));
 import { recordRound, recordItems } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
@@ -322,6 +323,17 @@ export default function App() {
 
         {activeTab === 'music-years' && (
           <MusicCharts
+            stats={gameStats}
+            answerMode={answerMode}
+            onAnswerModeChange={setAnswerMode}
+            onAnswer={handleGameAnswer}
+            onRoundComplete={handleGameRound}
+            onExit={goHome}
+          />
+        )}
+
+        {activeTab === 'film-years' && (
+          <FilmCharts
             stats={gameStats}
             answerMode={answerMode}
             onAnswerModeChange={setAnswerMode}

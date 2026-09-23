@@ -27,6 +27,7 @@ import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from
 import { readFileSync } from 'node:fs';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
+const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
 const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
@@ -496,6 +497,40 @@ test('decadesOf drops the one-year 1950s', () => {
   assert.equal(d[0], 1960);
   assert.ok(d.includes(2020));
 });
+// ------------------------------------------------------------------ films
+test('films: box office has a full top 10 every year 1970 onward', () => {
+  for (const [y, list] of Object.entries(FILMS.boxOffice)) {
+    assert.deepEqual(list.map((f) => f.rank), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], `year ${y}`);
+  }
+});
+test('films: known box-office number ones and directors', () => {
+  assert.equal(FILMS.boxOffice[1977][0].title, 'Star Wars');
+  assert.equal(FILMS.boxOffice[1997][0].title, 'Titanic');
+  assert.equal(FILMS.boxOffice[1997][0].artist, 'James Cameron');
+});
+test('films: exactly one Best Picture winner a year, known winners right', () => {
+  for (const [y, list] of Object.entries(FILMS.bestPicture)) {
+    assert.equal(list[0].rank, 1, `year ${y}`);
+    assert.equal(new Set(list.map((f) => f.title)).size, list.length, `duplicate nominee in ${y}`);
+  }
+  assert.equal(FILMS.bestPicture[1972][0].title, 'The Godfather');
+  assert.equal(FILMS.bestPicture[1994][0].title, 'Forrest Gump');
+  assert.equal(FILMS.bestPicture[2019][0].title, 'Parasite');
+});
+test('films: Best Picture quiz wrong answers are that year\'s nominees', () => {
+  const words = { best: (y) => `${y}?`, whichYear: (l) => l, winner: (l) => l, runnerUp: 'x' };
+  const qs = buildChartQuiz(FILMS.bestPicture, { from: 1990, to: 1999, count: 10, seed: 2, words, sameYearDistractors: true });
+  for (const q of qs.filter((x) => x.kind === 'song-of-year')) {
+    const nominees = FILMS.bestPicture[q.year].map((f) => `"${f.title}" — ${f.artist}`);
+    assert.ok(q.options.every((o) => nominees.includes(o)), `${q.year}: ${q.options}`);
+  }
+});
+test('topSongs "winners" decade board lists one winner per year', () => {
+  const b = topSongs(FILMS.bestPicture, 1990, 1999, 10, { decadeBoard: 'winners' });
+  assert.equal(b.length, 10);
+  assert.equal(b[4].label, 'Forrest Gump');
+});
+
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {
