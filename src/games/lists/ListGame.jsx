@@ -4,6 +4,7 @@ import data from '../../data/lists.json';
 import { rowMatches } from './listMatch';
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
+import { loadLive, saveLive, usePersistentState } from '../../lib/persist';
 
 const RANGES = {
   all: { label: 'All', pick: (terms) => terms },
@@ -22,14 +23,13 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
   const keys = Object.keys(data.lists);
   const [listKey, setListKey] = useState(keys[0]);
   const [range, setRange] = useState('all');
-  const [round, setRound] = useState(null);
-  const roundId = useRef(0);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [round, setRound] = usePersistentState('lists', null);
   const entry = gameEntry(stats, 'lists');
 
   const start = () => {
-    roundId.current += 1;
     const terms = RANGES[range].pick(data.lists[listKey].terms);
-    setRound({ id: roundId.current, listKey, title: data.lists[listKey].title, rangeLabel: RANGES[range].label, rows: terms });
+    setRound({ id: Date.now(), listKey, title: data.lists[listKey].title, rangeLabel: RANGES[range].label, rows: terms });
   };
 
   if (!round) {
@@ -83,16 +83,22 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
 
 function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   const { rows } = round;
-  const [done, setDone] = useState(() => rows.map(() => false));
-  const [values, setValues] = useState(() => rows.map(() => ''));
+  // What has been typed and locked in, saved against this round's id.
+  const [saved] = useState(() => {
+    const s = loadLive('lists_board');
+    return s && s.id === round.id && s.done?.length === rows.length ? s : null;
+  });
+  const [done, setDone] = useState(() => saved?.done ?? rows.map(() => false));
+  const [values, setValues] = useState(() => saved?.values ?? rows.map(() => ''));
   const [wrong, setWrong] = useState(null);
-  const [over, setOver] = useState(false);
+  const [over, setOver] = useState(saved?.over ?? false);
+  useEffect(() => saveLive('lists_board', { id: round.id, done, values, over }), [round.id, done, values, over]);
   const inputs = useRef([]);
-  const finished = useRef(false);
+  const finished = useRef(Boolean(saved?.over));
   // Rows already locked, kept in a ref as well as state. Moving focus after a
   // right answer blurs the old box, and its onBlur runs with the pre-update
   // state; the ref lets that second check see the row is already done.
-  const locked = useRef(rows.map(() => false));
+  const locked = useRef(saved?.done ? saved.done.slice() : rows.map(() => false));
   const doneCount = done.filter(Boolean).length;
   const initials = useMemo(() => rows.map((r) => r.name.split(' ').map((w) => w[0]).join('. ') + '.'), [rows]);
 

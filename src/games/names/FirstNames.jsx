@@ -4,6 +4,7 @@ import data from '../../data/famous.json';
 import { matchGuess } from './nameMatch';
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
+import { usePersistentState } from '../../lib/persist';
 
 const BOARD_SIZE = 15;
 const TIMERS = [60, 120, 0]; // 0 = untimed
@@ -24,7 +25,8 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
   const [era, setEra] = useState('all');
   const [timer, setTimer] = useState(120);
   const [picked, setPicked] = useState(null); // null = random
-  const [game, setGame] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [game, setGame] = usePersistentState('first_names', null);
   const entry = gameEntry(stats, 'first-names');
 
   const names = useMemo(
@@ -38,15 +40,13 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
   // A picked name the era filter has since removed falls back to random, and
   // the chip row shows Random as selected, so what you see is what you get.
   const pickedName = names.some((n) => n.first === picked) ? picked : null;
-  const roundId = useRef(0);
 
   const start = () => {
     if (!names.length) return;
     const pool = pickedName ? names.filter((n) => n.first === pickedName) : names;
     const chosen = pool[Math.floor(Math.random() * pool.length)];
-    roundId.current += 1;
     setGame({
-      id: roundId.current,
+      id: Date.now(), // not a counter: it restarts after a reload
       first: chosen.first,
       board: chosen.people.slice(0, BOARD_SIZE),
       bonusPool: chosen.people.slice(BOARD_SIZE),
@@ -124,7 +124,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
 function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
-  const finished = useRef(false);
+  const finished = useRef(Boolean(game.over));
   const inputRef = useRef(null);
 
   const { first, board, bonusPool, found, endsAt, over, message } = game;

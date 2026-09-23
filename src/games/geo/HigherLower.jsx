@@ -5,6 +5,7 @@ import { REGIONS, countryPool, nextChallenger, formatPopulation } from './geoPoo
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from './CountryQuiz';
 import { makeRng } from '../../lib/rng';
+import { usePersistentState } from '../../lib/persist';
 
 /**
  * Higher or lower, one country at a time. The left card shows its population;
@@ -16,13 +17,14 @@ import { makeRng } from '../../lib/rng';
  */
 export default function HigherLower({ stats, onRoundComplete, onExit }) {
   const [region, setRegion] = useState('World');
-  const [state, setState] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [state, setState] = usePersistentState('population', null);
   const rand = useRef(makeRng(Date.now() >>> 0));
 
   // A run in progress that has not been saved yet. A run is normally saved when
   // it ends on a miss; if the player leaves mid-run instead, this is saved on
   // the way out so a best run is never lost to the All games button.
-  const unsaved = useRef(null);
+  const unsaved = useRef(state && state.verdict !== 'wrong' && state.run > 0 ? { run: state.run, answers: state.answers } : null);
   const save = useRef(onRoundComplete);
   save.current = onRoundComplete;
   useEffect(() => () => {

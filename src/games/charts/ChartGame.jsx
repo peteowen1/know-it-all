@@ -3,6 +3,7 @@ import { ArrowRight, CheckCircle2, Clock, Eye, Flag as GiveUp, RotateCcw, XCircl
 import { topSongs, topArtists, buildChartQuiz, matchChartGuess, decadesOf } from './chartLogic';
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
+import { usePersistentState } from '../../lib/persist';
 
 /**
  * A "by year" chart game. `domain` holds one or more charts keyed by year,
@@ -29,8 +30,8 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
   const [span, setSpan] = useState('year'); // 'year' | 'decade'
   const [decade, setDecade] = useState(null); // null = any
   const [timed, setTimed] = useState(true);
-  const [round, setRound] = useState(null);
-  const roundId = useRef(0);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [round, setRound] = usePersistentState(`chart_${domain.id}`, null);
   const entry = gameEntry(stats, domain.id);
   // Saved answers are keyed by chart only when a game has several, so Box
   // office and Best Picture never collide. A one-chart game keeps plain keys;
@@ -59,7 +60,9 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
 
   const start = () => {
     const [from, to] = pickRange();
-    roundId.current += 1;
+    // A time-based id: a counter restarts at 0 after a reload and could reuse
+    // the saved round's id, which would stop the next board remounting.
+    const id = Date.now();
     const label = from === to ? String(from) : `the ${from}s`;
     if (activeFormat === 'quiz') {
       const whole = activeDecade == null;
@@ -70,7 +73,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         ...(chart.quizWords ? { words: chart.quizWords } : {}),
         sameYearDistractors: Boolean(chart.sameYearDistractors)
       });
-      setRound({ id: roundId.current, type: 'quiz', label: `${chart.label} · ${whole ? 'all years' : label}`, questions, index: 0, answers: [], revealed: false, picked: null });
+      setRound({ id, type: 'quiz', label: `${chart.label} · ${whole ? 'all years' : label}`, questions, index: 0, answers: [], revealed: false, picked: null });
       return;
     }
     const single = from === to;
@@ -80,7 +83,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         ? topSongs(chart.years, from, to, size, { decadeBoard: chart.decadeBoard })
         : topArtists(chart.years, from, to, size, { noun: chart.noun });
     setRound({
-      id: roundId.current,
+      id,
       type: 'board',
       title: activeFormat === 'board' ? chart.boardTitle(label, single) : `Top ${chart.creditNoun}s of ${label}`,
       placeholder: activeFormat === 'board' ? `${chart.noun} or ${chart.creditNoun}…` : `${chart.creditNoun}…`,
@@ -188,7 +191,8 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
 function ChartBoard({ round, setRound, easy, onFinish, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
-  const finished = useRef(false);
+  // A board restored already finished must not be recorded again on leaving.
+  const finished = useRef(Boolean(round.over));
   const inputRef = useRef(null);
   const { items, found, endsAt, over, message, title, placeholder } = round;
   const foundSet = new Set(found);
@@ -302,7 +306,7 @@ function ChartBoard({ round, setRound, easy, onFinish, onAgain, onSettings }) {
 }
 
 function ChartQuiz({ round, setRound, reveal, onAnswer, onFinish, onAgain, onSettings }) {
-  const answeredUpTo = useRef(-1);
+  const answeredUpTo = useRef(round.answers.length - 1);
   const { questions, index, answers, revealed, picked, label } = round;
 
   if (index >= questions.length) {

@@ -4,6 +4,7 @@ import data from '../../data/timeline.json';
 import { buildRound, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
+import { usePersistentState } from '../../lib/persist';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
 
 const KIND_ICON = { music: '🎵', film: '🎬', oscars: '🏆', tv: '📺', leaders: '🏛️', people: '👶' };
@@ -14,7 +15,8 @@ const KIND_ICON = { music: '🎵', film: '🎬', oscars: '🏆', tv: '📺', lea
  */
 export default function Timeline({ stats, onRoundComplete, onExit }) {
   const [difficulty, setDifficulty] = useState('easy');
-  const [round, setRound] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [round, setRound] = usePersistentState('timeline', null);
   const entry = gameEntry(stats, 'timeline');
 
   const start = (daily) => {

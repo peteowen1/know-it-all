@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ArrowRight, CalendarDays, RotateCcw, Shuffle } from 'lucide-react';
 import data from '../../data/timeline.json';
 import { buildYearRounds, yearPoints, ROUNDS } from './nameYearLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
+import { usePersistentState } from '../../lib/persist';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
 
 const KIND_ICON = { music: '🎵', film: '🎬', oscars: '🏆', tv: '📺', leaders: '🏛️', people: '👶' };
@@ -14,7 +15,8 @@ const KIND_ICON = { music: '🎵', film: '🎬', oscars: '🏆', tv: '📺', lea
  * types the year.
  */
 export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
-  const [game, setGame] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [game, setGame] = usePersistentState('name_year', null);
   const entry = gameEntry(stats, 'year-guess');
 
   const start = (daily) => {

@@ -1,8 +1,9 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import { Newspaper, Play, RotateCcw } from 'lucide-react';
 import QuizSimulator from './QuizSimulator';
 import { buildWeeklyPaper, WEEKLY_SHAPE } from '../lib/quizBuilder';
 import { saturdayKey, addDaysToKey } from '../lib/dates';
+import { usePersistentState } from '../lib/persist';
 
 const PAST_WEEKS = 4;
 
@@ -21,8 +22,10 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
     () => Array.from({ length: PAST_WEEKS + 1 }, (_, i) => addDaysToKey(thisWeek, -7 * i)),
     [thisWeek]
   );
-  const [open, setOpen] = useState(null); // week key being played
-  const [runId, setRunId] = useState(0);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  // runId tells a replay apart from the saved run, so Replay starts fresh.
+  const [open, setOpen] = usePersistentState('weekly_open', null); // week key being played
+  const [runId, setRunId] = usePersistentState('weekly_run', 0);
   const paper = useMemo(() => (open ? buildWeeklyPaper(open) : null), [open]);
 
   if (paper) {
@@ -35,6 +38,8 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
         key={`weekly-${open}-${runId}`}
         questions={paper.questions}
         seed={paper.seed}
+        saveAs="weekly"
+        saveId={`${open}:${runId}`}
         title={`The Saturday paper · ${pretty(open)}`}
         subtitle={
           first

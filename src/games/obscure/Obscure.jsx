@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ArrowRight, CalendarDays, RotateCcw, Shuffle } from 'lucide-react';
 import data from '../../data/obscure.json';
 import { pickCategories, scoreGuess, ROUNDS } from './obscureLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
+import { usePersistentState } from '../../lib/persist';
 
 const KIND_ICON = { geo: '🌍', people: '🌟', music: '🎵', film: '🎬' };
 
@@ -14,7 +15,8 @@ const KIND_ICON = { geo: '🌍', people: '🌟', music: '🎵', film: '🎬' };
  * is where the learning is.
  */
 export default function Obscure({ stats, onRoundComplete, onExit }) {
-  const [game, setGame] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [game, setGame] = usePersistentState('obscure', null);
   const entry = gameEntry(stats, 'pointless');
 
   const start = (daily) => {
