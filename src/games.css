@@ -210,3 +210,5 @@
 .ny-summary { display: flex; flex-direction: column; gap: 0.4rem; }
 .ny-sum-row { display: flex; justify-content: space-between; gap: 1rem; padding: 0.4rem 0.2rem; border-bottom: 1px solid var(--border-color); }
 .ny-sum-row span { color: var(--text-secondary); }
+
+.tl-end { text-align: center; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-gold); }
