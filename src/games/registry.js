@@ -31,7 +31,7 @@ export const GAMES = [
   { id: 'tv-years', section: 'pop', tab: 'tv-years', status: 'ready', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe drama and comedy races, back to the 1950s.' },
 
   // -------------------------------------------------------------------- lab
-  { id: 'connections', section: 'lab', status: 'soon', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },
+  { id: 'connections', section: 'lab', tab: 'connections', status: 'ready', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },
   { id: 'timeline', section: 'lab', status: 'soon', icon: '⏳', title: 'Timeline', blurb: 'Put five events, films or inventions in order. Closer orders score partial points.' },
   { id: 'year-guess', section: 'lab', status: 'soon', icon: '📅', title: 'Name the year', blurb: 'Three clues from one year. Scored on how many years you are off.' },
   { id: 'pointless', section: 'lab', status: 'soon', icon: '🎯', title: 'Obscure-est', blurb: 'Any right answer scores, but rarer right answers score more.' },

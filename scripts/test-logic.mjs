@@ -29,6 +29,7 @@ import { readFileSync } from 'node:fs';
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
 const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
 const TV = JSON.parse(readFileSync(new URL('../src/data/charts/tv.json', import.meta.url), 'utf8'));
+const FBF = JSON.parse(readFileSync(new URL('../src/data/fourbyfour.json', import.meta.url), 'utf8'));
 const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
@@ -570,6 +571,19 @@ test('which-year quiz never offers a repeat winner\'s other winning year', () =>
       const right = q.options.filter((y) => TV.emmyComedy[y]?.[0].title === title);
       assert.equal(right.length, 1, `${title}: ${q.options}`);
     }
+  }
+});
+
+// ------------------------------------------------------------ four by four
+test('four by four: every puzzle has 4 groups of 4 and 16 distinct tiles', () => {
+  assert.ok(FBF.puzzles.length >= 100, `only ${FBF.puzzles.length} puzzles`);
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  for (const [i, p] of FBF.puzzles.entries()) {
+    assert.equal(p.groups.length, 4, `puzzle ${i}`);
+    for (const g of p.groups) assert.equal(g.items.length, 4, `puzzle ${i} ${g.label}`);
+    const tiles = p.groups.flatMap((g) => g.items.map(norm));
+    assert.equal(new Set(tiles).size, 16, `puzzle ${i} repeats a tile`);
+    assert.deepEqual(p.groups.map((g) => g.level), [...p.groups.map((g) => g.level)].sort(), `puzzle ${i} not in difficulty order`);
   }
 });
 

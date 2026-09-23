@@ -13,6 +13,7 @@ const FirstNames = lazy(() => import('./games/names/FirstNames'));
 const MusicCharts = lazy(() => import('./games/charts/MusicCharts'));
 const FilmCharts = lazy(() => import('./games/charts/FilmCharts'));
 const TvCharts = lazy(() => import('./games/charts/TvCharts'));
+const FourByFour = lazy(() => import('./games/fourbyfour/FourByFour'));
 import { recordRound, recordItems } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
@@ -353,6 +354,10 @@ export default function App() {
             onRoundComplete={handleGameRound}
             onExit={goHome}
           />
+        )}
+
+        {activeTab === 'connections' && (
+          <FourByFour stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
         )}
 
         {activeTab === 'first-names' && (
