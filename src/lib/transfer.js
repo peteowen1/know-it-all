@@ -5,6 +5,8 @@
 // are small, and a dependency whose only job is shortening a string the user
 // pastes once is not worth the bundle weight or the supply-chain surface.
 
+import { coerceGameStats, mergeGameStats } from './gameStats.js';
+
 const b64encode = (str) =>
   btoa(String.fromCharCode(...new TextEncoder().encode(str)))
     .replace(/\+/g, '-')
@@ -27,7 +29,7 @@ const PROGRESS_FORMAT = 1;
  * Versioned so a future format change can be detected and rejected with a clear
  * message rather than silently importing garbage into someone's stats.
  */
-export function exportProgress({ stats, vault, recentIds }) {
+export function exportProgress({ stats, vault, recentIds, games = {} }) {
   return b64encode(
     JSON.stringify({
       v: PROGRESS_FORMAT,
@@ -35,7 +37,10 @@ export function exportProgress({ stats, vault, recentIds }) {
       // all 350 ids roughly triples the length of the code for little benefit.
       r: recentIds.slice(0, 120),
       s: stats,
-      k: vault
+      k: vault,
+      // Added after format 1 shipped. Optional on import, so codes made before
+      // the geography games existed still import, with no game progress.
+      g: games
     })
   );
 }
@@ -72,7 +77,8 @@ export function importProgress(code) {
       // re-concatenate — corruption that compounds silently and forever.
       stats: coerceStats(parsed.s),
       vault: Array.isArray(parsed.k) ? parsed.k.filter((e) => e && typeof e === 'object') : [],
-      recentIds: Array.isArray(parsed.r) ? parsed.r.filter((x) => typeof x === 'string') : []
+      recentIds: Array.isArray(parsed.r) ? parsed.r.filter((x) => typeof x === 'string') : [],
+      games: coerceGameStats(parsed.g)
     }
   };
 }
@@ -155,7 +161,8 @@ export function mergeProgress(local, incoming) {
   return {
     stats,
     vault: [...byId.values()],
-    recentIds: [...new Set([...local.recentIds, ...incoming.recentIds])].slice(0, 350)
+    recentIds: [...new Set([...local.recentIds, ...incoming.recentIds])].slice(0, 350),
+    games: mergeGameStats(local.games, incoming.games)
   };
 }
 

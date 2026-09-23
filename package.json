@@ -1,5 +1,5 @@
 {
-  "name": "gw-quiz-trainer",
+  "name": "know-it-all",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +8,7 @@
     "build": "npm run validate && npm run test && vite build",
     "build:only": "vite build",
     "validate": "node scripts/validate-questions.mjs",
+    "data:countries": "node scripts/build-countries.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "node scripts/test-logic.mjs",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
+    "flag-icons": "^7.5.0",
     "lucide-react": "^1.28.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"

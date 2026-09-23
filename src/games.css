@@ -1,0 +1,74 @@
+/* ------------------------------------------------------------ game hub */
+.game-hub { display: flex; flex-direction: column; gap: 2.5rem; }
+.hub-section-head h2 { font-family: var(--font-title); font-size: 1.35rem; }
+.hub-section-head p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem; }
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.hub-card {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 0.35rem;
+  text-align: left; padding: 1.1rem 1.2rem; min-height: 150px;
+  background: var(--bg-card); border: 1px solid var(--glass-border); border-radius: 14px;
+  color: var(--text-primary); font: inherit; cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.hub-card:hover:not(:disabled) { transform: translateY(-2px); border-color: var(--accent-gold); background: var(--bg-card-hover); }
+.hub-card-soon { opacity: 0.5; cursor: default; }
+.hub-icon { font-size: 1.8rem; line-height: 1; }
+.hub-title { font-weight: 700; font-size: 1.05rem; }
+.hub-blurb { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.4; flex: 1; }
+.hub-record { font-size: 0.8rem; color: var(--accent-gold); font-weight: 600; }
+.hub-soon { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+
+/* ---------------------------------------------------------- game setup */
+.card.game-setup, .card.game-results, .card.geo-question, .card.hl-game {
+  background: var(--bg-card); border: 1px solid var(--glass-border); border-radius: 16px;
+  padding: 1.5rem; max-width: 760px; margin: 0 auto;
+  display: flex; flex-direction: column; gap: 1rem;
+}
+.game-setup-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.game-setup-head h2 { font-family: var(--font-title); }
+.game-record { color: var(--text-secondary); font-size: 0.92rem; }
+.game-start { align-self: flex-start; }
+.weak-list { border-top: 1px solid var(--border-color); padding-top: 1rem; }
+.weak-chip {
+  display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.25rem 0.6rem;
+  border-radius: 999px; background: rgba(244, 63, 94, 0.12); color: #fda4af; font-size: 0.85rem;
+}
+
+/* --------------------------------------------------------------- flags */
+.fi.flag-lg { width: min(320px, 70vw); height: auto; aspect-ratio: 4 / 3; border-radius: 6px; box-shadow: var(--card-shadow); }
+.fi.flag-md { width: 96px; height: 72px; border-radius: 4px; }
+.fi.flag-sm { width: 1.6em; height: 1.2em; border-radius: 2px; vertical-align: -0.15em; }
+.fi { background-size: cover; }
+
+/* ------------------------------------------------------ geo questions */
+.geo-ask { color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; text-align: center; }
+.geo-prompt { display: flex; justify-content: center; min-height: 80px; align-items: center; }
+.geo-prompt-text { font-family: var(--font-serif); font-size: 2rem; text-align: center; }
+.flag-options .option-btn { justify-content: center; padding: 0.8rem; }
+.geo-fact { color: var(--text-secondary); font-size: 0.92rem; text-align: center; }
+.missed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+.missed-item { display: flex; gap: 0.75rem; align-items: center; }
+.missed-item div { display: flex; flex-direction: column; }
+.missed-item span { color: var(--text-secondary); font-size: 0.85rem; }
+
+/* ------------------------------------------------------- higher/lower */
+.hl-cards { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center; }
+.hl-card {
+  display: flex; flex-direction: column; align-items: center; gap: 0.5rem; padding: 1.25rem;
+  border-radius: 14px; border: 1px solid var(--glass-border); background: rgba(15, 23, 42, 0.5); text-align: center;
+}
+.hl-card.hl-right { border-color: var(--accent-green); }
+.hl-card.hl-wrong { border-color: var(--accent-rose); }
+.hl-pop { font-family: var(--font-serif); font-size: 1.5rem; color: var(--accent-gold); }
+.hl-vs { color: var(--text-muted); font-weight: 700; }
+.hl-buttons, .hl-over { text-align: center; display: flex; flex-direction: column; gap: 0.75rem; align-items: center; }
+
+@media (max-width: 560px) {
+  .hl-cards { grid-template-columns: 1fr; }
+  .hl-vs { text-align: center; }
+  .geo-prompt-text { font-size: 1.5rem; }
+}

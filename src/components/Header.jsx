@@ -1,8 +1,9 @@
 import React from 'react';
-import { BookOpen, Award, Flame, RotateCcw, Sparkles, Layers, Database, Target, BarChart3 } from 'lucide-react';
+import { Home, BookOpen, Award, Flame, RotateCcw, Sparkles, Layers, Database, Target, BarChart3 } from 'lucide-react';
 
 const TABS = [
-  { id: 'quiz', label: 'Quiz', icon: BookOpen },
+  { id: 'home', label: 'Games', icon: Home },
+  { id: 'quiz', label: 'Weekend quiz', icon: BookOpen },
   { id: 'daily', label: 'Daily five', icon: Sparkles },
   { id: 'flashcards', label: 'Decks', icon: Layers },
   { id: 'vault', label: 'Vault', icon: Target },
@@ -14,17 +15,17 @@ export default function Header({ activeTab, setActiveTab, stats, bankSize, weakn
     <header className="app-header">
       <div className="header-top">
         <div className="brand-title">
-          <div className="brand-logo"><span className="logo-icon">📰</span></div>
+          <div className="brand-logo"><span className="logo-icon">🧠</span></div>
           <div>
-            <div className="tagline">Weekend general knowledge, drilled</div>
-            <h1>Saturday Quiz Trainer</h1>
+            <div className="tagline">Trivia, drilled until it sticks</div>
+            <h1>Know-It-All</h1>
           </div>
         </div>
 
         <div className="header-stats">
           <div className="stat-badge bank">
             <Database className="icon-bank" size={18} />
-            <span>{bankSize} questions</span>
+            <span>{bankSize}+ questions</span>
           </div>
           <div className="stat-badge streak">
             <Flame className="icon-flame" size={18} />

@@ -1,8 +1,16 @@
-# Saturday Quiz Trainer
+# Know-It-All
 
-A weekend-quiz style general knowledge trainer. 1,040 questions across eight
-categories, each with a written explanation and a memory hook, plus a weakness
-vault that drills back whatever you got wrong.
+Trivia training, live at https://peteowen1.github.io/know-it-all/ (formerly
+Saturday Quiz Trainer). The home screen lists every game, played or planned:
+
+- **Weekend quiz**: 1,040 general-knowledge questions across eight categories,
+  each with an explanation and a memory hook, plus a revision vault.
+- **Geography**: flags, capitals (both directions) and population
+  higher-or-lower, over 197 sovereign states (territories optional).
+- **Coming**: famous first names, chart toppers / films / TV by year, and lab
+  games (four-by-four groups, timeline, name the year, missing link).
+
+The game list lives in `src/games/registry.js`.
 
 Runs entirely in the browser. No account, no server, no data leaves the device.
 
@@ -76,6 +84,20 @@ orphaned — never read again — rather than parsed into a shape the current co
 does not expect. They are not deleted; only the Reset button does that. Values
 are shape-checked on read, because `JSON.parse` succeeding does not mean the
 result is the type the caller expects.
+
+## Country data
+
+`npm run data:countries` rebuilds `src/data/countries.json` from
+[mledoze/countries](https://github.com/mledoze/countries) (names, capitals,
+regions) and World Bank `SP.POP.TOTL` (population). It prints coverage and fails
+if the join breaks. Raw responses are saved to `data-raw/` (gitignored). Extra
+accepted capitals (La Paz, Mbabane...) are in `ACCEPT_ALSO` in the script.
+
+Flags are SVGs from the `flag-icons` package, because Windows does not draw
+flag emoji.
+
+Per-game progress (`sqt_v4_games`) lives in `src/lib/gameStats.js` and travels
+in the progress code alongside the weekend-quiz stats.
 
 ## Deploying
 

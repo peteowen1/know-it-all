@@ -1,10 +1,15 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, lazy, Suspense } from 'react';
 import Header from './components/Header';
 import QuizSimulator from './components/QuizSimulator';
 import FlashcardsDrill from './components/FlashcardsDrill';
 import WeaknessVault from './components/WeaknessVault';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import QuizSetup from './components/QuizSetup';
+import GameHub from './components/GameHub';
+// Loaded on first open so the 160 kB country table stays out of the first paint.
+const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
+const HigherLower = lazy(() => import('./games/geo/HigherLower'));
+import { recordRound } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
 import { buildChallengeQuiz } from './lib/quizBuilder';
@@ -16,6 +21,9 @@ import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
 // prefix, so old entries are orphaned — never read again — rather than being
 // parsed into a shape the current code does not expect. Note they are not
 // deleted: only the Reset button removes them.
+//
+// The `sqt_` prefix predates the rename to Know-It-All and stays: changing it
+// would orphan every existing player's progress.
 const STORAGE_VERSION = 'v4';
 const KEY = (name) => `sqt_${STORAGE_VERSION}_${name}`;
 
@@ -74,7 +82,16 @@ const EMPTY_STATS = {
 const DEFAULT_SETUP = { count: 25, categories: 'all', difficulty: 'all' };
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('quiz');
+  const [activeTab, setActiveTab] = useState('home');
+  const goHome = useCallback(() => setActiveTab('home'), []);
+
+  // Progress for every game other than the weekend quiz, keyed by game id.
+  const [gameStats, setGameStats] = useState(() => load('games', {}, isObject));
+  // Multiple choice (easier) or reveal-and-self-mark (harder), shared across
+  // games so the choice follows you from flags to capitals.
+  const [answerMode, setAnswerMode] = useState(() =>
+    load('answerMode', 'choice', (v) => v === 'choice' || v === 'reveal')
+  );
 
   const [stats, setStats] = useState(() => ({ ...EMPTY_STATS, ...load('stats', {}, isObject) }));
   const [recentIds, setRecentIds] = useState(() => load('recent', [], isArray));
@@ -103,6 +120,12 @@ export default function App() {
   useEffect(() => save('recent', recentIds), [recentIds]);
   useEffect(() => save('missed', vault), [vault]);
   useEffect(() => save('setup', setup), [setup]);
+  useEffect(() => save('games', gameStats), [gameStats]);
+  useEffect(() => save('answerMode', answerMode), [answerMode]);
+
+  const handleGameRound = useCallback((gameId, result) => {
+    setGameStats((prev) => recordRound(prev, gameId, { ...result, date: localDateKey() }));
+  }, []);
 
   // A streak is broken the moment you miss a day, so it has to be checked on
   // load rather than only on completion — otherwise a stale streak from three
@@ -211,6 +234,7 @@ export default function App() {
     setStats({ ...EMPTY_STATS });
     setRecentIds([]);
     setVault([]);
+    setGameStats({});
   };
 
   /** Replace local state wholesale after a progress import. */
@@ -218,6 +242,7 @@ export default function App() {
     setStats({ ...EMPTY_STATS, ...merged.stats });
     setVault(normaliseVault(merged.vault));
     setRecentIds(merged.recentIds);
+    setGameStats(merged.games || {});
   }, []);
 
   // A challenge link is read once on mount and then stripped from the address
@@ -245,6 +270,33 @@ export default function App() {
       />
 
       <main className="main-content">
+        {activeTab === 'home' && (
+          <GameHub
+            onOpen={setActiveTab}
+            gameStats={gameStats}
+            quizStats={stats}
+            vaultDue={summary.due}
+          />
+        )}
+
+        <Suspense fallback={<div className="card empty-state">Loading…</div>}>
+        {(activeTab === 'flags' || activeTab === 'capitals') && (
+          <CountryQuiz
+            key={activeTab}
+            kind={activeTab}
+            stats={gameStats}
+            answerMode={answerMode}
+            onAnswerModeChange={setAnswerMode}
+            onRoundComplete={handleGameRound}
+            onExit={goHome}
+          />
+        )}
+
+        {activeTab === 'population' && (
+          <HigherLower stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
+        )}
+        </Suspense>
+
         {activeTab === 'quiz' && (
           <>
             <QuizSetup setup={setup} onStart={startQuiz} bankStats={BANK_STATS} />
@@ -325,7 +377,7 @@ export default function App() {
             vaultSummary={summary}
             seenCount={recentIds.length}
             totalBank={ALL_QUESTIONS.length}
-            profile={{ stats, vault, recentIds }}
+            profile={{ stats, vault, recentIds, games: gameStats }}
             onImport={applyImported}
           />
         )}
@@ -333,9 +385,8 @@ export default function App() {
 
       <footer className="app-footer">
         <p>
-          {BANK_STATS.total} questions across {Object.keys(BANK_STATS.byCategory).length} categories.
-          Every answer comes with an explanation and a memory hook. Progress is stored in this
-          browser only — nothing is sent anywhere.
+          Know-It-All. {BANK_STATS.total} weekend-quiz questions, 197 countries, more games on the way.
+          Progress is stored in this browser only — nothing is sent anywhere.
         </p>
       </footer>
     </div>
