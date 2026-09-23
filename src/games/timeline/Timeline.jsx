@@ -96,7 +96,9 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
       </ol>
       <div className="tl-end">▼ Newest</div>
 
-      {checked && round.score.correct <= 2 && (
+      {/* 0 or 1 of 10 is only reachable from a reversed list (at most one pair
+          out of place); 2 can also be a genuine muddle, so the hint stops at 1. */}
+      {checked && round.score.correct <= 1 && (
         <p className="names-msg meh">Looks like newest-first. Oldest goes at the top; flipped, that was {round.score.total - round.score.correct}/{round.score.total}.</p>
       )}
       {checked && round.score.correct < round.score.total && (

@@ -725,6 +725,23 @@ test('name the year: 5 rounds, 3 clues of 3 kinds from the right year, 4 options
     for (let i = 1; i < 5; i++) assert.ok(ys[i] - ys[i - 1] >= 3, ys.join(','));
   }
 });
+test('matchChartGuess: a shared short name resolves once only one is left to find', () => {
+  const board = topSongs(FILMS.boxOffice, 2000, 2009, 20);
+  const lotr = board.filter((x) => x.label.startsWith('The Lord of the Rings'));
+  assert.ok(lotr.length >= 2, 'expected several Lord of the Rings films on the 2000s board');
+  assert.ok(matchChartGuess('Lord of the Rings', board)?.ambiguous);
+  const found = new Set(lotr.slice(0, -1).map((x) => x.id));
+  assert.equal(matchChartGuess('Lord of the Rings', board, found)?.item.id, lotr.at(-1).id);
+});
+test('timeline: only a reversed order scores 0 or 1 of 10', () => {
+  const perms = (a) => (a.length <= 1 ? [a] : a.flatMap((x, i) => perms([...a.slice(0, i), ...a.slice(i + 1)]).map((p) => [x, ...p])));
+  for (const p of perms([1, 2, 3, 4, 5])) {
+    const { correct } = scoreOrder(p.map((year) => ({ year })));
+    // Reversed with at most one adjacent pair swapped.
+    const displaced = p.filter((v, i) => v !== 5 - i).length;
+    if (correct <= 1) assert.ok(displaced <= 2, p.join(','));
+  }
+});
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {

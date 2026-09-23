@@ -162,9 +162,13 @@ export function matchChartGuess(guess, items, foundIds = new Set()) {
   // No full-title match: try short names, exactly and only if unambiguous.
   // "Avengers" on the 2010s board names three films; filling whichever ranks
   // highest would let a player collect every sequel without knowing one.
+  // Counted among items still to find: with two of the three Lord of the
+  // Rings films found, "Lord of the Rings" can only mean the third.
   const byShort = items.filter((item) => item.answers.some((a) => shortForms(a).has(g)));
-  if (byShort.length === 1) return { item: byShort[0], alreadyFound: foundIds.has(byShort[0].id) };
-  if (byShort.length > 1) return { ambiguous: true, count: byShort.length };
+  const open = byShort.filter((item) => !foundIds.has(item.id));
+  if (open.length === 1) return { item: open[0], alreadyFound: false };
+  if (open.length > 1) return { ambiguous: true, count: open.length };
+  if (byShort.length) return { item: byShort[0], alreadyFound: true };
   return null;
 }
 
