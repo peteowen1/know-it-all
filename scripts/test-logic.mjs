@@ -761,6 +761,13 @@ test('obscure: rarity is sensible (China: India obvious, Bhutan rare)', () => {
 test('obscure: famous-person categories accept a surname alone', () => {
   const toms = OBS.find((c) => c.id === 'name-Tom');
   assert.equal(scoreGuess(toms, 'Hanks').answer?.text, 'Tom Hanks');
+  const johns = OBS.find((c) => c.id === 'name-John');
+  assert.equal(scoreGuess(johns, 'Washington').answer?.text, 'John David Washington');
+});
+test('obscure: a shared name keeps the more famous rarity (George Floyd)', () => {
+  const georges = OBS.find((c) => c.id === 'name-George');
+  // 8th most read of 39 Georges scores 27; the bug scored him 100 (the rarest).
+  assert.ok(scoreGuess(georges, 'George Floyd').score < 50, String(scoreGuess(georges, 'George Floyd').score));
 });
 test('obscure: a game has five distinct categories covering all four areas', () => {
   for (let s = 0; s < 100; s++) {

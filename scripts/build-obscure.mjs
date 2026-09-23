@@ -28,7 +28,14 @@ const categories = [];
  * run 1 (most famous) to 100 (least), spread evenly by rank.
  */
 const add = (id, prompt, kind, answers, min = 6) => {
-  const uniq = [...new Map(answers.map((a) => [a.text, a])).values()];
+  // Same text twice (two different George Floyds in the people data) keeps the
+  // more famous one: last-write-wins scored the famous George Floyd 100.
+  const byText = new Map();
+  for (const a of answers) {
+    const cur = byText.get(a.text);
+    if (!cur || a.fame > cur.fame) byText.set(a.text, { ...a, accept: [...new Set([...(cur?.accept || []), ...(a.accept || [])])] });
+  }
+  const uniq = [...byText.values()];
   if (uniq.length < min) return;
   const sorted = uniq.sort((a, b) => b.fame - a.fame);
   const n = sorted.length;
@@ -75,7 +82,12 @@ for (const n of famous) {
     `name-${n.first}`,
     `A famous person called ${n.first}`,
     'people',
-    n.people.map((p) => ({ text: p.name, accept: [p.rest], fame: p.views })),
+    // Surname alone, including the last word of a longer one ("Washington"
+    // for John David Washington), as in the famous-names game.
+    n.people.map((p) => {
+      const last = p.rest.split(' ').at(-1);
+      return { text: p.name, accept: [p.rest, ...(last.length >= 3 ? [last] : [])], fame: p.views };
+    }),
     15
   );
 }
