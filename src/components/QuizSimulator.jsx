@@ -4,6 +4,7 @@ import {
   Check, X, ChevronDown, ChevronUp, List, Layers, Scissors, Brain, Share2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { loadLive, saveLive } from '../lib/persist';
 import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
 
@@ -28,28 +29,49 @@ export default function QuizSimulator({
   onComplete,
   onMissed,
   onCorrect,
-  onNewQuiz
+  onNewQuiz,
+  saveAs = null,
+  saveId = null
 }) {
-  const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState(null);
-  const [answered, setAnswered] = useState(false);
-  const [answers, setAnswers] = useState([]);
-  const [score, setScore] = useState(0);
-  const [finished, setFinished] = useState(false);
+  // Progress through this exact quiz, saved under one slot per kind of quiz
+  // (`saveAs`: 'quiz', 'daily', 'weekly'...) and tagged with the quiz's seed,
+  // so reopening the app resumes it and a different quiz starts fresh.
+  const [saved] = useState(() => {
+    if (!saveAs) return null;
+    const s = loadLive(`sim_${saveAs}`);
+    return s && s.id === String(saveId ?? seed) && s.count === questions.length ? s : null;
+  });
+  const [index, setIndex] = useState(saved?.index ?? 0);
+  const [selected, setSelected] = useState(saved?.selected ?? null);
+  const [answered, setAnswered] = useState(saved?.answered ?? false);
+  const [answers, setAnswers] = useState(saved?.answers ?? []);
+  const [score, setScore] = useState(saved?.score ?? 0);
+  const [finished, setFinished] = useState(saved?.finished ?? false);
 
-  const [mode, setMode] = useState('multiple_choice');
-  const [revealed, setRevealed] = useState(false);
-  const [eliminated, setEliminated] = useState([]);
-  const [usedFiftyFifty, setUsedFiftyFifty] = useState(false);
+  const [mode, setMode] = useState(saved?.mode ?? 'multiple_choice');
+  const [revealed, setRevealed] = useState(saved?.revealed ?? false);
+  const [eliminated, setEliminated] = useState(saved?.eliminated ?? []);
+  const [usedFiftyFifty, setUsedFiftyFifty] = useState(saved?.usedFiftyFifty ?? false);
 
   const [reviewFilter, setReviewFilter] = useState('all');
   const [viewStyle, setViewStyle] = useState('compact');
   const [expanded, setExpanded] = useState({});
 
-  const [seconds, setSeconds] = useState(0);
+  const [seconds, setSeconds] = useState(saved?.seconds ?? 0);
   const [shareState, setShareState] = useState(null);
   const [shareUrl, setShareUrl] = useState('');
-  const completedRef = useRef(false);
+  // A quiz restored already finished was reported when it finished; reporting
+  // it again would count it twice in the stats and streak.
+  const completedRef = useRef(Boolean(saved?.finished));
+
+  useEffect(() => {
+    if (!saveAs) return;
+    saveLive(`sim_${saveAs}`, {
+      id: String(saveId ?? seed),
+      count: questions.length,
+      index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty, seconds
+    });
+  }, [saveAs, saveId, seed, questions.length, index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty, seconds]);
 
   // Shares the paper, not the score: the recipient gets the same questions in
   // the same order with the same option positions, which is the only way two
@@ -533,20 +555,22 @@ export default function QuizSimulator({
           </div>
         )}
 
-        {answered && (
-          <div className="explanation-card">
-            <h3><HelpCircle size={18} /> Why</h3>
-            <p className="explanation-text">{current.explanation}</p>
-            <div className="tip-box"><strong>Remember it:</strong> {current.hook}</div>
-          </div>
-        )}
-
+        {/* Next before the explanation, and sticky, so it is reachable on a
+            phone without scrolling past the whole explanation first. */}
         {answered && (
           <div className="next-action-bar">
             <button className="btn btn-primary next-btn" onClick={next}>
               <span>{index < questions.length - 1 ? 'Next question' : 'See results'}</span>
               <ArrowRight size={18} />
             </button>
+          </div>
+        )}
+
+        {answered && (
+          <div className="explanation-card">
+            <h3><HelpCircle size={18} /> Why</h3>
+            <p className="explanation-text">{current.explanation}</p>
+            <div className="tip-box"><strong>Remember it:</strong> {current.hook}</div>
           </div>
         )}
       </div>

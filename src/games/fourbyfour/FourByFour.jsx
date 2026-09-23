@@ -1,9 +1,10 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import { Shuffle, RotateCcw, CalendarDays } from 'lucide-react';
 import data from '../../data/fourbyfour.json';
 import { localDateKey } from '../../lib/dates';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
+import { usePersistentState } from '../../lib/persist';
 
 const MISTAKES = 4;
 const LEVEL_CLASS = { 1: 'lvl-1', 2: 'lvl-2', 3: 'lvl-3', 4: 'lvl-4' };
@@ -23,7 +24,8 @@ function dailyIndex(n) {
  * every tile belongs to exactly one group.
  */
 export default function FourByFour({ stats, onRoundComplete, onExit }) {
-  const [game, setGame] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [game, setGame] = usePersistentState('fourbyfour', null);
   const entry = gameEntry(stats, 'connections');
 
   const start = (daily) => {

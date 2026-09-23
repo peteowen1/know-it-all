@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ArrowRight, CalendarDays, CheckCircle2, Eye, RotateCcw, Shuffle, XCircle } from 'lucide-react';
 import data from '../../data/obscure.json';
 import { buildLinkRounds, linkPoints, CLUES } from './linkLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
+import { usePersistentState } from '../../lib/persist';
 
 /**
  * Missing link: clues arrive one at a time, rarest first. Pick the link from
@@ -11,7 +12,8 @@ import { gameEntry } from '../../lib/gameStats';
  * all four. A wrong pick scores nothing and shows the rest.
  */
 export default function MissingLink({ stats, onRoundComplete, onExit }) {
-  const [game, setGame] = useState(null);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [game, setGame] = usePersistentState('missing_link', null);
   const entry = gameEntry(stats, 'missing-link');
 
   const start = (daily) => {

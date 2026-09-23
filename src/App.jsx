@@ -6,6 +6,7 @@ import WeaknessVault from './components/WeaknessVault';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import QuizSetup from './components/QuizSetup';
 import GameHub from './components/GameHub';
+import { GAMES } from './games/registry';
 import WeeklyPaper from './components/WeeklyPaper';
 // Loaded on first open so the 160 kB country table stays out of the first paint.
 const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
@@ -21,6 +22,7 @@ const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
 import { recordRound, recordItems } from './lib/gameStats';
+import { loadLive, saveLive, usePersistentState } from './lib/persist';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
 import { buildChallengeQuiz } from './lib/quizBuilder';
@@ -98,9 +100,19 @@ const EMPTY_STATS = {
 
 const DEFAULT_SETUP = { count: 25, categories: 'all', difficulty: 'all' };
 
+const saveQuiz = (name, q) => saveLive(`quiz_${name}`, q ? { ids: q.questions.map((x) => x.id), seed: q.seed } : null);
+const restoreQuiz = (name) => {
+  const s = loadLive(`quiz_${name}`);
+  if (!s?.ids?.length) return null;
+  const built = buildChallengeQuiz(s.ids, s.seed);
+  return built.questions.length ? built : null;
+};
+
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home');
-  const goHome = useCallback(() => setActiveTab('home'), []);
+  // Reopening the app (an iPhone home-screen app is often reloaded after
+  // switching away) lands back on the same screen.
+  const [activeTab, setActiveTab] = usePersistentState('tab', 'home');
+  const goHome = useCallback(() => setActiveTab('home'), [setActiveTab]);
 
   // Progress for every game other than the weekend quiz, keyed by game id.
   const [gameStats, setGameStats] = useState(() => load('games', {}, isObject));
@@ -126,12 +138,26 @@ export default function App() {
     ...load('setup', {}, isObject)
   }));
 
-  const [quiz, setQuiz] = useState(() =>
-    buildQuiz({ ...DEFAULT_SETUP, ...load('setup', {}, isObject) })
-  );
+  // The quizzes in play are saved as question ids plus seed and rebuilt on
+  // load, which reproduces the same questions with the same option order, so
+  // QuizSimulator can resume its saved progress through them.
+  const [quiz, setQuiz] = useState(() => restoreQuiz('quiz') || buildQuiz({ ...DEFAULT_SETUP, ...load('setup', {}, isObject) }));
   const [dailyQuiz, setDailyQuiz] = useState(() => buildDailyQuiz(5));
-  const [revisionQuiz, setRevisionQuiz] = useState(null);
-  const [challengeQuiz, setChallengeQuiz] = useState(null);
+  const [revisionQuiz, setRevisionQuiz] = useState(() => restoreQuiz('revision'));
+  const [challengeQuiz, setChallengeQuiz] = useState(() => restoreQuiz('challenge'));
+  useEffect(() => saveQuiz('quiz', quiz), [quiz]);
+  useEffect(() => saveQuiz('revision', revisionQuiz), [revisionQuiz]);
+  useEffect(() => saveQuiz('challenge', challengeQuiz), [challengeQuiz]);
+
+  // A restored tab whose content no longer exists (a revision or challenge
+  // round that could not be rebuilt, or a tab id from an older version) would
+  // open onto an empty page. Send it home instead.
+  useEffect(() => {
+    const known = ['home', 'weekly', 'quiz', 'daily', 'flashcards', 'vault', 'analytics', 'revision', 'challenge']
+      .concat(GAMES.filter((g) => g.tab).map((g) => g.tab));
+    const empty = (activeTab === 'revision' && !revisionQuiz) || (activeTab === 'challenge' && !challengeQuiz);
+    if (empty || !known.includes(activeTab)) setActiveTab('home');
+  }, [activeTab, revisionQuiz, challengeQuiz, setActiveTab]);
 
   useEffect(() => save('stats', stats), [stats]);
   useEffect(() => save('recent', recentIds), [recentIds]);
@@ -186,7 +212,7 @@ export default function App() {
       setQuiz(buildQuiz({ ...merged, recentIds, seed: Date.now() }));
       setActiveTab('quiz');
     },
-    [setup, recentIds]
+    [setup, recentIds, setActiveTab]
   );
 
   /**
@@ -201,7 +227,7 @@ export default function App() {
       setRevisionQuiz(buildRevisionQuiz(pool.map((e) => e.id), Date.now()));
       setActiveTab('revision');
     },
-    [vault]
+    [vault, setActiveTab]
   );
 
   const handleMissed = useCallback((question) => {
@@ -223,7 +249,7 @@ export default function App() {
     setChallengeQuiz(built);
     setActiveTab('challenge');
     return true;
-  }, []);
+  }, [setActiveTab]);
 
   const handleComplete = useCallback((result) => {
     const { score, total, answers, questionIds } = result;
@@ -424,6 +450,7 @@ export default function App() {
             <QuizSetup setup={setup} onStart={startQuiz} bankStats={BANK_STATS} />
             <QuizSimulator
               key={`quiz-${quiz.seed}`}
+              saveAs="quiz"
               questions={quiz.questions}
               seed={quiz.seed}
               onComplete={handleComplete}
@@ -447,6 +474,7 @@ export default function App() {
         {activeTab === 'daily' && (
           <QuizSimulator
             key={`daily-${dailyQuiz.seed}`}
+            saveAs="daily"
             questions={dailyQuiz.questions}
             seed={dailyQuiz.seed}
             title="Daily Five"
@@ -461,6 +489,7 @@ export default function App() {
         {activeTab === 'revision' && revisionQuiz && (
           <QuizSimulator
             key={`rev-${revisionQuiz.seed}`}
+            saveAs="revision"
             questions={revisionQuiz.questions}
             seed={revisionQuiz.seed}
             title="Revision round"
@@ -475,6 +504,7 @@ export default function App() {
         {activeTab === 'challenge' && challengeQuiz && (
           <QuizSimulator
             key={`chal-${challengeQuiz.seed}`}
+            saveAs="challenge"
             questions={challengeQuiz.questions}
             seed={challengeQuiz.seed}
             title="Challenge round"
