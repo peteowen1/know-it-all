@@ -6,6 +6,7 @@ import WeaknessVault from './components/WeaknessVault';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import QuizSetup from './components/QuizSetup';
 import GameHub from './components/GameHub';
+import { GAMES } from './games/registry';
 import WeeklyPaper from './components/WeeklyPaper';
 // Loaded on first open so the 160 kB country table stays out of the first paint.
 const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
@@ -147,6 +148,16 @@ export default function App() {
   useEffect(() => saveQuiz('quiz', quiz), [quiz]);
   useEffect(() => saveQuiz('revision', revisionQuiz), [revisionQuiz]);
   useEffect(() => saveQuiz('challenge', challengeQuiz), [challengeQuiz]);
+
+  // A restored tab whose content no longer exists (a revision or challenge
+  // round that could not be rebuilt, or a tab id from an older version) would
+  // open onto an empty page. Send it home instead.
+  useEffect(() => {
+    const known = ['home', 'weekly', 'quiz', 'daily', 'flashcards', 'vault', 'analytics', 'revision', 'challenge']
+      .concat(GAMES.filter((g) => g.tab).map((g) => g.tab));
+    const empty = (activeTab === 'revision' && !revisionQuiz) || (activeTab === 'challenge' && !challengeQuiz);
+    if (empty || !known.includes(activeTab)) setActiveTab('home');
+  }, [activeTab, revisionQuiz, challengeQuiz, setActiveTab]);
 
   useEffect(() => save('stats', stats), [stats]);
   useEffect(() => save('recent', recentIds), [recentIds]);

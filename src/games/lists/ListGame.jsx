@@ -86,13 +86,13 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   // What has been typed and locked in, saved against this round's id.
   const [saved] = useState(() => {
     const s = loadLive('lists_board');
-    return s && s.id === round.id && s.done?.length === rows.length ? s : null;
+    return s && s.id === round.id && s.listKey === round.listKey && s.done?.length === rows.length ? s : null;
   });
   const [done, setDone] = useState(() => saved?.done ?? rows.map(() => false));
   const [values, setValues] = useState(() => saved?.values ?? rows.map(() => ''));
   const [wrong, setWrong] = useState(null);
   const [over, setOver] = useState(saved?.over ?? false);
-  useEffect(() => saveLive('lists_board', { id: round.id, done, values, over }), [round.id, done, values, over]);
+  useEffect(() => saveLive('lists_board', { id: round.id, listKey: round.listKey, done, values, over }), [round.id, round.listKey, done, values, over]);
   const inputs = useRef([]);
   const finished = useRef(Boolean(saved?.over));
   // Rows already locked, kept in a ref as well as state. Moving focus after a

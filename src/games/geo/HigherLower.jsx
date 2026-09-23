@@ -5,7 +5,7 @@ import { REGIONS, countryPool, nextChallenger, formatPopulation } from './geoPoo
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from './CountryQuiz';
 import { makeRng } from '../../lib/rng';
-import { usePersistentState } from '../../lib/persist';
+import { saveLive, usePersistentState } from '../../lib/persist';
 
 /**
  * Higher or lower, one country at a time. The left card shows its population;
@@ -24,12 +24,27 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
   // A run in progress that has not been saved yet. A run is normally saved when
   // it ends on a miss; if the player leaves mid-run instead, this is saved on
   // the way out so a best run is never lost to the All games button.
-  const unsaved = useRef(state && state.verdict !== 'wrong' && state.run > 0 ? { run: state.run, answers: state.answers } : null);
+  //
+  // Because the run now survives the app closing, leaving can happen several
+  // times in one run. `recordedRun` (saved with the run) is the length already
+  // recorded, so each leave records only a run that has grown since, rather
+  // than the same run again on every reopen-and-leave.
+  const alreadyRecorded = state?.recordedRun ?? 0;
+  const unsaved = useRef(
+    state && state.verdict !== 'wrong' && state.run > alreadyRecorded ? { run: state.run, answers: state.answers } : null
+  );
   const save = useRef(onRoundComplete);
   save.current = onRoundComplete;
+  const latest = useRef(state);
+  latest.current = state;
   useEffect(() => () => {
     const u = unsaved.current;
-    if (u && u.run > 0) save.current('population', { score: u.run, total: u.answers.length, answers: u.answers, run: u.run });
+    const s = latest.current;
+    if (!u || !s || u.run <= (s.recordedRun ?? 0)) return;
+    save.current('population', { score: u.run, total: u.answers.length, answers: u.answers, run: u.run });
+    // Written directly: the component is unmounting, so no further render
+    // would save a state update.
+    saveLive('population', { ...s, recordedRun: u.run });
   }, []);
 
   const pool = useMemo(() => countryPool(COUNTRIES, { region, needs: 'population' }), [region]);
