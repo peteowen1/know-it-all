@@ -17,6 +17,7 @@ const TvCharts = lazy(() => import('./games/charts/TvCharts'));
 const FourByFour = lazy(() => import('./games/fourbyfour/FourByFour'));
 const ListGame = lazy(() => import('./games/lists/ListGame'));
 const Timeline = lazy(() => import('./games/timeline/Timeline'));
+const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 import { recordRound, recordItems } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
@@ -371,6 +372,16 @@ export default function App() {
 
         {activeTab === 'lists' && (
           <ListGame
+            stats={gameStats}
+            answerMode={answerMode}
+            onAnswerModeChange={setAnswerMode}
+            onRoundComplete={handleGameRound}
+            onExit={goHome}
+          />
+        )}
+
+        {activeTab === 'year-guess' && (
+          <NameTheYear
             stats={gameStats}
             answerMode={answerMode}
             onAnswerModeChange={setAnswerMode}

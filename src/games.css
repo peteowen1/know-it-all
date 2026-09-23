@@ -196,3 +196,17 @@
 .tl-year { display: block; color: var(--accent-gold); font-family: var(--font-serif); font-size: 1.1rem; }
 .tl-moves { display: flex; flex-direction: column; gap: 0.25rem; flex-shrink: 0; }
 .tl-move { padding: 0.25rem 0.5rem; }
+
+/* ----------------------------------------------------------- name the year */
+.ny-clues { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.ny-clues li {
+  padding: 0.7rem 0.9rem; border-radius: 12px; border: 1px solid var(--border-color);
+  background: rgba(15, 23, 42, 0.5); line-height: 1.4; overflow-wrap: anywhere;
+}
+.ny-verdict { text-align: center; font-size: 1.1rem; font-weight: 600; }
+.ny-verdict.good { color: var(--accent-green); }
+.ny-verdict.meh { color: var(--accent-gold); }
+.ny-verdict.bad { color: var(--accent-rose); }
+.ny-summary { display: flex; flex-direction: column; gap: 0.4rem; }
+.ny-sum-row { display: flex; justify-content: space-between; gap: 1rem; padding: 0.4rem 0.2rem; border-bottom: 1px solid var(--border-color); }
+.ny-sum-row span { color: var(--text-secondary); }

@@ -35,7 +35,7 @@ export const GAMES = [
   // -------------------------------------------------------------------- lab
   { id: 'connections', section: 'lab', tab: 'connections', status: 'ready', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },
   { id: 'timeline', section: 'lab', tab: 'timeline', status: 'ready', icon: '⏳', title: 'Timeline', blurb: 'Put five songs, films, leaders and births in order. Near misses still score.' },
-  { id: 'year-guess', section: 'lab', status: 'soon', icon: '📅', title: 'Name the year', blurb: 'Three clues from one year. Scored on how many years you are off.' },
+  { id: 'year-guess', section: 'lab', tab: 'year-guess', status: 'ready', icon: '📅', title: 'Name the year', blurb: 'Three clues from one year. Exact scores 10, close still scores.' },
   { id: 'pointless', section: 'lab', status: 'soon', icon: '🎯', title: 'Obscure-est', blurb: 'Any right answer scores, but rarer right answers score more.' },
   { id: 'missing-link', section: 'lab', status: 'soon', icon: '🔗', title: 'Missing link', blurb: 'What connects these four? Answer early for more points.' }
 ];

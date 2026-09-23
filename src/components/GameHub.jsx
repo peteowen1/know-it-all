@@ -21,6 +21,7 @@ export default function GameHub({ onOpen, gameStats, quizStats, vaultDue, weekly
     if (!e.plays) return null;
     if (g.id === 'population') return `best run ${e.bestRun}`;
     if (g.id === 'first-names') return `${e.plays} played · best ${e.best}/15`;
+    if (g.id === 'year-guess') return `${e.plays} played · best ${e.best}/50`;
     return `${e.plays} played · best ${e.bestPct}%`;
   };
 
