@@ -137,11 +137,18 @@ const cmp = (a, b) => {
 export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() } = {}) {
   const rand = makeRng(hashString(`chartquiz:${seed}`));
   const span = yearsIn(years, from, to);
-  const picked = shuffle(span, rand).slice(0, count);
-  return picked.map((year, i) => {
+  const all = yearsIn(years, -Infinity, Infinity);
+  // Each year can be asked both ways. Years are used once each first; only a
+  // span shorter than `count` (the 2020s so far) asks a year twice, once per
+  // kind, so a short decade still gets a full round rather than six questions.
+  const kinds = ['song-of-year', 'year-of-song'];
+  const firstPass = shuffle(span, rand).map((year, i) => [year, kinds[i % 2]]);
+  const secondPass = shuffle(firstPass, rand).map(([year, kind]) => [year, kinds[1 - kinds.indexOf(kind)]]);
+  const picked = [...firstPass, ...secondPass].slice(0, count);
+  return picked.map(([year, kind]) => {
     const top = years[year][0];
     const label = (e) => `"${e.title}" — ${e.artist}`;
-    if (i % 2 === 0) {
+    if (kind === 'song-of-year') {
       const nearby = yearsIn(years, year - 3, year + 3).filter((y) => y !== year);
       const pool = nearby.flatMap((y) => years[y].slice(0, 10)).filter((e) => normalise(e.title) !== normalise(top.title));
       const wrong = [];
@@ -163,8 +170,9 @@ export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() 
         key: `song:${year}`
       };
     }
-    const offsets = shuffle([-3, -2, -1, 1, 2, 3], rand).slice(0, 3);
-    const options = shuffle([year, ...offsets.map((o) => year + o)], rand);
+    // Decoy years come from the data, so 2025's options never include 2027.
+    const decoys = shuffle(all.filter((y) => y !== year).sort((a, b) => Math.abs(a - year) - Math.abs(b - year)).slice(0, 6), rand).slice(0, 3);
+    const options = shuffle([year, ...decoys], rand);
     return {
       kind: 'year-of-song',
       year,
@@ -177,7 +185,16 @@ export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() 
   });
 }
 
-/** Decades present in the data, e.g. [1960, 1970, ...]. */
-export function decadesOf(years) {
-  return [...new Set(Object.keys(years).map((y) => Math.floor(Number(y) / 10) * 10))].sort((a, b) => a - b);
+/**
+ * Decades with at least `minYears` years of data, e.g. [1960, ..., 2020].
+ * The 1950s (only 1959) is left out: one year is not a decade, and its
+ * "decade" board and quiz would really be a single year.
+ */
+export function decadesOf(years, minYears = 5) {
+  const count = {};
+  for (const y of Object.keys(years)) {
+    const d = Math.floor(Number(y) / 10) * 10;
+    count[d] = (count[d] || 0) + 1;
+  }
+  return Object.keys(count).map(Number).filter((d) => count[d] >= minYears).sort((a, b) => a - b);
 }

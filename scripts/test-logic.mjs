@@ -23,7 +23,7 @@ import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopu
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
-import { topSongs, topArtists, matchChartGuess, buildChartQuiz } from '../src/games/charts/chartLogic.js';
+import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
@@ -479,6 +479,23 @@ test('buildChartQuiz: correct option is the real answer, options distinct', () =
   }
 });
 
+test('buildChartQuiz: a short decade still gets a full round (2020s)', () => {
+  const qs = buildChartQuiz(MUSIC, { from: 2020, to: 2029, count: 10, seed: 1 });
+  assert.equal(qs.length, 10);
+  assert.equal(new Set(qs.map((q) => q.key)).size, 10, 'a question repeated');
+});
+test('buildChartQuiz: year decoys stay inside the data', () => {
+  for (let seed = 0; seed < 20; seed++) {
+    for (const q of buildChartQuiz(MUSIC, { from: 2020, to: 2029, count: 10, seed })) {
+      if (q.kind === 'year-of-song') assert.ok(q.options.every((y) => MUSIC[y]), q.options.join(','));
+    }
+  }
+});
+test('decadesOf drops the one-year 1950s', () => {
+  const d = decadesOf(MUSIC);
+  assert.equal(d[0], 1960);
+  assert.ok(d.includes(2020));
+});
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {
