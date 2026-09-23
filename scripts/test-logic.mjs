@@ -26,6 +26,7 @@ import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
+import { buildLinkRounds, linkPoints } from '../src/games/missinglink/linkLogic.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -774,6 +775,40 @@ test('obscure: a game has five distinct categories covering all four areas', () 
     const cats = pickCategories(OBS, s);
     assert.equal(new Set(cats.map((c) => c.id)).size, 5);
     for (const k of ['geo', 'people', 'music', 'film']) assert.ok(cats.some((c) => c.kind === k), k);
+  }
+});
+// ------------------------------------------------------------ missing link
+test('missing link: points 4, 3, 2, 1 by clues seen', () => {
+  assert.deepEqual([1, 2, 3, 4].map(linkPoints), [4, 3, 2, 1]);
+});
+test('missing link: 5 rounds, 4 distinct clues, exactly one option fits', () => {
+  const norm = (s) => normalise(s);
+  for (let s = 0; s < 400; s++) {
+    const rounds = buildLinkRounds(OBS, { seed: s });
+    assert.equal(rounds.length, 5);
+    for (const r of rounds) {
+      assert.equal(new Set(r.clues.map((c) => c.answer)).size, 4, r.id);
+      assert.equal(new Set(r.options).size, 4, r.id);
+      assert.equal(r.options[r.correctIndex], r.link);
+      // No wrong option fits any clue, by identity or by the text shown
+      // (a surname clue "Scott" fits a famous Tony as well as a famous Tim).
+      for (const [i, opt] of r.options.entries()) {
+        if (i === r.correctIndex) continue;
+        const cat = OBS.find((c) => c.prompt === opt);
+        const hit = cat.answers.some((a) =>
+          r.clues.some((c) => norm(c.answer) === norm(a.text) || a.accept.some((x) => norm(x) === norm(c.text)))
+        );
+        assert.ok(!hit, `${r.id}: "${opt}" also fits a clue`);
+      }
+    }
+  }
+});
+test('missing link: people clues are surnames, not giveaway full names', () => {
+  for (let s = 0; s < 60; s++) {
+    for (const r of buildLinkRounds(OBS, { seed: s }).filter((x) => x.id.startsWith('name-'))) {
+      const first = r.id.slice(5);
+      assert.ok(r.clues.every((c) => !c.text.startsWith(first + ' ')), r.clues.map((c) => c.text).join(','));
+    }
   }
 });
 // ------------------------------------------------------------------ report
