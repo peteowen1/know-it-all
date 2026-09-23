@@ -25,7 +25,18 @@ export function topSongs(years, from, to, size, { decadeBoard = 'aggregate' } = 
   // Best Picture: a decade board is that decade's ten winners. Summing
   // positions makes no sense for a nominee list.
   if (from !== to && decadeBoard === 'winners') {
-    return yearsIn(years, from, to).slice(0, size).map((y, i) => boardItem(years[y][0], i, [y], `${y}`));
+    // One slot per title: Frasier won comedy five years running, and five
+    // identical slots would be one answer filling five holes.
+    const byTitle = new Map();
+    for (const y of yearsIn(years, from, to)) {
+      const w = years[y][0];
+      const k = normalise(w.title);
+      if (byTitle.has(k)) byTitle.get(k).years.push(y);
+      else byTitle.set(k, { e: w, years: [y] });
+    }
+    return [...byTitle.values()]
+      .slice(0, size)
+      .map(({ e, years: ys }, i) => boardItem(e, i, ys, ys.length > 1 ? `${ys.join(', ')}` : `${ys[0]}`));
   }
   const byKey = new Map();
   for (const y of yearsIn(years, from, to)) {
@@ -192,7 +203,10 @@ export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now(),
       };
     }
     // Decoy years come from the data, so 2025's options never include 2027.
-    const decoys = shuffle(all.filter((y) => y !== year).sort((a, b) => Math.abs(a - year) - Math.abs(b - year)).slice(0, 6), rand).slice(0, 3);
+    // A repeat winner's other winning years are right answers too, so they
+    // can never be decoys ("Frasier won for which year?" with 1994 and 1995).
+    const alsoWon = (y) => normalise(years[y][0].title) === normalise(top.title);
+    const decoys = shuffle(all.filter((y) => y !== year && !alsoWon(y)).sort((a, b) => Math.abs(a - year) - Math.abs(b - year)).slice(0, 6), rand).slice(0, 3);
     const options = shuffle([year, ...decoys], rand);
     return {
       kind: 'year-of-song',

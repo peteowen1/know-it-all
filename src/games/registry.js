@@ -28,7 +28,7 @@ export const GAMES = [
   { id: 'first-names', section: 'pop', tab: 'first-names', status: 'ready', icon: '🌟', title: 'Famous first names', blurb: 'Given "Tom", fill a board of the fifteen most famous Toms. Easy mode gives hints.' },
   { id: 'music-years', section: 'pop', tab: 'music-years', status: 'ready', icon: '🎵', title: 'Chart toppers by year', blurb: 'Billboard year-end charts since 1959. Fill a year or decade, or take the quiz.' },
   { id: 'film-years', section: 'pop', tab: 'film-years', status: 'ready', icon: '🎬', title: 'Films by year', blurb: 'Box-office top 10s since 1970 and every Best Picture race since 1927.' },
-  { id: 'tv-years', section: 'pop', status: 'soon', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe winners for drama and comedy.' },
+  { id: 'tv-years', section: 'pop', tab: 'tv-years', status: 'ready', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe drama and comedy races, back to the 1950s.' },
 
   // -------------------------------------------------------------------- lab
   { id: 'connections', section: 'lab', status: 'soon', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },

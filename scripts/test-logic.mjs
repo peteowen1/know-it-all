@@ -28,6 +28,7 @@ import { readFileSync } from 'node:fs';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
 const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
+const TV = JSON.parse(readFileSync(new URL('../src/data/charts/tv.json', import.meta.url), 'utf8'));
 const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
@@ -529,6 +530,42 @@ test('topSongs "winners" decade board lists one winner per year', () => {
   const b = topSongs(FILMS.bestPicture, 1990, 1999, 10, { decadeBoard: 'winners' });
   assert.equal(b.length, 10);
   assert.equal(b[4].label, 'Forrest Gump');
+});
+
+// --------------------------------------------------------------------- tv
+test('tv: known winners', () => {
+  assert.equal(TV.emmyDrama[2010][0].title, 'Mad Men');
+  assert.equal(TV.emmyComedy[1996][0].title, 'Frasier');
+  assert.equal(TV.globeDrama[2011][0].title, 'Homeland');
+});
+test('tv: season suffixes stripped, networks present, one winner a year', () => {
+  for (const [award, years] of Object.entries(TV).filter(([k]) => k !== 'builtAt')) {
+    for (const [y, list] of Object.entries(years)) {
+      assert.equal(list[0].rank, 1, `${award} ${y}`);
+      for (const s of list) {
+        assert.ok(!/season/i.test(s.title), `${award} ${y}: ${s.title}`);
+        assert.ok(s.artist && s.artist !== 'Unknown network', `${award} ${y}: ${s.title} has no network`);
+      }
+    }
+  }
+});
+test('winners decade board: a repeat winner takes one slot listing its years', () => {
+  const b = topSongs(TV.emmyComedy, 1990, 1999, 10, { decadeBoard: 'winners' });
+  const frasier = b.filter((x) => x.label === 'Frasier');
+  assert.equal(frasier.length, 1);
+  assert.ok(frasier[0].sub.includes('1994') && frasier[0].sub.includes('1998'), frasier[0].sub);
+  assert.equal(new Set(b.map((x) => x.id)).size, b.length);
+});
+test('which-year quiz never offers a repeat winner\'s other winning year', () => {
+  const words = { best: (y) => `${y}`, whichYear: (l) => l, winner: (l) => l, runnerUp: 'x' };
+  for (let seed = 0; seed < 30; seed++) {
+    for (const q of buildChartQuiz(TV.emmyComedy, { from: 1990, to: 1999, count: 10, seed, words, sameYearDistractors: true })) {
+      if (q.kind !== 'year-of-song') continue;
+      const title = TV.emmyComedy[q.year][0].title;
+      const right = q.options.filter((y) => TV.emmyComedy[y]?.[0].title === title);
+      assert.equal(right.length, 1, `${title}: ${q.options}`);
+    }
+  }
 });
 
 // ------------------------------------------------------------------ report

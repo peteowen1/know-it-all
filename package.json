@@ -13,6 +13,7 @@
     "data:flags": "node scripts/build-flag-lookalikes.mjs",
     "data:music": "node scripts/build-music-charts.mjs",
     "data:films": "node scripts/build-film-charts.mjs",
+    "data:tv": "node scripts/build-tv-charts.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "node scripts/test-logic.mjs",
