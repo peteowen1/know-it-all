@@ -101,7 +101,7 @@ export function topArtists(years, from, to, size, { noun = 'song' } = {}) {
     });
 }
 
-/** Accepted spellings of one answer: as written, without "The", without brackets. */
+/** Accepted spellings of one answer: as written, without "The", without brackets, without spaces. */
 function forms(answer) {
   const n = normalise(answer);
   const out = new Set([n]);
@@ -110,6 +110,24 @@ function forms(answer) {
   const noBrackets = normalise(answer.replace(/\([^)]*\)/g, ''));
   if (noBrackets) out.add(noBrackets);
   out.add(n.replace(/ /g, ''));
+  return out;
+}
+
+/**
+ * Short names for an answer: the part before a colon ("Rambo" for "Rambo:
+ * First Blood Part II") and a leading abbreviation ("E.T." or "ET" for "E.T.
+ * the Extra-Terrestrial", which a player typed and had rejected). These only
+ * count when exactly one item on the board has them; see matchChartGuess.
+ */
+function shortForms(answer) {
+  const out = new Set();
+  const beforeColon = normalise(answer.split(':')[0]);
+  if (answer.includes(':') && beforeColon.length >= 3) out.add(beforeColon).add(beforeColon.replace(/^the /, ''));
+  const abbrev = answer.match(/^((?:[A-Za-z]\.){2,})/);
+  if (abbrev) {
+    const letters = abbrev[1].replace(/\./g, '').toLowerCase();
+    out.add(letters).add(letters.split('').join(' '));
+  }
   return out;
 }
 
@@ -139,7 +157,19 @@ export function matchChartGuess(guess, items, foundIds = new Set()) {
     const score = [taken ? 1 : 0, dist, item.rank];
     if (!best || cmp(score, best.score) < 0) best = { item, score, taken };
   }
-  return best ? { item: best.item, alreadyFound: best.taken } : null;
+  if (best) return { item: best.item, alreadyFound: best.taken };
+
+  // No full-title match: try short names, exactly and only if unambiguous.
+  // "Avengers" on the 2010s board names three films; filling whichever ranks
+  // highest would let a player collect every sequel without knowing one.
+  // Counted among items still to find: with two of the three Lord of the
+  // Rings films found, "Lord of the Rings" can only mean the third.
+  const byShort = items.filter((item) => item.answers.some((a) => shortForms(a).has(g)));
+  const open = byShort.filter((item) => !foundIds.has(item.id));
+  if (open.length === 1) return { item: open[0], alreadyFound: false };
+  if (open.length > 1) return { ambiguous: true, count: open.length };
+  if (byShort.length) return { item: byShort[0], alreadyFound: true };
+  return null;
 }
 
 const cmp = (a, b) => {

@@ -71,6 +71,9 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
         <span className="score-pill">{checked ? `${round.score.correct}/${round.score.total} pairs` : 'Oldest at the top'}</span>
       </div>
 
+      {/* Direction labels on the list itself: a note in the corner was missed,
+          and a fully reversed order scores 1 of 10 with no clue why. */}
+      <div className="tl-end">▲ Oldest</div>
       <ol className="tl-list">
         {order.map((e, i) => {
           const right = checked && truth[i] === e;
@@ -91,7 +94,13 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
           );
         })}
       </ol>
+      <div className="tl-end">▼ Newest</div>
 
+      {/* 0 or 1 of 10 is only reachable from a reversed list (at most one pair
+          out of place); 2 can also be a genuine muddle, so the hint stops at 1. */}
+      {checked && round.score.correct <= 1 && (
+        <p className="names-msg meh">Looks like newest-first. Oldest goes at the top; flipped, that was {round.score.total - round.score.correct}/{round.score.total}.</p>
+      )}
       {checked && round.score.correct < round.score.total && (
         <p className="game-record">
           Right order: {truth.map((e) => e.year).join(' → ')}

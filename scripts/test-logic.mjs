@@ -24,6 +24,7 @@ import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, co
 import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
+import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -682,6 +683,64 @@ test('timeline: scoring counts correctly ordered pairs', () => {
   assert.deepEqual(scoreOrder([1, 2, 3, 4, 5].map(ev)), { correct: 10, total: 10 });
   assert.deepEqual(scoreOrder([5, 4, 3, 2, 1].map(ev)), { correct: 0, total: 10 });
   assert.deepEqual(scoreOrder([2, 1, 3, 4, 5].map(ev)), { correct: 9, total: 10 });
+});
+test('matchChartGuess: leading abbreviation and pre-colon title (E.T., Rambo)', () => {
+  const films = [
+    { id: 'et', rank: 1, label: 'E.T. the Extra-Terrestrial', answers: ['E.T. the Extra-Terrestrial', 'Steven Spielberg'] },
+    { id: 'rambo', rank: 2, label: 'Rambo: First Blood Part II', answers: ['Rambo: First Blood Part II', 'George P. Cosmatos'] },
+    { id: 'tg', rank: 3, label: 'Top Gun', answers: ['Top Gun', 'Tony Scott'] }
+  ];
+  for (const g of ['E.T.', 'ET', 'e.t', 'E.T. the Extra-Terrestrial']) assert.equal(matchChartGuess(g, films)?.item.id, 'et', g);
+  assert.equal(matchChartGuess('Rambo', films)?.item.id, 'rambo');
+  assert.equal(matchChartGuess('Top', films), null);
+});
+test('matchChartGuess: a short name shared by several films is ambiguous, not a free fill', () => {
+  const board = topSongs(FILMS.boxOffice, 2010, 2019, 20);
+  // Two Star Wars films on the 2010s board and no plain "Star Wars": ambiguous.
+  assert.ok(matchChartGuess('Star Wars', board)?.ambiguous);
+  assert.equal(matchChartGuess('Star Wars: The Last Jedi', board)?.item.label, 'Star Wars: The Last Jedi');
+  // "Avengers" IS The Avengers (2012). Typing it again reports it as found
+  // rather than quietly filling Infinity War or Endgame.
+  const first = matchChartGuess('Avengers', board);
+  assert.equal(first?.item.label, 'The Avengers');
+  assert.equal(matchChartGuess('Avengers', board, new Set([first.item.id]))?.alreadyFound, true);
+});
+// ---------------------------------------------------------- name the year
+test('name the year: points fall by two per year out', () => {
+  assert.deepEqual([0, 1, 2, 4, 5, 9].map((d) => yearPoints(1990 + d, 1990)), [10, 8, 6, 2, 0, 0]);
+  assert.equal(yearPoints('', 1990), 0);
+});
+test('name the year: 5 rounds, 3 clues of 3 kinds from the right year, 4 options incl. the answer', () => {
+  for (let s = 0; s < 200; s++) {
+    const rounds = buildYearRounds(TL, { seed: s });
+    assert.equal(rounds.length, 5);
+    for (const r of rounds) {
+      assert.equal(r.clues.length, 3);
+      assert.equal(new Set(r.clues.map((c) => c.kind)).size, 3);
+      assert.ok(r.clues.every((c) => c.year === r.year));
+      assert.equal(new Set(r.options).size, 4);
+      assert.ok(r.options.includes(r.year));
+    }
+    const ys = rounds.map((r) => r.year).sort((a, b) => a - b);
+    for (let i = 1; i < 5; i++) assert.ok(ys[i] - ys[i - 1] >= 3, ys.join(','));
+  }
+});
+test('matchChartGuess: a shared short name resolves once only one is left to find', () => {
+  const board = topSongs(FILMS.boxOffice, 2000, 2009, 20);
+  const lotr = board.filter((x) => x.label.startsWith('The Lord of the Rings'));
+  assert.ok(lotr.length >= 2, 'expected several Lord of the Rings films on the 2000s board');
+  assert.ok(matchChartGuess('Lord of the Rings', board)?.ambiguous);
+  const found = new Set(lotr.slice(0, -1).map((x) => x.id));
+  assert.equal(matchChartGuess('Lord of the Rings', board, found)?.item.id, lotr.at(-1).id);
+});
+test('timeline: only a reversed order scores 0 or 1 of 10', () => {
+  const perms = (a) => (a.length <= 1 ? [a] : a.flatMap((x, i) => perms([...a.slice(0, i), ...a.slice(i + 1)]).map((p) => [x, ...p])));
+  for (const p of perms([1, 2, 3, 4, 5])) {
+    const { correct } = scoreOrder(p.map((year) => ({ year })));
+    // Reversed with at most one adjacent pair swapped.
+    const displaced = p.filter((v, i) => v !== 5 - i).length;
+    if (correct <= 1) assert.ok(displaced <= 2, p.join(','));
+  }
 });
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
