@@ -1,7 +1,7 @@
 {
-  "name": "Saturday Quiz Trainer",
-  "short_name": "Quiz Trainer",
-  "description": "1,040 weekend-quiz general knowledge questions with explanations and memory hooks.",
+  "name": "Know-It-All",
+  "short_name": "Know-It-All",
+  "description": "Trivia training: weekend-quiz questions, flags, capitals, population and more.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

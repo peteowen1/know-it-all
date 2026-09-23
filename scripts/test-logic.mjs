@@ -19,6 +19,12 @@ import {
   exportProgress, importProgress, mergeProgress, encodeChallenge, decodeChallenge
 } from '../src/lib/transfer.js';
 import { localDateKey, previousDateKey, addDaysToKey, daysBetween } from '../src/lib/dates.js';
+import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation } from '../src/games/geo/geoPool.js';
+import { recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
+import { makeRng } from '../src/lib/rng.js';
+import { readFileSync } from 'node:fs';
+
+const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
 let pass = 0;
 const failures = [];
@@ -227,6 +233,129 @@ test('a challenge round trips its ids and seed', () => {
 test('decodeChallenge rejects junk rather than throwing', () => {
   assert.equal(decodeChallenge('####'), null);
   assert.equal(decodeChallenge(''), null);
+});
+
+// -------------------------------------------------------------- countries
+test('country table: 197 sovereign states, every one with a capital and region', () => {
+  const s = COUNTRIES.filter((c) => c.sovereign);
+  assert.equal(s.length, 197);
+  assert.deepEqual(s.filter((c) => !c.capitals.length || !c.region).map((c) => c.name), []);
+});
+test('country table: capitals a quiz would mark right', () => {
+  const cap = (code) => COUNTRIES.find((c) => c.code === code).capitals[0];
+  assert.equal(cap('AU'), 'Canberra');
+  assert.equal(cap('TR'), 'Ankara');
+  assert.equal(cap('CA'), 'Ottawa');
+  assert.equal(cap('UA'), 'Kyiv');
+});
+test('country table: population plausible (China and India over 1.3bn, Nauru under 20k)', () => {
+  const pop = (code) => COUNTRIES.find((c) => c.code === code).population;
+  assert.ok(pop('CN') > 1.3e9 && pop('IN') > 1.3e9);
+  assert.ok(pop('NR') < 20000);
+});
+
+// --------------------------------------------------------------- geo pool
+const WORLD = countryPool(COUNTRIES);
+test('countryPool region filter', () => {
+  const eu = countryPool(COUNTRIES, { region: 'Europe' });
+  assert.ok(eu.length > 40 && eu.every((c) => c.region === 'Europe'));
+});
+test('countryPool `needs` drops countries missing that field only', () => {
+  const p = countryPool(COUNTRIES, { needs: 'population' });
+  assert.ok(!p.some((c) => c.code === 'TW'));
+  assert.ok(WORLD.some((c) => c.code === 'TW'));
+});
+test('pickDistractors: three distinct, none the target, neighbours first', () => {
+  const chad = WORLD.find((c) => c.code === 'TD');
+  const d = pickDistractors(chad, WORLD, makeRng(1));
+  assert.equal(d.length, 3);
+  assert.equal(new Set(d.map((c) => c.code)).size, 3);
+  assert.ok(!d.includes(chad));
+  assert.ok(d.every((c) => c.subregion === chad.subregion));
+});
+test('pickDistractors de-duplicates on the displayed label', () => {
+  const a = { code: 'A', name: 'Same', subregion: 's', region: 'r' };
+  const b = { code: 'B', name: 'Same', subregion: 's', region: 'r' };
+  const others = ['C', 'D', 'E'].map((code) => ({ code, name: code, subregion: 's', region: 'r' }));
+  const d = pickDistractors(a, [a, b, ...others], makeRng(2));
+  assert.ok(!d.includes(b));
+});
+test('buildGeoRound: no repeats, correctIndex points at the target, seeded', () => {
+  const r1 = buildGeoRound(WORLD, { count: 50, seed: 42 });
+  const r2 = buildGeoRound(WORLD, { count: 50, seed: 42 });
+  assert.equal(new Set(r1.map((q) => q.target.code)).size, 50);
+  assert.ok(r1.every((q) => q.options[q.correctIndex] === q.target && q.options.length === 4));
+  assert.deepEqual(r1.map((q) => q.target.code), r2.map((q) => q.target.code));
+});
+test('buildGeoRound: count beyond the pool returns the whole pool', () => {
+  const oc = countryPool(COUNTRIES, { region: 'Oceania' });
+  assert.equal(buildGeoRound(oc, { count: Infinity, seed: 1 }).length, oc.length);
+});
+test('buildGeoRound: weights pull missed countries forward', () => {
+  const weights = Object.fromEntries(WORLD.map((c) => [c.code, c.code === 'TD' ? 50 : 1]));
+  let hits = 0;
+  for (let s = 0; s < 200; s++) {
+    if (buildGeoRound(WORLD, { count: 5, seed: s, weights }).some((q) => q.target.code === 'TD')) hits++;
+  }
+  // Unweighted, Chad is in about 5/197 = 2.5% of rounds. At weight 50 against
+  // 196 others it is about 68% (each draw ~20%, five draws). Measured: 144/200.
+  assert.ok(hits > 110, `Chad drawn in only ${hits} of 200 weighted rounds`);
+});
+test('nextChallenger never offers a near-tie', () => {
+  const pool = countryPool(COUNTRIES, { needs: 'population' });
+  const rand = makeRng(7);
+  for (const c of pool.slice(0, 40)) {
+    const n = nextChallenger(c, pool, rand);
+    const ratio = Math.max(n.population, c.population) / Math.min(n.population, c.population);
+    assert.ok(ratio >= 1.15, `${c.name} vs ${n.name}: ${ratio}`);
+  }
+});
+test('formatPopulation', () => {
+  assert.equal(formatPopulation(1406585000), '1.41 billion');
+  assert.equal(formatPopulation(27614411), '27.6 million');
+  assert.equal(formatPopulation(341784857), '342 million');
+  assert.equal(formatPopulation(12025), '12,025');
+});
+
+// ------------------------------------------------------------- game stats
+test('recordRound accumulates plays, bests and per-item counts', () => {
+  let g = recordRound({}, 'flags', { score: 3, total: 4, answers: [{ key: 'AU', correct: true }, { key: 'TD', correct: false }] });
+  g = recordRound(g, 'flags', { score: 1, total: 4, answers: [{ key: 'TD', correct: false }] });
+  assert.equal(g.flags.plays, 2);
+  assert.equal(g.flags.bestPct, 75);
+  assert.deepEqual(g.flags.items.TD, { seen: 2, correct: 0 });
+});
+test('itemWeights: always-missed > unseen > always-right, none zero', () => {
+  const g = { flags: { items: { TD: { seen: 3, correct: 0 }, AU: { seen: 3, correct: 3 } } } };
+  const w = itemWeights(g, 'flags', ['TD', 'AU', 'FR']);
+  assert.ok(w.TD > w.FR && w.FR > w.AU && w.AU > 0);
+});
+test('weakestItems ignores items seen once', () => {
+  const g = { flags: { items: { TD: { seen: 1, correct: 0 }, RO: { seen: 2, correct: 0 } } } };
+  assert.deepEqual(weakestItems(g, 'flags').map((x) => x.key), ['RO']);
+});
+test('mergeGameStats adds counts and keeps bests', () => {
+  const a = { flags: { plays: 2, best: 8, bestPct: 80, bestRun: 0, lastPlayed: '2026-09-01', items: { AU: { seen: 2, correct: 1 } } } };
+  const b = { flags: { plays: 1, best: 9, bestPct: 90, bestRun: 0, lastPlayed: '2026-09-02', items: { AU: { seen: 1, correct: 1 } } } };
+  const m = mergeGameStats(a, b);
+  assert.equal(m.flags.plays, 3);
+  assert.equal(m.flags.bestPct, 90);
+  assert.deepEqual(m.flags.items.AU, { seen: 3, correct: 2 });
+});
+test('coerceGameStats rejects junk and string numbers', () => {
+  const c = coerceGameStats({ flags: { plays: '5', items: { AU: { seen: 2, correct: 9 } } }, bad: null });
+  assert.equal(c.flags.plays, 0);
+  assert.deepEqual(c.flags.items.AU, { seen: 2, correct: 2 });
+  assert.equal(c.bad, undefined);
+});
+test('progress code carries game stats; a code without them still imports', () => {
+  const games = { flags: { plays: 1, best: 5, bestPct: 50, bestRun: 0, lastPlayed: null, items: {} } };
+  const profile = { stats: {}, vault: [], recentIds: [], games };
+  const back = importProgress(exportProgress(profile));
+  assert.equal(back.data.games.flags.plays, 1);
+  const old = importProgress(exportProgress({ stats: {}, vault: [], recentIds: [] }));
+  assert.ok(old.ok);
+  assert.equal(mergeProgress(profile, old.data).games.flags.plays, 1);
 });
 
 // ------------------------------------------------------------------ report
