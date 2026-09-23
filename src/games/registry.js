@@ -25,7 +25,7 @@ export const GAMES = [
   { id: 'population', section: 'geo', tab: 'population', status: 'ready', icon: '👥', title: 'Population: higher or lower', blurb: 'Chain as many right calls as you can. One miss ends it.' },
 
   // -------------------------------------------------------------------- pop
-  { id: 'first-names', section: 'pop', tab: 'first-names', status: 'soon', icon: '🌟', title: 'Famous first names', blurb: 'Given "Tom", fill a board of the fifteen most famous Toms. Easy mode gives hints.' },
+  { id: 'first-names', section: 'pop', tab: 'first-names', status: 'ready', icon: '🌟', title: 'Famous first names', blurb: 'Given "Tom", fill a board of the fifteen most famous Toms. Easy mode gives hints.' },
   { id: 'music-years', section: 'pop', status: 'soon', icon: '🎵', title: 'Chart toppers by year', blurb: 'Biggest-selling and most-streamed artists and songs, by year or decade.' },
   { id: 'film-years', section: 'pop', status: 'soon', icon: '🎬', title: 'Films by year', blurb: 'Best Picture winners and box-office number ones.' },
   { id: 'tv-years', section: 'pop', status: 'soon', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe winners for drama and comedy.' },

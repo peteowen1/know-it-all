@@ -129,6 +129,8 @@ for (const p of people) {
   const name = displayName(p);
   const parts = name.split(' ');
   if (parts.length < 2) continue;
+  // "Emma of Normandy", "John the Baptist": no surname to type.
+  if (parts[1] === 'of' || parts[1] === 'the') continue;
   const first = parts[0];
   if (!/^\p{Lu}[\p{L}'-]+$/u.test(first)) continue; // "J.", "50", "Al-"
   if (!groups.has(first)) groups.set(first, []);
