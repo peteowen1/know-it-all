@@ -783,18 +783,21 @@ test('missing link: points 4, 3, 2, 1 by clues seen', () => {
 });
 test('missing link: 5 rounds, 4 distinct clues, exactly one option fits', () => {
   const norm = (s) => normalise(s);
-  for (let s = 0; s < 60; s++) {
+  for (let s = 0; s < 400; s++) {
     const rounds = buildLinkRounds(OBS, { seed: s });
     assert.equal(rounds.length, 5);
     for (const r of rounds) {
       assert.equal(new Set(r.clues.map((c) => c.answer)).size, 4, r.id);
       assert.equal(new Set(r.options).size, 4, r.id);
       assert.equal(r.options[r.correctIndex], r.link);
-      // No wrong option contains any of the four clues.
+      // No wrong option fits any clue, by identity or by the text shown
+      // (a surname clue "Scott" fits a famous Tony as well as a famous Tim).
       for (const [i, opt] of r.options.entries()) {
         if (i === r.correctIndex) continue;
         const cat = OBS.find((c) => c.prompt === opt);
-        const hit = cat.answers.some((a) => r.clues.some((c) => norm(c.answer) === norm(a.text)));
+        const hit = cat.answers.some((a) =>
+          r.clues.some((c) => norm(c.answer) === norm(a.text) || a.accept.some((x) => norm(x) === norm(c.text)))
+        );
         assert.ok(!hit, `${r.id}: "${opt}" also fits a clue`);
       }
     }

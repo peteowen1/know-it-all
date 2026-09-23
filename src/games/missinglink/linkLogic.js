@@ -42,10 +42,18 @@ function pickClues(category) {
   return clues;
 }
 
-/** Does `category` also contain any of these clue answers? Then it would be a second right option. */
-function fitsAny(category, answers) {
-  const keys = new Set(answers.map(normalise));
-  return category.answers.some((a) => keys.has(normalise(a.text)) || a.accept.some((x) => keys.has(normalise(x))));
+/**
+ * Would `category` also fit a clue as the player sees it? Then it would be a
+ * second right option. Checked on the displayed text as well as the identity:
+ * a people clue shows only "Scott", which fits Tony Scott as well as Tim Scott,
+ * so "a famous Tony" must not be offered beside it.
+ */
+function fitsAny(category, clues) {
+  const shown = new Set(clues.map((c) => normalise(c.text)));
+  const ids = new Set(clues.map((c) => normalise(c.answer)));
+  return category.answers.some(
+    (a) => ids.has(normalise(a.text)) || shown.has(normalise(clueText(category, a))) || a.accept.some((x) => shown.has(normalise(x)))
+  );
 }
 
 /**
@@ -63,8 +71,7 @@ export function buildLinkRounds(categories, { seed = Date.now(), count = ROUNDS 
     // No kind twice until every kind has had a turn.
     if (usedKinds.includes(cat.kind) && new Set(usedKinds).size < 4) continue;
     const clues = pickClues(cat);
-    const answers = clues.map((c) => c.answer);
-    const others = categories.filter((c) => c.id !== cat.id && !fitsAny(c, answers));
+    const others = categories.filter((c) => c.id !== cat.id && !fitsAny(c, clues));
     const same = shuffle(others.filter((c) => family(c.id) === family(cat.id)), rand);
     const rest = shuffle(others.filter((c) => family(c.id) !== family(cat.id) && c.kind === cat.kind), rand);
     const decoys = [...same, ...rest].slice(0, 3);
