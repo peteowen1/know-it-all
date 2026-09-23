@@ -3,13 +3,18 @@
 Trivia training, live at https://peteowen1.github.io/know-it-all/ (formerly
 Saturday Quiz Trainer). The home screen lists every game, played or planned:
 
-- **Weekend quiz**: 1,040 general-knowledge questions across eight categories,
-  each with an explanation and a memory hook, plus a revision vault.
-- **Geography**: flags, capitals (both directions) and population
-  higher-or-lower, over 197 sovereign states (territories optional).
-- **Coming**: famous first names, chart toppers / films / TV by year, and lab
-  games (four-by-four groups, timeline, name the year, missing link).
+- **Weekend quiz**: 1,500 general-knowledge questions across ten categories,
+  each with an explanation and a memory hook, plus a revision vault and
+  flashcard decks.
+- **Geography**: flags (normal or look-alike wrong answers), capitals, and
+  population higher-or-lower.
+- **Pop culture**: famous first names, and chart toppers, films (box office and
+  Best Picture) and TV (Emmys and Globes) by year or decade.
+- **Lab**: Four by four (Connections-style) and Fill the list (PMs and
+  presidents in order).
 
+Each data set is rebuilt by a script in `scripts/` (`npm run data:*`) from
+Wikipedia, Wikidata or the World Bank, so nothing time-sensitive is typed by hand.
 The game list lives in `src/games/registry.js`.
 
 Runs entirely in the browser. No account, no server, no data leaves the device.

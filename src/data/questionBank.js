@@ -7,6 +7,8 @@ import language from './questions/language.json';
 import mythology from './questions/mythology.json';
 import sports from './questions/sports.json';
 import popCulture from './questions/popCulture.json';
+import foodDrink from './questions/foodDrink.json';
+import worldLeaders from './questions/worldLeaders.json';
 
 // Source of truth is the JSON, one file per category. Questions store the
 // correct answer as a STRING plus three distractors — never an index. The old
@@ -22,7 +24,9 @@ const FILES = [
   language,
   mythology,
   sports,
-  popCulture
+  popCulture,
+  foodDrink,
+  worldLeaders
 ];
 
 export const ALL_QUESTIONS = FILES.flat();

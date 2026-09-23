@@ -22,12 +22,16 @@ import { localDateKey, previousDateKey, addDaysToKey, daysBetween } from '../src
 import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation } from '../src/games/geo/geoPool.js';
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
+import { rowMatches } from '../src/games/lists/listMatch.js';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
 const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
+const TV = JSON.parse(readFileSync(new URL('../src/data/charts/tv.json', import.meta.url), 'utf8'));
+const FBF = JSON.parse(readFileSync(new URL('../src/data/fourbyfour.json', import.meta.url), 'utf8'));
+const LISTS = JSON.parse(readFileSync(new URL('../src/data/lists.json', import.meta.url), 'utf8')).lists;
 const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
@@ -395,9 +399,14 @@ test('matchGuess: repeated surname finds the next most famous, then reports alre
   assert.equal(matchGuess('jones', 'Tom', TOMS, new Set(['jones'])).person.id, 'jones2');
   assert.equal(matchGuess('jones', 'Tom', TOMS, new Set(['jones', 'jones2'])).alreadyFound, true);
 });
-test('matchGuess: nonsense and one-letter guesses match nothing', () => {
+test('matchGuess: nonsense and stray letters match nothing', () => {
   assert.equal(matchGuess('zzzzzz', 'Tom', TOMS), null);
   assert.equal(matchGuess('h', 'Tom', TOMS), null);
+});
+test('matchGuess: regnal numerals by numeral, number, ordinal or word', () => {
+  const LIZ = [{ id: 'e1', name: 'Elizabeth I', rest: 'I', views: 5 }, { id: 'e2', name: 'Elizabeth II', rest: 'II', views: 9 }];
+  for (const g of ['I', '1', '1st', 'first', 'the first', 'Elizabeth I']) assert.equal(matchGuess(g, 'Elizabeth', LIZ)?.person.id, 'e1', g);
+  for (const g of ['ii', '2', '2nd', 'second']) assert.equal(matchGuess(g, 'Elizabeth', LIZ)?.person.id, 'e2', g);
 });
 
 // ------------------------------------------------------------ flag look-alikes
@@ -529,6 +538,86 @@ test('topSongs "winners" decade board lists one winner per year', () => {
   const b = topSongs(FILMS.bestPicture, 1990, 1999, 10, { decadeBoard: 'winners' });
   assert.equal(b.length, 10);
   assert.equal(b[4].label, 'Forrest Gump');
+});
+
+// --------------------------------------------------------------------- tv
+test('tv: known winners', () => {
+  assert.equal(TV.emmyDrama[2010][0].title, 'Mad Men');
+  assert.equal(TV.emmyComedy[1996][0].title, 'Frasier');
+  assert.equal(TV.globeDrama[2011][0].title, 'Homeland');
+});
+test('tv: season suffixes stripped, networks present, one winner a year', () => {
+  for (const [award, years] of Object.entries(TV).filter(([k]) => k !== 'builtAt')) {
+    for (const [y, list] of Object.entries(years)) {
+      assert.equal(list[0].rank, 1, `${award} ${y}`);
+      for (const s of list) {
+        assert.ok(!/season/i.test(s.title), `${award} ${y}: ${s.title}`);
+        assert.ok(s.artist && s.artist !== 'Unknown network', `${award} ${y}: ${s.title} has no network`);
+      }
+    }
+  }
+});
+test('winners decade board: a repeat winner takes one slot listing its years', () => {
+  const b = topSongs(TV.emmyComedy, 1990, 1999, 10, { decadeBoard: 'winners' });
+  const frasier = b.filter((x) => x.label === 'Frasier');
+  assert.equal(frasier.length, 1);
+  assert.ok(frasier[0].sub.includes('1994') && frasier[0].sub.includes('1998'), frasier[0].sub);
+  assert.equal(new Set(b.map((x) => x.id)).size, b.length);
+});
+test('which-year quiz never offers a repeat winner\'s other winning year', () => {
+  const words = { best: (y) => `${y}`, whichYear: (l) => l, winner: (l) => l, runnerUp: 'x' };
+  for (let seed = 0; seed < 30; seed++) {
+    for (const q of buildChartQuiz(TV.emmyComedy, { from: 1990, to: 1999, count: 10, seed, words, sameYearDistractors: true })) {
+      if (q.kind !== 'year-of-song') continue;
+      const title = TV.emmyComedy[q.year][0].title;
+      const right = q.options.filter((y) => TV.emmyComedy[y]?.[0].title === title);
+      assert.equal(right.length, 1, `${title}: ${q.options}`);
+    }
+  }
+});
+
+// ------------------------------------------------------------ four by four
+test('four by four: every puzzle has 4 groups of 4 and 16 distinct tiles', () => {
+  assert.ok(FBF.puzzles.length >= 100, `only ${FBF.puzzles.length} puzzles`);
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  for (const [i, p] of FBF.puzzles.entries()) {
+    assert.equal(p.groups.length, 4, `puzzle ${i}`);
+    for (const g of p.groups) assert.equal(g.items.length, 4, `puzzle ${i} ${g.label}`);
+    const tiles = p.groups.flatMap((g) => g.items.map(norm));
+    assert.equal(new Set(tiles).size, 16, `puzzle ${i} repeats a tile`);
+    assert.deepEqual(p.groups.map((g) => g.level), [...p.groups.map((g) => g.level)].sort(), `puzzle ${i} not in difficulty order`);
+  }
+});
+
+// ---------------------------------------------------------- fill the list
+test('lists: Australian PMs run Barton to the present, numbered once per person', () => {
+  const t = LISTS.auPM.terms;
+  assert.equal(t[0].name, 'Edmund Barton');
+  assert.equal(t[0].number, 1);
+  const rudd = t.filter((x) => x.name === 'Kevin Rudd');
+  assert.deepEqual(rudd.map((x) => x.number), [26, 26]);
+  assert.equal(t.find((x) => x.name === 'Tony Abbott').number, 28);
+  assert.equal(new Set(t.map((x) => x.name)).size, 31);
+});
+test('lists: US presidents number each non-consecutive term (Cleveland, Trump)', () => {
+  const t = LISTS.usPres.terms;
+  assert.deepEqual(t.filter((x) => x.name === 'Grover Cleveland').map((x) => x.number), [22, 24]);
+  assert.ok(t.every((x) => x.number), 'an unnumbered row slipped in');
+  assert.equal(t[0].name, 'George Washington');
+});
+test('lists: UK list includes the PM in office on 1 January 1900 (Salisbury)', () => {
+  assert.ok(LISTS.ukPM.terms[0].name.includes('Salisbury') || LISTS.ukPM.terms[0].name.includes('Gascoyne-Cecil'), LISTS.ukPM.terms[0].name);
+});
+test('lists: terms are in date order', () => {
+  for (const [k, l] of Object.entries(LISTS)) {
+    const years = l.terms.map((x) => x.from);
+    assert.deepEqual(years, [...years].sort((a, b) => a - b), k);
+  }
+});
+test('rowMatches: full name, surname, and a typo', () => {
+  const row = LISTS.auPM.terms.find((x) => x.name === 'Julia Gillard');
+  for (const g of ['Julia Gillard', 'gillard', 'Gilard']) assert.ok(rowMatches(g, row), g);
+  assert.ok(!rowMatches('Rudd', row));
 });
 
 // ------------------------------------------------------------------ report

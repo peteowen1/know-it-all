@@ -19,7 +19,8 @@ const QDIR = join(HERE, '..', 'src', 'data', 'questions');
 
 const VALID_CATEGORIES = [
   'aus_history', 'geography', 'science', 'arts_lit',
-  'language', 'mythology', 'sports', 'pop_culture'
+  'language', 'mythology', 'sports', 'pop_culture',
+  'food_drink', 'world_leaders'
 ];
 const VALID_DIFFICULTIES = ['easy', 'medium', 'hard'];
 

@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
-import { FLASHCARD_DECKS } from '../data/flashcardsData';
+import { FLASHCARD_DECKS as CORE_DECKS } from '../data/flashcardsData';
+import { EXTRA_DECKS } from '../data/flashcardsExtra';
+
+// Core decks first, then the classic quiz lists (anniversaries, birthstones,
+// phobias...). Two files so each can be rebuilt without touching the other.
+const FLASHCARD_DECKS = [...CORE_DECKS, ...EXTRA_DECKS];
 import { CheckCircle, ArrowLeft, ArrowRight } from 'lucide-react';
 
 export default function FlashcardsDrill() {

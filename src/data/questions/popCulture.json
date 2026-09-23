@@ -10,8 +10,8 @@
       "Key Largo",
       "To Have and Have Not"
     ],
-    "explanation": "The script was still being written during filming, and Bergman has said she did not know which man her character would end up with until the final days.",
-    "hook": "Nobody on set knew how it ended while they were shooting it."
+    "explanation": "The script was still being rewritten during filming, and Bergman said she did not know which man her character would leave with until late in the shoot. It won Best Picture, and its most quoted line, 'Play it again, Sam', is never actually said in the film.",
+    "hook": "Nobody on set knew the ending, and nobody in it says 'Play it again, Sam'."
   },
   {
     "id": "pop_002",
@@ -24,8 +24,8 @@
       "The Who",
       "Pink Floyd"
     ],
-    "explanation": "It was the last album they recorded together, though Let It Be was released later; the cover crossing was shot in about ten minutes on a closed street.",
-    "hook": "Last recorded, second-to-last released — Let It Be came out afterwards."
+    "explanation": "It was the last album the Beatles recorded together, although Let It Be was released after it in 1970. The zebra-crossing cover was shot in a few minutes outside EMI's studios in St John's Wood, which were later renamed Abbey Road Studios after the album.",
+    "hook": "The studio was named after the album, not the other way round."
   },
   {
     "id": "pop_003",
@@ -38,8 +38,8 @@
       "George Smiley",
       "Harry Palmer"
     ],
-    "explanation": "Ian Fleming took the name from an American ornithologist whose book on Caribbean birds sat on his desk in Jamaica.",
-    "hook": "Named after a real bird expert whose book was on Fleming's desk."
+    "explanation": "Ian Fleming borrowed the name from an American ornithologist whose field guide, Birds of the West Indies, sat on his desk at his Jamaican home, Goldeneye. The 'double-O' prefix means a licence to kill.",
+    "hook": "The world's most famous spy is named after a birdwatcher."
   },
   {
     "id": "pop_004",
@@ -50,24 +50,24 @@
     "distractors": [
       "Home and Away",
       "A Country Practice",
-      "Prisoner"
+      "Sons and Daughters"
     ],
-    "explanation": "Their characters' 1987 wedding drew around twenty million viewers in Britain, more than the Australian population at the time.",
-    "hook": "A Ramsay Street wedding outdrew the entire population of Australia in British ratings."
+    "explanation": "Scott and Charlene's wedding drew about twenty million British viewers when it aired there in 1988, more than Australia's whole population at the time. The show ran for forty years before its final episode, number 9,363, in December 2025.",
+    "hook": "A Ramsay Street wedding outdrew the population of Australia."
   },
   {
     "id": "pop_005",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which film won the Academy Award for Best Picture in 1998 after grossing over a billion dollars?",
+    "question": "Which film won eleven Academy Awards, including Best Picture, at the 1998 ceremony?",
     "answer": "Titanic",
     "distractors": [
-      "Forrest Gump",
-      "Braveheart",
-      "Gladiator"
+      "Good Will Hunting",
+      "As Good as It Gets",
+      "L.A. Confidential"
     ],
-    "explanation": "It won eleven Oscars, equalling Ben-Hur and later The Return of the King; it was the first film to pass two billion dollars worldwide.",
-    "hook": "Eleven Oscars ties the all-time record, shared with Ben-Hur and Return of the King."
+    "explanation": "Its eleven Oscars from fourteen nominations equalled the record set by Ben-Hur, later matched by The Return of the King. Titanic was also the first film to gross a billion dollars worldwide.",
+    "hook": "Three films share eleven Oscars: Ben-Hur, Titanic and The Return of the King."
   },
   {
     "id": "pop_006",
@@ -80,8 +80,8 @@
       "Midnight Oil",
       "Crowded House"
     ],
-    "explanation": "It topped charts worldwide in 1983 and became an unofficial anthem, though a 2010 court case found its flute riff infringed the copyright of Kookaburra Sits in the Old Gum Tree.",
-    "hook": "The flute line lost a copyright case to a children's campfire song."
+    "explanation": "It topped the charts in Australia, Britain and the United States in 1983. In 2010 a court found its flute riff borrowed from 'Kookaburra Sits in the Old Gum Tree', written by Melbourne teacher Marion Sinclair.",
+    "hook": "The flute line lost a copyright case to a campfire song about a kookaburra."
   },
   {
     "id": "pop_007",
@@ -92,10 +92,10 @@
     "distractors": [
       "The Witcher",
       "Vikings",
-      "Rome"
+      "The Wheel of Time"
     ],
-    "explanation": "Adapted from George R.R. Martin's novels, it ran from 2011 to 2019 and overtook its source material, ending before the books did.",
-    "hook": "The show finished the story before the author did."
+    "explanation": "Adapted from George R.R. Martin's A Song of Ice and Fire novels, it ran on HBO from 2011 to 2019 and ended before the books did. It won 59 Emmys, a record for a drama series, and the prequel House of the Dragon followed in 2022.",
+    "hook": "The TV show finished the story before the author did."
   },
   {
     "id": "pop_008",
@@ -108,7 +108,7 @@
       "Prince",
       "James Brown"
     ],
-    "explanation": "Elvis was the King of Rock and Roll, James Brown the Godfather of Soul; Thriller remains the best-selling album of all time.",
+    "explanation": "Elvis Presley was the King of Rock and Roll and James Brown the Godfather of Soul. Jackson's Thriller (1982) is generally cited as the best-selling album of all time.",
     "hook": "Elvis is the King, Jackson the King of Pop, Brown the Godfather of Soul."
   },
   {
@@ -122,8 +122,8 @@
       "Razorback",
       "The Cars That Ate Paris"
     ],
-    "explanation": "Made in 1979 on a budget of around $400,000, it held the record for the most profitable film ever made for years and launched George Miller's career.",
-    "hook": "A $400,000 Australian film that held the profitability record for a decade."
+    "explanation": "Made in 1979 for about $350,000 by George Miller, a Sydney doctor, it took around $100 million worldwide. For twenty years it held the Guinness record for the best return on budget, until The Blair Witch Project in 1999.",
+    "hook": "Directed by a doctor who had treated real car-crash victims in casualty."
   },
   {
     "id": "pop_010",
@@ -136,8 +136,8 @@
       "The OA",
       "Locke & Key"
     ],
-    "explanation": "Set in 1980s Indiana and steeped in Spielberg and Stephen King references, the Demogorgon name is borrowed directly from Dungeons & Dragons.",
-    "hook": "The monster is named after a Dungeons & Dragons monster the kids are playing with."
+    "explanation": "Set in 1980s Hawkins, Indiana, the Duffer brothers' series borrowed its monster's name from the Dungeons & Dragons game the boys play. It ended on New Year's Eve 2025, with the finale also screened in cinemas.",
+    "hook": "The kids name the monster after one in their Dungeons & Dragons game."
   },
   {
     "id": "pop_011",
@@ -150,8 +150,8 @@
       "Led Zeppelin",
       "Deep Purple"
     ],
-    "explanation": "Brian May built his own guitar with his father from a fireplace mantelpiece and still plays it; he also holds a doctorate in astrophysics.",
-    "hook": "The guitarist built his guitar from a fireplace and has a PhD in astrophysics."
+    "explanation": "Brian May built his guitar, the Red Special, with his father, using wood from an old fireplace mantelpiece, and still plays it. He also finished a PhD in astrophysics in 2007, thirty years after he paused it for the band.",
+    "hook": "The guitarist's guitar came from a fireplace, and he has a doctorate in the stars."
   },
   {
     "id": "pop_012",
@@ -164,8 +164,8 @@
       "Dune",
       "Battlestar Galactica"
     ],
-    "explanation": "David Prowse played the body, James Earl Jones supplied the voice, and Prowse only learned of the famous paternity line at the premiere.",
-    "hook": "The actor in the suit did not know the twist until he watched the film."
+    "explanation": "Bodybuilder David Prowse wore the suit and James Earl Jones supplied the voice. Prowse was given a dummy line on set, so he only learned 'I am your father' when he watched The Empire Strikes Back.",
+    "hook": "The man in the suit found out Vader's secret along with the audience."
   },
   {
     "id": "pop_013",
@@ -178,8 +178,8 @@
       "Eric Bana",
       "Sam Worthington"
     ],
-    "explanation": "He was cast weeks into filming after Dougray Scott withdrew, and holds a Guinness record for the longest run playing a live-action Marvel character.",
-    "hook": "He was a last-minute replacement and stayed in the role for two decades."
+    "explanation": "He was cast weeks into filming in 2000 after Dougray Scott was held up on Mission: Impossible 2, and played the role on and off until Deadpool & Wolverine in 2024. Eric Bana, the usual wrong answer, played the Hulk in 2003.",
+    "hook": "A last-minute stand-in who kept the claws for twenty-four years."
   },
   {
     "id": "pop_014",
@@ -192,8 +192,8 @@
       "Deal or No Deal",
       "Jeopardy!"
     ],
-    "explanation": "Devised in Britain in 1998, it has been franchised to more than a hundred countries and its dramatic lighting and music were as important as the questions.",
-    "hook": "The lighting and the music did as much work as the questions."
+    "explanation": "It began in Britain in 1998 and has been made in more than a hundred countries. Eddie McGuire hosted the Australian version on Nine, and the lifelines (50:50, phone a friend, ask the audience) became part of everyday speech.",
+    "hook": "Final answer? Lock it in, Eddie."
   },
   {
     "id": "pop_015",
@@ -206,8 +206,8 @@
       "The Little Mermaid",
       "Moana"
     ],
-    "explanation": "Much of it is set on the Great Barrier Reef and in Sydney Harbour, and it prompted a documented spike in demand for clownfish as pets.",
-    "hook": "It caused a run on pet clownfish, which was the opposite of its message."
+    "explanation": "The 2003 Pixar film is set on the Great Barrier Reef and in a Sydney dentist's fish tank, with the address 42 Wallaby Way, Sydney. It won the Oscar for Best Animated Feature, and the sequel Finding Dory followed in 2016.",
+    "hook": "P. Sherman, 42 Wallaby Way, Sydney."
   },
   {
     "id": "pop_016",
@@ -220,8 +220,8 @@
       "Midnight Oil",
       "The Angels"
     ],
-    "explanation": "Their 1987 album Kick sold over ten million copies; the band later chose a new singer through a reality television series in 2005.",
-    "hook": "They eventually replaced their frontman through a reality TV contest."
+    "explanation": "Their 1987 album Kick sold millions and produced 'Need You Tonight' and 'Never Tear Us Apart'. After Hutchence died in 1997, the band chose a new singer, J.D. Fortune, through the 2005 reality show Rock Star: INXS.",
+    "hook": "They found their next frontman through a TV talent show."
   },
   {
     "id": "pop_017",
@@ -234,8 +234,8 @@
       "Ridley Scott",
       "James Cameron"
     ],
-    "explanation": "The mechanical shark in Jaws malfunctioned so often that he shot around it, and the resulting suspense is widely credited with making the film work.",
-    "hook": "The shark broke down constantly, which is why you barely see it — and why it works."
+    "explanation": "The mechanical shark in Jaws broke down so often that Spielberg had to shoot around it, and the unseen threat made the film scarier. He has won Best Director twice, for Schindler's List and Saving Private Ryan.",
+    "hook": "The shark kept breaking, so you barely see it, and that is why it works."
   },
   {
     "id": "pop_018",
@@ -248,8 +248,8 @@
       "SeaChange",
       "Blue Water High"
     ],
-    "explanation": "Running since 1988, the beach scenes are filmed at Palm Beach north of Sydney, which has become a tourist destination as a result.",
-    "hook": "Summer Bay is really Palm Beach, and tourists go there looking for it."
+    "explanation": "It began on Seven in 1988, and its beach scenes are filmed at Palm Beach on Sydney's northern beaches. Ray Meagher has played Alf Stewart since the first episode, a Guinness record for the longest-serving actor in an Australian series.",
+    "hook": "Summer Bay is really Palm Beach, and Alf has been there since day one."
   },
   {
     "id": "pop_019",
@@ -262,8 +262,8 @@
       "Duffy",
       "Florence Welch"
     ],
-    "explanation": "Named for her age when she wrote it, it won six Grammys and was the best-selling album worldwide of both 2011 and 2012.",
-    "hook": "Her albums are named for the age she was when she wrote them."
+    "explanation": "Named for her age when she wrote it, 21 won six Grammys including Album of the Year and was the world's best-selling album in both 2011 and 2012. Her other albums are 19, 25 and 30.",
+    "hook": "Her albums are named after her age: 19, 21, 25, 30."
   },
   {
     "id": "pop_020",
@@ -276,8 +276,8 @@
       "Spider-Man",
       "Green Lantern"
     ],
-    "explanation": "Created by Bob Kane and Bill Finger in 1939, he is among the few major superheroes with no superhuman abilities, which is central to his appeal.",
-    "hook": "No powers at all — just money, training and a grudge."
+    "explanation": "Created by Bob Kane and Bill Finger in 1939, he has no superpowers, only money, training and gadgets. Superman is the Man of Steel, and Batman's other nickname is the Dark Knight.",
+    "hook": "Caped Crusader and Dark Knight are Batman; Man of Steel is Superman."
   },
   {
     "id": "pop_021",
@@ -290,8 +290,8 @@
       "Natalie Imbruglia",
       "Tina Arena"
     ],
-    "explanation": "It reached number one in around forty countries and marked the most successful phase of a career that began on Neighbours in 1986.",
-    "hook": "Number one in forty countries, fifteen years after she started on a soap opera."
+    "explanation": "It reached number one in about forty countries and is her biggest-selling single. She won her first Grammy for 'Come Into My World' in 2004 and a second, for 'Padam Padam', twenty years later.",
+    "hook": "La la la, la la la-la la: the most famous hum in pop."
   },
   {
     "id": "pop_022",
@@ -304,36 +304,36 @@
       "How I Met Your Mother",
       "Will & Grace"
     ],
-    "explanation": "It ran for ten seasons from 1994, and by the final years each of the six leads was paid a million dollars per episode after negotiating collectively.",
-    "hook": "They negotiated as a bloc, which is how all six reached a million an episode."
+    "explanation": "It ran for ten seasons from 1994 to 2004. The six leads bargained as a group, and by the last two seasons each was paid a million US dollars per episode.",
+    "hook": "Six friends, one couch, a million dollars each per episode."
   },
   {
     "id": "pop_023",
     "category": "pop_culture",
-    "difficulty": "easy",
-    "question": "Which film features the line 'Here's looking at you, kid'?",
-    "answer": "Casablanca",
+    "difficulty": "medium",
+    "question": "In Casablanca, which song does Rick ask Sam to play?",
+    "answer": "As Time Goes By",
     "distractors": [
-      "Gone with the Wind",
-      "Citizen Kane",
-      "The Big Sleep"
+      "Moonlight Serenade",
+      "Stardust",
+      "Night and Day"
     ],
-    "explanation": "The line was reportedly improvised by Bogart during poker lessons he gave Bergman between takes, and it does not appear in the source play.",
-    "hook": "It was improvised over card games between takes."
+    "explanation": "Written by Herman Hupfeld in 1931, it was nearly cut because composer Max Steiner wanted his own theme, but Bergman had already cut her hair for another role and the scenes could not be reshot. Rick actually says 'You played it for her, you can play it for me', never 'Play it again, Sam'.",
+    "hook": "Ingrid Bergman's haircut saved the song."
   },
   {
     "id": "pop_024",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which Australian investigative journalism programme has aired on the ABC since 1961?",
+    "question": "Which Australian investigative journalism program has aired on the ABC since 1961?",
     "answer": "Four Corners",
     "distractors": [
       "7.30",
       "Media Watch",
       "Foreign Correspondent"
     ],
-    "explanation": "It is Australia's longest-running current affairs programme and its 1980s reporting contributed to the Fitzgerald Inquiry into Queensland police corruption.",
-    "hook": "One episode in 1987 helped bring down a state government."
+    "explanation": "Its 1987 report 'The Moonlight State' exposed Queensland police corruption and led directly to the Fitzgerald Inquiry. The inquiry jailed the state's police commissioner and hastened the end of Joh Bjelke-Petersen's government.",
+    "hook": "One 1987 episode helped end the Bjelke-Petersen era."
   },
   {
     "id": "pop_025",
@@ -346,8 +346,8 @@
       "Fleetwood Mac",
       "Genesis"
     ],
-    "explanation": "At nearly six minutes with no chorus, radio stations resisted playing it; the operatic section took three weeks of overdubbing to complete.",
-    "hook": "No chorus, six minutes long, and every radio programmer said it would fail."
+    "explanation": "At almost six minutes with no chorus, the record company thought it far too long for radio. London DJ Kenny Everett played it anyway, and it spent nine weeks at number one in Britain in 1975.",
+    "hook": "Too long and no chorus, and it was a hit because a DJ ignored the rules."
   },
   {
     "id": "pop_026",
@@ -358,10 +358,10 @@
     "distractors": [
       "Amazon Prime Video",
       "Disney+",
-      "HBO"
+      "Apple TV+"
     ],
-    "explanation": "Each pair of seasons recast the principals to reflect ageing, an unusual and expensive decision that became one of the show's defining features.",
-    "hook": "They replaced the entire cast twice rather than use makeup."
+    "explanation": "Peter Morgan's drama ran from 2016 to 2023 and recast its main roles every two seasons as the royals aged. Claire Foy, Olivia Colman and Imelda Staunton played the Queen, and Australian Elizabeth Debicki played Diana.",
+    "hook": "Three Queens in six seasons: Foy, Colman, Staunton."
   },
   {
     "id": "pop_027",
@@ -372,24 +372,24 @@
     "distractors": [
       "Geoffrey Rush",
       "Heath Ledger",
-      "Cate Blanchett"
+      "Guy Pearce"
     ],
-    "explanation": "Geoffrey Rush won for Shine in 1997, Cate Blanchett for The Aviator and Blue Jasmine, and Heath Ledger posthumously for The Dark Knight.",
-    "hook": "Rush 1997, Crowe 2001, Blanchett twice, Ledger posthumously — the Australian Oscar run."
+    "explanation": "Crowe, born in New Zealand and raised in Sydney, won Best Actor as the Roman general Maximus. Geoffrey Rush had won Best Actor for Shine four years earlier, and Crowe was nominated again the next year for A Beautiful Mind.",
+    "hook": "Rush in 1997, Crowe in 2001: two Australian Best Actors in five years."
   },
   {
     "id": "pop_028",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which video game features a plumber named Mario?",
+    "question": "Which 1985 Nintendo game made the plumber Mario and his brother Luigi household names?",
     "answer": "Super Mario Bros.",
     "distractors": [
-      "Sonic the Hedgehog",
-      "Donkey Kong Country",
-      "Crash Bandicoot"
+      "The Legend of Zelda",
+      "Metroid",
+      "Excitebike"
     ],
-    "explanation": "Mario first appeared in Donkey Kong in 1981 as a carpenter called Jumpman; Crash Bandicoot was created by an American studio but set loosely in Australia.",
-    "hook": "He started as a carpenter called Jumpman in a different game entirely."
+    "explanation": "Mario had first appeared in the 1981 arcade game Donkey Kong as a carpenter called Jumpman. Super Mario Bros. sold about forty million copies, and The Super Mario Bros. Movie became one of 2023's biggest films.",
+    "hook": "He started as a carpenter called Jumpman."
   },
   {
     "id": "pop_029",
@@ -402,22 +402,22 @@
       "Les Misérables",
       "Chicago"
     ],
-    "explanation": "Based on Gregory Maguire's novel retelling The Wizard of Oz from the witch's perspective, it opened on Broadway in 2003.",
-    "hook": "It is The Wizard of Oz told by the villain, who turns out not to be one."
+    "explanation": "Based on Gregory Maguire's novel, it retells The Wizard of Oz from the Wicked Witch's side and opened on Broadway in 2003. The film version was split in two: Wicked (2024) and Wicked: For Good (2025), starring Cynthia Erivo and Ariana Grande.",
+    "hook": "It is The Wizard of Oz told by the witch, who turns out not to be wicked."
   },
   {
     "id": "pop_030",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which Australian children's television group has sold millions of albums since 1991?",
+    "question": "Which Australian children's music group formed in Sydney in 1991?",
     "answer": "The Wiggles",
     "distractors": [
       "Hi-5",
-      "Play School",
+      "The Fairies",
       "Bananas in Pyjamas"
     ],
-    "explanation": "Formed by early childhood education students in Sydney, they were for several years Australia's highest-earning entertainers, ahead of any rock act.",
-    "hook": "For years they out-earned every Australian rock band combined."
+    "explanation": "Anthony Field, Murray Cook and Greg Page met studying early childhood education at Macquarie University and teamed up with Jeff Fatt. They topped BRW's list of Australia's richest entertainers several years running, and Emma Watkins became the first female Wiggle in 2013.",
+    "hook": "Red, purple, yellow, blue: four shirts, one of the most profitable acts Australia has produced."
   },
   {
     "id": "pop_031",
@@ -430,8 +430,8 @@
       "Percy Jackson",
       "The Golden Compass"
     ],
-    "explanation": "The American release changed 'Philosopher's' to 'Sorcerer's', and some scenes were shot twice with different dialogue to match both titles.",
-    "hook": "Two versions of some scenes exist because America changed the title."
+    "explanation": "The American release was renamed Harry Potter and the Sorcerer's Stone, so scenes naming the stone were shot twice. The eight films ran from 2001 to 2011, and HBO is now adapting the books as a series.",
+    "hook": "Every 'Philosopher's Stone' line was filmed twice, once for America."
   },
   {
     "id": "pop_032",
@@ -444,13 +444,13 @@
       "Instagram",
       "LinkedIn"
     ],
-    "explanation": "It began as a Harvard-only network before expanding; the company later acquired Instagram in 2012 and WhatsApp in 2014 and renamed itself Meta in 2021.",
-    "hook": "It bought Instagram for a billion dollars when Instagram had thirteen employees."
+    "explanation": "It began as a network for Harvard students before opening to everyone in 2006. The company bought Instagram in 2012 and WhatsApp in 2014, and renamed itself Meta in 2021.",
+    "hook": "It paid a billion dollars for Instagram when Instagram had thirteen staff."
   },
   {
     "id": "pop_033",
     "category": "pop_culture",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "question": "For which film did Cate Blanchett win her first Academy Award?",
     "answer": "The Aviator",
     "distractors": [
@@ -458,8 +458,8 @@
       "Blue Jasmine",
       "Carol"
     ],
-    "explanation": "She won Best Supporting Actress in 2005 for playing Katharine Hepburn, then Best Actress in 2014 for Blue Jasmine.",
-    "hook": "She won an Oscar for playing the actress who holds the record for most Oscars."
+    "explanation": "She won Best Supporting Actress in 2005 for playing Katharine Hepburn in Scorsese's Howard Hughes film, then Best Actress in 2014 for Blue Jasmine. Elizabeth is the common wrong answer: she was nominated for it in 1999 but lost to Gwyneth Paltrow.",
+    "hook": "She won an Oscar for playing Hepburn, who holds the record for acting Oscars."
   },
   {
     "id": "pop_034",
@@ -472,22 +472,22 @@
       "The Doors",
       "Yes"
     ],
-    "explanation": "Released in 1973, it spent over nine hundred weeks on the US album chart, far longer than any other record.",
-    "hook": "It stayed on the American album chart for the better part of two decades."
+    "explanation": "Released in 1973, it has spent more than 900 weeks on the US Billboard 200 album chart, far more than any other album. Its songs include 'Money' and 'Time', and it has sold an estimated 45 million copies.",
+    "hook": "It stayed on the American chart for most of two decades."
   },
   {
     "id": "pop_035",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which Australian comedy duo created the characters Kath and Kim?",
+    "question": "Which Australian comedy duo created and starred in Kath & Kim?",
     "answer": "Jane Turner and Gina Riley",
     "distractors": [
+      "Judith Lucy and Denise Scott",
       "Hamish and Andy",
-      "Roy and HG",
-      "The Chaser team"
+      "Roy and HG"
     ],
-    "explanation": "The series satirised outer-suburban Melbourne life and became one of the ABC's highest-rating comedies before moving to commercial television.",
-    "hook": "Two women writing and playing mother and daughter, both in their forties."
+    "explanation": "Turner played Kath and Riley played her daughter Kim, with Magda Szubanski as Kim's friend Sharon. The show began on the ABC in 2002, sent up the Melbourne suburb of Fountain Lakes, and gave Australians 'look at moiye' and 'noice'.",
+    "hook": "Noice, different, unusual: Turner is Kath, Riley is Kim."
   },
   {
     "id": "pop_036",
@@ -497,39 +497,39 @@
     "answer": "Wings",
     "distractors": [
       "The Jazz Singer",
-      "Sunrise",
+      "All Quiet on the Western Front",
       "Metropolis"
     ],
-    "explanation": "A silent First World War aviation film, it remained the only silent Best Picture winner until The Artist in 2012.",
-    "hook": "The first Best Picture was silent, and the next silent one came eighty-three years later."
+    "explanation": "A silent First World War flying film, Wings was the only silent Best Picture winner until The Artist in 2012. All Quiet on the Western Front won the following year.",
+    "hook": "The first Best Picture was silent, and the next silent one came 83 years later."
   },
   {
     "id": "pop_037",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Beatles album was the first to feature no songs released as singles in Britain?",
+    "question": "Which Beatles album came from the 1967 sessions that also produced 'Strawberry Fields Forever' and 'Penny Lane'?",
     "answer": "Sgt. Pepper's Lonely Hearts Club Band",
     "distractors": [
-      "Rubber Soul",
-      "Magical Mystery Tour",
-      "A Hard Day's Night"
+      "Revolver",
+      "A Hard Day's Night",
+      "The White Album"
     ],
-    "explanation": "Strawberry Fields Forever and Penny Lane were recorded in the same sessions but released as a separate single, which the band later regretted.",
-    "hook": "Two of its best songs were pulled off and released separately, to the band's lasting regret."
+    "explanation": "EMI wanted a single early, so the two songs were released on their own in February 1967 and left off the album, which producer George Martin later called a dreadful mistake. Sgt. Pepper won the Grammy for Album of the Year, the first rock album to do so.",
+    "hook": "Its two best-known songs from the sessions are not on it."
   },
   {
     "id": "pop_038",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Australian film won the 1994 Cannes Palme d'Or for Jane Campion?",
+    "question": "Which Jane Campion film shared the 1993 Palme d'Or at Cannes, making her the first woman to win it?",
     "answer": "The Piano",
     "distractors": [
-      "Muriel's Wedding",
-      "Priscilla, Queen of the Desert",
-      "Strictly Ballroom"
+      "An Angel at My Table",
+      "Sweetie",
+      "The Power of the Dog"
     ],
-    "explanation": "She became the first woman to win the Palme d'Or, in 1993, and remained the only one until Julia Ducournau in 2021.",
-    "hook": "First woman to win the Palme d'Or, and for nearly thirty years the only one."
+    "explanation": "Shot in New Zealand with Holly Hunter, it shared the prize with Farewell My Concubine, and Anna Paquin won an Oscar for it aged eleven. Campion went on to win Best Director at the Oscars for The Power of the Dog in 2022.",
+    "hook": "First woman to win the Palme d'Or, and her child star won an Oscar at eleven."
   },
   {
     "id": "pop_039",
@@ -542,8 +542,8 @@
       "The Wire",
       "Ozark"
     ],
-    "explanation": "Vince Gilligan pitched it as turning Mr Chips into Scarface; the spin-off Better Call Saul ran for six seasons and is set largely before it.",
-    "hook": "The pitch was one line: turn Mr Chips into Scarface."
+    "explanation": "Creator Vince Gilligan pitched it as turning Mr Chips into Scarface: a chemistry teacher becomes a drug lord. The spin-off Better Call Saul, about lawyer Saul Goodman, ran for six seasons.",
+    "hook": "The pitch in one line: Mr Chips becomes Scarface."
   },
   {
     "id": "pop_040",
@@ -556,8 +556,8 @@
       "Hunters & Collectors",
       "The Church"
     ],
-    "explanation": "Written after touring remote Aboriginal communities, it produced Beds Are Burning; frontman Peter Garrett later served as a federal government minister.",
-    "hook": "The singer went from protest songs to sitting in cabinet."
+    "explanation": "It was written after the band toured remote Aboriginal communities, and produced 'Beds Are Burning'. Singer Peter Garrett later became federal environment minister and then schools minister in the Rudd and Gillard governments.",
+    "hook": "The bald singer went from protest songs to the cabinet room."
   },
   {
     "id": "pop_041",
@@ -570,22 +570,22 @@
       "Guy Ritchie",
       "Martin Scorsese"
     ],
-    "explanation": "Pulp Fiction won the Palme d'Or in 1994 and revived John Travolta's career; its non-linear structure became widely imitated through the late 1990s.",
-    "hook": "It resurrected Travolta's career and made non-linear storytelling fashionable for a decade."
+    "explanation": "Pulp Fiction won the Palme d'Or in 1994 and revived John Travolta's career. Tarantino has long said he will retire after his tenth film, and he won two Oscars for screenwriting, for Pulp Fiction and Django Unchained.",
+    "hook": "Two screenplay Oscars, and a promise to stop at ten films."
   },
   {
     "id": "pop_042",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which artist recorded the best-selling album of all time, Thriller?",
-    "answer": "Michael Jackson",
+    "question": "Which director made the music video for Michael Jackson's 'Thriller'?",
+    "answer": "John Landis",
     "distractors": [
-      "Prince",
-      "Whitney Houston",
-      "Stevie Wonder"
+      "John Carpenter",
+      "Wes Craven",
+      "Martin Scorsese"
     ],
-    "explanation": "Released in 1982 with estimated sales above sixty-six million, its title-track video ran fourteen minutes and was directed by John Landis.",
-    "hook": "A fourteen-minute music video with a horror director and a full narrative."
+    "explanation": "Jackson hired Landis after seeing his film An American Werewolf in London, and the video runs almost fourteen minutes. Scorsese is a tempting guess because he did direct Jackson's 'Bad' video in 1987.",
+    "hook": "The werewolf director made the zombie video; Scorsese did 'Bad'."
   },
   {
     "id": "pop_043",
@@ -598,22 +598,22 @@
       "The Adventures of Barry McKenzie",
       "Strictly Ballroom"
     ],
-    "explanation": "Released in 1994, it won the Academy Award for Best Costume Design and made Terence Stamp, Hugo Weaving and Guy Pearce an unlikely trio.",
-    "hook": "It won an Oscar for costumes, which is exactly the right award for it."
+    "explanation": "Released in 1994 and directed by Stephan Elliott, it starred Terence Stamp, Hugo Weaving and Guy Pearce. Lizzy Gardiner and Tim Chappel won the Oscar for costume design, and Gardiner collected it in a dress made of American Express gold cards.",
+    "hook": "An Oscar for costumes, collected in a dress made of credit cards."
   },
   {
     "id": "pop_044",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which sitcom is set in the fictional town of Springfield?",
+    "question": "Which animated sitcom is set in the fictional town of Springfield?",
     "answer": "The Simpsons",
     "distractors": [
       "Family Guy",
       "King of the Hill",
-      "South Park"
+      "Bob's Burgers"
     ],
-    "explanation": "Matt Groening chose the name because it is one of the most common town names in America and deliberately never fixed its state.",
-    "hook": "The state is deliberately never confirmed — that is the joke."
+    "explanation": "Matt Groening picked the name because it is one of the most common town names in America, and the show deliberately never reveals its state. Family Guy is set in Quahog, Rhode Island, and King of the Hill in Arlen, Texas.",
+    "hook": "Springfield could be anywhere, and the show makes sure it stays that way."
   },
   {
     "id": "pop_045",
@@ -626,8 +626,8 @@
       "Lenny Kravitz",
       "Rick James"
     ],
-    "explanation": "He played most instruments on his records himself and famously changed his name to an unpronounceable symbol during a contract dispute with Warner Bros.",
-    "hook": "He renamed himself a symbol to escape a record contract."
+    "explanation": "The song and its 1984 film won Prince an Oscar for Best Original Song Score. He played most instruments on his records himself, and in 1993 he changed his name to an unpronounceable symbol during a fight with Warner Bros.",
+    "hook": "He became a symbol to escape his record contract."
   },
   {
     "id": "pop_046",
@@ -640,36 +640,36 @@
       "The Dish",
       "Kenny"
     ],
-    "explanation": "Shot in eleven days on a small budget in 1997, its lines about the vibe and serenity entered Australian speech almost immediately.",
-    "hook": "Eleven days of filming produced half of Australia's everyday quotations."
+    "explanation": "Made by the Working Dog team in about eleven days in 1997, it follows Darryl Kerrigan's fight against the compulsory acquisition of his house next to the airport. 'It's the vibe', 'Tell him he's dreamin'' and 'How's the serenity?' all entered Australian speech.",
+    "hook": "It's the vibe of the thing: eleven days' filming, a lifetime of quotes."
   },
   {
     "id": "pop_047",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which film features the character Hannibal Lecter and won five major Oscars?",
+    "question": "Which film featuring Hannibal Lecter won the five major Oscars in 1992?",
     "answer": "The Silence of the Lambs",
     "distractors": [
       "Se7en",
       "Manhunter",
       "Red Dragon"
     ],
-    "explanation": "It is one of only three films to sweep Picture, Director, Actor, Actress and Screenplay; Anthony Hopkins is on screen for around sixteen minutes.",
-    "hook": "He won Best Actor for about sixteen minutes of screen time."
+    "explanation": "It is one of only three films to win Picture, Director, Actor, Actress and Screenplay, after It Happened One Night and One Flew Over the Cuckoo's Nest. Anthony Hopkins won Best Actor with about sixteen minutes on screen.",
+    "hook": "Best Actor for about sixteen minutes of screen time."
   },
   {
     "id": "pop_048",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "In which year did the ABC children's programme Play School first air?",
+    "question": "In which year did the ABC children's program Play School first air?",
     "answer": "1966",
     "distractors": [
       "1956",
       "1974",
       "1982"
     ],
-    "explanation": "It is the second-longest-running children's programme in the world and has deliberately used a rotating cast rather than a single host.",
-    "hook": "On air since 1966, and built to survive any presenter leaving."
+    "explanation": "It began in July 1966, adapted from a BBC format, and is often described as the second-longest-running children's show in the world. Its toys, including Big Ted, Little Ted, Jemima and Humpty, outlast every presenter.",
+    "hook": "On air since 1966, looking through the round, square and arched windows."
   },
   {
     "id": "pop_049",
@@ -682,8 +682,8 @@
       "Soundgarden",
       "Alice in Chains"
     ],
-    "explanation": "It displaced Michael Jackson from number one in January 1992, a moment widely treated as the mainstream arrival of alternative rock.",
-    "hook": "Knocking Michael Jackson off number one was the symbolic end of the 1980s."
+    "explanation": "In January 1992 it knocked Michael Jackson's Dangerous off the top of the US album chart, the moment alternative rock went mainstream. The cover baby swimming towards a dollar note was Spencer Elden, then four months old.",
+    "hook": "The Seattle band knocked the King of Pop off number one."
   },
   {
     "id": "pop_050",
@@ -696,8 +696,8 @@
       "Terminator",
       "Blade Runner"
     ],
-    "explanation": "The role was written without a specified gender and Sigourney Weaver's casting made Ripley one of cinema's first female action leads.",
-    "hook": "The script never specified a gender — casting a woman was the decision that changed the genre."
+    "explanation": "Dan O'Bannon's script left the crew's genders open, and casting Sigourney Weaver made Ripley one of cinema's first female action leads. She was nominated for an Oscar for the 1986 sequel Aliens, rare for a science-fiction role.",
+    "hook": "The script never said Ripley was a man or a woman."
   },
   {
     "id": "pop_051",
@@ -710,22 +710,22 @@
       "Tim Rogers",
       "Dave Graney"
     ],
-    "explanation": "It contained his only substantial chart hit, a duet with Kylie Minogue called Where the Wild Roses Grow, in which he murders her character.",
-    "hook": "His biggest hit was a duet in which he kills his duet partner."
+    "explanation": "Recorded with the Bad Seeds, it included his biggest chart hit, 'Where the Wild Roses Grow', a duet with Kylie Minogue in which his character kills hers. It reached number two in Australia.",
+    "hook": "His biggest hit is a duet in which he murders Kylie."
   },
   {
     "id": "pop_052",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which film won the Academy Award for Best Picture in 1994?",
+    "question": "Which film won Best Picture at the Academy Awards ceremony held in March 1994?",
     "answer": "Schindler's List",
     "distractors": [
       "Forrest Gump",
-      "Pulp Fiction",
-      "The Shawshank Redemption"
+      "The Piano",
+      "The Fugitive"
     ],
-    "explanation": "Spielberg shot it in black and white and refused a salary, describing payment for it as blood money; Forrest Gump won the following year.",
-    "hook": "He refused to be paid for it, calling any fee blood money."
+    "explanation": "Spielberg shot it in black and white and refused a salary, calling any fee 'blood money'. Forrest Gump, the usual wrong answer, is a 1994 film and won at the following year's ceremony.",
+    "hook": "Ceremony year and film year differ: Schindler at the 1994 show, Gump at 1995."
   },
   {
     "id": "pop_053",
@@ -738,22 +738,22 @@
       "Ben Mendelsohn",
       "Jai Courtney"
     ],
-    "explanation": "He won a posthumous Academy Award for playing the Joker in 2009, only the second acting Oscar awarded after an actor's death.",
-    "hook": "Only the second posthumous acting Oscar in the award's history."
+    "explanation": "He won Best Supporting Actor for playing the Joker in 2009, a year after his death, only the second posthumous acting Oscar. The first also went to someone raised in Australia: Peter Finch, for Network in 1977.",
+    "hook": "Both posthumous acting Oscars went to men who grew up in Australia."
   },
   {
     "id": "pop_054",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which television series is set in a Baltimore drug trade and police department?",
+    "question": "Which television series is set in Baltimore's drug trade and police department?",
     "answer": "The Wire",
     "distractors": [
       "The Shield",
       "Homicide: Life on the Street",
       "True Detective"
     ],
-    "explanation": "Created by former police reporter David Simon, it never won a major Emmy but is routinely ranked among the greatest television series ever made.",
-    "hook": "It won almost no awards and tops nearly every all-time list."
+    "explanation": "Created by former Baltimore Sun police reporter David Simon, it ran on HBO from 2002 to 2008. It never won an Emmy, yet regularly tops critics' lists of the greatest television series.",
+    "hook": "No Emmys, and top of almost every all-time list."
   },
   {
     "id": "pop_055",
@@ -766,8 +766,8 @@
       "Tina Turner",
       "Etta James"
     ],
-    "explanation": "Her 1967 recording of Respect, originally an Otis Redding song, reframed it entirely and became a civil rights and feminist anthem.",
-    "hook": "Respect was a man's song until she turned it around completely."
+    "explanation": "Her 1967 'Respect' was originally an Otis Redding song, and she added the famous R-E-S-P-E-C-T spelling. In 1987 she became the first woman inducted into the Rock and Roll Hall of Fame.",
+    "hook": "Otis wrote it, Aretha spelled it out."
   },
   {
     "id": "pop_056",
@@ -780,8 +780,8 @@
       "Kenny",
       "Danny Deckchair"
     ],
-    "explanation": "Set at Parkes Observatory in New South Wales, it dramatises the relaying of moonwalk footage to a global audience of roughly 600 million.",
-    "hook": "The moonwalk reached the world via a telescope in a Parkes sheep paddock."
+    "explanation": "Made by the same Working Dog team as The Castle, it is set at Parkes Observatory in New South Wales, which relayed most of the moonwalk TV pictures to about 600 million people. The first few minutes actually came through Honeysuckle Creek near Canberra, which the film leaves out.",
+    "hook": "The moonwalk reached the world via a dish in a Parkes sheep paddock."
   },
   {
     "id": "pop_057",
@@ -794,8 +794,8 @@
       "Black Sabbath",
       "The Eagles"
     ],
-    "explanation": "Never released as a single, it became the most requested song on American radio; a 2016 copyright case over its opening was decided in the band's favour.",
-    "hook": "The most-played rock song on radio was never released as a single."
+    "explanation": "It appeared on their untitled fourth album in 1971 and was never released as a single in Britain or America. A US jury decided in 2016 that its opening did not copy Spirit's 'Taurus', and an appeals court upheld that in 2020.",
+    "hook": "Rock radio's most famous song was never a single."
   },
   {
     "id": "pop_058",
@@ -808,36 +808,36 @@
       "Orson Welles",
       "John Huston"
     ],
-    "explanation": "He never won a competitive Academy Award for directing despite five nominations, receiving only an honorary Thalberg award in 1968.",
-    "hook": "Five nominations, no directing Oscar — one of the Academy's worst records."
+    "explanation": "He was nominated five times for Best Director and never won. His Rebecca did win Best Picture in 1941, but that Oscar went to producer David O. Selznick.",
+    "hook": "The Master of Suspense never won a directing Oscar."
   },
   {
     "id": "pop_059",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Australian comedy group produced The Chaser's War on Everything?",
+    "question": "Which Australian comedy team drove a fake Canadian motorcade into the APEC security zone in Sydney in 2007?",
     "answer": "The Chaser",
     "distractors": [
       "Working Dog",
       "The D-Generation",
       "Aunty Donna"
     ],
-    "explanation": "Their 2007 APEC stunt drove a fake motorcade through Sydney security cordons and reached the restricted zone before being stopped.",
-    "hook": "They drove a fake motorcade past every APEC checkpoint in Sydney."
+    "explanation": "Chas Licciardello, dressed as Osama bin Laden, stepped out near the leaders' hotel before police noticed. The stunt was filmed for The Chaser's War on Everything on the ABC, and charges against the team were later dropped.",
+    "hook": "'Bin Laden' got out of the car before anyone checked the passes."
   },
   {
     "id": "pop_060",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which film's soundtrack includes 'My Heart Will Go On'?",
-    "answer": "Titanic",
+    "question": "Which singer recorded 'My Heart Will Go On' for the film Titanic?",
+    "answer": "Celine Dion",
     "distractors": [
-      "The Bodyguard",
-      "Ghost",
-      "Armageddon"
+      "Whitney Houston",
+      "Mariah Carey",
+      "Shania Twain"
     ],
-    "explanation": "James Cameron initially did not want a pop song over the credits; Celine Dion recorded the demo in one take, which is the version used.",
-    "hook": "The director resisted the song, and the demo take is what you hear."
+    "explanation": "James Cameron did not want a pop song, so composer James Horner had Dion record a demo in secret, and that single take is the version released. It won the Oscar for Best Original Song and topped charts around the world in 1998.",
+    "hook": "The director did not want it, and the secret demo is what you hear."
   },
   {
     "id": "pop_061",
@@ -850,8 +850,8 @@
       "Rabbit Hole",
       "Being the Ricardos"
     ],
-    "explanation": "She won in 2003 for playing Virginia Woolf; she and Cate Blanchett are Australia's only Best Actress winners.",
-    "hook": "Kidman for The Hours, Blanchett for Blue Jasmine — the complete Australian list."
+    "explanation": "She won in 2003 for playing Virginia Woolf, with a prosthetic nose. Kidman and Cate Blanchett (Blue Jasmine) are the only Australians to have won Best Actress.",
+    "hook": "She won it with a fake nose, playing a real writer."
   },
   {
     "id": "pop_062",
@@ -864,8 +864,8 @@
       "Resident Evil",
       "Assassin's Creed"
     ],
-    "explanation": "Launched in 1996 by British studio Core Design, it was among the first major games with a female lead and has been rebooted twice.",
-    "hook": "One of the first blockbuster games built around a woman, in 1996."
+    "explanation": "Created by British studio Core Design in 1996, it was one of the first blockbuster games with a female lead. Angelina Jolie played her on film in 2001 and Alicia Vikander in 2018.",
+    "hook": "A 1996 archaeologist who later became Angelina Jolie."
   },
   {
     "id": "pop_063",
@@ -878,64 +878,64 @@
       "Priscilla, Queen of the Desert",
       "Looking for Alibrandi"
     ],
-    "explanation": "Released in 1994, the same year as Priscilla, it helped launch a run of Australian films that found international audiences through comedy.",
-    "hook": "1994 gave Australia both Muriel and Priscilla within months."
+    "explanation": "Set in the fictional Queensland town of Porpoise Spit, P.J. Hogan's 1994 film came out the same year as Priscilla, which also leans on ABBA. Collette put on weight for the role, and Rachel Griffiths played Muriel's friend Rhonda.",
+    "hook": "'You're terrible, Muriel': Porpoise Spit and a lot of ABBA."
   },
   {
     "id": "pop_064",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which band's members were John, Paul, George and Ringo?",
-    "answer": "The Beatles",
+    "question": "Which drummer did Ringo Starr replace in the Beatles in 1962?",
+    "answer": "Pete Best",
     "distractors": [
-      "The Monkees",
-      "The Hollies",
-      "The Byrds"
+      "Stuart Sutcliffe",
+      "Jimmy Nicol",
+      "Tommy Moore"
     ],
-    "explanation": "Ringo Starr replaced Pete Best in 1962 shortly before their first single; his real name is Richard Starkey and the stage name came from his rings.",
-    "hook": "The drummer joined weeks before the first single and took his name from his jewellery."
+    "explanation": "Best was sacked in August 1962, weeks before the first single 'Love Me Do'. Stuart Sutcliffe, the usual wrong answer, was their early bass player, and Jimmy Nicol filled in for Ringo on tour in 1964.",
+    "hook": "Best was not the best fit: out weeks before the first record."
   },
   {
     "id": "pop_065",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Australian television series follows a Sydney law firm and aired from 2011?",
+    "question": "Which ABC series starring Richard Roxburgh follows the chaotic Sydney barrister Cleaver Greene?",
     "answer": "Rake",
     "distractors": [
       "Janet King",
       "Crownies",
-      "Underbelly"
+      "Harrow"
     ],
-    "explanation": "Richard Roxburgh's barrister character was loosely inspired by a real Sydney criminal barrister; the show was remade unsuccessfully in the United States.",
-    "hook": "Based loosely on a real Sydney barrister, and the American remake sank without trace."
+    "explanation": "It ran from 2010 to 2018 and was loosely inspired by Sydney barrister Charles Waterstreet. An American remake with Greg Kinnear lasted one season in 2014.",
+    "hook": "A barrister who is always in trouble, based on a real one."
   },
   {
     "id": "pop_066",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which film features the quote 'I'm going to make him an offer he can't refuse'?",
+    "question": "Which film features the line 'I'm going to make him an offer he can't refuse'?",
     "answer": "The Godfather",
     "distractors": [
       "Goodfellas",
       "Scarface",
       "Once Upon a Time in America"
     ],
-    "explanation": "Marlon Brando stuffed cotton wool in his cheeks for the screen test to create Vito Corleone's jaw, and the studio initially opposed casting him.",
-    "hook": "Brando got the part with cotton wool in his cheeks at the audition."
+    "explanation": "Marlon Brando stuffed tissues in his cheeks for his screen test to give Vito Corleone his jowls, and the studio had not wanted him. He won Best Actor and refused the Oscar, sending Sacheen Littlefeather to decline it.",
+    "hook": "Brando won the part with tissues in his cheeks and then refused the Oscar."
   },
   {
     "id": "pop_067",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which streaming series about a chess prodigy was released in 2020?",
+    "question": "Which 2020 streaming series follows an orphaned chess prodigy named Beth Harmon?",
     "answer": "The Queen's Gambit",
     "distractors": [
       "Pawn Sacrifice",
       "Searching for Bobby Fischer",
       "Brooklyn Castle"
     ],
-    "explanation": "Based on Walter Tevis's 1983 novel, it produced a documented surge in chess set sales and online chess registrations worldwide.",
-    "hook": "Chess set sales rose sharply worldwide within weeks of its release."
+    "explanation": "Based on Walter Tevis's 1983 novel and starring Anya Taylor-Joy, it led to a surge in chess-set sales and online chess sign-ups. The Queen's Gambit is a real chess opening: 1.d4 d5 2.c4.",
+    "hook": "Named after a real opening, and it sold out chess sets worldwide."
   },
   {
     "id": "pop_068",
@@ -948,8 +948,8 @@
       "Australian Crawl",
       "Rose Tattoo"
     ],
-    "explanation": "Released in 1978 about a Vietnam veteran's return, it was banned from commercial radio over a lyric and never charted highly, yet became a standard.",
-    "hook": "Banned from radio, never a hit, and every Australian knows the words."
+    "explanation": "Written by Don Walker about a Vietnam veteran who cannot settle back home, it was released in 1978 and restricted on commercial radio for its lyrics. It only reached number 41, yet it is one of the best-known Australian songs.",
+    "hook": "Barely a hit, and every Australian pub knows the words."
   },
   {
     "id": "pop_069",
@@ -962,41 +962,41 @@
       "Studio Ghibli",
       "Illumination"
     ],
-    "explanation": "Released in 1995 as the first entirely computer-animated feature, the studio was bought from George Lucas by Steve Jobs in 1986 and sold to Disney in 2006.",
-    "hook": "Steve Jobs bought it from George Lucas for ten million dollars."
+    "explanation": "Toy Story (1995) was the first fully computer-animated feature. Steve Jobs bought Pixar's forerunner from George Lucas in 1986 for about ten million dollars and sold it to Disney in 2006 for about 7.4 billion.",
+    "hook": "Ten million from George Lucas, 7.4 billion from Disney."
   },
   {
     "id": "pop_070",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which singer released the album Rumours with Fleetwood Mac in 1977?",
-    "answer": "Stevie Nicks",
+    "question": "Which band released the 1977 album Rumours, written while its two couples were breaking up?",
+    "answer": "Fleetwood Mac",
     "distractors": [
-      "Joni Mitchell",
-      "Carly Simon",
-      "Linda Ronstadt"
+      "Eagles",
+      "Heart",
+      "The Mamas & the Papas"
     ],
-    "explanation": "The album was recorded while all three couples in the band were separating, and the songs are largely about each other.",
-    "hook": "Every couple in the band broke up during recording, and they wrote about it."
+    "explanation": "Lindsey Buckingham and Stevie Nicks were splitting up, as were John and Christine McVie, and Mick Fleetwood was divorcing too. Songs like 'Go Your Own Way' and 'Dreams' are the band members writing about each other.",
+    "hook": "'Go Your Own Way' and 'Dreams' are exes answering each other."
   },
   {
     "id": "pop_071",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Australian drama series dramatised real organised crime figures from 2008?",
+    "question": "Which Australian drama series dramatised Melbourne's gangland war from 2008?",
     "answer": "Underbelly",
     "distractors": [
       "Blue Murder",
       "Wildside",
       "Janet King"
     ],
-    "explanation": "Its first season could not be broadcast in Victoria during a related murder trial, which made pirated copies enormously widespread there.",
-    "hook": "Banned in one state during a trial, which made it the most pirated show in the country."
+    "explanation": "A court banned the first season from being shown in Victoria, where the killings happened, to protect a murder trial, so many Victorians watched pirated copies instead. Later seasons covered Sydney's Kings Cross and 1970s drug trade.",
+    "hook": "Banned in the very state it was about."
   },
   {
     "id": "pop_072",
     "category": "pop_culture",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which film features a shark terrorising the town of Amity Island?",
     "answer": "Jaws",
     "distractors": [
@@ -1004,8 +1004,8 @@
       "Deep Blue Sea",
       "Open Water"
     ],
-    "explanation": "Released in 1975, it is generally credited with inventing the summer blockbuster through wide release and heavy television advertising.",
-    "hook": "It invented the summer blockbuster as a marketing strategy."
+    "explanation": "Released in 1975 and filmed on Martha's Vineyard, it is credited with creating the summer blockbuster through a wide release and TV advertising. The crew nicknamed the mechanical shark Bruce, after Spielberg's lawyer.",
+    "hook": "The shark was called Bruce, after a lawyer."
   },
   {
     "id": "pop_073",
@@ -1018,8 +1018,8 @@
       "Bernard Fanning",
       "Missy Higgins"
     ],
-    "explanation": "How to Make Gravy is set on 21 December, and the date is now marked annually by Australian fans as Gravy Day.",
-    "hook": "One song created an unofficial Australian holiday on 21 December."
+    "explanation": "'How to Make Gravy' is a letter from a prisoner written on 21 December, so fans mark that date as Gravy Day. Kelly also co-wrote 'From Little Things Big Things Grow' with Kev Carmody.",
+    "hook": "21 December is Gravy Day, because of one Paul Kelly song."
   },
   {
     "id": "pop_074",
@@ -1032,8 +1032,8 @@
       "Cheers",
       "Frasier"
     ],
-    "explanation": "Pitched as a show about nothing, its writers' rule was 'no hugging, no learning', which inverted the sitcom conventions of the time.",
-    "hook": "The writers' rule was no hugging and no learning."
+    "explanation": "Created by Jerry Seinfeld and Larry David, it was called 'a show about nothing', and the writers' rule was 'no hugging, no learning'. George Costanza was based largely on Larry David himself.",
+    "hook": "No hugging, no learning."
   },
   {
     "id": "pop_075",
@@ -1046,8 +1046,8 @@
       "Guardians of the Galaxy",
       "Firefly"
     ],
-    "explanation": "The design was reworked late in production because the original resembled the ship in the British series Space: 1999, and became the more familiar disc shape.",
-    "hook": "The famous shape was a last-minute redesign to avoid looking like a British TV ship."
+    "explanation": "The original design looked too much like the Eagle from the British series Space: 1999, so it was redesigned into the familiar flying saucer shape. The first design was kept and became Princess Leia's ship, the Tantive IV.",
+    "hook": "Han Solo's ship was redesigned to avoid copying a British TV show."
   },
   {
     "id": "pop_076",
@@ -1060,8 +1060,8 @@
       "Four",
       "Seven"
     ],
-    "explanation": "It shares the record for most nominations without a win with The Turning Point, which also went eleven for nothing in 1978.",
-    "hook": "Eleven nominations, zero statues — and it has happened twice."
+    "explanation": "Spielberg's 1985 film shares the record for most nominations without a win with The Turning Point (1977), which also went eleven for none. A musical remake of The Color Purple was released in 2023.",
+    "hook": "Eleven nominations, zero statues, and it has happened twice."
   },
   {
     "id": "pop_077",
@@ -1074,22 +1074,22 @@
       "Baz Luhrmann",
       "Rob Sitch"
     ],
-    "explanation": "Stephan Elliott directed Priscilla the same year, Baz Luhrmann Strictly Ballroom in 1992 and Rob Sitch The Castle in 1997 — the four films that defined the era.",
-    "hook": "Hogan Muriel, Elliott Priscilla, Luhrmann Strictly Ballroom, Sitch The Castle."
+    "explanation": "Hogan next made My Best Friend's Wedding (1997) in Hollywood. Stephan Elliott directed Priscilla the same year, Baz Luhrmann Strictly Ballroom in 1992 and Rob Sitch The Castle in 1997.",
+    "hook": "Hogan made two 'Wedding' films: Muriel's, then My Best Friend's."
   },
   {
     "id": "pop_078",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which musician's estate sued over the use of a sample in 'Under Pressure' and 'Ice Ice Baby'?",
-    "answer": "Queen and David Bowie",
+    "question": "Which song's bassline did Vanilla Ice use without permission in 'Ice Ice Baby'?",
+    "answer": "Under Pressure",
     "distractors": [
-      "The Rolling Stones",
-      "The Police",
-      "Chic"
+      "Another One Bites the Dust",
+      "Super Freak",
+      "Good Times"
     ],
-    "explanation": "Vanilla Ice initially denied the bassline was sampled, claiming an extra beat made it different; the matter was settled and Queen and Bowie received songwriting credits.",
-    "hook": "His defence was that he had added one extra note."
+    "explanation": "The riff comes from Queen and David Bowie's 1981 duet. Vanilla Ice claimed his version was different because of one extra note, then settled and gave them songwriting credits. 'Super Freak' is the sample in MC Hammer's 'U Can't Touch This'.",
+    "hook": "His defence was one extra note. It did not work."
   },
   {
     "id": "pop_079",
@@ -1102,36 +1102,36 @@
       "1961",
       "1966"
     ],
-    "explanation": "It was timed for the Melbourne Olympics that November; Bruce Gyngell opened proceedings with 'good evening, and welcome to television'.",
-    "hook": "Australia got television because Melbourne got the Olympics."
+    "explanation": "TCN-9 in Sydney went to air on 16 September 1956 with Bruce Gyngell saying 'Good evening, and welcome to television'. Melbourne stations launched in time for the Olympics that November.",
+    "hook": "Australia got TV just in time for the Melbourne Olympics."
   },
   {
     "id": "pop_080",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which 2020 animated film's direct-to-streaming release sparked a studio-cinema dispute?",
+    "question": "Which 2020 animated film's release straight to home rental sparked a fight between Universal and the AMC cinema chain?",
     "answer": "Trolls World Tour",
     "distractors": [
-      "Soul",
       "Onward",
-      "Scoob!"
+      "Sonic the Hedgehog",
+      "Bad Boys for Life"
     ],
-    "explanation": "Universal's decision to bypass cinemas during pandemic closures prompted the AMC chain to threaten a boycott of all the studio's future films.",
-    "hook": "A children's cartoon started the war between studios and cinema chains."
+    "explanation": "With cinemas shut by the pandemic, Universal released it for home rental in April 2020 and then suggested it would keep doing so. AMC threatened to stop showing all Universal films, and the two later agreed a shorter cinema window.",
+    "hook": "A kids' cartoon started the war between studios and cinemas."
   },
   {
     "id": "pop_081",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian band's frontman later became a federal environment minister?",
-    "answer": "Midnight Oil",
+    "question": "Which Sydney band had a 1966 international hit with 'Friday on My Mind'?",
+    "answer": "The Easybeats",
     "distractors": [
-      "INXS",
-      "Cold Chisel",
-      "Powderfinger"
+      "The Seekers",
+      "The Masters Apprentices",
+      "Skyhooks"
     ],
-    "explanation": "Peter Garrett served as environment minister and then schools minister under Rudd and Gillard, having earlier stood for the Senate for the Nuclear Disarmament Party in 1984.",
-    "hook": "He ran for the Senate in 1984 and made cabinet twenty-three years later."
+    "explanation": "It was written by band members Harry Vanda and George Young, who later produced AC/DC's early albums. George's younger brothers Malcolm and Angus Young founded AC/DC.",
+    "hook": "The Easybeats' George Young was AC/DC's big brother."
   },
   {
     "id": "pop_082",
@@ -1144,8 +1144,8 @@
       "William Wyler",
       "Frank Capra"
     ],
-    "explanation": "He won four, none of them for a western despite being the genre's defining director; Wyler and Capra won three each.",
-    "hook": "Four directing Oscars, and not one for a western."
+    "explanation": "Ford won four, for The Informer, The Grapes of Wrath, How Green Was My Valley and The Quiet Man, and none was for a western. Wyler and Capra won three each.",
+    "hook": "The king of westerns won four directing Oscars and none for a western."
   },
   {
     "id": "pop_083",
@@ -1158,8 +1158,8 @@
       "Air Supply",
       "The Easybeats"
     ],
-    "explanation": "Born on the Isle of Man and raised in Queensland, the Gibb brothers wrote or performed on a remarkable share of the American charts through 1978.",
-    "hook": "For a stretch of 1978 they had written most of the American top ten."
+    "explanation": "The Gibb brothers were born on the Isle of Man and grew up in Redcliffe, Queensland, where they started performing. In March 1978 they wrote five of the songs in the US top ten at the same time.",
+    "hook": "Redcliffe boys who once had five songs in the US top ten at once."
   },
   {
     "id": "pop_084",
@@ -1172,8 +1172,8 @@
       "Frasier",
       "The Simpsons"
     ],
-    "explanation": "It has accumulated over ninety across five decades on air; Game of Thrones holds the record for a scripted drama series.",
-    "hook": "Fifty years on air will win you more Emmys than any single great drama."
+    "explanation": "Counting its Creative Arts awards, SNL has passed 110 Emmys since 1975, nearly twice Game of Thrones' 59, the record for a drama. Lorne Michaels has produced it for almost all of its fifty years.",
+    "hook": "Fifty years on air beats any single great drama."
   },
   {
     "id": "pop_085",
@@ -1186,22 +1186,22 @@
       "Ten Canoes",
       "Sweet Country"
     ],
-    "explanation": "Shot in Vanuatu in the Nauvhal language with a local cast, it is the only Australian film ever nominated in that category, and it did not win.",
+    "explanation": "Shot on the island of Tanna in Vanuatu with local villagers as the cast, it tells a true story of forbidden love. It is the only Australian film nominated in that category, and it did not win.",
     "hook": "Australia's only nomination in the category was filmed in Vanuatu."
   },
   {
     "id": "pop_086",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which song holds the record for most weeks at number one on the US Billboard Hot 100?",
-    "answer": "All I Want for Christmas Is You",
+    "question": "Which song held the US Billboard Hot 100 record of 22 weeks at number one until Ella Langley's 'Choosin' Texas' passed it in September 2026?",
+    "answer": "All I Want for Christmas Is You by Mariah Carey",
     "distractors": [
       "Old Town Road by Lil Nas X",
       "Despacito by Luis Fonsi",
       "One Sweet Day by Mariah Carey and Boyz II Men"
     ],
-    "explanation": "Mariah Carey's 1994 recording did not top the chart at all until 2019, then returned each December to accumulate 22 non-consecutive weeks, passing Old Town Road's 19 straight weeks.",
-    "hook": "It took twenty-five years to reach number one and then did it every Christmas since."
+    "explanation": "Mariah Carey's 1994 song did not reach number one until December 2019, then returned every Christmas to build up 22 weeks. 'Choosin' Texas' took the record with its 23rd week on the chart dated 26 September 2026.",
+    "hook": "Twenty-five years to reach number one, then a record built one December at a time."
   },
   {
     "id": "pop_087",
@@ -1214,50 +1214,50 @@
       "Errol Flynn",
       "Sam Neill"
     ],
-    "explanation": "A car salesman and model with no acting credits, he won the part in 1969 and then declined a seven-film contract on his agent's advice.",
-    "hook": "A model with no acting experience got the role and then walked away from it."
+    "explanation": "A former car salesman from Goulburn working as a model in London, he had never acted when cast in 1969. On advice from his manager, he walked away from a seven-film deal after one film.",
+    "hook": "One film, no acting experience, and he turned down six more."
   },
   {
     "id": "pop_088",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which record label rejected the Beatles in 1962 saying guitar groups were on the way out?",
+    "question": "Which record label rejected the Beatles in 1962, reportedly saying guitar groups were on the way out?",
     "answer": "Decca",
     "distractors": [
       "EMI",
       "Parlophone",
       "Pye"
     ],
-    "explanation": "The label signed Brian Poole and the Tremeloes instead, largely because they were London-based and cheaper to work with than a Liverpool band.",
-    "hook": "They chose the London band over the Liverpool one to save on travel."
+    "explanation": "Decca's Dick Rowe signed Brian Poole and the Tremeloes instead, a London band. George Martin then signed the Beatles to Parlophone, part of EMI.",
+    "hook": "Decca declined; Parlophone signed them."
   },
   {
     "id": "pop_089",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which film is credited with introducing the modern movie sequel numbering convention?",
+    "question": "Which was the first sequel to win the Academy Award for Best Picture?",
     "answer": "The Godfather Part II",
     "distractors": [
-      "Jaws 2",
-      "Rocky II",
-      "French Connection II"
+      "The Lord of the Rings: The Return of the King",
+      "The Dark Knight",
+      "Aliens"
     ],
-    "explanation": "Released in 1974, it was the first sequel to win Best Picture and the first major film to use a Roman numeral in its title as standard practice.",
-    "hook": "First sequel to win Best Picture, and the reason sequels have numbers."
+    "explanation": "It won in 1975, and The Return of the King (2004) is the only other sequel to win. Marlon Brando and Robert De Niro both won Oscars for playing Vito Corleone, and the Joker later did the same for Heath Ledger and Joaquin Phoenix.",
+    "hook": "Two sequels have won Best Picture: Godfather II and Return of the King."
   },
   {
     "id": "pop_090",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian television music programme ran on the ABC from 1974 to 1987?",
+    "question": "Which Australian television music program ran on the ABC from 1974 to 1987?",
     "answer": "Countdown",
     "distractors": [
       "Rage",
       "Recovery",
       "Sounds"
     ],
-    "explanation": "Hosted by Ian 'Molly' Meldrum, it could make a record a hit overnight; Rage replaced it in 1987 and still runs overnight on Fridays and Saturdays.",
-    "hook": "One television slot could turn an unknown band into a national act in a week."
+    "explanation": "Ian 'Molly' Meldrum's Sunday-night interviews and tips could make a record a hit, and it helped ABBA break through worldwide. Rage replaced it in 1987 and still runs overnight on weekends.",
+    "hook": "Do yourself a favour: Molly's word made hits."
   },
   {
     "id": "pop_091",
@@ -1270,8 +1270,8 @@
       "Jack Nicholson",
       "Laurence Olivier"
     ],
-    "explanation": "She has been nominated twenty-one times and won three; Katharine Hepburn holds the record for wins with four.",
-    "hook": "Streep has the most nominations, Hepburn the most wins."
+    "explanation": "Streep has 21 nominations and three wins. Katharine Hepburn holds the record for wins with four, and Jack Nicholson has the most nominations for a man, with twelve.",
+    "hook": "Streep for nominations, Hepburn for wins."
   },
   {
     "id": "pop_092",
@@ -1284,22 +1284,22 @@
       "George Miller",
       "Bruce Beresford"
     ],
-    "explanation": "His 'Red Curtain' trilogy of Strictly Ballroom, Romeo + Juliet and Moulin Rouge! established a heightened theatrical style built with designer Catherine Martin, his wife.",
-    "hook": "Three films form the Red Curtain trilogy, all designed by his wife."
+    "explanation": "Strictly Ballroom, Romeo + Juliet and Moulin Rouge! form his 'Red Curtain' trilogy, designed with his wife Catherine Martin, who has won four Oscars. His 2022 film Elvis was shot on the Gold Coast.",
+    "hook": "Three films behind the Red Curtain, and his wife has four Oscars."
   },
   {
     "id": "pop_093",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which album cover features a prism splitting light into a spectrum?",
+    "question": "Which Pink Floyd album cover shows a prism splitting light into a spectrum?",
     "answer": "The Dark Side of the Moon",
     "distractors": [
       "Wish You Were Here",
       "Animals",
       "The Wall"
     ],
-    "explanation": "Designed by Storm Thorgerson's studio Hipgnosis, the band asked for something simple after years of photographic covers, and the design has no text at all.",
-    "hook": "No band name, no album title — just a prism, and everyone knows it."
+    "explanation": "Designed by Storm Thorgerson and Aubrey Powell's studio Hipgnosis, the cover has no band name or title. Animals is the one with the inflatable pig over Battersea Power Station.",
+    "hook": "A prism for Dark Side, a pig for Animals."
   },
   {
     "id": "pop_094",
@@ -1312,8 +1312,8 @@
       "Twin Peaks",
       "Arrested Development"
     ],
-    "explanation": "Fox aired its episodes out of order and cancelled it after fourteen; DVD sales were strong enough to fund the 2005 feature film Serenity.",
-    "hook": "The network aired the episodes in the wrong order and then blamed the ratings."
+    "explanation": "Fox aired Joss Whedon's space western out of order and showed only eleven of its fourteen episodes. Strong DVD sales paid for the 2005 film Serenity.",
+    "hook": "Aired in the wrong order, then blamed for its ratings."
   },
   {
     "id": "pop_095",
@@ -1326,36 +1326,36 @@
       "Four",
       "Nine"
     ],
-    "explanation": "All six were in technical categories including editing, costume and production design — the largest haul at a single ceremony for an Australian production.",
-    "hook": "Six Oscars, none of them for acting, writing or directing."
+    "explanation": "All six were craft awards, including editing, costume and production design, the most Oscars for an Australian film. Editor Margaret Sixel, George Miller's wife, had never cut an action film before.",
+    "hook": "Six Oscars, and one went to the director's wife."
   },
   {
     "id": "pop_096",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which musician turned down a Nobel-adjacent honour by ignoring the announcement for two weeks in 2016?",
+    "question": "Which musician won the 2016 Nobel Prize in Literature and did not publicly acknowledge it for about two weeks?",
     "answer": "Bob Dylan",
     "distractors": [
       "Leonard Cohen",
-      "Patti Smith",
+      "Joni Mitchell",
       "Bruce Springsteen"
     ],
-    "explanation": "He did not acknowledge the Nobel Prize in Literature for a fortnight and did not attend the ceremony; Patti Smith performed in his place.",
-    "hook": "Patti Smith sang his song at the ceremony he did not attend."
+    "explanation": "He skipped the Stockholm ceremony, and Patti Smith sang his 'A Hard Rain's a-Gonna Fall' in his place, stopping when she forgot the words. He delivered the required Nobel lecture months later.",
+    "hook": "Patti Smith sang his song and lost her place, and he did not turn up."
   },
   {
     "id": "pop_097",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which video game is the best-selling of all time?",
+    "question": "Which video game has sold more than 350 million copies, the most of any single game?",
     "answer": "Minecraft",
     "distractors": [
       "Grand Theft Auto V",
-      "Tetris",
-      "Wii Sports"
+      "Wii Sports",
+      "Mario Kart 8"
     ],
-    "explanation": "It has sold well over 300 million copies since 2011; Microsoft bought its developer Mojang for 2.5 billion dollars in 2014.",
-    "hook": "Microsoft paid 2.5 billion dollars for it, and it has paid that back many times."
+    "explanation": "Released in 2011 by Swedish studio Mojang, which Microsoft bought for 2.5 billion US dollars in 2014, it reached 350 million sales in 2025. A Minecraft Movie took nearly a billion dollars that year. Tetris is sometimes given as the answer, but only by counting all its versions together.",
+    "hook": "Tetris wins only if you add up every version; Minecraft wins as one game."
   },
   {
     "id": "pop_098",
@@ -1368,8 +1368,8 @@
       "Naomi Watts",
       "Radha Mitchell"
     ],
-    "explanation": "She gained around twenty kilograms for Muriel's Wedding at twenty-one and was nominated for an Oscar for The Sixth Sense five years later.",
-    "hook": "Two of her defining roles came within five years of each other on opposite sides of the world."
+    "explanation": "She put on about 18 kilograms to play Muriel and was nominated for an Oscar for The Sixth Sense five years later. Rachel Griffiths, the usual wrong answer, played Muriel's best friend Rhonda.",
+    "hook": "Collette was Muriel; Griffiths was Rhonda."
   },
   {
     "id": "pop_099",
@@ -1379,11 +1379,11 @@
     "answer": "Titanic",
     "distractors": [
       "Jurassic Park",
-      "Star Wars: The Phantom Menace",
+      "Star Wars: Episode I - The Phantom Menace",
       "Avatar"
     ],
-    "explanation": "It crossed the mark in 1998 and later passed two billion; James Cameron has directed three of the highest-grossing films in history.",
-    "hook": "One director has three of the highest-grossing films ever made."
+    "explanation": "It passed the mark in 1998. James Cameron also made Avatar (2009), still the highest-grossing film, and its sequels The Way of Water and Fire and Ash, so he has directed four billion-dollar films.",
+    "hook": "First to a billion was Cameron, and he has done it three times since with the Avatar films."
   },
   {
     "id": "pop_100",
@@ -1396,8 +1396,8 @@
       "The Kinks",
       "The Who"
     ],
-    "explanation": "It was their last public performance, played on the Apple Corps roof in Savile Row and stopped by police after around forty-two minutes.",
-    "hook": "Their final public show was stopped by police complaints about noise."
+    "explanation": "Their last public performance was on the roof of Apple Corps at 3 Savile Row, and police stopped it after about forty-two minutes. John Lennon closed with 'I hope we've passed the audition'.",
+    "hook": "Their last gig ended with a joke about passing the audition."
   },
   {
     "id": "pop_101",
@@ -1410,8 +1410,8 @@
       "Total Control",
       "Mystery Road"
     ],
-    "explanation": "It screened internationally on SundanceTV and used the Hairypeople, drawn from Aboriginal oral tradition, as a persecuted minority in a near-future city.",
-    "hook": "Dreaming stories in a science-fiction frame, and it sold internationally."
+    "explanation": "Created by Ryan Griffen, it cast the Hairypeople of Aboriginal oral tradition as a persecuted minority in a near-future city. It was co-produced with America's SundanceTV and screened overseas.",
+    "hook": "Dreaming stories told as science fiction."
   },
   {
     "id": "pop_102",
@@ -1424,8 +1424,8 @@
       "Ennio Morricone",
       "Jerry Goldsmith"
     ],
-    "explanation": "He has more Academy Award nominations than any living person, and the two-note Jaws motif was initially dismissed by Spielberg as a joke.",
-    "hook": "Spielberg laughed when he first heard the two-note Jaws theme."
+    "explanation": "With more than fifty nominations he is the most-nominated living person in Oscar history, second only to Walt Disney. Spielberg laughed when Williams first played him the two-note Jaws theme, thinking it was a joke.",
+    "hook": "Spielberg thought the Jaws theme was a joke."
   },
   {
     "id": "pop_103",
@@ -1438,22 +1438,22 @@
       "ABC, on Good Morning America",
       "CBS, on The Carol Burnett Show"
     ],
-    "explanation": "The shorts ran from 1987 and the family was designed in a lobby in minutes; the standalone series began in December 1989.",
-    "hook": "The characters were sketched in a lobby in about fifteen minutes."
+    "explanation": "Matt Groening sketched the family in producer James L. Brooks's lobby, naming them after his own family, and the shorts began in 1987. The half-hour series started in December 1989.",
+    "hook": "Homer, Marge, Lisa and Maggie are named after Groening's own family."
   },
   {
     "id": "pop_104",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian hosted the ABC's Media Watch for its first years from 1989?",
+    "question": "Which barrister was the first host of the ABC's Media Watch in 1989?",
     "answer": "Stuart Littlemore",
     "distractors": [
       "Paul Barry",
       "Jonathan Holmes",
       "David Marr"
     ],
-    "explanation": "He set the programme's adversarial tone; Paul Barry, Jonathan Holmes and David Marr have all held the chair since, making it one of the ABC's most-rotated hosting roles.",
-    "hook": "It has had more hosts than almost any other ABC programme, all of them combative."
+    "explanation": "He hosted until 1997 and set its sarcastic tone. Later hosts include Richard Ackland, David Marr, Monica Attard, Jonathan Holmes and Paul Barry, and Linton Besser took over in 2025.",
+    "hook": "A barrister started it, which explains the cross-examination style."
   },
   {
     "id": "pop_105",
@@ -1466,8 +1466,8 @@
       "Black Panther",
       "Jurassic World"
     ],
-    "explanation": "Endgame took around 357 million dollars domestically in three days, and passed two billion worldwide faster than any film before it.",
-    "hook": "It broke its own predecessor's record, set exactly one year earlier."
+    "explanation": "Endgame took about 357 million US dollars in North America in its first three days, well ahead of Infinity War's 258 million a year earlier. It went on to become the second-highest-grossing film ever, behind Avatar.",
+    "hook": "It broke its own predecessor's record, set one year before."
   },
   {
     "id": "pop_106",
@@ -1480,22 +1480,22 @@
       "INXS",
       "Little River Band"
     ],
-    "explanation": "Recorded months after singer Bon Scott's death with Brian Johnson replacing him, its all-black cover was intended as a mark of mourning.",
-    "hook": "The black cover is a mourning band for the singer who had just died."
+    "explanation": "Recorded months after singer Bon Scott died, with Brian Johnson replacing him, its all-black cover was a sign of mourning. Estimates put its sales at about 50 million, second only to Thriller.",
+    "hook": "The black cover is a mourning band for Bon Scott."
   },
   {
     "id": "pop_107",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which film director's debut feature was Duel, made for television in 1971?",
+    "question": "Which director's 1971 television film Duel pitted a motorist against an unseen truck driver?",
     "answer": "Steven Spielberg",
     "distractors": [
       "George Lucas",
       "John Carpenter",
       "Brian De Palma"
     ],
-    "explanation": "The tanker driver is never shown, a restraint he reused with the shark in Jaws four years later.",
-    "hook": "You never see the driver — the same trick he later used on the shark."
+    "explanation": "The truck driver is never properly shown, the same restraint Spielberg used with the shark in Jaws four years later. His first cinema feature was The Sugarland Express in 1974.",
+    "hook": "You never see the driver, and you barely see the shark."
   },
   {
     "id": "pop_108",
@@ -1508,22 +1508,22 @@
       "Georg Solti",
       "Alison Krauss"
     ],
-    "explanation": "She passed conductor Georg Solti's long-standing record of thirty-one in 2023; Solti had held it since 1997.",
+    "explanation": "She passed conductor Georg Solti's 31 in 2023 and reached 35 in 2025, when Cowboy Carter finally won her Album of the Year. The 2026 Album of the Year went to Bad Bunny, the first Spanish-language winner.",
     "hook": "The record had belonged to a classical conductor for twenty-six years."
   },
   {
     "id": "pop_109",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian film about Aboriginal girls walking home from a settlement was released in 2002?",
+    "question": "Which 2002 Australian film follows three Aboriginal girls walking home after being taken to a settlement?",
     "answer": "Rabbit-Proof Fence",
     "distractors": [
       "Samson and Delilah",
       "The Tracker",
       "Ten Canoes"
     ],
-    "explanation": "Based on Doris Pilkington Garimara's account of her mother's journey along the fence in 1931, it brought the Stolen Generations to international audiences.",
-    "hook": "They walked 2,400 kilometres home along a rabbit fence, and it is a true story."
+    "explanation": "Directed by Phillip Noyce, it is based on Doris Pilkington Garimara's book about her mother Molly's escape from the Moore River settlement in 1931. The girls walked for about nine weeks, following the fence home to Jigalong.",
+    "hook": "They found their way home by following a rabbit fence."
   },
   {
     "id": "pop_110",
@@ -1536,36 +1536,36 @@
       "Seinfeld",
       "Friends"
     ],
-    "explanation": "It remains the most-watched scripted television episode in US history; the series ran eleven years, four times the length of the Korean War it depicted.",
-    "hook": "The show lasted four times longer than the war it was about."
+    "explanation": "'Goodbye, Farewell and Amen' is still the most-watched scripted episode in US history. The series ran for eleven years, nearly four times as long as the Korean War it was set in.",
+    "hook": "The show lasted almost four times longer than its war."
   },
   {
     "id": "pop_111",
     "category": "pop_culture",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which film introduced the character Indiana Jones?",
     "answer": "Raiders of the Lost Ark",
     "distractors": [
-      "The Temple of Doom",
-      "The Last Crusade",
+      "Indiana Jones and the Temple of Doom",
+      "Indiana Jones and the Last Crusade",
       "Romancing the Stone"
     ],
-    "explanation": "Released in 1981, the sword-fight scene was cut to a single gunshot because Harrison Ford was too ill with dysentery to film the choreography.",
-    "hook": "The most famous gag in the film exists because the star had food poisoning."
+    "explanation": "In the 1981 film, a long whip-versus-sword fight was replaced by Indy simply shooting the swordsman, because Harrison Ford had dysentery. Temple of Doom (1984) is actually a prequel, set a year earlier.",
+    "hook": "The film's best gag happened because the star was too sick to fight."
   },
   {
     "id": "pop_112",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian musician sang largely in Yolŋu Matha and reached the national top three?",
+    "question": "Which singer's posthumous album Djarimirri was the first in an Indigenous language to top the ARIA albums chart?",
     "answer": "Gurrumul Yunupingu",
     "distractors": [
       "Archie Roach",
       "Baker Boy",
       "Dan Sultan"
     ],
-    "explanation": "Blind from birth, he sold hundreds of thousands of records without singing in English or giving interviews, and performed for audiences worldwide.",
-    "hook": "Hundreds of thousands of records sold, almost none of it in English."
+    "explanation": "Blind from birth, the Yolŋu singer from Elcho Island sang mostly in his own languages and rarely gave interviews. Djarimirri reached number one in 2018, the year after his death.",
+    "hook": "A number-one album with almost no English on it."
   },
   {
     "id": "pop_113",
@@ -1576,15 +1576,15 @@
     "distractors": [
       "The Lion King",
       "Toy Story",
-      "Up"
+      "Snow White and the Seven Dwarfs"
     ],
-    "explanation": "Nominated in 1992, its success prompted the creation of a separate Best Animated Feature category in 2001.",
-    "hook": "Its nomination is why animation got its own category a decade later."
+    "explanation": "Disney's 1991 film was nominated at the 1992 Oscars. A separate Best Animated Feature award began in 2002 (won by Shrek), and since then Up and Toy Story 3 have also been Best Picture nominees.",
+    "hook": "Belle got animation into the top category first."
   },
   {
     "id": "pop_114",
     "category": "pop_culture",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which band recorded the album OK Computer in 1997?",
     "answer": "Radiohead",
     "distractors": [
@@ -1592,8 +1592,8 @@
       "Oasis",
       "The Verve"
     ],
-    "explanation": "Recorded partly in an Elizabethan mansion, its themes of technological alienation are frequently cited as prescient about the internet age.",
-    "hook": "Recorded in a fifteenth-century house, and it is the album about technological dread."
+    "explanation": "Much of it was recorded at St Catherine's Court, an old manor house near Bath then owned by actress Jane Seymour. Its songs about technology and alienation, including 'Paranoid Android', are often called prophetic about the internet age.",
+    "hook": "A Bond girl's country house produced the album about computer-age dread."
   },
   {
     "id": "pop_115",
@@ -1606,22 +1606,22 @@
       "Wendy Hughes",
       "Noni Hazlehurst"
     ],
-    "explanation": "Directed by Gillian Armstrong, it was the first Australian feature directed by a woman in nearly fifty years and launched both careers internationally.",
-    "hook": "The first Australian feature directed by a woman in almost fifty years."
+    "explanation": "Gillian Armstrong directed it, the first Australian feature directed by a woman in almost fifty years. Davis played Sybylla, from Miles Franklin's 1901 novel, and Franklin's name is now on Australia's top literary prize.",
+    "hook": "Miles Franklin's novel, the prize now named after her."
   },
   {
     "id": "pop_116",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which streaming platform released the Korean series Squid Game in 2021?",
-    "answer": "Netflix",
+    "question": "Which South Korean writer-director created the Netflix series Squid Game?",
+    "answer": "Hwang Dong-hyuk",
     "distractors": [
-      "Disney+",
-      "Apple TV+",
-      "Amazon Prime Video"
+      "Bong Joon-ho",
+      "Park Chan-wook",
+      "Kim Jee-woon"
     ],
-    "explanation": "Written a decade earlier and repeatedly rejected as too grim, it became the platform's most-watched series launch by a wide margin.",
-    "hook": "It was rejected for ten years as too bleak to sell."
+    "explanation": "He wrote it around 2009 but it was rejected for ten years as too grim. Its 2021 first season became Netflix's most-watched series, and the show ended with its third season in 2025.",
+    "hook": "Rejected for a decade, then Netflix's biggest series."
   },
   {
     "id": "pop_117",
@@ -1634,8 +1634,8 @@
       "Gallipoli",
       "Young Einstein"
     ],
-    "explanation": "It became the highest-grossing Australian film ever made and the second-highest-grossing film in the United States that year, behind Top Gun.",
-    "hook": "It finished second in America for the year, behind only Top Gun."
+    "explanation": "It is still the highest-grossing Australian film at the Australian box office, and in the United States it was second for 1986, behind only Top Gun. 'That's not a knife' is its best-known line.",
+    "hook": "That's not a knife: second only to Top Gun in America."
   },
   {
     "id": "pop_118",
@@ -1648,83 +1648,83 @@
       "Rock Around the Clock",
       "I Will Always Love You"
     ],
-    "explanation": "Bing Crosby's 1942 recording has estimated sales above fifty million; Elton John's 1997 tribute to Diana is the best-selling since charts began being tracked reliably.",
-    "hook": "A wartime Christmas song still outsells everything recorded since."
+    "explanation": "Bing Crosby's 1942 recording of Irving Berlin's song has estimated sales above fifty million. Elton John's 1997 tribute to Princess Diana is the best-selling single since reliable charts began.",
+    "hook": "A wartime Christmas song still outsells everything since."
   },
   {
     "id": "pop_119",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which film's practical stunt work involved almost no computer-generated imagery and won six Oscars in 2016?",
-    "answer": "Mad Max: Fury Road",
+    "question": "Which Oppenheimer actor won Best Supporting Actor at the 2024 Oscars for playing Lewis Strauss?",
+    "answer": "Robert Downey Jr.",
     "distractors": [
-      "The Revenant",
-      "Gravity",
-      "Dunkirk"
+      "Matt Damon",
+      "Ryan Gosling",
+      "Mark Ruffalo"
     ],
-    "explanation": "George Miller shot the chase practically in the Namibian desert; the film is effectively one continuous pursuit and was thirty years in development.",
-    "hook": "Thirty years in development for what is essentially one long car chase."
+    "explanation": "Oppenheimer won seven Oscars, including Best Picture and Best Director, Christopher Nolan's first. Cillian Murphy won Best Actor in the title role, while Ryan Gosling was nominated for playing Ken in Barbie.",
+    "hook": "Iron Man won his first Oscar playing Oppenheimer's enemy."
   },
   {
     "id": "pop_120",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which television series is credited with beginning the modern era of prestige drama in 1999?",
-    "answer": "The Sopranos",
+    "question": "Which prison drama, first shown in 1997, was HBO's first hour-long drama series?",
+    "answer": "Oz",
     "distractors": [
-      "Oz",
+      "The Sopranos",
       "Six Feet Under",
-      "Mad Men"
+      "The Wire"
     ],
-    "explanation": "HBO's willingness to build a series around a morally compromised lead opened the way for Breaking Bad, Mad Men and much of what followed.",
-    "hook": "It proved audiences would follow a lead character they did not like."
+    "explanation": "Tom Fontana's series ran for six seasons and showed HBO could make violent adult drama that network TV could not. The Sopranos followed in 1999 and is usually credited with starting the prestige TV era.",
+    "hook": "Before Tony Soprano, there was a prison called Oz."
   },
   {
     "id": "pop_121",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian film director made Babe and Happy Feet as well as Mad Max?",
+    "question": "Which Australian director made Happy Feet and Babe: Pig in the City as well as the Mad Max films?",
     "answer": "George Miller",
     "distractors": [
       "Peter Weir",
-      "Chris Noonan",
+      "Phillip Noyce",
       "Baz Luhrmann"
     ],
-    "explanation": "He won his Academy Award not for the action films but for Happy Feet, an animated feature about dancing penguins.",
-    "hook": "The man behind Mad Max won his Oscar for dancing penguins."
+    "explanation": "Miller, a trained doctor, won his only Oscar for Happy Feet, the 2006 dancing-penguin film. He co-wrote and produced the first Babe, but Chris Noonan directed it.",
+    "hook": "The Mad Max director's Oscar is for dancing penguins."
   },
   {
     "id": "pop_122",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which album is generally credited as the first commercially successful concept album in rock?",
-    "answer": "Sgt. Pepper's Lonely Hearts Club Band",
+    "question": "Which Beach Boys album did Paul McCartney name as the biggest influence on Sgt. Pepper?",
+    "answer": "Pet Sounds",
     "distractors": [
-      "Pet Sounds by the Beach Boys",
-      "Tommy by the Who",
-      "The Wall by Pink Floyd"
+      "Smile",
+      "Surfin' U.S.A.",
+      "Wild Honey"
     ],
-    "explanation": "Its makers acknowledged Pet Sounds as the direct inspiration, and Brian Wilson in turn had been responding to Rubber Soul — a three-album conversation.",
-    "hook": "Rubber Soul prompted Pet Sounds, which prompted Sgt. Pepper — a conversation in albums."
+    "explanation": "Brian Wilson made Pet Sounds (1966) partly in response to the Beatles' Rubber Soul, and McCartney answered it with Sgt. Pepper. McCartney called 'God Only Knows' one of the best songs ever written.",
+    "hook": "Rubber Soul led to Pet Sounds, which led to Sgt. Pepper."
   },
   {
     "id": "pop_123",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian television personality hosted the Logie-winning variety show Hey Hey It's Saturday?",
+    "question": "Which Australian television personality hosted the variety show Hey Hey It's Saturday?",
     "answer": "Daryl Somers",
     "distractors": [
       "Bert Newton",
       "Graham Kennedy",
       "Don Lane"
     ],
-    "explanation": "It ran from 1971 to 1999, beginning as a children's cartoon programme before evolving into a prime-time variety show.",
-    "hook": "It began as a Saturday morning cartoon show and became prime-time television."
+    "explanation": "It ran on Nine from 1971 to 1999, starting as a Saturday morning cartoon show before moving to prime time. Somers's sidekick was Ossie Ostrich, operated by Ernie Carroll.",
+    "hook": "Daryl and a puppet ostrich, for nearly thirty years."
   },
   {
     "id": "pop_124",
     "category": "pop_culture",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which film features a character repeating the same day over and over in Punxsutawney?",
     "answer": "Groundhog Day",
     "distractors": [
@@ -1732,41 +1732,41 @@
       "Palm Springs",
       "Source Code"
     ],
-    "explanation": "The film never states how long the loop lasts; the director has suggested roughly ten years, and the phrase has entered English as shorthand for repetition.",
-    "hook": "The film's title became an English idiom for pointless repetition."
+    "explanation": "Bill Murray plays a weatherman stuck on 2 February. Director Harold Ramis first estimated the loop lasted about ten years and later said thirty or forty, and the title is now an everyday phrase for repetition.",
+    "hook": "The title became an everyday phrase for the same thing happening again."
   },
   {
     "id": "pop_125",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which artist's 1985 charity single 'We Are the World' was co-written with Michael Jackson?",
+    "question": "Who co-wrote the 1985 charity single 'We Are the World' with Michael Jackson?",
     "answer": "Lionel Richie",
     "distractors": [
       "Stevie Wonder",
       "Quincy Jones",
       "Bruce Springsteen"
     ],
-    "explanation": "Quincy Jones produced it and hung a sign at the studio door reading 'check your ego at the door'; it raised over sixty million dollars for African famine relief.",
-    "hook": "The sign on the studio door said 'check your ego at the door'."
+    "explanation": "Quincy Jones produced it, with a sign on the studio door reading 'Please check your ego at the door'. It raised more than 60 million US dollars for famine relief in Africa, following Britain's Band Aid.",
+    "hook": "Richie and Jackson wrote it, Jones made the stars check their egos."
   },
   {
     "id": "pop_126",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which Australian television drama series about a Sydney hospital ran from 1996 and launched multiple careers?",
+    "question": "Which Seven Network drama about a Sydney hospital ward ran from 1998 to 2009?",
     "answer": "All Saints",
     "distractors": [
       "GP",
       "MDA",
       "The Flying Doctors"
     ],
-    "explanation": "It ran for twelve years on the Seven Network; The Flying Doctors had earlier done the same job for regional medical drama in the 1980s.",
-    "hook": "Twelve years of Australian medical drama, and half the industry passed through it."
+    "explanation": "It began on Ward 17 of the fictional All Saints Western General Hospital and later moved to the emergency department. GP and MDA were ABC medical dramas, and The Flying Doctors was set in outback New South Wales.",
+    "hook": "Twelve years at All Saints, Ward 17."
   },
   {
     "id": "pop_127",
     "category": "pop_culture",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which film won Best Picture at the 2020 Academy Awards, the first non-English language film to do so?",
     "answer": "Parasite",
     "distractors": [
@@ -1774,36 +1774,36 @@
       "Crouching Tiger, Hidden Dragon",
       "Life Is Beautiful"
     ],
-    "explanation": "Bong Joon-ho's film also won Director, Original Screenplay and International Feature, the first film ever to take both Best Picture and the international award.",
-    "hook": "First film to win both Best Picture and Best International Feature."
+    "explanation": "Bong Joon-ho's film also won Director, Original Screenplay and International Feature, the first film to win both Best Picture and the international award. It had already won the Palme d'Or at Cannes in 2019.",
+    "hook": "Cannes and the Oscars' top prize with the same film."
   },
   {
     "id": "pop_128",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which band's frontman Bon Scott died in London in 1980?",
-    "answer": "AC/DC",
+    "question": "In which Western Australian city is AC/DC singer Bon Scott buried?",
+    "answer": "Fremantle",
     "distractors": [
-      "The Angels",
-      "Rose Tattoo",
-      "Cold Chisel"
+      "Perth",
+      "Kalgoorlie",
+      "Geraldton"
     ],
-    "explanation": "Born in Scotland and raised in Fremantle, his grave there is on the Western Australian heritage register and remains a pilgrimage site.",
-    "hook": "His grave in Fremantle is heritage-listed."
+    "explanation": "Born in Scotland, Scott grew up in Fremantle, and his grave there was added to the state heritage register in 2006. A bronze statue of him stands at the Fremantle Fishing Boat Harbour.",
+    "hook": "The singer's grave is heritage-listed."
   },
   {
     "id": "pop_129",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which television programme format originated in the Netherlands in 1999 and spread worldwide?",
+    "question": "Which television format originated in the Netherlands in 1999 and spread worldwide?",
     "answer": "Big Brother",
     "distractors": [
       "Survivor",
       "The Voice",
       "MasterChef"
     ],
-    "explanation": "Created by Endemol and named after Orwell's Nineteen Eighty-Four, it established the surveillance-house format that dominated early 2000s television.",
-    "hook": "Named directly after Orwell, and it invented the surveillance format."
+    "explanation": "Created by John de Mol's Endemol and named after the watcher in Orwell's Nineteen Eighty-Four, it made the surveillance house a staple of 2000s television. De Mol later created The Voice, and Survivor began in Sweden in 1997.",
+    "hook": "Named after Orwell's all-seeing dictator."
   },
   {
     "id": "pop_130",
@@ -1816,7 +1816,357 @@
       "Ten Canoes",
       "The Sapphires"
     ],
-    "explanation": "Shot in Alice Springs with two non-professional teenage leads and almost no dialogue, it won the prize for best first feature.",
+    "explanation": "The Camera d'Or is the prize for best first feature, and Thornton shot it around Alice Springs with two untrained teenage leads and very little dialogue. He later directed Sweet Country (2017).",
     "hook": "Two untrained teenagers, almost no dialogue, and a Cannes prize."
+  },
+  {
+    "id": "pop_131",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Brisbane-made animated series follows a Blue Heeler puppy and her family?",
+    "answer": "Bluey",
+    "distractors": [
+      "Peppa Pig",
+      "Hey Duggee",
+      "Paw Patrol"
+    ],
+    "explanation": "Created by Joe Brumm and made by Ludo Studio, it first aired on ABC Kids in 2018 and reached the world through Disney+. It has become one of the most-streamed shows in the United States, and The Sign was its longest episode.",
+    "hook": "Bluey is a Blue Heeler; her sister Bingo is a Red Heeler."
+  },
+  {
+    "id": "pop_132",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who directed the 2023 film Barbie, starring Margot Robbie?",
+    "answer": "Greta Gerwig",
+    "distractors": [
+      "Sofia Coppola",
+      "Olivia Wilde",
+      "Emerald Fennell"
+    ],
+    "explanation": "It was the highest-grossing film of 2023 and made Gerwig the first woman to direct a billion-dollar film on her own. It opened the same day as Oppenheimer, and the double bill was nicknamed Barbenheimer.",
+    "hook": "Barbenheimer: Gerwig's pink film opened against Nolan's bomb."
+  },
+  {
+    "id": "pop_133",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which singer's Eras Tour became the first concert tour to gross more than US$2 billion?",
+    "answer": "Taylor Swift",
+    "distractors": [
+      "Beyoncé",
+      "Adele",
+      "Ed Sheeran"
+    ],
+    "explanation": "It ran for 149 shows from March 2023 to December 2024, including three at the MCG and four in Sydney in February 2024. The previous record, Elton John's farewell tour, took under a billion.",
+    "hook": "She roughly doubled the old touring record."
+  },
+  {
+    "id": "pop_134",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 2025 animated film became Netflix's most-watched film ever, helped by the hit song 'Golden'?",
+    "answer": "KPop Demon Hunters",
+    "distractors": [
+      "Elio",
+      "The Wild Robot",
+      "Zootopia 2"
+    ],
+    "explanation": "Made by Sony Pictures Animation for Netflix, it follows a girl group secretly fighting demons. 'Golden' spent weeks at number one in the US, won the Golden Globe for Best Original Song and won a Grammy in 2026.",
+    "hook": "A fictional girl group had a real number-one hit."
+  },
+  {
+    "id": "pop_135",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which singer broke through in 2021 with the break-up ballad 'drivers license'?",
+    "answer": "Olivia Rodrigo",
+    "distractors": [
+      "Billie Eilish",
+      "Sabrina Carpenter",
+      "Gracie Abrams"
+    ],
+    "explanation": "Rodrigo was then an actor in Disney's High School Musical: The Musical: The Series, and the song debuted at number one in the US and Australia. Fans guessed the 'blonde girl' in the lyrics was Sabrina Carpenter, another Disney actor.",
+    "hook": "A Disney actor who had just got her driver's licence."
+  },
+  {
+    "id": "pop_136",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which film won Best Picture at the Academy Awards in March 2026?",
+    "answer": "One Battle After Another",
+    "distractors": [
+      "Sinners",
+      "Hamnet",
+      "Frankenstein"
+    ],
+    "explanation": "Paul Thomas Anderson's comedy-thriller starring Leonardo DiCaprio won six Oscars, including Anderson's first for directing. Sinners had set a record with sixteen nominations, and its star Michael B. Jordan won Best Actor.",
+    "hook": "Anderson's first Oscar came with his Best Picture."
+  },
+  {
+    "id": "pop_137",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which K-pop group's members are RM, Jin, Suga, J-Hope, Jimin, V and Jungkook?",
+    "answer": "BTS",
+    "distractors": [
+      "EXO",
+      "Stray Kids",
+      "Seventeen"
+    ],
+    "explanation": "In 2020 'Dynamite' made them the first all-South Korean act to top the US Hot 100. All seven completed compulsory military service by June 2025, which had paused the group.",
+    "hook": "Seven members, one national service break."
+  },
+  {
+    "id": "pop_138",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which actor played the title role in Baz Luhrmann's 2022 film Elvis?",
+    "answer": "Austin Butler",
+    "distractors": [
+      "Jacob Elordi",
+      "Timothée Chalamet",
+      "Miles Teller"
+    ],
+    "explanation": "Shot on the Gold Coast with Tom Hanks as Colonel Tom Parker, it earned Butler an Oscar nomination. A year later Australian Jacob Elordi played Elvis in Sofia Coppola's Priscilla, which is why his name is the usual wrong answer.",
+    "hook": "Butler was Luhrmann's Elvis; Elordi was Coppola's."
+  },
+  {
+    "id": "pop_139",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2023 single won Kylie Minogue the first Grammy ever given for Best Pop Dance Recording?",
+    "answer": "Padam Padam",
+    "distractors": [
+      "Tension",
+      "Dance Alone",
+      "Spinning Around"
+    ],
+    "explanation": "It was her second Grammy, twenty years after 'Come Into My World', and came from her album Tension. The title imitates the sound of a heartbeat.",
+    "hook": "Padam padam is a heartbeat, and it beat twenty years after her first Grammy."
+  },
+  {
+    "id": "pop_140",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which singer represented Australia at Eurovision 2026 in Vienna, finishing fourth with 'Eclipse'?",
+    "answer": "Delta Goodrem",
+    "distractors": [
+      "Tina Arena",
+      "Jessica Mauboy",
+      "Guy Sebastian"
+    ],
+    "explanation": "It was Australia's best result since Dami Im came second in 2016. Bulgaria won for the first time, with DARA's 'Bangaranga'.",
+    "hook": "Fourth place: Australia's best Eurovision since Dami Im."
+  },
+  {
+    "id": "pop_141",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which country won its first Eurovision Song Contest in 2026 with DARA's 'Bangaranga'?",
+    "answer": "Bulgaria",
+    "distractors": [
+      "Romania",
+      "Albania",
+      "Moldova"
+    ],
+    "explanation": "The final was held in Vienna after Austria's JJ won in 2025 with 'Wasted Love'. Bulgaria won both the jury and public votes, by a margin of 173 points, the biggest in the contest's history.",
+    "hook": "Bangaranga brought Bulgaria its first win by a record margin."
+  },
+  {
+    "id": "pop_142",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor, who played Irene Roberts on Home and Away for more than thirty years, won the 2025 Gold Logie?",
+    "answer": "Lynne McGranger",
+    "distractors": [
+      "Ray Meagher",
+      "Kate Ritchie",
+      "Emily Symons"
+    ],
+    "explanation": "McGranger had played Irene, owner of the Summer Bay Diner, since 1993, making her one of the show's longest-serving cast members after Ray Meagher. The 2026 Gold Logie went to comedian Sam Pang.",
+    "hook": "Irene Roberts, over thirty years at the Diner, finally took the Gold."
+  },
+  {
+    "id": "pop_143",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which song topped triple j's first Hottest 100 of Australian Songs in July 2025?",
+    "answer": "Never Tear Us Apart",
+    "distractors": [
+      "Throw Your Arms Around Me",
+      "These Days",
+      "Treaty"
+    ],
+    "explanation": "The countdown marked triple j's fiftieth anniversary and was the first Hottest 100 limited to Australian songs from any year. INXS released it on their 1987 album Kick, and it was played as Michael Hutchence's coffin was carried out at his 1997 funeral.",
+    "hook": "triple j turned fifty and INXS won."
+  },
+  {
+    "id": "pop_144",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which song won triple j's Hottest 100 of 2025, counted down in January 2026?",
+    "answer": "'Man I Need' by Olivia Dean",
+    "distractors": [
+      "'Good Luck, Babe!' by Chappell Roan",
+      "'Paint the Town Red' by Doja Cat",
+      "'Espresso' by Sabrina Carpenter"
+    ],
+    "explanation": "The English singer made it three female solo winners in a row, after Doja Cat for 2023 and Chappell Roan for 2024. The other options are the previous winners and a 2024 hit.",
+    "hook": "Doja, Chappell, then Dean: three women in a row."
+  },
+  {
+    "id": "pop_145",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Australian actress earned a 2026 Best Actress Oscar nomination for If I Had Legs I'd Kick You?",
+    "answer": "Rose Byrne",
+    "distractors": [
+      "Nicole Kidman",
+      "Margot Robbie",
+      "Mia Wasikowska"
+    ],
+    "explanation": "It was the Sydney-born actress's first Oscar nomination, and Jessie Buckley won the award for Hamnet. Byrne is also known for Bridesmaids and the comedy Neighbors.",
+    "hook": "Her film Neighbors was renamed Bad Neighbours in Australia, to avoid confusion with the soap."
+  },
+  {
+    "id": "pop_146",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which FX series set a record of 18 Emmy wins for a single season in 2024?",
+    "answer": "Shōgun",
+    "distractors": [
+      "The Bear",
+      "Succession",
+      "Baby Reindeer"
+    ],
+    "explanation": "Based on James Clavell's novel and mostly in Japanese, it beat John Adams's record of 13. Anna Sawai and Hiroyuki Sanada became the first Japanese actors to win lead acting Emmys.",
+    "hook": "A drama mostly in Japanese won more Emmys in one year than any series before."
+  },
+  {
+    "id": "pop_147",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which film won Best Picture at the 2025 Academy Awards?",
+    "answer": "Anora",
+    "distractors": [
+      "The Brutalist",
+      "Conclave",
+      "Emilia Pérez"
+    ],
+    "explanation": "Sean Baker won four Oscars that night, for Picture, Director, Original Screenplay and Editing, equalling Walt Disney's 1954 record for one person at one ceremony. Mikey Madison won Best Actress for the title role.",
+    "hook": "One man took four statues home for one film."
+  },
+  {
+    "id": "pop_148",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which series follows a fine-dining chef who returns to run his family's Chicago sandwich shop?",
+    "answer": "The Bear",
+    "distractors": [
+      "Boiling Point",
+      "Kitchen Confidential",
+      "Chef's Table"
+    ],
+    "explanation": "Jeremy Allen White plays Carmy Berzatto, and the shop is The Original Beef of Chicagoland. It won eleven Emmys in 2024, then a record for a comedy in one year, even though many viewers think of it as a drama.",
+    "hook": "'Yes, chef': a comedy that plays like a panic attack."
+  },
+  {
+    "id": "pop_149",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 2025 Ryan Coogler film set a record with 16 Academy Award nominations?",
+    "answer": "Sinners",
+    "distractors": [
+      "One Battle After Another",
+      "Hamnet",
+      "Frankenstein"
+    ],
+    "explanation": "It passed the 14 nominations shared by All About Eve, Titanic and La La Land. Michael B. Jordan won Best Actor for playing twin brothers Smoke and Stack, but Best Picture went to One Battle After Another.",
+    "hook": "One actor, two twins, sixteen nominations."
+  },
+  {
+    "id": "pop_150",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2025 Netflix drama about a 13-year-old boy accused of murder shot every episode in one continuous take?",
+    "answer": "Adolescence",
+    "distractors": [
+      "Baby Reindeer",
+      "Toxic Town",
+      "The Night Of"
+    ],
+    "explanation": "Co-created by Stephen Graham and Jack Thorne, it set off a national debate in Britain about online misogyny. Owen Cooper, in his first screen role, became the youngest male Emmy winner at fifteen.",
+    "hook": "Four episodes, four single takes, and a first-time actor who won an Emmy."
+  },
+  {
+    "id": "pop_151",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1990s Australian school drama did Netflix reboot in 2022?",
+    "answer": "Heartbreak High",
+    "distractors": [
+      "Round the Twist",
+      "Blue Water High",
+      "The Secret Life of Us"
+    ],
+    "explanation": "The original ran from 1994 to 1999, first on Ten and then the ABC. The reboot is set at the same Hartley High, and autistic actor Chloé Hayden plays the autistic character Quinni.",
+    "hook": "Same Hartley High, twenty-eight years later."
+  },
+  {
+    "id": "pop_152",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Sydney-raised rapper topped the US Billboard Hot 100 in 2021 with 'Stay', a duet with Justin Bieber?",
+    "answer": "The Kid LAROI",
+    "distractors": [
+      "Iggy Azalea",
+      "Tones and I",
+      "Masked Wolf"
+    ],
+    "explanation": "Born Charlton Howard, he grew up in Redfern and Waterloo and has Kamilaroi heritage. 'Stay' spent seven weeks at number one in the US.",
+    "hook": "LAROI comes from Kamilaroi, his mob."
+  },
+  {
+    "id": "pop_153",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which song holds the record for most weeks at number one on the Australian ARIA singles chart, with 24?",
+    "answer": "Dance Monkey",
+    "distractors": [
+      "Never Be Like You",
+      "Riptide",
+      "Somebody That I Used to Know"
+    ],
+    "explanation": "Toni Watson, who performs as Tones and I, wrote it about crowds when she was busking in Byron Bay. It passed the Australian record held by Bing Crosby's 'White Christmas', which had lasted since the 1940s.",
+    "hook": "A Byron Bay busker beat Bing Crosby."
+  },
+  {
+    "id": "pop_154",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Australian actress won an Emmy for playing Shiv Roy in the final season of Succession?",
+    "answer": "Sarah Snook",
+    "distractors": [
+      "Elizabeth Debicki",
+      "Yvonne Strahovski",
+      "Emily Browning"
+    ],
+    "explanation": "Adelaide-born Snook won Lead Actress in a Drama at the Emmys held in January 2024, the first Australian to win that category. Elizabeth Debicki, the tempting wrong answer, played Princess Diana in The Crown.",
+    "hook": "Snook played the Roy daughter; Debicki played the princess."
+  },
+  {
+    "id": "pop_155",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which HBO Max hospital series won the Emmy for Outstanding Drama in both 2025 and 2026?",
+    "answer": "The Pitt",
+    "distractors": [
+      "Severance",
+      "The White Lotus",
+      "Slow Horses"
+    ],
+    "explanation": "Noah Wyle, who played Dr Carter in ER, stars as the head of a Pittsburgh emergency department, and won Best Actor in 2025. Each season covers one fifteen-hour shift, with each episode showing one hour of it.",
+    "hook": "One shift per season, one hour per episode."
   }
 ]

@@ -42,8 +42,17 @@ export function acceptedForms(first, person) {
   const forms = new Set([rest, normalise(`${first} ${person.rest}`), rest.replace(/ /g, '')]);
   const last = words.at(-1);
   if (last && last.length >= 3) forms.add(last);
+  // Monarchs and popes: "Elizabeth I" is also "1", "1st", "first" and
+  // "the first". The numeral itself is already accepted as `rest`.
+  const n = ROMAN.indexOf(rest) + 1;
+  if (n) for (const f of [String(n), ordinal(n), ORDINAL_WORDS[n - 1], `the ${ORDINAL_WORDS[n - 1]}`]) forms.add(f);
   return forms;
 }
+
+const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi'];
+const ORDINAL_WORDS = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth',
+  'eleventh', 'twelfth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth'];
+const ordinal = (n) => `${n}${n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th'}`;
 
 /**
  * Which person, if any, a guess names.
@@ -56,7 +65,9 @@ export function acceptedForms(first, person) {
  */
 export function matchGuess(guess, first, people, foundIds = new Set()) {
   const g = normalise(guess).replace(new RegExp(`^${normalise(first)} `), '');
-  if (g.length < 2) return null;
+  // One character is allowed ("I" for Elizabeth I) but only ever matches
+  // exactly: tolerance is zero below five characters.
+  if (!g) return null;
   const tolerance = g.length >= 9 ? 2 : g.length >= 5 ? 1 : 0;
 
   let best = null;

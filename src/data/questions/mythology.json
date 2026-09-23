@@ -7,11 +7,11 @@
     "answer": "Valhalla",
     "distractors": [
       "Asgard",
-      "Bifrost",
-      "Yggdrasil"
+      "Bifröst",
+      "Fólkvangr"
     ],
-    "explanation": "Asgard is the realm of the gods containing it, Bifrost the rainbow bridge leading there, and Yggdrasil the world tree connecting the nine realms.",
-    "hook": "Asgard is the country, Valhalla is the building, Bifrost is the road in."
+    "explanation": "Warriors chosen by the Valkyries feasted in Valhalla on the endlessly regenerating boar Sæhrímnir and fought each other every day, training for Ragnarök. Only half the battle-dead went there: the other half went to Freyja's field, Fólkvangr.",
+    "hook": "Valhalla is the \"hall of the slain\": Asgard is the country, Valhalla the building, Bifröst the road in."
   },
   {
     "id": "myth_002",
@@ -22,10 +22,10 @@
     "distractors": [
       "Poseidon",
       "Hades",
-      "Apollo"
+      "Cronus"
     ],
-    "explanation": "The three brothers drew lots after defeating the Titans: Zeus took the sky, Poseidon the sea and Hades the underworld, with the earth held in common.",
-    "hook": "Three brothers drew lots — sky, sea and underworld."
+    "explanation": "Zeus overthrew his father Cronus, then drew lots with his brothers: Zeus took the sky, Poseidon the sea and Hades the underworld. His Roman equivalent is Jupiter, and his weapon is the thunderbolt, forged by the Cyclopes.",
+    "hook": "Three brothers split the world like a lottery: sky, sea, underworld. Zeus got the top floor."
   },
   {
     "id": "myth_003",
@@ -38,8 +38,8 @@
       "The Satyr",
       "The Chimera"
     ],
-    "explanation": "It was kept in the labyrinth on Crete and killed by Theseus; a centaur is half horse, a satyr half goat and a chimera a composite of lion, goat and serpent.",
-    "hook": "Bull's head on a man's body — the reverse of a centaur's arrangement."
+    "explanation": "The Minotaur was the child of Queen Pasiphaë of Crete and a bull, kept by King Minos in the Labyrinth built by Daedalus. Theseus killed it, finding his way out with the thread given to him by Minos's daughter Ariadne.",
+    "hook": "Mino-TAUR: Minos's bull (taurus is Latin for bull, as in the star sign Taurus)."
   },
   {
     "id": "myth_004",
@@ -49,11 +49,11 @@
     "answer": "Mars",
     "distractors": [
       "Ares",
-      "Jupiter",
+      "Janus",
       "Mercury"
     ],
-    "explanation": "Ares is the Greek equivalent, but the Romans held Mars in far higher regard as father of Romulus and Remus; the month of March is named for him.",
-    "hook": "March is his month, and the Greeks thought far less of their version than Rome did."
+    "explanation": "Mars was far more honoured in Rome than his Greek counterpart Ares was in Greece: as father of Romulus and Remus he was a divine ancestor of the city. March, the traditional start of the campaigning season, is named after him, and so is the red planet.",
+    "hook": "Ares is the Greek name, Mars the Roman: March to war."
   },
   {
     "id": "myth_005",
@@ -64,10 +64,10 @@
     "distractors": [
       "Odin",
       "Loki",
-      "Baldr"
+      "Týr"
     ],
-    "explanation": "Odin carries the spear Gungnir, and Thursday takes its name from Thor just as Wednesday comes from Odin in his Anglo-Saxon form, Woden.",
-    "hook": "Wednesday is Woden's day, Thursday is Thor's, Friday is Frigg's."
+    "explanation": "Mjölnir was forged by the dwarves Sindri and Brokkr in a contest engineered by Loki, which is why its handle is short: Loki, disguised as a fly, bit Brokkr on the eyelid mid-forging. Thor, son of Odin, also owns iron gloves and a belt of strength, and Thursday is named after him.",
+    "hook": "Thor's day is Thursday; thunder is his hammer striking."
   },
   {
     "id": "myth_006",
@@ -78,38 +78,38 @@
     "distractors": [
       "Hera",
       "Artemis",
-      "Demeter"
+      "Hestia"
     ],
-    "explanation": "She sprang fully armed from Zeus's head, gave Athens its name after beating Poseidon in a contest, and her symbol is the owl.",
-    "hook": "She won Athens by offering the olive tree — Poseidon only offered salt water."
+    "explanation": "Athena sprang fully armed from the head of Zeus after he swallowed her pregnant mother, Metis. She was also a goddess of war strategy and crafts, her symbol was the owl, and she won Athens by giving the city the olive tree. Her Roman equivalent is Minerva.",
+    "hook": "Born from a head, so of course she is the brains; the owl is her emblem, hence the \"wise old owl\"."
   },
   {
     "id": "myth_007",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which Egyptian structure was built as a tomb for pharaohs at Giza?",
+    "question": "Which type of monument was built as a tomb for the pharaohs Khufu, Khafre and Menkaure at Giza?",
     "answer": "The pyramid",
     "distractors": [
       "The ziggurat",
-      "The mastaba",
-      "The obelisk"
+      "The obelisk",
+      "The stupa"
     ],
-    "explanation": "A ziggurat is Mesopotamian and stepped with a temple on top, a mastaba is a flat-roofed Egyptian tomb that preceded pyramids, and an obelisk is a tapering pillar.",
-    "hook": "Egyptian pyramids are tombs; Mesopotamian ziggurats are temples with stairs."
+    "explanation": "The three Giza pyramids date from Egypt's Fourth Dynasty, about 2600 to 2500 BCE; Khufu's Great Pyramid was the tallest human-made structure on Earth for nearly 4,000 years. Ziggurats are Mesopotamian stepped temple towers, not tombs.",
+    "hook": "Pyramids are for burying, ziggurats for praying: Egypt buries, Mesopotamia worships."
   },
   {
     "id": "myth_008",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Who was the Greek hero who completed twelve labours?",
+    "question": "Which Greek hero completed twelve labours?",
     "answer": "Heracles",
     "distractors": [
       "Perseus",
       "Jason",
-      "Achilles"
+      "Theseus"
     ],
-    "explanation": "Known to the Romans as Hercules, the labours were imposed as penance for killing his own family in a madness sent by Hera; Jason sought the golden fleece instead.",
-    "hook": "The labours were a punishment, not an adventure — Hera drove him to it."
+    "explanation": "Heracles performed the labours for King Eurystheus as penance after Hera drove him mad and he killed his own children. The first was the Nemean lion, whose invulnerable hide he then wore. The Romans called him Hercules.",
+    "hook": "Hera-cles means \"glory of Hera\", ironic given she hounded him all his life."
   },
   {
     "id": "myth_009",
@@ -122,78 +122,78 @@
       "Bellerophon",
       "Phaethon"
     ],
-    "explanation": "His father Daedalus built the wings and survived the flight; Phaethon crashed his father Helios's sun chariot, a similar cautionary tale.",
-    "hook": "The father built the wings and made it; the son did not."
+    "explanation": "Daedalus built the wings so he and his son Icarus could escape Crete, and warned him to fly neither too high nor too low. Icarus soared, the wax melted and he fell into the sea near Samos, now called the Icarian Sea. Phaethon is the other overreacher: he crashed the chariot of the sun.",
+    "hook": "Daedalus was the dad who designed; Icarus was the kid who crashed."
   },
   {
     "id": "myth_010",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which river did the dead cross to enter the Greek underworld?",
+    "question": "Which river did the dead cross to enter the Greek underworld, according to the best-known version?",
     "answer": "The Styx",
     "distractors": [
       "The Lethe",
-      "The Acheron",
-      "The Phlegethon"
+      "The Phlegethon",
+      "The Cocytus"
     ],
-    "explanation": "Charon the ferryman required payment, which is why coins were placed with the dead; the Lethe brought forgetting and the Phlegethon burned with fire.",
-    "hook": "Coins on the eyes were the ferryman's fare."
+    "explanation": "The ferryman Charon rowed the souls across for a coin (an obol) placed in the mouth of the dead. Some ancient writers put the crossing on the Acheron instead, but the Styx is the popular answer, and the gods swore their unbreakable oaths by it. Lethe was the river of forgetfulness.",
+    "hook": "Charon charges an obol to cross the Styx; drink from Lethe and you forget you paid."
   },
   {
     "id": "myth_011",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which two brothers were said to have founded Rome?",
+    "question": "Which twin brothers were said to have founded Rome?",
     "answer": "Romulus and Remus",
     "distractors": [
       "Castor and Pollux",
       "Aeneas and Ascanius",
       "Numa and Tullus"
     ],
-    "explanation": "Raised by a she-wolf, Romulus killed Remus in a dispute over the city walls and gave Rome its name; Castor and Pollux were the divine twins of the Gemini constellation.",
-    "hook": "The city is named after the brother who won the argument."
+    "explanation": "The twins were sons of Mars and the Vestal Virgin Rhea Silvia, abandoned by the Tiber and suckled by a she-wolf. Romulus killed Remus in a quarrel over the city walls and named the city after himself; the traditional founding date is 21 April 753 BCE.",
+    "hook": "ROM-ulus gave his name to ROMe; Remus got a wall and a grave."
   },
   {
     "id": "myth_012",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Who was the Greek god of the sea?",
+    "question": "Which Olympian god ruled the sea and carried a trident?",
     "answer": "Poseidon",
     "distractors": [
-      "Neptune",
       "Triton",
-      "Oceanus"
+      "Hades",
+      "Hephaestus"
     ],
-    "explanation": "Neptune is his Roman name, Triton his son and Oceanus the older Titan of the encircling world-river; his trident could cause earthquakes.",
-    "hook": "Poseidon Greek, Neptune Roman — both carry the trident."
+    "explanation": "Poseidon was also the god of earthquakes and horses: he lost the contest for Athens to Athena, offering a salt spring against her olive tree. His Roman equivalent is Neptune, and Triton, the usual wrong answer, is his son.",
+    "hook": "Trident has three prongs, like the three brothers who split the world; Triton is just the son."
   },
   {
     "id": "myth_013",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which Greek woman opened a jar releasing all evils into the world?",
+    "question": "Which woman in Greek myth opened a jar and released all evils into the world?",
     "answer": "Pandora",
     "distractors": [
       "Persephone",
       "Cassandra",
       "Medea"
     ],
-    "explanation": "The 'box' is a mistranslation of pithos, a large storage jar; only hope remained inside, and whether that was a blessing or a final cruelty is still argued.",
-    "hook": "It was a jar, not a box — a sixteenth-century mistranslation gave us the box."
+    "explanation": "Zeus had Pandora, the first woman, made by Hephaestus as punishment for Prometheus stealing fire. Only Hope stayed inside when she shut the lid. It was originally a jar (pithos); the \"box\" comes from a Renaissance mistranslation by Erasmus.",
+    "hook": "Pandora's \"box\" was really a jar: Erasmus mixed up pithos with pyxis."
   },
   {
     "id": "myth_014",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which wooden object did the Greeks use to enter Troy?",
+    "question": "Which wooden object did the Greeks use to get inside Troy?",
     "answer": "The Trojan Horse",
     "distractors": [
       "The Argo",
       "The Golden Chariot",
-      "The Gates of Ilium"
+      "The Palladium"
     ],
-    "explanation": "Odysseus devised it; the phrase 'beware Greeks bearing gifts' comes from Virgil's Aeneid, not from Homer, who mentions the horse only in passing.",
-    "hook": "Homer barely mentions it — the famous version is Virgil's, centuries later."
+    "explanation": "Odysseus devised the hollow horse; the Greeks pretended to sail home, and the Trojans dragged it inside the walls despite warnings from Cassandra and the priest Laocoön. The story is not in the Iliad, which ends before the fall, but is told in the Odyssey and Virgil's Aeneid.",
+    "hook": "\"Beware of Greeks bearing gifts\" is Laocoön's warning from the Aeneid, and a sea serpent killed him for it."
   },
   {
     "id": "myth_015",
@@ -206,8 +206,8 @@
       "Set",
       "Thoth"
     ],
-    "explanation": "Horus has a falcon head, Thoth an ibis and Set an unidentified composite animal; Anubis weighed the heart against a feather in the hall of judgment.",
-    "hook": "Jackal for Anubis, falcon for Horus, ibis for Thoth."
+    "explanation": "Jackals scavenged around desert cemeteries, so Egyptians made a jackal god their guardian of the dead. Anubis presided over embalming and, in the Book of the Dead, weighs the heart of the dead against the feather of Ma'at. Horus is the falcon, Thoth the ibis.",
+    "hook": "Anubis is the undertaker: jackal for the dead, falcon (Horus) for the king."
   },
   {
     "id": "myth_016",
@@ -220,8 +220,8 @@
       "Amphion",
       "Marsyas"
     ],
-    "explanation": "Hades agreed on condition he not look back at Eurydice until both reached daylight; he turned too early and lost her permanently.",
-    "hook": "He turned around one step too soon."
+    "explanation": "Orpheus charmed Hades with his lyre and was allowed to lead Eurydice out, on condition he did not look back until they reached daylight. He turned at the last moment and lost her for ever. The same \"don't look back\" motif appears with Lot's wife in Genesis.",
+    "hook": "Orpheus and Eurydice: one glance over the shoulder undid the whole rescue."
   },
   {
     "id": "myth_017",
@@ -232,10 +232,10 @@
     "distractors": [
       "Hera",
       "Persephone",
-      "Hestia"
+      "Eros"
     ],
-    "explanation": "Born from sea foam in Hesiod's account; Hera is Juno, Persephone is Proserpina and Hestia is Vesta in their Roman forms.",
-    "hook": "Aphrodite-Venus, Hera-Juno, Athena-Minerva — the Greek-Roman pairings."
+    "explanation": "In Hesiod, Aphrodite rose from the sea foam (aphros) around the severed genitals of Uranus, and came ashore at Cyprus or Cythera. She was married to the lame smith Hephaestus but had an affair with Ares; Eros (Cupid) is usually her son.",
+    "hook": "Aphros means foam: Botticelli's \"Birth of Venus\" shows her arriving on a shell."
   },
   {
     "id": "myth_018",
@@ -248,8 +248,8 @@
       "The roc",
       "The thunderbird"
     ],
-    "explanation": "The story reached Greece from Egyptian sources; a griffin is part eagle part lion, and a roc is the giant bird of Arabian tales.",
-    "hook": "Phoenix burns and returns; griffin is eagle plus lion; roc is simply enormous."
+    "explanation": "Herodotus heard of the phoenix from Egyptian priests at Heliopolis, and it may echo the Egyptian sun-bird Bennu. It lived 500 years or more before burning on a nest of spices and rising again. The roc is the giant bird of the Arabian Nights, and the griffin is half eagle, half lion.",
+    "hook": "Phoenix, Arizona was so named because the city rose on the ruins of an ancient settlement."
   },
   {
     "id": "myth_019",
@@ -258,26 +258,26 @@
     "question": "Which Norse event describes the destruction and rebirth of the world?",
     "answer": "Ragnarök",
     "distractors": [
-      "Yggdrasil",
-      "Valhalla",
-      "Fimbulwinter"
+      "Fimbulwinter",
+      "Ginnungagap",
+      "The Wild Hunt"
     ],
-    "explanation": "Fimbulwinter is the three-year winter preceding it; unusually for an apocalypse myth, the Norse version has the world rise again afterwards, green and renewed.",
-    "hook": "The Norse apocalypse is not the end — the world comes back green."
+    "explanation": "Ragnarök, the \"fate of the gods\", is announced by Fimbulwinter, three winters with no summer between. Odin, Thor, Freyr, Týr and Heimdall all die, but a new green world rises from the sea, and two humans, Líf and Lífþrasir, survive to repopulate it.",
+    "hook": "Fimbulwinter is the warning; Ragnarök is the storm; then the world is reset."
   },
   {
     "id": "myth_020",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which ancient Greek site was home to the most famous oracle?",
+    "question": "Which ancient Greek site was home to the most famous oracle, the Pythia?",
     "answer": "Delphi",
     "distractors": [
       "Olympia",
       "Epidaurus",
       "Dodona"
     ],
-    "explanation": "The Pythia delivered prophecies there, and the Greeks considered it the navel of the world; Olympia hosted the games and Dodona held an older oracle of Zeus.",
-    "hook": "The Greeks marked Delphi as the world's navel with an actual stone."
+    "explanation": "The Pythia was Apollo's priestess, who sat on a tripod over a chasm and gave famously ambiguous answers. The Greeks believed Delphi was the centre of the world, marked by the omphalos or \"navel stone\". Dodona was an older oracle of Zeus, read from rustling oak leaves.",
+    "hook": "Delphi was the omphalos, the navel of the world, and Apollo's helpline."
   },
   {
     "id": "myth_021",
@@ -288,10 +288,10 @@
     "distractors": [
       "Theseus",
       "Heracles",
-      "Odysseus"
+      "Bellerophon"
     ],
-    "explanation": "He used a polished shield to avoid her gaze; Theseus killed the Minotaur and Odysseus took ten years to sail home from Troy.",
-    "hook": "He never looked at her directly — the shield did the seeing."
+    "explanation": "Perseus used a polished shield from Athena to avoid Medusa's petrifying gaze and beheaded her while she slept. Pegasus sprang from her neck, and Perseus later used the head to turn the sea monster to stone and rescue Andromeda. Medusa was the only mortal Gorgon.",
+    "hook": "Perseus looked in the mirror, not in the eye."
   },
   {
     "id": "myth_022",
@@ -301,81 +301,81 @@
     "answer": "Islam",
     "distractors": [
       "Judaism",
-      "Buddhism",
-      "Sikhism"
+      "Sikhism",
+      "Zoroastrianism"
     ],
-    "explanation": "They are the declaration of faith, prayer, almsgiving, fasting during Ramadan and pilgrimage to Mecca for those able to make it.",
-    "hook": "Faith, prayer, charity, fasting, pilgrimage — five in that order."
+    "explanation": "The Five Pillars are the declaration of faith (shahada), prayer five times a day (salat), almsgiving (zakat), fasting in Ramadan (sawm) and the pilgrimage to Mecca (hajj). Sikhism's comparable list is the Five Ks, the articles of faith worn by initiated Sikhs.",
+    "hook": "Five Pillars hold up Islam; Sikhs wear the Five Ks."
   },
   {
     "id": "myth_023",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Whose largely intact tomb did Howard Carter find in 1922?",
+    "question": "Whose largely intact tomb did Howard Carter find in the Valley of the Kings in 1922?",
     "answer": "Tutankhamun",
     "distractors": [
       "Ramesses II",
       "Hatshepsut",
       "Akhenaten"
     ],
-    "explanation": "The boy king was a minor pharaoh, which is precisely why his tomb survived unlooted; Cleopatra's and Nefertiti's burials have never been positively identified.",
-    "hook": "He was too unimportant to rob, which is why he became the most famous pharaoh."
+    "explanation": "Carter, funded by Lord Carnarvon, found tomb KV62 in November 1922; asked what he could see, he reportedly said \"Wonderful things\". Tutankhamun was a minor boy-king who died at about 19, famous only because robbers had missed his tomb. Carnarvon's death in 1923 launched the \"curse\" legend.",
+    "hook": "King Tut: famous for being found, not for anything he did."
   },
   {
     "id": "myth_024",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which Greek god of the sun drove a chariot across the sky?",
+    "question": "Which Greek god personified the Sun and drove its chariot across the sky?",
     "answer": "Helios",
     "distractors": [
-      "Apollo",
       "Hyperion",
-      "Eos"
+      "Eos",
+      "Selene"
     ],
-    "explanation": "Helios drove the chariot and Apollo later absorbed the sun's associations; Eos was the dawn and Hyperion the older Titan of light.",
-    "hook": "Helios drove it, Apollo inherited the job in later stories."
+    "explanation": "Helios was a Titan-born god, son of Hyperion, and brother of Selene (the Moon) and Eos (the Dawn). Later writers merged him with Apollo, which is why Apollo is often called the sun god. The Colossus of Rhodes was a statue of Helios.",
+    "hook": "Helium was named after Helios because it was first detected in the Sun's spectrum."
   },
   {
     "id": "myth_025",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which Christian text contains the accounts of Jesus's life by four writers?",
+    "question": "Which Christian texts contain four accounts of Jesus's life?",
     "answer": "The Gospels",
     "distractors": [
       "The Epistles",
       "The Pentateuch",
-      "The Apocrypha"
+      "The Psalms"
     ],
-    "explanation": "Matthew, Mark, Luke and John; the Epistles are letters, the Pentateuch is the first five books of the Hebrew Bible, and the Apocrypha are texts of disputed canonicity.",
-    "hook": "Matthew, Mark, Luke, John — the first three overlap heavily, John stands apart."
+    "explanation": "The four Gospels are Matthew, Mark, Luke and John. Matthew, Mark and Luke are called the Synoptic Gospels because they share so much material; John's is quite different. Mark is generally thought to be the earliest, written around 70 CE. \"Gospel\" is Old English for \"good news\".",
+    "hook": "Matthew, Mark, Luke and John: \"good spell\" became gospel."
   },
   {
     "id": "myth_026",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which Greek titan was punished by holding up the sky?",
+    "question": "Which Greek Titan was punished by having to hold up the sky?",
     "answer": "Atlas",
     "distractors": [
       "Prometheus",
       "Cronus",
       "Tantalus"
     ],
-    "explanation": "Prometheus was chained for giving fire to humanity and Tantalus set in water he could never drink; the word 'atlas' for a book of maps comes from images of him bearing a globe.",
-    "hook": "He holds the sky, not the Earth — the globe on the book cover is a later confusion."
+    "explanation": "Atlas led the Titans against the Olympians and was condemned to bear the heavens at the western edge of the world. Heracles briefly took the weight while Atlas fetched the golden apples of the Hesperides. Mercator's 1595 map collection made \"atlas\" the word for a book of maps.",
+    "hook": "Atlas carries the world on his shoulders, and maps carry his name."
   },
   {
     "id": "myth_027",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which ancient civilisation built Machu Picchu?",
+    "question": "Which civilisation built Machu Picchu?",
     "answer": "The Inca",
     "distractors": [
       "The Maya",
       "The Aztec",
       "The Olmec"
     ],
-    "explanation": "The Inca ran an empire along the Andes with no writing system and no wheeled transport, held together by a road network and knotted cords called quipu.",
-    "hook": "No writing, no wheels, and an empire 4,000 kilometres long."
+    "explanation": "Machu Picchu was built in the Peruvian Andes around 1450 CE, probably as an estate for the emperor Pachacuti. The Spanish never found it, and it came to world attention through Hiram Bingham in 1911. The Maya and Aztecs were in Mexico and Central America, not South America.",
+    "hook": "Inca = Andes = Peru; Maya and Aztec are the Mexican pair."
   },
   {
     "id": "myth_028",
@@ -386,24 +386,24 @@
     "distractors": [
       "Thor",
       "Heimdall",
-      "Tyr"
+      "Týr"
     ],
-    "explanation": "He also fathered the world serpent Jörmungandr and Hel; Tyr lost his hand binding Fenrir, and Heimdall guards the rainbow bridge.",
-    "hook": "One god fathered a wolf, a serpent and the ruler of the dead."
+    "explanation": "With the giantess Angrboða, Loki fathered three monsters: the wolf Fenrir, the world serpent Jörmungandr and Hel, ruler of the dead. In a different story he also gave birth, as a mare, to Odin's eight-legged horse Sleipnir.",
+    "hook": "Loki's family tree: a wolf, a snake, a death goddess and a horse."
   },
   {
     "id": "myth_029",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which structure did the Egyptians build at Giza with a lion's body and human head?",
+    "question": "Which monument at Giza has a lion's body and a human head?",
     "answer": "The Great Sphinx",
     "distractors": [
       "The Colossus of Memnon",
       "The Obelisk of Luxor",
       "The Temple of Karnak"
     ],
-    "explanation": "Carved from a single limestone outcrop and generally dated to the reign of Khafre around 2500 BCE; the Greek sphinx was female and posed riddles.",
-    "hook": "The Egyptian sphinx is male and silent; the Greek one is female and asks questions."
+    "explanation": "The Great Sphinx was carved from the limestone bedrock, probably for the pharaoh Khafre, whose face it likely bears. It is about 73 metres long. The Egyptian sphinx is male and benign; the Greek Sphinx, who set Oedipus her riddle, was female and deadly.",
+    "hook": "Egypt's sphinx guards and stays silent; the Greek one asks riddles and eats you."
   },
   {
     "id": "myth_030",
@@ -416,8 +416,8 @@
       "Hestia",
       "Rhea"
     ],
-    "explanation": "Her grief over Persephone's abduction by Hades explains the seasons: nothing grows while her daughter is below.",
-    "hook": "Winter is a mother's grief — that is the whole myth in one line."
+    "explanation": "When Hades carried off Persephone, Demeter wandered the earth and let the crops fail until Zeus arranged her return. Persephone had eaten pomegranate seeds in the underworld, so she must spend part of each year there, which is winter. Demeter's Roman equivalent Ceres gave us \"cereal\".",
+    "hook": "Demeter's Roman name, Ceres, is on your breakfast table: cereal."
   },
   {
     "id": "myth_031",
@@ -430,8 +430,8 @@
       "The Colossus of Rhodes",
       "The Lighthouse of Alexandria"
     ],
-    "explanation": "It is also the oldest of the seven; the Hanging Gardens may never have existed, and the lighthouse survived longest of the rest, falling to earthquakes by 1480.",
-    "hook": "Oldest of the seven, and the only one left standing."
+    "explanation": "The Great Pyramid, built for Khufu about 4,500 years ago, is both the oldest Wonder and the only survivor. The Colossus fell in an earthquake after only about 54 years, and the Hanging Gardens may never have existed at all.",
+    "hook": "The oldest Wonder is the last one standing."
   },
   {
     "id": "myth_032",
@@ -442,10 +442,10 @@
     "distractors": [
       "Hinduism",
       "Jainism",
-      "Taoism"
+      "Sikhism"
     ],
-    "explanation": "He was a prince who left his palace after encountering old age, sickness and death; Hinduism has no single founder and Jainism's Mahavira was his near contemporary.",
-    "hook": "He left the palace after seeing age, sickness and death for the first time."
+    "explanation": "Siddhartha was a prince from the Shakya clan, born at Lumbini in modern Nepal. He left his palace after seeing old age, sickness and death, and reached enlightenment under the Bodhi tree at Bodh Gaya. Jainism's great teacher, Mahavira, was his near contemporary.",
+    "hook": "Buddha means \"the awakened one\": he woke up under the Bodhi tree."
   },
   {
     "id": "myth_033",
@@ -458,22 +458,22 @@
       "Ajax",
       "Patroclus"
     ],
-    "explanation": "His mother Thetis dipped him in the Styx holding him by the heel; Hector was his Trojan opponent and Patroclus the friend whose death drove him back into the war.",
-    "hook": "The one spot his mother's fingers covered is the one that killed him."
+    "explanation": "His mother Thetis dipped him in the Styx holding him by the heel, which stayed dry. Paris killed him with an arrow guided by Apollo. The heel story is a later addition, not in Homer, but it gave anatomy the Achilles tendon.",
+    "hook": "Thetis held the heel, so the heel stayed human."
   },
   {
     "id": "myth_034",
     "category": "mythology",
     "difficulty": "easy",
-    "question": "Which ancient city was buried by the eruption of Mount Vesuvius in 79 CE?",
+    "question": "Which Roman city was buried by the eruption of Mount Vesuvius in 79 CE?",
     "answer": "Pompeii",
     "distractors": [
       "Ostia",
       "Ravenna",
-      "Carthage"
+      "Paestum"
     ],
-    "explanation": "Herculaneum was buried alongside it under deeper deposits; the ash preserved everything from bread to graffiti, making it the richest source on Roman daily life.",
-    "hook": "The disaster that destroyed a city is also what preserved it."
+    "explanation": "Pompeii was buried under metres of ash, and neighbouring Herculaneum under deeper pyroclastic flows, preserving both in astonishing detail. Pliny the Younger watched from across the Bay of Naples and wrote the only eyewitness account; his uncle, Pliny the Elder, died leading a rescue.",
+    "hook": "Pliny the Younger watched, Pliny the Elder went in: that eruption style is now called Plinian."
   },
   {
     "id": "myth_035",
@@ -486,22 +486,22 @@
       "Vishnu",
       "Hanuman"
     ],
-    "explanation": "The remover of obstacles and patron of beginnings, he is invoked at the start of ventures; Hanuman is the monkey deity of the Ramayana.",
-    "hook": "Elephant head for Ganesha, monkey for Hanuman — the two most recognisable."
+    "explanation": "Ganesha, son of Shiva and Parvati, is the remover of obstacles, invoked at the start of new ventures. In the best-known story Shiva beheaded him without knowing who he was, then replaced the head with an elephant's. Hanuman is the monkey god of the Ramayana.",
+    "hook": "Elephant for Ganesha, monkey for Hanuman: both clear the way."
   },
   {
     "id": "myth_036",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek monster had the body of a lion, a goat's head on its back and a serpent's tail?",
+    "question": "Which Greek monster had the body of a lion, a goat's head on its back and a serpent for a tail?",
     "answer": "The Chimera",
     "distractors": [
       "The Hydra",
-      "Cerberus",
+      "The Manticore",
       "The Sphinx"
     ],
-    "explanation": "Bellerophon killed it from the back of Pegasus; the Hydra grew two heads for each one severed and Cerberus guarded the underworld's gate.",
-    "hook": "Lion, goat and snake in one animal — which is why 'chimera' means an impossible hybrid."
+    "explanation": "The fire-breathing Chimera terrorised Lycia in Asia Minor until Bellerophon, riding Pegasus, killed it from the air. Because it was assembled from different animals, \"chimera\" now means any fantastical hybrid, including in genetics, an organism with cells from two individuals.",
+    "hook": "Lion, goat, snake: the Chimera is three animals in one, so anything cobbled together is chimeric."
   },
   {
     "id": "myth_037",
@@ -512,24 +512,24 @@
     "distractors": [
       "Seven",
       "Ten",
-      "Fourteen"
+      "Fifteen"
     ],
-    "explanation": "Originally ten, but Eurystheus disqualified two — the Hydra because he had help and the Augean stables because he took payment — so two more were added.",
-    "hook": "It was meant to be ten; two were disallowed on technicalities."
+    "explanation": "Eurystheus originally set ten labours but disallowed two: the Hydra, because Iolaus helped, and the Augean stables, because Heracles was paid. So he had to do two more, making twelve. \"Ten\" is the trap answer with a real basis.",
+    "hook": "Ten set, two disqualified, two added: twelve done."
   },
   {
     "id": "myth_038",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Roman emperor legalised Christianity in the empire?",
+    "question": "Which Roman emperor legalised Christianity with the Edict of Milan in 313 CE?",
     "answer": "Constantine",
     "distractors": [
       "Diocletian",
-      "Theodosius",
+      "Theodosius I",
       "Augustus"
     ],
-    "explanation": "The Edict of Milan in 313 granted toleration; Theodosius went further in 380, making Christianity the official state religion, and Diocletian had persecuted it severely.",
-    "hook": "Constantine legalised it in 313; Theodosius made it compulsory in 380."
+    "explanation": "Constantine and his co-emperor Licinius agreed the Edict of Milan, granting toleration to Christians, after his victory at the Milvian Bridge in 312. Theodosius I later made Christianity the state religion in 380, while Diocletian led the last great persecution.",
+    "hook": "Constantine legalised, Theodosius made it official, Diocletian persecuted."
   },
   {
     "id": "myth_039",
@@ -542,8 +542,8 @@
       "Ptah",
       "Amun"
     ],
-    "explanation": "Set dismembered him and Isis reassembled the body; the myth underpinned Egyptian beliefs about resurrection and the pharaoh's afterlife.",
-    "hook": "Isis put him back together, which is why mummification imitates the story."
+    "explanation": "Set murdered Osiris and scattered his body; his wife Isis gathered the pieces and restored him long enough to conceive Horus. Osiris then ruled the afterlife, shown with green skin and mummy wrappings, while Horus avenged him and took the throne.",
+    "hook": "Set killed, Isis healed, Horus avenged, Osiris ruled the dead."
   },
   {
     "id": "myth_040",
@@ -556,8 +556,8 @@
       "Ixion",
       "Prometheus"
     ],
-    "explanation": "Tantalus stood in water he could never drink beneath fruit he could never reach, and Ixion was bound to a burning wheel; Camus used Sisyphus as a figure of absurd persistence.",
-    "hook": "Sisyphus pushes, Tantalus thirsts, Ixion spins — the three eternal punishments."
+    "explanation": "Sisyphus, king of Corinth (Ephyra), cheated death twice, once by chaining up Thanatos. His boulder always rolled back just before the top. Tantalus is the other famous sinner in Tartarus: fruit and water forever just out of reach, which gave us \"tantalise\".",
+    "hook": "Sisyphean = pointless repeated effort; tantalising = always just out of reach."
   },
   {
     "id": "myth_041",
@@ -570,64 +570,64 @@
       "Freyr",
       "Heimdall"
     ],
-    "explanation": "Thor dies fighting the world serpent, Freyr falls to the fire giant Surtr, and Heimdall and Loki kill each other; the Norse gods know their own fates in advance.",
-    "hook": "They all know how they will die, and fight anyway — that is the point of the myth."
+    "explanation": "Fenrir swallows Odin, and Odin's son Víðarr avenges him by tearing the wolf's jaws apart. Thor kills the world serpent Jörmungandr but dies from its venom after nine steps, Freyr falls to the fire giant Surtr, and Heimdall and Loki kill each other.",
+    "hook": "Odin loses to the wolf, Thor to the serpent: each dies to one of Loki's children."
   },
   {
     "id": "myth_042",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which ancient legal code was inscribed on a stele around 1750 BCE?",
+    "question": "Which Babylonian law code was inscribed on a basalt stele around 1750 BCE?",
     "answer": "The Code of Hammurabi",
     "distractors": [
       "The Twelve Tables",
       "The Code of Ur-Nammu",
       "The Justinian Code"
     ],
-    "explanation": "The Babylonian code is famous for 'an eye for an eye', though the older Code of Ur-Nammu preferred monetary compensation; the stele is now in the Louvre.",
-    "hook": "The older Sumerian code preferred fines — Hammurabi brought back the eye for an eye."
+    "explanation": "The stele, now in the Louvre, has 282 laws beneath a relief of Hammurabi receiving authority from the sun god Shamash. It is famous for \"eye for an eye\" punishments, which depended on the social class of the victim. The Sumerian Code of Ur-Nammu is about three centuries older.",
+    "hook": "Hammurabi hammered the law into stone: an eye for an eye."
   },
   {
     "id": "myth_043",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek figure was cursed to make true prophecies that no one believed?",
+    "question": "Which Trojan princess was cursed to make true prophecies that no one believed?",
     "answer": "Cassandra",
     "distractors": [
-      "Medea",
-      "Circe",
-      "Antigone"
+      "Andromache",
+      "Polyxena",
+      "Helen"
     ],
-    "explanation": "Apollo gave her prophecy then cursed her when she refused him; she foresaw the fall of Troy and was ignored, giving her name to the Cassandra complex.",
-    "hook": "The gift and the curse came from the same god, in that order."
+    "explanation": "Apollo gave Cassandra the gift of prophecy to win her, and when she refused him he cursed her never to be believed. She warned against the wooden horse, was taken by Agamemnon as a prize and murdered with him by Clytemnestra. A Cassandra is someone whose warnings go unheeded.",
+    "hook": "A Cassandra is always right and never believed."
   },
   {
     "id": "myth_044",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Hindu text is a dialogue between Arjuna and Krishna on a battlefield?",
+    "question": "Which Hindu scripture is a dialogue between Arjuna and Krishna on a battlefield?",
     "answer": "The Bhagavad Gita",
     "distractors": [
       "The Upanishads",
       "The Rigveda",
       "The Ramayana"
     ],
-    "explanation": "It forms part of the much longer Mahabharata; Oppenheimer's line about becoming death is a paraphrase of a verse from it.",
-    "hook": "Oppenheimer quoted it after the first atomic test."
+    "explanation": "The Gita's 700 verses sit inside the Mahabharata, just before the battle of Kurukshetra, where Arjuna despairs at fighting his own relatives. Krishna, his charioteer, teaches him duty without attachment. Robert Oppenheimer quoted it after the first atomic test: \"Now I am become Death\".",
+    "hook": "Gita means \"song\": the Song of God sung on a chariot."
   },
   {
     "id": "myth_045",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek sorceress helped Jason obtain the Golden Fleece?",
+    "question": "Which sorceress helped Jason obtain the Golden Fleece?",
     "answer": "Medea",
     "distractors": [
       "Circe",
       "Calypso",
       "Ariadne"
     ],
-    "explanation": "Circe turned Odysseus's men into pigs, Calypso held him seven years and Ariadne gave Theseus the thread; Euripides gave Medea a tragedy of her own.",
-    "hook": "Ariadne helped Theseus, Medea helped Jason — both were abandoned afterwards."
+    "explanation": "Medea, daughter of King Aeëtes of Colchis, helped Jason survive her father's tasks and drugged the dragon that guarded the fleece. When he later abandoned her for a Corinthian princess, she killed the bride and her own children, as dramatised by Euripides. Circe was her aunt.",
+    "hook": "Medea helps Jason; Circe traps Odysseus; Calypso keeps him."
   },
   {
     "id": "myth_046",
@@ -640,22 +640,22 @@
       "Bacchanalia",
       "Floralia"
     ],
-    "explanation": "Held around 17-23 December with gift-giving and feasting; several of its customs were absorbed into later midwinter Christian celebrations.",
-    "hook": "Midwinter feasting and gifts predate Christmas by centuries."
+    "explanation": "Saturnalia honoured Saturn from 17 December and grew to a week of feasting, gambling and gift-giving, with masters serving slaves and everyone wearing the pilleus, the cap of freedmen. Many of its customs fed into Christmas. Pliny the Younger retreated to a soundproof room to escape the noise.",
+    "hook": "Saturnalia is the ancestor of the office Christmas party: gifts, drinking and the boss serving."
   },
   {
     "id": "myth_047",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which mountain did the Greeks believe the gods inhabited?",
+    "question": "Which mountain did the Greeks believe the Olympian gods inhabited?",
     "answer": "Mount Olympus",
     "distractors": [
       "Mount Parnassus",
       "Mount Ida",
       "Mount Athos"
     ],
-    "explanation": "It is Greece's highest peak at 2,917 metres; Parnassus was sacred to Apollo and the Muses and Ida is where Zeus was said to have been raised.",
-    "hook": "The gods took the tallest mountain in the country — no metaphor required."
+    "explanation": "At 2,918 metres, Olympus in Thessaly is Greece's highest mountain. Parnassus, above Delphi, was sacred to Apollo and the Muses; Mount Ida on Crete was one of the places Zeus was hidden as a baby, and another Mount Ida near Troy is where Paris judged the goddesses.",
+    "hook": "The Olympians live on Olympus; the Muses hang out on Parnassus."
   },
   {
     "id": "myth_048",
@@ -668,36 +668,36 @@
       "The Iliad",
       "The Book of the Dead"
     ],
-    "explanation": "Written on clay tablets from around 2100 BCE, it is among the oldest surviving works of literature and contains a flood narrative resembling the biblical account.",
-    "hook": "It has a flood, an ark and a released bird — a thousand years before Genesis."
+    "explanation": "Gilgamesh, king of Uruk, goes looking for eternal life after his friend Enkidu dies. The flood survivor Utnapishtim tells him of a plant of youth, which a snake steals. Its flood story closely parallels Noah's and was recognised on a clay tablet by George Smith in 1872.",
+    "hook": "Gilgamesh lost immortality to a snake, which is why snakes shed their skin and live on."
   },
   {
     "id": "myth_049",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek titan gave fire to humanity?",
+    "question": "Which Greek Titan stole fire and gave it to humanity?",
     "answer": "Prometheus",
     "distractors": [
       "Epimetheus",
       "Atlas",
-      "Oceanus"
+      "Hyperion"
     ],
-    "explanation": "Zeus chained him to a rock where an eagle ate his liver daily; his brother Epimetheus accepted Pandora despite the warning.",
-    "hook": "Prometheus means forethought; his brother Epimetheus means afterthought, and it shows."
+    "explanation": "Prometheus smuggled fire from Olympus in a fennel stalk. Zeus chained him to a rock in the Caucasus, where an eagle ate his liver, which regrew daily, until Heracles freed him. His brother Epimetheus accepted Pandora. The names mean \"forethought\" and \"afterthought\".",
+    "hook": "Pro-metheus thought ahead; Epi-metheus thought afterwards and married Pandora."
   },
   {
     "id": "myth_050",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which religious text is central to Sikhism?",
+    "question": "Which scripture is central to Sikhism?",
     "answer": "The Guru Granth Sahib",
     "distractors": [
       "The Vedas",
       "The Tripitaka",
       "The Avesta"
     ],
-    "explanation": "It is treated as a living guru rather than merely a book; the Tripitaka is the Buddhist canon and the Avesta the Zoroastrian scripture.",
-    "hook": "Sikhs treat the book itself as the eleventh and final guru."
+    "explanation": "The tenth guru, Gobind Singh, declared that after him the scripture itself would be the eternal Guru, so the book is treated as a living teacher. The master copy is kept at the Golden Temple (Harmandir Sahib) in Amritsar. The Tripitaka is Buddhist and the Avesta Zoroastrian.",
+    "hook": "Ten human Gurus, then the book became the eleventh and last."
   },
   {
     "id": "myth_051",
@@ -710,8 +710,8 @@
       "Bellerophon",
       "Cadmus"
     ],
-    "explanation": "The answer to the riddle about four legs, two legs and three legs is man; solving it won him the throne of Thebes and, unknowingly, his mother's hand.",
-    "hook": "The answer was 'man' — and answering correctly is what ruined him."
+    "explanation": "The riddle asked what walks on four legs in the morning, two at noon and three in the evening: a human, crawling, walking, then with a stick. Oedipus's reward was the throne of Thebes and the widowed queen Jocasta, who turned out to be his mother.",
+    "hook": "Oedipus solved the riddle and walked straight into the tragedy."
   },
   {
     "id": "myth_052",
@@ -724,64 +724,64 @@
       "Minerva",
       "Ceres"
     ],
-    "explanation": "The Vestals tended a sacred flame for thirty years and were the only Roman women free of male legal guardianship; letting the fire go out brought severe punishment.",
-    "hook": "The only Roman women legally independent — and the price was thirty years of celibacy."
+    "explanation": "Six Vestal Virgins served for at least 30 years, keeping the sacred fire in Vesta's round temple in the Forum burning. A Vestal who broke her vow of chastity was buried alive. Vesta's Greek equivalent is Hestia, the eldest child of Cronus and Rhea.",
+    "hook": "Vesta's Vestals kept the flame; let it go out and you were flogged."
   },
   {
     "id": "myth_053",
     "category": "mythology",
-    "difficulty": "medium",
-    "question": "Which Norse creature encircles the world biting its own tail?",
+    "difficulty": "hard",
+    "question": "Which Norse serpent encircles the world, biting its own tail?",
     "answer": "Jörmungandr",
     "distractors": [
       "Fenrir",
-      "Nidhogg",
-      "Sleipnir"
+      "Níðhöggr",
+      "Fáfnir"
     ],
-    "explanation": "The Midgard serpent is Thor's destined opponent at Ragnarök; Nidhogg gnaws the world tree's roots and Sleipnir is Odin's eight-legged horse.",
-    "hook": "Fenrir the wolf, Jörmungandr the serpent, Sleipnir the eight-legged horse."
+    "explanation": "Odin threw Jörmungandr, a child of Loki, into the ocean, where it grew so large it circled Midgard. Thor once hooked it while fishing with the giant Hymir. At Ragnarök they kill each other. Níðhöggr is the dragon gnawing the roots of Yggdrasil.",
+    "hook": "Jörmungandr is the Midgard Serpent: the ring around the world, and Thor's nemesis."
   },
   {
     "id": "myth_054",
     "category": "mythology",
-    "difficulty": "medium",
-    "question": "Which ancient city was ruled by King Priam during the Trojan War?",
+    "difficulty": "easy",
+    "question": "Which city did King Priam rule during the Trojan War?",
     "answer": "Troy",
     "distractors": [
       "Mycenae",
       "Thebes",
       "Sparta"
     ],
-    "explanation": "Heinrich Schliemann excavated a site at Hisarlik in Turkey in the 1870s that is generally accepted as Troy, though he damaged the layers he was seeking.",
-    "hook": "Schliemann dug straight through the layer he was looking for."
+    "explanation": "Priam had some 50 sons, including Hector, killed by Achilles, and Paris, whose abduction of Helen from Sparta started the war. Troy, also called Ilium (hence the Iliad), is identified with the mound of Hisarlik in Turkey, excavated by Heinrich Schliemann from 1870.",
+    "hook": "Ilium is Troy, so the Iliad is \"the Troy poem\"."
   },
   {
     "id": "myth_055",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek concept describes the fatal flaw or excessive pride that brings a hero down?",
+    "question": "Which Greek word for excessive pride, especially towards the gods, often brings a tragic hero down?",
     "answer": "Hubris",
     "distractors": [
       "Catharsis",
       "Nemesis",
       "Anagnorisis"
     ],
-    "explanation": "Nemesis is the retribution that follows, catharsis the audience's emotional release, and anagnorisis the moment of recognition.",
-    "hook": "Hubris invites nemesis — pride first, then the reckoning."
+    "explanation": "Hubris originally meant a deliberate insult or outrage in Athenian law, and in myth it is the arrogance the gods punish. Nemesis is the goddess, and the retribution, that follows it. The \"fatal flaw\" of a hero is a different term again: hamartia.",
+    "hook": "Hubris comes before Nemesis: pride, then the fall."
   },
   {
     "id": "myth_056",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Chinese philosophy is associated with the Tao Te Ching?",
+    "question": "Which Chinese belief system is based on the Tao Te Ching?",
     "answer": "Taoism",
     "distractors": [
       "Confucianism",
       "Legalism",
       "Mohism"
     ],
-    "explanation": "Attributed to Laozi, it emphasises wu wei, action through non-action; Confucianism by contrast stresses ritual, hierarchy and social duty.",
-    "hook": "Taoism goes with the current; Confucianism builds the riverbank."
+    "explanation": "The Tao Te Ching is traditionally attributed to Laozi, said to be an older contemporary of Confucius in the 6th century BCE. It teaches following the Tao, \"the way\", through effortless action (wu wei). Confucius's own sayings are gathered in the Analects.",
+    "hook": "Laozi wrote the Way; Confucius wrote the manners."
   },
   {
     "id": "myth_057",
@@ -790,17 +790,17 @@
     "question": "Which Greek goddess was Zeus's wife and the protector of marriage?",
     "answer": "Hera",
     "distractors": [
-      "Athena",
-      "Artemis",
+      "Leto",
+      "Demeter",
       "Aphrodite"
     ],
-    "explanation": "Her jealousy toward Zeus's lovers and their children drives a large share of Greek myth, including Heracles's madness and labours.",
-    "hook": "Most of Greek mythology's plot is Hera reacting to Zeus's affairs."
+    "explanation": "Hera was also Zeus's sister, and most of her myths involve revenge on his lovers and their children, including Heracles and the twins Apollo and Artemis. Her sacred bird was the peacock: she set the hundred eyes of the watchman Argus in its tail. Her Roman equivalent is Juno.",
+    "hook": "Juno, Roman Hera, gives her name to June, still the favourite month for weddings."
   },
   {
     "id": "myth_058",
     "category": "mythology",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "question": "Which empire did Cyrus the Great found in the sixth century BCE?",
     "answer": "The Persian Achaemenid Empire",
     "distractors": [
@@ -808,64 +808,64 @@
       "The Assyrian Empire",
       "The Seleucid Empire"
     ],
-    "explanation": "It became the largest empire the world had seen, and the Cyrus Cylinder recording his policy toward conquered peoples is sometimes described as an early charter of rights.",
-    "hook": "The Cyrus Cylinder is sometimes called the first declaration of human rights."
+    "explanation": "Cyrus conquered the Medes, Lydia and Babylon, where he let the exiled Jews return to Jerusalem, which is why the Bible praises him. The Cyrus Cylinder is sometimes called the first charter of human rights. Alexander the Great destroyed the empire in 330 BCE, and his general Seleucus took much of it.",
+    "hook": "Cyrus founds, Darius organises, Xerxes invades Greece, Alexander ends it."
   },
   {
     "id": "myth_059",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Egyptian pharaoh attempted to replace traditional religion with worship of the sun disc?",
+    "question": "Which Egyptian pharaoh tried to replace traditional religion with worship of the sun disc, the Aten?",
     "answer": "Akhenaten",
     "distractors": [
       "Ramesses II",
       "Thutmose III",
       "Khufu"
     ],
-    "explanation": "He moved the capital to Amarna and promoted the Aten; after his death the old religion was restored and his monuments defaced, and his son was Tutankhamun.",
-    "hook": "His successors tried to erase him — his son changed his own name back to Amun."
+    "explanation": "Akhenaten (reigned about 1353 to 1336 BCE) built a new capital at Amarna and promoted the Aten above all other gods. His wife was Nefertiti, and Tutankhamun, probably his son, restored the old gods: note the change from Tutankhaten to Tutankhamun.",
+    "hook": "Akhen-ATEN worshipped the Aten; his son swapped Aten for Amun in his own name."
   },
   {
     "id": "myth_060",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek philosopher was condemned to drink hemlock in 399 BCE?",
+    "question": "Which Greek philosopher was sentenced to death by drinking hemlock in 399 BCE?",
     "answer": "Socrates",
     "distractors": [
       "Plato",
       "Aristotle",
       "Diogenes"
     ],
-    "explanation": "Convicted of impiety and corrupting the youth, he wrote nothing himself; everything known of him comes through Plato, Xenophon and Aristophanes.",
-    "hook": "He never wrote a word — everything comes through his students and a comic playwright."
+    "explanation": "An Athenian jury convicted Socrates of impiety and corrupting the youth. He wrote nothing himself; we know him mainly through his pupil Plato, whose dialogue Phaedo describes his death. The Socratic method is teaching by asking questions.",
+    "hook": "Socrates taught Plato, Plato taught Aristotle, Aristotle taught Alexander: SPA-A."
   },
   {
     "id": "myth_061",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek god of wine was celebrated with theatre festivals in Athens?",
+    "question": "Which Greek god of wine was honoured with the theatre festivals of Athens?",
     "answer": "Dionysus",
     "distractors": [
       "Apollo",
       "Pan",
       "Hermes"
     ],
-    "explanation": "The City Dionysia was where the tragedies of Aeschylus, Sophocles and Euripides were first performed as competition entries.",
-    "hook": "Greek tragedy began as a religious festival for the god of wine."
+    "explanation": "Tragedy and comedy were born at the City Dionysia, where playwrights such as Aeschylus, Sophocles and Euripides competed. The Theatre of Dionysus sits on the slope below the Acropolis. His Roman name, Bacchus, gave us \"bacchanal\".",
+    "hook": "No Dionysus, no drama: the theatre was his temple."
   },
   {
     "id": "myth_062",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Aboriginal Australian concept describes the creation period and ongoing spiritual reality?",
+    "question": "Which Aboriginal Australian concept describes the creation period and an ongoing spiritual reality?",
     "answer": "The Dreaming",
     "distractors": [
       "The Songline",
       "The Corroboree",
       "The Bora"
     ],
-    "explanation": "Songlines are the routes tracing ancestral journeys across country; the Dreaming is not a past era but a continuing presence, which is why 'Dreamtime' is often criticised as a translation.",
-    "hook": "It is not a past time — which is why 'Dreamtime' is a poor translation."
+    "explanation": "The Dreaming (or Dreamtime) tells how ancestral beings shaped the land, laws and people, and it is understood as ever-present rather than past. Songlines are the tracks those beings travelled, remembered in song. The English term was popularised by anthropologists Baldwin Spencer and Francis Gillen from the 1890s.",
+    "hook": "The Dreaming is the story; songlines are the map you sing to follow it."
   },
   {
     "id": "myth_063",
@@ -878,8 +878,8 @@
       "Mark Antony",
       "Sulla"
     ],
-    "explanation": "Crossing the river with an army meant civil war, since it was the boundary of his province; 'the die is cast' is the phrase attributed to him at the crossing.",
-    "hook": "The river was a legal boundary — crossing it with troops was itself the declaration of war."
+    "explanation": "The Rubicon marked the border of Italy, and leading an army across it was an act of war against the Senate. Caesar reportedly said \"alea iacta est\", the die is cast. The civil war against Pompey followed, and Caesar was assassinated on the Ides of March, 44 BCE.",
+    "hook": "Crossing the Rubicon = the point of no return; the die is cast."
   },
   {
     "id": "myth_064",
@@ -892,8 +892,8 @@
       "Apollo",
       "Eros"
     ],
-    "explanation": "He also guided souls to the underworld and patronised thieves and merchants; Iris was the other messenger, associated with the rainbow.",
-    "hook": "God of messengers, merchants and thieves — the Greeks saw the connection."
+    "explanation": "Hermes also carried the caduceus, a staff with two snakes, and guided souls to the underworld. He was a god of travellers, merchants and thieves: on the day he was born he stole Apollo's cattle. Iris, the rainbow, was the other divine messenger, used mostly by Hera.",
+    "hook": "Mercury (Roman Hermes) is the fastest planet, and Interflora's logo still shows him running."
   },
   {
     "id": "myth_065",
@@ -906,8 +906,8 @@
       "Zoroastrianism",
       "Bahá'í"
     ],
-    "explanation": "The Day of Atonement involves a twenty-five-hour fast and prayer; Rosh Hashanah, the new year, falls ten days earlier.",
-    "hook": "New year first, atonement ten days later — the order matters."
+    "explanation": "Yom Kippur, the Day of Atonement, falls ten days after Rosh Hashanah, the Jewish New Year, and is marked by a 25-hour fast and prayer. The period between them is the Days of Awe. Egypt and Syria attacked Israel on Yom Kippur in 1973.",
+    "hook": "Rosh Hashanah opens the year; ten days later Yom Kippur settles the account."
   },
   {
     "id": "myth_066",
@@ -920,8 +920,8 @@
       "Narcissus",
       "Adonis"
     ],
-    "explanation": "His own hounds then killed him; Narcissus fell in love with his reflection and Adonis was killed by a boar, both also victims of divine attention.",
-    "hook": "Turned into a stag and eaten by his own dogs for looking in the wrong direction."
+    "explanation": "Artemis splashed water on Actaeon and he became a stag, then his own hounds tore him apart. The story is told most famously in Ovid's Metamorphoses and painted by Titian. Orion, another hunter, was killed by Artemis or her scorpion in different versions.",
+    "hook": "Actaeon saw what he should not have and was hunted by his own dogs."
   },
   {
     "id": "myth_067",
@@ -934,50 +934,50 @@
       "Tezcatlipoca",
       "Tlaloc"
     ],
-    "explanation": "Huitzilopochtli was the war and sun god demanding sacrifice, Tlaloc the rain god and Tezcatlipoca the smoking mirror, Quetzalcoatl's rival.",
-    "hook": "Feathered serpent for Quetzalcoatl, hummingbird of the south for Huitzilopochtli."
+    "explanation": "Quetzalcoatl combines the quetzal bird and coatl, snake; the Maya knew him as Kukulcán. A later story claimed the Aztecs mistook Hernán Cortés for the returning god in 1519, though historians now doubt it. Huitzilopochtli was the Aztec war and sun god.",
+    "hook": "Quetzal (the green-feathered bird) plus coatl (snake) equals the feathered serpent."
   },
   {
     "id": "myth_068",
     "category": "mythology",
-    "difficulty": "medium",
-    "question": "Which Greek concept of fate was personified as three sisters?",
+    "difficulty": "hard",
+    "question": "Which three sisters personified fate in Greek myth?",
     "answer": "The Moirai",
     "distractors": [
-      "The Furies",
-      "The Graces",
-      "The Muses"
+      "The Erinyes",
+      "The Charites",
+      "The Graeae"
     ],
-    "explanation": "One spun the thread of life, one measured it and one cut it; the Furies pursued wrongdoers and the Muses inspired the arts.",
-    "hook": "Spin, measure, cut — three sisters and one thread per life."
+    "explanation": "Clotho spun the thread of life, Lachesis measured it and Atropos cut it; even Zeus was often said to be bound by them. The Romans called them the Parcae, and the Norse had the equivalent Norns. The Erinyes (Furies), Charites (Graces) and Graeae are also groups of three sisters.",
+    "hook": "Spin, measure, cut: Clotho, Lachesis, Atropos, whose name means \"unturnable\"."
   },
   {
     "id": "myth_069",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which biblical figure is said to have led the Israelites out of Egypt?",
+    "question": "Which biblical figure led the Israelites out of Egypt?",
     "answer": "Moses",
     "distractors": [
       "Abraham",
       "Joshua",
-      "David"
+      "Aaron"
     ],
-    "explanation": "Joshua led them into Canaan afterwards, since Moses was denied entry; Abraham is the patriarch of the covenant and David the later king.",
-    "hook": "Moses got them out of Egypt; Joshua got them into Canaan."
+    "explanation": "Moses confronted Pharaoh, brought the ten plagues and parted the Red Sea, then received the Ten Commandments on Mount Sinai. He died in sight of the Promised Land, and Joshua led the people in. The festival of Passover remembers the Exodus.",
+    "hook": "Moses got them out; Joshua got them in."
   },
   {
     "id": "myth_070",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Greek nymph fell in love with her own reflection's admirer and faded to a voice?",
+    "question": "Which nymph, cursed by Hera to repeat only others' last words, faded away for love of Narcissus?",
     "answer": "Echo",
     "distractors": [
       "Daphne",
       "Io",
       "Callisto"
     ],
-    "explanation": "Cursed by Hera to repeat only others' final words, she pined for Narcissus until only her voice remained; Daphne became a laurel tree escaping Apollo.",
-    "hook": "She could only repeat what others said, which is why we call it an echo."
+    "explanation": "Echo had distracted Hera with chatter while Zeus dallied with other nymphs. Narcissus spurned her and later fell in love with his own reflection, leaving a flower in his place. Echo wasted away until only her voice was left.",
+    "hook": "Narcissus loved his reflection; Echo loved Narcissus. One saw himself, the other heard only others."
   },
   {
     "id": "myth_071",
@@ -987,11 +987,11 @@
     "answer": "The Aztec Empire",
     "distractors": [
       "The Inca Empire",
-      "The Maya city-states",
+      "The Maya Empire",
       "The Toltec Empire"
     ],
-    "explanation": "Built on an island in Lake Texcoco and larger than most European cities of the time, it was destroyed by Cortés in 1521 and Mexico City built on its ruins.",
-    "hook": "Mexico City is built directly on top of it, which is why it keeps sinking."
+    "explanation": "Tenochtitlan was founded around 1325 on an island in Lake Texcoco, where legend said the Mexica saw an eagle on a cactus eating a snake, the image on Mexico's flag. Cortés destroyed it in 1521 and Mexico City was built on the ruins. The Inca capital was Cusco.",
+    "hook": "The eagle-on-cactus on Mexico's flag marks where Tenochtitlan was founded."
   },
   {
     "id": "myth_072",
@@ -1002,38 +1002,38 @@
     "distractors": [
       "Plato",
       "Socrates",
-      "Zeno"
+      "Isocrates"
     ],
-    "explanation": "He was himself Plato's student, who was Socrates's student, making a three-generation teaching chain from Socrates to the conqueror of Persia.",
-    "hook": "Socrates taught Plato, Plato taught Aristotle, Aristotle taught Alexander."
+    "explanation": "Philip II of Macedon hired Aristotle in 343 BCE to teach his 13-year-old son at Mieza. Aristotle later founded the Lyceum in Athens, where he taught while walking, so his followers were called Peripatetics. Plato had taught Aristotle for about 20 years at the Academy.",
+    "hook": "Socrates to Plato to Aristotle to Alexander: a four-generation relay."
   },
   {
     "id": "myth_073",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Norse realm was home to humans?",
+    "question": "Which of the nine Norse realms was home to humans?",
     "answer": "Midgard",
     "distractors": [
       "Asgard",
       "Jotunheim",
       "Niflheim"
     ],
-    "explanation": "Asgard belongs to the gods, Jotunheim to the giants and Niflheim is the realm of ice and mist; Tolkien's Middle-earth is a direct translation.",
-    "hook": "Middle-earth is just Midgard in English."
+    "explanation": "Midgard, \"middle enclosure\", was built by Odin and his brothers from the body of the giant Ymir and fenced with his eyebrows against the giants of Jotunheim. It connects to Asgard by the rainbow bridge Bifröst. Tolkien's Middle-earth is a direct borrowing.",
+    "hook": "Midgard is Middle-earth: Tolkien took the name straight from Norse."
   },
   {
     "id": "myth_074",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Egyptian queen was the last active pharaoh of Egypt?",
+    "question": "Which Egyptian queen was the last active ruler of the Ptolemaic Kingdom?",
     "answer": "Cleopatra VII",
     "distractors": [
       "Nefertiti",
       "Hatshepsut",
-      "Nefertari"
+      "Arsinoe II"
     ],
-    "explanation": "She was Macedonian Greek by descent, and reportedly the first of the Ptolemies to learn Egyptian; she lived closer in time to the Moon landing than to the building of the Great Pyramid.",
-    "hook": "She lived nearer to the Moon landing than to the building of the pyramids."
+    "explanation": "Cleopatra was of Macedonian Greek descent, but she was the first of her dynasty to learn Egyptian. After defeat at Actium in 31 BCE, she and Mark Antony took their own lives, and Egypt became a Roman province. She lived closer in time to the Moon landing than to the building of the Great Pyramid.",
+    "hook": "Cleopatra is nearer to us in time than to the Great Pyramid."
   },
   {
     "id": "myth_075",
@@ -1046,22 +1046,22 @@
       "Confucianism",
       "Tenrikyo"
     ],
-    "explanation": "Kami are spirits present in natural features and ancestors; most Japanese participate in both Shinto and Buddhist practice without conflict.",
-    "hook": "Shinto for weddings and births, Buddhism for funerals — most Japanese do both."
+    "explanation": "Kami are spirits found in nature, ancestors and places; worship takes place at shrines marked by torii gates. The chief deity is the sun goddess Amaterasu, from whom the imperial family claimed descent. Shinto means \"way of the gods\".",
+    "hook": "Shinto has shrines with red torii gates; Buddhism has temples."
   },
   {
     "id": "myth_076",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek concept describes the purging of emotion through drama?",
+    "question": "Which Greek term describes the purging of emotion through drama?",
     "answer": "Catharsis",
     "distractors": [
       "Mimesis",
       "Hamartia",
       "Peripeteia"
     ],
-    "explanation": "From Aristotle's Poetics; mimesis is imitation, hamartia the hero's error and peripeteia the reversal of fortune.",
-    "hook": "Catharsis purges, hamartia is the mistake, peripeteia is the turn."
+    "explanation": "Aristotle used catharsis in the Poetics to explain why audiences enjoy tragedy: pity and fear are aroused and then released. The word also had medical and religious senses of cleansing. Mimesis is imitation, peripeteia the reversal of fortune.",
+    "hook": "Catharsis is a good cry: the theatre as emotional laxative, which is what \"cathartic\" meant in medicine."
   },
   {
     "id": "myth_077",
@@ -1074,8 +1074,8 @@
       "Trajan",
       "Antoninus Pius"
     ],
-    "explanation": "Written in Greek as private notes during military campaigns and never intended for publication; he was the last of the so-called Five Good Emperors.",
-    "hook": "A private diary written on campaign that became a philosophy classic by accident."
+    "explanation": "Marcus wrote the Meditations in Greek, as private notes to himself, largely while campaigning on the Danube in the 170s CE. He was the last of the \"Five Good Emperors\", and his son Commodus, the villain of the film Gladiator, succeeded him.",
+    "hook": "The philosopher-king of Gladiator: Richard Harris played him, Commodus smothered him."
   },
   {
     "id": "myth_078",
@@ -1088,78 +1088,78 @@
       "Dike",
       "Até"
     ],
-    "explanation": "Themis represented divine law, Dike human justice and Até the ruinous folly preceding downfall; nemesis survives in English for an inescapable adversary.",
-    "hook": "Até sends the folly, hubris follows, Nemesis collects."
+    "explanation": "Nemesis punished hubris and undeserved good fortune; in one version she made Narcissus fall for his reflection. Her name now means an arch-enemy or an inescapable downfall. Themis was divine law and Dike justice, while Até was the goddess of folly and ruin.",
+    "hook": "Nemesis follows hubris: your nemesis is the thing you cannot outrun."
   },
   {
     "id": "myth_079",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Sumerian city is often cited as one of the world's first true cities?",
+    "question": "Which Sumerian city, ruled by the legendary king Gilgamesh, is often cited as the world's first true city?",
     "answer": "Uruk",
     "distractors": [
+      "Ur",
       "Nineveh",
-      "Babylon",
-      "Ur"
+      "Babylon"
     ],
-    "explanation": "It may have reached 40,000 people by 3000 BCE and gave its name to the Uruk period; Gilgamesh is presented as its king.",
-    "hook": "Gilgamesh was its king, and Iraq may take its name from it."
+    "explanation": "Uruk, in southern Iraq, may have had 40,000 or more people by 3100 BCE, and the earliest known writing, proto-cuneiform, comes from there. It may even have given its name to Iraq. Ur, the usual wrong answer, was a nearby Sumerian city and Abraham's birthplace in Genesis.",
+    "hook": "Uruk gave us the first writing and possibly the name Iraq; Ur gave us Abraham."
   },
   {
     "id": "myth_080",
     "category": "mythology",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which Norse god sacrificed an eye for wisdom?",
     "answer": "Odin",
     "distractors": [
-      "Tyr",
+      "Týr",
       "Heimdall",
-      "Mimir"
+      "Mímir"
     ],
-    "explanation": "He gave it at Mimir's well and also hanged himself on Yggdrasil for nine nights to gain the runes; Tyr sacrificed a hand rather than an eye.",
-    "hook": "Odin gave an eye for wisdom, Tyr gave a hand for honour."
+    "explanation": "Odin gave an eye to drink from Mímir's well of wisdom beneath Yggdrasil, and also hanged himself on the tree for nine nights to learn the runes. His ravens Huginn and Muninn (\"thought\" and \"memory\") brought him news. Týr gave a hand, not an eye.",
+    "hook": "Odin paid an eye, Týr paid a hand: Norse gods pay in body parts."
   },
   {
     "id": "myth_081",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek text by Hesiod describes the origin of the gods?",
+    "question": "Which poem by Hesiod describes the origin and genealogy of the gods?",
     "answer": "The Theogony",
     "distractors": [
       "Works and Days",
       "The Homeric Hymns",
       "The Argonautica"
     ],
-    "explanation": "Works and Days is his farming and moral poem, the Homeric Hymns are anonymous devotional pieces, and the Argonautica is Apollonius's later epic about Jason.",
-    "hook": "Theogony for the gods' family tree, Works and Days for the farming advice."
+    "explanation": "Written around 700 BCE, the Theogony begins with Chaos, Gaia and Eros, then tells how Cronus castrated Uranus and Zeus overthrew Cronus. Hesiod's other surviving poem, Works and Days, is advice on farming and honest living. Hesiod and Homer are the two oldest Greek poets.",
+    "hook": "Theo-gony = gods' birth, as in cosmogony (birth of the universe)."
   },
   {
     "id": "myth_082",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which ancient Egyptian text was placed with the dead to guide them through the afterlife?",
+    "question": "Which collection of spells, written on papyrus and placed in New Kingdom tombs, guided the dead through the afterlife?",
     "answer": "The Book of the Dead",
     "distractors": [
       "The Pyramid Texts",
       "The Coffin Texts",
       "The Amduat"
     ],
-    "explanation": "The Pyramid Texts are older and reserved for royalty, the Coffin Texts extended access to nobles, and the Book of the Dead democratised the process further onto papyrus.",
-    "hook": "Pyramid Texts for kings, Coffin Texts for nobles, Book of the Dead for anyone who could pay."
+    "explanation": "The Egyptians called it the \"Book of Coming Forth by Day\". It developed from the Pyramid Texts, carved inside Old Kingdom royal pyramids, and the Coffin Texts, painted on Middle Kingdom coffins. Spell 125 describes the weighing of the heart.",
+    "hook": "Pyramid walls, then coffins, then papyrus: the spells got more portable over time."
   },
   {
     "id": "myth_083",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek island was Zeus said to have been born on?",
+    "question": "On which Greek island was Zeus said to have been born?",
     "answer": "Crete",
     "distractors": [
       "Delos",
       "Rhodes",
       "Naxos"
     ],
-    "explanation": "Rhea hid him in a cave there to save him from Cronus, who was swallowing his children; Delos was the birthplace of Apollo and Artemis.",
-    "hook": "Zeus born on Crete, Apollo and Artemis on Delos."
+    "explanation": "Rhea hid the infant Zeus in a Cretan cave, on Mount Ida or Mount Dikte, and gave Cronus a stone in swaddling clothes to swallow. The Kouretes clashed their shields to drown the baby's cries. Delos, the usual wrong answer, was the birthplace of Apollo and Artemis.",
+    "hook": "Zeus hid on Crete; the twins were born on Delos."
   },
   {
     "id": "myth_084",
@@ -1172,22 +1172,22 @@
       "Mithraism",
       "Yazidism"
     ],
-    "explanation": "Its dualism of good and evil influenced Judaism, Christianity and Islam; Manichaeism was a later religion that also drew on it heavily.",
-    "hook": "The good-versus-evil framework in three later religions traces back here."
+    "explanation": "Zoroastrianism, founded by the prophet Zarathustra, worships the wise lord Ahura Mazda against the destructive spirit Angra Mainyu. Its followers, the Parsis of India, include Freddie Mercury (born Farrokh Bulsara). The Magi of the nativity story were probably Zoroastrian priests.",
+    "hook": "Zarathustra = Zoroaster; Freddie Mercury was a Zoroastrian."
   },
   {
     "id": "myth_085",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek term describes the moment of recognition in tragedy?",
+    "question": "Which Greek term describes the moment of recognition in a tragedy?",
     "answer": "Anagnorisis",
     "distractors": [
       "Peripeteia",
       "Catharsis",
       "Stasis"
     ],
-    "explanation": "Aristotle held that the best tragedies combine it with peripeteia, the reversal of fortune, in a single moment — as when Oedipus learns who he is.",
-    "hook": "Oedipus's recognition and his downfall happen in the same instant — Aristotle's ideal."
+    "explanation": "Aristotle held that the best tragedies combine anagnorisis with peripeteia, the reversal of fortune, as in Oedipus Rex when Oedipus realises who his parents are. The word literally means \"knowing again\".",
+    "hook": "Ana-gnorisis: gnosis, knowledge, arriving again. The \"aha\" moment."
   },
   {
     "id": "myth_086",
@@ -1200,50 +1200,50 @@
       "Aurelian",
       "Septimius Severus"
     ],
-    "explanation": "Four rulers governed regions under two senior Augusti and two junior Caesars; he is also the only Roman emperor to voluntarily abdicate and retire.",
-    "hook": "He is the emperor who quit and went off to grow cabbages."
+    "explanation": "Diocletian split rule between two senior Augusti and two junior Caesars to manage an empire too big for one man. He retired in 305 to grow cabbages in his palace at Split, in Croatia, and the system collapsed into civil wars that Constantine eventually won.",
+    "hook": "Tetra = four: four emperors, then Diocletian retired to his cabbages in Split."
   },
   {
     "id": "myth_087",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek hero rode the winged horse Pegasus?",
+    "question": "Which hero tamed the winged horse Pegasus with a golden bridle and rode him to kill the Chimera?",
     "answer": "Bellerophon",
     "distractors": [
       "Perseus",
       "Theseus",
       "Jason"
     ],
-    "explanation": "He killed the Chimera from horseback but fell when he tried to ride to Olympus; Pegasus sprang from Medusa's neck when Perseus beheaded her.",
-    "hook": "Pegasus came out of Medusa's neck, but Perseus never rode him."
+    "explanation": "Athena gave Bellerophon the bridle. He later tried to fly Pegasus up to Olympus, and Zeus sent a gadfly to make the horse throw him. Renaissance artists often put Perseus on Pegasus, but in Greek myth Perseus flew with winged sandals.",
+    "hook": "Perseus freed Pegasus from Medusa's neck; Bellerophon was the one who rode him."
   },
   {
     "id": "myth_088",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which ancient wonder was a tomb built for a Persian satrap in Anatolia?",
+    "question": "Which Wonder of the Ancient World was a tomb for a Persian satrap in Anatolia?",
     "answer": "The Mausoleum at Halicarnassus",
     "distractors": [
       "The Temple of Artemis",
       "The Colossus of Rhodes",
       "The Statue of Zeus"
     ],
-    "explanation": "Built for Mausolus around 350 BCE, it gave the English language the word 'mausoleum'; earthquakes destroyed it by the fifteenth century.",
-    "hook": "The word 'mausoleum' is one man's name."
+    "explanation": "The tomb of Mausolus, ruler of Caria, was completed around 350 BCE by his widow and sister Artemisia. It was so famous that every grand tomb is now a mausoleum. Halicarnassus is modern Bodrum in Turkey, and some of its stones are in the Crusader castle there.",
+    "hook": "Mausolus gave us the mausoleum, the only Wonder to become an everyday word."
   },
   {
     "id": "myth_089",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Norse text collection is the primary source for most Norse mythology?",
+    "question": "Which Icelandic texts are the primary source for most Norse mythology?",
     "answer": "The Poetic and Prose Eddas",
     "distractors": [
       "The Nibelungenlied",
       "The Kalevala",
       "Beowulf"
     ],
-    "explanation": "Snorri Sturluson wrote the Prose Edda in thirteenth-century Iceland, two centuries after Christianisation; the Kalevala is Finnish and the Nibelungenlied German.",
-    "hook": "Most of what we know was written down by a Christian Icelander centuries later."
+    "explanation": "The Prose Edda was written by the Icelandic chieftain Snorri Sturluson around 1220 as a handbook for poets. The Poetic Edda is an older anonymous collection preserved in the Codex Regius. The Nibelungenlied is German, the Kalevala Finnish and Beowulf Old English.",
+    "hook": "Snorri wrote the Prose Edda; the poems came first. Both are Icelandic."
   },
   {
     "id": "myth_090",
@@ -1256,27 +1256,27 @@
       "Epicurus",
       "Zeno of Citium"
     ],
-    "explanation": "Aristotle founded the rival Lyceum, Epicurus the Garden and Zeno the Stoa; the Academy ran in some form for nearly nine centuries.",
-    "hook": "Academy, Lyceum, Garden, Stoa — four schools, four founders."
+    "explanation": "Plato founded the Academy around 387 BCE in a grove sacred to the hero Akademos, which gave us the word \"academic\". Aristotle founded the Lyceum, Epicurus the Garden and Zeno the Stoa, which named the Stoics.",
+    "hook": "Plato: Academy. Aristotle: Lyceum. Epicurus: Garden. Zeno: Stoa (porch)."
   },
   {
     "id": "myth_091",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Egyptian goddess was often depicted with a solar disc between cow horns?",
+    "question": "Which Egyptian goddess of love, music and joy was often shown as a cow or with cow's ears?",
     "answer": "Hathor",
     "distractors": [
       "Isis",
       "Bastet",
       "Sekhmet"
     ],
-    "explanation": "Isis later adopted similar iconography, causing confusion; Bastet had a cat's head and Sekhmet a lioness's, representing very different aspects of divine power.",
-    "hook": "Cow horns for Hathor, cat for Bastet, lioness for Sekhmet."
+    "explanation": "Hathor wore the sun disc between cow horns, and later Isis borrowed that headdress, which is why the two are often confused. Her great temple is at Dendera. Bastet was the cat goddess and Sekhmet the lioness of war.",
+    "hook": "Hathor is the cow, Bastet the cat, Sekhmet the lioness."
   },
   {
     "id": "myth_092",
     "category": "mythology",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which battle in 490 BCE gave its name to a modern long-distance race?",
     "answer": "Marathon",
     "distractors": [
@@ -1284,8 +1284,8 @@
       "Salamis",
       "Plataea"
     ],
-    "explanation": "The story of a runner carrying news to Athens is probably a later invention; the modern distance of 42.195 kilometres was fixed at the 1908 London Olympics.",
-    "hook": "The famous run is likely legend, and the exact distance was set in London in 1908."
+    "explanation": "The Athenians beat the Persian invaders at Marathon. Legend says a runner ran the 40 kilometres to Athens to announce the win and died; Herodotus instead describes Pheidippides running to Sparta for help. The modern 42.195-kilometre distance comes from the course of the 1908 London Olympics.",
+    "hook": "Marathon was the victory, the run was the news, and 1908 London set the distance."
   },
   {
     "id": "myth_093",
@@ -1298,8 +1298,8 @@
       "Heraclitus",
       "Pyrrho"
     ],
-    "explanation": "The founder of Cynicism, he reportedly told Alexander the Great to stop blocking his sunlight; Pyrrho founded scepticism and Heraclitus held that all things flow.",
-    "hook": "Asked what Alexander could do for him, he asked him to step out of the light."
+    "explanation": "Diogenes of Sinope, the founding Cynic, begged, lived in a pithos and carried a lamp in daylight, \"looking for an honest man\". Told by Alexander the Great to ask for anything, he said \"Stand out of my light\". \"Cynic\" comes from the Greek for \"dog-like\".",
+    "hook": "Diogenes the dog: jar for a house, lamp for honest men, and Alexander told to move."
   },
   {
     "id": "myth_094",
@@ -1312,8 +1312,8 @@
       "Dharma",
       "Karma"
     ],
-    "explanation": "Moksha is liberation from that cycle, dharma is duty or cosmic order, and karma is the action determining future rebirth.",
-    "hook": "Samsara is the wheel, karma turns it, moksha is getting off."
+    "explanation": "Samsara, \"wandering through\", is the cycle of rebirth; karma decides your next life and moksha is liberation from the cycle. Dharma is duty or right conduct. Buddhism and Jainism share the idea, with nirvana the Buddhist escape.",
+    "hook": "Samsara is the wheel, karma the fuel, moksha the exit."
   },
   {
     "id": "myth_095",
@@ -1326,22 +1326,22 @@
       "Horace",
       "Lucretius"
     ],
-    "explanation": "Its fifteen books of transformation myths are the main source for many Greek stories in Western art; he was exiled by Augustus for reasons never fully explained.",
-    "hook": "Most Greek myths reached European painters through a Roman poet in exile."
+    "explanation": "The Metamorphoses, completed around 8 CE, retells about 250 transformation myths, from creation to Julius Caesar's deification. Augustus exiled Ovid to Tomis on the Black Sea the same year, for \"a poem and a mistake\". Virgil wrote the Aeneid.",
+    "hook": "Ovid for shape-shifters, Virgil for Aeneas."
   },
   {
     "id": "myth_096",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Buddhist concept describes the cessation of suffering and desire?",
+    "question": "Which Buddhist concept describes the ending of suffering and desire?",
     "answer": "Nirvana",
     "distractors": [
       "Dukkha",
       "Anatta",
       "Samadhi"
     ],
-    "explanation": "Dukkha is suffering itself, anatta the doctrine of no permanent self, and samadhi a state of meditative concentration on the path toward it.",
-    "hook": "Dukkha is the problem, nirvana is the solution, anatta explains why."
+    "explanation": "Nirvana literally means \"blowing out\", as of a flame, the extinguishing of greed, hatred and delusion. Dukkha, suffering, is the first of the Four Noble Truths; anatta is the doctrine of no permanent self.",
+    "hook": "Nirvana blows out the candle of desire; dukkha is what burns until then."
   },
   {
     "id": "myth_097",
@@ -1354,8 +1354,8 @@
       "Galatea",
       "Doris"
     ],
-    "explanation": "A prophecy that her son would surpass his father is why Zeus married her to a mortal; Amphitrite was Poseidon's wife.",
-    "hook": "Zeus married her off to a mortal because her son was fated to outdo his father."
+    "explanation": "Zeus and Poseidon both wanted Thetis until a prophecy said her son would be greater than his father, so she was married off to the mortal Peleus. Eris threw the golden apple at their wedding, starting the chain of events that led to the Trojan War.",
+    "hook": "Thetis's wedding started the war her son would die in."
   },
   {
     "id": "myth_098",
@@ -1368,148 +1368,148 @@
       "Cypro-Minoan",
       "Phoenician"
     ],
-    "explanation": "The tablets survived because fires baked them; almost all are administrative inventories rather than literature, listing sheep, oil and chariot wheels.",
-    "hook": "The oldest Greek writing we have is mostly stocktaking."
+    "explanation": "Linear B was deciphered in 1952 by Michael Ventris, an architect, who showed it was an early form of Greek. The tablets survived because the palaces that stored them burned, baking the clay. Linear A, used by the Minoans, remains undeciphered.",
+    "hook": "Linear A is still Anonymous; Linear B is Before-classical Greek."
   },
   {
     "id": "myth_099",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Celtic festival marked the beginning of winter and influenced Halloween?",
+    "question": "Which Gaelic festival marked the beginning of winter and influenced Halloween?",
     "answer": "Samhain",
     "distractors": [
       "Beltane",
       "Imbolc",
       "Lughnasadh"
     ],
-    "explanation": "Beltane marks the start of summer, Imbolc early spring and Lughnasadh the harvest; Samhain fell around 1 November when the boundary with the otherworld thinned.",
-    "hook": "Samhain winter, Imbolc spring, Beltane summer, Lughnasadh harvest."
+    "explanation": "Samhain, on 1 November, ended the harvest and was believed to be when the boundary with the otherworld was thinnest. Beltane (1 May) marked summer, Imbolc (1 February) spring and Lughnasadh (1 August) the harvest. The Irish word for November is still Samhain.",
+    "hook": "Samhain is Irish for November, and it is pronounced \"sow-in\"."
   },
   {
     "id": "myth_100",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek general's retreat with ten thousand mercenaries was recorded in the Anabasis?",
+    "question": "Which Athenian soldier and writer recorded the retreat of the Ten Thousand in the Anabasis?",
     "answer": "Xenophon",
     "distractors": [
       "Alcibiades",
       "Themistocles",
       "Thucydides"
     ],
-    "explanation": "He led Greek mercenaries out of Persia after their employer was killed, and the moment they sighted the Black Sea and cried 'the sea, the sea' is among antiquity's most famous.",
-    "hook": "'Thalatta! Thalatta!' — the sea, the sea, and they knew they were going home."
+    "explanation": "The Greek mercenaries had fought for Cyrus the Younger in a failed bid for the Persian throne in 401 BCE and had to march home through hostile territory. Their famous cry on seeing the Black Sea was \"Thalatta! Thalatta!\" (\"The sea! The sea!\"). Xenophon was also a pupil of Socrates.",
+    "hook": "\"Thalatta!\" was the Ten Thousand's cry: Xenophon's march ended at the sea."
   },
   {
     "id": "myth_101",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Roman structure was built by Hadrian across northern Britain?",
+    "question": "Which Roman fortification, begun in 122 CE, ran from the River Tyne to the Solway Firth?",
     "answer": "Hadrian's Wall",
     "distractors": [
       "The Antonine Wall",
       "Offa's Dyke",
       "The Fosse Way"
     ],
-    "explanation": "It ran 117 kilometres from the Tyne to the Solway; the Antonine Wall further north was built later and abandoned within a generation.",
+    "explanation": "It ran about 117 kilometres across northern England, with a milecastle every Roman mile. The Antonine Wall, built further north in Scotland in the 140s, was abandoned within a generation. Offa's Dyke is an Anglo-Saxon earthwork along the Welsh border.",
     "hook": "Rome built two walls in Britain and kept only the southern one."
   },
   {
     "id": "myth_102",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek historian is called the father of history?",
+    "question": "Which Greek historian is called the Father of History?",
     "answer": "Herodotus",
     "distractors": [
       "Thucydides",
       "Polybius",
       "Plutarch"
     ],
-    "explanation": "Cicero gave him the title; Thucydides wrote a more rigorously evidential account of the Peloponnesian War and is sometimes called the father of scientific history instead.",
-    "hook": "Herodotus tells the better stories; Thucydides checks the facts."
+    "explanation": "Cicero gave Herodotus the title for his Histories on the Persian Wars; critics called him the Father of Lies for his tall tales. Thucydides, who wrote on the Peloponnesian War, is seen as the more rigorous founder of scientific history.",
+    "hook": "Herodotus the storyteller, Thucydides the stickler."
   },
   {
     "id": "myth_103",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Norse goddess received half the battle-slain, with Odin taking the other half?",
+    "question": "Which Norse goddess received half of the battle-slain, with Odin taking the other half?",
     "answer": "Freyja",
     "distractors": [
       "Frigg",
       "Sif",
-      "Idunn"
+      "Iðunn"
     ],
-    "explanation": "Her hall Fólkvangr took first choice of the dead; Frigg is Odin's wife, Sif is Thor's, and Idunn keeps the apples of youth.",
-    "hook": "Valhalla gets half the dead — and it is not the half chosen first."
+    "explanation": "Freyja chose first, taking her share to her field Fólkvangr, according to the Eddic poem Grímnismál. She was a goddess of love, war and magic who rode a chariot drawn by cats. Frigg is Odin's wife; the two goddesses are easily confused, and Friday may be named after either.",
+    "hook": "Freyja gets first pick of the dead, and rides to battle behind cats."
   },
   {
     "id": "myth_104",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which pre-Columbian civilisation developed the most sophisticated writing system in the Americas?",
+    "question": "Which pre-Columbian civilisation developed the most complete writing system in the Americas?",
     "answer": "The Maya",
     "distractors": [
       "The Aztec",
       "The Inca",
-      "The Zapotec"
+      "The Olmec"
     ],
-    "explanation": "Their glyphic script recorded history, astronomy and dynastic records, and was largely deciphered only in the second half of the twentieth century.",
-    "hook": "Deciphering it took until the 1980s — longer than Egyptian hieroglyphs."
+    "explanation": "Maya glyphs could record full spoken language, using both word signs and syllables. Most books were burned by Spanish priests; only four codices survive. The Inca instead used knotted cords, quipu, for records.",
+    "hook": "The Maya wrote, the Inca knotted."
   },
   {
     "id": "myth_105",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek term describes an offering or sacrifice that is entirely burnt?",
+    "question": "Which Greek term describes a sacrificial offering that is entirely burnt?",
     "answer": "A holocaust",
     "distractors": [
       "A hecatomb",
       "A libation",
       "A votive"
     ],
-    "explanation": "A hecatomb was specifically a sacrifice of a hundred oxen, a libation is a poured drink offering and a votive is a dedicated object; the modern use of the first term dates from the twentieth century.",
-    "hook": "Hecatomb is a hundred oxen; libation is poured, not burned."
+    "explanation": "Holokaustos means \"wholly burnt\", as opposed to normal sacrifices where the meat was shared at a feast. A hecatomb was a sacrifice of a hundred oxen, a libation a poured drink offering. The word was later applied to the Nazi genocide, which Jewish people call the Shoah.",
+    "hook": "Holo- (whole) plus caust (burnt, as in caustic)."
   },
   {
     "id": "myth_106",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which biblical book contains the Ten Commandments' first appearance?",
+    "question": "Which book of the Bible is the first to set out the Ten Commandments?",
     "answer": "Exodus",
     "distractors": [
       "Genesis",
       "Leviticus",
       "Deuteronomy"
     ],
-    "explanation": "They appear in Exodus 20 and again in Deuteronomy 5 with small differences; Leviticus concerns priestly law and Genesis the creation and patriarchs.",
-    "hook": "They appear twice, in Exodus and Deuteronomy, and the two versions do not quite match."
+    "explanation": "The commandments appear in Exodus 20, given at Mount Sinai, and again in Deuteronomy 5 as Moses repeats the law before his death. Deuteronomy means \"second law\". Moses smashed the first tablets when he saw the golden calf.",
+    "hook": "Exodus has them first; Deuteronomy, the \"second law\", has them again."
   },
   {
     "id": "myth_107",
     "category": "mythology",
-    "difficulty": "hard",
-    "question": "Which Greek city-state's rigid military society trained boys from the age of seven?",
+    "difficulty": "medium",
+    "question": "Which Greek city-state trained boys for war from the age of seven?",
     "answer": "Sparta",
     "distractors": [
       "Athens",
       "Corinth",
       "Thebes"
     ],
-    "explanation": "The agoge produced its soldiers; Spartan women held property rights unusual in Greece precisely because the men were permanently at war or in barracks.",
-    "hook": "Spartan women owned land because Spartan men were never home."
+    "explanation": "The Spartan training system, the agoge, took boys from their families at seven. Spartan citizens did no other work, relying on the enslaved helots. The 300 at Thermopylae in 480 BCE were led by King Leonidas.",
+    "hook": "Spartan still means austere; laconic comes from Laconia, their region."
   },
   {
     "id": "myth_108",
     "category": "mythology",
-    "difficulty": "hard",
-    "question": "Which Hindu deity is known as the preserver in the principal triad?",
+    "difficulty": "medium",
+    "question": "Which Hindu deity is known as the preserver in the Trimurti?",
     "answer": "Vishnu",
     "distractors": [
       "Shiva",
       "Brahma",
       "Indra"
     ],
-    "explanation": "Brahma creates and Shiva destroys or transforms; Vishnu's avatars include Rama and Krishna, which is why he appears throughout the major epics.",
-    "hook": "Brahma creates, Vishnu preserves, Shiva destroys."
+    "explanation": "The Trimurti is Brahma the creator, Vishnu the preserver and Shiva the destroyer. Vishnu comes to earth in avatars when order is threatened; Rama and Krishna are the most famous. Shiva is the usual wrong answer, and Brahma is rarely worshipped separately.",
+    "hook": "Brahma begins, Vishnu keeps going, Shiva shuts down: B, V, S."
   },
   {
     "id": "myth_109",
@@ -1522,36 +1522,36 @@
       "Tacitus",
       "Suetonius"
     ],
-    "explanation": "He died at Vesuvius in 79 CE while attempting a rescue; his nephew Pliny the Younger wrote the surviving eyewitness account of the eruption.",
-    "hook": "The uncle died in the eruption; the nephew wrote it up."
+    "explanation": "The Natural History, in 37 books, covers everything from astronomy to art. Pliny died in 79 CE after sailing to rescue friends from Vesuvius. His nephew Pliny the Younger wrote the eyewitness account in letters to Tacitus.",
+    "hook": "The Elder wrote the encyclopaedia; the Younger wrote the letters."
   },
   {
     "id": "myth_110",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek deity was said to have been swallowed and later regurgitated by Cronus?",
+    "question": "Which of these gods was swallowed by his father Cronus and later regurgitated?",
     "answer": "Poseidon",
     "distractors": [
       "Zeus",
-      "Prometheus",
+      "Apollo",
       "Dionysus"
     ],
-    "explanation": "Cronus swallowed all his children except Zeus, whom Rhea hid; Zeus later forced him to disgorge Poseidon, Hades, Hera, Demeter and Hestia.",
-    "hook": "Zeus was the only one who avoided being eaten, which is why he freed the rest."
+    "explanation": "Cronus swallowed Hestia, Demeter, Hera, Hades and Poseidon to stop a prophecy that a child would overthrow him. Zeus, the youngest, was swapped for a stone, and later gave Cronus a drink that made him vomit up the others. Goya's painting \"Saturn Devouring His Son\" shows the Roman version.",
+    "hook": "Zeus was the one who was NOT swallowed: he got the stone swapped in."
   },
   {
     "id": "myth_111",
     "category": "mythology",
-    "difficulty": "hard",
-    "question": "Which ancient Greek site hosted athletic games every four years from 776 BCE?",
+    "difficulty": "medium",
+    "question": "Which Greek site hosted athletic games every four years from 776 BCE?",
     "answer": "Olympia",
     "distractors": [
       "Delphi",
       "Nemea",
       "Isthmia"
     ],
-    "explanation": "Delphi, Nemea and Isthmia hosted the other three Panhellenic games, and together the four formed a cycle; the Olympics were abolished around 393 CE.",
-    "hook": "Four Panhellenic games, one cycle — Olympia was simply the biggest."
+    "explanation": "The games at Olympia honoured Zeus, whose statue there by Phidias was a Wonder of the World. Winners got an olive wreath. Delphi (Pythian), Nemea and Isthmia hosted the other three Panhellenic games. Theodosius I is traditionally said to have ended the games around 393 CE.",
+    "hook": "Olympia is in the Peloponnese, a long way from Mount Olympus in the north."
   },
   {
     "id": "myth_112",
@@ -1564,134 +1564,134 @@
       "Amenhotep III",
       "Seti I"
     ],
-    "explanation": "The complex was cut into cliffs in the thirteenth century BCE and relocated in the 1960s to escape flooding by the Aswan High Dam.",
-    "hook": "The whole temple was sawn up and moved uphill in the 1960s."
+    "explanation": "Ramesses II carved two temples into a Nubian cliff, the larger fronted by four 20-metre statues of himself. In the 1960s UNESCO cut them up and moved them 65 metres higher to save them from Lake Nasser behind the Aswan High Dam.",
+    "hook": "Ramesses built big; UNESCO later moved the whole cliff uphill."
   },
   {
     "id": "myth_113",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which philosophical school held that virtue is the only good and emotions should be mastered?",
+    "question": "Which philosophical school held that virtue is the only good and that emotions should be mastered by reason?",
     "answer": "Stoicism",
     "distractors": [
       "Epicureanism",
-      "Cynicism",
+      "Neoplatonism",
       "Scepticism"
     ],
-    "explanation": "Epicureanism sought tranquil pleasure rather than indulgence, Cynicism rejected convention entirely, and Scepticism suspended judgment on all claims.",
-    "hook": "Epicureans are misremembered as hedonists; they actually recommended bread and friendship."
+    "explanation": "Stoicism was founded by Zeno of Citium around 300 BCE and taught in the Painted Porch (Stoa Poikile) in Athens. Its best-known Roman voices are Seneca, Epictetus and Marcus Aurelius. Epicureans instead sought pleasure, meaning freedom from pain and fear.",
+    "hook": "A stoic keeps calm; an epicurean enjoys the meal."
   },
   {
     "id": "myth_114",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Norse artefact was a ring that produced eight copies of itself every ninth night?",
+    "question": "Which Norse ring produced eight copies of itself every ninth night?",
     "answer": "Draupnir",
     "distractors": [
       "Gungnir",
-      "Brisingamen",
+      "Brísingamen",
       "Gleipnir"
     ],
-    "explanation": "Odin's ring symbolised endless wealth; Gungnir is his spear, Brisingamen Freyja's necklace and Gleipnir the ribbon binding Fenrir.",
-    "hook": "Draupnir ring, Gungnir spear, Gleipnir the ribbon that held a wolf."
+    "explanation": "The dwarves Brokkr and Sindri made Draupnir for Odin in the same contest that produced Mjölnir. Odin placed it on his son Baldr's funeral pyre. Gungnir is Odin's spear, Brísingamen Freyja's necklace and Gleipnir the fetter that bound Fenrir.",
+    "hook": "Draupnir means \"the dripper\": gold rings drip from it every ninth night."
   },
   {
     "id": "myth_115",
     "category": "mythology",
-    "difficulty": "hard",
-    "question": "Which Greek epic poem recounts the ten-year journey home from Troy?",
+    "difficulty": "medium",
+    "question": "Which Greek epic recounts the ten-year journey home from Troy?",
     "answer": "The Odyssey",
     "distractors": [
       "The Iliad",
       "The Aeneid",
       "The Argonautica"
     ],
-    "explanation": "The Iliad covers only a few weeks of the war itself; the Aeneid follows a Trojan survivor to Italy and the Argonautica predates the war entirely.",
-    "hook": "The Iliad is weeks of one war; the Odyssey is ten years of getting home."
+    "explanation": "Odysseus spends ten years getting home to Ithaca, after ten years at Troy, meeting the Cyclops Polyphemus, Circe and the Sirens. His wife Penelope held off suitors by unpicking her weaving every night. The Iliad covers just a few weeks of the war itself.",
+    "hook": "The Iliad is the war, the Odyssey the road home."
   },
   {
     "id": "myth_116",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Mesoamerican ball game had ritual and possibly sacrificial significance?",
+    "question": "Which game still played in Sinaloa, Mexico, is the living descendant of the ancient Mesoamerican ritual ball game?",
     "answer": "Ulama",
     "distractors": [
       "Pelota vasca",
       "Chunkey",
       "Patolli"
     ],
-    "explanation": "Played with a solid rubber ball on I-shaped courts across Mesoamerica for three thousand years; patolli was a board game and chunkey a North American sport.",
-    "hook": "Rubber balls and stone hoops, three thousand years before basketball."
+    "explanation": "The ancient game was played on I-shaped courts with a heavy rubber ball struck with the hips. At some sites, such as Chichén Itzá, carvings suggest players were sacrificed. Patolli was an Aztec board game and chunkey a Native American stone-rolling game.",
+    "hook": "Ulama, the rubber ball game: Mesoamerica invented rubber sports 3,000 years before tennis."
   },
   {
     "id": "myth_117",
     "category": "mythology",
-    "difficulty": "hard",
-    "question": "Which Islamic term describes the pilgrimage to Mecca required once in a lifetime?",
+    "difficulty": "medium",
+    "question": "Which Islamic pilgrimage to Mecca is required once in a lifetime of those able to make it?",
     "answer": "The Hajj",
     "distractors": [
       "The Umrah",
       "The Salat",
       "The Zakat"
     ],
-    "explanation": "The Umrah is a lesser pilgrimage that can be made at any time, salat is daily prayer and zakat is almsgiving; the Hajj occurs in a specific month.",
-    "hook": "Hajj is the big one in a fixed month; Umrah can be done any time."
+    "explanation": "The Hajj takes place in the month of Dhu al-Hijjah and ends with Eid al-Adha. The Umrah is a lesser pilgrimage possible at any time of year. Salat is the daily prayer and zakat the obligatory almsgiving.",
+    "hook": "Hajj is the once-in-a-lifetime; Umrah is the anytime."
   },
   {
     "id": "myth_118",
     "category": "mythology",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which Greek myth explains the origin of the seasons?",
     "answer": "The abduction of Persephone",
     "distractors": [
       "The flight of Icarus",
       "The theft of fire",
-      "The judgment of Paris"
+      "The judgement of Paris"
     ],
-    "explanation": "She ate pomegranate seeds in the underworld and must return for part of each year; the judgment of Paris instead sets off the Trojan War.",
-    "hook": "Pomegranate seeds are why winter exists — one seed per month underground."
+    "explanation": "Persephone ate pomegranate seeds in the underworld (six in most modern retellings), so she must spend part of each year with Hades. Her grieving mother Demeter then lets nothing grow, which is winter. The story was re-enacted in the Eleusinian Mysteries.",
+    "hook": "Six seeds, six months of winter."
   },
   {
     "id": "myth_119",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which ancient civilisation built Göbekli Tepe, predating agriculture?",
-    "answer": "Pre-pottery Neolithic hunter-gatherers",
+    "question": "Who built Göbekli Tepe, the Turkish stone-pillar site dated to around 9500 BCE?",
+    "answer": "Pre-Pottery Neolithic hunter-gatherers",
     "distractors": [
-      "The Sumerians of Mesopotamia",
-      "The Hittites of Anatolia",
-      "The Phoenicians of the Levant"
+      "Sumerian city-dwellers",
+      "Hittite warrior kings",
+      "Phoenician sea traders"
     ],
-    "explanation": "The Turkish site dates to around 9500 BCE, some 6,000 years before Stonehenge, and upended the assumption that farming preceded monumental religion.",
-    "hook": "Built by hunter-gatherers before farming existed — which reverses the usual story."
+    "explanation": "Göbekli Tepe's carved T-shaped pillars are about 6,000 years older than Stonehenge and were built before pottery or writing existed. Its excavator, Klaus Schmidt, argued that building such sites may have driven the move to farming rather than the other way round.",
+    "hook": "Göbekli Tepe: a temple before farms, pots, or writing."
   },
   {
     "id": "myth_120",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek concept of divine law was personified as a Titaness advising Zeus?",
+    "question": "Which Titaness personified divine law and order, and sat beside Zeus as his counsellor?",
     "answer": "Themis",
     "distractors": [
       "Nemesis",
       "Metis",
       "Mnemosyne"
     ],
-    "explanation": "Metis was wisdom and Zeus's first wife, Mnemosyne memory and mother of the Muses; blindfolded Justice statues derive from Themis.",
-    "hook": "The blindfolded statue outside every courthouse is Themis."
+    "explanation": "Themis was the mother of the Horae (the Seasons) and, in some versions, of the Moirai. Blindfolded \"Lady Justice\" statues with scales descend from her and the Roman Iustitia. Metis, Zeus's first wife, was wisdom; Mnemosyne, memory and the mother of the Muses.",
+    "hook": "Themis is on the courthouse: scales, sword and blindfold."
   },
   {
     "id": "myth_121",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Roman road connected Rome to Brindisi in the south?",
+    "question": "Which Roman road ran from Rome to Brindisi in the south?",
     "answer": "The Appian Way",
     "distractors": [
       "The Via Flaminia",
       "The Via Aurelia",
       "The Via Egnatia"
     ],
-    "explanation": "Begun in 312 BCE, it was called the queen of roads; the Via Egnatia continued the route across the Balkans from the Adriatic coast.",
-    "hook": "The Appian Way ran to the heel of Italy and the Egnatia picked up on the far shore."
+    "explanation": "The Via Appia was begun in 312 BCE by the censor Appius Claudius Caecus, first to Capua, then extended to Brundisium (Brindisi), the port for Greece. After Spartacus's revolt was crushed in 71 BCE, 6,000 rebels were crucified along it.",
+    "hook": "The Appian Way was the \"queen of roads\", named after its builder Appius."
   },
   {
     "id": "myth_122",
@@ -1704,8 +1704,8 @@
       "Tsukuyomi",
       "Inari"
     ],
-    "explanation": "Susanoo is her storm-god brother and Tsukuyomi the moon; the imperial family traditionally claimed descent from her.",
-    "hook": "Sun, moon and storm were siblings, and the emperors claimed the sun."
+    "explanation": "Amaterasu once hid in a cave after the rudeness of her brother, storm god Susanoo, plunging the world into darkness until the gods lured her out with a mirror and laughter. Her shrine at Ise is Shinto's holiest. Tsukuyomi is the moon god.",
+    "hook": "Amaterasu sulking in her cave is the eclipse myth; the emperors claimed her as ancestor."
   },
   {
     "id": "myth_123",
@@ -1718,8 +1718,8 @@
       "Parmenides",
       "Democritus"
     ],
-    "explanation": "It appears in the Republic and illustrates his theory of Forms, in which the visible world is a poor copy of an underlying reality.",
-    "hook": "The shadows are the world you can see; the fire and the objects are what is really there."
+    "explanation": "The allegory of the cave, in the Republic, shows prisoners mistaking shadows for reality; the freed philosopher sees the sun, representing the Form of the Good. It is the classic illustration of Plato's theory of Forms.",
+    "hook": "Plato's cave: shadows are what we see, Forms are what is real."
   },
   {
     "id": "myth_124",
@@ -1728,31 +1728,31 @@
     "question": "Which Norse ship was said to be built from the fingernails of the dead?",
     "answer": "Naglfar",
     "distractors": [
-      "Skidbladnir",
+      "Skíðblaðnir",
       "Hringhorni",
-      "Ringhorn"
+      "Ellida"
     ],
-    "explanation": "It sails at Ragnarök carrying the forces against the gods; Skidbladnir is Freyr's ship that folds into a pocket, and Hringhorni was Baldr's funeral ship.",
-    "hook": "One ship folds into a pocket; the other is built from dead men's nails."
+    "explanation": "Naglfar will carry giants to Ragnarök, which is why Norse people trimmed the nails of the dead: to slow its building. Skíðblaðnir was Freyr's ship, which could fold into a pocket, and Hringhorni was Baldr's funeral ship.",
+    "hook": "Nagl sounds like nail: Naglfar is the nail ship."
   },
   {
     "id": "myth_125",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which ancient Greek device recovered from a shipwreck models astronomical positions?",
+    "question": "Which ancient Greek device recovered from a shipwreck modelled astronomical positions?",
     "answer": "The Antikythera mechanism",
     "distractors": [
       "The Baghdad battery",
       "The Nebra sky disc",
       "The Phaistos disc"
     ],
-    "explanation": "Dated to around the second century BCE, its bronze gearing had no known equal until fourteenth-century clocks; the Phaistos disc remains undeciphered.",
-    "hook": "Gearing this complex does not reappear for another 1,400 years."
+    "explanation": "Sponge divers found it in 1901 in a wreck off Antikythera from about 60 BCE. Its bronze gearwheels predicted eclipses and the positions of the Sun and Moon, and tracked the four-yearly Olympic Games. Nothing as complex is known for another 1,000 years or more.",
+    "hook": "Often called the first analogue computer: a Greek clockwork from 2,000 years ago."
   },
   {
     "id": "myth_126",
     "category": "mythology",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "question": "Which Greek goddess of the hunt was Apollo's twin?",
     "answer": "Artemis",
     "distractors": [
@@ -1760,8 +1760,8 @@
       "Hecate",
       "Selene"
     ],
-    "explanation": "Their mother Leto gave birth on Delos; Hecate governed witchcraft and crossroads and Selene the moon, though Artemis absorbed lunar associations later.",
-    "hook": "Apollo and Artemis are twins — sun and hunt, born on the same island."
+    "explanation": "Leto gave birth to the twins on Delos after Hera banned her from every place on solid land. Artemis was also a goddess of the Moon and childbirth; her temple at Ephesus was a Wonder of the World. The Romans called her Diana.",
+    "hook": "Apollo the sun, Artemis the moon: twins of light."
   },
   {
     "id": "myth_127",
@@ -1774,49 +1774,399 @@
       "The Kushan Empire",
       "The Chola Empire"
     ],
-    "explanation": "Horrified by the slaughter at Kalinga, he converted to Buddhism and inscribed edicts on pillars across India; the Ashoka Chakra appears on India's flag.",
-    "hook": "The wheel on the Indian flag is his."
+    "explanation": "After his bloody conquest of Kalinga around 261 BCE, Ashoka converted to Buddhism and had edicts on tolerance carved on pillars across his empire. The lion capital of one pillar, at Sarnath, is India's national emblem, and the Ashoka wheel is on its flag.",
+    "hook": "India's flag carries Ashoka's wheel."
   },
   {
     "id": "myth_128",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek term describes the tragic hero's error of judgment?",
+    "question": "Which Greek term describes the tragic hero's error of judgement?",
     "answer": "Hamartia",
     "distractors": [
       "Hubris",
-      "Ate",
+      "Até",
       "Nemesis"
     ],
-    "explanation": "Often loosely translated as 'fatal flaw', Aristotle's term is closer to a mistake or misjudgment than a moral defect; hubris is one possible form it takes.",
-    "hook": "'Fatal flaw' is a mistranslation — Aristotle meant a mistake, not a character defect."
+    "explanation": "Aristotle used hamartia in the Poetics for the mistake that brings a good person down. It is often translated as \"fatal flaw\", though Aristotle probably meant an error rather than a character trait. The word literally means \"missing the mark\" and later became the New Testament word for sin.",
+    "hook": "Hamartia misses the mark: the arrow falls short."
   },
   {
     "id": "myth_129",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Roman emperor was the first to be born outside Italy?",
-    "answer": "Trajan",
+    "question": "Which Roman emperor, born at Lugdunum (Lyon) in 10 BCE, was the first born outside Italy?",
+    "answer": "Claudius",
     "distractors": [
-      "Hadrian",
-      "Nerva",
-      "Vespasian"
+      "Trajan",
+      "Caligula",
+      "Nero"
     ],
-    "explanation": "Born in Hispania around 53 CE, he expanded the empire to its greatest extent; Hadrian, also Spanish-born, consolidated rather than expanded it.",
-    "hook": "The empire reached its largest under a Spaniard, and his successor pulled it back."
+    "explanation": "Claudius was born in Gaul while his father was campaigning, and became emperor in 41 CE after Caligula was murdered. Trajan, from Italica in Spain, is often wrongly given this title: he was the first emperor of provincial family. Claudius oversaw the invasion of Britain in 43 CE.",
+    "hook": "Claudius was born in Gaul and conquered Britain: very un-Italian."
   },
   {
     "id": "myth_130",
     "category": "mythology",
     "difficulty": "hard",
-    "question": "Which Greek myth describes a craftsman whose statue came to life?",
+    "question": "Which sculptor in Greek myth fell in love with his statue, which came to life?",
     "answer": "Pygmalion",
     "distractors": [
       "Daedalus",
       "Hephaestus",
       "Prometheus"
     ],
-    "explanation": "Aphrodite animated the ivory figure he had fallen in love with; Shaw's play and the musical My Fair Lady take their title from the story.",
-    "hook": "My Fair Lady is Pygmalion with songs."
+    "explanation": "In Ovid's version, Pygmalion, a sculptor of Cyprus, prayed to Aphrodite, who brought the ivory woman to life; she was later named Galatea. Shaw's play Pygmalion, and so My Fair Lady, borrows the idea of a man shaping a woman.",
+    "hook": "Pygmalion made her, Aphrodite woke her, Shaw sent her to Covent Garden."
+  },
+  {
+    "id": "myth_131",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "Which day of the week is named after the Norse god Thor?",
+    "answer": "Thursday",
+    "distractors": [
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "explanation": "English kept the Norse and Germanic gods in its weekdays: Tuesday is Tiw's (Týr's) day, Wednesday Woden's (Odin's), Thursday Thor's and Friday Frigg's. French kept the Roman gods: jeudi is Jupiter's day, the Roman equivalent of Thor.",
+    "hook": "Thunder = Thor = Thursday = jeudi, Jupiter the thunderer."
+  },
+  {
+    "id": "myth_132",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "Which two-faced Roman god gave his name to January?",
+    "answer": "Janus",
+    "distractors": [
+      "Juno",
+      "Jupiter",
+      "Saturn"
+    ],
+    "explanation": "Janus was the god of doorways and beginnings, looking back to the old year and forward to the new. The doors of his temple in the Forum were open in wartime and closed in peace, which happened only a handful of times. June, the usual confusion, is named after Juno.",
+    "hook": "Janus looks both ways, like a janitor at the door (janua is Latin for door)."
+  },
+  {
+    "id": "myth_133",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "What was the name of King Arthur's castle and court?",
+    "answer": "Camelot",
+    "distractors": [
+      "Avalon",
+      "Tintagel",
+      "Lyonesse"
+    ],
+    "explanation": "Camelot first appears in Chrétien de Troyes's 12th-century romances. Tintagel in Cornwall was where Arthur was conceived and born, and Avalon was where he was taken after his last battle. The Kennedy White House was nicknamed Camelot after the musical.",
+    "hook": "Born at Tintagel, ruled at Camelot, rests at Avalon."
+  },
+  {
+    "id": "myth_134",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "Which biblical prophet was swallowed by a great fish?",
+    "answer": "Jonah",
+    "distractors": [
+      "Job",
+      "Noah",
+      "Daniel"
+    ],
+    "explanation": "God told Jonah to preach in Nineveh; he fled by ship instead, was thrown overboard in a storm, and spent three days and nights in the fish before being spat out. A \"Jonah\" is a sailor thought to bring bad luck. Daniel is the one in the lions' den.",
+    "hook": "Jonah: whale; Daniel: lions; Noah: all the animals."
+  },
+  {
+    "id": "myth_135",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "Which apostle betrayed Jesus for thirty pieces of silver?",
+    "answer": "Judas Iscariot",
+    "distractors": [
+      "Simon Peter",
+      "Thomas",
+      "Matthew"
+    ],
+    "explanation": "Judas identified Jesus to the arresting party with a kiss in the Garden of Gethsemane. Peter did not betray Jesus but denied knowing him three times before the cock crowed, and Thomas doubted the resurrection until he saw the wounds.",
+    "hook": "Judas betrayed, Peter denied, Thomas doubted."
+  },
+  {
+    "id": "myth_136",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "Which Hindu festival of lights celebrates Rama's return to Ayodhya?",
+    "answer": "Diwali",
+    "distractors": [
+      "Holi",
+      "Navratri",
+      "Onam"
+    ],
+    "explanation": "Diwali (Deepavali, \"row of lamps\") falls in October or November. Lamps welcome Rama home after he defeats the demon king Ravana, and the goddess of wealth Lakshmi is also honoured. Holi is the spring festival of colours.",
+    "hook": "Diwali lights, Holi colours."
+  },
+  {
+    "id": "myth_137",
+    "category": "mythology",
+    "difficulty": "easy",
+    "question": "Which Christian season covers the 40 days before Easter?",
+    "answer": "Lent",
+    "distractors": [
+      "Advent",
+      "Pentecost",
+      "Epiphany"
+    ],
+    "explanation": "Lent starts on Ash Wednesday and recalls Jesus's 40 days of fasting in the desert; Sundays are not counted. Pancake Day (Shrove Tuesday), or Mardi Gras, used up the rich food beforehand. Advent is the season before Christmas.",
+    "hook": "Lent comes from the Old English for spring, as the days \"lengthen\"."
+  },
+  {
+    "id": "myth_138",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "What was the name of Odin's eight-legged horse?",
+    "answer": "Sleipnir",
+    "distractors": [
+      "Grani",
+      "Skinfaxi",
+      "Hrímfaxi"
+    ],
+    "explanation": "Loki, disguised as a mare, gave birth to Sleipnir after luring away the stallion of a giant who was building Asgard's walls. Hermóðr rode him to Hel to plead for Baldr. Grani was the hero Sigurd's horse; Skinfaxi and Hrímfaxi pull day and night.",
+    "hook": "Sleipnir means \"slippy\": eight legs to slide between worlds."
+  },
+  {
+    "id": "myth_139",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which Norse god lost his hand in the jaws of the wolf Fenrir?",
+    "answer": "Týr",
+    "distractors": [
+      "Odin",
+      "Heimdall",
+      "Baldr"
+    ],
+    "explanation": "The gods could bind Fenrir only by trickery, and the wolf would accept the chain only if a god put a hand in his mouth as a pledge of good faith. Only Týr, a god of war and justice, was brave enough, and lost it. Tuesday is Týr's day.",
+    "hook": "Tuesday is Týr's day: one hand, and it was bitten off."
+  },
+  {
+    "id": "myth_140",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which plant was used to kill the Norse god Baldr?",
+    "answer": "Mistletoe",
+    "distractors": [
+      "Holly",
+      "Ivy",
+      "Yew"
+    ],
+    "explanation": "Frigg made every thing on earth swear not to harm her son Baldr, but skipped the mistletoe as too young. Loki made a dart of it and guided the blind god Höðr to throw it. Many see this as one source of kissing under the mistletoe.",
+    "hook": "The only thing that did not swear the oath killed him."
+  },
+  {
+    "id": "myth_141",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which ibis-headed Egyptian god was the patron of writing and wisdom?",
+    "answer": "Thoth",
+    "distractors": [
+      "Ptah",
+      "Khnum",
+      "Sobek"
+    ],
+    "explanation": "Thoth recorded the verdict when a dead person's heart was weighed. The Greeks equated him with Hermes, as Hermes Trismegistus, and later occultists named the tarot the Book of Thoth. Sobek is the crocodile god.",
+    "hook": "Thoth took the notes: the ibis's curved beak is like a scribe's pen."
+  },
+  {
+    "id": "myth_142",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which Trojan prince awarded the golden apple to Aphrodite?",
+    "answer": "Paris",
+    "distractors": [
+      "Hector",
+      "Aeneas",
+      "Troilus"
+    ],
+    "explanation": "Eris threw the apple inscribed \"for the fairest\" at Thetis's wedding. Hera offered Paris power, Athena victory, and Aphrodite the most beautiful woman, Helen of Sparta. He chose Aphrodite, and the Trojan War followed.",
+    "hook": "The Judgement of Paris: choose beauty, get a war."
+  },
+  {
+    "id": "myth_143",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which Knight of the Round Table's affair with Queen Guinevere helped destroy Camelot?",
+    "answer": "Lancelot",
+    "distractors": [
+      "Gawain",
+      "Galahad",
+      "Tristan"
+    ],
+    "explanation": "Lancelot, the greatest knight, was also Galahad's father. When the affair was exposed, Arthur's fellowship split, and Mordred used the chaos to seize the throne. Tristan had a parallel affair with Isolde, wife of King Mark of Cornwall.",
+    "hook": "Lancelot loved the queen, Tristan loved Isolde: both wrecked a king."
+  },
+  {
+    "id": "myth_144",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which Trojan hero's journey to Italy is told in Virgil's Aeneid?",
+    "answer": "Aeneas",
+    "distractors": [
+      "Hector",
+      "Paris",
+      "Ascanius"
+    ],
+    "explanation": "Aeneas carried his father out of burning Troy, was waylaid in Carthage by Queen Dido, who killed herself when he left, and founded the line that led to Romulus and Remus. Augustus claimed descent from him through Aeneas's son Ascanius, also called Iulus.",
+    "hook": "Aeneas is Rome's Trojan grandfather, and Julius Caesar's family claimed him."
+  },
+  {
+    "id": "myth_145",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which festival marks the end of the Ramadan fast?",
+    "answer": "Eid al-Fitr",
+    "distractors": [
+      "Eid al-Adha",
+      "Mawlid",
+      "Ashura"
+    ],
+    "explanation": "Eid al-Fitr, the \"festival of breaking the fast\", begins when the new moon is sighted. Eid al-Adha, the \"festival of sacrifice\", comes about two months later at the end of the Hajj and recalls Abraham's willingness to sacrifice his son.",
+    "hook": "Fitr = breaking the fast; Adha = sacrifice."
+  },
+  {
+    "id": "myth_146",
+    "category": "mythology",
+    "difficulty": "medium",
+    "question": "Which Christian festival, 50 days after Easter, marks the Holy Spirit descending on the apostles?",
+    "answer": "Pentecost",
+    "distractors": [
+      "Ascension Day",
+      "Epiphany",
+      "Candlemas"
+    ],
+    "explanation": "Acts 2 describes tongues of fire and the apostles speaking in many languages, often seen as the birthday of the Church. Pentecost is Greek for \"fiftieth\" and began as the Jewish harvest festival of Shavuot. In England it is also called Whit Sunday. Ascension Day is ten days earlier.",
+    "hook": "Pente = five, as in pentagon: fifty days on from Easter."
+  },
+  {
+    "id": "myth_147",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "What was the name of the magic fetter that finally bound the wolf Fenrir?",
+    "answer": "Gleipnir",
+    "distractors": [
+      "Draupnir",
+      "Gungnir",
+      "Brísingamen"
+    ],
+    "explanation": "After Fenrir broke two iron chains, the dwarves made Gleipnir, a thin ribbon, from six impossible things, including the sound of a cat's footfall, a woman's beard and the roots of a mountain. That is why, as the Prose Edda jokes, those things no longer exist.",
+    "hook": "Gleipnir is made of things that do not exist, which is why it cannot break."
+  },
+  {
+    "id": "myth_148",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "Which Norse god guards the Bifröst bridge and will blow the Gjallarhorn at Ragnarök?",
+    "answer": "Heimdall",
+    "distractors": [
+      "Bragi",
+      "Víðarr",
+      "Forseti"
+    ],
+    "explanation": "Heimdall needs less sleep than a bird and can hear wool growing on sheep. His horn announces Ragnarök, where he and Loki kill each other. The Eddic poem Rígsþula makes him the father of the classes of humankind.",
+    "hook": "Heimdall is the watchman: Idris Elba in the Marvel films."
+  },
+  {
+    "id": "myth_149",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "Which ram-headed Egyptian god was said to shape human beings on a potter's wheel?",
+    "answer": "Khnum",
+    "distractors": [
+      "Amun",
+      "Ptah",
+      "Sobek"
+    ],
+    "explanation": "Khnum was also the god of the Nile's source, worshipped at Elephantine near Aswan. He shaped each child and its ka, or life force, and placed them in the mother's womb. Amun could also appear as a ram, which makes him the usual wrong answer.",
+    "hook": "Khnum kneads the clay: picture a ram at a potter's wheel."
+  },
+  {
+    "id": "myth_150",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "In the Egyptian judgement of the dead, what was the heart weighed against?",
+    "answer": "A feather",
+    "distractors": [
+      "A scarab",
+      "A lotus flower",
+      "An ankh"
+    ],
+    "explanation": "The feather of Ma'at stood for truth and order. If the heart was heavier with wrongdoing, the monster Ammit, part crocodile, lion and hippo, devoured it. Scarab amulets were placed over the heart to stop it testifying against its owner.",
+    "hook": "A heart as light as a feather was the only pass to paradise."
+  },
+  {
+    "id": "myth_151",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "In Malory's Le Morte d'Arthur, which knight returned Excalibur to the Lady of the Lake?",
+    "answer": "Sir Bedivere",
+    "distractors": [
+      "Sir Kay",
+      "Sir Gawain",
+      "Sir Lancelot"
+    ],
+    "explanation": "The dying Arthur asked Bedivere to throw the sword into the lake. Twice he hid it instead, thinking it too precious, and lied; the third time an arm rose from the water, caught it and drew it under. In some earlier versions the knight is Griflet.",
+    "hook": "Bedivere threw the sword back only on the third try."
+  },
+  {
+    "id": "myth_152",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "In Malory's version, which Grail knight was pure enough to achieve the Holy Grail?",
+    "answer": "Galahad",
+    "distractors": [
+      "Lancelot",
+      "Gawain",
+      "Kay"
+    ],
+    "explanation": "Galahad, Lancelot's son by Elaine, sat safely in the Siege Perilous and achieved the Grail with Percival and Bors, dying in ecstasy at Sarras. In the earlier romances of Chrétien de Troyes and Wolfram von Eschenbach, the Grail hero is Percival.",
+    "hook": "Lancelot was too sinful, so his son Galahad got the Grail."
+  },
+  {
+    "id": "myth_153",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "Which Old Testament prophet was taken up to heaven in a whirlwind with a chariot of fire?",
+    "answer": "Elijah",
+    "distractors": [
+      "Elisha",
+      "Enoch",
+      "Ezekiel"
+    ],
+    "explanation": "Elijah's successor Elisha saw him taken and inherited his mantle, the origin of \"passing the mantle\". A place is set for Elijah at the Passover Seder in case he returns. The film Chariots of Fire takes its title from Blake's hymn \"Jerusalem\", which borrows the image.",
+    "hook": "Elijah went up; Elisha picked up the mantle."
+  },
+  {
+    "id": "myth_154",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "Which Jewish harvest festival is celebrated by eating meals in temporary huts?",
+    "answer": "Sukkot",
+    "distractors": [
+      "Shavuot",
+      "Purim",
+      "Hanukkah"
+    ],
+    "explanation": "Sukkot starts five days after Yom Kippur and lasts a week, remembering the Israelites living in shelters in the wilderness after the Exodus. Families build a sukkah with a roof of branches through which the stars can be seen. Purim celebrates Esther, Hanukkah the rededicated Temple.",
+    "hook": "Sukkah is a hut, Sukkot the week in the huts."
+  },
+  {
+    "id": "myth_155",
+    "category": "mythology",
+    "difficulty": "hard",
+    "question": "Which Roman festival on 15 February saw young men run around the Palatine striking people with goatskin strips?",
+    "answer": "Lupercalia",
+    "distractors": [
+      "Saturnalia",
+      "Floralia",
+      "Vinalia"
+    ],
+    "explanation": "The Luperci priests sacrificed goats and a dog in the cave where the wolf nursed Romulus and Remus, then ran through the city; being struck was believed to help fertility. Mark Antony ran in 44 BCE and offered Caesar a crown. Pope Gelasius I is said to have replaced it with a Christian feast.",
+    "hook": "Lupus is Latin for wolf: Lupercalia remembers the she-wolf, and it falls the day after Valentine's."
   }
 ]

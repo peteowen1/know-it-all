@@ -10,8 +10,8 @@
       "Ophelia",
       "Laertes"
     ],
-    "explanation": "Yorick was the old king's jester, and the line is 'Alas, poor Yorick! I knew him, Horatio' — not 'I knew him well', which is the version everyone misquotes.",
-    "hook": "The famous quote is wrong: it is 'I knew him, Horatio', with no 'well'."
+    "explanation": "Yorick was the court jester who carried the young Hamlet on his back, and the line is 'Alas, poor Yorick! I knew him, Horatio' (Act 5, Scene 1). The gravediggers say the skull has lain in the earth twenty-three years, which is one of the clues used to fix Hamlet's age at about thirty.",
+    "hook": "Everyone adds a 'well' that Shakespeare never wrote: it is 'I knew him, Horatio'."
   },
   {
     "id": "art_002",
@@ -22,10 +22,10 @@
     "distractors": [
       "Charlotte Brontë",
       "George Eliot",
-      "Elizabeth Gaskell"
+      "Fanny Burney"
     ],
-    "explanation": "Published anonymously in 1813 as 'by the author of Sense and Sensibility', it was originally drafted under the title First Impressions.",
-    "hook": "Every Austen novel was published anonymously in her lifetime."
+    "explanation": "Published anonymously in 1813 as 'by the author of Sense and Sensibility', it was first drafted in the 1790s under the title First Impressions. Austen published four novels in her lifetime; Northanger Abbey and Persuasion came out together after her death in 1817.",
+    "hook": "Before it was Pride and Prejudice it was First Impressions, which is exactly what Lizzy gets wrong about Darcy."
   },
   {
     "id": "art_003",
@@ -38,8 +38,8 @@
       "Raphael",
       "Titian"
     ],
-    "explanation": "Painted around 1503-19, it became globally famous largely after being stolen from the Louvre in 1911 by an Italian handyman who wanted it returned to Italy.",
-    "hook": "The theft in 1911 made it famous — before that it was just another Renaissance portrait."
+    "explanation": "Leonardo worked on it from about 1503 until near his death in 1519, and it hangs in the Louvre. It became a global celebrity after Vincenzo Peruggia, an Italian handyman, walked out of the Louvre with it in 1911; it was missing for more than two years.",
+    "hook": "Peruggia made her famous: the empty wall drew bigger crowds than the painting had."
   },
   {
     "id": "art_004",
@@ -50,10 +50,10 @@
     "distractors": [
       "Christopher Marlowe",
       "Ben Jonson",
-      "John Webster"
+      "Thomas Kyd"
     ],
-    "explanation": "Written in the early 1590s, it drew on Arthur Brooke's narrative poem of 1562, itself based on Italian sources; almost none of Shakespeare's plots were original.",
-    "hook": "He borrowed nearly every plot he ever used — the language is what was his."
+    "explanation": "Written in the mid-1590s, it drew on Arthur Brooke's 1562 poem The Tragicall Historye of Romeus and Juliet, itself taken from Italian tales set in Verona. Quiz-setters like the fact that 'wherefore art thou Romeo' means 'why are you Romeo', not 'where are you'.",
+    "hook": "'Wherefore' means why: Juliet is asking why he has to be a Montague, not where he is."
   },
   {
     "id": "art_005",
@@ -66,8 +66,8 @@
       "David Malouf",
       "Richard Flanagan"
     ],
-    "explanation": "Published in 1991 and set in post-war Perth, it won the Miles Franklin Award, one of four Winton has taken.",
-    "hook": "Winton has four Miles Franklins — more than any other novelist."
+    "explanation": "Published in 1991 and set in a big shared house in post-war Perth, it follows the Lambs and the Pickles over twenty years. It won Winton one of his four Miles Franklin Awards, a record he shares with Thea Astley.",
+    "hook": "Winton and Thea Astley are tied on four Miles Franklins each; Cloudstreet is Winton's best loved."
   },
   {
     "id": "art_006",
@@ -80,8 +80,8 @@
       "Claude Monet",
       "Paul Cézanne"
     ],
-    "explanation": "Painted in 1889 from the window of an asylum at Saint-Rémy, it depicts a view he saw before sunrise with an imagined village added.",
-    "hook": "Painted from an asylum window, with the village invented."
+    "explanation": "Painted in June 1889 from his room at the asylum at Saint-Rémy-de-Provence, it shows the view before sunrise with the village added from imagination. It hangs in the Museum of Modern Art in New York, and Van Gogh was dissatisfied with it, calling it a failure in a letter.",
+    "hook": "The asylum window was real, the village was invented, and Vincent thought it had failed."
   },
   {
     "id": "art_007",
@@ -92,10 +92,10 @@
     "distractors": [
       "The Old Man and the Sea",
       "Treasure Island",
-      "Lord Jim"
+      "Robinson Crusoe"
     ],
-    "explanation": "Herman Melville's 1851 novel sold poorly in his lifetime and was only reappraised as a masterpiece in the 1920s, thirty years after his death.",
-    "hook": "It flopped completely and was rediscovered three decades after Melville died."
+    "explanation": "Herman Melville's 1851 novel sold poorly and was out of print when he died in 1891; the 'Melville revival' of the 1920s made it a classic. The ship is the Pequod, and its first mate Starbuck gave the coffee chain its name.",
+    "hook": "Starbucks is named after Ahab's first mate, so the book's legacy is in every flat white."
   },
   {
     "id": "art_008",
@@ -108,8 +108,8 @@
       "Franz Schubert",
       "Johannes Brahms"
     ],
-    "explanation": "Completed in 1824 when he was almost totally deaf, it was the first major symphony to use voices; the Ode to Joy is now the anthem of the European Union.",
-    "hook": "He was too deaf to hear the applause and had to be turned around to see it."
+    "explanation": "Completed in 1824, when Beethoven was almost totally deaf, it was the first symphony by a major composer to bring in a choir and soloists, setting Schiller's poem An die Freude. The Ode to Joy melody is now the anthem of the European Union.",
+    "hook": "At the premiere a singer had to turn him round so he could see the applause he could not hear."
   },
   {
     "id": "art_009",
@@ -120,10 +120,10 @@
     "distractors": [
       "King Lear",
       "The Tempest",
-      "Julius Caesar"
+      "Hamlet"
     ],
-    "explanation": "Theatrical superstition holds that saying the play's name inside a theatre brings bad luck, so actors call it 'the Scottish play'.",
-    "hook": "Actors will not say the title indoors — it is 'the Scottish play'."
+    "explanation": "The witches' chant comes in Act 4, Scene 1. Theatre superstition says saying the title inside a theatre brings disaster, so actors call it 'the Scottish play'; the usual cure is to leave the building, turn around three times, spit and knock to be let back in.",
+    "hook": "Say it in a theatre and you must go outside, spin three times and spit."
   },
   {
     "id": "art_010",
@@ -134,10 +134,10 @@
     "distractors": [
       "Aldous Huxley",
       "Ray Bradbury",
-      "H.G. Wells"
+      "Anthony Burgess"
     ],
-    "explanation": "Published in 1949 and written on the Scottish island of Jura while he was dying of tuberculosis; the title is often said to invert 1948, the year he finished it.",
-    "hook": "He wrote it on a remote Scottish island while dying, and the title may just be 1948 reversed."
+    "explanation": "Orwell, born Eric Blair, wrote it on the Scottish island of Jura while seriously ill with tuberculosis; it was published in 1949 and he died in January 1950. Big Brother, Room 101, doublethink and the Thought Police all come from it.",
+    "hook": "Room 101 was a real BBC meeting room Orwell sat in during the war."
   },
   {
     "id": "art_011",
@@ -146,12 +146,12 @@
     "question": "Which artist cut off part of his own ear in 1888?",
     "answer": "Vincent van Gogh",
     "distractors": [
+      "Paul Gauguin",
       "Edvard Munch",
-      "Egon Schiele",
       "Henri de Toulouse-Lautrec"
     ],
-    "explanation": "The incident in Arles followed a violent argument with Paul Gauguin; he sold very few paintings in his lifetime and died at thirty-seven.",
-    "hook": "An argument with Gauguin, and the most famous ear in art history."
+    "explanation": "It happened in Arles in December 1888 after a quarrel with Paul Gauguin, who left town the next day. Van Gogh sold very few paintings in his lifetime and died in July 1890, aged thirty-seven, after a gunshot wound.",
+    "hook": "Gauguin is the usual wrong answer here, because he was the one Vincent had just fought with."
   },
   {
     "id": "art_012",
@@ -162,10 +162,10 @@
     "distractors": [
       "Philip Pullman",
       "Roald Dahl",
-      "C.S. Lewis"
+      "Anthony Horowitz"
     ],
-    "explanation": "The first book was rejected by twelve publishers before Bloomsbury took it, on the advice of the chairman's eight-year-old daughter.",
-    "hook": "Twelve publishers said no; a child talked the thirteenth into it."
+    "explanation": "Harry Potter and the Philosopher's Stone was rejected by twelve publishers before Bloomsbury took it in 1996 (it was published in June 1997), reportedly after the chairman's eight-year-old daughter read the first chapter. Rowling was told to use initials so boys would not be put off; the K (Kathleen) is borrowed from her grandmother.",
+    "hook": "Joanne Rowling has no middle name: the K was invented to hide that she was a woman."
   },
   {
     "id": "art_013",
@@ -178,8 +178,8 @@
       "Moses",
       "The Dying Slave"
     ],
-    "explanation": "Carved from 1501 to 1504 from a block other sculptors had abandoned as flawed; the original now stands in the Accademia with a copy outside the Palazzo Vecchio.",
-    "hook": "The marble had been rejected as unusable before he touched it."
+    "explanation": "Carved in 1501-04 from a block of marble that other sculptors had started and abandoned, the statue is about 5.17 metres tall. The original moved indoors to the Galleria dell'Accademia in 1873; the one outside the Palazzo Vecchio is a copy.",
+    "hook": "Tourists photograph the copy in the piazza; the real David is indoors at the Accademia."
   },
   {
     "id": "art_014",
@@ -192,8 +192,8 @@
       "Carson McCullers",
       "Eudora Welty"
     ],
-    "explanation": "Published in 1960, it won the Pulitzer and remained her only published novel until Go Set a Watchman, an earlier draft, appeared in 2015.",
-    "hook": "One novel for fifty-five years, and the second was really the first draft."
+    "explanation": "Published in 1960, it won the 1961 Pulitzer Prize for Fiction and is narrated by Scout Finch, whose father Atticus defends Tom Robinson. Go Set a Watchman, published in 2015, was an earlier draft featuring an adult Scout.",
+    "hook": "Lee's only other novel was really her first draft, released 55 years later."
   },
   {
     "id": "art_015",
@@ -204,10 +204,10 @@
     "distractors": [
       "Johann Sebastian Bach",
       "George Frideric Handel",
-      "Joseph Haydn"
+      "Arcangelo Corelli"
     ],
-    "explanation": "Published in 1725, each concerto is paired with a sonnet, possibly written by the composer himself, describing the scene the music depicts.",
-    "hook": "Each concerto comes with its own poem explaining what the music is describing."
+    "explanation": "The four violin concertos were published in 1725 in a set called The Contest Between Harmony and Invention. Each comes with a sonnet, possibly by Vivaldi himself, describing birdsong, storms and shivering in the snow; Vivaldi was a priest nicknamed 'the Red Priest' for his hair.",
+    "hook": "The Red Priest wrote a poem for each season so you would know which bird the violin is copying."
   },
   {
     "id": "art_016",
@@ -220,8 +220,8 @@
       "Federation Square",
       "The Shrine of Remembrance"
     ],
-    "explanation": "His 1957 competition entry was reportedly rescued from a rejection pile; he resigned in 1966 amid political disputes and never saw the finished building.",
-    "hook": "He quit before it opened and never returned to see it."
+    "explanation": "Utzon won the 1957 design competition and resigned in 1966 after rows with the NSW government over costs; he never returned to see it finished. It opened in 1973, was World Heritage listed in 2007, and Utzon won the Pritzker Prize in 2003.",
+    "hook": "The architect of Australia's most famous building never saw it completed."
   },
   {
     "id": "art_017",
@@ -234,8 +234,8 @@
       "John Steinbeck",
       "William Faulkner"
     ],
-    "explanation": "Published in 1925 to modest sales, it was rediscovered when copies were distributed to American troops during the Second World War.",
-    "hook": "It became a classic because the army handed it out to soldiers."
+    "explanation": "Published in 1925, it sold poorly and Fitzgerald died in 1940 believing himself a failure. Around 150,000 copies were handed to American servicemen as Armed Services Editions in 1945, which helped turn it into a classic; the narrator is Nick Carraway.",
+    "hook": "The US army made Gatsby great by handing it out to soldiers after Fitzgerald had died."
   },
   {
     "id": "art_018",
@@ -248,8 +248,8 @@
       "Max Ernst",
       "Joan Miró"
     ],
-    "explanation": "Painted in 1931, the soft watches were reportedly inspired by camembert cheese melting in the sun rather than by relativity, as is often claimed.",
-    "hook": "The clocks came from melting cheese, not from Einstein."
+    "explanation": "Painted in 1931 and held by MoMA in New York, the 'soft watches' were inspired, according to Dalí, by a Camembert melting in the sun. It is surprisingly small, only about 24 by 33 centimetres; Magritte, the usual wrong answer, painted the bowler-hatted men and 'This is not a pipe'.",
+    "hook": "Dalí said the melting clocks came from runny Camembert, not Einstein."
   },
   {
     "id": "art_019",
@@ -262,8 +262,8 @@
       "Ovid",
       "Hesiod"
     ],
-    "explanation": "Virgil wrote the Aeneid in deliberate imitation of it; whether Homer was one person, several, or a tradition of oral performers is still debated.",
-    "hook": "Homer for Greek, Virgil for Roman — the Aeneid is the sequel Rome wrote for itself."
+    "explanation": "The Odyssey follows Odysseus's ten-year voyage home from Troy to Ithaca, and the Iliad covers a few weeks of the Trojan War itself. Virgil's Latin Aeneid was Rome's answer to both, following the Trojan Aeneas.",
+    "hook": "Homer is Greek and told both halves; Virgil is Roman and wrote the fan sequel."
   },
   {
     "id": "art_020",
@@ -273,25 +273,25 @@
     "answer": "The Sistine Chapel",
     "distractors": [
       "St Peter's Basilica",
-      "The Pantheon",
-      "Santa Maria del Fiore"
+      "The Scrovegni Chapel",
+      "The Pantheon"
     ],
-    "explanation": "He worked standing on scaffolding, not lying down as legend has it, and considered himself a sculptor pressed unwillingly into painting.",
-    "hook": "He painted it standing up, and complained about the job the entire time."
+    "explanation": "Pope Julius II commissioned the ceiling, and Michelangelo painted it standing on scaffolding he designed, not lying on his back as the legend says. He returned more than twenty years later to paint The Last Judgment on the altar wall.",
+    "hook": "He painted it standing up, and wrote a poem complaining about his neck."
   },
   {
     "id": "art_021",
     "category": "arts_lit",
-    "difficulty": "easy",
-    "question": "Which novel features the characters Sherlock Holmes and Dr Watson?",
+    "difficulty": "medium",
+    "question": "Which 1887 novel introduced Sherlock Holmes and Dr Watson?",
     "answer": "A Study in Scarlet",
     "distractors": [
-      "The Moonstone",
-      "The Woman in White",
-      "The Riddle of the Sands"
+      "The Sign of the Four",
+      "The Hound of the Baskervilles",
+      "The Valley of Fear"
     ],
-    "explanation": "Arthur Conan Doyle introduced them in 1887 and later killed Holmes off at the Reichenbach Falls, only to revive him after a decade of public outcry.",
-    "hook": "Doyle killed Holmes and was forced by readers to bring him back."
+    "explanation": "Arthur Conan Doyle's first Holmes story appeared in Beeton's Christmas Annual in 1887, and The Sign of the Four followed in 1890. Doyle killed Holmes at the Reichenbach Falls in 1893 and brought him back in 1903 after years of public pressure.",
+    "hook": "A study in scarlet was the first case, and Holmes found his first flatmate in it."
   },
   {
     "id": "art_022",
@@ -301,11 +301,11 @@
     "answer": "Sidney Nolan",
     "distractors": [
       "Arthur Boyd",
-      "Albert Namatjira",
+      "Albert Tucker",
       "Brett Whiteley"
     ],
-    "explanation": "The 1946-47 series reduced Kelly to a black helmet shape against the bush, and is held by the National Gallery of Australia.",
-    "hook": "Kelly became a black rectangle with a slot — the most recognisable shape in Australian art."
+    "explanation": "Nolan painted the first Kelly series in 1946-47 at Heide, the home of patrons John and Sunday Reed, who later gave 25 of the works to the National Gallery of Australia. The black square helmet with its eye slot became one of the best-known images in Australian art.",
+    "hook": "Nolan turned Ned into a black box with a slot, and everyone now draws him that way."
   },
   {
     "id": "art_023",
@@ -315,11 +315,11 @@
     "answer": "C.S. Lewis",
     "distractors": [
       "J.R.R. Tolkien",
-      "Roald Dahl",
+      "George MacDonald",
       "Kenneth Grahame"
     ],
-    "explanation": "He and Tolkien were close friends in the Oxford group known as the Inklings, though Tolkien disliked Narnia's mixing of mythologies.",
-    "hook": "Tolkien was his best friend and thought Narnia was a mess."
+    "explanation": "The Lion, the Witch and the Wardrobe came out in 1950 and was the first of seven books, although The Magician's Nephew is set earlier. Lewis and Tolkien were close friends in the Oxford writers' group the Inklings, but Tolkien disliked Narnia's mix of myths.",
+    "hook": "Tolkien was his best friend and thought putting Father Christmas in Narnia was a mess."
   },
   {
     "id": "art_024",
@@ -330,10 +330,10 @@
     "distractors": [
       "The saxophone",
       "The clarinet",
-      "The trombone"
+      "The piano"
     ],
-    "explanation": "He began on cornet, moved to trumpet, and effectively invented the jazz solo as a form; his 1964 recording of Hello, Dolly! knocked the Beatles off the US number one spot.",
-    "hook": "At sixty-two he knocked the Beatles off number one."
+    "explanation": "Satchmo started on cornet, switched to trumpet in the 1920s and is credited with making the improvised solo central to jazz. In May 1964 his recording of Hello, Dolly! knocked the Beatles off the US number one spot; What a Wonderful World followed in 1967.",
+    "hook": "Satchmo at 62 did what nobody else could in 1964: bumped the Beatles off number one."
   },
   {
     "id": "art_025",
@@ -344,10 +344,10 @@
     "distractors": [
       "Bram Stoker",
       "Emily Brontë",
-      "Ann Radcliffe"
+      "Percy Bysshe Shelley"
     ],
-    "explanation": "She was eighteen when she conceived it during a wet summer at Lake Geneva in 1816, in a ghost-story contest with Byron and her future husband.",
-    "hook": "Written at eighteen, out of a rained-out holiday and a dare."
+    "explanation": "Mary Shelley was eighteen when she came up with the story during a wet summer at Lake Geneva in 1816, in a ghost-story contest with Lord Byron and Percy Shelley. Published in 1818, its subtitle is The Modern Prometheus, and Frankenstein is the scientist, not the creature.",
+    "hook": "Frankenstein is the doctor; the monster never gets a name."
   },
   {
     "id": "art_026",
@@ -360,8 +360,8 @@
       "Surrealism",
       "Expressionism"
     ],
-    "explanation": "The movement took its name from a hostile review of his painting Impression, Sunrise in 1874; the artists then adopted the insult as their label.",
-    "hook": "The name started as an insult from a critic, and they kept it."
+    "explanation": "The critic Louis Leroy mocked Monet's Impression, Sunrise at the first group exhibition in Paris in 1874, and the artists adopted his insult as their name. Monet is the usual answer for water lilies and haystacks; Manet, one letter different, was an earlier figure who never showed with them.",
+    "hook": "Monet with an O painted the sunrise that named the movement; Manet with an A did not."
   },
   {
     "id": "art_027",
@@ -374,8 +374,8 @@
       "C.J. Dennis",
       "Dorothea Mackellar"
     ],
-    "explanation": "Published in the Bulletin in 1890, he also wrote Waltzing Matilda and Clancy of the Overflow; Lawson was his contemporary and literary sparring partner.",
-    "hook": "Paterson romanticised the bush, Lawson found it grim — they argued about it in print."
+    "explanation": "The poem appeared in the Bulletin in April 1890, and Paterson also wrote Clancy of the Overflow and the words of Waltzing Matilda. He and Henry Lawson ran a staged rhyming argument in the Bulletin in 1892 over whether the bush was romantic or grim.",
+    "hook": "Paterson is on the $10 note, with the Snowy River horseman galloping beside him."
   },
   {
     "id": "art_028",
@@ -388,8 +388,8 @@
       "Oliver Twist",
       "Bleak House"
     ],
-    "explanation": "Published in 1859 and set during the French Revolution, it is among the best-selling novels ever written; the two cities are London and Paris.",
-    "hook": "The two cities are London and Paris, and the book has sold in the hundreds of millions."
+    "explanation": "Published in 1859 and set in London and Paris before and during the French Revolution, it ends with Sydney Carton's 'It is a far, far better thing that I do'. Dickens published it in weekly parts in his own magazine, All the Year Round.",
+    "hook": "Best of times at the start, far far better thing at the end: Dickens bookends the novel."
   },
   {
     "id": "art_029",
@@ -399,11 +399,11 @@
     "answer": "Sandro Botticelli",
     "distractors": [
       "Titian",
-      "Caravaggio",
-      "Giotto"
+      "Raphael",
+      "Filippo Lippi"
     ],
-    "explanation": "Painted around 1485 for the Medici, it was among the first large-scale canvases in Renaissance Tuscany rather than a wooden panel or fresco.",
-    "hook": "One of the first big Renaissance works painted on canvas rather than wood."
+    "explanation": "Painted in the mid-1480s and now in the Uffizi in Florence, it shows the goddess arriving on a shell, blown ashore by the west wind Zephyr. It was one of the first large Tuscan paintings on canvas, and one of the first to show a nude figure from classical myth at that scale.",
+    "hook": "Venus arrives on a scallop shell, the same kind of shell as the Shell petrol logo."
   },
   {
     "id": "art_030",
@@ -414,10 +414,10 @@
     "distractors": [
       "Arthur Miller",
       "Eugene O'Neill",
-      "Edward Albee"
+      "William Inge"
     ],
-    "explanation": "It won the 1948 Pulitzer and made Marlon Brando a star; the streetcar line named Desire genuinely ran in New Orleans.",
-    "hook": "There really was a Desire streetcar line in New Orleans."
+    "explanation": "It opened on Broadway in 1947, won the 1948 Pulitzer Prize, and made Marlon Brando a star as Stanley Kowalski yelling 'Stella!'. Blanche DuBois arrives in New Orleans on a streetcar line that really was called Desire.",
+    "hook": "The Desire streetcar was a real New Orleans tram line."
   },
   {
     "id": "art_031",
@@ -430,36 +430,36 @@
       "Banjo Paterson",
       "Les Murray"
     ],
-    "explanation": "The line comes from My Country, written in 1904 when she was homesick in England at the age of nineteen.",
-    "hook": "Written by a homesick teenager in England, not in the sunburnt country at all."
+    "explanation": "The line comes from 'My Country', written in 1904 while the teenage Mackellar was homesick in England, and first published in London in 1908. Its opening verse ('The love of field and coppice') describes the English landscape she was rejecting.",
+    "hook": "The poem that defines the sunburnt country was written in green, rainy England."
   },
   {
     "id": "art_032",
     "category": "arts_lit",
     "difficulty": "easy",
-    "question": "Which composer was deaf for much of his later career?",
+    "question": "Which composer wrote the piano piece known as Für Elise?",
     "answer": "Ludwig van Beethoven",
     "distractors": [
+      "Wolfgang Amadeus Mozart",
       "Frédéric Chopin",
-      "Franz Liszt",
-      "Richard Wagner"
+      "Franz Schubert"
     ],
-    "explanation": "His hearing began failing in his late twenties; he continued composing by feeling vibrations through the floor and his conversation books survive as a record.",
-    "hook": "He wrote his greatest works after he could no longer hear them."
+    "explanation": "It was not published until 1867, forty years after Beethoven's death, and nobody is sure who Elise was; one theory is that the copyist misread 'Therese', for Therese Malfatti, a woman he wanted to marry. Beethoven's only opera is Fidelio, another favourite follow-up.",
+    "hook": "Elise may be a copying error: the dedication was probably to Therese."
   },
   {
     "id": "art_033",
     "category": "arts_lit",
     "difficulty": "easy",
-    "question": "Which novel features the character Elizabeth Bennet?",
-    "answer": "Pride and Prejudice",
+    "question": "In Pride and Prejudice, whom does Elizabeth Bennet marry?",
+    "answer": "Mr Darcy",
     "distractors": [
-      "Jane Eyre",
-      "Middlemarch",
-      "Wuthering Heights"
+      "Mr Bingley",
+      "Mr Wickham",
+      "Mr Collins"
     ],
-    "explanation": "Austen called her 'as delightful a creature as ever appeared in print'; the novel's famous opening sentence about a single man in possession of a good fortune is ironic.",
-    "hook": "Austen herself said she was the most delightful character in print."
+    "explanation": "Fitzwilliam Darcy of Pemberley proposes twice; Elizabeth rejects the first, insulting proposal and accepts the second. Her sister Jane marries Mr Bingley, and her youngest sister Lydia elopes with Wickham.",
+    "hook": "Jane gets Bingley, Lydia gets Wickham, Lizzy gets Darcy on the second try."
   },
   {
     "id": "art_034",
@@ -472,8 +472,8 @@
       "Salvador Dalí",
       "Diego Rivera"
     ],
-    "explanation": "Painted in 1937 in black, white and grey, it hung in New York for decades at his insistence until Spain returned to democracy.",
-    "hook": "He refused to let it go to Spain while Franco lived."
+    "explanation": "Painted in 1937 for the Spanish pavilion at the Paris World's Fair, in black, white and grey, it responded to the German and Italian bombing of Guernica during the Spanish Civil War. Picasso kept it out of Spain until democracy returned; it arrived in 1981 and hangs in the Reina Sofía in Madrid.",
+    "hook": "Guernica did not reach Spain until 1981, because Picasso would not let it go while Franco ruled."
   },
   {
     "id": "art_035",
@@ -484,10 +484,10 @@
     "distractors": [
       "George Bernard Shaw",
       "Noël Coward",
-      "J.M. Barrie"
+      "Arthur Wing Pinero"
     ],
-    "explanation": "It premiered in February 1895 at the height of his fame; within months he was imprisoned for gross indecency and his name was removed from the playbills.",
-    "hook": "His greatest triumph and his ruin came within three months of each other."
+    "explanation": "It opened in London on 14 February 1895, and within months Wilde was convicted of gross indecency and sentenced to two years' hard labour. The handbag in which baby Jack was left at Victoria Station gives Lady Bracknell the famous line 'A handbag?'.",
+    "hook": "His biggest hit and his arrest came within three months of each other."
   },
   {
     "id": "art_036",
@@ -500,22 +500,22 @@
       "Thane of Fife",
       "Earl of Ross"
     ],
-    "explanation": "He is already Thane of Glamis when the play opens; Macduff is Thane of Fife, and it is his family Macbeth later murders.",
-    "hook": "Glamis he has, Cawdor he gets, king he takes — the three-step prophecy."
+    "explanation": "Macbeth is already Thane of Glamis when the witches greet him as Glamis, Cawdor and future king; Duncan then gives him the traitor Cawdor's title. Banquo is told his descendants will be kings, and Macduff, Thane of Fife, eventually kills Macbeth.",
+    "hook": "Glamis he has, Cawdor he is given, the crown he takes."
   },
   {
     "id": "art_037",
     "category": "arts_lit",
     "difficulty": "medium",
-    "question": "Which Australian became the country's only Nobel laureate in Literature, in 1973?",
+    "question": "Which Australian novelist won the Nobel Prize in Literature in 1973?",
     "answer": "Patrick White",
     "distractors": [
-      "Peter Carey",
       "Christina Stead",
-      "Thomas Keneally"
+      "Thomas Keneally",
+      "Xavier Herbert"
     ],
-    "explanation": "He won for an epic and psychological narrative art that introduced a new continent into literature, and used the prize money to fund an award for older unrecognised writers.",
-    "hook": "He gave the prize money away to fund an award for overlooked writers."
+    "explanation": "White, author of Voss and The Tree of Man, was cited for 'an epic and psychological narrative art which has introduced a new continent into literature'. He used the prize money to set up the Patrick White Award for older writers who had been overlooked. J.M. Coetzee, the 2003 laureate, became an Australian citizen in 2006, so White is no longer the only Nobel literature laureate with an Australian passport.",
+    "hook": "White spent his Nobel money on a prize for writers the prizes had missed."
   },
   {
     "id": "art_038",
@@ -528,8 +528,8 @@
       "The Sound of One Hand Clapping",
       "Death of a River Guide"
     ],
-    "explanation": "Set among Australian prisoners on the Burma Railway, it draws on his father's experience; the title comes from a work by the Japanese poet Bashō.",
-    "hook": "The title is borrowed from Bashō — a Japanese poem for a book about Japanese captivity."
+    "explanation": "Set among Australian prisoners on the Thai-Burma Railway, it draws on the experience of Flanagan's father, a POW who died the day Richard finished the book. The title comes from Bashō's travel journal Oku no Hosomichi. Flanagan is Tasmanian, and in 2024 he also won the Baillie Gifford Prize for nonfiction with Question 7.",
+    "hook": "A Japanese poet's title for a book about Japanese captivity."
   },
   {
     "id": "art_039",
@@ -542,8 +542,8 @@
       "Kurt Schwitters",
       "Tristan Tzara"
     ],
-    "explanation": "Submitted anonymously to a 1917 New York exhibition and rejected, it is now regularly voted the most influential artwork of the twentieth century; the original is lost.",
-    "hook": "The most influential artwork of the century, and no original survives."
+    "explanation": "Signed 'R. Mutt 1917' and submitted to a New York exhibition that claimed to accept any work, it was quietly not shown. In 2004 a poll of 500 art experts named it the most influential modern artwork; the original is lost, and some scholars argue the Dada artist Elsa von Freytag-Loringhoven had a hand in it.",
+    "hook": "The most influential artwork of the century was a shop-bought urinal, and the original was thrown away."
   },
   {
     "id": "art_040",
@@ -556,8 +556,8 @@
       "Illywhacker",
       "Jack Maggs"
     ],
-    "explanation": "Written in Kelly's unpunctuated voice, it made Carey one of the few writers to win the Booker twice, having taken it for Oscar and Lucinda in 1988.",
-    "hook": "Carey has two Bookers — Oscar and Lucinda in 1988, Ned Kelly in 2001."
+    "explanation": "Written as a letter from Ned Kelly to his daughter, with almost no punctuation, it made Carey a two-time winner after Oscar and Lucinda in 1988. The other double winners are J.M. Coetzee, Hilary Mantel and Margaret Atwood.",
+    "hook": "Carey's two Bookers: a glass church in 1988 and a bushranger in 2001."
   },
   {
     "id": "art_041",
@@ -570,8 +570,8 @@
       "As You Like It",
       "A Midsummer Night's Dream"
     ],
-    "explanation": "Generally taken as his last solo play, Prospero's renunciation of magic is often read as Shakespeare's own farewell to the stage.",
-    "hook": "Prospero drowning his book is usually read as Shakespeare retiring."
+    "explanation": "Written around 1610-11, it is generally taken as Shakespeare's last play written alone, and Prospero's promise to break his staff and drown his book is often read as the author's farewell. Prospero's servants are the spirit Ariel and the 'monster' Caliban.",
+    "hook": "Prospero drowns his book as Shakespeare puts down his pen."
   },
   {
     "id": "art_042",
@@ -584,8 +584,8 @@
       "Jasper Johns",
       "Robert Rauschenberg"
     ],
-    "explanation": "A leader of American Pop Art, he ran a studio called the Factory and predicted that everyone would be world-famous for fifteen minutes.",
-    "hook": "The fifteen minutes of fame line is his, and he meant it as a warning."
+    "explanation": "Warhol showed his 32 Campbell's Soup Cans in 1962 and made the Marilyn screenprints soon after her death that year. He ran a studio called the Factory and was shot by Valerie Solanas in 1968. The line about everyone being famous for fifteen minutes is credited to him, though it may have been coined by a collaborator.",
+    "hook": "Warhol printed art the way Campbell's printed labels: Lichtenstein did the comic dots."
   },
   {
     "id": "art_043",
@@ -598,8 +598,8 @@
       "Ivan Turgenev",
       "Nikolai Gogol"
     ],
-    "explanation": "Published serially from 1865, he insisted it was not a novel at all; it runs to well over half a million words and contains substantial passages in French.",
-    "hook": "He denied it was a novel, and much of it is in French."
+    "explanation": "It appeared in instalments from 1865 and as a book in 1869, following aristocratic families through Napoleon's 1812 invasion of Russia. Tolstoy said it was not a novel; it runs to about 580,000 words, and whole passages are in French, the language of the Russian upper class.",
+    "hook": "Tolstoy insisted it was not a novel, and his characters often speak French, not Russian."
   },
   {
     "id": "art_044",
@@ -609,11 +609,11 @@
     "answer": "The Scream",
     "distractors": [
       "Madonna",
-      "The Dance of Life",
-      "The Sick Child"
+      "The Sick Child",
+      "Vampire"
     ],
-    "explanation": "Edvard Munch made several versions; thieves left a note reading 'thanks for the poor security', and a different version was stolen again in 2004.",
-    "hook": "The thieves left a thank-you note mocking the security."
+    "explanation": "Thieves took the painted version from Oslo's National Gallery on the morning the Lillehammer Winter Olympics opened, leaving a note saying 'Thanks for the poor security'. It was recovered in May 1994, and another version was stolen at gunpoint from the Munch Museum in 2004.",
+    "hook": "Two versions of The Scream have been stolen, so the figure has good reason to scream."
   },
   {
     "id": "art_045",
@@ -624,24 +624,24 @@
     "distractors": [
       "Peter Carey",
       "David Malouf",
-      "Frank Moorhouse"
+      "Morris West"
     ],
-    "explanation": "It won the 1982 Booker Prize amid debate about whether a work drawing so heavily on documented fact qualified as a novel.",
-    "hook": "A Booker won by a book people argued was not really fiction."
+    "explanation": "Keneally heard Oskar Schindler's story from Leopold Page, a Holocaust survivor who ran a luggage shop in Beverly Hills. Schindler's Ark won the 1982 Booker Prize, despite argument about whether a book so close to fact counted as a novel, and Spielberg's film came out in 1993.",
+    "hook": "The book exists because Keneally went into a Beverly Hills shop to buy a briefcase."
   },
   {
     "id": "art_046",
     "category": "arts_lit",
     "difficulty": "medium",
-    "question": "Which composer wrote the operas The Ring of the Nibelung?",
+    "question": "Which composer wrote the four-opera cycle The Ring of the Nibelung?",
     "answer": "Richard Wagner",
     "distractors": [
       "Giuseppe Verdi",
       "Giacomo Puccini",
       "Richard Strauss"
     ],
-    "explanation": "The four-opera cycle takes about fifteen hours and he built a purpose-designed theatre at Bayreuth to stage it, still used for annual festivals.",
-    "hook": "He built an entire theatre because no existing one could stage it properly."
+    "explanation": "The cycle runs to about fifteen hours across four nights: Das Rheingold, Die Walküre, Siegfried and Götterdämmerung. Wagner built his own festival theatre at Bayreuth to stage it in 1876, and the Ride of the Valkyries comes from Die Walküre.",
+    "hook": "No theatre could stage it properly, so Wagner built his own at Bayreuth."
   },
   {
     "id": "art_047",
@@ -654,8 +654,8 @@
       "Persuasion",
       "Sense and Sensibility"
     ],
-    "explanation": "The sentence is ironic: it is the neighbourhood's assumption, not the narrator's, that a wealthy single man must want a wife.",
-    "hook": "The famous line is a joke at the neighbours' expense, not a statement of fact."
+    "explanation": "The full line is 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.' It is ironic: it is the local mothers who believe it, not the narrator. Emma opens with Emma Woodhouse being 'handsome, clever, and rich'.",
+    "hook": "The 'truth' is gossip from the neighbours, and Austen is laughing at them."
   },
   {
     "id": "art_048",
@@ -666,24 +666,24 @@
     "distractors": [
       "Johannes Vermeer",
       "Frans Hals",
-      "Jan Steen"
+      "Ferdinand Bol"
     ],
-    "explanation": "Completed in 1642, the painting was later trimmed to fit a wall in Amsterdam's town hall, permanently removing figures from the left side.",
-    "hook": "It was cut down to fit a wall, and the missing figures are gone for good."
+    "explanation": "Finished in 1642, it is a group portrait of a civic militia company, and the 'night' is dirty varnish; the scene is set in daylight. It was trimmed in 1715 to fit a wall in Amsterdam's town hall, and now hangs in the Rijksmuseum.",
+    "hook": "It is not a night scene at all: the darkness was grime on the varnish."
   },
   {
     "id": "art_049",
     "category": "arts_lit",
     "difficulty": "medium",
-    "question": "Which literary award is Australia's most prestigious for a novel of Australian life?",
+    "question": "Which Australian literary award must go to a novel presenting 'Australian life in any of its phases'?",
     "answer": "The Miles Franklin Award",
     "distractors": [
       "The Stella Prize",
       "The Vogel Award",
       "The Prime Minister's Literary Award"
     ],
-    "explanation": "Funded by the estate of the author of My Brilliant Career, it requires the novel to present Australian life in any of its phases, a clause that has caused repeated controversy.",
-    "hook": "The 'Australian life' clause in the will has caused arguments for seventy years."
+    "explanation": "Set up by the will of the author of My Brilliant Career and first awarded in 1957 to Patrick White's Voss, it has been argued over for decades because of that 'Australian life' clause. Tim Winton and Thea Astley share the record with four wins each; the 2026 winner was Omar Musa for Fierceland.",
+    "hook": "The Miles Franklin's first winner was Voss, and White went on to the Nobel."
   },
   {
     "id": "art_050",
@@ -693,11 +693,11 @@
     "answer": "James Joyce",
     "distractors": [
       "Samuel Beckett",
-      "W.B. Yeats",
+      "Oscar Wilde",
       "Flann O'Brien"
     ],
-    "explanation": "Published in 1922, it follows one day in Dublin, 16 June 1904, now celebrated as Bloomsday; the date is when he first walked out with Nora Barnacle.",
-    "hook": "The whole novel happens on the day he first went walking with his future wife."
+    "explanation": "Published in Paris in 1922, it follows Leopold Bloom through Dublin on a single day, 16 June 1904, now celebrated as Bloomsday. That was the date of Joyce's first outing with Nora Barnacle, whom he later married, and the book's structure mirrors Homer's Odyssey.",
+    "hook": "Ulysses is the Latin name for Odysseus: Joyce's Dublin day retells Homer's ten-year voyage."
   },
   {
     "id": "art_051",
@@ -708,24 +708,24 @@
     "distractors": [
       "Raphael",
       "Leonardo da Vinci",
-      "Botticelli"
+      "Perugino"
     ],
-    "explanation": "The shape surrounding God has been argued to resemble a cross-section of the human brain, though whether that was intentional remains speculation.",
-    "hook": "The red cloak around God looks strikingly like a brain in cross-section."
+    "explanation": "It is one panel of the Sistine Chapel ceiling, painted about 1511-12, with God's and Adam's fingers not quite touching. In 1990 a doctor argued that the red shape around God resembles a human brain, though no one knows whether Michelangelo, who dissected corpses, meant it.",
+    "hook": "The fingers never touch, and the cloak around God looks like a brain."
   },
   {
     "id": "art_052",
     "category": "arts_lit",
     "difficulty": "medium",
-    "question": "Which Australian artist won the Archibald Prize and painted Alchemy?",
+    "question": "Which Australian artist won the Archibald, Wynne and Sulman prizes all in the same year, 1978?",
     "answer": "Brett Whiteley",
     "distractors": [
       "Sidney Nolan",
       "John Olsen",
-      "Arthur Boyd"
+      "William Dobell"
     ],
-    "explanation": "He won the Archibald, Wynne and Sulman prizes in the same year in 1978, a feat unmatched before or since.",
-    "hook": "He swept all three major prizes in a single year — nobody else has."
+    "explanation": "Whiteley won the Archibald twice (1976 and 1978), and his 1978 treble of Archibald, Wynne and Sulman has never been repeated. His studio in Surry Hills is now run by the Art Gallery of NSW, and his huge painting Alchemy is one of its showpieces.",
+    "hook": "Portrait, landscape and genre in one year: Whiteley's treble is still unmatched."
   },
   {
     "id": "art_053",
@@ -738,8 +738,8 @@
       "Villette",
       "Agnes Grey"
     ],
-    "explanation": "Her only novel, published in 1847 under the pen name Ellis Bell; Jane Eyre was by her sister Charlotte and Agnes Grey by Anne.",
-    "hook": "Three sisters, three novels, three male pen names — Currer, Ellis and Acton Bell."
+    "explanation": "It was Emily's only novel, published in 1847 under the pen name Ellis Bell, a year before she died aged thirty. Charlotte wrote Jane Eyre as Currer Bell and Anne wrote Agnes Grey as Acton Bell; each pen name keeps the sister's initial.",
+    "hook": "Currer, Ellis and Acton Bell keep Charlotte, Emily and Anne's initials."
   },
   {
     "id": "art_054",
@@ -752,8 +752,8 @@
       "Camille Pissarro",
       "Alfred Sisley"
     ],
-    "explanation": "He produced around 250 paintings of the pond over thirty years, working on with increasingly severe cataracts that visibly altered his palette.",
-    "hook": "You can date the late ones by how his cataracts changed the colours."
+    "explanation": "Monet painted about 250 versions of his lily pond over thirty years, and cataracts in his later years pushed his colours towards reds and browns. His eight huge Water Lilies panels were given to France after the First World War and fill two oval rooms of the Musée de l'Orangerie in Paris.",
+    "hook": "You can see his cataracts in the late lilies: the blues turn to mud and rust."
   },
   {
     "id": "art_055",
@@ -766,8 +766,8 @@
       "Eugène Ionesco",
       "Tom Stoppard"
     ],
-    "explanation": "First staged in French in 1953, he wrote it in French and translated it himself; he described it as a play in which nothing happens, twice.",
-    "hook": "Famously summarised as a play where nothing happens — twice."
+    "explanation": "Beckett wrote it in French as En attendant Godot, first staged in Paris in 1953, and translated it himself. The critic Vivian Mercier famously summed it up as a play in which nothing happens, twice. Beckett won the Nobel Prize in 1969.",
+    "hook": "Vladimir and Estragon wait for Godot twice, and he never shows up."
   },
   {
     "id": "art_056",
@@ -780,8 +780,8 @@
       "Jorge Luis Borges",
       "Isabel Allende"
     ],
-    "explanation": "The 1967 novel defined magical realism and won him the 1982 Nobel; he reportedly sold his car to fund the writing of it.",
-    "hook": "He sold the family car to buy time to finish it."
+    "explanation": "Published in 1967, it follows seven generations of the Buendía family in the invented town of Macondo and is the book most tied to magical realism. García Márquez won the Nobel Prize in 1982; his friend-turned-rival Mario Vargas Llosa, who once punched him, won in 2010.",
+    "hook": "Macondo is invented, and Vargas Llosa, the rival distractor, once gave him a black eye."
   },
   {
     "id": "art_057",
@@ -794,8 +794,8 @@
       "Rover Thomas",
       "Clifford Possum Tjapaltjarri"
     ],
-    "explanation": "He became the first Aboriginal person granted Australian citizenship, in 1957, while most Aboriginal people remained under restrictive state laws.",
-    "hook": "He was given citizenship in his own country as a special exception."
+    "explanation": "An Arrernte man from Hermannsburg mission, he learned watercolour from the artist Rex Battarbee in the 1930s. In 1957 he and his wife were granted full citizenship, an exception at a time when most Aboriginal people in the Northern Territory were legal wards; he died in 1959.",
+    "hook": "Hermannsburg watercolours of ghost gums are Namatjira; the dotted Papunya work came later."
   },
   {
     "id": "art_058",
@@ -806,10 +806,10 @@
     "distractors": [
       "Antigone",
       "Medea",
-      "The Oresteia"
+      "Agamemnon"
     ],
-    "explanation": "Sophocles' play gave Freud the name for his theory; Antigone, also by Sophocles, concerns Oedipus's daughter.",
-    "hook": "Sophocles wrote both Oedipus and the sequel about his daughter Antigone."
+    "explanation": "Sophocles' play, first staged around 429 BC, gave Freud the name of his Oedipus complex. Oedipus answers the Sphinx's riddle and blinds himself when he learns the truth. Sophocles also wrote Antigone, about his daughter.",
+    "hook": "Oedipus solved the Sphinx's riddle and could not see his own story."
   },
   {
     "id": "art_059",
@@ -822,8 +822,8 @@
       "Juan Gris",
       "Fernand Léger"
     ],
-    "explanation": "He developed Cubism with Georges Braque from around 1907, breaking objects into simultaneous viewpoints; the two worked so closely their canvases are sometimes hard to tell apart.",
-    "hook": "Blue, then rose, then Cubism — and Braque was there for the third."
+    "explanation": "The Blue Period (about 1901-04) followed a friend's suicide, and the Rose Period of circus figures came next. Picasso and Georges Braque then developed Cubism from about 1907-08, when Les Demoiselles d'Avignon was painted; their canvases can be hard to tell apart.",
+    "hook": "Sad blue, then rosy circus, then broken cubes with Braque."
   },
   {
     "id": "art_060",
@@ -836,8 +836,8 @@
       "Cat's Eye",
       "Alias Grace"
     ],
-    "explanation": "Published in 1985, she has said she included nothing that had not happened somewhere at some point in history; the sequel The Testaments won the Booker in 2019.",
-    "hook": "Her rule while writing: nothing in it that had not already happened somewhere."
+    "explanation": "Published in 1985, it is narrated by Offred, and Atwood said she included nothing that had not already happened somewhere in history. Its sequel The Testaments shared the 2019 Booker Prize with Bernardine Evaristo's Girl, Woman, Other, and Atwood had already won in 2000 with The Blind Assassin.",
+    "hook": "Offred means 'of Fred': handmaids are named after the man who owns them."
   },
   {
     "id": "art_061",
@@ -850,8 +850,8 @@
       "Christoph Gluck",
       "Antonio Salieri"
     ],
-    "explanation": "Premiered in September 1791, weeks before his death at thirty-five; it is a Singspiel, with spoken dialogue rather than continuous sung recitative.",
-    "hook": "Premiered weeks before he died, and it has spoken dialogue like a musical."
+    "explanation": "It premiered in Vienna on 30 September 1791, about ten weeks before Mozart died, aged thirty-five. It is a Singspiel, with spoken dialogue between the songs, and features the Queen of the Night's aria with its famous top Fs. Salieri, the distractor, attended a performance and praised it.",
+    "hook": "Mozart's last opera has spoken dialogue, like a musical, and it was written for a popular theatre."
   },
   {
     "id": "art_062",
@@ -861,11 +861,11 @@
     "answer": "My Brilliant Career",
     "distractors": [
       "The Getting of Wisdom",
-      "Such is Life",
-      "For the Term of His Natural Life"
+      "Such Is Life",
+      "Seven Little Australians"
     ],
-    "explanation": "Written when she was a teenager, she withdrew it from publication for decades because her family recognised themselves in it; the 1979 film starred Judy Davis.",
-    "hook": "She suppressed her own book for decades because relatives took offence."
+    "explanation": "Stella Miles Franklin wrote it as a teenager, and Henry Lawson helped get it published in Edinburgh in 1901. Hurt that relatives recognised themselves, she refused to allow a reprint in her lifetime; it was reissued in 1966, and Gillian Armstrong's 1979 film starred Judy Davis.",
+    "hook": "She blocked her own bestseller for life because her family took offence."
   },
   {
     "id": "art_063",
@@ -875,11 +875,11 @@
     "answer": "Abstract Expressionism",
     "distractors": [
       "Fauvism",
-      "Constructivism",
+      "Minimalism",
       "Futurism"
     ],
-    "explanation": "Jackson Pollock's drip technique made him its emblem; the National Gallery of Australia's purchase of Blue Poles for $1.3 million in 1973 caused a national political row.",
-    "hook": "Blue Poles cost $1.3 million in 1973 and nearly became an election issue."
+    "explanation": "Jackson Pollock's drip paintings, made on canvas laid on the floor, are its best-known works, and Mark Rothko's colour fields its other main branch. Canberra's purchase of Pollock's Blue Poles for A$1.3 million in 1973 caused a national political row.",
+    "hook": "Pollock dripped from above, with the canvas flat on the floor, not upright on an easel."
   },
   {
     "id": "art_064",
@@ -889,11 +889,11 @@
     "answer": "Dylan Thomas",
     "distractors": [
       "W.H. Auden",
-      "T.S. Eliot",
+      "Seamus Heaney",
       "Philip Larkin"
     ],
-    "explanation": "Written in 1947 as his father was dying, it is a villanelle, a strict nineteen-line form with two repeating refrains.",
-    "hook": "It is a villanelle — the repetition is a rule of the form, not a stylistic choice."
+    "explanation": "Thomas wrote it for his dying father and published it in 1951; its second refrain is 'Rage, rage against the dying of the light'. It is a villanelle, a nineteen-line form in which two lines repeat. He also wrote the radio play Under Milk Wood.",
+    "hook": "A villanelle repeats two lines by rule, so the rage keeps returning."
   },
   {
     "id": "art_065",
@@ -904,10 +904,10 @@
     "distractors": [
       "Billy Budd",
       "The Sea-Wolf",
-      "Typee"
+      "Captains Courageous"
     ],
-    "explanation": "Melville drew on the real sinking of the whaleship Essex by a sperm whale in 1820, whose survivors resorted to cannibalism.",
-    "hook": "Based on a real whale that sank a real ship — the Essex, in 1820."
+    "explanation": "Melville drew on the whaleship Essex, rammed and sunk by a sperm whale in the Pacific in 1820; its survivors resorted to cannibalism. Ahab lost his leg to the whale and walks on a peg made of whale jawbone.",
+    "hook": "The Essex was real, sunk by a whale, and Ahab's peg leg is whalebone."
   },
   {
     "id": "art_066",
@@ -920,8 +920,8 @@
       "Patrick White",
       "Louis Nowra"
     ],
-    "explanation": "He became Australia's most performed playwright from the 1970s; Ray Lawler's Summer of the Seventeenth Doll had opened the way in 1955.",
-    "hook": "Lawler broke the ground in 1955; Williamson built the house in the 1970s."
+    "explanation": "The Removalists (1971) and Don's Party (1971), set on the night of the 1969 federal election, made Williamson the country's most performed playwright; he also wrote the screenplays for Gallipoli and Phar Lap. Ray Lawler's Summer of the Seventeenth Doll (1955) is the play usually credited with starting modern Australian drama.",
+    "hook": "Lawler's Doll opened the door in 1955; Williamson's Don threw the party in the 1970s."
   },
   {
     "id": "art_067",
@@ -932,10 +932,10 @@
     "distractors": [
       "Gustave Flaubert",
       "Émile Zola",
-      "Albert Camus"
+      "André Gide"
     ],
-    "explanation": "At around 1.2 million words it is often cited as the longest novel ever published; the madeleine dipped in tea occurs early in the first volume.",
-    "hook": "Longest novel ever published, and the famous cake appears in the first hundred pages."
+    "explanation": "Published in seven volumes from 1913 to 1927, it runs to about 1.2 million words and holds the Guinness record for the longest novel. In the first volume, Swann's Way, the taste of a madeleine dipped in lime-blossom tea brings back the narrator's childhood; André Gide rejected the first volume for his publisher and later called it the worst mistake of his career.",
+    "hook": "One bite of a madeleine sets off 1.2 million words of memory."
   },
   {
     "id": "art_068",
@@ -945,11 +945,11 @@
     "answer": "Auguste Rodin",
     "distractors": [
       "Antonio Canova",
-      "Henry Moore",
-      "Alberto Giacometti"
+      "Camille Claudel",
+      "Aristide Maillol"
     ],
-    "explanation": "It began as part of a larger work, The Gates of Hell, depicting Dante contemplating his poem, before being enlarged and cast independently.",
-    "hook": "He is not thinking in general — he is Dante looking down into hell."
+    "explanation": "It began around 1880 as a figure of Dante sitting above The Gates of Hell, Rodin's doorway based on the Inferno, and was originally called The Poet. Enlarged and cast on its own, it now exists in more than twenty full-size bronzes; Camille Claudel was Rodin's student and lover.",
+    "hook": "He is not thinking about anything in general: he is Dante looking down into hell."
   },
   {
     "id": "art_069",
@@ -958,12 +958,12 @@
     "question": "Which Shakespeare character says 'To be, or not to be'?",
     "answer": "Hamlet",
     "distractors": [
-      "Othello",
+      "Macbeth",
       "King Lear",
-      "Richard III"
+      "Richard II"
     ],
-    "explanation": "The soliloquy weighs existence against suicide and comes in Act 3, well after the play's midpoint, not at its opening as often assumed.",
-    "hook": "It comes in Act 3, not at the start — a common misremembering."
+    "explanation": "The soliloquy comes in Act 3, Scene 1, as Hamlet weighs whether to endure life's troubles or end them, just before he tells Ophelia 'Get thee to a nunnery'. The skull speech, often mixed up with it, comes much later in Act 5.",
+    "hook": "'To be' has no skull: the skull scene is two acts later with Yorick."
   },
   {
     "id": "art_070",
@@ -976,8 +976,8 @@
       "Ben Okri",
       "Chimamanda Ngozi Adichie"
     ],
-    "explanation": "Published in 1958, it takes its title from Yeats's poem The Second Coming and is the most widely read African novel in English.",
-    "hook": "The title is lifted straight from a Yeats poem."
+    "explanation": "Published in 1958, it follows the Igbo wrestler Okonkwo as missionaries and colonial rule arrive, and takes its title from Yeats's poem The Second Coming ('Things fall apart; the centre cannot hold'). Wole Soyinka, the common wrong answer, became Africa's first Nobel literature laureate in 1986; Achebe never won it.",
+    "hook": "Achebe borrowed his title from Yeats; Soyinka took the Nobel."
   },
   {
     "id": "art_071",
@@ -990,8 +990,8 @@
       "Baroque",
       "Neoclassical"
     ],
-    "explanation": "The name was originally a Renaissance insult implying barbarism; Romanesque used round arches and much thicker walls to carry the same loads.",
-    "hook": "'Gothic' began as an insult meaning barbaric."
+    "explanation": "Gothic building began in France in the 1100s, with pointed arches and flying buttresses letting walls be thinner and filled with stained glass, as at Notre-Dame and Chartres. The name began as a Renaissance insult meaning barbaric; the earlier Romanesque style used round arches and thick walls.",
+    "hook": "Round arch, Romanesque; pointed arch, Gothic."
   },
   {
     "id": "art_072",
@@ -1004,8 +1004,8 @@
       "Georges Simenon",
       "Raymond Chandler"
     ],
-    "explanation": "She is the best-selling novelist of all time, and killed Poirot off in Curtain, written during the Second World War but published in 1975.",
-    "hook": "She wrote his death in the 1940s and locked it in a vault for thirty years."
+    "explanation": "Christie is the best-selling novelist of all time, with her books selling an estimated two billion copies. She wrote Poirot's death, Curtain, during the Second World War and kept it locked away until 1975; the New York Times gave him a front-page obituary. Her other main detective is Miss Marple.",
+    "hook": "Poirot is the only fictional character to get a front-page obituary in the New York Times."
   },
   {
     "id": "art_073",
@@ -1014,12 +1014,12 @@
     "question": "Which Australian singer-songwriter wrote 'From Little Things Big Things Grow' with Kev Carmody?",
     "answer": "Paul Kelly",
     "distractors": [
-      "Nick Cave",
+      "Shane Howard",
       "Archie Roach",
       "Neil Murray"
     ],
-    "explanation": "Written in 1991, it tells the story of Vincent Lingiari and the Gurindji walk-off at Wave Hill that led to the first land handback in 1975.",
-    "hook": "A song that is really a history lesson about the Wave Hill walk-off."
+    "explanation": "Written with Kev Carmody and released in 1991, it tells the story of Vincent Lingiari and the Gurindji walk-off from Wave Hill station in 1966. It ends with Gough Whitlam pouring a handful of soil into Lingiari's hand when land was handed back in 1975.",
+    "hook": "The song ends with Whitlam's handful of soil falling into Lingiari's palm."
   },
   {
     "id": "art_074",
@@ -1032,8 +1032,8 @@
       "Burmese Days",
       "Coming Up for Air"
     ],
-    "explanation": "Published in 1945, several publishers rejected it for offending the Soviet ally; T.S. Eliot at Faber was among those who turned it down.",
-    "hook": "T.S. Eliot rejected it for being politically inconvenient in 1944."
+    "explanation": "The novella satirises the Russian Revolution and Stalin, who appears as the pig Napoleon. Several publishers turned it down in 1944 for fear of offending the Soviet ally, including T.S. Eliot at Faber, and it finally came out in August 1945.",
+    "hook": "The pigs' final commandment rewrites 'All animals are equal' with a sting in the tail."
   },
   {
     "id": "art_075",
@@ -1044,10 +1044,10 @@
     "distractors": [
       "Edward Hopper",
       "Andrew Wyeth",
-      "Thomas Hart Benton"
+      "Norman Rockwell"
     ],
-    "explanation": "Painted in 1930, the models were his dentist and his sister, and the pair are meant to be father and daughter rather than husband and wife.",
-    "hook": "The models were his dentist and his sister, posed as father and daughter."
+    "explanation": "Painted in 1930 and held by the Art Institute of Chicago, it was modelled by Grant Wood's dentist, Byron McKeeby, and his sister Nan. They are meant to be a farmer and his daughter, not husband and wife; the 'Gothic' refers to the pointed window of the house behind them.",
+    "hook": "The 'Gothic' is the pointed farmhouse window, and the couple are father and daughter."
   },
   {
     "id": "art_076",
@@ -1060,22 +1060,22 @@
       "Richard Flanagan",
       "David Malouf"
     ],
-    "explanation": "Schindler's Ark took the prize in 1982; Peter Carey followed in 1988 and 2001, and Richard Flanagan in 2014, making four Booker wins for Australia.",
-    "hook": "Keneally 1982, Carey 1988 and 2001, Flanagan 2014 — the whole Australian list."
+    "explanation": "Schindler's Ark took the prize in 1982. Peter Carey followed in 1988 and 2001, the Australian-born DBC Pierre in 2003 with Vernon God Little, and Richard Flanagan in 2014.",
+    "hook": "Keneally, Carey twice, Pierre, Flanagan: the Aussie Booker roll call starts with Schindler."
   },
   {
     "id": "art_077",
     "category": "arts_lit",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which Italian poet wrote the Divine Comedy?",
     "answer": "Dante Alighieri",
     "distractors": [
       "Petrarch",
       "Boccaccio",
-      "Ariosto"
+      "Virgil"
     ],
-    "explanation": "Written in Tuscan vernacular rather than Latin, it helped establish modern Italian; Virgil guides him through hell and purgatory but cannot enter paradise.",
-    "hook": "Virgil takes him as far as paradise and then has to stop — he was a pagan."
+    "explanation": "Written in the early 1300s in Tuscan rather than Latin, it helped set the standard for modern Italian. The Roman poet Virgil guides Dante through Hell and Purgatory, but as a pagan cannot enter Paradise, where Beatrice takes over; 'Abandon all hope, ye who enter here' is written over the gate of Hell.",
+    "hook": "Virgil is the guide, not the author: he gets Dante as far as Paradise and has to stop."
   },
   {
     "id": "art_078",
@@ -1085,11 +1085,11 @@
     "answer": "Hieronymus Bosch",
     "distractors": [
       "Pieter Bruegel the Elder",
-      "Matthias Grünewald",
+      "Jan van Eyck",
       "Albrecht Dürer"
     ],
-    "explanation": "The triptych was painted around 1500 and its right panel of hell includes a figure with musical notation written on his buttocks, which musicians have since transcribed and performed.",
-    "hook": "Someone transcribed the tune written on a damned soul's backside — it exists as a recording."
+    "explanation": "The triptych was painted around 1490-1510 and hangs in the Prado in Madrid. Its hell panel includes a figure with a line of music written on his buttocks, which has been transcribed and recorded as the '500-year-old butt song'.",
+    "hook": "Bosch wrote a tune on a damned man's backside, and people have recorded it."
   },
   {
     "id": "art_079",
@@ -1102,8 +1102,8 @@
       "Eleanor Dark",
       "Miles Franklin"
     ],
-    "explanation": "Published in 1940 to little notice, it was rediscovered in 1965 after an essay by Randall Jarrell and is now widely regarded as a masterpiece.",
-    "hook": "Ignored for twenty-five years until one critic's essay resurrected it."
+    "explanation": "Published in 1940 to little notice, it was reissued in 1965 with an introduction by the American poet Randall Jarrell and is now seen as a masterpiece. Stead moved the family story, based on her own naturalist father, from Sydney to Washington. She won the first Patrick White Award in 1974.",
+    "hook": "Stead set her Sydney family in Washington and waited 25 years to be noticed."
   },
   {
     "id": "art_080",
@@ -1116,8 +1116,8 @@
       "Barbara Baynton",
       "Katharine Susannah Prichard"
     ],
-    "explanation": "She adopted a male name to be taken seriously; her trilogy The Fortunes of Richard Mahony traces a doctor's decline during and after the gold rushes.",
-    "hook": "Another Australian woman who published under a man's name to be read."
+    "explanation": "Richardson grew up in Victoria and spent most of her adult life in England. Her trilogy The Fortunes of Richard Mahony, based on her father, follows a doctor's decline after the gold rushes, and her first novel Maurice Guest was set among music students in Leipzig. She was nominated for the Nobel Prize in 1932.",
+    "hook": "Henry Handel was Ethel: another woman who needed a man's name to be read."
   },
   {
     "id": "art_081",
@@ -1128,10 +1128,10 @@
     "distractors": [
       "Gustav Holst",
       "Ralph Vaughan Williams",
-      "Frederick Delius"
+      "Arthur Sullivan"
     ],
-    "explanation": "Each variation portrays a friend, and he hinted at a hidden theme running through the whole work that he never revealed; theories are still published.",
-    "hook": "He took the secret theme to his grave and people are still guessing."
+    "explanation": "Written in 1898-99, each of the fourteen variations is a musical portrait of one of Elgar's friends, and the slow Nimrod, for his publisher August Jaeger, is played at the Cenotaph on Remembrance Sunday. Elgar hinted that a well-known tune fits over the theme but never said which.",
+    "hook": "Nimrod, the mighty hunter, is Jaeger, which is German for hunter."
   },
   {
     "id": "art_082",
@@ -1142,10 +1142,10 @@
     "distractors": [
       "Lolita",
       "Pnin",
-      "Ada"
+      "Invitation to a Beheading"
     ],
-    "explanation": "Published in 1962, it presents a 999-line poem followed by an unreliable editor's notes, and can be read in almost any order.",
-    "hook": "A novel disguised as a poem plus footnotes, readable in any order you like."
+    "explanation": "Published in 1962, it consists of a 999-line poem by the fictional poet John Shade plus foreword, commentary and index by his deluded neighbour Charles Kinbote, who thinks it is about him. Nabokov was also a serious butterfly expert.",
+    "hook": "The footnotes are the novel: the editor is mad and the poem is the evidence."
   },
   {
     "id": "art_083",
@@ -1155,11 +1155,11 @@
     "answer": "Emily Kame Kngwarreye",
     "distractors": [
       "Rover Thomas",
-      "Fiona Hall",
+      "Gloria Petyarre",
       "Tracey Moffatt"
     ],
-    "explanation": "Australia's 1997 pavilion, Fluent, showed her alongside Yvonne Koolmatrie and Judy Watson; she had produced some 3,000 works in the eight years before her death in 1996.",
-    "hook": "She started painting at nearly eighty and made three thousand works in eight years."
+    "explanation": "An Anmatyerr woman from Utopia in the Northern Territory, she moved from batik to painting on canvas around 1988 and made about 3,000 works before her death in 1996. She was shown after her death in Australia's 1997 Venice pavilion, Fluent, alongside Yvonne Koolmatrie and Judy Watson; her Earth's Creation sold for more than $1 million in 2007.",
+    "hook": "She started painting on canvas near eighty and made a painting a day for eight years."
   },
   {
     "id": "art_084",
@@ -1169,25 +1169,25 @@
     "answer": "Murasaki Shikibu",
     "distractors": [
       "Sei Shōnagon",
-      "Yasunari Kawabata",
-      "Bashō"
+      "Yosano Akiko",
+      "Higuchi Ichiyō"
     ],
-    "explanation": "Written around 1010 by a lady of the Heian court, it predates European novels by centuries; Sei Shōnagon was a contemporary and rival diarist.",
-    "hook": "The first novel was written by a Japanese woman a thousand years ago."
+    "explanation": "Written about 1000-1012 by a lady-in-waiting at the Heian court in Kyoto, it follows the love affairs of Prince Genji across 54 chapters. Murasaki is a nickname; her rival at court, Sei Shōnagon, wrote The Pillow Book.",
+    "hook": "Murasaki wrote the novel, Shōnagon wrote the Pillow Book, and they could not stand each other."
   },
   {
     "id": "art_085",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which painter is associated with the Heidelberg School of Australian impressionism?",
+    "question": "Which painter of Shearing the Rams was a leader of the Heidelberg School?",
     "answer": "Tom Roberts",
     "distractors": [
       "Russell Drysdale",
-      "Margaret Preston",
+      "Hans Heysen",
       "Grace Cossington Smith"
     ],
-    "explanation": "Working with Arthur Streeton and Frederick McCubbin from the 1880s, he painted Shearing the Rams and The Big Picture of the opening of federal parliament.",
-    "hook": "Roberts, Streeton and McCubbin — the Heidelberg trio who invented the Australian landscape look."
+    "explanation": "Roberts, with Arthur Streeton, Frederick McCubbin and Charles Conder, painted outdoors around Heidelberg near Melbourne from the late 1880s, and their 1889 9 by 5 Impression Exhibition used cigar-box lids as panels. Roberts also painted The Big Picture of the first federal parliament opening in 1901.",
+    "hook": "Cigar-box lids, 9 by 5 inches, launched the Heidelberg School."
   },
   {
     "id": "art_086",
@@ -1198,10 +1198,10 @@
     "distractors": [
       "Emily Dickinson",
       "Ralph Waldo Emerson",
-      "Henry Wadsworth Longfellow"
+      "Carl Sandburg"
     ],
-    "explanation": "First published at his own expense in 1855 with twelve poems, it grew across nine editions to more than 400 by the 1892 'deathbed' edition.",
-    "hook": "One book, nine editions, thirty-seven years of revision."
+    "explanation": "Whitman paid to print the first edition in 1855, with twelve untitled poems including what became Song of Myself. He kept expanding it through several editions until the 'deathbed edition' of 1891-92 held about 400 poems; O Captain! My Captain! is his elegy for Lincoln.",
+    "hook": "Whitman kept adding to one book for 37 years, from 12 poems to about 400."
   },
   {
     "id": "art_087",
@@ -1211,11 +1211,11 @@
     "answer": "Damien Hirst",
     "distractors": [
       "Tracey Emin",
-      "Anish Kapoor",
-      "Rachel Whiteread"
+      "Jeff Koons",
+      "Marc Quinn"
     ],
-    "explanation": "The 1991 work is a tiger shark in formaldehyde; the original specimen decayed and had to be replaced, raising questions about what the artwork actually is.",
-    "hook": "The shark rotted and was swapped — so is it still the same artwork?"
+    "explanation": "The 1991 work is a tiger shark in formaldehyde, paid for by the collector Charles Saatchi and made famous by the Sensation show in 1997. The first shark decayed and was replaced in 2006, which raised the question of whether it is still the same artwork; Hirst was the leading Young British Artist.",
+    "hook": "The shark rotted and was swapped, so is it still the same artwork?"
   },
   {
     "id": "art_088",
@@ -1228,8 +1228,8 @@
       "Cymbeline",
       "Pericles"
     ],
-    "explanation": "It marks the abrupt tonal shift at the play's midpoint; scholars still argue over whether a real bear or a costumed actor was used at the Globe.",
-    "hook": "Nobody knows whether the Globe used a costume or an actual bear."
+    "explanation": "The direction is in Act 3, Scene 3, when Antigonus, having left the baby Perdita on the coast of Bohemia, is chased off and eaten. It marks the turn from tragedy to comedy, and nobody knows whether the King's Men used an actor in a bearskin or a real bear from the nearby bear-baiting pits.",
+    "hook": "Winter's Tale: a bear, a lost baby and a statue that comes to life."
   },
   {
     "id": "art_089",
@@ -1239,25 +1239,25 @@
     "answer": "Igor Stravinsky",
     "distractors": [
       "Sergei Prokofiev",
-      "Béla Bartók",
+      "Claude Debussy",
       "Maurice Ravel"
     ],
-    "explanation": "The 1913 Paris premiere provoked uproar over its dissonance and Nijinsky's choreography; the disturbance was probably as much about the dancing as the music.",
-    "hook": "The riot was arguably about the choreography more than the notes."
+    "explanation": "The Ballets Russes premiere in Paris on 29 May 1913 caused an uproar, provoked as much by Nijinsky's stamping choreography as by the jagged music. Stravinsky also wrote The Firebird (1910) and Petrushka (1911) for Diaghilev.",
+    "hook": "Firebird, Petrushka, then the riot: Stravinsky's three ballets for Diaghilev."
   },
   {
     "id": "art_090",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which Australian poet wrote the collection Selected Poems and the poem 'Bora Ring'?",
+    "question": "Which Australian poet wrote 'Bora Ring' and 'South of My Days'?",
     "answer": "Judith Wright",
     "distractors": [
-      "Kenneth Slessor",
+      "Oodgeroo Noonuccal",
       "A.D. Hope",
       "Gwen Harwood"
     ],
-    "explanation": "She was also a leading conservationist and campaigner for Aboriginal land rights, helping found the Wildlife Preservation Society of Queensland.",
-    "hook": "One of Australia's major poets was also one of its first serious environmentalists."
+    "explanation": "Both poems are in Wright's first collection, The Moving Image (1946), and draw on the New England tablelands where she grew up. She co-founded the Wildlife Preservation Society of Queensland, campaigned to save the Great Barrier Reef, and supported Aboriginal land rights alongside her friend Oodgeroo Noonuccal.",
+    "hook": "A poet who fought for the Reef as hard as she worked at her verse."
   },
   {
     "id": "art_091",
@@ -1270,8 +1270,8 @@
       "The Ossian forgeries",
       "The Hitler diaries"
     ],
-    "explanation": "Two conservative poets invented a dead mechanic-poet and assembled nonsense verse in an afternoon; editor Max Harris published it and was later prosecuted for obscenity.",
-    "hook": "The fake poet was more successful than his real inventors ever were."
+    "explanation": "In 1944 the poets James McAuley and Harold Stewart made up a dead mechanic called Ern Malley and wrote nonsense poems in an afternoon to mock modernism. Max Harris published them in Angry Penguins and was fined for obscenity; Sidney Nolan painted the cover, and the poems are now admired in their own right.",
+    "hook": "The fake poet has outlasted his inventors: Ern Malley is still in print."
   },
   {
     "id": "art_092",
@@ -1284,8 +1284,8 @@
       "Heinrich Heine",
       "Thomas Mann"
     ],
-    "explanation": "He began it in his twenties and finished part two shortly before his death in 1832; the bargain with Mephistopheles gave the language the term 'Faustian'.",
-    "hook": "Sixty years on one work, finished months before he died."
+    "explanation": "Goethe published Part One in 1808 and finished Part Two shortly before his death in 1832. Faust's pact with the devil Mephistopheles gave English the word 'Faustian'; Christopher Marlowe had told the same story in his play Doctor Faustus about two centuries earlier.",
+    "hook": "Goethe spent sixty years on the deal with the devil, and finished just in time."
   },
   {
     "id": "art_093",
@@ -1296,10 +1296,10 @@
     "distractors": [
       "Francisco Goya",
       "El Greco",
-      "Bartolomé Murillo"
+      "Francisco de Zurbarán"
     ],
-    "explanation": "Painted in 1656, the perspective places the viewer where the king and queen stand, visible only as a reflection in a mirror at the back.",
-    "hook": "You are standing where the king was — the mirror at the back proves it."
+    "explanation": "Painted in 1656 and held by the Prado, it shows the Infanta Margarita and her maids of honour, the 'meninas' of the title. The king and queen appear only as a reflection in the mirror at the back, placing the viewer where they stand; Picasso painted 58 variations on it in 1957.",
+    "hook": "Look in the mirror at the back: you are standing where the king and queen stood."
   },
   {
     "id": "art_094",
@@ -1312,36 +1312,36 @@
       "Questions of Travel",
       "The Golden Age"
     ],
-    "explanation": "Carrie Tiffany's novel took the first Stella, established to address the under-recognition of Australian women writers and named after Stella Miles Franklin.",
-    "hook": "The Stella is named for Miles Franklin's actual first name."
+    "explanation": "Carrie Tiffany's novel took the first Stella Prize in 2013. The prize was set up to address the under-recognition of Australian women writers and is named after Stella Maria Sarah Miles Franklin. In 2026 Lee Lai's Cannon became the first graphic novel to win it.",
+    "hook": "The Stella uses the first name Miles Franklin disliked and dropped."
   },
   {
     "id": "art_095",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which architectural movement produced the Bauhaus school in Germany?",
-    "answer": "Modernism",
+    "question": "Which German art and design school was founded by Walter Gropius in Weimar in 1919?",
+    "answer": "The Bauhaus",
     "distractors": [
-      "Art Nouveau",
-      "Art Deco",
-      "Brutalism"
+      "The Deutscher Werkbund",
+      "The Vienna Secession",
+      "De Stijl"
     ],
-    "explanation": "Founded by Walter Gropius in 1919 and closed under Nazi pressure in 1933, its emigrating staff spread its ideas to the United States and beyond.",
-    "hook": "Shutting it down in 1933 exported its ideas to the rest of the world."
+    "explanation": "It moved to Dessau in 1925 and Berlin in 1932 before closing under Nazi pressure in 1933, and teachers included Paul Klee, Wassily Kandinsky and Mies van der Rohe. Its staff moved abroad, spreading modernist design, and Tel Aviv's 'White City' has thousands of buildings in the style.",
+    "hook": "The Bauhaus closed in 1933, and its exiles took its style around the world."
   },
   {
     "id": "art_096",
     "category": "arts_lit",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which Russian composer wrote the ballets Swan Lake and The Nutcracker?",
     "answer": "Pyotr Ilyich Tchaikovsky",
     "distractors": [
       "Nikolai Rimsky-Korsakov",
-      "Modest Mussorgsky",
-      "Alexander Borodin"
+      "Sergei Prokofiev",
+      "Igor Stravinsky"
     ],
-    "explanation": "Swan Lake failed at its 1877 premiere and only became a staple after a posthumous 1895 revival with new choreography.",
-    "hook": "Swan Lake flopped in his lifetime and became famous after he died."
+    "explanation": "Swan Lake had a poor premiere in 1877 and became a classic only after the 1895 revival choreographed by Marius Petipa and Lev Ivanov, two years after Tchaikovsky's death. His third ballet was The Sleeping Beauty; The Nutcracker (1892) gave us the Dance of the Sugar Plum Fairy.",
+    "hook": "Swan Lake, Sleeping Beauty, Nutcracker: all three big ballets are Tchaikovsky's."
   },
   {
     "id": "art_097",
@@ -1354,8 +1354,8 @@
       "Four Quartets",
       "Ash Wednesday"
     ],
-    "explanation": "Published in 1922, Ezra Pound cut it to roughly half its original length, an edit Eliot acknowledged by dedicating it to him as 'il miglior fabbro'.",
-    "hook": "Pound cut half of it, and Eliot's dedication calls him 'the better craftsman'."
+    "explanation": "Published in 1922, the year of Joyce's Ulysses, it was cut to about half its draft length by Ezra Pound, whom Eliot thanked in the dedication as 'il miglior fabbro', the better craftsman. Its original working title was He Do the Police in Different Voices.",
+    "hook": "1922 gave us both The Waste Land and Ulysses: modernism's big year."
   },
   {
     "id": "art_098",
@@ -1368,22 +1368,22 @@
       "Fred Schepisi",
       "Gillian Armstrong"
     ],
-    "explanation": "Part of the Australian New Wave of the 1970s, his 1975 film adapted Joan Lindsay's novel about schoolgirls vanishing, a story many still believe is true.",
-    "hook": "The disappearance is fiction, but half the country thinks it really happened."
+    "explanation": "Weir's 1975 film of Joan Lindsay's novel about schoolgirls vanishing on Valentine's Day 1900 led a revival of Australian cinema, and many viewers still believe it happened. He went on to Gallipoli, Witness, Dead Poets Society and The Truman Show, and received an honorary Oscar in 2022.",
+    "hook": "The girls never existed, but Lindsay's hints that they might have fooled half the country."
   },
   {
     "id": "art_099",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which artist is known for large-scale wrapped buildings and landscapes?",
-    "answer": "Christo",
+    "question": "Which artist couple were known for wrapping buildings and landscapes in fabric?",
+    "answer": "Christo and Jeanne-Claude",
     "distractors": [
-      "Andy Goldsworthy",
-      "Richard Serra",
-      "Robert Smithson"
+      "Gilbert and George",
+      "Claes Oldenburg and Coosje van Bruggen",
+      "Ulay and Marina Abramović"
     ],
-    "explanation": "With Jeanne-Claude he wrapped the Reichstag and Pont Neuf; their 1969 wrapping of Little Bay in Sydney was among the largest artworks ever made at the time.",
-    "hook": "Their first monumental wrapping was an Australian coastline, not a European monument."
+    "explanation": "They wrapped the Pont Neuf in Paris (1985) and the Reichstag in Berlin (1995), paying for everything by selling Christo's drawings. Their first huge landscape work was Wrapped Coast at Little Bay in Sydney in 1969, backed by the Australian collector John Kaldor.",
+    "hook": "Before the Reichstag, they wrapped a Sydney coastline."
   },
   {
     "id": "art_100",
@@ -1394,10 +1394,10 @@
     "distractors": [
       "Gulliver's Travels",
       "Tom Jones",
-      "Clarissa"
+      "Joseph Andrews"
     ],
-    "explanation": "Published from 1759, its digressions and typographic games anticipate postmodern fiction by two centuries; the narrator is not born until volume three.",
-    "hook": "The narrator does not manage to get himself born until volume three."
+    "explanation": "Published in nine volumes from 1759 to 1767, it is so full of digressions that Tristram is not born until the third volume. The black page mourns the parson Yorick, named after Hamlet's jester, and its games with layout anticipate postmodern fiction by two centuries.",
+    "hook": "The black page mourns a parson called Yorick, a nod to Hamlet's skull."
   },
   {
     "id": "art_101",
@@ -1410,8 +1410,8 @@
       "Charlotte Wood",
       "Helen Garner"
     ],
-    "explanation": "Published in 2005 and drawing on her own ancestor's settlement on the Hawkesbury, it won the Commonwealth Writers' Prize and was shortlisted for the Miles Franklin, and prompted a public argument with historians about fiction's claims on the past.",
-    "hook": "It started a public argument between a novelist and historians about who owns the past."
+    "explanation": "Published in 2005, it follows the convict William Thornhill as he takes land on the Hawkesbury River, based on Grenville's own ancestor Solomon Wiseman. It won the Commonwealth Writers' Prize and was shortlisted for the Booker, and historians such as Inga Clendinnen criticised her claims about fiction and history. Andrew Bovell adapted it for the stage.",
+    "hook": "Grenville found the story in her own family tree, and the historians came after her."
   },
   {
     "id": "art_102",
@@ -1424,8 +1424,8 @@
       "Kim Scott",
       "Tara June Winch"
     ],
-    "explanation": "Her 2007 win followed Kim Scott's shared award for Benang in 2000; Scott won again for That Deadman Dance and Lucashenko for Too Much Lip.",
-    "hook": "Scott 2000, Wright 2007, Scott again 2011, Lucashenko 2019 — the Miles Franklin roll."
+    "explanation": "Carpentaria won in 2007, and Wright won again in 2024 with Praiseworthy. Other First Nations winners include Kim Scott (Benang, 2000, and That Deadman Dance, 2011), Melissa Lucashenko (Too Much Lip, 2019) and Tara June Winch (The Yield, 2020).",
+    "hook": "Wright and Scott are the two First Nations authors with two Miles Franklins each."
   },
   {
     "id": "art_103",
@@ -1438,8 +1438,8 @@
       "Benvenuto Cellini",
       "Baldassare Castiglione"
     ],
-    "explanation": "Published in 1550, it is the source of most Renaissance anecdotes and gave the period its name in Italian as the rinascita, or rebirth; the French 'Renaissance' came three centuries later via Michelet and Burckhardt.",
-    "hook": "He invented art history and the word 'rebirth' — but not the word 'Renaissance'."
+    "explanation": "Published in 1550 and expanded in 1568, it is the source of most Renaissance artist anecdotes and used the word 'rinascita' (rebirth) for the revival of art. Vasari also designed the Uffizi building in Florence and the corridor linking it to the Pitti Palace.",
+    "hook": "Vasari wrote the book on Renaissance artists and designed the Uffizi to house them."
   },
   {
     "id": "art_104",
@@ -1450,10 +1450,10 @@
     "distractors": [
       "Tosca",
       "Turandot",
-      "La Bohème"
+      "Manon Lescaut"
     ],
-    "explanation": "It failed at its 1904 La Scala premiere and succeeded only after substantial revision; Turandot, set in China, was left unfinished at his death.",
-    "hook": "Butterfly in Japan, Turandot in China — and he died before finishing the second."
+    "explanation": "Cio-Cio-San sings 'Un bel dì' ('One fine day') as she waits for the American naval officer Pinkerton to return to Nagasaki. The 1904 premiere at La Scala was a failure and Puccini revised it; Turandot, set in China, was left unfinished at his death in 1924.",
+    "hook": "Butterfly in Japan, Turandot in China, and he died before finishing the second."
   },
   {
     "id": "art_105",
@@ -1466,8 +1466,8 @@
       "Beverley Farmer",
       "Amanda Lohrey"
     ],
-    "explanation": "Published in 1977, critics attacked it for reading like a diary, an accusation she has since said was essentially accurate and beside the point.",
-    "hook": "Critics said it read like a diary; she agreed and said so what."
+    "explanation": "Published in 1977 and set in the share-houses of inner Melbourne, it won the National Book Council Award; critics said it read like her diary, which she later agreed was true. Garner's nonfiction includes The First Stone and This House of Grief, and her diaries have since been published in three volumes.",
+    "hook": "Critics said it was just her diary; decades later she published the actual diaries."
   },
   {
     "id": "art_106",
@@ -1478,10 +1478,10 @@
     "distractors": [
       "Sidney Nolan",
       "Arthur Streeton",
-      "William Dobell"
+      "Frederick McCubbin"
     ],
-    "explanation": "His drought-stricken country towns redefined how Australians pictured the inland, replacing the sunny pastoralism of the Heidelberg painters.",
-    "hook": "He replaced the golden Heidelberg landscape with drought and empty verandahs."
+    "explanation": "Sofala, a gold-rush town near Bathurst, won Drysdale the 1947 Wynne Prize. His drought-stricken towns and gaunt figures, such as The Drover's Wife, replaced the golden sunlit farms of the Heidelberg painters as the picture of inland Australia.",
+    "hook": "Heidelberg painted golden paddocks; Drysdale painted the drought."
   },
   {
     "id": "art_107",
@@ -1494,8 +1494,8 @@
       "The Sulman Prize",
       "The Doug Moran Prize"
     ],
-    "explanation": "William Dobell's portrait of Joshua Smith was challenged in the NSW Supreme Court as a caricature rather than a portrait; the court upheld the award.",
-    "hook": "A court had to rule on whether a painting counted as a portrait at all."
+    "explanation": "William Dobell won the 1943 Archibald with a portrait of his fellow artist Joshua Smith. Two losing entrants sued, arguing it was a caricature, and the NSW Supreme Court upheld the award in 1944, but the case badly affected both painters.",
+    "hook": "The court ruled a portrait can distort and still be a portrait."
   },
   {
     "id": "art_108",
@@ -1508,8 +1508,8 @@
       "A.D. Hope",
       "James McAuley"
     ],
-    "explanation": "Written between 1935 and 1937 as an elegy for his friend Joe Lynch, who drowned in Sydney Harbour, and published in 1939; it later gave its name to a John Olsen mural in the Opera House.",
-    "hook": "An elegy for a drowned friend that ended up painted on the Opera House wall."
+    "explanation": "Slessor wrote it in the late 1930s as an elegy for his friend Joe Lynch, who fell from a ferry and drowned in Sydney Harbour in 1927, and it was published in 1939. John Olsen's huge mural Salute to Five Bells hangs in the Sydney Opera House.",
+    "hook": "Five Bells is the ship's time Slessor hears as he thinks of drowned Joe Lynch."
   },
   {
     "id": "art_109",
@@ -1520,10 +1520,10 @@
     "distractors": [
       "Milan Kundera",
       "Rainer Maria Rilke",
-      "Robert Musil"
+      "Karel Čapek"
     ],
-    "explanation": "He instructed his friend Max Brod to burn his unpublished manuscripts; Brod ignored him and published The Trial, The Castle and Amerika instead.",
-    "hook": "Almost everything he is famous for was supposed to be burned."
+    "explanation": "Published in 1915, it opens with Gregor Samsa waking to find himself changed into a giant insect. Kafka asked his friend Max Brod to burn his unpublished manuscripts, but Brod published The Trial, The Castle and Amerika instead.",
+    "hook": "Almost everything Kafka is famous for was supposed to be burned."
   },
   {
     "id": "art_110",
@@ -1536,8 +1536,8 @@
       "Nihonga",
       "Yamato-e"
     ],
-    "explanation": "The term means 'pictures of the floating world'; these cheap prints reached Europe as packing material and heavily influenced Van Gogh and Monet.",
-    "hook": "They arrived in Europe as wrapping paper and changed Impressionism."
+    "explanation": "Ukiyo-e means 'pictures of the floating world', the pleasure districts of Edo (Tokyo). The Great Wave off Kanagawa, around 1831, comes from Hokusai's series Thirty-Six Views of Mount Fuji; such prints flooded into Europe after Japan opened to trade in the 1850s and strongly influenced Van Gogh, Monet and Degas.",
+    "hook": "Look for Mount Fuji: it is tiny in the background of the Great Wave."
   },
   {
     "id": "art_111",
@@ -1547,25 +1547,25 @@
     "answer": "George Eliot",
     "distractors": [
       "Elizabeth Gaskell",
-      "Frances Burney",
-      "Maria Edgeworth"
+      "Charlotte Brontë",
+      "Anne Brontë"
     ],
-    "explanation": "Mary Ann Evans chose the name to be taken seriously and to avoid scrutiny of her relationship with a married man; Virginia Woolf called the novel one of the few written for grown-up people.",
-    "hook": "Woolf called it one of the few English novels written for adults."
+    "explanation": "Mary Ann Evans used the name to be taken seriously and to keep attention away from her life with the married critic George Henry Lewes. Middlemarch (1871-72) follows Dorothea Brooke in a Midlands town, and Virginia Woolf called it one of the few English novels written for grown-up people.",
+    "hook": "George Eliot was Mary Ann Evans, and Woolf said Middlemarch was written for adults."
   },
   {
     "id": "art_112",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which twentieth-century Australian sculpture and gallery bequest created the Museum of Old and New Art?",
-    "answer": "David Walsh's collection",
+    "question": "Which professional gambler founded Hobart's Museum of Old and New Art (MONA)?",
+    "answer": "David Walsh",
     "distractors": [
-      "The Felton Bequest",
-      "The Besen Collection",
-      "The Holmes à Court Collection"
+      "Kerry Stokes",
+      "John Kaldor",
+      "Judith Neilson"
     ],
-    "explanation": "Funded by professional gambling winnings and opened in Hobart in 2011, MONA reshaped Tasmanian tourism and is built largely underground into a sandstone cliff.",
-    "hook": "A museum funded by beating the bookmakers, cut into a Hobart cliff."
+    "explanation": "Walsh made his fortune with a team that used maths to beat racing and casino odds, and opened MONA at Berriedale in January 2011, carved largely into a sandstone cliff beside the Derwent River. It changed Tasmanian tourism and runs the Dark Mofo and Mona Foma festivals.",
+    "hook": "A museum built on beating the bookmakers, dug into a Hobart cliff."
   },
   {
     "id": "art_113",
@@ -1575,11 +1575,11 @@
     "answer": "Aristophanes",
     "distractors": [
       "Euripides",
-      "Aeschylus",
+      "Sophocles",
       "Menander"
     ],
-    "explanation": "In it the women of Greece withhold sex to force an end to the Peloponnesian War; Aeschylus, Sophocles and Euripides wrote tragedy, not comedy.",
-    "hook": "The three great tragedians plus one great comedian — Aristophanes is the comedian."
+    "explanation": "First staged in 411 BC, it has the women of Greece refusing sex until their husbands end the Peloponnesian War. Aristophanes wrote the only complete Old Comedies that survive, including The Clouds, The Birds and The Frogs; Aeschylus, Sophocles and Euripides wrote tragedy.",
+    "hook": "Three great tragedians, one great comedian: Aristophanes is the joker."
   },
   {
     "id": "art_114",
@@ -1592,36 +1592,36 @@
       "Murray Bail",
       "Rodney Hall"
     ],
-    "explanation": "Published in 1993 about a European boy raised by Aboriginal people, it won the inaugural International Dublin Literary Award but lost the Miles Franklin to Rodney Hall's The Grisly Wife.",
-    "hook": "It won the world's richest literary prize and still lost the Miles Franklin."
+    "explanation": "Published in 1993, it follows Gemmy, a white boy raised by Aboriginal people, arriving at a Queensland settlement in the 1840s. It won the first International IMPAC Dublin Literary Award in 1996, then the world's richest prize for a single novel, and Malouf's other key works include An Imaginary Life and Johnno.",
+    "hook": "It won the world's richest literary prize but not the Miles Franklin: Rodney Hall beat it."
   },
   {
     "id": "art_115",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which painter is credited with the first purely abstract paintings around 1910?",
+    "question": "Which Russian painter is traditionally credited with making the first purely abstract paintings, around 1910-11?",
     "answer": "Wassily Kandinsky",
     "distractors": [
-      "Piet Mondrian",
       "Kazimir Malevich",
-      "Hilma af Klint"
+      "Marc Chagall",
+      "El Lissitzky"
     ],
-    "explanation": "The claim is contested: Hilma af Klint produced abstract work from 1906 but stipulated it not be shown until decades after her death, so it was unknown until 1986.",
-    "hook": "Hilma af Klint got there first but hid the work for eighty years."
+    "explanation": "Kandinsky, who later taught at the Bauhaus, linked colour to music and called some works 'Compositions' and 'Improvisations'. The claim is disputed: the Swedish painter Hilma af Klint made abstract works from 1906 but wanted them kept hidden until well after her death, so they were unknown until the 1980s.",
+    "hook": "Kandinsky gets the credit, but Hilma af Klint got there first and hid the work."
   },
   {
     "id": "art_116",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which novel by Herman Hesse follows a young Brahmin's search for enlightenment?",
+    "question": "Which novel by Hermann Hesse follows a young Brahmin's search for enlightenment?",
     "answer": "Siddhartha",
     "distractors": [
       "Steppenwolf",
       "The Glass Bead Game",
       "Demian"
     ],
-    "explanation": "Published in 1922, it became a counterculture text in the 1960s; the protagonist is not the Buddha but a contemporary who meets him.",
-    "hook": "The title character is not the Buddha — he meets the Buddha and walks on."
+    "explanation": "Published in 1922 and set in India at the time of the Buddha, it became a key counterculture text in the 1960s. Siddhartha meets Gautama Buddha but chooses to find his own way, ending as a ferryman on a river. Hesse won the Nobel Prize in 1946.",
+    "hook": "Siddhartha is not the Buddha: he meets the Buddha and walks off to become a ferryman."
   },
   {
     "id": "art_117",
@@ -1634,8 +1634,8 @@
       "The National Gallery of Victoria",
       "The Queensland Art Gallery"
     ],
-    "explanation": "Bought in 1973 for A$1.3 million on Whitlam's personal authorisation, it caused a political storm and is now valued in the hundreds of millions.",
-    "hook": "The most attacked purchase in Australian art turned out to be the best investment."
+    "explanation": "Bought in 1973 for A$1.3 million with Gough Whitlam's approval, it was then the highest price ever paid for a modern American painting and was mocked in the press. It hangs in the National Gallery of Australia in Canberra and is now thought to be worth several hundred million dollars.",
+    "hook": "The most mocked buy in Australian art became the best investment Canberra ever made."
   },
   {
     "id": "art_118",
@@ -1646,10 +1646,10 @@
     "distractors": [
       "Stendhal",
       "Honoré de Balzac",
-      "Guy de Maupassant"
+      "Charles Baudelaire"
     ],
-    "explanation": "The 1857 trial ended in acquittal and made the book a bestseller; he was famous for spending days searching for a single precise word.",
-    "hook": "The obscenity trial was the best publicity the book could have had."
+    "explanation": "Flaubert was acquitted at his 1857 trial, which turned the novel about Emma Bovary's affairs and debts into a bestseller. Baudelaire, the distractor, was prosecuted the same year over Les Fleurs du mal and lost. Flaubert reportedly said 'Madame Bovary, c'est moi'.",
+    "hook": "Two obscenity trials in Paris in 1857: Flaubert won, Baudelaire lost."
   },
   {
     "id": "art_119",
@@ -1662,8 +1662,8 @@
       "Futurism",
       "Vorticism"
     ],
-    "explanation": "It grew out of Dada and drew on Freud's theories of the unconscious, aiming to release imagination through automatic writing and dream imagery.",
-    "hook": "Dada came first and was nihilist; Surrealism came out of it with Freud attached."
+    "explanation": "It grew out of Dada and drew on Freud's ideas about the unconscious, using automatic writing and dream imagery. Leading painters included Salvador Dalí, René Magritte, Max Ernst and Joan Miró; Breton later expelled Dalí from the group.",
+    "hook": "Dada broke things; Surrealism took Freud's dreams and made art out of them."
   },
   {
     "id": "art_120",
@@ -1673,11 +1673,11 @@
     "answer": "A.B. Facey",
     "distractors": [
       "Sally Morgan",
-      "Robert Dessaix",
+      "Hal Porter",
       "Donald Horne"
     ],
-    "explanation": "Published in 1981 when he was eighty-seven and nine months before his death, his account of an orphaned childhood and Gallipoli sold over a million copies.",
-    "hook": "Published at eighty-seven, nine months before he died, and it sold a million."
+    "explanation": "Albert Facey published it in 1981, in his late eighties, and died in February 1982. It tells of being sent to work as a child, droving and farm labour in Western Australia, and landing at Gallipoli, and has sold more than a million copies. Sally Morgan's My Place (1987) is the other big WA memoir of the era.",
+    "hook": "An old soldier's first book, published months before he died, sold a million."
   },
   {
     "id": "art_121",
@@ -1688,10 +1688,10 @@
     "distractors": [
       "The sonata",
       "The concerto grosso",
-      "The rondo"
+      "The passacaglia"
     ],
-    "explanation": "The two books contain a prelude and fugue in every major and minor key, demonstrating a tuning system that made all twenty-four keys usable.",
-    "hook": "Twenty-four keys, twice over, to prove a tuning system worked."
+    "explanation": "Its two books (1722 and 1742) each hold a prelude and fugue in all 24 major and minor keys, showing that a 'well-tempered' tuning made every key playable. In a fugue, voices enter one after another with the same theme; Bach's unfinished The Art of Fugue is his other great study of the form.",
+    "hook": "48 preludes and fugues: two books of 24, one for every key."
   },
   {
     "id": "art_122",
@@ -1704,13 +1704,13 @@
       "The Yirrkala bark movement",
       "The Utopia batik movement"
     ],
-    "explanation": "Teacher Geoffrey Bardon encouraged Western Desert men to paint their designs in acrylic on board, launching the most significant art movement in modern Australia.",
-    "hook": "It started with a schoolteacher handing out paint at a desert settlement."
+    "explanation": "In 1971 the teacher Geoffrey Bardon encouraged Western Desert men at Papunya, west of Alice Springs, to paint a mural and then their Dreaming designs in acrylic on board. Painters such as Clifford Possum Tjapaltjarri formed Papunya Tula Artists in 1972, and the dot-painting movement they started grew into a major art market.",
+    "hook": "It started with a schoolyard mural at Papunya in 1971."
   },
   {
     "id": "art_123",
     "category": "arts_lit",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Which poet wrote 'The Rime of the Ancient Mariner'?",
     "answer": "Samuel Taylor Coleridge",
     "distractors": [
@@ -1718,8 +1718,8 @@
       "Percy Bysshe Shelley",
       "John Keats"
     ],
-    "explanation": "It opened Lyrical Ballads in 1798, the collection he produced with Wordsworth that is usually taken to begin English Romanticism.",
-    "hook": "It is the first poem in the book that started English Romanticism."
+    "explanation": "It opened Lyrical Ballads in 1798, the collection Coleridge produced with William Wordsworth that is usually taken to start English Romanticism. It gave the language the albatross 'around the neck' and 'Water, water, every where, / Nor any drop to drink'.",
+    "hook": "The Mariner shot an albatross and was made to wear it around his neck."
   },
   {
     "id": "art_124",
@@ -1729,11 +1729,11 @@
     "answer": "Frank Gehry",
     "distractors": [
       "Zaha Hadid",
-      "Renzo Piano",
+      "Santiago Calatrava",
       "Norman Foster"
     ],
-    "explanation": "Opened in 1997, its titanium curves revived a declining industrial city so effectively that urban planners now speak of the 'Bilbao effect'.",
-    "hook": "One building revived a whole city — planners named the phenomenon after it."
+    "explanation": "Opened in 1997, its curving titanium-clad galleries helped turn around the declining Basque industrial city, and planners now call such a turnaround 'the Bilbao effect'. Gehry also designed the Walt Disney Concert Hall in Los Angeles and the crumpled Dr Chau Chak Wing Building at UTS in Sydney.",
+    "hook": "Bilbao Guggenheim and Sydney's 'paper bag' building: both Gehry."
   },
   {
     "id": "art_125",
@@ -1746,8 +1746,8 @@
       "Brett Dean",
       "Ross Edwards"
     ],
-    "explanation": "Premiered in Adelaide in 1986 with a libretto by David Malouf, it brought together three major figures of Australian arts in one work.",
-    "hook": "White's novel, Malouf's libretto, Meale's music — three heavyweights on one stage."
+    "explanation": "Meale's opera premiered at the 1986 Adelaide Festival, with a libretto by David Malouf based on White's 1957 novel about the explorer Voss, loosely modelled on Ludwig Leichhardt. Voss was also the first book to win the Miles Franklin Award.",
+    "hook": "Leichhardt vanished in 1848; White turned him into Voss, and Meale and Malouf set him to music."
   },
   {
     "id": "art_126",
@@ -1758,10 +1758,10 @@
     "distractors": [
       "Marianne Moore",
       "Elizabeth Bishop",
-      "Sylvia Plath"
+      "Christina Rossetti"
     ],
-    "explanation": "Fewer than a dozen appeared in print before her death in 1886; her sister found the rest bound in hand-sewn booklets and had them published.",
-    "hook": "Her sister found 1,800 poems sewn into little booklets after she died."
+    "explanation": "Only about ten of her poems appeared in print, mostly anonymously and edited, before her death in 1886 in Amherst, Massachusetts. Her sister Lavinia found the rest in hand-sewn booklets, called fascicles; her style is known for dashes and slant rhyme, as in 'Because I could not stop for Death'.",
+    "hook": "Nearly 1,800 poems were found sewn into little booklets in a drawer."
   },
   {
     "id": "art_127",
@@ -1774,8 +1774,8 @@
       "Vittorio De Sica",
       "Luchino Visconti"
     ],
-    "explanation": "La Dolce Vita gave the word 'paparazzi' to the world, from the surname of a photographer character in the film.",
-    "hook": "'Paparazzi' is just a character's surname from one of his films."
+    "explanation": "La Dolce Vita (1960) features Anita Ekberg wading through the Trevi Fountain, and a photographer character named Paparazzo gave the world the word 'paparazzi'. 8½ (1963) is about a director who cannot make his next film; Fellini won four Oscars for foreign-language film.",
+    "hook": "'Paparazzi' is the plural of a character's surname in La Dolce Vita."
   },
   {
     "id": "art_128",
@@ -1786,10 +1786,10 @@
     "distractors": [
       "Loaded",
       "Barracuda",
-      "Dead Europe"
+      "Damascus"
     ],
-    "explanation": "Published in 2008, it tells the same incident from eight characters' perspectives and was adapted into television series in both Australia and the United States.",
-    "hook": "One incident, eight narrators, two countries' television adaptations."
+    "explanation": "Published in 2008, it tells the fallout of one slap at a Melbourne barbecue from eight characters' points of view and won the 2009 Commonwealth Writers' Prize. It was adapted for ABC television in 2011 and NBC in 2015; Tsiolkas's Barracuda is about a swimmer.",
+    "hook": "One slap at a barbecue, eight narrators, two TV series."
   },
   {
     "id": "art_129",
@@ -1799,11 +1799,11 @@
     "answer": "Antoni Gaudí",
     "distractors": [
       "Santiago Calatrava",
-      "Rafael Moneo",
+      "Lluís Domènech i Montaner",
       "Ricardo Bofill"
     ],
-    "explanation": "Begun in 1882 and taken over by him in 1883, he devoted the last years of his life to it and is buried in its crypt; completion is projected for the 2030s.",
-    "hook": "Under construction for over 140 years, and the architect is buried inside it."
+    "explanation": "Work began in 1882 and Gaudí took over in 1883, working on it until he was hit by a tram in 1926; he is buried in its crypt. In February 2026 the cross was fitted to the central Tower of Jesus Christ, making the basilica, at more than 170 metres, the tallest church in the world, and the tower was blessed on the centenary of Gaudí's death in June 2026.",
+    "hook": "Gaudí died under a tram in 1926, and his central tower was finished for the centenary."
   },
   {
     "id": "art_130",
@@ -1816,7 +1816,357 @@
       "The Booker Prize",
       "The PEN/Faulkner Award"
     ],
-    "explanation": "The citation praised new poetic expressions within the great American song tradition; he did not respond for two weeks and skipped the ceremony.",
-    "hook": "He ignored the Swedish Academy's calls for a fortnight, then skipped the ceremony."
+    "explanation": "The Swedish Academy cited him 'for having created new poetic expressions within the great American song tradition'. He did not publicly respond for about two weeks, missed the December ceremony, and sent a lecture as a recording to meet the deadline for the prize money.",
+    "hook": "Dylan kept the Swedish Academy waiting for a fortnight, then skipped the ceremony."
+  },
+  {
+    "id": "art_131",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Dutch painter created Girl with a Pearl Earring?",
+    "answer": "Johannes Vermeer",
+    "distractors": [
+      "Rembrandt",
+      "Frans Hals",
+      "Pieter de Hooch"
+    ],
+    "explanation": "Painted around 1665 and held by the Mauritshuis in The Hague, it is not a portrait of a real sitter but a 'tronie', a study of a face in costume. Only about 35 Vermeers survive; Tracy Chevalier's 1999 novel imagined the model's story and was filmed with Scarlett Johansson.",
+    "hook": "Vermeer painted so few pictures that every one of them is a headline loan."
+  },
+  {
+    "id": "art_132",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Australian author wrote the picture book Possum Magic?",
+    "answer": "Mem Fox",
+    "distractors": [
+      "May Gibbs",
+      "Jackie French",
+      "Graeme Base"
+    ],
+    "explanation": "Published in 1983 with illustrations by Julie Vivas, it follows Grandma Poss and the invisible Hush as they eat their way round Australia on lamingtons, pavlova and Vegemite sandwiches. It is one of the best-selling Australian picture books; Jackie French wrote Diary of a Wombat and Graeme Base wrote Animalia.",
+    "hook": "Grandma's magic is undone by Aussie tucker: a lamington or a Vegemite sandwich brings Hush back."
+  },
+  {
+    "id": "art_133",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Mexican artist painted many self-portraits and was married to the muralist Diego Rivera?",
+    "answer": "Frida Kahlo",
+    "distractors": [
+      "Tamara de Lempicka",
+      "Georgia O'Keeffe",
+      "Leonora Carrington"
+    ],
+    "explanation": "About a third of her roughly 200 paintings are self-portraits, many painted in bed after a bus accident in 1925 left her with lifelong injuries. She married Rivera twice, in 1929 and again in 1940, and her Blue House in Coyoacán, Mexico City, is now a museum.",
+    "hook": "Kahlo married Rivera twice, and painted herself because she was 'the subject I know best'."
+  },
+  {
+    "id": "art_134",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Charles Dickens novel features an orphan who asks, \"Please, sir, I want some more\"?",
+    "answer": "Oliver Twist",
+    "distractors": [
+      "David Copperfield",
+      "Great Expectations",
+      "Nicholas Nickleby"
+    ],
+    "explanation": "Published in instalments in 1837-39, it attacked the workhouses set up under the 1834 Poor Law. Oliver later falls in with Fagin's gang of child pickpockets, led by the Artful Dodger, and the brutal Bill Sikes murders Nancy.",
+    "hook": "Oliver asks for more gruel; Pip has great expectations; David Copperfield tells his own life."
+  },
+  {
+    "id": "art_135",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Austrian painter created The Kiss, covered in gold leaf?",
+    "answer": "Gustav Klimt",
+    "distractors": [
+      "Egon Schiele",
+      "Oskar Kokoschka",
+      "Alphonse Mucha"
+    ],
+    "explanation": "Painted in 1907-08 during his 'golden phase', it hangs in the Belvedere in Vienna, which bought it before it was even finished. Klimt led the Vienna Secession, and his Portrait of Adele Bloch-Bauer I, seized by the Nazis, was the subject of the film Woman in Gold.",
+    "hook": "Klimt's father was a gold engraver, and the son went on to paint in actual gold."
+  },
+  {
+    "id": "art_136",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which composer wrote the oratorio Messiah, with its Hallelujah chorus?",
+    "answer": "George Frideric Handel",
+    "distractors": [
+      "Johann Sebastian Bach",
+      "Joseph Haydn",
+      "Henry Purcell"
+    ],
+    "explanation": "The German-born Handel wrote it in about three weeks in 1741, and it premiered in Dublin in April 1742. The custom of standing for the Hallelujah chorus is said to go back to King George II, though there is no evidence he ever did it. Handel also wrote the Water Music and Music for the Royal Fireworks.",
+    "hook": "Everyone stands for the Hallelujah because a king supposedly did, and nobody can prove he did."
+  },
+  {
+    "id": "art_137",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Spanish novel features a knight who charges at windmills, believing they are giants?",
+    "answer": "Don Quixote",
+    "distractors": [
+      "Lazarillo de Tormes",
+      "The Decameron",
+      "Orlando Furioso"
+    ],
+    "explanation": "Miguel de Cervantes published it in two parts, in 1605 and 1615, and it is often called the first modern novel. The deluded knight rides the old horse Rocinante with his squire Sancho Panza; 'tilting at windmills' and 'quixotic' both come from it.",
+    "hook": "Tilting at windmills means fighting imaginary enemies, just as Quixote did."
+  },
+  {
+    "id": "art_138",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Norwegian playwright wrote A Doll's House, in which Nora walks out on her husband?",
+    "answer": "Henrik Ibsen",
+    "distractors": [
+      "August Strindberg",
+      "Anton Chekhov",
+      "Bjørnstjerne Bjørnson"
+    ],
+    "explanation": "First staged in Copenhagen in 1879, it ends with Nora slamming the door on her husband Torvald and their children, a sound critics called the slam heard around the world. A German actress refused to play the ending, so Ibsen reluctantly wrote an alternative in which Nora stays. He also wrote Hedda Gabler and Peer Gynt.",
+    "hook": "Ibsen's most famous stage direction is a door slamming."
+  },
+  {
+    "id": "art_139",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Arthur Miller play is about the travelling salesman Willy Loman?",
+    "answer": "Death of a Salesman",
+    "distractors": [
+      "The Crucible",
+      "All My Sons",
+      "A View from the Bridge"
+    ],
+    "explanation": "It opened on Broadway in 1949 and won the Pulitzer Prize and the Tony Award. The Crucible (1953) used the Salem witch trials to attack McCarthyism, and Miller was married to Marilyn Monroe from 1956 to 1961.",
+    "hook": "Loman sounds like 'low man': a little man who believed in being well liked."
+  },
+  {
+    "id": "art_140",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which opera by Georges Bizet features the Habanera and the Toreador Song?",
+    "answer": "Carmen",
+    "distractors": [
+      "La Traviata",
+      "Aida",
+      "Rigoletto"
+    ],
+    "explanation": "It premiered in Paris in 1875 to a shocked audience, because the heroine is a Roma factory worker who smokes and is stabbed on stage. Bizet died three months later aged 36, never knowing it would become one of the most performed operas in the world.",
+    "hook": "Bizet died thinking Carmen was a flop; it became one of the most popular operas in the world."
+  },
+  {
+    "id": "art_141",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which American painter created Nighthawks, showing a late-night diner?",
+    "answer": "Edward Hopper",
+    "distractors": [
+      "Norman Rockwell",
+      "George Bellows",
+      "Andrew Wyeth"
+    ],
+    "explanation": "Painted in 1942, soon after Pearl Harbor, it is held by the Art Institute of Chicago, which bought it within months. The diner has no visible door, sealing the four figures in, and Hopper's wife Jo posed for the woman. Hopper's other themes are empty rooms, motels and lighthouses.",
+    "hook": "Look for the door in Nighthawks: there isn't one, which is why it feels so lonely."
+  },
+  {
+    "id": "art_142",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Who became the first woman to win the Booker Prize twice, with Wolf Hall and Bring Up the Bodies?",
+    "answer": "Hilary Mantel",
+    "distractors": [
+      "Pat Barker",
+      "Philippa Gregory",
+      "Sarah Waters"
+    ],
+    "explanation": "Mantel won in 2009 and 2012 with the first two books of her trilogy about Thomas Cromwell, Henry VIII's chief minister; the third, The Mirror and the Light, came out in 2020. Margaret Atwood became the second woman with two wins in 2019. Mantel died in 2022.",
+    "hook": "Mantel won twice for Cromwell's story: the only Booker winner whose sequel also won."
+  },
+  {
+    "id": "art_143",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Nobel laureate wrote The Remains of the Day and Never Let Me Go?",
+    "answer": "Kazuo Ishiguro",
+    "distractors": [
+      "Ian McEwan",
+      "Julian Barnes",
+      "Salman Rushdie"
+    ],
+    "explanation": "Born in Nagasaki in 1954 and raised in England from the age of five, Ishiguro won the 1989 Booker Prize for The Remains of the Day, about the butler Stevens. He won the Nobel Prize in 2017, and his first novel after the Nobel was Klara and the Sun.",
+    "hook": "Stevens the butler never admits his feelings, and Ishiguro's narrators rarely do."
+  },
+  {
+    "id": "art_144",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Who or what narrates Markus Zusak's novel The Book Thief?",
+    "answer": "Death",
+    "distractors": [
+      "Liesel Meminger",
+      "Max Vandenburg",
+      "Rudy Steiner"
+    ],
+    "explanation": "Published in 2005 and set in Nazi Germany, it follows Liesel, a foster child who steals books, as told by Death, who is weary of his work. The Sydney-born Zusak drew on his German mother's and Austrian father's stories of the war; the book spent more than a decade on the New York Times bestseller list.",
+    "hook": "Liesel is the thief, but Death does the talking."
+  },
+  {
+    "id": "art_145",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "In Jane Eyre, what is the name of Mr Rochester's wife, kept hidden in the attic?",
+    "answer": "Bertha Mason",
+    "distractors": [
+      "Grace Poole",
+      "Blanche Ingram",
+      "Adèle Varens"
+    ],
+    "explanation": "Jane learns of Bertha on her wedding day, when the marriage is stopped; Bertha later sets fire to Thornfield Hall and dies. Grace Poole is the servant who guards her, Blanche Ingram the society beauty Rochester pretends to court, and Adèle his French ward. Jean Rhys told Bertha's side in Wide Sargasso Sea (1966).",
+    "hook": "Grace Poole is the keeper, not the prisoner: the madwoman is Bertha."
+  },
+  {
+    "id": "art_146",
+    "category": "arts_lit",
+    "difficulty": "medium",
+    "question": "Which Vienna-born architect designed Sydney's Australia Square tower and the Rose Seidler House?",
+    "answer": "Harry Seidler",
+    "distractors": [
+      "Robin Boyd",
+      "Glenn Murcutt",
+      "Walter Burley Griffin"
+    ],
+    "explanation": "Seidler studied under Walter Gropius, the Bauhaus founder, at Harvard, and arrived in Sydney in 1948. Rose Seidler House (1950), built for his parents at Wahroonga, brought modernist design to the suburbs, and the circular Australia Square (1967) was then the tallest lightweight concrete building in the world.",
+    "hook": "The Rose Seidler House was named for his mother, the client he built it for."
+  },
+  {
+    "id": "art_147",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Queanbeyan-raised poet and rapper won the 2026 Miles Franklin Award for his novel Fierceland?",
+    "answer": "Omar Musa",
+    "distractors": [
+      "Siang Lu",
+      "Michael Mohammed Ahmad",
+      "Tony Birch"
+    ],
+    "explanation": "Announced in August 2026, the $60,000 prize went to Musa's second novel, a family saga set between Malaysian Borneo and Sydney that shifts between prose and poetry. Musa is a former Australian poetry slam champion whose father was a Malaysian poet. The 2025 winner was Siang Lu for Ghost Cities.",
+    "hook": "Musa went from slam poetry champion to Miles Franklin winner."
+  },
+  {
+    "id": "art_148",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which novel by Siang Lu, a satire about a man fired from a Chinese consulate for not speaking Chinese, won the 2025 Miles Franklin Award?",
+    "answer": "Ghost Cities",
+    "distractors": [
+      "Praiseworthy",
+      "Bodies of Light",
+      "The Yield"
+    ],
+    "explanation": "The book is inspired by China's empty, never-occupied new cities, and judges called it a genuine landmark in Australian literature. The other options are recent winners: Alexis Wright's Praiseworthy (2024), Jennifer Down's Bodies of Light (2022) and Tara June Winch's The Yield (2020).",
+    "hook": "A translator who relied on Google Translate: Ghost Cities is the funny Miles Franklin."
+  },
+  {
+    "id": "art_149",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Melbourne artist won the 2026 Archibald Prize with a portrait of Pitjantjatjara elder Iluwanti Ken?",
+    "answer": "Richard Lewer",
+    "distractors": [
+      "Julie Fragar",
+      "Laura Jones",
+      "Ben Quilty"
+    ],
+    "explanation": "Lewer, who was born in New Zealand, won the $100,000 prize unanimously from 59 finalists and more than 1,000 entries. Iluwanti Ken is a senior artist and ngangkaṟi, a traditional healer. Julie Fragar won in 2025 and Laura Jones in 2024 with a portrait of Tim Winton.",
+    "hook": "Fragar 2025, Lewer 2026: the Archibald's two most recent winners."
+  },
+  {
+    "id": "art_150",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which book became the first graphic novel to win the Stella Prize, in 2026?",
+    "answer": "Cannon",
+    "distractors": [
+      "Stone Fruit",
+      "The Arrival",
+      "Still Alive"
+    ],
+    "explanation": "Lee Lai's Cannon, about a queer Chinese-Canadian line cook in Montreal, won the $60,000 prize in May 2026, the first graphic novel to take it in its 14-year history. Stone Fruit was Lai's first graphic novel; The Arrival is Shaun Tan's wordless graphic novel and Still Alive is Safdar Ahmed's.",
+    "hook": "Cannon fired the Stella into a new form: the first comic-book winner."
+  },
+  {
+    "id": "art_151",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Hungarian novelist, author of Satantango, won the 2025 Nobel Prize in Literature?",
+    "answer": "László Krasznahorkai",
+    "distractors": [
+      "Imre Kertész",
+      "Péter Nádas",
+      "Sándor Márai"
+    ],
+    "explanation": "The Swedish Academy praised his 'compelling and visionary oeuvre that, in the midst of apocalyptic terror, reaffirms the power of art'. He is known for sentences that run for pages, and Béla Tarr's film of Satantango lasts more than seven hours. Imre Kertész, the first Hungarian literature laureate, won in 2002.",
+    "hook": "Kertész first in 2002, Krasznahorkai second in 2025: Hungary's two literature laureates."
+  },
+  {
+    "id": "art_152",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which novel won David Szalay the 2025 Booker Prize?",
+    "answer": "Flesh",
+    "distractors": [
+      "All That Man Is",
+      "Turbulence",
+      "London and the South-East"
+    ],
+    "explanation": "Szalay was the first Hungarian-British winner, and Flesh follows a Hungarian man, István, from a housing estate in his teens to wealth in London in short, spare scenes. His earlier book All That Man Is was shortlisted in 2016. The judging panel was chaired by Roddy Doyle, the 1993 winner.",
+    "hook": "Flesh is a life told through the body: sex, violence and money, in bare, stripped-back prose."
+  },
+  {
+    "id": "art_153",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which novel by the Taiwanese writer Yáng Shuāng-zǐ won the 2026 International Booker Prize?",
+    "answer": "Taiwan Travelogue",
+    "distractors": [
+      "Heart Lamp",
+      "Kairos",
+      "Tomb of Sand"
+    ],
+    "explanation": "Translated by Lin King, it poses as a rediscovered 1930s memoir by a Japanese novelist touring colonial Taiwan and falling for her interpreter. It was the first winner translated from Mandarin and the first by a Taiwanese author. Heart Lamp (2025), Kairos (2024) and Tomb of Sand (2022) are earlier winners.",
+    "hook": "A fake travel memoir that is really a love story, and a first for Taiwan."
+  },
+  {
+    "id": "art_154",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Chekhov play ends with the sound of an axe felling trees?",
+    "answer": "The Cherry Orchard",
+    "distractors": [
+      "The Seagull",
+      "Uncle Vanya",
+      "Three Sisters"
+    ],
+    "explanation": "First staged by Stanislavski's Moscow Art Theatre in January 1904, it shows the Ranevskaya family losing their estate to Lopakhin, the son of a former serf, who cuts down the orchard for holiday cottages. Chekhov insisted it was a comedy and died six months after the premiere.",
+    "hook": "The axes in the orchard are the sound of the old Russian gentry being cleared away."
+  },
+  {
+    "id": "art_155",
+    "category": "arts_lit",
+    "difficulty": "hard",
+    "question": "Which Kamilaroi/Bigambul artist won the Golden Lion at the 2024 Venice Biennale with kith and kin?",
+    "answer": "Archie Moore",
+    "distractors": [
+      "Tracey Moffatt",
+      "Angelica Mesiti",
+      "Marco Fusinato"
+    ],
+    "explanation": "It was the first time Australia had won the Golden Lion for best national participation. Moore chalked a family tree reaching back 65,000 years across the pavilion's black walls and ceiling, above a pool and stacks of coroners' reports into Aboriginal deaths in custody. Moffatt, Mesiti and Fusinato represented Australia in 2017, 2019 and 2022.",
+    "hook": "Moore's family tree ran 65,000 years and won Australia its first Golden Lion."
   }
 ]

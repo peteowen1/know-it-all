@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "wl_001",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who was the first President of the United States?",
+    "answer": "George Washington",
+    "distractors": [
+      "John Adams",
+      "Thomas Jefferson",
+      "Benjamin Franklin"
+    ],
+    "explanation": "Washington served two terms from 1789 to 1797 and then stepped down, setting a two-term custom that held until Franklin D. Roosevelt broke it. Franklin, often mistaken for a president, never held the office.",
+    "hook": "First in war, first in peace, and first on the list of presidents."
+  },
+  {
+    "id": "wl_002",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president delivered the Gettysburg Address in 1863?",
+    "answer": "Abraham Lincoln",
+    "distractors": [
+      "Ulysses S. Grant",
+      "Andrew Johnson",
+      "James Buchanan"
+    ],
+    "explanation": "The speech ran to about 270 words and took barely two minutes, at the dedication of a soldiers' cemetery in Pennsylvania. Its opening 'Four score and seven years ago' counts back 87 years to 1776.",
+    "hook": "Four score and seven: Lincoln was counting back to 1776."
+  },
+  {
+    "id": "wl_003",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president was assassinated in Dallas in November 1963?",
+    "answer": "John F. Kennedy",
+    "distractors": [
+      "Lyndon B. Johnson",
+      "Richard Nixon",
+      "Dwight D. Eisenhower"
+    ],
+    "explanation": "Kennedy was shot in Dealey Plaza on 22 November 1963, allegedly by Lee Harvey Oswald firing from the Texas School Book Depository. Lyndon Johnson took the oath of office aboard Air Force One that afternoon.",
+    "hook": "Dallas, Dealey Plaza, and a new president sworn in on a plane."
+  },
+  {
+    "id": "wl_004",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president resigned in 1974 over the Watergate scandal?",
+    "answer": "Richard Nixon",
+    "distractors": [
+      "Gerald Ford",
+      "Lyndon B. Johnson",
+      "Jimmy Carter"
+    ],
+    "explanation": "Nixon remains the only president to resign. His successor Gerald Ford pardoned him a month later and is the only president never elected either president or vice president.",
+    "hook": "Nixon quit, Ford pardoned, and neither Ford nor his VP had been elected."
+  },
+  {
+    "id": "wl_005",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president was known by the nickname 'Ike'?",
+    "answer": "Dwight D. Eisenhower",
+    "distractors": [
+      "Harry S. Truman",
+      "Calvin Coolidge",
+      "Herbert Hoover"
+    ],
+    "explanation": "Eisenhower was Supreme Allied Commander for the D-Day landings before winning the presidency in 1952 on the slogan 'I Like Ike'. His 1961 farewell speech warned of the 'military-industrial complex'.",
+    "hook": "'I Like Ike' is the rare campaign slogan that rhymes."
+  },
+  {
+    "id": "wl_006",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president joined Washington, Jefferson and Lincoln on Mount Rushmore?",
+    "answer": "Theodore Roosevelt",
+    "distractors": [
+      "Franklin D. Roosevelt",
+      "Andrew Jackson",
+      "Ulysses S. Grant"
+    ],
+    "explanation": "The faces were carved into the Black Hills of South Dakota between 1927 and 1941. The teddy bear takes its name from Theodore Roosevelt after he refused to shoot a tethered bear on a 1902 hunting trip.",
+    "hook": "The teddy bear's namesake is up on the mountain."
+  },
+  {
+    "id": "wl_007",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president led the country through the Great Depression with the New Deal?",
+    "answer": "Franklin D. Roosevelt",
+    "distractors": [
+      "Herbert Hoover",
+      "Harry S. Truman",
+      "Woodrow Wilson"
+    ],
+    "explanation": "FDR is the only president elected four times, dying in office in April 1945. The 22nd Amendment, ratified in 1951, then limited presidents to two elected terms.",
+    "hook": "FDR's four wins are the reason there is now a two-term limit."
+  },
+  {
+    "id": "wl_008",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became the first African-American President of the United States in 2009?",
+    "answer": "Barack Obama",
+    "distractors": [
+      "Colin Powell",
+      "Jesse Jackson",
+      "Kamala Harris"
+    ],
+    "explanation": "Obama was the 44th president, serving two terms to 2017, and was born in Honolulu. He was awarded the Nobel Peace Prize in his first year in office.",
+    "hook": "The 44th president was born in the 50th state."
+  },
+  {
+    "id": "wl_009",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president demanded 'Tear down this wall!' in Berlin in 1987?",
+    "answer": "Ronald Reagan",
+    "distractors": [
+      "George H. W. Bush",
+      "Jimmy Carter",
+      "Gerald Ford"
+    ],
+    "explanation": "Reagan spoke at the Brandenburg Gate on 12 June 1987, addressing Soviet leader Mikhail Gorbachev directly. The wall fell in November 1989, by which time George H. W. Bush was president.",
+    "hook": "Reagan demanded it in '87; it came down in '89."
+  },
+  {
+    "id": "wl_010",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president was sworn in for a non-consecutive second term in January 2025?",
+    "answer": "Donald Trump",
+    "distractors": [
+      "Joe Biden",
+      "George W. Bush",
+      "Barack Obama"
+    ],
+    "explanation": "Trump became the 47th president, having been the 45th. The only earlier president with non-consecutive terms was Grover Cleveland, the 22nd and 24th.",
+    "hook": "45 and 47 for Trump, just as Cleveland was 22 and 24."
+  },
+  {
+    "id": "wl_011",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was the only US president to serve two non-consecutive terms before 2025?",
+    "answer": "Grover Cleveland",
+    "distractors": [
+      "Benjamin Harrison",
+      "Chester A. Arthur",
+      "Martin Van Buren"
+    ],
+    "explanation": "Cleveland won in 1884, lost in 1888 to Benjamin Harrison despite winning the popular vote, then won again in 1892. He is also the only president married in the White House.",
+    "hook": "Cleveland is counted twice, so there have been fewer presidents than presidential numbers."
+  },
+  {
+    "id": "wl_012",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which US president was nicknamed 'Old Hickory'?",
+    "answer": "Andrew Jackson",
+    "distractors": [
+      "James K. Polk",
+      "Zachary Taylor",
+      "William Henry Harrison"
+    ],
+    "explanation": "Jackson became a hero by beating the British at the Battle of New Orleans in 1815. In 1835 he survived the first attempt on a president's life when both of the gunman's pistols misfired, and he is on the $20 note.",
+    "hook": "Hickory is a famously hard wood, as tough as Jackson himself."
+  },
+  {
+    "id": "wl_013",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Whose portrait appears on the US $100 bill?",
+    "answer": "Benjamin Franklin",
+    "distractors": [
+      "Alexander Hamilton",
+      "Ulysses S. Grant",
+      "Andrew Jackson"
+    ],
+    "explanation": "Franklin and Hamilton ($10) are the only non-presidents on notes in circulation. Hundred-dollar bills are nicknamed 'Benjamins' for him.",
+    "hook": "'All about the Benjamins' means all about the hundreds."
+  },
+  {
+    "id": "wl_014",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which US president was shot at the Pan-American Exposition in Buffalo in 1901?",
+    "answer": "William McKinley",
+    "distractors": [
+      "James A. Garfield",
+      "Warren G. Harding",
+      "Chester A. Arthur"
+    ],
+    "explanation": "McKinley was shot by the anarchist Leon Czolgosz and died eight days later. His death made 42-year-old Theodore Roosevelt the youngest president in history, and the Secret Service then took on full-time protection of presidents.",
+    "hook": "McKinley's death made Teddy the youngest president ever."
+  },
+  {
+    "id": "wl_015",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was the first US president to be impeached?",
+    "answer": "Andrew Johnson",
+    "distractors": [
+      "Bill Clinton",
+      "Richard Nixon",
+      "Donald Trump"
+    ],
+    "explanation": "Johnson was impeached in 1868 and acquitted by the Senate by a single vote. Nixon resigned before a House vote, and Trump is the only president impeached twice.",
+    "hook": "Johnson survived by one Senate vote."
+  },
+  {
+    "id": "wl_016",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "What number president was Abraham Lincoln?",
+    "answer": "16th",
+    "distractors": [
+      "15th",
+      "17th",
+      "18th"
+    ],
+    "explanation": "Lincoln was the first Republican president, succeeding James Buchanan in 1861. At 193 cm (6 ft 4 in) he is also the tallest president.",
+    "hook": "Sweet sixteen: the tallest president."
+  },
+  {
+    "id": "wl_017",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was vice president under George W. Bush?",
+    "answer": "Dick Cheney",
+    "distractors": [
+      "Al Gore",
+      "Dan Quayle",
+      "Mike Pence"
+    ],
+    "explanation": "Cheney had been secretary of defence under the first President Bush during the 1991 Gulf War. In 2006 he accidentally shot a companion while quail hunting in Texas.",
+    "hook": "The vice president who shot a friend on a quail hunt."
+  },
+  {
+    "id": "wl_018",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became US vice president in January 2025?",
+    "answer": "JD Vance",
+    "distractors": [
+      "Marco Rubio",
+      "Mike Pence",
+      "Ron DeSantis"
+    ],
+    "explanation": "Vance, born in 1984, was a first-term senator from Ohio and is known for his memoir Hillbilly Elegy. The vice president's official residence is at the Naval Observatory in Washington.",
+    "hook": "From Hillbilly Elegy to the Naval Observatory."
+  },
+  {
+    "id": "wl_019",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which US president declared 'The only thing we have to fear is fear itself'?",
+    "answer": "Franklin D. Roosevelt",
+    "distractors": [
+      "Calvin Coolidge",
+      "Harry S. Truman",
+      "John F. Kennedy"
+    ],
+    "explanation": "The line came from his first inaugural address in March 1933, with banks failing across the country. His opening burst of legislation, the 'Hundred Days', became the yardstick every new leader is measured by.",
+    "hook": "The first hundred days benchmark started with this speech."
+  },
+  {
+    "id": "wl_020",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "How many US presidents have been assassinated?",
+    "answer": "Four",
+    "distractors": [
+      "Three",
+      "Five",
+      "Six"
+    ],
+    "explanation": "Lincoln (1865), Garfield (1881), McKinley (1901) and Kennedy (1963) were killed in office. Reagan survived being shot in 1981, and Donald Trump was wounded at a rally in Butler, Pennsylvania, in 2024.",
+    "hook": "Lincoln, Garfield, McKinley: three Republicans killed within 36 years, then Kennedy."
+  },
+  {
+    "id": "wl_021",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which US president died just 31 days into his term in 1841?",
+    "answer": "William Henry Harrison",
+    "distractors": [
+      "Zachary Taylor",
+      "James A. Garfield",
+      "John Tyler"
+    ],
+    "explanation": "Harrison gave the longest inaugural address on record, about 8,400 words, in cold rain, and died a month later. John Tyler, mocked as 'His Accidency', established that a vice president becomes president in full.",
+    "hook": "Longest inauguration speech, shortest presidency."
+  },
+  {
+    "id": "wl_022",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which US president later served as Chief Justice of the Supreme Court?",
+    "answer": "William Howard Taft",
+    "distractors": [
+      "Woodrow Wilson",
+      "John Quincy Adams",
+      "Chester A. Arthur"
+    ],
+    "explanation": "Taft was president from 1909 to 1913 and Chief Justice from 1921 to 1930, the job he had always wanted more. In 1910 he became the first president to throw the ceremonial first pitch of the baseball season.",
+    "hook": "Taft is the only man to lead two branches of government."
+  },
+  {
+    "id": "wl_023",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which US president is the only one to have been Speaker of the House of Representatives?",
+    "answer": "James K. Polk",
+    "distractors": [
+      "Andrew Johnson",
+      "Millard Fillmore",
+      "Franklin Pierce"
+    ],
+    "explanation": "Polk was Speaker from 1835 to 1839 and became the 11th president in 1845. In a single promised term he fought the Mexican-American War and settled the Oregon border, adding the whole west coast.",
+    "hook": "Polk ran the House, then kept his one-term promise."
+  },
+  {
+    "id": "wl_024",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was Abraham Lincoln's first vice president?",
+    "answer": "Hannibal Hamlin",
+    "distractors": [
+      "Andrew Johnson",
+      "William Seward",
+      "Salmon P. Chase"
+    ],
+    "explanation": "Hamlin served from 1861 to 1865 but was dropped from the 1864 ticket for the pro-Union Democrat Andrew Johnson. Had he been kept on, he would have become president when Lincoln was shot.",
+    "hook": "Hannibal missed the presidency by one reshuffle."
+  },
+  {
+    "id": "wl_025",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which US president won a Pulitzer Prize?",
+    "answer": "John F. Kennedy",
+    "distractors": [
+      "Theodore Roosevelt",
+      "Woodrow Wilson",
+      "Ulysses S. Grant"
+    ],
+    "explanation": "Kennedy's Profiles in Courage won the 1957 prize for biography, though his aide Ted Sorensen did much of the writing. Theodore Roosevelt and Woodrow Wilson both won the Nobel Peace Prize instead.",
+    "hook": "Nobels for Teddy and Woodrow; the Pulitzer went to Jack."
+  },
+  {
+    "id": "wl_026",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the first US president born after the Declaration of Independence?",
+    "answer": "Martin Van Buren",
+    "distractors": [
+      "John Tyler",
+      "Andrew Jackson",
+      "John Quincy Adams"
+    ],
+    "explanation": "Van Buren was born in 1782 in Kinderhook, New York, and grew up speaking Dutch. His nickname 'Old Kinderhook' is often credited with popularising the word 'OK'.",
+    "hook": "Old Kinderhook may be why everyone says OK."
+  },
+  {
+    "id": "wl_027",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which British monarch reigned for more than 70 years, the longest in British history?",
+    "answer": "Elizabeth II",
+    "distractors": [
+      "Victoria",
+      "George III",
+      "Henry III"
+    ],
+    "explanation": "Elizabeth II reigned from 1952 to 2022, passing Victoria's 63 years in 2015. Only Louis XIV of France, at 72 years, reigned longer as sovereign of a recognised state.",
+    "hook": "Seventy years earned her the only Platinum Jubilee."
+  },
+  {
+    "id": "wl_028",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which year was Charles III crowned at Westminster Abbey?",
+    "answer": "2023",
+    "distractors": [
+      "2022",
+      "2024",
+      "2021"
+    ],
+    "explanation": "Charles became king the moment his mother died in September 2022, but the coronation followed on 6 May 2023. Camilla was crowned queen alongside him.",
+    "hook": "King in 2022, crowned in 2023: accession and coronation are different days."
+  },
+  {
+    "id": "wl_029",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which royal house name did George V adopt in 1917 to replace Saxe-Coburg and Gotha?",
+    "answer": "Windsor",
+    "distractors": [
+      "Lancaster",
+      "York",
+      "Mountbatten"
+    ],
+    "explanation": "Anti-German feeling during the First World War made the old name a liability, so the family took the name of its castle in Berkshire. Kaiser Wilhelm reportedly joked he would see 'The Merry Wives of Saxe-Coburg-Gotha'.",
+    "hook": "A German dynasty rebranded itself after an English castle."
+  },
+  {
+    "id": "wl_030",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became heir apparent to the British throne when Charles III acceded in 2022?",
+    "answer": "Prince William",
+    "distractors": [
+      "Prince Harry",
+      "Prince George",
+      "Princess Anne"
+    ],
+    "explanation": "William automatically became Duke of Cornwall and was then created Prince of Wales. His eldest child, George, moved up to second in line.",
+    "hook": "Dad became King, so William became Prince of Wales."
+  },
+  {
+    "id": "wl_031",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which English king had six wives?",
+    "answer": "Henry VIII",
+    "distractors": [
+      "Henry VII",
+      "Edward VI",
+      "Richard III"
+    ],
+    "explanation": "Henry broke with Rome in 1534 largely to end his marriage to Catherine of Aragon. The fates of the six wives are remembered by the rhyme 'divorced, beheaded, died; divorced, beheaded, survived'.",
+    "hook": "Divorced, beheaded, died; divorced, beheaded, survived."
+  },
+  {
+    "id": "wl_032",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which king was killed at the Battle of Hastings in 1066?",
+    "answer": "Harold II",
+    "distractors": [
+      "Edward the Confessor",
+      "William the Conqueror",
+      "Æthelred the Unready"
+    ],
+    "explanation": "Harold had marched south after beating a Norwegian invasion at Stamford Bridge weeks earlier. The Bayeux Tapestry is the source of the story that he died with an arrow in the eye, and William was crowned on Christmas Day 1066.",
+    "hook": "Harold, an arrow, an eye: 1066 all stitched into the Tapestry."
+  },
+  {
+    "id": "wl_033",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which queen was on the British throne when Australia federated on 1 January 1901?",
+    "answer": "Victoria",
+    "distractors": [
+      "Alexandra",
+      "Anne",
+      "Mary"
+    ],
+    "explanation": "Victoria died on 22 January 1901, three weeks after Federation, and Edward VII succeeded her. The first federal parliament was opened in May 1901 by her grandson, the future George V.",
+    "hook": "Victoria saw the Commonwealth born, then died three weeks later."
+  },
+  {
+    "id": "wl_034",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which London palace became the monarch's main home when Queen Victoria moved in in 1837?",
+    "answer": "Buckingham Palace",
+    "distractors": [
+      "Kensington Palace",
+      "St James's Palace",
+      "Clarence House"
+    ],
+    "explanation": "Victoria was the first sovereign to live there, and she had been born at Kensington Palace. Foreign ambassadors are still formally accredited to the 'Court of St James's'.",
+    "hook": "Victoria moved in first; ambassadors still answer to St James's."
+  },
+  {
+    "id": "wl_035",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which British monarch abdicated in 1936?",
+    "answer": "Edward VIII",
+    "distractors": [
+      "George VI",
+      "George V",
+      "Edward VII"
+    ],
+    "explanation": "Edward gave up the throne after 326 days to marry Wallis Simpson, a twice-divorced American, and was never crowned. His younger brother became George VI, the father of Elizabeth II.",
+    "hook": "The uncrowned king chose Wallis over the throne."
+  },
+  {
+    "id": "wl_036",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which royal house ruled England from 1485 to 1603?",
+    "answer": "Tudor",
+    "distractors": [
+      "Plantagenet",
+      "Stuart",
+      "York"
+    ],
+    "explanation": "The dynasty began when Henry VII won the Battle of Bosworth and ended with the death of the childless Elizabeth I. James VI of Scotland then became James I of England, uniting the crowns under the Stuarts.",
+    "hook": "From Bosworth to Elizabeth: 118 Tudor years."
+  },
+  {
+    "id": "wl_037",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who took the English throne jointly with his wife Mary after the Glorious Revolution of 1688?",
+    "answer": "William III",
+    "distractors": [
+      "George I",
+      "James II",
+      "Charles II"
+    ],
+    "explanation": "William of Orange was Dutch, and the couple replaced Mary's Catholic father James II. His victory at the Battle of the Boyne in 1690 is still celebrated by Orange marches in Northern Ireland.",
+    "hook": "Orange marches remember William of Orange's win at the Boyne."
+  },
+  {
+    "id": "wl_038",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who reigned as queen for just nine days in 1553?",
+    "answer": "Lady Jane Grey",
+    "distractors": [
+      "Mary, Queen of Scots",
+      "Empress Matilda",
+      "Margaret Tudor"
+    ],
+    "explanation": "Jane was proclaimed after the death of Edward VI but was swiftly deposed by his half-sister Mary I. She was executed in February 1554, still a teenager.",
+    "hook": "Remembered as the Nine Days' Queen."
+  },
+  {
+    "id": "wl_039",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was the last English king to die in battle?",
+    "answer": "Richard III",
+    "distractors": [
+      "Harold II",
+      "Henry V",
+      "Edward IV"
+    ],
+    "explanation": "Richard died at Bosworth on 22 August 1485, ending the Plantagenet line. His skeleton was found under a Leicester car park in 2012 and reburied in Leicester Cathedral in 2015.",
+    "hook": "The last king killed in battle turned up under a car park."
+  },
+  {
+    "id": "wl_040",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was the last monarch of the House of Stuart?",
+    "answer": "Queen Anne",
+    "distractors": [
+      "Mary II",
+      "Henrietta Maria",
+      "Caroline of Ansbach"
+    ],
+    "explanation": "Anne reigned from 1702 to 1714, and the Acts of Union in 1707 made her the first monarch of Great Britain. None of her children survived her, so the crown passed to the Hanoverians.",
+    "hook": "'Queen Anne's dead' is old news: it has been true since 1714."
+  },
+  {
+    "id": "wl_041",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which dynasty, founded by Henry II in 1154, ruled England for more than three centuries?",
+    "answer": "Plantagenet",
+    "distractors": [
+      "Tudor",
+      "Norman",
+      "Wessex"
+    ],
+    "explanation": "The name comes from the sprig of broom, planta genista, that Henry's father Geoffrey of Anjou wore. Its rival branches, Lancaster and York, fought the Wars of the Roses.",
+    "hook": "A sprig of broom named a 331-year dynasty."
+  },
+  {
+    "id": "wl_042",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who is second in line to the British throne, behind his father?",
+    "answer": "Prince George",
+    "distractors": [
+      "Princess Charlotte",
+      "Prince Louis",
+      "Prince Harry"
+    ],
+    "explanation": "George was born in 2013. The Succession to the Crown Act 2013 ended male preference for anyone born after October 2011, so his sister Charlotte stays ahead of their younger brother Louis.",
+    "hook": "Charlotte is the first princess the new law protected from a younger brother."
+  },
+  {
+    "id": "wl_043",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which title did Prince Edward receive in 2023, previously held by his father Prince Philip?",
+    "answer": "Duke of Edinburgh",
+    "distractors": [
+      "Duke of York",
+      "Duke of Sussex",
+      "Duke of Kent"
+    ],
+    "explanation": "Charles III gave Edward the title on his 59th birthday in March 2023, fulfilling Philip's wish. It was granted for Edward's lifetime only, so it will not pass to his son.",
+    "hook": "Philip's wish came true for the youngest son."
+  },
+  {
+    "id": "wl_044",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "At which Scottish estate did Elizabeth II die in September 2022?",
+    "answer": "Balmoral",
+    "distractors": [
+      "Sandringham",
+      "Holyroodhouse",
+      "Glamis"
+    ],
+    "explanation": "Balmoral was bought by Victoria and Albert in 1852 and, like Sandringham, is the family's private property rather than the Crown's. The Palace of Holyroodhouse in Edinburgh is the monarch's official Scottish residence.",
+    "hook": "Balmoral and Sandringham are the family's own, not the state's."
+  },
+  {
+    "id": "wl_045",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which chapel at Windsor Castle was Elizabeth II laid to rest?",
+    "answer": "St George's Chapel",
+    "distractors": [
+      "Westminster Abbey",
+      "St Paul's Cathedral",
+      "The Queen's Chapel"
+    ],
+    "explanation": "She lies in its King George VI Memorial Chapel with Prince Philip, her parents and her sister Margaret's ashes. The chapel is home to the Order of the Garter and hosted the 2018 wedding of Harry and Meghan.",
+    "hook": "The Garter knights' chapel doubles as the royals' parish church."
+  },
+  {
+    "id": "wl_046",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which title did Elizabeth II give Princess Anne in 1987?",
+    "answer": "Princess Royal",
+    "distractors": [
+      "Duchess of Cornwall",
+      "Duchess of Edinburgh",
+      "Countess of Wessex"
+    ],
+    "explanation": "The title is by custom given to the monarch's eldest daughter, held for life, and only one woman can hold it at a time; Anne is the seventh. She rode for Britain at the 1976 Montreal Olympics.",
+    "hook": "The Olympic rider holds the 'eldest royal daughter' title."
+  },
+  {
+    "id": "wl_047",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which duchy provides the income of the heir to the British throne?",
+    "answer": "Duchy of Cornwall",
+    "distractors": [
+      "Duchy of Lancaster",
+      "Duchy of York",
+      "Duchy of Normandy"
+    ],
+    "explanation": "Edward III created it in 1337 for his son, the Black Prince. The Duchy of Lancaster funds the monarch instead, which is why the loyal toast in Lancashire is 'The King, Duke of Lancaster'.",
+    "hook": "Cornwall for the heir, Lancaster for the King."
+  },
+  {
+    "id": "wl_048",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became the UK's first female prime minister in 1979?",
+    "answer": "Margaret Thatcher",
+    "distractors": [
+      "Theresa May",
+      "Liz Truss",
+      "Barbara Castle"
+    ],
+    "explanation": "Thatcher served until 1990, the longest continuous term of the 20th century. Her nickname 'the Iron Lady' was coined by the Soviet army newspaper Red Star.",
+    "hook": "The Iron Lady was named in Moscow."
+  },
+  {
+    "id": "wl_049",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which prime minister led Britain through most of the Second World War?",
+    "answer": "Winston Churchill",
+    "distractors": [
+      "Neville Chamberlain",
+      "Clement Attlee",
+      "Stanley Baldwin"
+    ],
+    "explanation": "Churchill took over in May 1940 but lost the 1945 election to Labour in a landslide. He won the Nobel Prize in Literature in 1953, not the Peace Prize.",
+    "hook": "Won the war, lost the election, then won a Nobel for writing."
+  },
+  {
+    "id": "wl_050",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "What is the official London residence of the UK prime minister?",
+    "answer": "10 Downing Street",
+    "distractors": [
+      "11 Downing Street",
+      "Lancaster House",
+      "Marlborough House"
+    ],
+    "explanation": "Robert Walpole moved in in 1735, and the Chancellor of the Exchequer lives next door at No. 11. The prime minister's country retreat is Chequers in Buckinghamshire.",
+    "hook": "No. 10 for the PM, No. 11 for the money, Chequers for weekends."
+  },
+  {
+    "id": "wl_051",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became UK prime minister in July 2026 after Keir Starmer resigned?",
+    "answer": "Andy Burnham",
+    "distractors": [
+      "Wes Streeting",
+      "Angela Rayner",
+      "Ed Miliband"
+    ],
+    "explanation": "Burnham, the former mayor of Greater Manchester, returned to the Commons at the Makerfield by-election and was the only candidate for Labour leader. He became prime minister on 20 July 2026, Britain's seventh in ten years.",
+    "hook": "The 'King of the North' swapped Manchester for Downing Street."
+  },
+  {
+    "id": "wl_052",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which prime minister returned from Munich in 1938 promising 'peace for our time'?",
+    "answer": "Neville Chamberlain",
+    "distractors": [
+      "Stanley Baldwin",
+      "Ramsay MacDonald",
+      "Anthony Eden"
+    ],
+    "explanation": "Chamberlain waved the Munich Agreement, which handed Czechoslovakia's Sudetenland to Hitler, at Heston aerodrome. Britain was at war within a year, and the phrase echoed Disraeli's 'peace with honour' of 1878.",
+    "hook": "A piece of paper at Heston aerodrome, and war within a year."
+  },
+  {
+    "id": "wl_053",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which prime minister served for just 49 days in 2022?",
+    "answer": "Liz Truss",
+    "distractors": [
+      "Theresa May",
+      "Rishi Sunak",
+      "Boris Johnson"
+    ],
+    "explanation": "Her mini-budget spooked the markets, and a Daily Star livestream famously asked whether a lettuce would outlast her; it did. She is the shortest-serving prime minister in British history.",
+    "hook": "A supermarket lettuce outlasted her premiership."
+  },
+  {
+    "id": "wl_054",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became the UK's first prime minister of British Asian heritage in 2022?",
+    "answer": "Rishi Sunak",
+    "distractors": [
+      "Sajid Javid",
+      "Priti Patel",
+      "Sadiq Khan"
+    ],
+    "explanation": "Sunak, also the first Hindu prime minister, succeeded Liz Truss in October 2022. He lost the July 2024 election to Keir Starmer's Labour in a landslide.",
+    "hook": "Sunak lit Diwali lamps on the steps of No. 10."
+  },
+  {
+    "id": "wl_055",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which is the only British prime minister to have been assassinated?",
+    "answer": "Spencer Perceval",
+    "distractors": [
+      "Robert Peel",
+      "Lord Liverpool",
+      "George Canning"
+    ],
+    "explanation": "Perceval was shot in the lobby of the House of Commons on 11 May 1812 by John Bellingham, a merchant with a grievance over debts. Bellingham was hanged a week later.",
+    "hook": "Shot in the Commons lobby in 1812, and the killer was hanged within a week."
+  },
+  {
+    "id": "wl_056",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which prime minister won three consecutive general elections for Labour in 1997, 2001 and 2005?",
+    "answer": "Tony Blair",
+    "distractors": [
+      "Gordon Brown",
+      "Harold Wilson",
+      "Neil Kinnock"
+    ],
+    "explanation": "Blair is the only Labour leader to win three in a row, campaigning in 1997 to the anthem 'Things Can Only Get Better'. He handed over to Gordon Brown in 2007.",
+    "hook": "'Things Can Only Get Better', for three elections straight."
+  },
+  {
+    "id": "wl_057",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which prime minister called the 2016 Brexit referendum?",
+    "answer": "David Cameron",
+    "distractors": [
+      "Theresa May",
+      "Boris Johnson",
+      "Nick Clegg"
+    ],
+    "explanation": "Cameron resigned the morning after Leave won 52 to 48. Theresa May triggered Article 50, and Boris Johnson took Britain out on 31 January 2020.",
+    "hook": "Cameron called it, May triggered it, Johnson finished it."
+  },
+  {
+    "id": "wl_058",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who told the 1980 Conservative conference 'The lady's not for turning'?",
+    "answer": "Margaret Thatcher",
+    "distractors": [
+      "Theresa May",
+      "Edwina Currie",
+      "Shirley Williams"
+    ],
+    "explanation": "Speechwriter Ronald Millar based the line on Christopher Fry's play The Lady's Not for Burning. It answered calls for a U-turn on her economic policy during a recession.",
+    "hook": "A pun on a play title: not for burning, not for turning."
+  },
+  {
+    "id": "wl_059",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which prime minister was known as 'the Iron Duke'?",
+    "answer": "Duke of Wellington",
+    "distractors": [
+      "Robert Peel",
+      "Earl Grey",
+      "Lord Palmerston"
+    ],
+    "explanation": "Wellington beat Napoleon at Waterloo in 1815 and was prime minister from 1828 to 1830. He pushed Catholic emancipation through in 1829 and fought a duel with an opponent of it.",
+    "hook": "He beat Napoleon, then duelled over Catholic rights while PM."
+  },
+  {
+    "id": "wl_060",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Britain's youngest prime minister, aged 24, in 1783?",
+    "answer": "William Pitt the Younger",
+    "distractors": [
+      "Lord Liverpool",
+      "Duke of Grafton",
+      "Lord North"
+    ],
+    "explanation": "Pitt was the son of Pitt the Elder, himself a prime minister. He introduced Britain's first income tax in 1799 to fund the war with France and died in office in 1806 aged 46.",
+    "hook": "A PM at 24, and the man who gave us income tax."
+  },
+  {
+    "id": "wl_061",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which prime minister's 'Wind of Change' speech in 1960 signalled Britain's retreat from Africa?",
+    "answer": "Harold Macmillan",
+    "distractors": [
+      "Anthony Eden",
+      "Alec Douglas-Home",
+      "Harold Wilson"
+    ],
+    "explanation": "Macmillan delivered it to the South African parliament in Cape Town in February 1960. Nicknamed 'Supermac', he had earlier told Britons they had 'never had it so good'.",
+    "hook": "Supermac told apartheid South Africa which way the wind was blowing."
+  },
+  {
+    "id": "wl_062",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Victorian prime minister served four separate terms, the last beginning when he was 82?",
+    "answer": "William Gladstone",
+    "distractors": [
+      "Stanley Baldwin",
+      "Lord Salisbury",
+      "Lord Derby"
+    ],
+    "explanation": "Gladstone is the oldest person to become prime minister and the only one to hold the job four times. Queen Victoria complained that he addressed her as if she were a public meeting.",
+    "hook": "The Grand Old Man: four times PM."
+  },
+  {
+    "id": "wl_063",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which prime minister gave up his earldom in 1963 so he could sit in the Commons?",
+    "answer": "Alec Douglas-Home",
+    "distractors": [
+      "Harold Macmillan",
+      "Rab Butler",
+      "Lord Hailsham"
+    ],
+    "explanation": "He was the 14th Earl of Home and could disclaim the title only because of the Peerage Act 1963, won by Tony Benn's campaign. He is the only prime minister to have played first-class cricket.",
+    "hook": "Tony Benn's fight let an earl become plain Sir Alec."
+  },
+  {
+    "id": "wl_064",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which city is the headquarters of the United Nations?",
+    "answer": "New York",
+    "distractors": [
+      "Geneva",
+      "Paris",
+      "Washington, D.C."
+    ],
+    "explanation": "The complex on Manhattan's East River stands on land bought with an $8.5 million gift from John D. Rockefeller Jr. Geneva hosts the UN's main European office in the Palais des Nations.",
+    "hook": "Rockefeller money bought the UN its Manhattan riverfront."
+  },
+  {
+    "id": "wl_065",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which city is NATO's headquarters?",
+    "answer": "Brussels",
+    "distractors": [
+      "The Hague",
+      "Paris",
+      "Luxembourg"
+    ],
+    "explanation": "NATO moved from Paris in 1967 after Charles de Gaulle pulled France out of its integrated military command. Brussels is also home to the main EU institutions.",
+    "hook": "De Gaulle showed NATO the door, so it moved to Brussels."
+  },
+  {
+    "id": "wl_066",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "How many permanent members does the UN Security Council have?",
+    "answer": "Five",
+    "distractors": [
+      "Seven",
+      "Ten",
+      "Fifteen"
+    ],
+    "explanation": "The US, UK, France, Russia and China each hold a veto, alongside ten members elected for two-year terms. Australia last held an elected seat in 2013 and 2014.",
+    "hook": "The P5 are the victors of 1945."
+  },
+  {
+    "id": "wl_067",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which of these countries is NOT a member of the G7?",
+    "answer": "Australia",
+    "distractors": [
+      "Canada",
+      "Italy",
+      "Japan"
+    ],
+    "explanation": "The G7 is the US, UK, France, Germany, Italy, Japan and Canada, with the EU attending too. Australia belongs to the larger G20.",
+    "hook": "Two in North America, four in Europe, one in Asia, none in Oceania."
+  },
+  {
+    "id": "wl_068",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which UN Secretary-General's second term ends in December 2026?",
+    "answer": "António Guterres",
+    "distractors": [
+      "Ban Ki-moon",
+      "Kofi Annan",
+      "Boutros Boutros-Ghali"
+    ],
+    "explanation": "Guterres, a former prime minister of Portugal, took office in January 2017. His successor, the 10th Secretary-General, starts on 1 January 2027, and no woman has yet held the job.",
+    "hook": "Portugal's former PM hands over on New Year's Day 2027."
+  },
+  {
+    "id": "wl_069",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became the first woman to lead the European Commission, in 2019?",
+    "answer": "Ursula von der Leyen",
+    "distractors": [
+      "Christine Lagarde",
+      "Margrethe Vestager",
+      "Roberta Metsola"
+    ],
+    "explanation": "Von der Leyen had been Germany's defence minister and was reappointed for a second term in 2024. Christine Lagarde heads the European Central Bank and Roberta Metsola presides over the European Parliament.",
+    "hook": "Von der Leyen runs the Commission, Lagarde the money, Metsola the Parliament."
+  },
+  {
+    "id": "wl_070",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former Dutch prime minister became NATO Secretary General in October 2024?",
+    "answer": "Mark Rutte",
+    "distractors": [
+      "Jens Stoltenberg",
+      "Anders Fogh Rasmussen",
+      "Jaap de Hoop Scheffer"
+    ],
+    "explanation": "Rutte led the Netherlands for about 14 years, its longest-serving prime minister, and kept teaching a weekly school class while in office. He succeeded Norway's Jens Stoltenberg, who served a decade.",
+    "hook": "The prime minister who kept teaching now runs NATO."
+  },
+  {
+    "id": "wl_071",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year was NATO founded?",
+    "answer": "1949",
+    "distractors": [
+      "1945",
+      "1955",
+      "1957"
+    ],
+    "explanation": "Twelve nations signed the North Atlantic Treaty in Washington on 4 April 1949. Its Article 5 mutual-defence clause has been invoked only once, after the 9/11 attacks, and the Soviet bloc answered with the Warsaw Pact in 1955.",
+    "hook": "Article 5's only use came 52 years later, after 9/11."
+  },
+  {
+    "id": "wl_072",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Ghanaian UN Secretary-General shared the 2001 Nobel Peace Prize with the organisation?",
+    "answer": "Kofi Annan",
+    "distractors": [
+      "Boutros Boutros-Ghali",
+      "Ban Ki-moon",
+      "Javier Pérez de Cuéllar"
+    ],
+    "explanation": "Annan served from 1997 to 2006, the first Secretary-General from sub-Saharan Africa. His predecessor, Egypt's Boutros-Ghali, is the only one denied a second term, blocked by a US veto.",
+    "hook": "Annan and the UN took the Nobel together."
+  },
+  {
+    "id": "wl_073",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "The first G20 leaders' summit, held in Washington in 2008, was called in response to what?",
+    "answer": "The global financial crisis",
+    "distractors": [
+      "The September 11 attacks",
+      "The Iraq War",
+      "The Indian Ocean tsunami"
+    ],
+    "explanation": "G20 finance ministers had met since 1999, but the 2008 crash brought leaders to the table, with Kevin Rudd lobbying hard for it. Brisbane hosted the G20 summit in 2014.",
+    "hook": "The crash made the G20; Brisbane hosted it in 2014."
+  },
+  {
+    "id": "wl_074",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which city does the International Court of Justice sit?",
+    "answer": "The Hague",
+    "distractors": [
+      "Geneva",
+      "Strasbourg",
+      "Vienna"
+    ],
+    "explanation": "It meets in the Peace Palace, built with money from Andrew Carnegie, and is the only principal UN organ not based in New York. Australia won its whaling case against Japan there in 2014.",
+    "hook": "Australia beat Japan's whaling programme at the Peace Palace."
+  },
+  {
+    "id": "wl_075",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which former Portuguese prime minister became President of the European Council in December 2024?",
+    "answer": "António Costa",
+    "distractors": [
+      "José Manuel Barroso",
+      "Charles Michel",
+      "Donald Tusk"
+    ],
+    "explanation": "Costa succeeded Belgium's Charles Michel. Donald Tusk held the job from 2014 to 2019 before becoming Poland's prime minister again in 2023, and Barroso led the European Commission from 2004 to 2014.",
+    "hook": "Portugal's ex-PMs go global: Barroso, Guterres, Costa."
+  },
+  {
+    "id": "wl_076",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the first Secretary-General of the United Nations?",
+    "answer": "Trygve Lie",
+    "distractors": [
+      "Dag Hammarskjöld",
+      "U Thant",
+      "Kurt Waldheim"
+    ],
+    "explanation": "Lie, a Norwegian, served from 1946 to 1952. His successor Hammarskjöld died in a 1961 plane crash in Northern Rhodesia and won the Nobel Peace Prize posthumously, and U Thant of Burma was the first non-European.",
+    "hook": "Lie first, Hammarskjöld crashed, U Thant broke Europe's hold."
+  },
+  {
+    "id": "wl_077",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Australian presided over the UN General Assembly when it adopted the Universal Declaration of Human Rights in 1948?",
+    "answer": "H. V. Evatt",
+    "distractors": [
+      "Richard Casey",
+      "Percy Spender",
+      "Robert Menzies"
+    ],
+    "explanation": "The vote took place in Paris on 10 December 1948, while Eleanor Roosevelt had chaired the drafting commission. 'Doc' Evatt later led Labor through the 1955 split.",
+    "hook": "Doc Evatt held the gavel for human rights."
+  },
+  {
+    "id": "wl_078",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Germany's chancellor in May 2025?",
+    "answer": "Friedrich Merz",
+    "distractors": [
+      "Olaf Scholz",
+      "Markus Söder",
+      "Armin Laschet"
+    ],
+    "explanation": "Merz, the CDU leader, became the first post-war chancellor to lose his first Bundestag vote, winning a second ballot later the same day. He replaced Olaf Scholz, whose coalition had collapsed.",
+    "hook": "Merz needed two votes on one day."
+  },
+  {
+    "id": "wl_079",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became Germany's first female chancellor in 2005?",
+    "answer": "Angela Merkel",
+    "distractors": [
+      "Ursula von der Leyen",
+      "Annegret Kramp-Karrenbauer",
+      "Sahra Wagenknecht"
+    ],
+    "explanation": "Merkel grew up in East Germany, holds a doctorate in quantum chemistry and served 16 years until 2021. Germans nicknamed her 'Mutti'.",
+    "hook": "An East German physicist ran Germany for 16 years."
+  },
+  {
+    "id": "wl_080",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former governor of both the Bank of Canada and the Bank of England became Canada's prime minister in 2025?",
+    "answer": "Mark Carney",
+    "distractors": [
+      "Chrystia Freeland",
+      "Pierre Poilievre",
+      "Justin Trudeau"
+    ],
+    "explanation": "Carney replaced Justin Trudeau as Liberal leader in March 2025 and won an election in April. At the Bank of England he was the first governor who was not British.",
+    "hook": "Two central banks, then a country."
+  },
+  {
+    "id": "wl_081",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Japan's first female prime minister in October 2025?",
+    "answer": "Sanae Takaichi",
+    "distractors": [
+      "Yuriko Koike",
+      "Seiko Noda",
+      "Shigeru Ishiba"
+    ],
+    "explanation": "Takaichi succeeded Shigeru Ishiba and has named Margaret Thatcher as her political hero. In February 2026 she led the Liberal Democrats to a record 316 seats at a snap election.",
+    "hook": "Japan's first woman PM idolised the Iron Lady."
+  },
+  {
+    "id": "wl_082",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became King of Norway in August 2026?",
+    "answer": "Haakon VIII",
+    "distractors": [
+      "Harald VI",
+      "Olav VI",
+      "Haakon VII"
+    ],
+    "explanation": "He succeeded his father Harald V, Europe's oldest monarch, who died at 89 after 35 years on the throne. Haakon VII, his great-grandfather, was Norway's first king after independence from Sweden in 1905.",
+    "hook": "Haakon VII was great-grandad, so the new king counts to eight."
+  },
+  {
+    "id": "wl_083",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which Sydney pub did Mary Donaldson meet Denmark's future King Frederik during the 2000 Olympics?",
+    "answer": "Slip Inn",
+    "distractors": [
+      "Lord Nelson Hotel",
+      "Hero of Waterloo",
+      "Opera Bar"
+    ],
+    "explanation": "The Tasmanian-born marketing consultant had no idea who he was when they were introduced. They married in Copenhagen in 2004, and she became queen in January 2024.",
+    "hook": "A Sydney pub during the Games produced a queen."
+  },
+  {
+    "id": "wl_084",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became President of Ukraine in 2019 after playing a president in a TV comedy?",
+    "answer": "Volodymyr Zelenskyy",
+    "distractors": [
+      "Petro Poroshenko",
+      "Viktor Yanukovych",
+      "Vitali Klitschko"
+    ],
+    "explanation": "His show was called Servant of the People, and his party took the same name. He became a wartime leader after Russia's full-scale invasion in February 2022.",
+    "hook": "The actor who played the president became the president."
+  },
+  {
+    "id": "wl_085",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became President of France in 2017, the youngest French leader since Napoleon?",
+    "answer": "Emmanuel Macron",
+    "distractors": [
+      "François Hollande",
+      "Nicolas Sarkozy",
+      "Édouard Philippe"
+    ],
+    "explanation": "Macron was 39 and had founded his movement En Marche!, which shares his initials, only a year before. He beat Marine Le Pen in both 2017 and 2022 and cannot stand for a third straight term.",
+    "hook": "En Marche shares his initials, E.M."
+  },
+  {
+    "id": "wl_086",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year did Narendra Modi first become Prime Minister of India?",
+    "answer": "2014",
+    "distractors": [
+      "2004",
+      "2009",
+      "2019"
+    ],
+    "explanation": "Modi had been chief minister of Gujarat and ended Manmohan Singh's decade in office. He won a third term in 2024, though this time he needed coalition partners.",
+    "hook": "2014 was the first of Modi's three straight wins."
+  },
+  {
+    "id": "wl_087",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Chinese leader, in power since 2012, had presidential term limits abolished in 2018?",
+    "answer": "Xi Jinping",
+    "distractors": [
+      "Hu Jintao",
+      "Li Keqiang",
+      "Jiang Zemin"
+    ],
+    "explanation": "Xi became Communist Party general secretary in 2012 and president in 2013, and began a third term in 2022-23. His ideas were written into the party constitution, an honour previously given only to Mao and Deng.",
+    "hook": "Xi joined Mao and Deng in the party constitution."
+  },
+  {
+    "id": "wl_088",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which South African leader was released from prison in 1990 after 27 years?",
+    "answer": "Nelson Mandela",
+    "distractors": [
+      "Desmond Tutu",
+      "Steve Biko",
+      "Oliver Tambo"
+    ],
+    "explanation": "Mandela spent most of his sentence on Robben Island. He became South Africa's first black president after the 1994 election and served one five-year term.",
+    "hook": "27 years inside, five years as president."
+  },
+  {
+    "id": "wl_089",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which leader led the 1930 Salt March in protest at British rule in India?",
+    "answer": "Mahatma Gandhi",
+    "distractors": [
+      "Jawaharlal Nehru",
+      "Muhammad Ali Jinnah",
+      "Subhas Chandra Bose"
+    ],
+    "explanation": "Gandhi walked almost 400 km to Dandi on the coast to make salt in defiance of the British salt tax. He was assassinated in January 1948, months after independence.",
+    "hook": "A pinch of salt shook an empire."
+  },
+  {
+    "id": "wl_090",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became India's first prime minister at independence in 1947?",
+    "answer": "Jawaharlal Nehru",
+    "distractors": [
+      "Indira Gandhi",
+      "Mahatma Gandhi",
+      "Lal Bahadur Shastri"
+    ],
+    "explanation": "Nehru gave his 'Tryst with Destiny' speech at midnight on independence day and served until his death in 1964. His daughter Indira, no relation to the Mahatma, became prime minister in 1966.",
+    "hook": "Nehru's daughter, not the Mahatma's, became Mrs Gandhi the PM."
+  },
+  {
+    "id": "wl_091",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Soviet leader introduced the policies of glasnost and perestroika?",
+    "answer": "Mikhail Gorbachev",
+    "distractors": [
+      "Leonid Brezhnev",
+      "Yuri Andropov",
+      "Nikita Khrushchev"
+    ],
+    "explanation": "Glasnost meant openness and perestroika restructuring. Gorbachev won the 1990 Nobel Peace Prize and resigned on 25 December 1991 as the Soviet Union dissolved.",
+    "hook": "Gorby opened the door and the republics walked out."
+  },
+  {
+    "id": "wl_092",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which revolutionary took power in Cuba in 1959 and led it until 2008?",
+    "answer": "Fidel Castro",
+    "distractors": [
+      "Che Guevara",
+      "Fulgencio Batista",
+      "Camilo Cienfuegos"
+    ],
+    "explanation": "Castro overthrew the dictator Batista and outlasted ten US presidents. He handed power to his brother Raúl, formally in 2008.",
+    "hook": "Ten US presidents came and went while Fidel stayed."
+  },
+  {
+    "id": "wl_093",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which communist leader proclaimed the People's Republic of China in 1949?",
+    "answer": "Mao Zedong",
+    "distractors": [
+      "Chiang Kai-shek",
+      "Zhou Enlai",
+      "Deng Xiaoping"
+    ],
+    "explanation": "Mao made the proclamation in Beijing's Tiananmen Square on 1 October 1949, now China's National Day. His Nationalist rival Chiang Kai-shek retreated to Taiwan.",
+    "hook": "1 October is China's National Day, Mao's proclamation day."
+  },
+  {
+    "id": "wl_094",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which French leader led the Free French from London and later founded the Fifth Republic?",
+    "answer": "Charles de Gaulle",
+    "distractors": [
+      "Philippe Pétain",
+      "Georges Pompidou",
+      "François Mitterrand"
+    ],
+    "explanation": "De Gaulle's BBC broadcast of 18 June 1940 urged France to keep fighting. He was president from 1959 to 1969, and Paris's main airport bears his name.",
+    "hook": "De Gaulle broadcast from London and now greets flights into Paris."
+  },
+  {
+    "id": "wl_095",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Roman leader reported 'Veni, vidi, vici' after a swift victory?",
+    "answer": "Julius Caesar",
+    "distractors": [
+      "Augustus",
+      "Mark Antony",
+      "Pompey"
+    ],
+    "explanation": "Caesar sent the message after beating Pharnaces at Zela in 47 BC in a campaign of about five days. He was assassinated on the Ides of March, 44 BC, and the month of July is named after him.",
+    "hook": "Came, saw, conquered, and got a month named after him."
+  },
+  {
+    "id": "wl_096",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which US state did Winston Churchill make his 1946 'Iron Curtain' speech?",
+    "answer": "Missouri",
+    "distractors": [
+      "Virginia",
+      "Massachusetts",
+      "Ohio"
+    ],
+    "explanation": "He spoke at Westminster College in Fulton on 5 March 1946, with President Truman, a Missourian, on the stage. The curtain, he said, ran 'from Stettin in the Baltic to Trieste in the Adriatic'.",
+    "hook": "Truman brought Churchill home to Missouri."
+  },
+  {
+    "id": "wl_097",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Turkish leader, who commanded against the Anzacs at Gallipoli, founded the Republic of Turkey in 1923?",
+    "answer": "Mustafa Kemal Atatürk",
+    "distractors": [
+      "İsmet İnönü",
+      "Enver Pasha",
+      "Recep Tayyip Erdoğan"
+    ],
+    "explanation": "The surname Atatürk, 'father of the Turks', was granted by parliament in 1934. Words attributed to him about the 'Johnnies and the Mehmets' are carved on memorials at Anzac Cove and in Canberra.",
+    "hook": "The Gallipoli commander whose words console Anzac mothers."
+  },
+  {
+    "id": "wl_098",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who proclaimed the independence of Vietnam in September 1945?",
+    "answer": "Ho Chi Minh",
+    "distractors": [
+      "Ngo Dinh Diem",
+      "Vo Nguyen Giap",
+      "Bao Dai"
+    ],
+    "explanation": "His declaration opened by quoting the American Declaration of Independence. Saigon was renamed Ho Chi Minh City in 1976, seven years after his death.",
+    "hook": "Uncle Ho quoted Jefferson."
+  },
+  {
+    "id": "wl_099",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which revolutionary is known as 'El Libertador' for freeing much of South America from Spain?",
+    "answer": "Simón Bolívar",
+    "distractors": [
+      "José de San Martín",
+      "Bernardo O'Higgins",
+      "Antonio José de Sucre"
+    ],
+    "explanation": "Bolívar led the independence of Venezuela, Colombia, Ecuador, Peru and Bolivia, which is named after him. San Martín liberated Argentina and, with O'Higgins, Chile.",
+    "hook": "A whole country, Bolivia, wears his name."
+  },
+  {
+    "id": "wl_100",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Indian prime minister was assassinated by her own bodyguards in 1984?",
+    "answer": "Indira Gandhi",
+    "distractors": [
+      "Sonia Gandhi",
+      "Pratibha Patil",
+      "Benazir Bhutto"
+    ],
+    "explanation": "The killing followed Operation Blue Star, the army assault on the Golden Temple at Amritsar. Her son Rajiv succeeded her and was himself assassinated in 1991.",
+    "hook": "Mother and son were both assassinated, in 1984 and 1991."
+  },
+  {
+    "id": "wl_101",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Israeli prime minister was assassinated at a Tel Aviv peace rally in 1995?",
+    "answer": "Yitzhak Rabin",
+    "distractors": [
+      "Shimon Peres",
+      "Menachem Begin",
+      "Ariel Sharon"
+    ],
+    "explanation": "Rabin was shot by an Israeli extremist opposed to the Oslo Accords. He had shared the 1994 Nobel Peace Prize with Shimon Peres and Yasser Arafat.",
+    "hook": "Oslo, a Nobel, then a bullet at a peace rally."
+  },
+  {
+    "id": "wl_102",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Russia's first democratically elected president in 1991?",
+    "answer": "Boris Yeltsin",
+    "distractors": [
+      "Mikhail Gorbachev",
+      "Vladimir Putin",
+      "Dmitry Medvedev"
+    ],
+    "explanation": "Yeltsin famously climbed onto a tank to defy the August 1991 hardline coup. He resigned on New Year's Eve 1999, handing power to Vladimir Putin.",
+    "hook": "On a tank in '91; handed Putin the keys on New Year's Eve '99."
+  },
+  {
+    "id": "wl_103",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Egyptian leader nationalised the Suez Canal in 1956?",
+    "answer": "Gamal Abdel Nasser",
+    "distractors": [
+      "Anwar Sadat",
+      "Hosni Mubarak",
+      "King Farouk"
+    ],
+    "explanation": "The move triggered an Anglo-French-Israeli invasion that collapsed under US pressure, and Anthony Eden resigned soon after. Robert Menzies had led a failed diplomatic mission to Nasser in Cairo.",
+    "hook": "Suez ended Eden and sent Menzies to Cairo."
+  },
+  {
+    "id": "wl_104",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Sri Lankan became the world's first elected female head of government in 1960?",
+    "answer": "Sirimavo Bandaranaike",
+    "distractors": [
+      "Indira Gandhi",
+      "Golda Meir",
+      "Margaret Thatcher"
+    ],
+    "explanation": "She led Ceylon, as it then was, after her husband's assassination and served three terms. Her daughter Chandrika Kumaratunga later became president.",
+    "hook": "Ceylon led the world, and Sri Lanka kept it in the family."
+  },
+  {
+    "id": "wl_105",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the architect of China's market reforms from 1978, saying a cat's colour does not matter if it catches mice?",
+    "answer": "Deng Xiaoping",
+    "distractors": [
+      "Hua Guofeng",
+      "Zhou Enlai",
+      "Liu Shaoqi"
+    ],
+    "explanation": "Deng never held the top formal titles but was China's paramount leader until the 1990s. He approved the Tiananmen crackdown of 1989 and negotiated Hong Kong's return with Margaret Thatcher.",
+    "hook": "Black cat or white cat, Deng just wanted mice caught."
+  },
+  {
+    "id": "wl_106",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Mexican revolutionary fought under the slogan 'Land and Liberty'?",
+    "answer": "Emiliano Zapata",
+    "distractors": [
+      "Pancho Villa",
+      "Porfirio Díaz",
+      "Benito Juárez"
+    ],
+    "explanation": "Zapata led peasant armies in the southern state of Morelos and was assassinated in 1919. The Zapatista rebels of 1994 took his name, while Pancho Villa fought in the north.",
+    "hook": "The Zapatistas still carry his name."
+  },
+  {
+    "id": "wl_107",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which leader of the Haitian Revolution died in a French prison in 1803, before independence was declared?",
+    "answer": "Toussaint Louverture",
+    "distractors": [
+      "Jean-Jacques Dessalines",
+      "Henri Christophe",
+      "François Duvalier"
+    ],
+    "explanation": "Toussaint was seized by the French in 1802 and died at Fort de Joux in the Jura mountains. His lieutenant Dessalines declared Haiti independent on 1 January 1804, the first nation born of a successful slave revolt.",
+    "hook": "Toussaint started it; Dessalines declared it."
+  },
+  {
+    "id": "wl_108",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Tanzanian independence leader was known as 'Mwalimu', or teacher?",
+    "answer": "Julius Nyerere",
+    "distractors": [
+      "Kenneth Kaunda",
+      "Kwame Nkrumah",
+      "Jomo Kenyatta"
+    ],
+    "explanation": "Nyerere translated Shakespeare's Julius Caesar into Swahili and pursued a village socialism called Ujamaa. Unusually for his era, he retired voluntarily in 1985.",
+    "hook": "The teacher who put Shakespeare into Swahili."
+  },
+  {
+    "id": "wl_109",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which New York-born revolutionary served as both Taoiseach and President of Ireland?",
+    "answer": "Éamon de Valera",
+    "distractors": [
+      "Michael Collins",
+      "Arthur Griffith",
+      "Seán Lemass"
+    ],
+    "explanation": "His American birth is often credited with saving him from execution after the 1916 Easter Rising. He was still president in 1973, aged 90.",
+    "hook": "Born in New York, spared in 1916, president at 90."
+  },
+  {
+    "id": "wl_110",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who founded the Republic of China as its provisional president in 1912?",
+    "answer": "Sun Yat-sen",
+    "distractors": [
+      "Chiang Kai-shek",
+      "Yuan Shikai",
+      "Puyi"
+    ],
+    "explanation": "Sun quickly handed the presidency to the general Yuan Shikai. He is honoured as 'father of the nation' in Taipei and as a forerunner of the revolution in Beijing.",
+    "hook": "A founding father claimed by both sides of the Taiwan Strait."
+  },
+  {
+    "id": "wl_111",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which country's head of government holds the title Taoiseach?",
+    "answer": "Ireland",
+    "distractors": [
+      "Iceland",
+      "Scotland",
+      "Wales"
+    ],
+    "explanation": "Taoiseach is Irish for 'chief' or 'leader', and the deputy is the Tánaiste. Ireland's head of state is a separately elected president.",
+    "hook": "Taoiseach sounds like 'tee-shock': Ireland's chief."
+  },
+  {
+    "id": "wl_112",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which pope, elected in May 2025, was the first born in the United States?",
+    "answer": "Leo XIV",
+    "distractors": [
+      "Francis",
+      "Leo XIII",
+      "John Paul I"
+    ],
+    "explanation": "Robert Prevost was born in Chicago and spent many years as a missionary and bishop in Peru, where he also holds citizenship. He is a well-known supporter of the Chicago White Sox.",
+    "hook": "The first pope with a baseball team: the White Sox."
+  },
+  {
+    "id": "wl_113",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Polish-born pope led the Catholic Church from 1978 to 2005?",
+    "answer": "John Paul II",
+    "distractors": [
+      "Benedict XVI",
+      "John Paul I",
+      "Pius XII"
+    ],
+    "explanation": "Karol Wojtyła was the first non-Italian pope since 1523. He survived being shot in St Peter's Square in 1981 and was made a saint in 2014.",
+    "hook": "1978 was the year of three popes; the third was Polish."
+  },
+  {
+    "id": "wl_114",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which pope resigned in 2013, the first to do so in nearly 600 years?",
+    "answer": "Benedict XVI",
+    "distractors": [
+      "Francis",
+      "Pius XII",
+      "John XXIII"
+    ],
+    "explanation": "Joseph Ratzinger, a German, was the first pope to step down since Gregory XII in 1415. He lived on as 'Pope Emeritus' until his death at the end of 2022.",
+    "hook": "Gregory XII in 1415 was the last to quit before him."
+  },
+  {
+    "id": "wl_115",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which pope opened the Second Vatican Council in 1962?",
+    "answer": "John XXIII",
+    "distractors": [
+      "Paul VI",
+      "Pius XII",
+      "John Paul I"
+    ],
+    "explanation": "Angelo Roncalli, 'Good Pope John', died in 1963, and Paul VI closed the council in 1965. John XXIII was canonised in 2014 on the same day as John Paul II.",
+    "hook": "Good Pope John opened the Church's windows."
+  },
+  {
+    "id": "wl_116",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who is the only Englishman to have been pope?",
+    "answer": "Adrian IV",
+    "distractors": [
+      "Adrian VI",
+      "Gregory XII",
+      "Innocent III"
+    ],
+    "explanation": "Nicholas Breakspear from Hertfordshire reigned from 1154 to 1159 and is said to have issued the bull granting Ireland to Henry II. Adrian VI, a Dutchman, was the last non-Italian pope before John Paul II.",
+    "hook": "Breakspear from Hertfordshire: England's one and only pope."
+  },
+  {
+    "id": "wl_117",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which New Zealand prime minister gave birth while in office in 2018?",
+    "answer": "Jacinda Ardern",
+    "distractors": [
+      "Helen Clark",
+      "Jenny Shipley",
+      "Judith Collins"
+    ],
+    "explanation": "Ardern's daughter Neve was born in June 2018. Pakistan's Benazir Bhutto was the first elected head of government to give birth in office, in 1990.",
+    "hook": "Neve arrived in 2018; Bhutto had done it first in 1990."
+  },
+  {
+    "id": "wl_118",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which New Zealand prime minister, nicknamed 'Piggy', led the country from 1975 to 1984?",
+    "answer": "Robert Muldoon",
+    "distractors": [
+      "Norman Kirk",
+      "David Lange",
+      "Keith Holyoake"
+    ],
+    "explanation": "Muldoon quipped that New Zealanders moving to Australia raised the average IQ of both countries. He called the 1984 'schnapps election', reputedly after a few drinks, and lost it to David Lange.",
+    "hook": "Muldoon's IQ joke still stings across the Tasman."
+  },
+  {
+    "id": "wl_119",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former New Zealand prime minister ran the UN Development Programme from 2009?",
+    "answer": "Helen Clark",
+    "distractors": [
+      "Jacinda Ardern",
+      "Jim Bolger",
+      "Mike Moore"
+    ],
+    "explanation": "Clark was prime minister from 1999 to 2008 and ran unsuccessfully for UN Secretary-General in 2016. Mike Moore, another former Labour prime minister, headed the World Trade Organization.",
+    "hook": "Clark went to the UN; Moore went to the WTO."
+  },
+  {
+    "id": "wl_120",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which New Zealand prime minister told a 1985 Oxford Union debate he could smell uranium on his opponent's breath?",
+    "answer": "David Lange",
+    "distractors": [
+      "Norman Kirk",
+      "Geoffrey Palmer",
+      "Mike Moore"
+    ],
+    "explanation": "Lange argued that nuclear weapons were morally indefensible, and his nuclear-free policy led the US to suspend its ANZUS obligations to New Zealand. The same year French agents bombed the Rainbow Warrior in Auckland harbour.",
+    "hook": "'Hold your breath': Lange's uranium line."
+  },
+  {
+    "id": "wl_121",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who is New Zealand's longest-serving prime minister, nicknamed 'King Dick'?",
+    "answer": "Richard Seddon",
+    "distractors": [
+      "Keith Holyoake",
+      "William Massey",
+      "Peter Fraser"
+    ],
+    "explanation": "Seddon led from 1893 until he died in office in 1906. Women won the vote in his first year, despite his opposition, and he brought in old-age pensions in 1898.",
+    "hook": "King Dick ruled for 13 years."
+  },
+  {
+    "id": "wl_122",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was New Zealand's first Labour prime minister, elected in 1935?",
+    "answer": "Michael Joseph Savage",
+    "distractors": [
+      "Peter Fraser",
+      "Harry Holland",
+      "Walter Nash"
+    ],
+    "explanation": "Savage built the welfare state through the Social Security Act 1938, and his portrait hung in many working-class homes. He died in office in 1940.",
+    "hook": "Savage's portrait hung on the wall of Labour homes."
+  },
+  {
+    "id": "wl_123",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Governor-General dismissed Gough Whitlam's government in 1975?",
+    "answer": "John Kerr",
+    "distractors": [
+      "Paul Hasluck",
+      "Zelman Cowen",
+      "William McKell"
+    ],
+    "explanation": "Kerr commissioned Malcolm Fraser as caretaker prime minister on 11 November 1975. Whitlam responded on the steps of Parliament House: 'Well may we say God save the Queen, because nothing will save the Governor-General.'",
+    "hook": "Remembrance Day 1975: nothing saved the Governor-General's reputation."
+  },
+  {
+    "id": "wl_124",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Australia's Governor-General in July 2024?",
+    "answer": "Sam Mostyn",
+    "distractors": [
+      "Linda Dessau",
+      "Margaret Beazley",
+      "Frances Adamson"
+    ],
+    "explanation": "Mostyn, a businesswoman and former AFL commissioner, succeeded David Hurley. She is the second woman in the role.",
+    "hook": "A former AFL commissioner now lives at Yarralumla."
+  },
+  {
+    "id": "wl_125",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "What is the name of the Governor-General's official residence in Canberra?",
+    "answer": "Yarralumla",
+    "distractors": [
+      "Kirribilli House",
+      "Admiralty House",
+      "The Lodge"
+    ],
+    "explanation": "Its formal name is Government House. In Sydney, the Governor-General's Admiralty House sits right next to the prime minister's Kirribilli House, and The Lodge is the prime minister's Canberra home.",
+    "hook": "Side by side on Sydney Harbour: Admiralty for the GG, Kirribilli for the PM."
+  },
+  {
+    "id": "wl_126",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former federal Labor leader became Governor-General in 1989?",
+    "answer": "Bill Hayden",
+    "distractors": [
+      "Kim Beazley",
+      "Arthur Calwell",
+      "Doc Evatt"
+    ],
+    "explanation": "Hayden was replaced by Bob Hawke on the eve of the 1983 election, when he said 'a drover's dog could lead the Labor Party to victory'. A republican and atheist, he still took the vice-regal job.",
+    "hook": "The drover's dog line came before the vice-regal job."
+  },
+  {
+    "id": "wl_127",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was Australia's first Governor-General?",
+    "answer": "Lord Hopetoun",
+    "distractors": [
+      "Lord Tennyson",
+      "Lord Northcote",
+      "Lord Denman"
+    ],
+    "explanation": "In the 'Hopetoun Blunder' he first invited New South Wales premier William Lyne, not Edmund Barton, to form the first government. Lyne could not find support and Barton became prime minister.",
+    "hook": "Hopetoun's blunder nearly gave Australia Prime Minister Lyne."
+  },
+  {
+    "id": "wl_128",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Governor-General resigned in 2003 over his handling of abuse claims as Anglican Archbishop of Brisbane?",
+    "answer": "Peter Hollingworth",
+    "distractors": [
+      "William Deane",
+      "Michael Jeffery",
+      "Ninian Stephen"
+    ],
+    "explanation": "Hollingworth had been appointed by John Howard in 2001 and stood aside after a church inquiry criticised him. He was succeeded by Major General Michael Jeffery.",
+    "hook": "The archbishop lost Yarralumla after just two years."
+  },
+  {
+    "id": "wl_129",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the last Governor-General appointed from Britain, serving from 1961 to 1965?",
+    "answer": "Lord De L'Isle",
+    "distractors": [
+      "Lord Dunrossil",
+      "Viscount Slim",
+      "Lord Gowrie"
+    ],
+    "explanation": "De L'Isle had won the Victoria Cross at Anzio. Since he left in 1965 every Governor-General has been an Australian, beginning with Richard Casey.",
+    "hook": "A VC winner turned out the lights on British Governors-General."
+  },
+  {
+    "id": "wl_130",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Governor-General is the only one to die in office, in 1961?",
+    "answer": "Lord Dunrossil",
+    "distractors": [
+      "Lord Gowrie",
+      "Lord Stonehaven",
+      "Lord Forster"
+    ],
+    "explanation": "William Morrison, Viscount Dunrossil, had been Speaker of the House of Commons and died at Yarralumla after only a year. He is buried in Canberra.",
+    "hook": "The Speaker who came to Canberra and never left."
+  }
+]
