@@ -1,8 +1,9 @@
 import React from 'react';
-import { Home, BookOpen, Award, Flame, RotateCcw, Sparkles, Layers, Database, Target, BarChart3 } from 'lucide-react';
+import { Home, Newspaper, BookOpen, Award, Flame, RotateCcw, Sparkles, Layers, Database, Target, BarChart3 } from 'lucide-react';
 
 const TABS = [
   { id: 'home', label: 'Games', icon: Home },
+  { id: 'weekly', label: 'Saturday paper', icon: Newspaper },
   { id: 'quiz', label: 'Weekend quiz', icon: BookOpen },
   { id: 'daily', label: 'Daily five', icon: Sparkles },
   { id: 'flashcards', label: 'Decks', icon: Layers },

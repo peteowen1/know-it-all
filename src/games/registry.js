@@ -14,6 +14,7 @@ export const SECTIONS = [
 
 export const GAMES = [
   // ---------------------------------------------------------------- weekend
+  { id: 'weekly', section: 'weekend', tab: 'weekly', status: 'ready', icon: '🗞️', title: 'The Saturday paper', blurb: 'Twenty-five questions, easy to hard, the same for everyone. New every Saturday.' },
   { id: 'quiz', section: 'weekend', tab: 'quiz', status: 'ready', icon: '📰', title: 'Weekend quiz', blurb: '1,500 questions in ten categories. Pick length, categories and difficulty.' },
   { id: 'daily', section: 'weekend', tab: 'daily', status: 'ready', icon: '☀️', title: 'Daily five', blurb: 'Same five questions for everyone today.' },
   { id: 'lists', section: 'weekend', tab: 'lists', status: 'ready', icon: '📜', title: 'Fill the list', blurb: 'Every Australian PM, US president or UK PM in order, with the years as clues.' },

@@ -57,3 +57,13 @@ export function daysBetween(fromKey, toKey) {
   };
   return Math.round((parse(toKey) - parse(fromKey)) / 86400000);
 }
+
+/**
+ * The Saturday on or before `date`, as a local date key. The weekly paper is
+ * keyed by it, so a new paper appears at local midnight on Saturday.
+ */
+export function saturdayKey(date = new Date()) {
+  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  d.setDate(d.getDate() - ((d.getDay() + 1) % 7)); // getDay: 6 = Saturday
+  return localDateKey(d);
+}

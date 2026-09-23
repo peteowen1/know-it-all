@@ -18,11 +18,13 @@ import {
 import {
   exportProgress, importProgress, mergeProgress, encodeChallenge, decodeChallenge
 } from '../src/lib/transfer.js';
-import { localDateKey, previousDateKey, addDaysToKey, daysBetween } from '../src/lib/dates.js';
+import { localDateKey, previousDateKey, addDaysToKey, daysBetween, saturdayKey } from '../src/lib/dates.js';
 import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation } from '../src/games/geo/geoPool.js';
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
+import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
+import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
@@ -620,6 +622,34 @@ test('rowMatches: full name, surname, and a typo', () => {
   assert.ok(!rowMatches('Rudd', row));
 });
 
+// ---------------------------------------------------------- saturday paper
+test('saturdayKey: the Saturday on or before the date, local time', () => {
+  assert.equal(saturdayKey(new Date(2026, 8, 23, 9)), '2026-09-19'); // Wednesday
+  assert.equal(saturdayKey(new Date(2026, 8, 26, 0, 5)), '2026-09-26'); // Saturday just after midnight
+  assert.equal(saturdayKey(new Date(2026, 8, 25, 23, 55)), '2026-09-19'); // Friday night
+  assert.equal(saturdayKey(new Date(2027, 0, 1, 12)), '2026-12-26'); // across new year
+});
+const BY_CAT = {};
+for (const f of readdirSync(new URL('../src/data/questions/', import.meta.url))) {
+  for (const q of JSON.parse(readFileSync(new URL(`../src/data/questions/${f}`, import.meta.url), 'utf8'))) (BY_CAT[q.category] ||= []).push(q);
+}
+test('weekly paper: 25 questions, 8/10/7 in order, at most 3 per category, no repeats', () => {
+  for (const week of ['2026-09-19', '2026-09-26', '2027-01-02']) {
+    const { questions } = pickWeekly(BY_CAT, week);
+    assert.equal(questions.length, 25, week);
+    const diffs = questions.map((q) => q.difficulty);
+    assert.deepEqual(diffs, [...Array(WEEKLY_SHAPE.easy).fill('easy'), ...Array(WEEKLY_SHAPE.medium).fill('medium'), ...Array(WEEKLY_SHAPE.hard).fill('hard')], week);
+    const per = {};
+    for (const q of questions) per[q.category] = (per[q.category] || 0) + 1;
+    assert.ok(Math.max(...Object.values(per)) <= WEEKLY_MAX_PER_CATEGORY, JSON.stringify(per));
+    assert.equal(new Set(questions.map((q) => q.id)).size, 25);
+  }
+});
+test('weekly paper: same week, same paper; next week, a different one', () => {
+  const a = pickWeekly(BY_CAT, '2026-09-19').questions.map((q) => q.id);
+  assert.deepEqual(pickWeekly(BY_CAT, '2026-09-19').questions.map((q) => q.id), a);
+  assert.notDeepEqual(pickWeekly(BY_CAT, '2026-09-26').questions.map((q) => q.id), a);
+});
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {
