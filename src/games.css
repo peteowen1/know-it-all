@@ -170,3 +170,15 @@
 .list-input:focus { outline: 2px solid var(--accent-blue); outline-offset: 1px; }
 .list-input::placeholder { color: var(--text-muted); font-style: italic; }
 .names-title small { font-size: 0.7em; color: var(--text-secondary); }
+
+/* ---------------------------------------------------------- saturday paper */
+.paper-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.paper-row {
+  display: flex; align-items: center; gap: 1rem; padding: 0.7rem 0.9rem; border-radius: 12px;
+  border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.5);
+}
+.paper-row.current { border-color: var(--accent-gold); }
+.paper-row > div { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.paper-row > div span { color: var(--text-secondary); font-size: 0.82rem; }
+.paper-score { font-family: var(--font-serif); font-size: 1.2rem; color: var(--accent-gold); min-width: 3.5rem; text-align: right; }
+.game-setup-head h2 { display: inline-flex; align-items: center; gap: 0.5rem; }

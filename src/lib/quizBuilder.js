@@ -2,6 +2,8 @@ import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank.js';
 import { CATEGORY_LIST } from '../data/categories.js';
 import { hashString, makeRng, shuffle } from './rng.js';
 import { localDateKey } from './dates.js';
+import { pickWeekly } from './weekly.js';
+export { WEEKLY_SHAPE } from './weekly.js';
 
 // A "quiz" is a list of question ids plus a seed. Options are materialised from
 // (question id, seed) so a question's A/B/C/D order is stable for the length of
@@ -148,4 +150,13 @@ export function buildChallengeQuiz(ids, seed) {
     questions: questions.map((q) => materialise(q, seed)),
     missing: ids.length - questions.length
   };
+}
+
+/** The Saturday paper for a week: see weekly.js for how it is picked. */
+export function buildWeeklyPaper(weekKey) {
+  const { seed, questions } = pickWeekly(QUESTIONS_BY_CATEGORY, weekKey);
+  // The test suite checks two years of papers; this catches a bank edit that
+  // leaves some week short between test runs.
+  if (questions.length !== 25) console.warn(`Saturday paper for ${weekKey} has ${questions.length} questions, not 25.`);
+  return { seed, weekKey, questions: questions.map((q) => materialise(q, seed)) };
 }

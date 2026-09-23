@@ -6,6 +6,7 @@ import WeaknessVault from './components/WeaknessVault';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import QuizSetup from './components/QuizSetup';
 import GameHub from './components/GameHub';
+import WeeklyPaper from './components/WeeklyPaper';
 // Loaded on first open so the 160 kB country table stays out of the first paint.
 const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
 const HigherLower = lazy(() => import('./games/geo/HigherLower'));
@@ -142,6 +143,14 @@ export default function App() {
   const handleRoundChange = useCallback((gameId, round) => {
     setSavedRounds((prev) => (round ? { ...prev, [gameId]: round } : omit(prev, gameId)));
   }, []);
+  // First score on each week's paper, keyed by that Saturday's date. Replays
+  // do not overwrite it.
+  const [weeklyScores, setWeeklyScores] = useState(() => load('weekly', {}, isObject));
+  useEffect(() => save('weekly', weeklyScores), [weeklyScores]);
+  const handlePaperDone = useCallback((weekKey, result) => {
+    setWeeklyScores((prev) => (prev[weekKey] ? prev : { ...prev, [weekKey]: { score: result.score, total: result.total } }));
+  }, []);
+
   const handleGameAnswer = useCallback((gameId, key, correct) => {
     setGameStats((prev) => recordItems(prev, gameId, [{ key, correct }]));
   }, []);
@@ -259,6 +268,7 @@ export default function App() {
     setVault([]);
     setGameStats({});
     setSavedRounds({});
+    setWeeklyScores({});
   };
 
   /** Replace local state wholesale after a progress import. */
@@ -301,6 +311,7 @@ export default function App() {
             gameStats={gameStats}
             quizStats={stats}
             vaultDue={summary.due}
+            weeklyScores={weeklyScores}
           />
         )}
 
@@ -395,6 +406,16 @@ export default function App() {
               onNewQuiz={() => startQuiz({})}
             />
           </>
+        )}
+
+        {activeTab === 'weekly' && (
+          <WeeklyPaper
+            scores={weeklyScores}
+            onPaperDone={handlePaperDone}
+            onComplete={handleComplete}
+            onMissed={handleMissed}
+            onCorrect={handleCorrect}
+          />
         )}
 
         {activeTab === 'daily' && (

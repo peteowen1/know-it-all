@@ -1,16 +1,22 @@
 import React from 'react';
 import { GAMES, SECTIONS } from '../games/registry';
 import { gameEntry } from '../lib/gameStats';
+import { saturdayKey } from '../lib/dates';
 
 /**
  * The home screen: every game, grouped by section, with a one-line record for
  * the ones you have played. Planned games are shown greyed so the roadmap lives
  * in the app rather than in a doc nobody opens.
  */
-export default function GameHub({ onOpen, gameStats, quizStats, vaultDue }) {
+export default function GameHub({ onOpen, gameStats, quizStats, vaultDue, weeklyScores }) {
+  const thisSaturday = saturdayKey();
   const recordFor = (g) => {
     if (g.id === 'quiz') return quizStats.totalQuizzes ? `${quizStats.totalQuizzes} played · best ${quizStats.bestPercentage}%` : null;
     if (g.id === 'vault') return vaultDue ? `${vaultDue} due today` : null;
+    if (g.id === 'weekly') {
+      const s = weeklyScores?.[thisSaturday];
+      return s ? `This week: ${s.score}/${s.total}` : 'This week\'s paper is out';
+    }
     const e = gameEntry(gameStats, g.id);
     if (!e.plays) return null;
     if (g.id === 'population') return `best run ${e.bestRun}`;
