@@ -32,10 +32,13 @@ mkdirSync('src/data/charts', { recursive: true });
 // The show is whatever comes before the line break; the season note after it
 // ("<br/><small>(Season 3)</small>") is sometimes the only link in the cell,
 // so taking the first link gave "Season 3" as a title for 1975 and 1977.
-const cleanTitle = (cell) =>
-  plain(cell.split(/<br\s*\/?>|<small>/i)[0])
+// A trailing bracketed note with no link in it ("(comedy series)") goes too.
+const cleanTitle = (cell) => {
+  const head = cell.split(/<br\s*\/?>|<small>/i)[0].replace(/\s*\([^()[\]]*\)\s*('*)\s*$/, '$1');
+  return plain(head)
     .replace(/\s*\(?(season|series) \d+\)?\s*$/i, '')
     .trim();
+};
 
 const out = {};
 const problems = [];
@@ -53,7 +56,10 @@ for (const [key, page] of Object.entries(PAGES)) {
       if (!title) continue;
       const list = (years[year] ||= []);
       if (list.some((x) => x.title === title)) continue;
-      list.push({ title, artist: plain(cells[cells.length - 1]) || 'Unknown network', won: isBold(cells[1]) });
+      // 1950s simulcasts list two networks ("KTTV, CBS"). Each is an answer.
+      const artist = plain(cells[cells.length - 1]) || 'Unknown network';
+      const networks = artist.split(/\s*[,/]\s*|\s+and\s+/).filter(Boolean);
+      list.push({ title, artist, ...(networks.length > 1 ? { artists: networks } : {}), won: isBold(cells[1]) });
     }
   }
   const clean = {};
@@ -66,7 +72,7 @@ for (const [key, page] of Object.entries(PAGES)) {
       continue;
     }
     list.sort((a, b) => Number(b.won) - Number(a.won));
-    clean[y] = list.map((s, i) => ({ rank: i + 1, title: s.title, artist: s.artist }));
+    clean[y] = list.map((s, i) => ({ rank: i + 1, title: s.title, artist: s.artist, ...(s.artists ? { artists: s.artists } : {}) }));
   }
   out[key] = clean;
   const ys = Object.keys(clean).map(Number);
