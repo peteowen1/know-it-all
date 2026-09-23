@@ -4,6 +4,9 @@
 
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 
+// Look-alike score at or above which two flags render the same.
+export const IDENTICAL = 0.99;
+
 export const REGIONS = ['World', 'Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
 
 /**
@@ -34,18 +37,31 @@ export function countryPool(countries, { region = 'World', territories = false, 
  * de-duplicated on that label (with territories on, Jamaica and Norfolk Island
  * both have a capital called Kingston), because two identical options with one
  * marked wrong is a broken question.
+ *
+ * `lookalikes` (flags only) does two things. It always removes flags that
+ * render identically to the target — France and French Guiana, Monaco and
+ * Indonesia — because a question with two indistinguishable options has no
+ * right answer. With `hard`, it also puts look-alike flags first: three drawn
+ * at random from the five closest, so Monaco does not always bring the same
+ * three.
  */
-export function pickDistractors(target, pool, rand, labelOf = (c) => c.name) {
-  const others = pool.filter((c) => c.code !== target.code);
+export function pickDistractors(target, pool, rand, labelOf = (c) => c.name, { lookalikes = null, hard = false } = {}) {
+  const identical = new Set(
+    (lookalikes?.[target.code] || []).filter(([, score]) => score >= IDENTICAL).map(([code]) => code)
+  );
+  const others = pool.filter((c) => c.code !== target.code && !identical.has(c.code));
+  const useLookalikes = Boolean(lookalikes && hard);
   const tiers = [
+    ...(useLookalikes ? [lookalikeTier(target, others, lookalikes, rand)] : []),
     others.filter((c) => c.subregion === target.subregion),
     others.filter((c) => c.subregion !== target.subregion && c.region === target.region),
     others.filter((c) => c.region !== target.region)
   ];
   const seen = new Set([labelOf(target)]);
   const picked = [];
-  for (const tier of tiers) {
-    for (const c of shuffle(tier, rand)) {
+  for (const [t, tier] of tiers.entries()) {
+    // The look-alike tier is already in the order it should be used.
+    for (const c of useLookalikes && t === 0 ? tier : shuffle(tier, rand)) {
       if (picked.length === 3) return picked;
       const label = labelOf(c);
       if (seen.has(label)) continue;
@@ -56,6 +72,22 @@ export function pickDistractors(target, pool, rand, labelOf = (c) => c.name) {
   return picked;
 }
 
+function lookalikeTier(target, others, lookalikes, rand) {
+  const inPool = new Map(others.map((c) => [c.code, c]));
+  const close = (lookalikes[target.code] || [])
+    .filter(([code]) => inPool.has(code))
+    .slice(0, 5)
+    .map(([code]) => inPool.get(code));
+  return shuffle(close, rand);
+}
+
+/** Flags that render the same as this one, for the "identical to" note. */
+export function identicalFlags(target, lookalikes, byCode) {
+  return (lookalikes?.[target.code] || [])
+    .filter(([code, score]) => score >= IDENTICAL && byCode.get(code)?.sovereign)
+    .map(([code]) => byCode.get(code).name);
+}
+
 /**
  * A round of `count` questions. Each has the target, its options in a seeded
  * order, and the index of the correct option.
@@ -64,7 +96,7 @@ export function pickDistractors(target, pool, rand, labelOf = (c) => c.name) {
  * missing: a country with weight 3 is three times as likely to be drawn as one
  * with weight 1. Sampling is without replacement, so a round never repeats.
  */
-export function buildGeoRound(pool, { count = 10, seed = Date.now(), labelOf, weights = null } = {}) {
+export function buildGeoRound(pool, { count = 10, seed = Date.now(), labelOf, weights = null, lookalikes = null, hard = false } = {}) {
   const rand = makeRng(hashString(String(seed)));
   const bag = pool.map((c) => ({ c, w: Math.max(weights?.[c.code] ?? 1, 0.01) }));
   const chosen = [];
@@ -76,7 +108,7 @@ export function buildGeoRound(pool, { count = 10, seed = Date.now(), labelOf, we
     chosen.push(bag.splice(i, 1)[0].c);
   }
   return chosen.map((target) => {
-    const options = shuffle([target, ...pickDistractors(target, pool, rand, labelOf)], rand);
+    const options = shuffle([target, ...pickDistractors(target, pool, rand, labelOf, { lookalikes, hard })], rand);
     return { target, options, correctIndex: options.indexOf(target) };
   });
 }

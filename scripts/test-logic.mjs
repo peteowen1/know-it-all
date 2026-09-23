@@ -20,10 +20,12 @@ import {
 } from '../src/lib/transfer.js';
 import { localDateKey, previousDateKey, addDaysToKey, daysBetween } from '../src/lib/dates.js';
 import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation } from '../src/games/geo/geoPool.js';
-import { recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
+import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
+import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
 import { readFileSync } from 'node:fs';
 
+const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
 let pass = 0;
@@ -356,6 +358,75 @@ test('progress code carries game stats; a code without them still imports', () =
   const old = importProgress(exportProgress({ stats: {}, vault: [], recentIds: [] }));
   assert.ok(old.ok);
   assert.equal(mergeProgress(profile, old.data).games.flags.plays, 1);
+});
+
+// ------------------------------------------------------------ name match
+const TOMS = [
+  { id: 'hanks', name: 'Tom Hanks', rest: 'Hanks', views: 900 },
+  { id: 'jones', name: 'Tom Jones', rest: 'Jones', views: 500 },
+  { id: 'jones2', name: 'Tom Jones', rest: 'Jones', views: 10 },
+  { id: 'hiddleston', name: 'Tom Hiddleston', rest: 'Hiddleston', views: 400 },
+  { id: 'delonge', name: 'Tom DeLonge', rest: 'DeLonge', views: 50 }
+];
+const ROBERTS = [{ id: 'deniro', name: 'Robert De Niro', rest: 'De Niro', views: 1 }];
+test('normalise strips accents, case and punctuation', () => assert.equal(normalise(' Beyoncé Knowles-Carter '), 'beyonce knowles carter'));
+test('editDistance caps early', () => {
+  assert.equal(editDistance('hiddlestone', 'hiddleston'), 1);
+  assert.equal(editDistance('abc', 'xyzxyz'), 3);
+});
+test('matchGuess: surname, full name and case all find the person', () => {
+  for (const g of ['hanks', 'Tom Hanks', 'HANKS']) assert.equal(matchGuess(g, 'Tom', TOMS).person.id, 'hanks');
+});
+test('matchGuess: one typo allowed on long guesses, none on short', () => {
+  assert.equal(matchGuess('Hiddlestone', 'Tom', TOMS).person.id, 'hiddleston');
+  assert.equal(matchGuess('Hank', 'Tom', TOMS), null);
+});
+test('matchGuess: multi-word and joined surnames', () => {
+  assert.equal(matchGuess('de niro', 'Robert', ROBERTS).person.id, 'deniro');
+  assert.equal(matchGuess('deniro', 'Robert', ROBERTS).person.id, 'deniro');
+  assert.equal(matchGuess('niro', 'Robert', ROBERTS).person.id, 'deniro');
+  assert.equal(matchGuess('de longe', 'Tom', TOMS).person.id, 'delonge');
+});
+test('matchGuess: repeated surname finds the next most famous, then reports already found', () => {
+  assert.equal(matchGuess('jones', 'Tom', TOMS).person.id, 'jones');
+  assert.equal(matchGuess('jones', 'Tom', TOMS, new Set(['jones'])).person.id, 'jones2');
+  assert.equal(matchGuess('jones', 'Tom', TOMS, new Set(['jones', 'jones2'])).alreadyFound, true);
+});
+test('matchGuess: nonsense and one-letter guesses match nothing', () => {
+  assert.equal(matchGuess('zzzzzz', 'Tom', TOMS), null);
+  assert.equal(matchGuess('h', 'Tom', TOMS), null);
+});
+
+// ------------------------------------------------------------ flag look-alikes
+const ALL = countryPool(COUNTRIES, { territories: true });
+const byCode = (c) => ALL.find((x) => x.code === c);
+test('look-alikes: the pairs everyone confuses are measured as close', () => {
+  const top = (c, n = 5) => LOOKALIKES[c].slice(0, n).map(([code]) => code);
+  assert.ok(top('MC').includes('ID') && top('MC').includes('PL'), 'Monaco ~ Indonesia, Poland');
+  assert.ok(top('TD').includes('RO'), 'Chad ~ Romania');
+  assert.ok(top('IE').includes('CI'), 'Ireland ~ Ivory Coast');
+  assert.ok(top('SI').includes('RU') && top('SI').includes('SK'), 'Slovenia ~ Russia, Slovakia');
+});
+test('hard flags: Monaco gets look-alikes, never identical Indonesia', () => {
+  const mc = WORLD.find((c) => c.code === 'MC');
+  for (let seed = 0; seed < 30; seed++) {
+    const d = pickDistractors(mc, WORLD, makeRng(seed), (c) => c.name, { lookalikes: LOOKALIKES, hard: true }).map((c) => c.code);
+    assert.ok(!d.includes('ID'), 'identical flag offered');
+    const close = LOOKALIKES.MC.filter(([c, s]) => s < 0.99 && WORLD.some((w) => w.code === c)).slice(0, 5).map(([c]) => c);
+    assert.ok(d.every((c) => close.includes(c)), `not look-alikes: ${d}`);
+  }
+});
+test('normal flags: identical flags excluded even with territories on', () => {
+  const fr = byCode('FR');
+  for (let seed = 0; seed < 50; seed++) {
+    const d = pickDistractors(fr, ALL, makeRng(seed), (c) => c.code, { lookalikes: LOOKALIKES }).map((c) => c.code);
+    for (const same of ['GF', 'GP', 'MQ', 'RE', 'YT']) assert.ok(!d.includes(same), `${same} offered for France`);
+  }
+});
+test('recordItems updates items without counting a play', () => {
+  const g = recordItems({}, 'flags', [{ key: 'MC', correct: false }]);
+  assert.equal(g.flags.plays, 0);
+  assert.deepEqual(g.flags.items.MC, { seen: 1, correct: 0 });
 });
 
 // ------------------------------------------------------------------ report
