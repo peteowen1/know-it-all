@@ -38,6 +38,9 @@ const BY_CODE = new Map(COUNTRIES.map((c) => [c.code, c]));
 // other fields. A code that no longer exists voids the saved round.
 function serialiseRound(r) {
   return {
+    // The settings the round was started with, so resuming also restores the
+    // setup screen and "Again" repeats the same kind of round.
+    settings: r.settings,
     direction: r.direction,
     region: r.region,
     q: r.questions.map((q) => [q.target.code, q.options.map((o) => o.code)]),
@@ -75,11 +78,13 @@ export default function CountryQuiz({
   kind, stats, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit, savedRound, onRoundChange
 }) {
   const spec = KINDS[kind];
-  const [region, setRegion] = useState('World');
-  const [territories, setTerritories] = useState(false);
-  const [count, setCount] = useState(10);
-  const [direction, setDirection] = useState('forward');
-  const [hard, setHard] = useState(false);
+  const initial = { region: 'World', territories: false, count: 10, direction: 'forward', hard: false, ...savedRound?.settings };
+  const [region, setRegion] = useState(initial.region);
+  const [territories, setTerritories] = useState(initial.territories);
+  // "All" is Infinity, which JSON cannot hold, so it is saved as 'all'.
+  const [count, setCount] = useState(initial.count === 'all' ? Infinity : initial.count);
+  const [direction, setDirection] = useState(initial.direction);
+  const [hard, setHard] = useState(initial.hard);
   // Picks up a round left part-way through, from another tab or a reload.
   const [round, setRound] = useState(() => restoreRound(savedRound));
   useEffect(() => {
@@ -111,7 +116,16 @@ export default function CountryQuiz({
       hard
     });
     answeredUpTo.current = -1;
-    setRound({ direction, region, questions, index: 0, picked: null, revealed: false, answers: [] });
+    setRound({
+      settings: { region, territories, count: Number.isFinite(count) ? count : 'all', direction, hard },
+      direction,
+      region,
+      questions,
+      index: 0,
+      picked: null,
+      revealed: false,
+      answers: []
+    });
   };
 
   if (!round) {
