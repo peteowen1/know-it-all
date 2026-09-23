@@ -25,6 +25,7 @@ import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
+import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -740,6 +741,32 @@ test('timeline: only a reversed order scores 0 or 1 of 10', () => {
     // Reversed with at most one adjacent pair swapped.
     const displaced = p.filter((v, i) => v !== 5 - i).length;
     if (correct <= 1) assert.ok(displaced <= 2, p.join(','));
+  }
+});
+// ------------------------------------------------------------- obscure-est
+const OBS = JSON.parse(readFileSync(new URL('../src/data/obscure.json', import.meta.url), 'utf8')).categories;
+test('obscure: every category scores 1 (most obvious) to 100 (rarest), answers distinct', () => {
+  for (const c of OBS) {
+    assert.equal(c.answers[0].score, 1, c.id);
+    assert.equal(c.answers.at(-1).score, 100, c.id);
+    assert.equal(new Set(c.answers.map((a) => a.text)).size, c.answers.length, c.id);
+  }
+});
+test('obscure: rarity is sensible (China: India obvious, Bhutan rare)', () => {
+  const china = OBS.find((c) => c.id === 'borders-CN');
+  const s = (name) => scoreGuess(china, name).score;
+  assert.ok(s('India') < 10 && s('Bhutan') > 90, `India ${s('India')}, Bhutan ${s('Bhutan')}`);
+  assert.equal(s('Japan'), 0);
+});
+test('obscure: famous-person categories accept a surname alone', () => {
+  const toms = OBS.find((c) => c.id === 'name-Tom');
+  assert.equal(scoreGuess(toms, 'Hanks').answer?.text, 'Tom Hanks');
+});
+test('obscure: a game has five distinct categories covering all four areas', () => {
+  for (let s = 0; s < 100; s++) {
+    const cats = pickCategories(OBS, s);
+    assert.equal(new Set(cats.map((c) => c.id)).size, 5);
+    for (const k of ['geo', 'people', 'music', 'film']) assert.ok(cats.some((c) => c.kind === k), k);
   }
 });
 // ------------------------------------------------------------------ report
