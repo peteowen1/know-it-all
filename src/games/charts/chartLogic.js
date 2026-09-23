@@ -21,7 +21,12 @@ const yearsIn = (years, from, to) =>
  * (a hit straddling New Year counts in both), which ranks a long-running hit
  * above a brief one — the same logic as Billboard's own decade-end lists.
  */
-export function topSongs(years, from, to, size) {
+export function topSongs(years, from, to, size, { decadeBoard = 'aggregate' } = {}) {
+  // Best Picture: a decade board is that decade's ten winners. Summing
+  // positions makes no sense for a nominee list.
+  if (from !== to && decadeBoard === 'winners') {
+    return yearsIn(years, from, to).slice(0, size).map((y, i) => boardItem(years[y][0], i, [y], `${y}`));
+  }
   const byKey = new Map();
   for (const y of yearsIn(years, from, to)) {
     for (const e of years[y]) {
@@ -35,16 +40,20 @@ export function topSongs(years, from, to, size) {
   return [...byKey.values()]
     .sort((a, b) => b.points - a.points || a.rank - b.rank)
     .slice(0, size)
-    .map((e, i) => ({
-      id: `song:${normalise(e.title)}|${normalise(e.artist)}`,
-      rank: i + 1,
-      label: e.title,
-      sub: e.artist,
-      hint: e.artist,
-      // Typing either the song or any credited artist finds it.
-      answers: [...(e.titles || [e.title]), ...(e.artists || [e.artist])],
-      years: e.years
-    }));
+    .map((e, i) => boardItem(e, i, e.years));
+}
+
+function boardItem(e, i, years, prefix = null) {
+  return {
+    id: `song:${normalise(e.title)}|${normalise(e.artist)}`,
+    rank: i + 1,
+    label: e.title,
+    sub: prefix ? `${prefix} · ${e.artist}` : e.artist,
+    hint: prefix ? `${prefix} · ${e.artist}` : e.artist,
+    // Typing either the title or any credited artist (or director) finds it.
+    answers: [...(e.titles || [e.title]), ...(e.artists || [e.artist])],
+    years
+  };
 }
 
 /**
@@ -52,7 +61,7 @@ export function topSongs(years, from, to, size) {
  * credited on. A featured artist gets full credit: "Puff Daddy featuring 112"
  * counts for 112 as well, which is how a pub quiz would count it.
  */
-export function topArtists(years, from, to, size) {
+export function topArtists(years, from, to, size, { noun = 'song' } = {}) {
   const byArtist = new Map();
   for (const y of yearsIn(years, from, to)) {
     for (const e of years[y]) {
@@ -74,7 +83,7 @@ export function topArtists(years, from, to, size) {
         id: `artist:${normalise(a.name)}`,
         rank: i + 1,
         label: a.name,
-        sub: `${a.songs.length} song${a.songs.length === 1 ? '' : 's'} · biggest "${best.title}"`,
+        sub: `${a.songs.length} ${noun}${a.songs.length === 1 ? '' : 's'} · biggest "${best.title}"`,
         hint: `"${best.title}"`,
         answers: [a.name]
       };
@@ -133,8 +142,18 @@ const cmp = (a, b) => {
  *     within three years, so the era is right and the question is about the year.
  *   - "'Wooly Bully' was the biggest song of which year?"  four nearby years.
  * Each has `prompt`, `options` (strings), `correctIndex` and `explain`.
+ *
+ * `words` sets the phrasing per chart, and `sameYearDistractors` draws the
+ * wrong answers from the same year's list instead of nearby years — right for
+ * Best Picture, where the other nominees are exactly the plausible answers.
  */
-export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() } = {}) {
+const MUSIC_WORDS = {
+  best: (y) => `Biggest song of ${y}?`,
+  whichYear: (label) => `${label} was the biggest song of which year?`,
+  winner: (label, y) => `${label} was Billboard's year-end number one for ${y}.`,
+  runnerUp: 'Runner-up'
+};
+export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now(), words = MUSIC_WORDS, sameYearDistractors = false } = {}) {
   const rand = makeRng(hashString(`chartquiz:${seed}`));
   const span = yearsIn(years, from, to);
   const all = yearsIn(years, -Infinity, Infinity);
@@ -149,11 +168,13 @@ export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() 
     const top = years[year][0];
     const label = (e) => `"${e.title}" — ${e.artist}`;
     if (kind === 'song-of-year') {
-      const nearby = yearsIn(years, year - 3, year + 3).filter((y) => y !== year);
-      const pool = nearby.flatMap((y) => years[y].slice(0, 10)).filter((e) => normalise(e.title) !== normalise(top.title));
+      const nearby = yearsIn(years, year - 3, year + 3).filter((y) => y !== year).flatMap((y) => years[y].slice(0, 10));
+      // Same-year first when asked; nearby years top it up, since early Oscar
+      // years had as few as three nominees.
+      const pool = sameYearDistractors ? [...shuffle(years[year].slice(1), rand), ...shuffle(nearby, rand)] : shuffle(nearby, rand);
       const wrong = [];
       const seen = new Set([normalise(top.title)]);
-      for (const e of shuffle(pool, rand)) {
+      for (const e of pool) {
         if (wrong.length === 3) break;
         if (seen.has(normalise(e.title))) continue;
         seen.add(normalise(e.title));
@@ -163,10 +184,10 @@ export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() 
       return {
         kind: 'song-of-year',
         year,
-        prompt: `Biggest song of ${year}?`,
+        prompt: words.best(year),
         options: options.map(label),
         correctIndex: options.indexOf(top),
-        explain: `${label(top)} was Billboard's year-end number one for ${year}.`,
+        explain: words.winner(label(top), year),
         key: `song:${year}`
       };
     }
@@ -176,10 +197,10 @@ export function buildChartQuiz(years, { from, to, count = 10, seed = Date.now() 
     return {
       kind: 'year-of-song',
       year,
-      prompt: `${label(top)} was the biggest song of which year?`,
+      prompt: words.whichYear(label(top)),
       options: options.map(String),
       correctIndex: options.indexOf(year),
-      explain: `Year-end number one for ${year}. Runner-up: ${label(years[year][1])}.`,
+      explain: `${words.winner(label(top), year)}${years[year][1] ? ` ${words.runnerUp}: ${label(years[year][1])}.` : ''}`,
       key: `year:${year}`
     };
   });
