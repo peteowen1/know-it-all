@@ -37,7 +37,7 @@ export const GAMES = [
   { id: 'timeline', section: 'lab', tab: 'timeline', status: 'ready', icon: '⏳', title: 'Timeline', blurb: 'Put five songs, films, leaders and births in order. Near misses still score.' },
   { id: 'year-guess', section: 'lab', tab: 'year-guess', status: 'ready', icon: '📅', title: 'Name the year', blurb: 'Three clues from one year. Exact scores 10, close still scores.' },
   { id: 'pointless', section: 'lab', tab: 'pointless', status: 'ready', icon: '🎯', title: 'Obscure-est', blurb: 'Any right answer scores, but rarer ones score more. Bhutan beats India.' },
-  { id: 'missing-link', section: 'lab', status: 'soon', icon: '🔗', title: 'Missing link', blurb: 'What connects these four? Answer early for more points.' }
+  { id: 'missing-link', section: 'lab', tab: 'missing-link', status: 'ready', icon: '🔗', title: 'Missing link', blurb: 'Four clues, rarest first. Name the link early for more points.' }
 ];
 
 export const gameById = (id) => GAMES.find((g) => g.id === id);

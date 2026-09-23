@@ -19,6 +19,7 @@ const ListGame = lazy(() => import('./games/lists/ListGame'));
 const Timeline = lazy(() => import('./games/timeline/Timeline'));
 const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 const Obscure = lazy(() => import('./games/obscure/Obscure'));
+const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
 import { recordRound, recordItems } from './lib/gameStats';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
 import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
@@ -379,6 +380,10 @@ export default function App() {
             onRoundComplete={handleGameRound}
             onExit={goHome}
           />
+        )}
+
+        {activeTab === 'missing-link' && (
+          <MissingLink stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
         )}
 
         {activeTab === 'pointless' && (
