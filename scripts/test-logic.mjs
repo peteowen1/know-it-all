@@ -22,6 +22,7 @@ import { localDateKey, previousDateKey, addDaysToKey, daysBetween } from '../src
 import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation } from '../src/games/geo/geoPool.js';
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
+import { rowMatches } from '../src/games/lists/listMatch.js';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
@@ -30,6 +31,7 @@ const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/mus
 const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
 const TV = JSON.parse(readFileSync(new URL('../src/data/charts/tv.json', import.meta.url), 'utf8'));
 const FBF = JSON.parse(readFileSync(new URL('../src/data/fourbyfour.json', import.meta.url), 'utf8'));
+const LISTS = JSON.parse(readFileSync(new URL('../src/data/lists.json', import.meta.url), 'utf8')).lists;
 const LOOKALIKES = JSON.parse(readFileSync(new URL('../src/data/flagLookalikes.json', import.meta.url), 'utf8'));
 const { countries: COUNTRIES } = JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8'));
 
@@ -585,6 +587,34 @@ test('four by four: every puzzle has 4 groups of 4 and 16 distinct tiles', () =>
     assert.equal(new Set(tiles).size, 16, `puzzle ${i} repeats a tile`);
     assert.deepEqual(p.groups.map((g) => g.level), [...p.groups.map((g) => g.level)].sort(), `puzzle ${i} not in difficulty order`);
   }
+});
+
+// ---------------------------------------------------------- fill the list
+test('lists: Australian PMs run Barton to the present, numbered once per person', () => {
+  const t = LISTS.auPM.terms;
+  assert.equal(t[0].name, 'Edmund Barton');
+  assert.equal(t[0].number, 1);
+  const rudd = t.filter((x) => x.name === 'Kevin Rudd');
+  assert.deepEqual(rudd.map((x) => x.number), [26, 26]);
+  assert.equal(t.find((x) => x.name === 'Tony Abbott').number, 28);
+  assert.equal(new Set(t.map((x) => x.name)).size, 31);
+});
+test('lists: US presidents number each non-consecutive term (Cleveland, Trump)', () => {
+  const t = LISTS.usPres.terms;
+  assert.deepEqual(t.filter((x) => x.name === 'Grover Cleveland').map((x) => x.number), [22, 24]);
+  assert.ok(t.every((x) => x.number), 'an unnumbered row slipped in');
+  assert.equal(t[0].name, 'George Washington');
+});
+test('lists: terms are in date order', () => {
+  for (const [k, l] of Object.entries(LISTS)) {
+    const years = l.terms.map((x) => x.from);
+    assert.deepEqual(years, [...years].sort((a, b) => a - b), k);
+  }
+});
+test('rowMatches: full name, surname, and a typo', () => {
+  const row = LISTS.auPM.terms.find((x) => x.name === 'Julia Gillard');
+  for (const g of ['Julia Gillard', 'gillard', 'Gilard']) assert.ok(rowMatches(g, row), g);
+  assert.ok(!rowMatches('Rudd', row));
 });
 
 // ------------------------------------------------------------------ report

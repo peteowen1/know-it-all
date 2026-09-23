@@ -69,9 +69,11 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       setGame={setGame}
       onFinish={(g, won) =>
         onRoundComplete('connections', {
-          score: won && g.mistakes === 0 ? 1 : 0,
+          // A win is a win whatever the mistakes; `run` is groups the player
+          // actually found, not the ones revealed after a loss.
+          score: won ? 1 : 0,
           total: 1,
-          run: g.solved.length,
+          run: g.found,
           answers: []
         })
       }
@@ -106,7 +108,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
     if (best === 4) {
       const nextSolved = [...solved, groupsHit[0]];
       const won = nextSolved.length === 4;
-      const next = { ...game, solved: nextSolved, selected: [], guesses, message: null, over: won };
+      const next = { ...game, solved: nextSolved, found: nextSolved.length, selected: [], guesses, message: null, over: won };
       setGame(next);
       if (won) onFinish(next, true);
       return;
@@ -118,9 +120,11 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
       mistakes: nextMistakes,
       guesses,
       over: lost,
-      // Losing reveals every group, in difficulty order, so the answers are
-      // there to learn from.
-      solved: lost ? [...solved, ...puzzle.groups.map((_, i) => i).filter((i) => !solved.includes(i))] : solved,
+      found: solved.length,
+      // Losing reveals every group, easiest first, so the answers are there to
+      // learn from. Groups are stored easiest-first, so index order is level
+      // order, including any the player had already solved.
+      solved: lost ? puzzle.groups.map((_, i) => i) : solved,
       selected: lost ? [] : selected,
       message: lost ? null : { tone: 'bad', text: best === 3 ? 'One away…' : 'Not a group.' }
     };

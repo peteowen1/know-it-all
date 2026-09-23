@@ -148,3 +148,25 @@
 .fbf-dot { width: 0.7rem; height: 0.7rem; border-radius: 50%; background: rgba(148, 163, 184, 0.25); }
 .fbf-dot.on { background: var(--accent-gold); }
 .fbf-over { text-align: center; display: flex; flex-direction: column; gap: 0.75rem; }
+
+/* ------------------------------------------------------------ fill the list */
+/* One column: a list learnt in order should read top to bottom. */
+.list-rows { list-style: none; display: grid; grid-template-columns: 1fr; gap: 0.4rem; max-width: 520px; width: 100%; margin: 0 auto; }
+.list-row {
+  display: flex; align-items: center; gap: 0.75rem; padding: 0.35rem 0.6rem; border-radius: 10px;
+  border: 1px solid var(--border-color); background: rgba(15, 23, 42, 0.5); min-height: 2.8rem;
+}
+.list-row.got { border-color: var(--accent-green); background: rgba(16, 185, 129, 0.1); }
+.list-row.missed { border-color: rgba(244, 63, 94, 0.4); }
+.list-row.wrong { border-color: var(--accent-rose); animation: list-shake 0.25s; }
+@keyframes list-shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+.list-clue { display: flex; flex-direction: column; min-width: 6.2rem; flex-shrink: 0; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.2; }
+.list-clue strong { color: var(--accent-gold); font-size: 0.85rem; }
+.list-answer { flex: 1; min-width: 0; font-weight: 600; display: inline-flex; align-items: center; gap: 0.35rem; }
+.list-input {
+  flex: 1; min-width: 0; padding: 0.45rem 0.6rem; border-radius: 8px; font: inherit;
+  background: rgba(15, 23, 42, 0.7); color: var(--text-primary); border: 1px solid var(--glass-border);
+}
+.list-input:focus { outline: 2px solid var(--accent-blue); outline-offset: 1px; }
+.list-input::placeholder { color: var(--text-muted); font-style: italic; }
+.names-title small { font-size: 0.7em; color: var(--text-secondary); }

@@ -16,6 +16,7 @@ export const GAMES = [
   // ---------------------------------------------------------------- weekend
   { id: 'quiz', section: 'weekend', tab: 'quiz', status: 'ready', icon: '📰', title: 'Weekend quiz', blurb: '1,040 questions in eight categories. Pick length, categories and difficulty.' },
   { id: 'daily', section: 'weekend', tab: 'daily', status: 'ready', icon: '☀️', title: 'Daily five', blurb: 'Same five questions for everyone today.' },
+  { id: 'lists', section: 'weekend', tab: 'lists', status: 'ready', icon: '📜', title: 'Fill the list', blurb: 'Every Australian PM, US president or UK PM in order, with the years as clues.' },
   { id: 'vault', section: 'weekend', tab: 'vault', status: 'ready', icon: '🎯', title: 'Revision vault', blurb: 'Everything you missed, back on a spaced schedule.' },
   { id: 'decks', section: 'weekend', tab: 'flashcards', status: 'ready', icon: '🗂️', title: 'Flashcard decks', blurb: 'Quick-fire lists: elements, monarchs, wedding anniversaries.' },
 

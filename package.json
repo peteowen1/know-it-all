@@ -15,6 +15,7 @@
     "data:films": "node scripts/build-film-charts.mjs",
     "data:tv": "node scripts/build-tv-charts.mjs",
     "data:fourbyfour": "node scripts/build-fourbyfour.mjs",
+    "data:lists": "node scripts/build-lists.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "node scripts/test-logic.mjs",
