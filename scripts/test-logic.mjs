@@ -694,6 +694,17 @@ test('matchChartGuess: leading abbreviation and pre-colon title (E.T., Rambo)', 
   assert.equal(matchChartGuess('Rambo', films)?.item.id, 'rambo');
   assert.equal(matchChartGuess('Top', films), null);
 });
+test('matchChartGuess: a short name shared by several films is ambiguous, not a free fill', () => {
+  const board = topSongs(FILMS.boxOffice, 2010, 2019, 20);
+  // Two Star Wars films on the 2010s board and no plain "Star Wars": ambiguous.
+  assert.ok(matchChartGuess('Star Wars', board)?.ambiguous);
+  assert.equal(matchChartGuess('Star Wars: The Last Jedi', board)?.item.label, 'Star Wars: The Last Jedi');
+  // "Avengers" IS The Avengers (2012). Typing it again reports it as found
+  // rather than quietly filling Infinity War or Endgame.
+  const first = matchChartGuess('Avengers', board);
+  assert.equal(first?.item.label, 'The Avengers');
+  assert.equal(matchChartGuess('Avengers', board, new Set([first.item.id]))?.alreadyFound, true);
+});
 // ---------------------------------------------------------- name the year
 test('name the year: points fall by two per year out', () => {
   assert.deepEqual([0, 1, 2, 4, 5, 9].map((d) => yearPoints(1990 + d, 1990)), [10, 8, 6, 2, 0, 0]);

@@ -234,9 +234,10 @@ function ChartBoard({ round, setRound, easy, onFinish, onAgain, onSettings }) {
     const m = matchChartGuess(guess, items, foundSet);
     let msg;
     if (!m) msg = { tone: 'bad', text: `"${guess.trim()}" isn't on this chart` };
+    else if (m.ambiguous) msg = { tone: 'meh', text: `${m.count} on this board start "${guess.trim()}". Be more specific.` };
     else if (m.alreadyFound) msg = { tone: 'meh', text: `Already got ${m.item.label}` };
     else msg = { tone: 'good', text: `#${m.item.rank} ${m.item.label} ✓` };
-    setRound((r) => ({ ...r, message: msg, found: m && !m.alreadyFound ? [...r.found, m.item.id] : r.found }));
+    setRound((r) => ({ ...r, message: msg, found: m?.item && !m.alreadyFound ? [...r.found, m.item.id] : r.found }));
     setGuess('');
     inputRef.current?.focus();
   };

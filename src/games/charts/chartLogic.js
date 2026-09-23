@@ -101,13 +101,8 @@ export function topArtists(years, from, to, size, { noun = 'song' } = {}) {
     });
 }
 
-/**
- * Accepted spellings of one answer: as written, without "The", without
- * brackets, without spaces, the part before a colon ("Rambo" for "Rambo:
- * First Blood Part II"), and a leading abbreviation ("E.T." or "ET" for "E.T.
- * the Extra-Terrestrial", which a player typed and had rejected).
- */
-export function forms(answer) {
+/** Accepted spellings of one answer: as written, without "The", without brackets, without spaces. */
+function forms(answer) {
   const n = normalise(answer);
   const out = new Set([n]);
   out.add(n.replace(/^the /, ''));
@@ -115,6 +110,17 @@ export function forms(answer) {
   const noBrackets = normalise(answer.replace(/\([^)]*\)/g, ''));
   if (noBrackets) out.add(noBrackets);
   out.add(n.replace(/ /g, ''));
+  return out;
+}
+
+/**
+ * Short names for an answer: the part before a colon ("Rambo" for "Rambo:
+ * First Blood Part II") and a leading abbreviation ("E.T." or "ET" for "E.T.
+ * the Extra-Terrestrial", which a player typed and had rejected). These only
+ * count when exactly one item on the board has them; see matchChartGuess.
+ */
+function shortForms(answer) {
+  const out = new Set();
   const beforeColon = normalise(answer.split(':')[0]);
   if (answer.includes(':') && beforeColon.length >= 3) out.add(beforeColon).add(beforeColon.replace(/^the /, ''));
   const abbrev = answer.match(/^((?:[A-Za-z]\.){2,})/);
@@ -151,7 +157,15 @@ export function matchChartGuess(guess, items, foundIds = new Set()) {
     const score = [taken ? 1 : 0, dist, item.rank];
     if (!best || cmp(score, best.score) < 0) best = { item, score, taken };
   }
-  return best ? { item: best.item, alreadyFound: best.taken } : null;
+  if (best) return { item: best.item, alreadyFound: best.taken };
+
+  // No full-title match: try short names, exactly and only if unambiguous.
+  // "Avengers" on the 2010s board names three films; filling whichever ranks
+  // highest would let a player collect every sequel without knowing one.
+  const byShort = items.filter((item) => item.answers.some((a) => shortForms(a).has(g)));
+  if (byShort.length === 1) return { item: byShort[0], alreadyFound: foundIds.has(byShort[0].id) };
+  if (byShort.length > 1) return { ambiguous: true, count: byShort.length };
+  return null;
 }
 
 const cmp = (a, b) => {

@@ -71,7 +71,8 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
   const r = rounds[index];
   const answered = guesses.length > index;
   const guess = (y) => {
-    if (answered || !Number.isFinite(Number(y)) || String(y).trim() === '') return;
+    // A four-digit year only; the disabled button is not the only way in.
+    if (answered || !/^\d{4}$/.test(String(y).trim())) return;
     const next = [...guesses, Number(y)];
     setGame({ ...game, guesses: next });
     if (next.length === rounds.length) {
