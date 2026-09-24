@@ -32,6 +32,7 @@ import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
+import { diffSnapshot, planPull, mergeSnapshots, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
 const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
@@ -811,6 +812,83 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
     }
   }
 });
+// ------------------------------------------------------------------ sync
+{
+  const stats = (n) => JSON.stringify({ totalAnswered: n, totalCorrect: n / 2, totalQuizzes: 1, highScore: n, categoryStats: { geo: { total: n, correct: 1 } } });
+
+  test('sync: the open tab and non-app keys never leave the device', () => {
+    assert.equal(isSyncedKey('sqt_v4_live_tab'), false);
+    assert.equal(isSyncedKey('kia_sync'), false);
+    assert.equal(isSyncedKey('sqt_v3_stats'), false);
+    assert.equal(isSyncedKey('sqt_v4_stats'), true);
+    assert.equal(isSyncedKey('sqt_v4_live_sim_weekly'), true);
+  });
+
+  test('sync: diff reports changed, added and deleted keys only', () => {
+    const d = diffSnapshot({ sqt_v4_a: '1', sqt_v4_b: '2', sqt_v4_new: 'x' }, { sqt_v4_a: '1', sqt_v4_b: 'old', sqt_v4_gone: 'y' });
+    assert.deepEqual(d, { sqt_v4_b: '2', sqt_v4_new: 'x', sqt_v4_gone: null });
+  });
+
+  test('sync: pull takes only keys newer than this device last saw', () => {
+    const server = {
+      sqt_v4_stats: { value: 'new', updatedAt: 200 },
+      sqt_v4_setup: { value: 'server', updatedAt: 50 },
+      sqt_v4_live_quiz_quiz: { value: null, updatedAt: 300 }
+    };
+    const apply = planPull(server, { sqt_v4_stats: 100, sqt_v4_setup: 100 }, {
+      sqt_v4_stats: 'old', sqt_v4_setup: 'mine', sqt_v4_live_quiz_quiz: 'round'
+    });
+    assert.deepEqual(apply, { sqt_v4_stats: 'new', sqt_v4_live_quiz_quiz: null });
+  });
+
+  test('sync: pull never writes the device-only tab key even if the server has it', () =>
+    assert.deepEqual(planPull({ sqt_v4_live_tab: { value: '"vault"', updatedAt: 9 } }, {}, {}), {}));
+
+  test('sync: routine round trips never double the totals', () => {
+    // Phone pushes, laptop pulls, laptop pushes back, phone pulls: the plain
+    // last-writer-wins path must copy stats, never add them.
+    let server = {};
+    const phone = { sqt_v4_stats: stats(40) };
+    for (const [k, v] of Object.entries(diffSnapshot(phone, {}))) server[k] = { value: v, updatedAt: 1 };
+    const laptop = {};
+    Object.assign(laptop, planPull(server, {}, laptop));
+    for (const [k, v] of Object.entries(diffSnapshot(laptop, laptop))) server[k] = { value: v, updatedAt: 2 };
+    Object.assign(phone, planPull(server, { sqt_v4_stats: 1 }, phone));
+    assert.equal(JSON.parse(laptop.sqt_v4_stats).totalAnswered, 40);
+    assert.equal(JSON.parse(phone.sqt_v4_stats).totalAnswered, 40);
+  });
+
+  test('sync: first sign-in with progress on both sides merges them once', () => {
+    const w = mergeSnapshots(
+      { sqt_v4_stats: stats(10), sqt_v4_missed: '[]', sqt_v4_weekly: '{"2026-09-19":{"score":20,"total":25}}' },
+      { sqt_v4_stats: stats(30), sqt_v4_missed: '[{"id":"q1","box":0,"due":"2026-09-25"}]', sqt_v4_weekly: '{"2026-09-19":{"score":5,"total":25},"2026-09-12":{"score":9,"total":25}}', sqt_v4_setup: '{"count":10}' }
+    );
+    const s = JSON.parse(w.sqt_v4_stats);
+    assert.equal(s.totalAnswered, 40);
+    assert.equal(s.categoryStats.geo.total, 40);
+    assert.equal(JSON.parse(w.sqt_v4_missed).length, 1);
+    const weekly = JSON.parse(w.sqt_v4_weekly);
+    assert.equal(weekly['2026-09-19'].score, 20, 'first score kept, not the other device');
+    assert.equal(weekly['2026-09-12'].score, 9);
+    assert.equal(w.sqt_v4_setup, '{"count":10}');
+  });
+
+  test('sync: a fresh browser takes the account as-is, no merge', () => {
+    const incoming = { sqt_v4_stats: stats(30), sqt_v4_live_sim_weekly: '{"i":7}' };
+    assert.equal(hasProgress({}), false);
+    assert.deepEqual(mergeSnapshots({ sqt_v4_setup: '{}' }, incoming), incoming);
+  });
+
+  test('sync: an empty account keeps local progress but takes its rounds', () => {
+    const w = mergeSnapshots({ sqt_v4_stats: stats(10) }, { sqt_v4_stats: stats(0), sqt_v4_live_quiz_quiz: '{"ids":["a"]}' });
+    assert.equal(w.sqt_v4_stats, undefined);
+    assert.equal(w.sqt_v4_live_quiz_quiz, '{"ids":["a"]}');
+  });
+
+  test('sync: unreadable data on one side does not throw', () =>
+    assert.doesNotThrow(() => mergeSnapshots({ sqt_v4_stats: stats(5) }, { sqt_v4_stats: '{bad', sqt_v4_missed: 'null', sqt_v4_games: '{"geo":{}}' })));
+}
+
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {

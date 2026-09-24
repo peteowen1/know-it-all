@@ -123,6 +123,22 @@ body {
 .stat-badge.score { color: var(--accent-gold); border-color: rgba(245, 158, 11, 0.3); }
 .stat-badge.count { color: var(--accent-blue); border-color: rgba(59, 130, 246, 0.3); }
 
+/* Sign in / sync status */
+.stat-badge.account-badge { color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+.account-signout {
+  display: flex;
+  background: none;
+  border: none;
+  color: var(--text-secondary, #94a3b8);
+  cursor: pointer;
+  padding: 0 0 0 0.25rem;
+}
+.account-signout:hover { color: inherit; }
+.account-signin { display: flex; align-items: center; gap: 0.5rem; min-height: 32px; }
+.account-error { font-size: 0.75rem; color: #f87171; max-width: 14rem; }
+.spin { animation: account-spin 1s linear infinite; }
+@keyframes account-spin { to { transform: rotate(360deg); } }
+
 /* Navigation Tabs */
 .nav-tabs {
   display: flex;

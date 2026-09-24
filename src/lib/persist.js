@@ -9,6 +9,7 @@
 // Same `sqt_v4_` prefix as the rest of the app's storage, so Reset clears it.
 
 import { useEffect, useState } from 'react';
+import { markDirty } from './sync';
 
 const KEY = (name) => `sqt_v4_live_${name}`;
 
@@ -25,6 +26,7 @@ export function saveLive(name, value) {
   try {
     if (value === null || value === undefined) localStorage.removeItem(KEY(name));
     else localStorage.setItem(KEY(name), JSON.stringify(value));
+    markDirty(KEY(name));
   } catch (err) {
     // Full or blocked storage: the game still works, it just will not resume.
     console.warn(`Could not save progress for "${name}".`, err);

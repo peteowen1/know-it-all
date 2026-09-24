@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 data-raw
+
+# Cloudflare local state (local D1 database, dev secrets)
+.wrangler
+.dev.vars

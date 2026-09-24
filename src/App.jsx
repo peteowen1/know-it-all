@@ -29,6 +29,7 @@ import { buildChallengeQuiz } from './lib/quizBuilder';
 import { localDateKey, previousDateKey } from './lib/dates';
 import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
 import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
+import { markDirty } from './lib/sync';
 
 // Bump when the shape of anything in localStorage changes. This changes the key
 // prefix, so old entries are orphaned — never read again — rather than being
@@ -71,6 +72,7 @@ const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v)
 function save(name, value) {
   try {
     localStorage.setItem(KEY(name), JSON.stringify(value));
+    markDirty(KEY(name));
   } catch (err) {
     // Storage full, or blocked in private browsing. Carrying on unsaved beats
     // breaking the quiz, but this is silent data loss from the user's point of
@@ -548,7 +550,8 @@ export default function App() {
       <footer className="app-footer">
         <p>
           Know-It-All. {BANK_STATS.total} weekend-quiz questions, 197 countries, more games on the way.
-          Progress is stored in this browser only — nothing is sent anywhere.
+          Signed out, progress stays in this browser. Signed in with Google, it is saved to this
+          site's server so your other devices can pick it up; nothing else is collected.
         </p>
       </footer>
     </div>

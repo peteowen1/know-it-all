@@ -1,0 +1,26 @@
+# One Worker serves both the built app (dist/) and the sync API (/api/*).
+# Deploy: `npm run build && npx wrangler deploy`.
+name = "know-it-all"
+main = "worker/index.js"
+compatibility_date = "2026-09-01"
+
+# Serves the site at quiz.peteowen.dev; Cloudflare creates the DNS record and
+# certificate itself, because peteowen.dev is already on this account.
+routes = [{ pattern = "quiz.peteowen.dev", custom_domain = true }]
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+# Without this, a request for /api/sync would be answered by the app's
+# index.html (the single-page fallback) and the Worker would never see it.
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "know-it-all"
+database_id = "3725bf64-65ca-4989-b04d-3e8e1e7317e5"
+migrations_dir = "worker/migrations"
+
+[observability]
+enabled = true
