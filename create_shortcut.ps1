@@ -1,12 +1,15 @@
+# Desktop shortcut to the live app. It opens quiz.peteowen.dev rather than
+# launch.bat: the local dev server keeps its own separate progress and cannot
+# reach the sync server, so playing through it never reaches your other devices.
+# launch.bat stays for development.
 $desktopPath = [Environment]::GetFolderPath("Desktop")
-$shortcutPath = Join-Path $desktopPath "Good Weekend Quiz Master.lnk"
+$shortcutPath = Join-Path $desktopPath "Know-It-All.url"
 
-$wshShell = New-Object -ComObject WScript.Shell
-$shortcut = $wshShell.CreateShortcut($shortcutPath)
-$shortcut.TargetPath = "C:\dev\know-it-all\launch.bat"
-$shortcut.WorkingDirectory = "C:\dev\know-it-all"
-$shortcut.WindowStyle = 7
-$shortcut.IconLocation = "shell32.dll, 14"
-$shortcut.Save()
+Set-Content -Path $shortcutPath -Encoding ASCII -Value @"
+[InternetShortcut]
+URL=https://quiz.peteowen.dev/
+IconFile=C:\Windows\System32\shell32.dll
+IconIndex=14
+"@
 
 Write-Output "Created shortcut at $shortcutPath"
