@@ -5,8 +5,8 @@ import { exportProgress, importProgress, mergeProgress } from '../lib/transfer';
 /**
  * Move progress between devices.
  *
- * There is no backend and no account, so phone and laptop are genuinely
- * separate profiles. This is the manual bridge: a code you copy from one and
+ * For devices that are not signed in (signed-in devices sync on their own,
+ * src/lib/sync.js). This is the manual bridge: a code you copy from one and
  * paste into the other. Import merges rather than overwrites, because the user
  * cannot tell in advance which device holds more progress and there is no undo.
  */
@@ -62,9 +62,10 @@ export default function ProgressTransfer({ profile, onImport }) {
     <div className="category-heatmap-card">
       <h3>Move progress between devices</h3>
       <p className="empty-sub">
-        Nothing is stored on a server, so your phone and laptop keep separate stats. Copy this code
-        on one device and paste it on the other to combine them. Importing merges — it never
-        overwrites what is already there.
+        Signed in with Google, your devices sync on their own and you do not need this. Without
+        signing in, copy this code on one device and paste it on the other to combine them.
+        Importing merges and never overwrites, but it adds the two together, so do not use it
+        between two devices signed in to the same account: that would count the same games twice.
       </p>
 
       <div className="transfer-grid">

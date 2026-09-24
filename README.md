@@ -1,7 +1,8 @@
 # Know-It-All
 
-Trivia training, live at https://peteowen1.github.io/know-it-all/ (formerly
-Saturday Quiz Trainer). The home screen lists every game, played or planned:
+Trivia training, live at https://quiz.peteowen.dev (formerly Saturday Quiz
+Trainer; the old https://peteowen1.github.io/know-it-all/ address hands progress
+over and redirects). The home screen lists every game, played or planned:
 
 - **Weekend quiz**: 1,500 general-knowledge questions across ten categories,
   each with an explanation and a memory hook, plus a revision vault and
@@ -17,7 +18,11 @@ Each data set is rebuilt by a script in `scripts/` (`npm run data:*`) from
 Wikipedia, Wikidata or the World Bank, so nothing time-sensitive is typed by hand.
 The game list lives in `src/games/registry.js`.
 
-Runs entirely in the browser. No account, no server, no data leaves the device.
+Runs in the browser. Signed out, progress stays on the device. Signed in with
+Google, it syncs across devices through a Cloudflare Worker and D1 database
+(`worker/`, deployed with the site by `.github/workflows/deploy.yml`); design and
+decisions in `PLAN-sync.md`. For the API locally, run `npx wrangler dev`
+alongside `npm run dev`.
 
 ## Quick start
 
