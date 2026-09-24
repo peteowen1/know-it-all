@@ -1,4 +1,6 @@
 import React from 'react';
+import AccountButton from './AccountButton';
+import { getEmail } from '../lib/sync';
 import { Home, Newspaper, BookOpen, Award, Flame, RotateCcw, Sparkles, Layers, Database, Target, BarChart3 } from 'lucide-react';
 
 const TABS = [
@@ -24,6 +26,7 @@ export default function Header({ onHome, activeTab, setActiveTab, stats, bankSiz
         </button>
 
         <div className="header-stats">
+          <AccountButton />
           <div className="stat-badge bank">
             <Database className="icon-bank" size={18} />
             <span>{bankSize}+ questions</span>
@@ -40,7 +43,9 @@ export default function Header({ onHome, activeTab, setActiveTab, stats, bankSiz
             className="stat-badge reset-cache-btn"
             title="Clear all local progress and start fresh"
             onClick={() => {
-              if (window.confirm('Clear all saved progress on this device? This cannot be undone.')) {
+              // Signed in, a reset syncs like any other change, so say so.
+              const where = getEmail() ? 'on every device signed in to this account' : 'on this device';
+              if (window.confirm(`Clear all saved progress ${where}? This cannot be undone.`)) {
                 onReset();
               }
             }}
