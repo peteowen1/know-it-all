@@ -84,3 +84,32 @@ Not yet verified: a real Google sign-in, and iPhone behaviour on switch-away.
 2. Review gate, PR to `main`, CI deploys both copies.
 3. Open the old github.io address once on each device; re-add the iPhone
    home-screen icon from `quiz.peteowen.dev`.
+
+## Next session (written 2026-09-25)
+
+Where it stands: shipped in PRs #16–#19, live at https://quiz.peteowen.dev.
+Pete's phone and laptop (desktop `Know-It-All.url` shortcut) are both signed
+in and syncing; the github.io hand-over worked on his phone.
+
+Queued, in order:
+1. **iPhone switch-away check** (Pete, 1 minute): answer a question, switch
+   apps at once, open the laptop. The only behaviour not seen on a real device.
+2. **Hide or guard the manual progress-code card when signed in** (~20 min).
+   Pasting a code between two devices on the same account adds the same games
+   twice (`mergeProgress` sums totals). Today only the card's text warns.
+3. **Rate-limit `/api/handoff`** (~30 min, low priority). Anyone can create
+   parcels (≤512 KB, expire in 15 min); nothing stops a flood filling D1.
+   Parcels are only accepted from the old address, so it is a storage-cost
+   risk, not a data risk.
+
+Deliberately not done:
+- Clash when both devices edit the same item while both offline: the older
+  edit is dropped. Accepted for a one-person app.
+- The github.io copy stays deployed so old bookmarks and home-screen icons
+  still arrive; do not delete the Pages deploy.
+
+Corrected during the session: the first build stamped every upload with the
+time of the first unsent change and accepted forged hand-over links; review
+caught both plus five more (fixed in 6aa330d). The first deploy failed on
+Node 20 (fixed in #17); nothing went live broken because Pages waits for the
+Cloudflare job.
