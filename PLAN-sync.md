@@ -1,7 +1,8 @@
 # Plan: sign in with Google, progress syncs automatically
 
-Status (2026-09-24): built on `dev`, tested locally, NOT deployed. Blocked on
-two setup steps only Pete can do (bottom of this file).
+Status: SHIPPED 2026-09-24 (PRs #16, #17). Live at https://quiz.peteowen.dev.
+Pete confirmed the phone-to-laptop hand-over and sign-in work on real devices.
+The github.io copy now only hands progress over and redirects.
 
 ## Why
 
