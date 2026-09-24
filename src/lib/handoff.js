@@ -10,6 +10,7 @@ import { APP_ORIGIN, OLD_HOST } from './syncConfig.js';
 import { isSyncedKey, mergeSnapshots } from './syncCore.js';
 
 const MOVED_FLAG = 'kia_moved';
+const COLLECTED = 'kia_handoffs_collected';
 
 /** On the old address: hand over and leave. Resolves false to carry on here. */
 export async function leaveOldHost() {
@@ -47,9 +48,37 @@ export async function leaveOldHost() {
 export async function collectHandoff() {
   const m = window.location.hash.match(/^#handoff=([A-Za-z0-9_-]+)$/);
   if (!m) return;
-  window.history.replaceState(null, '', window.location.pathname + window.location.search);
+  const id = m[1];
+  const clearUrl = () => window.history.replaceState(null, '', window.location.pathname + window.location.search);
+
+  let collected = [];
   try {
-    const res = await fetch(`/api/handoff/${m[1]}`, { method: 'POST', credentials: 'same-origin' });
+    collected = JSON.parse(localStorage.getItem(COLLECTED) || '[]');
+  } catch {
+    collected = [];
+  }
+  // Already merged (a reload after success): merging again would add the
+  // totals a second time.
+  if (collected.includes(id)) return clearUrl();
+
+  // Anyone can create a parcel (the server cannot tell the old site from a
+  // forger), so a parcel is only accepted when the browser genuinely arrived
+  // here from the old address. A link someone sends you carries their page, or
+  // nothing, as the referrer. Reloads keep the original referrer, so the
+  // retry-by-reload path below still works.
+  if (!document.referrer.startsWith(`https://${OLD_HOST}/`)) {
+    console.warn('Ignored a progress hand-over that did not come from the old address.');
+    return clearUrl();
+  }
+
+  try {
+    const res = await fetch(`/api/handoff/${id}`, { method: 'POST', credentials: 'same-origin' });
+    if (res.status === 404) {
+      // Expired (15 minutes) or never existed. The progress is still safe in
+      // the old address's storage; nothing more can be done from here.
+      console.warn('Progress hand-over has expired.');
+      return clearUrl();
+    }
     if (!res.ok) throw new Error(`handoff ${res.status}`);
     const { snapshot } = await res.json();
     const local = {};
@@ -58,7 +87,12 @@ export async function collectHandoff() {
       if (isSyncedKey(k)) local[k] = localStorage.getItem(k);
     }
     for (const [k, v] of Object.entries(mergeSnapshots(local, snapshot))) localStorage.setItem(k, v);
+    localStorage.setItem(COLLECTED, JSON.stringify([...collected, id].slice(-10)));
+    clearUrl();
   } catch (err) {
+    // The id stays in the address bar, so reloading retries (the parcel stays
+    // readable for 15 minutes). Say so where the user will see it.
     console.warn('Could not collect progress from the old address.', err);
+    window.alert('Your progress from the old address has not come across yet. Reload this page to try again.');
   }
 }

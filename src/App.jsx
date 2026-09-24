@@ -72,7 +72,7 @@ const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v)
 function save(name, value) {
   try {
     localStorage.setItem(KEY(name), JSON.stringify(value));
-    markDirty();
+    markDirty(KEY(name));
   } catch (err) {
     // Storage full, or blocked in private browsing. Carrying on unsaved beats
     // breaking the quiz, but this is silent data loss from the user's point of

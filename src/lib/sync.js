@@ -1,7 +1,7 @@
 // Keeping this browser's saved progress in step with the account on the server.
 //
 // How it works, in the order things happen:
-//   - Every save in the app calls markDirty(). A push follows ~1.5 s later,
+//   - Every save in the app calls markDirty(key). A push follows ~1.5 s later,
 //     sending only the keys whose value changed since the last agreed copy
 //     (the "shadow").
 //   - On opening the app, and on switching back to it, a pull fetches the
@@ -21,7 +21,10 @@ const STARTUP_WAIT_MS = 3000;
 // Browsers refuse keepalive requests with a body over 64 KB.
 const KEEPALIVE_LIMIT = 60_000;
 
-const blankMeta = () => ({ email: null, shadow: {}, updated: {}, pendingAt: null });
+// touched: when each key was last written on this device. Each key is sent
+// with its own time, so a batch after a spell offline does not stamp a late
+// edit with the time of the first one (which could make it lose a clash).
+const blankMeta = () => ({ email: null, shadow: {}, updated: {}, touched: {} });
 
 let meta = loadMeta();
 let pushTimer = null;
@@ -32,7 +35,8 @@ const listeners = new Set();
 
 function loadMeta() {
   try {
-    return { ...blankMeta(), ...JSON.parse(localStorage.getItem(META_KEY) || '{}') };
+    const saved = JSON.parse(localStorage.getItem(META_KEY) || '{}');
+    return { ...blankMeta(), ...saved, touched: saved.touched || {} };
   } catch {
     return blankMeta();
   }
@@ -85,10 +89,11 @@ export const getEmail = () => meta.email;
 
 // ------------------------------------------------------------------ core
 
-export function markDirty() {
+/** Called by every save in the app with the localStorage key it just wrote. */
+export function markDirty(key) {
   if (!meta.email || applying) return;
-  if (!meta.pendingAt) {
-    meta.pendingAt = Date.now();
+  if (key) {
+    meta.touched[key] = Date.now();
     saveMeta();
   }
   clearTimeout(pushTimer);
@@ -120,24 +125,38 @@ export async function push({ keepalive = false } = {}) {
   const current = readSnapshot();
   const changes = diffSnapshot(current, meta.shadow);
   if (!Object.keys(changes).length) {
-    meta.pendingAt = null;
+    if (Object.keys(meta.touched).length) {
+      meta.touched = {};
+      saveMeta();
+    }
     return true;
   }
-  const at = meta.pendingAt || Date.now();
+  // Writes that bypassed markDirty (reset, a hand-over) count as happening now.
+  const sentAt = Date.now();
   const keys = {};
-  for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: at };
+  for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt };
   const body = JSON.stringify({ keys });
 
   setStatus('syncing');
   try {
-    await api('/sync', { method: 'PUT', body, keepalive: keepalive && body.length < KEEPALIVE_LIMIT });
+    const res = await api('/sync', { method: 'PUT', body, keepalive: keepalive && body.length < KEEPALIVE_LIMIT });
+    if (res.received !== Object.keys(keys).length) {
+      throw new Error(`server took ${res.received} of ${Object.keys(keys).length} keys`);
+    }
     for (const [k, v] of Object.entries(changes)) {
       if (v === null) delete meta.shadow[k];
       else meta.shadow[k] = v;
-      meta.updated[k] = at;
+      meta.updated[k] = keys[k].updatedAt;
+      // Keep the mark if the key was written again while this was in flight;
+      // that newer write still has to go.
+      if (meta.touched[k] === keys[k].updatedAt || !meta.touched[k]) delete meta.touched[k];
     }
-    // Only clear the pending marker if nothing new was saved while in flight.
-    if (!Object.keys(diffSnapshot(readSnapshot(), meta.shadow)).length) meta.pendingAt = null;
+    // Saves that rewrote an identical value leave a mark but no change; drop
+    // those, or a later write that bypasses markDirty would inherit the old time.
+    const now = readSnapshot();
+    for (const k of Object.keys(meta.touched)) {
+      if (!(k in changes) && (now[k] ?? null) === (meta.shadow[k] ?? null)) delete meta.touched[k];
+    }
     saveMeta();
     setStatus('idle');
     return true;
@@ -213,7 +232,6 @@ export async function signInWithGoogle(credential) {
       if (e.value !== null) meta.shadow[k] = e.value;
     }
   }
-  meta.pendingAt = Date.now();
   saveMeta();
   // Remount BEFORE the push awaits: the app still holds the pre-merge values in
   // memory, and any save it made during the network wait would overwrite the
@@ -224,7 +242,11 @@ export async function signInWithGoogle(credential) {
 
 export async function signOut() {
   await push();
-  await fetch('/api/auth/signout', { method: 'POST', credentials: 'same-origin' }).catch(() => {});
+  // Signed out locally either way: the app stops sending with this session.
+  // A server session left behind by a failed call expires on its own.
+  await fetch('/api/auth/signout', { method: 'POST', credentials: 'same-origin' }).catch((err) =>
+    console.warn('Sign-out did not reach the server; the session will expire on its own.', err)
+  );
   meta = blankMeta();
   saveMeta();
   setStatus('signed-out');
@@ -239,7 +261,15 @@ export async function signOut() {
  */
 export async function startSync() {
   if (meta.email) {
-    await Promise.race([pull(), new Promise((r) => setTimeout(r, STARTUP_WAIT_MS))]);
+    // If the timer wins, the app renders on local data while the pull carries
+    // on. When it lands it must remount the app, or the app's in-memory copy
+    // (older) would be saved over what was just pulled, and then pushed.
+    let rendered = false;
+    const pulling = pull().then((changed) => {
+      if (changed && rendered) remount();
+    });
+    await Promise.race([pulling, new Promise((r) => setTimeout(r, STARTUP_WAIT_MS))]);
+    rendered = true;
     // Confirm the session is still alive (it may have expired on the server).
     api('/me').then((me) => {
       if (!me.signedIn) {

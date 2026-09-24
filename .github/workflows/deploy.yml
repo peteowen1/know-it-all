@@ -66,7 +66,10 @@ jobs:
           path: dist
 
   deploy:
-    needs: build
+    # After Cloudflare, not alongside it: this copy redirects visitors to
+    # quiz.peteowen.dev, so publishing it before that site is live would send
+    # everyone to an address that does not work yet.
+    needs: [build, cloudflare]
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:

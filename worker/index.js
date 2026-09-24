@@ -126,7 +126,13 @@ async function syncGet(env, sub) {
 
 async function syncPut(request, env, sub) {
   const body = await readJson(request);
-  const entries = Object.entries(body?.keys || {});
+  // readJson returns null for an oversized or unparseable body. That must be
+  // an error, not "nothing to sync": the client would otherwise mark data the
+  // server never stored as safely synced.
+  if (!body || typeof body.keys !== 'object' || body.keys === null) {
+    return json({ error: 'Body too large or not readable.' }, 413);
+  }
+  const entries = Object.entries(body.keys);
   if (!entries.length) return json({ received: 0 });
   if (entries.length > MAX_KEYS) return json({ error: 'Too many keys.' }, 413);
 
@@ -183,11 +189,13 @@ async function handoffCreate(request, env) {
   return json({ id }, 200, cors);
 }
 
-// POST, not GET: collecting the parcel deletes it, and a GET that changes
-// state can be triggered by a prefetch or a link preview.
+// Readable until it expires rather than deleted on first read: if the new
+// site fails to store it (network drop, full storage), reloading the page
+// retries against the same id. The new site records which ids it has merged,
+// so a retry never merges the same parcel twice.
 async function handoffTake(env, id) {
   if (!/^[A-Za-z0-9_-]{10,40}$/.test(id)) return json({ error: 'Not found.' }, 404);
-  const row = await env.DB.prepare('DELETE FROM handoffs WHERE id = ? AND expires_at >= ? RETURNING payload')
+  const row = await env.DB.prepare('SELECT payload FROM handoffs WHERE id = ? AND expires_at >= ?')
     .bind(id, Date.now()).first();
   if (!row) return json({ error: 'That hand-over has expired or was already used.' }, 404);
   return json({ snapshot: JSON.parse(row.payload) });

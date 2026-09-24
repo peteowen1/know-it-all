@@ -26,7 +26,7 @@ export function saveLive(name, value) {
   try {
     if (value === null || value === undefined) localStorage.removeItem(KEY(name));
     else localStorage.setItem(KEY(name), JSON.stringify(value));
-    markDirty();
+    markDirty(KEY(name));
   } catch (err) {
     // Full or blocked storage: the game still works, it just will not resume.
     console.warn(`Could not save progress for "${name}".`, err);
