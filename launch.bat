@@ -1,7 +1,7 @@
 @echo off
 title Good Weekend Quiz Master Launcher
 echo Launching Good Weekend Quiz Master...
-cd /d C:\dev\gw-quiz-trainer
+cd /d C:\dev\know-it-all
 
 :: Kill any existing node process listening on port 5173
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr :5173 ^| findstr LISTENING') do taskkill /F /PID %%a >nul 2>&1
