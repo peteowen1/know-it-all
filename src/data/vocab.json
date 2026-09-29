@@ -1,0 +1,1829 @@
+{
+ "_note": "Word families for the Word power game. Each group is one meaning; `ant` names the opposite group, `near` names groups close enough in meaning that they must never appear side by side as decoys. Words are [word, definition].",
+ "groups": [
+  {
+   "id": "talkative",
+   "pos": "adj",
+   "level": 2,
+   "sense": "talking a great deal",
+   "ant": "taciturn",
+   "near": [
+    "wordy",
+    "concise"
+   ],
+   "words": [
+    [
+     "loquacious",
+     "tending to talk a great deal"
+    ],
+    [
+     "garrulous",
+     "excessively talkative, especially about trivial things"
+    ],
+    [
+     "voluble",
+     "speaking readily, fluently and at length"
+    ],
+    [
+     "chatty",
+     "fond of talking in an easy, informal way"
+    ]
+   ]
+  },
+  {
+   "id": "taciturn",
+   "pos": "adj",
+   "level": 2,
+   "sense": "saying very little",
+   "ant": "talkative",
+   "near": [
+    "concise",
+    "humble"
+   ],
+   "words": [
+    [
+     "taciturn",
+     "reserved and saying little in conversation"
+    ],
+    [
+     "reticent",
+     "not revealing your thoughts or feelings readily"
+    ],
+    [
+     "uncommunicative",
+     "unwilling to talk or share information"
+    ],
+    [
+     "reserved",
+     "slow to show feelings or give opinions"
+    ]
+   ]
+  },
+  {
+   "id": "generous",
+   "pos": "adj",
+   "level": 2,
+   "sense": "giving freely",
+   "ant": "stingy",
+   "near": [
+    "kind",
+    "greedy"
+   ],
+   "words": [
+    [
+     "munificent",
+     "more generous than is usual or necessary"
+    ],
+    [
+     "magnanimous",
+     "generous or forgiving, especially towards a rival"
+    ],
+    [
+     "open-handed",
+     "free and generous in giving"
+    ]
+   ]
+  },
+  {
+   "id": "stingy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "unwilling to spend or give",
+   "ant": "generous",
+   "near": [
+    "greedy"
+   ],
+   "words": [
+    [
+     "parsimonious",
+     "extremely unwilling to spend money"
+    ],
+    [
+     "miserly",
+     "hoarding money and spending as little as possible"
+    ],
+    [
+     "tight-fisted",
+     "not willing to spend or give much money"
+    ],
+    [
+     "penny-pinching",
+     "unwilling to spend money; excessively frugal"
+    ]
+   ]
+  },
+  {
+   "id": "greedy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "wanting more than your share",
+   "near": [
+    "stingy"
+   ],
+   "words": [
+    [
+     "avaricious",
+     "having an extreme greed for wealth"
+    ],
+    [
+     "rapacious",
+     "aggressively greedy, taking by force"
+    ],
+    [
+     "covetous",
+     "wanting what belongs to someone else"
+    ],
+    [
+     "grasping",
+     "eager to get money or possessions, often unfairly"
+    ]
+   ]
+  },
+  {
+   "id": "brave",
+   "pos": "adj",
+   "level": 1,
+   "sense": "showing courage",
+   "ant": "cowardly",
+   "near": [
+    "energetic"
+   ],
+   "words": [
+    [
+     "intrepid",
+     "fearless and adventurous"
+    ],
+    [
+     "valiant",
+     "showing courage or determination"
+    ],
+    [
+     "dauntless",
+     "not easily frightened or discouraged"
+    ],
+    [
+     "courageous",
+     "not deterred by danger or pain"
+    ]
+   ]
+  },
+  {
+   "id": "cowardly",
+   "pos": "adj",
+   "level": 3,
+   "sense": "lacking courage",
+   "ant": "brave",
+   "words": [
+    [
+     "craven",
+     "contemptibly lacking in courage"
+    ],
+    [
+     "pusillanimous",
+     "showing a lack of courage or determination; timid"
+    ],
+    [
+     "timorous",
+     "easily frightened; timid"
+    ],
+    [
+     "spineless",
+     "lacking courage or strength of character"
+    ]
+   ],
+   "near": [
+    "agitated"
+   ]
+  },
+  {
+   "id": "praise",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to praise highly",
+   "ant": "criticise",
+   "words": [
+    [
+     "extol",
+     "to praise enthusiastically"
+    ],
+    [
+     "laud",
+     "to praise highly, especially in public"
+    ],
+    [
+     "acclaim",
+     "to praise enthusiastically and publicly"
+    ],
+    [
+     "eulogise",
+     "to praise highly, often in a speech or tribute"
+    ]
+   ]
+  },
+  {
+   "id": "criticise",
+   "pos": "verb",
+   "level": 3,
+   "sense": "to criticise harshly",
+   "ant": "praise",
+   "words": [
+    [
+     "castigate",
+     "to reprimand someone severely"
+    ],
+    [
+     "excoriate",
+     "to criticise very severely"
+    ],
+    [
+     "lambaste",
+     "to criticise harshly"
+    ],
+    [
+     "berate",
+     "to scold or criticise angrily"
+    ]
+   ]
+  },
+  {
+   "id": "friendly",
+   "pos": "adj",
+   "level": 2,
+   "sense": "warm and pleasant",
+   "ant": "hostile",
+   "near": [
+    "cheerful",
+    "kind",
+    "malevolent"
+   ],
+   "words": [
+    [
+     "amiable",
+     "having a friendly and pleasant manner"
+    ],
+    [
+     "affable",
+     "friendly, good-natured and easy to talk to"
+    ],
+    [
+     "genial",
+     "friendly and cheerful"
+    ],
+    [
+     "cordial",
+     "warm and friendly, often in a polite way"
+    ]
+   ]
+  },
+  {
+   "id": "hostile",
+   "pos": "adj",
+   "level": 2,
+   "sense": "aggressive or unfriendly",
+   "ant": "friendly",
+   "near": [
+    "malevolent",
+    "angry",
+    "stubborn"
+   ],
+   "words": [
+    [
+     "belligerent",
+     "hostile and aggressive, ready to fight"
+    ],
+    [
+     "bellicose",
+     "eager to fight or start a war"
+    ],
+    [
+     "truculent",
+     "eager to argue or fight; defiant"
+    ],
+    [
+     "antagonistic",
+     "showing active opposition or hostility"
+    ]
+   ]
+  },
+  {
+   "id": "temporary",
+   "pos": "adj",
+   "level": 2,
+   "sense": "lasting a short time",
+   "ant": "permanent",
+   "words": [
+    [
+     "ephemeral",
+     "lasting for a very short time"
+    ],
+    [
+     "transient",
+     "lasting only for a short time; passing"
+    ],
+    [
+     "fleeting",
+     "lasting a very short time"
+    ],
+    [
+     "evanescent",
+     "soon passing out of sight or memory; vanishing"
+    ]
+   ]
+  },
+  {
+   "id": "permanent",
+   "pos": "adj",
+   "level": 2,
+   "sense": "lasting for ever or a very long time",
+   "ant": "temporary",
+   "words": [
+    [
+     "perpetual",
+     "never ending or changing"
+    ],
+    [
+     "abiding",
+     "lasting a long time; enduring"
+    ],
+    [
+     "enduring",
+     "continuing to exist over a long period"
+    ],
+    [
+     "everlasting",
+     "lasting for ever"
+    ]
+   ]
+  },
+  {
+   "id": "abundant",
+   "pos": "adj",
+   "level": 2,
+   "sense": "existing in large amounts",
+   "ant": "scarce",
+   "words": [
+    [
+     "copious",
+     "abundant in supply or quantity"
+    ],
+    [
+     "plentiful",
+     "existing in great quantities"
+    ],
+    [
+     "profuse",
+     "pouring out in large amounts"
+    ],
+    [
+     "ample",
+     "enough or more than enough"
+    ]
+   ],
+   "near": [
+    "extraordinary"
+   ]
+  },
+  {
+   "id": "scarce",
+   "pos": "adj",
+   "level": 2,
+   "sense": "in short supply",
+   "ant": "abundant",
+   "words": [
+    [
+     "meagre",
+     "lacking in quantity or quality; too small"
+    ],
+    [
+     "scant",
+     "barely enough or not enough"
+    ],
+    [
+     "sparse",
+     "thinly spread or scattered"
+    ],
+    [
+     "scanty",
+     "small or insufficient in quantity"
+    ]
+   ]
+  },
+  {
+   "id": "stubborn",
+   "pos": "adj",
+   "level": 2,
+   "sense": "refusing to change your mind",
+   "ant": "compliant",
+   "words": [
+    [
+     "obstinate",
+     "stubbornly refusing to change opinion or action"
+    ],
+    [
+     "intransigent",
+     "unwilling to agree or compromise"
+    ],
+    [
+     "obdurate",
+     "stubbornly refusing to change, even when urged"
+    ],
+    [
+     "recalcitrant",
+     "uncooperative towards authority"
+    ]
+   ]
+  },
+  {
+   "id": "compliant",
+   "pos": "adj",
+   "level": 2,
+   "sense": "willing to do what you are told",
+   "ant": "stubborn",
+   "words": [
+    [
+     "docile",
+     "quiet and easy to control"
+    ],
+    [
+     "amenable",
+     "open and responsive to suggestion"
+    ],
+    [
+     "tractable",
+     "easy to control or influence"
+    ],
+    [
+     "biddable",
+     "meekly ready to accept and follow instructions"
+    ]
+   ]
+  },
+  {
+   "id": "candid",
+   "pos": "adj",
+   "level": 2,
+   "sense": "honest and direct",
+   "ant": "deceitful",
+   "near": [
+    "open",
+    "concise",
+    "taciturn"
+   ],
+   "words": [
+    [
+     "candid",
+     "truthful and straightforward"
+    ],
+    [
+     "frank",
+     "open, honest and direct in speech"
+    ],
+    [
+     "forthright",
+     "direct and outspoken"
+    ],
+    [
+     "blunt",
+     "saying what you think without trying to be polite"
+    ]
+   ]
+  },
+  {
+   "id": "deceitful",
+   "pos": "adj",
+   "level": 2,
+   "sense": "dishonest and misleading",
+   "ant": "candid",
+   "near": [
+    "disloyal",
+    "hidden"
+   ],
+   "words": [
+    [
+     "duplicitous",
+     "deliberately deceitful; two-faced"
+    ],
+    [
+     "mendacious",
+     "not telling the truth; lying"
+    ],
+    [
+     "disingenuous",
+     "not sincere, often pretending to know less than you do"
+    ],
+    [
+     "underhand",
+     "acting secretly and dishonestly"
+    ]
+   ]
+  },
+  {
+   "id": "calm",
+   "pos": "adj",
+   "level": 1,
+   "sense": "peaceful and untroubled",
+   "ant": "agitated",
+   "words": [
+    [
+     "placid",
+     "not easily upset or excited"
+    ],
+    [
+     "serene",
+     "calm, peaceful and untroubled"
+    ],
+    [
+     "tranquil",
+     "free from disturbance"
+    ],
+    [
+     "imperturbable",
+     "unable to be upset or excited"
+    ]
+   ],
+   "near": [
+    "angry",
+    "silent"
+   ]
+  },
+  {
+   "id": "agitated",
+   "pos": "adj",
+   "level": 2,
+   "sense": "anxious and unsettled",
+   "ant": "calm",
+   "near": [
+    "angry",
+    "gloomy"
+   ],
+   "words": [
+    [
+     "flustered",
+     "agitated and confused"
+    ],
+    [
+     "overwrought",
+     "in a state of nervous excitement or anxiety"
+    ],
+    [
+     "frantic",
+     "wild with fear or anxiety"
+    ],
+    [
+     "distraught",
+     "deeply upset and agitated"
+    ]
+   ]
+  },
+  {
+   "id": "angry",
+   "pos": "adj",
+   "level": 1,
+   "sense": "very angry",
+   "near": [
+    "agitated",
+    "hostile"
+   ],
+   "words": [
+    [
+     "irate",
+     "feeling or showing great anger"
+    ],
+    [
+     "livid",
+     "furiously angry"
+    ],
+    [
+     "incensed",
+     "extremely angry"
+    ],
+    [
+     "apoplectic",
+     "overcome with anger"
+    ]
+   ]
+  },
+  {
+   "id": "wise",
+   "pos": "adj",
+   "level": 2,
+   "sense": "showing good judgement",
+   "ant": "foolish",
+   "words": [
+    [
+     "sagacious",
+     "having keen understanding and good judgement"
+    ],
+    [
+     "astute",
+     "able to assess situations accurately and quickly"
+    ],
+    [
+     "shrewd",
+     "having sharp powers of judgement"
+    ],
+    [
+     "judicious",
+     "having or showing good sense"
+    ]
+   ],
+   "near": [
+    "skilful"
+   ]
+  },
+  {
+   "id": "foolish",
+   "pos": "adj",
+   "level": 2,
+   "sense": "silly and thoughtless",
+   "ant": "wise",
+   "words": [
+    [
+     "fatuous",
+     "silly and pointless"
+    ],
+    [
+     "inane",
+     "lacking sense or meaning; silly"
+    ],
+    [
+     "asinine",
+     "extremely stupid or foolish"
+    ],
+    [
+     "vacuous",
+     "showing a lack of thought or intelligence"
+    ]
+   ],
+   "near": [
+    "ordinary"
+   ]
+  },
+  {
+   "id": "lazy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "unwilling to work",
+   "ant": "hardworking",
+   "words": [
+    [
+     "indolent",
+     "wanting to avoid activity or effort"
+    ],
+    [
+     "slothful",
+     "reluctant to work or make an effort"
+    ],
+    [
+     "shiftless",
+     "lazy and lacking ambition"
+    ],
+    [
+     "idle",
+     "not working, especially through laziness"
+    ]
+   ],
+   "near": [
+    "energetic",
+    "careless"
+   ]
+  },
+  {
+   "id": "hardworking",
+   "pos": "adj",
+   "level": 2,
+   "sense": "working with steady effort",
+   "ant": "lazy",
+   "near": [
+    "careful",
+    "energetic"
+   ],
+   "words": [
+    [
+     "diligent",
+     "showing care and effort in work"
+    ],
+    [
+     "industrious",
+     "hard-working and busy"
+    ],
+    [
+     "assiduous",
+     "showing great care and perseverance"
+    ],
+    [
+     "sedulous",
+     "showing dedication and steady effort"
+    ]
+   ]
+  },
+  {
+   "id": "humble",
+   "pos": "adj",
+   "level": 1,
+   "sense": "not proud",
+   "ant": "arrogant",
+   "near": [
+    "taciturn"
+   ],
+   "words": [
+    [
+     "modest",
+     "not boasting about your abilities"
+    ],
+    [
+     "unassuming",
+     "not pretentious or arrogant"
+    ],
+    [
+     "self-effacing",
+     "not drawing attention to yourself"
+    ],
+    [
+     "unpretentious",
+     "not trying to impress others"
+    ]
+   ]
+  },
+  {
+   "id": "arrogant",
+   "pos": "adj",
+   "level": 2,
+   "sense": "believing you are better than others",
+   "ant": "humble",
+   "words": [
+    [
+     "haughty",
+     "arrogantly superior and disdainful"
+    ],
+    [
+     "supercilious",
+     "behaving as though you are superior to others"
+    ],
+    [
+     "imperious",
+     "arrogantly domineering; expecting to be obeyed"
+    ],
+    [
+     "conceited",
+     "excessively proud of yourself"
+    ]
+   ]
+  },
+  {
+   "id": "cheerful",
+   "pos": "adj",
+   "level": 2,
+   "sense": "happy and lively",
+   "ant": "gloomy",
+   "near": [
+    "friendly",
+    "energetic"
+   ],
+   "words": [
+    [
+     "jovial",
+     "cheerful and friendly"
+    ],
+    [
+     "ebullient",
+     "cheerful and full of energy"
+    ],
+    [
+     "buoyant",
+     "cheerful and optimistic"
+    ],
+    [
+     "blithe",
+     "happy and carefree"
+    ]
+   ]
+  },
+  {
+   "id": "gloomy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "low in spirits",
+   "ant": "cheerful",
+   "words": [
+    [
+     "morose",
+     "gloomy and unhappy, often silent"
+    ],
+    [
+     "sullen",
+     "sulkily silent and gloomy"
+    ],
+    [
+     "despondent",
+     "in low spirits from loss of hope"
+    ],
+    [
+     "dour",
+     "stern and gloomy"
+    ]
+   ]
+  },
+  {
+   "id": "concise",
+   "pos": "adj",
+   "level": 2,
+   "sense": "using few words",
+   "ant": "wordy",
+   "near": [
+    "taciturn"
+   ],
+   "words": [
+    [
+     "succinct",
+     "briefly and clearly expressed"
+    ],
+    [
+     "pithy",
+     "short and full of meaning"
+    ],
+    [
+     "terse",
+     "sparing in words, sometimes abruptly"
+    ],
+    [
+     "laconic",
+     "using very few words"
+    ]
+   ]
+  },
+  {
+   "id": "wordy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "using too many words",
+   "ant": "concise",
+   "near": [
+    "talkative"
+   ],
+   "words": [
+    [
+     "verbose",
+     "using more words than needed"
+    ],
+    [
+     "prolix",
+     "tediously lengthy in speech or writing"
+    ],
+    [
+     "long-winded",
+     "continuing at tedious length"
+    ],
+    [
+     "rambling",
+     "lengthy and wandering from the point"
+    ]
+   ]
+  },
+  {
+   "id": "hidden",
+   "pos": "adj",
+   "level": 2,
+   "sense": "done secretly",
+   "ant": "open",
+   "near": [
+    "deceitful"
+   ],
+   "words": [
+    [
+     "clandestine",
+     "kept secret or done secretively"
+    ],
+    [
+     "covert",
+     "not openly acknowledged or displayed"
+    ],
+    [
+     "surreptitious",
+     "done secretly to avoid notice"
+    ],
+    [
+     "furtive",
+     "trying to avoid notice, often from guilt"
+    ]
+   ]
+  },
+  {
+   "id": "open",
+   "pos": "adj",
+   "level": 2,
+   "sense": "done openly; plain to see",
+   "ant": "hidden",
+   "near": [
+    "candid",
+    "extraordinary"
+   ],
+   "words": [
+    [
+     "overt",
+     "done or shown openly"
+    ],
+    [
+     "manifest",
+     "clear or obvious to the eye or mind"
+    ],
+    [
+     "patent",
+     "easily recognisable; obvious"
+    ],
+    [
+     "conspicuous",
+     "standing out so as to be clearly visible"
+    ]
+   ]
+  },
+  {
+   "id": "ordinary",
+   "pos": "adj",
+   "level": 2,
+   "sense": "commonplace and unexciting",
+   "ant": "extraordinary",
+   "words": [
+    [
+     "mundane",
+     "lacking interest or excitement; dull"
+    ],
+    [
+     "humdrum",
+     "lacking excitement; monotonous"
+    ],
+    [
+     "banal",
+     "so unoriginal as to be boring"
+    ],
+    [
+     "prosaic",
+     "lacking imagination; commonplace"
+    ],
+    [
+     "pedestrian",
+     "lacking inspiration or excitement"
+    ]
+   ]
+  },
+  {
+   "id": "extraordinary",
+   "pos": "adj",
+   "level": 1,
+   "sense": "far beyond the usual",
+   "ant": "ordinary",
+   "words": [
+    [
+     "remarkable",
+     "worthy of attention; striking"
+    ],
+    [
+     "exceptional",
+     "unusually good; outstanding"
+    ],
+    [
+     "prodigious",
+     "remarkably great in size or degree"
+    ],
+    [
+     "phenomenal",
+     "extraordinarily good or impressive"
+    ]
+   ]
+  },
+  {
+   "id": "clumsy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "awkward in movement or manner",
+   "ant": "skilful",
+   "words": [
+    [
+     "gauche",
+     "socially awkward"
+    ],
+    [
+     "maladroit",
+     "ineffective or bungling"
+    ],
+    [
+     "ungainly",
+     "awkward in movement"
+    ],
+    [
+     "inept",
+     "having no skill"
+    ]
+   ]
+  },
+  {
+   "id": "skilful",
+   "pos": "adj",
+   "level": 2,
+   "sense": "clever with hands or mind",
+   "ant": "clumsy",
+   "words": [
+    [
+     "adroit",
+     "clever or skilful in using the hands or mind"
+    ],
+    [
+     "dexterous",
+     "showing skill, especially with the hands"
+    ],
+    [
+     "deft",
+     "neatly skilful and quick"
+    ],
+    [
+     "adept",
+     "very skilled or proficient"
+    ]
+   ]
+  },
+  {
+   "id": "harmful",
+   "pos": "adj",
+   "level": 3,
+   "sense": "causing damage",
+   "ant": "harmless",
+   "near": [
+    "malevolent"
+   ],
+   "words": [
+    [
+     "pernicious",
+     "having a harmful effect, especially gradually"
+    ],
+    [
+     "deleterious",
+     "causing harm or damage"
+    ],
+    [
+     "noxious",
+     "harmful, poisonous or very unpleasant"
+    ],
+    [
+     "detrimental",
+     "tending to cause harm"
+    ]
+   ]
+  },
+  {
+   "id": "harmless",
+   "pos": "adj",
+   "level": 2,
+   "sense": "causing no harm",
+   "ant": "harmful",
+   "near": [
+    "kind"
+   ],
+   "words": [
+    [
+     "innocuous",
+     "not harmful or offensive"
+    ],
+    [
+     "benign",
+     "gentle; not harmful"
+    ],
+    [
+     "inoffensive",
+     "not objectionable or harmful"
+    ]
+   ]
+  },
+  {
+   "id": "kind",
+   "pos": "adj",
+   "level": 2,
+   "sense": "wishing good for others",
+   "ant": "malevolent",
+   "near": [
+    "generous",
+    "friendly",
+    "harmless",
+    "harmful",
+    "hostile"
+   ],
+   "words": [
+    [
+     "benevolent",
+     "well meaning and kindly"
+    ],
+    [
+     "altruistic",
+     "selflessly concerned for others"
+    ],
+    [
+     "beneficent",
+     "doing or producing good"
+    ],
+    [
+     "philanthropic",
+     "promoting the welfare of others, often by giving money"
+    ]
+   ]
+  },
+  {
+   "id": "malevolent",
+   "pos": "adj",
+   "level": 2,
+   "sense": "wishing harm on others",
+   "ant": "kind",
+   "near": [
+    "hostile",
+    "harmful"
+   ],
+   "words": [
+    [
+     "malicious",
+     "intending to do harm"
+    ],
+    [
+     "spiteful",
+     "wanting to hurt or upset someone"
+    ],
+    [
+     "malevolent",
+     "wishing evil on others"
+    ],
+    [
+     "baleful",
+     "threatening harm; menacing"
+    ]
+   ]
+  },
+  {
+   "id": "noisy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "loud",
+   "ant": "silent",
+   "words": [
+    [
+     "raucous",
+     "harsh and loud"
+    ],
+    [
+     "clamorous",
+     "making a loud, confused noise"
+    ],
+    [
+     "vociferous",
+     "expressing opinions loudly and forcefully"
+    ],
+    [
+     "strident",
+     "loud and harsh; grating"
+    ]
+   ]
+  },
+  {
+   "id": "silent",
+   "pos": "adj",
+   "level": 1,
+   "sense": "quiet",
+   "ant": "noisy",
+   "near": [
+    "taciturn"
+   ],
+   "words": [
+    [
+     "hushed",
+     "quiet and subdued"
+    ],
+    [
+     "muted",
+     "quiet and soft"
+    ],
+    [
+     "noiseless",
+     "making no sound"
+    ],
+    [
+     "soundless",
+     "without sound"
+    ]
+   ]
+  },
+  {
+   "id": "tired",
+   "pos": "adj",
+   "level": 1,
+   "sense": "very tired",
+   "ant": "energetic",
+   "words": [
+    [
+     "weary",
+     "tired, especially from effort"
+    ],
+    [
+     "fatigued",
+     "extremely tired"
+    ],
+    [
+     "exhausted",
+     "drained of energy"
+    ],
+    [
+     "enervated",
+     "drained of energy or vitality"
+    ]
+   ]
+  },
+  {
+   "id": "energetic",
+   "pos": "adj",
+   "level": 1,
+   "sense": "full of energy",
+   "ant": "tired",
+   "near": [
+    "cheerful",
+    "brave"
+   ],
+   "words": [
+    [
+     "vigorous",
+     "strong, healthy and full of energy"
+    ],
+    [
+     "dynamic",
+     "full of energy and new ideas"
+    ],
+    [
+     "spirited",
+     "full of energy and determination"
+    ],
+    [
+     "sprightly",
+     "lively, especially of an older person"
+    ]
+   ]
+  },
+  {
+   "id": "careful",
+   "pos": "adj",
+   "level": 2,
+   "sense": "paying close attention to detail",
+   "ant": "careless",
+   "near": [
+    "hardworking"
+   ],
+   "words": [
+    [
+     "meticulous",
+     "very careful and precise"
+    ],
+    [
+     "scrupulous",
+     "thorough and very careful"
+    ],
+    [
+     "punctilious",
+     "showing great attention to detail or correct behaviour"
+    ],
+    [
+     "fastidious",
+     "very attentive to accuracy and detail"
+    ]
+   ]
+  },
+  {
+   "id": "careless",
+   "pos": "adj",
+   "level": 2,
+   "sense": "not taking enough care",
+   "ant": "careful",
+   "words": [
+    [
+     "negligent",
+     "failing to take proper care"
+    ],
+    [
+     "slapdash",
+     "done too hurriedly and carelessly"
+    ],
+    [
+     "sloppy",
+     "careless and unsystematic"
+    ],
+    [
+     "remiss",
+     "lacking care in doing your duty"
+    ]
+   ]
+  },
+  {
+   "id": "loyal",
+   "pos": "adj",
+   "level": 1,
+   "sense": "firmly faithful",
+   "ant": "disloyal",
+   "words": [
+    [
+     "steadfast",
+     "firmly loyal and unwavering in purpose"
+    ],
+    [
+     "staunch",
+     "loyal and committed"
+    ],
+    [
+     "devoted",
+     "very loving or loyal"
+    ],
+    [
+     "faithful",
+     "remaining loyal"
+    ]
+   ],
+   "near": [
+    "stubborn"
+   ]
+  },
+  {
+   "id": "disloyal",
+   "pos": "adj",
+   "level": 2,
+   "sense": "betraying trust",
+   "ant": "loyal",
+   "near": [
+    "deceitful"
+   ],
+   "words": [
+    [
+     "treacherous",
+     "guilty of betrayal"
+    ],
+    [
+     "perfidious",
+     "deceitful and untrustworthy"
+    ],
+    [
+     "faithless",
+     "disloyal, especially to a partner or cause"
+    ],
+    [
+     "traitorous",
+     "betraying your country or cause"
+    ]
+   ]
+  },
+  {
+   "id": "hatred",
+   "pos": "noun",
+   "level": 2,
+   "sense": "strong dislike or hostility",
+   "ant": "friendship",
+   "words": [
+    [
+     "animosity",
+     "strong hostility"
+    ],
+    [
+     "enmity",
+     "the state of being actively opposed or hostile"
+    ],
+    [
+     "antipathy",
+     "a deep-seated feeling of dislike"
+    ],
+    [
+     "rancour",
+     "long-lasting bitterness or resentment"
+    ]
+   ]
+  },
+  {
+   "id": "friendship",
+   "pos": "noun",
+   "level": 2,
+   "sense": "friendly relations",
+   "ant": "hatred",
+   "words": [
+    [
+     "amity",
+     "friendly relations, especially between countries"
+    ],
+    [
+     "camaraderie",
+     "mutual trust and friendship among people"
+    ],
+    [
+     "fellowship",
+     "friendly association between people"
+    ],
+    [
+     "goodwill",
+     "friendly, helpful feelings"
+    ]
+   ]
+  },
+  {
+   "id": "beginning",
+   "pos": "noun",
+   "level": 2,
+   "sense": "the start of something",
+   "ant": "ending",
+   "words": [
+    [
+     "inception",
+     "the start of an institution or activity"
+    ],
+    [
+     "outset",
+     "the start or beginning"
+    ],
+    [
+     "genesis",
+     "the origin or way something was formed"
+    ],
+    [
+     "onset",
+     "the beginning of something, especially something bad"
+    ]
+   ]
+  },
+  {
+   "id": "ending",
+   "pos": "noun",
+   "level": 1,
+   "sense": "the end of something",
+   "ant": "beginning",
+   "words": [
+    [
+     "conclusion",
+     "the end or finish of an event"
+    ],
+    [
+     "finale",
+     "the last part of a show or piece of music"
+    ],
+    [
+     "termination",
+     "the act of bringing something to an end"
+    ],
+    [
+     "denouement",
+     "the final part of a story, where things are resolved"
+    ]
+   ]
+  },
+  {
+   "id": "poverty",
+   "pos": "noun",
+   "level": 2,
+   "sense": "being poor",
+   "ant": "wealth",
+   "words": [
+    [
+     "penury",
+     "extreme poverty"
+    ],
+    [
+     "destitution",
+     "poverty so extreme that you lack the basics"
+    ],
+    [
+     "indigence",
+     "the state of being poor"
+    ],
+    [
+     "privation",
+     "a lack of basic necessities"
+    ]
+   ]
+  },
+  {
+   "id": "wealth",
+   "pos": "noun",
+   "level": 1,
+   "sense": "being rich",
+   "ant": "poverty",
+   "words": [
+    [
+     "affluence",
+     "having a great deal of money"
+    ],
+    [
+     "opulence",
+     "great wealth or luxury"
+    ],
+    [
+     "prosperity",
+     "financial success"
+    ],
+    [
+     "riches",
+     "large amounts of money or valuables"
+    ]
+   ]
+  },
+  {
+   "id": "chaos",
+   "pos": "noun",
+   "level": 2,
+   "sense": "complete disorder",
+   "words": [
+    [
+     "mayhem",
+     "violent or damaging disorder"
+    ],
+    [
+     "pandemonium",
+     "wild and noisy disorder"
+    ],
+    [
+     "tumult",
+     "confused, noisy disorder, especially of a crowd"
+    ],
+    [
+     "bedlam",
+     "a scene of uproar and confusion"
+    ]
+   ]
+  },
+  {
+   "id": "weaken",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to make weaker",
+   "ant": "strengthen",
+   "words": [
+    [
+     "undermine",
+     "to weaken gradually or secretly"
+    ],
+    [
+     "sap",
+     "to gradually weaken or drain"
+    ],
+    [
+     "enfeeble",
+     "to make weak"
+    ],
+    [
+     "debilitate",
+     "to make someone very weak"
+    ]
+   ]
+  },
+  {
+   "id": "strengthen",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to make stronger",
+   "ant": "weaken",
+   "words": [
+    [
+     "bolster",
+     "to support or strengthen"
+    ],
+    [
+     "fortify",
+     "to strengthen, especially against attack"
+    ],
+    [
+     "reinforce",
+     "to strengthen with extra material or support"
+    ],
+    [
+     "buttress",
+     "to support or strengthen an argument or structure"
+    ]
+   ]
+  },
+  {
+   "id": "conceal",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to hide",
+   "ant": "reveal",
+   "words": [
+    [
+     "conceal",
+     "to keep from sight or knowledge"
+    ],
+    [
+     "secrete",
+     "to hide in a secret place"
+    ],
+    [
+     "cloak",
+     "to hide or disguise"
+    ],
+    [
+     "veil",
+     "to partly hide or disguise"
+    ]
+   ]
+  },
+  {
+   "id": "reveal",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to make known",
+   "ant": "conceal",
+   "words": [
+    [
+     "disclose",
+     "to make secret information known"
+    ],
+    [
+     "divulge",
+     "to reveal something private or secret"
+    ],
+    [
+     "unveil",
+     "to show or announce publicly for the first time"
+    ],
+    [
+     "expose",
+     "to reveal the true nature of, often something bad"
+    ]
+   ]
+  },
+  {
+   "id": "soothe",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to calm someone down",
+   "ant": "provoke",
+   "words": [
+    [
+     "placate",
+     "to make someone less angry"
+    ],
+    [
+     "appease",
+     "to calm someone by giving in to their demands"
+    ],
+    [
+     "pacify",
+     "to calm someone's anger or distress"
+    ],
+    [
+     "mollify",
+     "to soften someone's anger"
+    ]
+   ]
+  },
+  {
+   "id": "provoke",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to stir up anger or action",
+   "ant": "soothe",
+   "words": [
+    [
+     "incite",
+     "to encourage violent or unlawful behaviour"
+    ],
+    [
+     "goad",
+     "to provoke or urge into action"
+    ],
+    [
+     "inflame",
+     "to stir up anger or other strong feeling"
+    ],
+    [
+     "rile",
+     "to make someone annoyed or irritated"
+    ]
+   ]
+  },
+  {
+   "id": "increase",
+   "pos": "verb",
+   "level": 1,
+   "sense": "to make or become larger",
+   "ant": "decrease",
+   "near": [
+    "strengthen",
+    "provoke"
+   ],
+   "words": [
+    [
+     "augment",
+     "to make larger by adding to"
+    ],
+    [
+     "amplify",
+     "to increase the volume or strength of"
+    ],
+    [
+     "escalate",
+     "to increase rapidly in intensity"
+    ],
+    [
+     "expand",
+     "to become or make larger"
+    ]
+   ]
+  },
+  {
+   "id": "decrease",
+   "pos": "verb",
+   "level": 1,
+   "sense": "to make or become smaller",
+   "ant": "increase",
+   "near": [
+    "weaken"
+   ],
+   "words": [
+    [
+     "diminish",
+     "to make or become less"
+    ],
+    [
+     "curtail",
+     "to reduce or restrict"
+    ],
+    [
+     "abate",
+     "to become less intense"
+    ],
+    [
+     "lessen",
+     "to make or become less"
+    ]
+   ]
+  },
+  {
+   "id": "hesitate",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to be unable to decide",
+   "words": [
+    [
+     "vacillate",
+     "to keep changing your mind"
+    ],
+    [
+     "waver",
+     "to be undecided between options"
+    ],
+    [
+     "dither",
+     "to be indecisive"
+    ],
+    [
+     "falter",
+     "to hesitate or lose confidence while doing something"
+    ]
+   ]
+  },
+  {
+   "id": "forbid",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to not allow",
+   "ant": "allow",
+   "words": [
+    [
+     "prohibit",
+     "to formally forbid by law or rule"
+    ],
+    [
+     "proscribe",
+     "to forbid, especially by law"
+    ],
+    [
+     "ban",
+     "to officially prohibit"
+    ],
+    [
+     "outlaw",
+     "to make illegal"
+    ]
+   ]
+  },
+  {
+   "id": "allow",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to give permission",
+   "ant": "forbid",
+   "words": [
+    [
+     "permit",
+     "to officially allow"
+    ],
+    [
+     "authorise",
+     "to give official permission for"
+    ],
+    [
+     "license",
+     "to grant a formal permission to"
+    ],
+    [
+     "approve",
+     "to officially agree to or accept"
+    ]
+   ]
+  }
+ ]
+}
