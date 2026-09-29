@@ -7,6 +7,12 @@ import { usePersistentState } from '../../lib/persist';
 
 const ALL_WORDS = data.groups.flatMap((g) => g.words.map(([w, d]) => ({ w, d })));
 const DEF = new Map(ALL_WORDS.map(({ w, d }) => [w, d]));
+const GROUP_IDS = new Set(data.groups.map((g) => g.id));
+
+// A game saved before vocab.json changed can name a family or word that no
+// longer exists, and explaining it would throw on every load. Drop it instead.
+const stillValid = (game) =>
+  Array.isArray(game?.rounds) && game.rounds.every((r) => GROUP_IDS.has(r.group) && r.options.every((w) => DEF.has(w)));
 
 const TYPE_LABEL = { mixed: 'Mixed', syn: 'Synonyms', ant: 'Opposites', meaning: 'Meanings' };
 const LEVEL_LABEL = { easy: 'Everyday', all: 'Mixed', hard: 'Advanced' };
@@ -24,7 +30,8 @@ function ask(r) {
  * is learning the words, not just scoring.
  */
 export default function WordPower({ stats, onAnswer, onRoundComplete, onExit }) {
-  const [game, setGame] = usePersistentState('word_power', null);
+  const [saved, setGame] = usePersistentState('word_power', null);
+  const game = saved && stillValid(saved) ? saved : null;
   const [prefs, setPrefs] = usePersistentState('word_power_prefs', { type: 'mixed', level: 'all' });
   const entry = gameEntry(stats, 'vocab');
 
