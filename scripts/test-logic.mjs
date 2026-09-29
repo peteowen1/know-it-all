@@ -27,6 +27,7 @@ import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { buildLinkRounds, linkPoints } from '../src/games/missinglink/linkLogic.js';
+import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -888,6 +889,68 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
   test('sync: unreadable data on one side does not throw', () =>
     assert.doesNotThrow(() => mergeSnapshots({ sqt_v4_stats: stats(5) }, { sqt_v4_stats: '{bad', sqt_v4_missed: 'null', sqt_v4_games: '{"geo":{}}' })));
 }
+
+
+// -------------------------------------------------------------- word power
+const VOCAB = JSON.parse(readFileSync(new URL('../src/data/vocab.json', import.meta.url), 'utf8')).groups;
+test('vocab: every word appears once, opposites and near links point at real families of the same kind', () => {
+  const seen = new Set();
+  const ids = new Map(VOCAB.map((g) => [g.id, g]));
+  for (const g of VOCAB) {
+    assert.ok(g.words.length >= 3, `${g.id} has fewer than 3 words`);
+    for (const [w, d] of g.words) {
+      assert.ok(!seen.has(w), `${w} appears twice`);
+      assert.ok(d && d.length > 5, `${w} has no definition`);
+      seen.add(w);
+    }
+    if (g.ant) {
+      assert.ok(ids.has(g.ant), `${g.id}: unknown opposite ${g.ant}`);
+      assert.equal(ids.get(g.ant).ant, g.id, `${g.id} <-> ${g.ant} opposites not paired both ways`);
+      assert.equal(ids.get(g.ant).pos, g.pos, `${g.id}: opposite is a different part of speech`);
+    }
+    for (const n of g.near || []) assert.ok(ids.has(n), `${g.id}: unknown near ${n}`);
+  }
+});
+test('vocab: 200 games per type build full rounds with exactly the right answers from one family', () => {
+  const { byId, familyOf } = indexGroups(VOCAB);
+  for (const type of ['mixed', 'syn', 'ant', 'meaning']) {
+    for (let s = 0; s < 200; s++) {
+      const rounds = buildVocabRounds(VOCAB, { seed: s, type });
+      assert.equal(rounds.length, 10, `${type} seed ${s}: ${rounds.length} rounds`);
+      assert.equal(new Set(rounds.map((r) => r.group)).size, 10, 'a family repeated in one game');
+      for (const r of rounds) {
+        assert.equal(new Set(r.options).size, r.options.length, 'duplicate option');
+        const fams = r.options.map((w) => byId.get(familyOf.get(w)));
+        const g = byId.get(r.group);
+        if (r.type === 'syn') {
+          assert.equal(fams.filter((f) => f.id === g.id).length, r.pick, 'synonym count');
+          // Decoys come from distinct, unrelated families: no second pair.
+          const others = fams.filter((f) => f.id !== g.id);
+          assert.equal(new Set(others.map((f) => f.id)).size, others.length, 'two decoys from one family');
+        } else if (r.type === 'ant') {
+          assert.equal(fams.filter((f) => f.id === g.ant).length, 1, 'exactly one opposite');
+          assert.equal(fams.filter((f) => f.id === g.id).length, 1, 'one synonym trap');
+        } else {
+          assert.equal(fams.filter((f) => f.id === g.id || g.near.has(f.id)).length, 1, 'only the defined word fits');
+        }
+        assert.ok(isCorrect(r, r.answer));
+        assert.ok(!isCorrect(r, r.options.filter((w) => !r.answer.includes(w)).slice(0, r.pick)));
+      }
+    }
+  }
+});
+test('vocab: weights pull a missed word forward', () => {
+  let hits = 0;
+  for (let s = 0; s < 100; s++) {
+    if (buildVocabRounds(VOCAB, { seed: s, type: 'meaning', weights: { pusillanimous: 400 } }).some((r) => r.target === 'pusillanimous')) hits++;
+  }
+  assert.ok(hits > 80, `heavily weighted word came up in ${hits}/100 games`);
+});
+test('vocab: the reveal marks the synonym trap and the opposite', () => {
+  const r = buildVocabRounds(VOCAB, { seed: 3, type: 'ant' })[0];
+  const roles = explainRound(r, VOCAB).options.map((o) => o.role).sort();
+  assert.deepEqual(roles.filter((x) => x !== 'unrelated'), ['opposite', 'trap']);
+});
 
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);

@@ -9,6 +9,7 @@ export const SECTIONS = [
   { id: 'weekend', title: 'The weekend paper', blurb: 'General knowledge, the way the Saturday quiz asks it.' },
   { id: 'geo', title: 'Geography', blurb: 'Flags, capitals and how many people live where.' },
   { id: 'pop', title: 'Pop culture', blurb: 'Charts, box office, awards and famous faces, by year or decade.' },
+  { id: 'words', title: 'Words', blurb: 'Build your vocabulary: synonyms, opposites and meanings.' },
   { id: 'lab', title: 'The lab', blurb: 'New kinds of trivia game. Rough edges expected.' }
 ];
 
@@ -31,6 +32,9 @@ export const GAMES = [
   { id: 'music-years', section: 'pop', tab: 'music-years', status: 'ready', icon: '🎵', title: 'Chart toppers by year', blurb: 'Billboard year-end charts since 1959. Fill a year or decade, or take the quiz.' },
   { id: 'film-years', section: 'pop', tab: 'film-years', status: 'ready', icon: '🎬', title: 'Films by year', blurb: 'Box-office top 10s since 1970 and every Best Picture race since 1927.' },
   { id: 'tv-years', section: 'pop', tab: 'tv-years', status: 'ready', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe drama and comedy races, back to the 1950s.' },
+
+  // ------------------------------------------------------------------ words
+  { id: 'vocab', section: 'words', tab: 'vocab', status: 'ready', icon: '📖', title: 'Word power', blurb: 'Synonyms, opposites and meanings. Every answer shows what each word means.' },
 
   // -------------------------------------------------------------------- lab
   { id: 'connections', section: 'lab', tab: 'connections', status: 'ready', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },

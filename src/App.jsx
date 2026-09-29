@@ -21,6 +21,7 @@ const Timeline = lazy(() => import('./games/timeline/Timeline'));
 const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
+const WordPower = lazy(() => import('./games/vocab/WordPower'));
 import { recordRound, recordItems } from './lib/gameStats';
 import { loadLive, saveLive, usePersistentState } from './lib/persist';
 import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
@@ -412,6 +413,10 @@ export default function App() {
 
         {activeTab === 'missing-link' && (
           <MissingLink stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
+        )}
+
+        {activeTab === 'vocab' && (
+          <WordPower stats={gameStats} onAnswer={handleGameAnswer} onRoundComplete={handleGameRound} onExit={goHome} />
         )}
 
         {activeTab === 'pointless' && (
