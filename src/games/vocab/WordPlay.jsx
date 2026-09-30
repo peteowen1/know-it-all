@@ -27,18 +27,18 @@ function ask(r) {
 }
 
 /**
- * Word power: synonyms, opposites and meanings. After every answer the reveal
+ * Word play: synonyms, opposites and meanings. After every answer the reveal
  * card defines every option and shows the whole word family, because the point
  * is learning the words, not just scoring.
  */
-export default function WordPower({ stats, onAnswer, onRoundComplete, onExit }) {
-  const [saved, setGame] = usePersistentState('word_power', null);
+export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
+  const [saved, setGame] = usePersistentState('word_play', null);
   const game = saved && stillValid(saved) ? saved : null;
-  const [savedTest, setTest] = usePersistentState('word_power_test', null);
+  const [savedTest, setTest] = usePersistentState('word_play_test', null);
   const test = savedTest && stillValid(savedTest) ? savedTest : null;
-  const [rawHistory, setHistory] = usePersistentState('word_power_history', []);
+  const [rawHistory, setHistory] = usePersistentState('word_play_history', []);
   const history = Array.isArray(rawHistory) ? rawHistory.filter((h) => Number.isFinite(h?.level)) : [];
-  const [prefs, setPrefs] = usePersistentState('word_power_prefs', { type: 'mixed', level: 'all' });
+  const [prefs, setPrefs] = usePersistentState('word_play_prefs', { type: 'mixed', level: 'all' });
   const entry = gameEntry(stats, 'vocab');
   const startTest = () => setTest(newTest(testContext(data.groups)));
 
@@ -70,7 +70,7 @@ export default function WordPower({ stats, onAnswer, onRoundComplete, onExit }) 
     return (
       <div className="card game-setup">
         <div className="game-setup-head">
-          <h2>Word power</h2>
+          <h2>Word play</h2>
           <button className="btn btn-ghost" onClick={onExit}>All games</button>
         </div>
         <p className="game-record">

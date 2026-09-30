@@ -5,7 +5,7 @@ Run: python -m pip install wordfreq && python scripts/build-vocab-freq.py
 
 Zipf is log10 of how often a word appears per billion words of English text
 (wordfreq, which blends books, subtitles, news, web and social media): 7 is
-"the", 4 is "ban", 2 is "loquacious", 1 is very rare. Word power's test mode
+"the", 4 is "ban", 2 is "loquacious", 1 is very rare. Word play's test mode
 uses it as each word's difficulty.
 
 Frequency is how often a word appears, not how well known it is, so three

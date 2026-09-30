@@ -34,7 +34,7 @@ export const GAMES = [
   { id: 'tv-years', section: 'pop', tab: 'tv-years', status: 'ready', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe drama and comedy races, back to the 1950s.' },
 
   // ------------------------------------------------------------------ words
-  { id: 'vocab', section: 'words', tab: 'vocab', status: 'ready', icon: '📖', title: 'Word power', blurb: 'Synonyms, opposites and meanings. Every answer shows what each word means.' },
+  { id: 'vocab', section: 'words', tab: 'vocab', status: 'ready', icon: '📖', title: 'Word play', blurb: 'Synonyms, opposites and meanings. Every answer shows what each word means.' },
 
   // -------------------------------------------------------------------- lab
   { id: 'connections', section: 'lab', tab: 'connections', status: 'ready', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },

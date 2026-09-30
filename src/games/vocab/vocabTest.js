@@ -1,4 +1,4 @@
-// Word power test mode: an adaptive test that estimates how rare a word you
+// Word play test mode: an adaptive test that estimates how rare a word you
 // reliably know.
 //
 // Each word carries a frequency on the Zipf scale (log10 of uses per billion

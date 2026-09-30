@@ -1,4 +1,4 @@
-// Pure logic for Word power: synonym, opposite and meaning rounds built from
+// Pure logic for Word play: synonym, opposite and meaning rounds built from
 // word families (src/data/vocab.json). Every round type comes from the same
 // structure, so one new family adds all three kinds of question.
 
