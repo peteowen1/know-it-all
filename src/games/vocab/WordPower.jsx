@@ -4,6 +4,8 @@ import data from '../../data/vocab.json';
 import { buildVocabRounds, isCorrect, explainRound } from './vocabLogic';
 import { gameEntry, itemWeights, weakestItems } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import TestMode from './TestMode';
+import { testContext, newTest } from './vocabTest.js';
 
 const ALL_WORDS = data.groups.flatMap((g) => g.words.map(([w, d]) => ({ w, d })));
 const DEF = new Map(ALL_WORDS.map(({ w, d }) => [w, d]));
@@ -32,8 +34,30 @@ function ask(r) {
 export default function WordPower({ stats, onAnswer, onRoundComplete, onExit }) {
   const [saved, setGame] = usePersistentState('word_power', null);
   const game = saved && stillValid(saved) ? saved : null;
+  const [savedTest, setTest] = usePersistentState('word_power_test', null);
+  const test = savedTest && stillValid(savedTest) ? savedTest : null;
+  const [rawHistory, setHistory] = usePersistentState('word_power_history', []);
+  const history = Array.isArray(rawHistory) ? rawHistory.filter((h) => Number.isFinite(h?.level)) : [];
   const [prefs, setPrefs] = usePersistentState('word_power_prefs', { type: 'mixed', level: 'all' });
   const entry = gameEntry(stats, 'vocab');
+  const startTest = () => setTest(newTest(testContext(data.groups)));
+
+  if (test) {
+    return (
+      <TestMode
+        test={test}
+        setTest={setTest}
+        history={history}
+        onAnswer={onAnswer}
+        onComplete={(res) => {
+          setHistory(() => [...history, { date: res.date, level: res.level, sd: res.sd }].slice(-50));
+          onRoundComplete('vocab-test', { score: res.right, total: res.total, answers: [] });
+        }}
+        onAgain={startTest}
+        onExit={() => setTest(null)}
+      />
+    );
+  }
 
   const start = () => {
     const weights = itemWeights(stats, 'vocab', ALL_WORDS.map((x) => x.w));
@@ -65,8 +89,14 @@ export default function WordPower({ stats, onAnswer, onRoundComplete, onExit }) 
           ))}
         </div>
         <div className="actions-bar">
-          <button className="btn btn-primary" onClick={start}>Start</button>
+          <button className="btn btn-primary" onClick={start}>Practise</button>
+          <button className="btn btn-ghost" onClick={startTest}>Take the test</button>
         </div>
+        <p className="game-record">
+          The test is 20 questions that get harder as you get them right, with the answers at the end. It gives you a
+          level based on how rare the words you know are.
+          {history.length ? ` Last test: level ${history[history.length - 1].level.toFixed(1)}.` : ''}
+        </p>
         {weak.length > 0 && (
           <div className="vp-weak">
             <h3>Your tricky words</h3>

@@ -92,6 +92,13 @@ function meaningRound(g, target, all, rand) {
   return { type: 'meaning', group: g.id, target, prompt: defOf(g, target), options, answer: [target], pick: 1 };
 }
 
+/** One round of `type` about word `target` from family `g`, or null if no fair round can be built. */
+export function roundFor(type, g, target, byId, all, rand) {
+  if (type === 'syn') return synRound(g, target, all, rand);
+  if (type === 'ant') return antRound(g, target, byId, all, rand);
+  return meaningRound(g, target, all, rand);
+}
+
 /**
  * A game of `count` rounds.
  *
@@ -114,7 +121,7 @@ export function buildVocabRounds(groups, { seed = Date.now(), count = ROUNDS, ty
     if (!pool.length) break;
     const words = pool.flatMap((g) => g.words.map(([w]) => ({ w, g })));
     const { w, g } = weightedPick(words, (x) => weights[x.w] ?? 1.5, rand);
-    const round = t === 'syn' ? synRound(g, w, all, rand) : t === 'ant' ? antRound(g, w, byId, all, rand) : meaningRound(g, w, all, rand);
+    const round = roundFor(t, g, w, byId, all, rand);
     if (!round) continue;
     usedGroups.add(g.id);
     rounds.push({ ...round, id: `${t}:${g.id}:${w}` });

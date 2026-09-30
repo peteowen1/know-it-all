@@ -14,19 +14,23 @@
    "words": [
     [
      "loquacious",
-     "tending to talk a great deal"
+     "tending to talk a great deal",
+     2.11
     ],
     [
      "garrulous",
-     "excessively talkative, especially about trivial things"
+     "excessively talkative, especially about trivial things",
+     2.11
     ],
     [
      "voluble",
-     "speaking readily, fluently and at length"
+     "speaking readily, fluently and at length",
+     2.04
     ],
     [
      "chatty",
-     "fond of talking in an easy, informal way"
+     "fond of talking in an easy, informal way",
+     2.92
     ]
    ]
   },
@@ -43,19 +47,23 @@
    "words": [
     [
      "taciturn",
-     "reserved and saying little in conversation"
+     "reserved and saying little in conversation",
+     2.37
     ],
     [
      "reticent",
-     "not revealing your thoughts or feelings readily"
+     "not revealing your thoughts or feelings readily",
+     2.62
     ],
     [
      "uncommunicative",
-     "unwilling to talk or share information"
+     "unwilling to talk or share information",
+     1.87
     ],
     [
      "reserved",
-     "slow to show feelings or give opinions"
+     "slow to show feelings or give opinions",
+     4.18
     ]
    ]
   },
@@ -72,15 +80,18 @@
    "words": [
     [
      "munificent",
-     "more generous than is usual or necessary"
+     "more generous than is usual or necessary",
+     1.76
     ],
     [
      "magnanimous",
-     "generous or forgiving, especially towards a rival"
+     "generous or forgiving, especially towards a rival",
+     2.61
     ],
     [
      "open-handed",
-     "free and generous in giving"
+     "free and generous in giving",
+     2.0
     ]
    ]
   },
@@ -96,19 +107,23 @@
    "words": [
     [
      "parsimonious",
-     "extremely unwilling to spend money"
+     "extremely unwilling to spend money",
+     2.18
     ],
     [
      "miserly",
-     "hoarding money and spending as little as possible"
+     "hoarding money and spending as little as possible",
+     2.33
     ],
     [
      "tight-fisted",
-     "not willing to spend or give much money"
+     "not willing to spend or give much money",
+     2.72
     ],
     [
      "penny-pinching",
-     "unwilling to spend money; excessively frugal"
+     "unwilling to spend money; excessively frugal",
+     2.99
     ]
    ]
   },
@@ -123,19 +138,23 @@
    "words": [
     [
      "avaricious",
-     "having an extreme greed for wealth"
+     "having an extreme greed for wealth",
+     2.04
     ],
     [
      "rapacious",
-     "aggressively greedy, taking by force"
+     "aggressively greedy, taking by force",
+     2.39
     ],
     [
      "covetous",
-     "wanting what belongs to someone else"
+     "wanting what belongs to someone else",
+     2.11
     ],
     [
      "grasping",
-     "eager to get money or possessions, often unfairly"
+     "eager to get money or possessions, often unfairly",
+     3.25
     ]
    ]
   },
@@ -151,19 +170,23 @@
    "words": [
     [
      "intrepid",
-     "fearless and adventurous"
+     "fearless and adventurous",
+     3.04
     ],
     [
      "valiant",
-     "showing courage or determination"
+     "showing courage or determination",
+     3.31
     ],
     [
      "dauntless",
-     "not easily frightened or discouraged"
+     "not easily frightened or discouraged",
+     2.69
     ],
     [
      "courageous",
-     "not deterred by danger or pain"
+     "not deterred by danger or pain",
+     3.59
     ]
    ]
   },
@@ -176,19 +199,23 @@
    "words": [
     [
      "craven",
-     "contemptibly lacking in courage"
+     "contemptibly lacking in courage",
+     3.19
     ],
     [
      "pusillanimous",
-     "showing a lack of courage or determination; timid"
+     "showing a lack of courage or determination; timid",
+     1.78
     ],
     [
      "timorous",
-     "easily frightened; timid"
+     "easily frightened; timid",
+     1.81
     ],
     [
      "spineless",
-     "lacking courage or strength of character"
+     "lacking courage or strength of character",
+     2.91
     ]
    ],
    "near": [
@@ -204,19 +231,23 @@
    "words": [
     [
      "extol",
-     "to praise enthusiastically"
+     "to praise enthusiastically",
+     2.3
     ],
     [
      "laud",
-     "to praise highly, especially in public"
+     "to praise highly, especially in public",
+     2.6
     ],
     [
      "acclaim",
-     "to praise enthusiastically and publicly"
+     "to praise enthusiastically and publicly",
+     3.29
     ],
     [
      "eulogise",
-     "to praise highly, often in a speech or tribute"
+     "to praise highly, often in a speech or tribute",
+     1.68
     ]
    ]
   },
@@ -229,19 +260,23 @@
    "words": [
     [
      "castigate",
-     "to reprimand someone severely"
+     "to reprimand someone severely",
+     1.92
     ],
     [
      "excoriate",
-     "to criticise very severely"
+     "to criticise very severely",
+     1.64
     ],
     [
      "lambaste",
-     "to criticise harshly"
+     "to criticise harshly",
+     1.66
     ],
     [
      "berate",
-     "to scold or criticise angrily"
+     "to scold or criticise angrily",
+     2.44
     ]
    ]
   },
@@ -259,19 +294,23 @@
    "words": [
     [
      "amiable",
-     "having a friendly and pleasant manner"
+     "having a friendly and pleasant manner",
+     2.84
     ],
     [
      "affable",
-     "friendly, good-natured and easy to talk to"
+     "friendly, good-natured and easy to talk to",
+     2.66
     ],
     [
      "genial",
-     "friendly and cheerful"
+     "friendly and cheerful",
+     2.72
     ],
     [
      "cordial",
-     "warm and friendly, often in a polite way"
+     "warm and friendly, often in a polite way",
+     3.1
     ]
    ]
   },
@@ -289,19 +328,23 @@
    "words": [
     [
      "belligerent",
-     "hostile and aggressive, ready to fight"
+     "hostile and aggressive, ready to fight",
+     3.04
     ],
     [
      "bellicose",
-     "eager to fight or start a war"
+     "eager to fight or start a war",
+     2.28
     ],
     [
      "truculent",
-     "eager to argue or fight; defiant"
+     "eager to argue or fight; defiant",
+     2.01
     ],
     [
      "antagonistic",
-     "showing active opposition or hostility"
+     "showing active opposition or hostility",
+     3.02
     ]
    ]
   },
@@ -314,19 +357,23 @@
    "words": [
     [
      "ephemeral",
-     "lasting for a very short time"
+     "lasting for a very short time",
+     2.99
     ],
     [
      "transient",
-     "lasting only for a short time; passing"
+     "lasting only for a short time; passing",
+     3.37
     ],
     [
      "fleeting",
-     "lasting a very short time"
+     "lasting a very short time",
+     3.32
     ],
     [
      "evanescent",
-     "soon passing out of sight or memory; vanishing"
+     "soon passing out of sight or memory; vanishing",
+     2.15
     ]
    ]
   },
@@ -339,19 +386,23 @@
    "words": [
     [
      "perpetual",
-     "never ending or changing"
+     "never ending or changing",
+     3.61
     ],
     [
      "abiding",
-     "lasting a long time; enduring"
+     "lasting a long time; enduring",
+     3.45
     ],
     [
      "enduring",
-     "continuing to exist over a long period"
+     "continuing to exist over a long period",
+     3.67
     ],
     [
      "everlasting",
-     "lasting for ever"
+     "lasting for ever",
+     3.44
     ]
    ]
   },
@@ -364,19 +415,23 @@
    "words": [
     [
      "copious",
-     "abundant in supply or quantity"
+     "abundant in supply or quantity",
+     3.1
     ],
     [
      "plentiful",
-     "existing in great quantities"
+     "existing in great quantities",
+     3.36
     ],
     [
      "profuse",
-     "pouring out in large amounts"
+     "pouring out in large amounts",
+     2.29
     ],
     [
      "ample",
-     "enough or more than enough"
+     "enough or more than enough",
+     3.71
     ]
    ],
    "near": [
@@ -392,19 +447,23 @@
    "words": [
     [
      "meagre",
-     "lacking in quantity or quality; too small"
+     "lacking in quantity or quality; too small",
+     2.86
     ],
     [
      "scant",
-     "barely enough or not enough"
+     "barely enough or not enough",
+     3.1
     ],
     [
      "sparse",
-     "thinly spread or scattered"
+     "thinly spread or scattered",
+     3.36
     ],
     [
      "scanty",
-     "small or insufficient in quantity"
+     "small or insufficient in quantity",
+     2.34
     ]
    ]
   },
@@ -417,19 +476,23 @@
    "words": [
     [
      "obstinate",
-     "stubbornly refusing to change opinion or action"
+     "stubbornly refusing to change opinion or action",
+     2.73
     ],
     [
      "intransigent",
-     "unwilling to agree or compromise"
+     "unwilling to agree or compromise",
+     2.29
     ],
     [
      "obdurate",
-     "stubbornly refusing to change, even when urged"
+     "stubbornly refusing to change, even when urged",
+     2.01
     ],
     [
      "recalcitrant",
-     "uncooperative towards authority"
+     "uncooperative towards authority",
+     2.55
     ]
    ]
   },
@@ -442,19 +505,23 @@
    "words": [
     [
      "docile",
-     "quiet and easy to control"
+     "quiet and easy to control",
+     2.93
     ],
     [
      "amenable",
-     "open and responsive to suggestion"
+     "open and responsive to suggestion",
+     2.89
     ],
     [
      "tractable",
-     "easy to control or influence"
+     "easy to control or influence",
+     2.21
     ],
     [
      "biddable",
-     "meekly ready to accept and follow instructions"
+     "meekly ready to accept and follow instructions",
+     1.6
     ]
    ]
   },
@@ -472,19 +539,23 @@
    "words": [
     [
      "candid",
-     "truthful and straightforward"
+     "truthful and straightforward",
+     3.45
     ],
     [
      "frank",
-     "open, honest and direct in speech"
+     "open, honest and direct in speech",
+     3.0
     ],
     [
      "forthright",
-     "direct and outspoken"
+     "direct and outspoken",
+     2.78
     ],
     [
      "blunt",
-     "saying what you think without trying to be polite"
+     "saying what you think without trying to be polite",
+     3.9
     ]
    ]
   },
@@ -501,19 +572,23 @@
    "words": [
     [
      "duplicitous",
-     "deliberately deceitful; two-faced"
+     "deliberately deceitful; two-faced",
+     2.41
     ],
     [
      "mendacious",
-     "not telling the truth; lying"
+     "not telling the truth; lying",
+     2.06
     ],
     [
      "disingenuous",
-     "not sincere, often pretending to know less than you do"
+     "not sincere, often pretending to know less than you do",
+     2.95
     ],
     [
      "underhand",
-     "acting secretly and dishonestly"
+     "acting secretly and dishonestly",
+     2.49
     ]
    ]
   },
@@ -526,19 +601,23 @@
    "words": [
     [
      "placid",
-     "not easily upset or excited"
+     "not easily upset or excited",
+     3.01
     ],
     [
      "serene",
-     "calm, peaceful and untroubled"
+     "calm, peaceful and untroubled",
+     3.27
     ],
     [
      "tranquil",
-     "free from disturbance"
+     "free from disturbance",
+     3.14
     ],
     [
      "imperturbable",
-     "unable to be upset or excited"
+     "unable to be upset or excited",
+     1.9
     ]
    ],
    "near": [
@@ -559,19 +638,23 @@
    "words": [
     [
      "flustered",
-     "agitated and confused"
+     "agitated and confused",
+     2.93
     ],
     [
      "overwrought",
-     "in a state of nervous excitement or anxiety"
+     "in a state of nervous excitement or anxiety",
+     2.47
     ],
     [
      "frantic",
-     "wild with fear or anxiety"
+     "wild with fear or anxiety",
+     3.33
     ],
     [
      "distraught",
-     "deeply upset and agitated"
+     "deeply upset and agitated",
+     3.15
     ]
    ]
   },
@@ -587,19 +670,23 @@
    "words": [
     [
      "irate",
-     "feeling or showing great anger"
+     "feeling or showing great anger",
+     2.78
     ],
     [
      "livid",
-     "furiously angry"
+     "furiously angry",
+     2.99
     ],
     [
      "incensed",
-     "extremely angry"
+     "extremely angry",
+     2.8
     ],
     [
      "apoplectic",
-     "overcome with anger"
+     "overcome with anger",
+     2.25
     ]
    ]
   },
@@ -612,19 +699,23 @@
    "words": [
     [
      "sagacious",
-     "having keen understanding and good judgement"
+     "having keen understanding and good judgement",
+     1.8
     ],
     [
      "astute",
-     "able to assess situations accurately and quickly"
+     "able to assess situations accurately and quickly",
+     3.1
     ],
     [
      "shrewd",
-     "having sharp powers of judgement"
+     "having sharp powers of judgement",
+     3.11
     ],
     [
      "judicious",
-     "having or showing good sense"
+     "having or showing good sense",
+     2.68
     ]
    ],
    "near": [
@@ -640,19 +731,23 @@
    "words": [
     [
      "fatuous",
-     "silly and pointless"
+     "silly and pointless",
+     2.23
     ],
     [
      "inane",
-     "lacking sense or meaning; silly"
+     "lacking sense or meaning; silly",
+     2.7
     ],
     [
      "asinine",
-     "extremely stupid or foolish"
+     "extremely stupid or foolish",
+     2.56
     ],
     [
      "vacuous",
-     "showing a lack of thought or intelligence"
+     "showing a lack of thought or intelligence",
+     2.54
     ]
    ],
    "near": [
@@ -668,19 +763,23 @@
    "words": [
     [
      "indolent",
-     "wanting to avoid activity or effort"
+     "wanting to avoid activity or effort",
+     2.26
     ],
     [
      "slothful",
-     "reluctant to work or make an effort"
+     "reluctant to work or make an effort",
+     1.91
     ],
     [
      "shiftless",
-     "lazy and lacking ambition"
+     "lazy and lacking ambition",
+     1.95
     ],
     [
      "idle",
-     "not working, especially through laziness"
+     "not working, especially through laziness",
+     3.7
     ]
    ],
    "near": [
@@ -701,19 +800,23 @@
    "words": [
     [
      "diligent",
-     "showing care and effort in work"
+     "showing care and effort in work",
+     3.23
     ],
     [
      "industrious",
-     "hard-working and busy"
+     "hard-working and busy",
+     2.79
     ],
     [
      "assiduous",
-     "showing great care and perseverance"
+     "showing great care and perseverance",
+     2.15
     ],
     [
      "sedulous",
-     "showing dedication and steady effort"
+     "showing dedication and steady effort",
+     1.0
     ]
    ]
   },
@@ -729,19 +832,23 @@
    "words": [
     [
      "modest",
-     "not boasting about your abilities"
+     "not boasting about your abilities",
+     4.03
     ],
     [
      "unassuming",
-     "not pretentious or arrogant"
+     "not pretentious or arrogant",
+     2.82
     ],
     [
      "self-effacing",
-     "not drawing attention to yourself"
+     "not drawing attention to yourself",
+     2.28
     ],
     [
      "unpretentious",
-     "not trying to impress others"
+     "not trying to impress others",
+     2.59
     ]
    ]
   },
@@ -754,19 +861,23 @@
    "words": [
     [
      "haughty",
-     "arrogantly superior and disdainful"
+     "arrogantly superior and disdainful",
+     2.68
     ],
     [
      "supercilious",
-     "behaving as though you are superior to others"
+     "behaving as though you are superior to others",
+     1.94
     ],
     [
      "imperious",
-     "arrogantly domineering; expecting to be obeyed"
+     "arrogantly domineering; expecting to be obeyed",
+     2.66
     ],
     [
      "conceited",
-     "excessively proud of yourself"
+     "excessively proud of yourself",
+     2.88
     ]
    ]
   },
@@ -783,19 +894,23 @@
    "words": [
     [
      "jovial",
-     "cheerful and friendly"
+     "cheerful and friendly",
+     2.74
     ],
     [
      "ebullient",
-     "cheerful and full of energy"
+     "cheerful and full of energy",
+     2.17
     ],
     [
      "buoyant",
-     "cheerful and optimistic"
+     "cheerful and optimistic",
+     2.98
     ],
     [
      "blithe",
-     "happy and carefree"
+     "happy and carefree",
+     2.48
     ]
    ]
   },
@@ -808,19 +923,23 @@
    "words": [
     [
      "morose",
-     "gloomy and unhappy, often silent"
+     "gloomy and unhappy, often silent",
+     2.44
     ],
     [
      "sullen",
-     "sulkily silent and gloomy"
+     "sulkily silent and gloomy",
+     2.71
     ],
     [
      "despondent",
-     "in low spirits from loss of hope"
+     "in low spirits from loss of hope",
+     2.68
     ],
     [
      "dour",
-     "stern and gloomy"
+     "stern and gloomy",
+     2.78
     ]
    ]
   },
@@ -836,19 +955,23 @@
    "words": [
     [
      "succinct",
-     "briefly and clearly expressed"
+     "briefly and clearly expressed",
+     2.9
     ],
     [
      "pithy",
-     "short and full of meaning"
+     "short and full of meaning",
+     2.61
     ],
     [
      "terse",
-     "sparing in words, sometimes abruptly"
+     "sparing in words, sometimes abruptly",
+     2.67
     ],
     [
      "laconic",
-     "using very few words"
+     "using very few words",
+     2.39
     ]
    ]
   },
@@ -864,19 +987,23 @@
    "words": [
     [
      "verbose",
-     "using more words than needed"
+     "using more words than needed",
+     2.44
     ],
     [
      "prolix",
-     "tediously lengthy in speech or writing"
+     "tediously lengthy in speech or writing",
+     1.65
     ],
     [
      "long-winded",
-     "continuing at tedious length"
+     "continuing at tedious length",
+     2.87
     ],
     [
      "rambling",
-     "lengthy and wandering from the point"
+     "lengthy and wandering from the point",
+     3.21
     ]
    ]
   },
@@ -892,19 +1019,23 @@
    "words": [
     [
      "clandestine",
-     "kept secret or done secretively"
+     "kept secret or done secretively",
+     3.21
     ],
     [
      "covert",
-     "not openly acknowledged or displayed"
+     "not openly acknowledged or displayed",
+     3.54
     ],
     [
      "surreptitious",
-     "done secretly to avoid notice"
+     "done secretly to avoid notice",
+     2.28
     ],
     [
      "furtive",
-     "trying to avoid notice, often from guilt"
+     "trying to avoid notice, often from guilt",
+     2.49
     ]
    ]
   },
@@ -921,19 +1052,23 @@
    "words": [
     [
      "overt",
-     "done or shown openly"
+     "done or shown openly",
+     3.31
     ],
     [
      "manifest",
-     "clear or obvious to the eye or mind"
+     "clear or obvious to the eye or mind",
+     3.68
     ],
     [
      "patent",
-     "easily recognisable; obvious"
+     "easily recognisable; obvious",
+     4.18
     ],
     [
      "conspicuous",
-     "standing out so as to be clearly visible"
+     "standing out so as to be clearly visible",
+     3.35
     ]
    ]
   },
@@ -946,23 +1081,38 @@
    "words": [
     [
      "mundane",
-     "lacking interest or excitement; dull"
+     "lacking interest or excitement; dull",
+     3.43
     ],
     [
      "humdrum",
-     "lacking excitement; monotonous"
+     "lacking excitement; monotonous",
+     2.43
     ],
     [
      "banal",
-     "so unoriginal as to be boring"
+     "so unoriginal as to be boring",
+     2.88
     ],
     [
      "prosaic",
-     "lacking imagination; commonplace"
+     "lacking imagination; commonplace",
+     2.6
     ],
     [
      "pedestrian",
-     "lacking inspiration or excitement"
+     "lacking inspiration or excitement",
+     3.71
+    ],
+    [
+     "hackneyed",
+     "used so often that it has lost its impact",
+     2.4
+    ],
+    [
+     "trite",
+     "overused and so no longer interesting",
+     2.8
     ]
    ]
   },
@@ -975,19 +1125,23 @@
    "words": [
     [
      "remarkable",
-     "worthy of attention; striking"
+     "worthy of attention; striking",
+     4.29
     ],
     [
      "exceptional",
-     "unusually good; outstanding"
+     "unusually good; outstanding",
+     4.05
     ],
     [
      "prodigious",
-     "remarkably great in size or degree"
+     "remarkably great in size or degree",
+     2.92
     ],
     [
      "phenomenal",
-     "extraordinarily good or impressive"
+     "extraordinarily good or impressive",
+     3.76
     ]
    ]
   },
@@ -1000,19 +1154,23 @@
    "words": [
     [
      "gauche",
-     "socially awkward"
+     "socially awkward",
+     2.53
     ],
     [
      "maladroit",
-     "ineffective or bungling"
+     "ineffective or bungling",
+     1.71
     ],
     [
      "ungainly",
-     "awkward in movement"
+     "awkward in movement",
+     2.42
     ],
     [
      "inept",
-     "having no skill"
+     "having no skill",
+     3.13
     ]
    ]
   },
@@ -1025,19 +1183,23 @@
    "words": [
     [
      "adroit",
-     "clever or skilful in using the hands or mind"
+     "clever or skilful in using the hands or mind",
+     2.31
     ],
     [
      "dexterous",
-     "showing skill, especially with the hands"
+     "showing skill, especially with the hands",
+     2.28
     ],
     [
      "deft",
-     "neatly skilful and quick"
+     "neatly skilful and quick",
+     2.87
     ],
     [
      "adept",
-     "very skilled or proficient"
+     "very skilled or proficient",
+     3.33
     ]
    ]
   },
@@ -1053,19 +1215,23 @@
    "words": [
     [
      "pernicious",
-     "having a harmful effect, especially gradually"
+     "having a harmful effect, especially gradually",
+     2.87
     ],
     [
      "deleterious",
-     "causing harm or damage"
+     "causing harm or damage",
+     2.72
     ],
     [
      "noxious",
-     "harmful, poisonous or very unpleasant"
+     "harmful, poisonous or very unpleasant",
+     2.91
     ],
     [
      "detrimental",
-     "tending to cause harm"
+     "tending to cause harm",
+     3.55
     ]
    ]
   },
@@ -1081,15 +1247,18 @@
    "words": [
     [
      "innocuous",
-     "not harmful or offensive"
+     "not harmful or offensive",
+     3.06
     ],
     [
      "benign",
-     "gentle; not harmful"
+     "gentle; not harmful",
+     3.51
     ],
     [
      "inoffensive",
-     "not objectionable or harmful"
+     "not objectionable or harmful",
+     2.56
     ]
    ]
   },
@@ -1109,19 +1278,23 @@
    "words": [
     [
      "benevolent",
-     "well meaning and kindly"
+     "well meaning and kindly",
+     3.34
     ],
     [
      "altruistic",
-     "selflessly concerned for others"
+     "selflessly concerned for others",
+     2.95
     ],
     [
      "beneficent",
-     "doing or producing good"
+     "doing or producing good",
+     2.19
     ],
     [
      "philanthropic",
-     "promoting the welfare of others, often by giving money"
+     "promoting the welfare of others, often by giving money",
+     3.21
     ]
    ]
   },
@@ -1138,19 +1311,23 @@
    "words": [
     [
      "malicious",
-     "intending to do harm"
+     "intending to do harm",
+     3.67
     ],
     [
      "spiteful",
-     "wanting to hurt or upset someone"
+     "wanting to hurt or upset someone",
+     2.92
     ],
     [
      "malevolent",
-     "wishing evil on others"
+     "wishing evil on others",
+     2.92
     ],
     [
      "baleful",
-     "threatening harm; menacing"
+     "threatening harm; menacing",
+     2.15
     ]
    ]
   },
@@ -1163,19 +1340,23 @@
    "words": [
     [
      "raucous",
-     "harsh and loud"
+     "harsh and loud",
+     2.82
     ],
     [
      "clamorous",
-     "making a loud, confused noise"
+     "making a loud, confused noise",
+     1.87
     ],
     [
      "vociferous",
-     "expressing opinions loudly and forcefully"
+     "expressing opinions loudly and forcefully",
+     2.45
     ],
     [
      "strident",
-     "loud and harsh; grating"
+     "loud and harsh; grating",
+     2.66
     ]
    ]
   },
@@ -1191,19 +1372,23 @@
    "words": [
     [
      "hushed",
-     "quiet and subdued"
+     "quiet and subdued",
+     2.93
     ],
     [
      "muted",
-     "quiet and soft"
+     "quiet and soft",
+     3.42
     ],
     [
      "noiseless",
-     "making no sound"
+     "making no sound",
+     2.03
     ],
     [
      "soundless",
-     "without sound"
+     "without sound",
+     2.11
     ]
    ]
   },
@@ -1216,19 +1401,23 @@
    "words": [
     [
      "weary",
-     "tired, especially from effort"
+     "tired, especially from effort",
+     3.61
     ],
     [
      "fatigued",
-     "extremely tired"
+     "extremely tired",
+     2.98
     ],
     [
      "exhausted",
-     "drained of energy"
+     "drained of energy",
+     4.08
     ],
     [
      "enervated",
-     "drained of energy or vitality"
+     "drained of energy or vitality",
+     1.63
     ]
    ]
   },
@@ -1245,19 +1434,23 @@
    "words": [
     [
      "vigorous",
-     "strong, healthy and full of energy"
+     "strong, healthy and full of energy",
+     3.46
     ],
     [
      "dynamic",
-     "full of energy and new ideas"
+     "full of energy and new ideas",
+     4.31
     ],
     [
      "spirited",
-     "full of energy and determination"
+     "full of energy and determination",
+     3.55
     ],
     [
      "sprightly",
-     "lively, especially of an older person"
+     "lively, especially of an older person",
+     2.49
     ]
    ]
   },
@@ -1273,19 +1466,23 @@
    "words": [
     [
      "meticulous",
-     "very careful and precise"
+     "very careful and precise",
+     3.24
     ],
     [
      "scrupulous",
-     "thorough and very careful"
+     "thorough and very careful",
+     2.57
     ],
     [
      "punctilious",
-     "showing great attention to detail or correct behaviour"
+     "showing great attention to detail or correct behaviour",
+     1.76
     ],
     [
      "fastidious",
-     "very attentive to accuracy and detail"
+     "very attentive to accuracy and detail",
+     2.64
     ]
    ]
   },
@@ -1298,19 +1495,23 @@
    "words": [
     [
      "negligent",
-     "failing to take proper care"
+     "failing to take proper care",
+     3.33
     ],
     [
      "slapdash",
-     "done too hurriedly and carelessly"
+     "done too hurriedly and carelessly",
+     2.0
     ],
     [
      "sloppy",
-     "careless and unsystematic"
+     "careless and unsystematic",
+     3.59
     ],
     [
      "remiss",
-     "lacking care in doing your duty"
+     "lacking care in doing your duty",
+     2.62
     ]
    ]
   },
@@ -1323,19 +1524,23 @@
    "words": [
     [
      "steadfast",
-     "firmly loyal and unwavering in purpose"
+     "firmly loyal and unwavering in purpose",
+     3.14
     ],
     [
      "staunch",
-     "loyal and committed"
+     "loyal and committed",
+     3.2
     ],
     [
      "devoted",
-     "very loving or loyal"
+     "very loving or loyal",
+     4.18
     ],
     [
      "faithful",
-     "remaining loyal"
+     "remaining loyal",
+     4.1
     ]
    ],
    "near": [
@@ -1354,19 +1559,23 @@
    "words": [
     [
      "treacherous",
-     "guilty of betrayal"
+     "guilty of betrayal",
+     3.32
     ],
     [
      "perfidious",
-     "deceitful and untrustworthy"
+     "deceitful and untrustworthy",
+     2.09
     ],
     [
      "faithless",
-     "disloyal, especially to a partner or cause"
+     "disloyal, especially to a partner or cause",
+     2.69
     ],
     [
      "traitorous",
-     "betraying your country or cause"
+     "betraying your country or cause",
+     2.67
     ]
    ]
   },
@@ -1379,19 +1588,23 @@
    "words": [
     [
      "animosity",
-     "strong hostility"
+     "strong hostility",
+     3.17
     ],
     [
      "enmity",
-     "the state of being actively opposed or hostile"
+     "the state of being actively opposed or hostile",
+     3.01
     ],
     [
      "antipathy",
-     "a deep-seated feeling of dislike"
+     "a deep-seated feeling of dislike",
+     2.7
     ],
     [
      "rancour",
-     "long-lasting bitterness or resentment"
+     "long-lasting bitterness or resentment",
+     2.51
     ]
    ]
   },
@@ -1404,19 +1617,23 @@
    "words": [
     [
      "amity",
-     "friendly relations, especially between countries"
+     "friendly relations, especially between countries",
+     2.89
     ],
     [
      "camaraderie",
-     "mutual trust and friendship among people"
+     "mutual trust and friendship among people",
+     2.99
     ],
     [
      "fellowship",
-     "friendly association between people"
+     "friendly association between people",
+     3.86
     ],
     [
      "goodwill",
-     "friendly, helpful feelings"
+     "friendly, helpful feelings",
+     3.67
     ]
    ]
   },
@@ -1429,19 +1646,23 @@
    "words": [
     [
      "inception",
-     "the start of an institution or activity"
+     "the start of an institution or activity",
+     3.65
     ],
     [
      "outset",
-     "the start or beginning"
+     "the start or beginning",
+     3.44
     ],
     [
      "genesis",
-     "the origin or way something was formed"
+     "the origin or way something was formed",
+     3.85
     ],
     [
      "onset",
-     "the beginning of something, especially something bad"
+     "the beginning of something, especially something bad",
+     3.72
     ]
    ]
   },
@@ -1454,19 +1675,23 @@
    "words": [
     [
      "conclusion",
-     "the end or finish of an event"
+     "the end or finish of an event",
+     4.4
     ],
     [
      "finale",
-     "the last part of a show or piece of music"
+     "the last part of a show or piece of music",
+     4.04
     ],
     [
      "termination",
-     "the act of bringing something to an end"
+     "the act of bringing something to an end",
+     3.73
     ],
     [
      "denouement",
-     "the final part of a story, where things are resolved"
+     "the final part of a story, where things are resolved",
+     2.42
     ]
    ]
   },
@@ -1479,19 +1704,23 @@
    "words": [
     [
      "penury",
-     "extreme poverty"
+     "extreme poverty",
+     2.09
     ],
     [
      "destitution",
-     "poverty so extreme that you lack the basics"
+     "poverty so extreme that you lack the basics",
+     2.43
     ],
     [
      "indigence",
-     "the state of being poor"
+     "the state of being poor",
+     1.57
     ],
     [
      "privation",
-     "a lack of basic necessities"
+     "a lack of basic necessities",
+     2.16
     ]
    ]
   },
@@ -1504,19 +1733,23 @@
    "words": [
     [
      "affluence",
-     "having a great deal of money"
+     "having a great deal of money",
+     2.74
     ],
     [
      "opulence",
-     "great wealth or luxury"
+     "great wealth or luxury",
+     2.69
     ],
     [
      "prosperity",
-     "financial success"
+     "financial success",
+     3.91
     ],
     [
      "riches",
-     "large amounts of money or valuables"
+     "large amounts of money or valuables",
+     3.57
     ]
    ]
   },
@@ -1528,19 +1761,23 @@
    "words": [
     [
      "mayhem",
-     "violent or damaging disorder"
+     "violent or damaging disorder",
+     3.45
     ],
     [
      "pandemonium",
-     "wild and noisy disorder"
+     "wild and noisy disorder",
+     2.69
     ],
     [
      "tumult",
-     "confused, noisy disorder, especially of a crowd"
+     "confused, noisy disorder, especially of a crowd",
+     2.7
     ],
     [
      "bedlam",
-     "a scene of uproar and confusion"
+     "a scene of uproar and confusion",
+     2.69
     ]
    ]
   },
@@ -1553,19 +1790,23 @@
    "words": [
     [
      "undermine",
-     "to weaken gradually or secretly"
+     "to weaken gradually or secretly",
+     3.65
     ],
     [
      "sap",
-     "to gradually weaken or drain"
+     "to gradually weaken or drain",
+     3.6
     ],
     [
      "enfeeble",
-     "to make weak"
+     "to make weak",
+     1.37
     ],
     [
      "debilitate",
-     "to make someone very weak"
+     "to make someone very weak",
+     1.7
     ]
    ]
   },
@@ -1578,19 +1819,23 @@
    "words": [
     [
      "bolster",
-     "to support or strengthen"
+     "to support or strengthen",
+     3.31
     ],
     [
      "fortify",
-     "to strengthen, especially against attack"
+     "to strengthen, especially against attack",
+     2.9
     ],
     [
      "reinforce",
-     "to strengthen with extra material or support"
+     "to strengthen with extra material or support",
+     3.68
     ],
     [
      "buttress",
-     "to support or strengthen an argument or structure"
+     "to support or strengthen an argument or structure",
+     2.67
     ]
    ]
   },
@@ -1603,19 +1848,23 @@
    "words": [
     [
      "conceal",
-     "to keep from sight or knowledge"
+     "to keep from sight or knowledge",
+     3.52
     ],
     [
      "secrete",
-     "to hide in a secret place"
+     "to hide in a secret place",
+     2.72
     ],
     [
      "cloak",
-     "to hide or disguise"
+     "to hide or disguise",
+     3.57
     ],
     [
      "veil",
-     "to partly hide or disguise"
+     "to partly hide or disguise",
+     3.66
     ]
    ]
   },
@@ -1628,19 +1877,23 @@
    "words": [
     [
      "disclose",
-     "to make secret information known"
+     "to make secret information known",
+     3.84
     ],
     [
      "divulge",
-     "to reveal something private or secret"
+     "to reveal something private or secret",
+     2.93
     ],
     [
      "unveil",
-     "to show or announce publicly for the first time"
+     "to show or announce publicly for the first time",
+     3.2
     ],
     [
      "expose",
-     "to reveal the true nature of, often something bad"
+     "to reveal the true nature of, often something bad",
+     3.98
     ]
    ]
   },
@@ -1653,19 +1906,23 @@
    "words": [
     [
      "placate",
-     "to make someone less angry"
+     "to make someone less angry",
+     2.77
     ],
     [
      "appease",
-     "to calm someone by giving in to their demands"
+     "to calm someone by giving in to their demands",
+     3.2
     ],
     [
      "pacify",
-     "to calm someone's anger or distress"
+     "to calm someone's anger or distress",
+     2.73
     ],
     [
      "mollify",
-     "to soften someone's anger"
+     "to soften someone's anger",
+     2.04
     ]
    ]
   },
@@ -1678,19 +1935,23 @@
    "words": [
     [
      "incite",
-     "to encourage violent or unlawful behaviour"
+     "to encourage violent or unlawful behaviour",
+     3.12
     ],
     [
      "goad",
-     "to provoke or urge into action"
+     "to provoke or urge into action",
+     2.65
     ],
     [
      "inflame",
-     "to stir up anger or other strong feeling"
+     "to stir up anger or other strong feeling",
+     2.58
     ],
     [
      "rile",
-     "to make someone annoyed or irritated"
+     "to make someone annoyed or irritated",
+     2.49
     ]
    ]
   },
@@ -1707,19 +1968,23 @@
    "words": [
     [
      "augment",
-     "to make larger by adding to"
+     "to make larger by adding to",
+     3.19
     ],
     [
      "amplify",
-     "to increase the volume or strength of"
+     "to increase the volume or strength of",
+     3.16
     ],
     [
      "escalate",
-     "to increase rapidly in intensity"
+     "to increase rapidly in intensity",
+     3.35
     ],
     [
      "expand",
-     "to become or make larger"
+     "to become or make larger",
+     4.35
     ]
    ]
   },
@@ -1735,19 +2000,23 @@
    "words": [
     [
      "diminish",
-     "to make or become less"
+     "to make or become less",
+     3.46
     ],
     [
      "curtail",
-     "to reduce or restrict"
+     "to reduce or restrict",
+     2.98
     ],
     [
      "abate",
-     "to become less intense"
+     "to become less intense",
+     2.68
     ],
     [
      "lessen",
-     "to make or become less"
+     "to make or become less",
+     3.37
     ]
    ]
   },
@@ -1759,19 +2028,23 @@
    "words": [
     [
      "vacillate",
-     "to keep changing your mind"
+     "to keep changing your mind",
+     1.77
     ],
     [
      "waver",
-     "to be undecided between options"
+     "to be undecided between options",
+     2.75
     ],
     [
      "dither",
-     "to be indecisive"
+     "to be indecisive",
+     2.11
     ],
     [
      "falter",
-     "to hesitate or lose confidence while doing something"
+     "to hesitate or lose confidence while doing something",
+     2.82
     ]
    ]
   },
@@ -1784,19 +2057,23 @@
    "words": [
     [
      "prohibit",
-     "to formally forbid by law or rule"
+     "to formally forbid by law or rule",
+     3.51
     ],
     [
      "proscribe",
-     "to forbid, especially by law"
+     "to forbid, especially by law",
+     1.82
     ],
     [
      "ban",
-     "to officially prohibit"
+     "to officially prohibit",
+     4.55
     ],
     [
      "outlaw",
-     "to make illegal"
+     "to make illegal",
+     3.51
     ]
    ]
   },
@@ -1809,19 +2086,724 @@
    "words": [
     [
      "permit",
-     "to officially allow"
+     "to officially allow",
+     4.22
     ],
     [
      "authorise",
-     "to give official permission for"
+     "to give official permission for",
+     3.38
     ],
     [
      "license",
-     "to grant a formal permission to"
+     "to grant a formal permission to",
+     4.52
     ],
     [
      "approve",
-     "to officially agree to or accept"
+     "to officially agree to or accept",
+     4.08
+    ]
+   ]
+  },
+  {
+   "id": "fawning",
+   "pos": "adj",
+   "level": 3,
+   "sense": "too eager to please",
+   "near": [
+    "compliant",
+    "humble"
+   ],
+   "words": [
+    [
+     "obsequious",
+     "too eager to please or obey",
+     2.14
+    ],
+    [
+     "sycophantic",
+     "flattering powerful people to gain favour",
+     2.17
+    ],
+    [
+     "servile",
+     "excessively willing to serve or please others",
+     2.45
+    ],
+    [
+     "unctuous",
+     "excessively flattering in an oily way",
+     2.03
+    ]
+   ]
+  },
+  {
+   "id": "obscure",
+   "pos": "adj",
+   "level": 3,
+   "sense": "hard to understand",
+   "ant": "lucid",
+   "near": [
+    "hidden"
+   ],
+   "words": [
+    [
+     "abstruse",
+     "difficult to understand",
+     2.13
+    ],
+    [
+     "arcane",
+     "understood by few; mysterious",
+     2.99
+    ],
+    [
+     "recondite",
+     "little known and hard to understand",
+     1.73
+    ],
+    [
+     "esoteric",
+     "intended for only a small group with special knowledge",
+     3.17
+    ]
+   ]
+  },
+  {
+   "id": "lucid",
+   "pos": "adj",
+   "level": 3,
+   "sense": "clear and easy to understand",
+   "ant": "obscure",
+   "near": [
+    "open",
+    "concise"
+   ],
+   "words": [
+    [
+     "lucid",
+     "expressed clearly; easy to understand",
+     3.27
+    ],
+    [
+     "pellucid",
+     "translucently clear, in style or meaning",
+     1.6
+    ],
+    [
+     "perspicuous",
+     "clearly expressed and easily understood",
+     1.25
+    ],
+    [
+     "limpid",
+     "clear, in style or in water",
+     2.04
+    ]
+   ]
+  },
+  {
+   "id": "irritable",
+   "pos": "adj",
+   "level": 3,
+   "sense": "easily annoyed",
+   "near": [
+    "angry",
+    "hostile",
+    "gloomy",
+    "agitated"
+   ],
+   "words": [
+    [
+     "cantankerous",
+     "bad-tempered and uncooperative",
+     2.34
+    ],
+    [
+     "irascible",
+     "easily made angry",
+     2.29
+    ],
+    [
+     "testy",
+     "easily irritated; impatient",
+     2.54
+    ],
+    [
+     "splenetic",
+     "bad-tempered or spiteful",
+     1.42
+    ]
+   ]
+  },
+  {
+   "id": "eulogy",
+   "pos": "noun",
+   "level": 3,
+   "sense": "a speech or piece of writing full of praise",
+   "ant": "invective",
+   "words": [
+    [
+     "panegyric",
+     "a public speech or text in praise of someone",
+     2.0
+    ],
+    [
+     "encomium",
+     "a speech or piece of writing that praises highly",
+     1.82
+    ],
+    [
+     "paean",
+     "a song or piece of writing expressing praise or triumph",
+     2.41
+    ],
+    [
+     "accolade",
+     "an award or expression of praise",
+     2.82
+    ]
+   ]
+  },
+  {
+   "id": "invective",
+   "pos": "noun",
+   "level": 3,
+   "sense": "abusive, insulting language",
+   "ant": "eulogy",
+   "near": [
+    "hatred"
+   ],
+   "words": [
+    [
+     "invective",
+     "insulting or highly critical language",
+     2.41
+    ],
+    [
+     "vituperation",
+     "bitter and abusive language",
+     1.52
+    ],
+    [
+     "obloquy",
+     "strong public criticism; disgrace",
+     1.3
+    ],
+    [
+     "diatribe",
+     "a bitter verbal attack",
+     2.58
+    ]
+   ]
+  },
+  {
+   "id": "dearth",
+   "pos": "noun",
+   "level": 3,
+   "sense": "a shortage",
+   "ant": "surfeit",
+   "near": [
+    "poverty"
+   ],
+   "words": [
+    [
+     "dearth",
+     "a scarcity or lack of something",
+     2.92
+    ],
+    [
+     "paucity",
+     "the presence of something in only small amounts",
+     2.61
+    ],
+    [
+     "scarcity",
+     "the state of being in short supply",
+     3.37
+    ],
+    [
+     "insufficiency",
+     "the condition of not being enough",
+     2.69
+    ]
+   ]
+  },
+  {
+   "id": "surfeit",
+   "pos": "noun",
+   "level": 3,
+   "sense": "too much of something",
+   "ant": "dearth",
+   "near": [
+    "wealth"
+   ],
+   "words": [
+    [
+     "surfeit",
+     "an excessive amount of something",
+     2.22
+    ],
+    [
+     "glut",
+     "a supply that exceeds demand",
+     2.81
+    ],
+    [
+     "plethora",
+     "a large or excessive amount",
+     3.24
+    ],
+    [
+     "superfluity",
+     "an unnecessarily large amount",
+     1.43
+    ]
+   ]
+  },
+  {
+   "id": "wander",
+   "pos": "verb",
+   "level": 3,
+   "sense": "to travel about with no fixed route",
+   "words": [
+    [
+     "meander",
+     "to follow a winding course",
+     2.69
+    ],
+    [
+     "roam",
+     "to move about with no purpose",
+     3.46
+    ],
+    [
+     "perambulate",
+     "to walk from place to place",
+     1.33
+    ],
+    [
+     "peregrinate",
+     "to travel or wander from place to place",
+     1.0
+    ]
+   ]
+  },
+  {
+   "id": "delay",
+   "pos": "verb",
+   "level": 3,
+   "sense": "to put off acting",
+   "near": [
+    "hesitate"
+   ],
+   "words": [
+    [
+     "procrastinate",
+     "to delay doing something you should do",
+     2.71
+    ],
+    [
+     "temporise",
+     "to delay a decision to gain time",
+     1.18
+    ],
+    [
+     "dally",
+     "to act or move slowly; to waste time",
+     3.45
+    ],
+    [
+     "stall",
+     "to stop or delay, especially to gain time",
+     3.79
+    ]
+   ]
+  },
+  {
+   "id": "wasteful",
+   "pos": "adj",
+   "level": 3,
+   "sense": "spending money recklessly",
+   "near": [
+    "generous",
+    "careless",
+    "abundant"
+   ],
+   "words": [
+    [
+     "profligate",
+     "recklessly extravagant or wasteful",
+     2.37
+    ],
+    [
+     "prodigal",
+     "spending money freely and recklessly",
+     2.92
+    ],
+    [
+     "spendthrift",
+     "spending money in an extravagant way",
+     2.23
+    ],
+    [
+     "improvident",
+     "not providing for the future",
+     1.41
+    ]
+   ]
+  },
+  {
+   "id": "undeniable",
+   "pos": "adj",
+   "level": 3,
+   "sense": "impossible to dispute",
+   "near": [
+    "open"
+   ],
+   "words": [
+    [
+     "incontrovertible",
+     "not able to be denied or disputed",
+     2.46
+    ],
+    [
+     "indisputable",
+     "unable to be challenged",
+     2.85
+    ],
+    [
+     "unassailable",
+     "unable to be attacked or questioned",
+     2.54
+    ],
+    [
+     "irrefutable",
+     "impossible to prove wrong",
+     2.74
+    ]
+   ]
+  },
+  {
+   "id": "showy",
+   "pos": "adj",
+   "level": 2,
+   "sense": "designed to impress",
+   "near": [
+    "open",
+    "arrogant",
+    "extraordinary"
+   ],
+   "words": [
+    [
+     "ostentatious",
+     "designed to impress or attract notice",
+     2.68
+    ],
+    [
+     "flamboyant",
+     "confident and showy in style",
+     3.06
+    ],
+    [
+     "garish",
+     "obtrusively bright and showy",
+     2.58
+    ],
+    [
+     "gaudy",
+     "tastelessly bright or showy",
+     2.83
+    ]
+   ]
+  },
+  {
+   "id": "ominous",
+   "pos": "adj",
+   "level": 3,
+   "sense": "suggesting something bad will happen",
+   "near": [
+    "malevolent",
+    "gloomy"
+   ],
+   "words": [
+    [
+     "ominous",
+     "giving the impression something bad is going to happen",
+     3.4
+    ],
+    [
+     "portentous",
+     "warning of something important or bad to come",
+     2.14
+    ],
+    [
+     "foreboding",
+     "filling you with fear that something bad will happen",
+     2.79
+    ],
+    [
+     "inauspicious",
+     "not suggesting future success",
+     2.39
+    ]
+   ]
+  },
+  {
+   "id": "fickle",
+   "pos": "adj",
+   "level": 3,
+   "sense": "changing your mind often",
+   "near": [
+    "loyal",
+    "disloyal",
+    "agitated"
+   ],
+   "words": [
+    [
+     "capricious",
+     "given to sudden changes of mood or behaviour",
+     2.79
+    ],
+    [
+     "mercurial",
+     "subject to sudden changes of mood",
+     2.82
+    ],
+    [
+     "fickle",
+     "changing loyalties or interests often",
+     3.12
+    ],
+    [
+     "volatile",
+     "liable to change rapidly and unpredictably",
+     3.72
+    ]
+   ]
+  },
+  {
+   "id": "shorten",
+   "pos": "verb",
+   "level": 2,
+   "sense": "to make shorter",
+   "near": [
+    "decrease",
+    "weaken"
+   ],
+   "words": [
+    [
+     "abridge",
+     "to shorten a text without losing its sense",
+     1.95
+    ],
+    [
+     "truncate",
+     "to shorten by cutting off the end",
+     2.24
+    ],
+    [
+     "condense",
+     "to express in fewer words",
+     2.71
+    ],
+    [
+     "abbreviate",
+     "to shorten a word or phrase",
+     2.23
+    ]
+   ]
+  },
+  {
+   "id": "coax",
+   "pos": "verb",
+   "level": 3,
+   "sense": "to persuade gently or with flattery",
+   "near": [
+    "soothe"
+   ],
+   "words": [
+    [
+     "cajole",
+     "to persuade by flattery or gentle urging",
+     2.19
+    ],
+    [
+     "wheedle",
+     "to persuade using flattery or charm",
+     1.77
+    ],
+    [
+     "inveigle",
+     "to persuade by deception or flattery",
+     1.51
+    ],
+    [
+     "coax",
+     "to persuade gradually and gently",
+     2.96
+    ]
+   ]
+  },
+  {
+   "id": "tiny",
+   "pos": "adj",
+   "level": 2,
+   "sense": "extremely small",
+   "ant": "huge",
+   "near": [
+    "scarce"
+   ],
+   "words": [
+    [
+     "minuscule",
+     "extremely small",
+     2.99
+    ],
+    [
+     "infinitesimal",
+     "too small to be measured",
+     2.63
+    ],
+    [
+     "diminutive",
+     "extremely or unusually small",
+     3.09
+    ],
+    [
+     "Lilliputian",
+     "trivial or very small",
+     1.88
+    ]
+   ]
+  },
+  {
+   "id": "huge",
+   "pos": "adj",
+   "level": 2,
+   "sense": "extremely large",
+   "ant": "tiny",
+   "near": [
+    "extraordinary",
+    "abundant"
+   ],
+   "words": [
+    [
+     "gargantuan",
+     "enormous in size or amount",
+     2.66
+    ],
+    [
+     "colossal",
+     "extremely large",
+     3.37
+    ],
+    [
+     "mammoth",
+     "huge in size or scale",
+     3.4
+    ],
+    [
+     "gigantic",
+     "of very great size",
+     3.63
+    ]
+   ]
+  },
+  {
+   "id": "quarrel",
+   "pos": "noun",
+   "level": 3,
+   "sense": "a noisy argument or awkward dispute",
+   "near": [
+    "chaos",
+    "hatred"
+   ],
+   "words": [
+    [
+     "fracas",
+     "a noisy disturbance or quarrel",
+     2.38
+    ],
+    [
+     "altercation",
+     "a noisy argument",
+     3.12
+    ],
+    [
+     "imbroglio",
+     "an extremely confused or embarrassing situation",
+     1.94
+    ],
+    [
+     "contretemps",
+     "a minor dispute or awkward disagreement",
+     1.75
+    ]
+   ]
+  },
+  {
+   "id": "outdated",
+   "pos": "adj",
+   "level": 3,
+   "sense": "old-fashioned",
+   "near": [
+    "permanent"
+   ],
+   "words": [
+    [
+     "antiquated",
+     "old-fashioned or outdated",
+     3.06
+    ],
+    [
+     "obsolete",
+     "no longer produced or used",
+     3.65
+    ],
+    [
+     "archaic",
+     "very old or old-fashioned",
+     3.36
+    ],
+    [
+     "antediluvian",
+     "ridiculously old-fashioned",
+     2.08
+    ]
+   ]
+  },
+  {
+   "id": "sluggish",
+   "pos": "adj",
+   "level": 3,
+   "sense": "slow and lacking energy",
+   "near": [
+    "tired",
+    "lazy",
+    "calm"
+   ],
+   "words": [
+    [
+     "torpid",
+     "mentally or physically inactive",
+     1.73
+    ],
+    [
+     "lethargic",
+     "lacking energy or enthusiasm",
+     2.78
+    ],
+    [
+     "languid",
+     "relaxed and slow, unwilling to make an effort",
+     2.54
+    ],
+    [
+     "listless",
+     "lacking energy or interest",
+     2.53
     ]
    ]
   }

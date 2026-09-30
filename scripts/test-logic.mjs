@@ -28,6 +28,7 @@ import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { buildLinkRounds, linkPoints } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
+import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel } from '../src/games/vocab/vocabTest.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -898,9 +899,10 @@ test('vocab: every word appears once, opposites and near links point at real fam
   const ids = new Map(VOCAB.map((g) => [g.id, g]));
   for (const g of VOCAB) {
     assert.ok(g.words.length >= 3, `${g.id} has fewer than 3 words`);
-    for (const [w, d] of g.words) {
+    for (const [w, d, z] of g.words) {
       assert.ok(!seen.has(w), `${w} appears twice`);
       assert.ok(d && d.length > 5, `${w} has no definition`);
+      assert.ok(typeof z === 'number' && z >= 1 && z < 7, `${w}: no frequency (run scripts/build-vocab-freq.py)`);
       seen.add(w);
     }
     if (g.ant) {
@@ -950,6 +952,42 @@ test('vocab: the reveal marks the synonym trap and the opposite', () => {
   const r = buildVocabRounds(VOCAB, { seed: 3, type: 'ant' })[0];
   const roles = explainRound(r, VOCAB).options.map((o) => o.role).sort();
   assert.deepEqual(roles.filter((x) => x !== 'unrelated'), ['opposite', 'trap']);
+});
+
+// Anchors chosen before looking at the output: plain words are common, the
+// famously obscure ones rare, and the test recovers the level of a player who
+// knows exactly the words down to a known rarity.
+test('vocab test: word frequencies put plain words above obscure ones', () => {
+  const z = new Map(VOCAB.flatMap((g) => g.words.map(([w, , f]) => [w, f])));
+  for (const w of ['ban', 'expand']) assert.ok(z.get(w) > 3.5, `${w} ${z.get(w)}`);
+  for (const w of ['pusillanimous', 'sedulous', 'prolix']) assert.ok(z.get(w) < 2, `${w} ${z.get(w)}`);
+  assert.ok(z.get('open-handed') < 3, 'hyphenated override applied');
+});
+const simulate = (cutoff, seed) => {
+  const ctx = testContext(VOCAB);
+  const rand = makeRng(seed);
+  let post = prior(), used = [], est = estimate(post);
+  for (let i = 0; i < TEST_LENGTH; i++) {
+    const r = nextRound(ctx, { level: est.level, usedGroups: used, index: i, seed });
+    assert.ok(r, `ran out of questions at ${i}`);
+    assert.ok(!used.includes(r.group), 'family repeated in a test');
+    used.push(r.group);
+    const g = guessRate(r);
+    post = update(post, r.zipf, g, r.zipf >= cutoff || rand() < g);
+    est = estimate(post);
+  }
+  return est.level;
+};
+test('vocab test: recovers a simulated player level, and a wider vocabulary scores higher', () => {
+  const mean = (c) => Array.from({ length: 40 }, (_, k) => simulate(c, k + 1)).reduce((a, b) => a + b, 0) / 40;
+  const m = [1.5, 2, 2.5, 3, 3.5].map(mean);
+  [1.5, 2, 2.5, 3, 3.5].forEach((c, i) => assert.ok(Math.abs(m[i] - c) < 0.3, `cutoff ${c} estimated ${m[i].toFixed(2)}`));
+  for (let i = 1; i < m.length; i++) assert.ok(m[i] > m[i - 1], 'level not monotonic in vocabulary');
+});
+test('vocab test: guess rates and plain-words level', () => {
+  assert.equal(guessRate({ type: 'meaning', options: [1, 2, 3, 4], pick: 1 }), 0.25);
+  assert.equal(guessRate({ type: 'syn', options: [1, 2, 3, 4, 5], pick: 2 }), 0.1);
+  assert.match(describeLevel(2), /about once in every 110 novels/);
 });
 
 // ------------------------------------------------------------------ report
