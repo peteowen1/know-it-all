@@ -5,10 +5,11 @@ import { buildVocabRounds, isCorrect, explainRound } from './vocabLogic';
 import { gameEntry, itemWeights, weakestItems } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import TestMode from './TestMode';
-import { testContext, newTest } from './vocabTest.js';
+import { testContext, newTest, TEST_LENGTHS, scaleBounds, formatLevel } from './vocabTest.js';
 
 const ALL_WORDS = data.groups.flatMap((g) => g.words.map(([w, d]) => ({ w, d })));
 const DEF = new Map(ALL_WORDS.map(({ w, d }) => [w, d]));
+const BOUNDS = scaleBounds(data.groups);
 const GROUP_IDS = new Set(data.groups.map((g) => g.id));
 
 // A game saved before vocab.json changed can name a family or word that no
@@ -16,6 +17,7 @@ const GROUP_IDS = new Set(data.groups.map((g) => g.id));
 const stillValid = (game) =>
   Array.isArray(game?.rounds) && game.rounds.every((r) => GROUP_IDS.has(r.group) && r.options.every((w) => DEF.has(w)));
 
+const PRACTICE_LENGTHS = [5, 10, 20];
 const TYPE_LABEL = { mixed: 'Mixed', syn: 'Synonyms', ant: 'Opposites', meaning: 'Meanings' };
 const LEVEL_LABEL = { easy: 'Everyday', all: 'Mixed', hard: 'Advanced' };
 const ROLE_LABEL = { same: 'same meaning', trap: 'same meaning (the trap)', opposite: 'opposite', unrelated: '' };
@@ -38,9 +40,11 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
   const test = savedTest && stillValid(savedTest) ? savedTest : null;
   const [rawHistory, setHistory] = usePersistentState('word_play_history', []);
   const history = Array.isArray(rawHistory) ? rawHistory.filter((h) => Number.isFinite(h?.level)) : [];
-  const [prefs, setPrefs] = usePersistentState('word_play_prefs', { type: 'mixed', level: 'all' });
+  const [prefs, setPrefs] = usePersistentState('word_play_prefs', { type: 'mixed', level: 'all', practiceLength: 10, testLength: 10 });
+  const practiceLength = PRACTICE_LENGTHS.includes(prefs.practiceLength) ? prefs.practiceLength : 10;
+  const testLength = TEST_LENGTHS.includes(prefs.testLength) ? prefs.testLength : 10;
   const entry = gameEntry(stats, 'vocab');
-  const startTest = () => setTest(newTest(testContext(data.groups)));
+  const startTest = () => setTest(newTest(testContext(data.groups), testLength));
 
   if (test) {
     return (
@@ -53,7 +57,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
           setHistory(() => [...history, { date: res.date, level: res.level, sd: res.sd }].slice(-50));
           onRoundComplete('vocab-test', { score: res.right, total: res.total, answers: [] });
         }}
-        onAgain={startTest}
+        onAgain={() => setTest(newTest(testContext(data.groups), test.length || testLength))}
         onExit={() => setTest(null)}
       />
     );
@@ -61,7 +65,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
 
   const start = () => {
     const weights = itemWeights(stats, 'vocab', ALL_WORDS.map((x) => x.w));
-    const rounds = buildVocabRounds(data.groups, { seed: `${Date.now()}`, type: prefs.type, level: prefs.level, weights });
+    const rounds = buildVocabRounds(data.groups, { seed: `${Date.now()}`, type: prefs.type, level: prefs.level, count: practiceLength, weights });
     setGame({ rounds, index: 0, picked: [], results: [] });
   };
 
@@ -73,30 +77,43 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
           <h2>Word play</h2>
           <button className="btn btn-ghost" onClick={onExit}>All games</button>
         </div>
-        <p className="game-record">
-          Ten rounds of synonyms, opposites and meanings. Every answer shows what each word means and its whole
-          family, and words you miss come back more often.
-          {entry.plays ? ` ${entry.plays} played · best ${entry.best}/10.` : ''}
-        </p>
-        <div className="vp-choice">
-          {Object.entries(TYPE_LABEL).map(([k, label]) => (
-            <button key={k} className={`btn ${prefs.type === k ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, type: k })}>{label}</button>
-          ))}
-        </div>
-        <div className="vp-choice">
-          {Object.entries(LEVEL_LABEL).map(([k, label]) => (
-            <button key={k} className={`btn ${prefs.level === k ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, level: k })}>{label}</button>
-          ))}
-        </div>
-        <div className="actions-bar">
-          <button className="btn btn-primary" onClick={start}>Practise</button>
-          <button className="btn btn-ghost" onClick={startTest}>Take the test</button>
-        </div>
-        <p className="game-record">
-          The test is 20 questions that get harder as you get them right, with the answers at the end. It gives you a
-          level based on how rare the words you know are.
-          {history.length ? ` Last test: level ${history[history.length - 1].level.toFixed(1)}.` : ''}
-        </p>
+        <section className="vp-mode">
+          <h3>Practise</h3>
+          <p className="game-record">
+            Every answer shows what each word means and its whole family, and words you miss come back more often.
+            {entry.plays ? ` ${entry.plays} played · best ${entry.bestPct}%.` : ''}
+          </p>
+          <div className="vp-choice">
+            {Object.entries(TYPE_LABEL).map(([k, label]) => (
+              <button key={k} className={`btn ${prefs.type === k ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, type: k })}>{label}</button>
+            ))}
+          </div>
+          <div className="vp-choice">
+            {Object.entries(LEVEL_LABEL).map(([k, label]) => (
+              <button key={k} className={`btn ${prefs.level === k ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, level: k })}>{label}</button>
+            ))}
+          </div>
+          <div className="vp-choice">
+            {PRACTICE_LENGTHS.map((n) => (
+              <button key={n} className={`btn ${practiceLength === n ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, practiceLength: n })}>{n} rounds</button>
+            ))}
+          </div>
+          <button className="btn btn-primary" onClick={start}>Start practice</button>
+        </section>
+        <section className="vp-mode">
+          <h3>Test</h3>
+          <p className="game-record">
+            Questions get harder as you get them right, and answers are shown at the end. Gives you a level based on how
+            rare the words you know are; the longer test is more precise.
+            {history.length ? ` Last test: ${formatLevel(history[history.length - 1].level, BOUNDS)}.` : ''}
+          </p>
+          <div className="vp-choice">
+            {TEST_LENGTHS.map((n) => (
+              <button key={n} className={`btn ${testLength === n ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, testLength: n })}>{n} questions</button>
+            ))}
+          </div>
+          <button className="btn btn-primary" onClick={startTest}>Start test</button>
+        </section>
         {weak.length > 0 && (
           <div className="vp-weak">
             <h3>Your tricky words</h3>
@@ -128,7 +145,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
           ))}
         </div>
         <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={start}><RotateCcw size={18} /> Another ten</button>
+          <button className="btn btn-primary" onClick={start}><RotateCcw size={18} /> Play again</button>
           <button className="btn btn-ghost" onClick={() => setGame(null)}>Back</button>
         </div>
       </div>

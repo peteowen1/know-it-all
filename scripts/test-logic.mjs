@@ -28,7 +28,7 @@ import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { buildLinkRounds, linkPoints } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
-import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel } from '../src/games/vocab/vocabTest.js';
+import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel, scaleBounds, formatLevel } from '../src/games/vocab/vocabTest.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
@@ -988,6 +988,12 @@ test('vocab test: guess rates and plain-words level', () => {
   assert.equal(guessRate({ type: 'meaning', options: [1, 2, 3, 4], pick: 1 }), 0.25);
   assert.equal(guessRate({ type: 'syn', options: [1, 2, 3, 4, 5], pick: 2 }), 0.1);
   assert.match(describeLevel(2), /about once in every 110 novels/);
+});
+test('vocab test: a level outside the words in the set is shown as off the scale, not a number', () => {
+  const b = scaleBounds(VOCAB);
+  assert.equal(formatLevel(2.34, b), 'level 2.3');
+  assert.equal(formatLevel(5.2, b), 'below the bottom of the scale');
+  assert.equal(formatLevel(0.4, b), 'off the top of the scale');
 });
 
 // ------------------------------------------------------------------ report
