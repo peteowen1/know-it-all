@@ -2,14 +2,13 @@ import React, { useMemo, useRef } from 'react';
 import { ArrowRight, CheckCircle2, XCircle } from 'lucide-react';
 import data from '../../data/vocab.json';
 import { explainRound } from './vocabLogic';
-import { testContext, nextRound, scoreAnswers, guessRate, describeLevel, TEST_LENGTH } from './vocabTest.js';
+import { testContext, nextRound, scoreAnswers, guessRate, describeLevel, TEST_LENGTH, scaleBounds, formatLevel } from './vocabTest.js';
 import { localDateKey } from '../../lib/dates';
 
-// The measurable range: the rarest and commonest words in the set. A level
-// outside it is extrapolation, so it is reported as a bound, not a number.
-const ZIPFS = data.groups.flatMap((g) => g.words.map((w) => w[2]));
-const LOWEST = Math.min(...ZIPFS) + 0.2;
-const HIGHEST = Math.max(...ZIPFS) - 0.2;
+const BOUNDS = scaleBounds(data.groups);
+const LOWEST = BOUNDS.lowest;
+const HIGHEST = BOUNDS.highest;
+const onScale = (level) => level >= LOWEST && level <= HIGHEST;
 
 /**
  * The adaptive test: twenty questions, no answers shown until the end, each
@@ -22,7 +21,9 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
   // whose options appear under the same finger. Ignore taps just after an answer.
   const lastAnswer = useRef(0);
   const { rounds, answers, picked } = test;
-  const done = answers.length >= TEST_LENGTH || answers.length === rounds.length;
+  // Tests saved before lengths were selectable have none: they were 20.
+  const length = test.length || TEST_LENGTH;
+  const done = answers.length >= length || answers.length === rounds.length;
 
   if (done) {
     const { level, sd } = scoreAnswers(answers);
@@ -49,7 +50,7 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
             {history.slice(-5).map((h, i) => (
               <div key={`${h.date}-${i}`} className="ny-sum-row">
                 <span>{h.date}</span>
-                <strong>{h.level.toFixed(1)} ± {h.sd.toFixed(1)}</strong>
+                <strong>{onScale(h.level) ? `${h.level.toFixed(1)} ± ${h.sd.toFixed(1)}` : formatLevel(h.level, BOUNDS)}</strong>
               </div>
             ))}
           </div>
@@ -88,7 +89,7 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
     const right = sel.length === r.answer.length && r.answer.every((w) => sel.includes(w));
     for (const key of new Set([r.target, ...r.answer])) onAnswer('vocab', key, right);
     const next = [...answers, { picked: sel, right, zipf: r.zipf, guess: guessRate(r) }];
-    const more = next.length < TEST_LENGTH
+    const more = next.length < length
       ? nextRound(ctx, { level: scoreAnswers(next).level, usedGroups: rounds.map((x) => x.group), index: next.length, seed: test.seed })
       : null;
     setTest({ ...test, answers: next, picked: [], rounds: more ? [...rounds, more] : rounds });
@@ -115,7 +116,7 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
   return (
     <div className="card geo-question">
       <div className="progress-text">
-        <span>Test · question {index + 1} of {TEST_LENGTH}</span>
+        <span>Test · question {index + 1} of {length}</span>
         <button className="btn btn-ghost" onClick={onExit}>Stop</button>
       </div>
       <p className="geo-ask">{ask}</p>

@@ -22,6 +22,9 @@ import { makeRng, hashString } from '../../lib/rng.js';
 import { indexGroups, roundFor } from './vocabLogic.js';
 
 export const TEST_LENGTH = 20;
+// Simulated players: the stated ± on the level is about 0.37 at 10 questions
+// and 0.24 at 20; at 5 it is 0.56, too loose to be worth a number.
+export const TEST_LENGTHS = [10, 20];
 export const SLOPE = 2.5;
 const PRIOR_MEAN = 3;
 const PRIOR_SD = 1.2;
@@ -69,6 +72,23 @@ export function estimate(post) {
   return { level: mean, sd };
 }
 
+/**
+ * The range a level can honestly be given as a number: just inside the
+ * rarest and commonest words in the set. Outside it the estimate is
+ * extrapolation, so it is shown as off the scale instead.
+ */
+export function scaleBounds(groups) {
+  const z = groups.flatMap((g) => g.words.map((w) => w[2]));
+  return { lowest: Math.min(...z) + 0.2, highest: Math.max(...z) - 0.2 };
+}
+
+/** A level as shown to the player: a number, or which end of the scale it is off. */
+export function formatLevel(level, { lowest, highest }) {
+  if (level < lowest) return 'off the top of the scale';
+  if (level > highest) return 'below the bottom of the scale';
+  return `level ${level.toFixed(1)}`;
+}
+
 /** Everything the test needs about the data, built once. */
 export function testContext(groups) {
   const { byId } = indexGroups(groups);
@@ -104,11 +124,11 @@ export function nextRound(ctx, { level, usedGroups, index, seed }) {
   return best;
 }
 
-/** A fresh test: its seed and first question, asked at the prior's level. */
-export function newTest(ctx) {
+/** A fresh test: its seed, length and first question, asked at the prior's level. */
+export function newTest(ctx, length = TEST_LENGTH) {
   const seed = `${Date.now()}`;
   const first = nextRound(ctx, { level: PRIOR_MEAN, usedGroups: [], index: 0, seed });
-  return { seed, rounds: [first], answers: [], picked: [] };
+  return { seed, length, rounds: [first], answers: [], picked: [] };
 }
 
 /** Replay a finished test's answers into a level. */
