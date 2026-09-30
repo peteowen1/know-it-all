@@ -1,0 +1,286 @@
+{
+ "_note": "Verdicts from a full review of every WordNet family (Sonnet, judgement only, no dictionary lookups), applied by scripts/build-vocab.py on every build. Keys are family ids as in src/data/vocab.json.",
+ "drop_families": {
+  "wn-accessory.s.02": "obscure jargon words",
+  "wn-acclaim.n.01": "only 2 good words",
+  "wn-acme.n.01": "fewer than 3 good words",
+  "wn-adolescent.n.01": "trivial, stripling archaic",
+  "wn-aglitter.s.01": "coruscant obscure, <3 left",
+  "wn-aglow.s.01": "lucent/lambent obscure, <3 left",
+  "wn-airless.s.01": "<3 good words",
+  "wn-alert.s.01": "spanking misleading, <3 left",
+  "wn-ambush.v.01": "scupper means thwart, <3 left",
+  "wn-amuck.s.01": "amok/amuck duplicate, <3 left",
+  "wn-animate.v.04": "recreate misleads, <3 left",
+  "wn-apprenticed.s.01": "articled obscure, <3 left",
+  "wn-arch.s.01": "arch sense obscure, <3 left",
+  "wn-archpriest.n.01": "church jargon",
+  "wn-askance.s.01": "squint misleading, <3 left",
+  "wn-aviator.n.01": "aeronaut is balloonist, <3 left",
+  "wn-awareness.n.01": "knowingness obscure, <3 left",
+  "wn-barter.n.01": "swop variant, <3 left",
+  "wn-beat_around_the_bush.v.01": "palter obscure, <3 left",
+  "wn-bellied.s.01": "bellying odd, <3 left",
+  "wn-blossoming.n.01": "botanical jargon",
+  "wn-bombast.n.01": "blah/fustian, <3 left",
+  "wn-bonny.s.01": "bonnie/bonny duplicate, sightly obscure",
+  "wn-buffoonery.n.01": "too few good words",
+  "wn-bunk.n.04": "too few good words",
+  "wn-bygone.s.01": "foregone/departed mislead",
+  "wn-caliph.n.01": "spelling variants",
+  "wn-cardinal.s.01": "too few good words",
+  "wn-chatty.s.01": "too few good words",
+  "wn-chitchat.n.01": "too few good words",
+  "wn-clip-clop.n.01": "jargon/odd words",
+  "wn-cloaked.s.02": "too few good words",
+  "wn-coltish.s.01": "too few good words",
+  "wn-controversy.n.01": "too few good words",
+  "wn-coup_d'etat.n.01": "too few good words",
+  "wn-crescent.s.01": "technical",
+  "wn-crudeness.n.01": "too few good words",
+  "wn-curious.s.01": "too few good words",
+  "wn-czar.n.01": "spelling variants",
+  "wn-dad.n.01": "too few good words",
+  "wn-darling.n.01": "dated/condescending",
+  "wn-daze.n.01": "too few good words",
+  "wn-deceive.v.01": "too few good words",
+  "wn-dilatory.s.01": "too few good words",
+  "wn-dirge.n.01": "too few good words",
+  "wn-disassociate.v.01": "words mislead",
+  "wn-divinatory.s.01": "obscure",
+  "wn-documentary.n.01": "words mislead",
+  "wn-downy.s.01": "only 2 good words (flossy obscure)",
+  "wn-drift.n.01": "drift misleading; 2 words left",
+  "wn-dust_storm.n.01": "duster/sirocco wrong",
+  "wn-emir.n.01": "spelling variants of one word",
+  "wn-exorbitant.s.01": "usurious too specific; 2 left",
+  "wn-fairy.n.01": "spelling variants",
+  "wn-filamentous.s.01": "filiform obscure; 2 left",
+  "wn-foray.n.01": "maraud is a verb; 2 left",
+  "wn-gawky.s.01": "clunky misleading; mocking; 2 left",
+  "wn-greasy.s.01": "sebaceous/oleaginous jargon; 2 left",
+  "wn-gunfight.n.01": "gunplay weak; violent; 2 left",
+  "wn-hairy.a.01": "haired weak; appearance; 2 left",
+  "wn-hapless.s.01": "pathetic mocking; 2 left",
+  "wn-hiss.n.01": "fizzle misleading; 2 left",
+  "wn-holier-than-thou.s.01": "pharisaic offensive, pietistic obscure",
+  "wn-hubbub.n.01": "katzenjammer obscure; 2 left",
+  "wn-immovable.s.01": "stabile obscure; 2 left",
+  "wn-indefinable.s.02": "unspeakable misleading; 2 left",
+  "wn-integrity.n.01": "integrity means honesty today; 2 left",
+  "wn-layman.n.01": "secular misleading; 2 left",
+  "wn-legalize.v.01": "decriminalize differs; 2 left",
+  "wn-level.v.02": "dismantle misleading; raze/rase duplicates",
+  "wn-minimize.v.03": "derogate obscure, 2 left",
+  "wn-misinterpretation.n.01": "too few good words",
+  "wn-molt.n.01": "jargon, molt/moulting duplicates",
+  "wn-nauseating.s.01": "queasy/loathsome/noisome mislead",
+  "wn-niggard.n.01": "churl mocking, too few, offensive root",
+  "wn-omen.n.01": "too few",
+  "wn-oozing.s.01": "oozy duplicate, too few",
+  "wn-ostentation.n.02": "puffiness misleads, too few",
+  "wn-pedant.n.01": "mocking, words differ in meaning",
+  "wn-pedigree.s.01": "pureblood problematic, too few",
+  "wn-pocked.s.01": "pocked duplicate, appearance",
+  "wn-poetry.n.01": "too few",
+  "wn-poster.n.01": "too few",
+  "wn-predate.v.01": "forego misleads",
+  "wn-prevent.v.01": "foreclose misleads, too few",
+  "wn-profanation.n.01": "too few",
+  "wn-prolongation.n.01": "too few",
+  "wn-pummel.v.01": "too few",
+  "wn-regnant.s.01": "too few",
+  "wn-repentance.n.01": "penance differs, too few",
+  "wn-restrict.v.03": "too few",
+  "wn-retraction.n.01": "too few",
+  "wn-ripple.n.01": "riffle differs, too few",
+  "wn-rotter.n.01": "mocking, class insult",
+  "wn-satiny.s.01": "silky/silken duplicate",
+  "wn-sewed.s.01": "trivially same word",
+  "wn-shaking.n.02": "too few",
+  "wn-shot.n.09": "jibe/gibe duplicate",
+  "wn-slang.n.02": "too few",
+  "wn-snob.n.01": "mocking, class",
+  "wn-striving.n.01": "too few",
+  "wn-suppress.v.01": "too few",
+  "wn-toddler.n.01": "too few",
+  "wn-topmost.s.01": "too few",
+  "wn-trickery.n.01": "too few",
+  "wn-unorthodoxy.n.01": "too few",
+  "wn-victimize.v.03": "too few"
+ },
+ "drop_words": {
+  "wn-absurd.s.02": {
+   "derisory": "means paltry"
+  },
+  "wn-ace.n.03": {
+   "hotshot": "mildly mocking"
+  },
+  "wn-acerb.s.02": {
+   "sulphurous": "obscure here"
+  },
+  "wn-ailing.s.01": {
+   "peaked": "obscure"
+  },
+  "wn-ardent.s.01": {
+   "torrid": "sexual connotation"
+  },
+  "wn-assortment.n.01": {
+   "salmagundi": "obscure"
+  },
+  "wn-assumed.s.01": {
+   "fictive": "obscure"
+  },
+  "wn-bathetic.s.01": {
+   "hokey": "different meaning",
+   "kitschy": "different meaning"
+  },
+  "wn-bellow.n.01": {
+   "holla": "obscure variant",
+   "hollo": "obscure variant"
+  },
+  "wn-bewilderment.n.01": {
+   "obfuscation": "means obscuring"
+  },
+  "wn-bizarre.s.01": {
+   "gonzo": "slang"
+  },
+  "wn-botch.v.01": {
+   "fluff": "obscure sense",
+   "bobble": "obscure"
+  },
+  "wn-brooding.s.01": {
+   "brooding": "modern sense is gloomy"
+  },
+  "wn-brush.n.01": {
+   "coppice": "near-duplicate of copse"
+  },
+  "wn-buddy.n.01": {
+   "crony": "negative"
+  },
+  "wn-burial.n.01": {
+   "inhumation": "obscure"
+  },
+  "wn-cabal.n.01": {
+   "camarilla": "obscure"
+  },
+  "wn-candor.n.02": {
+   "candour": "spelling variant"
+  },
+  "wn-charming.s.02": {
+   "wizard": "odd as adjective"
+  },
+  "wn-coiling.s.01": {
+   "turbinate": "jargon",
+   "whorled": "jargon"
+  },
+  "wn-cowboy.n.01": {
+   "cowherd": "different job",
+   "cowman": "different"
+  },
+  "wn-crabbed.s.01": {
+   "fussy": "different meaning"
+  },
+  "wn-cranky.s.02": {
+   "techy": "archaic"
+  },
+  "wn-creaky.s.01": {
+   "woebegone": "different meaning"
+  },
+  "wn-curative.s.01": {
+   "alterative": "obscure"
+  },
+  "wn-dapper.s.01": {
+   "jaunty": "different meaning"
+  },
+  "wn-defeated.s.01": {
+   "discomfited": "obscure"
+  },
+  "wn-deluxe.s.01": {
+   "princely": "different"
+  },
+  "wn-denudation.n.01": {
+   "husking": "different",
+   "denudation": "obscure"
+  },
+  "wn-diaphanous.s.01": {
+   "vaporous": "different"
+  },
+  "wn-dictatorship.n.01": {
+   "shogunate": "specific historical"
+  },
+  "wn-diminished.s.01": {
+   "vitiated": "obscure"
+  },
+  "wn-erstwhile.s.01": {
+   "quondam": "archaic"
+  },
+  "wn-excess.s.01": {
+   "supernumerary": "obscure"
+  },
+  "wn-feasible.s.01": {
+   "executable": "jargon"
+  },
+  "wn-grim.s.01": {
+   "unrelenting": "near-duplicate of relentless"
+  },
+  "wn-ma.n.01": {
+   "momma": "near-duplicate of mama"
+  },
+  "wn-matchless.s.01": {
+   "unmatchable": "duplicate"
+  },
+  "wn-mobile.s.01": {
+   "peregrine": "obscure"
+  },
+  "wn-motto.n.01": {
+   "shibboleth": "different meaning"
+  },
+  "wn-nickname.n.01": {
+   "cognomen": "obscure"
+  },
+  "wn-novice.n.02": {
+   "tiro": "duplicate of tyro"
+  },
+  "wn-odds_and_ends.n.01": {
+   "hotchpotch": "duplicate",
+   "farrago": "obscure"
+  },
+  "wn-overriding.s.01": {
+   "preponderant": "obscure"
+  },
+  "wn-pamper.v.01": {
+   "cocker": "archaic",
+   "featherbed": "obscure"
+  },
+  "wn-parody.n.01": {
+   "charade": "different meaning"
+  },
+  "wn-pathless.s.01": {
+   "untracked": "weak"
+  },
+  "wn-pilfer.v.01": {
+   "cabbage": "slang",
+   "snarf": "slang"
+  },
+  "wn-plunder.v.03": {
+   "rifle": "misleads"
+  },
+  "wn-postpone.v.01": {
+   "prorogue": "jargon"
+  },
+  "wn-rogue.n.01": {
+   "varlet": "archaic"
+  },
+  "wn-shriveled.s.02": {
+   "wizened": "appearance of age"
+  },
+  "wn-surpass.v.02": {
+   "outgo": "archaic"
+  }
+ },
+ "drop_opposite": {
+  "wn-amused.s.01": "not a true opposite",
+  "wn-annoyed.s.01": "not a true opposite"
+ }
+}

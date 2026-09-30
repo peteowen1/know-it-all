@@ -50,6 +50,14 @@ from nltk.corpus import wordnet as wn
 from wordfreq import zipf_frequency
 
 PATH = Path(__file__).resolve().parent.parent / 'src' / 'data' / 'vocab.json'
+# Verdicts from a full human-style review of every WordNet family: whole
+# families, single words and opposites to drop, each with its reason. Kept in
+# the repo so a rebuild can never bring back something a reviewer removed.
+REVIEW_PATH = Path(__file__).resolve().parent / 'vocab-review.json'
+REVIEW = json.loads(REVIEW_PATH.read_text(encoding='utf8')) if REVIEW_PATH.exists() else {}
+REVIEW_FAMILIES = {k[3:] for k in REVIEW.get('drop_families', {})}
+REVIEW_WORDS = {k[3:]: set(v) for k, v in REVIEW.get('drop_words', {}).items()}
+REVIEW_OPPOSITES = {k[3:] for k in REVIEW.get('drop_opposite', {})}
 
 FLOOR = 1.0
 OVERRIDES = {
@@ -146,7 +154,7 @@ def tainted(word):
 
 
 def usable_synset(s):
-    if s.name() in BLOCK_FAMILIES or {d.name() for d in s.usage_domains()} & BAD_DOMAINS:
+    if s.name() in BLOCK_FAMILIES or s.name() in REVIEW_FAMILIES or {d.name() for d in s.usage_domains()} & BAD_DOMAINS:
         return False
     if s.topic_domains() or BLOCK_DEFINITION.search(s.definition()):
         return False
@@ -194,7 +202,7 @@ def wordnet_families(taken, vectors):
             w = lemma.name()
             if not re.fullmatch(r'[a-z]{4,}', w) or w in taken or w not in vectors or tainted(w):
                 continue
-            if w in DROP_IN_FAMILY.get(s.name(), ()):
+            if w in DROP_IN_FAMILY.get(s.name(), ()) or w in REVIEW_WORDS.get(s.name(), ()):
                 continue
             z = zipf(w)
             if not WORDNET_MIN_ZIPF <= z <= 4.5:
@@ -257,7 +265,8 @@ def wordnet_families(taken, vectors):
                     for x in [t] + list(t.similar_tos()):
                         if x.name() in name_to_id and x != s:
                             reach.add(name_to_id[x.name()])
-        if len(reach) == 1 and frozenset((s.name(), next(iter(reach))[3:])) in ALLOW_ANT:
+        target = next(iter(reach), '')[3:]
+        if len(reach) == 1 and frozenset((s.name(), target)) in ALLOW_ANT and not {s.name(), target} & REVIEW_OPPOSITES:
             f['ant'] = next(iter(reach))
     del by_id
     print('WordNet families dropped:', dict(drops))

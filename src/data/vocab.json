@@ -3011,64 +3011,6 @@
      "nonsensical",
      "incongruous;inviting ridicule",
      2.98
-    ],
-    [
-     "derisory",
-     "incongruous;inviting ridicule",
-     1.77
-    ]
-   ]
-  },
-  {
-   "id": "wn-accessory.s.02",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "furnishing added support",
-   "words": [
-    [
-     "adjunct",
-     "furnishing added support",
-     3.3
-    ],
-    [
-     "ancillary",
-     "furnishing added support",
-     3.06
-    ],
-    [
-     "adjuvant",
-     "furnishing added support",
-     2.58
-    ],
-    [
-     "appurtenant",
-     "furnishing added support",
-     1.41
-    ]
-   ]
-  },
-  {
-   "id": "wn-acclaim.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "enthusiastic approval",
-   "words": [
-    [
-     "acclamation",
-     "enthusiastic approval",
-     2.4
-    ],
-    [
-     "plaudits",
-     "enthusiastic approval",
-     2.36
-    ],
-    [
-     "eclat",
-     "enthusiastic approval",
-     1.67
     ]
    ]
   },
@@ -3076,9 +3018,14 @@
    "id": "wn-ace.n.03",
    "src": "wordnet",
    "pos": "noun",
-   "level": 2,
+   "level": 1,
    "sense": "someone who is dazzlingly skilled in any field",
    "words": [
+    [
+     "wizard",
+     "someone who is dazzlingly skilled in any field",
+     3.93
+    ],
     [
      "superstar",
      "someone who is dazzlingly skilled in any field",
@@ -3093,11 +3040,6 @@
      "maven",
      "someone who is dazzlingly skilled in any field",
      2.88
-    ],
-    [
-     "hotshot",
-     "someone who is dazzlingly skilled in any field",
-     2.68
     ]
    ]
   },
@@ -3129,33 +3071,9 @@
      2.57
     ],
     [
-     "sulphurous",
+     "sulfurous",
      "harsh or corrosive in tone",
-     2.01
-    ]
-   ]
-  },
-  {
-   "id": "wn-acme.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "the highest level or degree attainable",
-   "words": [
-    [
-     "summit",
-     "the highest level or degree attainable; the highest stage of development",
-     4.3
-    ],
-    [
-     "meridian",
-     "the highest level or degree attainable; the highest stage of development",
-     3.38
-    ],
-    [
-     "acme",
-     "the highest level or degree attainable; the highest stage of development",
-     2.89
+     1.82
     ]
    ]
   },
@@ -3315,30 +3233,6 @@
      "cheerio",
      "a farewell remark",
      2.32
-    ]
-   ]
-  },
-  {
-   "id": "wn-adolescent.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "a juvenile between the onset of puberty and maturity",
-   "words": [
-    [
-     "teenager",
-     "a juvenile between the onset of puberty and maturity",
-     4.09
-    ],
-    [
-     "adolescent",
-     "a juvenile between the onset of puberty and maturity",
-     3.58
-    ],
-    [
-     "stripling",
-     "a juvenile between the onset of puberty and maturity",
-     2.05
     ]
    ]
   },
@@ -3579,59 +3473,6 @@
    ]
   },
   {
-   "id": "wn-aglitter.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "having brief brilliant points or flashes of light",
-   "words": [
-    [
-     "glittering",
-     "having brief brilliant points or flashes of light",
-     3.19
-    ],
-    [
-     "coruscant",
-     "having brief brilliant points or flashes of light",
-     2.22
-    ],
-    [
-     "glinting",
-     "having brief brilliant points or flashes of light",
-     2.17
-    ]
-   ]
-  },
-  {
-   "id": "wn-aglow.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "softly bright or radiant",
-   "words": [
-    [
-     "luminous",
-     "softly bright or radiant",
-     3.24
-    ],
-    [
-     "lucent",
-     "softly bright or radiant",
-     2.56
-    ],
-    [
-     "aglow",
-     "softly bright or radiant",
-     2.21
-    ],
-    [
-     "lambent",
-     "softly bright or radiant",
-     1.61
-    ]
-   ]
-  },
-  {
    "id": "wn-agonizing.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -3673,11 +3514,6 @@
      4.1
     ],
     [
-     "peaked",
-     "somewhat ill or prone to illness",
-     3.5
-    ],
-    [
      "unwell",
      "somewhat ill or prone to illness",
      3.14
@@ -3691,54 +3527,6 @@
      "indisposed",
      "somewhat ill or prone to illness",
      2.3
-    ]
-   ]
-  },
-  {
-   "id": "wn-airless.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "lacking fresh air",
-   "words": [
-    [
-     "stuffy",
-     "lacking fresh air",
-     3.03
-    ],
-    [
-     "airless",
-     "lacking fresh air",
-     2.31
-    ],
-    [
-     "unaired",
-     "lacking fresh air",
-     1.9
-    ]
-   ]
-  },
-  {
-   "id": "wn-alert.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "quick and energetic",
-   "words": [
-    [
-     "spanking",
-     "quick and energetic",
-     3.28
-    ],
-    [
-     "brisk",
-     "quick and energetic",
-     3.2
-    ],
-    [
-     "zippy",
-     "quick and energetic",
-     2.52
     ]
    ]
   },
@@ -3926,30 +3714,6 @@
    ]
   },
   {
-   "id": "wn-ambush.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 3,
-   "sense": "wait in hiding to attack",
-   "words": [
-    [
-     "scupper",
-     "wait in hiding to attack",
-     1.99
-    ],
-    [
-     "waylay",
-     "wait in hiding to attack",
-     1.59
-    ],
-    [
-     "bushwhack",
-     "wait in hiding to attack",
-     1.44
-    ]
-   ]
-  },
-  {
    "id": "wn-amorphous.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -3970,30 +3734,6 @@
      "shapeless",
      "having no definite form or distinct shape",
      2.39
-    ]
-   ]
-  },
-  {
-   "id": "wn-amuck.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "frenzied as if possessed by a demon",
-   "words": [
-    [
-     "berserk",
-     "frenzied as if possessed by a demon",
-     3.01
-    ],
-    [
-     "amok",
-     "frenzied as if possessed by a demon",
-     2.77
-    ],
-    [
-     "amuck",
-     "frenzied as if possessed by a demon",
-     2.05
     ]
    ]
   },
@@ -4019,8 +3759,7 @@
      "pleasantly occupied;  -Queen Victoria",
      3.49
     ]
-   ],
-   "ant": "wn-annoyed.s.01"
+   ]
   },
   {
    "id": "wn-angered.s.01",
@@ -4076,30 +3815,6 @@
    ]
   },
   {
-   "id": "wn-animate.v.04",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 3,
-   "sense": "give new life or energy to",
-   "words": [
-    [
-     "recreate",
-     "give new life or energy to",
-     3.52
-    ],
-    [
-     "reanimate",
-     "give new life or energy to",
-     2.09
-    ],
-    [
-     "revivify",
-     "give new life or energy to",
-     1.4
-    ]
-   ]
-  },
-  {
    "id": "wn-annoyed.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -4131,8 +3846,7 @@
      "aroused to impatience or anger",
      2.4
     ]
-   ],
-   "ant": "wn-amused.s.01"
+   ]
   },
   {
    "id": "wn-annoyed.s.02",
@@ -4294,30 +4008,6 @@
    ]
   },
   {
-   "id": "wn-apprenticed.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "bound by contract",
-   "words": [
-    [
-     "indentured",
-     "bound by contract",
-     2.76
-    ],
-    [
-     "apprenticed",
-     "bound by contract",
-     2.61
-    ],
-    [
-     "articled",
-     "bound by contract",
-     2.02
-    ]
-   ]
-  },
-  {
    "id": "wn-arable.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -4342,30 +4032,6 @@
    ]
   },
   {
-   "id": "wn-arch.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "(used of behavior or attitude) characteristic of those who treat others with condescension",
-   "words": [
-    [
-     "arch",
-     "(used of behavior or attitude) characteristic of those who treat others with condescension",
-     4.02
-    ],
-    [
-     "condescending",
-     "(used of behavior or attitude) characteristic of those who treat others with condescension",
-     3.1
-    ],
-    [
-     "patronizing",
-     "(used of behavior or attitude) characteristic of those who treat others with condescension",
-     2.78
-    ]
-   ]
-  },
-  {
    "id": "wn-arch.s.03",
    "src": "wordnet",
    "pos": "adj",
@@ -4386,30 +4052,6 @@
      "puckish",
      "naughtily or annoyingly playful",
      1.5
-    ]
-   ]
-  },
-  {
-   "id": "wn-archpriest.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a senior clergyman and dignitary",
-   "words": [
-    [
-     "primate",
-     "a senior clergyman and dignitary",
-     3.14
-    ],
-    [
-     "prelate",
-     "a senior clergyman and dignitary",
-     2.65
-    ],
-    [
-     "archpriest",
-     "a senior clergyman and dignitary",
-     1.65
     ]
    ]
   },
@@ -4441,9 +4083,9 @@
      2.94
     ],
     [
-     "torrid",
+     "fervid",
      "characterized by intense emotion",
-     2.64
+     1.77
     ]
    ]
   },
@@ -4573,30 +4215,6 @@
    ]
   },
   {
-   "id": "wn-askance.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "(used especially of glances) directed to one side with or as if with doubt or suspicion or envy",
-   "words": [
-    [
-     "squint",
-     "(used especially of glances) directed to one side with or as if with doubt or suspicion or envy; - Elizabeth Bowen",
-     2.8
-    ],
-    [
-     "askance",
-     "(used especially of glances) directed to one side with or as if with doubt or suspicion or envy; - Elizabeth Bowen",
-     2.1
-    ],
-    [
-     "sidelong",
-     "(used especially of glances) directed to one side with or as if with doubt or suspicion or envy; - Elizabeth Bowen",
-     1.78
-    ]
-   ]
-  },
-  {
    "id": "wn-askew.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -4675,11 +4293,6 @@
      "potpourri",
      "a collection containing a variety of sorts of things",
      2.39
-    ],
-    [
-     "salmagundi",
-     "a collection containing a variety of sorts of things",
-     1.56
     ]
    ]
   },
@@ -4704,11 +4317,6 @@
      "sham",
      "adopted in order to deceive",
      3.45
-    ],
-    [
-     "fictive",
-     "adopted in order to deceive",
-     2.16
     ]
    ]
   },
@@ -4805,54 +4413,6 @@
      "supplemental",
      "functioning in a supporting capacity",
      3.49
-    ]
-   ]
-  },
-  {
-   "id": "wn-aviator.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "someone who operates an aircraft",
-   "words": [
-    [
-     "aviator",
-     "someone who operates an aircraft",
-     2.97
-    ],
-    [
-     "airman",
-     "someone who operates an aircraft",
-     2.88
-    ],
-    [
-     "aeronaut",
-     "someone who operates an aircraft",
-     1.72
-    ]
-   ]
-  },
-  {
-   "id": "wn-awareness.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "having knowledge of",
-   "words": [
-    [
-     "awareness",
-     "having knowledge of",
-     4.44
-    ],
-    [
-     "cognizance",
-     "having knowledge of",
-     2.25
-    ],
-    [
-     "knowingness",
-     "having knowledge of",
-     1.52
     ]
    ]
   },
@@ -5103,30 +4663,6 @@
    ]
   },
   {
-   "id": "wn-barter.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "an equal exchange",
-   "words": [
-    [
-     "swap",
-     "an equal exchange",
-     3.94
-    ],
-    [
-     "barter",
-     "an equal exchange",
-     3.05
-    ],
-    [
-     "swop",
-     "an equal exchange",
-     1.78
-    ]
-   ]
-  },
-  {
    "id": "wn-baseless.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -5158,19 +4694,9 @@
    "sense": "effusively or insincerely emotional",
    "words": [
     [
-     "hokey",
-     "effusively or insincerely emotional",
-     2.62
-    ],
-    [
      "maudlin",
      "effusively or insincerely emotional",
      2.39
-    ],
-    [
-     "kitschy",
-     "effusively or insincerely emotional",
-     2.21
     ],
     [
      "mawkish",
@@ -5258,30 +4784,6 @@
    ]
   },
   {
-   "id": "wn-beat_around_the_bush.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 3,
-   "sense": "be deliberately ambiguous or unclear in order to mislead or withhold information",
-   "words": [
-    [
-     "equivocate",
-     "be deliberately ambiguous or unclear in order to mislead or withhold information",
-     1.72
-    ],
-    [
-     "prevaricate",
-     "be deliberately ambiguous or unclear in order to mislead or withhold information",
-     1.58
-    ],
-    [
-     "palter",
-     "be deliberately ambiguous or unclear in order to mislead or withhold information",
-     1.41
-    ]
-   ]
-  },
-  {
    "id": "wn-beefy.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -5359,30 +4861,6 @@
    ]
   },
   {
-   "id": "wn-bellied.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "curving outward",
-   "words": [
-    [
-     "bellying",
-     "curving outward",
-     1.77
-    ],
-    [
-     "protuberant",
-     "curving outward",
-     1.57
-    ],
-    [
-     "bulgy",
-     "curving outward",
-     1.56
-    ]
-   ]
-  },
-  {
    "id": "wn-bellow.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -5390,19 +4868,9 @@
    "sense": "a very loud utterance (like the sound of an animal)",
    "words": [
     [
-     "holla",
-     "a very loud utterance (like the sound of an animal)",
-     3.07
-    ],
-    [
      "holler",
      "a very loud utterance (like the sound of an animal)",
      2.84
-    ],
-    [
-     "hollo",
-     "a very loud utterance (like the sound of an animal)",
-     2.81
     ],
     [
      "bellowing",
@@ -5477,11 +4945,6 @@
      2.63
     ],
     [
-     "obfuscation",
-     "confusion resulting from failure to understand",
-     2.56
-    ],
-    [
      "puzzlement",
      "confusion resulting from failure to understand",
      2.19
@@ -5495,6 +4958,11 @@
      "bemusement",
      "confusion resulting from failure to understand",
      1.86
+    ],
+    [
+     "bafflement",
+     "confusion resulting from failure to understand",
+     1.8
     ]
    ]
   },
@@ -5584,7 +5052,7 @@
    "id": "wn-bizarre.s.01",
    "src": "wordnet",
    "pos": "adj",
-   "level": 2,
+   "level": 1,
    "sense": "conspicuously or grossly unconventional or unusual",
    "words": [
     [
@@ -5601,11 +5069,6 @@
      "outlandish",
      "conspicuously or grossly unconventional or unusual",
      3.07
-    ],
-    [
-     "gonzo",
-     "conspicuously or grossly unconventional or unusual",
-     2.8
     ],
     [
      "outre",
@@ -5740,30 +5203,6 @@
    ]
   },
   {
-   "id": "wn-blossoming.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "the time and process of budding and unfolding of blossoms",
-   "words": [
-    [
-     "blossoming",
-     "the time and process of budding and unfolding of blossoms",
-     2.9
-    ],
-    [
-     "inflorescence",
-     "the time and process of budding and unfolding of blossoms",
-     2.6
-    ],
-    [
-     "anthesis",
-     "the time and process of budding and unfolding of blossoms",
-     1.5
-    ]
-   ]
-  },
-  {
    "id": "wn-boastful.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -5794,6 +5233,11 @@
    "level": 2,
    "sense": "indicate by signs",
    "words": [
+    [
+     "omen",
+     "indicate by signs",
+     3.12
+    ],
     [
      "bode",
      "indicate by signs",
@@ -5923,35 +5367,6 @@
    ]
   },
   {
-   "id": "wn-bombast.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "pompous or pretentious talk or writing",
-   "words": [
-    [
-     "blah",
-     "pompous or pretentious talk or writing",
-     3.88
-    ],
-    [
-     "bombast",
-     "pompous or pretentious talk or writing",
-     2.27
-    ],
-    [
-     "claptrap",
-     "pompous or pretentious talk or writing",
-     2.22
-    ],
-    [
-     "fustian",
-     "pompous or pretentious talk or writing",
-     1.51
-    ]
-   ]
-  },
-  {
    "id": "wn-bombastic.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -5972,30 +5387,6 @@
      "declamatory",
      "ostentatiously lofty in style",
      1.69
-    ]
-   ]
-  },
-  {
-   "id": "wn-bonny.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "very pleasing to the eye",
-   "words": [
-    [
-     "bonnie",
-     "very pleasing to the eye",
-     3.66
-    ],
-    [
-     "bonny",
-     "very pleasing to the eye",
-     2.84
-    ],
-    [
-     "sightly",
-     "very pleasing to the eye",
-     1.79
     ]
    ]
   },
@@ -6177,19 +5568,9 @@
      3.81
     ],
     [
-     "fluff",
-     "make a mess of, destroy or ruin",
-     3.2
-    ],
-    [
      "bumble",
      "make a mess of, destroy or ruin",
      2.97
-    ],
-    [
-     "bobble",
-     "make a mess of, destroy or ruin",
-     2.65
     ],
     [
      "mishandle",
@@ -6307,11 +5688,6 @@
      3.58
     ],
     [
-     "brooding",
-     "deeply or seriously thoughtful",
-     3.11
-    ],
-    [
      "pondering",
      "deeply or seriously thoughtful",
      3.08
@@ -6325,6 +5701,11 @@
      "meditative",
      "deeply or seriously thoughtful",
      2.86
+    ],
+    [
+     "pensive",
+     "deeply or seriously thoughtful",
+     2.63
     ]
    ]
   },
@@ -6349,11 +5730,6 @@
      "copse",
      "a dense growth of bushes",
      2.34
-    ],
-    [
-     "coppice",
-     "a dense growth of bushes",
-     2.17
     ]
    ]
   },
@@ -6402,40 +5778,6 @@
      "chum",
      "a close friend who accompanies his buddies in their activities",
      2.97
-    ],
-    [
-     "crony",
-     "a close friend who accompanies his buddies in their activities",
-     2.73
-    ]
-   ]
-  },
-  {
-   "id": "wn-buffoonery.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "acting like a clown or buffoon",
-   "words": [
-    [
-     "prank",
-     "acting like a clown or buffoon",
-     3.7
-    ],
-    [
-     "clowning",
-     "acting like a clown or buffoon",
-     2.63
-    ],
-    [
-     "buffoonery",
-     "acting like a clown or buffoon",
-     2.17
-    ],
-    [
-     "harlequinade",
-     "acting like a clown or buffoon",
-     1.42
     ]
    ]
   },
@@ -6460,35 +5802,6 @@
      "inbuilt",
      "existing as an essential constituent or characteristic",
      2.39
-    ]
-   ]
-  },
-  {
-   "id": "wn-bunk.n.04",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "unacceptable behavior (especially ludicrously false statements)",
-   "words": [
-    [
-     "hogwash",
-     "unacceptable behavior (especially ludicrously false statements)",
-     2.38
-    ],
-    [
-     "guff",
-     "unacceptable behavior (especially ludicrously false statements)",
-     2.3
-    ],
-    [
-     "buncombe",
-     "unacceptable behavior (especially ludicrously false statements)",
-     2.17
-    ],
-    [
-     "bunkum",
-     "unacceptable behavior (especially ludicrously false statements)",
-     1.68
     ]
    ]
   },
@@ -6561,35 +5874,6 @@
      "entombment",
      "the ritual placing of a corpse in a grave",
      1.86
-    ],
-    [
-     "inhumation",
-     "the ritual placing of a corpse in a grave",
-     1.57
-    ]
-   ]
-  },
-  {
-   "id": "wn-bygone.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "well in the past",
-   "words": [
-    [
-     "departed",
-     "well in the past; former",
-     3.78
-    ],
-    [
-     "bygone",
-     "well in the past; former",
-     2.83
-    ],
-    [
-     "foregone",
-     "well in the past; former",
-     2.76
     ]
    ]
   },
@@ -6614,11 +5898,6 @@
      "junto",
      "a clique (often secret) that seeks power usually through intrigue",
      1.88
-    ],
-    [
-     "camarilla",
-     "a clique (often secret) that seeks power usually through intrigue",
-     1.67
     ]
    ]
   },
@@ -6643,30 +5922,6 @@
      "calamity",
      "an event resulting in great loss and misfortune",
      3.22
-    ]
-   ]
-  },
-  {
-   "id": "wn-caliph.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "the civil and religious leader of a Muslim state considered to be a representative of Allah on earth",
-   "words": [
-    [
-     "calif",
-     "the civil and religious leader of a Muslim state considered to be a representative of Allah on earth",
-     3.83
-    ],
-    [
-     "caliph",
-     "the civil and religious leader of a Muslim state considered to be a representative of Allah on earth",
-     2.91
-    ],
-    [
-     "khalif",
-     "the civil and religious leader of a Muslim state considered to be a representative of Allah on earth",
-     1.98
     ]
    ]
   },
@@ -6703,14 +5958,9 @@
    "id": "wn-candor.n.02",
    "src": "wordnet",
    "pos": "noun",
-   "level": 2,
+   "level": 3,
    "sense": "the quality of being honest and straightforward in attitude and speech",
    "words": [
-    [
-     "candour",
-     "the quality of being honest and straightforward in attitude and speech",
-     2.8
-    ],
     [
      "frankness",
      "the quality of being honest and straightforward in attitude and speech",
@@ -6773,30 +6023,6 @@
      "bewitch",
      "attract; cause to be enamored",
      2.01
-    ]
-   ]
-  },
-  {
-   "id": "wn-cardinal.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 1,
-   "sense": "serving as an essential component",
-   "words": [
-    [
-     "fundamental",
-     "serving as an essential component",
-     4.33
-    ],
-    [
-     "cardinal",
-     "serving as an essential component",
-     3.9
-    ],
-    [
-     "primal",
-     "serving as an essential component",
-     3.32
     ]
    ]
   },
@@ -6929,18 +6155,13 @@
    "id": "wn-charming.s.02",
    "src": "wordnet",
    "pos": "adj",
-   "level": 1,
+   "level": 2,
    "sense": "possessing or using or characteristic of or appropriate to supernatural powers",
    "words": [
     [
      "magical",
      "possessing or using or characteristic of or appropriate to supernatural powers; ; ; ; - Shakespeare",
      4.22
-    ],
-    [
-     "wizard",
-     "possessing or using or characteristic of or appropriate to supernatural powers; ; ; ; - Shakespeare",
-     3.93
     ],
     [
      "witching",
@@ -6951,30 +6172,11 @@
      "sorcerous",
      "possessing or using or characteristic of or appropriate to supernatural powers; ; ; ; - Shakespeare",
      1.66
-    ]
-   ]
-  },
-  {
-   "id": "wn-chatty.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "full of trivial conversation",
-   "words": [
-    [
-     "gabby",
-     "full of trivial conversation",
-     3.16
     ],
     [
-     "talkative",
-     "full of trivial conversation",
-     2.97
-    ],
-    [
-     "talky",
-     "full of trivial conversation",
-     2.05
+     "wizardly",
+     "possessing or using or characteristic of or appropriate to supernatural powers; ; ; ; - Shakespeare",
+     1.43
     ]
    ]
   },
@@ -7061,26 +6263,26 @@
    ]
   },
   {
-   "id": "wn-chitchat.n.01",
+   "id": "wn-chew_the_fat.v.01",
    "src": "wordnet",
-   "pos": "noun",
+   "pos": "verb",
    "level": 3,
-   "sense": "light informal conversation for social occasions",
+   "sense": "talk socially without exchanging too much information",
    "words": [
     [
-     "gossip",
-     "light informal conversation for social occasions",
-     3.88
-    ],
-    [
      "chitchat",
-     "light informal conversation for social occasions",
+     "talk socially without exchanging too much information",
      2.29
     ],
     [
-     "gabfest",
-     "light informal conversation for social occasions",
-     1.33
+     "natter",
+     "talk socially without exchanging too much information",
+     2.14
+    ],
+    [
+     "claver",
+     "talk socially without exchanging too much information",
+     1.69
     ]
    ]
   },
@@ -7181,30 +6383,6 @@
    ]
   },
   {
-   "id": "wn-clip-clop.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "the sound of a horse's hoofs hitting on a hard surface",
-   "words": [
-    [
-     "clumping",
-     "the sound of a horse's hoofs hitting on a hard surface",
-     2.34
-    ],
-    [
-     "clop",
-     "the sound of a horse's hoofs hitting on a hard surface",
-     2.21
-    ],
-    [
-     "clunking",
-     "the sound of a horse's hoofs hitting on a hard surface",
-     1.92
-    ]
-   ]
-  },
-  {
    "id": "wn-clique.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -7249,30 +6427,6 @@
      "cloaked",
      "having its true character concealed with the intent of misleading",
      2.87
-    ]
-   ]
-  },
-  {
-   "id": "wn-cloaked.s.02",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "covered with or as if with clothes or a wrap or cloak",
-   "words": [
-    [
-     "wrapped",
-     "covered with or as if with clothes or a wrap or cloak",
-     4.15
-    ],
-    [
-     "draped",
-     "covered with or as if with clothes or a wrap or cloak",
-     3.18
-    ],
-    [
-     "mantled",
-     "covered with or as if with clothes or a wrap or cloak",
-     1.98
     ]
    ]
   },
@@ -7356,16 +6510,6 @@
      "coiling",
      "in the shape of a coil",
      2.3
-    ],
-    [
-     "whorled",
-     "in the shape of a coil",
-     1.74
-    ],
-    [
-     "turbinate",
-     "in the shape of a coil",
-     1.56
     ]
    ]
   },
@@ -7424,30 +6568,6 @@
      "corroborative",
      "serving to support or corroborate",
      1.82
-    ]
-   ]
-  },
-  {
-   "id": "wn-coltish.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "given to merry frolicking",
-   "words": [
-    [
-     "rollicking",
-     "given to merry frolicking",
-     2.39
-    ],
-    [
-     "sportive",
-     "given to merry frolicking",
-     2.33
-    ],
-    [
-     "frolicsome",
-     "given to merry frolicking",
-     1.4
     ]
    ]
   },
@@ -7574,6 +6694,30 @@
      "substantiation",
      "additional proof that something that was believed (some fact or hypothesis or theory) is correct",
      2.14
+    ]
+   ]
+  },
+  {
+   "id": "wn-conjectural.s.01",
+   "src": "wordnet",
+   "pos": "adj",
+   "level": 3,
+   "sense": "based primarily on surmise rather than adequate evidence",
+   "words": [
+    [
+     "hypothetical",
+     "based primarily on surmise rather than adequate evidence",
+     3.61
+    ],
+    [
+     "conjectural",
+     "based primarily on surmise rather than adequate evidence",
+     2.02
+    ],
+    [
+     "divinatory",
+     "based primarily on surmise rather than adequate evidence",
+     1.65
     ]
    ]
   },
@@ -7732,30 +6876,6 @@
    ]
   },
   {
-   "id": "wn-controversy.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "a contentious speech act",
-   "words": [
-    [
-     "controversy",
-     "a contentious speech act; a dispute where there is strong disagreement",
-     4.26
-    ],
-    [
-     "arguing",
-     "a contentious speech act; a dispute where there is strong disagreement",
-     4.25
-    ],
-    [
-     "contestation",
-     "a contentious speech act; a dispute where there is strong disagreement",
-     1.93
-    ]
-   ]
-  },
-  {
    "id": "wn-coronation.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -7862,34 +6982,10 @@
    ]
   },
   {
-   "id": "wn-coup_d'etat.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "a sudden and decisive change of government illegally or by force",
-   "words": [
-    [
-     "coup",
-     "a sudden and decisive change of government illegally or by force",
-     4.0
-    ],
-    [
-     "takeover",
-     "a sudden and decisive change of government illegally or by force",
-     3.69
-    ],
-    [
-     "putsch",
-     "a sudden and decisive change of government illegally or by force",
-     2.35
-    ]
-   ]
-  },
-  {
    "id": "wn-cowboy.n.01",
    "src": "wordnet",
    "pos": "noun",
-   "level": 3,
+   "level": 2,
    "sense": "a hired hand who tends cattle and performs other duties on horseback",
    "words": [
     [
@@ -7903,19 +6999,14 @@
      2.4
     ],
     [
-     "cowherd",
-     "a hired hand who tends cattle and performs other duties on horseback",
-     2.26
-    ],
-    [
-     "cowman",
-     "a hired hand who tends cattle and performs other duties on horseback",
-     1.75
-    ],
-    [
      "cowhand",
      "a hired hand who tends cattle and performs other duties on horseback",
      1.6
+    ],
+    [
+     "cowpoke",
+     "a hired hand who tends cattle and performs other duties on horseback",
+     1.49
     ]
    ]
   },
@@ -7930,11 +7021,6 @@
      "grumpy",
      "annoyed and irritable",
      3.47
-    ],
-    [
-     "fussy",
-     "annoyed and irritable",
-     3.04
     ],
     [
      "grouchy",
@@ -7990,14 +7076,14 @@
      2.73
     ],
     [
-     "techy",
-     "easily irritated or annoyed",
-     2.2
-    ],
-    [
      "peevish",
      "easily irritated or annoyed",
      1.91
+    ],
+    [
+     "tetchy",
+     "easily irritated or annoyed",
+     1.82
     ]
    ]
   },
@@ -8046,35 +7132,6 @@
      "creaky",
      "worn and broken down by hard use",
      2.35
-    ],
-    [
-     "woebegone",
-     "worn and broken down by hard use",
-     1.62
-    ]
-   ]
-  },
-  {
-   "id": "wn-crescent.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "resembling the new moon in shape",
-   "words": [
-    [
-     "crescent",
-     "resembling the new moon in shape",
-     3.57
-    ],
-    [
-     "lunate",
-     "resembling the new moon in shape",
-     1.68
-    ],
-    [
-     "semilunar",
-     "resembling the new moon in shape",
-     1.36
     ]
    ]
   },
@@ -8123,30 +7180,6 @@
      "hybridize",
      "breed animals or plants using parents of different races and varieties",
      1.88
-    ]
-   ]
-  },
-  {
-   "id": "wn-crudeness.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "a wild or unrefined state",
-   "words": [
-    [
-     "primitivism",
-     "a wild or unrefined state",
-     2.07
-    ],
-    [
-     "crudeness",
-     "a wild or unrefined state",
-     1.8
-    ],
-    [
-     "crudity",
-     "a wild or unrefined state",
-     1.7
     ]
    ]
   },
@@ -8248,11 +7281,6 @@
      "curative",
      "tending to cure or restore to health",
      2.66
-    ],
-    [
-     "alterative",
-     "tending to cure or restore to health",
-     1.52
     ]
    ]
   },
@@ -8281,78 +7309,6 @@
    ]
   },
   {
-   "id": "wn-curious.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 1,
-   "sense": "beyond or deviating from the usual or expected",
-   "words": [
-    [
-     "curious",
-     "beyond or deviating from the usual or expected",
-     4.45
-    ],
-    [
-     "peculiar",
-     "beyond or deviating from the usual or expected",
-     3.67
-    ],
-    [
-     "rummy",
-     "beyond or deviating from the usual or expected",
-     2.37
-    ]
-   ]
-  },
-  {
-   "id": "wn-czar.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a male monarch or emperor (especially of Russia prior to 1917)",
-   "words": [
-    [
-     "tsar",
-     "a male monarch or emperor (especially of Russia prior to 1917)",
-     3.16
-    ],
-    [
-     "czar",
-     "a male monarch or emperor (especially of Russia prior to 1917)",
-     3.0
-    ],
-    [
-     "tzar",
-     "a male monarch or emperor (especially of Russia prior to 1917)",
-     1.85
-    ]
-   ]
-  },
-  {
-   "id": "wn-dad.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "an informal term for a father",
-   "words": [
-    [
-     "daddy",
-     "an informal term for a father; probably derived from baby talk",
-     4.36
-    ],
-    [
-     "papa",
-     "an informal term for a father; probably derived from baby talk",
-     3.91
-    ],
-    [
-     "dada",
-     "an informal term for a father; probably derived from baby talk",
-     3.08
-    ]
-   ]
-  },
-  {
    "id": "wn-dapper.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -8375,62 +7331,14 @@
      2.75
     ],
     [
-     "jaunty",
-     "marked by up-to-dateness in dress and manners",
-     2.5
-    ],
-    [
      "spiffy",
      "marked by up-to-dateness in dress and manners",
      2.37
-    ]
-   ]
-  },
-  {
-   "id": "wn-darling.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a special loved one",
-   "words": [
-    [
-     "ducky",
-     "a special loved one",
-     2.68
     ],
     [
-     "dearie",
-     "a special loved one",
-     2.35
-    ],
-    [
-     "deary",
-     "a special loved one",
-     2.14
-    ]
-   ]
-  },
-  {
-   "id": "wn-daze.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "the feeling of distress and disbelief that you have when something bad happens accidentally",
-   "words": [
-    [
-     "shock",
-     "the feeling of distress and disbelief that you have when something bad happens accidentally",
-     4.46
-    ],
-    [
-     "daze",
-     "the feeling of distress and disbelief that you have when something bad happens accidentally",
-     2.89
-    ],
-    [
-     "stupor",
-     "the feeling of distress and disbelief that you have when something bad happens accidentally",
-     2.72
+     "rakish",
+     "marked by up-to-dateness in dress and manners",
+     2.01
     ]
    ]
   },
@@ -8460,30 +7368,6 @@
      "impasse",
      "a situation in which no progress can be made or no advancement is possible",
      2.96
-    ]
-   ]
-  },
-  {
-   "id": "wn-deceive.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "be false to",
-   "words": [
-    [
-     "deceive",
-     "be false to; be dishonest with",
-     3.38
-    ],
-    [
-     "delude",
-     "be false to; be dishonest with",
-     2.48
-    ],
-    [
-     "cozen",
-     "be false to; be dishonest with",
-     1.52
     ]
    ]
   },
@@ -8539,7 +7423,7 @@
    "id": "wn-defeated.s.01",
    "src": "wordnet",
    "pos": "adj",
-   "level": 2,
+   "level": 1,
    "sense": "disappointingly unsuccessful",
    "words": [
     [
@@ -8561,11 +7445,6 @@
      "foiled",
      "disappointingly unsuccessful",
      2.98
-    ],
-    [
-     "discomfited",
-     "disappointingly unsuccessful",
-     1.77
     ]
    ]
   },
@@ -8615,11 +7494,6 @@
      "opulent",
      "rich and superior in quality",
      2.91
-    ],
-    [
-     "princely",
-     "rich and superior in quality",
-     2.89
     ]
    ]
   },
@@ -8764,16 +7638,6 @@
      "baring",
      "the removal of covering",
      2.97
-    ],
-    [
-     "husking",
-     "the removal of covering",
-     1.57
-    ],
-    [
-     "denudation",
-     "the removal of covering",
-     1.49
     ]
    ]
   },
@@ -8933,11 +7797,6 @@
      "diaphanous",
      "so thin as to transmit light",
      1.97
-    ],
-    [
-     "vaporous",
-     "so thin as to transmit light",
-     1.81
     ]
    ]
   },
@@ -8945,7 +7804,7 @@
    "id": "wn-dictatorship.n.01",
    "src": "wordnet",
    "pos": "noun",
-   "level": 2,
+   "level": 1,
    "sense": "a form of government in which the ruler is an absolute dictator (not restricted by a constitution or laws or opposition etc.)",
    "words": [
     [
@@ -8967,35 +7826,6 @@
      "totalitarianism",
      "a form of government in which the ruler is an absolute dictator (not restricted by a constitution or laws or opposition etc.)",
      2.82
-    ],
-    [
-     "shogunate",
-     "a form of government in which the ruler is an absolute dictator (not restricted by a constitution or laws or opposition etc.)",
-     2.44
-    ]
-   ]
-  },
-  {
-   "id": "wn-dilatory.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "wasting time",
-   "words": [
-    [
-     "pokey",
-     "wasting time",
-     2.54
-    ],
-    [
-     "laggard",
-     "wasting time",
-     1.97
-    ],
-    [
-     "dilatory",
-     "wasting time",
-     1.83
     ]
    ]
   },
@@ -9020,35 +7850,6 @@
      "lessened",
      "impaired by diminution",
      2.95
-    ],
-    [
-     "vitiated",
-     "impaired by diminution",
-     1.75
-    ]
-   ]
-  },
-  {
-   "id": "wn-dirge.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a song or hymn of mourning composed or performed as a memorial to a dead person",
-   "words": [
-    [
-     "requiem",
-     "a song or hymn of mourning composed or performed as a memorial to a dead person",
-     3.06
-    ],
-    [
-     "dirge",
-     "a song or hymn of mourning composed or performed as a memorial to a dead person",
-     2.38
-    ],
-    [
-     "threnody",
-     "a song or hymn of mourning composed or performed as a memorial to a dead person",
-     1.55
     ]
    ]
   },
@@ -9073,30 +7874,6 @@
      "grunge",
      "the state of being covered with unclean things",
      3.02
-    ]
-   ]
-  },
-  {
-   "id": "wn-disassociate.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "part",
-   "words": [
-    [
-     "divorce",
-     "part; cease or break association with",
-     4.36
-    ],
-    [
-     "disjoint",
-     "part; cease or break association with",
-     2.48
-    ],
-    [
-     "dissociate",
-     "part; cease or break association with",
-     2.46
     ]
    ]
   },
@@ -9207,30 +7984,6 @@
    ]
   },
   {
-   "id": "wn-divinatory.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "resembling or characteristic of a prophet or prophecy",
-   "words": [
-    [
-     "sibylline",
-     "resembling or characteristic of a prophet or prophecy",
-     1.69
-    ],
-    [
-     "divinatory",
-     "resembling or characteristic of a prophet or prophecy",
-     1.65
-    ],
-    [
-     "mantic",
-     "resembling or characteristic of a prophet or prophecy",
-     1.57
-    ]
-   ]
-  },
-  {
    "id": "wn-dizzy.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -9255,30 +8008,6 @@
     [
      "vertiginous",
      "having or causing a whirling sensation; liable to falling",
-     2.02
-    ]
-   ]
-  },
-  {
-   "id": "wn-documentary.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a film or TV program presenting the facts about a person or event",
-   "words": [
-    [
-     "documentary",
-     "a film or TV program presenting the facts about a person or event",
-     4.31
-    ],
-    [
-     "infotainment",
-     "a film or TV program presenting the facts about a person or event",
-     2.59
-    ],
-    [
-     "docudrama",
-     "a film or TV program presenting the facts about a person or event",
      2.02
     ]
    ]
@@ -9395,54 +8124,6 @@
    ]
   },
   {
-   "id": "wn-downy.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "like down or as soft as down",
-   "words": [
-    [
-     "fluffy",
-     "like down or as soft as down",
-     3.59
-    ],
-    [
-     "downy",
-     "like down or as soft as down",
-     2.6
-    ],
-    [
-     "flossy",
-     "like down or as soft as down",
-     1.79
-    ]
-   ]
-  },
-  {
-   "id": "wn-drift.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a force that moves something along",
-   "words": [
-    [
-     "drift",
-     "a force that moves something along",
-     3.82
-    ],
-    [
-     "impetus",
-     "a force that moves something along",
-     3.27
-    ],
-    [
-     "impulsion",
-     "a force that moves something along",
-     1.53
-    ]
-   ]
-  },
-  {
    "id": "wn-drip.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -9497,30 +8178,6 @@
      "stupefied",
      "as if struck dumb with astonishment and surprise",
      2.14
-    ]
-   ]
-  },
-  {
-   "id": "wn-dust_storm.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a windstorm that lifts up clouds of dust or sand",
-   "words": [
-    [
-     "duster",
-     "a windstorm that lifts up clouds of dust or sand",
-     2.78
-    ],
-    [
-     "sandstorm",
-     "a windstorm that lifts up clouds of dust or sand",
-     2.73
-    ],
-    [
-     "sirocco",
-     "a windstorm that lifts up clouds of dust or sand",
-     1.95
     ]
    ]
   },
@@ -9679,30 +8336,6 @@
    ]
   },
   {
-   "id": "wn-emir.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "an independent ruler or chieftain (especially in Africa or Arabia)",
-   "words": [
-    [
-     "amir",
-     "an independent ruler or chieftain (especially in Africa or Arabia)",
-     3.4
-    ],
-    [
-     "emir",
-     "an independent ruler or chieftain (especially in Africa or Arabia)",
-     3.05
-    ],
-    [
-     "ameer",
-     "an independent ruler or chieftain (especially in Africa or Arabia)",
-     2.48
-    ]
-   ]
-  },
-  {
    "id": "wn-endanger.v.01",
    "src": "wordnet",
    "pos": "verb",
@@ -9824,11 +8457,6 @@
      "onetime",
      "belonging to some prior time",
      2.58
-    ],
-    [
-     "quondam",
-     "belonging to some prior time",
-     1.53
     ]
    ]
   },
@@ -9968,35 +8596,6 @@
    ]
   },
   {
-   "id": "wn-excess.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 1,
-   "sense": "more than is needed, desired, or required",
-   "words": [
-    [
-     "excess",
-     "more than is needed, desired, or required",
-     4.21
-    ],
-    [
-     "surplus",
-     "more than is needed, desired, or required",
-     3.87
-    ],
-    [
-     "redundant",
-     "more than is needed, desired, or required",
-     3.59
-    ],
-    [
-     "supernumerary",
-     "more than is needed, desired, or required",
-     2.15
-    ]
-   ]
-  },
-  {
    "id": "wn-excursion.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -10017,30 +8616,6 @@
      "jaunt",
      "a journey taken for pleasure",
      2.6
-    ]
-   ]
-  },
-  {
-   "id": "wn-exorbitant.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "greatly exceeding bounds of reason or moderation",
-   "words": [
-    [
-     "exorbitant",
-     "greatly exceeding bounds of reason or moderation",
-     3.01
-    ],
-    [
-     "extortionate",
-     "greatly exceeding bounds of reason or moderation",
-     2.32
-    ],
-    [
-     "usurious",
-     "greatly exceeding bounds of reason or moderation",
-     1.75
     ]
    ]
   },
@@ -10171,30 +8746,6 @@
      "fancied",
      "formed or conceived by the imagination",
      3.13
-    ]
-   ]
-  },
-  {
-   "id": "wn-fairy.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a small being, human in form, playful and having magical powers",
-   "words": [
-    [
-     "sprite",
-     "a small being, human in form, playful and having magical powers",
-     3.19
-    ],
-    [
-     "faerie",
-     "a small being, human in form, playful and having magical powers",
-     2.72
-    ],
-    [
-     "faery",
-     "a small being, human in form, playful and having magical powers",
-     2.03
     ]
    ]
   },
@@ -10402,11 +8953,6 @@
      "workable",
      "capable of being done with means at hand and circumstances as they are",
      3.12
-    ],
-    [
-     "executable",
-     "capable of being done with means at hand and circumstances as they are",
-     2.8
     ]
    ]
   },
@@ -10431,30 +8977,6 @@
      "ferocious",
      "marked by extreme and violent energy",
      3.21
-    ]
-   ]
-  },
-  {
-   "id": "wn-filamentous.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "thin in diameter",
-   "words": [
-    [
-     "filamentous",
-     "thin in diameter; resembling a thread",
-     2.3
-    ],
-    [
-     "threadlike",
-     "thin in diameter; resembling a thread",
-     1.79
-    ],
-    [
-     "filiform",
-     "thin in diameter; resembling a thread",
-     1.77
     ]
    ]
   },
@@ -10579,30 +9101,6 @@
    ]
   },
   {
-   "id": "wn-foray.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a sudden short attack",
-   "words": [
-    [
-     "raid",
-     "a sudden short attack",
-     4.19
-    ],
-    [
-     "foray",
-     "a sudden short attack",
-     3.04
-    ],
-    [
-     "maraud",
-     "a sudden short attack",
-     1.31
-    ]
-   ]
-  },
-  {
    "id": "wn-forbidden.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -10708,30 +9206,6 @@
     ]
    ],
    "ant": "wn-compact.s.01"
-  },
-  {
-   "id": "wn-gawky.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "lacking grace in movement or posture",
-   "words": [
-    [
-     "clumsy",
-     "lacking grace in movement or posture",
-     3.44
-    ],
-    [
-     "clunky",
-     "lacking grace in movement or posture",
-     2.84
-    ],
-    [
-     "gawky",
-     "lacking grace in movement or posture",
-     1.91
-    ]
-   ]
   },
   {
    "id": "wn-gay.s.02",
@@ -10888,35 +9362,6 @@
    ]
   },
   {
-   "id": "wn-greasy.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 1,
-   "sense": "containing an unusual amount of grease or oil",
-   "words": [
-    [
-     "greasy",
-     "containing an unusual amount of grease or oil",
-     3.45
-    ],
-    [
-     "oily",
-     "containing an unusual amount of grease or oil",
-     3.35
-    ],
-    [
-     "sebaceous",
-     "containing an unusual amount of grease or oil",
-     2.34
-    ],
-    [
-     "oleaginous",
-     "containing an unusual amount of grease or oil",
-     1.73
-    ]
-   ]
-  },
-  {
    "id": "wn-grim.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -10932,11 +9377,6 @@
      "relentless",
      "not to be placated or appeased or moved by entreaty",
      3.51
-    ],
-    [
-     "unrelenting",
-     "not to be placated or appeased or moved by entreaty",
-     2.92
     ],
     [
      "inexorable",
@@ -11018,30 +9458,6 @@
    ]
   },
   {
-   "id": "wn-gunfight.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a fight involving shooting small arms with the intent to kill or frighten",
-   "words": [
-    [
-     "shootout",
-     "a fight involving shooting small arms with the intent to kill or frighten",
-     3.51
-    ],
-    [
-     "gunfight",
-     "a fight involving shooting small arms with the intent to kill or frighten",
-     2.87
-    ],
-    [
-     "gunplay",
-     "a fight involving shooting small arms with the intent to kill or frighten",
-     2.34
-    ]
-   ]
-  },
-  {
    "id": "wn-gusto.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -11062,59 +9478,6 @@
      "gusto",
      "vigorous and enthusiastic enjoyment",
      3.0
-    ]
-   ]
-  },
-  {
-   "id": "wn-hairy.a.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 1,
-   "sense": "having or covered with hair",
-   "words": [
-    [
-     "hairy",
-     "having or covered with hair",
-     3.8
-    ],
-    [
-     "haired",
-     "having or covered with hair",
-     3.7
-    ],
-    [
-     "hirsute",
-     "having or covered with hair",
-     2.16
-    ]
-   ]
-  },
-  {
-   "id": "wn-hapless.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "deserving or inciting pity",
-   "words": [
-    [
-     "pathetic",
-     "deserving or inciting pity; ; ; - Galsworthy",
-     4.11
-    ],
-    [
-     "hapless",
-     "deserving or inciting pity; ; ; - Galsworthy",
-     2.88
-    ],
-    [
-     "piteous",
-     "deserving or inciting pity; ; ; - Galsworthy",
-     1.81
-    ],
-    [
-     "misfortunate",
-     "deserving or inciting pity; ; ; - Galsworthy",
-     1.38
     ]
    ]
   },
@@ -11273,30 +9636,6 @@
    ]
   },
   {
-   "id": "wn-hiss.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a fricative sound (especially as an expression of disapproval)",
-   "words": [
-    [
-     "hiss",
-     "a fricative sound (especially as an expression of disapproval)",
-     3.05
-    ],
-    [
-     "fizzle",
-     "a fricative sound (especially as an expression of disapproval)",
-     2.5
-    ],
-    [
-     "hushing",
-     "a fricative sound (especially as an expression of disapproval)",
-     1.67
-    ]
-   ]
-  },
-  {
    "id": "wn-hoard.v.01",
    "src": "wordnet",
    "pos": "verb",
@@ -11317,30 +9656,6 @@
      "hoard",
      "save up as for future use",
      3.23
-    ]
-   ]
-  },
-  {
-   "id": "wn-holier-than-thou.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "excessively or hypocritically pious",
-   "words": [
-    [
-     "sanctimonious",
-     "excessively or hypocritically pious",
-     2.58
-    ],
-    [
-     "pharisaic",
-     "excessively or hypocritically pious",
-     1.65
-    ],
-    [
-     "pietistic",
-     "excessively or hypocritically pious",
-     1.6
     ]
    ]
   },
@@ -11389,30 +9704,6 @@
      "toughie",
      "an aggressive and violent young criminal",
      1.8
-    ]
-   ]
-  },
-  {
-   "id": "wn-hubbub.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "loud confused noise from many sources",
-   "words": [
-    [
-     "hubbub",
-     "loud confused noise from many sources",
-     2.51
-    ],
-    [
-     "brouhaha",
-     "loud confused noise from many sources",
-     2.16
-    ],
-    [
-     "katzenjammer",
-     "loud confused noise from many sources",
-     1.5
     ]
    ]
   },
@@ -11485,30 +9776,6 @@
      "unheeded",
      "disregarded",
      2.27
-    ]
-   ]
-  },
-  {
-   "id": "wn-immovable.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "not able or intended to be moved",
-   "words": [
-    [
-     "immovable",
-     "not able or intended to be moved",
-     2.78
-    ],
-    [
-     "stabile",
-     "not able or intended to be moved",
-     1.87
-    ],
-    [
-     "unmovable",
-     "not able or intended to be moved",
-     1.81
     ]
    ]
   },
@@ -11663,26 +9930,26 @@
    ]
   },
   {
-   "id": "wn-indefinable.s.02",
+   "id": "wn-ineffable.s.02",
    "src": "wordnet",
    "pos": "adj",
-   "level": 2,
-   "sense": "defying expression or description",
+   "level": 3,
+   "sense": "too sacred to be uttered",
    "words": [
     [
-     "unspeakable",
-     "defying expression or description",
-     3.12
-    ],
-    [
-     "indescribable",
-     "defying expression or description",
-     2.9
-    ],
-    [
      "ineffable",
-     "defying expression or description",
+     "too sacred to be uttered",
      2.41
+    ],
+    [
+     "unutterable",
+     "too sacred to be uttered",
+     1.58
+    ],
+    [
+     "unnameable",
+     "too sacred to be uttered",
+     1.54
     ]
    ]
   },
@@ -11784,30 +10051,6 @@
      "invigorate",
      "heighten or intensify",
      2.32
-    ]
-   ]
-  },
-  {
-   "id": "wn-integrity.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "an undivided or unbroken completeness or totality with nothing wanting",
-   "words": [
-    [
-     "integrity",
-     "an undivided or unbroken completeness or totality with nothing wanting",
-     4.22
-    ],
-    [
-     "unity",
-     "an undivided or unbroken completeness or totality with nothing wanting",
-     4.22
-    ],
-    [
-     "wholeness",
-     "an undivided or unbroken completeness or totality with nothing wanting",
-     2.63
     ]
    ]
   },
@@ -12130,30 +10373,6 @@
    ]
   },
   {
-   "id": "wn-layman.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "someone who is not a clergyman or a professional person",
-   "words": [
-    [
-     "secular",
-     "someone who is not a clergyman or a professional person",
-     3.95
-    ],
-    [
-     "layman",
-     "someone who is not a clergyman or a professional person",
-     2.93
-    ],
-    [
-     "layperson",
-     "someone who is not a clergyman or a professional person",
-     2.28
-    ]
-   ]
-  },
-  {
    "id": "wn-leery.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -12174,30 +10393,6 @@
      "untrusting",
      "openly distrustful and unwilling to confide",
      1.69
-    ]
-   ]
-  },
-  {
-   "id": "wn-legalize.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "make legal",
-   "words": [
-    [
-     "legalize",
-     "make legal",
-     3.26
-    ],
-    [
-     "legitimize",
-     "make legal",
-     2.75
-    ],
-    [
-     "decriminalize",
-     "make legal",
-     2.3
     ]
    ]
   },
@@ -12251,30 +10446,6 @@
    ]
   },
   {
-   "id": "wn-level.v.02",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "tear down so as to make flat with the ground",
-   "words": [
-    [
-     "dismantle",
-     "tear down so as to make flat with the ground",
-     3.24
-    ],
-    [
-     "raze",
-     "tear down so as to make flat with the ground",
-     2.52
-    ],
-    [
-     "rase",
-     "tear down so as to make flat with the ground",
-     1.61
-    ]
-   ]
-  },
-  {
    "id": "wn-lilting.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -12314,6 +10485,11 @@
      "lineage",
      "the descendants of one individual",
      3.46
+    ],
+    [
+     "pedigree",
+     "the descendants of one individual",
+     3.35
     ],
     [
      "bloodline",
@@ -12410,31 +10586,26 @@
    ]
   },
   {
-   "id": "wn-ma.n.01",
+   "id": "wn-match.v.01",
    "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "informal terms for a mother",
+   "pos": "verb",
+   "level": 2,
+   "sense": "be compatible, similar or consistent",
    "words": [
     [
-     "mama",
-     "informal terms for a mother",
-     4.24
+     "correspond",
+     "be compatible, similar or consistent; coincide in their characteristics",
+     3.5
     ],
     [
-     "mommy",
-     "informal terms for a mother",
-     3.89
+     "jibe",
+     "be compatible, similar or consistent; coincide in their characteristics",
+     2.44
     ],
     [
-     "mummy",
-     "informal terms for a mother",
-     3.57
-    ],
-    [
-     "momma",
-     "informal terms for a mother",
-     3.41
+     "gibe",
+     "be compatible, similar or consistent; coincide in their characteristics",
+     1.97
     ]
    ]
   },
@@ -12464,11 +10635,6 @@
      "nonpareil",
      "eminent beyond or above comparison",
      2.08
-    ],
-    [
-     "unmatchable",
-     "eminent beyond or above comparison",
-     1.81
     ]
    ]
   },
@@ -12497,30 +10663,6 @@
    ]
   },
   {
-   "id": "wn-minimize.v.03",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "cause to seem less serious",
-   "words": [
-    [
-     "belittle",
-     "cause to seem less serious; play down",
-     2.86
-    ],
-    [
-     "denigrate",
-     "cause to seem less serious; play down",
-     2.59
-    ],
-    [
-     "derogate",
-     "cause to seem less serious; play down",
-     1.62
-    ]
-   ]
-  },
-  {
    "id": "wn-misdemeanor.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -12541,30 +10683,6 @@
      "infraction",
      "a crime less serious than a felony",
      2.9
-    ]
-   ]
-  },
-  {
-   "id": "wn-misinterpretation.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "putting the wrong interpretation on",
-   "words": [
-    [
-     "misunderstanding",
-     "putting the wrong interpretation on",
-     3.7
-    ],
-    [
-     "mistaking",
-     "putting the wrong interpretation on",
-     3.01
-    ],
-    [
-     "misinterpretation",
-     "putting the wrong interpretation on",
-     2.68
     ]
    ]
   },
@@ -12637,35 +10755,6 @@
      "roving",
      "migratory",
      2.98
-    ],
-    [
-     "peregrine",
-     "migratory",
-     2.82
-    ]
-   ]
-  },
-  {
-   "id": "wn-molt.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "periodic shedding of the cuticle in arthropods or the outer skin in reptiles",
-   "words": [
-    [
-     "molt",
-     "periodic shedding of the cuticle in arthropods or the outer skin in reptiles",
-     2.37
-    ],
-    [
-     "moulting",
-     "periodic shedding of the cuticle in arthropods or the outer skin in reptiles",
-     1.99
-    ],
-    [
-     "ecdysis",
-     "periodic shedding of the cuticle in arthropods or the outer skin in reptiles",
-     1.34
     ]
    ]
   },
@@ -12759,11 +10848,6 @@
      3.72
     ],
     [
-     "shibboleth",
-     "a favorite saying of a sect or political group",
-     2.0
-    ],
-    [
      "catchword",
      "a favorite saying of a sect or political group",
      1.36
@@ -12815,40 +10899,6 @@
      "wordless",
      "expressed without speech; ; ; - Emily Dickinson; ; ; - Thomas Wolfe",
      2.57
-    ]
-   ]
-  },
-  {
-   "id": "wn-nauseating.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "causing or able to cause nausea",
-   "words": [
-    [
-     "sickening",
-     "causing or able to cause nausea",
-     3.31
-    ],
-    [
-     "nauseous",
-     "causing or able to cause nausea",
-     3.07
-    ],
-    [
-     "loathsome",
-     "causing or able to cause nausea",
-     2.71
-    ],
-    [
-     "queasy",
-     "causing or able to cause nausea",
-     2.62
-    ],
-    [
-     "noisome",
-     "causing or able to cause nausea",
-     1.68
     ]
    ]
   },
@@ -12921,35 +10971,6 @@
      "sobriquet",
      "a familiar name for a person (often a shortened version of a person's given name)",
      2.11
-    ],
-    [
-     "cognomen",
-     "a familiar name for a person (often a shortened version of a person's given name)",
-     1.8
-    ]
-   ]
-  },
-  {
-   "id": "wn-niggard.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "a selfish person who is unwilling to give or spend",
-   "words": [
-    [
-     "scrooge",
-     "a selfish person who is unwilling to give or spend",
-     2.96
-    ],
-    [
-     "skinflint",
-     "a selfish person who is unwilling to give or spend",
-     1.51
-    ],
-    [
-     "churl",
-     "a selfish person who is unwilling to give or spend",
-     1.51
     ]
    ]
   },
@@ -12998,11 +11019,6 @@
      "tyro",
      "someone new to a field or activity",
      2.26
-    ],
-    [
-     "tiro",
-     "someone new to a field or activity",
-     2.01
     ]
    ]
   },
@@ -13053,86 +11069,9 @@
      2.28
     ],
     [
-     "farrago",
+     "oddments",
      "a motley assortment of things",
-     1.92
-    ],
-    [
-     "hotchpotch",
-     "a motley assortment of things",
-     1.62
-    ]
-   ]
-  },
-  {
-   "id": "wn-omen.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a sign of something about to happen",
-   "words": [
-    [
-     "omen",
-     "a sign of something about to happen",
-     3.12
-    ],
-    [
-     "portent",
-     "a sign of something about to happen",
-     2.3
-    ],
-    [
-     "prognostication",
-     "a sign of something about to happen",
-     1.85
-    ]
-   ]
-  },
-  {
-   "id": "wn-oozing.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "leaking out slowly",
-   "words": [
-    [
-     "oozing",
-     "leaking out slowly",
-     2.89
-    ],
-    [
-     "seeping",
-     "leaking out slowly",
-     2.74
-    ],
-    [
-     "oozy",
-     "leaking out slowly",
-     1.78
-    ]
-   ]
-  },
-  {
-   "id": "wn-ostentation.n.02",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "lack of elegance as a consequence of being pompous and puffed up with vanity",
-   "words": [
-    [
-     "pomposity",
-     "lack of elegance as a consequence of being pompous and puffed up with vanity",
-     2.04
-    ],
-    [
-     "pretentiousness",
-     "lack of elegance as a consequence of being pompous and puffed up with vanity",
-     1.99
-    ],
-    [
-     "puffiness",
-     "lack of elegance as a consequence of being pompous and puffed up with vanity",
-     1.96
+     1.43
     ]
    ]
   },
@@ -13157,40 +11096,6 @@
      "predominate",
      "having superior power and influence",
      2.59
-    ],
-    [
-     "preponderant",
-     "having superior power and influence",
-     1.83
-    ]
-   ]
-  },
-  {
-   "id": "wn-pamper.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "treat with excessive indulgence",
-   "words": [
-    [
-     "cocker",
-     "treat with excessive indulgence",
-     2.81
-    ],
-    [
-     "pamper",
-     "treat with excessive indulgence",
-     2.78
-    ],
-    [
-     "coddle",
-     "treat with excessive indulgence",
-     2.32
-    ],
-    [
-     "featherbed",
-     "treat with excessive indulgence",
-     1.73
     ]
    ]
   },
@@ -13236,11 +11141,6 @@
      3.1
     ],
     [
-     "charade",
-     "a composition that imitates or misrepresents somebody's style, usually in a humorous way",
-     2.9
-    ],
-    [
      "lampoon",
      "a composition that imitates or misrepresents somebody's style, usually in a humorous way",
      2.33
@@ -13260,11 +11160,6 @@
      1.91
     ],
     [
-     "untracked",
-     "lacking pathways",
-     1.7
-    ],
-    [
      "untrodden",
      "lacking pathways",
      1.51
@@ -13273,30 +11168,6 @@
      "pathless",
      "lacking pathways",
      1.37
-    ]
-   ]
-  },
-  {
-   "id": "wn-pedant.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a person who pays more attention to formal rules and book learning than they merit",
-   "words": [
-    [
-     "scholastic",
-     "a person who pays more attention to formal rules and book learning than they merit",
-     3.19
-    ],
-    [
-     "bookworm",
-     "a person who pays more attention to formal rules and book learning than they merit",
-     2.58
-    ],
-    [
-     "pedant",
-     "a person who pays more attention to formal rules and book learning than they merit",
-     2.13
     ]
    ]
   },
@@ -13321,30 +11192,6 @@
      "vend",
      "sell or offer for sale from place to place",
      2.0
-    ]
-   ]
-  },
-  {
-   "id": "wn-pedigree.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "having a list of ancestors as proof of being a purebred animal",
-   "words": [
-    [
-     "pedigree",
-     "having a list of ancestors as proof of being a purebred animal",
-     3.35
-    ],
-    [
-     "thoroughbred",
-     "having a list of ancestors as proof of being a purebred animal",
-     2.98
-    ],
-    [
-     "pureblood",
-     "having a list of ancestors as proof of being a purebred animal",
-     1.85
     ]
    ]
   },
@@ -13404,11 +11251,6 @@
    "sense": "make off with belongings of others",
    "words": [
     [
-     "cabbage",
-     "make off with belongings of others",
-     3.55
-    ],
-    [
      "pilfer",
      "make off with belongings of others",
      2.06
@@ -13417,11 +11259,6 @@
      "filch",
      "make off with belongings of others",
      1.97
-    ],
-    [
-     "snarf",
-     "make off with belongings of others",
-     1.62
     ],
     [
      "purloin",
@@ -13511,9 +11348,9 @@
    "sense": "steal goods",
    "words": [
     [
-     "rifle",
+     "foray",
      "steal goods; take as spoils",
-     4.18
+     3.04
     ],
     [
      "pillage",
@@ -13529,78 +11366,6 @@
      "despoil",
      "steal goods; take as spoils",
      1.58
-    ]
-   ]
-  },
-  {
-   "id": "wn-pocked.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 3,
-   "sense": "used of paved surfaces having holes or pits",
-   "words": [
-    [
-     "pockmarked",
-     "used of paved surfaces having holes or pits",
-     1.96
-    ],
-    [
-     "pocked",
-     "used of paved surfaces having holes or pits",
-     1.83
-    ],
-    [
-     "potholed",
-     "used of paved surfaces having holes or pits",
-     1.5
-    ]
-   ]
-  },
-  {
-   "id": "wn-poetry.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "literature in metrical form",
-   "words": [
-    [
-     "poetry",
-     "literature in metrical form",
-     4.4
-    ],
-    [
-     "verse",
-     "literature in metrical form",
-     4.18
-    ],
-    [
-     "poesy",
-     "literature in metrical form",
-     1.66
-    ]
-   ]
-  },
-  {
-   "id": "wn-poster.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "a sign posted in a public place as an advertisement",
-   "words": [
-    [
-     "posting",
-     "a sign posted in a public place as an advertisement",
-     4.39
-    ],
-    [
-     "poster",
-     "a sign posted in a public place as an advertisement",
-     4.19
-    ],
-    [
-     "placard",
-     "a sign posted in a public place as an advertisement",
-     2.71
     ]
    ]
   },
@@ -13625,35 +11390,6 @@
      "shelve",
      "hold back to a later time",
      2.39
-    ],
-    [
-     "prorogue",
-     "hold back to a later time",
-     1.64
-    ]
-   ]
-  },
-  {
-   "id": "wn-predate.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "be earlier in time",
-   "words": [
-    [
-     "precede",
-     "be earlier in time; go back further",
-     2.86
-    ],
-    [
-     "forego",
-     "be earlier in time; go back further",
-     2.84
-    ],
-    [
-     "predate",
-     "be earlier in time; go back further",
-     2.59
     ]
    ]
   },
@@ -13682,6 +11418,30 @@
    ]
   },
   {
+   "id": "wn-prediction.n.02",
+   "src": "wordnet",
+   "pos": "noun",
+   "level": 3,
+   "sense": "a statement made about the future",
+   "words": [
+    [
+     "forecasting",
+     "a statement made about the future",
+     3.47
+    ],
+    [
+     "foretelling",
+     "a statement made about the future",
+     2.03
+    ],
+    [
+     "prognostication",
+     "a statement made about the future",
+     1.85
+    ]
+   ]
+  },
+  {
    "id": "wn-prevailing.s.01",
    "src": "wordnet",
    "pos": "adj",
@@ -13702,30 +11462,6 @@
      "rife",
      "most frequent or common",
      3.15
-    ]
-   ]
-  },
-  {
-   "id": "wn-prevent.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "keep from happening or arising",
-   "words": [
-    [
-     "preclude",
-     "keep from happening or arising; make impossible",
-     3.03
-    ],
-    [
-     "forestall",
-     "keep from happening or arising; make impossible",
-     2.62
-    ],
-    [
-     "foreclose",
-     "keep from happening or arising; make impossible",
-     2.51
     ]
    ]
   },
@@ -13779,78 +11515,6 @@
      "probationary",
      "under terms not final or fully worked out or agreed upon",
      2.72
-    ]
-   ]
-  },
-  {
-   "id": "wn-profanation.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "blasphemous behavior",
-   "words": [
-    [
-     "desecration",
-     "blasphemous behavior; the act of depriving something of its sacred character",
-     2.74
-    ],
-    [
-     "sacrilege",
-     "blasphemous behavior; the act of depriving something of its sacred character",
-     2.64
-    ],
-    [
-     "profanation",
-     "blasphemous behavior; the act of depriving something of its sacred character",
-     1.5
-    ]
-   ]
-  },
-  {
-   "id": "wn-prolongation.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "the act of prolonging something",
-   "words": [
-    [
-     "lengthening",
-     "the act of prolonging something",
-     2.86
-    ],
-    [
-     "perpetuation",
-     "the act of prolonging something",
-     2.39
-    ],
-    [
-     "prolongation",
-     "the act of prolonging something",
-     2.38
-    ]
-   ]
-  },
-  {
-   "id": "wn-pummel.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "strike, usually with the fist",
-   "words": [
-    [
-     "biff",
-     "strike, usually with the fist",
-     2.8
-    ],
-    [
-     "pommel",
-     "strike, usually with the fist",
-     2.47
-    ],
-    [
-     "pummel",
-     "strike, usually with the fist",
-     2.33
     ]
    ]
   },
@@ -14009,30 +11673,6 @@
    ]
   },
   {
-   "id": "wn-regnant.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 1,
-   "sense": "exercising power or authority",
-   "words": [
-    [
-     "ruling",
-     "exercising power or authority",
-     4.29
-    ],
-    [
-     "reigning",
-     "exercising power or authority",
-     3.45
-    ],
-    [
-     "regnant",
-     "exercising power or authority",
-     1.71
-    ]
-   ]
-  },
-  {
    "id": "wn-rejoinder.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -14139,30 +11779,6 @@
    ]
   },
   {
-   "id": "wn-repentance.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "remorse for your past conduct",
-   "words": [
-    [
-     "repentance",
-     "remorse for your past conduct",
-     3.19
-    ],
-    [
-     "penance",
-     "remorse for your past conduct",
-     3.13
-    ],
-    [
-     "penitence",
-     "remorse for your past conduct",
-     2.25
-    ]
-   ]
-  },
-  {
    "id": "wn-repress.v.01",
    "src": "wordnet",
    "pos": "verb",
@@ -14240,54 +11856,6 @@
    ]
   },
   {
-   "id": "wn-restrict.v.03",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 2,
-   "sense": "place limits on (extent or access)",
-   "words": [
-    [
-     "throttle",
-     "place limits on (extent or access)",
-     3.47
-    ],
-    [
-     "confine",
-     "place limits on (extent or access)",
-     2.92
-    ],
-    [
-     "trammel",
-     "place limits on (extent or access)",
-     1.95
-    ]
-   ]
-  },
-  {
-   "id": "wn-retraction.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "a disavowal or taking back of a previous assertion",
-   "words": [
-    [
-     "retraction",
-     "a disavowal or taking back of a previous assertion",
-     2.88
-    ],
-    [
-     "abjuration",
-     "a disavowal or taking back of a previous assertion",
-     1.81
-    ],
-    [
-     "recantation",
-     "a disavowal or taking back of a previous assertion",
-     1.75
-    ]
-   ]
-  },
-  {
    "id": "wn-revival.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -14360,30 +11928,6 @@
    ]
   },
   {
-   "id": "wn-ripple.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a small wave on the surface of a liquid",
-   "words": [
-    [
-     "ripple",
-     "a small wave on the surface of a liquid",
-     3.41
-    ],
-    [
-     "wavelet",
-     "a small wave on the surface of a liquid",
-     2.39
-    ],
-    [
-     "riffle",
-     "a small wave on the surface of a liquid",
-     2.2
-    ]
-   ]
-  },
-  {
    "id": "wn-rogue.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -14406,38 +11950,9 @@
      2.5
     ],
     [
-     "varlet",
-     "a deceitful and unreliable scoundrel",
-     1.64
-    ],
-    [
      "rapscallion",
      "a deceitful and unreliable scoundrel",
      1.61
-    ]
-   ]
-  },
-  {
-   "id": "wn-rotter.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a person who is deemed to be despicable or contemptible",
-   "words": [
-    [
-     "skunk",
-     "a person who is deemed to be despicable or contemptible",
-     3.1
-    ],
-    [
-     "lowlife",
-     "a person who is deemed to be despicable or contemptible",
-     2.49
-    ],
-    [
-     "rotter",
-     "a person who is deemed to be despicable or contemptible",
-     2.15
     ]
    ]
   },
@@ -14462,30 +11977,6 @@
      "walkaway",
      "an easy victory",
      1.97
-    ]
-   ]
-  },
-  {
-   "id": "wn-satiny.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "having a smooth, gleaming surface reflecting light",
-   "words": [
-    [
-     "silky",
-     "having a smooth, gleaming surface reflecting light",
-     3.26
-    ],
-    [
-     "silken",
-     "having a smooth, gleaming surface reflecting light",
-     2.62
-    ],
-    [
-     "satiny",
-     "having a smooth, gleaming surface reflecting light",
-     1.84
     ]
    ]
   },
@@ -14538,78 +12029,6 @@
    ]
   },
   {
-   "id": "wn-sewed.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "fastened with stitches",
-   "words": [
-    [
-     "stitched",
-     "fastened with stitches",
-     3.22
-    ],
-    [
-     "sewn",
-     "fastened with stitches",
-     3.18
-    ],
-    [
-     "sewed",
-     "fastened with stitches",
-     2.89
-    ]
-   ]
-  },
-  {
-   "id": "wn-shaking.n.02",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "a shaky motion",
-   "words": [
-    [
-     "quivering",
-     "a shaky motion",
-     2.74
-    ],
-    [
-     "palpitation",
-     "a shaky motion",
-     1.82
-    ],
-    [
-     "shakiness",
-     "a shaky motion",
-     1.79
-    ]
-   ]
-  },
-  {
-   "id": "wn-shot.n.09",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "an aggressive remark directed at a person like a missile and intended to have a telling effect",
-   "words": [
-    [
-     "barb",
-     "an aggressive remark directed at a person like a missile and intended to have a telling effect",
-     3.31
-    ],
-    [
-     "jibe",
-     "an aggressive remark directed at a person like a missile and intended to have a telling effect",
-     2.44
-    ],
-    [
-     "gibe",
-     "an aggressive remark directed at a person like a missile and intended to have a telling effect",
-     1.97
-    ]
-   ]
-  },
-  {
    "id": "wn-shriveled.s.02",
    "src": "wordnet",
    "pos": "adj",
@@ -14630,40 +12049,6 @@
      "shriveled",
      "lean and wrinkled by shrinkage as from age or illness; ; ; ; -W.F.Starkie",
      2.48
-    ],
-    [
-     "wizened",
-     "lean and wrinkled by shrinkage as from age or illness; ; ; ; -W.F.Starkie",
-     2.11
-    ]
-   ]
-  },
-  {
-   "id": "wn-slang.n.02",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a characteristic language of a particular group (as among thieves)",
-   "words": [
-    [
-     "jargon",
-     "a characteristic language of a particular group (as among thieves)",
-     3.24
-    ],
-    [
-     "lingo",
-     "a characteristic language of a particular group (as among thieves)",
-     3.01
-    ],
-    [
-     "patois",
-     "a characteristic language of a particular group (as among thieves)",
-     2.35
-    ],
-    [
-     "argot",
-     "a characteristic language of a particular group (as among thieves)",
-     1.94
     ]
    ]
   },
@@ -14712,30 +12097,6 @@
      "stifled",
      "held in check with difficulty",
      2.92
-    ]
-   ]
-  },
-  {
-   "id": "wn-snob.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "a person regarded as arrogant and annoying",
-   "words": [
-    [
-     "snob",
-     "a person regarded as arrogant and annoying",
-     2.96
-    ],
-    [
-     "snoot",
-     "a person regarded as arrogant and annoying",
-     1.94
-    ],
-    [
-     "prig",
-     "a person regarded as arrogant and annoying",
-     1.9
     ]
    ]
   },
@@ -14812,54 +12173,6 @@
    ]
   },
   {
-   "id": "wn-striving.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 1,
-   "sense": "an effortful attempt to attain a goal",
-   "words": [
-    [
-     "pains",
-     "an effortful attempt to attain a goal",
-     3.84
-    ],
-    [
-     "striving",
-     "an effortful attempt to attain a goal",
-     3.5
-    ],
-    [
-     "nisus",
-     "an effortful attempt to attain a goal",
-     1.8
-    ]
-   ]
-  },
-  {
-   "id": "wn-suppress.v.01",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 1,
-   "sense": "to put down by force or authority",
-   "words": [
-    [
-     "conquer",
-     "to put down by force or authority",
-     3.77
-    ],
-    [
-     "suppress",
-     "to put down by force or authority",
-     3.66
-    ],
-    [
-     "inhibit",
-     "to put down by force or authority",
-     3.34
-    ]
-   ]
-  },
-  {
    "id": "wn-surpass.v.02",
    "src": "wordnet",
    "pos": "verb",
@@ -14880,11 +12193,6 @@
      "outstrip",
      "be or do something to a greater degree",
      2.31
-    ],
-    [
-     "outgo",
-     "be or do something to a greater degree",
-     1.34
     ]
    ]
   },
@@ -14961,54 +12269,6 @@
    ]
   },
   {
-   "id": "wn-toddler.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 2,
-   "sense": "a young child",
-   "words": [
-    [
-     "toddler",
-     "a young child",
-     3.83
-    ],
-    [
-     "yearling",
-     "a young child",
-     2.68
-    ],
-    [
-     "bambino",
-     "a young child",
-     2.46
-    ]
-   ]
-  },
-  {
-   "id": "wn-topmost.s.01",
-   "src": "wordnet",
-   "pos": "adj",
-   "level": 2,
-   "sense": "at or nearest to the top",
-   "words": [
-    [
-     "uppermost",
-     "at or nearest to the top",
-     2.7
-    ],
-    [
-     "topmost",
-     "at or nearest to the top",
-     2.45
-    ],
-    [
-     "upmost",
-     "at or nearest to the top",
-     2.14
-    ]
-   ]
-  },
-  {
    "id": "wn-trainman.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -15029,30 +12289,6 @@
      "trainman",
      "an employee of a railroad",
      1.5
-    ]
-   ]
-  },
-  {
-   "id": "wn-trickery.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "verbal misrepresentation intended to take advantage of you in some way",
-   "words": [
-    [
-     "trickery",
-     "verbal misrepresentation intended to take advantage of you in some way",
-     2.95
-    ],
-    [
-     "skulduggery",
-     "verbal misrepresentation intended to take advantage of you in some way",
-     1.99
-    ],
-    [
-     "slickness",
-     "verbal misrepresentation intended to take advantage of you in some way",
-     1.81
     ]
    ]
   },
@@ -15356,30 +12592,6 @@
    ]
   },
   {
-   "id": "wn-unorthodoxy.n.01",
-   "src": "wordnet",
-   "pos": "noun",
-   "level": 3,
-   "sense": "any opinions or doctrines at variance with the official or orthodox position",
-   "words": [
-    [
-     "heresy",
-     "any opinions or doctrines at variance with the official or orthodox position",
-     3.35
-    ],
-    [
-     "heterodoxy",
-     "any opinions or doctrines at variance with the official or orthodox position",
-     1.7
-    ],
-    [
-     "unorthodoxy",
-     "any opinions or doctrines at variance with the official or orthodox position",
-     1.31
-    ]
-   ]
-  },
-  {
    "id": "wn-unsnarling.n.01",
    "src": "wordnet",
    "pos": "noun",
@@ -15400,30 +12612,6 @@
      "disentanglement",
      "the act of releasing from a snarled or tangled condition",
      1.4
-    ]
-   ]
-  },
-  {
-   "id": "wn-victimize.v.03",
-   "src": "wordnet",
-   "pos": "verb",
-   "level": 3,
-   "sense": "deprive of by deceit",
-   "words": [
-    [
-     "defraud",
-     "deprive of by deceit",
-     2.85
-    ],
-    [
-     "bunco",
-     "deprive of by deceit",
-     1.76
-    ],
-    [
-     "hornswoggle",
-     "deprive of by deceit",
-     1.7
     ]
    ]
   },
@@ -15526,7 +12714,7 @@
  ],
  "clash": {
   "at": 0.45,
-  "n": 581,
-  "bits": "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AAAAIRAIAgAIGAAQEQAIAAKEAACABAAAAAAAAAAAAQAAAAAAACADAAwAIgAABAAAAAASAAIAAAUAAAAAQAAAAABEAAEAAgAQAAIEAAAAAgAAAAAAEIABAAACBIAAAAAQAAIAAAAAAAAAAAAAAABiAAABQAQAgAAAAABAAkAAAKAAAAAAAAgAAACACCAAQAAAAkCAAAAAQAAAAAAAAAIwAABAgAAQAAAAAkAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAgEAAAgAAAAEAABAAAgCAACAIBAAAAAAAADAAABAACAAIAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAwAAAAAAAAAAAAAAQCAAAAABAACAAAAACABBAAAAEAQCAAAAAAAAGAAACAAEAAQAAAAAAAAAAAAAAGMAwAMAAgFBAAAAACADcAAAEgAgEIAGBAAJAEMEkAIQAAIBIEQAAAAhkAIAAoJDgBgAAgBAIgkCAgAAICQQRcAAsAAAAAAAAGAKAHAAQCAgCAAAAABkAA4AQAIABALQgAAgAWCIAFIAAkAgAIQIAAAgBFIAQEBwCBADQAAASCRBQAAAAIQEoggYABYAAAAAAADAAAAAgAAAAAAAAAAAAIAIAAAhAEAAAAIAAAAAEEAQQAAAAAAAAAAAgKAAAAQIAgAAIAgAAAAAAAAAAIAAQAAAAAAAMAAAAAAAgD8AAAMCCAAAQEEAQAAAAAgAAAAgAAAIAAAAAgAAAAAAAgAAABAACCEAAAAAAAAgAEACJAAAECgCAoBJAABAAAAAAAQAAAAAAMgHAGBAAAEAACgIAAgAAAABAAAABAAAAQAAQAAAAAAAQAAAAAACACEEAAAAAAAABABIgAQAAAJFQAAwCQAACAAAAAAAAAAAAAC5BgAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAACAAAgAAABAAAAEgABAABEAAAAAAJAAAAAAAAgEAAEAEAEAggAAAAAAAADg3gAAAAAEAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAEAABAAAACACAABAACCACAAAAAAASAAAAAACBACAAACIAQBAAAwAAAAAAvAMAIAAAAAAAEAAABAAAAAAACAAAAIAAAAAAAAAAAAIgAAAAAAGAEAIAAAEEAAACAARAAgAAgQAgAJgEAAAE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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAEAAAAwYGAO/P8DAAAPAAAACACIAQCBBAAAAQIAJBQBAIBACAABYAAAAAAEAgAAAAAAAEAAAAYCAAAAIEQAAUAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAIAHAwAGAAAAAACCAAAAAAAAAAAAQAAAEAAAAAQAAABAAAQgAAAAABBAAAAgAAAAAASAAEgAACBABAQAgwAAAAAAAAAz8P6H5wcAgAcQAIQYEAECAMQCAAAAAIQSCAQAAAgAAAgUAAAAgAAAAABACAoAIAACAAAABAAQAgAAAAAAFAAAAAAAAAAAAAAPHt78//8AAHBAA4CBAABAQBRZAAAABIAcQpEEBAgBAFCACiCgAFAgAAgAAGEBAADAICBAoDgAQgUIIAIQAAIAAAAAAAAAMBJgzPD4GQYeAAASoAAQEAAEAAAQIAAAAACQACASAAAgCAAAkAAAAAAAAAAAAAAAEIAACAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAMAPAAiAAAEAAAAABIAAwAgAQACAAhAAJAAIEAAIAAAAAAAQgQAABACAQAAAAAUgAEgAAAkoAAAABAAAABBAAgACQAAAAAAAAAAgAEAAAAAAAAAAAAEAAAABAAAAACAAABAAAAAAgkEAAAAAAAAAAAAAAAIAAAAAAAAAAIABAAEAAAAAAAACJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAGDAB4AAAAAAABAAAAACAAiBoAAAAEAAQBAAAAAAAAAgAEABAAAACAAACAECAAgABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAGMAADAAAgAAAAAAABAAAAAQAAAAAAEAwAAAAAAAJEAAEEAAAgYACAAgAAAAAAAAAIAAAAAAABAAQABIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAA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DAgBIFSCAEAAAGAAAgAAABEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADm/zwDzwAABMCAIGSAQBJAAEAAAAAAIBRQICAAAGEAQIADAAAABBiAAAACFiAABQAQIAAAAAAQAACAAACAAAAAQAAAAAAAAAAAAAAAAGAGABgAQAAgCAAAAAAgAAQAAAIBBAIQgAAAAUAIAEAAAAAAAAQIAAAgBAIAUGAgKAADQAAAiAABAAAAAAQAAAAQABAMANjDP/ADAAAAAIIAAggBAIBAAAAAAIAQAIEAIABEAACABAAgABAEAAIACCABAARAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAwD8AAAIAAAAAAEAAAAAAAAAAgAAAAAAIAAAAAgAAACAAAgAAABAAACAAAABAAAAgAEAAIAAAAAgAAgFIAABAAAAAAAAAAAAAMAMAPAAgABAEAAAAAAIAAwAAAQACAUhAAIAAIAQAIQAAABAAAoQAABACAQAAIDAUgAUgAAIEsAAgAAAAAgBBAAgACQAAAAAAAGAAgAcABAIEAAAAAAAAAAAABABEAACFAAAAAAIIAgEAAAAAQAgAAAgCIAAAAIADAAAAAABBJAIEAAAAAEABCIQAYAIAAAwwMAAAAAEgQAAAAAFARAABAiBAAAAAAIAAAAAAAAAgAAIAAAAgAACEAAAABAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAADYDID/H54BAMABBAABAAAAQGAgIAAACAIhhAI5AACAASACCFBAICAABEACEAAAAACAAUCAIQAABAgAIAggAARAAAAAIAAAACAAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAAAAAAAQAAAAAAEAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAAACAIAAIAAAAAIAAAAAAAAAAAAAAAAgAA2AAMwAAAAAAAAAAAAABEBAAAAAAAAAAAAAoAAAAAAAEAAAAAAEACAEAAIAAQAAAAYAAAAAACAAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAMAAAAAAAAAAABAAAAIQAAAAAAAAQAAAAAAAAAAAAACAACAABgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAwAMADAAIAYQAAAAAAAQAAABIAIBCAAgQACQAABAACAAAAACBEAAAAARACgABAQQAYAAIAYAIJAgIAAAABEASAAJAAAAAAAADgDwB4AEAAIAgAAAAAJABAAAAKAAQCkIAAIAFACABCAAAAIAAECAAAIAQDACBAcCgAA0EABAhgGUAgAAAEACIAEAASAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA4M3w/x+eHwAAEoDAGAAEwoy4JwMCAABQlkIIUgQAJAgAQEAJFUQAQwwiJQgBMBCIAAwADAgCAEAhAADAAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAQEAAAAAAQAAAAAAAAgAACCAAAAAAAAAAAAAIACAAAAEEAQAgAAAAAAAAAAQAAEAAAAAAAAAAZ3jMMD8zAAAAYAAYAYAQBBCJAQAAAgPAAAAJAIBACAACYAACAABUAKAAAAAECEAAFAQKAIiJAAAAAUIAAEAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAQAEAAAgAAAAIAEAAAQAAQAAAAAAAAAA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AAAAAAMYEAAAABCCAAACAAAgAIQACCAAAAAAgAgAAAAAgAAQAEEAAAAAAAAAAQAAAAAgIAAAAIAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQACAAABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAABAAAAAAAAAAAGADgARCBgCAAAAAIkAEYAAAJABAIACECgAQAAQJAAQAAAAAQIAAAwAAMAIAA4SEALAQBACCQRQABEAAAAIAAYADYAGAAADzDAAAAAAIEAAQAAAAARAAAAAAAAAEAAAAAhgAAAAAEAAgAAEAAAAAAAABAAIAAAICAAAAAIAAIAAEAAAAAAAAAAIBIAAAAAAAAAGAAgAcABAAAAAAAAAAEIAAAJABAAACBCAACAAIIAAUAAAAAQAgAAAACIAQAAYCCAKAAAEDARBYFBEAAAIggCBABYAAAAAAAAAAMAPAAgAAAAAAAAABAAAgAAAQAAAAAAAAAAAACAYAAAAAAAAABAABAAIQAAABAMAAEgAAgEAgCgEAAAAAAAAAAAAQAALOBmYEBAMCACAIBAAAAACAAAgCAIAAAAAABAAAAACAAgBAAAAAAAAQAAAASAACAAAAAgFARAAoAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAMAAAAAAAAAAAAAICAAAAAEABAAAACAAAAAAAAAAAAAAAgAAAAEAIgAQAAAAAwAAAAAAAAACAQAAAAAAEAAAAAEAAAAAAEAAAAAAAAAAAAAAAA8ACAQIAAAAQAAIAAAACACAAAAKAABAAQQAAAIAAAAAgAAAAAAGQAoAAAADAQKAAAAKCAQAAIAAABAAAAABwAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAABAAAACAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjYICBAQBAAACAiAAAAAAABAAACAEADAEAAAAAAABIACEAAAAoEAACAABAgAAAAAAAAEAEAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAwAwA8ACAAEAQAAAAAEgADACABAAIAKAAAEACgBABgAAAAAAACBAAAEAIhADAgMBQIAaAAAAQQAKAAEAFSAAEACAAJAYwMGYAZgAAAAAAAAEAIACBSAAAAAQABAAAAAEAAAAAAAAQAAAAEAQAQIAQAASAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAACAGQAABgQQAACAggCAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEABAABAAAAgVAAAABMAAAAAAEAAwAAAAIABAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABAAf4b////zAADwQAeGgQMYQES0GQAAAoSBFEKRLAQAwAAQg04ooBIwAgIhQQgggQAQ4CFwQICwAEIlCAAEEAAGIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgec8M8AMAAACACUAAMAQAAAAFAECAAAIABAAAAAACAAAAAAAAAAAAAAQAAAQAEAAAgQAAAAAAAQAAAAAAEAAAAAAAAAAAAAAwAAAABoABAACAAAAAACAAAAAAAAAAAAACAAAAAAAAAABAAAAAAAAAAAAAAAxAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAABAAAAAAAAAAAAAAAA2DCAnxkGAADAgQAAAQAQAQAAKAAAAAAoCQAAMQgAAAJAAghCQgUAAgQwEgCAAAAAAEPAgABAAAQCEEAIoEgAQAAAACAAAEEAwJ/h9///PwAAPMCBIIAACBEUD0YIgAApIIVQJA0AQAAAxIATKggEhAFACgBCWCAAADgADBAgAIAAAQAAAQSAAAgAAAAAAAAAAJjz/P5//h8AgAcwAIwAAAACAMECAYAgCYQQimQAACgAgAgwAgGBgCJRAAlAAAgFAAAMgAECBAQQKIEAIIAAMAABAAAAAAAAAAAAGAAAAAAAAAAAAIAAIAAAAABAAAAAAAAAAIAAAAAgAAAAAAAAAABAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAEAABAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAhAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAMAMAACABAEAAAAAAACIwAgACACAChAAAAAAEAAAQAAAAAAAAQAAACAAAAAACwEAAAAAAACMAggAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAQAYABAACAIAAAAACYABAIAAAIEABCAAAAAQIAAQAAAAAAAhAgAACIAQAAAYEArEABAAAAJYAAAAAAAAgAAABIAEAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAEAAAAAAAAAAIABAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAAgAAAAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAAAEAABAAEAAAAggCAAAAAAAAAAAIAACAAAAAAQBAAAAABAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAMAAgAACAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAMKDhzc//DwAAD3AgGBEkAAQBgwECAEAbSCEWaQiCEIwAEOCEAgIAQSAAsoAQHggCQAwCAwwAgSBAAgBgAAEgAAIIAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAACAACAAAABAAAEAAAIAAQAIAAAAAAAAgAAAAEAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAgDEA8wAAAACAAEBAAAAAAGQAAAAAAQABAIAAIAAAAAAQAACIAAAAAAIAAGgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAgAAAAAAAAEAAAEAAAAAABAAAAEAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAf4bf///8AADwQAKCgUCCSBAgUCABACSVEECTvAAA4QAQgkyhgBAwBAIwCwhogCAA4CFwwACgAAIlADAGUCQCIAAAABAAABAAYMgA2x8CBgAAEIAMAAAEBAACBAIAQAA0AAAIggYAIAgAIAAAFwACAAAgAQABABAAAAwAGgAAAAAAAAACAAAAAAQAAIAiAAAAAAAAAAAAAAADADwAIBAAAAAAAAAgAAAAIAAAAAAgBAAAAABAEAAAACAAAUIAAAAQACEAAAAQBAABAAAgBBAAAAACAEAAAQAEAAMAAAAAAABgAIABAAQAggAAAABAAkAAACAAQCAAAQgAEACAACAEAAAAAECAAAAAQCAEAAUAhAIwAAQAgAAUAAAAAAAAAAAAAAABAAAAAAAA4OEAAAABBAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAASAAAgAAAAAAgQAEAAACAEAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAwMP7/gQcAAAQAEAQcAAECAIQIAAAAAIQACAQAAEgAAAgAAAABgCAAAABAAAsAAQAKAAEAAAAQAkAAEAAAMAAAAAAAAAAAAAAAAAAAAADMAAADAAgEAAAAAACABIAAAEAgAEAAABAAAAAIAEAQAAAABIAAAQAAgAAAAAAAAARgAQBAAAEgAAAAQIAAAAAAAADgz/D///8fAAAS4MAwMgAiCKgmCwJAggYUQyiSAQAhGAACgAkFBAJLDCAECAEgEAAACAAGCBARQagAAoQAAMAABAAAAAAAAAAA/Bl+//P8AwDAAx0IQggBAgGzZIUAQJAYEghNIgAAhANABCiBggIgkAhoBCCEBAIAEILAAwGAAggUQIAQQBEQgAAAAAAAACAAgDfD/39+fgAASAABo4AACSGiUiwAAAFCQAyBABMAkCAAiAADFBAICBMAFCCEgEAAAEAAGCBAAAChEgAAAwAAAQAAAAAAAAAAAAAAAAAAAMAfAPAAiEBAGAAAAACAAIQAgBQAAACgIQFAAkACAIQBAIAAAAgBAABAAIxAIAAgUAAEgAAEEEgAgARIBAgBBAEgAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAn+H3P///AAA80AFAAAAAEQBEBgCAAE0Ah8CEBQhCMABEgAEKCAAUkAQEAAJAIAAAcAAcECAgAkABAAQBAIEBCAAAAAAAABoAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAIAABAAAAAx4BsAMDAMA4AAAAAAAgAAAAABAAAAQhAQAAAgEACAAAAEAAAACAAACMAEAAAEAAIAgYAAAIAgAAAAABEAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAABAAAAAAQAAAIIAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAKAAAAAAAAAAABACQN8Pvfx54AABIoANBABAYJqIeDBAAAdJBCqFIExCAIAAIASVQEAkIIIAQIASQQCAAcBAYIAAAAIECAAgCAAABEAAAAIAAAAAAAACGAQAAMAAAAEAAAABEAAAAAAAAAAAIAAABAAIAAAAAIAAAAAABABgQIoAAAAAAAAIAAQAAAAABAAAAAAAAAAAAAAABAAAAAP4M/////wcA4IEMDAECAI2AezJgACRIaymEJnkAAMIBcAacEEEBIEgEZpYQAAIBEMBB4IAAAQEUChAgCCBIDEAAAAAgAgARAAAAAAAAAABzAMAAIAIAAAAAAAAAAWACAFAIABAAAAAAAQBCBAAEEAAAAQAAAQAAICAAgACCAAFQAAIAAAAAAAAAACAAAAEAAAD4M8B+ZuABAIAHAhgEAAAgggABAAAQIiiEAAhEAAAAAgAYIEABgIAFAAAJAAAQAAAAA4AHgAAAAAAAgCCAABABAQAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAACAAAAAQAAAAAAAAAAEAAAAAAAAAAABgA4AEAAQABAAAAAAABBAAAAQABAEAhAAAQAACAAAAAAAAAAAIAAIAACAAgAKAAAAAUAEgQiwABCQAIADAAAiEAmAAAAAAAAAAAAEAgAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAIAHAAQAggAAAABAAmAAACQAQCAADQgAEAAECAAAAAAAAkCAAAAAAiAEAAIEgwAwAAQAgAASBATAAACAIAAAASABAAAAAAAAEAAAAAgAgAAAAAAAAAAAAIAQAgAAAAAAAAAAEAEEAAQAAAAAAAAAAAAAACAAIEAAAAAAAAgAAAAAAAYIAAAAAgAA/jy/////AQDggQ0OAwIUgqhoM0IIBGgGuQQiTQABwgGkAJ1QACSgTgBQgBDCAwMAgIPggIBhEYQKAAAMAAAEQAAAAgACADAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGDDAAYGgAEAgAcCABAIQAAAAAgAAACAIAAAAAAAAAgBAAwgBAEAAAAQgAgAAECAAAAEAQMAAUEQCAAAIYACAAAAgAAAAABAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAN/5hkGAAAMwKAwAEACiLgiAgBAAECSCQgQhAAwBAAIACABBAABAAAFCCEsEIgAIAAEAAAWQAAAgEAAAAAAAQAgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAgAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAADBggM3PPwMAAA8wIBAAAIIEAYABAgDAGEghFEEDABAMADCggAkCAAMgECKAAAQIAAAGAAEMAAAgBAIAJQAAIAAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAQBAAAAAAAAAAABCAoAAAAAAIBEAACAAAgAAAAAIAAAABBAAAAAAAAAAAA4AEAAAAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAB4AAAQAEAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAABCAAAAAAEAIAQCAAAIAAAEAECABAIAAABAASAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAAEEAAAAAAAAAAAAAAAAAAAQEAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABwB8eBh4AAAAAAAjAAAIEeKOAAACAQABAAABAQAQAAAAAAMAAAEAYwgUIAAAQCACIAAQAAgAAIQAAAAAAAAAEAAAAAAAAAAAsOX4/d/vCwAAC3QmGBggwAUAiRUCIEASyCEUSQqAEAwAEaiECgIBRiCAgoQQFggAABwAAwwICyBEAgBhAAEgAAIAAEAAAIAAAAA8MHhgAAAAAADCBAAAgIAAAAAAAIAIAgmAAggAAAIAAAIAAQEgIAAEAAAA0AAAAAAAAAAAAACAAAAgAAAABAAAAAAAAAAAAACbgTf/8wAAACCgAWFEgEQQASQCAAAEDCCHQCQBIAIgAACAEAAIAIQJgAoAQlAgAABQAAgQICSCAAAEAAEAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgBACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADADA8wDDAAAAQAIAAAAAABAAEAAAECAAAAABIAAAIAAAAAAAIAAAAAAEAAAAAAAARAEAAACAAAAAAAAEAAAAAAAAAAAAAAAA4AEw5weGBwAAAADACAAAQoS4JwAAQABAAAAAQAAAJAgAAEABAAQAiQgABQgBIBAIAAAAAAACAAAgAACAAAAAAAAAAAAAAQAAADBg/sMz/wMAgAGIGQYAaAQRUQYEAEDQAGIABBoAAgADQAQygIAAYAkAqAAhhAYCAAAGgQAAwCAIEQAAEAAAGAAAAAAAAAAAAAAAAAAAAABgAIAHAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAAAEAIAAAAAiABAAAAgAAAEAAAgAAAAAAAAAAAIAAAACAAAAAAAAAA4B8AgAEABAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAgAgBAAAAAAAAAAASABEgAACAAxAQAkAAAAAACAAAxM4AEYAAAAAAQAIgIEAIApsAAARABEAIQiAAAQAAEAABxAQACAAAAAAACAAgEAAAAAgAAAAIwAAAAAAAAAAAAAAAAAAAAAwAOACQMAMwAAIAAAAQAIBABxBxJAgACAAAAAgAAAAEAAAIAQAgAAggAAAAAARAAQAAAACAAAAABCAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAMgAARCAAIAAAEAAAAAAAAAAAAAAAgAAAQACIAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgDADAAAAAABAAAQAQAAAgAAAQAABAAAAgAAAAAAAAAABAAAACAAAIACAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAADgwcP7/4EfAAAeaEAwAAAQCAIAAiYAgKcQQiCQFwAgFEAigCgEEAIGACBmAQAMEAQAGAQOGAAUQaAEAI4AgsAABAAAgAIAAAACAAAAAAAAMAMAAAAAAAAAAAAAABAABgAAAAAAAQQAAAAAAAQIIQAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAgAgAIAAAgAAABAAATDDY+aZgQEACAACAAAAAAAAUAAAAAACAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAMAAAAAAAAAIAACCBAAACAAIAAAACBAAAAAAAAABAAAgAAIAAAAAAgAAAAAAAIAAAAAAAAAAABAAAAAAAACkAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAECAAAIAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAABAEgAAAAAAAAMG2PzAMAAA8AABAgAAIEQQKBAAAAKIgQAAEDwAAEEAAAICOAAQAAACAAIAIABgAGABUIAAAAACAABQAAAAAACAAAAEAQAAAADAAwMGmGcAABCAABAAQCgAAAIoAAACAoABCBIAFAAAAACAAAQAAIggAAEAASAQAAAAAAAAAAUBAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAACAAAAAAAACAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAACAxv+OcZAAAwAAHDgACJIKLOCAAACQtALgBAEwBAMQBgAQYAEAEsAwARIITwQCAAkCAwABAYBIEACAACAAIBBAAAAAAAAAAAAAYAAAAAAAAACAAAAAAACAAAAAAAAABAAQAAAAAAAAIAEEAUAggAACAAkAAAgAAAAAgABgAAAAAAAABAAEACAAAAAAAAAAAAAAA88Hl4eAAAAAHGDAMAJIyIaiJAAAQIDiGEElkBQIIBIAIUckEksAwEEIIQAgKBAIABQIAAYAAECgAACCAIBEAAAEAAAAAgAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAADAAAAAAAAAAAAAEAAAAAABgBgB4AEAgIAgAAAAAZAAGAEACAAQAUIgAAAFgiABAAABAAACACAAAIABSAEAgQAgQA0AAAEhgAQACAACBAAIIGAAWfAbe/ADMAADwQAIAAACAAAABESAAAgS0AAARCAAApQAUAQShgAAAAAIwCAAIgAAAgCBwQAAgAAIFCCQGQCQAIAAAABAAgFAQAAAMAwCAAQAAHAAAAACIEAACAAIAAAiBAAACAgcAAADAIgAABgACAEAgAAEACAAAAQAABhAAAACgAACKAAIABAAQAIACAAAIAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAABgAAAAAHAAAAAAIEAAAAAAAAAAAAIIAAFEAAAQAIgAABAAAAgAAYgBAAAAEARAEDggAAAAgAIEIAIIEgEQQAAACgAACAAAAAAAAAAADADwAIAAQBAAAAAAgAAEAAAAAAAAgAEAAAJAAAEgAACAAAAIAgAAQAAsQAAAADAgBAAAAJBAgAAAAAQAAAAAAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBuAPw8MPAAABBCAUQAIBABxSwBEgACAAAQAgAAASAAAAIACCogAhgEACgACQCAQAAAACBAoBoBAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAADMAAAPAAgABAEAAACABMAAAEgAgEAAAhAAJAAIAQAIAAAAAIAAJAAAhEAAAAwJBgViAQiAAAEsAAgEAKAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAABAAAAAAAAAACAAAAAAEogAgAAAAAAAAAAAA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AZAAAEAgAAgAJAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAADABgAPgBAAAAAAABAACAAAAAAAAAAAIBAABJAAAAACACAQAAAAAABAIQEIAAAAAAggAAAQAAAAgAIAAAAAgAAAAAAAAAAADAAAAODwzPAAAAAIAhAAikAHkLAASAAIAgAACgAAAIAIAAAAACgACCEEAKEMIAIAAAAAAQAAAAAAIAAAEAAAAAAAAAAAACAEAAAAAAAAAA4A8AAABAACAIAAAAACQABAAAAgAEAgCAAAAAQAgAAgACACAAAAgAAAAAAgAAQBAgAAJAAAAAAAkAAAAABAAgCAAAEIABAAAAAADmAwAQAEAAAAAKAgACAAAAAAAEAAAAQAAAAAAAAAAAARAAAACAAEAIAAEAAAIAAAEAACABAIBAABACSAIAAAQAAAAAMAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAQBAAAAAAAAAAAAAAAAAAAAAQAAAODAAPAAAAAAABBACuAAEBcABQDIgAAAASEAAAAQAAAAAAAACCAAAAAAAAAAAgAAAAEAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAACAQAABAAAAAASAACQAAAAAAAABQgAAAAAAAAAAAAAAAAAAAAACAAAAEAAAAgAAAAAAIZ5MAAAMwAAAAwAAACAAAAAAAQAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAgAAAAEAAACAgAUgAAiAAQAAAAAAAAAAAiCAAAAAAAAAGACAAYAAQAAAgAAAAAAAAEAAAAAgQAEAAAIAAAAAACAAAAAAAAAAAAAAAAACDAQAIAAAAAAAAAAAAAIAAEEAAAAAAAAAAAAAAAwAMADAAIBQQAAAAAgAzACABIAIBCARgQAKAADBIACAAACACBEAAAAIQACAAPCQwAYAAKAYAILAgIgEAAFEATAALAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAACAAIAAACAAAAAAAAAIBAAAAAABAAAAAAAAAAAAABAAAAAAAAAgAEAAAAAABgCIAAQ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AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAGwGHhgAAEhAAACAAAQAAIAIAAAACEoAAAgAAoAQAABAAJAAAAAAAIAEAAAAAAgAEDgAEFwEgAAAAAAIAAAAAAAACEBAvAQAYXgAwPwwAAABQAAQAQAAAACAAAAAAQJAIBABAAAACCAAYAAAAAAEAOAAgAAACkAAAAAIAAgAIAAAAEAAAAAAAAAAAAAAAAAAAAMAAAAAAPwbADAggAAAABQEAAAAAAAAAAEAAgAAAAAAIAAAAAACIAAAAAABABACAgAABAAAAgAEAAIAAIEiIASYBAAACAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEgAAAAAAAAAAAAAAAAAAAQAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAgAAQAAAIAAABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAIAAAAAAAAAACgAAQAAAAAAICAAQAAAAAAfgwAGABAAAAACgIAAgAAQACAAAABAEAAAAAAAAAAAAEQAAAAAAAACAEAAAACAAABABAgAACAUBEBAEwCAAAAAAQBAAAAAAAAAADgAQCBAAAAAAAAAAEEAAABAAAAACIAAAAABABAAAAAAAAAAAAAAgAIAUAAIAAAAAAAAAABAAABAAgAAAAAIACQAAAAAADAAAAAAAAEAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAABAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgM3DwA8AAAAQMAgABMAEAYIAEgBEWEABEUgAAAAAADAAhAoAAQMgECCAAAIAAgAeAAIIAAAgEAAARAABYAACAAACEQAAAADYAAyYZ54HAACBCAAAAgABAAACAAAgZAgQACAAAABAAAACDAAAAQAABAACAAAAACAAAcAAAHERAAIAAAggAAgAAAAAAAAA8CAAAAAAAAAAAAAAQBgAAAAwAAAAAAAAAEMAAAAADQAAAAABACAAAAQAgECAAgACAAAAEAAIIAAAAAAAAAQAAAAAACAAAA0AAAAAAAAAAAAAAAAAYAAAAAAAAAAAAEAAAgAAAkAgAEAAACAAAAAAkAAAAAAAAAAAAAAAAgAAACgIAAAAAAAAYVBABAAAAAAQCAgAAAAAAAAAAMwAAA8ACAAEAQAAAIAEwAAASACAAAAaEAAgAAwRAAgAAAgAgBAFAAAEQAgAAAQEBWAACAAAACwAAIBAIARAAAACQAIAMxv4GQYAAAxQQDAgQCAIICAIAECAABACIBCAAAAAACIQAQBEAgIAACAAACgAAIIwAAAAAAQAgAQAAAAIQAAAAAAAAAAAQAP8Gf7///8PAMADGRhGAEgeUdFmwABI0FRyCEQ6gACEA0AEOKWCAkAdCeAsIYAEAgAAh8ABA8MiCBRAwABAkRiAAACAAAAAYEEAAAAAAAAAYACABwAEAgYAAAAAAAQgAAAkAAAAAIQAAEAAAAAAAQAAAABACAAAAAIgBQAAgIAAIAAAAAEAAAQEACAAACAIkABgAAAAAAAAAAAAAAAAgAAAAAAAAAgAAAAAAAAABBAAAAEAAAAAIAAAAAAAAABAAAAAAAAQABAgAAAAAAAABIAAAAAAABAAAQAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAIAAAAAAAAAAAAGAAAAAQABAAAAAAAAAAAQAAgIAAAAgAARCAAAAAAAAAAAABgAAAEAAAAAAAAAAAAAAAAAAAAQC0AAAAAAAgAAAAAIAIAAAIAAAAABAAABIQAgQAAAAAAAgAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAMADADwAIhAAAAAAAAAwAgMAIIEAAgEoRACQABBAACgAAAAAAEIEAAAYACEAGAAcBAABIAAABqIoIABGAVAESQAIABsAAAAAAAAYAAAGAAQAggAAAAAAAkAAACAARAAABQAAEgAEAAAAAAAAAECAAgAAAiAEAAAAggAgAAAAwBACAAQAAAAAAAAAASAwZmA8DM8PAAAOBAAAEEQIAAEAAAIAQFAIARDACQAQDoATQAAKCAABIACiAAAACIAABAIHCAoKQFCAAEMAQCAAAAAQQAEAAAcAAAAAAAAAmAEAHgAQAAgCAAAAAAmAAQCAAACBADQgAEAAEAIAEAAAAAAAAQoAAAiBAAAMEBwKwEAQAAACCAAQAAIAAYIsAASABBgGMDPAMAAAICAAAAAAIAAAYAAAAAAAIQDAAAABIAgAQABBACAAAAAAQAAAQCAABAAAGAAACAAAAACAAQAIAAoAAAAAACCABAAMAAAAAAAwYwCBgAACAABQEAAAAAAAAgAAAAgAAAIAAAAAAAAACIAAAAAAAABCCIAABBAAAAgAEAAJAACAigAAQBIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAIAAAAABAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAQAAAIAIAAQAEAgAAAAIAAAAAAAAAIAAAAAAAAAEAAAQAAIAAAABCEAAAZAAAAQAAAAAAAggEAAAMwAACAAwEACgABAgAABAAAAABQAAAAQgAAgAAABBCFBAAAAEjgJAAAAAAAAICAAQEAAAAEAAAQQIAAAAAAAAAAAGABAAAAAAAAAGAAgAcABAAEAAAAIAAEIAAABAAEAAAEAAAAAAAAAgUAAAAQAAgAAgACIACAAICCICBAAABALAIABAAgAMABCIQAIAIAAAAAAAAAAACAAQEAAACAIAAAAAAABAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAEQAAAIFAAAwAAAAAAAAADAAAAAAAAAAMABAAAAAAABAAACAAAAAAgAAAAAAABAAAACAEAAAAAAACASABAAIAAAAMCAAAAAAAAAAAiACABAAAAAAAAAAAAAYAAAAAAAgHkAAAYAAAAAgIIAgAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAACAAEEIABACAAABAAQAASAAAIASEgACTAAAAAQAAAAAAAAAAAAAAAAAAAQQAAAQAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAABBBAAAAIABAAAAAAAGAgAYEEAAAAAIAgAAAABAAIAAAAEAQAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAEAECABAIAQEAEATAAAAAAAAGDL8fq//x8AAB7oQDAwSIAJABIrDECANJBDLJIUACEYASJQCRUEAo5AAAUJISwQAAA4BAYYEBZAiAQAwgACAAAEAACAAAAAAQD8GR4/w8wPAEACHQBACKAAAQBAAABAgAQSAEQAAAAUAgAAGoEAAAAQCAAAAAAEghAABcEAAQICCAEAwBAAAAAAAAAAAAAAAAAAAAAAAAAAYACABwAEAIAAAAAAAAJgBAAkAEQgAA0IAAIAAAgABQAAAAIAgBIAAAIgBIAAhIYAsAAEAEFkFgUAACAAAAAJAAEgABgAAAAAAGDAAIABAAQAAIAgAAAAAAAEAAAAEAAAAAAAAAAAAAAAAAEIAAAIAAQAAAAAAAAAEAAAABIAAAgUACDAJAAAAAAAAAAAAAAAGAYAAAAAAAAAAAEAAAAAAAABAgAgAAAAAAAAFAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAAAAAABIAAAEAAAAAAAAABIAAAAAAADAAAAAAAQAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAIANAAgQAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAgAAEAAAAAEAAAABEgAIAAAAAAAECDAAAAAAAACwAQAAAgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAIIAIAQAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAIAAAAAAABACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQIAAAAAAAAAAQAAAAQAAAAAAAEAAAAAAQAAAAQAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA4N8AgAAABAAAgAAAIAAAAAAAQAAAAAAAAAAAAQAAABAAAQAAAAgAgBAQAAAgAAAAASAAAgAAAAAwAEAkAAAiAEAA/gy//3/mAQDggQ4MAQAAmCBQMEAABEgKIYQiHQABwgEgBoxQQQAwAARAEhBAAAEAwEHggABBAAQKACAIgEAEAAAAACAAAAAAAAAAAAMAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABABAgAAAAAAAAAAAAAAAAAAHgAQAAAAAAAAAAAAAAAAAIAAABQCAAAACCAAEAAAAAAAAAAAAAgAAIAAAAAGAACAAAACCAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAkAAAAEAAQAAAAAAAAMAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAgAAAABAAAAAgCAAABAACAAAAAAAAAAAAAMAAAAAACABAEAAAAAAAAAAAABAAAAABAAAAAAEAAAAACAAAAAAAAQBCAAAAQAAgAAAEgAAIAAAAAEAAAAgAAAAAAAAAAAAAAAADMAAAIAAAAAAAAAQABAAAAAAAAAAAAAAABAAgAAAAAAQAAAAAAACAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAIAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAADAAwACAQAAAAAAAAAAAAAQAAAAAAAEAAAAQASABAAAAAAABAAAAAEQAgEAAEAAQAAAgEACAQICAIAAAQAEAACQAAAAAAAAAAAAAAgAAAAABAAAAAAAAEAAAAAAAAEAAACAAAAAAIAAAAAIUAAAAABAAACBAAAAAIAgAAACAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAIAAAQAAAIAAAAAAAAAEAAAAAAAAAQCAAAAAAAAAAGAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAACIBBAAAAAAAABgAAAAAAmD8AYEAAAQAAKAgAAAAAAAEAAgAEAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAECABAAAQEVAACAAAAAAABAAwAAAAAAAAPMAAAwAIAAAAAQBAAAAAAAAQACAAAAgAAAAAAAAAIABAEAAAAAAIIQACAAAAQCAAgAIkAAAQKiIAAEiAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABgAAAAAACAeQMABgAAAAAAAgCAAAAAAAAAAEAAABAAAAAEAAAAQAAEIAAAAAAAQgAAIIAAAEAEgABIAAAgUAQEAIIAAIABAAEAAAAAAABgDgAYAEQAAAgAAAAAJABEAAAKAQQCAIAAAAAAiACCAAQAIAAACAAAAAQBABBAECAAAkAABAAACQAAIAEAAAAAAAAAABgYAAAAAAAAAAKAAACCAAAQQAAAAACAAACAIAAAAAAAAAAAIAJAAAAAAABBgAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAADAAAAAAAMC/AQQDAggAAAABAEAAAAAAAAAAIAAAAAAAAAAAAAAAAAIQAAAAAAggAAAQQAAAIABAAiQAABAIQgIACQAAQACAAAAAAAAAAAAAADwAIAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQACEAAAAAAAABAAAABBIAAAAACQAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAQAAAAAAAAAAAEAAAAAAAAAAAAAAAAADADwAIAAAAAAAAAAAAAAAIAEAAAAgBAAAABAAAEAAAAAAAAIAAAAAACEAAAAABAABAAAAABAAAAAGAAAAAAAEAAMIAAAYABgAAAAAAAGAQBABAAAAAAAAAACACAAAQAAAAAAAAAAAQAAACBAABAAAAAAgAAAAQAAAAAAACAIAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAGAAAAAAAAAAAABAAAAAQAAAAAAAAAAACAAAABAAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAAJAAAAAAAAAgAAIAAIAAAAAAAAAAAADAAAAAAAAAAAAAAAEAAAAiAAACAAAAAEAAAAKAAAAAACAAAQABAAAAAAAAUEAAAAAABAkCAAAAAAAABAIAEAAAAAAAAAABgBgAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAQAEAAEAAAAAAAgAAAAAAAAPAAACAAQQIAAAAAEAAAAAAACAQQgAA4AIAAABACAAAAEBAAAgEKAAAAAAAgIBAAgIAAACUAAABQAAIAAACAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAPwMMAMAAA5AAAAAAAgEAQABAgCASAAAAMABAAACADAACAsAAAAgALAAAAAAgAAGAgcIAAAAEIAABQABAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAEAAAAAAAAAAAAAAAAAAAAAcADAAwACAEEAAAAAAAEwAAASAAAAAAIEAAgAAQQAAgAAAgAgAAAAAAEQAgAAAEEAEAACAEACCQAAAAAAAQAAgACQAAAAAAAAAAAAGAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAHMGwDMAMAAAgABkAAAAKAAQIBAAAACAgQBAEDAAAAAAAAIAKCAAAAAQAQAAAIAAAGAAUIAAAAAAAAAQAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEIAEAAEAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAACAAAAAAABCAAAEAAAAAABAAEAAAAAAAAAAAIAAAAAAAAAASAAAACAAAAAAAAAAAAAAAAIAAAMAAAAAAAAAAABAAAAAIAEAAAAAAAAABAAAAAAAAQAAAAAAAAAAQgAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAwA8ACAAMAAAAAAAMAARACABIAIAIAAAEAAAAABIAAAAAAAAABAAEAABAAQAFAQBAQAAACARYKAAAAEABgAgBIATAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwGAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAAQAAAAAAAAAAEAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAACAAAAAAIAAAAAAAAAAAAAIAIAAAAEAAAAAAAAAAAAAAAAAAAAAAMA/AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAIASAAAAAAAAAAGAAAAAAAABgBAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAgAABQASIAAAAACAQAIIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgACAAAAAAAAAACAABAAAAACAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAABAAACABAAAAIAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGADAAAGAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAABAAAACAEAAAAAAAgAAAAAgAAAAAEAAQAAAkAAAAACAAAAAAAAAABAAAAAAAAAAADAAAAMAAAACAAAAAAACCAAAAgAgAAAAgEAAAAEAAQCAAAAAIAAAAAAAEAAAAAAAQEAAAAAgkgACAAAAACQABAIAEAEAAAAAAAAGADgAQABgCAAAAAAkAAYAAAIABAIQAECAAQAAAIAAQAAAAAQIAAAgAAIAQAAwSAADAQBACCABQABAAAAAAgAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCAYGB+AAAAcCAAwAAAACAAwAAAAAAIQAgARABAAAAAAAAiEFAACAAAAAAAkQAAAUIAEAAwFASBAAQQAgACAQAAAAAAAEAgCAAAGAAADAAAAAgEAAAQAAAAAAAAAAAAAQgAAAEAAAAAABAAAAACAAAAAJIAAAIQAAAIAgYAAIoAEIAAQgBBAAAAEAAAAAAAAgAAMAAAAGAAAACBAAAAAhAAAAAKAAAAIAgAAAAACABAAAAAgAAAAQAAAAAAAAAAACAAAUAAAEAQAAAQQAAgAAAAAAAAAAAAoCAAGAAAAAAMAAAgAAAAAAAAAABAAAAAAASBAIAAAAAAAAAAABBAIAAAAADAAAAAAAAAAAAIAAAAAkAAAggBBAEAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACACAAAAGBgYAAAAAAAAAAgAAAAACACIAAAAAAAAACAABAAAAAAAABQAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAABgAAAAAA4AcAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAACABAAAAABEABAJAIAAAAAAAAAAAACAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAABAABAAAAAIAAAABAAMAQAAAAAAA8AAAACAgAABAAAABEGAACAEBAAAAAAEAAAAAAAQAAAAIAACAAEAAAAAAAAAAAAgACAgBQAABiAAQAAAAAAAAAAIACAAAAMAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAwAMADAAIBQQAAAAAAIzAAABIAIACARgQACAABBIACAAACASAEAAAAARACAABAQQAQAAIAQAILAgIgEABlEATAAKAAAAAAAAAABgB4AEAAAAAAAAAAQAAAAEAAAAAAUAgAAAAggAAQAAAAAACEAAAAIABCAAAAKAgAAgAAEEAgAAAAAACAAIAAAAAiAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAgAAAAAAgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABgA4AEAAYAgAAAAAJAAGAAACQAAAEAAAgAEAAECAAEAAAAAECIAAIAQCAAAAAAhAAwAAQAggAQAAAAIAACIAEAACAAAAAAAAAAAADAAIBAAAAAAAAAgAAAAAAAgAAAIBAAAAABAEAgAAAAAAEAAAAAIAAAIAAAEAAAAAAAIABAgAAEAAAAAQAAEAAIAAAAAAAAAwAcABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAAA=="
+  "n": 476,
+  "bits": "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kEADgDSgRGCEAAAAAQgFJhEAUA4AAFwQBAgyAAUAVghggCAMADAAYYAABAAEBAABAEAgAAAAAAAAwAwAMACAAAgBAAAAAQQAQCAACAAgABCAIAAAAAAAIAgAAEIQADCMUAADEAAgAQAAAAgAAAAQDADYwz/wAwAAAACCQIAEABAAAAAACAEEARBAAAAACQAECAIgAARIACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA4B8AAAEAAAAAAAAAAAAAAAIAAIAAAAABAAAAgAAAAAIAgAAAAAIAEAAAQAAACAACBAAAAAAAAAAAAADMAAAPAAiAEAAAAAJAAAAEAIAACAIAAQgCIAAAAAKCEAAgBAEAgBgFsAABAAIAEAGAAAAAAAEAAAAAAAAMAPAAgAAQAAAAAAAAAAgABAAAAAAAQAAgCAAAACAAABACEAAAwAAAAACAgCAAAAAAA0gAKGwGwP8PzwAA4AACgAAAAACGAAAAIQgRBjkAAAQgAAgUBAgAAQUEAAAAgAAAIgAAgQAgAAAEBACAAAAgAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAIASAAAAAAAgAAAAAAAAAAAIABAAAAAAAAAAAAAABAAQAAAAAAAABAAAAAAAAAAAAAAAIABAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAAMAAAAAAAAABAACBAAAAAAACAAAAAAAAAAAQAAADAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/AEADwAIgBAAAAASAAQAFACAAAgCAAEIAiAAAAACggAAIIQBAIAYBTAQAQACCpABgAACAAABAAAAAAAADwAAAAAAAAAA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QAgAiAAEAgAAQQAAAAAABACAAAAAMGcA/A8wDwAACRAAAAAAAAAIBAAgkQAAgAUAIAAgAAQBBAAQgQAAgAAADIAgAAAABAAIAAIAAAAYAAAAH4bf/Mz8AABwAAMGAKBFSIQAAAAhCBEEKAAQACACFBRECACRAURYCADAAAAAAADhAIAEAAQAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4wDAAAAGAAAwIEAEAIAAAAAAEIAQQIAAAAIAAAAAAIAAEBAAAAAAAAAAAAAIIAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAADPMAAAAIAAASAAAACgAAAAAAAEAAAAEAIAAAABAAAABAAAAABAAAAAACAAAAAABAQAAAAAAEAkAAAAAAAAAAwA8ACAAAAAAAAAAQQAQAAAAAAAAAAAAgAAAAAAAAAAAAIQAQCAMAACEIAgJAAJAAAAAAAAAIDZwMzAAABgQASBAAAAAAIEACAEAAAAAQAAACAAQAAAAAAgAABAAAAAAABAqATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAQAAAAAAAAAACAAAAAAAAAAGxsAAAwMAgAAAACUAAAAAAACIAIARAAAAAAAgAUQAACgQQAAAIBAAAAAAgAgAgAAAAAAEAAAAAAAAAAAAAAAAwAwA8ACAAAgBAAAgAQQASAAAAAAAABCAIAAAAAAAIAgAAEIQASCIUQADEAAgAAAABQgAAAAQAxgYMwAzAAAAAACAAACBEAQAAAFAAAAAAQAAAAAAEAAAAAEAQQQAAAIIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAYAYAgAGBAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAMAAAQAAALACABQAAAAB/hv////MAAPBAB4ZxgEGUtgEAATFIESZZBAAGIAJdFEQYARBFBEgIQMABBICwAOECAAAADAQAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB43jMD/AAAAABgAgTABAAABQAICAgABAAAAAQAAAAAAAAAAAQAQAAgACAAAAAAIAAAAAAIAAAAAAAAAAYAAMAAMAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAABggAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAADAhgH8zDAAAAAOBAAIAAgAABwAAACQBAAQQwCBAACEEEEFCABIAAABAAAYQAAAAxAECAYAAkAAAAgABABznt//z/8DAPAABoAFAEAAhEEACCkIESYZAFAAIABMEEQoEgEFBEAKAIABAICAAMECAQAADAQAAAAAAACAAQAAAAAAAAAAAAggAAAAEAAAAAAAABAAACAAAAAAAAAAAgAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIEAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAUAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAADAAAAMAAiAEAAAABJAAAAEAIAAAAIAAAgAAAAAAACCAAAgABEAwBAFMAABAAIAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAQgAAAASEAAAAAAAAABBAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwoOHNz/8PAAAPcCBYQgKEYAgEANCDFHHSFBFBBADARUGAIBDQQISHEIAIACAAQRAoAEAAQEAgAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAQAAAAAIAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAzAPAAAAAAgABACAAAgAwAAEAAEAEAAAAAAAAwAQAAAAAgAgAYAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAABAAAAAAAAQAQAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAMGSA7Q8BAwAACEAGACAggEAIABCAAwAgggYAAQAAAMAFBAAACUAAgAAABMAAAAAAAAACAABAAAAIAAAAAAAAAAAAwAAADwAIAAAAAAAgAACAAAAAAAAAAAAAAAAAAAAIAgAAIAARAAAIASAAAAACAgAAAAQABIAAAAAAAAAADAAwAIAACAEAACABBABAAAAIACAAEAAgAAIAAAAgCAAAQBABMABRAAMQACAAABAAAAAAABAAAAAAAAAAHg4AABAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAAAAAAACBAAAgACAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAYwADMwAAAYAACACEAAAAAAAAABQAABAAAAAKAAEAAAAACAAAACBAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAbG/z/wAACAAACCcABCAJAEAAAACAEEAQCQAAAAAAAECAIAAARYAAEAAQAAAAAhgAAEAAwAAAAAAAAAAAAAAADADAAwAIAAAAAAACABBABAIAAIACAAAIAAACIAACAgCAAAQAAAAABAAAsAICAAAAAQCAAAAAB/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AAAQAQCIEAADEACgIAARFQABAAAYAAAAAAAAAP4BAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQgAACAABAgAACAAAAkAAAQAgAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAwAPwAAAAAAIAAAEAAAAAAACAIAAAJAAAAIAABAAAAABEABBAAAAAhAAIAAIAAIAAACAAAAAAAADAAgMMDwzMAAAAAYAggkEBfAAAQAIQAAFAAQACAAABAAEAQAhlEDIAAAABAAAAAQAAAAQAAAAAAQAAgAAAAAAAAAPwBAAAACIAQAAAAEkAAAAQAgAAAAgAACAIgAAAAAoAAAAAAAQCAAAQgAAEAAAgAAIAAAgAAARgAAAAAAGA+AAABgAAAIACAAAAAAAACAACAAAAAAAAAAIAAAAACQARAAAACABAAAEAAAAgAAAUABAAAAIABAAAAAAAAAAAAAABAAAAAAAAEAAAQAAAAAAAAAAAAAAAAAIAAAAAAAABAIAQAAAAAAAAAAAAAEAAAAIADA8ADAAAAAEBABThADlAAkIEAQCABAAAEAAAAAABAAAAAAACAAAAAAgAAAAAAEAAAgAAAAAAAAABgmAcDADADAADAAAAAgAAAAAEAAAAAAAAABBAAAAAAAAAAAAAAAAAIAAAgAAAgAGAAQAQEAAAAAABAEAAAAAAAAAATADAACAAAAQAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAEAAgAAAAAAAAEIAgAAAAAAAAAAAMAAAA8ACIAQAAAAMkAEgAQAgAAIAgABDACAAAAAAIIAACAEEACCHAEwAAEICgIQAQEEAASAAQAAAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAQBAAAAAEAAAAAAAAACAAAAAAgAEAAAAAABgCIAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAgAAAAAAAAAAAMwAAAAAAGIAAQAAAAAAAAAFYAAAEAAUAAAAKAAAAACAAAAAAAAAAAAAAAQAAIAEAAACAAAAAAAQAAAAAAAADAAAAPAAgAEAAAAAAAAIAEAAAACAIAAQwAAAAAAAASAAAgAAEAAAgBIAABCEoCEAEBBAAAgAAAAAAAAAAAIAABAAAAACAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAIAAABAAQAAGMGSP8wMAAAgABkAAACAgiEAAABOAAAImgAEAAAAgBcQAAAkAAEAAgAAAAMAAAAAAAgAAAABACAAAAA8Gfg/c/DDwAADyRAAAIABEAaBADQghBBAgcAYQACgFVBgCAAUEAAgAAAAEAAAEsQDABGAEBAAAAAAAcAAADeMP/DAAAAAGeAAaBEAIIAAAgsyAEECQAQBgAAQQAEqAKQAARYCAEAIACAoAQAACAEAAwAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACYAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICBAcPAAwAAACAASABKAAQQAIAAAkgAEAAABAAAAABAACAACAAABBAGEAAAAAIAAAAAAIAAAAAAABAAAAAAAAAAAHgAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAABAAEACAAAAAAAAAAAAIAQAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAIAgAAAAAABAAAAAAAEAABAAAAAABAAEAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAIABAAEAAAAAAAAAAgAIAIAAAAAAAAAAAIAAAAEsAABCAACAACAAgAAAAAAAAAAAAAMAAAAAAAAAAAAIAAAAAAAAAAAIAAAgAAAAAAAACAIAAAAEAAAAAAACQAAAAAAAAAAAAAAAH+G3//8/wMA8EAAAwAAACiFAQABTQgAJBAAEAIAAkgRRACAkQQAQAgCwAAAgLAEQQBQACAABACAACAAAABgAADDMAAAAAAAAAAgAAAQAIACAQAAAAIAAAAggAAEAAAAAAAgAAAABAAAAAAAABAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAJAAIAAAAAAAAAAGAAAAAAAgD8AAAEAAAAAAIAAAAAAgAAgAAAAAAAAAAAQAAAAAAJAhAAABAAAsAAAQAAADAQABQAEgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAfAMAAgAAAAQAAIAFEAEAgAAgAIAAQAAAAAgIAAAAIAABCGAAAgFEAAxAAAAQBAQAIAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCAzc8MDwAABzAgAAAAhAAIBAAAgxABgAMAAAACAAAAhAAQgUCAARAAAAAAAAAQKgAKAEAAAAAYAAAAAAAAAAAAAAAADAAAAAAAAAggAACAAEAAAAAAAAAAAIIAAAAAAAABAAABgAAAQAAAAAgYAhAAABCABIACAAAAAAAADADAAIAAAAEAACATBABIAAAIgCAAAEAAAAgAAAAACBAAAhABAAgQAAMQACAgABEEAAAAAAgAAAAAAADAAAAMAAAAEAAAABBAAAAAAIAAAAIAAQgAAAAAAAACAAAAgAEAgAABMBABAEAAEAAAAAAAAAEAAAAAAAAAAAAAQAAAkAAWAAQQBAAAAAAAAAAAAAAABEAQCAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAGCAxwDwwAAAAEAAAQEAQAAyAACABIAAEAQQAAAAAAAABAAAAACAQAAQAAAAAKgEAAAAAAAAAAAAABAA8Gf4/c8/PwAACVRAEAMIBAAJAIDAghxhggAQQQAAQAVBhAIAAEQAhAAAEEAAgEoQBhAEAMBAAAAAAAAAAAAAAAAA8AAADwAIgBAAAAASQQCABACAAAgCAAEMAAAAAAAAggAAIAARAIAYADAAAQBLAhABAQQABoABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAMAAAAAAiAEAAAABJAAAAEAoAAAAIAAQgCIAIAAACAAAAABAAAgQAAMAABAAIAAACAAAAAADAG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AAAAAAAAAAAAAAAAACAACAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAIABAAAAAAB+DAAYAAgAAAIACAAAAAAIAAIACAAAAAAAAAAIAAAAAEAIAAAgAAABAAAAAMAiAFgAAAAIAAAAAAAAAAAA8ACAAAAAAAAAAgAACAAAAIAAAAAAAgAIAAAAAAAAEAAQARBAAAAAAACAIAABEAAAQAAoAAAAAAAwAAAAAAABAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAIAAAQAAAAAAAAAAQAAAAAAAAAAAIDNw8APAAAAEDAIQACEQAAEAAIDFEiQAAAgACAARAWEARCBQIAAEAAcACAAABAEAAgAwEAAgAgAAABsAAbMM88DAIBABAAgAAAAIAAAiAyAACAAAAACAAAMEAAAAAAEAAAAQIAABIC4BEAAAAAACAAAAADwIAAAAAAAAAAAAAAQBgAAAAAAAAAAIAIAAIAGAAAAAAAIAAQAEIEAAAAAAAAAIAAAAAAAAgAAACAACAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAABACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAIBAQAAAAAAQAAAAAAAAAwAwA8ACAAAgBAAAgAQQASAAAAIAgABDAIAAAAAAAICgAAAIQAQCEUAADEAAAAAAQEAAAAAAQAJjZwM8wAABggAKCISBEQCABAAEBCAEEQQQAACAAEQAECAAABABQAECIAQAAIACAAgAABAQAAAAAADQAAAAAAAAADADwAIAAGAAAAAACAABIAAAAAAAAAAAAAAgAAAAgAAAAAhABAEAQAAIAgAAgAAEQAABgAAgAAAAAAAAAAAAAAAACAAAAAAIAAAAAAIAAAAABAAAAggAAAAAAAAEAAACAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAMAAAAAACAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAgACAAAAEACQEAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAADwDwAIAAAAAAAAASBAAIIAAIgAAAAEAAIAgAAAAgCAAAAhABEMAQAAIQgIAAAAEUQABAACgAGAAAAAAAAACAAAAAAAAAMAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAQAAAAAAgAAAAAAQAAAIAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAIQAQAAAgAAAACAYAAAzAAAAADgQACEAAAAACAAAAEAAAEAIAIAAAgBQBAAAASAAAAAAAAEAAAAEABAAAAAAAAAAAAAsAAAAAAAAAAAAAABgQAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAACAAAAAAAAQAgAIAGAAAAAAAGAAAAAAAYB4AgAEAAAAgAIAAAAAAgAAAAIAAAAAAAAAAAAAAAAJAhAACAAIAMAAAQAAABAKABQAEAAAAAAAAAAAAAAAAACAQAIAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACQAAAAYAAAAAABgIACAAYEAAAAAAAAAAACAACAAgAAAAAAAAAAAAAAAAEAAAAAEAAAQAABAAAAEAoAFAAAAAFuO1//9/wAA8EAHgjEkQACSxQABOcgRJ0kBEUQgAFUURDgCgUFEWAgAgAEAgrAAoQIgBAAABAAAABAA8Gd4/AwzPwAACXQAQAQoBAAIAICAggRAAgAARQAA0AQBBCAAAAAAhBACEAIACAgQAgAGAAAAAAAAAAAAAAAAAAAAwAAADwAIABAAAAAQQASABECAAAgAAAAAAIIAAAACgBIAIAARgIAcAbAAAQhJEgABAQAAAAAAGAAAAAAAYMAAgAGAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAJAAAAAAAAAEAAAQAAAKACABQAAAAAAAAAAAAAAgA0ACBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAAAAIAAACAAAAAAAAAAQAAAACAQAAAAAAAADAAAAAAAAAAAAAAAEAAAAAACACAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAwACIAQAAAAEEAAAAQAAAAAAAABKAAAAAAAAIICACAAEQAACAEgAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAQAAQEAAAAAAAIAAAAAQAAAIAAAAAAAAAACAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAf4bf/z/zAADwQAeGAABACIVBAAEpCBEmHQAQBiACTBRECAAABQQICADAAASAIADBACAAAAQAAIAAAAAAAADAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAggAAAAAAAAAAAAAMAAAAgACAEAAAAAAAAAAQAAAAAAIAAAAAAIAAAAAAAAAhgAAAAAAAIAABAAAAgACAAAAAAAAAAAAAAACAGQAAAQAAAAAAgAAAAAAAAAAAAAABAAEAABAAAAAAAEAAQAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAADwAIAAAAAAAAAAAABAAAAAAAAAAAAoACAAAAAAAAIAARBAAAAYAAAAgKAhAABAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAAIAAAAEAACBAAAAAAAAAAAAAIAIAAgAAAAAAAAAAAAAAAAAAAAwAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABIgAAAAAYAAAAAABg/gCAAYEAACAAAAAAAACAACAAgAAAAAAAAAAAAAAAAEAAAAAAAAAQAABAAAAsAgABAACAAIABAAAAAADmAQAYAAgAAAAAAAAAAAAIAAIACAAAAAAAAAEAAAAAAEQIIAAgAAADAAAEAMBiAEgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAgAEAAAAAAOYNABgAAAAAAAAIAAAAAAAAAgAIAAAQAAAAAAgAAAAAQAgAQCAAAAkAAAQAgCIAEABAAAgAAAAAAADAHAAwAIgAAAEAACABRABAIQAIACAAAAAgACIIACAACAAAQAgAEAhAAAIQAACAAAAJAAAAAAAAGBgAAAAAAAAAAoAAIAAAAgEAAAAIAABBAAAAAAAAAAQgAAAAQBAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAABAAAAAAAEAAAAAAAAAAAAAAAMAAAA8ACAAAAAAAAAAAgAQAAAAAAAAABAAAAAAAAAIAAAAAEQAAAAEgAAAAAAIAAAAAAASAAAEAAAMAAwAAAAAwCACgAAAAAAAAAgAIEAAAAAAAAAAEAABAEEAAAAAAAIAAAAAAAAACAACAAAIAAAAAAAAAAAAAwAAADAAAAAAAAAAgAACAAAAAAAAAAAQAAIIAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAwAwAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAQBAAAAQAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAPwMMAMAAA5AAAAAAIQACAQAIAEAAIADACAAIACIAQAAEMAAAAAAAARAIAAAAAQACgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAMAAAACAAAAAAAAAAAAAAFAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAACAAAAAAAAAEAAAAAAAAACEAAAAAAAAAAAAAAQAAAYAAAAAAAAAAACAAAAQAEAAAAAAAABAAAAQAAAAAAAAAEEAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAQAAAAAAAAAAAABAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmA0AAAMAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAACAAAAAAAAIAAAQAAAAAAAAAYABAAAAAACAAQAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIIAAgAAADAAAAAIAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAACAAAACAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAMAAAAAQAAACAAAIAAAAAAAAAAAAQAggAAAAACAAAAAAEAAAQBAAAACAkCAAAAFIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAwcD8AAAA4EAAgAEAQAAwAAAABAgBEAEAAAAAAEgABAgAAACASAAQiAAAQDgEQQBAACAEAAAAAIAgAAAYAAAMAAAACAQAAAIAAAAAAABAgAAAAgAAAAAAAABAAAAAUACAAAEACEAAAEsABAAEAAIAAAAAAAQAABgAAAAwAACAQAAAIIAAAGABAAAEAAAAAAQAAgAAQBAAAAAAAAAAAECAAAAAMAQAAEAAAAAAAAAAoCAABgAAAAADAAAIAAAAAAAAAAIAAEAAAgAAAAAAAAAABAAAAADAAAAAAAAAAAAAQQAECAQAAgAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAQAQAAAAMDAwAAAAAAACAAAACgAAAAAAAAAAAEAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAABAQAAAAAAAAAABgAAAAAAIAfAAAAAAAAAAAAAAAAAAACIAAAAAAAAQAAAAAAAAAAAAQAAAACAAAAAEAAAAAEgASAAAAAAAAAAAAAAwAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAgAAEAAAAAAAgAEMAAAAAADwAAAAICAAAAgAACBMEABAAAAAAQAAAAAIAAEAAAABAAAAAAAAAAAAAAwAMAERAAAAAAAAABQAAABgAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAMAPAAgAAAAAAAAAIAAAgAAAAAAAAAQAAACAAAACAAAAACEAEAwBAAAgCAgCAAAABAAAAAIAAAAAAAAMAAAA8ACIAQAAAAEkAAgAQAAAAAAgABCAAAAAAAAIIAACAEAQAAEAEwAAEAAgAAAAEAAgAAAAAAAAAAAAAAwACAAAAAAAAAAgAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAIABAAAAAAIAAIAAAAAAAQAAIAAAAAAAAAIAPAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAA="
  }
 }
