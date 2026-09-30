@@ -19,7 +19,7 @@
 // level is known about 92% of the time.
 
 import { makeRng, hashString } from '../../lib/rng.js';
-import { indexGroups, roundFor } from './vocabLogic.js';
+import { roundContext, roundFor } from './vocabLogic.js';
 
 export const TEST_LENGTH = 20;
 // Simulated players: the stated ± on the level is about 0.37 at 10 questions
@@ -90,11 +90,10 @@ export function formatLevel(level, { lowest, highest }) {
 }
 
 /** Everything the test needs about the data, built once. */
-export function testContext(groups) {
-  const { byId } = indexGroups(groups);
+export function testContext(vocab) {
   const zipfOf = new Map();
-  for (const g of groups) for (const [w, , z] of g.words) zipfOf.set(w, z);
-  return { byId, all: [...byId.values()], zipfOf };
+  for (const g of vocab.groups) for (const [w, , z] of g.words) zipfOf.set(w, z);
+  return { ...roundContext(vocab), zipfOf };
 }
 
 /**
@@ -102,21 +101,23 @@ export function testContext(groups) {
  * Aims at the estimate, with a little jitter so two tests at the same level
  * do not ask the same words.
  */
-export function nextRound(ctx, { level, usedGroups, index, seed }) {
+export function nextRound(ctx, { level, usedGroups, index, seed, recent = new Set() }) {
   const rand = makeRng(hashString(`vocabtest:${seed}:${index}`));
   const type = TYPES[index % TYPES.length];
   const cands = [];
   for (const g of ctx.all) {
     if (usedGroups.includes(g.id)) continue;
     if (type === 'ant' && !ctx.byId.has(g.ant)) continue;
-    for (const [w, , z] of g.words) cands.push({ g, w, gap: Math.abs(z - level) + rand() * 0.3 });
+    // Words met recently count as a whole Zipf step further away, so the test
+    // prefers fresh words at the same level without ever running dry.
+    for (const [w, , z] of g.words) cands.push({ g, w, gap: Math.abs(z - level) + rand() * 0.3 + (recent.has(w) ? 1 : 0) });
   }
   cands.sort((a, b) => a.gap - b.gap);
   // A round's difficulty is its rarest needed word, which can sit below the
   // word it was built around, so build a few and keep the one nearest the level.
   let best = null;
   for (const c of cands.slice(0, 12)) {
-    const r = roundFor(type, c.g, c.w, ctx.byId, ctx.all, rand);
+    const r = roundFor(type, c.g, c.w, ctx, rand);
     if (!r) continue;
     const round = { ...r, id: `${type}:${c.g.id}:${c.w}`, zipf: roundZipf(r, ctx.zipfOf) };
     if (!best || Math.abs(round.zipf - level) < Math.abs(best.zipf - level)) best = round;
@@ -125,9 +126,9 @@ export function nextRound(ctx, { level, usedGroups, index, seed }) {
 }
 
 /** A fresh test: its seed, length and first question, asked at the prior's level. */
-export function newTest(ctx, length = TEST_LENGTH) {
+export function newTest(ctx, length = TEST_LENGTH, recent = new Set()) {
   const seed = `${Date.now()}`;
-  const first = nextRound(ctx, { level: PRIOR_MEAN, usedGroups: [], index: 0, seed });
+  const first = nextRound(ctx, { level: PRIOR_MEAN, usedGroups: [], index: 0, seed, recent });
   return { seed, length, rounds: [first], answers: [], picked: [] };
 }
 

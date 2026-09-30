@@ -15,8 +15,8 @@ const onScale = (level) => level >= LOWEST && level <= HIGHEST;
  * one chosen near the current estimate of your level. Ends with the level and
  * a review of every question with its definitions.
  */
-export default function TestMode({ test, setTest, history, onComplete, onAgain, onAnswer, onExit }) {
-  const ctx = useMemo(() => testContext(data.groups), []);
+export default function TestMode({ test, setTest, history, recent, onSeen, onComplete, onAgain, onAnswer, onExit }) {
+  const ctx = useMemo(() => testContext(data), []);
   // A quick double tap would answer this question and then the next one,
   // whose options appear under the same finger. Ignore taps just after an answer.
   const lastAnswer = useRef(0);
@@ -58,7 +58,7 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
         <h3>Every question</h3>
         <ul className="vp-defs">
           {answers.map((a, i) => {
-            const info = explainRound(rounds[i], data.groups);
+            const info = explainRound(rounds[i], data);
             return (
               <li key={rounds[i].id} className={a.right ? 'right' : ''}>
                 {a.right ? <CheckCircle2 className="icon-right" size={16} /> : <XCircle className="icon-wrong" size={16} />}{' '}
@@ -88,9 +88,10 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
     lastAnswer.current = Date.now();
     const right = sel.length === r.answer.length && r.answer.every((w) => sel.includes(w));
     for (const key of new Set([r.target, ...r.answer])) onAnswer('vocab', key, right);
+    onSeen(r.options.concat(r.target));
     const next = [...answers, { picked: sel, right, zipf: r.zipf, guess: guessRate(r) }];
     const more = next.length < length
-      ? nextRound(ctx, { level: scoreAnswers(next).level, usedGroups: rounds.map((x) => x.group), index: next.length, seed: test.seed })
+      ? nextRound(ctx, { level: scoreAnswers(next).level, usedGroups: rounds.map((x) => x.group), index: next.length, seed: test.seed, recent })
       : null;
     setTest({ ...test, answers: next, picked: [], rounds: more ? [...rounds, more] : rounds });
     // Saved the moment the last answer goes in, so leaving from the results

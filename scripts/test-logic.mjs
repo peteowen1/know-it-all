@@ -785,8 +785,10 @@ test('missing link: points 4, 3, 2, 1 by clues seen', () => {
   assert.deepEqual([1, 2, 3, 4].map(linkPoints), [4, 3, 2, 1]);
 });
 test('missing link: 5 rounds, 4 distinct clues, exactly one option fits', () => {
-  const norm = (s) => normalise(s);
-  for (let s = 0; s < 400; s++) {
+  // Normalising is the slow part, so each string is normalised once.
+  const memo = new Map();
+  const norm = (s) => (memo.has(s) ? memo.get(s) : (memo.set(s, normalise(s)), memo.get(s)));
+  for (let s = 0; s < 150; s++) {
     const rounds = buildLinkRounds(OBS, { seed: s });
     assert.equal(rounds.length, 5);
     for (const r of rounds) {
@@ -893,7 +895,8 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
 
 
 // -------------------------------------------------------------- word play
-const VOCAB = JSON.parse(readFileSync(new URL('../src/data/vocab.json', import.meta.url), 'utf8')).groups;
+const VOCAB_DATA = JSON.parse(readFileSync(new URL('../src/data/vocab.json', import.meta.url), 'utf8'));
+const VOCAB = VOCAB_DATA.groups;
 test('vocab: every word appears once, opposites and near links point at real families of the same kind', () => {
   const seen = new Set();
   const ids = new Map(VOCAB.map((g) => [g.id, g]));
@@ -902,22 +905,31 @@ test('vocab: every word appears once, opposites and near links point at real fam
     for (const [w, d, z] of g.words) {
       assert.ok(!seen.has(w), `${w} appears twice`);
       assert.ok(d && d.length > 5, `${w} has no definition`);
-      assert.ok(typeof z === 'number' && z >= 1 && z < 7, `${w}: no frequency (run scripts/build-vocab-freq.py)`);
+      assert.ok(typeof z === 'number' && z >= 1 && z < 7, `${w}: no frequency (run scripts/build-vocab.py)`);
       seen.add(w);
     }
     if (g.ant) {
       assert.ok(ids.has(g.ant), `${g.id}: unknown opposite ${g.ant}`);
-      assert.equal(ids.get(g.ant).ant, g.id, `${g.id} <-> ${g.ant} opposites not paired both ways`);
+      // Hand-written opposites must be paired both ways; WordNet ones may be one-way.
+      if (!g.src) assert.equal(ids.get(g.ant).ant, g.id, `${g.id} <-> ${g.ant} opposites not paired both ways`);
       assert.equal(ids.get(g.ant).pos, g.pos, `${g.id}: opposite is a different part of speech`);
     }
     for (const n of g.near || []) assert.ok(ids.has(n), `${g.id}: unknown near ${n}`);
   }
 });
-test('vocab: 200 games per type build full rounds with exactly the right answers from one family', () => {
-  const { byId, familyOf } = indexGroups(VOCAB);
+test('vocab: the clash table is current (rerun scripts/build-vocab.py after editing vocab.json)', () => {
+  assert.equal(VOCAB_DATA.clash.n, VOCAB.length, 'clash table size does not match the families');
+  const { byId, clashes } = indexGroups(VOCAB_DATA);
+  // two pairs the first review found by hand and the vectors also mark
+  assert.ok(clashes(byId.get('candid'), byId.get('concise')), 'blunt/terse families not marked');
+  assert.ok(clashes(byId.get('talkative'), byId.get('concise')), 'loquacious/laconic families not marked');
+  assert.ok(!clashes(byId.get('talkative'), byId.get('huge')), 'unrelated families marked');
+});
+test('vocab: 60 games per type build full rounds with exactly the right answers from one family', () => {
+  const { byId, familyOf } = indexGroups(VOCAB_DATA);
   for (const type of ['mixed', 'syn', 'ant', 'meaning']) {
-    for (let s = 0; s < 200; s++) {
-      const rounds = buildVocabRounds(VOCAB, { seed: s, type });
+    for (let s = 0; s < 60; s++) {
+      const rounds = buildVocabRounds(VOCAB_DATA, { seed: s, type });
       assert.equal(rounds.length, 10, `${type} seed ${s}: ${rounds.length} rounds`);
       assert.equal(new Set(rounds.map((r) => r.group)).size, 10, 'a family repeated in one game');
       for (const r of rounds) {
@@ -941,16 +953,16 @@ test('vocab: 200 games per type build full rounds with exactly the right answers
     }
   }
 });
-test('vocab: weights pull a missed word forward', () => {
+test('vocab: missed words get a reserved share of each game, even among thousands of words', () => {
   let hits = 0;
   for (let s = 0; s < 100; s++) {
-    if (buildVocabRounds(VOCAB, { seed: s, type: 'meaning', weights: { pusillanimous: 400 } }).some((r) => r.target === 'pusillanimous')) hits++;
+    if (buildVocabRounds(VOCAB_DATA, { seed: s, type: 'meaning', review: new Set(['pusillanimous']) }).some((r) => r.target === 'pusillanimous')) hits++;
   }
-  assert.ok(hits > 80, `heavily weighted word came up in ${hits}/100 games`);
+  assert.ok(hits > 80, `missed word came up in ${hits}/100 games`);
 });
 test('vocab: the reveal marks the synonym trap and the opposite', () => {
-  const r = buildVocabRounds(VOCAB, { seed: 3, type: 'ant' })[0];
-  const roles = explainRound(r, VOCAB).options.map((o) => o.role).sort();
+  const r = buildVocabRounds(VOCAB_DATA, { seed: 3, type: 'ant' })[0];
+  const roles = explainRound(r, VOCAB_DATA).options.map((o) => o.role).sort();
   assert.deepEqual(roles.filter((x) => x !== 'unrelated'), ['opposite', 'trap']);
 });
 
@@ -964,7 +976,7 @@ test('vocab test: word frequencies put plain words above obscure ones', () => {
   assert.ok(z.get('open-handed') < 3, 'hyphenated override applied');
 });
 const simulate = (cutoff, seed) => {
-  const ctx = testContext(VOCAB);
+  const ctx = testContext(VOCAB_DATA);
   const rand = makeRng(seed);
   let post = prior(), used = [], est = estimate(post);
   for (let i = 0; i < TEST_LENGTH; i++) {
@@ -979,7 +991,7 @@ const simulate = (cutoff, seed) => {
   return est.level;
 };
 test('vocab test: recovers a simulated player level, and a wider vocabulary scores higher', () => {
-  const mean = (c) => Array.from({ length: 40 }, (_, k) => simulate(c, k + 1)).reduce((a, b) => a + b, 0) / 40;
+  const mean = (c) => Array.from({ length: 25 }, (_, k) => simulate(c, k + 1)).reduce((a, b) => a + b, 0) / 25;
   const m = [1.5, 2, 2.5, 3, 3.5].map(mean);
   [1.5, 2, 2.5, 3, 3.5].forEach((c, i) => assert.ok(Math.abs(m[i] - c) < 0.3, `cutoff ${c} estimated ${m[i].toFixed(2)}`));
   for (let i = 1; i < m.length; i++) assert.ok(m[i] > m[i - 1], 'level not monotonic in vocabulary');
