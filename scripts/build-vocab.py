@@ -21,8 +21,9 @@ Three things are computed:
 
 2. WordNet families. A WordNet synset (one meaning with the words that express
    it) becomes a family when at least three of its words are single words at
-   Zipf 1 to 4.5, in that meaning as one of their top two meanings (the main
-   meaning for common words), and not slang, slurs or vulgar. Spelling and
+   Zipf 1.3 to 4.5, in that meaning as one of their top two meanings (the main
+   meaning from Zipf 2.5 up), and not slang, slurs, vulgar, sexual, medical
+   or technical (see the BLOCK_ lists). Spelling and
    word-form variants are collapsed so a synonym question is never
    "skillful/skilful".
 
@@ -40,6 +41,7 @@ import base64
 import collections
 import json
 import re
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import gensim.downloader as api
@@ -67,11 +69,54 @@ NOUN_KINDS = {'noun.act', 'noun.attribute', 'noun.cognition', 'noun.communicatio
 MAX_WORDS = 5
 # A word is dropped when ANY of its meanings is tagged as a slur or vulgar,
 # not only the meaning in use: "spic" arrived innocently inside "spotless".
-# The lists below catch what WordNet's tags miss; found by reading every
-# family whose words or sense matched a list of sensitive stems.
+# The lists below catch what WordNet's tags miss. They come from reading every
+# family whose words or sense matched a list of sensitive stems, and from a
+# review of all the WordNet families for content unsuitable for a family site.
 BLOCK_WORDS = {'pissed', 'midget', 'bastard', 'bollocks', 'retard', 'moron', 'cretin', 'spic', 'queer', 'raped',
-               'gimpy', 'crippled', 'whore', 'slut', 'slattern', 'slatternly', 'blowsy', 'blowzy', 'wino'}
-BLOCK_FAMILIES = {'prostitute.n.01', 'homosexuality.n.01', 'idiot.n.01', 'blowsy.s.01', 'crippled.s.01'}
+               'gimpy', 'crippled', 'whore', 'slut', 'slattern', 'slatternly', 'blowsy', 'blowzy', 'wino',
+               'twat', 'gimp', 'boob', 'booger', 'wuss', 'puke', 'puking', 'diddle', 'bleeder', 'raunch',
+               'retardation', 'voluptuary', 'baldy', 'dweeb', 'neanderthal', 'swinish', 'hussy', 'strumpet',
+               'sissy', 'cissy', 'nutter', 'wacko', 'whacko', 'goddamned', 'damned', 'flaming', 'hunchback',
+               'humpback', 'hunchbacked', 'humpbacked', 'boozy', 'expletive'}
+BLOCK_FAMILIES = {'prostitute.n.01', 'homosexuality.n.01', 'idiot.n.01', 'blowsy.s.01', 'crippled.s.01',
+                  'adulteress.n.01', 'concubine.n.01', 'affair.n.02', 'caressing.n.01', 'flirt.n.02', 'coquette.n.01',
+                  'enchantress.n.01', 'smasher.n.02', 'bosomy.s.01', 'blue.s.05', 'lubricious.s.02', 'prurience.n.01',
+                  'obscenity.n.01', 'orgy.n.03', 'debauched.s.01', 'animal.s.01', 'vixen.n.01', 'effeminate.s.01',
+                  'fathead.n.01', 'balmy.s.01', 'nutter.n.01', 'blasted.s.01', 'bally.s.01', 'kyphosis.n.01',
+                  'crookback.s.01', 'bibulous.s.01', 'curse.n.01', 'vomit.n.03', 'runt.n.01', 'gunman.n.01',
+                  'lotto.n.01', 'parturiency.n.01', 'drunkard.n.01',
+                  # quality: variant spellings, junk or unfair word sets
+                  'tasting.n.03', 'bogey.n.01', 'virtu.n.01', 'lacy.s.02', 'disdainful.s.02', 'abject.s.01',
+                  'buttery.s.01'}
+# Definitions that put a family off-limits whatever its words are.
+BLOCK_DEFINITION = re.compile(r'\b(sex|sexual|seduc|erotic|obscen|profan|lewd|lust|foreplay|prostitut|disparag|'
+                              r'derogat|offensive|mistress|adulter|intoxicat|alcohol|drunk|genital|excret)', re.I)
+# Medical and bodily meanings read as jargon in a word game (kyphosis, edema, tinea).
+BLOCK_UNDER = {'disease.n.01', 'illness.n.01', 'symptom.n.01', 'pathological_state.n.01', 'physiological_state.n.01',
+               'bodily_process.n.01', 'medical_procedure.n.01', 'sexual_activity.n.01', 'body_part.n.01'}
+# WordNet opposites are used only when the pair is on this list. The route to
+# them (satellite -> head -> antonym head -> its satellites) never checks the
+# meaning, and two reviews found about a third of what it produced was
+# nonsense (flooded/looted, thriving/disappointed). Each pair here was read.
+ALLOW_ANT = {frozenset(p) for p in [
+    ('absorbing.s.01', 'boring.s.01'), ('adust.s.01', 'boggy.s.01'), ('amused.s.01', 'annoyed.s.01'),
+    ('bearable.s.01', 'intolerable.a.01'), ('chunky.s.02', 'gangling.s.01'), ('cloying.s.01', 'lemony.s.01'),
+    ('compact.s.01', 'gangling.s.01'), ('crippling.s.01', 'curative.s.01'), ('delectable.s.01', 'bland.s.01'),
+    ('impracticable.s.01', 'feasible.s.01'), ('piquant.s.01', 'bland.s.01'), ('unachievable.s.01', 'feasible.s.01'),
+]}
+# Wrong-sense or unfair words a review found inside otherwise good families.
+DROP_IN_FAMILY = {'lameness.n.01': {'gameness'}, 'fantastic.s.02': {'howling', 'rattling'}, 'jutting.s.01': {'sticking'},
+                  'harass.v.01': {'chevy'}, 'reside.v.01': {'shack'}, 'trip.v.04': {'actuate'}, 'cagey.s.01': {'clever'},
+                  'amuck.s.01': {'demoniac'}, 'fetid.s.01': {'funky'}, 'bigheaded.s.01': {'persnickety', 'uppish'},
+                  'boom.n.03': {'bunce'}, 'brassy.s.01': {'flash', 'gimcrack'}, 'bespectacled.s.01': {'monocled'},
+                  'perspiration.n.02': {'diaphoresis'}, 'affection.n.01': {'philia', 'warmness'},
+                  'cloistered.s.01': {'conventual'}, 'tinea.n.01': {'roundworm'}, 'overcharge.v.01': {'plume'},
+                  'hippie.n.01': {'hipster'}, 'addiction.n.01': {'dependance'}}
+# Words at or above this frequency must be in their main meaning: common words
+# in a second sense ("torpedo" as a gunman, "clever" as cagey) read as mistakes.
+MAIN_MEANING_FROM = 2.5
+# The rarest WordNet words are mostly junk ("apparitional", "foreswear").
+WORDNET_MIN_ZIPF = 1.3
 
 
 def zipf(word):
@@ -94,6 +139,10 @@ def tainted(word):
 def usable_synset(s):
     if s.name() in BLOCK_FAMILIES or {d.name() for d in s.usage_domains()} & BAD_DOMAINS:
         return False
+    if s.topic_domains() or BLOCK_DEFINITION.search(s.definition()):
+        return False
+    if s.pos() == 'n' and {h.name() for h in s.closure(lambda x: x.hypernyms())} & BLOCK_UNDER:
+        return False
     if s.pos() == 'n' and s.lexname() not in NOUN_KINDS:
         return False
     return s.lexname() not in ('adj.pert', 'verb.weather')
@@ -104,11 +153,25 @@ def sense_rank(word, s):
     return ranked.index(s) if s in ranked else 99
 
 
+def spelling_key(w):
+    """British and American spellings reduced to one form: haemorrhage/hemorrhage, skilful/skillful."""
+    for a, b in (('ae', 'e'), ('oe', 'e'), ('our', 'or'), ('ise', 'ize'), ('yse', 'yze'), ('ll', 'l'), ('-', '')):
+        w = w.replace(a, b)
+    return re.sub(r're$', 'er', w)
+
+
+def variants(a, b):
+    """Spelling or word-form variants: same key, a shared 5-letter start, or nearly the same letters."""
+    ka, kb = spelling_key(a), spelling_key(b)
+    n = min(5, len(ka), len(kb))
+    return ka == kb or ka[:n] == kb[:n] or SequenceMatcher(None, ka, kb).ratio() >= 0.85
+
+
 def dedupe(words):
     """Keep the commonest word of each spelling or word-form variant set."""
     keep = []
     for w in sorted(words, key=lambda x: -zipf(x)):
-        if not any(w[:min(5, len(k), len(w))] == k[:min(5, len(k), len(w))] for k in keep):
+        if not any(variants(w, k) for k in keep):
             keep.append(w)
     return keep
 
@@ -122,13 +185,13 @@ def wordnet_families(taken, vectors):
             w = lemma.name()
             if not re.fullmatch(r'[a-z]{4,}', w) or w in taken or w not in vectors or tainted(w):
                 continue
+            if w in DROP_IN_FAMILY.get(s.name(), ()):
+                continue
             z = zipf(w)
-            if not 1.0 <= z <= 4.5:
+            if not WORDNET_MIN_ZIPF <= z <= 4.5:
                 continue
             rank = sense_rank(w, s)
-            # Common words must be in their main meaning: "hood" as a thug or
-            # "grind" as a swot reads as a mistake.
-            if rank > (0 if z >= 3.5 else 1):
+            if rank > (0 if z >= MAIN_MEANING_FROM else 1):
                 continue
             if w not in best or rank < best[w][1]:
                 best[w] = (s, rank)
@@ -185,7 +248,7 @@ def wordnet_families(taken, vectors):
                     for x in [t] + list(t.similar_tos()):
                         if x.name() in name_to_id and x != s:
                             reach.add(name_to_id[x.name()])
-        if len(reach) == 1:
+        if len(reach) == 1 and frozenset((s.name(), next(iter(reach))[3:])) in ALLOW_ANT:
             f['ant'] = next(iter(reach))
     del by_id
     print('WordNet families dropped:', dict(drops))

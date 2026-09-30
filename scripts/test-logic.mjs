@@ -953,6 +953,29 @@ test('vocab: 60 games per type build full rounds with exactly the right answers 
     }
   }
 });
+test('vocab: wrong options never clash with the right answers (or the opposite, in opposites questions) or each other', () => {
+  const { byId, familyOf, clashes } = indexGroups(VOCAB_DATA);
+  let rounds = 0;
+  for (const level of ['easy', 'all', 'hard']) {
+    for (const type of ['syn', 'ant', 'meaning']) {
+      for (let s = 0; s < 15; s++) {
+        for (const r of buildVocabRounds(VOCAB_DATA, { seed: s, type, level, count: 20 })) {
+          rounds++;
+          const g = byId.get(r.group);
+          // The opposite family matters only in an opposites question: a wrong
+          // option near "reveal" is harmless when asking for synonyms of "conceal".
+          const keep = new Set(r.type === 'ant' ? [g.id, g.ant] : [g.id]);
+          const decoys = [...new Set(r.options.map((w) => familyOf.get(w)))].filter((id) => !keep.has(id)).map((id) => byId.get(id));
+          for (const d of decoys) {
+            for (const k of keep) assert.ok(!clashes(d, byId.get(k)), `${r.id}: ${d.id} clashes with ${k}`);
+            for (const e of decoys) if (e !== d) assert.ok(!clashes(d, e), `${r.id}: decoys ${d.id} and ${e.id} clash`);
+          }
+        }
+      }
+    }
+  }
+  assert.ok(rounds >= 2700, `only ${rounds} rounds checked`);
+});
 test('vocab: missed words get a reserved share of each game, even among thousands of words', () => {
   let hits = 0;
   for (let s = 0; s < 100; s++) {

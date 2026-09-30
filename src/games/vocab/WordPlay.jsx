@@ -82,9 +82,10 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
   const start = () => {
     const weights = itemWeights(stats, 'vocab', ALL_WORDS.map((x) => x.w));
     for (const w of recent) if (weights[w] !== undefined) weights[w] *= RECENT_WEIGHT;
-    // Words missed at least once and not yet always right since.
+    // Words still being learned: missed more than one time in four. A word
+    // leaves once it is mostly got right, instead of staying after one miss.
     const { items } = gameEntry(stats, 'vocab');
-    const review = new Set(Object.entries(items).filter(([, v]) => v.correct < v.seen).map(([k]) => k));
+    const review = new Set(Object.entries(items).filter(([, v]) => v.seen - v.correct > v.seen / 4).map(([k]) => k));
     const rounds = buildVocabRounds(data, { seed: `${Date.now()}`, type: prefs.type, level: prefs.level, count: practiceLength, weights, review });
     setGame({ rounds, index: 0, picked: [], results: [] });
   };
