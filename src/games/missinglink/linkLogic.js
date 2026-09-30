@@ -51,9 +51,26 @@ function pickClues(category) {
 function fitsAny(category, clues) {
   const shown = new Set(clues.map((c) => normalise(c.text)));
   const ids = new Set(clues.map((c) => normalise(c.answer)));
-  return category.answers.some(
-    (a) => ids.has(normalise(a.text)) || shown.has(normalise(clueText(category, a))) || a.accept.some((x) => shown.has(normalise(x)))
-  );
+  const { identities, displays } = normalisedAnswers(category);
+  return identities.some((x) => ids.has(x)) || displays.some((x) => shown.has(x));
+}
+
+/**
+ * Every answer of a category, normalised once. fitsAny runs against all ~400
+ * categories for each round, and normalising their ~6,000 answers afresh
+ * every time made building one game take about 60 ms.
+ */
+const normalisedCache = new WeakMap();
+function normalisedAnswers(category) {
+  let n = normalisedCache.get(category);
+  if (!n) {
+    n = {
+      identities: category.answers.map((a) => normalise(a.text)),
+      displays: category.answers.flatMap((a) => [normalise(clueText(category, a)), ...a.accept.map(normalise)])
+    };
+    normalisedCache.set(category, n);
+  }
+  return n;
 }
 
 /**

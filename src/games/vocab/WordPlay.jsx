@@ -18,6 +18,10 @@ const stillValid = (game) =>
   Array.isArray(game?.rounds) && game.rounds.every((r) => GROUP_IDS.has(r.group) && r.options.every((w) => DEF.has(w)));
 
 const PRACTICE_LENGTHS = [5, 10, 20];
+// How many recently shown words to remember, and how much less likely they are
+// to be drawn again: about 30 games' worth of options, drawn at a tenth the rate.
+const RECENT_KEEP = 600;
+const RECENT_WEIGHT = 0.1;
 const TYPE_LABEL = { mixed: 'Mixed', syn: 'Synonyms', ant: 'Opposites', meaning: 'Meanings' };
 const LEVEL_LABEL = { easy: 'Everyday', all: 'Mixed', hard: 'Advanced' };
 const ROLE_LABEL = { same: 'same meaning', trap: 'same meaning (the trap)', opposite: 'opposite', unrelated: '' };
@@ -44,7 +48,17 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
   const practiceLength = PRACTICE_LENGTHS.includes(prefs.practiceLength) ? prefs.practiceLength : 10;
   const testLength = TEST_LENGTHS.includes(prefs.testLength) ? prefs.testLength : 10;
   const entry = gameEntry(stats, 'vocab');
-  const startTest = () => setTest(newTest(testContext(data.groups), testLength));
+  // Words shown in the last few games. Fresh words are drawn first, so the
+  // whole list comes round before anything repeats. Missed words still come
+  // back through their stats weight.
+  const [rawRecent, setRecent] = usePersistentState('word_play_recent', []);
+  const recentList = Array.isArray(rawRecent) ? rawRecent : [];
+  const recent = new Set(recentList);
+  const onSeen = (words) => setRecent((prev) => {
+    const kept = (Array.isArray(prev) ? prev : []).filter((w) => !words.includes(w));
+    return [...kept, ...words].slice(-RECENT_KEEP);
+  });
+  const startTest = () => setTest(newTest(testContext(data), testLength, recent));
 
   if (test) {
     return (
@@ -57,7 +71,9 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
           setHistory(() => [...history, { date: res.date, level: res.level, sd: res.sd }].slice(-50));
           onRoundComplete('vocab-test', { score: res.right, total: res.total, answers: [] });
         }}
-        onAgain={() => setTest(newTest(testContext(data.groups), test.length || testLength))}
+        onAgain={() => setTest(newTest(testContext(data), test.length || testLength, recent))}
+        recent={recent}
+        onSeen={onSeen}
         onExit={() => setTest(null)}
       />
     );
@@ -65,7 +81,12 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
 
   const start = () => {
     const weights = itemWeights(stats, 'vocab', ALL_WORDS.map((x) => x.w));
-    const rounds = buildVocabRounds(data.groups, { seed: `${Date.now()}`, type: prefs.type, level: prefs.level, count: practiceLength, weights });
+    for (const w of recent) if (weights[w] !== undefined) weights[w] *= RECENT_WEIGHT;
+    // Words still being learned: missed more than one time in four. A word
+    // leaves once it is mostly got right, instead of staying after one miss.
+    const { items } = gameEntry(stats, 'vocab');
+    const review = new Set(Object.entries(items).filter(([, v]) => v.seen - v.correct > v.seen / 4).map(([k]) => k));
+    const rounds = buildVocabRounds(data, { seed: `${Date.now()}`, type: prefs.type, level: prefs.level, count: practiceLength, weights, review });
     setGame({ rounds, index: 0, picked: [], results: [] });
   };
 
@@ -154,7 +175,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
 
   const r = rounds[index];
   const done = results.length > index;
-  const info = done ? explainRound(r, data.groups) : null;
+  const info = done ? explainRound(r, data) : null;
 
   const toggle = (w) => {
     if (done) return;
@@ -167,6 +188,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
     // Every word the round was testing is scored, so a missed synonym pair
     // brings both words back.
     for (const key of new Set([r.target, ...r.answer])) onAnswer('vocab', key, correct);
+    onSeen(r.options.concat(r.target));
     const next = [...results, { picked: sel, correct }];
     setGame({ ...game, picked: sel, results: next });
     if (next.length === rounds.length) {
