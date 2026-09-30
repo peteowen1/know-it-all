@@ -1,5 +1,5 @@
 {
- "_note": "Word families for the Word power game. Each group is one meaning; `ant` names the opposite group, `near` names groups close enough in meaning that they must never appear side by side as decoys. Words are [word, definition].",
+ "_note": "Word families for the Word play game. Each group is one meaning; `ant` names the opposite group, `near` names groups close enough in meaning that they must never appear side by side as decoys. Words are [word, definition, zipf]; zipf comes from scripts/build-vocab-freq.py.",
  "groups": [
   {
    "id": "talkative",

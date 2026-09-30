@@ -892,7 +892,7 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
 }
 
 
-// -------------------------------------------------------------- word power
+// -------------------------------------------------------------- word play
 const VOCAB = JSON.parse(readFileSync(new URL('../src/data/vocab.json', import.meta.url), 'utf8')).groups;
 test('vocab: every word appears once, opposites and near links point at real families of the same kind', () => {
   const seen = new Set();
