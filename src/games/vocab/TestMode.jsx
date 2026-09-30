@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useRef } from 'react';
 import { ArrowRight, CheckCircle2, XCircle } from 'lucide-react';
 import data from '../../data/vocab.json';
 import { explainRound } from './vocabLogic';
@@ -18,6 +18,9 @@ const HIGHEST = Math.max(...ZIPFS) - 0.2;
  */
 export default function TestMode({ test, setTest, history, onComplete, onAgain, onAnswer, onExit }) {
   const ctx = useMemo(() => testContext(data.groups), []);
+  // A quick double tap would answer this question and then the next one,
+  // whose options appear under the same finger. Ignore taps just after an answer.
+  const lastAnswer = useRef(0);
   const { rounds, answers, picked } = test;
   const done = answers.length >= TEST_LENGTH || answers.length === rounds.length;
 
@@ -80,6 +83,8 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
   const r = rounds[index];
 
   const submit = (sel) => {
+    if (Date.now() - lastAnswer.current < 400) return;
+    lastAnswer.current = Date.now();
     const right = sel.length === r.answer.length && r.answer.every((w) => sel.includes(w));
     for (const key of new Set([r.target, ...r.answer])) onAnswer('vocab', key, right);
     const next = [...answers, { picked: sel, right, zipf: r.zipf, guess: guessRate(r) }];
@@ -96,6 +101,7 @@ export default function TestMode({ test, setTest, history, onComplete, onAgain, 
   };
 
   const toggle = (w) => {
+    if (Date.now() - lastAnswer.current < 400) return;
     if (r.pick === 1) return submit([w]);
     setTest({ ...test, picked: picked.includes(w) ? picked.filter((x) => x !== w) : [...picked, w].slice(-r.pick) });
   };

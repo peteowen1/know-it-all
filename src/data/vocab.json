@@ -2113,7 +2113,9 @@
    "sense": "too eager to please",
    "near": [
     "compliant",
-    "humble"
+    "humble",
+    "friendly",
+    "deceitful"
    ],
    "words": [
     [
@@ -2145,7 +2147,8 @@
    "sense": "hard to understand",
    "ant": "lucid",
    "near": [
-    "hidden"
+    "hidden",
+    "open"
    ],
    "words": [
     [
@@ -2212,7 +2215,12 @@
     "angry",
     "hostile",
     "gloomy",
-    "agitated"
+    "agitated",
+    "calm",
+    "cheerful",
+    "friendly",
+    "stubborn",
+    "malevolent"
    ],
    "words": [
     [
@@ -2258,11 +2266,6 @@
      "paean",
      "a song or piece of writing expressing praise or triumph",
      2.41
-    ],
-    [
-     "accolade",
-     "an award or expression of praise",
-     2.82
     ]
    ]
   },
@@ -2337,7 +2340,8 @@
    "sense": "too much of something",
    "ant": "dearth",
    "near": [
-    "wealth"
+    "wealth",
+    "poverty"
    ],
    "words": [
     [
@@ -2370,7 +2374,7 @@
    "words": [
     [
      "meander",
-     "to follow a winding course",
+     "to wander in a winding, unhurried way",
      2.69
     ],
     [
@@ -2380,7 +2384,7 @@
     ],
     [
      "perambulate",
-     "to walk from place to place",
+     "to walk from place to place, often at leisure",
      1.33
     ],
     [
@@ -2388,6 +2392,9 @@
      "to travel or wander from place to place",
      1.0
     ]
+   ],
+   "near": [
+    "delay"
    ]
   },
   {
@@ -2429,7 +2436,8 @@
    "near": [
     "generous",
     "careless",
-    "abundant"
+    "abundant",
+    "stingy"
    ],
    "words": [
     [
@@ -2449,7 +2457,7 @@
     ],
     [
      "improvident",
-     "not providing for the future",
+     "spending without saving for the future",
      1.41
     ]
    ]
@@ -2489,11 +2497,12 @@
    "id": "showy",
    "pos": "adj",
    "level": 2,
-   "sense": "designed to impress",
+   "sense": "flashy and attention-seeking",
    "near": [
     "open",
     "arrogant",
-    "extraordinary"
+    "extraordinary",
+    "humble"
    ],
    "words": [
     [
@@ -2535,18 +2544,18 @@
     ],
     [
      "portentous",
-     "warning of something important or bad to come",
+     "warning of something important or bad to come; ominous",
      2.14
     ],
     [
-     "foreboding",
-     "filling you with fear that something bad will happen",
-     2.79
+     "inauspicious",
+     "not favourable; suggesting bad luck to come",
+     2.39
     ],
     [
-     "inauspicious",
-     "not suggesting future success",
-     2.39
+     "sinister",
+     "giving the impression that something harmful or evil is near",
+     3.6
     ]
    ]
   },
@@ -2558,7 +2567,10 @@
    "near": [
     "loyal",
     "disloyal",
-    "agitated"
+    "agitated",
+    "stubborn",
+    "calm",
+    "irritable"
    ],
    "words": [
     [
@@ -2590,7 +2602,8 @@
    "sense": "to make shorter",
    "near": [
     "decrease",
-    "weaken"
+    "weaken",
+    "increase"
    ],
    "words": [
     [
@@ -2621,7 +2634,8 @@
    "level": 3,
    "sense": "to persuade gently or with flattery",
    "near": [
-    "soothe"
+    "soothe",
+    "provoke"
    ],
    "words": [
     [
@@ -2673,7 +2687,7 @@
     ],
     [
      "Lilliputian",
-     "trivial or very small",
+     "very small (from Gulliver's Travels)",
      1.88
     ]
    ]
@@ -2718,7 +2732,8 @@
    "sense": "a noisy argument or awkward dispute",
    "near": [
     "chaos",
-    "hatred"
+    "hatred",
+    "friendship"
    ],
    "words": [
     [
@@ -2732,14 +2747,14 @@
      3.12
     ],
     [
-     "imbroglio",
-     "an extremely confused or embarrassing situation",
-     1.94
-    ],
-    [
      "contretemps",
      "a minor dispute or awkward disagreement",
      1.75
+    ],
+    [
+     "squabble",
+     "a noisy quarrel about something unimportant",
+     2.59
     ]
    ]
   },
@@ -2749,7 +2764,8 @@
    "level": 3,
    "sense": "old-fashioned",
    "near": [
-    "permanent"
+    "permanent",
+    "ordinary"
    ],
    "words": [
     [
@@ -2782,7 +2798,9 @@
    "near": [
     "tired",
     "lazy",
-    "calm"
+    "calm",
+    "energetic",
+    "hardworking"
    ],
    "words": [
     [

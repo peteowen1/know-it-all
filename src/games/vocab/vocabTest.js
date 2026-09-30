@@ -79,8 +79,8 @@ export function testContext(groups) {
 
 /**
  * The next question, given the current estimate and the families already used.
- * Picks the word nearest the estimate, with a little jitter so two tests at
- * the same level do not ask the same words.
+ * Aims at the estimate, with a little jitter so two tests at the same level
+ * do not ask the same words.
  */
 export function nextRound(ctx, { level, usedGroups, index, seed }) {
   const rand = makeRng(hashString(`vocabtest:${seed}:${index}`));
@@ -92,11 +92,16 @@ export function nextRound(ctx, { level, usedGroups, index, seed }) {
     for (const [w, , z] of g.words) cands.push({ g, w, gap: Math.abs(z - level) + rand() * 0.3 });
   }
   cands.sort((a, b) => a.gap - b.gap);
+  // A round's difficulty is its rarest needed word, which can sit below the
+  // word it was built around, so build a few and keep the one nearest the level.
+  let best = null;
   for (const c of cands.slice(0, 12)) {
     const r = roundFor(type, c.g, c.w, ctx.byId, ctx.all, rand);
-    if (r) return { ...r, id: `${type}:${c.g.id}:${c.w}`, zipf: roundZipf(r, ctx.zipfOf) };
+    if (!r) continue;
+    const round = { ...r, id: `${type}:${c.g.id}:${c.w}`, zipf: roundZipf(r, ctx.zipfOf) };
+    if (!best || Math.abs(round.zipf - level) < Math.abs(best.zipf - level)) best = round;
   }
-  return null;
+  return best;
 }
 
 /** A fresh test: its seed and first question, asked at the prior's level. */
