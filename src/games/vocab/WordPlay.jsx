@@ -57,7 +57,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
           setHistory(() => [...history, { date: res.date, level: res.level, sd: res.sd }].slice(-50));
           onRoundComplete('vocab-test', { score: res.right, total: res.total, answers: [] });
         }}
-        onAgain={startTest}
+        onAgain={() => setTest(newTest(testContext(data.groups), test.length || testLength))}
         onExit={() => setTest(null)}
       />
     );
