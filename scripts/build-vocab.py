@@ -77,7 +77,12 @@ BLOCK_WORDS = {'pissed', 'midget', 'bastard', 'bollocks', 'retard', 'moron', 'cr
                'twat', 'gimp', 'boob', 'booger', 'wuss', 'puke', 'puking', 'diddle', 'bleeder', 'raunch',
                'retardation', 'voluptuary', 'baldy', 'dweeb', 'neanderthal', 'swinish', 'hussy', 'strumpet',
                'sissy', 'cissy', 'nutter', 'wacko', 'whacko', 'goddamned', 'damned', 'flaming', 'hunchback',
-               'humpback', 'hunchbacked', 'humpbacked', 'boozy', 'expletive'}
+               'humpback', 'hunchbacked', 'humpbacked', 'boozy', 'expletive',
+               # second review: sexual second meanings, crude, or a common meaning that misleads
+               'ravish', 'foxy', 'snot', 'bonk', 'butt', 'barmy', 'arouse', 'congratulations', 'prima', 'itchy',
+               'quickness', 'byword', 'detainment', 'thoughtfulness', 'irksome', 'yobo', 'roughneck', 'slowness',
+               'rook', 'unnumbered', 'uncounted', 'mavin', 'sinuate', 'stung', 'uprise', 'enlace', 'volute',
+               'folder', 'liaise', 'invigoration', 'wormlike', 'transmitted', 'wavelike', 'slew'}
 BLOCK_FAMILIES = {'prostitute.n.01', 'homosexuality.n.01', 'idiot.n.01', 'blowsy.s.01', 'crippled.s.01',
                   'adulteress.n.01', 'concubine.n.01', 'affair.n.02', 'caressing.n.01', 'flirt.n.02', 'coquette.n.01',
                   'enchantress.n.01', 'smasher.n.02', 'bosomy.s.01', 'blue.s.05', 'lubricious.s.02', 'prurience.n.01',
@@ -87,7 +92,11 @@ BLOCK_FAMILIES = {'prostitute.n.01', 'homosexuality.n.01', 'idiot.n.01', 'blowsy
                   'lotto.n.01', 'parturiency.n.01', 'drunkard.n.01',
                   # quality: variant spellings, junk or unfair word sets
                   'tasting.n.03', 'bogey.n.01', 'virtu.n.01', 'lacy.s.02', 'disdainful.s.02', 'abject.s.01',
-                  'buttery.s.01'}
+                  'buttery.s.01',
+                  # second review: mocking (intelligence, class, bodies) or trivially one word
+                  'corrupt.v.01', 'deformed.s.01', 'dunce.n.01', 'swot.n.01', 'peasant.n.03', 'yokel.n.01',
+                  'chunky.s.02', 'scraggy.s.01', 'lout.n.01', 'crippling.s.01', 'bony.s.01', 'indecent.s.01',
+                  'boatman.n.01', 'cogency.n.02', 'bactericidal.s.01', 'bunco.n.01', 'rarity.n.01', 'bellboy.n.01'}
 # Definitions that put a family off-limits whatever its words are.
 BLOCK_DEFINITION = re.compile(r'\b(sex|sexual|seduc|erotic|obscen|profan|lewd|lust|foreplay|prostitut|disparag|'
                               r'derogat|offensive|mistress|adulter|intoxicat|alcohol|drunk|genital|excret)', re.I)
@@ -99,9 +108,9 @@ BLOCK_UNDER = {'disease.n.01', 'illness.n.01', 'symptom.n.01', 'pathological_sta
 # meaning, and two reviews found about a third of what it produced was
 # nonsense (flooded/looted, thriving/disappointed). Each pair here was read.
 ALLOW_ANT = {frozenset(p) for p in [
-    ('absorbing.s.01', 'boring.s.01'), ('adust.s.01', 'boggy.s.01'), ('amused.s.01', 'annoyed.s.01'),
-    ('bearable.s.01', 'intolerable.a.01'), ('chunky.s.02', 'gangling.s.01'), ('cloying.s.01', 'lemony.s.01'),
-    ('compact.s.01', 'gangling.s.01'), ('crippling.s.01', 'curative.s.01'), ('delectable.s.01', 'bland.s.01'),
+    ('absorbing.s.01', 'boring.s.01'), ('amused.s.01', 'annoyed.s.01'),
+    ('bearable.s.01', 'intolerable.a.01'), ('cloying.s.01', 'lemony.s.01'),
+    ('compact.s.01', 'gangling.s.01'), ('delectable.s.01', 'bland.s.01'),
     ('impracticable.s.01', 'feasible.s.01'), ('piquant.s.01', 'bland.s.01'), ('unachievable.s.01', 'feasible.s.01'),
 ]}
 # Wrong-sense or unfair words a review found inside otherwise good families.
@@ -225,7 +234,7 @@ def wordnet_families(taken, vectors):
             'src': 'wordnet',
             'pos': POS[s.pos()],
             'level': level_of(zs),
-            'sense': sense if len(sense) <= 60 else sense[:57].rsplit(' ', 1)[0] + '…',
+            'sense': sense,
             'words': [[w, definition, z] for w, z in zip(ws, zs)],
         }
 
