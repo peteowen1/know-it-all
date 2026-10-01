@@ -785,6 +785,19 @@ test('obscure: a shared name keeps the more famous rarity (Anne Hathaway)', () =
   const annes = OBS.find((c) => c.id.startsWith('name-Anne'));
   assert.ok(scoreGuess(annes, 'Anne Hathaway').score < 50, String(scoreGuess(annes, 'Anne Hathaway').score));
 });
+// Anchors set before the full filmographies were built (2026-10-01): famous
+// films a director made must score, and their best-known film must sit at the
+// obvious end, not the rare end where Casablanca used to be.
+test('obscure: film lists are full filmographies, ranked by fame', () => {
+  const film = (d) => OBS.find((c) => c.id === `films-${d}`);
+  for (const [d, title] of [['Steven Spielberg', 'Catch Me If You Can'], ['Michael Curtiz', 'White Christmas'],
+    ['Ernst Lubitsch', 'The Shop Around the Corner'], ['George Lucas', 'A New Hope']]) {
+    assert.ok(scoreGuess(film(d), title).score > 0, `${title} not accepted for ${d}`);
+  }
+  for (const [d, title] of [['Michael Curtiz', 'Casablanca'], ['Steven Spielberg', 'Jurassic Park'], ['John Ford', 'The Searchers']]) {
+    assert.ok(scoreGuess(film(d), title).score <= 20, `${title} scored ${scoreGuess(film(d), title).score} for ${d}`);
+  }
+});
 test('obscure: a game has five distinct categories covering all four areas', () => {
   for (let s = 0; s < 100; s++) {
     const cats = pickCategories(OBS, s);
