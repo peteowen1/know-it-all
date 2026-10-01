@@ -74,7 +74,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
         </div>
         <p className="game-record">
           {entry.plays
-            ? `${entry.plays} played · best board ${entry.best} of ${BOARD_SIZE}`
+            ? `${entry.plays} played · best ${entry.bestPct}% of a board`
             : `Name the fifteen most famous people with a given first name. Type surnames.`}
         </p>
         <SetupRow label="Name">
