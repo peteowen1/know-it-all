@@ -41,7 +41,9 @@ export default function QuizSetup({ setup, onStart, bankStats }) {
           <button className="btn btn-ghost" onClick={() => setOpen((o) => !o)}>
             <SlidersHorizontal size={16} /> {open ? 'Hide options' : 'Change'}
           </button>
-          <button className="btn btn-primary" onClick={() => onStart(draft)}>
+          {/* Close the options on start: left open, the panel sat above the
+              quiz and its results, pushing the score below the fold on a phone. */}
+          <button className="btn btn-primary" onClick={() => { setOpen(false); onStart(draft); }}>
             <Play size={16} /> Start new round
           </button>
         </div>
