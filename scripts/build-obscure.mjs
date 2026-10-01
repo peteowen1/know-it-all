@@ -145,8 +145,9 @@ mkdirSync(FILM_CACHE, { recursive: true });
 const wd = async (params) => {
   const url = `https://www.wikidata.org/w/api.php?format=json&${new URLSearchParams(params)}`;
   for (let i = 0; i < 4; i++) {
-    const res = await fetch(url, { headers: { 'User-Agent': UA } });
-    if (res.ok) {
+    // A dropped connection throws rather than returning a bad status; retry both.
+    const res = await fetch(url, { headers: { 'User-Agent': UA } }).catch(() => null);
+    if (res?.ok) {
       const j = await res.json();
       if (j.error) throw new Error(`wikidata: ${j.error.info}`);
       return j;
@@ -183,6 +184,9 @@ async function filmography(name) {
       out.push({ id: e.id, title: e.sitelinks?.enwiki?.title || null, label: e.labels?.en?.value || null, aliases: (e.aliases?.en || []).map((a) => a.value), types, year, editions: Object.keys(e.sitelinks || {}).length });
     }
   }
+  // Never cache an empty answer: a search index that briefly returns nothing
+  // would otherwise drop the director's category until the file is deleted.
+  if (!out.length) throw new Error(`no films found for ${name}; not caching, re-run to retry`);
   const result = { name, qid: best.qid, films: out };
   writeFileSync(path, JSON.stringify(result));
   return result;
