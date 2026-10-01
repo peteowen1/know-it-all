@@ -633,6 +633,12 @@ test('lists: terms are in date order', () => {
     assert.deepEqual(years, [...years].sort((a, b) => a - b), k);
   }
 });
+test('rowMatches exact (as you type): a typo or half-typed name never locks a row', () => {
+  const row = { accept: ['Julia Gillard', 'Gillard'] };
+  assert.ok(rowMatches('Gillard', row, { exact: true }));
+  assert.ok(rowMatches('julia gillard', row, { exact: true }));
+  for (const g of ['Gilard', 'Gillar', 'Gill']) assert.ok(!rowMatches(g, row, { exact: true }), g);
+});
 test('rowMatches: full name, surname, and a typo', () => {
   const row = LISTS.auPM.terms.find((x) => x.name === 'Julia Gillard');
   for (const g of ['Julia Gillard', 'gillard', 'Gilard']) assert.ok(rowMatches(g, row), g);
