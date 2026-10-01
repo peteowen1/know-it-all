@@ -136,6 +136,7 @@ for (const p of people) {
   if (!groups.has(first)) groups.set(first, []);
   groups.get(first).push({
     id: p.id,
+    title: p.title,
     name,
     rest: parts.slice(1).join(' '),
     description: p.description || '',
@@ -155,6 +156,46 @@ const names = [...groups.entries()]
     people: list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME)
   }))
   .sort((a, b) => b.total - a.total);
+
+// ------------------------------------------------------- 4. descriptions
+// Wikidata's English descriptions are edited with little oversight: on
+// 2026-10-01 Carlos Vela's read "Mexican footballer (born 2024)" and Carlos
+// Queiroz's had been replaced with a Spanish joke. English Wikipedia's own
+// short descriptions are set on the article and watched far more closely, so
+// they come first; Wikidata's is the fallback. A "born YYYY" in a Wikidata
+// fallback that disagrees with the structured birth date is corrected from
+// it. Wikipedia's text is never rewritten: checked on 2026-10-01, where the
+// two disagreed it was usually the structured date that was wrong.
+const kept = names.flatMap((n) => n.people);
+const shortDesc = await cached(`${RAW}/enwiki-descriptions.json`, async () => {
+  const out = {};
+  const keptTitles = kept.map((p) => p.title);
+  for (let i = 0; i < keptTitles.length; i += 50) {
+    const url =
+      'https://en.wikipedia.org/w/api.php?action=query&prop=description&format=json&formatversion=2&titles=' +
+      encodeURIComponent(keptTitles.slice(i, i + 50).join('|'));
+    const j = await getJson(url);
+    if (!j || j.error) throw new Error(`enwiki descriptions: ${j?.error?.info || 'no response'}`);
+    for (const page of j.query?.pages || []) if (page.description) out[page.title] = page.description;
+    // Titles come back normalised ("Carlos_Vela" -> "Carlos Vela"); map those too.
+    for (const n of j.query?.normalized || []) if (out[n.to]) out[n.from] = out[n.to];
+  }
+  return out;
+});
+const descStats = { enwiki: 0, wikidata: 0, none: 0, yearFixed: 0 };
+for (const p of kept) {
+  const wiki = shortDesc[p.title];
+  if (wiki) { p.description = wiki; descStats.enwiki++; }
+  else if (p.description) descStats.wikidata++;
+  else descStats.none++;
+  const said = /\bborn (\d{4})\b/.exec(p.description);
+  if (!wiki && said && p.born && Number(said[1]) !== p.born) {
+    p.description = p.description.replace(said[0], `born ${p.born}`);
+    descStats.yearFixed++;
+  }
+  delete p.title;
+}
+console.log('descriptions from:', descStats);
 
 console.log(`names with >= ${MIN_PEOPLE_PER_NAME} famous people: ${names.length}`);
 console.log(names.slice(0, 25).map((n) => `${n.first} ${n.total}`).join(', '));

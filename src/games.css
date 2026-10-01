@@ -102,6 +102,7 @@
 .names-person { display: flex; flex-direction: column; line-height: 1.25; }
 .names-person span, .names-hidden { color: var(--text-secondary); font-size: 0.82rem; }
 .names-hidden { font-style: italic; }
+.names-initial { font-style: normal; color: var(--text-muted); }
 .game-record.small { font-size: 0.78rem; color: var(--text-muted); }
 
 /* Logo and title double as the home button. */

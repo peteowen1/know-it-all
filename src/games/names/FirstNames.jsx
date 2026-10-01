@@ -222,7 +222,13 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
                 </span>
               ) : (
                 <span className="names-hidden">
-                  {easy ? `${p.description || 'famous person'} · ${p.rest[0]}…` : ' '}
+                  {easy ? (
+                    <>
+                      {p.description || 'famous person'}
+                      {/* Was "· G…", which read as a clue cut off mid-word. */}
+                      <span className="names-initial"> · surname starts with {p.rest[0]}</span>
+                    </>
+                  ) : ' '}
                 </span>
               )}
             </li>
