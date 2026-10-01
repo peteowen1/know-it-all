@@ -30,11 +30,22 @@ for (const [y, list] of Object.entries(music)) {
 for (const [y, list] of Object.entries(films.boxOffice)) {
   add('film', Number(y), `${list[0].title} is the year's top-grossing new film`);
 }
+// Award clues say which year they mean: Oscars are dated by the films' year
+// (the ceremony is the next spring), Emmys by the ceremony. A playtester
+// answered 2015 for Birdman (ceremony year) and was marked wrong.
 for (const [y, list] of Object.entries(films.bestPicture)) {
-  add('oscars', Number(y), `${list[0].title} wins Best Picture (for that year's films)`);
+  add('oscars', Number(y), `${list[0].title} wins Best Picture (films of that year; ceremony the next spring)`);
 }
+// A show that won more than once ("The Sopranos", 2004 and 2007) had two right
+// years for one clue. Only its first win is kept (see byText below), so the
+// clue says "its first".
 for (const [key, label] of [['emmyDrama', 'Outstanding Drama'], ['emmyComedy', 'Outstanding Comedy']]) {
-  for (const [y, list] of Object.entries(tv[key])) add('tv', Number(y), `${list[0].title} wins the Emmy for ${label} Series`);
+  const wins = {};
+  for (const list of Object.values(tv[key])) wins[list[0].title] = (wins[list[0].title] || 0) + 1;
+  for (const [y, list] of Object.entries(tv[key])) {
+    const t = list[0].title;
+    add('tv', Number(y), `${t} wins ${wins[t] > 1 ? 'its first' : 'the'} Emmy for ${label} Series (ceremony that year)`);
+  }
 }
 
 // Leaders taking office. A returning leader's later terms are skipped: "Rudd

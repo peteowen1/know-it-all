@@ -104,9 +104,15 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
         <p className="names-msg meh">Looks like newest-first. Oldest goes at the top; flipped, that was {round.score.total - round.score.correct}/{round.score.total}.</p>
       )}
       {checked && round.score.correct < round.score.total && (
-        <p className="game-record">
-          Right order: {truth.map((e) => e.year).join(' → ')}
-        </p>
+        <div className="tl-truth">
+          <p className="game-record">Right order</p>
+          {/* Years alone ("2017 → 2019") did not say which card was which. */}
+          <ol>
+            {truth.map((e) => (
+              <li key={e.text}><strong>{e.year}</strong> {e.text}</li>
+            ))}
+          </ol>
+        </div>
       )}
 
       <div className="actions-bar centered">

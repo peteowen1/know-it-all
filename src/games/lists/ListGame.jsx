@@ -40,7 +40,7 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
           <button className="btn btn-ghost" onClick={onExit}>All games</button>
         </div>
         <p className="game-record">
-          Every term in order, with its years as the clue. Type into any box; right answers lock in.
+          Every term in order, with its years as the clue. Type into any box; right answers lock in as you type.
           {entry.plays ? ` ${entry.plays} lists played · best ${entry.bestPct}%.` : ''}
         </p>
         <SetupRow label="List">
@@ -91,6 +91,7 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   const [done, setDone] = useState(() => saved?.done ?? rows.map(() => false));
   const [values, setValues] = useState(() => saved?.values ?? rows.map(() => ''));
   const [wrong, setWrong] = useState(null);
+  const [hint, setHint] = useState(null);
   const [over, setOver] = useState(saved?.over ?? false);
   useEffect(() => saveLive('lists_board', { id: round.id, listKey: round.listKey, done, values, over }), [round.id, round.listKey, done, values, over]);
   const inputs = useRef([]);
@@ -124,12 +125,19 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
     []
   );
 
-  const check = (i) => {
-    if (locked.current[i] || over || !values[i].trim()) return;
-    if (!rowMatches(values[i], rows[i])) {
+  // `exact` is the as-you-type check: only an exact accepted name locks, so a
+  // half-typed name never locks a near neighbour through typo tolerance.
+  const check = (i, value = values[i], { exact = false } = {}) => {
+    if (locked.current[i] || over || !value.trim()) return;
+    if (!rowMatches(value, rows[i], { exact })) {
+      if (exact) return;
       setWrong(i);
+      // A right name in the wrong row: say where it goes.
+      const elsewhere = rows.findIndex((r, j) => j !== i && !locked.current[j] && rowMatches(value, r));
+      setHint(elsewhere >= 0 ? { row: i, text: `${rows[elsewhere].name} is ${rows[elsewhere].from}–${rows[elsewhere].to ?? 'now'}` } : null);
       return;
     }
+    setHint(null);
     locked.current[i] = true;
     const next = locked.current.slice();
     setDone(next);
@@ -176,6 +184,8 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
                     const v = e.target.value;
                     setValues((vs) => vs.map((x, j) => (j === i ? v : x)));
                     if (wrong === i) setWrong(null);
+                    if (hint?.row === i) setHint(null);
+                    check(i, v, { exact: true });
                   }}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter') check(i);
@@ -183,6 +193,7 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
                   onBlur={() => values[i].trim() && check(i)}
                 />
               )}
+              {hint?.row === i && !show && <span className="list-hint">{hint.text}</span>}
             </li>
           );
         })}

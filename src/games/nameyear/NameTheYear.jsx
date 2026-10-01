@@ -56,9 +56,15 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
         <h2>{total} / {rounds.length * 10}</h2>
         <div className="ny-summary">
           {rounds.map((r, i) => (
-            <div key={r.year} className="ny-sum-row">
-              <strong>{r.year}</strong>
-              <span>you said {guesses[i]} · {yearPoints(guesses[i], r.year)} pts</span>
+            <div key={r.year} className="ny-sum-block">
+              <div className="ny-sum-row">
+                <strong>{r.year}</strong>
+                <span>you said {guesses[i]} · {yearPoints(guesses[i], r.year)} pts</span>
+              </div>
+              {/* The clues, so the result teaches which events belong to the year. */}
+              <ul className="ny-sum-clues">
+                {r.clues.map((c) => <li key={c.text}>{c.text}</li>)}
+              </ul>
             </div>
           ))}
         </div>

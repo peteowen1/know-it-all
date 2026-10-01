@@ -5,12 +5,13 @@ import { normalise, editDistance } from '../names/nameMatch.js';
 
 /**
  * Is `guess` this row's answer? Full name, Wikidata's label, or surname, with
- * one typo allowed from five letters and two from nine.
+ * one typo allowed from five letters and two from nine. `exact` turns the
+ * typo allowance off, for checking while the player is still typing.
  */
-export function rowMatches(guess, row) {
+export function rowMatches(guess, row, { exact = false } = {}) {
   const g = normalise(guess);
   if (!g) return false;
-  const tolerance = g.length >= 9 ? 2 : g.length >= 5 ? 1 : 0;
+  const tolerance = exact ? 0 : g.length >= 9 ? 2 : g.length >= 5 ? 1 : 0;
   return row.accept.some((a) => {
     const f = normalise(a);
     return f === g || (tolerance > 0 && editDistance(g, f, tolerance) <= tolerance);
