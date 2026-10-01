@@ -7,6 +7,10 @@ import { Chip, SetupRow } from '../geo/CountryQuiz';
 import { usePersistentState } from '../../lib/persist';
 
 const BOARD_SIZE = 15;
+// A name with 12-14 famous people still gets a (shorter) board. Leaving out
+// notorious people took Carlos, Edward, Jane and others from exactly 15 to
+// 14, and a hard minimum of 15 dropped those names from the game entirely.
+const MIN_BOARD = 12;
 const TIMERS = [60, 120, 0]; // 0 = untimed
 const ERAS = {
   all: { label: 'Any era', test: () => true },
@@ -36,7 +40,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
     () =>
       data.names
         .map((n) => ({ ...n, people: n.people.filter(ERAS[era].test) }))
-        .filter((n) => n.people.length >= BOARD_SIZE),
+        .filter((n) => n.people.length >= MIN_BOARD),
     [era]
   );
 
@@ -94,7 +98,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: blank board</Chip>
         </SetupRow>
         <button className="btn btn-primary game-start" onClick={start} disabled={!names.length}>
-          {names.length ? 'Start' : 'No names have fifteen people in this era'}
+          {names.length ? 'Start' : `No names have ${MIN_BOARD} people in this era`}
         </button>
         <p className="game-record small">Fame = English Wikipedia readership, {data.source.replace(/^.*pageviews /, '')}.</p>
       </div>
@@ -114,7 +118,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
         const onBoard = g.found.filter((id) => boardIds.has(id)).length;
         onRoundComplete('first-names', {
           score: onBoard,
-          total: BOARD_SIZE,
+          total: g.board.length,
           run: g.found.length,
           answers: g.board.map((p) => ({ key: p.id, correct: g.found.includes(p.id) }))
         });

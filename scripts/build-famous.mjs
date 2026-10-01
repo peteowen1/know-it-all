@@ -26,6 +26,10 @@ const RAW = 'data-raw/famous';
 const START_YEAR = 2016;
 const MIN_PEOPLE_PER_NAME = 12; // a prompt needs enough answers to be a game
 const KEEP_PER_NAME = 40;
+// Extra people fetched per name so that leaving notorious people out (step 5)
+// still leaves 40, rather than shrinking boards below the 15 the game shows:
+// trimming first dropped 8 boards, Carlos among them.
+const SPARE_PER_NAME = 25;
 
 mkdirSync(`${RAW}/top`, { recursive: true });
 mkdirSync(`${RAW}/entities`, { recursive: true });
@@ -170,7 +174,7 @@ const names = [...groups.entries()]
     const counts = {};
     for (const p of list) counts[p.first] = (counts[p.first] || 0) + 1;
     const spellings = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-    const people = list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME);
+    const people = list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME + SPARE_PER_NAME);
     if (spellings.length === 1) for (const p of people) delete p.first;
     return {
       first: spellings.length > 1 ? spellings.join(' / ') : board,
@@ -269,6 +273,7 @@ if (existsSync(REVIEW_CSV)) {
 const reviewRows = [];
 let leftOut = 0;
 for (const n of names) {
+  const before = n.people.length;
   n.people = n.people.filter((p) => {
     const byRule = (NOTORIOUS.test(p.description) && !NOT_NOTORIOUS.test(p.description)) || /\btrial\b/i.test(p.name);
     const decision = decisions.get(p.id) || '';
@@ -277,7 +282,11 @@ for (const n of names) {
     if (out) leftOut++;
     return !out;
   });
+  n.total -= before - n.people.length;
+  n.people = n.people.slice(0, KEEP_PER_NAME);
 }
+// A name left with too few people after that is no longer a game.
+for (let i = names.length - 1; i >= 0; i--) if (names[i].total < MIN_PEOPLE_PER_NAME) names.splice(i, 1);
 const csvCell = (v) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
 const cols = ['name', 'board', 'description', 'views', 'rule', 'decision', 'id'];
 writeFileSync(
