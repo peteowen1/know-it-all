@@ -75,7 +75,12 @@ function rowCells(row) {
     const t = line.trim();
     if (!/^[|!]/.test(t) || t.startsWith('|-') || t.startsWith('|}') || t.startsWith('|+')) continue;
     const header = t.startsWith('!');
-    for (let cell of t.slice(1).split(/\|\||!!/)) {
+    // "!!" separates cells only in header rows: in a data row it is part of the
+    // text ("Woo Hah!! Got You All in Check", "I Do!!"), and splitting on it
+    // left "[[Woo Hah" as a title. A line may also open with "||", which
+    // otherwise left a stray "|" on its first cell ("| Chariots of Fire").
+    const body = t.slice(t.startsWith('||') ? 2 : 1);
+    for (let cell of body.split(header ? /\|\||!!/ : /\|\|/)) {
       // Drop attributes: `scope="row" | 1` -> `1`. Only a single pipe outside
       // links and templates separates attributes from content.
       const m = cell.match(/^([^[{|]*=[^[{|]*)\|(?!\|)([\s\S]*)$/);

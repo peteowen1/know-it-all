@@ -37,6 +37,10 @@ const add = (id, prompt, kind, answers, min = 6) => {
   }
   const uniq = [...byText.values()];
   if (uniq.length < min) return;
+  // An accepted name that is another answer's own name would score the wrong
+  // one ("Congo" for DR Congo when the Republic of the Congo is also listed).
+  const names = new Set(uniq.map((a) => a.text.toLowerCase()));
+  for (const a of uniq) a.accept = (a.accept || []).filter((x) => x === a.text || !names.has(x.toLowerCase()));
   const sorted = uniq.sort((a, b) => b.fame - a.fame);
   const n = sorted.length;
   categories.push({
@@ -52,7 +56,18 @@ const add = (id, prompt, kind, answers, min = 6) => {
 };
 
 // ------------------------------------------------------------------ geography
-const country = (c) => ({ text: c.name, accept: [c.officialName, ...c.altNames.filter((a) => a.length > 3)], fame: c.population ?? 0 });
+// Short alternative names are mostly ISO codes ("CD", "TZA") that nobody
+// types, but all-capital initialisms people do use are kept: "DRC", "UAE",
+// "USA". Former and short names players reach for are added by hand; "Congo"
+// for DR Congo is dropped again in any category that also has the Republic
+// of the Congo (see add()).
+const EXTRA_NAMES = { 'DR Congo': ['Congo', 'Zaire'], Congo: ['Congo-Brazzaville', 'Republic of the Congo'] };
+const PEOPLE_USE = new Set(['DRC', 'UAE', 'USA', 'UK']);
+const country = (c) => ({
+  text: c.name,
+  accept: [c.officialName, ...c.altNames.filter((a) => a.length > 3 || PEOPLE_USE.has(a)), ...(EXTRA_NAMES[c.name] || [])],
+  fame: c.population ?? 0
+});
 const byIso3 = new Map(countries.map((c) => [c.iso3, c]));
 for (const c of countries) {
   const n = c.borders.map((b) => byIso3.get(b)).filter(Boolean);

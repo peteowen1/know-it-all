@@ -778,10 +778,12 @@ test('obscure: famous-person categories accept a surname alone', () => {
   const johns = OBS.find((c) => c.id === 'name-John');
   assert.equal(scoreGuess(johns, 'Washington').answer?.text, 'John David Washington');
 });
-test('obscure: a shared name keeps the more famous rarity (George Floyd)', () => {
-  const georges = OBS.find((c) => c.id === 'name-George');
-  // 8th most read of 39 Georges scores 27; the bug scored him 100 (the rarest).
-  assert.ok(scoreGuess(georges, 'George Floyd').score < 50, String(scoreGuess(georges, 'George Floyd').score));
+test('obscure: a shared name keeps the more famous rarity (Anne Hathaway)', () => {
+  // Two Anne Hathaways: the actress and Shakespeare's wife. Last-write-wins
+  // once scored a shared name as the rarer person (George Floyd scored 100,
+  // before he left the data as a murder victim on 2026-10-01).
+  const annes = OBS.find((c) => c.id.startsWith('name-Anne'));
+  assert.ok(scoreGuess(annes, 'Anne Hathaway').score < 50, String(scoreGuess(annes, 'Anne Hathaway').score));
 });
 test('obscure: a game has five distinct categories covering all four areas', () => {
   for (let s = 0; s < 100; s++) {
@@ -1039,6 +1041,30 @@ test('vocab test: a level outside the words in the set is shown as off the scale
   assert.equal(formatLevel(2.34, b), 'level 2.3');
   assert.equal(formatLevel(5.2, b), 'below the bottom of the scale');
   assert.equal(formatLevel(0.4, b), 'off the top of the scale');
+});
+
+
+// ----------------------------------------------------------- data hygiene
+// Junk that reached players before 2026-10-01: wiki markup left in titles
+// ("[[I Do", "| Chariots of Fire"), quotation authors in definitions
+// ("; - G.K.Chesterton"), and a one-word prime minister ("David") from a
+// vandalised Wikidata item. Every string in every data file is checked.
+test('data: no wiki markup, stray pipes or quotation leftovers in any data file', () => {
+  const bad = [];
+  const walk = (file, v, path) => {
+    if (typeof v === 'string') {
+      if (/\[\[|\]\]|\{\{|\}\}|^\s*\||;\s*;|;\s*-\s*[A-Z]/.test(v)) bad.push(`${file}${path}: ${v.slice(0, 60)}`);
+    } else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) walk(file, x, `${path}/${k}`);
+  };
+  const files = ['charts/music.json', 'charts/films.json', 'charts/tv.json', 'timeline.json', 'lists.json', 'famous.json',
+    'fourbyfour.json', 'obscure.json', 'vocab.json'];
+  for (const f of files) walk(f, JSON.parse(readFileSync(new URL(`../src/data/${f}`, import.meta.url), 'utf8')), '');
+  assert.equal(bad.length, 0, `${bad.length} junk strings, first: ${bad[0]}`);
+});
+test('data: every prime minister and president has a full name', () => {
+  for (const [key, l] of Object.entries(LISTS)) {
+    for (const t of l.terms) assert.ok(/\S+ \S+/.test(t.name), `${key}: "${t.name}" (${t.from}) is not a full name`);
+  }
 });
 
 // ------------------------------------------------------------------ report

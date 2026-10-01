@@ -68,7 +68,17 @@ for (const [key, { office, title, min, requireNumber = false, since = 0, numbere
       // Wikidata's "S. M. Bruce"); the label is kept as an accepted answer.
       const wiki = e.sitelinks?.enwiki?.title?.replace(/\s*\([^)]*\)$/, '');
       const label = e.labels?.en?.value || e.labels?.mul?.value;
-      const name = wiki || label;
+      // Every real officeholder is a human with an English Wikipedia article.
+      // On 2026-10-01 an item labelled just "David", with neither, claimed to
+      // be UK prime minister from 2003 and became a row nobody could answer.
+      const human = (e.claims.P31 || []).some((c) => c.mainsnak.datavalue?.value.id === 'Q5');
+      if (!wiki || !human) {
+        if ((e.claims.P39 || []).some((c) => c.mainsnak.datavalue?.value.id === office)) {
+          console.warn(`  skipped ${e.id} "${label}": ${!wiki ? 'no English Wikipedia article' : 'not recorded as a human'}`);
+        }
+        continue;
+      }
+      const name = wiki;
       const terms = (e.claims.P39 || []).filter((c) => c.mainsnak.datavalue?.value.id === office && c.rank !== 'deprecated');
       const personNumber = terms.map((c) => qual(c, 'P1545')).find(Boolean);
       for (const c of terms) {

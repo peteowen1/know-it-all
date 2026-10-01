@@ -144,6 +144,19 @@ def zipf(word):
     return round(z, 2) if z > 0 else FLOOR
 
 
+def clean_definition(d):
+    """WordNet drops its example sentences but can leave their authors behind:
+    "pleasantly occupied; -Queen Victoria", "different kinds; ; ; - I.A.Richards".
+    Keep the clauses before the first empty or "- Author" one."""
+    keep = []
+    for part in d.split(';'):
+        part = part.strip()
+        if not part or part.startswith('-'):
+            break
+        keep.append(part)
+    return '; '.join(keep)
+
+
 def level_of(zs):
     med = sorted(zs)[len(zs) // 2]
     return 1 if med >= 3.3 else 2 if med >= 2.3 else 3
@@ -220,7 +233,7 @@ def wordnet_families(taken, vectors):
     drops = collections.Counter()
     fams = {}
     for s, ws in by_synset.items():
-        definition = s.definition().strip()
+        definition = clean_definition(s.definition())
         if any(re.search(rf'\b{w}', definition.lower()) for w in ws):
             drops['definition contains a family word'] += 1
             continue

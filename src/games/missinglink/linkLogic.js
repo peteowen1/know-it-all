@@ -34,7 +34,9 @@ function pickClues(category) {
   const clues = [];
   for (const t of targets) {
     const best = category.answers
-      .filter((a) => !used.has(a.text))
+      // A surname clue can shrink to "I" (Mary I), "B" (Max B) or "Ng": a
+      // fragment that tells the player nothing. Clues are 3+ characters.
+      .filter((a) => !used.has(a.text) && clueText(category, a).length >= 3)
       .sort((a, b) => Math.abs(a.score - t) - Math.abs(b.score - t))[0];
     used.add(best.text);
     clues.push({ text: clueText(category, best), answer: best.text });

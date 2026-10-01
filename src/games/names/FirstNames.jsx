@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Clock, Flag as GiveUp, RotateCcw, Shuffle } from 'lucide-react';
 import data from '../../data/famous.json';
-import { matchGuess } from './nameMatch';
+import { matchGuess, pluralName } from './nameMatch';
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
 import { usePersistentState } from '../../lib/persist';
@@ -169,7 +169,12 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
     if (over || !guess.trim()) return;
     const m = matchGuess(guess, spellings, everyone, foundSet);
     let msg;
-    if (!m) msg = { tone: 'bad', text: `No famous ${spellings.join('/')} ${guess.trim()} on the list` };
+    if (!m) {
+      // "Justin Case" typed in full read back as "No famous Justin Justin Case".
+      const typed = guess.trim();
+      const hasFirst = spellings.some((sp) => typed.toLowerCase().startsWith(`${sp.toLowerCase()} `));
+      msg = { tone: 'bad', text: `No famous ${hasFirst ? typed : `${spellings.join('/')} ${typed}`} on the list` };
+    }
     else if (m.alreadyFound) msg = { tone: 'meh', text: `Already got ${m.person.name}` };
     else {
       const onBoard = board.some((p) => p.id === m.person.id);
@@ -186,7 +191,7 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   return (
     <div className="card names-game">
       <div className="progress-text">
-        <span className="names-title">Famous <strong>{listJoin(spellings.map((s) => `${s}s`))}</strong></span>
+        <span className="names-title">Famous <strong>{listJoin(spellings.map(pluralName))}</strong></span>
         <span className="score-pill">
           {onBoardCount}/{board.length}{bonus.length ? ` +${bonus.length}` : ''}
           {secondsLeft !== null && !over && <> · <Clock size={14} /> {secondsLeft}s</>}
