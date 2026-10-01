@@ -397,6 +397,16 @@ test('matchGuess: one typo allowed on long guesses, none on short', () => {
   assert.equal(matchGuess('Hiddlestone', 'Tom', TOMS).person.id, 'hiddleston');
   assert.equal(matchGuess('Hank', 'Tom', TOMS), null);
 });
+test('matchGuess: a merged-spelling board accepts either spelling, and the spelling each person uses', () => {
+  const BILLYS = [
+    { id: 'eilish', rest: 'Eilish', first: 'Billie', views: 9 },
+    { id: 'joel', rest: 'Joel', first: 'Billy', views: 8 }
+  ];
+  for (const g of ['eilish', 'Billie Eilish', 'billy eilish']) assert.equal(matchGuess(g, ['Billy', 'Billie'], BILLYS).person.id, 'eilish', g);
+  for (const g of ['joel', 'Billy Joel']) assert.equal(matchGuess(g, ['Billy', 'Billie'], BILLYS).person.id, 'joel', g);
+  // A plain string still works for boards that were never merged.
+  assert.equal(matchGuess('joel', 'Billy', BILLYS).person.id, 'joel');
+});
 test('matchGuess: multi-word and joined surnames', () => {
   assert.equal(matchGuess('de niro', 'Robert', ROBERTS).person.id, 'deniro');
   assert.equal(matchGuess('deniro', 'Robert', ROBERTS).person.id, 'deniro');

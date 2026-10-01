@@ -62,9 +62,15 @@ const ordinal = (n) => `${n}${n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st
  * "Hay" does not find "Hayes". When a guess matches several people (two Toms
  * called Jones), the most famous one not already found is returned, so typing
  * it again finds the next.
+ *
+ * `first` is the board's first name, or a list of spellings for a board that
+ * merges them ("Billy", "Billie"). A typed first name in any of those
+ * spellings is stripped, and each person's own spelling counts as their name.
  */
 export function matchGuess(guess, first, people, foundIds = new Set()) {
-  const g = normalise(guess).replace(new RegExp(`^${normalise(first)} `), '');
+  const spellings = [].concat(first).map(normalise);
+  let g = normalise(guess);
+  for (const s of spellings) if (g.startsWith(`${s} `)) g = g.slice(s.length + 1);
   // One character is allowed ("I" for Elizabeth I) but only ever matches
   // exactly: tolerance is zero below five characters.
   if (!g) return null;
@@ -73,7 +79,7 @@ export function matchGuess(guess, first, people, foundIds = new Set()) {
   let best = null;
   for (const p of people) {
     let dist = Infinity;
-    for (const f of acceptedForms(first, p)) {
+    for (const f of acceptedForms(p.first || [].concat(first)[0], p)) {
       dist = Math.min(dist, f === g ? 0 : tolerance ? editDistance(g, f, tolerance) : Infinity);
       if (dist === 0) break;
     }

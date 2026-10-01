@@ -124,6 +124,18 @@ console.log(`people: ${people.length} of ${titles.length} articles (${((Date.now
 // First token is the prompt; names that are a single token (Madonna, Pelé,
 // Zendaya) have no first name to be asked about and drop out.
 const displayName = (p) => p.title.replace(/\s*\(.*\)$/, '');
+// Spellings that sound the same share one board, so Billie Eilish counts as a
+// famous Billy. Nicknames do not (Bill Gates is not a Billy, Kate is not
+// Catherine): the public knows each person by one form. John and Jon stay
+// apart because John alone has ~150 people and no Jon would make its top 15.
+const SAME_SOUND = [
+  ['Billy', 'Billie'], ['Sean', 'Shaun', 'Shawn'], ['Stephen', 'Steven'], ['Sarah', 'Sara'],
+  ['Mohamed', 'Mohammed', 'Muhammad'], ['Catherine', 'Katherine', 'Kathryn'], ['Brian', 'Bryan'],
+  ['Eric', 'Erik'], ['Anne', 'Ann'], ['Philip', 'Phillip'], ['Jeffrey', 'Geoffrey'], ['Alan', 'Allan', 'Allen'],
+  ['Matthew', 'Mathew'], ['Nicholas', 'Nicolas']
+];
+const boardOf = new Map(SAME_SOUND.flatMap((g) => g.map((n) => [n, g[0]])));
+
 const groups = new Map();
 for (const p of people) {
   const name = displayName(p);
@@ -133,10 +145,12 @@ for (const p of people) {
   if (parts[1] === 'of' || parts[1] === 'the') continue;
   const first = parts[0];
   if (!/^\p{Lu}[\p{L}'-]+$/u.test(first)) continue; // "J.", "50", "Al-"
-  if (!groups.has(first)) groups.set(first, []);
-  groups.get(first).push({
+  const board = boardOf.get(first) || first;
+  if (!groups.has(board)) groups.set(board, []);
+  groups.get(board).push({
     id: p.id,
     title: p.title,
+    first,
     name,
     rest: parts.slice(1).join(' '),
     description: p.description || '',
@@ -150,11 +164,21 @@ for (const p of people) {
 
 const names = [...groups.entries()]
   .filter(([, list]) => list.length >= MIN_PEOPLE_PER_NAME)
-  .map(([first, list]) => ({
-    first,
-    total: list.length,
-    people: list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME)
-  }))
+  .map(([board, list]) => {
+    // Spellings on a merged board, commonest first; a board label like
+    // "Billy / Billie". A single-spelling board is labelled by that name.
+    const counts = {};
+    for (const p of list) counts[p.first] = (counts[p.first] || 0) + 1;
+    const spellings = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    const people = list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME);
+    if (spellings.length === 1) for (const p of people) delete p.first;
+    return {
+      first: spellings.length > 1 ? spellings.join(' / ') : board,
+      ...(spellings.length > 1 ? { spellings } : {}),
+      total: list.length,
+      people
+    };
+  })
   .sort((a, b) => b.total - a.total);
 
 // ------------------------------------------------------- 4. descriptions
