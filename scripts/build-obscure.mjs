@@ -13,7 +13,8 @@
 //                           that never made the top 10 count as obscure)
 // Scores are ranks within the category, so they mean the same everywhere.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { UA } from './lib/wikitable.mjs';
 
 const load = (p) => JSON.parse(readFileSync(p, 'utf8'));
 const countries = load('src/data/countries.json').countries.filter((c) => c.sovereign);
@@ -123,21 +124,85 @@ for (const [artist, songs] of Object.entries(songsBy)) {
 }
 
 // ------------------------------------------------------------------ films
-const filmsBy = {};
-for (const [chart, weight] of [[films.boxOffice, 1], [films.bestPicture, 0]]) {
+// "A film directed by X" used to list only X's films from our box-office
+// top-10s and Best Picture nominees: 22 Spielberg films, 7 Curtiz. So right
+// answers such as Catch Me If You Can scored 0 as "not on the list", and
+// Casablanca counted as a deep cut. Now each director's full feature-film
+// list comes from Wikidata (films whose director, P57, is them), and fame is
+// the number of Wikipedia language editions with an article on the film,
+// which puts Schindler's List and Jurassic Park at the obvious end and
+// Firelight at the rare end. Directors are those with 5+ films in our charts.
+const chartFilms = {};
+for (const chart of [films.boxOffice, films.bestPicture]) {
   for (const list of Object.values(chart)) {
-    for (const f of list) {
-      for (const d of f.artists || [f.artist]) {
-        if (d === 'Unknown director') continue;
-        const cur = ((filmsBy[d] ||= {})[f.title] ||= { text: f.title, fame: 0 });
-        cur.fame += weight * (11 - f.rank);
-      }
-    }
+    for (const f of list) for (const d of f.artists || [f.artist]) if (d !== 'Unknown director') chartFilms[d] = (chartFilms[d] || 0) + 1;
   }
 }
-for (const [director, fs] of Object.entries(filmsBy)) {
-  add(`films-${director}`, `A film directed by ${director}`, 'film', Object.values(fs), 6);
+const directors = Object.keys(chartFilms).filter((d) => chartFilms[d] >= 5);
+
+const FILM_CACHE = 'data-raw/obscure/filmographies-v2'; // v2: with aliases
+mkdirSync(FILM_CACHE, { recursive: true });
+const wd = async (params) => {
+  const url = `https://www.wikidata.org/w/api.php?format=json&${new URLSearchParams(params)}`;
+  for (let i = 0; i < 4; i++) {
+    const res = await fetch(url, { headers: { 'User-Agent': UA } });
+    if (res.ok) {
+      const j = await res.json();
+      if (j.error) throw new Error(`wikidata: ${j.error.info}`);
+      return j;
+    }
+    await new Promise((r) => setTimeout(r, 1000 * 2 ** i));
+  }
+  throw new Error(`wikidata: failed after retries: ${url}`);
+};
+const directedBy = async (qid) =>
+  (await wd({ action: 'query', list: 'search', srsearch: `haswbstatement:P57=${qid}`, srlimit: 500, srprop: '' })).query.search.map((r) => r.title);
+// Feature films only: film, animated film, TV film. Not shorts, series,
+// episodes, franchises or unfinished projects.
+const FILM_TYPES = new Set(['Q11424', 'Q202866', 'Q506240', 'Q24869', 'Q1054574', 'Q130232', 'Q2484376']);
+const NOT_A_FILM = new Set(['Q24862', 'Q5398426', 'Q21191270', 'Q24856', 'Q18011171', 'Q18011172', 'Q13593818']);
+const thisYear = new Date().getFullYear();
+
+async function filmography(name) {
+  const path = `${FILM_CACHE}/${name.replace(/[^\w]+/g, '_')}.json`;
+  if (existsSync(path)) return JSON.parse(readFileSync(path, 'utf8'));
+  // The person, not a namesake: of the top search hits, the one credited as
+  // director on the most items ("John Ford" also names a 17th-century poet).
+  const hits = (await wd({ action: 'wbsearchentities', search: name, language: 'en', type: 'item', limit: 4 })).search;
+  let best = { qid: null, ids: [] };
+  for (const h of hits) {
+    const ids = await directedBy(h.id);
+    if (ids.length > best.ids.length) best = { qid: h.id, ids };
+  }
+  const out = [];
+  for (let i = 0; i < best.ids.length; i += 50) {
+    const j = await wd({ action: 'wbgetentities', ids: best.ids.slice(i, i + 50).join('|'), props: 'claims|sitelinks|labels|aliases', languages: 'en' });
+    for (const e of Object.values(j.entities)) {
+      const types = (e.claims?.P31 || []).map((c) => c.mainsnak.datavalue?.value.id);
+      const year = Number((e.claims?.P577 || [])[0]?.mainsnak.datavalue?.value.time?.slice(1, 5)) || null;
+      out.push({ id: e.id, title: e.sitelinks?.enwiki?.title || null, label: e.labels?.en?.value || null, aliases: (e.aliases?.en || []).map((a) => a.value), types, year, editions: Object.keys(e.sitelinks || {}).length });
+    }
+  }
+  const result = { name, qid: best.qid, films: out };
+  writeFileSync(path, JSON.stringify(result));
+  return result;
 }
+
+const filmStats = [];
+for (const d of directors) {
+  const f = await filmography(d);
+  const kept = f.films.filter(
+    (x) => x.title && x.year && x.year <= thisYear && x.types.some((t) => FILM_TYPES.has(t)) && !x.types.some((t) => NOT_A_FILM.has(t))
+  );
+  const answers = kept.map((x) => {
+    const shown = x.title.replace(/\s*\([^)]*\)$/, ''); // "Jaws (film)" -> "Jaws"
+    // Other titles count too: "A New Hope", US "Sorcerer's Stone", "E.T.".
+    return { text: shown, accept: [shown, x.label, shown.replace(/^The /, ''), ...(x.aliases || [])].filter(Boolean), fame: x.editions };
+  });
+  filmStats.push(`${d} ${answers.length}`);
+  add(`films-${d}`, `A film directed by ${d}`, 'film', answers, 6);
+}
+console.log(`films: ${directors.length} directors; feature films each: ${filmStats.join(', ')}`);
 
 const byKind = {};
 for (const c of categories) byKind[c.kind] = (byKind[c.kind] || 0) + 1;
