@@ -124,6 +124,18 @@ console.log(`people: ${people.length} of ${titles.length} articles (${((Date.now
 // First token is the prompt; names that are a single token (Madonna, Pelé,
 // Zendaya) have no first name to be asked about and drop out.
 const displayName = (p) => p.title.replace(/\s*\(.*\)$/, '');
+// Spellings that sound the same share one board, so Billie Eilish counts as a
+// famous Billy. Nicknames do not (Bill Gates is not a Billy, Kate is not
+// Catherine): the public knows each person by one form. John and Jon stay
+// apart because John alone has ~150 people and no Jon would make its top 15.
+const SAME_SOUND = [
+  ['Billy', 'Billie'], ['Sean', 'Shaun', 'Shawn'], ['Stephen', 'Steven'], ['Sarah', 'Sara'],
+  ['Mohamed', 'Mohammed', 'Muhammad'], ['Catherine', 'Katherine', 'Kathryn'], ['Brian', 'Bryan'],
+  ['Eric', 'Erik'], ['Anne', 'Ann'], ['Philip', 'Phillip'], ['Jeffrey', 'Geoffrey'], ['Alan', 'Allan', 'Allen'],
+  ['Matthew', 'Mathew'], ['Nicholas', 'Nicolas']
+];
+const boardOf = new Map(SAME_SOUND.flatMap((g) => g.map((n) => [n, g[0]])));
+
 const groups = new Map();
 for (const p of people) {
   const name = displayName(p);
@@ -133,9 +145,12 @@ for (const p of people) {
   if (parts[1] === 'of' || parts[1] === 'the') continue;
   const first = parts[0];
   if (!/^\p{Lu}[\p{L}'-]+$/u.test(first)) continue; // "J.", "50", "Al-"
-  if (!groups.has(first)) groups.set(first, []);
-  groups.get(first).push({
+  const board = boardOf.get(first) || first;
+  if (!groups.has(board)) groups.set(board, []);
+  groups.get(board).push({
     id: p.id,
+    title: p.title,
+    first,
     name,
     rest: parts.slice(1).join(' '),
     description: p.description || '',
@@ -149,12 +164,68 @@ for (const p of people) {
 
 const names = [...groups.entries()]
   .filter(([, list]) => list.length >= MIN_PEOPLE_PER_NAME)
-  .map(([first, list]) => ({
-    first,
-    total: list.length,
-    people: list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME)
-  }))
+  .map(([board, list]) => {
+    // Spellings on a merged board, commonest first; a board label like
+    // "Billy / Billie". A single-spelling board is labelled by that name.
+    const counts = {};
+    for (const p of list) counts[p.first] = (counts[p.first] || 0) + 1;
+    const spellings = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    const people = list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME);
+    if (spellings.length === 1) for (const p of people) delete p.first;
+    return {
+      first: spellings.length > 1 ? spellings.join(' / ') : board,
+      ...(spellings.length > 1 ? { spellings } : {}),
+      total: list.length,
+      people
+    };
+  })
   .sort((a, b) => b.total - a.total);
+
+// ------------------------------------------------------- 4. descriptions
+// Wikidata's English descriptions are edited with little oversight: on
+// 2026-10-01 Carlos Vela's read "Mexican footballer (born 2024)" and Carlos
+// Queiroz's had been replaced with a Spanish joke. English Wikipedia's own
+// short descriptions are set on the article and watched far more closely, so
+// they come first; Wikidata's is the fallback. A "born YYYY" in a Wikidata
+// fallback that disagrees with the structured birth date is corrected from
+// it. Wikipedia's text is never rewritten: checked on 2026-10-01, where the
+// two disagreed it was usually the structured date that was wrong.
+const kept = names.flatMap((n) => n.people);
+// Cached per title, and only titles not yet in the cache are fetched, so a
+// change to who is kept never leaves newcomers on Wikidata's text. A title
+// Wikipedia has no description for is stored as null so it is not re-asked.
+const DESC_CACHE = `${RAW}/enwiki-descriptions.json`;
+const shortDesc = existsSync(DESC_CACHE) ? JSON.parse(readFileSync(DESC_CACHE, 'utf8')) : {};
+const toFetch = kept.map((p) => p.title).filter((t) => !(t in shortDesc));
+for (let i = 0; i < toFetch.length; i += 50) {
+  const batch = toFetch.slice(i, i + 50);
+  const url =
+    'https://en.wikipedia.org/w/api.php?action=query&prop=description&format=json&formatversion=2&titles=' +
+    encodeURIComponent(batch.join('|'));
+  const j = await getJson(url);
+  if (!j || j.error) throw new Error(`enwiki descriptions: ${j?.error?.info || 'no response'}`);
+  const got = {};
+  for (const page of j.query?.pages || []) got[page.title] = page.description || null;
+  // Titles come back normalised ("Carlos_Vela" -> "Carlos Vela"); map those back.
+  for (const n of j.query?.normalized || []) got[n.from] = got[n.to] ?? null;
+  for (const t of batch) shortDesc[t] = got[t] ?? null;
+  writeFileSync(DESC_CACHE, JSON.stringify(shortDesc));
+}
+if (toFetch.length) console.log(`fetched ${toFetch.length} Wikipedia descriptions`);
+const descStats = { enwiki: 0, wikidata: 0, none: 0, yearFixed: 0 };
+for (const p of kept) {
+  const wiki = shortDesc[p.title];
+  if (wiki) { p.description = wiki; descStats.enwiki++; }
+  else if (p.description) descStats.wikidata++;
+  else descStats.none++;
+  const said = /\bborn (\d{4})\b/.exec(p.description);
+  if (!wiki && said && p.born && Number(said[1]) !== p.born) {
+    p.description = p.description.replace(said[0], `born ${p.born}`);
+    descStats.yearFixed++;
+  }
+  delete p.title;
+}
+console.log('descriptions from:', descStats);
 
 console.log(`names with >= ${MIN_PEOPLE_PER_NAME} famous people: ${names.length}`);
 console.log(names.slice(0, 25).map((n) => `${n.first} ${n.total}`).join(', '));

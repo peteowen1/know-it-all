@@ -21,6 +21,9 @@ const ERAS = {
  * Anyone further down the fame list still counts as a bonus find, so knowing
  * an obscure Tom is rewarded rather than silently rejected.
  */
+/** "Seans, Shauns & Shawns". */
+const listJoin = (xs) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} & ${xs.at(-1)}`);
+
 export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
   const [era, setEra] = useState('all');
   const [timer, setTimer] = useState(120);
@@ -48,6 +51,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
     setGame({
       id: Date.now(), // not a counter: it restarts after a reload
       first: chosen.first,
+      spellings: chosen.spellings || [chosen.first],
       board: chosen.people.slice(0, BOARD_SIZE),
       bonusPool: chosen.people.slice(BOARD_SIZE),
       found: [], // ids, in the order found
@@ -128,6 +132,8 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   const inputRef = useRef(null);
 
   const { first, board, bonusPool, found, endsAt, over, message } = game;
+  // Rounds saved before spellings were merged have none: just the one name.
+  const spellings = game.spellings || [first];
   const everyone = useMemo(() => [...board, ...bonusPool], [board, bonusPool]);
   const foundSet = new Set(found);
   const bonus = found.filter((id) => !board.some((p) => p.id === id)).map((id) => bonusPool.find((p) => p.id === id));
@@ -161,9 +167,9 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   const submit = (e) => {
     e.preventDefault();
     if (over || !guess.trim()) return;
-    const m = matchGuess(guess, first, everyone, foundSet);
+    const m = matchGuess(guess, spellings, everyone, foundSet);
     let msg;
-    if (!m) msg = { tone: 'bad', text: `No famous ${first} ${guess.trim()} on the list` };
+    if (!m) msg = { tone: 'bad', text: `No famous ${spellings.join('/')} ${guess.trim()} on the list` };
     else if (m.alreadyFound) msg = { tone: 'meh', text: `Already got ${m.person.name}` };
     else {
       const onBoard = board.some((p) => p.id === m.person.id);
@@ -180,7 +186,7 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   return (
     <div className="card names-game">
       <div className="progress-text">
-        <span className="names-title">Famous <strong>{first}</strong>s</span>
+        <span className="names-title">Famous <strong>{listJoin(spellings.map((s) => `${s}s`))}</strong></span>
         <span className="score-pill">
           {onBoardCount}/{board.length}{bonus.length ? ` +${bonus.length}` : ''}
           {secondsLeft !== null && !over && <> · <Clock size={14} /> {secondsLeft}s</>}
@@ -189,14 +195,14 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
 
       {!over && (
         <form className="names-input-row" onSubmit={submit}>
-          <span className="names-prefix">{first}</span>
+          <span className="names-prefix">{spellings.join('/')}</span>
           <input
             ref={inputRef}
             autoFocus
             value={guess}
             onChange={(e) => setGuess(e.target.value)}
             placeholder="surname…"
-            aria-label={`Surname of a famous ${first}`}
+            aria-label={`Surname of a famous ${spellings.join(' or ')}`}
             autoComplete="off"
             spellCheck="false"
           />
@@ -222,7 +228,13 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
                 </span>
               ) : (
                 <span className="names-hidden">
-                  {easy ? `${p.description || 'famous person'} · ${p.rest[0]}…` : ' '}
+                  {easy ? (
+                    <>
+                      {p.description || 'famous person'}
+                      {/* Was "· G…", which read as a clue cut off mid-word. */}
+                      <span className="names-initial"> · surname starts with {p.rest[0]}</span>
+                    </>
+                  ) : ' '}
                 </span>
               )}
             </li>
