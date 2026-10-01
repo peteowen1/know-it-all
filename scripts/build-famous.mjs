@@ -167,21 +167,27 @@ const names = [...groups.entries()]
 // it. Wikipedia's text is never rewritten: checked on 2026-10-01, where the
 // two disagreed it was usually the structured date that was wrong.
 const kept = names.flatMap((n) => n.people);
-const shortDesc = await cached(`${RAW}/enwiki-descriptions.json`, async () => {
-  const out = {};
-  const keptTitles = kept.map((p) => p.title);
-  for (let i = 0; i < keptTitles.length; i += 50) {
-    const url =
-      'https://en.wikipedia.org/w/api.php?action=query&prop=description&format=json&formatversion=2&titles=' +
-      encodeURIComponent(keptTitles.slice(i, i + 50).join('|'));
-    const j = await getJson(url);
-    if (!j || j.error) throw new Error(`enwiki descriptions: ${j?.error?.info || 'no response'}`);
-    for (const page of j.query?.pages || []) if (page.description) out[page.title] = page.description;
-    // Titles come back normalised ("Carlos_Vela" -> "Carlos Vela"); map those too.
-    for (const n of j.query?.normalized || []) if (out[n.to]) out[n.from] = out[n.to];
-  }
-  return out;
-});
+// Cached per title, and only titles not yet in the cache are fetched, so a
+// change to who is kept never leaves newcomers on Wikidata's text. A title
+// Wikipedia has no description for is stored as null so it is not re-asked.
+const DESC_CACHE = `${RAW}/enwiki-descriptions.json`;
+const shortDesc = existsSync(DESC_CACHE) ? JSON.parse(readFileSync(DESC_CACHE, 'utf8')) : {};
+const toFetch = kept.map((p) => p.title).filter((t) => !(t in shortDesc));
+for (let i = 0; i < toFetch.length; i += 50) {
+  const batch = toFetch.slice(i, i + 50);
+  const url =
+    'https://en.wikipedia.org/w/api.php?action=query&prop=description&format=json&formatversion=2&titles=' +
+    encodeURIComponent(batch.join('|'));
+  const j = await getJson(url);
+  if (!j || j.error) throw new Error(`enwiki descriptions: ${j?.error?.info || 'no response'}`);
+  const got = {};
+  for (const page of j.query?.pages || []) got[page.title] = page.description || null;
+  // Titles come back normalised ("Carlos_Vela" -> "Carlos Vela"); map those back.
+  for (const n of j.query?.normalized || []) got[n.from] = got[n.to] ?? null;
+  for (const t of batch) shortDesc[t] = got[t] ?? null;
+  writeFileSync(DESC_CACHE, JSON.stringify(shortDesc));
+}
+if (toFetch.length) console.log(`fetched ${toFetch.length} Wikipedia descriptions`);
 const descStats = { enwiki: 0, wikidata: 0, none: 0, yearFixed: 0 };
 for (const p of kept) {
   const wiki = shortDesc[p.title];
