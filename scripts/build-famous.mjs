@@ -26,6 +26,10 @@ const RAW = 'data-raw/famous';
 const START_YEAR = 2016;
 const MIN_PEOPLE_PER_NAME = 12; // a prompt needs enough answers to be a game
 const KEEP_PER_NAME = 40;
+// Extra people fetched per name so that leaving notorious people out (step 5)
+// still leaves 40, rather than shrinking boards below the 15 the game shows:
+// trimming first dropped 8 boards, Carlos among them.
+const SPARE_PER_NAME = 25;
 
 mkdirSync(`${RAW}/top`, { recursive: true });
 mkdirSync(`${RAW}/entities`, { recursive: true });
@@ -170,7 +174,7 @@ const names = [...groups.entries()]
     const counts = {};
     for (const p of list) counts[p.first] = (counts[p.first] || 0) + 1;
     const spellings = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-    const people = list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME);
+    const people = list.sort((a, b) => b.views - a.views).slice(0, KEEP_PER_NAME + SPARE_PER_NAME);
     if (spellings.length === 1) for (const p of people) delete p.first;
     return {
       first: spellings.length > 1 ? spellings.join(' / ') : board,
@@ -226,6 +230,70 @@ for (const p of kept) {
   delete p.title;
 }
 console.log('descriptions from:', descStats);
+
+// ---------------------------------------------------------- 5. who to leave out
+// Pageviews make serial killers and murder victims "famous", and easy mode
+// printed clues like "American serial killer". Pete chose (2026-10-01) to
+// leave out people known mainly for violent or sexual crimes, or for being
+// their victims; the board fills from the next most famous. Fraudsters and
+// other non-violent offenders stay (Abagnale, Bankman-Fried). Also dropped:
+// articles about a trial rather than a person ("Michael Peterson trial").
+const NOTORIOUS = /\b(serial killer|spree killer|mass (murderer|shooter)|murderer|murdered|killer of|assassin|rapist|sex(ual)? (offender|abuser|predator)|child (molester|sex)|pedophile|paedophile|terrorist|hijacker|mobster|gangster|drug (lord|trafficker)|cult (leader|founder)|murder victim|victim of)\b|(?<!wrongfully )convicted of (murder|rape)/i;
+// Descriptions that mention a crime without being about a criminal: a
+// "criminal defense attorney", the nurse who "helped stop a serial killer".
+const NOT_NOTORIOUS = /defen[cs]e (attorney|lawyer)|helped (stop|catch)/i;
+// Pete's calls on individual people live in scripts/famous-left-out.csv: its
+// `decision` column overrides the rule ("in" keeps someone the rule would
+// drop, "out" drops someone it would keep). The file is rewritten each build
+// with everyone the rule catches plus everyone with a decision, keeping the
+// decisions, so it is always the current list to comb through.
+const REVIEW_CSV = 'scripts/famous-left-out.csv';
+const parseCsvLine = (line) => {
+  const out = [];
+  let cur = '';
+  let quoted = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (quoted && ch === '"' && line[i + 1] === '"') { cur += '"'; i++; }
+    else if (ch === '"') quoted = !quoted;
+    else if (ch === ',' && !quoted) { out.push(cur); cur = ''; }
+    else cur += ch;
+  }
+  return [...out, cur];
+};
+const decisions = new Map();
+if (existsSync(REVIEW_CSV)) {
+  const [head, ...lines] = readFileSync(REVIEW_CSV, 'utf8').split(/\r?\n/).filter(Boolean);
+  const cols = parseCsvLine(head);
+  for (const line of lines) {
+    const row = Object.fromEntries(parseCsvLine(line).map((v, i) => [cols[i], v.trim()]));
+    if (row.id && /^(in|out)$/i.test(row.decision)) decisions.set(row.id, row.decision.toLowerCase());
+  }
+}
+const reviewRows = [];
+let leftOut = 0;
+for (const n of names) {
+  const before = n.people.length;
+  n.people = n.people.filter((p) => {
+    const byRule = (NOTORIOUS.test(p.description) && !NOT_NOTORIOUS.test(p.description)) || /\btrial\b/i.test(p.name);
+    const decision = decisions.get(p.id) || '';
+    if (byRule || decision) reviewRows.push({ id: p.id, name: p.name, board: n.first, description: p.description, views: p.views, rule: byRule ? 'left out' : 'kept', decision });
+    const out = decision ? decision === 'out' : byRule;
+    if (out) leftOut++;
+    return !out;
+  });
+  n.total -= before - n.people.length;
+  n.people = n.people.slice(0, KEEP_PER_NAME);
+}
+// A name left with too few people after that is no longer a game.
+for (let i = names.length - 1; i >= 0; i--) if (names[i].total < MIN_PEOPLE_PER_NAME) names.splice(i, 1);
+const csvCell = (v) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
+const cols = ['name', 'board', 'description', 'views', 'rule', 'decision', 'id'];
+writeFileSync(
+  REVIEW_CSV,
+  [cols.join(','), ...reviewRows.sort((a, b) => b.views - a.views).map((r) => cols.map((c) => csvCell(r[c])).join(','))].join('\n') + '\n'
+);
+console.log(`left out as notorious: ${leftOut} (${decisions.size} of Pete's decisions applied); review list: ${REVIEW_CSV}`);
 
 console.log(`names with >= ${MIN_PEOPLE_PER_NAME} famous people: ${names.length}`);
 console.log(names.slice(0, 25).map((n) => `${n.first} ${n.total}`).join(', '));

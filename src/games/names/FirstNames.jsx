@@ -1,12 +1,16 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Clock, Flag as GiveUp, RotateCcw, Shuffle } from 'lucide-react';
 import data from '../../data/famous.json';
-import { matchGuess } from './nameMatch';
+import { matchGuess, pluralName } from './nameMatch';
 import { gameEntry } from '../../lib/gameStats';
 import { Chip, SetupRow } from '../geo/CountryQuiz';
 import { usePersistentState } from '../../lib/persist';
 
 const BOARD_SIZE = 15;
+// A name with 12-14 famous people still gets a (shorter) board. Leaving out
+// notorious people took Carlos, Edward, Jane and others from exactly 15 to
+// 14, and a hard minimum of 15 dropped those names from the game entirely.
+const MIN_BOARD = 12;
 const TIMERS = [60, 120, 0]; // 0 = untimed
 const ERAS = {
   all: { label: 'Any era', test: () => true },
@@ -36,7 +40,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
     () =>
       data.names
         .map((n) => ({ ...n, people: n.people.filter(ERAS[era].test) }))
-        .filter((n) => n.people.length >= BOARD_SIZE),
+        .filter((n) => n.people.length >= MIN_BOARD),
     [era]
   );
 
@@ -70,7 +74,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
         </div>
         <p className="game-record">
           {entry.plays
-            ? `${entry.plays} played · best board ${entry.best} of ${BOARD_SIZE}`
+            ? `${entry.plays} played · best ${entry.bestPct}% of a board`
             : `Name the fifteen most famous people with a given first name. Type surnames.`}
         </p>
         <SetupRow label="Name">
@@ -94,7 +98,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: blank board</Chip>
         </SetupRow>
         <button className="btn btn-primary game-start" onClick={start} disabled={!names.length}>
-          {names.length ? 'Start' : 'No names have fifteen people in this era'}
+          {names.length ? 'Start' : `No names have ${MIN_BOARD} people in this era`}
         </button>
         <p className="game-record small">Fame = English Wikipedia readership, {data.source.replace(/^.*pageviews /, '')}.</p>
       </div>
@@ -114,7 +118,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
         const onBoard = g.found.filter((id) => boardIds.has(id)).length;
         onRoundComplete('first-names', {
           score: onBoard,
-          total: BOARD_SIZE,
+          total: g.board.length,
           run: g.found.length,
           answers: g.board.map((p) => ({ key: p.id, correct: g.found.includes(p.id) }))
         });
@@ -169,7 +173,12 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
     if (over || !guess.trim()) return;
     const m = matchGuess(guess, spellings, everyone, foundSet);
     let msg;
-    if (!m) msg = { tone: 'bad', text: `No famous ${spellings.join('/')} ${guess.trim()} on the list` };
+    if (!m) {
+      // "Justin Case" typed in full read back as "No famous Justin Justin Case".
+      const typed = guess.trim();
+      const hasFirst = spellings.some((sp) => typed.toLowerCase().startsWith(`${sp.toLowerCase()} `));
+      msg = { tone: 'bad', text: `No famous ${hasFirst ? typed : `${spellings.join('/')} ${typed}`} on the list` };
+    }
     else if (m.alreadyFound) msg = { tone: 'meh', text: `Already got ${m.person.name}` };
     else {
       const onBoard = board.some((p) => p.id === m.person.id);
@@ -186,7 +195,7 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   return (
     <div className="card names-game">
       <div className="progress-text">
-        <span className="names-title">Famous <strong>{listJoin(spellings.map((s) => `${s}s`))}</strong></span>
+        <span className="names-title">Famous <strong>{listJoin(spellings.map(pluralName))}</strong></span>
         <span className="score-pill">
           {onBoardCount}/{board.length}{bonus.length ? ` +${bonus.length}` : ''}
           {secondsLeft !== null && !over && <> · <Clock size={14} /> {secondsLeft}s</>}

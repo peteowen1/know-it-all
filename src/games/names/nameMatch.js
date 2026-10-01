@@ -95,3 +95,9 @@ const compare = (a, b) => {
   for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return a[i] - b[i];
   return 0;
 };
+
+/**
+ * A first name in the plural: "Toms", but "Carloses", "Jameses", "Maxes".
+ * A bare "+s" gave "Famous Carloss" on the board title and in Four by four.
+ */
+export const pluralName = (name) => (/(s|x|z|ch|sh)$/i.test(name) ? `${name}es` : `${name}s`);

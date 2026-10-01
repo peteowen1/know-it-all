@@ -16,6 +16,7 @@
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { makeRng, hashString, shuffle } from '../src/lib/rng.js';
+import { pluralName } from '../src/games/names/nameMatch.js';
 
 const load = (p) => JSON.parse(readFileSync(p, 'utf8'));
 const countries = load('src/data/countries.json').countries.filter((c) => c.sovereign);
@@ -64,13 +65,16 @@ for (const [region, list] of Object.entries(byRegion)) {
 add('wordplay', 'Countries ending in -land', 2, countries.filter((c) => /land$/i.test(c.name)).map((c) => c.name));
 add('wordplay', 'Countries ending in -stan', 1, countries.filter((c) => /stan$/i.test(c.name)).map((c) => c.name));
 add('wordplay', 'Countries with "Guinea" in the name', 3, countries.filter((c) => /Guinea/.test(c.name)).map((c) => c.name));
-// Capital named after its country: Mexico City, Kuwait City, Singapore, Tunis.
-add(
-  'wordplay',
-  'Capital shares the country\'s name',
-  4,
-  countries.filter((c) => norm(c.capitals[0] || '').startsWith(norm(c.name).slice(0, 5))).map((c) => c.name)
-);
+// The capital IS the country's name, give or take "City": Luxembourg,
+// Monaco, Mexico City, Kuwait City, Vatican City. The old rule (same first
+// five letters) also took Andorra la Vella, Tunis and Sao Tome, so a player
+// who knew those capitals rejected right tiles.
+const sameName = (c) => {
+  const cap = norm(c.capitals[0] || '');
+  const name = norm(c.name);
+  return cap === name || cap === `${name} city` || name === `${cap} city`;
+};
+add('wordplay', "Capital has the country's name", 4, countries.filter(sameName).map((c) => c.name));
 
 // ----------------------------------------------------------------- people
 // "Famous Toms" shown as surnames only: Cruise, Hanks, Hardy, Holland.
@@ -83,7 +87,10 @@ for (const n of famous) {
   const modern = n.people.filter((p) => p.born == null || p.born >= 1940);
   const surnames = modern.map((p) => p.rest).filter((r) => !/\s/.test(r) && r.length >= 3);
   // Checked against everyone on the list, drawn from the six best known.
-  if (surnames.length >= 8) add('first-name', `Famous ${n.first}s`, 2, surnames, surnames.slice(0, 6));
+  // Merged-spelling boards ("Billy / Billie") read "Famous Billys & Billies".
+  const names = (n.spellings || [n.first]).map(pluralName);
+  const label = `Famous ${names.length < 2 ? names[0] : `${names.slice(0, -1).join(', ')} & ${names.at(-1)}`}`;
+  if (surnames.length >= 8) add('first-name', label, 2, surnames, surnames.slice(0, 6));
 }
 
 // ------------------------------------------------------------------ music

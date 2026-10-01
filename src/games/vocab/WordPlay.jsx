@@ -24,7 +24,7 @@ const RECENT_KEEP = 600;
 const RECENT_WEIGHT = 0.1;
 const TYPE_LABEL = { mixed: 'Mixed', syn: 'Synonyms', ant: 'Opposites', meaning: 'Meanings' };
 const LEVEL_LABEL = { easy: 'Everyday', all: 'Mixed', hard: 'Advanced' };
-const ROLE_LABEL = { same: 'same meaning', trap: 'same meaning (the trap)', opposite: 'opposite', unrelated: '' };
+const ROLE_LABEL = { same: 'same meaning', trap: 'same meaning: the trap', opposite: 'opposite', unrelated: '' };
 
 function ask(r) {
   if (r.type === 'syn') return `Pick the ${r.pick} words that mean the same`;
