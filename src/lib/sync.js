@@ -341,6 +341,26 @@ export async function startSync() {
     }).catch(() => {});
   }
 
+  // Another tab of the app shares this storage. When it signs in or out, or
+  // pushes and moves the agreed copy on, take its sync state, or this tab would
+  // later write back its own older copy: after a sign-out elsewhere, that
+  // stale copy would be saved as the base and double totals on the next
+  // sign-in (see forgetAccount).
+  window.addEventListener('storage', (e) => {
+    if (e.key !== META_KEY || signingIn) return;
+    const fresh = loadMeta();
+    const sameAccount = fresh.email && fresh.email === meta.email;
+    // Unsent writes from this tab still have to go; keep their marks.
+    meta = sameAccount ? { ...fresh, touched: { ...fresh.touched, ...meta.touched } } : fresh;
+    if (!meta.email) {
+      clearTimeout(pushTimer);
+      setStatus('signed-out');
+    } else if (!sameAccount) {
+      setStatus('idle');
+      pull().then((changed) => changed && remount());
+    }
+  });
+
   document.addEventListener('visibilitychange', async () => {
     if (!meta.email) return;
     if (document.visibilityState === 'hidden') push({ keepalive: true });
