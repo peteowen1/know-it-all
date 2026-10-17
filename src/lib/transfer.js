@@ -6,6 +6,7 @@
 // pastes once is not worth the bundle weight or the supply-chain surface.
 
 import { coerceGameStats, mergeGameStats } from './gameStats.js';
+import { OLD_HOST } from './syncConfig.js';
 
 const b64encode = (str) =>
   btoa(String.fromCharCode(...new TextEncoder().encode(str)))
@@ -208,8 +209,11 @@ export function decodeChallenge(fragment) {
 }
 
 export function challengeUrl(questions, seed) {
-  const { origin, pathname } = window.location;
-  return `${origin}${pathname}#c=${encodeChallenge(questions, seed)}`;
+  const { origin, pathname, hostname } = window.location;
+  // From the site root, not the screen it was made on (/weekend-quiz): the
+  // challenge opens its own screen. The old Pages copy lives under a folder.
+  const base = hostname === OLD_HOST ? pathname : '/';
+  return `${origin}${base}#c=${encodeChallenge(questions, seed)}`;
 }
 
 /** Read a challenge from the current URL, if there is one. */
