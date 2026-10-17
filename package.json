@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "npm run validate && npm run test && vite build",
     "build:only": "vite build",
-    "validate": "node scripts/validate-questions.mjs",
+    "validate": "node scripts/build-bank-stats.mjs && node scripts/validate-questions.mjs",
     "data:countries": "node scripts/build-countries.mjs",
     "data:famous": "node scripts/build-famous.mjs",
     "data:flags": "node scripts/build-flag-lookalikes.mjs",
@@ -20,8 +20,9 @@
     "data:obscure": "node scripts/build-obscure.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node scripts/test-logic.mjs",
-    "check": "npm run validate && npm run test && npm run lint"
+    "test": "node scripts/test-logic.mjs && node scripts/test-lib.mjs",
+    "check": "npm run validate && npm run test && npm run lint",
+    "data:bankstats": "node scripts/build-bank-stats.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

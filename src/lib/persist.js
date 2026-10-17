@@ -1,36 +1,22 @@
 // Keeping a game in progress across the app being closed.
 //
-// On an iPhone home-screen web app, switching away often unloads the page, so
-// anything held only in React state (the question you were on, the board you
-// were filling) was lost and the game started again. Each game keeps its
-// current state here instead, under one key per game, so reopening the app
-// resumes it. Starting a new round simply overwrites that key.
-//
-// Same `sqt_v4_` prefix as the rest of the app's storage, so Reset clears it.
+// An iPhone home-screen app often unloads when you switch away, so each game
+// keeps its current state under one `live_<name>` key and reopening resumes it.
+// Starting a new round overwrites that key. Same prefix as the rest of the
+// app's storage (see storage.js), so Reset clears it.
 
 import { useEffect, useState } from 'react';
-import { markDirty } from './sync';
+import { getStored, setStored, removeStored } from './storage.js';
 
-const KEY = (name) => `sqt_v4_live_${name}`;
+const liveName = (name) => `live_${name}`;
 
 export function loadLive(name) {
-  try {
-    const raw = localStorage.getItem(KEY(name));
-    return raw === null ? undefined : JSON.parse(raw);
-  } catch {
-    return undefined;
-  }
+  return getStored(liveName(name), undefined);
 }
 
 export function saveLive(name, value) {
-  try {
-    if (value === null || value === undefined) localStorage.removeItem(KEY(name));
-    else localStorage.setItem(KEY(name), JSON.stringify(value));
-    markDirty(KEY(name));
-  } catch (err) {
-    // Full or blocked storage: the game still works, it just will not resume.
-    console.warn(`Could not save progress for "${name}".`, err);
-  }
+  if (value === null || value === undefined) removeStored(liveName(name));
+  else setStored(liveName(name), value);
 }
 
 /**

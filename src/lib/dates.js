@@ -26,7 +26,7 @@ export function previousDateKey(date = new Date()) {
 }
 
 /** The local date `days` from `date`, as a YYYY-MM-DD key. */
-export function addDaysKey(days, date = new Date()) {
+function addDaysKey(days, date = new Date()) {
   return localDateKey(new Date(date.getFullYear(), date.getMonth(), date.getDate() + days));
 }
 

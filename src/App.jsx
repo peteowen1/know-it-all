@@ -1,14 +1,24 @@
 import React, { useState, useEffect, useCallback, lazy, Suspense } from 'react';
 import Header from './components/Header';
-import QuizSimulator from './components/QuizSimulator';
-import FlashcardsDrill from './components/FlashcardsDrill';
-import WeaknessVault from './components/WeaknessVault';
-import AnalyticsDashboard from './components/AnalyticsDashboard';
-import QuizSetup from './components/QuizSetup';
 import GameHub from './components/GameHub';
-import { GAMES } from './games/registry';
-import WeeklyPaper from './components/WeeklyPaper';
-// Loaded on first open so the 160 kB country table stays out of the first paint.
+import RouteFallback from './components/RouteFallback';
+import { recordRound, recordItems } from './lib/gameStats';
+import { loadLive, saveLive, usePersistentState } from './lib/persist';
+import { getStored, setStored, clearAllStored } from './lib/storage.js';
+import BANK_STATS from './data/bankStats.json';
+import { localDateKey, previousDateKey } from './lib/dates';
+import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
+import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
+
+// Every screen is loaded on first open. The quiz screens share the question
+// bank (about 900 kB) and the games carry their own datasets, so none of that
+// is in the first page load.
+const QuizSimulator = lazy(() => import('./components/QuizSimulator'));
+const QuizSetup = lazy(() => import('./components/QuizSetup'));
+const WeeklyPaper = lazy(() => import('./components/WeeklyPaper'));
+const WeaknessVault = lazy(() => import('./components/WeaknessVault'));
+const FlashcardsDrill = lazy(() => import('./components/FlashcardsDrill'));
+const AnalyticsDashboard = lazy(() => import('./components/AnalyticsDashboard'));
 const CountryQuiz = lazy(() => import('./games/geo/CountryQuiz'));
 const HigherLower = lazy(() => import('./games/geo/HigherLower'));
 const FirstNames = lazy(() => import('./games/names/FirstNames'));
@@ -22,66 +32,29 @@ const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
-import { recordRound, recordItems } from './lib/gameStats';
-import { loadLive, saveLive, usePersistentState } from './lib/persist';
-import { ALL_QUESTIONS, BANK_STATS } from './data/questionBank';
-import { buildQuiz, buildDailyQuiz, buildRevisionQuiz } from './lib/quizBuilder';
-import { buildChallengeQuiz } from './lib/quizBuilder';
-import { localDateKey, previousDateKey } from './lib/dates';
-import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
-import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
-import { markDirty } from './lib/sync';
 
-// Bump when the shape of anything in localStorage changes. This changes the key
-// prefix, so old entries are orphaned — never read again — rather than being
-// parsed into a shape the current code does not expect. Note they are not
-// deleted: only the Reset button removes them.
-//
-// The `sqt_` prefix predates the rename to Know-It-All and stays: changing it
-// would orphan every existing player's progress.
-const STORAGE_VERSION = 'v4';
-const KEY = (name) => `sqt_${STORAGE_VERSION}_${name}`;
+// The quiz builder pulls in the whole question bank, so it is imported when a
+// quiz is first needed rather than at startup. The promise is shared.
+let builderPromise = null;
+const loadBuilder = () =>
+  (builderPromise ??= import('./lib/quizBuilder').catch((error) => {
+    builderPromise = null; // let a retry fetch again rather than replay the failure
+    throw error;
+  }));
+
+// Tabs that show a quiz built from the bank.
+const QUIZ_TABS = new Set(['quiz', 'daily', 'revision', 'challenge']);
+
+// Footer copy: "1,500+" is the total rounded down to the hundred.
+const BANK_LABEL = `${(Math.floor(BANK_STATS.total / 100) * 100).toLocaleString('en-US')}+`;
 
 // How many recent question ids to remember so quizzes don't repeat across
 // sessions. Roughly a third of the bank — beyond that, repeats are unavoidable
 // and useful anyway.
 const RECENT_MEMORY = 350;
 
-/**
- * Read a persisted value.
- *
- * `isValid` is not optional in practice: a try/catch around JSON.parse only
- * catches *syntactically* bad data. `JSON.parse('null')` succeeds and returns
- * null, and the truthiness check below tests the raw string, not the result —
- * so without a shape check a stored "null" would be handed straight back and
- * blow up later at the call site, far from here, as a blank white page.
- */
-function load(name, fallback, isValid = () => true) {
-  try {
-    const raw = localStorage.getItem(KEY(name));
-    if (raw === null) return fallback;
-    const parsed = JSON.parse(raw);
-    return isValid(parsed) ? parsed : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
 const isArray = (v) => Array.isArray(v);
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
-
-function save(name, value) {
-  try {
-    localStorage.setItem(KEY(name), JSON.stringify(value));
-    markDirty(KEY(name));
-  } catch (err) {
-    // Storage full, or blocked in private browsing. Carrying on unsaved beats
-    // breaking the quiz, but this is silent data loss from the user's point of
-    // view — they will only notice when their streak has vanished tomorrow —
-    // so make it discoverable in the console rather than invisible.
-    console.warn(`Could not save "${name}"; progress will not persist.`, err);
-  }
-}
 
 const omit = (obj, key) => {
   if (!(key in obj)) return obj;
@@ -104,10 +77,10 @@ const EMPTY_STATS = {
 const DEFAULT_SETUP = { count: 25, categories: 'all', difficulty: 'all' };
 
 const saveQuiz = (name, q) => saveLive(`quiz_${name}`, q ? { ids: q.questions.map((x) => x.id), seed: q.seed } : null);
-const restoreQuiz = (name) => {
+const restoreQuiz = (name, builder) => {
   const s = loadLive(`quiz_${name}`);
   if (!s?.ids?.length) return null;
-  const built = buildChallengeQuiz(s.ids, s.seed);
+  const built = builder.buildChallengeQuiz(s.ids, s.seed);
   return built.questions.length ? built : null;
 };
 
@@ -118,15 +91,15 @@ export default function App() {
   const goHome = useCallback(() => setActiveTab('home'), [setActiveTab]);
 
   // Progress for every game other than the weekend quiz, keyed by game id.
-  const [gameStats, setGameStats] = useState(() => load('games', {}, isObject));
+  const [gameStats, setGameStats] = useState(() => getStored('games', {}, isObject));
   // Multiple choice (easier) or reveal-and-self-mark (harder), shared across
   // games so the choice follows you from flags to capitals.
   const [answerMode, setAnswerMode] = useState(() =>
-    load('answerMode', 'choice', (v) => v === 'choice' || v === 'reveal')
+    getStored('answerMode', 'choice', (v) => v === 'choice' || v === 'reveal')
   );
 
-  const [stats, setStats] = useState(() => ({ ...EMPTY_STATS, ...load('stats', {}, isObject) }));
-  const [recentIds, setRecentIds] = useState(() => load('recent', [], isArray));
+  const [stats, setStats] = useState(() => ({ ...EMPTY_STATS, ...getStored('stats', {}, isObject) }));
+  const [recentIds, setRecentIds] = useState(() => getStored('recent', [], isArray));
   // Vault entries carry only an id plus scheduling state — never question text.
   // Everything displayed is resolved from the live bank, so correcting a
   // question corrects it retrospectively everywhere it has been saved.
@@ -134,52 +107,83 @@ export default function App() {
   // normaliseVault also migrates the original `string[]` format in place rather
   // than through a storage version bump, which would have discarded a vault the
   // user had been accumulating.
-  const [vault, setVault] = useState(() => normaliseVault(load('missed', [], isArray)));
+  const [vault, setVault] = useState(() => normaliseVault(getStored('missed', [], isArray)));
 
   const [setup, setSetup] = useState(() => ({
     ...DEFAULT_SETUP,
-    ...load('setup', {}, isObject)
+    ...getStored('setup', {}, isObject)
   }));
 
   // The quizzes in play are saved as question ids plus seed and rebuilt on
   // load, which reproduces the same questions with the same option order, so
   // QuizSimulator can resume its saved progress through them.
-  const [quiz, setQuiz] = useState(() => restoreQuiz('quiz') || buildQuiz({ ...DEFAULT_SETUP, ...load('setup', {}, isObject) }));
-  const [dailyQuiz, setDailyQuiz] = useState(() => buildDailyQuiz(5));
-  const [revisionQuiz, setRevisionQuiz] = useState(() => restoreQuiz('revision'));
-  const [challengeQuiz, setChallengeQuiz] = useState(() => restoreQuiz('challenge'));
-  useEffect(() => saveQuiz('quiz', quiz), [quiz]);
-  useEffect(() => saveQuiz('revision', revisionQuiz), [revisionQuiz]);
-  useEffect(() => saveQuiz('challenge', challengeQuiz), [challengeQuiz]);
+  //
+  // `undefined` means "not built yet" (the question bank loads on first need);
+  // `null` means "built, and there is none". Saving waits for a built value so
+  // a quiz still in storage is never overwritten by the empty starting state.
+  // A failed bank load (offline, or a deploy replaced the chunk) is rethrown
+  // during render so ErrorBoundary shows its retry screen instead of an
+  // endless skeleton or a button that silently does nothing.
+  const [loadError, setLoadError] = useState(null);
+  if (loadError) throw loadError;
+  const bank = useCallback(
+    () =>
+      loadBuilder().catch((error) => {
+        setLoadError(error);
+        return null;
+      }),
+    []
+  );
 
-  // A restored tab whose content no longer exists (a revision or challenge
-  // round that could not be rebuilt, or a tab id from an older version) would
-  // open onto an empty page. Send it home instead.
+  const [quiz, setQuiz] = useState();
+  const [dailyQuiz, setDailyQuiz] = useState();
+  const [revisionQuiz, setRevisionQuiz] = useState();
+  const [challengeQuiz, setChallengeQuiz] = useState();
   useEffect(() => {
-    const known = ['home', 'weekly', 'quiz', 'daily', 'flashcards', 'vault', 'analytics', 'revision', 'challenge']
-      .concat(GAMES.filter((g) => g.tab).map((g) => g.tab));
-    const empty = (activeTab === 'revision' && !revisionQuiz) || (activeTab === 'challenge' && !challengeQuiz);
-    if (empty || !known.includes(activeTab)) setActiveTab('home');
-  }, [activeTab, revisionQuiz, challengeQuiz, setActiveTab]);
+    if (quiz !== undefined) saveQuiz('quiz', quiz);
+  }, [quiz]);
+  useEffect(() => {
+    if (revisionQuiz !== undefined) saveQuiz('revision', revisionQuiz);
+  }, [revisionQuiz]);
+  useEffect(() => {
+    if (challengeQuiz !== undefined) saveQuiz('challenge', challengeQuiz);
+  }, [challengeQuiz]);
 
-  useEffect(() => save('stats', stats), [stats]);
-  useEffect(() => save('recent', recentIds), [recentIds]);
-  useEffect(() => save('missed', vault), [vault]);
-  useEffect(() => save('setup', setup), [setup]);
-  useEffect(() => save('games', gameStats), [gameStats]);
-  useEffect(() => save('answerMode', answerMode), [answerMode]);
+  // Load the bank and fill in whichever quizzes are still unbuilt. Anything a
+  // handler has already set is kept.
+  useEffect(() => {
+    if (!QUIZ_TABS.has(activeTab)) return;
+    bank().then((builder) => {
+      if (!builder) return;
+      setQuiz((prev) =>
+        prev !== undefined
+          ? prev
+          : restoreQuiz('quiz', builder) || builder.buildQuiz({ ...DEFAULT_SETUP, ...getStored('setup', {}, isObject) })
+      );
+      setDailyQuiz((prev) => (prev !== undefined ? prev : builder.buildDailyQuiz(5)));
+      setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
+      setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
+    });
+  }, [activeTab, bank]);
+
+  useEffect(() => setStored('stats', stats), [stats]);
+  useEffect(() => setStored('recent', recentIds), [recentIds]);
+  useEffect(() => setStored('missed', vault), [vault]);
+  useEffect(() => setStored('setup', setup), [setup]);
+  useEffect(() => setStored('games', gameStats), [gameStats]);
+  useEffect(() => setStored('answerMode', answerMode), [answerMode]);
 
   // Rounds left part-way through, keyed by game id, so switching tabs or
   // reloading resumes where you were instead of throwing the round away.
-  const [savedRounds, setSavedRounds] = useState(() => load('rounds', {}, isObject));
-  useEffect(() => save('rounds', savedRounds), [savedRounds]);
+  const [savedRounds, setSavedRounds] = useState(() => getStored('rounds', {}, isObject));
+  useEffect(() => setStored('rounds', savedRounds), [savedRounds]);
   const handleRoundChange = useCallback((gameId, round) => {
     setSavedRounds((prev) => (round ? { ...prev, [gameId]: round } : omit(prev, gameId)));
   }, []);
   // First score on each week's paper, keyed by that Saturday's date. Replays
   // do not overwrite it.
-  const [weeklyScores, setWeeklyScores] = useState(() => load('weekly', {}, isObject));
-  useEffect(() => save('weekly', weeklyScores), [weeklyScores]);
+  const [weeklyScores, setWeeklyScores] = useState(() => getStored('weekly', {}, isObject));
+  useEffect(() => setStored('weekly', weeklyScores), [weeklyScores]);
   const handlePaperDone = useCallback((weekKey, result) => {
     setWeeklyScores((prev) => (prev[weekKey] ? prev : { ...prev, [weekKey]: { score: result.score, total: result.total } }));
   }, []);
@@ -209,13 +213,15 @@ export default function App() {
   }, []);
 
   const startQuiz = useCallback(
-    (nextSetup) => {
+    async (nextSetup) => {
       const merged = { ...setup, ...nextSetup };
       setSetup(merged);
-      setQuiz(buildQuiz({ ...merged, recentIds, seed: Date.now() }));
+      const builder = await bank();
+      if (!builder) return;
+      setQuiz(builder.buildQuiz({ ...merged, recentIds, seed: Date.now() }));
       setActiveTab('quiz');
     },
-    [setup, recentIds, setActiveTab]
+    [setup, recentIds, setActiveTab, bank]
   );
 
   /**
@@ -224,13 +230,15 @@ export default function App() {
    * the full list regardless.
    */
   const startRevision = useCallback(
-    ({ all = false } = {}) => {
+    async ({ all = false } = {}) => {
       const pool = all ? vault : dueEntries(vault);
       if (!pool.length) return;
-      setRevisionQuiz(buildRevisionQuiz(pool.map((e) => e.id), Date.now()));
+      const builder = await bank();
+      if (!builder) return;
+      setRevisionQuiz(builder.buildRevisionQuiz(pool.map((e) => e.id), Date.now()));
       setActiveTab('revision');
     },
-    [vault, setActiveTab]
+    [vault, setActiveTab, bank]
   );
 
   const handleMissed = useCallback((question) => {
@@ -246,13 +254,16 @@ export default function App() {
     setVault((prev) => prev.filter((e) => e.id !== id));
   }, []);
 
-  const startChallenge = useCallback((challenge) => {
-    const built = buildChallengeQuiz(challenge.ids, challenge.seed);
+  /** Resolves true when the challenge could be built and opened. */
+  const startChallenge = useCallback(async (challenge) => {
+    const builder = await bank();
+    if (!builder) return false;
+    const built = builder.buildChallengeQuiz(challenge.ids, challenge.seed);
     if (!built.questions.length) return false;
     setChallengeQuiz(built);
     setActiveTab('challenge');
     return true;
-  }, [setActiveTab]);
+  }, [setActiveTab, bank]);
 
   const handleComplete = useCallback((result) => {
     const { score, total, answers, questionIds } = result;
@@ -293,9 +304,7 @@ export default function App() {
   }, []);
 
   const resetEverything = () => {
-    Object.keys(localStorage)
-      .filter((k) => k.startsWith('sqt_') || k.startsWith('gw_'))
-      .forEach((k) => localStorage.removeItem(k));
+    clearAllStored();
     setStats({ ...EMPTY_STATS });
     setRecentIds([]);
     setVault([]);
@@ -317,13 +326,180 @@ export default function App() {
   // reader back into someone else's round.
   useEffect(() => {
     const challenge = readChallengeFromUrl();
-    if (challenge && startChallenge(challenge)) clearChallengeFromUrl();
+    if (challenge) startChallenge(challenge).then((opened) => opened && clearChallengeFromUrl());
   }, [startChallenge]);
 
   const overallAccuracy = stats.totalAnswered
     ? Math.round((stats.totalCorrect / stats.totalAnswered) * 100)
     : 0;
   const summary = vaultSummary(vault);
+  const statsWithAccuracy = { ...stats, overallAccuracy };
+
+  // Props shared by the games.
+  const play = { stats: gameStats, onRoundComplete: handleGameRound, onExit: goHome };
+  const mode = { answerMode, onAnswerModeChange: setAnswerMode };
+
+  // A quiz screen waits here until the question bank has loaded.
+  const waiting = <RouteFallback />;
+
+  // Every screen, by tab id. This is the only list of tabs: a tab id that is
+  // not a key here is unknown (see the effect below).
+  const TABS = {
+    home: () => (
+      <GameHub
+        onOpen={setActiveTab}
+        gameStats={gameStats}
+        quizStats={stats}
+        vaultDue={summary.due}
+        weeklyScores={weeklyScores}
+      />
+    ),
+    flags: () => countryQuiz('flags'),
+    capitals: () => countryQuiz('capitals'),
+    population: () => <HigherLower {...play} />,
+    'music-years': () => <MusicCharts {...play} {...mode} onAnswer={handleGameAnswer} />,
+    'film-years': () => <FilmCharts {...play} {...mode} onAnswer={handleGameAnswer} />,
+    'tv-years': () => <TvCharts {...play} {...mode} onAnswer={handleGameAnswer} />,
+    lists: () => <ListGame {...play} {...mode} />,
+    'missing-link': () => <MissingLink {...play} />,
+    vocab: () => <WordPlay {...play} onAnswer={handleGameAnswer} />,
+    pointless: () => <Obscure {...play} />,
+    'year-guess': () => <NameTheYear {...play} {...mode} />,
+    timeline: () => <Timeline {...play} />,
+    connections: () => <FourByFour {...play} />,
+    'first-names': () => <FirstNames {...play} {...mode} />,
+    quiz: () =>
+      quiz ? (
+        <>
+          <QuizSetup setup={setup} onStart={startQuiz} bankStats={BANK_STATS} />
+          <QuizSimulator
+            key={`quiz-${quiz.seed}`}
+            saveAs="quiz"
+            questions={quiz.questions}
+            seed={quiz.seed}
+            onComplete={handleComplete}
+            onMissed={handleMissed}
+            onCorrect={handleCorrect}
+            onNewQuiz={() => startQuiz({})}
+          />
+        </>
+      ) : (
+        waiting
+      ),
+    weekly: () => (
+      <WeeklyPaper
+        scores={weeklyScores}
+        onPaperDone={handlePaperDone}
+        onComplete={handleComplete}
+        onMissed={handleMissed}
+        onCorrect={handleCorrect}
+      />
+    ),
+    daily: () =>
+      dailyQuiz ? (
+        <QuizSimulator
+          key={`daily-${dailyQuiz.seed}`}
+          saveAs="daily"
+          questions={dailyQuiz.questions}
+          seed={dailyQuiz.seed}
+          title="Daily Five"
+          subtitle="The same five questions for everyone today. Come back tomorrow for a new set."
+          onComplete={handleComplete}
+          onMissed={handleMissed}
+          onCorrect={handleCorrect}
+          onNewQuiz={async () => {
+            const builder = await bank();
+            if (builder) setDailyQuiz(builder.buildDailyQuiz(5));
+          }}
+        />
+      ) : (
+        waiting
+      ),
+    revision: () =>
+      revisionQuiz ? (
+        <QuizSimulator
+          key={`rev-${revisionQuiz.seed}`}
+          saveAs="revision"
+          questions={revisionQuiz.questions}
+          seed={revisionQuiz.seed}
+          title="Revision round"
+          subtitle="Questions you have missed before, back on schedule. Getting one right pushes it further away; getting it wrong brings it straight back."
+          onComplete={handleComplete}
+          onMissed={handleMissed}
+          onCorrect={handleCorrect}
+          onNewQuiz={() => startRevision()}
+        />
+      ) : (
+        waiting
+      ),
+    challenge: () =>
+      challengeQuiz ? (
+        <QuizSimulator
+          key={`chal-${challengeQuiz.seed}`}
+          saveAs="challenge"
+          questions={challengeQuiz.questions}
+          seed={challengeQuiz.seed}
+          title="Challenge round"
+          subtitle={
+            challengeQuiz.missing
+              ? `Someone sent you this exact paper. ${challengeQuiz.missing} question(s) no longer exist in the bank and have been dropped.`
+              : 'Someone sent you this exact paper: same questions, same order, same options. Compare scores honestly.'
+          }
+          onComplete={handleComplete}
+          onMissed={handleMissed}
+          onCorrect={handleCorrect}
+          onNewQuiz={() => setActiveTab('quiz')}
+        />
+      ) : (
+        waiting
+      ),
+    flashcards: () => <FlashcardsDrill />,
+    vault: () => (
+      <WeaknessVault
+        vault={vault}
+        summary={summary}
+        onRemove={handleForget}
+        onClearAll={() => setVault([])}
+        onStartRevision={startRevision}
+      />
+    ),
+    analytics: () => (
+      <AnalyticsDashboard
+        stats={statsWithAccuracy}
+        bankStats={BANK_STATS}
+        vaultSummary={summary}
+        seenCount={recentIds.length}
+        totalBank={BANK_STATS.total}
+        profile={{ stats, vault, recentIds, games: gameStats }}
+        onImport={applyImported}
+      />
+    )
+  };
+
+  // Flags and capitals share a screen; `key` gives each its own state.
+  function countryQuiz(kind) {
+    return (
+      <CountryQuiz
+        key={kind}
+        kind={kind}
+        {...play}
+        {...mode}
+        onAnswer={handleGameAnswer}
+        savedRound={savedRounds[kind]}
+        onRoundChange={handleRoundChange}
+      />
+    );
+  }
+
+  // A restored tab whose content no longer exists (a tab id from an older
+  // version, or a revision or challenge round that could not be rebuilt) would
+  // open onto an empty page. Send it home instead.
+  const known = Object.hasOwn(TABS, activeTab);
+  const emptyRound =
+    (activeTab === 'revision' && revisionQuiz === null) || (activeTab === 'challenge' && challengeQuiz === null);
+  useEffect(() => {
+    if (!known || emptyRound) setActiveTab('home');
+  }, [known, emptyRound, setActiveTab]);
 
   return (
     <div className="app-layout">
@@ -332,229 +508,18 @@ export default function App() {
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         bankSize={BANK_STATS.total}
-        stats={{ ...stats, overallAccuracy }}
+        stats={statsWithAccuracy}
         weaknessCount={summary.due}
         onReset={resetEverything}
       />
 
       <main className="main-content">
-        {activeTab === 'home' && (
-          <GameHub
-            onOpen={setActiveTab}
-            gameStats={gameStats}
-            quizStats={stats}
-            vaultDue={summary.due}
-            weeklyScores={weeklyScores}
-          />
-        )}
-
-        <Suspense fallback={<div className="card empty-state">Loading…</div>}>
-        {(activeTab === 'flags' || activeTab === 'capitals') && (
-          <CountryQuiz
-            key={activeTab}
-            kind={activeTab}
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onAnswer={handleGameAnswer}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-            savedRound={savedRounds[activeTab]}
-            onRoundChange={handleRoundChange}
-          />
-        )}
-
-        {activeTab === 'population' && (
-          <HigherLower stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
-        )}
-
-        {activeTab === 'music-years' && (
-          <MusicCharts
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onAnswer={handleGameAnswer}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-          />
-        )}
-
-        {activeTab === 'film-years' && (
-          <FilmCharts
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onAnswer={handleGameAnswer}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-          />
-        )}
-
-        {activeTab === 'tv-years' && (
-          <TvCharts
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onAnswer={handleGameAnswer}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-          />
-        )}
-
-        {activeTab === 'lists' && (
-          <ListGame
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-          />
-        )}
-
-        {activeTab === 'missing-link' && (
-          <MissingLink stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
-        )}
-
-        {activeTab === 'vocab' && (
-          <WordPlay stats={gameStats} onAnswer={handleGameAnswer} onRoundComplete={handleGameRound} onExit={goHome} />
-        )}
-
-        {activeTab === 'pointless' && (
-          <Obscure stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
-        )}
-
-        {activeTab === 'year-guess' && (
-          <NameTheYear
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-          />
-        )}
-
-        {activeTab === 'timeline' && (
-          <Timeline stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
-        )}
-
-        {activeTab === 'connections' && (
-          <FourByFour stats={gameStats} onRoundComplete={handleGameRound} onExit={goHome} />
-        )}
-
-        {activeTab === 'first-names' && (
-          <FirstNames
-            stats={gameStats}
-            answerMode={answerMode}
-            onAnswerModeChange={setAnswerMode}
-            onRoundComplete={handleGameRound}
-            onExit={goHome}
-          />
-        )}
-        </Suspense>
-
-        {activeTab === 'quiz' && (
-          <>
-            <QuizSetup setup={setup} onStart={startQuiz} bankStats={BANK_STATS} />
-            <QuizSimulator
-              key={`quiz-${quiz.seed}`}
-              saveAs="quiz"
-              questions={quiz.questions}
-              seed={quiz.seed}
-              onComplete={handleComplete}
-              onMissed={handleMissed}
-              onCorrect={handleCorrect}
-              onNewQuiz={() => startQuiz({})}
-            />
-          </>
-        )}
-
-        {activeTab === 'weekly' && (
-          <WeeklyPaper
-            scores={weeklyScores}
-            onPaperDone={handlePaperDone}
-            onComplete={handleComplete}
-            onMissed={handleMissed}
-            onCorrect={handleCorrect}
-          />
-        )}
-
-        {activeTab === 'daily' && (
-          <QuizSimulator
-            key={`daily-${dailyQuiz.seed}`}
-            saveAs="daily"
-            questions={dailyQuiz.questions}
-            seed={dailyQuiz.seed}
-            title="Daily Five"
-            subtitle="The same five questions for everyone today. Come back tomorrow for a new set."
-            onComplete={handleComplete}
-            onMissed={handleMissed}
-            onCorrect={handleCorrect}
-            onNewQuiz={() => setDailyQuiz(buildDailyQuiz(5))}
-          />
-        )}
-
-        {activeTab === 'revision' && revisionQuiz && (
-          <QuizSimulator
-            key={`rev-${revisionQuiz.seed}`}
-            saveAs="revision"
-            questions={revisionQuiz.questions}
-            seed={revisionQuiz.seed}
-            title="Revision round"
-            subtitle="Questions you have missed before, back on schedule. Getting one right pushes it further away; getting it wrong brings it straight back."
-            onComplete={handleComplete}
-            onMissed={handleMissed}
-            onCorrect={handleCorrect}
-            onNewQuiz={() => startRevision()}
-          />
-        )}
-
-        {activeTab === 'challenge' && challengeQuiz && (
-          <QuizSimulator
-            key={`chal-${challengeQuiz.seed}`}
-            saveAs="challenge"
-            questions={challengeQuiz.questions}
-            seed={challengeQuiz.seed}
-            title="Challenge round"
-            subtitle={
-              challengeQuiz.missing
-                ? `Someone sent you this exact paper. ${challengeQuiz.missing} question(s) no longer exist in the bank and have been dropped.`
-                : 'Someone sent you this exact paper — same questions, same order, same options. Compare scores honestly.'
-            }
-            onComplete={handleComplete}
-            onMissed={handleMissed}
-            onCorrect={handleCorrect}
-            onNewQuiz={() => setActiveTab('quiz')}
-          />
-        )}
-
-        {activeTab === 'flashcards' && <FlashcardsDrill />}
-
-        {activeTab === 'vault' && (
-          <WeaknessVault
-            vault={vault}
-            summary={summary}
-            onRemove={handleForget}
-            onClearAll={() => setVault([])}
-            onStartRevision={startRevision}
-          />
-        )}
-
-        {activeTab === 'analytics' && (
-          <AnalyticsDashboard
-            stats={{ ...stats, overallAccuracy }}
-            bankStats={BANK_STATS}
-            vaultSummary={summary}
-            seenCount={recentIds.length}
-            totalBank={ALL_QUESTIONS.length}
-            profile={{ stats, vault, recentIds, games: gameStats }}
-            onImport={applyImported}
-          />
-        )}
+        <Suspense fallback={waiting}>{known ? TABS[activeTab]() : null}</Suspense>
       </main>
 
       <footer className="app-footer">
         <p>
-          Know-It-All. {BANK_STATS.total} weekend-quiz questions, 197 countries, more games on the way.
+          Know-It-All. {BANK_LABEL} weekend-quiz questions, {BANK_STATS.countryCount} countries.
           Signed out, progress stays in this browser. Signed in with Google, it is saved to this
           site's server so your other devices can pick it up; nothing else is collected.
         </p>
