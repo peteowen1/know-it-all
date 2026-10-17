@@ -33,6 +33,9 @@ const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
 const Settings = lazy(() => import('./components/Settings'));
+const ClueLadder = lazy(() => import('./games/clueladder/ClueLadder'));
+const TwinFlags = lazy(() => import('./games/twinflags/TwinFlags'));
+const Scramble = lazy(() => import('./games/scramble/Scramble'));
 
 // The quiz builder pulls in the whole question bank, so it is imported when a
 // quiz is first needed rather than at startup. The promise is shared.
@@ -376,6 +379,9 @@ export default function App() {
     'tv-years': () => <TvCharts {...play} {...mode} onAnswer={handleGameAnswer} />,
     lists: () => <ListGame {...play} {...mode} />,
     'missing-link': () => <MissingLink {...play} />,
+    'clue-ladder': () => <ClueLadder {...play} />,
+    'twin-flags': () => <TwinFlags {...play} />,
+    scramble: () => <Scramble {...play} />,
     vocab: () => <WordPlay {...play} onAnswer={handleGameAnswer} />,
     pointless: () => <Obscure {...play} />,
     'year-guess': () => <NameTheYear {...play} {...mode} />,

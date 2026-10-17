@@ -1,0 +1,70 @@
+/* Clue ladder: the stack of clues and the guess box. Tokens only. */
+.cl-rungs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+.cl-rung {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-1);
+  padding: var(--s-3) var(--s-4);
+  background: var(--surface-2);
+  border: var(--border-w) var(--border-style) var(--line);
+  border-radius: var(--r-control);
+}
+.cl-rung.cl-new {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.cl-rung-label {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.cl-rung-text {
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.cl-misses {
+  text-align: center;
+  color: var(--ink-3);
+  font-style: italic;
+  overflow-wrap: anywhere;
+}
+.cl-guess {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+.cl-guess-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+}
+.cl-guess-row .input {
+  flex: 1;
+  min-width: 160px;
+  width: auto;
+}
+.cl-guess-row .btn {
+  min-height: 48px;
+}
+.cl-reveal {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  padding: var(--s-3) var(--s-4);
+  background: var(--surface-2);
+  border: var(--border-w) var(--border-style) var(--line);
+  border-radius: var(--r-control);
+}
+.cl-reveal-head {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  color: var(--accent-text);
+}

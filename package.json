@@ -20,7 +20,7 @@
     "data:obscure": "node scripts/build-obscure.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node scripts/test-logic.mjs && node scripts/test-lib.mjs",
+    "test": "node scripts/test-logic.mjs && node scripts/test-lib.mjs && node scripts/test-twin-flags.mjs && node scripts/test-scramble.mjs && node scripts/test-clue-ladder.mjs",
     "check": "npm run validate && npm run test && npm run lint",
     "data:bankstats": "node scripts/build-bank-stats.mjs"
   },
