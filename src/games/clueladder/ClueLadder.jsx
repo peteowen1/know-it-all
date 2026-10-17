@@ -83,7 +83,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
         onExit={onExit}
         record={
           <>
-            Start with the hardest clue: the explanation with the answer blanked out. Guess early for more points: 4 on
+            Start with the hardest clue: a fact with the answer blanked out. Fill the blanks. Guess early for more points: 4 on
             the first clue, then 3, 2 and 1 for the options. Five questions, 20 points.
             {entry.plays ? ` ${entry.plays} played · best ${entry.best}/${MAX}.` : ''}
           </>
@@ -190,7 +190,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
 
       {!done && rung < RUNGS && (
         <form className="cl-guess" onSubmit={submitGuess}>
-          <Ask>Worth {ladderPoints(rung)} now. What is the answer?</Ask>
+          <Ask>Worth {ladderPoints(rung)} now. What goes in the blanks?</Ask>
           <div className="cl-guess-row">
             <TextInput label="Your answer" value={guess} onChange={(e) => setGuess(e.target.value)} placeholder="Type your answer" />
             <Button variant="primary" type="submit" icon="Check" disabled={!guess.trim()}>Guess</Button>

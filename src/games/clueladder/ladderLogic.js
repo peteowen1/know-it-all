@@ -4,6 +4,10 @@
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 import { normalise } from '../names/nameMatch.js';
 import { rowMatches } from '../lists/listMatch.js';
+import { CLUE_LADDER_SKIP } from '../../data/clueLadderSkip.js';
+
+// Questions a playtest found unfair as ladders, kept out by id.
+const SKIP = new Set(CLUE_LADDER_SKIP);
 
 export const ROUNDS = 5;
 export const RUNGS = 4;
@@ -20,7 +24,8 @@ const TOKEN = /[\p{L}\p{N}]+(?:['’][\p{L}]+)?/gu;
 function stem(w) {
   let s = w;
   if (s.length > 3) s = s.replace(/s$/, '');
-  if (s.length > 3) s = s.replace(/e$/, '');
+  // Kept to four letters or more, or "Andes" would come down to "and".
+  if (s.length > 4) s = s.replace(/e$/, '');
   return s;
 }
 
@@ -70,6 +75,20 @@ export function buildRung(q) {
   const explanation = maskText(q.explanation, q.answer);
   const hook = maskText(q.hook, q.answer);
   if (countWords(explanation) < MIN_WORDS) return null;
+  // The first clue has to hold a blank to fill. An explanation that never
+  // names the answer ("Bloomer edited The Lily..." for "Newspaper editor")
+  // leaves nothing to guess until the question itself appears.
+  if (!explanation.includes(MASK)) return null;
+  // And the blanks have to be the answer: every distinctive word of it must
+  // appear in the first clue as itself (or its plural). Otherwise "Buckingham
+  // Palace" blanks only the "Palace" of Kensington Palace, "Adrian IV" blanks
+  // the Adrian of Adrian VI, and a definition answer blanks one stray word.
+  const tokens = normalise(q.explanation).split(' ');
+  const core = words.filter((w) => !GENERIC.has(w));
+  // A one-letter answer ("N") would blank every stray letter in the text.
+  if (core.some((w) => w.length < 2)) return null;
+  if (!core.every((w) => tokens.some((t) => t === w || (w.length > 3 && stem(t) === stem(w))))) return null;
+  if (SKIP.has(q.id)) return null;
   const left = ` ${normalise(explanation)} `;
   if (left.includes(` ${normalise(q.answer)} `)) return null;
   if (words.some((w) => left.includes(` ${w} `))) return null;
