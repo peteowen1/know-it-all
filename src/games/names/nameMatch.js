@@ -36,22 +36,45 @@ export function editDistance(a, b, cap = 2) {
  * Jordan). The last word is skipped when it is under three letters, so a bare
  * initial or particle never counts as a name.
  */
-export function acceptedForms(first, person) {
+function acceptedForms(first, person) {
   const rest = normalise(person.rest);
   const words = rest.split(' ').filter((w) => w.length > 1);
   const forms = new Set([rest, normalise(`${first} ${person.rest}`), rest.replace(/ /g, '')]);
   const last = words.at(-1);
   if (last && last.length >= 3) forms.add(last);
   // Monarchs and popes: "Elizabeth I" is also "1", "1st", "first" and
-  // "the first". The numeral itself is already accepted as `rest`.
-  const n = ROMAN.indexOf(rest) + 1;
-  if (n) for (const f of [String(n), ordinal(n), ORDINAL_WORDS[n - 1], `the ${ORDINAL_WORDS[n - 1]}`]) forms.add(f);
+  // "the first"; "Louis XVIII" is also "18", "18th", "eighteenth". The numeral
+  // itself is already accepted as `rest`.
+  const n = romanToInt(rest);
+  if (n) for (const f of [String(n), ordinal(n), ordinalWord(n), `the ${ordinalWord(n)}`]) forms.add(f);
   return forms;
 }
 
-const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi'];
-const ORDINAL_WORDS = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth',
-  'eleventh', 'twelfth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth'];
+/**
+ * The value of a Roman numeral from 1 to 99 (any valid one: "xviii", "xxiii",
+ * "xl"), or 0 if the text is not one. Larger numerals and the single letters
+ * l, c, d and m are refused: nobody is "the hundredth", and a person whose
+ * name ends in "D" or "M" ("Agent M") is not a numbered monarch.
+ */
+export function romanToInt(text) {
+  const t = text.toLowerCase();
+  if (t.length === 1 && !'ivx'.includes(t)) return 0;
+  const m = /^(?:(x[cl]|l?x{0,3}))(ix|iv|v?i{0,3})$/.exec(t);
+  if (!m || !t) return 0;
+  const tens = { '': 0, x: 10, xx: 20, xxx: 30, xl: 40, l: 50, lx: 60, lxx: 70, lxxx: 80, xc: 90 }[m[1]];
+  const ones = { '': 0, i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9 }[m[2]];
+  return tens + ones;
+}
+
+const ONES = ['', 'first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth',
+  'eleventh', 'twelfth', 'thirteenth', 'fourteenth', 'fifteenth', 'sixteenth', 'seventeenth', 'eighteenth', 'nineteenth'];
+const CARDINAL_TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+const ORDINAL_TENS = ['', '', 'twentieth', 'thirtieth', 'fortieth', 'fiftieth', 'sixtieth', 'seventieth', 'eightieth', 'ninetieth'];
+/** 1..99 as an ordinal word, spaced the way normalise() writes it: "twenty third". */
+function ordinalWord(n) {
+  if (n < 20) return ONES[n];
+  return n % 10 ? `${CARDINAL_TENS[Math.floor(n / 10)]} ${ONES[n % 10]}` : ORDINAL_TENS[n / 10];
+}
 const ordinal = (n) => `${n}${n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th'}`;
 
 /**

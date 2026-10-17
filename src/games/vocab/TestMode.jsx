@@ -1,9 +1,11 @@
 import React, { useMemo, useRef } from 'react';
-import { ArrowRight, CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowRight, Check, X } from 'lucide-react';
 import data from '../../data/vocab.json';
 import { explainRound } from './vocabLogic';
 import { testContext, nextRound, scoreAnswers, guessRate, describeLevel, TEST_LENGTH, scaleBounds, formatLevel } from './vocabTest.js';
 import { localDateKey } from '../../lib/dates';
+import { AnswerRow, Button, GameCard, GameResults } from '../../components/ui';
+import { Ask, Option, OptionGrid, PlayHead } from '../shared/Play';
 
 const BOUNDS = scaleBounds(data.groups);
 const LOWEST = BOUNDS.lowest;
@@ -38,45 +40,54 @@ export default function TestMode({ test, setTest, history, recent, onSeen, onCom
       detail = 'The test ran out of common enough words to place you. Practice mode is the place to start.';
     }
     return (
-      <div className="card game-results">
-        <h2>{headline}</h2>
-        <p className="game-record">
-          {detail} {right} of {answers.length} right. Lower levels mean rarer words; the scale runs from about 4.5
+      <GameResults
+        data-section="words"
+        eyebrow="Word play · vocabulary test"
+        hero={headline}
+        verdict={detail}
+        squares={answers.map((a) => a.right)}
+        celebrate={right === answers.length}
+        onPlayAgain={onAgain}
+        playAgainLabel="Take it again"
+        onChangeSettings={onExit}
+        settingsLabel="Back"
+      >
+        <p className="setup-caption">
+          {right} of {answers.length} right. Lower levels mean rarer words; the scale runs from about 4.5
           (words like “ban”) down to 1 (words like “peregrinate”).
         </p>
         {history.length > 1 && (
-          <div className="ny-summary">
-            <h3>Your tests</h3>
+          <>
+            <h3 className="eyebrow">Your tests</h3>
             {history.slice(-5).map((h, i) => (
-              <div key={`${h.date}-${i}`} className="ny-sum-row">
-                <span>{h.date}</span>
-                <strong>{onScale(h.level) ? `${h.level.toFixed(1)} ± ${h.sd.toFixed(1)}` : formatLevel(h.level, BOUNDS)}</strong>
-              </div>
+              <AnswerRow key={`${h.date}-${i}`} trail={onScale(h.level) ? `${h.level.toFixed(1)} ± ${h.sd.toFixed(1)}` : formatLevel(h.level, BOUNDS)}>
+                {h.date}
+              </AnswerRow>
             ))}
-          </div>
+          </>
         )}
-        <h3>Every question</h3>
+        <h3 className="eyebrow">Every question</h3>
         <ul className="vp-defs">
           {answers.map((a, i) => {
             const info = explainRound(rounds[i], data);
             return (
-              <li key={rounds[i].id} className={a.right ? 'right' : ''}>
-                {a.right ? <CheckCircle2 className="icon-right" size={16} /> : <XCircle className="icon-wrong" size={16} />}{' '}
-                <strong>{rounds[i].target}</strong> <em>(level {a.zipf.toFixed(1)})</em>
+              <li key={rounds[i].id} data-right={a.right ? 'true' : 'false'}>
+                <span className="vp-head">
+                  {a.right
+                    ? <Check className="icon-right" size={16} aria-label="Right" />
+                    : <X className="icon-wrong" size={16} aria-label="Wrong" />}
+                  <strong>{rounds[i].target}</strong> <em>(level {a.zipf.toFixed(1)})</em>
+                </span>
                 {info.options.filter((o) => o.right || a.picked.includes(o.word)).map((o) => (
                   <div key={o.word}>
-                    {o.right ? '✓' : '✗'} <strong>{o.word}</strong>: {o.def}
+                    <strong>{o.word}</strong> ({o.right ? 'right' : 'your pick'}): {o.def}
                   </div>
                 ))}
               </li>
             );
           })}
         </ul>
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={onAgain}>Take it again</button>
-          <button className="btn btn-ghost" onClick={onExit}>Back</button>
-        </div>
-      </div>
+      </GameResults>
     );
   }
 
@@ -115,27 +126,32 @@ export default function TestMode({ test, setTest, history, recent, onSeen, onCom
       : <>Which word means “{r.prompt}”?</>;
 
   return (
-    <div className="card geo-question">
-      <div className="progress-text">
-        <span>Test · question {index + 1} of {length}</span>
-        <button className="btn btn-ghost" onClick={onExit}>Stop</button>
-      </div>
-      <p className="geo-ask">{ask}</p>
-      <div className="options-grid">
-        {r.options.map((w) => (
-          <button key={w} className={`option-btn ${picked.includes(w) ? 'selected' : ''}`} onClick={() => toggle(w)}>
-            <span className="option-label">{w}</span>
-          </button>
+    <GameCard data-section="words">
+      <PlayHead left={`Test · question ${index + 1} of ${length}`}>
+        <Button variant="tertiary" onClick={onExit}>Stop</Button>
+      </PlayHead>
+      <Ask>{ask}</Ask>
+      <OptionGrid>
+        {r.options.map((w, i) => (
+          <Option
+            key={w}
+            letter={'ABCDEFGH'[i]}
+            pressable={r.pick > 1}
+            state={picked.includes(w) ? 'selected' : 'idle'}
+            onClick={() => toggle(w)}
+          >
+            {w}
+          </Option>
         ))}
-      </div>
+      </OptionGrid>
       {r.pick > 1 && (
         <div className="next-action-bar">
-          <button className="btn btn-primary next-btn" disabled={picked.length !== r.pick} onClick={() => submit(picked)}>
-            Next ({picked.length}/{r.pick}) <ArrowRight size={18} />
-          </button>
+          <Button variant="primary" className="next-btn" disabled={picked.length !== r.pick} onClick={() => submit(picked)}>
+            Next ({picked.length}/{r.pick}) <ArrowRight size={18} aria-hidden="true" />
+          </Button>
         </div>
       )}
-      <p className="game-record">Answers are shown at the end.</p>
-    </div>
+      <p className="setup-caption">Answers are shown at the end.</p>
+    </GameCard>
   );
 }

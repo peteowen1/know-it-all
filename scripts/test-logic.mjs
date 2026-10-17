@@ -26,15 +26,20 @@ import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
-import { buildLinkRounds, linkPoints } from '../src/games/missinglink/linkLogic.js';
+import { buildLinkRounds, linkPoints, hasRepeatedClue } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
 import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel, scaleBounds, formatLevel } from '../src/games/vocab/vocabTest.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
 import { readdirSync } from 'node:fs';
-import { normalise, editDistance, matchGuess } from '../src/games/names/nameMatch.js';
+import { normalise, editDistance, matchGuess, romanToInt } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
 import { diffSnapshot, planPull, mergeSnapshots, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
+import {
+  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+} from './lib/fbfGroups.mjs';
+import { finishAccepts, sharedForms } from './lib/listAccept.mjs';
+import { ROOT, SHIPPED, dataFile, slim, extraKeys } from './lib/output.mjs';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
 const FILMS = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
@@ -1084,6 +1089,203 @@ test('data: every prime minister and president has a full name', () => {
   for (const [key, l] of Object.entries(LISTS)) {
     for (const t of l.terms) assert.ok(/\S+ \S+/.test(t.name), `${key}: "${t.name}" (${t.from}) is not a full name`);
   }
+});
+
+// ------------------------------------------------------ four by four (P6)
+// The groups and the overlap check come from the same module the builder uses,
+// so "belongs to a group" means one thing in both places.
+const FBF_SRC = loadSources(ROOT);
+const FBF_GROUPS = buildGroups(FBF_SRC);
+const FBF_BY_LABEL = indexByLabel(FBF_GROUPS);
+const FBF_LOOKUP = countryLookup(FBF_SRC.countries);
+test('four by four: no tile fits a second group in its puzzle (2026-10-17: 21 hits in 10 puzzles)', () => {
+  const unknown = new Set();
+  const hits = [];
+  for (const [i, p] of FBF.puzzles.entries()) {
+    for (const g of p.groups) if (!FBF_BY_LABEL.has(g.label)) unknown.add(g.label);
+    for (const h of findOverlaps(p, FBF_BY_LABEL, FBF_LOOKUP)) hits.push(`#${i} "${h.tile}" (${h.own}) also fits ${h.other}`);
+  }
+  // A label the builder no longer makes would be skipped silently by the check.
+  assert.equal(unknown.size, 0, `labels the builder does not know: ${[...unknown].join('; ')}`);
+  assert.equal(hits.length, 0, `${hits.length} overlaps, first: ${hits[0]}`);
+});
+test('four by four: the overlap check catches landlocked decoys and capitals that are also countries', () => {
+  const puzzle = (...groups) => ({ groups: groups.map(([label, items]) => ({ label, items })) });
+  // Slovakia is landlocked; a player who sees "Landlocked in Asia" will try it.
+  const slovakia = puzzle(['Borders Poland', ['Slovakia', 'Germany', 'Ukraine', 'Belarus']], ['Landlocked in Asia', ['Laos', 'Nepal', 'Bhutan', 'Mongolia']]);
+  assert.deepEqual(findOverlaps(slovakia, FBF_BY_LABEL, FBF_LOOKUP).map((h) => h.tile), ['Slovakia', 'Belarus']);
+  // A tile that is a capital in one group and a country name in another.
+  const lux = puzzle(['Capitals in Western Europe', ['Luxembourg', 'Paris', 'Berlin', 'Vaduz']], ['Borders Belgium', ['France', 'Germany', 'Luxembourg', 'Netherlands']]);
+  assert.ok(findOverlaps(lux, FBF_BY_LABEL, FBF_LOOKUP).some((h) => h.tile === 'Luxembourg'));
+  // A clean puzzle reports nothing.
+  const clean = puzzle(['Borders Poland', ['Germany', 'Ukraine', 'Lithuania', 'Russia']], ['Landlocked in Asia', ['Laos', 'Nepal', 'Bhutan', 'Mongolia']]);
+  assert.deepEqual(findOverlaps(clean, FBF_BY_LABEL, FBF_LOOKUP), []);
+});
+test('four by four: no tile in more than 3 puzzles, no group in more than 5', () => {
+  const item = new Map();
+  const label = new Map();
+  for (const p of FBF.puzzles) {
+    for (const g of p.groups) {
+      label.set(g.label, (label.get(g.label) || 0) + 1);
+      for (const t of g.items) item.set(t.toLowerCase(), (item.get(t.toLowerCase()) || 0) + 1);
+    }
+  }
+  const over = (m, cap) => [...m].filter(([, n]) => n > cap).map(([k, n]) => `${k} ${n}`);
+  assert.deepEqual(over(item, MAX_PUZZLES_PER_ITEM), []);
+  assert.deepEqual(over(label, MAX_PUZZLES_PER_LABEL), []);
+});
+test('four by four: the number-title group draws on every film that starts with a number (or is dropped)', () => {
+  const g = FBF_GROUPS.find((x) => x.label === 'Films starting with a number');
+  if (g) {
+    assert.ok(g.members.length >= 12, `${g.members.length} titles`);
+    assert.ok(g.members.every((t) => /^\d/.test(t)), 'a title does not start with a digit');
+  }
+  assert.ok(!FBF_GROUPS.some((x) => x.label === 'Films with a number for a title'), 'old four-title group is back');
+});
+
+// ------------------------------------------------------- fill the list (P6)
+test('lists: no answer fits two different people (Johnson, Adams, Harrison, Bush, Roosevelt)', () => {
+  for (const [key, l] of Object.entries(LISTS)) {
+    const shared = sharedForms(l.terms);
+    assert.deepEqual(shared, [], `${key}: ${shared.map((s) => `"${s.form}" -> ${s.people.join(' / ')}`).join('; ')}`);
+  }
+});
+test('lists: a bare surname shared by two presidents belongs to the earlier; the later needs a first name', () => {
+  const row = (name) => LISTS.usPres.terms.find((t) => t.name === name);
+  const pairs = [['Adams', 'John Adams', 'John Quincy Adams', 'Quincy Adams'], ['Harrison', 'William Henry Harrison', 'Benjamin Harrison', 'Benjamin Harrison'],
+    ['Johnson', 'Andrew Johnson', 'Lyndon B. Johnson', 'Lyndon Johnson'], ['Roosevelt', 'Theodore Roosevelt', 'Franklin D. Roosevelt', 'Franklin Roosevelt'],
+    ['Bush', 'George H. W. Bush', 'George W. Bush', 'W. Bush']];
+  for (const [surname, earlier, later, laterShort] of pairs) {
+    assert.ok(rowMatches(surname, row(earlier), { exact: true }), `${surname} -> ${earlier}`);
+    assert.ok(!rowMatches(surname, row(later), { exact: true }), `${surname} must not fill ${later}`);
+    assert.ok(rowMatches(laterShort, row(later), { exact: true }), `${laterShort} -> ${later}`);
+    assert.ok(rowMatches(later, row(later), { exact: true }), later);
+  }
+  const bushes = ['George H. W. Bush', 'George W. Bush'].map(row);
+  assert.ok(!bushes.some((b) => rowMatches('George Bush', b, { exact: true })), '"George Bush" fits a Bush row');
+});
+test('lists: Douglas-Home answers (Home, Douglas-Home, Alec Douglas-Home); Lloyd George by his usual name', () => {
+  const row = (name) => LISTS.ukPM.terms.find((t) => t.name === name);
+  for (const g of ['Home', 'Douglas-Home', 'douglas home', 'Alec Douglas-Home']) assert.ok(rowMatches(g, row('Alec Douglas-Home'), { exact: true }), g);
+  assert.ok(rowMatches('Lloyd George', row('David Lloyd George'), { exact: true }));
+  assert.ok(rowMatches('Law', row('Bonar Law'), { exact: true }));
+  assert.ok(!rowMatches('Law', row('Alec Douglas-Home'), { exact: true }));
+});
+test('finishAccepts: shared single words go to the earlier person, shared first-and-last forms to nobody, whole names stay', () => {
+  const out = finishAccepts([
+    { name: 'Tom Hale', accept: ['Tom Hale', 'Hale'] },
+    { name: 'Tom Ray Hale', accept: ['Tom Ray Hale', 'Hale'] },
+    { name: 'Hale Rib', accept: ['Hale Rib', 'Tom Hale'] },
+    { name: 'Ann Lee Ford', accept: ['Ann Lee Ford', 'Ford'] },
+    { name: 'Ann Mae Ford', accept: ['Ann Mae Ford', 'Ford'] }
+  ]);
+  // "Tom Hale" is also the first-and-last form of Tom Ray Hale and an answer
+  // listed on Hale Rib: it stays with the person it is the whole name of.
+  // "Ann Ford" is nobody's whole name and would fit both Anns: neither keeps it.
+  assert.deepEqual(out.map((t) => t.accept), [['Tom Hale', 'Hale'], ['Tom Ray Hale'], ['Hale Rib'], ['Ann Lee Ford', 'Ford'], ['Ann Mae Ford']]);
+  assert.deepEqual(sharedForms(out), []);
+  assert.deepEqual(finishAccepts(out), out, 'not idempotent');
+});
+
+// ------------------------------------------------------------ name the year
+test('name the year: options never run past the newest year in the events', () => {
+  const kinds = ['song', 'film', 'leader'];
+  const events = (last) => {
+    const out = [];
+    for (let y = last - 30; y <= last; y++) for (const kind of kinds) out.push({ year: y, kind, text: `${kind} ${y}` });
+    return out;
+  };
+  for (const last of [2015, 2026, 2031]) {
+    const ev = events(last);
+    let sawLast = false;
+    for (let s = 0; s < 300; s++) {
+      for (const r of buildYearRounds(ev, { seed: s })) {
+        assert.equal(new Set(r.options).size, 4, `${r.year}: ${r.options}`);
+        assert.ok(Math.max(...r.options) <= last, `${last}: option ${Math.max(...r.options)} is after the data`);
+        if (r.options.includes(last)) sawLast = true;
+      }
+    }
+    assert.ok(sawLast, `${last} never offered`);
+  }
+});
+
+// -------------------------------------------------------------- names (P6)
+test('nameMatch: Roman numerals beyond xvi (Louis XVIII, John XXIII) give 18th/eighteenth/twenty third', () => {
+  assert.deepEqual([romanToInt('xviii'), romanToInt('XXIII'), romanToInt('xl'), romanToInt('xcix'), romanToInt('ii')], [18, 23, 40, 99, 2]);
+  for (const bad of ['', 'iiii', 'vv', 'ic', 'c', 'm', 'l', 'cd', 'mcm', 'abc']) assert.equal(romanToInt(bad), 0, bad);
+  const people = [{ id: 'louis', first: 'Louis', rest: 'XVIII', views: 1 }, { id: 'john', first: 'John', rest: 'XXIII', views: 1 }];
+  for (const g of ['18', '18th', 'eighteenth', 'the eighteenth', 'XVIII']) assert.equal(matchGuess(g, 'Louis', people)?.person.id, 'louis', g);
+  for (const g of ['23', '23rd', 'twenty-third', 'the twenty third']) assert.equal(matchGuess(g, 'John', people)?.person.id, 'john', g);
+  // The older numerals still work, and "Agent M" is not a thousandth anything.
+  assert.equal(matchGuess('the sixteenth', 'Louis', [{ id: 'l16', first: 'Louis', rest: 'XVI', views: 1 }])?.person.id, 'l16');
+  assert.equal(matchGuess('1000', 'Agent', [{ id: 'm', first: 'Agent', rest: 'M', views: 1 }]), null);
+});
+
+// ------------------------------------------------------------ timeline (P6)
+test('timeline: 3,000 seeds on both difficulties draw 5 distinct years with no failure', () => {
+  for (const difficulty of ['easy', 'hard']) {
+    for (let s = 0; s < 3000; s++) {
+      const round = buildRound(TL, { difficulty, seed: s });
+      assert.equal(round.length, 5, `${difficulty} ${s}`);
+      assert.equal(new Set(round.map((e) => e.year)).size, 5, `${difficulty} ${s}`);
+      const kinds = {};
+      for (const e of round) kinds[e.kind] = (kinds[e.kind] || 0) + 1;
+      assert.ok(Math.max(...Object.values(kinds)) <= 2, `${difficulty} ${s}: ${JSON.stringify(kinds)}`);
+      if (difficulty === 'hard') assert.ok(Math.max(...round.map((e) => e.year)) - Math.min(...round.map((e) => e.year)) <= 12, `hard ${s}`);
+    }
+  }
+});
+test('timeline: sparse or lopsided events widen the rules instead of throwing', () => {
+  // One kind only: the two-per-kind rule cannot hold, so it relaxes.
+  const oneKind = Array.from({ length: 40 }, (_, i) => ({ year: 1980 + i, kind: 'song', text: `s${i}` }));
+  for (const difficulty of ['easy', 'hard']) {
+    for (let s = 0; s < 50; s++) assert.equal(new Set(buildRound(oneKind, { difficulty, seed: s }).map((e) => e.year)).size, 5);
+  }
+  // Hard mode with years spread too thin for a 12-year window: the window widens.
+  const sparse = [1900, 1930, 1960, 1990, 2020, 2025].map((year, i) => ({ year, kind: ['song', 'film', 'leader', 'birth', 'song', 'film'][i], text: `e${year}` }));
+  for (let s = 0; s < 50; s++) assert.equal(buildRound(sparse, { difficulty: 'hard', seed: s }).length, 5);
+  // Easy mode with years closer than eight apart: the gap shrinks.
+  const dense = Array.from({ length: 8 }, (_, i) => ({ year: 2000 + i, kind: ['song', 'film', 'leader', 'birth'][i % 4], text: `d${i}` }));
+  assert.equal(buildRound(dense, { difficulty: 'easy', seed: 1 }).length, 5);
+  // Fewer than five distinct years can never make a round.
+  assert.throws(() => buildRound(dense.slice(0, 4), { seed: 1 }), /could not draw/);
+});
+
+// ------------------------------------------------------- missing link (P6)
+test('missing link: no round shows two clues that read the same', () => {
+  const firsts = ['Al', 'Bo', 'Cy', 'Di', 'Ed', 'Flo', 'Gus', 'Hal'];
+  const answers = (surnames) => surnames.map((s, i) => ({
+    text: `${firsts[i]} ${s}`,
+    accept: [`${firsts[i]} ${s}`, s],
+    score: Math.round(1 + (99 * i) / (surnames.length - 1))
+  }));
+  // The answers nearest the 100 and 70 targets are both Smiths, so a careless pick shows "Smith" twice.
+  const dupes = answers(['Brown', 'Jones', 'Wyatt', 'Jones', 'Kemp', 'Smith', 'Lane', 'Smith']);
+  const cats = [{ id: 'name-0', prompt: 'A famous person called Zed', kind: 'people', answers: dupes }];
+  for (let k = 1; k <= 6; k++) {
+    cats.push({ id: `name-${k}`, prompt: `A famous person called N${k}`, kind: 'people', answers: answers(['Ng', 'Poe', 'Quinn', 'Rowe', 'Shaw', 'Teal', 'Ure', 'Vance'].map((x) => `${x}${k}`)) });
+  }
+  let sawDupeCategory = false;
+  for (let s = 0; s < 200; s++) {
+    for (const r of buildLinkRounds(cats, { seed: s, count: 3 })) {
+      assert.ok(!hasRepeatedClue(r.clues), `${r.id} seed ${s}: ${r.clues.map((c) => c.text)}`);
+      if (r.id === 'name-0') sawDupeCategory = true;
+    }
+  }
+  assert.ok(sawDupeCategory, 'the duplicate-surname category was never drawn');
+  assert.ok(hasRepeatedClue([{ text: 'Smith' }, { text: 'smith.' }, { text: 'Jones' }]));
+  // The shipped categories too.
+  for (let s = 0; s < 300; s++) for (const r of buildLinkRounds(OBS, { seed: s })) assert.ok(!hasRepeatedClue(r.clues), `${r.id} seed ${s}`);
+});
+
+// ----------------------------------------------------- shipped fields (P6)
+test('data: shipped files carry only fields something reads (lib/output.mjs SHIPPED)', () => {
+  for (const rel of Object.keys(SHIPPED)) {
+    const data = JSON.parse(readFileSync(dataFile(rel), 'utf8'));
+    assert.deepEqual(extraKeys(data, SHIPPED[rel]), [], `${rel} has unread fields; run node scripts/slim-data.mjs`);
+  }
+  // slim() drops what the list leaves out and nothing else.
+  assert.deepEqual(slim({ a: 1, b: [{ c: 2, d: 3 }], e: 4 }, { a: true, b: { c: true } }), { a: 1, b: [{ c: 2 }] });
 });
 
 // ------------------------------------------------------------------ report

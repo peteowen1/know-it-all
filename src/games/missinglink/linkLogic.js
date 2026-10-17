@@ -31,18 +31,25 @@ function clueText(category, answer) {
 function pickClues(category) {
   const targets = [100, 70, 40, 1];
   const used = new Set();
+  const shown = new Set();
   const clues = [];
   for (const t of targets) {
     const best = category.answers
       // A surname clue can shrink to "I" (Mary I), "B" (Max B) or "Ng": a
       // fragment that tells the player nothing. Clues are 3+ characters.
-      .filter((a) => !used.has(a.text) && clueText(category, a).length >= 3)
+      // Two clues must also read differently: two Smiths both show "Smith".
+      .filter((a) => !used.has(a.text) && clueText(category, a).length >= 3 && !shown.has(normalise(clueText(category, a))))
       .sort((a, b) => Math.abs(a.score - t) - Math.abs(b.score - t))[0];
+    if (!best) return null; // too few distinct clues: the caller tries another category
     used.add(best.text);
+    shown.add(normalise(clueText(category, best)));
     clues.push({ text: clueText(category, best), answer: best.text });
   }
   return clues;
 }
+
+/** Do two clues read the same once case, accents and punctuation are ignored? */
+export const hasRepeatedClue = (clues) => new Set(clues.map((c) => normalise(c.text))).size < clues.length;
 
 /**
  * Would `category` also fit a clue as the player sees it? Then it would be a
@@ -90,6 +97,7 @@ export function buildLinkRounds(categories, { seed = Date.now(), count = ROUNDS 
     // No kind twice until every kind has had a turn.
     if (usedKinds.includes(cat.kind) && new Set(usedKinds).size < 4) continue;
     const clues = pickClues(cat);
+    if (!clues || hasRepeatedClue(clues)) continue;
     const others = categories.filter((c) => c.id !== cat.id && !fitsAny(c, clues));
     const same = shuffle(others.filter((c) => family(c.id) === family(cat.id)), rand);
     const rest = shuffle(others.filter((c) => family(c.id) !== family(cat.id) && c.kind === cat.kind), rand);

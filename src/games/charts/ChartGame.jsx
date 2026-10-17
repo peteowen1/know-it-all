@@ -1,8 +1,12 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowRight, CheckCircle2, Clock, Eye, Flag as GiveUp, RotateCcw, XCircle } from 'lucide-react';
+import { Clock } from 'lucide-react';
 import { topSongs, topArtists, buildChartQuiz, matchChartGuess, decadesOf } from './chartLogic';
-import { gameEntry } from '../../lib/gameStats';
-import { Chip, SetupRow } from '../geo/CountryQuiz';
+import { gameEntry, weakestItems } from '../../lib/gameStats';
+import {
+  AnswerModeToggle, AnswerRow, Button, Chip, GameBoard, GameCard, GameResults, MostMissed, Pill, SetupRow, TextInput
+} from '../../components/ui';
+import { ChoiceQuestion, GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
+import { verdictFor } from '../shared/verdict';
 import { usePersistentState } from '../../lib/persist';
 
 /**
@@ -97,14 +101,13 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
 
   if (!round) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>{domain.title}</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
-        </div>
-        <p className="game-record">
-          {entry.plays ? `${entry.plays} played · best ${entry.bestPct}%` : domain.intro}
-        </p>
+      <GameSetup
+        title={domain.title}
+        section="pop"
+        onExit={onExit}
+        record={entry.plays ? `${entry.plays} played · best ${entry.bestPct}%` : domain.intro}
+        note={chart.source}
+      >
         {chartKeys.length > 1 && (
           <SetupRow label="Chart">
             {chartKeys.map((k) => (
@@ -112,9 +115,9 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
             ))}
           </SetupRow>
         )}
-        <SetupRow label="Format">
+        <SetupRow label="Format" caption={formats[activeFormat].blurb}>
           {Object.entries(formats).map(([k, f]) => (
-            <Chip key={k} active={activeFormat === k} onClick={() => setFormat(k)} title={f.blurb}>{f.label}</Chip>
+            <Chip key={k} active={activeFormat === k} onClick={() => setFormat(k)}>{f.label}</Chip>
           ))}
         </SetupRow>
         {activeFormat !== 'quiz' && (
@@ -130,27 +133,35 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
           ))}
         </SetupRow>
         {activeFormat === 'quiz' ? (
-          <SetupRow label="Answer">
-            <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>Multiple choice</Chip>
-            <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Reveal &amp; self-mark</Chip>
+          <SetupRow
+            label="Answer"
+            caption={answerMode === 'choice' ? 'Four options. Easier.' : 'Answer in your head, reveal, then mark yourself. Harder.'}
+          >
+            <AnswerModeToggle mode={answerMode} onChange={onAnswerModeChange} />
           </SetupRow>
         ) : (
           <>
-            <SetupRow label="Hints">
+            <SetupRow
+              label="Hints"
+              caption={
+                answerMode === 'choice'
+                  ? `Each empty slot shows the ${activeFormat === 'board' ? chart.creditNoun : `biggest ${chart.noun}`}.`
+                  : 'Blank slots only.'
+              }
+            >
               <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>
                 Easy: show the {activeFormat === 'board' ? chart.creditNoun : `biggest ${chart.noun}`}
               </Chip>
               <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: blank board</Chip>
             </SetupRow>
-            <SetupRow label="Clock">
+            <SetupRow label="Clock" caption={timed ? 'Two or three minutes, depending on the board size.' : 'Take as long as you like.'}>
               <Chip active={timed} onClick={() => setTimed(true)}>On</Chip>
               <Chip active={!timed} onClick={() => setTimed(false)}>Off</Chip>
             </SetupRow>
           </>
         )}
-        <button className="btn btn-primary game-start" onClick={start}>Start</button>
-        <p className="game-record small">{chart.source}</p>
-      </div>
+        <Button variant="primary" className="game-start" onClick={start}>Start</Button>
+      </GameSetup>
     );
   }
 
@@ -169,11 +180,19 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
     );
   }
 
+  // Items on this board that have been missed before, from the saved per-item stats.
+  const labels = new Map(round.items.map((it) => [itemKey(it.id), it.label]));
+  const mostMissed = weakestItems(stats, domain.id, 300)
+    .filter((w) => labels.has(w.key))
+    .slice(0, 6)
+    .map((w) => ({ ...w, label: labels.get(w.key) }));
+
   return (
     <ChartBoard
       key={round.id}
       round={round}
       setRound={setRound}
+      mostMissed={mostMissed}
       easy={answerMode === 'choice'}
       onFinish={(r) =>
         onRoundComplete(domain.id, {
@@ -188,7 +207,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
   );
 }
 
-function ChartBoard({ round, setRound, easy, onFinish, onAgain, onSettings }) {
+function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
   // A board restored already finished must not be recorded again on leaving.
@@ -240,68 +259,81 @@ function ChartBoard({ round, setRound, easy, onFinish, onAgain, onSettings }) {
     if (!m) msg = { tone: 'bad', text: `"${guess.trim()}" isn't on this chart` };
     else if (m.ambiguous) msg = { tone: 'meh', text: `${m.count} on this board start "${guess.trim()}". Be more specific.` };
     else if (m.alreadyFound) msg = { tone: 'meh', text: `Already got ${m.item.label}` };
-    else msg = { tone: 'good', text: `#${m.item.rank} ${m.item.label} ✓` };
+    else msg = { tone: 'good', text: `#${m.item.rank} ${m.item.label}` };
     setRound((r) => ({ ...r, message: msg, found: m?.item && !m.alreadyFound ? [...r.found, m.item.id] : r.found }));
     setGuess('');
     inputRef.current?.focus();
   };
 
-  return (
-    <div className="card names-game">
-      <div className="progress-text">
-        <span className="names-title">{title}</span>
-        <span className="score-pill">
-          {found.length}/{items.length}
-          {secondsLeft !== null && !over && <> · <Clock size={14} /> {secondsLeft}s</>}
-        </span>
-      </div>
+  if (over) {
+    return (
+      <GameResults
+        data-section="pop"
+        eyebrow={title}
+        score={found.length}
+        total={items.length}
+        verdict={verdictFor(found.length, items.length)}
+        squares={items.map((it) => foundSet.has(it.id))}
+        onPlayAgain={onAgain}
+        playAgainLabel="Another board"
+        onChangeSettings={onSettings}
+        mostMissed={<MostMissed items={mostMissed} />}
+      >
+        <ol className="board-grid">
+          {items.map((it) => (
+            <AnswerRow key={it.id} as="li" state={foundSet.has(it.id) ? 'got' : 'missed'} lead={it.rank}>
+              <span className="board-person">
+                <strong>{it.label}</strong>
+                <span>{it.sub}</span>
+              </span>
+            </AnswerRow>
+          ))}
+        </ol>
+      </GameResults>
+    );
+  }
 
-      {!over && (
-        <form className="names-input-row" onSubmit={submit}>
-          <input
+  return (
+    <GameBoard
+      data-section="pop"
+      title={title}
+      score={`${found.length}/${items.length}`}
+      timer={secondsLeft !== null ? <><Clock size={14} aria-hidden="true" /> {secondsLeft}s</> : undefined}
+      message={message?.text ?? ''}
+      tone={message?.tone === 'good' ? 'good' : message?.tone === 'bad' ? 'bad' : undefined}
+      input={
+        <form className="board-form" onSubmit={submit}>
+          <TextInput
             ref={inputRef}
             autoFocus
             value={guess}
             onChange={(e) => setGuess(e.target.value)}
             placeholder={placeholder}
-            aria-label="Your answer"
-            autoComplete="off"
-            spellCheck="false"
+            label="Your answer"
           />
-          <button className="btn btn-primary" type="submit">Enter</button>
-          <button className="btn btn-ghost" type="button" onClick={() => finish()}>
-            <GiveUp size={16} /> Give up
-          </button>
+          <Button variant="primary" type="submit">Enter</Button>
+          <Button variant="tertiary" icon="Flag" onClick={() => finish()}>Give up</Button>
         </form>
-      )}
-      {message && !over && <p className={`names-msg ${message.tone}`}>{message.text}</p>}
-
-      <ol className="names-board">
+      }
+    >
+      <ol className="board-grid">
         {items.map((it) => {
           const got = foundSet.has(it.id);
           return (
-            <li key={it.id} className={`names-slot ${got ? 'got' : over ? 'missed' : ''}`}>
-              <span className="names-rank">{it.rank}</span>
-              {got || over ? (
-                <span className="names-person">
+            <AnswerRow key={it.id} as="li" state={got ? 'got' : 'pending'} lead={it.rank}>
+              {got ? (
+                <span className="board-person">
                   <strong>{it.label}</strong>
                   <span>{it.sub}</span>
                 </span>
               ) : (
-                <span className="names-hidden">{easy ? it.hint : ' '}</span>
+                <span className="board-hidden">{easy ? it.hint : ' '}</span>
               )}
-            </li>
+            </AnswerRow>
           );
         })}
       </ol>
-
-      {over && (
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={onAgain} autoFocus><RotateCcw size={18} /> Another</button>
-          <button className="btn btn-ghost" onClick={onSettings}>Settings</button>
-        </div>
-      )}
-    </div>
+    </GameBoard>
   );
 }
 
@@ -311,20 +343,26 @@ function ChartQuiz({ round, setRound, reveal, onAnswer, onFinish, onAgain, onSet
 
   if (index >= questions.length) {
     const score = answers.filter(Boolean).length;
+    const missed = questions.filter((_, i) => !answers[i]);
     return (
-      <div className="card game-results">
-        <h2>{score} / {questions.length}</h2>
-        <p className="game-record">Chart quiz · {label}</p>
-        <div className="missed-grid">
-          {questions.filter((_, i) => !answers[i]).map((q) => (
-            <div key={q.key} className="missed-item"><div><strong>{q.prompt}</strong><span>{q.explain}</span></div></div>
-          ))}
-        </div>
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={onAgain}><RotateCcw size={18} /> Again</button>
-          <button className="btn btn-ghost" onClick={onSettings}>Settings</button>
-        </div>
-      </div>
+      <GameResults
+        data-section="pop"
+        eyebrow={`Chart quiz · ${label}`}
+        score={score}
+        total={questions.length}
+        verdict={verdictFor(score, questions.length)}
+        squares={answers}
+        onPlayAgain={onAgain}
+        onChangeSettings={onSettings}
+      >
+        {missed.length > 0 && <h3 className="eyebrow">Missed this round</h3>}
+        {missed.map((q) => (
+          <AnswerRow key={q.key} state="missed">
+            <strong>{q.prompt}</strong>
+            <span className="board-sub">{q.explain}</span>
+          </AnswerRow>
+        ))}
+      </GameResults>
     );
   }
 
@@ -340,53 +378,33 @@ function ChartQuiz({ round, setRound, reveal, onAnswer, onFinish, onAgain, onSet
   };
 
   return (
-    <div className="card geo-question">
-      <div className="progress-text">
-        <span>{index + 1} / {questions.length}</span>
-        <span className="score-pill">Score {answers.filter(Boolean).length}</span>
-      </div>
-      <h2 className="geo-prompt-text chart-prompt">{q.prompt}</h2>
+    <GameCard data-section="pop">
+      <PlayHead left={`${index + 1} / ${questions.length}`}>
+        <Pill variant="accent">Score {answers.filter(Boolean).length}</Pill>
+      </PlayHead>
+      <Prompt className="chart-prompt">{q.prompt}</Prompt>
 
-      {!reveal ? (
-        <div className="options-grid">
-          {q.options.map((opt, i) => {
-            let state = '';
-            if (answered) state = i === q.correctIndex ? 'correct' : i === picked ? 'incorrect' : 'disabled';
-            return (
-              <button key={opt} className={`option-btn ${state}`} disabled={answered} onClick={() => answer(i === q.correctIndex, i)}>
-                <span className="option-label">{opt}</span>
-                {answered && i === q.correctIndex && <CheckCircle2 className="icon-right" size={20} />}
-                {answered && i === picked && i !== q.correctIndex && <XCircle className="icon-wrong" size={20} />}
-              </button>
-            );
-          })}
-        </div>
-      ) : !revealed ? (
-        <div className="reveal-prompt">
-          <button className="btn btn-secondary" onClick={() => setRound({ ...round, revealed: true })}><Eye size={18} /> Reveal</button>
-        </div>
-      ) : (
-        <div className="revealed-content">
-          <div className="answer-highlight"><span className="ans-val">{q.options[q.correctIndex]}</span></div>
-          {!answered && (
-            <div className="grade-btns">
-              <button className="btn btn-success" onClick={() => answer(true)}><CheckCircle2 size={18} /> Got it</button>
-              <button className="btn btn-danger" onClick={() => answer(false)}><XCircle size={18} /> Missed it</button>
-            </div>
-          )}
-        </div>
-      )}
+      <ChoiceQuestion
+        options={q.options.map((opt) => ({ key: opt, label: opt }))}
+        correctIndex={q.correctIndex}
+        picked={picked}
+        answered={answered}
+        reveal={reveal}
+        revealed={revealed}
+        answerNode={q.options[q.correctIndex]}
+        onPick={(i) => answer(i === q.correctIndex, i)}
+        onReveal={() => setRound({ ...round, revealed: true })}
+        onGrade={(ok) => answer(ok)}
+      />
 
       {answered && (
         <>
-          <p className="geo-fact">{q.explain}</p>
-          <div className="next-action-bar">
-            <button className="btn btn-primary next-btn" autoFocus onClick={() => setRound({ ...round, index: index + 1, revealed: false, picked: null })}>
-              {index < questions.length - 1 ? 'Next' : 'Results'} <ArrowRight size={18} />
-            </button>
-          </div>
+          <p className="play-fact">{q.explain}</p>
+          <NextBar onClick={() => setRound({ ...round, index: index + 1, revealed: false, picked: null })}>
+            {index < questions.length - 1 ? 'Next' : 'Results'}
+          </NextBar>
         </>
       )}
-    </div>
+    </GameCard>
   );
 }

@@ -32,9 +32,9 @@
     "category": "language",
     "difficulty": "easy",
     "question": "What does 'de facto' mean?",
-    "answer": "In fact, whether or not by right",
+    "answer": "In fact, if not by right",
     "distractors": [
-      "By law",
+      "According to the law",
       "In good faith",
       "After the event"
     ],
@@ -186,7 +186,7 @@
     "category": "language",
     "difficulty": "easy",
     "question": "Which language has the most native speakers worldwide?",
-    "answer": "Mandarin Chinese",
+    "answer": "Mandarin",
     "distractors": [
       "English",
       "Spanish",
@@ -286,8 +286,8 @@
     "question": "What does 'ad hoc' mean?",
     "answer": "For this specific purpose",
     "distractors": [
-      "Without limit",
-      "At random",
+      "For the time being",
+      "At the last minute",
       "In advance"
     ],
     "explanation": "Literally 'to this' in Latin. An ad hoc committee forms for one task and then dissolves, unlike a standing committee, and 'ad hoc' has also come to mean improvised.",
@@ -524,8 +524,8 @@
     "question": "What did the word 'nice' mean when it first appeared in English?",
     "answer": "Foolish or ignorant",
     "distractors": [
-      "Precise",
-      "Pleasant",
+      "Careful and precise",
+      "Kind and agreeable",
       "Generous"
     ],
     "explanation": "It came via Old French from Latin nescius, 'not knowing'. Over the centuries it drifted through 'shy', 'fussy' and 'precise' (a sense kept in 'a nice distinction') before settling on 'pleasant' in the 1700s.",
@@ -608,8 +608,8 @@
     "question": "Which script did the Rosetta Stone allow scholars to decipher?",
     "answer": "Egyptian hieroglyphs",
     "distractors": [
-      "Linear B",
-      "Cuneiform",
+      "Minoan Linear A",
+      "Sumerian cuneiform",
       "Mayan glyphs"
     ],
     "explanation": "The stone carries one decree of 196 BCE in hieroglyphs, demotic and ancient Greek. Found by French soldiers in 1799 and now in the British Museum, it let Jean-François Champollion announce his decipherment in 1822.",
@@ -650,9 +650,9 @@
     "question": "What does the Greek prefix 'hyper-' mean?",
     "answer": "Over or above",
     "distractors": [
-      "Under",
+      "Beneath or below",
       "Around",
-      "Through"
+      "Across or through"
     ],
     "explanation": "Its counterpart hypo- means under: hyperthermia is dangerous overheating, hypothermia dangerous cooling. The Latin equivalent of hyper- is super-, and of hypo- is sub-.",
     "hook": "A hypodermic needle goes under the skin; a hyperactive child is over the top."
@@ -1296,7 +1296,7 @@
     "distractors": [
       "Old Norse",
       "Middle Dutch",
-      "Occitan"
+      "Medieval Latin"
     ],
     "explanation": "French ruled court and law for three centuries; Law French lingered in English legal records until the 1730s, which is why law still has 'plaintiff', 'tort', 'attorney' and 'jury'. It also split animal names: English 'cow' and 'sheep' in the field, French 'beef' and 'mutton' on the table.",
     "hook": "The Saxons raised the cow; the Normans ate the beef."
@@ -1434,9 +1434,9 @@
     "question": "What is a brand name that has become the everyday word for its product, like 'escalator' or 'esky', called?",
     "answer": "A genericised trademark",
     "distractors": [
-      "A metonym",
+      "A portmanteau word",
       "A neologism",
-      "A calque"
+      "An eponymous term"
     ],
     "explanation": "'Escalator' lost its trademark in the US in 1950, and 'aspirin' went generic in the US and UK after the First World War. Esky is still a registered trademark in Australia, which is why its maker fights generic use.",
     "hook": "Escalator and aspirin became so popular that they stopped belonging to anyone."
@@ -1490,9 +1490,9 @@
     "question": "What does the term 'anaphora' mean in rhetoric?",
     "answer": "Repetition of a phrase at the start of successive clauses",
     "distractors": [
-      "Repetition at the end of clauses",
-      "A reversal of word order",
-      "Omission of conjunctions"
+      "Repetition of a word at the end of clauses",
+      "A reversal of word order in a phrase",
+      "Omission of conjunctions between clauses"
     ],
     "explanation": "Churchill's 'we shall fight on the beaches... we shall fight on the landing grounds' is anaphora. Repeating at the end is epistrophe, as in Lincoln's 'of the people, by the people, for the people'.",
     "hook": "Anaphora at the start (Churchill); epistrophe at the end (Lincoln)."
@@ -1602,9 +1602,9 @@
     "question": "What does the linguistic term 'code-switching' describe?",
     "answer": "Alternating between languages or varieties within a conversation",
     "distractors": [
-      "Translating idioms literally",
-      "Inventing words for new concepts",
-      "Adjusting volume for emphasis"
+      "Translating idioms word for word between languages",
+      "Inventing new words for new concepts in a language",
+      "Adjusting your volume and tone for different listeners"
     ],
     "explanation": "It is a sign of fluency, not confusion: bilinguals switch at predictable grammatical points and for social effect. The term also covers shifting between varieties of one language, such as Aboriginal English and Standard Australian English.",
     "hook": "Switching mid-sentence shows mastery of both languages, not a muddle."
@@ -1966,7 +1966,7 @@
     "question": "From which Aboriginal language, spoken where Cook's ship was repaired in 1770, does the word 'kangaroo' come?",
     "answer": "Guugu Yimithirr",
     "distractors": [
-      "Dharug",
+      "Pitjantjatjara",
       "Wiradjuri",
       "Noongar"
     ],
@@ -2022,9 +2022,9 @@
     "question": "From which language does 'ketchup' most probably come, possibly by way of Malay?",
     "answer": "Hokkien Chinese",
     "distractors": [
-      "Hindi",
+      "Portuguese",
       "Japanese",
-      "Tamil"
+      "Vietnamese"
     ],
     "explanation": "In southern China kê-tsiap was a fermented fish sauce, and British traders in South-East Asia brought the name home around 1700. English cooks made it from mushrooms and walnuts before the tomato version took over in the 1800s.",
     "hook": "The first ketchup was fish sauce, not tomato."
@@ -2050,8 +2050,8 @@
     "question": "The 'mare' in 'nightmare' originally referred to what?",
     "answer": "A goblin believed to sit on sleepers' chests",
     "distractors": [
-      "A female horse",
-      "The sea",
+      "A female horse kept for breeding",
+      "A sea monster that dragged sailors under",
       "A marsh spirit that stole children"
     ],
     "explanation": "Old English mære was a spirit that pressed on sleepers and suffocated them, the experience now linked to sleep paralysis. It is unrelated to 'mare', a female horse, despite Henry Fuseli's 1781 painting The Nightmare showing both.",

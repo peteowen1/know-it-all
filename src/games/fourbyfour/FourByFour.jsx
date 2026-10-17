@@ -1,13 +1,13 @@
 import React, { useMemo } from 'react';
-import { Shuffle, RotateCcw, CalendarDays } from 'lucide-react';
 import data from '../../data/fourbyfour.json';
 import { localDateKey } from '../../lib/dates';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { AnswerRow, Button, GameCard, GameResults } from '../../components/ui';
+import { GameSetup } from '../shared/Play';
 
 const MISTAKES = 4;
-const LEVEL_CLASS = { 1: 'lvl-1', 2: 'lvl-2', 3: 'lvl-3', 4: 'lvl-4' };
 
 /**
  * The day's puzzle is the same for everyone: its index comes from the local
@@ -40,27 +40,23 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
 
   if (!game) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Four by four</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
+      <GameSetup
+        title="Four by four"
+        section="lab"
+        onExit={onExit}
+        record={
+          <>
+            Sixteen answers, four hidden groups. Pick four that belong together. Four mistakes and you are out.
+            {entry.plays ? ` ${entry.plays} played.` : ''}
+          </>
+        }
+        note={`${data.puzzles.length} puzzles built from the flags, capitals, charts, films, TV and famous-names data.`}
+      >
+        <div className="setup-actions">
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's puzzle</Button>
+          <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random puzzle</Button>
         </div>
-        <p className="game-record">
-          Sixteen answers, four hidden groups. Pick four that belong together. Four mistakes and you are out.
-          {entry.plays ? ` ${entry.plays} played.` : ''}
-        </p>
-        <div className="actions-bar">
-          <button className="btn btn-primary" onClick={() => start(true)}>
-            <CalendarDays size={18} /> Today's puzzle
-          </button>
-          <button className="btn btn-ghost" onClick={() => start(false)}>
-            <Shuffle size={18} /> Random puzzle
-          </button>
-        </div>
-        <p className="game-record small">
-          {data.puzzles.length} puzzles built from the flags, capitals, charts, films, TV and famous-names data.
-        </p>
-      </div>
+      </GameSetup>
     );
   }
 
@@ -135,14 +131,41 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
   };
 
   const won = over && mistakes < MISTAKES;
+  const left = MISTAKES - mistakes;
+
+  if (over) {
+    return (
+      <GameResults
+        data-section="lab"
+        eyebrow={game.daily ? "Today's four by four" : 'Four by four'}
+        hero={won ? (mistakes === 0 ? 'Perfect' : 'Solved') : 'Out of guesses'}
+        verdict={won ? (mistakes === 0 ? 'Four groups, no mistakes.' : `Solved with ${mistakes} mistake${mistakes === 1 ? '' : 's'}.`) : 'Here are the four groups.'}
+        celebrate={won && mistakes === 0}
+        onPlayAgain={onAgain}
+        playAgainLabel="Another puzzle"
+        onChangeSettings={onSetup}
+        settingsLabel="Back"
+      >
+        {solved.map((gi) => {
+          const g = puzzle.groups[gi];
+          return (
+            <div key={gi} className="fbf-solved" data-level={g.level}>
+              <strong>{g.label}</strong>
+              <span>{g.items.join(', ')}</span>
+            </div>
+          );
+        })}
+      </GameResults>
+    );
+  }
 
   return (
-    <div className="card fbf-game">
-      <div className="progress-text">
-        <span className="names-title">{game.daily ? "Today's four by four" : 'Four by four'}</span>
-        <span className="fbf-mistakes" aria-label={`${MISTAKES - mistakes} mistakes left`}>
+    <GameCard data-section="lab" width="sm">
+      <div className="play-head">
+        <p className="play-progress">{game.daily ? "Today's four by four" : 'Four by four'}</p>
+        <span className="fbf-mistakes" role="img" aria-label={`${left} mistake${left === 1 ? '' : 's'} left`}>
           {Array.from({ length: MISTAKES }, (_, i) => (
-            <span key={i} className={`fbf-dot ${i < MISTAKES - mistakes ? 'on' : ''}`} />
+            <span key={i} className="fbf-dot" data-on={i < left ? 'true' : 'false'} />
           ))}
         </span>
       </div>
@@ -150,53 +173,41 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
       {solved.map((gi) => {
         const g = puzzle.groups[gi];
         return (
-          <div key={gi} className={`fbf-solved ${LEVEL_CLASS[g.level]}`}>
+          <div key={gi} className="fbf-solved" data-level={g.level}>
             <strong>{g.label}</strong>
             <span>{g.items.join(', ')}</span>
           </div>
         );
       })}
 
-      {!over && (
-        <div className="fbf-grid">
-          {remaining.map((t) => (
-            <button
-              key={t.text}
-              className={`fbf-tile ${selected.includes(t.text) ? 'picked' : ''}`}
-              onClick={() => toggle(t.text)}
-            >
-              {t.text}
-            </button>
-          ))}
-        </div>
-      )}
-
-      {message && <p className={`names-msg ${message.tone}`}>{message.text}</p>}
-
-      {!over ? (
-        <div className="actions-bar centered">
-          <button
-            className="btn btn-ghost"
-            onClick={() => setGame({ ...game, tiles: shuffle(tiles), message: null })}
+      <div className="fbf-grid">
+        {remaining.map((t) => (
+          <AnswerRow
+            key={t.text}
+            as="button"
+            type="button"
+            className="fbf-tile"
+            aria-pressed={selected.includes(t.text)}
+            onClick={() => toggle(t.text)}
           >
-            <Shuffle size={16} /> Shuffle
-          </button>
-          <button className="btn btn-ghost" onClick={() => setGame({ ...game, selected: [] })} disabled={!selected.length}>
-            Deselect
-          </button>
-          <button className="btn btn-primary" onClick={submit} disabled={selected.length !== 4}>
-            Submit
-          </button>
-        </div>
-      ) : (
-        <div className="fbf-over">
-          <h3>{won ? (mistakes === 0 ? 'Perfect.' : `Solved with ${mistakes} mistake${mistakes === 1 ? '' : 's'}.`) : 'Out of guesses.'}</h3>
-          <div className="actions-bar centered">
-            <button className="btn btn-primary" onClick={onAgain} autoFocus><RotateCcw size={18} /> Another puzzle</button>
-            <button className="btn btn-ghost" onClick={onSetup}>Back</button>
-          </div>
-        </div>
-      )}
-    </div>
+            {t.text}
+          </AnswerRow>
+        ))}
+      </div>
+
+      <p className="game-board-msg" data-tone={message?.tone === 'bad' ? 'bad' : undefined} role="status" aria-live="polite">
+        {message?.text ?? ''}
+      </p>
+
+      <div className="fbf-actions">
+        <Button variant="tertiary" icon="Shuffle" onClick={() => setGame({ ...game, tiles: shuffle(tiles), message: null })}>
+          Shuffle
+        </Button>
+        <Button variant="secondary" onClick={() => setGame({ ...game, selected: [] })} disabled={!selected.length}>
+          Deselect
+        </Button>
+        <Button variant="primary" onClick={submit} disabled={selected.length !== 4}>Submit</Button>
+      </div>
+    </GameCard>
   );
 }

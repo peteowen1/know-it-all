@@ -14,6 +14,7 @@
 // is exactly the local-only app it was before.
 
 import { diffSnapshot, planPull, mergeSnapshots, isSyncedKey } from './syncCore.js';
+import { onDirty } from './storage.js';
 
 const META_KEY = 'kia_sync';
 const PUSH_DELAY_MS = 1500;
@@ -99,6 +100,9 @@ export function markDirty(key) {
   clearTimeout(pushTimer);
   pushTimer = setTimeout(() => push(), PUSH_DELAY_MS);
 }
+
+// Saves go through storage.js, which reaches this file only via this hook.
+onDirty(markDirty);
 
 async function api(path, options = {}) {
   const res = await fetch(`/api${path}`, {

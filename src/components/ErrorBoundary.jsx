@@ -1,5 +1,12 @@
 import React from 'react';
 
+// Browsers word a failed dynamic import differently: Chrome "Failed to fetch
+// dynamically imported module", Safari "Importing a module script failed",
+// Firefox "error loading dynamically imported module". Vite's preload helper
+// throws "Unable to preload CSS".
+const isLoadError = (error) =>
+  /dynamically imported module|module script failed|Unable to preload/i.test(String(error?.message || error));
+
 /**
  * Last line of defence. The question bank is validated at build time, so a
  * malformed record should never reach the browser — but "should never" is
@@ -39,13 +46,32 @@ export default class ErrorBoundary extends React.Component {
   render() {
     if (!this.state.error) return this.props.children;
 
+    // Screens and the question bank load on demand, so being offline (or a
+    // deploy replacing the files under an open tab) surfaces here. That is not
+    // the saved progress's fault, so never offer to clear it.
+    if (isLoadError(this.state.error)) {
+      return (
+        <div className="app-layout">
+          <div className="card empty-state">
+            <h2>Couldn't load that screen</h2>
+            <p>Check your connection and try again. Your progress is safe.</p>
+            <div className="actions-bar centered">
+              <button className="btn btn-primary" onClick={() => window.location.reload()}>
+                Try again
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="app-layout">
         <div className="card empty-state">
           <h2>Something broke</h2>
           <p>
             The app hit an error it could not recover from. Your saved progress is the most
-            likely cause — clearing it will almost certainly fix this.
+            likely cause, and clearing it will almost certainly fix this.
           </p>
           <p className="empty-sub">
             <code>{String(this.state.error?.message || this.state.error)}</code>

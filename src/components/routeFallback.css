@@ -1,0 +1,27 @@
+/* Shown while a screen's code downloads. Tokens only. */
+.route-fallback {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  padding: var(--s-5) 0;
+}
+
+.route-fallback > span {
+  display: block;
+  height: var(--s-4);
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  animation: route-fallback-pulse 1.2s ease-in-out infinite;
+}
+
+.route-fallback > span:nth-child(1) { width: 40%; }
+.route-fallback > span:nth-child(2) { width: 85%; }
+.route-fallback > span:nth-child(3) { width: 65%; }
+
+@keyframes route-fallback-pulse {
+  50% { opacity: 0.45; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-fallback > span { animation: none; }
+}

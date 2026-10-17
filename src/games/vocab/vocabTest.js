@@ -37,14 +37,14 @@ const choose = (n, k) => (k === 0 ? 1 : (n * choose(n - 1, k - 1)) / k);
 /** Chance of a right answer by luck: 1 in 4 options, or 1 in C(5, k) sets of k synonyms. */
 export const guessRate = (round) => (round.type === 'syn' ? 1 / choose(round.options.length, round.pick) : 1 / round.options.length);
 
-export const pRight = (theta, zipf, guess) => guess + (1 - guess) * logistic(SLOPE * (zipf - theta));
+const pRight = (theta, zipf, guess) => guess + (1 - guess) * logistic(SLOPE * (zipf - theta));
 
 /**
  * How rare the round is: the rarest word you must know to be sure of it.
  * Synonyms need every right word; opposites need the prompt and the answer;
  * meanings need only the defined word.
  */
-export function roundZipf(round, zipfOf) {
+function roundZipf(round, zipfOf) {
   if (round.type === 'meaning') return zipfOf.get(round.target);
   return Math.min(...[round.target, ...round.answer].map((w) => zipfOf.get(w)));
 }

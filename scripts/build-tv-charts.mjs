@@ -16,18 +16,16 @@
 // Globes the year of television honoured (the 2010 row is the 68th Globes,
 // held January 2011).
 
-import { mkdirSync, writeFileSync } from 'node:fs';
 import { wikitext, tableRows, tableStarts, plain, isBold } from './lib/wikitable.mjs';
+import { fromRoot, writeData } from './lib/output.mjs';
 
-const RAW = 'data-raw/charts/tv';
+const RAW = fromRoot('data-raw/charts/tv');
 const PAGES = {
   emmyDrama: 'Primetime Emmy Award for Outstanding Drama Series',
   emmyComedy: 'Primetime Emmy Award for Outstanding Comedy Series',
   globeDrama: 'Golden Globe Award for Best Television Series – Drama',
   globeComedy: 'Golden Globe Award for Best Television Series – Musical or Comedy'
 };
-
-mkdirSync('src/data/charts', { recursive: true });
 
 // The show is whatever comes before the line break; the season note after it
 // ("<br/><small>(Season 3)</small>") is sometimes the only link in the cell,
@@ -85,5 +83,4 @@ for (const [key, y] of [['emmyDrama', 2010], ['emmyComedy', 1996], ['globeDrama'
 console.log(problems.length ? `skipped (not exactly one winner): ${problems.length}\n  ${problems.join('\n  ')}` : 'no skipped years');
 if (Object.values(out).some((c) => Object.keys(c).length < 40)) throw new Error('an award has under 40 years; check the parser');
 
-writeFileSync('src/data/charts/tv.json', JSON.stringify({ builtAt: new Date().toISOString().slice(0, 10), ...out }));
-console.log('wrote src/data/charts/tv.json');
+writeData('charts/tv.json', out);

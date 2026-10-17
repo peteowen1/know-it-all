@@ -8,11 +8,34 @@
 // content-hashed by Vite, so a new build produces new keys automatically and
 // old entries are cleaned up on activate.
 
-const CACHE_VERSION = 'sqt-v1';
+const CACHE_VERSION = 'sqt-v3';
+
+// Runtime entries are capped, oldest first, so every deploy's new hashed files
+// don't pile up forever. Code (JS/CSS) and everything else (mostly ~540 flag
+// SVGs) have separate caps: with one shared cap, browsing flags evicted the
+// app's own entry bundle, and the next offline load failed. A build is ~40
+// code files, so the code cap always keeps the current build whole.
+const MAX_CODE_ENTRIES = 150;
+const MAX_OTHER_ENTRIES = 300;
+const SHELL = ['./', './index.html'];
+
+const isCode = (request) => /\.(js|css)$/.test(new URL(request.url).pathname);
+
+async function trimCache(cache) {
+  const keys = await cache.keys(); // oldest first
+  const isShell = (request) => SHELL.some((path) => new URL(path, self.location).href === request.url);
+  const runtime = keys.filter((request) => !isShell(request));
+  const overflow = (list, max) => list.slice(0, Math.max(0, list.length - max));
+  const doomed = [
+    ...overflow(runtime.filter(isCode), MAX_CODE_ENTRIES),
+    ...overflow(runtime.filter((request) => !isCode(request)), MAX_OTHER_ENTRIES)
+  ];
+  await Promise.all(doomed.map((request) => cache.delete(request)));
+}
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
-  event.waitUntil(caches.open(CACHE_VERSION).then((cache) => cache.addAll(['./', './index.html'])));
+  event.waitUntil(caches.open(CACHE_VERSION).then((cache) => cache.addAll(SHELL)));
 });
 
 self.addEventListener('activate', (event) => {
@@ -58,9 +81,12 @@ self.addEventListener('fetch', (event) => {
       (cached) =>
         cached ||
         fetch(request).then((response) => {
-          if (response.ok) {
+          // A host's SPA fallback can answer a missing (old-build) chunk with
+          // index.html and a 200; caching that would serve HTML as JS forever.
+          const isHtml = (response.headers.get('content-type') || '').includes('text/html');
+          if (response.ok && !isHtml) {
             const copy = response.clone();
-            caches.open(CACHE_VERSION).then((cache) => cache.put(request, copy));
+            caches.open(CACHE_VERSION).then((cache) => cache.put(request, copy).then(() => trimCache(cache)));
           }
           return response;
         })

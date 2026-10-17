@@ -132,7 +132,7 @@
     "question": "Which streaming series features a group of children and a creature called the Demogorgon?",
     "answer": "Stranger Things",
     "distractors": [
-      "Dark",
+      "The Umbrella Academy",
       "The OA",
       "Locke & Key"
     ],
@@ -190,7 +190,7 @@
     "distractors": [
       "The Weakest Link",
       "Deal or No Deal",
-      "Jeopardy!"
+      "The Million Pound Drop"
     ],
     "explanation": "It began in Britain in 1998 and has been made in more than a hundred countries. Eddie McGuire hosted the Australian version on Nine, and the lifelines (50:50, phone a friend, ask the audience) became part of everyday speech.",
     "hook": "Final answer? Lock it in, Eddie."
@@ -426,8 +426,8 @@
     "question": "Which film features a young wizard attending Hogwarts?",
     "answer": "Harry Potter and the Philosopher's Stone",
     "distractors": [
+      "Percy Jackson and the Lightning Thief",
       "The Chronicles of Narnia",
-      "Percy Jackson",
       "The Golden Compass"
     ],
     "explanation": "The American release was renamed Harry Potter and the Sorcerer's Stone, so scenes naming the stone were shot twice. The eight films ran from 2001 to 2011, and HBO is now adapting the books as a series.",
@@ -507,12 +507,12 @@
     "id": "pop_037",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Beatles album came from the 1967 sessions that also produced 'Strawberry Fields Forever' and 'Penny Lane'?",
+    "question": "Which Beatles album came from the sessions that also produced 'Strawberry Fields Forever' and 'Penny Lane'?",
     "answer": "Sgt. Pepper's Lonely Hearts Club Band",
     "distractors": [
-      "Revolver",
+      "Please Please Me",
       "A Hard Day's Night",
-      "The White Album"
+      "The Beatles (The White Album)"
     ],
     "explanation": "EMI wanted a single early, so the two songs were released on their own in February 1967 and left off the album, which producer George Martin later called a dreadful mistake. Sgt. Pepper won the Grammy for Album of the Year, the first rock album to do so.",
     "hook": "Its two best-known songs from the sessions are not on it."
@@ -594,9 +594,9 @@
     "question": "Which Australian film features drag performers crossing the outback in a bus?",
     "answer": "The Adventures of Priscilla, Queen of the Desert",
     "distractors": [
-      "Muriel's Wedding",
+      "The Year My Voice Broke",
       "The Adventures of Barry McKenzie",
-      "Strictly Ballroom"
+      "Mad Max Beyond Thunderdome"
     ],
     "explanation": "Released in 1994 and directed by Stephan Elliott, it starred Terence Stamp, Hugo Weaving and Guy Pearce. Lizzy Gardiner and Tim Chappel won the Oscar for costume design, and Gardiner collected it in a dress made of American Express gold cards.",
     "hook": "An Oscar for costumes, collected in a dress made of credit cards."
@@ -650,9 +650,9 @@
     "question": "Which film featuring Hannibal Lecter won the five major Oscars in 1992?",
     "answer": "The Silence of the Lambs",
     "distractors": [
-      "Se7en",
-      "Manhunter",
-      "Red Dragon"
+      "Hannibal Rising",
+      "Red Dragon",
+      "The Prince of Tides"
     ],
     "explanation": "It is one of only three films to win Picture, Director, Actor, Actress and Screenplay, after It Happened One Night and One Flew Over the Cuckoo's Nest. Anthony Hopkins won Best Actor with about sixteen minutes on screen.",
     "hook": "Best Actor for about sixteen minutes of screen time."
@@ -1296,7 +1296,7 @@
     "distractors": [
       "Wish You Were Here",
       "Animals",
-      "The Wall"
+      "Atom Heart Mother"
     ],
     "explanation": "Designed by Storm Thorgerson and Aubrey Powell's studio Hipgnosis, the cover has no band name or title. Animals is the one with the inflatable pig over Battersea Power Station.",
     "hook": "A prism for Dark Side, a pig for Animals."
@@ -1347,14 +1347,14 @@
     "id": "pop_097",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which video game has sold more than 350 million copies, the most of any single game?",
+    "question": "Which video game passed 350 million copies sold in 2025, the most of any single game?",
     "answer": "Minecraft",
     "distractors": [
       "Grand Theft Auto V",
       "Wii Sports",
       "Mario Kart 8"
     ],
-    "explanation": "Released in 2011 by Swedish studio Mojang, which Microsoft bought for 2.5 billion US dollars in 2014, it reached 350 million sales in 2025. A Minecraft Movie took nearly a billion dollars that year. Tetris is sometimes given as the answer, but only by counting all its versions together.",
+    "explanation": "Released in 2011 by Swedish studio Mojang, which Microsoft bought for 2.5 billion US dollars in 2014, it passed 350 million sales in 2025. A Minecraft Movie took nearly a billion dollars that year. Tetris is sometimes given as the answer, but only by counting all its versions together.",
     "hook": "Tetris wins only if you add up every version; Minecraft wins as one game."
   },
   {
@@ -1850,7 +1850,7 @@
   {
     "id": "pop_133",
     "category": "pop_culture",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "question": "Which singer's Eras Tour became the first concert tour to gross more than US$2 billion?",
     "answer": "Taylor Swift",
     "distractors": [
@@ -1896,8 +1896,8 @@
     "question": "Which film won Best Picture at the Academy Awards in March 2026?",
     "answer": "One Battle After Another",
     "distractors": [
-      "Sinners",
-      "Hamnet",
+      "Sentimental Value",
+      "Marty Supreme",
       "Frankenstein"
     ],
     "explanation": "Paul Thomas Anderson's comedy-thriller starring Leonardo DiCaprio won six Oscars, including Anderson's first for directing. Sinners had set a record with sixteen nominations, and its star Michael B. Jordan won Best Actor.",

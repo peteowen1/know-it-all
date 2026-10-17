@@ -28,20 +28,7 @@ export function makeRng(seed) {
   };
 }
 
-/**
- * Fisher-Yates. Returns a new array; never mutates the input.
- *
- * Used here because the previous build had no option shuffle at all: `answer`
- * was a fixed index, always 0, into a static options array, so the correct
- * answer was always option A.
- *
- * Separately, that build used `arr.sort(() => 0.5 - Math.random())` to choose
- * and order which *questions* appeared in a quiz. That is not a uniform shuffle
- * — measured on a four-element array, the first element stays put about 36 per
- * cent of the time against 25 per cent for a real shuffle. It never touched
- * option order, so it was not the cause of the always-A bug, but it is the
- * reason nothing in this file uses comparator-based shuffling.
- */
+/** Fisher-Yates; returns a new array. Never shuffle with a comparator sort: it is not uniform. */
 export function shuffle(arr, rng = Math.random) {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -49,9 +36,4 @@ export function shuffle(arr, rng = Math.random) {
     [out[i], out[j]] = [out[j], out[i]];
   }
   return out;
-}
-
-/** Pick `n` items uniformly at random without replacement. */
-export function sample(arr, n, rng = Math.random) {
-  return shuffle(arr, rng).slice(0, n);
 }

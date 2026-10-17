@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { Check, Eye, Flag as GiveUp, RotateCcw } from 'lucide-react';
+import { Check } from 'lucide-react';
 import data from '../../data/lists.json';
 import { rowMatches } from './listMatch';
 import { gameEntry } from '../../lib/gameStats';
-import { Chip, SetupRow } from '../geo/CountryQuiz';
+import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow, TextInput } from '../../components/ui';
+import { GameSetup } from '../shared/Play';
+import { verdictFor } from '../shared/verdict';
 import { loadLive, saveLive, usePersistentState } from '../../lib/persist';
 
 const RANGES = {
@@ -34,15 +36,18 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
 
   if (!round) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Fill the list</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
-        </div>
-        <p className="game-record">
-          Every term in order, with its years as the clue. Type into any box; right answers lock in as you type.
-          {entry.plays ? ` ${entry.plays} lists played · best ${entry.bestPct}%.` : ''}
-        </p>
+      <GameSetup
+        title="Fill the list"
+        section="weekend"
+        onExit={onExit}
+        record={
+          <>
+            Every term in order, with its years as the clue. Type into any box; right answers lock in as you type.
+            {entry.plays ? ` ${entry.plays} lists played · best ${entry.bestPct}%.` : ''}
+          </>
+        }
+        note="From Wikidata, rebuilt with the site, so a new leader appears without anyone editing a list. Returning leaders appear once per term."
+      >
         <SetupRow label="List">
           {keys.map((k) => (
             <Chip key={k} active={listKey === k} onClick={() => setListKey(k)}>{data.lists[k].title}</Chip>
@@ -53,13 +58,15 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
             <Chip key={k} active={range === k} onClick={() => setRange(k)}>{r.label}</Chip>
           ))}
         </SetupRow>
-        <SetupRow label="Hints">
+        <SetupRow
+          label="Hints"
+          caption={answerMode === 'choice' ? 'Each empty box shows the initials of the name.' : 'Each row shows only its years.'}
+        >
           <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>Easy: show initials</Chip>
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: years only</Chip>
         </SetupRow>
-        <button className="btn btn-primary game-start" onClick={start}>Start</button>
-        <p className="game-record small">From Wikidata, rebuilt with the site, so a new leader appears without anyone editing a list. Returning leaders appear once per term.</p>
-      </div>
+        <Button variant="primary" className="game-start" onClick={start}>Start</Button>
+      </GameSetup>
     );
   }
 
@@ -132,9 +139,10 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
     if (!rowMatches(value, rows[i], { exact })) {
       if (exact) return;
       setWrong(i);
-      // A right name in the wrong row: say where it goes.
+      // A right name in the wrong row: say only that it belongs elsewhere, so the
+      // hint never gives away another row's answer or dates.
       const elsewhere = rows.findIndex((r, j) => j !== i && !locked.current[j] && rowMatches(value, r));
-      setHint(elsewhere >= 0 ? { row: i, text: `${rows[elsewhere].name} is ${rows[elsewhere].from}–${rows[elsewhere].to ?? 'now'}` } : null);
+      setHint(elsewhere >= 0 ? { row: i, text: 'That name belongs in a different row.' } : null);
       return;
     }
     setHint(null);
@@ -152,65 +160,81 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
     if (target != null) inputs.current[target]?.focus();
   };
 
+  const clueOf = (r) => (
+    <span className="list-clue">
+      {r.number ? <strong>{ordinal(r.number)}</strong> : null}
+      <span>{r.from}–{r.to ?? 'now'}</span>
+    </span>
+  );
+
+  if (over) {
+    return (
+      <GameResults
+        data-section="weekend"
+        eyebrow={`${round.title} · ${round.rangeLabel}`}
+        score={doneCount}
+        total={rows.length}
+        verdict={verdictFor(doneCount, rows.length)}
+        squares={done}
+        onPlayAgain={onAgain}
+        playAgainLabel="Play again"
+        onChangeSettings={onSettings}
+        settingsLabel="Another list"
+      >
+        <ol className="list-rows">
+          {rows.map((r, i) => (
+            <AnswerRow key={`${r.name}-${r.from}-${i}`} as="li" state={done[i] ? 'got' : 'missed'} lead={clueOf(r)}>
+              <span className="list-answer">{done[i] ? <Check size={16} aria-hidden="true" /> : null} {r.name}</span>
+            </AnswerRow>
+          ))}
+        </ol>
+      </GameResults>
+    );
+  }
+
   return (
-    <div className="card names-game">
-      <div className="progress-text">
-        <span className="names-title">{round.title} <small>({round.rangeLabel})</small></span>
-        <span className="score-pill">{doneCount}/{rows.length}</span>
-      </div>
-
+    <GameBoard
+      data-section="weekend"
+      title={round.title}
+      subtitle={round.rangeLabel}
+      score={`${doneCount}/${rows.length}`}
+      footer={<Button variant="tertiary" icon="Flag" onClick={() => finish(done)}>Give up and reveal</Button>}
+    >
       <ol className="list-rows">
-        {rows.map((r, i) => {
-          const show = done[i] || over;
-          return (
-            <li key={`${r.name}-${r.from}-${i}`} className={`list-row ${done[i] ? 'got' : over ? 'missed' : ''} ${wrong === i ? 'wrong' : ''}`}>
-              <span className="list-clue">
-                {r.number ? <strong>{ordinal(r.number)}</strong> : null}
-                <span>{r.from}–{r.to ?? 'now'}</span>
-              </span>
-              {show ? (
-                <span className="list-answer">{done[i] ? <Check size={16} /> : null} {r.name}</span>
-              ) : (
-                <input
-                  ref={(el) => (inputs.current[i] = el)}
-                  className="list-input"
-                  value={values[i]}
-                  placeholder={easy ? initials[i] : ''}
-                  aria-label={`${r.number ? ordinal(r.number) + ', ' : ''}${r.from} to ${r.to ?? 'now'}`}
-                  autoComplete="off"
-                  spellCheck="false"
-                  autoFocus={i === 0}
-                  onChange={(e) => {
-                    const v = e.target.value;
-                    setValues((vs) => vs.map((x, j) => (j === i ? v : x)));
-                    if (wrong === i) setWrong(null);
-                    if (hint?.row === i) setHint(null);
-                    check(i, v, { exact: true });
-                  }}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') check(i);
-                  }}
-                  onBlur={() => values[i].trim() && check(i)}
-                />
-              )}
-              {hint?.row === i && !show && <span className="list-hint">{hint.text}</span>}
-            </li>
-          );
-        })}
+        {rows.map((r, i) => (
+          <AnswerRow
+            key={`${r.name}-${r.from}-${i}`}
+            as="li"
+            state={done[i] ? 'got' : wrong === i ? 'wrong' : 'pending'}
+            lead={clueOf(r)}
+          >
+            {done[i] ? (
+              <span className="list-answer"><Check size={16} aria-hidden="true" /> {r.name}</span>
+            ) : (
+              <TextInput
+                ref={(el) => (inputs.current[i] = el)}
+                className="list-input"
+                value={values[i]}
+                placeholder={easy ? initials[i] : ''}
+                label={`${r.number ? ordinal(r.number) + ', ' : ''}${r.from} to ${r.to ?? 'now'}`}
+                autoFocus={i === 0}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setValues((vs) => vs.map((x, j) => (j === i ? v : x)));
+                  if (wrong === i) setWrong(null);
+                  if (hint?.row === i) setHint(null);
+                  check(i, v, { exact: true });
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') check(i);
+                }}
+                onBlur={() => values[i].trim() && check(i)}
+              />
+            )}
+            {hint?.row === i && <span className="list-hint" role="status">{hint.text}</span>}
+          </AnswerRow>
+        ))}
       </ol>
-
-      <div className="actions-bar centered">
-        {!over ? (
-          <button className="btn btn-ghost" onClick={() => finish(done)}>
-            <GiveUp size={16} /> Give up and reveal
-          </button>
-        ) : (
-          <>
-            <button className="btn btn-primary" onClick={onAgain} autoFocus><RotateCcw size={18} /> Again</button>
-            <button className="btn btn-ghost" onClick={onSettings}><Eye size={16} /> Another list</button>
-          </>
-        )}
-      </div>
-    </div>
+    </GameBoard>
   );
 }

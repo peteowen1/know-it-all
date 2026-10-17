@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { ArrowDown, ArrowUp, CalendarDays, RotateCcw, Shuffle } from 'lucide-react';
+import { ArrowDown, ArrowUp } from 'lucide-react';
 import data from '../../data/timeline.json';
 import { buildRound, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
-import { Chip, SetupRow } from '../geo/CountryQuiz';
-
-const KIND_ICON = { music: '🎵', film: '🎬', oscars: '🏆', tv: '📺', leaders: '🏛️', people: '👶' };
+import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow } from '../../components/ui';
+import { GameSetup } from '../shared/Play';
+import { verdictFor } from '../shared/verdict';
+import KindIcon from '../shared/KindIcon';
 
 /**
  * Timeline: put five events in order, oldest at the top. Scored on how many of
@@ -26,28 +27,30 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
 
   if (!round) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Timeline</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
-        </div>
-        <p className="game-record">
-          Five events. Put them in order, oldest at the top. Every pair you have the right way round scores.
-          {entry.plays ? ` ${entry.plays} played · best ${entry.bestPct}%.` : ''}
-        </p>
-        <SetupRow label="Difficulty">
+      <GameSetup
+        title="Timeline"
+        section="lab"
+        onExit={onExit}
+        record={
+          <>
+            Five events. Put them in order, oldest at the top. Every pair you have the right way round scores.
+            {entry.plays ? ` ${entry.plays} played · best ${entry.bestPct}%.` : ''}
+          </>
+        }
+        note={`${data.events.length} events: number-one songs and films, Best Picture and Emmy winners, leaders taking office, and famous births.`}
+      >
+        <SetupRow
+          label="Difficulty"
+          caption={difficulty === 'easy' ? 'The five years are well apart.' : 'All five events fall within 12 years of each other.'}
+        >
           <Chip active={difficulty === 'easy'} onClick={() => setDifficulty('easy')}>Easy: years well apart</Chip>
           <Chip active={difficulty === 'hard'} onClick={() => setDifficulty('hard')}>Hard: all within 12 years</Chip>
         </SetupRow>
-        <div className="actions-bar">
-          <button className="btn btn-primary" onClick={() => start(true)}><CalendarDays size={18} /> Today's timeline</button>
-          <button className="btn btn-ghost" onClick={() => start(false)}><Shuffle size={18} /> Random</button>
+        <div className="setup-actions">
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's timeline</Button>
+          <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
-        <p className="game-record small">
-          {data.events.length} events: number-one songs and films, Best Picture and Emmy winners, leaders taking
-          office, and famous births.
-        </p>
-      </div>
+      </GameSetup>
     );
   }
 
@@ -66,65 +69,68 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
   };
   const truth = [...order].sort((a, b) => a.year - b.year);
 
-  return (
-    <div className="card names-game">
-      <div className="progress-text">
-        <span className="names-title">{round.daily ? "Today's timeline" : 'Timeline'}</span>
-        <span className="score-pill">{checked ? `${round.score.correct}/${round.score.total} pairs` : 'Oldest at the top'}</span>
-      </div>
+  const title = round.daily ? "Today's timeline" : 'Timeline';
 
+  if (checked) {
+    const { correct, total } = round.score;
+    return (
+      <GameResults
+        data-section="lab"
+        eyebrow={`${title} · pairs the right way round`}
+        hero={`${correct} / ${total}`}
+        score={correct}
+        total={total}
+        verdict={
+          correct <= 1
+            ? 'Looks like newest-first. Oldest goes at the top; flipped, that would be ' + (total - correct) + '/' + total + '.'
+            : verdictFor(correct, total)
+        }
+        squares={order.map((e, i) => truth[i] === e)}
+        celebrate={correct === total}
+        onPlayAgain={() => start(false)}
+        playAgainLabel="Another"
+        onChangeSettings={() => setRound(null)}
+      >
+        <h3 className="eyebrow">Right order</h3>
+        <ol className="tl-list">
+          {truth.map((e, i) => (
+            <AnswerRow key={e.text} as="li" state={order[i] === e ? 'got' : 'missed'} lead={<strong>{e.year}</strong>}>
+              <span className="tl-text">{e.text}</span>
+            </AnswerRow>
+          ))}
+        </ol>
+      </GameResults>
+    );
+  }
+
+  return (
+    <GameBoard
+      data-section="lab"
+      title={title}
+      subtitle="Oldest at the top"
+      footer={<Button variant="primary" onClick={check}>Check order</Button>}
+    >
       {/* Direction labels on the list itself: a note in the corner was missed,
           and a fully reversed order scores 1 of 10 with no clue why. */}
-      <div className="tl-end">▲ Oldest</div>
+      <p className="tl-end"><ArrowUp size={14} aria-hidden="true" /> Oldest</p>
       <ol className="tl-list">
-        {order.map((e, i) => {
-          const right = checked && truth[i] === e;
-          return (
-            <li key={e.text} className={`tl-card ${checked ? (right ? 'got' : 'missed') : ''}`}>
-              <span className="tl-icon" aria-hidden="true">{KIND_ICON[e.kind]}</span>
-              <span className="tl-text">
-                {e.text}
-                {checked && <strong className="tl-year">{e.year}</strong>}
+        {order.map((e, i) => (
+          <AnswerRow
+            key={e.text}
+            as="li"
+            lead={<KindIcon kind={e.kind} />}
+            trail={
+              <span className="tl-moves">
+                <button type="button" className="tl-move" onClick={() => move(i, -1)} disabled={i === 0} aria-label={`Move earlier: ${e.text}`}><ArrowUp size={18} aria-hidden="true" /></button>
+                <button type="button" className="tl-move" onClick={() => move(i, 1)} disabled={i === order.length - 1} aria-label={`Move later: ${e.text}`}><ArrowDown size={18} aria-hidden="true" /></button>
               </span>
-              {!checked && (
-                <span className="tl-moves">
-                  <button className="btn btn-ghost tl-move" onClick={() => move(i, -1)} disabled={i === 0} aria-label="Move earlier"><ArrowUp size={16} /></button>
-                  <button className="btn btn-ghost tl-move" onClick={() => move(i, 1)} disabled={i === order.length - 1} aria-label="Move later"><ArrowDown size={16} /></button>
-                </span>
-              )}
-            </li>
-          );
-        })}
+            }
+          >
+            <span className="tl-text">{e.text}</span>
+          </AnswerRow>
+        ))}
       </ol>
-      <div className="tl-end">▼ Newest</div>
-
-      {/* 0 or 1 of 10 is only reachable from a reversed list (at most one pair
-          out of place); 2 can also be a genuine muddle, so the hint stops at 1. */}
-      {checked && round.score.correct <= 1 && (
-        <p className="names-msg meh">Looks like newest-first. Oldest goes at the top; flipped, that was {round.score.total - round.score.correct}/{round.score.total}.</p>
-      )}
-      {checked && round.score.correct < round.score.total && (
-        <div className="tl-truth">
-          <p className="game-record">Right order</p>
-          {/* Years alone ("2017 → 2019") did not say which card was which. */}
-          <ol>
-            {truth.map((e) => (
-              <li key={e.text}><strong>{e.year}</strong> {e.text}</li>
-            ))}
-          </ol>
-        </div>
-      )}
-
-      <div className="actions-bar centered">
-        {!checked ? (
-          <button className="btn btn-primary" onClick={check}>Check order</button>
-        ) : (
-          <>
-            <button className="btn btn-primary" onClick={() => start(false)} autoFocus><RotateCcw size={18} /> Another</button>
-            <button className="btn btn-ghost" onClick={() => setRound(null)}>Settings</button>
-          </>
-        )}
-      </div>
-    </div>
+      <p className="tl-end"><ArrowDown size={14} aria-hidden="true" /> Newest</p>
+    </GameBoard>
   );
 }

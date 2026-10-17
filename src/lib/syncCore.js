@@ -7,16 +7,17 @@
 // reappear on the laptop.
 
 import { mergeProgress } from './transfer.js';
+import { STORAGE_PREFIX, storageKey } from './storage.js';
 
-// Everything the app saves starts with this. Keys outside it (the sync
+// Everything the app saves starts with STORAGE_PREFIX. Keys outside it (the sync
 // bookkeeping itself, anything a browser extension adds) never leave the device.
-export const SYNC_PREFIX = 'sqt_v4_';
 
 // Which screen is open is about this device, not about your progress: syncing
 // it would yank the laptop to whatever tab the phone was last on.
-const LOCAL_ONLY = new Set(['sqt_v4_live_tab']);
+const LOCAL_ONLY = new Set([storageKey('live_tab')]);
 
-export const KEY_PATTERN = /^sqt_v4_[A-Za-z0-9_.-]{1,80}$/;
+const escapeRegExp = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const KEY_PATTERN = new RegExp(`^${escapeRegExp(STORAGE_PREFIX)}[A-Za-z0-9_.-]{1,80}$`);
 export const isSyncedKey = (k) => KEY_PATTERN.test(k) && !LOCAL_ONLY.has(k);
 
 /** Keys whose current value differs from the last value both sides agreed on. */
@@ -48,8 +49,13 @@ export function planPull(server, localUpdated, current) {
 
 // The keys that together are "your progress" in the sense mergeProgress
 // understands, mapped to its field names.
-const PROFILE = { stats: 'sqt_v4_stats', vault: 'sqt_v4_missed', recentIds: 'sqt_v4_recent', games: 'sqt_v4_games' };
-const WEEKLY = 'sqt_v4_weekly';
+const PROFILE = {
+  stats: storageKey('stats'),
+  vault: storageKey('missed'),
+  recentIds: storageKey('recent'),
+  games: storageKey('games')
+};
+const WEEKLY = storageKey('weekly');
 
 const parse = (raw, fallback) => {
   try {

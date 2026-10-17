@@ -1,4 +1,4 @@
-import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY } from '../data/questionBank.js';
+import { ALL_QUESTIONS, QUESTIONS_BY_CATEGORY, getQuestion } from '../data/questionBank.js';
 import { CATEGORY_LIST } from '../data/categories.js';
 import { hashString, makeRng, shuffle } from './rng.js';
 import { localDateKey } from './dates.js';
@@ -129,7 +129,7 @@ export function buildDailyQuiz(count = 5, dateKey = localDateKey()) {
 export function buildRevisionQuiz(questionIds, seed = Date.now()) {
   const rng = makeRng(hashString(String(seed)));
   const questions = shuffle(
-    questionIds.map((id) => ALL_QUESTIONS.find((q) => q.id === id)).filter(Boolean),
+    questionIds.map((id) => getQuestion(id)).filter(Boolean),
     rng
   );
   return { seed, questions: questions.map((q) => materialise(q, seed)) };
@@ -144,7 +144,7 @@ export function buildRevisionQuiz(questionIds, seed = Date.now()) {
  * so a link still works after a question has been removed from the bank.
  */
 export function buildChallengeQuiz(ids, seed) {
-  const questions = ids.map((id) => ALL_QUESTIONS.find((q) => q.id === id)).filter(Boolean);
+  const questions = ids.map((id) => getQuestion(id)).filter(Boolean);
   return {
     seed,
     questions: questions.map((q) => materialise(q, seed)),

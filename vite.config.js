@@ -11,7 +11,8 @@ export default defineConfig({
   // it so /api reaches the Worker on :8787 (its .dev.vars allows this origin).
   server: { proxy: { '/api': 'http://localhost:8787' } },
   build: {
-    chunkSizeWarningLimit: 800,
+    // The question bank chunk (about 810 kB) loads when a quiz first opens, not at startup.
+    chunkSizeWarningLimit: 900,
     // flag-icons ships ~540 SVGs. Vite inlines any asset under 4 kB into the CSS
     // as a data URI, which put ~400 kB of flags nobody had asked for into the
     // first page load. Kept as files, each flag downloads only when shown.

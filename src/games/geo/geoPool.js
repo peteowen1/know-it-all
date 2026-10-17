@@ -5,7 +5,7 @@
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 
 // Look-alike score at or above which two flags render the same.
-export const IDENTICAL = 0.99;
+const IDENTICAL = 0.99;
 
 export const REGIONS = ['World', 'Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
 

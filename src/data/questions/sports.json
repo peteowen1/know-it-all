@@ -1039,15 +1039,15 @@
     "id": "spt_075",
     "category": "sports",
     "difficulty": "medium",
-    "question": "How many players are on a volleyball team on court?",
-    "answer": "Six",
+    "question": "Which specialist player on an indoor volleyball team wears a different-coloured shirt and cannot attack the ball above net height?",
+    "answer": "The libero",
     "distractors": [
-      "Five",
-      "Seven",
-      "Four"
+      "The setter",
+      "The middle blocker",
+      "The outside hitter"
     ],
-    "explanation": "Beach volleyball uses two per side. Indoor teams have a libero, a defensive specialist in a different-coloured shirt who cannot attack the ball above net height.",
-    "hook": "Six indoors, two on the sand, and one of the six wears a different shirt."
+    "explanation": "Six players are on court for each side indoors, while beach volleyball uses two per side. The libero is a defensive specialist who can replace any back-row player without a substitution being counted.",
+    "hook": "One of the six on court wears a different shirt: the libero."
   },
   {
     "id": "spt_076",
@@ -1477,8 +1477,8 @@
     "answer": "Greater Western Sydney Giants",
     "distractors": [
       "Gold Coast Suns",
-      "Port Adelaide",
-      "Fremantle"
+      "Western Bulldogs",
+      "West Coast Eagles"
     ],
     "explanation": "The Gold Coast Suns joined in 2011 as the seventeenth, and both received draft concessions to build lists from scratch. The Tasmania Devils are due to join as the nineteenth club in 2028.",
     "hook": "Gold Coast 2011, GWS 2012, Tasmania 2028."
@@ -1690,7 +1690,7 @@
       "Josh Hazlewood",
       "Pat Cummins"
     ],
-    "explanation": "The off-spinner joined Shane Warne and Glenn McGrath as the only Australians past 500. He had passed 560 by 2026, the most by any off-spinner except Muttiah Muralitharan.",
+    "explanation": "The off-spinner joined Shane Warne and Glenn McGrath as the only Australians past 500. As of 2026 he had passed 560, the most by any off-spinner except Muttiah Muralitharan.",
     "hook": "Warne, McGrath, then Lyon: Australia's three 500-wicket bowlers."
   },
   {

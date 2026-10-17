@@ -21,6 +21,17 @@ export const INTERVALS = [1, 3, 7, 21, 60];
 // Clearing the last box graduates the question out of the vault entirely.
 export const GRADUATED_BOX = INTERVALS.length;
 
+/**
+ * The schedule as copy, built from the intervals so the text can never drift
+ * from the numbers: [1, 3, 7, 21, 60] gives "1, 3, 7, 21 and 60 days".
+ */
+export function formatIntervals(intervals = INTERVALS) {
+  const days = (n) => `${n} ${n === 1 ? 'day' : 'days'}`;
+  if (intervals.length === 0) return '';
+  if (intervals.length === 1) return days(intervals[0]);
+  return `${intervals.slice(0, -1).join(', ')} and ${days(intervals[intervals.length - 1])}`;
+}
+
 export function newEntry(id, today = localDateKey()) {
   return { id, box: 0, due: addDaysToKey(today, INTERVALS[0]), lapses: 0, reps: 0, added: today };
 }
@@ -107,7 +118,7 @@ export function promote(entry, today = localDateKey()) {
 }
 
 /** Wrong answer. Back to the start, and count the lapse. */
-export function demote(entry, today = localDateKey()) {
+function demote(entry, today = localDateKey()) {
   return {
     ...entry,
     box: 0,

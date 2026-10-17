@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, Download, Check, AlertCircle } from 'lucide-react';
 import { exportProgress, importProgress, mergeProgress } from '../lib/transfer';
+import { Button, Card } from './ui';
 
 /**
  * Move progress between devices.
@@ -25,7 +26,7 @@ export default function ProgressTransfer({ profile, onImport }) {
     } catch {
       // Clipboard access is refused in some browsers without a user gesture, or
       // over plain http. The textarea below is selectable, so the manual path
-      // still works — tell the user rather than appearing to do nothing.
+      // still works, so tell the user rather than appearing to do nothing.
       setStatus({ ok: false, message: 'Could not reach the clipboard. Select the code and copy it manually.' });
     }
   };
@@ -59,9 +60,9 @@ export default function ProgressTransfer({ profile, onImport }) {
   };
 
   return (
-    <div className="category-heatmap-card">
+    <Card className="transfer">
       <h3>Move progress between devices</h3>
-      <p className="empty-sub">
+      <p className="transfer-intro">
         Signed in with Google, your devices sync on their own and you do not need this. Without
         signing in, copy this code on one device and paste it on the other to combine them.
         Importing merges and never overwrites, but it adds the two together, so do not use it
@@ -70,20 +71,21 @@ export default function ProgressTransfer({ profile, onImport }) {
 
       <div className="transfer-grid">
         <div className="transfer-block">
-          <span className="setup-group-label">
-            <Download size={14} /> This device's code
-          </span>
-          <textarea className="transfer-box" readOnly value={myCode} rows={3} onFocus={(e) => e.target.select()} />
-          <button className="btn btn-ghost" onClick={copy}>
-            {copied ? <><Check size={16} /> Copied</> : 'Copy code'}
-          </button>
+          <label className="setup-group-label" htmlFor="transfer-mine">
+            <Download size={14} aria-hidden="true" /> This device's code
+          </label>
+          <textarea id="transfer-mine" className="transfer-box" readOnly value={myCode} rows={3} onFocus={(e) => e.target.select()} />
+          <Button variant="secondary" onClick={copy}>
+            {copied ? <><Check size={16} aria-hidden="true" /> Copied</> : 'Copy code'}
+          </Button>
         </div>
 
         <div className="transfer-block">
-          <span className="setup-group-label">
-            <Upload size={14} /> Paste a code from another device
-          </span>
+          <label className="setup-group-label" htmlFor="transfer-paste">
+            <Upload size={14} aria-hidden="true" /> Paste a code from another device
+          </label>
           <textarea
+            id="transfer-paste"
             className="transfer-box"
             value={code}
             rows={3}
@@ -91,17 +93,17 @@ export default function ProgressTransfer({ profile, onImport }) {
             placeholder="Paste the code here"
             onChange={(e) => setCode(e.target.value)}
           />
-          <button className="btn btn-primary" onClick={doImport} disabled={!code.trim()}>
+          <Button variant="primary" onClick={doImport} disabled={!code.trim()}>
             Merge it in
-          </button>
+          </Button>
         </div>
       </div>
 
       {status && (
-        <p className={`transfer-status ${status.ok ? 'ok' : 'bad'}`}>
-          {status.ok ? <Check size={14} /> : <AlertCircle size={14} />} {status.message}
+        <p className={`transfer-status ${status.ok ? 'ok' : 'bad'}`} role="status">
+          {status.ok ? <Check size={14} aria-hidden="true" /> : <AlertCircle size={14} aria-hidden="true" />} {status.message}
         </p>
       )}
-    </div>
+    </Card>
   );
 }

@@ -16,8 +16,9 @@
 // Built at build time rather than hand-written, because the hand-written PM
 // deck this replaces stopped at Gillard.
 
-import { writeFileSync, mkdirSync } from 'node:fs';
 import { UA } from './lib/wikitable.mjs';
+import { finishAccepts } from './lib/listAccept.mjs';
+import { writeData } from './lib/output.mjs';
 
 const OFFICES = {
   // Australia numbers a person once, so a term missing its number can take
@@ -50,7 +51,7 @@ const api = async (params) => {
 const year = (t) => (t ? Number(t.slice(1, 5)) : null);
 const qual = (claim, p) => (claim.qualifiers?.[p] || []).map((v) => v.datavalue?.value)[0];
 
-const out = { builtAt: new Date().toISOString().slice(0, 10), lists: {} };
+const out = { lists: {} };
 for (const [key, { office, title, min, requireNumber = false, since = 0, numbered = true, numberPerPerson = false }] of Object.entries(OFFICES)) {
   const found = await api({ action: 'query', list: 'search', srsearch: `haswbstatement:P39=${office}`, srlimit: 500, srprop: '' });
   const ids = found.query.search.map((r) => r.title);
@@ -115,9 +116,8 @@ for (const [key, { office, title, min, requireNumber = false, since = 0, numbere
   console.log(`${key}: ${people} people, ${terms.length} terms; last: ${terms.at(-1).name} (${terms.at(-1).from}-${terms.at(-1).to ?? 'now'})`);
   if (unnumbered.length) console.log(`  no official number: ${unnumbered.join(', ')}`);
   if (people < min) throw new Error(`${key}: only ${people} people, expected ${min}+`);
-  out.lists[key] = { title, terms: terms.map(({ start: _start, id: _id, ...t }) => t) };
+  // Add the forms Wikidata lacks and make sure no answer fits two people.
+  out.lists[key] = { title, terms: finishAccepts(terms.map(({ start: _start, id: _id, ...t }) => t)) };
 }
 
-mkdirSync('src/data', { recursive: true });
-writeFileSync('src/data/lists.json', JSON.stringify(out));
-console.log('wrote src/data/lists.json');
+writeData('lists.json', out);

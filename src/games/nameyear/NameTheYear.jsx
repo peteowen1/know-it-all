@@ -1,13 +1,12 @@
 import React from 'react';
-import { ArrowRight, CalendarDays, RotateCcw, Shuffle } from 'lucide-react';
 import data from '../../data/timeline.json';
 import { buildYearRounds, yearPoints, ROUNDS } from './nameYearLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
-import { Chip, SetupRow } from '../geo/CountryQuiz';
-
-const KIND_ICON = { music: '🎵', film: '🎬', oscars: '🏆', tv: '📺', leaders: '🏛️', people: '👶' };
+import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow, TextInput } from '../../components/ui';
+import { GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
+import KindIcon from '../shared/KindIcon';
 
 /**
  * Name the year: three clues from the same year, five rounds, 10 points for
@@ -26,24 +25,29 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
 
   if (!game) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Name the year</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
-        </div>
-        <p className="game-record">
-          Three clues from one year. Exact year scores 10, two fewer for every year out. {ROUNDS} rounds.
-          {entry.plays ? ` ${entry.plays} played · best ${entry.best}/${ROUNDS * 10}.` : ''}
-        </p>
-        <SetupRow label="Answer">
+      <GameSetup
+        title="Name the year"
+        section="lab"
+        onExit={onExit}
+        record={
+          <>
+            Three clues from one year. Exact year scores 10, two fewer for every year out. {ROUNDS} rounds.
+            {entry.plays ? ` ${entry.plays} played · best ${entry.best}/${ROUNDS * 10}.` : ''}
+          </>
+        }
+      >
+        <SetupRow
+          label="Answer"
+          caption={answerMode === 'choice' ? 'Pick the year from four options.' : 'Type the year yourself.'}
+        >
           <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>Easy: pick from four years</Chip>
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: type the year</Chip>
         </SetupRow>
-        <div className="actions-bar">
-          <button className="btn btn-primary" onClick={() => start(true)}><CalendarDays size={18} /> Today's five</button>
-          <button className="btn btn-ghost" onClick={() => start(false)}><Shuffle size={18} /> Random</button>
+        <div className="setup-actions">
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's five</Button>
+          <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
-      </div>
+      </GameSetup>
     );
   }
 
@@ -52,27 +56,36 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
 
   if (index >= rounds.length) {
     return (
-      <div className="card game-results">
-        <h2>{total} / {rounds.length * 10}</h2>
-        <div className="ny-summary">
-          {rounds.map((r, i) => (
-            <div key={r.year} className="ny-sum-block">
-              <div className="ny-sum-row">
-                <strong>{r.year}</strong>
-                <span>you said {guesses[i]} · {yearPoints(guesses[i], r.year)} pts</span>
-              </div>
+      <GameResults
+        data-section="lab"
+        eyebrow="Name the year"
+        score={total}
+        total={rounds.length * 10}
+        verdict={total >= rounds.length * 8 ? 'You know your years.' : total >= rounds.length * 4 ? 'Close more often than not.' : 'The years are below. Each one has its clues.'}
+        squares={guesses.map((g, i) => yearPoints(g, rounds[i].year) > 0)}
+        celebrate={total === rounds.length * 10}
+        onPlayAgain={() => start(false)}
+        playAgainLabel="Another five"
+        onChangeSettings={() => setGame(null)}
+        settingsLabel="Back"
+      >
+        {rounds.map((r, i) => {
+          const p = yearPoints(guesses[i], r.year);
+          return (
+            <AnswerRow
+              key={r.year}
+              state={p === 10 ? 'got' : p > 0 ? 'pending' : 'missed'}
+              lead={<strong>{r.year}</strong>}
+              trail={`you said ${guesses[i]} · ${p} pts`}
+            >
               {/* The clues, so the result teaches which events belong to the year. */}
               <ul className="ny-sum-clues">
                 {r.clues.map((c) => <li key={c.text}>{c.text}</li>)}
               </ul>
-            </div>
-          ))}
-        </div>
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={() => start(false)}><RotateCcw size={18} /> Another five</button>
-          <button className="btn btn-ghost" onClick={() => setGame(null)}>Back</button>
-        </div>
-      </div>
+            </AnswerRow>
+          );
+        })}
+      </GameResults>
     );
   }
 
@@ -91,59 +104,54 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
   const pts = answered ? yearPoints(guesses[index], r.year) : null;
 
   return (
-    <div className="card geo-question">
-      <div className="progress-text">
-        <span>Year {index + 1} of {rounds.length}</span>
-        <span className="score-pill">{total} pts</span>
-      </div>
+    <GameCard data-section="lab">
+      <PlayHead left={`Year ${index + 1} of ${rounds.length}`}>
+        <Pill variant="accent">{total} pts</Pill>
+      </PlayHead>
       <ul className="ny-clues">
         {r.clues.map((c) => (
-          <li key={c.text}><span aria-hidden="true">{KIND_ICON[c.kind]}</span> {c.text}</li>
+          <AnswerRow key={c.text} as="li" lead={<KindIcon kind={c.kind} />}>{c.text}</AnswerRow>
         ))}
       </ul>
 
       {!answered && answerMode === 'choice' && (
-        <div className="options-grid">
-          {r.options.map((y) => (
-            <button key={y} className="option-btn" onClick={() => guess(y)}>
-              <span className="option-label">{y}</span>
-            </button>
+        <OptionGrid>
+          {r.options.map((y, i) => (
+            <Option key={y} letter={'ABCD'[i]} onClick={() => guess(y)}>{y}</Option>
           ))}
-        </div>
+        </OptionGrid>
       )}
       {!answered && answerMode !== 'choice' && (
         <form
-          className="names-input-row"
+          className="board-form"
           onSubmit={(e) => {
             e.preventDefault();
             guess(game.input);
           }}
         >
-          <input
+          <TextInput
             autoFocus
             inputMode="numeric"
             maxLength={4}
             value={game.input}
             onChange={(e) => setGame({ ...game, input: e.target.value.replace(/\D/g, '') })}
             placeholder="Year…"
-            aria-label="Your year"
+            label="Your year"
           />
-          <button className="btn btn-primary" type="submit" disabled={game.input.length !== 4}>Guess</button>
+          <Button variant="primary" type="submit" disabled={game.input.length !== 4}>Guess</Button>
         </form>
       )}
 
       {answered && (
         <>
-          <p className={`ny-verdict ${pts === 10 ? 'good' : pts > 0 ? 'meh' : 'bad'}`}>
+          <p className="play-verdict" data-tone={pts === 10 ? 'good' : pts > 0 ? 'meh' : 'bad'} role="status">
             {r.year}. You said {guesses[index]}: {pts} point{pts === 1 ? '' : 's'}.
           </p>
-          <div className="next-action-bar">
-            <button className="btn btn-primary next-btn" autoFocus onClick={() => setGame({ ...game, index: index + 1, input: '' })}>
-              {index < rounds.length - 1 ? 'Next year' : 'Results'} <ArrowRight size={18} />
-            </button>
-          </div>
+          <NextBar onClick={() => setGame({ ...game, index: index + 1, input: '' })}>
+            {index < rounds.length - 1 ? 'Next year' : 'Results'}
+          </NextBar>
         </>
       )}
-    </div>
+    </GameCard>
   );
 }
