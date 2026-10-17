@@ -99,6 +99,7 @@ test('generic words can be left off', () => {
   assert.ok(guessIsRight('gum', 'The gum tree'));
   assert.ok(guessIsRight('Everest', 'Mount Everest'));
   assert.ok(guessIsRight('pacific', 'Pacific Ocean'));
+  assert.ok(guessIsRight('coolibah', 'A coolibah tree'));
   assert.ok(!guessIsRight('tree', 'The gum tree'));
   assert.ok(!guessIsRight('wattle', 'The gum tree', ['The wattle', 'The boab', 'The banksia']));
 });

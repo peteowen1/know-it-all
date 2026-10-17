@@ -137,7 +137,7 @@ const GENERIC = new Set(['tree', 'trees', 'river', 'mount', 'mountain', 'mountai
 function shortForms(answer) {
   const out = new Set();
   for (const f of acceptedForms(answer)) {
-    const words = dropThe(f).split(' ');
+    const words = dropThe(f).replace(/^an? /, '').split(' ');
     const kept = words.filter((w) => !GENERIC.has(w));
     if (kept.length && kept.length < words.length) out.add(kept.join(' '));
   }
