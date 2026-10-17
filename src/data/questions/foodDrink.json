@@ -4119,14 +4119,14 @@
     "id": "fd_296",
     "category": "food_drink",
     "difficulty": "medium",
-    "question": "Which company, now called Suntory, opened Yamazaki, Japan's first commercial malt whisky distillery, near Kyoto in 1923?",
+    "question": "Which company, founded by Shinjiro Torii, opened Yamazaki, Japan's first commercial malt whisky distillery, near Kyoto in 1923?",
     "answer": "Suntory",
     "distractors": [
       "Nikka",
       "Kirin",
       "Sapporo"
     ],
-    "explanation": "Founder Shinjiro Torii hired Masataka Taketsuru, who had trained in Scotland. Taketsuru later left to found Nikka, whose first distillery at Yoichi in Hokkaido opened in 1934.",
+    "explanation": "Torii hired Masataka Taketsuru, who had trained in Scotland. Taketsuru later left to found Nikka, whose first distillery at Yoichi in Hokkaido opened in 1934.",
     "hook": "Suntory started Japanese malt, Nikka grew from its pupil."
   },
   {
