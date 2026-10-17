@@ -1,7 +1,7 @@
 {
   "total": 4753,
   "byCategory": {
-    "aus_history": 485,
+    "aus_history": 438,
     "geography": 482,
     "science": 491,
     "arts_lit": 490,
@@ -10,7 +10,7 @@
     "sports": 459,
     "pop_culture": 474,
     "food_drink": 473,
-    "world_leaders": 442
+    "world_leaders": 489
   },
   "byDifficulty": {
     "easy": 1338,
