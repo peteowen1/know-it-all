@@ -4,15 +4,20 @@ Trivia training, live at https://quiz.peteowen.dev (formerly Saturday Quiz
 Trainer; the old https://peteowen1.github.io/know-it-all/ address hands progress
 over and redirects). The home screen lists every game, played or planned:
 
-- **Weekend quiz**: 1,500 general-knowledge questions across ten categories,
-  each with an explanation and a memory hook, plus a revision vault and
-  flashcard decks.
+- **Weekend quiz**: 4,753 general-knowledge questions across ten categories,
+  each with an explanation and a memory hook, plus the Saturday paper, the
+  Daily five, Fill the list, a revision vault and flashcard decks.
 - **Geography**: flags (normal or look-alike wrong answers), capitals, and
   population higher-or-lower.
 - **Pop culture**: famous first names, and chart toppers, films (box office and
   Best Picture) and TV (Emmys and Globes) by year or decade.
-- **Lab**: Four by four (Connections-style) and Fill the list (PMs and
-  presidents in order).
+- **Words**: Word play (vocabulary).
+- **Lab**: Four by four (Connections-style), Timeline, Name the year,
+  Obscure-est, Missing link, Clue ladder, Twin flags and Scramble.
+
+Every screen has its own address (`/clue-ladder`, `/daily-five`; the list is in
+`src/lib/route.js`), one level deep because the build loads its files by
+relative path.
 
 Each data set is rebuilt by a script in `scripts/` (`npm run data:*`) from
 Wikipedia, Wikidata or the World Bank, so nothing time-sensitive is typed by hand.
@@ -86,7 +91,7 @@ enforces both, along with a blocklist of template phrases.
 - **`src/lib/dates.js`** — local calendar days. Streaks and the daily quiz must
   not use `toISOString()`: it is UTC, which would roll the day over at 10-11am
   in Australia rather than at midnight.
-- **`src/data/questionBank.js`** — loads and indexes the eight JSON files.
+- **`src/data/questionBank.js`** — loads and indexes the ten JSON files.
 
 Everything persists to `localStorage` under a versioned key prefix (`sqt_v4_*`).
 Bumping the version changes the prefix, so entries written by an older schema are
