@@ -96,7 +96,9 @@ export function markDirty(key) {
   if (!meta.email || applying) return;
   if (key) {
     meta.touched[key] = Date.now();
-    saveMeta();
+    // Mid sign-in, meta holds the email but an empty shadow; saving it now would
+    // let a reload push every local key over the account's. Sign-in saves it.
+    if (!signingIn) saveMeta();
   }
   clearTimeout(pushTimer);
   pushTimer = setTimeout(() => push(), PUSH_DELAY_MS);
@@ -213,6 +215,25 @@ function remount() {
 
 /** Called with the credential from Google's sign-in button. */
 export async function signInWithGoogle(credential) {
+  // Google's callback can fire twice; a second merge on top of the first would
+  // add the totals together again.
+  if (signingIn) return;
+  // push() refuses to run until the merge is done: before then it would send
+  // every local key as the newest copy over the account's.
+  signingIn = true;
+  try {
+    await signInAndMerge(credential);
+  } finally {
+    signingIn = false;
+  }
+  // Remount BEFORE the push awaits: the app still holds the pre-merge values in
+  // memory, and any save it made during the network wait would overwrite the
+  // merge in storage and then be pushed as the newest copy.
+  remount();
+  await push();
+}
+
+async function signInAndMerge(credential) {
   const res = await fetch('/api/auth/google', {
     method: 'POST',
     credentials: 'same-origin',
@@ -226,7 +247,6 @@ export async function signInWithGoogle(credential) {
   // device stays signed out rather than holding an empty shadow that the next
   // save would push over the account's newer copies.
   meta = { ...blankMeta(), email };
-  signingIn = true;
   setStatus('syncing');
 
   try {
@@ -249,15 +269,8 @@ export async function signInWithGoogle(credential) {
     saveMeta();
     setStatus('signed-out');
     throw err;
-  } finally {
-    signingIn = false;
   }
   saveMeta();
-  // Remount BEFORE the push awaits: the app still holds the pre-merge values in
-  // memory, and any save it made during the network wait would overwrite the
-  // merge in storage and then be pushed as the newest copy.
-  remount();
-  await push();
 }
 
 export async function signOut() {
