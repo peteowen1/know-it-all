@@ -11,6 +11,7 @@ import { localDateKey, previousDateKey } from './lib/dates';
 import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
 import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
 import { pathForTab, tabForPath } from './lib/route';
+import { OLD_HOST } from './lib/syncConfig';
 
 // Every screen is loaded on first open. The quiz screens share the question
 // bank (about 900 kB) and the games carry their own datasets, so none of that
@@ -90,12 +91,17 @@ const restoreQuiz = (name, builder) => {
   return built.questions.length ? built : null;
 };
 
+// The old GitHub Pages copy is served from /know-it-all/, not a domain root,
+// so it keeps one address and never rewrites it (it normally hands progress
+// over and leaves straight away; see lib/handoff.js).
+const ROUTED = window.location.hostname !== OLD_HOST;
+
 export default function App() {
   // The screen comes from the address (see lib/route.js), so a reload, a
   // bookmark or a shared link opens on that screen, and Back steps back
   // through screens. Changing tab adds a history entry; `replace` swaps the
   // current one, for redirects that Back should skip over.
-  const [activeTab, setTab] = useState(() => tabForPath(window.location.pathname));
+  const [activeTab, setTab] = useState(() => (ROUTED ? tabForPath(window.location.pathname) : 'home'));
   const replaceNext = useRef(false);
   const setActiveTab = useCallback((tab, { replace = false } = {}) => {
     replaceNext.current = replace;
@@ -103,7 +109,7 @@ export default function App() {
   }, []);
   useEffect(() => {
     const path = pathForTab(activeTab);
-    if (window.location.pathname !== path) {
+    if (ROUTED && window.location.pathname !== path) {
       // The hash carries a challenge link (#c=...), read once on mount.
       const url = path + window.location.search + window.location.hash;
       if (replaceNext.current) window.history.replaceState(null, '', url);

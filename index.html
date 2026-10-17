@@ -2,6 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Screen addresses are one level deep (src/lib/route.js), because the
+      // files below load by relative path: from /daily-five/ or /daily-five/x
+      // they would resolve under that folder and the page would come up blank.
+      // Trim to the first level before anything loads. The old GitHub Pages
+      // copy lives under /know-it-all/ and keeps its address.
+      (function () {
+        if (location.hostname === 'peteowen1.github.io') return;
+        var first = location.pathname.split('/').filter(Boolean)[0];
+        var path = '/' + (first || '');
+        if (location.pathname !== path) location.replace(path + location.search + location.hash);
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="apple-touch-icon" href="./icon-192.png" />
