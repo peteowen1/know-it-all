@@ -154,7 +154,10 @@ export function matchChartGuess(guess, items, foundIds = new Set()) {
     }
     if (dist > tolerance) continue;
     const taken = foundIds.has(item.id);
-    const score = [taken ? 1 : 0, dist, item.rank];
+    // An exact title beats any near miss, found or not: typing "Yesterday"
+    // again must say "already got it", not credit "Yesterdays". Among equally
+    // close titles, one still to find wins (two songs with the same name).
+    const score = [dist === 0 ? 0 : 1, taken ? 1 : 0, dist, item.rank];
     if (!best || cmp(score, best.score) < 0) best = { item, score, taken };
   }
   if (best) return { item: best.item, alreadyFound: best.taken };
