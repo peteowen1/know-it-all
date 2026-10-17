@@ -69,6 +69,9 @@ export function removeStored(name) {
   }
 }
 
+// The last copy sync.js agreed with the account, kept after signing out.
+export const SYNC_BASE_KEY = 'kia_sync_base';
+
 /** Reset: remove every key this app (any version) has ever written. */
 export function clearAllStored() {
   const keys = [];
@@ -77,5 +80,5 @@ export function clearAllStored() {
   // The copy sync.js keeps after signing out. A reset device no longer holds
   // that account's history, so signing back in should take the account as-is
   // rather than replay the reset onto it.
-  localStorage.removeItem('kia_sync_base');
+  localStorage.removeItem(SYNC_BASE_KEY);
 }

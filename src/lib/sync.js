@@ -14,12 +14,9 @@
 // is exactly the local-only app it was before.
 
 import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, isSyncedKey } from './syncCore.js';
-import { onDirty } from './storage.js';
+import { onDirty, SYNC_BASE_KEY as BASE_KEY } from './storage.js';
 
 const META_KEY = 'kia_sync';
-// The last copy agreed with the account, kept after signing out so signing back
-// in to the same account does not merge it as a separate history.
-const BASE_KEY = 'kia_sync_base';
 const PUSH_DELAY_MS = 1500;
 const STARTUP_WAIT_MS = 3000;
 // Browsers refuse keepalive requests with a body over 64 KB (bytes, not characters).
@@ -56,7 +53,9 @@ function saveMeta() {
 
 /** Stop syncing, keeping what this device last agreed with the account. */
 function forgetAccount() {
-  if (meta.email) {
+  // Mid sign-in the shadow is still empty; saving it would replace the real
+  // base with one that makes every local key look newly played.
+  if (meta.email && !signingIn && Object.keys(meta.shadow).length) {
     try {
       localStorage.setItem(BASE_KEY, JSON.stringify({ email: meta.email, shadow: meta.shadow }));
     } catch (err) {
@@ -71,7 +70,8 @@ function forgetAccount() {
 function loadBase(email) {
   try {
     const base = JSON.parse(localStorage.getItem(BASE_KEY) || 'null');
-    return base && base.email === email && base.shadow && typeof base.shadow === 'object' ? base.shadow : null;
+    const ok = base && base.email === email && base.shadow && typeof base.shadow === 'object';
+    return ok && Object.keys(base.shadow).length ? base.shadow : null;
   } catch {
     return null;
   }
