@@ -2098,5 +2098,4527 @@
     ],
     "explanation": "Most tequila comes from Jalisco, whose blue agave fields and old distilleries around the town of Tequila are a UNESCO World Heritage landscape. Oaxaca, a different state, is the heartland of mezcal.",
     "hook": "Tequila the spirit comes from Tequila the town in Jalisco."
+  },
+  {
+    "id": "fd_151",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which seaweed, pressed into dark sheets, wraps a classic sushi roll?",
+    "answer": "Nori",
+    "distractors": [
+      "Kombu",
+      "Wakame",
+      "Hijiki"
+    ],
+    "explanation": "Nori is red algae that is shredded, pressed and dried into thin sheets much like paper. Kombu, a thick kelp, is used instead to make dashi stock.",
+    "hook": "Nori is the seaweed you can roll with."
+  },
+  {
+    "id": "fd_152",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Raisins, sultanas and currants are all dried forms of which fruit?",
+    "answer": "Grapes",
+    "distractors": [
+      "Plums",
+      "Figs",
+      "Dates"
+    ],
+    "explanation": "Sultanas come from seedless green grapes and currants from tiny Zante grapes, so they are not related to blackcurrants at all.",
+    "hook": "Every dried vine fruit started on a vine."
+  },
+  {
+    "id": "fd_153",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which Italian cheese, originally made from buffalo milk, is the classic melting cheese on a pizza?",
+    "answer": "Mozzarella",
+    "distractors": [
+      "Gorgonzola",
+      "Ricotta",
+      "Mascarpone"
+    ],
+    "explanation": "Traditional mozzarella di bufala comes from Campania, though most pizza cheese today is made from cow's milk. The curd is heated and stretched, which gives it that famous stringy pull.",
+    "hook": "Mozzarella is the cheese that stretches."
+  },
+  {
+    "id": "fd_154",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "At Australian children's parties, fairy bread is buttered white bread covered in what?",
+    "answer": "Hundreds and thousands",
+    "distractors": [
+      "Chocolate chips",
+      "Icing sugar",
+      "Desiccated coconut"
+    ],
+    "explanation": "The tiny sugar balls stick to the butter, and the bread is usually cut into triangles. Elsewhere in the world the same decoration is called sprinkles or nonpareils.",
+    "hook": "Butter is the glue, sprinkles are the party."
+  },
+  {
+    "id": "fd_155",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which spice, a relative of ginger, gives curry powder its yellow colour?",
+    "answer": "Turmeric",
+    "distractors": [
+      "Paprika",
+      "Cumin",
+      "Coriander"
+    ],
+    "explanation": "Turmeric is the ground root of a plant in the ginger family, and its yellow pigment is called curcumin. It also stains benches, plastic containers and tea towels very effectively.",
+    "hook": "Turmeric stains yellow, ginger stays pale."
+  },
+  {
+    "id": "fd_156",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "A flat white coffee, a café staple in Australia and New Zealand, is espresso topped with what?",
+    "answer": "Velvety steamed milk",
+    "distractors": [
+      "Whipped cream",
+      "Cold frothed milk",
+      "Condensed milk"
+    ],
+    "explanation": "It has a thinner layer of microfoam than a cappuccino and no chocolate dusting. Both Australia and New Zealand claim to have invented it in the 1980s.",
+    "hook": "Flat means less froth, not less flavour."
+  },
+  {
+    "id": "fd_157",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which chocolate bar, first made in Bern, comes in a triangular box and contains honey and almond nougat?",
+    "answer": "Toblerone",
+    "distractors": [
+      "Twirl",
+      "Picnic",
+      "Crunchie"
+    ],
+    "explanation": "The name blends founder Theodor Tobler's surname with torrone, the Italian word for nougat. Its peaks were long said to echo the Matterhorn, but the Matterhorn left the packaging in 2023 under Swiss-made rules, and some bars are now made in Slovakia.",
+    "hook": "Tobler and torrone make the name."
+  },
+  {
+    "id": "fd_158",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which French dessert is a rich custard with a thin crust of burnt sugar that you crack with a spoon?",
+    "answer": "Crème brûlée",
+    "distractors": [
+      "Crème caramel",
+      "Profiteroles",
+      "Mille-feuille"
+    ],
+    "explanation": "The sugar on top is caramelised under a grill or with a small blowtorch just before serving. Crème caramel is its cousin, but there the caramel is a liquid sauce that ends up on top once the custard is turned out.",
+    "hook": "Burnt cream: crack the roof to get in."
+  },
+  {
+    "id": "fd_159",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which Greek baked dish layers aubergine and spiced mince under a creamy white sauce?",
+    "answer": "Moussaka",
+    "distractors": [
+      "Souvlaki",
+      "Spanakopita",
+      "Dolmades"
+    ],
+    "explanation": "The thick béchamel topping is credited to the chef Nikolaos Tselementes, who modernised Greek cookery in the 1920s. Some versions add layers of potato or zucchini.",
+    "hook": "Moussaka is lasagne with aubergine."
+  },
+  {
+    "id": "fd_160",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In Australian fish and chip shops, the fish sold as flake is which animal?",
+    "answer": "Shark",
+    "distractors": [
+      "Barramundi",
+      "Snapper",
+      "Whiting"
+    ],
+    "explanation": "Flake is usually gummy shark, caught in southern waters and sold skinned as boneless fillets. It is especially popular in Victoria and South Australia, and the sweet, firm white flesh suits battering.",
+    "hook": "Order flake and you are eating shark."
+  },
+  {
+    "id": "fd_161",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which animal appears as the mascot on bottles of Bundaberg Rum?",
+    "answer": "Polar bear",
+    "distractors": [
+      "Kangaroo",
+      "Saltwater crocodile",
+      "Emu"
+    ],
+    "explanation": "The rum has been made from locally grown sugar cane at Bundaberg in Queensland since 1888. Drinkers call it Bundy, which explains the nickname Bundy Bear for the mascot.",
+    "hook": "A polar bear, in the cane fields."
+  },
+  {
+    "id": "fd_162",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Sydney café owner Bill Granger became famous for serving which breakfast dish with banana and honeycomb butter?",
+    "answer": "Ricotta hotcakes",
+    "distractors": [
+      "Eggs Benedict",
+      "French toast",
+      "Baked beans on toast"
+    ],
+    "explanation": "Granger opened his first café, bills, in Darlinghurst in 1993. The airy hotcakes, served with banana and honeycomb butter, became its signature and helped spread the Australian-style café breakfast overseas.",
+    "hook": "Bills made hotcakes a Sydney icon."
+  },
+  {
+    "id": "fd_163",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which fat gives white chocolate its creamy body?",
+    "answer": "Cocoa butter",
+    "distractors": [
+      "Cocoa powder",
+      "Cocoa nibs",
+      "Cocoa husk"
+    ],
+    "explanation": "White chocolate is cocoa butter blended with sugar and milk solids, with none of the dark cocoa solids that give other chocolate its colour. That is why some people argue it is not true chocolate.",
+    "hook": "White chocolate keeps the butter, drops the brown."
+  },
+  {
+    "id": "fd_164",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Swiss cheese is famous for its large holes?",
+    "answer": "Emmental",
+    "distractors": [
+      "Gruyère",
+      "Appenzeller",
+      "Tête de Moine"
+    ],
+    "explanation": "The holes, called eyes, form when bacteria release carbon dioxide gas while the wheel ripens. It is named after the Emme valley in the canton of Bern.",
+    "hook": "Emmental's eyes are gas bubbles."
+  },
+  {
+    "id": "fd_165",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Southeast Asian fruit, nicknamed the king of fruits, is notorious for its strong smell?",
+    "answer": "Durian",
+    "distractors": [
+      "Jackfruit",
+      "Mangosteen",
+      "Rambutan"
+    ],
+    "explanation": "Its strong smell is often compared to rotten onions, yet fans prize the custard-like flesh. Mangosteen is nicknamed the queen of fruits.",
+    "hook": "Durian is the king, mangosteen the queen."
+  },
+  {
+    "id": "fd_166",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Genuine caviar is the salted roe of which fish?",
+    "answer": "Sturgeon",
+    "distractors": [
+      "Cod",
+      "Tuna",
+      "Herring"
+    ],
+    "explanation": "Beluga, osetra and sevruga are all sturgeon species from the Caspian and Black Sea region. Roe from other fish, such as salmon, is sold as roe rather than true caviar.",
+    "hook": "No sturgeon, no true caviar."
+  },
+  {
+    "id": "fd_167",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which bitter compound, long used to treat malaria, gives tonic water its flavour?",
+    "answer": "Quinine",
+    "distractors": [
+      "Caffeine",
+      "Menthol",
+      "Tannin"
+    ],
+    "explanation": "Quinine comes from the bark of the cinchona tree. A popular story says British officers in India added gin and sugar to their quinine drink to make it easier to swallow, giving us the gin and tonic. Historians dispute that account, so the exact origin is uncertain.",
+    "hook": "Tonic water started out as a malaria medicine."
+  },
+  {
+    "id": "fd_168",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Real wasabi paste is grated from which part of the Wasabia japonica plant?",
+    "answer": "The rhizome",
+    "distractors": [
+      "The leaf",
+      "The seed",
+      "The flower"
+    ],
+    "explanation": "The knobbly underground stem is traditionally grated on a sharkskin grater. Much of the green paste served outside Japan is horseradish, mustard and food colouring.",
+    "hook": "Real wasabi comes from a stem, not a tube."
+  },
+  {
+    "id": "fd_169",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The browning of toast and seared steak is named after which French chemist?",
+    "answer": "Louis-Camille Maillard",
+    "distractors": [
+      "Louis Pasteur",
+      "Antoine Lavoisier",
+      "Michel Chevreul"
+    ],
+    "explanation": "Maillard described in 1912 how amino acids and sugars react when heated, building hundreds of savoury flavour compounds. This differs from caramelisation, which involves sugar alone.",
+    "hook": "Maillard browns, caramel only sweetens."
+  },
+  {
+    "id": "fd_170",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Wilbur Scoville devised his chilli heat scale in 1912 while working for which drug company?",
+    "answer": "Parke-Davis",
+    "distractors": [
+      "Eli Lilly",
+      "Merck",
+      "Abbott Laboratories"
+    ],
+    "explanation": "Scoville worked at the drug company Parke-Davis. He diluted chilli extract in sugar water until a panel of tasters could no longer feel the burn. Modern labs measure the heat chemical, capsaicin, with machines instead of tongues.",
+    "hook": "The heat scale came from a drugmaker."
+  },
+  {
+    "id": "fd_171",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "True cinnamon, the pale curled quills of Cinnamomum verum, is native to which country?",
+    "answer": "Sri Lanka",
+    "distractors": [
+      "Indonesia",
+      "Vietnam",
+      "China"
+    ],
+    "explanation": "Most cinnamon in supermarkets is actually cassia, a darker and harsher relative grown in Indonesia, Vietnam and China. True cinnamon is sometimes sold as Ceylon cinnamon, after Sri Lanka's old name.",
+    "hook": "Ceylon cinnamon is Sri Lankan."
+  },
+  {
+    "id": "fd_172",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In South Australia, what is a fritz?",
+    "answer": "A sliced luncheon meat",
+    "distractors": [
+      "A fried potato scallop",
+      "A pastry-topped meat pie",
+      "A battered sausage on a stick"
+    ],
+    "explanation": "It is the same smooth, pink processed meat that goes by other names around Australia, including devon in New South Wales. In Adelaide it is traditionally eaten in a fritz and sauce sandwich.",
+    "hook": "One meat, many names, fritz in Adelaide."
+  },
+  {
+    "id": "fd_173",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Roasted and ground seeds of which Australian native plant give a nutty, coffee-like flavour to bush cooking?",
+    "answer": "Wattle",
+    "distractors": [
+      "Lemon myrtle",
+      "Kakadu plum",
+      "Lilly pilly"
+    ],
+    "explanation": "Aboriginal Australians have long ground the seeds of certain acacia species into flour, and today they flavour ice cream, breads and desserts. Only some of the hundreds of wattle species are safe to eat.",
+    "hook": "Golden wattle is Australia's national floral emblem."
+  },
+  {
+    "id": "fd_174",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Prosecco, the sparkling wine of north-east Italy, is made mostly from which grape?",
+    "answer": "Glera",
+    "distractors": [
+      "Garganega",
+      "Trebbiano",
+      "Vermentino"
+    ],
+    "explanation": "Until 2009 the grape itself was called prosecco, but the name was then reserved for the wine region and the grape became glera. Most Prosecco gets its bubbles in a pressurised tank rather than in the bottle.",
+    "hook": "Glera is the grape, Prosecco the place."
+  },
+  {
+    "id": "fd_175",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Spain's crisp, seafood-friendly albariño white wine comes mainly from which region?",
+    "answer": "Rías Baixas",
+    "distractors": [
+      "Rioja",
+      "Priorat",
+      "Ribera del Duero"
+    ],
+    "explanation": "It lies in Galicia in the north-west, and the name means lower estuaries. The other three regions listed are inland and best known for red wine.",
+    "hook": "Albariño loves oysters and the Galician coast."
+  },
+  {
+    "id": "fd_176",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The word ketchup probably comes from a Hokkien Chinese word for what?",
+    "answer": "A fermented fish sauce",
+    "distractors": [
+      "A sweet bean paste",
+      "A tomato relish",
+      "A chilli oil"
+    ],
+    "explanation": "British traders met the salty fish brine in Southeast Asia in the 1600s and carried the name home. Cooks later swapped in mushrooms, walnuts and finally tomatoes, first recorded in a recipe in 1812.",
+    "hook": "Ketchup may have started as fish sauce."
+  },
+  {
+    "id": "fd_177",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The croissant descends from which Austrian pastry?",
+    "answer": "Kipferl",
+    "distractors": [
+      "Strudel",
+      "Krapfen",
+      "Gugelhupf"
+    ],
+    "explanation": "Bakers in Vienna made kipferl for centuries as a plain yeasted roll. The flaky, layered butter version we know today took shape in France in the early 1900s.",
+    "hook": "The croissant is a Viennese kipferl, remade in Paris."
+  },
+  {
+    "id": "fd_178",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which Sydney restaurant did Neil Perry open in 1989, later growing it into a restaurant group?",
+    "answer": "Rockpool",
+    "distractors": [
+      "Quay",
+      "Bennelong",
+      "Aria"
+    ],
+    "explanation": "It was pitched as a modern Australian fine dining restaurant, housed in an old building in The Rocks. Perry later opened Spice Temple, a Sichuan-inspired restaurant, in the same group.",
+    "hook": "Rockpool, opened in The Rocks."
+  },
+  {
+    "id": "fd_179",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Norwegian lutefisk is dried whitefish, usually cod, that is soaked in what?",
+    "answer": "Lye",
+    "distractors": [
+      "Vinegar",
+      "Seawater",
+      "Cream"
+    ],
+    "explanation": "The alkaline soak turns the dried fish soft and gelatinous, and it is then rinsed repeatedly before baking or boiling. It is a traditional Christmas dish in Norway and among Scandinavian Americans.",
+    "hook": "Lutefisk means lye fish."
+  },
+  {
+    "id": "fd_180",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which Frenchman developed food canning in the early 1800s and won a French government prize for preserving food for armies?",
+    "answer": "Nicolas Appert",
+    "distractors": [
+      "Louis Pasteur",
+      "Marie-Antoine Carême",
+      "Auguste Escoffier"
+    ],
+    "explanation": "Appert sealed food in glass jars and heated them in boiling water, long before Pasteur explained why it worked. British inventor Peter Durand patented the tin can in 1810.",
+    "hook": "Appert used jars, tin came later."
+  },
+  {
+    "id": "fd_181",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which hardware chain is best known for the charity barbecues set up outside its stores on weekends?",
+    "answer": "Bunnings",
+    "distractors": [
+      "Mitre 10",
+      "Masters",
+      "Total Tools"
+    ],
+    "explanation": "Community groups book weekend slots at Bunnings stores to raise money, selling a sausage and onion in a slice of white bread. The sausage sizzle there has become a national ritual and a handy fundraiser for clubs and schools.",
+    "hook": "Bunnings: hammers inside, snags outside."
+  },
+  {
+    "id": "fd_182",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which Arnott's biscuit is topped with pink fondant, a stripe of raspberry jam and sprinkled coconut?",
+    "answer": "Iced VoVo",
+    "distractors": [
+      "Wagon Wheel",
+      "Kingston",
+      "Milk Arrowroot"
+    ],
+    "explanation": "The Iced VoVo is a wheaten biscuit with two strips of pink fondant either side of a raspberry jam stripe, dusted with coconut. It has been a fixture in Australian biscuit tins for generations.",
+    "hook": "Pink, jam, coconut: that is the Iced VoVo."
+  },
+  {
+    "id": "fd_183",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which animal is Cadbury's small chocolate Freddo shaped like?",
+    "answer": "A frog",
+    "distractors": [
+      "A kangaroo",
+      "A koala",
+      "A turtle"
+    ],
+    "explanation": "Freddo is a small, hollow chocolate figure sold in Australia and the United Kingdom, and its full name is Freddo the Frog. It has long been the classic cheap pocket-money treat in Australian milk bars.",
+    "hook": "Freddo is a frog, ribbit and a chocolate."
+  },
+  {
+    "id": "fd_184",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which red condiment do most Australians squirt on a hot meat pie?",
+    "answer": "Tomato sauce",
+    "distractors": [
+      "Worcestershire sauce",
+      "Mint sauce",
+      "Tartare sauce"
+    ],
+    "explanation": "The pie and sauce combination is a footy-ground staple, and many shops pierce the lid of the pie and add sauce through the hole.",
+    "hook": "Pie, sauce, and a footy ground."
+  },
+  {
+    "id": "fd_185",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which Arnott's baked savoury snack biscuits come in flavours such as Pizza and BBQ?",
+    "answer": "Shapes",
+    "distractors": [
+      "Jatz",
+      "Saos",
+      "Salada"
+    ],
+    "explanation": "Arnott's Shapes are small, crunchy baked snack biscuits sold in packets and boxes, popular in lunchboxes and at parties.",
+    "hook": "Pizza, BBQ, and a party plate."
+  },
+  {
+    "id": "fd_186",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Where would a stockman traditionally bake a damper out in the bush?",
+    "answer": "In hot campfire ashes",
+    "distractors": [
+      "In a clay oven",
+      "Over a hanging billy",
+      "Inside a slow cooker"
+    ],
+    "explanation": "Damper is a simple bush bread of flour, water and salt, mixed on the spot and buried in the coals and ashes of a campfire. Drovers and swagmen relied on it because it needed no yeast or fancy equipment.",
+    "hook": "Damper is dug out of the ashes."
+  },
+  {
+    "id": "fd_187",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which type of pastry sandwiches the custard in a bakery vanilla slice?",
+    "answer": "Puff pastry",
+    "distractors": [
+      "Shortcrust",
+      "Choux",
+      "Filo"
+    ],
+    "explanation": "A vanilla slice has a thick layer of set custard between two sheets of crisp, flaky pastry, usually topped with passionfruit or pink icing. Puff pastry gets its flakiness from many thin layers of butter and dough.",
+    "hook": "Custard in a puffy sandwich."
+  },
+  {
+    "id": "fd_188",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Four'N Twenty pies take their name from a nursery rhyme about a pie full of which birds?",
+    "answer": "Blackbirds",
+    "distractors": [
+      "Magpies",
+      "Crows",
+      "Pigeons"
+    ],
+    "explanation": "The rhyme is 'Sing a Song of Sixpence', in which four and twenty birds are baked in a pie and begin to sing when it is opened. The brand name echoes the rhyme and has been on Australian pies for decades.",
+    "hook": "Four and twenty birds baked in a pie."
+  },
+  {
+    "id": "fd_189",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Australian chocolate bar has a red fruit and coconut filling under dark chocolate?",
+    "answer": "Cherry Ripe",
+    "distractors": [
+      "Crunchie",
+      "Polly Waffle",
+      "Picnic"
+    ],
+    "explanation": "The Cherry Ripe is made from cherries and coconut in a dark chocolate coat, and is a long-running Australian chocolate bar.",
+    "hook": "Dark shell, red fruit, coconut inside."
+  },
+  {
+    "id": "fd_190",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In New South Wales fish and chip shops, what name is given to a battered, deep-fried slice of spud?",
+    "answer": "A scallop",
+    "distractors": [
+      "A flake",
+      "A dim sim",
+      "A chiko"
+    ],
+    "explanation": "The potato scallop is a thick slice of potato dipped in batter and deep-fried. It is a fish and chip shop staple.",
+    "hook": "No shellfish: a scallop is a spud."
+  },
+  {
+    "id": "fd_191",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Arnott's biscuit sandwiches raspberry jam and vanilla cream between two coconut-flecked biscuits?",
+    "answer": "Monte Carlo",
+    "distractors": [
+      "Kingston",
+      "Delta Cream",
+      "Wagon Wheel"
+    ],
+    "explanation": "The Monte Carlo has a rough, golden, coconut-speckled surface and a filling of jam and vanilla cream, which makes it a favourite with morning tea. It is one of Arnott's long-running cream biscuits.",
+    "hook": "Jam, cream, and a rough coconut top."
+  },
+  {
+    "id": "fd_192",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Weet-Bix is made by which company, owned by the Seventh-day Adventist Church?",
+    "answer": "Sanitarium",
+    "distractors": [
+      "Kellogg's",
+      "Uncle Tobys",
+      "Freedom Foods"
+    ],
+    "explanation": "Sanitarium Health Food Company is owned by the Seventh-day Adventist Church. Weet-Bix is also sold in New Zealand.",
+    "hook": "Church-owned Sanitarium makes the Weet-Bix."
+  },
+  {
+    "id": "fd_193",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Vegemite is made from the leftover yeast extract of which industry?",
+    "answer": "Beer brewing",
+    "distractors": [
+      "Winemaking",
+      "Bread baking",
+      "Cheesemaking"
+    ],
+    "explanation": "Its main ingredient is spent brewer's yeast, a by-product of beer making, which is concentrated into a salty, savoury paste. The B vitamins in it were a big part of how the spread was marketed.",
+    "hook": "Vegemite comes from beer's leftovers."
+  },
+  {
+    "id": "fd_194",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "What unflattering nickname do many Australians give a bakery vanilla slice?",
+    "answer": "Snot block",
+    "distractors": [
+      "Jam tart",
+      "Lamington square",
+      "Goo bar"
+    ],
+    "explanation": "The nickname refers to the wobbly set custard that spills out of the slice when you bite into it.",
+    "hook": "Wobbly custard earns the name snot block."
+  },
+  {
+    "id": "fd_195",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In which NSW city did Scottish baker William Arnott start his biscuit business in 1865?",
+    "answer": "Newcastle",
+    "distractors": [
+      "Wollongong",
+      "Maitland",
+      "Goulburn"
+    ],
+    "explanation": "William Arnott opened a bakery in Newcastle in 1865. The family firm grew into one of Australia's best-known biscuit makers, and its parrot trademark became a household symbol.",
+    "hook": "Arnott's began life in a Newcastle bakery."
+  },
+  {
+    "id": "fd_196",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Arnott's Scotch Finger is what style of biscuit?",
+    "answer": "A shortbread",
+    "distractors": [
+      "A ginger snap",
+      "An oat cracker",
+      "A malt wafer"
+    ],
+    "explanation": "The Scotch Finger is a buttery, crumbly shortbread-style biscuit, shaped like a finger and lightly sweet. It is a classic with a cup of tea and is one of the plain biscuits in the Arnott's range.",
+    "hook": "Scotch finger means Scottish shortbread."
+  },
+  {
+    "id": "fd_197",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "An Australian chicken parmigiana is topped with ham, melted cheese and which tomato-based sauce?",
+    "answer": "Napoli sauce",
+    "distractors": [
+      "Béchamel sauce",
+      "Pesto sauce",
+      "Carbonara sauce"
+    ],
+    "explanation": "A parma is a crumbed chicken breast schnitzel, covered in napoli sauce, ham and cheese, and baked or grilled. Despite its Italian name, it is a pub classic and usually comes with chips and salad.",
+    "hook": "Parma: crumbed chicken wearing napoli sauce."
+  },
+  {
+    "id": "fd_198",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which two-word name do Australians give the polling-day barbecue snack sold at school fundraisers?",
+    "answer": "Democracy sausage",
+    "distractors": [
+      "Ballot burger",
+      "Polling pie",
+      "Preference snag"
+    ],
+    "explanation": "On election day, schools and community groups sell barbecued sausages in bread to voters outside the polling booths. The snag is now part of Australian voting culture.",
+    "hook": "Vote, then reward yourself with a snag."
+  },
+  {
+    "id": "fd_199",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Chicken parmigiana is a descendant of an Italian dish built on slices of which vegetable?",
+    "answer": "Eggplant",
+    "distractors": [
+      "Zucchini",
+      "Mushroom",
+      "Capsicum"
+    ],
+    "explanation": "The original dish, parmigiana di melanzane, layers fried eggplant with tomato sauce and cheese. Italian migrants in the United States replaced the vegetable with veal or chicken, and Australia took the idea from there.",
+    "hook": "The original parma was an eggplant bake."
+  },
+  {
+    "id": "fd_201",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which French pastry, also called a Napoleon, is the ancestor of the vanilla slice?",
+    "answer": "Mille-feuille",
+    "distractors": [
+      "Éclair",
+      "Profiterole",
+      "Paris-Brest"
+    ],
+    "explanation": "The mille-feuille layers puff pastry with pastry cream, and the Australian vanilla slice is a thicker, plainer relative of it. In Quebec and parts of Europe the same style of dessert is still sold as a Napoleon.",
+    "hook": "A French mille-feuille, Aussie-style."
+  },
+  {
+    "id": "fd_202",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "The Yarra Valley wine region lies on the outer edge of which Australian capital city?",
+    "answer": "Melbourne",
+    "distractors": [
+      "Sydney",
+      "Adelaide",
+      "Hobart"
+    ],
+    "explanation": "The Yarra Valley is about an hour's drive east of Melbourne. Its cool climate suits pinot noir, chardonnay and sparkling wine.",
+    "hook": "Melbourne's wine country is one train-and-drive away."
+  },
+  {
+    "id": "fd_203",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which red grape is the flagship of the Mornington Peninsula and also of Burgundy in France?",
+    "answer": "Pinot noir",
+    "distractors": [
+      "Cabernet sauvignon",
+      "Merlot",
+      "Grenache"
+    ],
+    "explanation": "The Mornington Peninsula's cool maritime climate, with the sea on three sides, suits this thin-skinned grape. Chardonnay and pinot gris are the region's other main varieties.",
+    "hook": "Sea breezes on three sides suit a thin-skinned grape."
+  },
+  {
+    "id": "fd_204",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Tasmania's acclaimed sparkling wines are made mainly from pinot noir and which white grape?",
+    "answer": "Chardonnay",
+    "distractors": [
+      "Riesling",
+      "Semillon",
+      "Sauvignon blanc"
+    ],
+    "explanation": "Both grapes are also grown for French Champagne, which uses three permitted grapes, and Tasmania's cool climate keeps the acidity high, which sparkling wine needs.",
+    "hook": "Two of Champagne's three grapes, grown at the bottom of the map."
+  },
+  {
+    "id": "fd_205",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "The King Valley in north-east Victoria is best known in Australia for which Italian sparkling white wine?",
+    "answer": "Prosecco",
+    "distractors": [
+      "Chianti",
+      "Pinot grigio",
+      "Lambrusco"
+    ],
+    "explanation": "Italian-Australian families in the valley planted the glera grape, the base of the wine, and the valley is one of the best-known homes of Australian prosecco. It is usually fresher and lighter than Champagne-style wine.",
+    "hook": "Little Italy of the Victorian high country."
+  },
+  {
+    "id": "fd_206",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What volume does a standard bottle of wine hold?",
+    "answer": "750 millilitres",
+    "distractors": [
+      "500 millilitres",
+      "1 litre",
+      "375 millilitres"
+    ],
+    "explanation": "The 750 mL size is the standard in Australia and most wine countries, and works out to about five standard glasses. A magnum holds two bottles' worth, or 1.5 litres.",
+    "hook": "Three-quarters of a litre, five glasses."
+  },
+  {
+    "id": "fd_207",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What word on a wine label tells you the year the grapes were picked?",
+    "answer": "Vintage",
+    "distractors": [
+      "Reserve",
+      "Cuvée",
+      "Appellation"
+    ],
+    "explanation": "A wine from a good year is called a great vintage, and a bottle with no year is called non-vintage. The year on a vintage wine label is the harvest year.",
+    "hook": "Vintage means the harvest year, not the age."
+  },
+  {
+    "id": "fd_208",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Jacob's Creek, one of Australia's best-known wine brands, is named after a creek in which South Australian region?",
+    "answer": "Barossa Valley",
+    "distractors": [
+      "Clare Valley",
+      "McLaren Vale",
+      "Adelaide Hills"
+    ],
+    "explanation": "Johann Gramp planted vines beside the creek at Rowland Flat in 1847. The brand grew into one of the country's best-known wine exports.",
+    "hook": "A little Barossa creek that went global."
+  },
+  {
+    "id": "fd_209",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "At an Australian winery, what is the \"cellar door\"?",
+    "answer": "The tasting and sales room",
+    "distractors": [
+      "The underground barrel store",
+      "The grape delivery bay",
+      "The bottling line"
+    ],
+    "explanation": "Visitors taste wines and buy direct from the producer, often without ever seeing a real cellar. Direct sales matter to small makers because they avoid the retailer's margin.",
+    "hook": "Not a door to a cellar, but the place you sip and buy."
+  },
+  {
+    "id": "fd_210",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Brown Brothers, a family winery founded in 1889, is based in which north-east Victorian town?",
+    "answer": "Milawa",
+    "distractors": [
+      "Beechworth",
+      "Glenrowan",
+      "Bright"
+    ],
+    "explanation": "The family has grown grapes at Milawa for more than 130 years and also sources fruit from the cooler King Valley.",
+    "hook": "Milawa: the Browns' home paddock."
+  },
+  {
+    "id": "fd_211",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Winemaker Wolf Blass, who launched his own label in the Barossa in 1966, was born in which country?",
+    "answer": "Germany",
+    "distractors": [
+      "Austria",
+      "Switzerland",
+      "Hungary"
+    ],
+    "explanation": "He trained in Germany and came to Australia in 1961, working for others before starting his own label.",
+    "hook": "German by birth, bow tie by habit, Barossa by trade."
+  },
+  {
+    "id": "fd_212",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Henschke's celebrated Hill of Grace shiraz vineyard is in which region, in the hills east of the Barossa Valley floor?",
+    "answer": "Eden Valley",
+    "distractors": [
+      "Adelaide Hills",
+      "McLaren Vale",
+      "Clare Valley"
+    ],
+    "explanation": "The old vines grow at Keyneton on higher, cooler ground than the valley floor. Eden Valley is better known as a riesling region, so a shiraz star from there is a surprise.",
+    "hook": "A red icon from the white-wine hills."
+  },
+  {
+    "id": "fd_213",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "McLaren Vale is famous for old bush vines of which red grape?",
+    "answer": "Grenache",
+    "distractors": [
+      "Pinot Noir",
+      "Tempranillo",
+      "Malbec"
+    ],
+    "explanation": "Bush vines are grown without trellis wires, and some in McLaren Vale are over 100 years old. The grape makes soft, perfumed reds and is often blended with shiraz and mourvèdre.",
+    "hook": "Bush vines, bright cherry fruit, Rhône heritage."
+  },
+  {
+    "id": "fd_214",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which coastal port is the regional centre of Western Australia's Great Southern wine region?",
+    "answer": "Albany",
+    "distractors": [
+      "Esperance",
+      "Bunbury",
+      "Busselton"
+    ],
+    "explanation": "Great Southern is one of the largest wine regions in the state by area, with subregions including Mount Barker, Frankland River and Porongurup. Its cool climate is known for riesling and cabernet sauvignon.",
+    "hook": "Albany: where the south coast meets the vines."
+  },
+  {
+    "id": "fd_215",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Before founding Lindeman's in the Hunter Valley in 1843, Henry Lindeman worked as what?",
+    "answer": "A surgeon",
+    "distractors": [
+      "A cooper",
+      "A baker",
+      "A schoolteacher"
+    ],
+    "explanation": "Lindeman trained in England, served as a ship's surgeon and migrated to New South Wales in 1840.",
+    "hook": "Doctor's orders: plant vines."
+  },
+  {
+    "id": "fd_216",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which vine pest wrecked European vineyards in the 1800s and is why many South Australian vines grow on their own roots?",
+    "answer": "Phylloxera",
+    "distractors": [
+      "Powdery mildew",
+      "Downy mildew",
+      "Black rot"
+    ],
+    "explanation": "The tiny insect feeds on grapevine roots, and in Europe most vines were rescued by grafting onto resistant American rootstock. Strict quarantine kept it out of much of South Australia, so some ungrafted vines there are very old.",
+    "hook": "The root-eater that Europe survived by grafting."
+  },
+  {
+    "id": "fd_217",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Italian-Australian families in the King Valley first made their living growing which crop before turning to grapes?",
+    "answer": "Tobacco",
+    "distractors": [
+      "Wheat",
+      "Olives",
+      "Sugar cane"
+    ],
+    "explanation": "Post-war migrants from northern Italy grew tobacco in north-east Victoria, and as the tobacco industry declined they turned to planting vines. Families such as Dal Zotto and Pizzini still make wine there.",
+    "hook": "From leaf to vine in one generation."
+  },
+  {
+    "id": "fd_218",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In Australia, what is a bottle of wine with a plain label and no brand name called?",
+    "answer": "A cleanskin",
+    "distractors": [
+      "A bargain bin",
+      "A blind label",
+      "A naked bottle"
+    ],
+    "explanation": "Cleanskins began as a way for makers to sell surplus stock cheaply without damaging their brand. The term is mostly Australian and New Zealand.",
+    "hook": "Naked bottle, anonymous wine, low price."
+  },
+  {
+    "id": "fd_219",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In which months does the main wine grape harvest in Australia usually take place?",
+    "answer": "February to April",
+    "distractors": [
+      "June to August",
+      "September to November",
+      "May to June"
+    ],
+    "explanation": "Australia is in the southern hemisphere, so its vintage falls in late summer and autumn, the reverse of Europe's. Warmer regions and sparkling base wines can be picked a little earlier.",
+    "hook": "Autumn harvest down under, while Europe sleeps."
+  },
+  {
+    "id": "fd_220",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Roughly how long after planting does a grapevine give its first useful crop?",
+    "answer": "About three years",
+    "distractors": [
+      "About one year",
+      "About six years",
+      "About ten years"
+    ],
+    "explanation": "Growers usually wait until the third year for a worthwhile harvest, and quality often rises as vines age. Old vines yield less fruit but it is more concentrated.",
+    "hook": "Three summers of patience."
+  },
+  {
+    "id": "fd_221",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Clonakilla's famous Canberra District red blends shiraz with a small amount of which white grape?",
+    "answer": "Viognier",
+    "distractors": [
+      "Marsanne",
+      "Chardonnay",
+      "Semillon"
+    ],
+    "explanation": "Tim Kirk's Shiraz Viognier from Murrumbateman was inspired by the Cote-Rotie wines of the northern Rhone. The viognier is fermented with the shiraz skins, adding perfume.",
+    "hook": "Rhone inspiration in a cold-climate paddock outside Canberra."
+  },
+  {
+    "id": "fd_222",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Vineyards in the high-altitude Orange region of New South Wales are planted on the slopes of which extinct volcano?",
+    "answer": "Mount Canobolas",
+    "distractors": [
+      "Mount Kosciuszko",
+      "Mount Buffalo",
+      "Mount Panorama"
+    ],
+    "explanation": "The volcanic soils and elevation give Orange a cool climate for chardonnay and sauvignon blanc. Mount Panorama is the Bathurst racetrack and not a volcano.",
+    "hook": "Cold altitude plus volcanic soil."
+  },
+  {
+    "id": "fd_223",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The old red soils behind Heathcote's shiraz reputation in Victoria date from which geological period?",
+    "answer": "Cambrian",
+    "distractors": [
+      "Jurassic",
+      "Permian",
+      "Devonian"
+    ],
+    "explanation": "The Cambrian greenstone soils are about 500 million years old and hold water well, giving rich, deeply coloured wines. Heathcote sits on the Mount Camel Range.",
+    "hook": "Half a billion years of soil under the vines."
+  },
+  {
+    "id": "fd_224",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Under Australian labelling rules, what minimum share of a wine must come from a named grape variety, region or vintage?",
+    "answer": "85%",
+    "distractors": [
+      "75%",
+      "90%",
+      "95%"
+    ],
+    "explanation": "The rule is a label integrity requirement, so a wine can be blended with up to 15% of other fruit and still carry the name. Geographical indications protect the names of regions such as the Barossa and Margaret River.",
+    "hook": "85 per cent is the line between name and blend."
+  },
+  {
+    "id": "fd_225",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "What is the term for the point when grapes begin to ripen and change colour on the vine?",
+    "answer": "Veraison",
+    "distractors": [
+      "Fermentation",
+      "Bud burst",
+      "Crushing"
+    ],
+    "explanation": "Red varieties turn from green to purple and sugar levels start to climb, several weeks before harvest. Growers often remove leaves or thin bunches at this stage.",
+    "hook": "Veraison: the vine's switch from green to colour."
+  },
+  {
+    "id": "fd_226",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Hill of Grace vineyard in South Australia is named after a Lutheran church. What is the church's German name?",
+    "answer": "Gnadenberg",
+    "distractors": [
+      "Friedensberg",
+      "Sonnenberg",
+      "Liebesberg"
+    ],
+    "explanation": "The Gnadenberg Lutheran church stands on the hill near the vines, which were planted by German settlers in the nineteenth century. Gnadenberg means hill of grace, the origin of the English name.",
+    "hook": "A German name that means hill of grace."
+  },
+  {
+    "id": "fd_227",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "What makes the labels on Leeuwin Estate's flagship Margaret River chardonnay collectable?",
+    "answer": "Original commissioned artwork",
+    "distractors": [
+      "Hand-numbered bottles",
+      "Gold-foil capsules",
+      "The winemaker's signature"
+    ],
+    "explanation": "Each vintage's Art Series label shows a work commissioned from an Australian artist. The estate also holds concerts in its grounds.",
+    "hook": "Chardonnay with a gallery on the label."
+  },
+  {
+    "id": "fd_228",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Jansz sparkling wine, owned by Yalumba, is made in which Tasmanian valley?",
+    "answer": "Tamar Valley",
+    "distractors": [
+      "Derwent Valley",
+      "Huon Valley",
+      "Coal River Valley"
+    ],
+    "explanation": "The winery is at Pipers River in the cooler north of the state, and the wine is made in the traditional bottle-fermented way used in Champagne. Yalumba now owns the brand.",
+    "hook": "Tamar, north Tasmania, bubbles."
+  },
+  {
+    "id": "fd_229",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Yalumba winery in the Barossa takes its name from an Aboriginal word meaning what?",
+    "answer": "All the land around",
+    "distractors": [
+      "Valley of vines",
+      "Place of plenty",
+      "Water by the hill"
+    ],
+    "explanation": "Samuel Smith, an English brewer, planted the first vines at Angaston in 1849, and the family still owns the winery. It is often described as Australia's oldest family-owned winery.",
+    "hook": "All the land around, from the start in 1849."
+  },
+  {
+    "id": "fd_230",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which light Italian sparkling wine, made mainly from the glera grape in the Veneto, is the usual base of a spritz?",
+    "answer": "Prosecco",
+    "distractors": [
+      "Asti",
+      "Lambrusco",
+      "Franciacorta"
+    ],
+    "explanation": "Prosecco is cheerful, fruity and best drunk young. Asti is a sweeter, lower-alcohol sparkler from Piedmont, while Franciacorta comes from Lombardy and is made like Champagne.",
+    "hook": "Veneto's fizz for the Aperol spritz."
+  },
+  {
+    "id": "fd_231",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What is the name for a wine bottle that holds 1.5 litres, the equivalent of two standard bottles?",
+    "answer": "Magnum",
+    "distractors": [
+      "Jeroboam",
+      "Methuselah",
+      "Balthazar"
+    ],
+    "explanation": "A standard bottle holds 750 millilitres, so a magnum holds two. Wine in larger formats tends to age more slowly, which is why collectors prize magnums of fine vintages.",
+    "hook": "Magnum: double the standard bottle."
+  },
+  {
+    "id": "fd_232",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Chablis, the crisp, flinty white from northern Burgundy, is made from which grape?",
+    "answer": "Chardonnay",
+    "distractors": [
+      "Sauvignon blanc",
+      "Chenin blanc",
+      "Pinot gris"
+    ],
+    "explanation": "Chablis sits far north of the rest of Burgundy, so its cool climate and chalky Kimmeridgian soils give a lean, steely style of chardonnay. It is typically made with little or no new oak.",
+    "hook": "Chablis is chardonnay in a steely cool-climate coat."
+  },
+  {
+    "id": "fd_233",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Spain's Rioja region is best known for red wines built mainly on which grape?",
+    "answer": "Tempranillo",
+    "distractors": [
+      "Monastrell",
+      "Sangiovese",
+      "Touriga Nacional"
+    ],
+    "explanation": "Tempranillo, whose name comes from the Spanish word for early, ripens sooner than most reds. In Rioja it is often blended with grenache (garnacha) and aged in American or French oak.",
+    "hook": "Tempranillo ripens early, hence the name."
+  },
+  {
+    "id": "fd_234",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Marlborough, at the top of New Zealand's South Island, built its international reputation on which white grape?",
+    "answer": "Sauvignon blanc",
+    "distractors": [
+      "Chardonnay",
+      "Semillon",
+      "Muscat"
+    ],
+    "explanation": "The first Marlborough vines were planted in the 1970s, and the vivid, passionfruit-and-cut-grass style that followed took the world by storm in the 1980s. The region now produces most of New Zealand's wine.",
+    "hook": "Marlborough means zesty sauvignon blanc."
+  },
+  {
+    "id": "fd_235",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which French word names the trained restaurant professional who advises diners on what to drink with their meal?",
+    "answer": "Sommelier",
+    "distractors": [
+      "Maître d'",
+      "Sous-chef",
+      "Commis"
+    ],
+    "explanation": "The sommelier curates the cellar, recommends pairings and serves the bottle at the table. The title is protected through qualifications such as the Master Sommelier diploma, one of the hardest exams in hospitality.",
+    "hook": "The somm pours, pairs and keeps the cellar."
+  },
+  {
+    "id": "fd_236",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which natural compound, found in grape skins, seeds and oak barrels, gives a young red its dry, mouth-gripping feel?",
+    "answer": "Tannin",
+    "distractors": [
+      "Tartaric acid",
+      "Sulphite",
+      "Fructose"
+    ],
+    "explanation": "Tannins come from grape skins, seeds and stems, and from the oak a wine is aged in. They soften with age, and the same compound is why stewed black tea feels astringent.",
+    "hook": "Tannin is the grippy feel, like stewed tea."
+  },
+  {
+    "id": "fd_237",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Beaujolais Nouveau, the very young red released with great fanfare, goes on sale in which month each year?",
+    "answer": "November",
+    "distractors": [
+      "September",
+      "January",
+      "March"
+    ],
+    "explanation": "By French law it is released on the third Thursday of November, only weeks after the harvest. The gamay grapes are fermented for just a few days, so the wine is fruity, light and meant to be drunk quickly.",
+    "hook": "Third Thursday of November, wine barely out of the vat."
+  },
+  {
+    "id": "fd_238",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "At the 1976 Judgment of Paris tasting, wines from which US state beat top French rivals in a blind comparison?",
+    "answer": "California",
+    "distractors": [
+      "Oregon",
+      "Washington",
+      "New York"
+    ],
+    "explanation": "Organised by English wine merchant Steven Spurrier, the tasting put Californian chardonnay and cabernet ahead of leading white Burgundies and Bordeaux reds in the eyes of French judges. It put New World wine on the map.",
+    "hook": "Blind tasting, French judges, Californian winners."
+  },
+  {
+    "id": "fd_239",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Most Prosecco gets its bubbles from a second fermentation in large sealed steel tanks. What is this method called?",
+    "answer": "The Charmat method",
+    "distractors": [
+      "The solera method",
+      "The ancestral method",
+      "Carbonic maceration"
+    ],
+    "explanation": "Champagne and Cava ferment a second time inside each bottle, which is slower and costlier. The tank method keeps Prosecco fresh and fruity and much cheaper, and it is named after its inventor, Eugène Charmat.",
+    "hook": "Tank fizz is Charmat, bottle fizz is Champagne."
+  },
+  {
+    "id": "fd_240",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Most of Spain's Cava is made in the Penedès area near Barcelona, which belongs to which autonomous region?",
+    "answer": "Catalonia",
+    "distractors": [
+      "Andalusia",
+      "Galicia",
+      "Castile and León"
+    ],
+    "explanation": "Cava is made by the same in-bottle second fermentation as Champagne, from local grapes such as macabeo, xarel-lo and parellada. Its main production centre is the town of Sant Sadurní d'Anoia.",
+    "hook": "Cava is Catalonia's bubbly, made Champagne-style."
+  },
+  {
+    "id": "fd_241",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which grape dominates the blends of Bordeaux's Right Bank, including the famous names of Pomerol and Saint-Émilion?",
+    "answer": "Merlot",
+    "distractors": [
+      "Cabernet sauvignon",
+      "Malbec",
+      "Syrah"
+    ],
+    "explanation": "The clay and limestone soils of the Right Bank suit merlot, which ripens earlier and gives plusher wines. The gravelly Left Bank is instead led by cabernet sauvignon.",
+    "hook": "Right Bank, merlot; Left Bank, cabernet sauvignon."
+  },
+  {
+    "id": "fd_242",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Vouvray and Savennières, white wines of the Loire Valley, are made from which grape?",
+    "answer": "Chenin blanc",
+    "distractors": [
+      "Pinot blanc",
+      "Gewürztraminer",
+      "Viognier"
+    ],
+    "explanation": "Chenin blanc is unusually versatile, producing bone-dry, off-dry, sparkling and lusciously sweet wines. High acidity lets the best examples age for decades, and it has long been South Africa's most planted white grape.",
+    "hook": "The Loire's shape-shifter: dry, sweet or sparkling."
+  },
+  {
+    "id": "fd_243",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Germany's Mosel is famous for riesling grown on slate slopes above a river that flows into which larger river?",
+    "answer": "The Rhine",
+    "distractors": [
+      "The Danube",
+      "The Elbe",
+      "The Main"
+    ],
+    "explanation": "The Mosel joins the Rhine at Koblenz after rising in France, where it is called the Moselle. The slate soil stores heat on the very steep slopes, helping riesling ripen in a cool climate.",
+    "hook": "Mosel slate slopes drain to the Rhine at Koblenz."
+  },
+  {
+    "id": "fd_244",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which French term describes how soil, climate and landscape together give a wine its sense of place?",
+    "answer": "Terroir",
+    "distractors": [
+      "Cuvée",
+      "Millésime",
+      "Cépage"
+    ],
+    "explanation": "The idea underpins the French appellation system, where a wine is defined by where it comes from rather than by grape. Producers in Burgundy argue that neighbouring vineyards taste distinct because of it.",
+    "hook": "Terroir: the taste of the ground and the weather."
+  },
+  {
+    "id": "fd_245",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Why do waiters often pour an old bottle of red into a glass jug before serving?",
+    "answer": "To leave the sediment behind",
+    "distractors": [
+      "To raise its alcohol level",
+      "To add more tannin",
+      "To chill it quickly"
+    ],
+    "explanation": "Over years in bottle, red wine drops a gritty deposit of pigment and tannin. Pouring slowly into a decanter, stopping when the sediment reaches the neck, keeps it out of the glass. Young wines are decanted to let them breathe.",
+    "hook": "Decant old reds slowly and stop at the dregs."
+  },
+  {
+    "id": "fd_246",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Retsina, the traditional Greek white, takes its distinctive flavour from the resin of which tree?",
+    "answer": "Aleppo pine",
+    "distractors": [
+      "Cedar",
+      "Olive",
+      "Cypress"
+    ],
+    "explanation": "Ancient Greeks used pine resin to seal amphorae, and retsina is traditionally linked to that practice. Today the resin is still added during fermentation, giving retsina a piney, turpentine-like tang that suits salty meze and grilled fish.",
+    "hook": "Greek white that tastes of pine forest."
+  },
+  {
+    "id": "fd_247",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "On a French wine label, the letters AOC stand for which phrase?",
+    "answer": "Appellation d'Origine Contrôlée",
+    "distractors": [
+      "Association d'Origine Contrôlée",
+      "Authentique Origine Classifiée",
+      "Appellation d'Origine Certifiée"
+    ],
+    "explanation": "The system, begun in the 1930s, controls where grapes are grown, which varieties are used, yields and winemaking. Since 2009 the EU equivalent label is AOP, though many French producers still print AOC.",
+    "hook": "AOC: the name guarantees the place and the rules."
+  },
+  {
+    "id": "fd_248",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Louis XIV of France is said to have called which sweet wine the wine of kings, king of wines?",
+    "answer": "Tokaji",
+    "distractors": [
+      "Vin Santo",
+      "Sauternes",
+      "Eiswein"
+    ],
+    "explanation": "The phrase is traditionally attributed to the Sun King, who is said to have served it at Versailles. Tokaji Aszú is made in north-east Hungary from grapes shrivelled by botrytis, and was also a favourite of Russian tsars.",
+    "hook": "Louis XIV's drink: Hungary's golden Tokaji."
+  },
+  {
+    "id": "fd_249",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Assyrtiko, a crisp white grown on ancient bush vines in volcanic soil, is the signature grape of which Greek island?",
+    "answer": "Santorini",
+    "distractors": [
+      "Crete",
+      "Corfu",
+      "Rhodes"
+    ],
+    "explanation": "Santorini's vines are trained into low baskets to shield the grapes from fierce winds. Many vines are ungrafted because the volcanic ash soil defeated the phylloxera pest that wrecked most of Europe's vineyards.",
+    "hook": "Basket-trained vines on a volcano."
+  },
+  {
+    "id": "fd_250",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which pink-skinned, lychee-scented grape produces Alsace's most perfumed white wines?",
+    "answer": "Gewürztraminer",
+    "distractors": [
+      "Grüner veltliner",
+      "Albariño",
+      "Torrontés"
+    ],
+    "explanation": "Alsace, in north-eastern France on the German border, labels its wines by grape. Gewürztraminer gives rich, spicy, rose-petal wines that pair well with Asian food and strong cheeses such as Munster.",
+    "hook": "Pink grape, white wine, lychee and roses."
+  },
+  {
+    "id": "fd_251",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Super Tuscan Sassicaia is based on which Bordeaux grape?",
+    "answer": "Cabernet sauvignon",
+    "distractors": [
+      "Merlot",
+      "Malbec",
+      "Petit verdot"
+    ],
+    "explanation": "Marchese Mario Incisa della Rocca planted it on the Tuscan coast at Bolgheri. The wine was initially sold as a humble table wine because the grape was outside the local rules, hence the Super Tuscan label.",
+    "hook": "Bordeaux grape, Tuscan coast, outside the rules."
+  },
+  {
+    "id": "fd_252",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which large format, holding six litres or eight standard bottles, is the name of a Champagne bottle?",
+    "answer": "Methuselah",
+    "distractors": [
+      "Salmanazar",
+      "Balthazar",
+      "Rehoboam"
+    ],
+    "explanation": "Large Champagne formats carry biblical names: Rehoboam is 4.5 litres, Methuselah 6, Salmanazar 9, Balthazar 12 and Nebuchadnezzar 15.",
+    "hook": "Methuselah lived long; six litres of fizz."
+  },
+  {
+    "id": "fd_253",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Italy's highest wine classification, above DOC, is known by which four-letter abbreviation?",
+    "answer": "DOCG",
+    "distractors": [
+      "IGT",
+      "VQA",
+      "AVA"
+    ],
+    "explanation": "The G stands for garantita, meaning guaranteed, and wines must pass a tasting panel as well as meet production rules.",
+    "hook": "The extra G means guaranteed."
+  },
+  {
+    "id": "fd_254",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Before Argentina made it famous, malbec was the black wine of which south-western French town?",
+    "answer": "Cahors",
+    "distractors": [
+      "Bergerac",
+      "Madiran",
+      "Limoux"
+    ],
+    "explanation": "Cahors reds, made from at least 70 per cent malbec, were once so dark they were called black wine. The grape arrived in Argentina in the 1850s, and thrived at altitude in Mendoza.",
+    "hook": "Argentina's star grape began in Cahors."
+  },
+  {
+    "id": "fd_255",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "On a Rioja label, which ageing term marks wines that have spent at least five years in oak and bottle combined?",
+    "answer": "Gran Reserva",
+    "distractors": [
+      "Crianza",
+      "Joven",
+      "Reserva"
+    ],
+    "explanation": "Gran Reserva wines spend at least two years in oak and three in bottle, and are made only in the best vintages. Crianza is the shortest oaked tier and Joven wines see little or no ageing.",
+    "hook": "Gran Reserva: the longest-aged tier."
+  },
+  {
+    "id": "fd_256",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Bordeaux's Left Bank, home to the Médoc and its great châteaux, runs along the western side of which estuary?",
+    "answer": "The Gironde",
+    "distractors": [
+      "The Loire",
+      "The Seine",
+      "The Rhône"
+    ],
+    "explanation": "The Gironde forms where the Garonne and Dordogne meet. Gravelly soils on the Left Bank suit cabernet sauvignon, while the Right Bank lies east of the Dordogne and Gironde.",
+    "hook": "Left Bank means left of the Gironde."
+  },
+  {
+    "id": "fd_257",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In which German city is the world's biggest beer festival held every autumn?",
+    "answer": "Munich",
+    "distractors": [
+      "Berlin",
+      "Hamburg",
+      "Frankfurt"
+    ],
+    "explanation": "The festival began in 1810 as a party for the wedding of Bavaria's Crown Prince Ludwig, and only the six big Munich breweries may serve beer there. Despite the name, it starts in September, not October.",
+    "hook": "Munich's party starts in September, not October."
+  },
+  {
+    "id": "fd_258",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In which city is the Guinness brewery at St James's Gate?",
+    "answer": "Dublin",
+    "distractors": [
+      "Cork",
+      "Belfast",
+      "Galway"
+    ],
+    "explanation": "Arthur Guinness began brewing at the site in 1759, and it grew into one of the largest breweries in Europe. The Guinness Storehouse there is now one of Ireland's most visited attractions.",
+    "hook": "St James's Gate is Dublin's black-beer address."
+  },
+  {
+    "id": "fd_259",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Corona Extra, usually served with a wedge of lime, is brewed in which country?",
+    "answer": "Mexico",
+    "distractors": [
+      "Spain",
+      "Brazil",
+      "Colombia"
+    ],
+    "explanation": "Grupo Modelo first brewed Corona in 1925, and it is one of the best-selling beers in the world. The clear bottle makes the beer prone to light damage.",
+    "hook": "Corona is a Mexican beach beer in a clear bottle."
+  },
+  {
+    "id": "fd_260",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Heineken, with its green bottle and red star, is a lager from which country?",
+    "answer": "The Netherlands",
+    "distractors": [
+      "Belgium",
+      "Germany",
+      "Denmark"
+    ],
+    "explanation": "Gerard Heineken bought an Amsterdam brewery in 1864 and built it into one of the world's most widely sold lagers. It is exported to more than 190 countries.",
+    "hook": "Green bottle, red star, Dutch to the core."
+  },
+  {
+    "id": "fd_261",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "A shandy is beer mixed with which soft drink?",
+    "answer": "Lemonade",
+    "distractors": [
+      "Tonic water",
+      "Cola",
+      "Soda water"
+    ],
+    "explanation": "The classic shandy is about half beer and half lemonade. It is a long, low-alcohol drink that is popular in Australian pubs.",
+    "hook": "Half beer, half fizzy lemon, all shandy."
+  },
+  {
+    "id": "fd_262",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which cereal grain is malted to make the base of most beer?",
+    "answer": "Barley",
+    "distractors": [
+      "Oats",
+      "Rye",
+      "Maize"
+    ],
+    "explanation": "Malting means soaking the grain so it sprouts and then drying it in a kiln, which develops enzymes that turn starch into fermentable sugar. Australia is one of the world's major barley growers and exporters.",
+    "hook": "No malt without sprouted barley."
+  },
+  {
+    "id": "fd_263",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "XXXX Gold is a beer closely identified with which Australian state?",
+    "answer": "Queensland",
+    "distractors": [
+      "Victoria",
+      "Western Australia",
+      "South Australia"
+    ],
+    "explanation": "It is brewed in Brisbane, and the brand is a fixture at Queensland pubs and State of Origin nights.",
+    "hook": "Four Xs mark the Sunshine State's beer."
+  },
+  {
+    "id": "fd_264",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Stella Artois, a pale lager sold worldwide, comes from which country?",
+    "answer": "Belgium",
+    "distractors": [
+      "The Netherlands",
+      "France",
+      "Germany"
+    ],
+    "explanation": "It was first brewed in Leuven in 1926 as a Christmas beer, which is why it is named after the Latin word for star. It is now one of the best-known Belgian exports.",
+    "hook": "Stella was a Belgian Christmas star."
+  },
+  {
+    "id": "fd_265",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Mead, one of the oldest alcoholic drinks, is made by fermenting what?",
+    "answer": "Honey",
+    "distractors": [
+      "Molasses",
+      "Maple sap",
+      "Agave sap"
+    ],
+    "explanation": "Honey is diluted in water and fermented with yeast, giving a drink that can be dry, sweet or sparkling. Archaeological evidence suggests people have made mead for thousands of years.",
+    "hook": "Mead is honey wine, with bees to thank."
+  },
+  {
+    "id": "fd_266",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which three ingredients did Bavaria's 1516 purity law allow in beer?",
+    "answer": "Water, barley and hops",
+    "distractors": [
+      "Water, barley and yeast",
+      "Water, malt and sugar",
+      "Water, rye and hops"
+    ],
+    "explanation": "Yeast was not named because brewers did not yet know it existed. The rule, the Reinheitsgebot, still shapes how many German brewers describe their beer.",
+    "hook": "Three things in 1516, and yeast came as a surprise."
+  },
+  {
+    "id": "fd_267",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Before yeast turns it into beer, what is the sweet liquid drawn off from the mashed grain called?",
+    "answer": "Wort",
+    "distractors": [
+      "Must",
+      "Lees",
+      "Trub"
+    ],
+    "explanation": "Brewers steep crushed malt in hot water to extract sugars, then boil the wort with hops. Must is the equivalent in winemaking, and trub is the sediment left after boiling.",
+    "hook": "Wort is beer's sweet start, must is wine's."
+  },
+  {
+    "id": "fd_268",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Belgian farmhouse ale was traditionally brewed in the cool months to refresh workers in summer?",
+    "answer": "Saison",
+    "distractors": [
+      "Dubbel",
+      "Tripel",
+      "Quadrupel"
+    ],
+    "explanation": "Saison comes from the French-speaking region of Wallonia, and its name is the French word for season. Modern versions are dry, spicy and highly carbonated.",
+    "hook": "Saison means season: brewed in winter, drunk in summer."
+  },
+  {
+    "id": "fd_269",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Belgian abbey-style ale is pale golden and strong?",
+    "answer": "Tripel",
+    "distractors": [
+      "Dubbel",
+      "Witbier",
+      "Flanders red"
+    ],
+    "explanation": "The style was popularised by the Trappist brewery at Westmalle, and it hides its strength behind fruity, peppery flavours. Its darker, slightly weaker sibling is the dubbel.",
+    "hook": "Tripel is golden and sneaky strong."
+  },
+  {
+    "id": "fd_270",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The word stout originally described a stronger version of which dark London beer?",
+    "answer": "Porter",
+    "distractors": [
+      "Bitter",
+      "Mild",
+      "Brown ale"
+    ],
+    "explanation": "Brewers advertised a stout porter, meaning a strong one, and over time the first word became the name of the style. Porter itself became popular in 18th-century London.",
+    "hook": "Stout began as strong porter."
+  },
+  {
+    "id": "fd_271",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In which Tasmanian city is Boag's beer brewed?",
+    "answer": "Launceston",
+    "distractors": [
+      "Hobart",
+      "Devonport",
+      "Burnie"
+    ],
+    "explanation": "The J. Boag & Son brewery has stood in the northern city since the 1880s. It is a Tasmanian rival to Hobart's Cascade, which is in the south of the state.",
+    "hook": "Boag's is the north, Cascade is the south."
+  },
+  {
+    "id": "fd_272",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In New South Wales, what is a 285 mL glass of beer called?",
+    "answer": "A middy",
+    "distractors": [
+      "A schooner",
+      "A butcher",
+      "A pony"
+    ],
+    "explanation": "Australian beer glass names change from state to state, which confuses interstate visitors. In NSW a 285 mL glass is a middy, while in Victoria the same size is called a pot.",
+    "hook": "Sydney has middies, Melbourne has pots."
+  },
+  {
+    "id": "fd_273",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Little Creatures, known for its pale ale, started brewing in which Western Australian port city?",
+    "answer": "Fremantle",
+    "distractors": [
+      "Bunbury",
+      "Albany",
+      "Geraldton"
+    ],
+    "explanation": "The brewery opened in Fremantle around 2000 and became one of the best-known names in Australia's craft beer boom.",
+    "hook": "Little Creatures began in Fremantle."
+  },
+  {
+    "id": "fd_274",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "What makes Coopers Sparkling Ale look cloudy in the glass?",
+    "answer": "It is bottle-conditioned with yeast",
+    "distractors": [
+      "It is brewed with wheat flour",
+      "It has fruit pulp added",
+      "It contains added chalk dust"
+    ],
+    "explanation": "A little yeast remains in each bottle and ferments there, creating natural carbonation and a sediment. Many Australian drinkers tip the bottle gently to mix the yeast through the beer.",
+    "hook": "Cloudy Coopers is yeast still alive in the bottle."
+  },
+  {
+    "id": "fd_275",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "What does the German word radler, the name of a beer and lemonade mix, literally mean?",
+    "answer": "Cyclist",
+    "distractors": [
+      "Hiker",
+      "Rower",
+      "Brewer"
+    ],
+    "explanation": "The drink is said to have been created in Bavaria in the 1920s for cyclists who wanted something lighter. It is lower in alcohol than ordinary beer, and shandy is its British cousin.",
+    "hook": "Radler is the cyclist's beer."
+  },
+  {
+    "id": "fd_276",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In traditional homemade ginger beer, what is the so-called plant that starts the fermentation?",
+    "answer": "A culture of yeast and bacteria",
+    "distractors": [
+      "A cutting of ginger root",
+      "A frond of fern",
+      "A strip of seaweed"
+    ],
+    "explanation": "The ginger beer plant is a living blob of yeast and bacteria, fed with sugar and ginger, that ferments the mix and produces a mild fizz. Divided pieces were passed between households.",
+    "hook": "The plant is not a plant, just a living culture."
+  },
+  {
+    "id": "fd_277",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "What term of years was the lease Arthur Guinness signed on the St James's Gate brewery in 1759?",
+    "answer": "9,000 years",
+    "distractors": [
+      "99 years",
+      "900 years",
+      "999 years"
+    ],
+    "explanation": "He paid an annual rent of 45 pounds and secured the site for a lease of nine thousand years. The brewery has stood on the site ever since, and the lease is a symbol of the company's confidence.",
+    "hook": "Nine thousand years, which suits a beer built to last."
+  },
+  {
+    "id": "fd_278",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Duke William IV of Bavaria issued the 1516 beer purity law at which town?",
+    "answer": "Ingolstadt",
+    "distractors": [
+      "Regensburg",
+      "Augsburg",
+      "Nuremberg"
+    ],
+    "explanation": "The law was proclaimed at a meeting of the Bavarian estates in Ingolstadt, and it applied first to Bavaria. It was adopted across all of Germany only after unification, in the 20th century.",
+    "hook": "Purity law, Ingolstadt, 1516."
+  },
+  {
+    "id": "fd_279",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "At which Brisbane suburb brewery is XXXX brewed?",
+    "answer": "Milton",
+    "distractors": [
+      "Toowong",
+      "Newstead",
+      "Sandgate"
+    ],
+    "explanation": "XXXX is brewed by Castlemaine Perkins at its Milton brewery in Brisbane, the home of the brand for generations.",
+    "hook": "XXXX is brewed in Milton, Brisbane."
+  },
+  {
+    "id": "fd_280",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The noble hop Saaz is named after which Czech town?",
+    "answer": "Zatec",
+    "distractors": [
+      "Kutna Hora",
+      "Olomouc",
+      "Tabor"
+    ],
+    "explanation": "Saaz is the German name of the town, and its soft, spicy hops are the classic bittering and aroma hops for Czech pilsner. The region still grows hops under protected status.",
+    "hook": "Saaz is the German name for the Czech hop town."
+  },
+  {
+    "id": "fd_281",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which yeast species ferments most ales, and also leavens bread?",
+    "answer": "Saccharomyces cerevisiae",
+    "distractors": [
+      "Saccharomyces pastorianus",
+      "Schizosaccharomyces pombe",
+      "Pichia kudriavzevii"
+    ],
+    "explanation": "Cerevisiae works warm and rises to the top of the fermenter, so ales are called top-fermented. Lager yeast, S. pastorianus, works cooler and settles at the bottom.",
+    "hook": "Same yeast raises the loaf and the ale."
+  },
+  {
+    "id": "fd_282",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In a Japanese sake brewery, what is a toji?",
+    "answer": "The master brewer",
+    "distractors": [
+      "The rice miller",
+      "The barrel maker",
+      "The spore supplier"
+    ],
+    "explanation": "The toji leads the brewing team through the winter season, controlling the koji, yeast and temperature. Traditional toji guilds came from rural regions where farmers worked in the off season.",
+    "hook": "Toji runs the brewery like a captain."
+  },
+  {
+    "id": "fd_283",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In which year did Asahi launch its Super Dry beer, kicking off a boom in dry lagers in Japan?",
+    "answer": "1987",
+    "distractors": [
+      "1977",
+      "1992",
+      "1997"
+    ],
+    "explanation": "The crisp, low-sweetness beer was a huge hit in Japan, and rivals launched their own dry beers. It later became a global brand, sold in Australia too.",
+    "hook": "Asahi's Super Dry kicked off Japan's dry beer boom in 1987."
+  },
+  {
+    "id": "fd_284",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Budweiser Budvar takes its name from which Czech town?",
+    "answer": "Ceske Budejovice",
+    "distractors": [
+      "Plzen",
+      "Brno",
+      "Ostrava"
+    ],
+    "explanation": "Budweis is the German name of the town, and the Czech beer takes its name from that place. The Czech brewery and the American Budweiser had a long trademark dispute, which was settled by agreement so that each sells under its name in different markets.",
+    "hook": "Budweis is the German name for the Czech town in the name of Budvar."
+  },
+  {
+    "id": "fd_285",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which sparkling wine is traditionally used in an Aperol Spritz, alongside Aperol and a splash of soda?",
+    "answer": "Prosecco",
+    "distractors": [
+      "Champagne",
+      "Cava",
+      "Cremant"
+    ],
+    "explanation": "The usual recipe is three parts sparkling wine, two parts Aperol and a splash of soda, served over ice with an orange slice. Aperol is a bitter orange aperitif first made in Padua in 1919.",
+    "hook": "Three, two, one: wine, Aperol, soda."
+  },
+  {
+    "id": "fd_286",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which citrus juice, shaken with white rum and sugar, makes a classic daiquiri?",
+    "answer": "Lime",
+    "distractors": [
+      "Lemon",
+      "Orange",
+      "Grapefruit"
+    ],
+    "explanation": "The daiquiri is named after a mining town near Santiago in eastern Cuba. It was a favourite of Ernest Hemingway, who liked his version with extra rum and no sugar.",
+    "hook": "Cuban rum plus lime: simple, sharp and sour."
+  },
+  {
+    "id": "fd_287",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which red juice gives the Cosmopolitan, the pink cocktail made famous by Sex and the City, its colour?",
+    "answer": "Cranberry",
+    "distractors": [
+      "Pomegranate",
+      "Cherry",
+      "Raspberry"
+    ],
+    "explanation": "A Cosmopolitan is vodka, Cointreau, lime juice and a splash of cranberry juice. It was already around in the 1980s but became a global craze in the late 1990s thanks to television.",
+    "hook": "Carrie's drink was vodka with cranberry blush."
+  },
+  {
+    "id": "fd_288",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which country does the herbal liqueur with a stag on its label come from?",
+    "answer": "Germany",
+    "distractors": [
+      "Austria",
+      "Switzerland",
+      "The Netherlands"
+    ],
+    "explanation": "It has been made in Wolfenbuettel in Lower Saxony since the 1930s from 56 herbs and spices. The stag's head with a glowing cross refers to the legend of Saint Hubert, patron saint of hunters.",
+    "hook": "Jager means hunter, and the hunter's stag is German."
+  },
+  {
+    "id": "fd_289",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which cream liqueur, launched in Dublin in 1974, blends Irish whiskey with dairy cream?",
+    "answer": "Baileys",
+    "distractors": [
+      "Kahlua",
+      "Tia Maria",
+      "Frangelico"
+    ],
+    "explanation": "It was one of the first cream liqueurs and became a worldwide hit, often poured over ice or into coffee. The fresh cream is homogenised with the whiskey so the two do not separate.",
+    "hook": "Whiskey and cream from Dublin, poured over ice."
+  },
+  {
+    "id": "fd_290",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In what metal is a Moscow Mule traditionally served?",
+    "answer": "Copper",
+    "distractors": [
+      "Pewter",
+      "Tin",
+      "Silver"
+    ],
+    "explanation": "The drink is vodka, ginger beer and lime, and the chilled copper mug is part of its identity. It was popularised in the United States in the 1940s as a way to introduce vodka to American drinkers.",
+    "hook": "Mule in a mug of copper."
+  },
+  {
+    "id": "fd_291",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which spirit is traditionally the base of an Old Fashioned, mixed with sugar, bitters and an orange twist?",
+    "answer": "Whiskey",
+    "distractors": [
+      "Gin",
+      "Vodka",
+      "Tequila"
+    ],
+    "explanation": "Bourbon or rye is usual. The drink follows the original 19th-century definition of a cocktail: a spirit, sugar, water and bitters. Its name came later, when drinkers asked for cocktails made the old-fashioned way.",
+    "hook": "Spirit, sugar, bitters and water: the original cocktail."
+  },
+  {
+    "id": "fd_292",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Alongside grains such as rye, which vegetable is a traditional base for vodka in Poland?",
+    "answer": "Potato",
+    "distractors": [
+      "Beetroot",
+      "Turnip",
+      "Carrot"
+    ],
+    "explanation": "Poland and Russia both claim to have invented vodka. Polish written records of the drink go back to the early 15th century, and Russian ones to the 1530s. Potato vodka became common in Poland in the 18th century when the crop spread.",
+    "hook": "Poland's vodka grew from the potato patch."
+  },
+  {
+    "id": "fd_293",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "By law, what is the minimum time Scotch whisky must be matured in oak casks in Scotland?",
+    "answer": "Three years",
+    "distractors": [
+      "One year",
+      "Five years",
+      "Ten years"
+    ],
+    "explanation": "Many bottles are aged much longer, and a bottle labelled with an age statement must state the youngest whisky in it. The spirit also has to be bottled at no less than 40 percent alcohol.",
+    "hook": "Three years in oak before it may be called Scotch."
+  },
+  {
+    "id": "fd_294",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Laphroaig, Ardbeg and Lagavulin are all distilleries on which Scottish island?",
+    "answer": "Islay",
+    "distractors": [
+      "Skye",
+      "Mull",
+      "Arran"
+    ],
+    "explanation": "Islay's malt is dried over peat fires and the island's coastal air and water add a medicinal, briny character. The island has several working distilleries, including Lagavulin and Bowmore.",
+    "hook": "Islay: peat smoke and sea spray."
+  },
+  {
+    "id": "fd_295",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Glenfiddich and The Macallan come from which Scotch whisky region, named after a river?",
+    "answer": "Speyside",
+    "distractors": [
+      "Lowlands",
+      "Campbeltown",
+      "Islay"
+    ],
+    "explanation": "The region hugs the River Spey in north-east Scotland and is home to dozens of the country's malt distilleries. Its whiskies are usually smoother and fruitier than the smoky island styles.",
+    "hook": "Speyside is sweet and fruity where Islay is smoky."
+  },
+  {
+    "id": "fd_296",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which company, now called Suntory, opened Yamazaki, Japan's first commercial malt whisky distillery, near Kyoto in 1923?",
+    "answer": "Suntory",
+    "distractors": [
+      "Nikka",
+      "Kirin",
+      "Sapporo"
+    ],
+    "explanation": "Founder Shinjiro Torii hired Masataka Taketsuru, who had trained in Scotland. Taketsuru later left to found Nikka, whose first distillery at Yoichi in Hokkaido opened in 1934.",
+    "hook": "Suntory started Japanese malt, Nikka grew from its pupil."
+  },
+  {
+    "id": "fd_297",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Bill Lark won the first licence for legal small-scale whisky distilling in over 150 years in 1992, in which Australian state?",
+    "answer": "Tasmania",
+    "distractors": [
+      "Victoria",
+      "South Australia",
+      "Western Australia"
+    ],
+    "explanation": "Tasmania had banned small stills in 1839, and the law was only relaxed in 1992. Lark Distillery in Hobart reignited the local craft, using the island's cool climate and pure water.",
+    "hook": "One man's licence restarted Tasmanian whisky."
+  },
+  {
+    "id": "fd_298",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The word grog, for watered-down rum, comes from the nickname of which British admiral?",
+    "answer": "Edward Vernon",
+    "distractors": [
+      "Horatio Nelson",
+      "George Anson",
+      "Samuel Hood"
+    ],
+    "explanation": "Vernon wore a coat of coarse grogram cloth and was nicknamed Old Grog. In 1740 he ordered the Royal Navy's daily rum ration diluted with water to curb drunkenness among sailors.",
+    "hook": "Old Grog's cloak gave us the word grog."
+  },
+  {
+    "id": "fd_299",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "On a bottle of cognac, what does the label XO stand for?",
+    "answer": "Extra Old",
+    "distractors": [
+      "Extra Oaked",
+      "Excellent Origin",
+      "Exclusive Output"
+    ],
+    "explanation": "Since 2018 the youngest eau-de-vie in an XO blend must be at least ten years old, up from six. Many XO cognacs contain much older spirits, some decades old.",
+    "hook": "X for extra, O for old: ten years minimum."
+  },
+  {
+    "id": "fd_300",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "A Rusty Nail cocktail is Scotch whisky stirred with which Scotch-based liqueur?",
+    "answer": "Drambuie",
+    "distractors": [
+      "Benedictine",
+      "Cointreau",
+      "Galliano"
+    ],
+    "explanation": "Drambuie is flavoured with heather honey, herbs and spices, and its name comes from the Gaelic an dram buidheach, meaning the drink that satisfies. Legend credits Bonnie Prince Charlie's recipe.",
+    "hook": "Scotch plus honeyed Drambuie makes the Rusty Nail."
+  },
+  {
+    "id": "fd_301",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which mixing technique is normally used for cocktails made only of spirits, such as a Manhattan, to keep them clear?",
+    "answer": "Stirring",
+    "distractors": [
+      "Shaking",
+      "Blending",
+      "Muddling"
+    ],
+    "explanation": "Shaking adds air bubbles and clouds the drink, which suits cocktails with juice, cream or egg white. Spirit-only drinks are stirred over ice for a silky, clear result with controlled dilution.",
+    "hook": "Clear drinks are stirred, cloudy ones are shaken."
+  },
+  {
+    "id": "fd_302",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In the American system, a spirit labelled 80 proof contains what percentage of alcohol by volume?",
+    "answer": "40%",
+    "distractors": [
+      "80%",
+      "20%",
+      "45%"
+    ],
+    "explanation": "American proof is simply double the alcohol percentage, so 100 proof is 50 percent. The older British system gave 100 proof as roughly 57 percent, which is where navy strength comes from.",
+    "hook": "US proof is double the percentage."
+  },
+  {
+    "id": "fd_303",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Irish pot still whiskey is typically distilled how many times, giving it a lighter style than most Scotch?",
+    "answer": "Three times",
+    "distractors": [
+      "Once",
+      "Twice",
+      "Four times"
+    ],
+    "explanation": "Triple distillation in large copper pot stills removes heavier flavours and gives a smooth, light spirit. Most Scotch malt whisky is distilled twice, which leaves it fuller and richer.",
+    "hook": "Irish pot stills triple, Scotch malt doubles."
+  },
+  {
+    "id": "fd_304",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The word whisky comes from the Gaelic uisge beatha, which means what?",
+    "answer": "Water of life",
+    "distractors": [
+      "Golden barley",
+      "Fire of the glen",
+      "Liquid sun"
+    ],
+    "explanation": "The phrase was anglicised over time to usquebaugh and then shortened to whisky. The Latin aqua vitae, from which names like akvavit and eau-de-vie derive, carries the same meaning.",
+    "hook": "Whisky is simply the water of life."
+  },
+  {
+    "id": "fd_305",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which Gascon brandy is typically distilled just once in a column still, unlike cognac?",
+    "answer": "Armagnac",
+    "distractors": [
+      "Calvados",
+      "Metaxa",
+      "Marc"
+    ],
+    "explanation": "Its single continuous distillation leaves a more rustic, robust spirit that is often released by single vintage. It is often called France's oldest brandy.",
+    "hook": "Armagnac: one run through the column, vintage on the label."
+  },
+  {
+    "id": "fd_306",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Four Pillars Gin, founded in 2013, is based in which Victorian wine region?",
+    "answer": "Yarra Valley",
+    "distractors": [
+      "Mornington Peninsula",
+      "Rutherglen",
+      "Grampians"
+    ],
+    "explanation": "The distillery is in Healesville, about an hour from Melbourne. Its Bloody Shiraz Gin is steeped with shiraz grapes.",
+    "hook": "Four Pillars gin comes out of the Yarra Valley."
+  },
+  {
+    "id": "fd_307",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In Casino Royale, James Bond's Vesper martini combines gin, vodka and which aromatised wine?",
+    "answer": "Kina Lillet",
+    "distractors": [
+      "Dubonnet",
+      "Noilly Prat",
+      "Cynar"
+    ],
+    "explanation": "Ian Fleming's 1953 novel has Bond order three measures of Gordon's gin, one of vodka and half a measure of Kina Lillet, shaken. Kina Lillet's quinine-heavy recipe was later changed, so modern versions use substitutes.",
+    "hook": "Bond named the Vesper after Vesper Lynd."
+  },
+  {
+    "id": "fd_308",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Sullivans Cove French Oak, named World's Best Single Malt in 2014, is distilled in which city?",
+    "answer": "Hobart",
+    "distractors": [
+      "Launceston",
+      "Perth",
+      "Melbourne"
+    ],
+    "explanation": "The distillery is in the suburb of Cambridge and draws its name from the cove where Hobart was first settled in 1804. Its win at the World Whiskies Awards stunned the Scotch-dominated whisky world.",
+    "hook": "A Hobart malt beat Scotland in 2014."
+  },
+  {
+    "id": "fd_309",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Navy strength spirits are bottled at about what alcohol percentage, the level at which gunpowder soaked in them still ignites?",
+    "answer": "57%",
+    "distractors": [
+      "40%",
+      "50%",
+      "65%"
+    ],
+    "explanation": "The figure is 100 degrees on the old British proof scale, or 57.15 percent. At this strength, spirit soaked into gunpowder still lights, the old gunpowder test that proof spirit passed.",
+    "hook": "Gunpowder still lit at 57 percent."
+  },
+  {
+    "id": "fd_310",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which restaurateur said he mixed the first Mai Tai at his Oakland, California bar in 1944?",
+    "answer": "Trader Vic",
+    "distractors": [
+      "Harry Craddock",
+      "Harry MacElhone",
+      "Joe Gilmore"
+    ],
+    "explanation": "Victor Bergeron claimed he served the drink to Tahitian friends, who exclaimed maita'i, meaning good. Rum, lime, orange curacao and almond-flavoured orgeat syrup are the core ingredients.",
+    "hook": "Maita'i means good in Tahitian."
+  },
+  {
+    "id": "fd_311",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In cognac, VSOP is the grade where the youngest eau-de-vie in the blend must be at least how old?",
+    "answer": "Four years",
+    "distractors": [
+      "Two years",
+      "Six years",
+      "Ten years"
+    ],
+    "explanation": "VS needs only two years in oak and XO needs ten. The letters VSOP stand for very superior old pale, a grade originally created for the British market in the 19th century.",
+    "hook": "VS two, VSOP four, XO ten."
+  },
+  {
+    "id": "fd_312",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "On what date in 1970 did the Royal Navy serve its last official daily rum ration, on what became known as Black Tot Day?",
+    "answer": "31 July",
+    "distractors": [
+      "1 January",
+      "25 April",
+      "11 November"
+    ],
+    "explanation": "The tot had been served daily for over 300 years, and its size was reduced over that time. Sailors held mock funerals, wearing black armbands, to mark its end.",
+    "hook": "The tot ended on 31 July 1970."
+  },
+  {
+    "id": "fd_313",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which US city is the home of the Sazerac, often called America's oldest cocktail?",
+    "answer": "New Orleans",
+    "distractors": [
+      "New York",
+      "Chicago",
+      "Louisville"
+    ],
+    "explanation": "It was first made with cognac, later usually rye whiskey, with Peychaud's bitters and a rinse of absinthe in the glass. The Louisiana legislature named it the city's official cocktail in 2008.",
+    "hook": "Rye, Peychaud's and absinthe rinse in the Big Easy."
+  },
+  {
+    "id": "fd_314",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In which African country does legend place the discovery of coffee by a goatherd who saw his animals dancing after eating red berries?",
+    "answer": "Ethiopia",
+    "distractors": [
+      "Kenya",
+      "Tanzania",
+      "Uganda"
+    ],
+    "explanation": "The story of the goatherd Kaldi is set in the Ethiopian highlands, where wild coffee still grows. The drink was first brewed in Yemen by around the 15th century before spreading across the Ottoman world.",
+    "hook": "Dancing goats, Ethiopian hills, and the first coffee buzz."
+  },
+  {
+    "id": "fd_315",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In which US city did pharmacist John Pemberton first sell Coca-Cola in 1886?",
+    "answer": "Atlanta",
+    "distractors": [
+      "New Orleans",
+      "Memphis",
+      "Chicago"
+    ],
+    "explanation": "Pemberton's syrup was first served at Jacobs' Pharmacy in Atlanta, Georgia, at five cents a glass and sold as a tonic. His bookkeeper Frank Robinson came up with the name and the looping script logo.",
+    "hook": "Coke began as a pharmacy tonic in Atlanta."
+  },
+  {
+    "id": "fd_316",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Bubble tea, served with chewy tapioca pearls and a fat straw, first appeared in which country in the 1980s?",
+    "answer": "Taiwan",
+    "distractors": [
+      "Japan",
+      "Thailand",
+      "South Korea"
+    ],
+    "explanation": "The drink was born in Taichung, where two tea shops each claim to have first added pearls to cold milk tea. It has since spread to shopping strips in cities across Australia and the world.",
+    "hook": "Pearls in the cup, Taichung in the story."
+  },
+  {
+    "id": "fd_317",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which South American country has been the world's biggest coffee grower for more than a century?",
+    "answer": "Brazil",
+    "distractors": [
+      "Colombia",
+      "Peru",
+      "Ecuador"
+    ],
+    "explanation": "Brazil took the lead in the 19th century and still grows roughly a third of the world's coffee, mostly in Minas Gerais and Sao Paulo states. Colombia is famous for quality but produces far less.",
+    "hook": "Brazil grows a third of the world's coffee."
+  },
+  {
+    "id": "fd_318",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which drinks company makes the sports drink Powerade?",
+    "answer": "The Coca-Cola Company",
+    "distractors": [
+      "PepsiCo",
+      "Nestle",
+      "Unilever"
+    ],
+    "explanation": "Powerade was launched to compete with Gatorade, which was developed at the University of Florida in 1965 and is now owned by PepsiCo. The two brands sit on opposite sides of the cola rivalry.",
+    "hook": "Powerade is Coke's answer to Pepsi's Gatorade."
+  },
+  {
+    "id": "fd_319",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In Hindi, what does the word chai mean?",
+    "answer": "Tea",
+    "distractors": [
+      "Spice",
+      "Milk",
+      "Sweet"
+    ],
+    "explanation": "Chai is simply the word for tea, so ordering a chai tea in a cafe says tea twice. The spiced, milky version is properly called masala chai, and the word travelled with the Silk Road trade into many languages.",
+    "hook": "Chai tea just means tea tea."
+  },
+  {
+    "id": "fd_320",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What is the fizzy, slightly sour fermented drink kombucha made from?",
+    "answer": "Sweetened tea",
+    "distractors": [
+      "Apple juice",
+      "Coconut water",
+      "Ginger root"
+    ],
+    "explanation": "A rubbery culture of yeast and bacteria, called a SCOBY, eats the sugar in the tea over a week or two. That leaves a tangy, lightly fizzy drink containing a trace of alcohol.",
+    "hook": "Kombucha is tea gone fizzy thanks to a SCOBY."
+  },
+  {
+    "id": "fd_321",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "San Pellegrino, the sparkling mineral water with a red star on its bottle, comes from which country?",
+    "answer": "Italy",
+    "distractors": [
+      "France",
+      "Spain",
+      "Austria"
+    ],
+    "explanation": "It is bottled at San Pellegrino Terme in the Lombardy foothills of the Alps. France's rival Perrier, from a spring near Vergeze, is the other famous fizzy water.",
+    "hook": "A red star on the bottle and Italy in the Alps."
+  },
+  {
+    "id": "fd_322",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In which Australian state is Bundaberg ginger beer brewed?",
+    "answer": "Queensland",
+    "distractors": [
+      "New South Wales",
+      "Victoria",
+      "Western Australia"
+    ],
+    "explanation": "The drink is brewed in the town of Bundaberg, using real ginger root and yeast rather than just mixing flavouring into soda water. That is why it often sells with sediment settled at the bottom.",
+    "hook": "Brewed in Bundaberg, so a Queensland classic."
+  },
+  {
+    "id": "fd_323",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which country gave the world Fanta, created in 1940 when wartime trade barriers cut off supplies of Coca-Cola syrup?",
+    "answer": "Germany",
+    "distractors": [
+      "Italy",
+      "Spain",
+      "The Netherlands"
+    ],
+    "explanation": "Local Coca-Cola boss Max Keith invented it using whey and apple fibre left over from food production. The name came from the German word Fantasie, because staff were told to use their imagination.",
+    "hook": "Fanta is short for Fantasie, born in wartime Germany."
+  },
+  {
+    "id": "fd_324",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Red Bull, first sold in 1987 and modelled on a Thai tonic, is headquartered in which country?",
+    "answer": "Austria",
+    "distractors": [
+      "Germany",
+      "Switzerland",
+      "Thailand"
+    ],
+    "explanation": "Dietrich Mateschitz, an Austrian marketer, adapted the Thai drink Krating Daeng, whose name means red gaur, and set up the company in Fuschl am See near Salzburg. The bull logo is a nod to that original.",
+    "hook": "Thai tonic, Austrian marketer, bull on the can."
+  },
+  {
+    "id": "fd_325",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which religious order's brown robes are said to have inspired the name of a popular frothy milk coffee?",
+    "answer": "The Capuchins",
+    "distractors": [
+      "The Benedictines",
+      "The Dominicans",
+      "The Jesuits"
+    ],
+    "explanation": "The colour of a cappuccino, espresso with foamed milk, resembled the habits of the Capuchin friars in Italy and Austria. The friars themselves took their name from the capuche, or hood, they wore.",
+    "hook": "Brown robes and a hood gave us the cappuccino."
+  },
+  {
+    "id": "fd_326",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which aristocrat is credited with popularising the English habit of afternoon tea in the 1840s, to fill the gap before a late dinner?",
+    "answer": "Anna, Duchess of Bedford",
+    "distractors": [
+      "Georgiana, Duchess of Devonshire",
+      "Catherine of Braganza",
+      "Sarah, Duchess of Marlborough"
+    ],
+    "explanation": "A lady-in-waiting to Queen Victoria, she asked for tea and cake in the late afternoon because she felt faint waiting for the 8 pm meal. She then invited friends, and the fashion spread through society.",
+    "hook": "A sinking feeling at four o'clock gave us afternoon tea."
+  },
+  {
+    "id": "fd_327",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which country was tea tycoon Sir Thomas Lipton born in?",
+    "answer": "Scotland",
+    "distractors": [
+      "England",
+      "Ireland",
+      "Wales"
+    ],
+    "explanation": "He was born in Glasgow to Irish parents and opened grocery shops there before buying tea estates in Ceylon to sell direct to the public. He also chased the America's Cup five times with yachts all named Shamrock.",
+    "hook": "Lipton was a Glasgow grocer who went global."
+  },
+  {
+    "id": "fd_328",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which plant species supplies the leaves for green, black, white and oolong teas alike?",
+    "answer": "Camellia sinensis",
+    "distractors": [
+      "Coffea arabica",
+      "Ilex paraguariensis",
+      "Aspalathus linearis"
+    ],
+    "explanation": "The differences come from how the leaves are processed, especially how far they are allowed to oxidise. Herbal infusions such as rooibos, chamomile and peppermint are not made from it and are not true teas.",
+    "hook": "One bush, many teas: only processing changes."
+  },
+  {
+    "id": "fd_329",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In Australian cafes, a long black is made by pouring a double shot of espresso over what?",
+    "answer": "Hot water",
+    "distractors": [
+      "Steamed milk",
+      "Cold milk",
+      "Crushed ice"
+    ],
+    "explanation": "Pouring the shots onto the water keeps more of the golden crema on top, whereas an americano adds water to the espresso. The result is a strong black coffee that is popular across Australia and New Zealand.",
+    "hook": "Long black: coffee goes on top of the water."
+  },
+  {
+    "id": "fd_330",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In Italian, what does the coffee term ristretto literally mean?",
+    "answer": "Restricted",
+    "distractors": [
+      "Doubled",
+      "Roasted",
+      "Frothy"
+    ],
+    "explanation": "A ristretto is a shorter shot made with the same dose of coffee but less water, which gives a sweeter, more concentrated taste.",
+    "hook": "Ristretto is a restricted, shorter shot."
+  },
+  {
+    "id": "fd_331",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which fictional coffee farmer, pictured with his mule Conchita, represents Colombian coffee growers in advertising?",
+    "answer": "Juan Valdez",
+    "distractors": [
+      "Miguel Cortez",
+      "Carlos Mendoza",
+      "Diego Alvarez"
+    ],
+    "explanation": "The character was created in 1958 for the National Federation of Coffee Growers of Colombia to promote 100 per cent Colombian beans. He has since appeared on packaging and in cafe chains around the world.",
+    "hook": "Juan Valdez and his mule sell Colombia's beans."
+  },
+  {
+    "id": "fd_332",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In Argentina and Uruguay, yerba mate is sipped through a metal straw with a filter at one end, known as what?",
+    "answer": "A bombilla",
+    "distractors": [
+      "A cuia",
+      "A guampa",
+      "A calabaza"
+    ],
+    "explanation": "The filter stops the crushed leaves being sucked up, and the straw is usually dipped into a gourd shared in a circle among friends. Passing the one gourd round is a sign of friendship in those countries.",
+    "hook": "The bombilla is the filter straw in a mate gourd."
+  },
+  {
+    "id": "fd_333",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Turkish coffee is traditionally brewed in a small long-handled pot with a narrow neck, called what?",
+    "answer": "A cezve",
+    "distractors": [
+      "A moka pot",
+      "A samovar",
+      "A dallah"
+    ],
+    "explanation": "Very finely ground coffee and water are heated together, often with sugar, until it foams, and the unfiltered grounds settle in the cup. UNESCO listed Turkish coffee culture and tradition in 2013.",
+    "hook": "Cezve: the little pot that makes Turkish coffee."
+  },
+  {
+    "id": "fd_334",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "A New York merchant named Thomas Sullivan is said to have invented which tea innovation in 1908 when customers dunked his sample pouches straight into the pot?",
+    "answer": "The tea bag",
+    "distractors": [
+      "Iced tea",
+      "Instant tea",
+      "The tea cosy"
+    ],
+    "explanation": "Sullivan sent samples in small silk pouches, and customers assumed they were meant to be steeped whole. The idea took off, and manufacturers later switched to cheaper gauze and then paper.",
+    "hook": "Sullivan's silk samples became the tea bag by accident."
+  },
+  {
+    "id": "fd_335",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Before it was renamed Pepsi-Cola in 1898, what was the drink called when a pharmacist in New Bern, North Carolina first mixed it in 1893?",
+    "answer": "Brad's Drink",
+    "distractors": [
+      "Carolina Cola",
+      "Pep Kola",
+      "Neuse Tonic"
+    ],
+    "explanation": "It was sold as a digestive aid, and the new name was said to come from dyspepsia and the enzyme pepsin. The pharmacist later went bankrupt, and the company was sold on in 1923.",
+    "hook": "Pepsi began life named after its pharmacist."
+  },
+  {
+    "id": "fd_336",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In which Italian city did Angelo Moriondo patent an early steam-driven coffee machine in 1884?",
+    "answer": "Turin",
+    "distractors": [
+      "Milan",
+      "Naples",
+      "Rome"
+    ],
+    "explanation": "His machine made coffee in bulk for a hotel bar. Luigi Bezzera of Milan improved the design in 1901, and Desiderio Pavoni bought the patent and began manufacturing it, launching the espresso bar era.",
+    "hook": "Moriondo in Turin built it, Milan made it famous."
+  },
+  {
+    "id": "fd_337",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In Melbourne cafes, a double ristretto topped with steamed milk and served in a small glass is known by what name?",
+    "answer": "A magic",
+    "distractors": [
+      "A short black",
+      "A babycino",
+      "A Vienna"
+    ],
+    "explanation": "The drink is a local invention, smaller and stronger than a flat white, and it is rarely listed on menus outside Victoria. Baristas elsewhere may have to be told what is in it.",
+    "hook": "Order a magic in Melbourne, get a strong small milk coffee."
+  },
+  {
+    "id": "fd_338",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The fermented milk drink kefir traditionally comes from which mountain region?",
+    "answer": "The Caucasus",
+    "distractors": [
+      "The Alps",
+      "The Carpathians",
+      "The Urals"
+    ],
+    "explanation": "It is made by adding rubbery kefir grains, a mix of yeasts and bacteria, to milk, and the name probably comes from a Turkic word for feeling good. Shepherds of the region carried the grains from place to place.",
+    "hook": "Kefir grains came down from the Caucasus."
+  },
+  {
+    "id": "fd_339",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The lemon-lime soda 7 Up, launched in 1929, originally contained which element, marketed as a health boost and later dropped from the recipe?",
+    "answer": "Lithium",
+    "distractors": [
+      "Magnesium",
+      "Potassium",
+      "Zinc"
+    ],
+    "explanation": "Its first name was Bib-Label Lithiated Lemon-Lime Soda, because lithium citrate was marketed as a health boost. The lithium was later removed from the formula, and the drink was renamed 7 Up.",
+    "hook": "7 Up was once lithiated, hence its first long name."
+  },
+  {
+    "id": "fd_340",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Silver Needle, a prized white tea made from unopened buds, is grown mainly in which Chinese province?",
+    "answer": "Fujian",
+    "distractors": [
+      "Yunnan",
+      "Zhejiang",
+      "Sichuan"
+    ],
+    "explanation": "White tea is barely processed, simply withered and dried, which leaves a pale, delicate cup. Zhejiang is better known for Longjing green tea, and Yunnan for Pu-erh.",
+    "hook": "Fujian, home of the silver buds."
+  },
+  {
+    "id": "fd_341",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Twinings sells tea from a narrow shop that has traded on the same London site since 1706. On which street is it?",
+    "answer": "The Strand",
+    "distractors": [
+      "Fleet Street",
+      "Oxford Street",
+      "Piccadilly"
+    ],
+    "explanation": "Thomas Twining first bought a coffee house there, then moved into tea when it was still an expensive novelty. The shop at number 216 still trades on the Strand site it has occupied since 1706.",
+    "hook": "Twinings has poured from the Strand since 1706."
+  },
+  {
+    "id": "fd_342",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Italian gnocchi are soft dumplings most commonly made from flour and which mashed vegetable?",
+    "answer": "Potato",
+    "distractors": [
+      "Carrot",
+      "Turnip",
+      "Celeriac"
+    ],
+    "explanation": "Potato gnocchi are boiled until they float, then tossed in butter and sage or a tomato sauce. Versions made with semolina, ricotta or bread also exist, but potato is by far the most common.",
+    "hook": "Gnocchi are potato pillows that bob up when they are done."
+  },
+  {
+    "id": "fd_343",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Andalusian gazpacho, blended from raw tomato, cucumber and capsicum, is served how?",
+    "answer": "Chilled",
+    "distractors": [
+      "Piping hot",
+      "Lightly grilled",
+      "Set as a jelly"
+    ],
+    "explanation": "Gazpacho is a summer soup from southern Spain, thickened with bread and finished with olive oil and sherry vinegar. Its cousin salmorejo is thicker and often topped with egg and jamon.",
+    "hook": "Gazpacho is the soup you drink from the fridge."
+  },
+  {
+    "id": "fd_344",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "In Spain, crisp fried churros are traditionally dunked in what at breakfast or after a night out?",
+    "answer": "Thick hot chocolate",
+    "distractors": [
+      "Warm honey",
+      "Sweet sherry",
+      "Orange marmalade"
+    ],
+    "explanation": "Spanish chocolate con churros uses a drinking chocolate so thick it nearly holds a spoon upright. The ridged shape comes from piping the dough through a star-shaped nozzle straight into hot oil.",
+    "hook": "Star-piped, fried, then dunked in chocolate you could stand a spoon in."
+  },
+  {
+    "id": "fd_345",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Baklava, the nutty syrup-soaked sweet of Turkey and Greece, is built from layers of which thin pastry?",
+    "answer": "Filo",
+    "distractors": [
+      "Puff pastry",
+      "Shortcrust",
+      "Choux"
+    ],
+    "explanation": "Dozens of paper-thin filo sheets are brushed with butter, layered with chopped pistachios or walnuts, baked, then soaked in syrup or honey. Filo is Greek for leaf, a good description of the sheets.",
+    "hook": "Filo means leaf, so baklava is a pile of buttered leaves."
+  },
+  {
+    "id": "fd_346",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Sicilian cannoli are crisp fried pastry tubes filled with sweetened what?",
+    "answer": "Ricotta",
+    "distractors": [
+      "Mascarpone",
+      "Custard",
+      "Whipped cream"
+    ],
+    "explanation": "The sheep's-milk ricotta is mixed with sugar and often studded with chocolate chips or candied fruit. Cannoli began as a Carnival sweet in Sicily, and the name means little tubes.",
+    "hook": "Cannoli is little tubes, stuffed with sweet ricotta."
+  },
+  {
+    "id": "fd_347",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "North African couscous consists of tiny steamed granules of what?",
+    "answer": "Durum wheat semolina",
+    "distractors": [
+      "Rice flour",
+      "Maize meal",
+      "Buckwheat flour"
+    ],
+    "explanation": "Cooks roll moist semolina into pellets by hand, then steam them over a stew in a pot called a couscoussier. Despite looking like a grain, couscous is technically a tiny pasta.",
+    "hook": "Couscous is pasta in disguise, rolled from semolina."
+  },
+  {
+    "id": "fd_348",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "The prized DOP mozzarella of Campania, around Naples, is made from the milk of which animal?",
+    "answer": "Water buffalo",
+    "distractors": [
+      "Cow",
+      "Sheep",
+      "Goat"
+    ],
+    "explanation": "Buffalo herds have grazed the Campanian plains for centuries, and the rich milk makes a springy, tangy curd that is eaten fresh. Mozzarella made from cow's milk is sold as fior di latte.",
+    "hook": "Real Neapolitan mozzarella has a buffalo behind it."
+  },
+  {
+    "id": "fd_349",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What forms the glassy, crackling top on a crème brûlée?",
+    "answer": "Caramelised sugar",
+    "distractors": [
+      "Set chocolate",
+      "Toasted meringue",
+      "Spun honey"
+    ],
+    "explanation": "A layer of sugar is scattered over the chilled baked custard and melted with a blowtorch or a hot grill until it turns to brittle caramel. Brûlée means burnt in French.",
+    "hook": "Crack the burnt-sugar lid to reach the cold custard."
+  },
+  {
+    "id": "fd_350",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Besides eggs and cream, which cured pork gives a classic quiche Lorraine its savoury filling?",
+    "answer": "Bacon lardons",
+    "distractors": [
+      "Chorizo",
+      "Black pudding",
+      "Salami"
+    ],
+    "explanation": "The original quiche from Lorraine in north-eastern France is a rich egg and cream custard with smoky bacon pieces in a pastry case. Cheese and vegetables came later.",
+    "hook": "Lorraine's quiche is eggs, cream and bacon, nothing more."
+  },
+  {
+    "id": "fd_351",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Osso buco, the Milanese braise whose name means bone with a hole, is a cross-cut shank of which meat?",
+    "answer": "Veal",
+    "distractors": [
+      "Lamb",
+      "Pork",
+      "Venison"
+    ],
+    "explanation": "The shank is braised slowly in white wine and stock until the marrow in the centre turns silky. It is traditionally served with risotto alla Milanese and finished with gremolata of lemon zest, garlic and parsley.",
+    "hook": "The hole in the bone is the marrow, and the marrow is the prize."
+  },
+  {
+    "id": "fd_352",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In Bologna, the meaty ragù is traditionally served with which broad ribbon pasta rather than spaghetti?",
+    "answer": "Tagliatelle",
+    "distractors": [
+      "Penne",
+      "Rigatoni",
+      "Linguine"
+    ],
+    "explanation": "Spaghetti bolognese is largely an export. In its home city the thick, slow-cooked sauce clings to wide, rough-textured egg pasta, and it is also layered into lasagne.",
+    "hook": "Bologna keeps its ragù on ribbons, not on spaghetti."
+  },
+  {
+    "id": "fd_353",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Cassoulet, the slow-baked Languedoc casserole of sausage and duck confit, is built on which beans?",
+    "answer": "White haricot beans",
+    "distractors": [
+      "Red kidney beans",
+      "Black beans",
+      "Borlotti beans"
+    ],
+    "explanation": "Its name comes from the cassole, the deep earthenware pot it bakes in. The towns of Castelnaudary, Carcassonne and Toulouse each claim the definitive recipe.",
+    "hook": "Named for its pot, built on white beans."
+  },
+  {
+    "id": "fd_354",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Mediterranean port is the home of bouillabaisse, the saffron-scented stew of rockfish?",
+    "answer": "Marseille",
+    "distractors": [
+      "Nice",
+      "Perpignan",
+      "Montpellier"
+    ],
+    "explanation": "It began as a fishermen's stew made from bony rockfish too awkward to sell. Marseille restaurateurs later signed a charter to protect the authentic recipe, and the broth is served separately from the fish.",
+    "hook": "Marseille's fishermen turned unsellable catch into a classic."
+  },
+  {
+    "id": "fd_355",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Classic coq au vin braises a chicken in red wine from which French region?",
+    "answer": "Burgundy",
+    "distractors": [
+      "Provence",
+      "Alsace",
+      "Champagne"
+    ],
+    "explanation": "The dish was traditionally a way to tenderise an old rooster, cooked with bacon, mushrooms, small onions and a bottle of the local red. Alsace has its own white-wine version, coq au riesling.",
+    "hook": "An old bird, a Burgundy bottle and a long simmer."
+  },
+  {
+    "id": "fd_356",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Under the EU-protected rules for traditional Neapolitan pizza, how must the dough base be shaped?",
+    "answer": "By hand, with no rolling pin",
+    "distractors": [
+      "With a mechanical press",
+      "With a wooden rolling pin",
+      "By cutting it from a sheet"
+    ],
+    "explanation": "The specification requires the dough to be stretched by hand, with no rolling pin or press in the method. The pizza is then baked in a wood-fired oven for only a minute or two.",
+    "hook": "Hands only: the Neapolitan base is stretched, not rolled."
+  },
+  {
+    "id": "fd_357",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Italian region is famed for its dimpled, olive-oil-glossed focaccia?",
+    "answer": "Liguria",
+    "distractors": [
+      "Piedmont",
+      "Lombardy",
+      "Tuscany"
+    ],
+    "explanation": "Focaccia genovese is dimpled with fingertips and brushed with a brine of oil and water before baking. Liguria also gave the world pesto and farinata, a chickpea pancake.",
+    "hook": "Dimples, oil and sea air: focaccia is Ligurian."
+  },
+  {
+    "id": "fd_358",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Ricotta, meaning recooked in Italian, is traditionally made by heating what leftover liquid from cheesemaking?",
+    "answer": "Whey",
+    "distractors": [
+      "Buttermilk",
+      "Brine",
+      "Cream"
+    ],
+    "explanation": "After the curds are taken for cheese, the whey still holds proteins that clump when reheated and are skimmed off. That second cooking is why ricotta is made from whey rather than from curds.",
+    "hook": "Ricotta is cheese's second act, cooked again from the leftovers."
+  },
+  {
+    "id": "fd_359",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Turkish delight, or lokum, is a chewy sweet set from sugar syrup and which thickener?",
+    "answer": "Starch",
+    "distractors": [
+      "Gelatine",
+      "Pectin",
+      "Agar"
+    ],
+    "explanation": "Traditional lokum is boiled with cornflour or other starch until it forms a firm gel, then flavoured with rosewater, lemon or mastic and dusted with icing sugar. Many cheap Western versions use gelatine instead.",
+    "hook": "Real lokum sets with starch, not gelatine."
+  },
+  {
+    "id": "fd_360",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The Spanish word tapa, behind the small plates of bar snacks, literally means what?",
+    "answer": "A lid or cover",
+    "distractors": [
+      "A little bite",
+      "A shared plate",
+      "A quick drink"
+    ],
+    "explanation": "The popular story is that bartenders covered glasses of sherry with a slice of bread or ham to keep flies out, and the cover became the snack. The tradition is strongest in Andalusia.",
+    "hook": "First the snack covered the drink, then it became the meal."
+  },
+  {
+    "id": "fd_361",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Sicilian arancini, fried and crumbed rice balls, get their name from their resemblance to which fruit?",
+    "answer": "Oranges",
+    "distractors": [
+      "Lemons",
+      "Pomegranates",
+      "Quinces"
+    ],
+    "explanation": "Arancini means little oranges, after the golden colour and round shape. Fillings include ragù with peas or mozzarella and ham, and in Palermo they are round while in Catania they are cone-shaped.",
+    "hook": "Little oranges you can eat with a fork."
+  },
+  {
+    "id": "fd_362",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Lebanese tabbouleh is a salad in which the main ingredient, by volume, is which herb?",
+    "answer": "Flat-leaf parsley",
+    "distractors": [
+      "Coriander",
+      "Basil",
+      "Dill"
+    ],
+    "explanation": "Finely chopped parsley is mixed with tomato, spring onion, mint, lemon juice and olive oil, with just a spoonful of soaked bulgur. Western versions often reverse this and make it mostly grain.",
+    "hook": "Real tabbouleh is a parsley salad with a little bulgur."
+  },
+  {
+    "id": "fd_363",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The blue-green veins in Italy's gorgonzola are caused by moulds of which genus?",
+    "answer": "Penicillium",
+    "distractors": [
+      "Aspergillus",
+      "Rhizopus",
+      "Botrytis"
+    ],
+    "explanation": "Cheesemakers pierce the young wheel with needles so air reaches the interior and the Penicillium spores can grow. The same genus gave us the antibiotic penicillin.",
+    "hook": "Needle holes let the penicillin-family mould breathe."
+  },
+  {
+    "id": "fd_364",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Savoury Breton galettes, the dark crêpes folded round ham and egg, are made from which flour?",
+    "answer": "Buckwheat",
+    "distractors": [
+      "Rye",
+      "Chestnut",
+      "Spelt"
+    ],
+    "explanation": "Buckwheat, called blé noir or black wheat in French, thrived in Brittany's poor acid soil where ordinary wheat struggled. Sweet crêpes are made from wheat flour instead.",
+    "hook": "Savoury Breton pancakes are buckwheat, sweet ones are wheat."
+  },
+  {
+    "id": "fd_365",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Genuine Prosciutto di Parma is made with just two ingredients: pork leg and what?",
+    "answer": "Sea salt",
+    "distractors": [
+      "Black pepper",
+      "Juniper",
+      "Brown sugar"
+    ],
+    "explanation": "No preservatives or other additives are allowed. The salted hams are hung to cure for at least a year in the hills around Parma, where the dry air does the rest.",
+    "hook": "Pig, salt, time and Parma air."
+  },
+  {
+    "id": "fd_366",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Béarnaise sauce, a buttery cousin of hollandaise, is flavoured with a reduction of vinegar, shallots and which herb?",
+    "answer": "Tarragon",
+    "distractors": [
+      "Basil",
+      "Sage",
+      "Rosemary"
+    ],
+    "explanation": "The reduction is whisked into egg yolks and clarified butter, and fresh tarragon is stirred in at the end. Béarnaise is the classic partner for steak and chips.",
+    "hook": "Béarnaise is hollandaise with a tarragon kick."
+  },
+  {
+    "id": "fd_367",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Iskender kebab, sliced doner on pide bread under tomato sauce, hot butter and yoghurt, is associated with which Turkish city?",
+    "answer": "Bursa",
+    "distractors": [
+      "Izmir",
+      "Ankara",
+      "Konya"
+    ],
+    "explanation": "It is named after Iskender Efendi, a 19th-century Bursa cook who changed how the meat was cut and served. Diners expect the waiter to pour hot butter over the plate at the table.",
+    "hook": "Iskender's butter-drenched kebab belongs to Bursa."
+  },
+  {
+    "id": "fd_368",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Rome's cacio e pepe is classically finished with black pepper and which hard cheese?",
+    "answer": "Pecorino Romano",
+    "distractors": [
+      "Grana Padano",
+      "Provolone",
+      "Asiago"
+    ],
+    "explanation": "Cacio is the Roman word for cheese. The sharp, salty cheese is melted with starchy pasta water into a creamy coating, with no butter or cream needed.",
+    "hook": "Cheese, pepper and pasta water, nothing more."
+  },
+  {
+    "id": "fd_369",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Egypt's version of falafel, called ta'amiya, is traditionally made from which bean rather than chickpeas?",
+    "answer": "Fava beans",
+    "distractors": [
+      "Lentils",
+      "Kidney beans",
+      "Haricot beans"
+    ],
+    "explanation": "Egyptian ta'amiya uses dried split fava beans and a lot of fresh herbs, giving a bright green centre. The Levantine version, found in Lebanon and Israel, uses chickpeas.",
+    "hook": "Egypt's falafel is green inside, because it is fava."
+  },
+  {
+    "id": "fd_370",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Pandoro, the tall golden star-shaped Christmas cake dusted with icing sugar, comes from which Italian city?",
+    "answer": "Verona",
+    "distractors": [
+      "Turin",
+      "Florence",
+      "Bologna"
+    ],
+    "explanation": "Pandoro means golden bread, and the soft, buttery, fruit-free cake is baked in an eight-pointed star mould. It is Verona's answer to Milan's panettone.",
+    "hook": "Golden bread from Verona, panettone's fruit-free rival."
+  },
+  {
+    "id": "fd_371",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which pungent green Japanese plant, grated from its stem, is served with sushi and is often replaced by dyed horseradish?",
+    "answer": "Wasabi",
+    "distractors": [
+      "Daikon",
+      "Shiso",
+      "Mitsuba"
+    ],
+    "explanation": "Real wasabi is a fussy water-loving plant that is hard to farm, so most tubes and restaurant dabs are horseradish paste coloured green. Its heat hits the nose and fades within seconds rather than lingering on the tongue.",
+    "hook": "Real wasabi clears the nose, then vanishes."
+  },
+  {
+    "id": "fd_372",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Naan bread is traditionally baked by slapping the dough against the hot inner wall of which clay oven?",
+    "answer": "Tandoor",
+    "distractors": [
+      "Tagine",
+      "Hibachi",
+      "Donabe"
+    ],
+    "explanation": "The tandoor is a deep cylindrical clay oven heated by charcoal or wood, reaching temperatures far hotter than most home ovens. It also cooks tandoori chicken on long skewers and gives naan its blistered, charred spots.",
+    "hook": "Naan sticks to the tandoor wall like a sticker."
+  },
+  {
+    "id": "fd_373",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which unsalted fresh Indian cheese is cubed and simmered in spinach dishes such as saag?",
+    "answer": "Paneer",
+    "distractors": [
+      "Halloumi",
+      "Labneh",
+      "Ricotta"
+    ],
+    "explanation": "Paneer is made by curdling hot milk with lemon juice or another acid, then pressing the curds. It does not melt when heated, which is why the cubes hold their shape in curries and on skewers.",
+    "hook": "Paneer holds its shape when the heat is on."
+  },
+  {
+    "id": "fd_374",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Thailand's stir-fried street favourite pad thai is traditionally made with noodles from which grain?",
+    "answer": "Rice",
+    "distractors": [
+      "Wheat",
+      "Buckwheat",
+      "Barley"
+    ],
+    "explanation": "Pad thai uses flat dried noodles that are soaked, then fried with tamarind, fish sauce, egg, tofu and prawns. Buckwheat noodles, for example, are the basis of Japanese soba.",
+    "hook": "Pad thai noodles come from the paddy field."
+  },
+  {
+    "id": "fd_375",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Tonkatsu, a Japanese breaded and deep-fried cutlet served with a tangy brown sauce, is traditionally made from which meat?",
+    "answer": "Pork",
+    "distractors": [
+      "Chicken",
+      "Beef",
+      "Lamb"
+    ],
+    "explanation": "The ton in tonkatsu is the Japanese word for pork, and katsu is short for katsuretsu, from the English word cutlet. The cutlet is coated in panko crumbs and usually served on shredded cabbage.",
+    "hook": "Ton means pork, so the pig is in the name."
+  },
+  {
+    "id": "fd_376",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which rich Mexican sauce, made in Puebla and Oaxaca from dozens of ingredients including dried chillies, nuts and sometimes chocolate, is poured over turkey or chicken?",
+    "answer": "Mole",
+    "distractors": [
+      "Pico de gallo",
+      "Chimichurri",
+      "Tzatziki"
+    ],
+    "explanation": "The name comes from the Nahuatl word molli, meaning sauce. Mole poblano and the seven moles of Oaxaca are the best known, and the dark colour comes from toasted chillies and spices rather than chocolate alone.",
+    "hook": "Mole is Mexico's chocolate-and-chilli sauce."
+  },
+  {
+    "id": "fd_377",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which long-grain aromatic rice is traditionally used for biryani?",
+    "answer": "Basmati",
+    "distractors": [
+      "Arborio",
+      "Bomba",
+      "Calrose"
+    ],
+    "explanation": "The name means fragrant in Hindi, and the grains lengthen and stay separate when cooked. It is grown mainly in the foothills of the Himalayas in India and Pakistan, and is layered with meat and spices in biryani.",
+    "hook": "Basmati is the fragrant one."
+  },
+  {
+    "id": "fd_378",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Indonesian satay skewers are traditionally served with a sauce made from which nut?",
+    "answer": "Peanut",
+    "distractors": [
+      "Cashew",
+      "Almond",
+      "Hazelnut"
+    ],
+    "explanation": "Satay is grilled skewered meat, usually chicken, goat or lamb, and the sauce is ground roasted peanuts with chilli, garlic, palm sugar and lime. Botanically the peanut is a legume that ripens underground, not a true nut.",
+    "hook": "Satay sauce is crushed peanut."
+  },
+  {
+    "id": "fd_379",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which style of sushi is a small hand-pressed mound of rice topped with a slice of fish?",
+    "answer": "Nigiri",
+    "distractors": [
+      "Maki",
+      "Temaki",
+      "Chirashi"
+    ],
+    "explanation": "A sushi chef presses the rice by hand and often brushes a dab of wasabi between the rice and topping. Maki is rolled in nori, temaki is a hand-rolled cone, and chirashi is toppings scattered over a bowl of rice.",
+    "hook": "Nigiri is nudged into shape by hand."
+  },
+  {
+    "id": "fd_380",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which compound is responsible for the burning heat of chillies?",
+    "answer": "Capsaicin",
+    "distractors": [
+      "Piperine",
+      "Allicin",
+      "Gingerol"
+    ],
+    "explanation": "Capsaicin is concentrated in the white pith that holds the seeds, not the seeds themselves. Piperine is the pungent compound in black pepper, allicin comes from crushed garlic and gingerol from fresh ginger.",
+    "hook": "Capsaicin is the C in chilli."
+  },
+  {
+    "id": "fd_381",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Japanese mochi is pounded until smooth and stretchy from which ingredient?",
+    "answer": "Glutinous rice",
+    "distractors": [
+      "Sweet potato starch",
+      "Tapioca pearls",
+      "Buckwheat dough"
+    ],
+    "explanation": "Despite the name, glutinous rice contains no gluten; it is simply very high in a sticky starch called amylopectin. Steamed grains are pounded in a mortar at New Year to make the cakes eaten in ozoni soup.",
+    "hook": "Sticky rice with no gluten, pounded smooth."
+  },
+  {
+    "id": "fd_382",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "What does Brazil's national dish feijoada slow-cook with salted pork and smoked sausage?",
+    "answer": "Black beans",
+    "distractors": [
+      "Cannellini beans",
+      "Borlotti beans",
+      "Haricot beans"
+    ],
+    "explanation": "The stew is traditionally served on Saturdays with rice, sautéed collard greens called couve, farofa and orange slices to cut the richness. The name comes from feijão, the Portuguese word for bean.",
+    "hook": "Feijoada comes from feijão, the black bean."
+  },
+  {
+    "id": "fd_383",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Couscous, the North African staple, is made by rolling and steaming tiny granules of which?",
+    "answer": "Semolina",
+    "distractors": [
+      "Polenta",
+      "Rice flour",
+      "Potato starch"
+    ],
+    "explanation": "Semolina is the coarse flour milled from durum wheat, the same grain used for dried pasta. The granules are traditionally steamed in a couscoussier, a pot with a perforated top sitting over the stew.",
+    "hook": "Couscous is tiny pasta granules of durum semolina."
+  },
+  {
+    "id": "fd_384",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Cantonese yum cha, the dim sum meal, literally means what?",
+    "answer": "Drink tea",
+    "distractors": [
+      "Eat dumplings",
+      "Touch the heart",
+      "Share the table"
+    ],
+    "explanation": "Tea is central to the meal, and diners traditionally tap two fingers on the table to thank whoever refills the pot. Dim sum, the small dishes served with it, is often translated as touch the heart.",
+    "hook": "Yum cha means drink tea."
+  },
+  {
+    "id": "fd_385",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which rhizome, a ginger cousin with a piney, citrusy bite, flavours Thai tom yum soup and green curry paste?",
+    "answer": "Galangal",
+    "distractors": [
+      "Daikon",
+      "Horseradish",
+      "Lemongrass"
+    ],
+    "explanation": "Galangal is paler and firmer than ginger and cannot simply be swapped for it without changing the flavour. Thai cooks slice it into soups and pound it into curry pastes with lemongrass and kaffir lime leaf.",
+    "hook": "Galangal is ginger's sharper, piney cousin."
+  },
+  {
+    "id": "fd_386",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Japanese dashi stock is classically made from kombu seaweed and shaved flakes of which dried fish?",
+    "answer": "Bonito",
+    "distractors": [
+      "Salmon",
+      "Eel",
+      "Cod"
+    ],
+    "explanation": "Skipjack tuna, known in Japan as katsuo and as bonito in English, is smoked, dried until rock hard and shaved into katsuobushi flakes. Together with kombu it gives the savoury umami base of miso soup and countless other dishes.",
+    "hook": "Dashi: seaweed plus shavings of bonito."
+  },
+  {
+    "id": "fd_387",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The ma in the Chinese flavour mala, the numbing tingle in mapo tofu, comes from which spice?",
+    "answer": "Sichuan peppercorn",
+    "distractors": [
+      "Star anise",
+      "Fennel seed",
+      "Cassia bark"
+    ],
+    "explanation": "It is the dried husk of a prickly ash berry, not a true peppercorn, and it makes the lips and tongue buzz. The la in mala is the heat of chilli, so the pair together means numbing and hot.",
+    "hook": "Ma numbs, la burns."
+  },
+  {
+    "id": "fd_388",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Curry laksa, the spicy Malaysian and Singaporean noodle soup, gets its richness from which ingredient?",
+    "answer": "Coconut milk",
+    "distractors": [
+      "Evaporated cream",
+      "Peanut butter",
+      "Yoghurt"
+    ],
+    "explanation": "The broth is built on a pounded paste of chilli, shallot, lemongrass and shrimp paste, then softened with coconut milk. Asam laksa, a different style, is sour from tamarind and has no coconut at all.",
+    "hook": "Curry laksa is creamy from the coconut."
+  },
+  {
+    "id": "fd_389",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Spanish word names the grill on which an Argentine asado is cooked, and the steakhouses built around it?",
+    "answer": "Parrilla",
+    "distractors": [
+      "Plancha",
+      "Comal",
+      "Cazuela"
+    ],
+    "explanation": "The parrilla is a grate set over glowing embers, with the grill slowly lowered or raised to control the heat. A plancha is a flat griddle, a comal is a flat Mexican griddle and a cazuela is a clay cooking pot.",
+    "hook": "Parrilla means grill and steakhouse alike."
+  },
+  {
+    "id": "fd_390",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Before being ground into masa for tortillas, dried corn is traditionally simmered in water with which alkaline substance?",
+    "answer": "Slaked lime",
+    "distractors": [
+      "Sea salt",
+      "Cider vinegar",
+      "Lemon juice"
+    ],
+    "explanation": "This process is called nixtamalization and dates back to Mesoamerica thousands of years ago. It loosens the hulls and frees niacin, which prevented the disease pellagra in cultures that depended on corn.",
+    "hook": "Nixtamalization: corn plus lime, the mineral not the fruit."
+  },
+  {
+    "id": "fd_391",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Ethiopian doro wat, a spicy chicken stew, gets its fiery red colour from which spice blend?",
+    "answer": "Berbere",
+    "distractors": [
+      "Ras el hanout",
+      "Dukkah",
+      "Baharat"
+    ],
+    "explanation": "Berbere combines chilli, fenugreek, garlic, ginger, korarima and other spices, and each family has its own recipe. Doro wat is traditionally served with hard-boiled eggs and scooped up with flatbread.",
+    "hook": "Berbere is Ethiopia's red-hot blend."
+  },
+  {
+    "id": "fd_392",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Boerewors, the spiced coil grilled at every South African braai, is named in Afrikaans for whom?",
+    "answer": "Farmers",
+    "distractors": [
+      "Hunters",
+      "Fishermen",
+      "Miners"
+    ],
+    "explanation": "Boer means farmer in Afrikaans, and wors means sausage. The coil is seasoned with spices such as coriander, nutmeg and cloves.",
+    "hook": "Boer is a farmer, wors is the sausage."
+  },
+  {
+    "id": "fd_393",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Egusi soup, a West African staple, is thickened with ground seeds of which plant?",
+    "answer": "Melon",
+    "distractors": [
+      "Sesame",
+      "Sunflower",
+      "Poppy"
+    ],
+    "explanation": "Egusi are the dried, shelled seeds of certain melons, ground to make a nutty, thick base for soups with leafy greens and meat or fish. The soup is eaten with pounded yam, eba or fufu.",
+    "hook": "Egusi soup is thickened with melon seeds."
+  },
+  {
+    "id": "fd_394",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Japanese word teriyaki combines yaki, meaning grilled, with teri, meaning what?",
+    "answer": "Shine",
+    "distractors": [
+      "Sweetness",
+      "Smoke",
+      "Salt"
+    ],
+    "explanation": "The glossy lustre comes from basting the food in a mix of soy sauce and mirin or sugar as it cooks. In Japan, fish such as yellowtail is a classic teriyaki dish.",
+    "hook": "Teriyaki is shiny grilling."
+  },
+  {
+    "id": "fd_395",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "South Indian dosa batter is made by fermenting rice with which kind of lentil, also called black gram?",
+    "answer": "Urad dal",
+    "distractors": [
+      "Red lentil",
+      "Yellow split pea",
+      "Chickpea"
+    ],
+    "explanation": "The rice and urad batter ferments overnight, which gives the thin crisp crepe its slight sourness and its bubbly texture. Urad dal is also the base of idli steamed cakes and vada doughnuts.",
+    "hook": "Dosa batter ferments overnight, urad dal doing the work."
+  },
+  {
+    "id": "fd_396",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Tacos al pastor, Mexico's spit-roasted pork tacos topped with pineapple, were adapted by Lebanese immigrants from which Middle Eastern dish?",
+    "answer": "Shawarma",
+    "distractors": [
+      "Falafel",
+      "Kibbeh",
+      "Tabbouleh"
+    ],
+    "explanation": "Lebanese immigrants arriving in Mexico in the early 20th century adapted the vertical spit, swapping lamb for pork and spicing it with chillies and achiote. The pork is shaved off the spit onto small tortillas.",
+    "hook": "Al pastor is Mexico's pork shawarma."
+  },
+  {
+    "id": "fd_397",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which spice, the dried unripe berry of a Caribbean tree, is a signature ingredient of Jamaican jerk?",
+    "answer": "Allspice",
+    "distractors": [
+      "Juniper",
+      "Star anise",
+      "Cardamom"
+    ],
+    "explanation": "Jamaicans call the berry pimento, and the meat is traditionally smoked over pimento wood. It tastes like a mix of cloves, cinnamon and nutmeg, which explains the name, and is combined with Scotch bonnet chillies.",
+    "hook": "Allspice tastes of cloves, cinnamon and nutmeg together."
+  },
+  {
+    "id": "fd_398",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Korean bulgogi, the marinated grilled beef, translates literally as what?",
+    "answer": "Fire meat",
+    "distractors": [
+      "Sweet beef",
+      "Stone pot",
+      "Salted ox"
+    ],
+    "explanation": "Bul means fire and gogi means meat. The thin slices are marinated in soy sauce, sugar, sesame oil and garlic, often with grated pear to tenderise the meat, then grilled at the table.",
+    "hook": "Bul-gogi: fire plus meat."
+  },
+  {
+    "id": "fd_399",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which common fruit carries its tiny seeds on the outside of its skin?",
+    "answer": "Strawberry",
+    "distractors": [
+      "Raspberry",
+      "Blueberry",
+      "Cherry"
+    ],
+    "explanation": "Each seed-like speck is really a separate dry fruit called an achene, and the juicy red flesh is the swollen base of the flower.",
+    "hook": "Seeds on the outside, flesh from the flower."
+  },
+  {
+    "id": "fd_400",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which banana variety makes up most of the bananas sold in Australian supermarkets?",
+    "answer": "Cavendish",
+    "distractors": [
+      "Lady Finger",
+      "Red Dacca",
+      "Plantain"
+    ],
+    "explanation": "Cavendish dominates the world export trade because it travels well, and most Australian crops grow around Queensland's tropical north. Its near-identical clones are vulnerable to disease.",
+    "hook": "Cavendish: one clone feeding the world."
+  },
+  {
+    "id": "fd_401",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which part of an egg acts as the emulsifier that holds mayonnaise together?",
+    "answer": "The yolk",
+    "distractors": [
+      "The white",
+      "The shell membrane",
+      "The chalaza"
+    ],
+    "explanation": "Egg yolk contains lecithin, which lets oil and the watery vinegar or lemon juice blend into a stable creamy emulsion instead of separating.",
+    "hook": "Yolk binds oil to water."
+  },
+  {
+    "id": "fd_402",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Yeast makes bread dough rise by producing which gas as it ferments sugars?",
+    "answer": "Carbon dioxide",
+    "distractors": [
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "explanation": "The gas gets trapped in the stretchy gluten network and puffs the dough up, while the alcohol made alongside it mostly bakes off in the oven.",
+    "hook": "Yeast burps, gluten traps the burps."
+  },
+  {
+    "id": "fd_403",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "From which continent did the potato originate?",
+    "answer": "South America",
+    "distractors": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "explanation": "Potatoes were first domesticated in the Andes thousands of years ago and reached Europe in the 16th century after Spanish voyages.",
+    "hook": "Spuds are Andean, not Irish."
+  },
+  {
+    "id": "fd_404",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which seeds are blended with basil, garlic and Parmesan in a classic Genoese pesto?",
+    "answer": "Pine nuts",
+    "distractors": [
+      "Sunflower seeds",
+      "Peanuts",
+      "Hazelnuts"
+    ],
+    "explanation": "Pine nuts come from the cones of certain pine trees and are costly because each cone must be dried and the seeds shelled out.",
+    "hook": "Pesto's pale nutty crunch is pine."
+  },
+  {
+    "id": "fd_405",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What is the cooking term for briefly boiling vegetables and then plunging them into iced water?",
+    "answer": "Blanching",
+    "distractors": [
+      "Braising",
+      "Sauteing",
+      "Poaching"
+    ],
+    "explanation": "The ice bath stops cooking at once, fixing the bright green colour of vegetables like beans, and it also loosens the skins of tomatoes and peaches.",
+    "hook": "Hot dip, cold shock."
+  },
+  {
+    "id": "fd_406",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which part of the rhubarb plant is safe to eat?",
+    "answer": "The stalks",
+    "distractors": [
+      "The leaves",
+      "The flowers",
+      "The seeds"
+    ],
+    "explanation": "The leaves contain oxalic acid at toxic levels, so only the tart red-green stems are cooked, usually with plenty of sugar.",
+    "hook": "Eat the stems, bin the leaves."
+  },
+  {
+    "id": "fd_407",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "In the browning reaction that colours seared steak and toast, sugars react with which kind of molecule?",
+    "answer": "Amino acids",
+    "distractors": [
+      "Fatty acids",
+      "Vitamins",
+      "Starch granules"
+    ],
+    "explanation": "The Maillard reaction, named after French chemist Louis-Camille Maillard, begins around 140 degrees Celsius and creates hundreds of savoury flavour compounds.",
+    "hook": "Sugar meets protein, flavour browns."
+  },
+  {
+    "id": "fd_408",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which amino acid, found in tomatoes, Parmesan and kombu, produces the savoury taste known as umami?",
+    "answer": "Glutamate",
+    "distractors": [
+      "Lysine",
+      "Cysteine",
+      "Tyrosine"
+    ],
+    "explanation": "Glutamate is the active part of monosodium glutamate, and ripe or aged foods carry more of it, which is why they taste deeply savoury.",
+    "hook": "Glutamate: the savoury fifth taste."
+  },
+  {
+    "id": "fd_409",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which natural gelling substance, found in apple skins and cores, makes jam set?",
+    "answer": "Pectin",
+    "distractors": [
+      "Gelatine",
+      "Agar",
+      "Carrageenan"
+    ],
+    "explanation": "Pectin sets into a gel when heated with sugar and acid, which is why citrus pith and pips are boiled with marmalade.",
+    "hook": "Fruit's own jam glue."
+  },
+  {
+    "id": "fd_410",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Manuka, the shrub behind prized honey, is native to New Zealand and which other country?",
+    "answer": "Australia",
+    "distractors": [
+      "Chile",
+      "South Africa",
+      "Fiji"
+    ],
+    "explanation": "The plant is a tea tree species, Leptospermum scoparium, and grows wild in south-eastern Australia too, though its honey was made famous by New Zealand.",
+    "hook": "Manuka is a tea tree, shared across the Tasman."
+  },
+  {
+    "id": "fd_411",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Table sugar, or sucrose, is made of one glucose molecule joined to which other sugar?",
+    "answer": "Fructose",
+    "distractors": [
+      "Lactose",
+      "Maltose",
+      "Galactose"
+    ],
+    "explanation": "Digestion splits sucrose back into glucose and fructose. Fructose is the sweetest natural sugar, which is why honey and fruit taste so sweet.",
+    "hook": "Sucrose equals glucose plus fructose."
+  },
+  {
+    "id": "fd_412",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which scale, devised by a pharmacist in 1912, rates the heat of chillies?",
+    "answer": "Scoville scale",
+    "distractors": [
+      "Brix scale",
+      "Beaufort scale",
+      "Richter scale"
+    ],
+    "explanation": "Wilbur Scoville originally asked tasters how far an extract had to be diluted before the burn vanished. Modern labs measure capsaicin directly instead.",
+    "hook": "Scoville: heat by dilution."
+  },
+  {
+    "id": "fd_413",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Quinoa, a seed cooked like a grain, was first domesticated in which mountain range?",
+    "answer": "The Andes",
+    "distractors": [
+      "The Himalayas",
+      "The Rockies",
+      "The Alps"
+    ],
+    "explanation": "The Inca called it the mother grain. It is a complete protein and is related to spinach and beetroot rather than to wheat or rice.",
+    "hook": "Andean seed, not a true grain."
+  },
+  {
+    "id": "fd_414",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which alkaline powder reacts with acidic ingredients such as buttermilk or lemon juice to release gas in baking?",
+    "answer": "Bicarbonate of soda",
+    "distractors": [
+      "Cream of tartar",
+      "Cornflour",
+      "Gelatine"
+    ],
+    "explanation": "Without an acid it leaves a soapy, metallic taste. Baking powder mixes it with a dry acid so it works in plain batters as well.",
+    "hook": "Alkali plus acid makes bubbles."
+  },
+  {
+    "id": "fd_415",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Sous vide, French for under vacuum, cooks sealed food in what precisely controlled setting?",
+    "answer": "A water bath",
+    "distractors": [
+      "A microwave oven",
+      "A hot oil bath",
+      "A salt crust"
+    ],
+    "explanation": "Holding food at a low exact temperature, say 54 degrees Celsius for a medium-rare steak, gives even doneness edge to edge.",
+    "hook": "Bag it, bathe it, hold the heat."
+  },
+  {
+    "id": "fd_416",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Sauerkraut gets its sour tang from which acid made as bacteria ferment salted shredded cabbage?",
+    "answer": "Lactic acid",
+    "distractors": [
+      "Citric acid",
+      "Tartaric acid",
+      "Malic acid"
+    ],
+    "explanation": "Lactic acid bacteria that live on the cabbage thrive in the salty brine and acidify it, which also preserves the vegetable for months.",
+    "hook": "Salt, wait, and bacteria sour it."
+  },
+  {
+    "id": "fd_417",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The tomato, potato and chilli all belong to which plant family?",
+    "answer": "The nightshade family",
+    "distractors": [
+      "The gourd family",
+      "The mint family",
+      "The daisy family"
+    ],
+    "explanation": "Their relatives include deadly nightshade and tobacco. Green potato skins and leaves contain solanine, which is why Europeans first distrusted tomatoes.",
+    "hook": "Spuds, tomatoes, chillies: all nightshades."
+  },
+  {
+    "id": "fd_418",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Monosodium glutamate was first isolated in 1908 from which Japanese seaweed?",
+    "answer": "Kombu",
+    "distractors": [
+      "Nori",
+      "Wakame",
+      "Dulse"
+    ],
+    "explanation": "Chemist Kikunae Ikeda noticed the savoury taste of kombu broth, named it umami, and went on to patent a seasoning from it.",
+    "hook": "Kombu broth gave us umami and MSG."
+  },
+  {
+    "id": "fd_419",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "In the EU, which olive oil grade must have free acidity of no more than 0.8 per cent and pass a taste panel?",
+    "answer": "Extra virgin",
+    "distractors": [
+      "Virgin",
+      "Pure",
+      "Light"
+    ],
+    "explanation": "Ordinary virgin oil is allowed up to 2 per cent. Free acidity measures fat breakdown, so a low figure signals fresh, carefully handled fruit.",
+    "hook": "Lower acidity, higher grade."
+  },
+  {
+    "id": "fd_420",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "What name is given to the finest dice in classical French knife work, about three millimetres square?",
+    "answer": "Brunoise",
+    "distractors": [
+      "Macedoine",
+      "Chiffonade",
+      "Paysanne"
+    ],
+    "explanation": "It is made by cutting a julienne of matchsticks crosswise. Macedoine is a larger dice, so brunoise is the smallest of the standard dice.",
+    "hook": "Brunoise: julienne turned to tiny cubes."
+  },
+  {
+    "id": "fd_421",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which protein-digesting enzyme in fresh pineapple stops gelatine desserts from setting?",
+    "answer": "Bromelain",
+    "distractors": [
+      "Papain",
+      "Pepsin",
+      "Amylase"
+    ],
+    "explanation": "Cooking or canning the fruit destroys it, so tinned pineapple is safe in jelly. The enzyme can also tingle the tongue as it breaks down protein.",
+    "hook": "Fresh pineapple eats the jelly."
+  },
+  {
+    "id": "fd_422",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The sweet orange is a natural hybrid of the pomelo and which other citrus?",
+    "answer": "Mandarin",
+    "distractors": [
+      "Citron",
+      "Lime",
+      "Kumquat"
+    ],
+    "explanation": "Genetic studies show sweet oranges arose in southern China from crossing pomelo with mandarin, followed by backcrossing.",
+    "hook": "Orange is mandarin times pomelo."
+  },
+  {
+    "id": "fd_423",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Himalayan pink salt is mostly mined in which country?",
+    "answer": "Pakistan",
+    "distractors": [
+      "India",
+      "Nepal",
+      "Bhutan"
+    ],
+    "explanation": "The salt comes from the Khewra mine in the Punjab, despite the name. Its pink tint comes from traces of iron oxide.",
+    "hook": "Pink salt is Punjabi, not Himalayan."
+  },
+  {
+    "id": "fd_424",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Why do tough cuts soften so quickly in a sealed pot with a locking lid and a steam valve?",
+    "answer": "Water boils at a higher temperature under pressure",
+    "distractors": [
+      "The steam is drier and hotter",
+      "The lid reflects microwaves inward",
+      "The sealed pot traps cold air"
+    ],
+    "explanation": "At about 100 kilopascals above normal air pressure, water boils near 120 degrees Celsius, so tough cuts and beans soften in a fraction of the time.",
+    "hook": "More pressure, hotter water."
+  },
+  {
+    "id": "fd_425",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Before being marketed under a bird's name, kiwi fruit was sold in New Zealand as the Chinese what?",
+    "answer": "Gooseberry",
+    "distractors": [
+      "Lychee",
+      "Plum",
+      "Melon"
+    ],
+    "explanation": "The fruit came from China and was renamed kiwifruit in 1959 to suit export markets.",
+    "hook": "Once the Chinese gooseberry."
+  },
+  {
+    "id": "fd_426",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which fiery British chef fronts the TV series Hell's Kitchen and Kitchen Nightmares?",
+    "answer": "Gordon Ramsay",
+    "distractors": [
+      "Rick Stein",
+      "Raymond Blanc",
+      "Antony Worrall Thompson"
+    ],
+    "explanation": "He earned three Michelin stars at his Chelsea restaurant on Royal Hospital Road in 2001, and has built a TV career on blunt criticism of failing kitchens.",
+    "hook": "Famous for the swearing and the stars."
+  },
+  {
+    "id": "fd_427",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which American cook co-wrote Mastering the Art of French Cooking, published in 1961?",
+    "answer": "Julia Child",
+    "distractors": [
+      "Martha Stewart",
+      "Ina Garten",
+      "Rachael Ray"
+    ],
+    "explanation": "The 6-foot-2 Californian learned to cook in Paris after the war, and the book's success led to her long-running public television series. Her kitchen is now displayed in the Smithsonian.",
+    "hook": "Mastering French cooking, one tall American at a time."
+  },
+  {
+    "id": "fd_428",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What is the Burger King chain called in Australia?",
+    "answer": "Hungry Jack's",
+    "distractors": [
+      "Red Rooster",
+      "Oporto",
+      "Grill'd"
+    ],
+    "explanation": "Franchisee Jack Cowin chose the name from a Pillsbury pancake mix brand after the Burger King name was already registered locally by an Adelaide takeaway. The chain still uses it today.",
+    "hook": "Same Whopper, different name."
+  },
+  {
+    "id": "fd_429",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which fast-food chain, founded in 1940 in San Bernardino, California, uses the Golden Arches as its logo?",
+    "answer": "McDonald's",
+    "distractors": [
+      "Burger King",
+      "Wendy's",
+      "Taco Bell"
+    ],
+    "explanation": "Brothers Dick and Mac McDonald started it as a drive-in; Ray Kroc bought them out in 1961 and turned it into a global empire. The arches began as architectural features on the restaurant buildings.",
+    "hook": "The arches began as building design, not a logo."
+  },
+  {
+    "id": "fd_430",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Harland Sanders, the white-suited Colonel, founded which fast-food chain?",
+    "answer": "KFC",
+    "distractors": [
+      "Popeyes",
+      "Nando's",
+      "Church's Chicken"
+    ],
+    "explanation": "Sanders built his fortune on a secret blend of eleven herbs and spices and a pressure-cooker frying method. He began franchising the idea to restaurants in 1952, when he was already in his sixties.",
+    "hook": "Colonel in a white suit, sixty-plus start-up."
+  },
+  {
+    "id": "fd_431",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which British chef campaigned in 2005 to improve school lunches, famously criticising Turkey Twizzlers?",
+    "answer": "Jamie Oliver",
+    "distractors": [
+      "Nigella Lawson",
+      "Heston Blumenthal",
+      "Delia Smith"
+    ],
+    "explanation": "His Channel 4 series Jamie's School Dinners led the British government to pledge extra funding for healthier school meals. He later took the campaign to the United States.",
+    "hook": "Twizzlers out, vegetables in."
+  },
+  {
+    "id": "fd_432",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which of these foods was unknown in Europe before Columbus crossed the Atlantic in 1492?",
+    "answer": "Potatoes",
+    "distractors": [
+      "Chickpeas",
+      "Lentils",
+      "Olives"
+    ],
+    "explanation": "Spanish sailors brought potatoes back from the Andes in the 16th century, and they eventually became a European staple, notably in Ireland. This swap of crops and animals is called the Columbian exchange.",
+    "hook": "Not in Europe until the Andes were raided."
+  },
+  {
+    "id": "fd_433",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which late chef and travel presenter wrote the 2000 bestseller Kitchen Confidential?",
+    "answer": "Anthony Bourdain",
+    "distractors": [
+      "Mario Batali",
+      "Jamie Oliver",
+      "Rick Stein"
+    ],
+    "explanation": "The book exposed the rough, chaotic reality of restaurant kitchens, drawing on his years at New York's Les Halles. It launched a TV career that included No Reservations and Parts Unknown.",
+    "hook": "Tell-all from the back of the house."
+  },
+  {
+    "id": "fd_434",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which baking judge left The Great British Bake Off in 2016 rather than follow it when it moved to Channel 4?",
+    "answer": "Mary Berry",
+    "distractors": [
+      "Prue Leith",
+      "Delia Smith",
+      "Nigella Lawson"
+    ],
+    "explanation": "She had judged since the first series in 2010 on the BBC, and Prue Leith replaced her in the tent. Paul Hollywood chose to stay with the show.",
+    "hook": "She was there from the first series, and then she wasn't."
+  },
+  {
+    "id": "fd_435",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Auguste Escoffier reorganised professional kitchens into specialist stations under which name?",
+    "answer": "The brigade system",
+    "distractors": [
+      "The guild system",
+      "The commis rota",
+      "The maître system"
+    ],
+    "explanation": "Chefs de partie such as the saucier, poissonnier and pâtissier each ran one station under the executive chef, cutting chaos and speeding service. It is still the model for restaurant kitchens today.",
+    "hook": "One cook, one station, one boss."
+  },
+  {
+    "id": "fd_436",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Alice Waters opened the hugely influential restaurant Chez Panisse in 1971 in which Californian city?",
+    "answer": "Berkeley",
+    "distractors": [
+      "San Francisco",
+      "Los Angeles",
+      "Sacramento"
+    ],
+    "explanation": "It championed fresh, local and seasonal produce and set off what became known as California cuisine. Waters also founded the Edible Schoolyard project, which inspired school garden programs worldwide.",
+    "hook": "Berkeley, where local and seasonal began."
+  },
+  {
+    "id": "fd_437",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Thomas Keller's French Laundry restaurant is in the town of Yountville, in which Californian wine region?",
+    "answer": "Napa Valley",
+    "distractors": [
+      "Sonoma County",
+      "Paso Robles",
+      "Santa Barbara County"
+    ],
+    "explanation": "The building was once a steam laundry, and Keller bought it in 1994 and made it among the most celebrated restaurants in the United States. His tasting menu opens with a famed cornet of salmon tartare.",
+    "hook": "A laundry in wine country."
+  },
+  {
+    "id": "fd_438",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Ferran Adrià's elBulli, which closed in 2011, was on the coast of which Spanish region?",
+    "answer": "Catalonia",
+    "distractors": [
+      "Andalusia",
+      "Galicia",
+      "The Basque Country"
+    ],
+    "explanation": "The restaurant at Cala Montjoi near Roses pioneered molecular gastronomy and was named world's best several times. Adrià closed it to turn the site into a creative foundation.",
+    "hook": "Foams and spherified olives on the Costa Brava."
+  },
+  {
+    "id": "fd_439",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Nando's, famous for its peri-peri chicken, was founded in 1987 in which country?",
+    "answer": "South Africa",
+    "distractors": [
+      "Portugal",
+      "Mozambique",
+      "Brazil"
+    ],
+    "explanation": "The first restaurant opened in Johannesburg and drew on Portuguese-Mozambican flavours. The chain has since spread to more than 20 countries, including Australia and the United Kingdom.",
+    "hook": "Portuguese heat, Johannesburg beginnings."
+  },
+  {
+    "id": "fd_441",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which 1906 novel by Upton Sinclair, exposing Chicago's meatpacking industry, helped spur new food safety laws?",
+    "answer": "The Jungle",
+    "distractors": [
+      "The Octopus",
+      "Sister Carrie",
+      "The Grapes of Wrath"
+    ],
+    "explanation": "Sinclair wanted to highlight workers' conditions, but readers were disgusted by the unsanitary meat. Congress passed the Meat Inspection Act and the Pure Food and Drug Act in 1906.",
+    "hook": "He aimed for the heart, hit the stomach."
+  },
+  {
+    "id": "fd_442",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Before it came to mean a place to dine, the French word restaurant referred to what?",
+    "answer": "A strengthening meat broth",
+    "distractors": [
+      "A sweet custard tart",
+      "A coarse peasant bread",
+      "A spiced warm wine"
+    ],
+    "explanation": "These broths were sold in 18th-century Paris to restore the strength of tired customers. The word comes from the verb restaurer, meaning to restore.",
+    "hook": "A restorative soup gave the name."
+  },
+  {
+    "id": "fd_443",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Ray Kroc first visited the McDonald brothers' restaurant because he sold what kitchen machine?",
+    "answer": "Milkshake mixers",
+    "distractors": [
+      "Deep fryers",
+      "Soft-serve dispensers",
+      "Hamburger grills"
+    ],
+    "explanation": "Kroc supplied the Multimixer, which blended five shakes at once, and was amazed that one California restaurant ordered eight of them. He signed on as the McDonald brothers' franchising agent in 1954 and built the franchise.",
+    "hook": "Eight mixers at once made him curious."
+  },
+  {
+    "id": "fd_444",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Julia Child worked during the Second World War for which US intelligence agency?",
+    "answer": "The OSS",
+    "distractors": [
+      "The FBI",
+      "The Red Cross",
+      "The Women's Army Corps"
+    ],
+    "explanation": "The Office of Strategic Services posted her to Ceylon and China, where she met her husband Paul. One project she worked on was a shark repellent to protect naval explosives from curious sharks.",
+    "hook": "Spy first, chef second."
+  },
+  {
+    "id": "fd_445",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Who played the flamboyant chairman, famous for biting into a capsicum, in the original Japanese version of Iron Chef?",
+    "answer": "Takeshi Kaga",
+    "distractors": [
+      "Takeshi Kitano",
+      "Ken Takakura",
+      "Tetsuya Watari"
+    ],
+    "explanation": "The Japanese series Ryori no Tetsujin began on Fuji TV in 1993 and later inspired the American Iron Chef franchise. The chairman was a fictional gourmet who invited challengers to face resident Iron Chefs.",
+    "hook": "Chairman bites the capsicum like an apple."
+  },
+  {
+    "id": "fd_446",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Isabella Beeton's Book of Household Management was published as a single volume in which year?",
+    "answer": "1861",
+    "distractors": [
+      "1851",
+      "1871",
+      "1881"
+    ],
+    "explanation": "It had come out as monthly parts from 1859, covering recipes, servants and household accounts. She died aged 28 in 1865, never learning how widely her book would be copied.",
+    "hook": "Victorian parts, whole book in 1861."
+  },
+  {
+    "id": "fd_447",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which British magazine launched the World's 50 Best Restaurants list in 2002?",
+    "answer": "Restaurant magazine",
+    "distractors": [
+      "Gourmet",
+      "Decanter",
+      "Time Out"
+    ],
+    "explanation": "The ranking is voted on by a panel of chefs, restaurateurs and critics, and elBulli topped it five times. The list has since been run under the name World's 50 Best.",
+    "hook": "Chefs vote, a magazine began it."
+  },
+  {
+    "id": "fd_448",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which foods came off ration in Britain on 4 July 1954, ending post-war food rationing?",
+    "answer": "Meat and bacon",
+    "distractors": [
+      "Butter and cheese",
+      "Sugar and sweets",
+      "Tea and eggs"
+    ],
+    "explanation": "Rationing began in 1940 and outlasted the war by nine years, with butter and cheese finishing in May 1954 and sugar in 1953. Meat was the last holdout.",
+    "hook": "Meat was the last on the list."
+  },
+  {
+    "id": "fd_449",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Fred DeLuca was 17 when he opened the sandwich shop that became Subway in 1965 in which US state?",
+    "answer": "Connecticut",
+    "distractors": [
+      "New York",
+      "Massachusetts",
+      "New Jersey"
+    ],
+    "explanation": "He borrowed 1,000 dollars from family friend Peter Buck to start Pete's Super Submarines in Bridgeport to pay for university. The business was renamed Subway in 1968.",
+    "hook": "A teenager's loan paid for uni."
+  },
+  {
+    "id": "fd_450",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Harland Sanders first sold his fried chicken from a petrol station in which Kentucky town?",
+    "answer": "Corbin",
+    "distractors": [
+      "Louisville",
+      "Lexington",
+      "Paducah"
+    ],
+    "explanation": "He served meals from a Shell service station in North Corbin during the Depression, and the Sanders Court and Cafe later became a motel and restaurant. The site is now preserved as a museum.",
+    "hook": "Chicken beside the petrol pumps."
+  },
+  {
+    "id": "fd_451",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Roman cookbook De re coquinaria is traditionally credited to which gourmet?",
+    "answer": "Apicius",
+    "distractors": [
+      "Lucullus",
+      "Petronius",
+      "Columella"
+    ],
+    "explanation": "The collection of recipes dates from the late Roman period, and its sauces rely on fish sauce, honey and pepper. The name was attached to a famous gourmand who lived under Tiberius.",
+    "hook": "Roman recipes under a gourmand's name."
+  },
+  {
+    "id": "fd_452",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which spice made the tiny island of Run so valuable that the Dutch swapped Manhattan for it in 1667?",
+    "answer": "Nutmeg",
+    "distractors": [
+      "Cloves",
+      "Cinnamon",
+      "Black pepper"
+    ],
+    "explanation": "Under the Treaty of Breda the Dutch kept Run, and the English kept New Amsterdam, renamed New York. The Banda Islands were then the only source of nutmeg in the world.",
+    "hook": "Manhattan was worth less than nutmeg."
+  },
+  {
+    "id": "fd_453",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "What sits at the centre of a Jaffa, under its hard orange shell?",
+    "answer": "Chocolate",
+    "distractors": [
+      "Caramel",
+      "Marshmallow",
+      "Toffee"
+    ],
+    "explanation": "Jaffas are small chocolate balls with an orange-flavoured sugar coating, and they became famous as the lolly rolled down cinema aisles. The name comes from Jaffa oranges, shipped from the port of Jaffa.",
+    "hook": "Orange outside, chocolate inside, rolling down the aisle."
+  },
+  {
+    "id": "fd_454",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Black Forest gateau layers chocolate sponge and whipped cream with which fruit?",
+    "answer": "Cherries",
+    "distractors": [
+      "Raspberries",
+      "Plums",
+      "Strawberries"
+    ],
+    "explanation": "The cake is soaked with kirsch, a clear cherry brandy distilled in Germany's Black Forest region. Some say the dark chocolate shavings on top echo the traditional costume of the area.",
+    "hook": "The Black Forest's cherry spirit flavours the cake, and the region gives it its name."
+  },
+  {
+    "id": "fd_455",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Which bird is the traditional centrepiece of an American Thanksgiving dinner?",
+    "answer": "Turkey",
+    "distractors": [
+      "Goose",
+      "Duck",
+      "Chicken"
+    ],
+    "explanation": "The turkey is a native American bird, which helps explain why it became the festive roast. Thanksgiving falls on the fourth Thursday of November and was fixed by US law in 1941.",
+    "hook": "Fourth Thursday in November, and a bird from the Americas."
+  },
+  {
+    "id": "fd_456",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "On which day of the Easter weekend are hot cross buns traditionally eaten?",
+    "answer": "Good Friday",
+    "distractors": [
+      "Easter Sunday",
+      "Palm Sunday",
+      "Holy Saturday"
+    ],
+    "explanation": "The spiced, fruity buns are marked with a cross for the crucifixion. They are now sold for weeks beforehand, but the custom began as a Good Friday treat.",
+    "hook": "The cross on the bun marks the day itself."
+  },
+  {
+    "id": "fd_457",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "Wagyu beef, famed for its fine fat marbling, comes from cattle first bred in which country?",
+    "answer": "Japan",
+    "distractors": [
+      "South Korea",
+      "China",
+      "Argentina"
+    ],
+    "explanation": "The word wagyu simply means Japanese cow. Kobe beef is wagyu raised in Hyogo prefecture.",
+    "hook": "Wagyu means Japanese cow, so the answer is in the word."
+  },
+  {
+    "id": "fd_458",
+    "category": "food_drink",
+    "difficulty": "easy",
+    "question": "A standard tub of Neapolitan ice cream has stripes of vanilla, chocolate and which third flavour?",
+    "answer": "Strawberry",
+    "distractors": [
+      "Raspberry",
+      "Caramel",
+      "Coconut"
+    ],
+    "explanation": "The three-colour block takes its name from the Italian city of Naples, though its exact origin is murky. In the United States it is commonly sold as a pink, brown and white tub.",
+    "hook": "Three stripes, and the pink one is strawberry."
+  },
+  {
+    "id": "fd_460",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Kit Kat began life in 1935 as Rowntree's Chocolate Crisp, made in which English city?",
+    "answer": "York",
+    "distractors": [
+      "Birmingham",
+      "Reading",
+      "Leeds"
+    ],
+    "explanation": "It was renamed Kit Kat in 1937, and the factory stayed in York for decades. Nestle bought Rowntree in 1988, and Nestle still makes it across the world.",
+    "hook": "Kit Kat is York's biscuit and chocolate story."
+  },
+  {
+    "id": "fd_461",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Haigh's Chocolates, Australia's oldest family-owned chocolate maker, was founded in 1915 in which city?",
+    "answer": "Adelaide",
+    "distractors": [
+      "Melbourne",
+      "Sydney",
+      "Hobart"
+    ],
+    "explanation": "Alfred Haigh opened the first Haigh's shop in Adelaide, and the company is still run by his descendants. Its chocolate frogs are a South Australian favourite.",
+    "hook": "Haigh's frogs hop out of Adelaide."
+  },
+  {
+    "id": "fd_462",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "A baked Alaska can go into a very hot oven without the ice cream melting because it is sealed in what?",
+    "answer": "A thick coat of meringue",
+    "distractors": [
+      "A layer of marzipan",
+      "A shell of frozen chocolate",
+      "A pastry lid"
+    ],
+    "explanation": "Whipped egg white traps tiny pockets of air, which conduct heat poorly and insulate the ice cream. The dessert is linked to Delmonico's restaurant in New York and the 1867 purchase of Alaska.",
+    "hook": "Air bubbles in the foam keep the freezer cold."
+  },
+  {
+    "id": "fd_463",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Stir-up Sunday, when British families traditionally make Christmas puddings, falls just before which season?",
+    "answer": "Advent",
+    "distractors": [
+      "Lent",
+      "Epiphany",
+      "Pentecost"
+    ],
+    "explanation": "It is the last Sunday before Advent, and the name comes from a prayer that begins stir up, we beseech thee. Each family member stirs the mix and makes a wish.",
+    "hook": "Stir the pudding before Advent begins."
+  },
+  {
+    "id": "fd_464",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "From which part of the beef animal does brisket come?",
+    "answer": "The lower chest",
+    "distractors": [
+      "The rump",
+      "The upper back",
+      "The hind leg"
+    ],
+    "explanation": "The chest muscle carries much of the animal's weight, so it is tough and full of connective tissue. Slow smoking or braising turns that collagen into gelatine, which is why brisket is a Texas barbecue staple.",
+    "hook": "Hard-working chest muscle needs low and slow."
+  },
+  {
+    "id": "fd_465",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Abalone, prized in Chinese banquets and dived for off Tasmania and Victoria, is what kind of animal?",
+    "answer": "A sea snail",
+    "distractors": [
+      "A type of crab",
+      "A sea cucumber",
+      "A kind of squid"
+    ],
+    "explanation": "It is a marine gastropod with a single ear-shaped shell lined with mother-of-pearl. The muscular foot is the part eaten, and it must be cooked very quickly or very slowly to avoid toughness.",
+    "hook": "An ear-shaped shell with a snail's foot inside."
+  },
+  {
+    "id": "fd_466",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The English word companion comes from Latin words meaning with and which food?",
+    "answer": "Bread",
+    "distractors": [
+      "Salt",
+      "Wine",
+      "Meat"
+    ],
+    "explanation": "A companion was literally someone you broke bread with. The French word copain has the same root, and the term was used for people who shared a meal, including soldiers.",
+    "hook": "Your companion is whoever shares your loaf."
+  },
+  {
+    "id": "fd_467",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "The word biscuit, from Latin via Old French, literally means what?",
+    "answer": "Twice cooked",
+    "distractors": [
+      "Small loaf",
+      "Baked with butter",
+      "Hard crust"
+    ],
+    "explanation": "Biscuits were first baked, then dried again in the oven so they would keep for long sea voyages. Italian biscotti has the same meaning, which is why those are crisp.",
+    "hook": "Bake it once, then bake it again."
+  },
+  {
+    "id": "fd_468",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Compared with beef, kangaroo meat is prized for being very low in which nutrient?",
+    "answer": "Fat",
+    "distractors": [
+      "Protein",
+      "Iron",
+      "Zinc"
+    ],
+    "explanation": "Kangaroo is very low in fat compared with beef, while being high in protein and iron. Because it is so lean it dries out quickly and is best cooked rare to medium-rare.",
+    "hook": "Lean as a roo, so do not overcook it."
+  },
+  {
+    "id": "fd_469",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The cheese gruyere takes its name from a small town in which Swiss canton?",
+    "answer": "Fribourg",
+    "distractors": [
+      "Bern",
+      "Valais",
+      "Vaud"
+    ],
+    "explanation": "The town of Gruyeres sits in the Fribourg canton, and the cheese takes its name from the town. The cheese is aged for months and is a key part of a classic fondue.",
+    "hook": "Gruyeres is the castle town in Fribourg."
+  },
+  {
+    "id": "fd_470",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which Swiss chocolatier's 1879 invention, a machine that kneads and aerates chocolate paste for hours, made modern smooth chocolate possible?",
+    "answer": "Rodolphe Lindt, with his conche",
+    "distractors": [
+      "Daniel Peter, with his milk powder",
+      "Henri Nestle, with his evaporator",
+      "Jean Tobler, with his mould"
+    ],
+    "explanation": "Rodolphe Lindt's conche ground the cocoa and sugar until the gritty texture disappeared and the chocolate melted smoothly in the mouth. The process is still called conching today.",
+    "hook": "A bean's rough edges are ground off by the conche."
+  },
+  {
+    "id": "fd_471",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Mars bar was first made in 1932 in which English town?",
+    "answer": "Slough",
+    "distractors": [
+      "Reading",
+      "Luton",
+      "Swindon"
+    ],
+    "explanation": "Forrest Mars, son of American candy maker Frank Mars, set up in Slough, Berkshire, and launched the bar there in 1932.",
+    "hook": "Mars landed in Slough in 1932."
+  },
+  {
+    "id": "fd_472",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which South Australian port is home to most of Australia's southern bluefin tuna fishing and farming industry?",
+    "answer": "Port Lincoln",
+    "distractors": [
+      "Whyalla",
+      "Victor Harbor",
+      "Port Pirie"
+    ],
+    "explanation": "Young wild tuna are caught in the Great Australian Bight, towed to pens off Port Lincoln and fattened for the Japanese sashimi market.",
+    "hook": "Tuna ranchers made a fortune at Port Lincoln."
+  },
+  {
+    "id": "fd_473",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "A simnel cake, eaten at Easter, is traditionally topped with how many marzipan balls around its top edge?",
+    "answer": "Eleven",
+    "distractors": [
+      "Nine",
+      "Ten",
+      "Thirteen"
+    ],
+    "explanation": "The balls stand for the apostles, minus Judas, who betrayed Jesus. Some bakers add a twelfth in the centre to represent Christ, but the classic count around the edge is eleven.",
+    "hook": "Twelve apostles, minus the traitor."
+  },
+  {
+    "id": "fd_474",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The Swiss melted cheese dish raclette takes its name from a French verb meaning what?",
+    "answer": "To scrape",
+    "distractors": [
+      "To melt",
+      "To slice",
+      "To dip"
+    ],
+    "explanation": "Diners hold a cut wheel of cheese to a heater and scrape off the melted surface onto potatoes, pickles and cured meats. The French verb is racler.",
+    "hook": "You scrape the melted cheese off the wheel."
+  },
+  {
+    "id": "fd_475",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Under Australian food standards, butter must contain at least what share of milk fat?",
+    "answer": "80 per cent",
+    "distractors": [
+      "60 per cent",
+      "70 per cent",
+      "90 per cent"
+    ],
+    "explanation": "The rest is mostly water, with a little milk protein and salt. Spreads that fall below the minimum fat level cannot legally be sold as butter.",
+    "hook": "Eighty per cent fat, twenty per cent the rest."
+  },
+  {
+    "id": "fd_476",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Legend credits a Normandy farmer, Marie Harel, with perfecting Camembert after a priest fleeing which event shared his secret?",
+    "answer": "The French Revolution",
+    "distractors": [
+      "The Hundred Years' War",
+      "The Franco-Prussian War",
+      "The Napoleonic Wars"
+    ],
+    "explanation": "The story says the priest came from the Brie region and passed on his methods to the farmer. A statue of Marie Harel stands in the village of Vimoutiers.",
+    "hook": "A runaway priest gave the farmer his recipe."
   }
 ]

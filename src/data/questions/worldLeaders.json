@@ -2098,5 +2098,4093 @@
     ],
     "explanation": "Ben-Gurion, head of the Jewish Agency, proclaimed the state in a ceremony at the Tel Aviv Museum. Chaim Weizmann became the largely ceremonial first president. Golda Meir signed the declaration and became prime minister in 1969.",
     "hook": "He declared the state at a museum, not a parliament."
+  },
+  {
+    "id": "wl_151",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which French leader was exiled to the island of Saint Helena after defeat at Waterloo in 1815?",
+    "answer": "Napoleon Bonaparte",
+    "distractors": [
+      "Louis XVIII",
+      "Louis-Philippe",
+      "Charles X"
+    ],
+    "explanation": "He had earlier been exiled to Elba, escaped and ruled again for the 'Hundred Days' before Waterloo ended it. The British sent him to a remote South Atlantic island, where he died in 1821.",
+    "hook": "Elba was the first exile, Saint Helena the last."
+  },
+  {
+    "id": "wl_152",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Egyptian queen allied herself with Julius Caesar and later with Mark Antony?",
+    "answer": "Cleopatra VII",
+    "distractors": [
+      "Nefertiti",
+      "Hatshepsut",
+      "Nefertari"
+    ],
+    "explanation": "She belonged to the Greek-speaking Ptolemaic dynasty but was said to be the first of her line to learn the Egyptian language. After her death in 30 BCE, Egypt became a Roman province.",
+    "hook": "The last Ptolemy: Egypt's queen was Greek by descent."
+  },
+  {
+    "id": "wl_153",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which country did Lenin's Bolsheviks seize power in the October Revolution of 1917?",
+    "answer": "Russia",
+    "distractors": [
+      "Germany",
+      "Austria",
+      "Bulgaria"
+    ],
+    "explanation": "It is called the October Revolution because Russia still used the Julian calendar, so the date fell on 7 November by our modern calendar. Russia then became the largest republic in the Soviet Union, which was formed in December 1922.",
+    "hook": "The October Revolution happened in November on today's calendar."
+  },
+  {
+    "id": "wl_154",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president authorised the atomic bombs dropped on Hiroshima and Nagasaki in 1945?",
+    "answer": "Harry S. Truman",
+    "distractors": [
+      "Franklin D. Roosevelt",
+      "Dwight D. Eisenhower",
+      "Herbert Hoover"
+    ],
+    "explanation": "Truman had been vice president for only 82 days when Roosevelt died in April 1945, and was only then briefed on the Manhattan Project. A sign on his desk read 'The buck stops here'.",
+    "hook": "The buck stopped at the desk of an 82-day vice president."
+  },
+  {
+    "id": "wl_155",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Labor prime minister led Australia from October 1941 until his death in July 1945?",
+    "answer": "John Curtin",
+    "distractors": [
+      "Ben Chifley",
+      "Robert Menzies",
+      "Arthur Fadden"
+    ],
+    "explanation": "Curtin declared in December 1941 that Australia looked to America, free of any pangs about British ties, after Japan entered the war. He died weeks before the war ended and Ben Chifley succeeded him.",
+    "hook": "He turned to America and died just before victory."
+  },
+  {
+    "id": "wl_156",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former ACTU president won the Labor leadership in February 1983 and then the federal election that March?",
+    "answer": "Bob Hawke",
+    "distractors": [
+      "Bill Hayden",
+      "Paul Keating",
+      "Kim Beazley"
+    ],
+    "explanation": "Bill Hayden resigned as Labor leader on 3 February 1983, the day Malcolm Fraser called the election, and Hawke was elected leader unopposed in a caucus ballot on 8 February. Labor won the 5 March election under him, and he stayed prime minister until Paul Keating ousted him in December 1991.",
+    "hook": "Hawke won the leadership in February and the Lodge in March."
+  },
+  {
+    "id": "wl_157",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which treaty of 1919 formally ended the First World War with Germany?",
+    "answer": "Treaty of Versailles",
+    "distractors": [
+      "Treaty of Trianon",
+      "Treaty of Sèvres",
+      "Treaty of Brest-Litovsk"
+    ],
+    "explanation": "It was signed on 28 June 1919, five years to the day after the assassination of Archduke Franz Ferdinand. Its war-guilt clause and reparations bitterly angered Germans, and the Nazis later exploited that resentment.",
+    "hook": "Signed five years to the day after Sarajevo."
+  },
+  {
+    "id": "wl_158",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Carthaginian general led elephants over the Alps in 218 BCE to invade Italy?",
+    "answer": "Hannibal",
+    "distractors": [
+      "Hamilcar Barca",
+      "Scipio Africanus",
+      "Pyrrhus of Epirus"
+    ],
+    "explanation": "Hannibal crushed a much larger Roman army at Cannae in 216 BCE. The Roman general Scipio Africanus finally beat him at Zama in 202 BCE by taking the war to Carthage's home ground.",
+    "hook": "Elephants over the Alps, but Scipio beat him at home."
+  },
+  {
+    "id": "wl_159",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Mughal emperor built the Taj Mahal as a tomb for his wife Mumtaz Mahal?",
+    "answer": "Shah Jahan",
+    "distractors": [
+      "Akbar",
+      "Aurangzeb",
+      "Babur"
+    ],
+    "explanation": "Mumtaz died in 1631 and the tomb at Agra took about two decades to build. Shah Jahan was later deposed by his son Aurangzeb and held in Agra Fort, with a view of the monument.",
+    "hook": "Imprisoned within sight of the tomb he built."
+  },
+  {
+    "id": "wl_160",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which French king was executed by guillotine in January 1793?",
+    "answer": "Louis XVI",
+    "distractors": [
+      "Louis XIV",
+      "Louis XV",
+      "Louis XVIII"
+    ],
+    "explanation": "He was tried by the National Convention for treason after the monarchy fell, and Marie Antoinette followed him to the scaffold in October. Their young son, whom royalists called Louis XVII, died in prison in 1795.",
+    "hook": "The king who reigned through the Revolution lost his head first."
+  },
+  {
+    "id": "wl_161",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which tsar built a new capital on the Neva marshes in 1703 and taxed his nobles for wearing beards?",
+    "answer": "Peter the Great",
+    "distractors": [
+      "Ivan the Terrible",
+      "Nicholas II",
+      "Alexander II"
+    ],
+    "explanation": "He toured Europe incognito to learn shipbuilding and then modernised Russia on Western lines. His new city served as the capital for over two centuries, until the Bolsheviks moved it back to Moscow in 1918.",
+    "hook": "The tsar who taxed beards and built a city on a swamp."
+  },
+  {
+    "id": "wl_162",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Prussian statesman engineered German unification and became the empire's first chancellor in 1871?",
+    "answer": "Otto von Bismarck",
+    "distractors": [
+      "Leo von Caprivi",
+      "Bernhard von Bülow",
+      "Theobald von Bethmann Hollweg"
+    ],
+    "explanation": "He won wars against Denmark, Austria and France, and the empire was proclaimed in the Hall of Mirrors at Versailles. Kaiser Wilhelm II dismissed him in 1890 after the two clashed over policy.",
+    "hook": "Three wars, one empire, then sacked by a young Kaiser."
+  },
+  {
+    "id": "wl_163",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Labor leader ended 23 years of Coalition government at the 1972 federal election on the slogan 'It's Time'?",
+    "answer": "Gough Whitlam",
+    "distractors": [
+      "Bob Hawke",
+      "Arthur Calwell",
+      "Ben Chifley"
+    ],
+    "explanation": "Within days he and deputy Lance Barnard formed a two-man ministry and began ending conscription. His government was dismissed by the Governor-General in November 1975.",
+    "hook": "A two-man ministry started a government that ended in dismissal."
+  },
+  {
+    "id": "wl_164",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Rome's first emperor in 27 BCE after defeating Mark Antony at Actium?",
+    "answer": "Augustus",
+    "distractors": [
+      "Tiberius",
+      "Nero",
+      "Trajan"
+    ],
+    "explanation": "Born Octavian, he was the great-nephew and adopted heir of Julius Caesar, and the Senate gave him the title Augustus. The month of August is named after him, just as July honours Caesar.",
+    "hook": "July for Caesar, August for his heir."
+  },
+  {
+    "id": "wl_165",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Queenslander was Australia's shortest-serving prime minister, in office for just one week in July 1945?",
+    "answer": "Frank Forde",
+    "distractors": [
+      "Earle Page",
+      "Harold Holt",
+      "Joseph Cook"
+    ],
+    "explanation": "Forde took over after John Curtin's death and held the job until Labor's caucus elected Ben Chifley a week later. He later served as Australia's high commissioner to Canada.",
+    "hook": "Seven days in the job, then Chifley took over."
+  },
+  {
+    "id": "wl_166",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which 1648 settlement ended the Thirty Years' War and is often credited with founding the modern system of sovereign states?",
+    "answer": "Peace of Westphalia",
+    "distractors": [
+      "Peace of Augsburg",
+      "Treaty of Utrecht",
+      "Treaty of Tordesillas"
+    ],
+    "explanation": "The deals were negotiated in the German cities of Münster and Osnabrück. They confirmed that each ruler could decide his own state's affairs, the idea behind modern national sovereignty.",
+    "hook": "Two cities, one peace, and the birth of sovereign states."
+  },
+  {
+    "id": "wl_167",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Austrian foreign minister presided over the Congress of Vienna in 1814-15?",
+    "answer": "Klemens von Metternich",
+    "distractors": [
+      "Charles Maurice de Talleyrand",
+      "Viscount Castlereagh",
+      "Karl August von Hardenberg"
+    ],
+    "explanation": "The congress redrew Europe's map after Napoleon's defeat and set up a 'Concert of Europe' to keep the peace. Metternich fled to London when the revolutions of 1848 swept him from power.",
+    "hook": "The host of Vienna's peace fled when revolution came in 1848."
+  },
+  {
+    "id": "wl_168",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Ming dynasty admiral led seven great voyages across the Indian Ocean between 1405 and 1433?",
+    "answer": "Zheng He",
+    "distractors": [
+      "Koxinga",
+      "Yue Fei",
+      "Qi Jiguang"
+    ],
+    "explanation": "Born into a Muslim family in Yunnan, he was captured as a boy and became a eunuch in the imperial court. His fleets of giant treasure ships reached as far as East Africa before China ended the expeditions.",
+    "hook": "Treasure ships sailed to Africa decades before Columbus."
+  },
+  {
+    "id": "wl_169",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became Canada's first prime minister at Confederation in 1867?",
+    "answer": "John A. Macdonald",
+    "distractors": [
+      "Alexander Mackenzie",
+      "Wilfrid Laurier",
+      "George-Étienne Cartier"
+    ],
+    "explanation": "Born in Glasgow, Macdonald pushed through the Canadian Pacific Railway, completed in 1885. He resigned in 1873 over the Pacific Scandal but returned in 1878 and died in office in 1891.",
+    "hook": "A Glaswegian built Canada and its transcontinental railway."
+  },
+  {
+    "id": "wl_170",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Ottoman sultan, aged 21, conquered the Byzantine capital in 1453?",
+    "answer": "Mehmed II",
+    "distractors": [
+      "Suleiman the Magnificent",
+      "Selim I",
+      "Bayezid I"
+    ],
+    "explanation": "His huge cannon battered the old Theodosian walls, which had held for a thousand years. The last Byzantine emperor, Constantine XI, died defending the city, and Hagia Sophia became a mosque.",
+    "hook": "A 21-year-old with giant cannon took the Byzantine capital."
+  },
+  {
+    "id": "wl_171",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Habsburg ruler, mother of Marie Antoinette, governed Austria from 1740 to 1780?",
+    "answer": "Maria Theresa",
+    "distractors": [
+      "Catherine the Great",
+      "Empress Elisabeth",
+      "Isabella I of Castile"
+    ],
+    "explanation": "She had 16 children, including the future emperor Joseph II. She lost the rich province of Silesia to Frederick the Great of Prussia in the War of the Austrian Succession.",
+    "hook": "Sixteen children, one guillotined daughter, and a lost Silesia."
+  },
+  {
+    "id": "wl_172",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which country did Robert Menzies announce Australia was at war with in his radio broadcast of 3 September 1939?",
+    "answer": "Germany",
+    "distractors": [
+      "Italy",
+      "Japan",
+      "The Soviet Union"
+    ],
+    "explanation": "Menzies called it his 'melancholy duty' to tell Australians that Britain had declared war and that, as a result, Australia was also at war.",
+    "hook": "A melancholy duty, and a war declared by Britain."
+  },
+  {
+    "id": "wl_173",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In 1966 Harold Holt promised that Australia would go 'all the way with' which US president?",
+    "answer": "Lyndon B. Johnson",
+    "distractors": [
+      "John F. Kennedy",
+      "Richard Nixon",
+      "Dwight D. Eisenhower"
+    ],
+    "explanation": "Holt said it in June 1966 while backing the war in Vietnam, and Labor turned the slogan against him.",
+    "hook": "All the way with LBJ, a line Labor later threw back at Holt."
+  },
+  {
+    "id": "wl_174",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which New South Wales premier is remembered as the 'Father of Federation' after his 1889 speech at Tenterfield?",
+    "answer": "Henry Parkes",
+    "distractors": [
+      "Edmund Barton",
+      "Alfred Deakin",
+      "Samuel Griffith"
+    ],
+    "explanation": "Parkes used the Tenterfield oration to call for a single national government for all the colonies, and he was premier of New South Wales five times. He died in 1896, five years before the Commonwealth he championed began.",
+    "hook": "Tenterfield started the speech; Parkes never saw the result."
+  },
+  {
+    "id": "wl_175",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US general arrived in Australia in March 1942 to become Supreme Commander of Allied forces in the South-West Pacific?",
+    "answer": "Douglas MacArthur",
+    "distractors": [
+      "George Patton",
+      "Omar Bradley",
+      "Dwight D. Eisenhower"
+    ],
+    "explanation": "MacArthur escaped the Philippines and, on reaching South Australia by train, declared 'I shall return'. His arrival reflected John Curtin's decision to look to America for Australia's defence after the fall of Singapore.",
+    "hook": "Curtin looked to America and got MacArthur."
+  },
+  {
+    "id": "wl_176",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Before entering politics, Ben Chifley worked on the New South Wales railways as what?",
+    "answer": "An engine driver",
+    "distractors": [
+      "A station master",
+      "A signalman",
+      "A ticket inspector"
+    ],
+    "explanation": "Born in Bathurst in 1885, Chifley rose to engine driver before entering parliament. As Prime Minister from 1945 to 1949 he gave the 'light on the hill' speech that Labor leaders still quote.",
+    "hook": "The Prime Minister who drove the trains."
+  },
+  {
+    "id": "wl_177",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which artificial lake at the heart of Canberra is named after the American who designed the city?",
+    "answer": "Lake Burley Griffin",
+    "distractors": [
+      "Lake George",
+      "Lake Ginninderra",
+      "Lake Tuggeranong"
+    ],
+    "explanation": "Griffin's 1912 plan always showed a central lake, but it took until the early 1960s for the Molonglo River to be dammed. The Menzies government pushed the project through, and the lake was filled in 1963 and 1964.",
+    "hook": "The designer's plan waited fifty years for its water."
+  },
+  {
+    "id": "wl_178",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year did Robert Menzies begin his second and much longer stretch as Prime Minister?",
+    "answer": "1949",
+    "distractors": [
+      "1945",
+      "1946",
+      "1951"
+    ],
+    "explanation": "Menzies beat Chifley at the December 1949 election, helped by fears over Labor's bank nationalisation and a damaging coal strike. He then held the job without a break for more than sixteen years, until January 1966.",
+    "hook": "Chifley's coal strike and banks handed Menzies 1949."
+  },
+  {
+    "id": "wl_179",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Alarmed by growing Japanese naval power, Alfred Deakin invited the battle fleet of which country to visit Australia in 1908?",
+    "answer": "The United States",
+    "distractors": [
+      "France",
+      "Germany",
+      "Italy"
+    ],
+    "explanation": "Sixteen American battleships, the 'Great White Fleet', visited Sydney, Melbourne and Albany to enormous crowds. Deakin issued the invitation without waiting for approval from London, a bold sign of Australia's growing independence.",
+    "hook": "Deakin invited the American fleet without asking London."
+  },
+  {
+    "id": "wl_180",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which New South Wales premier earned the nickname 'Yes-No' for his wavering stance on the federation referendum campaign of 1898?",
+    "answer": "George Reid",
+    "distractors": [
+      "Edmund Barton",
+      "Alfred Deakin",
+      "William Lyne"
+    ],
+    "explanation": "Reid backed federation in principle but listed so many objections that critics said he was unable to commit either way. He became Prime Minister in 1904 and later sat in the British House of Commons.",
+    "hook": "Yes-No Reid became Prime Minister anyway."
+  },
+  {
+    "id": "wl_181",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which colony held the last of the federation referendums, voting yes in July 1900?",
+    "answer": "Western Australia",
+    "distractors": [
+      "Queensland",
+      "Tasmania",
+      "South Australia"
+    ],
+    "explanation": "The gold rush had drawn thousands of migrants from the eastern colonies, and they helped deliver a yes vote of roughly 70 per cent. Western Australia joined only just in time to be an original state of the Commonwealth.",
+    "hook": "The goldfields voters made Western Australia the last yes."
+  },
+  {
+    "id": "wl_183",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which private industry did Ben Chifley try to nationalise in 1947, a move that fed the Coalition's 1949 victory?",
+    "answer": "The private banks",
+    "distractors": [
+      "Steel production",
+      "Telecommunications",
+      "Shipping lines"
+    ],
+    "explanation": "The Banking Act 1947 would have put private banks under the Commonwealth Bank. The High Court struck it down in 1948 and the Privy Council upheld that in 1949, while Menzies campaigned against Labor's 'socialism'.",
+    "hook": "Chifley wanted the banks and lost the election."
+  },
+  {
+    "id": "wl_184",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Labor leader became Prime Minister in October 1929, just days before the Wall Street Crash?",
+    "answer": "James Scullin",
+    "distractors": [
+      "Ben Chifley",
+      "John Curtin",
+      "Matthew Charlton"
+    ],
+    "explanation": "Scullin was sworn in on 22 October 1929, and the American crash began two days later. His government was overwhelmed by the Great Depression and split, with Joseph Lyons and others walking out of Labor in 1931.",
+    "hook": "Sworn in on Tuesday, global crash on Thursday."
+  },
+  {
+    "id": "wl_185",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Roughly how many unbroken years did Coalition governments run Australia before Labor won the 1972 election?",
+    "answer": "23",
+    "distractors": [
+      "17",
+      "20",
+      "26"
+    ],
+    "explanation": "The run began with Menzies in December 1949 and ended with Whitlam in December 1972. Five prime ministers served in that time: Menzies, Holt, McEwen, Gorton and McMahon.",
+    "hook": "Five prime ministers filled just under twenty-three Coalition years."
+  },
+  {
+    "id": "wl_186",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which three-word slogan summed up Stanley Bruce's 1920s plan to boost migration, British investment and trade?",
+    "answer": "Men, money and markets",
+    "distractors": [
+      "Land, labour and loans",
+      "Ships, steel and soldiers",
+      "Wool, wheat and wealth"
+    ],
+    "explanation": "Bruce wanted Britain to supply settlers and capital while Australia sold farm produce back to Britain on preferential terms. Tough times in the late 1920s and the Depression undid much of the scheme.",
+    "hook": "Bruce's alliteration: men to settle, money to build, markets to sell."
+  },
+  {
+    "id": "wl_187",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which name did Menzies favour for Australia's new decimal currency, before public ridicule killed it off?",
+    "answer": "The Royal",
+    "distractors": [
+      "The Austral",
+      "The Digger",
+      "The Kanga"
+    ],
+    "explanation": "Menzies announced the choice in 1963, but critics mocked it and the government dropped it for the dollar. Decimal currency finally replaced pounds, shillings and pence in February 1966, under Harold Holt.",
+    "hook": "The Royal lost to the dollar, and Holt cut the ribbon."
+  },
+  {
+    "id": "wl_188",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Prime Minister won the 1913 election by a single seat, then lost the double dissolution election of 1914?",
+    "answer": "Joseph Cook",
+    "distractors": [
+      "Billy Hughes",
+      "George Reid",
+      "Alfred Deakin"
+    ],
+    "explanation": "Cook, a former coalminer born in Staffordshire, led the Liberals to a one-seat majority in the House but faced a Labor-controlled Senate. He called the double dissolution to break the deadlock and lost to Andrew Fisher. He later served as High Commissioner in London.",
+    "hook": "A one-seat win, then a deadlock, then Fisher took it back."
+  },
+  {
+    "id": "wl_189",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which ancient English honorary post did Menzies take up in 1965, succeeding Winston Churchill?",
+    "answer": "Lord Warden of the Cinque Ports",
+    "distractors": [
+      "Constable of the Tower of London",
+      "Chancellor of the Duchy of Lancaster",
+      "Gentleman Usher of the Black Rod"
+    ],
+    "explanation": "The Cinque Ports are the old coastal towns of Hastings, New Romney, Hythe, Dover and Sandwich, and the Warden has Walmer Castle as a residence. Menzies held the post until his death in 1978, when the Queen Mother took over.",
+    "hook": "Churchill's seaside castle passed to an Australian."
+  },
+  {
+    "id": "wl_190",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In which small Wimmera town in Victoria was Robert Menzies born in 1894?",
+    "answer": "Jeparit",
+    "distractors": [
+      "Nhill",
+      "Dimboola",
+      "Warracknabeal"
+    ],
+    "explanation": "His father ran a general store in the wheat-growing district, and Menzies went on to study law at the University of Melbourne. The town sits beside Lake Hindmarsh.",
+    "hook": "A storekeeper's son from the Wimmera became the longest-serving PM."
+  },
+  {
+    "id": "wl_191",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which surveyor's 1909 report picked the Canberra district as the site for Australia's national capital?",
+    "answer": "Charles Scrivener",
+    "distractors": [
+      "John Sulman",
+      "Walter Burley Griffin",
+      "Thomas Mitchell"
+    ],
+    "explanation": "Scrivener was the government surveyor who toured the Yass and Queanbeyan region and recommended the Molonglo plains. Griffin's design competition win came three years later, and Scrivener later gave his name to the dam that created the central lake.",
+    "hook": "Scrivener picked the spot; Griffin drew the plan."
+  },
+  {
+    "id": "wl_192",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In 1949 Chifley sent troops to dig coal to break a strike by which union?",
+    "answer": "The Miners' Federation",
+    "distractors": [
+      "The Waterside Workers' Federation",
+      "The Australian Railways Union",
+      "The Seamen's Union"
+    ],
+    "explanation": "About 23,000 miners stopped work for seven weeks over pay and conditions. Chifley froze union funds, jailed leaders and used the army at open-cut mines, which left a bitter legacy among Labor supporters and helped Menzies win that December.",
+    "hook": "A Labor Prime Minister broke a miners' strike with soldiers."
+  },
+  {
+    "id": "wl_193",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In which Canberra hotel did Ben Chifley die of a heart attack in June 1951?",
+    "answer": "Hotel Kurrajong",
+    "distractors": [
+      "Hotel Canberra",
+      "Hotel Acton",
+      "Hotel Civic"
+    ],
+    "explanation": "Chifley was Opposition Leader by then and died on 13 June 1951. Even as Prime Minister he had preferred a room at the Kurrajong, a hotel built for public servants and politicians, over living at The Lodge.",
+    "hook": "The PM who chose a hotel room over the official residence."
+  },
+  {
+    "id": "wl_194",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Whom did Malcolm Turnbull replace as Prime Minister in a Liberal party-room vote in September 2015?",
+    "answer": "Tony Abbott",
+    "distractors": [
+      "Scott Morrison",
+      "Joe Hockey",
+      "Kevin Rudd"
+    ],
+    "explanation": "Turnbull won the ballot 54 votes to 44, saying the government had lost 30 Newspolls in a row. Abbott stayed in Parliament for almost four years before losing his Warringah seat in 2019.",
+    "hook": "Thirty Newspolls lost, and the knife came out."
+  },
+  {
+    "id": "wl_195",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which country was Julia Gillard born, before her family moved to Adelaide in 1966?",
+    "answer": "Wales",
+    "distractors": [
+      "Scotland",
+      "England",
+      "Ireland"
+    ],
+    "explanation": "Gillard was born in Barry, near Cardiff, and her family moved to Adelaide in 1966.",
+    "hook": "From Barry to Adelaide: the girl who became PM."
+  },
+  {
+    "id": "wl_196",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In June 1989 Bob Hawke wept on television over the killing of student protesters in which Beijing square?",
+    "answer": "Tiananmen Square",
+    "distractors": [
+      "Red Square",
+      "Tahrir Square",
+      "Wenceslas Square"
+    ],
+    "explanation": "Hawke's tears were followed by a decision to let around 42,000 Chinese nationals in Australia stay. The crackdown ended weeks of student-led protests calling for political reform.",
+    "hook": "Hawke cried, and about 42,000 Chinese nationals were allowed to stay."
+  },
+  {
+    "id": "wl_197",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who was Prime Minister when Australia's international borders were closed to most travellers in March 2020?",
+    "answer": "Scott Morrison",
+    "distractors": [
+      "Anthony Albanese",
+      "Malcolm Turnbull",
+      "Kevin Rudd"
+    ],
+    "explanation": "Morrison also replaced the Council of Australian Governments with a National Cabinet of first ministers to coordinate the pandemic response. He had become Prime Minister in August 2018.",
+    "hook": "COVID closed the borders and National Cabinet replaced COAG."
+  },
+  {
+    "id": "wl_198",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Prime Minister was in office when Sydney hosted the 2000 Olympic Games?",
+    "answer": "John Howard",
+    "distractors": [
+      "Paul Keating",
+      "Bob Hawke",
+      "Kevin Rudd"
+    ],
+    "explanation": "Howard governed from 1996 to 2007. Australia invoked the ANZUS Treaty for the first time on 14 September 2001, after the terrorist attacks in the United States.",
+    "hook": "The Games of 2000, and the 9/11 ANZUS call."
+  },
+  {
+    "id": "wl_199",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who did Julia Gillard lose the Labor leadership to in June 2013?",
+    "answer": "Kevin Rudd",
+    "distractors": [
+      "Bill Shorten",
+      "Wayne Swan",
+      "Simon Crean"
+    ],
+    "explanation": "Rudd won the caucus ballot 57 votes to 45, returning as Prime Minister. His second stint lasted under three months, ending when Labor lost the September 2013 election to Tony Abbott.",
+    "hook": "Rudd came back, then Labor lost within three months."
+  },
+  {
+    "id": "wl_200",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who toppled Bob Hawke in a December 1991 caucus vote to become Prime Minister?",
+    "answer": "Paul Keating",
+    "distractors": [
+      "Kim Beazley",
+      "John Button",
+      "Gareth Evans"
+    ],
+    "explanation": "Keating won 56 votes to 51 on his second challenge, after losing a first attempt in June 1991 and retreating to the backbench. He then led Labor to a fifth straight win in 1993.",
+    "hook": "Second challenge lucky: 56 to 51."
+  },
+  {
+    "id": "wl_201",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which 1975 Whitlam-government law made 'irretrievable breakdown' of a marriage the only ground for divorce?",
+    "answer": "Family Law Act 1975",
+    "distractors": [
+      "Marriage Act 1961",
+      "Matrimonial Causes Act 1959",
+      "Divorce Reform Act 1975"
+    ],
+    "explanation": "It ended the need to prove fault such as adultery or cruelty, and created a national court to handle such cases. A separation of twelve months became the evidence of breakdown.",
+    "hook": "No more proving fault: twelve months apart will do."
+  },
+  {
+    "id": "wl_202",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which international climate treaty did Kevin Rudd ratify as his first official act after being sworn in in December 2007?",
+    "answer": "Kyoto Protocol",
+    "distractors": [
+      "Montreal Protocol",
+      "Copenhagen Accord",
+      "Basel Convention"
+    ],
+    "explanation": "Rudd's move reversed the Howard government's refusal to ratify, leaving the United States as the only major developed country outside the treaty.",
+    "hook": "Day one in office: sign Kyoto."
+  },
+  {
+    "id": "wl_203",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Liberal leader lost the 1993 federal election after proposing a GST in his 'Fightback!' package?",
+    "answer": "John Hewson",
+    "distractors": [
+      "Alexander Downer",
+      "Andrew Peacock",
+      "Brendan Nelson"
+    ],
+    "explanation": "Labor campaigned hard against the GST and Paul Keating won the 1993 election. Fightback! is remembered as the policy that sank Hewson's campaign.",
+    "hook": "Fightback flopped: Hewson's GST gave Keating the win."
+  },
+  {
+    "id": "wl_204",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which city was Tony Abbott born, before his family emigrated to Sydney in 1960?",
+    "answer": "London",
+    "distractors": [
+      "Dublin",
+      "Manchester",
+      "Edinburgh"
+    ],
+    "explanation": "Abbott was born in 1957. He went to Oxford as a Rhodes Scholar and trained briefly as a Catholic seminarian before politics.",
+    "hook": "Born in London, Rhodes Scholar, and a PM."
+  },
+  {
+    "id": "wl_205",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Bob Hawke led which organisation from 1969 until he entered Parliament in 1980?",
+    "answer": "Australian Council of Trade Unions",
+    "distractors": [
+      "Australian Workers' Union",
+      "Trades Hall Council",
+      "Australian Labor Party national executive"
+    ],
+    "explanation": "His success as an advocate in wage cases made him famous before politics. He became Labor leader in 1983, just weeks before the election, and won in a landslide.",
+    "hook": "Union boss first, Prime Minister later."
+  },
+  {
+    "id": "wl_206",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which 2010 election result, the first of its kind since 1940, forced Julia Gillard to negotiate with independents and the Greens?",
+    "answer": "A hung parliament",
+    "distractors": [
+      "A double dissolution",
+      "A deadlocked Senate",
+      "A caretaker government"
+    ],
+    "explanation": "Labor and the Coalition each won 72 seats of 150. After 17 days Gillard secured 76 seats' worth of support from the Greens' Adam Bandt and independents Tony Windsor, Rob Oakeshott and Andrew Wilkie.",
+    "hook": "72 apiece, so four crossbenchers got to decide."
+  },
+  {
+    "id": "wl_207",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "What was Peter Dutton's job before he entered Parliament in 2001?",
+    "answer": "Queensland police officer",
+    "distractors": [
+      "Army officer",
+      "Solicitor",
+      "Cattle farmer"
+    ],
+    "explanation": "He served in the Queensland Police before entering Parliament as the member for Dickson in 2001.",
+    "hook": "The cop from Dickson went to Canberra."
+  },
+  {
+    "id": "wl_208",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which former ABC journalist defeated John Howard in the Sydney seat of Bennelong in 2007?",
+    "answer": "Maxine McKew",
+    "distractors": [
+      "Julia Gillard",
+      "Nicola Roxon",
+      "Tanya Plibersek"
+    ],
+    "explanation": "McKew, a former ABC presenter, won Bennelong for Labor in 2007. Howard became the first sitting Prime Minister since Stanley Bruce in 1929 to lose his own seat.",
+    "hook": "The ABC presenter who beat the Prime Minister at home."
+  },
+  {
+    "id": "wl_209",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was eliminated in the first round of the August 2018 Liberal leadership ballot before Scott Morrison beat Peter Dutton 45 votes to 40?",
+    "answer": "Julie Bishop",
+    "distractors": [
+      "Josh Frydenberg",
+      "Christopher Pyne",
+      "Kelly O'Dwyer"
+    ],
+    "explanation": "Bishop got 11 votes in the first round, behind Dutton on 35 and Morrison on 32. Morrison's win made him Prime Minister and he gave Frydenberg the Treasury.",
+    "hook": "Bishop 11 votes, then out, then Morrison wins 45 to 40."
+  },
+  {
+    "id": "wl_210",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In which inner Sydney suburb did Anthony Albanese grow up in public housing, raised by a single mother?",
+    "answer": "Camperdown",
+    "distractors": [
+      "Glebe",
+      "Newtown",
+      "Marrickville"
+    ],
+    "explanation": "His mother Maryanne was an invalid pensioner and told him his father had died; he met his father only in adulthood. He later entered Parliament as the member for Grayndler.",
+    "hook": "A council house in Camperdown and a mother's pension."
+  },
+  {
+    "id": "wl_211",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Malcolm Turnbull made his name as a barrister in 1986 by defending the publication of which ex-MI5 officer's memoir?",
+    "answer": "Spycatcher",
+    "distractors": [
+      "My Silent War",
+      "Seven Spies",
+      "The Cambridge Four"
+    ],
+    "explanation": "The case in the New South Wales Supreme Court was brought by the British government, which lost. Turnbull cross-examined Cabinet Secretary Sir Robert Armstrong, who admitted being 'economical with the truth'.",
+    "hook": "Turnbull beat Thatcher's government in a Sydney court."
+  },
+  {
+    "id": "wl_212",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "By how many votes did Tony Abbott beat Malcolm Turnbull for the Liberal leadership in December 2009?",
+    "answer": "One",
+    "distractors": [
+      "Three",
+      "Five",
+      "Eleven"
+    ],
+    "explanation": "The count was 42 to 41, after Turnbull backed an emissions trading scheme that many colleagues opposed. Abbott led the Opposition into the 2010 hung parliament and won in 2013.",
+    "hook": "42 to 41: the closest leadership vote."
+  },
+  {
+    "id": "wl_213",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Whom did John Howard replace as Liberal leader in January 1995?",
+    "answer": "Alexander Downer",
+    "distractors": [
+      "John Hewson",
+      "Andrew Peacock",
+      "Brendan Nelson"
+    ],
+    "explanation": "Downer had led the Liberal Party since 1994. Howard challenged him in January 1995 and won, then won the 1996 election and held office for 11 years.",
+    "hook": "Downer was a stopgap on the way to Howard."
+  },
+  {
+    "id": "wl_214",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Scott Morrison headed Tourism Australia when it launched which 2006 advertising campaign slogan?",
+    "answer": "Where the bloody hell are you?",
+    "distractors": [
+      "Land of the Long White Cloud",
+      "Feel the Southern Sun",
+      "Discover the Outback Dream"
+    ],
+    "explanation": "The ad, fronted by Lara Bingle, was banned from British television for the word 'bloody'. Morrison was Tourism Australia's managing director from 2004 until 2006.",
+    "hook": "The PM who once sold Australia as the bloody hell place."
+  },
+  {
+    "id": "wl_215",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which 40 per cent tax on the mining industry, announced in May 2010, triggered a fierce industry campaign and contributed to Kevin Rudd's removal?",
+    "answer": "Resource Super Profits Tax",
+    "distractors": [
+      "Minerals Export Levy",
+      "Carbon Pollution Reduction Scheme",
+      "Mining Windfall Duty"
+    ],
+    "explanation": "Gillard replaced Rudd in June 2010 and negotiated a watered-down Minerals Resource Rent Tax. The Rudd government had also put its emissions trading scheme on hold in April 2010.",
+    "hook": "A mining tax in May, a new Prime Minister in June."
+  },
+  {
+    "id": "wl_216",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which political party did Robert Menzies found in 1944?",
+    "answer": "Liberal Party",
+    "distractors": [
+      "Country Party",
+      "Democratic Labor Party",
+      "Australian Democrats"
+    ],
+    "explanation": "Menzies built it from the ruins of the United Australia Party and won the 1949 election, then governed for 16 unbroken years. The name was chosen to stress individual liberty.",
+    "hook": "Menzies lost office in 1941, rebuilt a party, and came back to stay."
+  },
+  {
+    "id": "wl_217",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "What title is given to the member who presides over the House of Representatives?",
+    "answer": "Speaker",
+    "distractors": [
+      "President",
+      "Chairman",
+      "Marshal"
+    ],
+    "explanation": "The Speaker is elected by fellow members at the start of each Parliament and keeps order in debate. The Senate's equivalent is called the President.",
+    "hook": "The Speaker speaks for the House; the Senate has a President."
+  },
+  {
+    "id": "wl_218",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which state did Joh Bjelke-Petersen lead as premier from 1968 to 1987?",
+    "answer": "Queensland",
+    "distractors": [
+      "New South Wales",
+      "Western Australia",
+      "South Australia"
+    ],
+    "explanation": "He held power for almost 19 years, helped by an electoral zoning system that favoured rural seats. His government fell after the Fitzgerald Inquiry exposed corruption.",
+    "hook": "Joh's long reign ended when an inquiry looked behind the curtain."
+  },
+  {
+    "id": "wl_219",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which is the oldest political party in Australia still contesting federal elections?",
+    "answer": "Australian Labor Party",
+    "distractors": [
+      "Liberal Party",
+      "National Party",
+      "Australian Greens"
+    ],
+    "explanation": "Labor grew from the colonial labour movement of the early 1890s, after the shearers' strikes, so it predates Federation in 1901.",
+    "hook": "Born of the shearers' strikes, older than Federation itself."
+  },
+  {
+    "id": "wl_220",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which monarch opened the new Parliament House on Capital Hill in May 1988?",
+    "answer": "Queen Elizabeth II",
+    "distractors": [
+      "King George VI",
+      "King George V",
+      "King Edward VII"
+    ],
+    "explanation": "The opening was a centrepiece of the Bicentenary year. The building replaced the 1927 provisional house, which now serves as the Museum of Australian Democracy.",
+    "hook": "The new Parliament House was opened during the Bicentenary year."
+  },
+  {
+    "id": "wl_221",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became the first woman to lead an Australian state government, in February 1990?",
+    "answer": "Carmen Lawrence",
+    "distractors": [
+      "Joan Kirner",
+      "Anna Bligh",
+      "Kristina Keneally"
+    ],
+    "explanation": "The Western Australian Labor leader took over from Peter Dowding. Joan Kirner became Victoria's premier six months later, and Rosemary Follett had led the ACT in 1989.",
+    "hook": "Lawrence in February, Kirner in August: the same year, two firsts."
+  },
+  {
+    "id": "wl_222",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former Victorian premier became the founding chairman of beyondblue in 2000?",
+    "answer": "Jeff Kennett",
+    "distractors": [
+      "Steve Bracks",
+      "John Brumby",
+      "Rupert Hamer"
+    ],
+    "explanation": "The depression and anxiety initiative came after Kennett's seven years as premier, from 1992 to 1999. In that time he privatised public utilities and cut the state's debt.",
+    "hook": "The premier who cut and sold went on to found a mental health charity."
+  },
+  {
+    "id": "wl_223",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which royal opened Parliament House in Canberra on 9 May 1927?",
+    "answer": "Duke of York",
+    "distractors": [
+      "Prince of Wales",
+      "Duke of Connaught",
+      "Duke of Gloucester"
+    ],
+    "explanation": "He was later crowned King George VI after his brother Edward VIII abdicated. The building is now called Old Parliament House and served until 1988.",
+    "hook": "The stammering Bertie opened Canberra's first Parliament House."
+  },
+  {
+    "id": "wl_224",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year was the Order of Australia established?",
+    "answer": "1975",
+    "distractors": [
+      "1953",
+      "1967",
+      "1984"
+    ],
+    "explanation": "The Whitlam government created it so Australians could be honoured under Australian rather than British awards. Its levels run from Member through to Companion.",
+    "hook": "Whitlam's government gave Australians an honours list of their own."
+  },
+  {
+    "id": "wl_225",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which NSW watchdog was investigating Gladys Berejiklian's conduct when she resigned as premier in October 2021?",
+    "answer": "ICAC",
+    "distractors": [
+      "IBAC",
+      "CCC",
+      "ACLEI"
+    ],
+    "explanation": "It was examining her private relationship with MP Daryl Maguire and whether she breached public trust. The NSW body's counterparts in Victoria and Queensland have different names.",
+    "hook": "NSW's ICAC, not Victoria's IBAC."
+  },
+  {
+    "id": "wl_226",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Roughly what proportion of voters said Yes in the 1967 Aboriginal referendum?",
+    "answer": "90 per cent",
+    "distractors": [
+      "65 per cent",
+      "75 per cent",
+      "80 per cent"
+    ],
+    "explanation": "The result of 90.77 per cent was the highest Yes vote ever recorded in an Australian referendum. Every state also returned a majority, with Victoria the highest.",
+    "hook": "The most agreed-upon referendum in Australian history."
+  },
+  {
+    "id": "wl_227",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which provision of the Constitution allows the Governor-General to dissolve both houses after repeated deadlock?",
+    "answer": "Section 57",
+    "distractors": [
+      "Section 51",
+      "Section 96",
+      "Section 128"
+    ],
+    "explanation": "The Governor-General may dissolve both houses if the Senate twice rejects a bill from the House three months apart. Section 128 covers referendums and section 51 lists the Commonwealth's powers.",
+    "hook": "Fifty-seven is the number for double trouble."
+  },
+  {
+    "id": "wl_228",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "At which 1918 by-election was preferential voting first used in a federal contest?",
+    "answer": "Corangamite",
+    "distractors": [
+      "Swan",
+      "Wide Bay",
+      "Kalgoorlie"
+    ],
+    "explanation": "The Hughes government introduced it after conservative votes split and let the Victorian Farmers' Union win the seat. The system became standard for the House in the 1919 election.",
+    "hook": "A split vote at Corangamite changed how Australia counts."
+  },
+  {
+    "id": "wl_229",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "On which Torres Strait island was Eddie Mabo born in 1936?",
+    "answer": "Mer",
+    "distractors": [
+      "Badu",
+      "Saibai",
+      "Thursday Island"
+    ],
+    "explanation": "Also called Murray Island, it was the land at the heart of the High Court case that bears his name. He died about four months before the ruling in 1992.",
+    "hook": "Mabo fought for Mer, and won it after he died."
+  },
+  {
+    "id": "wl_230",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which judge chaired the royal commission into institutional responses to child sexual abuse, which reported in 2017?",
+    "answer": "Peter McClellan",
+    "distractors": [
+      "Kenneth Hayne",
+      "Ronald Sackville",
+      "Terence Cole"
+    ],
+    "explanation": "The inquiry ran from 2013 and heard from over 8,000 survivors in private sessions. Kenneth Hayne chaired the later banking commission and Terence Cole the building industry inquiry.",
+    "hook": "McClellan listened to thousands of survivors in private rooms."
+  },
+  {
+    "id": "wl_231",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became the first Chief Minister of the Northern Territory when it won self-government in 1978?",
+    "answer": "Paul Everingham",
+    "distractors": [
+      "Marshall Perron",
+      "Clare Martin",
+      "Shane Stone"
+    ],
+    "explanation": "Everingham was the Country Liberal Party leader when self-government began in 1978.",
+    "hook": "First Chief Minister when the Territory won self-government, 1978."
+  },
+  {
+    "id": "wl_232",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became Australia's first female head of government, as the ACT's first Chief Minister in 1989?",
+    "answer": "Rosemary Follett",
+    "distractors": [
+      "Kate Carnell",
+      "Trevor Kaine",
+      "Jon Stanhope"
+    ],
+    "explanation": "She led the Labor minority government that followed the first Assembly election for the territory. Carmen Lawrence later became the first state premier in 1990.",
+    "hook": "Follett in the capital beat the states to the first woman at the helm."
+  },
+  {
+    "id": "wl_233",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which president bought a vast territory from France in 1803, roughly doubling the size of the United States?",
+    "answer": "Thomas Jefferson",
+    "distractors": [
+      "James Madison",
+      "John Adams",
+      "James Monroe"
+    ],
+    "explanation": "The deal cost about 15 million dollars and covered land stretching from the Mississippi to the Rockies. Jefferson then sent Meriwether Lewis and William Clark to explore it.",
+    "hook": "Jefferson paid roughly three cents an acre for half a continent."
+  },
+  {
+    "id": "wl_234",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which president hosted the 1978 talks between Egypt's Anwar Sadat and Israel's Menachem Begin at a Maryland retreat?",
+    "answer": "Jimmy Carter",
+    "distractors": [
+      "Gerald Ford",
+      "Richard Nixon",
+      "Ronald Reagan"
+    ],
+    "explanation": "The two leaders spent thirteen days in the Catoctin Mountains, producing the Accords that led to the 1979 Egypt-Israel peace treaty. Sadat and Begin shared the 1978 Nobel Peace Prize.",
+    "hook": "Thirteen days on a mountain bought a peace treaty."
+  },
+  {
+    "id": "wl_235",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which president kept a desk sign reading 'The buck stops here'?",
+    "answer": "Harry S. Truman",
+    "distractors": [
+      "Dwight D. Eisenhower",
+      "Lyndon B. Johnson",
+      "Herbert Hoover"
+    ],
+    "explanation": "The sign was made in a federal reformatory workshop in Oklahoma and sat on his Oval Office desk. It meant that final responsibility for a decision rested with him and could not be passed on.",
+    "hook": "The buck stopped on Truman's desk, so no passing it along."
+  },
+  {
+    "id": "wl_236",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who was president of the United States when the September 2001 terrorist attacks struck New York and Washington?",
+    "answer": "George W. Bush",
+    "distractors": [
+      "Bill Clinton",
+      "George H. W. Bush",
+      "Barack Obama"
+    ],
+    "explanation": "He was reading to schoolchildren in Florida when the news reached him. Within weeks he had launched the invasion of Afghanistan to remove the Taliban.",
+    "hook": "Nine-eleven came in his first year in office."
+  },
+  {
+    "id": "wl_237",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "On which famous Washington street does the White House stand?",
+    "answer": "Pennsylvania Avenue",
+    "distractors": [
+      "Constitution Avenue",
+      "Massachusetts Avenue",
+      "Independence Avenue"
+    ],
+    "explanation": "The White House address is 1600 Pennsylvania Avenue NW. The avenue links the White House with the Capitol, and inaugural parades travel along it.",
+    "hook": "Sixteen hundred Pennsylvania: the most famous street number in America."
+  },
+  {
+    "id": "wl_238",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which president was impeached by the House in December 1998 but acquitted by the Senate two months later?",
+    "answer": "Bill Clinton",
+    "distractors": [
+      "Gerald Ford",
+      "Jimmy Carter",
+      "George H. W. Bush"
+    ],
+    "explanation": "The charges were perjury and obstruction of justice arising from the Monica Lewinsky affair. The Senate fell far short of the two-thirds vote needed to remove him, and he served out his term.",
+    "hook": "Impeached, acquitted, and still in the job."
+  },
+  {
+    "id": "wl_239",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Union general accepted Robert E. Lee's surrender at Appomattox in 1865 and later won two terms as president?",
+    "answer": "Ulysses S. Grant",
+    "distractors": [
+      "William T. Sherman",
+      "George McClellan",
+      "Andrew Johnson"
+    ],
+    "explanation": "Grant won the presidency in 1868 and 1872, but his administrations were tarnished by corruption scandals among his appointees. He is the face on the 50 dollar bill.",
+    "hook": "The general who won the war but struggled to win the peace."
+  },
+  {
+    "id": "wl_240",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "How many amendments make up the Bill of Rights, ratified in 1791?",
+    "answer": "Ten",
+    "distractors": [
+      "Seven",
+      "Twelve",
+      "Fifteen"
+    ],
+    "explanation": "James Madison drafted them after critics demanded protection for individual liberties in the new Constitution. They cover free speech, the right to bear arms and protection against unreasonable searches.",
+    "hook": "Ten commandments of liberty, courtesy of Madison."
+  },
+  {
+    "id": "wl_241",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which vice president took the oath of office after Franklin D. Roosevelt died in April 1945?",
+    "answer": "Harry S. Truman",
+    "distractors": [
+      "Henry Wallace",
+      "Alben Barkley",
+      "Dwight D. Eisenhower"
+    ],
+    "explanation": "Truman had been vice president for only 82 days and had barely been briefed on the atomic bomb project. Within four months he had authorised its use against Japan.",
+    "hook": "Eighty-two days as understudy, then the lead role."
+  },
+  {
+    "id": "wl_242",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which future president commanded a patrol torpedo boat that was rammed and sliced in two by a Japanese destroyer in 1943?",
+    "answer": "John F. Kennedy",
+    "distractors": [
+      "George H. W. Bush",
+      "Richard Nixon",
+      "Gerald Ford"
+    ],
+    "explanation": "Kennedy swam for hours towing an injured crewman by a strap clenched in his teeth, and the survivors were rescued days later. He later kept a coconut shell bearing a rescue message on his Oval Office desk.",
+    "hook": "A coconut shell turned a wreck into a political legend."
+  },
+  {
+    "id": "wl_243",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which president's 1823 message warned European powers against founding new colonies in the Americas?",
+    "answer": "James Monroe",
+    "distractors": [
+      "Andrew Jackson",
+      "James Madison",
+      "Thomas Jefferson"
+    ],
+    "explanation": "In return the United States promised not to meddle in European affairs. The policy was drafted largely by Secretary of State John Quincy Adams and was invoked repeatedly in the following century.",
+    "hook": "Hands off the hemisphere: Monroe's warning to Europe."
+  },
+  {
+    "id": "wl_244",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which president was in office when British troops burned the White House in August 1814?",
+    "answer": "James Madison",
+    "distractors": [
+      "James Monroe",
+      "Thomas Jefferson",
+      "John Quincy Adams"
+    ],
+    "explanation": "The British torched the Capitol and the President's House in retaliation for the American burning of York in Canada. The mansion was rebuilt and its scorched walls painted white.",
+    "hook": "Madison's War of 1812 left the White House sooty."
+  },
+  {
+    "id": "wl_245",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which president's administration was rocked by the Teapot Dome scandal over secret oil-lease deals?",
+    "answer": "Warren G. Harding",
+    "distractors": [
+      "Calvin Coolidge",
+      "Herbert Hoover",
+      "Woodrow Wilson"
+    ],
+    "explanation": "Interior Secretary Albert Fall took bribes for leasing naval oil reserves in Wyoming, and became the first cabinet member jailed for crimes committed in office. Harding died in 1923 before the scandal fully broke.",
+    "hook": "Teapot Dome: oil, bribes and a cabinet minister in jail."
+  },
+  {
+    "id": "wl_246",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "What nickname was given to the breakaway party Theodore Roosevelt led in the 1912 election?",
+    "answer": "The Bull Moose Party",
+    "distractors": [
+      "The Bald Eagle Party",
+      "The Grizzly Party",
+      "The Bison Party"
+    ],
+    "explanation": "Roosevelt left the Republicans after losing the nomination to Taft, and declared himself as fit as a bull moose. The split handed the White House to Democrat Woodrow Wilson.",
+    "hook": "Two Republicans split the vote, and Wilson walked through."
+  },
+  {
+    "id": "wl_247",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which wartime US Army chief of staff later lent his name to the 1948 programme that rebuilt Western Europe?",
+    "answer": "George C. Marshall",
+    "distractors": [
+      "Douglas MacArthur",
+      "Omar Bradley",
+      "Dean Acheson"
+    ],
+    "explanation": "As Secretary of State he announced the aid plan in a Harvard speech in 1947, and it delivered about 13 billion dollars. He won the 1953 Nobel Peace Prize for it.",
+    "hook": "A five-star general who later won a Nobel Peace Prize."
+  },
+  {
+    "id": "wl_248",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which word did Kennedy use in October 1962 for his naval measures against Cuba, avoiding a term that implied an act of war?",
+    "answer": "Quarantine",
+    "distractors": [
+      "Embargo",
+      "Blockade",
+      "Siege"
+    ],
+    "explanation": "Under international law a blockade counts as an act of war, so the administration chose a softer word. The crisis ended when Moscow agreed to withdraw its missiles and the US quietly removed missiles from Turkey.",
+    "hook": "Call it a quarantine and it sounds like medicine, not war."
+  },
+  {
+    "id": "wl_249",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "How many electoral votes does a presidential candidate need to win, out of a total of 538?",
+    "answer": "270",
+    "distractors": [
+      "269",
+      "271",
+      "300"
+    ],
+    "explanation": "The total is made up of 435 House seats, 100 Senate seats and three votes for Washington, DC. A 269-269 tie would send the decision to the House of Representatives.",
+    "hook": "Half of 538 is 269, so you need 270."
+  },
+  {
+    "id": "wl_250",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became the first woman on the US Supreme Court in 1981?",
+    "answer": "Sandra Day O'Connor",
+    "distractors": [
+      "Ruth Bader Ginsburg",
+      "Sonia Sotomayor",
+      "Elena Kagan"
+    ],
+    "explanation": "Ronald Reagan nominated her and the Senate confirmed her without a single opposing vote. She grew up on an Arizona cattle ranch and served until 2006.",
+    "hook": "A rancher's daughter broke the Court's first glass ceiling."
+  },
+  {
+    "id": "wl_251",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which president broke a famous 1988 convention promise not to raise taxes, hurting his 1992 re-election bid?",
+    "answer": "George H. W. Bush",
+    "distractors": [
+      "Ronald Reagan",
+      "Bill Clinton",
+      "Jimmy Carter"
+    ],
+    "explanation": "He had told delegates to read his lips, then signed a tax-increasing budget deal in 1990. Conservatives in his own party never forgave him, and Ross Perot split the vote further.",
+    "hook": "He told voters to read his lips, and they did."
+  },
+  {
+    "id": "wl_252",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who won the national popular vote in 2016 but lost the Electoral College?",
+    "answer": "Hillary Clinton",
+    "distractors": [
+      "Bernie Sanders",
+      "Elizabeth Warren",
+      "Kamala Harris"
+    ],
+    "explanation": "She led by nearly three million votes but lost narrow contests in Michigan, Wisconsin and Pennsylvania. It was the fifth time a US presidential winner trailed in the popular vote.",
+    "hook": "Millions more votes, yet the wrong map."
+  },
+  {
+    "id": "wl_253",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which president won the 1876 election despite trailing in the popular vote, after a disputed count settled by a commission?",
+    "answer": "Rutherford B. Hayes",
+    "distractors": [
+      "James Garfield",
+      "Chester Arthur",
+      "Benjamin Harrison"
+    ],
+    "explanation": "A deal in 1877 gave him the White House in return for ending Reconstruction and withdrawing federal troops from the South. His opponent Samuel Tilden had won the popular vote.",
+    "hook": "Hayes took the White House, and the South took Reconstruction."
+  },
+  {
+    "id": "wl_254",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which disappointed office-seeker shot President James Garfield at a Washington railway station in 1881?",
+    "answer": "Charles Guiteau",
+    "distractors": [
+      "Leon Czolgosz",
+      "John Wilkes Booth",
+      "Lee Harvey Oswald"
+    ],
+    "explanation": "Garfield lingered for 79 days, and doctors probing for the bullet with unwashed fingers probably made his infection worse. Guiteau was hanged in 1882, claiming he had acted for God.",
+    "hook": "The bullet might have been survivable; the infection that followed probably was not."
+  },
+  {
+    "id": "wl_255",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which general who won fame in the Mexican-American War died in office in July 1850?",
+    "answer": "Zachary Taylor",
+    "distractors": [
+      "Franklin Pierce",
+      "Millard Fillmore",
+      "Martin Van Buren"
+    ],
+    "explanation": "He served only about sixteen months, and Vice President Millard Fillmore replaced him.",
+    "hook": "Old Rough and Ready served barely sixteen months before he died."
+  },
+  {
+    "id": "wl_256",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which 1803 Supreme Court case established the principle of judicial review of laws?",
+    "answer": "Marbury v. Madison",
+    "distractors": [
+      "McCulloch v. Maryland",
+      "Dred Scott v. Sandford",
+      "Gibbons v. Ogden"
+    ],
+    "explanation": "Chief Justice John Marshall ruled that the Court could strike down laws that conflict with the Constitution. The case began when a Federalist appointee, William Marbury, never received his commission.",
+    "hook": "A forgotten commission gave the Court its biggest power."
+  },
+  {
+    "id": "wl_257",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which newspaper's early 1948 edition wrongly announced the Republican challenger had won, in a headline Harry Truman later waved for photographers?",
+    "answer": "The Chicago Daily Tribune",
+    "distractors": [
+      "The New York Times",
+      "The Washington Post",
+      "The Boston Globe"
+    ],
+    "explanation": "The paper went to press early, before the final results were in, and trusted the polls, which favoured Dewey. Truman won by about two million votes and held the paper aloft in St Louis.",
+    "hook": "Dewey defeats Truman: the most famous wrong front page."
+  },
+  {
+    "id": "wl_258",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which president had the first Oval Office built in the White House's West Wing in 1909?",
+    "answer": "William Howard Taft",
+    "distractors": [
+      "Theodore Roosevelt",
+      "Woodrow Wilson",
+      "Herbert Hoover"
+    ],
+    "explanation": "The present Oval Office dates from 1934 and sits in the corner of the building, where it has a view of the Rose Garden.",
+    "hook": "Taft gave the president an office with no corners."
+  },
+  {
+    "id": "wl_259",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which French-born engineer drew up the 1791 plan for the layout of Washington, DC?",
+    "answer": "Pierre Charles L'Enfant",
+    "distractors": [
+      "Benjamin Banneker",
+      "Andrew Ellicott",
+      "Thomas Jefferson"
+    ],
+    "explanation": "He designed broad avenues cutting diagonally across a street grid, but was dismissed after clashing with the commissioners. Banneker and Ellicott surveyed the land and helped preserve his plan.",
+    "hook": "A Frenchman fired for being difficult drew the capital."
+  },
+  {
+    "id": "wl_260",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which president was sworn in by his own father, a notary public, at a Vermont home in August 1923?",
+    "answer": "Calvin Coolidge",
+    "distractors": [
+      "Chester Arthur",
+      "Harry S. Truman",
+      "Warren G. Harding"
+    ],
+    "explanation": "News of Harding's death reached him at the family home in Plymouth Notch, which had no electricity, and the oath was taken by kerosene lamp.",
+    "hook": "Sworn in by Dad, by lamplight, at the family home."
+  },
+  {
+    "id": "wl_261",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Chief Justice, a former California governor, led the unanimous 1954 ruling that struck down racially segregated public schools?",
+    "answer": "Earl Warren",
+    "distractors": [
+      "Warren Burger",
+      "William Rehnquist",
+      "John Marshall"
+    ],
+    "explanation": "The ruling in Brown v. Board of Education overturned the 'separate but equal' doctrine of 1896. Warren also headed the commission that investigated the Kennedy assassination.",
+    "hook": "Nine votes to nothing ended 'separate but equal' in schools."
+  },
+  {
+    "id": "wl_262",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which king was the target of the Gunpowder Plot of 1605?",
+    "answer": "James I",
+    "distractors": [
+      "Charles I",
+      "Henry VII",
+      "William III"
+    ],
+    "explanation": "Conspirators led by Robert Catesby planned to blow up Parliament at its opening, and Guy Fawkes was caught guarding barrels in the cellars on 5 November. James was also James VI of Scotland, ruling both kingdoms from 1603.",
+    "hook": "Remember, remember: the king who first united the two crowns in 1603."
+  },
+  {
+    "id": "wl_263",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which king was beheaded outside the Banqueting House in Whitehall in 1649?",
+    "answer": "Charles I",
+    "distractors": [
+      "James II",
+      "Charles II",
+      "Richard II"
+    ],
+    "explanation": "A High Court set up by Parliament tried him for treason after the Civil War, and he wore an extra shirt so he would not shiver and appear afraid. England then became a republic, the Commonwealth, until the monarchy was restored in 1660, and Oliver Cromwell led it from 1653.",
+    "hook": "One king lost his head, and the crown sat empty for eleven years."
+  },
+  {
+    "id": "wl_264",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Labour prime minister's government launched the National Health Service in July 1948?",
+    "answer": "Clement Attlee",
+    "distractors": [
+      "Harold Wilson",
+      "Ramsay MacDonald",
+      "James Callaghan"
+    ],
+    "explanation": "Attlee won a landslide in 1945 after Churchill's wartime leadership, and his health minister Aneurin Bevan built the NHS. The same government nationalised the coal mines and the Bank of England.",
+    "hook": "Attlee in power, Bevan on the NHS."
+  },
+  {
+    "id": "wl_265",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which year did Diana, Princess of Wales, die in a car crash in Paris?",
+    "answer": "1997",
+    "distractors": [
+      "1995",
+      "1996",
+      "1999"
+    ],
+    "explanation": "The crash in the Pont de l'Alma tunnel happened on 31 August 1997, a year after her divorce from Charles. Her funeral at Westminster Abbey was watched by an estimated 2.5 billion people worldwide.",
+    "hook": "Candle in the Wind 1997, the year she died."
+  },
+  {
+    "id": "wl_266",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which title did Elizabeth II give Prince Harry on the morning of his wedding to Meghan Markle in 2018?",
+    "answer": "Duke of Sussex",
+    "distractors": [
+      "Duke of Cambridge",
+      "Duke of Clarence",
+      "Duke of Kent"
+    ],
+    "explanation": "Meghan became the Duchess of Sussex, and the couple were also given the lesser titles of Earl and Countess of Dumbarton. Sussex was a title last held by one of George III's sons, who died in 1843.",
+    "hook": "Harry got Sussex, William got Cambridge."
+  },
+  {
+    "id": "wl_267",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who was Queen Victoria's husband, whose death in 1861 sent her into long mourning?",
+    "answer": "Prince Albert",
+    "distractors": [
+      "Prince Leopold",
+      "Prince Frederick",
+      "Prince Arthur"
+    ],
+    "explanation": "They were first cousins from Saxe-Coburg and Gotha, and he championed the Great Exhibition of 1851. Victoria wore black for the rest of her life, another forty years, and the Albert Memorial in London honours him.",
+    "hook": "Albert died, and Victoria stayed in black for forty years."
+  },
+  {
+    "id": "wl_268",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which long-serving Chancellor of the Exchequer succeeded Tony Blair as prime minister in 2007?",
+    "answer": "Gordon Brown",
+    "distractors": [
+      "Alistair Darling",
+      "Jack Straw",
+      "David Miliband"
+    ],
+    "explanation": "Brown spent ten years as Chancellor, from 1997 to 2007. He took over without a general election and lost the 2010 contest, leaving David Cameron to form a coalition.",
+    "hook": "The Chancellor who waited ten years for the top job."
+  },
+  {
+    "id": "wl_269",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which king ordered the great survey of England recorded in the Domesday Book in 1086?",
+    "answer": "William I",
+    "distractors": [
+      "William II",
+      "Henry I",
+      "King Stephen"
+    ],
+    "explanation": "William launched the survey at Christmas 1085 to learn who held what land and what tax it owed. It got its name because, like the Last Judgement, there was no appeal against its findings.",
+    "hook": "No appeal, like Doomsday itself."
+  },
+  {
+    "id": "wl_270",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Wessex king defeated the Danes at Edington in 878 and is the subject of a legend about burnt cakes?",
+    "answer": "Alfred the Great",
+    "distractors": [
+      "Athelstan",
+      "Edgar the Peaceful",
+      "Edward the Elder"
+    ],
+    "explanation": "Alfred is the only English monarch given the title 'the Great'. He built fortified towns called burhs, a navy, and a law code, and encouraged translating Latin works into English.",
+    "hook": "He burned the cakes but won the war."
+  },
+  {
+    "id": "wl_271",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Scottish king defeated the army of Edward II at Bannockburn in 1314?",
+    "answer": "Robert the Bruce",
+    "distractors": [
+      "William Wallace",
+      "David I",
+      "Malcolm III"
+    ],
+    "explanation": "The victory near Stirling secured Scottish independence in practice, though England only recognised it in the 1328 Treaty of Edinburgh-Northampton. Wallace had been executed nearly nine years earlier.",
+    "hook": "Bruce won in 1314, long after Wallace was dead."
+  },
+  {
+    "id": "wl_272",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Conservative prime minister repealed the Corn Laws in 1846, splitting his own party?",
+    "answer": "Robert Peel",
+    "distractors": [
+      "Lord Palmerston",
+      "Lord Melbourne",
+      "Lord John Russell"
+    ],
+    "explanation": "The Irish potato famine helped persuade him to end the tariffs on imported grain. Free-trade 'Peelites' followed him out while the protectionists, led by Disraeli, brought him down. As Home Secretary he had also founded the Metropolitan Police.",
+    "hook": "Peel scrapped the grain tax and shattered his party."
+  },
+  {
+    "id": "wl_273",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Conservative prime minister secured the title Empress of India for Queen Victoria through the Royal Titles Act of 1876?",
+    "answer": "Benjamin Disraeli",
+    "distractors": [
+      "Lord Salisbury",
+      "Robert Peel",
+      "Lord Palmerston"
+    ],
+    "explanation": "Disraeli flattered the queen with the title through the Royal Titles Act. A year earlier he had bought Egypt's shares in the Suez Canal for about four million pounds, borrowed from the Rothschilds.",
+    "hook": "Dizzy handed Victoria an empire and the Suez shares."
+  },
+  {
+    "id": "wl_274",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which prime minister was in office during the 1936 abdication crisis?",
+    "answer": "Stanley Baldwin",
+    "distractors": [
+      "Ramsay MacDonald",
+      "Neville Chamberlain",
+      "Winston Churchill"
+    ],
+    "explanation": "Baldwin told Edward VIII that the government and the Dominions would not accept Wallis Simpson as queen. He retired after the coronation of George VI in May 1937, handing over to Chamberlain.",
+    "hook": "Baldwin said no to Wallis, and the king left."
+  },
+  {
+    "id": "wl_275",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which prime minister held the 1975 referendum on whether Britain should stay in the European Community?",
+    "answer": "Harold Wilson",
+    "distractors": [
+      "Edward Heath",
+      "James Callaghan",
+      "Alec Douglas-Home"
+    ],
+    "explanation": "Wilson's Labour cabinet was split, so he let ministers campaign on either side. About 67 per cent voted to stay, in what was Britain's first nationwide referendum.",
+    "hook": "Wilson let his cabinet disagree in public, and the country said yes."
+  },
+  {
+    "id": "wl_276",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Irish revolutionary who signed the 1921 Anglo-Irish Treaty was killed in an ambush in County Cork in 1922?",
+    "answer": "Michael Collins",
+    "distractors": [
+      "Arthur Griffith",
+      "Cathal Brugha",
+      "Erskine Childers"
+    ],
+    "explanation": "Collins was shot at Beal na Blath during the Civil War, ten days after Arthur Griffith had died of a brain haemorrhage. He had famously said of the Treaty that it gave Ireland 'the freedom to achieve freedom'.",
+    "hook": "The Big Fellow fell in his home county."
+  },
+  {
+    "id": "wl_277",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year did Henry V win the Battle of Agincourt?",
+    "answer": "1415",
+    "distractors": [
+      "1346",
+      "1381",
+      "1453"
+    ],
+    "explanation": "His outnumbered army of mostly longbowmen beat a much larger French force in the mud of northern France on St Crispin's Day. The Treaty of Troyes later made Henry heir to the French throne, but he died in 1422.",
+    "hook": "Fourteen-fifteen, St Crispin's Day, mud and longbows."
+  },
+  {
+    "id": "wl_278",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year was Charles II restored to the English throne?",
+    "answer": "1660",
+    "distractors": [
+      "1649",
+      "1666",
+      "1688"
+    ],
+    "explanation": "He entered London on his thirtieth birthday, 29 May, after eleven years of Commonwealth and Protectorate rule. Cromwell's body was dug up, hanged and beheaded at Tyburn in January 1661.",
+    "hook": "Sixteen-sixty, the crown comes home."
+  },
+  {
+    "id": "wl_279",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Liberal prime minister was in office when Britain declared war on Germany in August 1914?",
+    "answer": "H. H. Asquith",
+    "distractors": [
+      "David Lloyd George",
+      "Arthur Balfour",
+      "Henry Campbell-Bannerman"
+    ],
+    "explanation": "Asquith led Britain for eight years from 1908 and formed a wartime coalition in 1915. A palace-style political coup brought him down in December 1916, and Lloyd George replaced him.",
+    "hook": "Asquith started the war; Lloyd George finished it."
+  },
+  {
+    "id": "wl_280",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which famous London church did Charles marry Lady Diana Spencer in July 1981?",
+    "answer": "St Paul's Cathedral",
+    "distractors": [
+      "Westminster Abbey",
+      "Southwark Cathedral",
+      "St Margaret's, Westminster"
+    ],
+    "explanation": "The couple chose St Paul's partly because it had a longer aisle and more seating than the Abbey. About 750 million people watched on television, and Diana's long train stretched 25 feet.",
+    "hook": "Wren's dome beat the Abbey for the wedding of the century."
+  },
+  {
+    "id": "wl_281",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Danish king of England, who also ruled Denmark and Norway, is said to have set his throne by the sea to show courtiers he could not command the tide?",
+    "answer": "Cnut",
+    "distractors": [
+      "Edmund Ironside",
+      "Harold Hardrada",
+      "Harold Harefoot"
+    ],
+    "explanation": "Cnut took the English throne in 1016 and ruled until 1035, marrying his predecessor's widow Emma of Normandy. In the usual telling of the tide story he was demonstrating humility, not arrogance.",
+    "hook": "Cnut proved the tide obeys nobody, not even him."
+  },
+  {
+    "id": "wl_282",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Irish nationalist leader's career collapsed after he was named in the 1890 O'Shea divorce case?",
+    "answer": "Charles Stewart Parnell",
+    "distractors": [
+      "John Redmond",
+      "Isaac Butt",
+      "Michael Davitt"
+    ],
+    "explanation": "His affair with Katharine O'Shea split the Irish Parliamentary Party and cost him Gladstone's backing for Home Rule. He died less than a year later, in October 1891, aged 45.",
+    "hook": "The uncrowned king of Ireland fell over Kitty O'Shea."
+  },
+  {
+    "id": "wl_283",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which High King of Ireland was killed after his forces won the Battle of Clontarf in 1014?",
+    "answer": "Brian Boru",
+    "distractors": [
+      "Niall of the Nine Hostages",
+      "Malachy II",
+      "Rory O'Connor"
+    ],
+    "explanation": "A fleeing Viking, Brodir, is said to have found the elderly king praying in his tent and killed him. Brian had broken the dominance of the Uí Néill dynasty and is the best-known medieval Irish ruler.",
+    "hook": "He won at Clontarf but did not live to enjoy it."
+  },
+  {
+    "id": "wl_284",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Where was Mary, Queen of Scots, beheaded in 1587 on Elizabeth I's orders?",
+    "answer": "Fotheringhay Castle",
+    "distractors": [
+      "Tutbury Castle",
+      "Carlisle Castle",
+      "Lochleven Castle"
+    ],
+    "explanation": "Mary spent nineteen years as a prisoner in England after fleeing Scotland in 1568. Elizabeth signed the warrant only after the Babington Plot, and Mary's son James VI later succeeded Elizabeth.",
+    "hook": "Nineteen years a prisoner, then the block at Fotheringhay."
+  },
+  {
+    "id": "wl_285",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "At which 1297 battle did William Wallace and Andrew Moray defeat an English army?",
+    "answer": "Stirling Bridge",
+    "distractors": [
+      "Falkirk",
+      "Dunbar",
+      "Flodden"
+    ],
+    "explanation": "The narrow crossing let the Scots attack the English as they filed over a few at a time. Wallace lost to Edward I at Falkirk the following year, while Moray died of wounds in late 1297.",
+    "hook": "Few at a time over a narrow crossing, and the English were cut down."
+  },
+  {
+    "id": "wl_286",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which 11th-century King of Scots reigned for 17 years and was killed at Lumphanan in 1057?",
+    "answer": "Macbeth",
+    "distractors": [
+      "Duncan I",
+      "Lulach",
+      "Malcolm III"
+    ],
+    "explanation": "He killed Duncan I in battle in 1040 and by most accounts ruled capably, even making a pilgrimage to Rome. He was defeated and killed at Lumphanan by Duncan's son Malcolm III, and Shakespeare gave the avenging role to Macduff rather than Malcolm.",
+    "hook": "A competent king, then a villain on Shakespeare's stage."
+  },
+  {
+    "id": "wl_287",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "At which 1356 battle did the Black Prince capture the French king John II?",
+    "answer": "Poitiers",
+    "distractors": [
+      "Crecy",
+      "Castillon",
+      "Sluys"
+    ],
+    "explanation": "The English were outnumbered but longbows again broke the French charges. John's ransom was set at three million gold crowns, and he returned to London as a captive and died there in 1364.",
+    "hook": "Poitiers: the French king ended up in London."
+  },
+  {
+    "id": "wl_288",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which English king built a ring of castles at Caernarfon, Conwy and Harlech after conquering Wales in the 1280s?",
+    "answer": "Edward I",
+    "distractors": [
+      "Edward III",
+      "Henry III",
+      "Edward II"
+    ],
+    "explanation": "The master builder James of St George designed the great fortresses, now a UNESCO World Heritage Site. In 1301 Edward gave the title Prince of Wales to his son, the future Edward II.",
+    "hook": "Edward's iron ring of castles around Wales."
+  },
+  {
+    "id": "wl_289",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Irish politician won the 1828 County Clare by-election even though, as a Catholic, he could not take his seat?",
+    "answer": "Daniel O'Connell",
+    "distractors": [
+      "Wolfe Tone",
+      "Henry Grattan",
+      "Robert Emmet"
+    ],
+    "explanation": "The result alarmed the Duke of Wellington's government, which feared rebellion and passed the Catholic Relief Act in 1829. O'Connell then took his seat in Westminster, though he had to be re-elected first.",
+    "hook": "Elected but barred, so the law had to change."
+  },
+  {
+    "id": "wl_290",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Roman emperor is blamed in legend for 'fiddling while Rome burned' during the great fire of 64 CE?",
+    "answer": "Nero",
+    "distractors": [
+      "Caligula",
+      "Domitian",
+      "Commodus"
+    ],
+    "explanation": "The fiddle is a myth, since the instrument did not yet exist, and Nero was reportedly away from Rome when the fire began. He blamed Christians for it and later died by suicide in 68 CE.",
+    "hook": "Nero fiddled is a myth; he was out of town."
+  },
+  {
+    "id": "wl_291",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which pharaoh built the Great Pyramid of Giza, the largest of the Egyptian pyramids?",
+    "answer": "Khufu",
+    "distractors": [
+      "Khafre",
+      "Djoser",
+      "Sneferu"
+    ],
+    "explanation": "Built around 2560 BCE, it was the tallest human-made structure in the world for nearly 4,000 years. Khufu's son Khafre built the second-largest pyramid beside it, while Djoser's step pyramid at Saqqara came earlier.",
+    "hook": "Khufu built the Great one; his son Khafre came second."
+  },
+  {
+    "id": "wl_292",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which month of 44 BCE was Julius Caesar assassinated, on the day known as the Ides?",
+    "answer": "March",
+    "distractors": [
+      "February",
+      "June",
+      "October"
+    ],
+    "explanation": "The Ides fell on the 15th in March, May, July and October. Caesar was stabbed by a group of senators, including Brutus and Cassius, at a meeting of the Senate near the Theatre of Pompey.",
+    "hook": "Beware the Ides of March: the 15th."
+  },
+  {
+    "id": "wl_293",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Macedonian king built an empire from Greece to India before dying aged 32 in 323 BCE?",
+    "answer": "Alexander the Great",
+    "distractors": [
+      "Darius III",
+      "Philip II",
+      "Pyrrhus"
+    ],
+    "explanation": "Alexander conquered the Persian Empire and Egypt, founding the city of Alexandria, and never lost a major battle. He died in Babylon after a short illness, and his generals carved up the empire between them.",
+    "hook": "Undefeated, yet dead at 32 in Babylon."
+  },
+  {
+    "id": "wl_294",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Roman general sided with Cleopatra against Octavian at the Battle of Actium in 31 BCE?",
+    "answer": "Mark Antony",
+    "distractors": [
+      "Pompey",
+      "Brutus",
+      "Crassus"
+    ],
+    "explanation": "After losing at Actium, Antony and Cleopatra fled to Egypt, where both took their own lives in 30 BCE. Octavian then annexed Egypt as a Roman province and was soon renamed Augustus.",
+    "hook": "Antony and Cleopatra lost at sea, then lost everything."
+  },
+  {
+    "id": "wl_295",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which gladiator led a huge slave rebellion against Rome that began in 73 BCE?",
+    "answer": "Spartacus",
+    "distractors": [
+      "Arminius",
+      "Jugurtha",
+      "Brennus"
+    ],
+    "explanation": "Spartacus escaped from a gladiator school at Capua and gathered tens of thousands of followers, defeating several Roman armies. Crassus finally crushed the revolt in 71 BCE and crucified about 6,000 captives along the Appian Way.",
+    "hook": "Spartacus escaped Capua; Crassus lined the road with crosses."
+  },
+  {
+    "id": "wl_296",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Persian king founded the Achaemenid Empire and let exiled Jews return home from Babylon after conquering it in 539 BCE?",
+    "answer": "Cyrus the Great",
+    "distractors": [
+      "Darius I",
+      "Xerxes I",
+      "Artaxerxes I"
+    ],
+    "explanation": "The Cyrus Cylinder, a clay record of his rule, is often called an early charter of religious tolerance. The Hebrew Bible praises him for allowing the rebuilding of the Temple in Jerusalem.",
+    "hook": "Cyrus conquered Babylon and sent the exiles home."
+  },
+  {
+    "id": "wl_297",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Persian king ordered a bridge of boats built across the Hellespont for his invasion of Greece in 480 BCE?",
+    "answer": "Xerxes",
+    "distractors": [
+      "Cyrus",
+      "Darius I",
+      "Cambyses"
+    ],
+    "explanation": "When a storm wrecked the first bridges, Xerxes reportedly had the sea whipped as punishment. His fleet was then smashed at Salamis, and his father Darius had earlier been beaten at Marathon.",
+    "hook": "Xerxes bridged the sea, then lost it at Salamis."
+  },
+  {
+    "id": "wl_298",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Athenian statesman led the city through its golden age and oversaw the building of the Parthenon?",
+    "answer": "Pericles",
+    "distractors": [
+      "Solon",
+      "Cleisthenes",
+      "Alcibiades"
+    ],
+    "explanation": "Pericles dominated Athenian politics for about three decades, strengthening its democracy and its naval empire. He died of plague in 429 BCE, early in the Peloponnesian War against Sparta.",
+    "hook": "Pericles built the Parthenon and died in the plague."
+  },
+  {
+    "id": "wl_299",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Macedonian king, father of Alexander the Great, was assassinated by a bodyguard in 336 BCE?",
+    "answer": "Philip II",
+    "distractors": [
+      "Ptolemy I",
+      "Seleucus I",
+      "Antipater"
+    ],
+    "explanation": "Philip turned Macedonia into the dominant power in Greece, partly through a reformed army using long pikes called sarissas. He was killed at his daughter's wedding celebrations in Aegae, leaving the throne to Alexander at 20.",
+    "hook": "Philip was stabbed at his daughter's wedding."
+  },
+  {
+    "id": "wl_300",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Mesopotamian ruler, in legend a cupbearer who became king, founded what is often called the world's first empire around 2300 BCE?",
+    "answer": "Sargon",
+    "distractors": [
+      "Hammurabi",
+      "Gilgamesh",
+      "Ashurbanipal"
+    ],
+    "explanation": "Sargon united the Sumerian city-states with his own Akkadian-speaking people from his capital Akkad. Hammurabi, famous for his law code, ruled Babylon several centuries later.",
+    "hook": "Sargon the cupbearer built the first empire."
+  },
+  {
+    "id": "wl_301",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Under which emperor did the Roman Empire reach its greatest territorial extent, in 117 CE?",
+    "answer": "Trajan",
+    "distractors": [
+      "Hadrian",
+      "Constantine",
+      "Vespasian"
+    ],
+    "explanation": "Trajan conquered Dacia, in modern Romania, and pushed east into Mesopotamia. His successor Hadrian gave up the eastern gains and focused on defending the borders, including his wall in Britain.",
+    "hook": "Trajan stretched Rome to its limit; Hadrian pulled back."
+  },
+  {
+    "id": "wl_302",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Roman general marched on Rome, became dictator in 82 BCE, then unusually resigned the office in 79 BCE and retired?",
+    "answer": "Sulla",
+    "distractors": [
+      "Marius",
+      "Lucullus",
+      "Crassus"
+    ],
+    "explanation": "Sulla was the first Roman to lead an army against the city itself, and he posted lists of enemies to be killed, called proscriptions. His retirement was rare, as later dictators such as Caesar clung to power.",
+    "hook": "Sulla seized Rome, then walked away."
+  },
+  {
+    "id": "wl_303",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Roman orator, famed for his speeches against Catiline and Mark Antony, was killed on Antony's orders in 43 BCE?",
+    "answer": "Cicero",
+    "distractors": [
+      "Cato the Younger",
+      "Seneca",
+      "Pliny the Elder"
+    ],
+    "explanation": "Cicero's severed head and hands were displayed on the speaker's platform in the Forum. His letters and speeches survive in large numbers, making him one of the best-documented figures of the ancient world.",
+    "hook": "Cicero's words cost him his head and hands."
+  },
+  {
+    "id": "wl_304",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which queen of the Iceni led a revolt against Roman rule in Britain around 60 CE?",
+    "answer": "Boudicca",
+    "distractors": [
+      "Cartimandua",
+      "Zenobia",
+      "Messalina"
+    ],
+    "explanation": "After Roman officials flogged her and mistreated her daughters, her forces burned Camulodunum, Londinium and Verulamium. She was defeated by Suetonius Paulinus and is said to have taken poison.",
+    "hook": "Boudicca burned London before it was even a capital."
+  },
+  {
+    "id": "wl_305",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which fifth-century king of the Huns invaded Gaul and Italy but turned back from Rome in 452 CE?",
+    "answer": "Attila",
+    "distractors": [
+      "Alaric",
+      "Genseric",
+      "Odoacer"
+    ],
+    "explanation": "Tradition says Pope Leo I met him and persuaded him to withdraw, though plague and supply problems probably also helped. Attila died on his wedding night in 453 CE, apparently from a burst blood vessel.",
+    "hook": "Attila turned back, then died on his wedding night."
+  },
+  {
+    "id": "wl_306",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which queen of Palmyra broke away from Rome and conquered Egypt around 270 CE?",
+    "answer": "Zenobia",
+    "distractors": [
+      "Artemisia",
+      "Tomyris",
+      "Candace"
+    ],
+    "explanation": "She ruled in the name of her young son and claimed to descend from Cleopatra. The emperor Aurelian defeated her in 272 CE and brought her to Rome, reportedly in golden chains.",
+    "hook": "Zenobia took Egypt, then Aurelian took her."
+  },
+  {
+    "id": "wl_307",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which founder of the Mauryan Empire, grandfather of Ashoka, overthrew the Nanda dynasty around 321 BCE?",
+    "answer": "Chandragupta Maurya",
+    "distractors": [
+      "Bindusara",
+      "Kanishka",
+      "Samudragupta"
+    ],
+    "explanation": "He is said to have been advised by the scholar Chanakya (also called Kautilya), and he later made peace with Seleucus, a general of Alexander, taking war elephants in exchange for land. His son Bindusara ruled next, followed by Ashoka.",
+    "hook": "Chandragupta, then Bindusara, then Ashoka: three generations."
+  },
+  {
+    "id": "wl_308",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Roman general defeated Hannibal at the Battle of Zama in 202 BCE?",
+    "answer": "Scipio Africanus",
+    "distractors": [
+      "Fabius Maximus",
+      "Marcellus",
+      "Aemilius Paullus"
+    ],
+    "explanation": "Scipio took the war to North Africa to force Hannibal home from Italy. His victory ended the Second Punic War, and he earned the extra name Africanus in honour of it.",
+    "hook": "Scipio won in Africa, so Africanus."
+  },
+  {
+    "id": "wl_309",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Han dynasty emperor, who reigned for 54 years from 141 BCE, sent Zhang Qian west and fought the Xiongnu?",
+    "answer": "Emperor Wu",
+    "distractors": [
+      "Emperor Gaozu",
+      "Emperor Wen",
+      "Emperor Guangwu"
+    ],
+    "explanation": "His reign saw Han China expand into Central Asia and Korea, and Zhang Qian's missions helped open the Silk Road. He also made Confucian learning the basis of the civil service.",
+    "hook": "Wu of Han sent Zhang Qian west, and the Silk Road followed."
+  },
+  {
+    "id": "wl_310",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Roman-appointed king of Judaea, who died about 4 BCE, enlarged the Jerusalem Temple and fortified Masada?",
+    "answer": "Herod the Great",
+    "distractors": [
+      "Antiochus IV",
+      "Hyrcanus II",
+      "Aretas IV"
+    ],
+    "explanation": "He also built the port of Caesarea and the palace-fortress of Herodium. The Gospel of Matthew claims he ordered the killing of infant boys in Bethlehem, though no other source records it.",
+    "hook": "Herod rebuilt the Temple and fortified Masada."
+  },
+  {
+    "id": "wl_311",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In the Roman Republic, which office was held by two men at once each year and was the highest elected magistracy?",
+    "answer": "Consul",
+    "distractors": [
+      "Tribune",
+      "Praetor",
+      "Censor"
+    ],
+    "explanation": "The two consuls could each veto the other and commanded Rome's armies. Years were dated by their names, so a date might be given as 'the year Caesar and Bibulus were consuls'.",
+    "hook": "Two consuls, each able to veto the other."
+  },
+  {
+    "id": "wl_312",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which queen, shown in a famous painted limestone bust now in Berlin, was Akhenaten's chief wife?",
+    "answer": "Nefertiti",
+    "distractors": [
+      "Hatshepsut",
+      "Nefertari",
+      "Cleopatra"
+    ],
+    "explanation": "The bust was found in 1912 at Amarna, the city Akhenaten built, and her name means 'the beautiful one has come'. Akhenaten's son Tutankhamun is thought to have been born to another wife.",
+    "hook": "Nefertiti: beautiful one, bust in Berlin."
+  },
+  {
+    "id": "wl_313",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Roman general and rival of Julius Caesar was murdered on arriving in Egypt in 48 BCE after losing at Pharsalus?",
+    "answer": "Pompey",
+    "distractors": [
+      "Crassus",
+      "Cato",
+      "Marcus Brutus"
+    ],
+    "explanation": "Pompey fled to Egypt hoping for help but was killed on the orders of advisers to the young Ptolemy XIII. When Caesar arrived days later he was reportedly shown Pompey's head and wept.",
+    "hook": "Pompey fled to Egypt and was killed at the shore."
+  },
+  {
+    "id": "wl_314",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who was crowned Emperor of the Romans by Pope Leo III on Christmas Day 800?",
+    "answer": "Charlemagne",
+    "distractors": [
+      "Clovis",
+      "Charles Martel",
+      "Pepin the Short"
+    ],
+    "explanation": "The king of the Franks was crowned in Rome, reviving the imperial title in western Europe for the first time in over three centuries. His court at Aachen drew scholars and sparked a cultural revival.",
+    "hook": "Christmas Day 800: the Franks get an emperor."
+  },
+  {
+    "id": "wl_315",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Austrian-born queen of France was guillotined in October 1793?",
+    "answer": "Marie Antoinette",
+    "distractors": [
+      "Empress Josephine",
+      "Catherine de' Medici",
+      "Madame de Pompadour"
+    ],
+    "explanation": "She was the youngest daughter of Empress Maria Theresa and was executed about nine months after her husband Louis XVI. The famous line 'Let them eat cake' has never been traced to her.",
+    "hook": "Vienna to Versailles to the guillotine."
+  },
+  {
+    "id": "wl_316",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Spanish conquistador led the expedition that toppled the Aztec Empire in 1521?",
+    "answer": "Hernán Cortés",
+    "distractors": [
+      "Francisco Pizarro",
+      "Vasco Núñez de Balboa",
+      "Juan Ponce de León"
+    ],
+    "explanation": "He landed on the Mexican coast in 1519 and allied with rival peoples such as the Tlaxcalans, who resented Aztec rule. The Aztec capital Tenochtitlan fell in August 1521 and Mexico City rose on its ruins.",
+    "hook": "Cortés took Mexico, Pizarro took Peru."
+  },
+  {
+    "id": "wl_317",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which French king moved his court permanently to the Palace of Versailles in 1682?",
+    "answer": "Louis XIV",
+    "distractors": [
+      "Louis XVI",
+      "Francis I",
+      "Henry IV"
+    ],
+    "explanation": "His reign of 72 years, from 1643 to 1715, is the longest of any European monarch. Housing nobles at Versailles kept them under his eye and away from plotting in their home regions.",
+    "hook": "The Sun King put the whole aristocracy under one roof."
+  },
+  {
+    "id": "wl_318",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which German-born princess seized Russia's throne in a 1762 coup against her husband?",
+    "answer": "Catherine the Great",
+    "distractors": [
+      "Empress Elizabeth",
+      "Anna Ioannovna",
+      "Maria Feodorovna"
+    ],
+    "explanation": "Born Sophie of Anhalt-Zerbst, she overthrew Peter III with the help of the Guards regiments and ruled until 1796. Under her Russia expanded south to the Black Sea and took a large share of partitioned Poland.",
+    "hook": "A German princess who out-Russianed the Russians."
+  },
+  {
+    "id": "wl_319",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Near which village in modern Belgium was Napoleon finally defeated in June 1815?",
+    "answer": "Waterloo",
+    "distractors": [
+      "Austerlitz",
+      "Borodino",
+      "Leipzig"
+    ],
+    "explanation": "Wellington's army held the ridge until Prussian troops under Blücher arrived late in the day to tip the battle. It ended Napoleon's Hundred Days, and he never held power again.",
+    "hook": "Wellington held, Blücher arrived, Napoleon was done."
+  },
+  {
+    "id": "wl_320",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "To which Mediterranean island was Napoleon sent after abdicating in 1814?",
+    "answer": "Elba",
+    "distractors": [
+      "Corsica",
+      "Sardinia",
+      "Capri"
+    ],
+    "explanation": "The Allies let him rule the small island as a personal principality, with a tiny army and navy. He escaped in February 1815 and landed in France, starting the Hundred Days that ended at Waterloo.",
+    "hook": "Elba was the first exile, and he walked out of it."
+  },
+  {
+    "id": "wl_321",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year did the Bolsheviks shoot Tsar Nicholas II and his family?",
+    "answer": "1918",
+    "distractors": [
+      "1917",
+      "1919",
+      "1921"
+    ],
+    "explanation": "The family was killed in July 1918 in the cellar of the Ipatiev House in Yekaterinburg. Nicholas had abdicated in March 1917, and their remains were not identified until after the Soviet Union collapsed.",
+    "hook": "Abdicated 1917, executed 1918."
+  },
+  {
+    "id": "wl_322",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Ottoman sultan led the failed first siege of Vienna in 1529?",
+    "answer": "Suleiman the Magnificent",
+    "distractors": [
+      "Mehmed II",
+      "Selim I",
+      "Murad IV"
+    ],
+    "explanation": "Autumn rains and supply problems forced the Ottoman army to turn back before winter. Suleiman reigned from 1520 to 1566, the empire's peak, and is known in Turkish as 'the Lawgiver'.",
+    "hook": "Vienna held; the Magnificent went home."
+  },
+  {
+    "id": "wl_323",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Byzantine emperor completed the Hagia Sophia in 537?",
+    "answer": "Justinian I",
+    "distractors": [
+      "Constantine the Great",
+      "Heraclius",
+      "Basil II"
+    ],
+    "explanation": "He rebuilt the church in just under six years after the Nika riots of 532 destroyed the earlier one. His wife Theodora, a former actress, helped persuade him to stay in the capital and crush the revolt.",
+    "hook": "Built after the riots, with Theodora at his side."
+  },
+  {
+    "id": "wl_324",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which pope launched the First Crusade with a speech at Clermont in 1095?",
+    "answer": "Urban II",
+    "distractors": [
+      "Gregory VII",
+      "Innocent III",
+      "Leo III"
+    ],
+    "explanation": "He appealed for help after the Byzantine emperor asked for aid against the Seljuk Turks. The crowd reportedly shouted 'Deus vult', meaning 'God wills it', and the Crusaders took Jerusalem in 1099.",
+    "hook": "Deus vult at Clermont."
+  },
+  {
+    "id": "wl_325",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Norse outlaw, exiled from Iceland around 982, founded the first Viking settlements in Greenland?",
+    "answer": "Erik the Red",
+    "distractors": [
+      "Leif Erikson",
+      "Harald Hardrada",
+      "Cnut the Great"
+    ],
+    "explanation": "He was banished for manslaughter, explored the Greenland coast, and returned to recruit settlers. The attractive name was a sales pitch, since most of the island is covered in ice.",
+    "hook": "Greenland's name was the original real-estate spin."
+  },
+  {
+    "id": "wl_326",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Norwegian king was killed at Stamford Bridge in 1066, days before the Norman invasion?",
+    "answer": "Harald Hardrada",
+    "distractors": [
+      "Cnut the Great",
+      "Olaf Tryggvason",
+      "Sweyn Forkbeard"
+    ],
+    "explanation": "He invaded Yorkshire claiming the English throne and was beaten by Harold Godwinson. The English army then marched south in haste to meet William of Normandy at Hastings, where it lost.",
+    "hook": "The last great Viking died three weeks before Hastings."
+  },
+  {
+    "id": "wl_327",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Mali emperor's 1324 pilgrimage to Mecca, with caravans carrying vast amounts of gold, upset gold prices in Cairo?",
+    "answer": "Mansa Musa",
+    "distractors": [
+      "Sundiata Keita",
+      "Sunni Ali",
+      "Askia the Great"
+    ],
+    "explanation": "He is often described as among the richest people in history, and his spending reportedly depressed the value of gold in Cairo for years. He also brought back scholars and architects who helped build Timbuktu's learning centres.",
+    "hook": "He spent so much gold in Cairo that its price stayed low for about twelve years."
+  },
+  {
+    "id": "wl_328",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Prussian king invaded Maria Theresa's Silesia in 1740 and later composed music for the flute?",
+    "answer": "Frederick the Great",
+    "distractors": [
+      "Frederick William I",
+      "Wilhelm I",
+      "Wilhelm II"
+    ],
+    "explanation": "He took Silesia in the first months of his reign, starting the War of the Austrian Succession, and Prussia kept it. He built Sanssouci palace at Potsdam and corresponded with Voltaire.",
+    "hook": "Flute in one hand, Silesia in the other."
+  },
+  {
+    "id": "wl_329",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which conqueror made Samarkand the capital of the vast empire he built from 1370?",
+    "answer": "Tamerlane",
+    "distractors": [
+      "Genghis Khan",
+      "Ögedei Khan",
+      "Bayezid I"
+    ],
+    "explanation": "Also called Timur, he captured the Ottoman sultan Bayezid at Ankara in 1402. He died in 1405 while marching on Ming China, and his descendant Babur later founded the Mughal Empire.",
+    "hook": "Samarkand's conqueror, ancestor of the Mughals."
+  },
+  {
+    "id": "wl_330",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which prince from Central Asia won the First Battle of Panipat in 1526 and founded the Mughal Empire?",
+    "answer": "Babur",
+    "distractors": [
+      "Akbar",
+      "Humayun",
+      "Sher Shah Suri"
+    ],
+    "explanation": "He defeated Ibrahim Lodi, the Delhi sultan, using artillery and matchlock guns that Indian armies lacked. A descendant of both Timur and Genghis Khan, he wrote a vivid memoir, the Baburnama.",
+    "hook": "Guns at Panipat built an empire."
+  },
+  {
+    "id": "wl_331",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Mughal emperor, a grandson of Babur, promoted religious tolerance and a faith called Din-i Ilahi?",
+    "answer": "Akbar",
+    "distractors": [
+      "Aurangzeb",
+      "Jahangir",
+      "Humayun"
+    ],
+    "explanation": "He took the throne aged 13 in 1556 and ruled until 1605, expanding the empire across northern India. He abolished the tax on non-Muslims and hosted religious debates at his court in Fatehpur Sikri.",
+    "hook": "A boy emperor who invited every faith to the debate."
+  },
+  {
+    "id": "wl_332",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who won the Battle of Sekigahara in 1600 and became shogun in 1603?",
+    "answer": "Tokugawa Ieyasu",
+    "distractors": [
+      "Oda Nobunaga",
+      "Toyotomi Hideyoshi",
+      "Minamoto no Yoritomo"
+    ],
+    "explanation": "He made Edo, now Tokyo, his base and founded a shogunate that kept Japan at peace for over 250 years. It ended only when the Meiji Restoration returned power to the emperor in 1868.",
+    "hook": "Nobunaga mixed, Hideyoshi baked, Ieyasu ate the cake."
+  },
+  {
+    "id": "wl_333",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which concubine-turned-regent effectively ruled Qing China from 1861 until her death in 1908?",
+    "answer": "Cixi",
+    "distractors": [
+      "Wu Zetian",
+      "Empress Xiaozhuang",
+      "Empress Lü"
+    ],
+    "explanation": "She controlled the court through two child emperors and then her nephew, whom she placed under house arrest after his reform attempt of 1898. She died the day after he did, and poisoning has been suspected.",
+    "hook": "The power behind the Qing throne for nearly half a century."
+  },
+  {
+    "id": "wl_334",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Qing emperor reigned for 61 years from 1661, the longest verified reign of any Chinese emperor?",
+    "answer": "Kangxi",
+    "distractors": [
+      "Qianlong",
+      "Yongzheng",
+      "Shunzhi"
+    ],
+    "explanation": "He took the throne aged seven and later put down the Revolt of the Three Feudatories. His grandson Qianlong ruled for 60 years and deliberately stepped down so as not to outdo him.",
+    "hook": "Seven years old when crowned, 61 years on the throne."
+  },
+  {
+    "id": "wl_335",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Saxon king was crowned emperor in Rome in 962, an event often seen as the founding of the Holy Roman Empire?",
+    "answer": "Otto I",
+    "distractors": [
+      "Henry the Fowler",
+      "Charles the Bald",
+      "Conrad II"
+    ],
+    "explanation": "He had crushed the Magyars at the Battle of Lechfeld in 955 and was crowned by Pope John XII. The empire he started lasted until Napoleon forced its end in 1806.",
+    "hook": "Crowned in 962; the empire ran until 1806."
+  },
+  {
+    "id": "wl_336",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Holy Roman Emperor drowned in an Anatolian river in 1190 while leading the Third Crusade?",
+    "answer": "Frederick Barbarossa",
+    "distractors": [
+      "Frederick II",
+      "Henry VI",
+      "Conrad III"
+    ],
+    "explanation": "The elderly emperor died crossing the Saleph River, and much of his army went home. Legend says he sleeps in a mountain, and the Nazis later named their 1941 invasion of the Soviet Union after him.",
+    "hook": "Redbeard drowned, and legend says he only sleeps."
+  },
+  {
+    "id": "wl_337",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which dictator wrote Mein Kampf while in prison after a failed 1923 coup attempt in Munich?",
+    "answer": "Adolf Hitler",
+    "distractors": [
+      "Benito Mussolini",
+      "Francisco Franco",
+      "Joseph Stalin"
+    ],
+    "explanation": "Hitler served only about nine months of a five-year sentence for the Beer Hall Putsch, dictating the book to Rudolf Hess. The failed coup convinced him to seek power through elections instead.",
+    "hook": "A failed putsch, a short stay in jail, and a book that outlived him."
+  },
+  {
+    "id": "wl_338",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which dictator ruled Italy from 1922 until he was ousted in 1943?",
+    "answer": "Benito Mussolini",
+    "distractors": [
+      "Victor Emmanuel III",
+      "Giuseppe Garibaldi",
+      "Francisco Franco"
+    ],
+    "explanation": "He came to power after the 1922 March on Rome, when King Victor Emmanuel III invited him to form a government. He was rescued by German commandos in 1943 and killed by partisans in April 1945.",
+    "hook": "He marched on Rome, and the king handed him the keys."
+  },
+  {
+    "id": "wl_339",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which year did the Berlin Wall come down, opening the border between East and West?",
+    "answer": "1989",
+    "distractors": [
+      "1985",
+      "1987",
+      "1991"
+    ],
+    "explanation": "East Germany announced relaxed travel rules on 9 November 1989 and crowds streamed through the checkpoints that night. Germany was formally reunified less than a year later, on 3 October 1990.",
+    "hook": "Nine-eleven, 1989: the night the wall opened."
+  },
+  {
+    "id": "wl_340",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Soviet leader ruled from the late 1920s until his death in 1953?",
+    "answer": "Joseph Stalin",
+    "distractors": [
+      "Leon Trotsky",
+      "Nikita Khrushchev",
+      "Leonid Brezhnev"
+    ],
+    "explanation": "Stalin outmanoeuvred Trotsky after Lenin's death and ran the USSR through collectivisation, the purges and the Second World War. His successor Khrushchev denounced him in a secret speech in 1956.",
+    "hook": "The man of steel: that is what 'Stalin' means in Russian."
+  },
+  {
+    "id": "wl_341",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which American general was Supreme Allied Commander for the D-Day landings of June 1944?",
+    "answer": "Dwight D. Eisenhower",
+    "distractors": [
+      "Douglas MacArthur",
+      "George Patton",
+      "Omar Bradley"
+    ],
+    "explanation": "Eisenhower reportedly kept a note in his pocket, accepting the blame in case the Normandy landings failed. He went on to win the 1952 US presidential election.",
+    "hook": "Ike planned his apology before the invasion even began."
+  },
+  {
+    "id": "wl_342",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which US president faced down the Soviet Union during the 1962 crisis over missiles in Cuba?",
+    "answer": "John F. Kennedy",
+    "distractors": [
+      "Lyndon B. Johnson",
+      "Dwight D. Eisenhower",
+      "Richard Nixon"
+    ],
+    "explanation": "For 13 days in October 1962 the world edged towards nuclear war until Khrushchev agreed to remove the missiles. Kennedy secretly agreed to withdraw US missiles from Turkey in return.",
+    "hook": "Thirteen days on the brink, and Kennedy blinked second."
+  },
+  {
+    "id": "wl_343",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which emperor of Japan announced his country's surrender by radio broadcast in August 1945?",
+    "answer": "Hirohito",
+    "distractors": [
+      "Akihito",
+      "Yoshihito",
+      "Mutsuhito"
+    ],
+    "explanation": "It was the first time ordinary Japanese had heard the emperor's voice, and he spoke in formal court language many found hard to follow. He stayed on the throne until his death in 1989.",
+    "hook": "The voice no Japanese subject had ever heard before."
+  },
+  {
+    "id": "wl_344",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which general won the Spanish Civil War in 1939 and then ruled Spain until his death in 1975?",
+    "answer": "Francisco Franco",
+    "distractors": [
+      "Miguel Primo de Rivera",
+      "Antonio Salazar",
+      "Juan Peron"
+    ],
+    "explanation": "He led the Nationalist side with help from Hitler and Mussolini, while Britain and France stayed neutral. Spain stayed out of the Second World War, and the monarchy returned under Juan Carlos in 1975.",
+    "hook": "Franco won the war and then outlasted Hitler by thirty years."
+  },
+  {
+    "id": "wl_345",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Soviet leader allegedly banged a shoe on his desk during a 1960 session of the United Nations General Assembly?",
+    "answer": "Nikita Khrushchev",
+    "distractors": [
+      "Leonid Brezhnev",
+      "Georgy Malenkov",
+      "Nikolai Bulganin"
+    ],
+    "explanation": "He was protesting a Filipino delegate's speech about Soviet domination of Eastern Europe. Accounts differ on whether he banged the shoe or only waved it.",
+    "hook": "Footwear diplomacy: the shoe may never have hit the desk."
+  },
+  {
+    "id": "wl_346",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which US president announced in 1947 that America would support nations resisting communist takeover, beginning with Greece and Turkey?",
+    "answer": "Harry S. Truman",
+    "distractors": [
+      "Franklin D. Roosevelt",
+      "Dwight D. Eisenhower",
+      "George Marshall"
+    ],
+    "explanation": "The policy of containment became the heart of US Cold War strategy. It was soon followed by the Marshall Plan, which poured billions of dollars into rebuilding Western Europe.",
+    "hook": "Truman drew the line, and containment followed."
+  },
+  {
+    "id": "wl_347",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which regime, led by Pol Pot, ruled Cambodia from 1975 to 1979 and emptied its cities?",
+    "answer": "The Khmer Rouge",
+    "distractors": [
+      "The Viet Minh",
+      "The Pathet Lao",
+      "The Red Guards"
+    ],
+    "explanation": "Roughly 1.5 to 2 million Cambodians died from execution, forced labour and starvation. The regime was toppled in January 1979 when Vietnam invaded.",
+    "hook": "Year Zero: they tried to restart a whole country."
+  },
+  {
+    "id": "wl_348",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Ugandan military ruler expelled the country's Asian community in 1972?",
+    "answer": "Idi Amin",
+    "distractors": [
+      "Milton Obote",
+      "Mobutu Sese Seko",
+      "Robert Mugabe"
+    ],
+    "explanation": "He seized power in a 1971 coup, giving the Asians, mostly of Indian descent, 90 days to leave. He fled into exile in Saudi Arabia in 1979 after Tanzanian forces invaded.",
+    "hook": "Ninety days to pack: the Asian expulsion of 1972."
+  },
+  {
+    "id": "wl_349",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Romanian dictator was executed by firing squad on Christmas Day 1989 after a swift trial?",
+    "answer": "Nicolae Ceausescu",
+    "distractors": [
+      "Todor Zhivkov",
+      "Erich Honecker",
+      "Enver Hoxha"
+    ],
+    "explanation": "He was the only Eastern Bloc leader killed in the 1989 revolutions. He and his wife Elena fled Bucharest by helicopter but were captured within days.",
+    "hook": "A Christmas Day trial ended the last violent revolution of 1989."
+  },
+  {
+    "id": "wl_350",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which shipyard electrician led the Solidarity trade union and became Poland's president in 1990?",
+    "answer": "Lech Walesa",
+    "distractors": [
+      "Wojciech Jaruzelski",
+      "Donald Tusk",
+      "Lech Kaczynski"
+    ],
+    "explanation": "Solidarity began at the Gdansk shipyard in 1980 and was banned under martial law. He won the 1983 Nobel Peace Prize and took office as Poland's first popularly elected president.",
+    "hook": "An electrician from Gdansk wired up the end of communism."
+  },
+  {
+    "id": "wl_351",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which Crimean resort did Churchill, Roosevelt and Stalin meet in February 1945 to plan the postwar order?",
+    "answer": "Yalta",
+    "distractors": [
+      "Potsdam",
+      "Tehran",
+      "Casablanca"
+    ],
+    "explanation": "They agreed to divide Germany into occupation zones and to call the conference that founded the United Nations. Critics later said Roosevelt gave too much ground to Stalin on Poland, and he died two months afterwards.",
+    "hook": "Three men, one Crimean palace, and a map of the world."
+  },
+  {
+    "id": "wl_352",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which German general commanded the Afrika Korps and was forced to take cyanide in 1944 after the plot against Hitler?",
+    "answer": "Erwin Rommel",
+    "distractors": [
+      "Heinz Guderian",
+      "Erich von Manstein",
+      "Gerd von Rundstedt"
+    ],
+    "explanation": "He was linked to the July 1944 conspirators and offered a choice between a trial and suicide. The regime gave him a state funeral and claimed he had died of war wounds.",
+    "hook": "A hero's funeral for a man the regime had forced to die."
+  },
+  {
+    "id": "wl_353",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was Tsar of Russia when the First World War began in 1914?",
+    "answer": "Nicholas II",
+    "distractors": [
+      "Alexander III",
+      "Alexander II",
+      "Nicholas I"
+    ],
+    "explanation": "He abdicated in March 1917 and was shot with his family by Bolsheviks at Yekaterinburg in July 1918. He was a first cousin of King George V, who ruled Britain on the Allied side.",
+    "hook": "The last Tsar was cousin to the king who fought beside him."
+  },
+  {
+    "id": "wl_354",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which August 1939 agreement between Nazi Germany and the USSR contained a secret protocol dividing Poland and the Baltic states?",
+    "answer": "Molotov-Ribbentrop Pact",
+    "distractors": [
+      "Pact of Steel",
+      "Tripartite Pact",
+      "Anti-Comintern Pact"
+    ],
+    "explanation": "It cleared the way for Germany to invade Poland on 1 September, with the Soviets entering from the east 16 days later. Hitler broke it by invading the USSR in June 1941.",
+    "hook": "Two dictators shook hands, then carved up Poland."
+  },
+  {
+    "id": "wl_355",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which First World War hero of Verdun headed France's collaborationist government after the defeat of 1940?",
+    "answer": "Philippe Petain",
+    "distractors": [
+      "Maxime Weygand",
+      "Ferdinand Foch",
+      "Georges Clemenceau"
+    ],
+    "explanation": "Aged 84 in 1940, he signed an armistice with Germany and governed from a spa town. After the war he was sentenced to death for treason, but de Gaulle commuted it to life imprisonment.",
+    "hook": "The hero of Verdun became the face of surrender."
+  },
+  {
+    "id": "wl_356",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which dissident playwright, a leading figure in Charter 77, became Czechoslovakia's president after the 1989 Velvet Revolution?",
+    "answer": "Vaclav Havel",
+    "distractors": [
+      "Alexander Dubcek",
+      "Gustav Husak",
+      "Vaclav Klaus"
+    ],
+    "explanation": "Jailed several times by the communist regime, he was elected president by parliament in December 1989. He went on to be the first president of the Czech Republic after the 1993 split.",
+    "hook": "From prison cell to presidential castle in one revolution."
+  },
+  {
+    "id": "wl_357",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Australian commander led the Australian Corps in the successful battle of Hamel in July 1918?",
+    "answer": "John Monash",
+    "distractors": [
+      "Thomas Blamey",
+      "William Birdwood",
+      "Harry Chauvel"
+    ],
+    "explanation": "The battle lasted about 93 minutes and used tanks, aircraft and infantry in careful coordination. Monash, a civil engineer by training, was knighted in the field by King George V.",
+    "hook": "An engineer ran the battle like a building site."
+  },
+  {
+    "id": "wl_358",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became the first Australian promoted to field marshal, in 1950, after commanding Australian forces in the Second World War?",
+    "answer": "Thomas Blamey",
+    "distractors": [
+      "John Monash",
+      "Harry Chauvel",
+      "Leslie Morshead"
+    ],
+    "explanation": "He served as Commander-in-Chief of the Australian Military Forces from 1942 and was Chief of the General Staff before that. He was a controversial figure, in part for his clashes with General Douglas MacArthur.",
+    "hook": "Blamey wore the field marshal's baton Monash never got."
+  },
+  {
+    "id": "wl_359",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which former KGB chief succeeded Leonid Brezhnev as Soviet leader in 1982?",
+    "answer": "Yuri Andropov",
+    "distractors": [
+      "Konstantin Chernenko",
+      "Nikolai Podgorny",
+      "Alexei Kosygin"
+    ],
+    "explanation": "He was in poor health and died in February 1984 after only about 15 months in office. As ambassador in Budapest he had helped crush the 1956 Hungarian uprising.",
+    "hook": "A spy chief ran the Soviet Union for about 15 months."
+  },
+  {
+    "id": "wl_360",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Soviet leader held power for 18 years from 1964 and sent troops into Czechoslovakia in 1968?",
+    "answer": "Leonid Brezhnev",
+    "distractors": [
+      "Alexei Kosygin",
+      "Konstantin Chernenko",
+      "Georgy Malenkov"
+    ],
+    "explanation": "He ousted Khrushchev in 1964 and ruled until he died in 1982, a period later called the era of stagnation. His doctrine claimed the right to intervene in any socialist state under threat.",
+    "hook": "Eighteen years of stagnation and a tank-backed doctrine."
+  },
+  {
+    "id": "wl_361",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which top Nazi at the 1946 Nuremberg trial was sentenced to death but swallowed cyanide the night before his hanging?",
+    "answer": "Hermann Goring",
+    "distractors": [
+      "Rudolf Hess",
+      "Joachim von Ribbentrop",
+      "Albert Speer"
+    ],
+    "explanation": "The head of the Luftwaffe was the highest-ranking defendant at the main trial. Ribbentrop was hanged, Hess got life, and Speer 20 years.",
+    "hook": "Goring cheated the hangman by hours."
+  },
+  {
+    "id": "wl_362",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which exiled cleric flew home from Paris in February 1979 to lead Iran's Islamic Revolution?",
+    "answer": "Ruhollah Khomeini",
+    "distractors": [
+      "Ali Khamenei",
+      "Hassan Rouhani",
+      "Mahmoud Ahmadinejad"
+    ],
+    "explanation": "Khomeini landed in Tehran two weeks after the Shah fled the country, and a referendum soon created an Islamic republic. He became Supreme Leader and held the post until he died in 1989.",
+    "hook": "Paris exile to Tehran in 1979, and the Shah was gone."
+  },
+  {
+    "id": "wl_363",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who was prime minister of Singapore from 1959 until 1990, guiding it from British colony to wealthy city-state?",
+    "answer": "Lee Kuan Yew",
+    "distractors": [
+      "Goh Chok Tong",
+      "Tunku Abdul Rahman",
+      "Lee Hsien Loong"
+    ],
+    "explanation": "He led the island through its brief union with Malaysia and its expulsion in 1965, then built a tightly run economy. His son Lee Hsien Loong later became prime minister in 2004.",
+    "hook": "One man, thirty-one years, and a tiny island turned rich."
+  },
+  {
+    "id": "wl_364",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Israeli prime minister was in office when Egypt and Syria attacked in the October 1973 Yom Kippur War?",
+    "answer": "Golda Meir",
+    "distractors": [
+      "Levi Eshkol",
+      "Moshe Dayan",
+      "Yitzhak Rabin"
+    ],
+    "explanation": "Meir led Israel from 1969 and resigned in 1974 after an inquiry criticised the lack of preparation. Dayan was her defence minister, and Rabin became prime minister after her.",
+    "hook": "The war caught Israel off guard and ended Meir's term."
+  },
+  {
+    "id": "wl_365",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became North Korea's supreme leader in December 2011 after his father died of a heart attack?",
+    "answer": "Kim Jong Un",
+    "distractors": [
+      "Kim Yo Jong",
+      "Kim Jong Nam",
+      "Kim Il Sung"
+    ],
+    "explanation": "He was the youngest of three sons and was in his late twenties when he took over. His grandfather Kim Il Sung founded the country, and his father had led it since 1994.",
+    "hook": "Third generation of the family to run the country."
+  },
+  {
+    "id": "wl_366",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Philippine president ruled from 1965 until the 1986 People Power uprising drove him into exile?",
+    "answer": "Ferdinand Marcos",
+    "distractors": [
+      "Joseph Estrada",
+      "Fidel Ramos",
+      "Ramon Magsaysay"
+    ],
+    "explanation": "He declared martial law in 1972 and stayed in power long past his term limit. He fled to Hawaii, where he died in 1989, and his wife Imelda became famous for her shoe collection.",
+    "hook": "People Power in 1986 sent him to Hawaii."
+  },
+  {
+    "id": "wl_367",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Myanmar democracy leader won the 1991 Nobel Peace Prize while under house arrest?",
+    "answer": "Aung San Suu Kyi",
+    "distractors": [
+      "Thein Sein",
+      "Than Shwe",
+      "Min Aung Hlaing"
+    ],
+    "explanation": "She spent about 15 years confined at home between 1989 and 2010, and her son accepted the prize in Oslo. Her father, Aung San, negotiated Burmese independence and was assassinated in 1947.",
+    "hook": "Daughter of independence hero Aung San, prize accepted by her son."
+  },
+  {
+    "id": "wl_368",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Chinese premier served from 1949 until his death in January 1976, months before Mao?",
+    "answer": "Zhou Enlai",
+    "distractors": [
+      "Liu Shaoqi",
+      "Lin Biao",
+      "Hua Guofeng"
+    ],
+    "explanation": "Zhou was the steady diplomat of the Communist government and helped arrange Richard Nixon's 1972 visit. Hua Guofeng succeeded him as premier, and Liu Shaoqi died in disgrace in 1969.",
+    "hook": "Mao's long-time number two, gone eight months before him."
+  },
+  {
+    "id": "wl_369",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Israeli prime minister signed the 1978 Camp David Accords with Egypt's Anwar Sadat?",
+    "answer": "Menachem Begin",
+    "distractors": [
+      "Golda Meir",
+      "Yitzhak Shamir",
+      "Shimon Peres"
+    ],
+    "explanation": "US president Jimmy Carter hosted the talks at Camp David, which led to the 1979 Egypt-Israel peace treaty. Begin and Sadat shared the 1978 Nobel Peace Prize for the breakthrough.",
+    "hook": "Carter hosted, Begin and Sadat signed, and both won the Nobel."
+  },
+  {
+    "id": "wl_370",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became the world's oldest elected head of government when chosen as Malaysian prime minister in 2018, aged 92?",
+    "answer": "Mahathir Mohamad",
+    "distractors": [
+      "Najib Razak",
+      "Anwar Ibrahim",
+      "Abdullah Badawi"
+    ],
+    "explanation": "He had already led Malaysia from 1981 to 2003 and returned to defeat the Najib government amid the 1MDB scandal. His second stint ended in 2020 after his coalition collapsed.",
+    "hook": "A second innings at 92 after 22 years in the first."
+  },
+  {
+    "id": "wl_371",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Indonesian army general ruled for about 31 years until resigning in May 1998?",
+    "answer": "Suharto",
+    "distractors": [
+      "Sukarno",
+      "B. J. Habibie",
+      "Abdurrahman Wahid"
+    ],
+    "explanation": "He rose after a 1965 coup attempt and led the 'New Order' regime until riots and an Asian financial crisis drove him out. His vice president Habibie took over immediately.",
+    "hook": "Thirty-one years ended by the 1998 financial crash."
+  },
+  {
+    "id": "wl_372",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which widow won the Philippine presidency in 1986, three years after her husband was shot at Manila airport?",
+    "answer": "Corazon Aquino",
+    "distractors": [
+      "Gloria Macapagal Arroyo",
+      "Imelda Marcos",
+      "Leni Robredo"
+    ],
+    "explanation": "Her husband Benigno, a leading opposition figure, was killed as he returned from exile in 1983. She ran in a snap election and the People Power revolt confirmed her win.",
+    "hook": "A widow, a snap election and a yellow revolution."
+  },
+  {
+    "id": "wl_373",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who in 1988 became the first woman to head the government of a Muslim-majority country?",
+    "answer": "Benazir Bhutto",
+    "distractors": [
+      "Tansu Ciller",
+      "Khaleda Zia",
+      "Megawati Sukarnoputri"
+    ],
+    "explanation": "She became Pakistan's prime minister at 35 and was dismissed twice on corruption charges before returning from exile. She was assassinated in Rawalpindi in December 2007 while campaigning.",
+    "hook": "Pakistan led the way in 1988, before Bangladesh and Turkey followed."
+  },
+  {
+    "id": "wl_374",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Indian prime minister ordered the Pokhran nuclear tests in May 1998?",
+    "answer": "Atal Bihari Vajpayee",
+    "distractors": [
+      "L. K. Advani",
+      "P. V. Narasimha Rao",
+      "I. K. Gujral"
+    ],
+    "explanation": "The tests prompted Pakistan to carry out its own within weeks. Vajpayee was also a published poet and the first non-Congress prime minister to serve a full five-year term.",
+    "hook": "A poet-prime minister who declared India a nuclear weapons state."
+  },
+  {
+    "id": "wl_375",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which economist, as finance minister in 1991, opened up India's economy before becoming prime minister in 2004?",
+    "answer": "Manmohan Singh",
+    "distractors": [
+      "P. Chidambaram",
+      "Pranab Mukherjee",
+      "Montek Singh Ahluwalia"
+    ],
+    "explanation": "The 1991 reforms cut licensing controls and tariffs after a balance-of-payments crisis. He served ten years as prime minister, the first Sikh to hold the job.",
+    "hook": "Finance minister of the 1991 reforms, PM for a decade."
+  },
+  {
+    "id": "wl_376",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who chaired the drafting committee of India's constitution and became independent India's first law minister?",
+    "answer": "B. R. Ambedkar",
+    "distractors": [
+      "Rajendra Prasad",
+      "Vallabhbhai Patel",
+      "C. Rajagopalachari"
+    ],
+    "explanation": "Born into a Dalit family, he became a leading campaigner against caste discrimination. Prasad presided over the Constituent Assembly itself, while Ambedkar did the drafting work.",
+    "hook": "Dalit champion who wrote the constitution's text."
+  },
+  {
+    "id": "wl_377",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Egyptian president was forced to resign in February 2011 after 18 days of mass protests in Tahrir Square?",
+    "answer": "Hosni Mubarak",
+    "distractors": [
+      "Anwar Sadat",
+      "Mohamed Morsi",
+      "Abdel Fattah el-Sisi"
+    ],
+    "explanation": "He had ruled since Sadat's assassination in 1981, nearly three decades. The military took over, and he was later put on trial in a hospital bed.",
+    "hook": "Eighteen days in the square ended thirty years in power."
+  },
+  {
+    "id": "wl_378",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who was the first president of independent Timor-Leste when it formally became a nation in 2002?",
+    "answer": "Xanana Gusmao",
+    "distractors": [
+      "Mari Alkatiri",
+      "Taur Matan Ruak",
+      "Jose Ramos-Horta"
+    ],
+    "explanation": "He led the Falintil guerrillas against Indonesian rule and was jailed in Jakarta from 1992 to 1999. Alkatiri became the first prime minister, and Gusmao later served as prime minister himself.",
+    "hook": "Guerrilla commander turned founding president."
+  },
+  {
+    "id": "wl_379",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former Japanese prime minister was shot dead while campaigning in Nara in July 2022?",
+    "answer": "Shinzo Abe",
+    "distractors": [
+      "Junichiro Koizumi",
+      "Yasuhiro Nakasone",
+      "Taro Aso"
+    ],
+    "explanation": "The attack shocked a country with very strict gun laws. He had resigned in 2020 for health reasons, ending a second stint in office that began in 2012.",
+    "hook": "A rare shooting in one of the world's safest countries."
+  },
+  {
+    "id": "wl_380",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Burmese general seized power in a 1962 coup and launched the 'Burmese Way to Socialism'?",
+    "answer": "Ne Win",
+    "distractors": [
+      "U Nu",
+      "Than Shwe",
+      "Aung San"
+    ],
+    "explanation": "He overthrew the elected prime minister U Nu and nationalised businesses, leaving a once-rich country isolated and poor. He held real power for 26 years until the 1988 uprising.",
+    "hook": "Coup in 1962, and a quarter-century of isolation."
+  },
+  {
+    "id": "wl_381",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which long-serving Cambodian prime minister handed the job to his son in August 2023?",
+    "answer": "Hun Sen",
+    "distractors": [
+      "Norodom Ranariddh",
+      "Sam Rainsy",
+      "Lon Nol"
+    ],
+    "explanation": "He had led the government since 1985 and was one of the world's longest-serving leaders. His son Hun Manet, a West Point graduate, succeeded him while he kept a powerful senate role.",
+    "hook": "Thirty-eight years in the job, then the son took over."
+  },
+  {
+    "id": "wl_382",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which military commander seized power in Fiji in December 2006?",
+    "answer": "Frank Bainimarama",
+    "distractors": [
+      "Sitiveni Rabuka",
+      "Mahendra Chaudhry",
+      "Laisenia Qarase"
+    ],
+    "explanation": "He removed Prime Minister Qarase and ruled until elections in 2014, which his party won. He was Fiji's prime minister until 2022, when Rabuka returned to the job.",
+    "hook": "A navy commodore who stayed on as prime minister."
+  },
+  {
+    "id": "wl_383",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which army officer staged two coups in Fiji in 1987, months apart?",
+    "answer": "Sitiveni Rabuka",
+    "distractors": [
+      "Mahendra Chaudhry",
+      "Laisenia Qarase",
+      "Kamisese Mara"
+    ],
+    "explanation": "The coups overthrew a government seen as dominated by Indo-Fijians and led to Fiji leaving the Commonwealth until 1997. He later became an elected prime minister, in 1992 and again in 2022.",
+    "hook": "Two coups in 1987, then ballot-box returns years later."
+  },
+  {
+    "id": "wl_384",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Pacific queen charmed the crowds by riding in an open carriage through the rain at Elizabeth II's 1953 coronation procession?",
+    "answer": "Salote Tupou III",
+    "distractors": [
+      "Pomare IV",
+      "Liliuokalani",
+      "Kapiolani"
+    ],
+    "explanation": "She ruled Tonga for 47 years from 1918 and stood nearly two metres tall. Tonga was never colonised, which is why it is still a kingdom today.",
+    "hook": "The tall Tongan queen who refused to put the hood up."
+  },
+  {
+    "id": "wl_385",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who replaced Tuilaepa Sailele Malielegaoi as Samoa's prime minister in 2021 after he had held the job for more than two decades?",
+    "answer": "Fiame Naomi Mataafa",
+    "distractors": [
+      "Tofilau Eti Alesana",
+      "Vaaletoa Sualauvi II",
+      "Tupua Tamasese Efi"
+    ],
+    "explanation": "She became the first woman to lead Samoa after a dispute over the result ended in a court ruling. Her father Mataafa Faumuina Mulinuu II was Samoa's first prime minister at independence in 1962.",
+    "hook": "Samoa's first woman prime minister, daughter of the first PM."
+  },
+  {
+    "id": "wl_386",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which general was Japan's prime minister for most of the Pacific War and was hanged in December 1948?",
+    "answer": "Hideki Tojo",
+    "distractors": [
+      "Fumimaro Konoe",
+      "Tomoyuki Yamashita",
+      "Isoroku Yamamoto"
+    ],
+    "explanation": "He took office in October 1941, shortly before the attack on Pearl Harbor, and resigned in 1944 after the loss of Saipan. A Tokyo tribunal sentenced him as a Class A war criminal.",
+    "hook": "Pearl Harbor-era general who met the Tokyo tribunal."
+  },
+  {
+    "id": "wl_387",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which South Korean president was shot by his own intelligence chief in October 1979 after 18 years in power?",
+    "answer": "Park Chung-hee",
+    "distractors": [
+      "Chun Doo-hwan",
+      "Roh Tae-woo",
+      "Kim Young-sam"
+    ],
+    "explanation": "He seized power in a 1961 coup and presided over rapid industrialisation while jailing opponents. After his death, Chun Doo-hwan took control in another coup, and Park's daughter was elected president in 2012.",
+    "hook": "Eighteen years of rule, ended by his own spy chief."
+  },
+  {
+    "id": "wl_388",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "To which Negev kibbutz did David Ben-Gurion retire in 1953, and where he is now buried?",
+    "answer": "Sde Boker",
+    "distractors": [
+      "Revivim",
+      "Nirim",
+      "Yotvata"
+    ],
+    "explanation": "He wanted Israelis to settle the desert, and he moved there himself. He returned as defence minister and prime minister in 1955 and stayed until he left office for good in 1963.",
+    "hook": "The founding PM swapped Tel Aviv for the Negev desert."
+  },
+  {
+    "id": "wl_389",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which woman became Africa's first elected female head of state when she won a presidential runoff in 2005?",
+    "answer": "Ellen Johnson Sirleaf",
+    "distractors": [
+      "Wangari Maathai",
+      "Graça Machel",
+      "Winnie Madikizela-Mandela"
+    ],
+    "explanation": "Sirleaf took office as Liberia's president in January 2006 and won the Nobel Peace Prize in 2011, jointly with Leymah Gbowee and Tawakkol Karman. She was nicknamed the 'Iron Lady' for her tough reputation.",
+    "hook": "Liberia's Iron Lady: first woman elected to lead an African country."
+  },
+  {
+    "id": "wl_390",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Eva Duarte, adored as 'Evita', was the wife of which Argentine president first elected in 1946?",
+    "answer": "Juan Perón",
+    "distractors": [
+      "Carlos Menem",
+      "Hipólito Yrigoyen",
+      "Raúl Alfonsín"
+    ],
+    "explanation": "Perón's movement, Peronism, still shapes Argentine politics. Evita died of cancer in 1952 aged 33, and Andrew Lloyd Webber's musical about her opened in London in 1978.",
+    "hook": "Don't cry for Argentina: Evita's husband was the general in the balcony."
+  },
+  {
+    "id": "wl_391",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Chilean general led the 1973 coup that overthrew President Salvador Allende?",
+    "answer": "Augusto Pinochet",
+    "distractors": [
+      "Jorge Videla",
+      "Alfredo Stroessner",
+      "Manuel Noriega"
+    ],
+    "explanation": "Allende died in the besieged presidential palace on 11 September 1973. Pinochet ruled until 1990, and a 1988 plebiscite that he lost forced the return to democracy.",
+    "hook": "A 'No' vote in 1988 began the end of Pinochet's seventeen years."
+  },
+  {
+    "id": "wl_392",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Colombian drug lord ran the Medellín Cartel and was shot dead by police in 1993?",
+    "answer": "Pablo Escobar",
+    "distractors": [
+      "Joaquín Guzmán",
+      "Manuel Noriega",
+      "Gilberto Rodríguez Orejuela"
+    ],
+    "explanation": "Escobar was once among the richest men in the world and briefly won a seat in Colombia's congress in 1982. He died on a Medellín rooftop the day after his 44th birthday.",
+    "hook": "Medellín's king of cocaine fell from a rooftop the day after his birthday."
+  },
+  {
+    "id": "wl_393",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Libyan ruler seized power in a 1969 coup and held it until he was killed in 2011?",
+    "answer": "Muammar Gaddafi",
+    "distractors": [
+      "Anwar Sadat",
+      "Hosni Mubarak",
+      "Zine El Abidine Ben Ali"
+    ],
+    "explanation": "Gaddafi overthrew King Idris as a young army officer and ruled for 42 years. He was captured and killed near Sirte during the uprising that followed the Arab Spring.",
+    "hook": "A captain's coup in 1969 grew into 42 years in power."
+  },
+  {
+    "id": "wl_394",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which anti-apartheid Nobel Peace Prize winner is credited with popularising the phrase 'Rainbow Nation'?",
+    "answer": "Desmond Tutu",
+    "distractors": [
+      "Steve Biko",
+      "Walter Sisulu",
+      "Oliver Tambo"
+    ],
+    "explanation": "Tutu won the prize in 1984 and later chaired South Africa's Truth and Reconciliation Commission. The phrase came to describe the post-1994 hope of a country uniting all its races.",
+    "hook": "Tutu painted the rainbow, Mandela hung it on the nation."
+  },
+  {
+    "id": "wl_395",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "In which year did Claudia Sheinbaum take office as Mexico's first woman president?",
+    "answer": "2024",
+    "distractors": [
+      "2018",
+      "2020",
+      "2022"
+    ],
+    "explanation": "Sheinbaum won the June 2024 election in a landslide and was inaugurated on 1 October 2024. She trained as a physicist and worked on energy and climate research before entering politics, and she was previously mayor of Mexico City.",
+    "hook": "A scientist who became president: Mexico's first woman leader took office in 2024."
+  },
+  {
+    "id": "wl_396",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Argentine general ordered the 1982 invasion of the Falkland Islands?",
+    "answer": "Leopoldo Galtieri",
+    "distractors": [
+      "Jorge Videla",
+      "Roberto Viola",
+      "Reynaldo Bignone"
+    ],
+    "explanation": "Galtieri hoped a quick victory would rally support for the unpopular military junta. Britain's task force retook the islands in 74 days, and he resigned three days after the surrender in June 1982.",
+    "hook": "A gamble to save a junta: Galtieri's invasion lasted 74 days."
+  },
+  {
+    "id": "wl_397",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which leader governed Zimbabwe from independence in 1980 until a military takeover in 2017?",
+    "answer": "Robert Mugabe",
+    "distractors": [
+      "Joshua Nkomo",
+      "Morgan Tsvangirai",
+      "Emmerson Mnangagwa"
+    ],
+    "explanation": "Mugabe was prime minister first, then executive president from 1987. His land seizures and runaway inflation wrecked the economy, and his former deputy Mnangagwa replaced him.",
+    "hook": "Thirty-seven years from hero of independence to ousted by his own army."
+  },
+  {
+    "id": "wl_398",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Ethiopian emperor founded the capital city Addis Ababa in the 1880s?",
+    "answer": "Menelik II",
+    "distractors": [
+      "Haile Selassie",
+      "Tewodros II",
+      "Yohannes IV"
+    ],
+    "explanation": "Menelik's wife Empress Taytu is credited with choosing the site in 1886, and the name means 'new flower'. He also led Ethiopia's army to its 1896 victory over Italy at Adwa.",
+    "hook": "Addis Ababa means 'new flower', planted by Menelik and Taytu."
+  },
+  {
+    "id": "wl_399",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Egyptian president was assassinated by soldiers while watching a military parade in 1981?",
+    "answer": "Anwar Sadat",
+    "distractors": [
+      "Gamal Abdel Nasser",
+      "Hosni Mubarak",
+      "Mohamed Naguib"
+    ],
+    "explanation": "Sadat was killed by Islamist extremists in the army, angered by his 1979 peace treaty with Israel. His vice-president Hosni Mubarak survived the attack, took over and ruled for 30 years.",
+    "hook": "Peace with Israel cost Sadat his life at a parade."
+  },
+  {
+    "id": "wl_400",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which South African prime minister, a chief architect of apartheid, was stabbed to death in parliament in 1966?",
+    "answer": "Hendrik Verwoerd",
+    "distractors": [
+      "B.J. Vorster",
+      "P.W. Botha",
+      "D.F. Malan"
+    ],
+    "explanation": "Verwoerd was killed by Dimitri Tsafendas, a parliamentary messenger. Vorster, who had been his justice minister, succeeded him and kept apartheid firmly in place.",
+    "hook": "Killed in the chamber by a messenger, while his policy outlived him."
+  },
+  {
+    "id": "wl_401",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which poet became the first president of independent Senegal in 1960?",
+    "answer": "Léopold Senghor",
+    "distractors": [
+      "Félix Houphouët-Boigny",
+      "Ahmed Sékou Touré",
+      "Modibo Keïta"
+    ],
+    "explanation": "Senghor was a leading voice of the négritude movement and in 1983 became the first African elected to the Académie française. He stepped down voluntarily in 1980 after 20 years in office.",
+    "hook": "The poet president who retired on his own terms."
+  },
+  {
+    "id": "wl_402",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which coca growers' union leader took office in 2006 as the first Indigenous president of Bolivia?",
+    "answer": "Evo Morales",
+    "distractors": [
+      "Hugo Chávez",
+      "Rafael Correa",
+      "Alberto Fujimori"
+    ],
+    "explanation": "Morales is of Aymara descent and led his Movement for Socialism to power. He resigned in 2019 after disputed elections and weeks of protests, then fled to Mexico.",
+    "hook": "From coca farmer to the palace: Bolivia's first Indigenous president."
+  },
+  {
+    "id": "wl_403",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which physician-turned-dictator ruled Haiti from 1957 until 1971 with the help of his Tonton Macoute militia?",
+    "answer": "François Duvalier",
+    "distractors": [
+      "Jean-Jacques Dessalines",
+      "Jean-Bertrand Aristide",
+      "Paul Magloire"
+    ],
+    "explanation": "Known as 'Papa Doc', he declared himself president for life in 1964. His son Jean-Claude, 'Baby Doc', inherited the role at 19 and was ousted in 1986.",
+    "hook": "Papa Doc was a real doctor who treated a country as his patient."
+  },
+  {
+    "id": "wl_404",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which former metalworker and trade union leader was first elected Brazil's president in 2002?",
+    "answer": "Luiz Inácio Lula da Silva",
+    "distractors": [
+      "Fernando Henrique Cardoso",
+      "Jair Bolsonaro",
+      "Getúlio Vargas"
+    ],
+    "explanation": "Lula founded the Workers' Party and ran three times before winning. He served two terms to 2010, and returned to the presidency after winning the 2022 election.",
+    "hook": "Lost three times, won on the fourth: Brazil's union man who reached the palace."
+  },
+  {
+    "id": "wl_405",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Brazilian president, the nation's first woman in the role, was impeached and removed from office in 2016?",
+    "answer": "Dilma Rousseff",
+    "distractors": [
+      "Michel Temer",
+      "Fernando Collor",
+      "Marina Silva"
+    ],
+    "explanation": "Rousseff was a former guerrilla who was tortured under the military dictatorship. The Senate found she had broken budget rules, and her vice-president Michel Temer took over.",
+    "hook": "Brazil's first woman president was also its second elected one impeached."
+  },
+  {
+    "id": "wl_406",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which dictator renamed the Congo as Zaire in 1971 and made a leopard-skin cap his trademark?",
+    "answer": "Mobutu Sese Seko",
+    "distractors": [
+      "Laurent Kabila",
+      "Moïse Tshombe",
+      "Joseph Kasa-Vubu"
+    ],
+    "explanation": "Mobutu seized power in a 1965 coup and ruled for 32 years, amassing a vast fortune while the country's infrastructure decayed. Rebels led by Laurent Kabila drove him out in 1997.",
+    "hook": "Zaire's leopard-cap strongman ruled for 32 years."
+  },
+  {
+    "id": "wl_407",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Barbadian prime minister was in office when Barbados removed the Queen as head of state in November 2021?",
+    "answer": "Mia Mottley",
+    "distractors": [
+      "Freundel Stuart",
+      "Owen Arthur",
+      "David Thompson"
+    ],
+    "explanation": "Barbados became a republic on the 55th anniversary of its independence from Britain, with Sandra Mason sworn in as its first president. Mottley was also the country's first woman prime minister.",
+    "hook": "Mia Mottley saw out the Queen after 55 years of independence."
+  },
+  {
+    "id": "wl_408",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Zulu king led the army that destroyed a British column at Isandlwana in January 1879?",
+    "answer": "Cetshwayo",
+    "distractors": [
+      "Shaka",
+      "Dingane",
+      "Mpande"
+    ],
+    "explanation": "The Anglo-Zulu War opened with one of the worst defeats the British army has suffered at the hands of an African force, but British troops won at Ulundi that July. Cetshwayo was captured and later briefly restored to a reduced Zulu kingdom.",
+    "hook": "Isandlwana: the day spears beat a British column."
+  },
+  {
+    "id": "wl_409",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Cape Colony prime minister founded De Beers in 1888 and endowed a scholarship at Oxford?",
+    "answer": "Cecil Rhodes",
+    "distractors": [
+      "Paul Kruger",
+      "Alfred Milner",
+      "Jan Smuts"
+    ],
+    "explanation": "Rhodes made his fortune in diamond mining and dreamed of a British Africa from the Cape to Cairo. The Rhodes Scholarships, funded by his will after his death in 1902, still send students to Oxford.",
+    "hook": "Diamonds paid for the scholarships; the Cape to Cairo dream was his."
+  },
+  {
+    "id": "wl_410",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Black Consciousness leader died in police custody in September 1977?",
+    "answer": "Steve Biko",
+    "distractors": [
+      "Chris Hani",
+      "Robert Sobukwe",
+      "Walter Sisulu"
+    ],
+    "explanation": "Biko's death after being beaten in a Port Elizabeth cell shocked the world. The 1987 film Cry Freedom, with Denzel Washington as Biko, told the story.",
+    "hook": "Cry Freedom: the film that told Biko's story."
+  },
+  {
+    "id": "wl_411",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Burkinabé revolutionary, often called 'Africa's Che Guevara', was killed in a 1987 coup?",
+    "answer": "Thomas Sankara",
+    "distractors": [
+      "Blaise Compaoré",
+      "Jerry Rawlings",
+      "Sylvanus Olympio"
+    ],
+    "explanation": "Sankara renamed Upper Volta as Burkina Faso, 'land of upright people', in 1984. His former friend and deputy Blaise Compaoré took power and ruled for 27 years.",
+    "hook": "Upper Volta became 'land of upright people' under Sankara."
+  },
+  {
+    "id": "wl_412",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became independent Algeria's first president in 1963 after the war against France?",
+    "answer": "Ahmed Ben Bella",
+    "distractors": [
+      "Houari Boumédiène",
+      "Abdelaziz Bouteflika",
+      "Mohamed Boudiaf"
+    ],
+    "explanation": "Ben Bella was a leader of the National Liberation Front and had been jailed by France. His close ally Boumédiène deposed him in a bloodless coup in 1965.",
+    "hook": "First president, ousted by his own army chief within two years."
+  },
+  {
+    "id": "wl_413",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which People's National Party leader was Jamaica's prime minister when Bob Marley was shot in 1976?",
+    "answer": "Michael Manley",
+    "distractors": [
+      "Edward Seaga",
+      "Hugh Shearer",
+      "Alexander Bustamante"
+    ],
+    "explanation": "The gunmen struck two days before the Smile Jamaica concert Manley's government backed, and Marley performed anyway. Manley won that election, while his rival Seaga took power in 1980.",
+    "hook": "Shot on a Friday, on stage by Sunday: Marley and Manley's election."
+  },
+  {
+    "id": "wl_414",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which historian-turned-politician wrote 'Capitalism and Slavery' and led Trinidad and Tobago to independence in 1962?",
+    "answer": "Eric Williams",
+    "distractors": [
+      "Grantley Adams",
+      "Norman Manley",
+      "Forbes Burnham"
+    ],
+    "explanation": "Williams argued that profits from slavery helped finance Britain's Industrial Revolution. He founded the People's National Movement and remained prime minister until he died in 1981.",
+    "hook": "Historian first, premier second: Williams wrote the book on slavery's profits."
+  },
+  {
+    "id": "wl_415",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "At what age did Jean-Claude 'Baby Doc' Duvalier become Haiti's president for life in 1971?",
+    "answer": "19",
+    "distractors": [
+      "16",
+      "21",
+      "25"
+    ],
+    "explanation": "He inherited the title from his father, 'Papa Doc', who died in April 1971. Popular unrest and US pressure forced him into exile in France in 1986.",
+    "hook": "Nineteen and handed a nation: Baby Doc inherited the presidency."
+  },
+  {
+    "id": "wl_416",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Martin Luther King delivered his 'I Have a Dream' speech in 1963 from the steps of which Washington landmark?",
+    "answer": "Lincoln Memorial",
+    "distractors": [
+      "US Capitol",
+      "Washington Monument",
+      "Jefferson Memorial"
+    ],
+    "explanation": "About 250,000 people joined the March on Washington for Jobs and Freedom. The setting was chosen because Abraham Lincoln signed the Emancipation Proclamation a century earlier.",
+    "hook": "A dream spoken in the shadow of the Great Emancipator."
+  },
+  {
+    "id": "wl_417",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Franklin Roosevelt's 'date which will live in infamy' speech was a response to an attack on which naval base?",
+    "answer": "Pearl Harbor",
+    "distractors": [
+      "San Diego",
+      "Norfolk",
+      "Bremerton"
+    ],
+    "explanation": "Japan struck on 7 December 1941, and Roosevelt addressed Congress the next day. The Senate voted unanimously for war, and the House had just one dissenting vote, from Jeannette Rankin.",
+    "hook": "Seven December, a short speech, and war declared the same afternoon."
+  },
+  {
+    "id": "wl_418",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which schoolgirl, shot by the Taliban in 2012 for campaigning for girls' education, won the Nobel Peace Prize two years later?",
+    "answer": "Malala Yousafzai",
+    "distractors": [
+      "Greta Thunberg",
+      "Benazir Bhutto",
+      "Aung San Suu Kyi"
+    ],
+    "explanation": "Malala was 17 when she shared the 2014 prize with India's Kailash Satyarthi, making her the youngest Nobel laureate in any category. She was treated in Birmingham after the attack and now lives in Britain.",
+    "hook": "Youngest ever Nobel winner, still in school uniform age."
+  },
+  {
+    "id": "wl_419",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Albanian-born nun, who worked among the poor of Calcutta, won the Nobel Peace Prize in 1979?",
+    "answer": "Mother Teresa",
+    "distractors": [
+      "Dorothy Day",
+      "Sister Helen Prejean",
+      "Corrie ten Boom"
+    ],
+    "explanation": "She founded the Missionaries of Charity in 1950 and was canonised by Pope Francis in 2016. She was born Anjezë Gonxha Bojaxhiu in Skopje, in what is now North Macedonia.",
+    "hook": "Born in Skopje, famous in Calcutta, sainted in 2016."
+  },
+  {
+    "id": "wl_420",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Winston Churchill's 'We shall fight on the beaches' speech followed the evacuation of British troops from which French port?",
+    "answer": "Dunkirk",
+    "distractors": [
+      "Toulon",
+      "Le Havre",
+      "Cherbourg"
+    ],
+    "explanation": "Churchill spoke in the House of Commons on 4 June 1940, as some 338,000 Allied soldiers were brought home by warships and small civilian boats. He warned that wars are not won by evacuations.",
+    "hook": "Little ships brought them home; big words kept the country going."
+  },
+  {
+    "id": "wl_421",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which West German chancellor presided over German reunification in October 1990?",
+    "answer": "Helmut Kohl",
+    "distractors": [
+      "Helmut Schmidt",
+      "Willy Brandt",
+      "Gerhard Schröder"
+    ],
+    "explanation": "Kohl governed from 1982 to 1998, a 16-year run later matched by Angela Merkel, who began her political career as his protégée. He pushed for a quick union, with East German wages and pensions converted one for one.",
+    "hook": "The chancellor who stood in Berlin when two Germanys became one."
+  },
+  {
+    "id": "wl_422",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Which Russian president served as a KGB officer in Dresden before entering politics in St Petersburg?",
+    "answer": "Vladimir Putin",
+    "distractors": [
+      "Dmitry Medvedev",
+      "Boris Yeltsin",
+      "Mikhail Gorbachev"
+    ],
+    "explanation": "He was posted to East Germany in 1985 and was working there when the Berlin Wall fell. Putin later led the FSB spy agency before Yeltsin made him prime minister in August 1999.",
+    "hook": "Spy in Dresden, president in Moscow."
+  },
+  {
+    "id": "wl_423",
+    "category": "world_leaders",
+    "difficulty": "easy",
+    "question": "Who became Italy's first female prime minister in October 2022?",
+    "answer": "Giorgia Meloni",
+    "distractors": [
+      "Emma Bonino",
+      "Elly Schlein",
+      "Laura Boldrini"
+    ],
+    "explanation": "She led the Brothers of Italy party, which had won just 4 per cent of the vote in 2018 before topping the 2022 poll. Italy had previously had no woman as prime minister in its 160-year history.",
+    "hook": "From 4 per cent to Palazzo Chigi in four years."
+  },
+  {
+    "id": "wl_424",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Canadian prime minister's son later also became prime minister?",
+    "answer": "Pierre Trudeau",
+    "distractors": [
+      "Brian Mulroney",
+      "Jean Chrétien",
+      "Joe Clark"
+    ],
+    "explanation": "Pierre Trudeau governed from 1968 to 1979 and again from 1980 to 1984, bringing home the Canadian constitution in 1982. His son Justin became prime minister in 2015.",
+    "hook": "Trudeau senior, Trudeau junior, thirty-one years apart."
+  },
+  {
+    "id": "wl_425",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which West German chancellor fell to his knees at the Warsaw Ghetto memorial in December 1970?",
+    "answer": "Willy Brandt",
+    "distractors": [
+      "Helmut Schmidt",
+      "Ludwig Erhard",
+      "Kurt Georg Kiesinger"
+    ],
+    "explanation": "The unscripted gesture came during his Ostpolitik outreach to Eastern Europe, and he later won the 1971 Nobel Peace Prize. Many Germans disapproved at the time, yet it is now seen as a defining act of remorse.",
+    "hook": "He knelt in Warsaw, and the whole world noticed."
+  },
+  {
+    "id": "wl_426",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who became Canada's first female prime minister in 1993?",
+    "answer": "Kim Campbell",
+    "distractors": [
+      "Jeanne Sauvé",
+      "Belinda Stronach",
+      "Rona Ambrose"
+    ],
+    "explanation": "Campbell took over from Brian Mulroney in June 1993 and lost the general election that October, so she held office for only about four months. Her Progressive Conservatives fell from a majority to two seats.",
+    "hook": "First woman prime minister, shortest stay, biggest crash."
+  },
+  {
+    "id": "wl_427",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Swedish prime minister was shot dead in a Stockholm street in 1986 while walking home from the cinema without bodyguards?",
+    "answer": "Olof Palme",
+    "distractors": [
+      "Carl Bildt",
+      "Ingvar Carlsson",
+      "Tage Erlander"
+    ],
+    "explanation": "He was killed on the evening of 28 February 1986 on Sveavägen, and the murder was never formally solved to everyone's satisfaction. A prosecutor named a suspect in 2020 but the case was closed.",
+    "hook": "A prime minister out for a movie, and a murder that still puzzles Sweden."
+  },
+  {
+    "id": "wl_428",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which French president won the 1981 election and held office for 14 years?",
+    "answer": "François Mitterrand",
+    "distractors": [
+      "Valéry Giscard d'Estaing",
+      "Georges Pompidou",
+      "Jacques Chirac"
+    ],
+    "explanation": "Mitterrand was the first left-wing president of the Fifth Republic and abolished the death penalty in 1981. His 14 years remain the longest stretch of any French head of state in the modern republic.",
+    "hook": "Red rose in 1981, fourteen years in the Élysée."
+  },
+  {
+    "id": "wl_429",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Spanish king abdicated in June 2014 in favour of his son Felipe?",
+    "answer": "Juan Carlos I",
+    "distractors": [
+      "Alfonso XIII",
+      "Alfonso XII",
+      "Charles III"
+    ],
+    "explanation": "Juan Carlos was named successor by Franco but then steered Spain to democracy, facing down the 1981 coup attempt. Scandals over his private life and finances later drove him into exile in the United Arab Emirates.",
+    "hook": "Hero of 1981, exile in Abu Dhabi."
+  },
+  {
+    "id": "wl_430",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "The treaty signed in the Dutch city of Maastricht in 1992 created what?",
+    "answer": "The European Union",
+    "distractors": [
+      "The Schengen Area",
+      "The Council of Europe",
+      "The European Economic Community"
+    ],
+    "explanation": "It came into force in November 1993 and set the road to a single currency, which arrived as cash in 2002. It also introduced citizenship of the Union for nationals of every member state.",
+    "hook": "A Dutch city gave the EU its name and the euro its timetable."
+  },
+  {
+    "id": "wl_431",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In 2015 Angela Merkel said 'Wir schaffen das', meaning 'We can do this', about which situation facing Germany?",
+    "answer": "The refugee crisis",
+    "distractors": [
+      "The eurozone debt crisis",
+      "The Brexit negotiations",
+      "The energy crisis"
+    ],
+    "explanation": "Germany took in roughly a million asylum seekers that year, many fleeing the Syrian civil war. The decision to keep borders open was praised abroad and criticised sharply at home, boosting the AfD.",
+    "hook": "Three words that opened the door for a million people."
+  },
+  {
+    "id": "wl_432",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Italian media tycoon and owner of AC Milan served as prime minister three times between 1994 and 2011?",
+    "answer": "Silvio Berlusconi",
+    "distractors": [
+      "Romano Prodi",
+      "Matteo Renzi",
+      "Mario Monti"
+    ],
+    "explanation": "He founded the Forza Italia party in 1993 and dominated Italian politics for two decades, despite trials and the infamous 'bunga bunga' scandals. He died in 2023, aged 86.",
+    "hook": "TV owner, club owner, and three times the boss of Italy."
+  },
+  {
+    "id": "wl_433",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "In which year did John F. Kennedy urge Americans to 'ask not what your country can do for you'?",
+    "answer": "1961",
+    "distractors": [
+      "1960",
+      "1963",
+      "1965"
+    ],
+    "explanation": "The line came near the end of his inaugural address on 20 January 1961, on a freezing, snowy Washington day. At 43 he was the youngest man ever elected president.",
+    "hook": "Year one of the New Frontier, said in the snow."
+  },
+  {
+    "id": "wl_434",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which Canadian prime minister signed the 1988 free trade agreement with the United States?",
+    "answer": "Brian Mulroney",
+    "distractors": [
+      "Jean Chrétien",
+      "Joe Clark",
+      "Stephen Harper"
+    ],
+    "explanation": "The deal was the central issue of the 1988 election, which Mulroney won, and it later grew into NAFTA with Mexico. John Turner, the Liberal leader, had opposed it fiercely.",
+    "hook": "Signed in 1988, the deal that grew into NAFTA."
+  },
+  {
+    "id": "wl_435",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Which province joined New Brunswick, Nova Scotia and Quebec as the fourth founding member of Canada in 1867?",
+    "answer": "Ontario",
+    "distractors": [
+      "Manitoba",
+      "Prince Edward Island",
+      "Newfoundland"
+    ],
+    "explanation": "The old Province of Canada was split into Ontario and Quebec at Confederation, giving four provinces. Manitoba joined in 1870, PEI in 1873, and Newfoundland not until 1949.",
+    "hook": "Four to start, ten provinces now."
+  },
+  {
+    "id": "wl_436",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In which Pakistani city was former prime minister Benazir Bhutto assassinated in December 2007?",
+    "answer": "Rawalpindi",
+    "distractors": [
+      "Karachi",
+      "Lahore",
+      "Islamabad"
+    ],
+    "explanation": "She was killed after addressing an election rally at Liaquat Bagh, the park where Pakistan's first prime minister was also shot in 1951. She had returned from exile only two months earlier.",
+    "hook": "The same park claimed two Pakistani leaders, 56 years apart."
+  },
+  {
+    "id": "wl_437",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which king became the Netherlands' first male monarch in more than a century when he took the throne in 2013?",
+    "answer": "Willem-Alexander",
+    "distractors": [
+      "Philippe",
+      "Felipe VI",
+      "Carl XVI Gustaf"
+    ],
+    "explanation": "His mother Beatrix abdicated on 30 April 2013. The previous king, Willem III, had died in 1890, after which the throne passed through three queens: Wilhelmina, Juliana and Beatrix.",
+    "hook": "Three queens in a row, then a king again."
+  },
+  {
+    "id": "wl_438",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Prince of Monaco married the American film actress Grace Kelly in 1956?",
+    "answer": "Rainier III",
+    "distractors": [
+      "Albert I",
+      "Louis II",
+      "Albert II"
+    ],
+    "explanation": "Kelly gave up Hollywood to become Princess Grace and died in a car crash in 1982. Their son Albert II has ruled since 2005, when he succeeded his father.",
+    "hook": "A Hollywood star traded Oscars for a palace."
+  },
+  {
+    "id": "wl_439",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "The 1985 agreement that began abolishing passport checks between European states was signed on a boat on the Moselle river in which country?",
+    "answer": "Luxembourg",
+    "distractors": [
+      "Belgium",
+      "The Netherlands",
+      "Austria"
+    ],
+    "explanation": "The boat was moored at the village of Schengen, where Luxembourg meets France and Germany. Five states signed first, and the open-border zone that grew from it now covers most of the EU.",
+    "hook": "Borders were wiped away on a boat at a three-country corner."
+  },
+  {
+    "id": "wl_440",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Frenchman was president of the European Commission for ten years from 1985, the longest of any holder?",
+    "answer": "Jacques Delors",
+    "distractors": [
+      "Jacques Santer",
+      "Romano Prodi",
+      "José Manuel Barroso"
+    ],
+    "explanation": "A former French finance minister, Delors drove the single market of 1992 and laid the groundwork for the euro. He also championed the Erasmus student exchange scheme.",
+    "hook": "Delors built the single market, then handed over the blueprints for the euro."
+  },
+  {
+    "id": "wl_441",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "The International Monetary Fund and the World Bank were conceived at a 1944 conference in which New Hampshire resort town?",
+    "answer": "Bretton Woods",
+    "distractors": [
+      "Camp David",
+      "Williamsburg",
+      "Newport"
+    ],
+    "explanation": "Delegates from 44 Allied nations met at the Mount Washington Hotel for three weeks. John Maynard Keynes and Harry Dexter White led the debates over the postwar monetary order.",
+    "hook": "Keynes and White carved up the postwar money system in the mountains."
+  },
+  {
+    "id": "wl_442",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Norwegian, her country's first female prime minister, chaired the 1987 UN commission whose report was titled 'Our Common Future'?",
+    "answer": "Gro Harlem Brundtland",
+    "distractors": [
+      "Erna Solberg",
+      "Mette Frederiksen",
+      "Helle Thorning-Schmidt"
+    ],
+    "explanation": "The report popularised the idea of sustainable development, defined as meeting present needs without compromising future generations. She first became prime minister in 1981, at 41, and later headed the World Health Organization.",
+    "hook": "The woman who put 'sustainable development' on every agenda."
+  },
+  {
+    "id": "wl_443",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "In July 2012 which Italian head of the European Central Bank promised to do 'whatever it takes' to preserve the euro?",
+    "answer": "Mario Draghi",
+    "distractors": [
+      "Jean-Claude Trichet",
+      "Christine Lagarde",
+      "Jacques Delors"
+    ],
+    "explanation": "The three-word promise, made in London, calmed bond markets that were pricing in the euro's collapse, without a single euro being spent at the time. Draghi later served as Italian prime minister from 2021 to 2022.",
+    "hook": "Three words that ended a currency panic."
   }
 ]
