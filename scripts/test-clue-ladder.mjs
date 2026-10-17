@@ -91,6 +91,14 @@ test('no distractor anywhere in the bank is accepted as the answer', () => {
   assert.deepEqual(wrong, []);
 });
 
+test('generic words can be left off', () => {
+  assert.ok(guessIsRight('gum', 'The gum tree'));
+  assert.ok(guessIsRight('Everest', 'Mount Everest'));
+  assert.ok(guessIsRight('pacific', 'Pacific Ocean'));
+  assert.ok(!guessIsRight('tree', 'The gum tree'));
+  assert.ok(!guessIsRight('wattle', 'The gum tree', ['The wattle', 'The boab', 'The banksia']));
+});
+
 test('one-character-apart answers need exact typing', () => {
   assert.equal(guessIsRight('Henry VII', 'Henry VIII'), false);
   assert.equal(guessIsRight('Vitamin D', 'Vitamin C'), false);

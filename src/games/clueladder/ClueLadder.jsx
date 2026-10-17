@@ -5,8 +5,19 @@ import { usePersistentState } from '../../lib/persist';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
 import RouteFallback from '../../components/RouteFallback';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
-import { ROUNDS, RUNGS, buildRung, guessIsRight, knownAnswers, ladderPoints, pickRounds } from './ladderLogic';
+import { MASK, ROUNDS, RUNGS, buildRung, guessIsRight, knownAnswers, ladderPoints, pickRounds } from './ladderLogic';
 import './clueladder.css';
+
+/** Clue text with each hidden word drawn as a blank line rather than ▢▢▢. */
+function Masked({ text }) {
+  const parts = text.split(MASK);
+  return parts.map((part, i) => (
+    <React.Fragment key={i}>
+      {part}
+      {i < parts.length - 1 && <span className="cl-blank" role="img" aria-label="hidden word" />}
+    </React.Fragment>
+  ));
+}
 
 const RUNG_LABEL = ['', 'The explanation', 'The hook', 'The question', 'Choose one'];
 const MAX = ROUNDS * RUNGS;
@@ -168,7 +179,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
         {texts.slice(0, Math.min(shown, 3)).map((t, i) => (
           <li key={i} className={i === shown - 1 && !done ? 'cl-rung cl-new' : 'cl-rung'}>
             <span className="cl-rung-label">{i + 1}. {RUNG_LABEL[i + 1]}</span>
-            <span className="cl-rung-text">{t}</span>
+            <span className="cl-rung-text"><Masked text={t} /></span>
           </li>
         ))}
       </ol>

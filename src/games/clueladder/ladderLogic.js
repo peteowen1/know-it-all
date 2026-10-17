@@ -110,6 +110,21 @@ function acceptedForms(answer) {
 
 const dropThe = (s) => normalise(s).replace(/^the /, '');
 
+// Words a person naturally leaves off: "gum" for "The gum tree", "Everest" for
+// "Mount Everest", "Pacific" for "Pacific Ocean".
+const GENERIC = new Set(['tree', 'trees', 'river', 'mount', 'mountain', 'mountains', 'lake', 'ocean', 'sea', 'island', 'islands', 'desert', 'city']);
+
+/** The answer's forms with generic words removed, when something distinctive is left. */
+function shortForms(answer) {
+  const out = new Set();
+  for (const f of acceptedForms(answer)) {
+    const words = dropThe(f).split(' ');
+    const kept = words.filter((w) => !GENERIC.has(w));
+    if (kept.length && kept.length < words.length) out.add(kept.join(' '));
+  }
+  return [...out];
+}
+
 /** Every answer and distractor in the bank, normalised: the wrong answers a typo allowance must not land on. */
 export function knownAnswers(questions) {
   const known = new Set();
@@ -135,5 +150,5 @@ export function guessIsRight(guess, answer, distractors = [], known = new Set())
   if (accept.includes(g)) return true;
   if (needsExact(answer) || known.has(g)) return false;
   if (rowMatches(g, { accept: distractors.flatMap(acceptedForms).map(dropThe) })) return false;
-  return rowMatches(g, { accept });
+  return rowMatches(g, { accept: [...accept, ...shortForms(answer)] });
 }
