@@ -115,7 +115,7 @@
 .play-option-label { flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .play-option-mark { display: inline-flex; flex-shrink: 0; margin-left: auto; }
 .play-option[data-state='selected'] {
-  border-color: var(--accent-text);
+  border-color: var(--accent);
   box-shadow: inset 0 0 0 1px var(--accent);
   background: color-mix(in srgb, var(--accent) 12%, transparent);
 }
@@ -326,7 +326,7 @@
 }
 .ml-clues li.on {
   border-style: solid;
-  border-color: var(--accent-text);
+  border-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 10%, transparent);
   color: var(--ink);
 }

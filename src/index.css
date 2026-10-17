@@ -816,8 +816,12 @@ button { cursor: pointer; }
 .filter-chip.active,
 .filter-chip[aria-pressed='true'] {
   background: color-mix(in srgb, var(--accent) 14%, transparent);
-  border-color: var(--accent-text);
+  border-color: var(--accent);
   color: var(--ink);
+  /* A cue beyond colour: Risograph light draws every border in ink, so the
+     chosen chip also gets the look's control shadow (none in flat looks). */
+  box-shadow: var(--ctl-x) var(--ctl-y) var(--ctl-blur) var(--shadow-color);
+  font-weight: 700;
 }
 
 /* ---- Hub (home screen) ---- */
@@ -887,7 +891,7 @@ button { cursor: pointer; }
   box-shadow: var(--card-hover-x) var(--card-hover-y) var(--card-hover-blur) var(--shadow-color);
   transform: var(--hover-lift) rotate(var(--turn));
 }
-.hub-card:active { transform: scale(0.98); }
+.hub-card:active { transform: rotate(var(--turn)) scale(0.98); }
 
 .hub-icon {
   display: flex;

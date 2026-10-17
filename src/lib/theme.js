@@ -66,9 +66,17 @@ export function setLook(id) {
   apply();
 }
 
+/** 'light', 'dark', or null to follow the system setting again. */
 export function setMode(mode) {
   state = { ...state, savedMode: mode };
-  write(MODE_KEY, mode);
+  if (mode) write(MODE_KEY, mode);
+  else {
+    try {
+      localStorage.removeItem(MODE_KEY);
+    } catch {
+      // nothing saved to clear
+    }
+  }
   apply();
 }
 
