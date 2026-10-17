@@ -20,6 +20,10 @@ export function yearPoints(guess, year) {
  */
 export function buildYearRounds(events, { seed = Date.now(), count = ROUNDS } = {}) {
   const rand = makeRng(hashString(`nameyear:${seed}`));
+  // The last year with any event, so answer options never run past the data
+  // (a literal 2026 here would let 2027 appear in the options as soon as the
+  // timeline gains a 2027 event, and cap the options a year too early).
+  const lastYear = Math.max(...events.map((e) => e.year));
   const byYear = {};
   for (const e of events) (byYear[e.year] ||= []).push(e);
   const usable = Object.keys(byYear)
@@ -40,20 +44,21 @@ export function buildYearRounds(events, { seed = Date.now(), count = ROUNDS } = 
       clues.push(e);
       if (clues.length === 3) break;
     }
-    return { year, clues, options: yearOptions(year, rand) };
+    return { year, clues, options: yearOptions(year, rand, lastYear) };
   });
 }
 
 /**
  * Four choices for easy mode: the year and three others within six years,
  * at least two apart from each other so the options are distinguishable.
+ * None is later than `lastYear`, the newest year the timeline has.
  */
-export function yearOptions(year, rand) {
+function yearOptions(year, rand, lastYear) {
   const offsets = shuffle([-6, -4, -2, 2, 4, 6, -5, -3, 3, 5], rand);
   const picked = [year];
   for (const o of offsets) {
     const y = year + o;
-    if (y > 2026 || picked.some((p) => Math.abs(p - y) < 2)) continue;
+    if (y > lastYear || picked.some((p) => Math.abs(p - y) < 2)) continue;
     picked.push(y);
     if (picked.length === 4) break;
   }
@@ -62,7 +67,7 @@ export function yearOptions(year, rand) {
   // unused years, one apart if need be.
   for (let d = 1; picked.length < 4 && d <= 12; d++) {
     for (const y of [year - d, year + d]) {
-      if (picked.length < 4 && y <= 2026 && !picked.includes(y)) picked.push(y);
+      if (picked.length < 4 && y <= lastYear && !picked.includes(y)) picked.push(y);
     }
   }
   return picked.sort((a, b) => a - b);

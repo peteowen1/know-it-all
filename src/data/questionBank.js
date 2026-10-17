@@ -1,4 +1,4 @@
-import { CATEGORIES, CATEGORY_LIST } from './categories';
+import { CATEGORY_LIST } from './categories';
 import ausHistory from './questions/ausHistory.json';
 import geography from './questions/geography.json';
 import science from './questions/science.json';
@@ -29,39 +29,16 @@ const FILES = [
   worldLeaders
 ];
 
+// The counts shown on the first screen live in bankStats.json (built by
+// scripts/build-bank-stats.mjs) so nothing there has to load this file.
 export const ALL_QUESTIONS = FILES.flat();
 
-export const QUESTIONS_BY_ID = new Map(ALL_QUESTIONS.map((q) => [q.id, q]));
+const QUESTIONS_BY_ID = new Map(ALL_QUESTIONS.map((q) => [q.id, q]));
 
 export const QUESTIONS_BY_CATEGORY = Object.fromEntries(
   CATEGORY_LIST.map((c) => [c.id, ALL_QUESTIONS.filter((q) => q.category === c.id)])
 );
 
-export const BANK_STATS = {
-  total: ALL_QUESTIONS.length,
-  byCategory: Object.fromEntries(
-    CATEGORY_LIST.map((c) => [c.id, QUESTIONS_BY_CATEGORY[c.id].length])
-  ),
-  byDifficulty: ALL_QUESTIONS.reduce((acc, q) => {
-    acc[q.difficulty] = (acc[q.difficulty] || 0) + 1;
-    return acc;
-  }, {})
-};
-
 export function getQuestion(id) {
   return QUESTIONS_BY_ID.get(id);
 }
-
-export function categoryOf(question) {
-  return (
-    CATEGORIES[question?.category] || {
-      id: 'unknown',
-      name: 'General Knowledge',
-      short: 'General',
-      icon: '❓',
-      color: '#6b7280'
-    }
-  );
-}
-
-export { CATEGORIES, CATEGORY_LIST };

@@ -11,11 +11,12 @@
 // The World Bank country list is NOT used for names or capitals: it has
 // "Egypt, Arab Rep.", "Naoero" and "Kiev", which are wrong answers in a quiz.
 //
-// Every field mledoze returns is kept except `translations` (the name in 25
-// languages, ~40% of the file). Raw responses go to data-raw/ so a field that
-// was dropped can be recovered without re-fetching.
+// Raw responses go to data-raw/ in full, so a field can be recovered without
+// re-fetching. What ships is slimmer: lib/output.mjs lists the fields something
+// reads (the name in 25 languages, ~40% of the raw file, never ships).
 
 import { writeFileSync, mkdirSync } from 'node:fs';
+import { fromRoot, writeData } from './lib/output.mjs';
 
 const COUNTRIES_URL = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
 const POP_URL =
@@ -47,9 +48,9 @@ const getJson = async (url) => {
 const raw = await getJson(COUNTRIES_URL);
 const [, popRows] = await getJson(POP_URL);
 
-mkdirSync('data-raw', { recursive: true });
-writeFileSync('data-raw/mledoze-countries.json', JSON.stringify(raw));
-writeFileSync('data-raw/worldbank-population.json', JSON.stringify(popRows));
+mkdirSync(fromRoot('data-raw'), { recursive: true });
+writeFileSync(fromRoot('data-raw/mledoze-countries.json'), JSON.stringify(raw));
+writeFileSync(fromRoot('data-raw/worldbank-population.json'), JSON.stringify(popRows));
 
 // Kosovo is UNK in mledoze and XKX at the World Bank; no other code differs.
 const WB_ISO3 = { UNK: 'XKX' };
@@ -108,8 +109,4 @@ console.log(`sovereign without population (${noPop.length}): ${noPop.join('; ') 
 if (sovereign.length < 195) throw new Error(`only ${sovereign.length} sovereign states — join or filter broken`);
 if (noPop.length > 5) throw new Error(`${noPop.length} sovereign states lack population — World Bank join broken`);
 
-writeFileSync(
-  'src/data/countries.json',
-  JSON.stringify({ builtAt: new Date().toISOString().slice(0, 10), countries }, null, 0)
-);
-console.log('wrote src/data/countries.json');
+writeData('countries.json', { countries });

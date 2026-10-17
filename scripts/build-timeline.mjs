@@ -8,14 +8,15 @@
 // winners, leaders taking office, and births of the best-known people.
 // Built offline so the game does not ship the full chart files (~1.4 MB).
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
+import { dataFile, writeData } from './lib/output.mjs';
 
-const load = (p) => JSON.parse(readFileSync(p, 'utf8'));
-const music = load('src/data/charts/music.json').years;
-const films = load('src/data/charts/films.json');
-const tv = load('src/data/charts/tv.json');
-const lists = load('src/data/lists.json').lists;
-const famous = load('src/data/famous.json').names;
+const load = (p) => JSON.parse(readFileSync(dataFile(p), 'utf8'));
+const music = load('charts/music.json').years;
+const films = load('charts/films.json');
+const tv = load('charts/tv.json');
+const lists = load('lists.json').lists;
+const famous = load('famous.json').names;
 
 const events = [];
 const add = (kind, year, text) => {
@@ -79,5 +80,4 @@ for (const e of out) byKind[e.kind] = (byKind[e.kind] || 0) + 1;
 console.log(`${out.length} events, ${out[0].year}-${out.at(-1).year}: ${Object.entries(byKind).map(([k, n]) => `${k} ${n}`).join(', ')}`);
 if (out.length < 500) throw new Error('too few events; a source is missing');
 
-writeFileSync('src/data/timeline.json', JSON.stringify({ builtAt: new Date().toISOString().slice(0, 10), events: out }));
-console.log('wrote src/data/timeline.json');
+writeData('timeline.json', { events: out });

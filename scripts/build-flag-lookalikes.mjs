@@ -14,8 +14,9 @@
 // and the score is the mean of the two. Hand-listing would miss pairs nobody
 // thought of and never covers new flags.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { Resvg } from '@resvg/resvg-js';
+import { dataFile, fromRoot, writeData } from './lib/output.mjs';
 
 const W = 48, GW = 12, GH = 9, KEEP = 20; // 20: territories that reuse a flag (France has five) crowd the top
 
@@ -41,14 +42,14 @@ const nearest = (r, g, b) => {
   return best;
 };
 
-const { countries } = JSON.parse(readFileSync('src/data/countries.json', 'utf8'));
+const { countries } = JSON.parse(readFileSync(dataFile('countries.json'), 'utf8'));
 
 const features = {};
 for (const c of countries) {
   const code = c.code.toLowerCase();
   let svg;
   try {
-    svg = readFileSync(`node_modules/flag-icons/flags/4x3/${code}.svg`);
+    svg = readFileSync(fromRoot(`node_modules/flag-icons/flags/4x3/${code}.svg`));
   } catch {
     console.warn(`no flag SVG for ${c.name} (${code})`);
     continue;
@@ -106,5 +107,6 @@ for (const probe of ['MC', 'TD', 'NL', 'IE', 'AU', 'SN', 'SI', 'QA', 'AR', 'FR']
   console.log(`${name[probe]}: ${out[probe].slice(0, 5).map(([b, s]) => `${name[b]} ${s}`).join(', ')}`);
 }
 if (codes.length < 240) throw new Error(`only ${codes.length} flags rendered`);
-writeFileSync('src/data/flagLookalikes.json', JSON.stringify(out));
-console.log(`wrote src/data/flagLookalikes.json (${codes.length} flags)`);
+// A bare lookup table keyed by flag code: no builtAt key among the codes.
+writeData('flagLookalikes.json', out, { stamp: false });
+console.log(`${codes.length} flags`);

@@ -20,9 +20,10 @@
 // re-run with a different grouping rule costs no network at all.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { fromRoot, writeData } from './lib/output.mjs';
 
 const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
-const RAW = 'data-raw/famous';
+const RAW = fromRoot('data-raw/famous');
 const START_YEAR = 2016;
 const MIN_PEOPLE_PER_NAME = 12; // a prompt needs enough answers to be a game
 const KEEP_PER_NAME = 40;
@@ -247,7 +248,7 @@ const NOT_NOTORIOUS = /defen[cs]e (attorney|lawyer)|helped (stop|catch)/i;
 // drop, "out" drops someone it would keep). The file is rewritten each build
 // with everyone the rule catches plus everyone with a decision, keeping the
 // decisions, so it is always the current list to comb through.
-const REVIEW_CSV = 'scripts/famous-left-out.csv';
+const REVIEW_CSV = fromRoot('scripts/famous-left-out.csv');
 const parseCsvLine = (line) => {
   const out = [];
   let cur = '';
@@ -302,12 +303,7 @@ console.log(`people kept: ${names.reduce((n, x) => n + x.people.length, 0)}, wit
 
 if (names.length < 20) throw new Error(`only ${names.length} usable names — a source or the join is broken`);
 
-writeFileSync(
-  'src/data/famous.json',
-  JSON.stringify({
-    builtAt: new Date().toISOString().slice(0, 10),
-    source: `English Wikipedia monthly top-1000 pageviews ${START_YEAR}-${months.at(-1).join('-')}`,
-    names
-  })
-);
-console.log('wrote src/data/famous.json');
+writeData('famous.json', {
+  source: `English Wikipedia monthly top-1000 pageviews ${START_YEAR}-${months.at(-1).join('-')}`,
+  names
+});

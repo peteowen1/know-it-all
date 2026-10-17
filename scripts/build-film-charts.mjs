@@ -14,14 +14,12 @@
 // should find his films. Raw wikitext and Wikidata responses are cached under
 // data-raw/charts/, so a re-run costs no network.
 
-import { mkdirSync, writeFileSync } from 'node:fs';
 import { wikitext, tableRows, tableStarts, plain, links, isBold, wikidataByTitle, wikidataLabels } from './lib/wikitable.mjs';
+import { fromRoot, writeData } from './lib/output.mjs';
 
-const RAW = 'data-raw/charts/films';
+const RAW = fromRoot('data-raw/charts/films');
 const FIRST_BOX = 1970;
 const LAST = new Date().getFullYear() - 1;
-
-mkdirSync('src/data/charts', { recursive: true });
 
 const filmLink = (cell) => links(cell).find((l) => !/^(File|Image):/i.test(l.target));
 
@@ -112,8 +110,4 @@ console.log(`films without a director: ${noDirector} of ${allFilms.length}`);
 console.log(problems.length ? `problems:\n  ${problems.join('\n  ')}` : 'no parsing problems');
 if (problems.length > 5 || noDirector > allFilms.length * 0.05) throw new Error('too many gaps; check the parser');
 
-writeFileSync(
-  'src/data/charts/films.json',
-  JSON.stringify({ builtAt: new Date().toISOString().slice(0, 10), ...out })
-);
-console.log('wrote src/data/charts/films.json');
+writeData('charts/films.json', out);

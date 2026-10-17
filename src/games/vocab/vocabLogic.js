@@ -6,7 +6,7 @@ import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 
 export const ROUNDS = 10;
 export const TYPES = ['syn', 'ant', 'meaning'];
-export const LEVELS = { easy: [1, 2], hard: [2, 3], all: [1, 2, 3] };
+const LEVELS = { easy: [1, 2], hard: [2, 3], all: [1, 2, 3] };
 export const REVIEW_SHARE = 0.3;
 
 /**

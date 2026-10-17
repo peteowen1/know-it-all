@@ -15,14 +15,12 @@
 // Raw wikitext is cached per year in data-raw/charts/, so a parser change
 // re-runs in a second without touching the network.
 
-import { mkdirSync, writeFileSync } from 'node:fs';
 import { wikitext, tableRows, plain, links } from './lib/wikitable.mjs';
+import { fromRoot, writeData } from './lib/output.mjs';
 
-const RAW = 'data-raw/charts/billboard';
+const RAW = fromRoot('data-raw/charts/billboard');
 const FIRST = 1959;
 const LAST = new Date().getFullYear() - (new Date().getMonth() < 11 ? 1 : 0); // year-end lands in December
-
-mkdirSync('src/data/charts', { recursive: true });
 
 function parseYear(text, year) {
   if (text.indexOf('{|') < 0) throw new Error(`${year}: no table`);
@@ -73,12 +71,5 @@ for (const y of [1965, 1985, 1997, 2012, LAST]) {
 console.log(problems.length ? `problems:\n  ${problems.join('\n  ')}` : 'no parsing problems');
 if (problems.length > 3) throw new Error(`${problems.length} years look mis-parsed`);
 
-writeFileSync(
-  'src/data/charts/music.json',
-  JSON.stringify({
-    builtAt: new Date().toISOString().slice(0, 10),
-    source: 'Billboard Year-End Hot 100, via English Wikipedia',
-    years
-  })
-);
-console.log('wrote src/data/charts/music.json');
+// The source line is dropped on the way out (MusicCharts words its own credit).
+writeData('charts/music.json', { source: 'Billboard Year-End Hot 100, via English Wikipedia', years });

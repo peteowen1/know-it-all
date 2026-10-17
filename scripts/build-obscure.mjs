@@ -15,12 +15,13 @@
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { UA } from './lib/wikitable.mjs';
+import { dataFile, fromRoot, writeData } from './lib/output.mjs';
 
-const load = (p) => JSON.parse(readFileSync(p, 'utf8'));
-const countries = load('src/data/countries.json').countries.filter((c) => c.sovereign);
-const famous = load('src/data/famous.json').names;
-const music = load('src/data/charts/music.json').years;
-const films = load('src/data/charts/films.json');
+const load = (p) => JSON.parse(readFileSync(dataFile(p), 'utf8'));
+const countries = load('countries.json').countries.filter((c) => c.sovereign);
+const famous = load('famous.json').names;
+const music = load('charts/music.json').years;
+const films = load('charts/films.json');
 
 const categories = [];
 
@@ -140,7 +141,7 @@ for (const chart of [films.boxOffice, films.bestPicture]) {
 }
 const directors = Object.keys(chartFilms).filter((d) => chartFilms[d] >= 5);
 
-const FILM_CACHE = 'data-raw/obscure/filmographies-v2'; // v2: with aliases
+const FILM_CACHE = fromRoot('data-raw/obscure/filmographies-v2'); // v2: with aliases
 mkdirSync(FILM_CACHE, { recursive: true });
 const wd = async (params) => {
   const url = `https://www.wikidata.org/w/api.php?format=json&${new URLSearchParams(params)}`;
@@ -216,5 +217,4 @@ for (const id of ['borders-CN', 'name-Tom', 'songs-Madonna', 'films-Steven Spiel
   if (c) console.log(`${c.prompt}: obvious ${c.answers.slice(0, 2).map((a) => `${a.text}=${a.score}`).join(', ')} … rare ${c.answers.slice(-2).map((a) => `${a.text}=${a.score}`).join(', ')}`);
 }
 if (categories.length < 100) throw new Error('too few categories');
-writeFileSync('src/data/obscure.json', JSON.stringify({ builtAt: new Date().toISOString().slice(0, 10), categories }));
-console.log('wrote src/data/obscure.json');
+writeData('obscure.json', { categories });
