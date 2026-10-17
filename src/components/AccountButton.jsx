@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, useSyncExternalStore } from 'react';
-import { Cloud, CloudOff, RefreshCw, LogOut } from 'lucide-react';
+import { Cloud, CloudOff, RefreshCw, LogOut, UserRound } from 'lucide-react';
 import { GOOGLE_CLIENT_ID } from '../lib/syncConfig';
 import { subscribe, getStatus, getEmail, signInWithGoogle, signOut } from '../lib/sync';
 
@@ -29,13 +29,24 @@ const LABELS = {
   offline: { icon: CloudOff, text: 'Offline' }
 };
 
-export default function AccountButton() {
+/**
+ * The account area: one button that opens a small menu with sync status,
+ * sign in / sign out, and the Reset action (a danger text button behind a
+ * two-step confirm, in the menu rather than a dialog).
+ */
+export default function AccountButton({ onReset }) {
   const status = useSyncExternalStore(subscribe, getStatus);
   const buttonRef = useRef(null);
+  const rootRef = useRef(null);
+  const triggerRef = useRef(null);
   const [error, setError] = useState(null);
+  const [open, setOpen] = useState(false);
+  const [confirming, setConfirming] = useState(false);
+
+  const signedOut = status === 'signed-out';
 
   useEffect(() => {
-    if (status !== 'signed-out' || !GOOGLE_CLIENT_ID) return;
+    if (!signedOut || !GOOGLE_CLIENT_ID) return;
     let cancelled = false;
     loadGis()
       .then((google) => {
@@ -47,39 +58,119 @@ export default function AccountButton() {
             signInWithGoogle(credential).catch((err) => setError(err.message));
           }
         });
+        // Google's button cannot be restyled, only clipped to our corner radius.
         google.accounts.id.renderButton(buttonRef.current, {
-          theme: 'filled_black', size: 'medium', shape: 'pill', text: 'signin'
+          theme: 'filled_black', size: 'large', shape: 'rectangular', text: 'signin'
         });
       })
       .catch((err) => !cancelled && setError(err.message));
     return () => {
       cancelled = true;
     };
-  }, [status]);
+  }, [signedOut]);
 
-  if (status === 'signed-out') {
-    // No client ID yet (before Google setup): show nothing rather than a dead button.
-    if (!GOOGLE_CLIENT_ID) return null;
-    return (
-      <div className="account-signin" title={error || 'Sign in to sync progress across your devices'}>
-        <div ref={buttonRef} />
-        {error && <span className="account-error">{error}</span>}
-      </div>
-    );
-  }
+  // Close on Escape (focus returns to the button) or a click outside the menu.
+  useEffect(() => {
+    if (!open) return undefined;
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        setOpen(false);
+        setConfirming(false);
+        triggerRef.current?.focus();
+      }
+    };
+    const onDown = (e) => {
+      if (rootRef.current && !rootRef.current.contains(e.target)) {
+        setOpen(false);
+        setConfirming(false);
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('pointerdown', onDown);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('pointerdown', onDown);
+    };
+  }, [open]);
 
-  const { icon: Icon, text } = LABELS[status] || LABELS.idle;
+  const { icon: StatusIcon, text: statusText } = signedOut ? { icon: UserRound, text: 'Sign in' } : LABELS[status] || LABELS.idle;
+  // Signed in, a reset syncs like any other change, so say so.
+  const where = getEmail() ? 'on every device signed in to this account' : 'on this device';
+
   return (
-    <div className="stat-badge account-badge" title={`Signed in as ${getEmail()}`}>
-      <Icon size={16} className={status === 'syncing' ? 'spin' : undefined} />
-      <span>{text}</span>
+    <div className="account" ref={rootRef}>
       <button
-        className="account-signout"
-        title="Sign out (progress stays on this device)"
-        onClick={() => signOut()}
+        ref={triggerRef}
+        className="account-trigger"
+        aria-expanded={open}
+        aria-controls="account-panel"
+        aria-label={signedOut ? 'Account' : `Account, ${statusText.toLowerCase()}`}
+        onClick={() => {
+          setOpen((o) => !o);
+          setConfirming(false);
+        }}
       >
-        <LogOut size={14} />
+        <StatusIcon size={18} strokeWidth={1.75} className={status === 'syncing' ? 'spin' : undefined} aria-hidden="true" />
+        <span className="account-trigger-text">{statusText}</span>
       </button>
+
+      <div className="account-panel" id="account-panel" hidden={!open}>
+        {signedOut ? (
+          <p className="account-who">
+            {GOOGLE_CLIENT_ID
+              ? 'Sign in to sync your progress across devices.'
+              : 'Your progress is saved on this device.'}
+          </p>
+        ) : (
+          <p className="account-who">
+            Signed in as <strong>{getEmail()}</strong>. {statusText}.
+          </p>
+        )}
+
+        {signedOut && GOOGLE_CLIENT_ID && (
+          <div className="account-signin">
+            <div className="account-signin-btn" ref={buttonRef} />
+            {error && <span className="account-error">{error}</span>}
+          </div>
+        )}
+
+        {!signedOut && (
+          <button
+            className="btn btn-secondary"
+            aria-label="Sign out"
+            title="Sign out (progress stays on this device)"
+            onClick={() => {
+              signOut();
+              setOpen(false);
+            }}
+          >
+            <LogOut size={16} strokeWidth={1.75} aria-hidden="true" /> Sign out
+          </button>
+        )}
+
+        <div className="account-danger">
+          {confirming ? (
+            <>
+              <p>Clear all saved progress {where}? This cannot be undone.</p>
+              <div className="account-danger-row">
+                <button
+                  className="btn btn-danger-text"
+                  onClick={() => {
+                    setConfirming(false);
+                    setOpen(false);
+                    onReset();
+                  }}
+                >
+                  Clear progress
+                </button>
+                <button className="btn btn-tertiary" onClick={() => setConfirming(false)}>Cancel</button>
+              </div>
+            </>
+          ) : (
+            <button className="btn btn-danger-text" onClick={() => setConfirming(true)}>Reset progress</button>
+          )}
+        </div>
+      </div>
     </div>
   );
 }

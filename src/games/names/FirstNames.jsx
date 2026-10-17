@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { Clock, Flag as GiveUp, RotateCcw, Shuffle } from 'lucide-react';
+import { Clock, Shuffle } from 'lucide-react';
 import data from '../../data/famous.json';
 import { matchGuess, pluralName } from './nameMatch';
-import { gameEntry } from '../../lib/gameStats';
-import { Chip, SetupRow } from '../geo/CountryQuiz';
+import { gameEntry, weakestItems } from '../../lib/gameStats';
+import { AnswerRow, Button, Chip, GameBoard, GameResults, MostMissed, SetupRow, TextInput } from '../../components/ui';
+import { GameSetup } from '../shared/Play';
+import { verdictFor } from '../shared/verdict';
 import { usePersistentState } from '../../lib/persist';
 
 const BOARD_SIZE = 15;
@@ -67,18 +69,19 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
 
   if (!game) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Famous first names</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
-        </div>
-        <p className="game-record">
-          {entry.plays
+      <GameSetup
+        title="Famous first names"
+        section="pop"
+        onExit={onExit}
+        record={
+          entry.plays
             ? `${entry.plays} played · best ${entry.bestPct}% of a board`
-            : `Name the fifteen most famous people with a given first name. Type surnames.`}
-        </p>
+            : 'Name the fifteen most famous people with a given first name. Type surnames.'
+        }
+        note={`Fame = English Wikipedia readership, ${data.source.replace(/^.*pageviews /, '')}.`}
+      >
         <SetupRow label="Name">
-          <Chip active={pickedName === null} onClick={() => setPicked(null)}><Shuffle size={14} /> Random</Chip>
+          <Chip active={pickedName === null} onClick={() => setPicked(null)}><Shuffle size={14} aria-hidden="true" /> Random</Chip>
           {names.slice(0, 24).map((n) => (
             <Chip key={n.first} active={pickedName === n.first} onClick={() => setPicked(n.first)}>{n.first}</Chip>
           ))}
@@ -93,15 +96,17 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
             <Chip key={t} active={timer === t} onClick={() => setTimer(t)}>{t ? `${t / 60} min` : 'No clock'}</Chip>
           ))}
         </SetupRow>
-        <SetupRow label="Hints">
+        <SetupRow
+          label="Hints"
+          caption={answerMode === 'choice' ? 'Each hidden person shows what they are known for and the first letter of their surname.' : 'Blank slots only.'}
+        >
           <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>Easy: show what they do + initial</Chip>
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: blank board</Chip>
         </SetupRow>
-        <button className="btn btn-primary game-start" onClick={start} disabled={!names.length}>
+        <Button variant="primary" className="game-start" onClick={start} disabled={!names.length}>
           {names.length ? 'Start' : `No names have ${MIN_BOARD} people in this era`}
-        </button>
-        <p className="game-record small">Fame = English Wikipedia readership, {data.source.replace(/^.*pageviews /, '')}.</p>
-      </div>
+        </Button>
+      </GameSetup>
     );
   }
 
@@ -112,6 +117,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
       key={game.id}
       game={game}
       setGame={setGame}
+      stats={stats}
       easy={answerMode === 'choice'}
       onFinish={(g) => {
         const boardIds = new Set(g.board.map((p) => p.id));
@@ -129,7 +135,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
   );
 }
 
-function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
+function Board({ game, setGame, stats, easy, onFinish, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
   const finished = useRef(Boolean(game.over));
@@ -182,7 +188,7 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
     else if (m.alreadyFound) msg = { tone: 'meh', text: `Already got ${m.person.name}` };
     else {
       const onBoard = board.some((p) => p.id === m.person.id);
-      msg = { tone: 'good', text: onBoard ? `${m.person.name} ✓` : `${m.person.name} — bonus!` };
+      msg = { tone: 'good', text: onBoard ? `${m.person.name} is on the board` : `${m.person.name}: a bonus find` };
       setGame((g) => ({ ...g, found: [...g.found, m.person.id] }));
     }
     setGame((g) => ({ ...g, message: msg }));
@@ -191,76 +197,91 @@ function Board({ game, setGame, easy, onFinish, onAgain, onSettings }) {
   };
 
   const onBoardCount = board.filter((p) => foundSet.has(p.id)).length;
+  const score = `${onBoardCount}/${board.length}${bonus.length ? ` +${bonus.length}` : ''}`;
+
+  if (over) {
+    const labels = new Map(everyone.map((p) => [p.id, p.name]));
+    const mostMissed = weakestItems(stats, 'first-names', 200)
+      .filter((w) => labels.has(w.key))
+      .slice(0, 6)
+      .map((w) => ({ ...w, label: labels.get(w.key) }));
+    return (
+      <GameResults
+        data-section="pop"
+        eyebrow={`Famous ${listJoin(spellings.map(pluralName))}`}
+        score={onBoardCount}
+        total={board.length}
+        verdict={bonus.length ? `${verdictFor(onBoardCount, board.length)} Plus ${bonus.length} bonus ${bonus.length === 1 ? 'find' : 'finds'}.` : verdictFor(onBoardCount, board.length)}
+        squares={board.map((p) => foundSet.has(p.id))}
+        onPlayAgain={onAgain}
+        playAgainLabel="Another name"
+        onChangeSettings={onSettings}
+        mostMissed={<MostMissed items={mostMissed} />}
+      >
+        <ol className="board-grid">
+          {board.map((p, i) => (
+            <AnswerRow key={p.id} as="li" state={foundSet.has(p.id) ? 'got' : 'missed'} lead={i + 1}>
+              <span className="board-person">
+                <strong>{p.name}</strong>
+                <span>{p.description}</span>
+              </span>
+            </AnswerRow>
+          ))}
+        </ol>
+        {bonus.length > 0 && <p className="setup-record">Bonus: {bonus.map((p) => p.name).join(', ')}</p>}
+      </GameResults>
+    );
+  }
 
   return (
-    <div className="card names-game">
-      <div className="progress-text">
-        <span className="names-title">Famous <strong>{listJoin(spellings.map(pluralName))}</strong></span>
-        <span className="score-pill">
-          {onBoardCount}/{board.length}{bonus.length ? ` +${bonus.length}` : ''}
-          {secondsLeft !== null && !over && <> · <Clock size={14} /> {secondsLeft}s</>}
-        </span>
-      </div>
-
-      {!over && (
-        <form className="names-input-row" onSubmit={submit}>
-          <span className="names-prefix">{spellings.join('/')}</span>
-          <input
+    <GameBoard
+      data-section="pop"
+      title={<>Famous <strong>{listJoin(spellings.map(pluralName))}</strong></>}
+      score={score}
+      timer={secondsLeft !== null ? <><Clock size={14} aria-hidden="true" /> {secondsLeft}s</> : undefined}
+      message={message?.text ?? ''}
+      tone={message?.tone === 'good' ? 'good' : message?.tone === 'bad' ? 'bad' : undefined}
+      input={
+        <form className="board-form" onSubmit={submit}>
+          <span className="board-prefix">{spellings.join('/')}</span>
+          <TextInput
             ref={inputRef}
             autoFocus
             value={guess}
             onChange={(e) => setGuess(e.target.value)}
             placeholder="surname…"
-            aria-label={`Surname of a famous ${spellings.join(' or ')}`}
-            autoComplete="off"
-            spellCheck="false"
+            label={`Surname of a famous ${spellings.join(' or ')}`}
           />
-          <button className="btn btn-primary" type="submit">Enter</button>
-          <button className="btn btn-ghost" type="button" onClick={finish} title="End and show the answers">
-            <GiveUp size={16} /> Give up
-          </button>
+          <Button variant="primary" type="submit">Enter</Button>
+          <Button variant="tertiary" icon="Flag" onClick={finish} title="End and show the answers">Give up</Button>
         </form>
-      )}
-      {message && !over && <p className={`names-msg ${message.tone}`}>{message.text}</p>}
-
-      <ol className="names-board">
+      }
+    >
+      <ol className="board-grid">
         {board.map((p, i) => {
           const got = foundSet.has(p.id);
-          const show = got || over;
           return (
-            <li key={p.id} className={`names-slot ${got ? 'got' : over ? 'missed' : ''}`}>
-              <span className="names-rank">{i + 1}</span>
-              {show ? (
-                <span className="names-person">
+            <AnswerRow key={p.id} as="li" state={got ? 'got' : 'pending'} lead={i + 1}>
+              {got ? (
+                <span className="board-person">
                   <strong>{p.name}</strong>
                   <span>{p.description}</span>
                 </span>
               ) : (
-                <span className="names-hidden">
+                <span className="board-hidden">
                   {easy ? (
                     <>
                       {p.description || 'famous person'}
-                      {/* Was "· G…", which read as a clue cut off mid-word. */}
-                      <span className="names-initial"> · surname starts with {p.rest[0]}</span>
+                      <span className="board-initial"> · surname starts with {p.rest[0]}</span>
                     </>
-                  ) : ' '}
+                  ) : ' '}
                 </span>
               )}
-            </li>
+            </AnswerRow>
           );
         })}
       </ol>
-
-      {bonus.length > 0 && (
-        <p className="game-record">Bonus: {bonus.map((p) => p.name).join(', ')}</p>
-      )}
-
-      {over && (
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={onAgain} autoFocus><RotateCcw size={18} /> Another name</button>
-          <button className="btn btn-ghost" onClick={onSettings}>Settings</button>
-        </div>
-      )}
-    </div>
+      {bonus.length > 0 && <p className="setup-record">Bonus: {bonus.map((p) => p.name).join(', ')}</p>}
+    </GameBoard>
   );
 }

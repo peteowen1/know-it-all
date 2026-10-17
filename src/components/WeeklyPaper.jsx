@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
-import { Newspaper, Play, RotateCcw } from 'lucide-react';
+import { Play, RotateCcw } from 'lucide-react';
 import QuizSimulator from './QuizSimulator';
+import { Button, Card, Pill } from './ui';
 import { buildWeeklyPaper, WEEKLY_SHAPE } from '../lib/quizBuilder';
 import { saturdayKey, addDaysToKey } from '../lib/dates';
 import { usePersistentState } from '../lib/persist';
@@ -9,6 +10,9 @@ const PAST_WEEKS = 4;
 
 const pretty = (key) =>
   new Date(`${key}T12:00:00`).toLocaleDateString('en-AU', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+
+const prettyShort = (key) =>
+  new Date(`${key}T12:00:00`).toLocaleDateString('en-AU', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' });
 
 /**
  * The Saturday paper: one 25-question quiz a week, the same for everyone,
@@ -58,37 +62,40 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
   }
 
   return (
-    <div className="card game-setup">
-      <div className="game-setup-head">
-        <h2><Newspaper size={22} /> The Saturday paper</h2>
+    <Card className="weekly quiz-screen" data-section="weekend">
+      <div className="screen-head">
+        <h2>The Saturday paper</h2>
+        <p>
+          Twenty-five questions, easy to hard, the same for everyone. A new paper every Saturday.
+          Switch between multiple choice and Recall during the quiz.
+        </p>
       </div>
-      <p className="game-record">
-        Twenty-five questions, easy to hard, the same for everyone. A new paper every Saturday. Switch between
-        multiple choice and reveal-and-mark during the quiz.
-      </p>
-      <div className="paper-list">
+      <ul className="weekly-list">
         {weeks.map((w) => {
           const s = scores[w];
+          const isCurrent = w === thisWeek;
+          // The current week gets the label plus the date; older weeks are just the date.
           return (
-            <div key={w} className={`paper-row ${w === thisWeek ? 'current' : ''}`}>
-              <div>
-                <strong>{w === thisWeek ? 'This week' : pretty(w)}</strong>
-                <span>{w === thisWeek ? pretty(w) : ''}</span>
+            <li key={w} className="weekly-row" data-current={isCurrent}>
+              <div className="weekly-when">
+                <strong>{isCurrent ? 'This week' : prettyShort(w)}</strong>
+                {isCurrent && <span className="weekly-date">{prettyShort(w)}</span>}
+                <Pill variant={s ? 'accent' : 'neutral'}>{s ? `${s.score}/${s.total}` : 'not yet'}</Pill>
               </div>
-              <span className="paper-score">{s ? `${s.score}/${s.total}` : '—'}</span>
-              <button
-                className={`btn ${s ? 'btn-ghost' : 'btn-primary'}`}
+              <Button
+                variant={!s && isCurrent ? 'primary' : 'secondary'}
+                aria-label={`${s ? 'Replay' : 'Start'} the paper for ${pretty(w)}`}
                 onClick={() => {
                   setRunId((r) => r + 1);
                   setOpen(w);
                 }}
               >
-                {s ? <><RotateCcw size={16} /> Replay</> : <><Play size={16} /> Start</>}
-              </button>
-            </div>
+                {s ? <><RotateCcw size={16} aria-hidden="true" /> Replay</> : <><Play size={16} aria-hidden="true" /> Start</>}
+              </Button>
+            </li>
           );
         })}
-      </div>
-    </div>
+      </ul>
+    </Card>
   );
 }

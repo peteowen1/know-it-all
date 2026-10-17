@@ -1,18 +1,24 @@
-import React, { useMemo, useState } from 'react';
-import { Trash2, BookOpen, Play, Clock, AlertTriangle } from 'lucide-react';
-import { CATEGORIES } from '../data/categories';
+import React, { useMemo, useRef, useState } from 'react';
+import { BookOpen, Play, AlertTriangle, X, ShieldCheck, Trash2 } from 'lucide-react';
 import { getQuestion } from '../data/questionBank';
 import { materialise } from '../lib/quizBuilder';
-import { isDue, describeDue, INTERVALS, GRADUATED_BOX } from '../lib/scheduler';
+import { isDue, describeDue, formatIntervals, INTERVALS, GRADUATED_BOX } from '../lib/scheduler';
+import { Button, Card, CategoryIcon, Pill } from './ui';
+import { CATEGORIES } from '../data/categories';
+import QuizOptions from './QuizOptions';
+
+const capitalise = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
 export default function WeaknessVault({ vault, summary, onRemove, onClearAll, onStartRevision }) {
   const [activeId, setActiveId] = useState(null);
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
-  // Seeding the shuffle off anything derived from the question itself — its id,
-  // or that id's length — is constant, so it would reshuffle to the same order
+  const [confirmClear, setConfirmClear] = useState(false);
+  // Seeding the shuffle off anything derived from the question itself (its id,
+  // or that id's length) is constant, so it would reshuffle to the same order
   // every visit and the vault could be beaten by remembering a position.
   const [visit, setVisit] = useState(0);
+  const paneRef = useRef(null);
 
   // Due first, then by how far along the schedule they are: the questions you
   // know least well should be the ones at the top of the list.
@@ -36,15 +42,15 @@ export default function WeaknessVault({ vault, summary, onRemove, onClearAll, on
 
   if (!rows.length) {
     return (
-      <div className="empty-vault-card">
-        <span className="empty-icon">🎉</span>
+      <Card className="vault-empty quiz-screen" data-section="weekend">
+        <ShieldCheck size={40} strokeWidth={1.75} className="vault-empty-icon" aria-hidden="true" />
         <h2>Nothing in the vault</h2>
         <p>Questions you get wrong land here automatically, with their explanations.</p>
-        <p className="empty-sub">
-          They then come back on a schedule — one day later, then three, then a week, then three
-          weeks, then two months. Clear all five and the question leaves for good.
+        <p className="vault-empty-sub">
+          They then come back after {formatIntervals(INTERVALS)}. Clear all {GRADUATED_BOX} stages and the
+          question leaves for good.
         </p>
-      </div>
+      </Card>
     );
   }
 
@@ -53,12 +59,17 @@ export default function WeaknessVault({ vault, summary, onRemove, onClearAll, on
     setVisit((v) => v + 1);
     setSelected(null);
     setAnswered(false);
+    // On a phone the practice pane sits below the list; bring it into view.
+    if (window.matchMedia('(max-width: 719px)').matches) {
+      const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      requestAnimationFrame(() => paneRef.current?.scrollIntoView({ block: 'start', behavior: calm ? 'auto' : 'smooth' }));
+    }
   };
 
   return (
-    <div className="weakness-vault-container">
+    <div className="vault quiz-screen quiz-screen--wide" data-section="weekend">
       <div className="vault-header">
-        <div>
+        <div className="screen-head">
           <h2>Weakness vault</h2>
           <p>
             {summary.due > 0 ? (
@@ -67,117 +78,129 @@ export default function WeaknessVault({ vault, summary, onRemove, onClearAll, on
               </>
             ) : (
               <>
-                Nothing due today — {summary.total} tracked, next one {describeDue({ due: summary.nextDue })}.
+                Nothing due today. {summary.total} tracked, next one {describeDue({ due: summary.nextDue })}.
               </>
             )}
             {summary.struggling > 0 && ` ${summary.struggling} you have now missed more than once.`}
           </p>
         </div>
         <div className="vault-header-actions">
-          <button className="btn btn-primary" onClick={() => onStartRevision()} disabled={!summary.due}>
-            <Play size={16} /> Drill {summary.due} due
-          </button>
-          <button className="btn btn-ghost" onClick={() => onStartRevision({ all: true })}>
+          <Button variant="primary" onClick={() => onStartRevision()} disabled={!summary.due}>
+            <Play size={16} aria-hidden="true" /> Drill {summary.due} due
+          </Button>
+          <Button variant="secondary" onClick={() => onStartRevision({ all: true })}>
             Drill all {summary.total}
-          </button>
-          <button className="btn btn-outline-danger" onClick={onClearAll}>
-            <Trash2 size={16} /> Clear
-          </button>
+          </Button>
+          {!confirmClear && (
+            <Button variant="tertiary" onClick={() => setConfirmClear(true)}>
+              <Trash2 size={16} aria-hidden="true" /> Clear vault
+            </Button>
+          )}
         </div>
       </div>
 
+      {confirmClear && (
+        <div className="vault-confirm" role="alertdialog" aria-label="Clear the vault">
+          <p>Clear all {summary.total} tracked questions? This cannot be undone.</p>
+          <div className="vault-confirm-btns">
+            <Button variant="danger" onClick={() => { onClearAll(); setConfirmClear(false); setActiveId(null); }}>
+              Yes, clear the vault
+            </Button>
+            <Button variant="tertiary" onClick={() => setConfirmClear(false)}>Keep it</Button>
+          </div>
+        </div>
+      )}
+
       <div className="vault-split-layout">
-        <div className="missed-questions-list">
+        <ul className="vault-list" aria-label="Questions in the vault">
           {rows.map(({ entry, question }) => {
-            const cat = CATEGORIES[question.category] || { name: 'General', icon: '❓' };
             const due = isDue(entry);
+            const isActive = activeId === entry.id;
+            const cat = CATEGORIES[question.category];
             return (
-              <div
-                key={entry.id}
-                className={`missed-q-item ${activeId === entry.id ? 'active' : ''} ${due ? 'is-due' : ''}`}
-                onClick={() => pick({ entry, question })}
-              >
-                <div className="missed-q-top">
-                  <span className="cat-badge">{cat.icon} {cat.short || cat.name}</span>
-                  <button
-                    className="remove-q-btn"
-                    title="Remove from vault"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onRemove(entry.id);
-                      if (activeId === entry.id) setActiveId(null);
-                    }}
-                  >
-                    ×
-                  </button>
-                </div>
-                <p className="missed-q-title">{question.question}</p>
-                <div className="missed-q-meta">
-                  <span className={`due-pill ${due ? 'due-now' : ''}`}>
-                    <Clock size={12} /> {describeDue(entry)}
+              <li key={entry.id} className="vault-item" data-active={isActive} data-due={due}>
+                <button
+                  type="button"
+                  className="vault-item-main"
+                  aria-pressed={isActive}
+                  onClick={() => pick({ entry, question })}
+                >
+                  <span className="vault-item-cat eyebrow">
+                    <CategoryIcon id={question.category} size={14} aria-hidden="true" /> {cat?.short || cat?.name || 'General'}
                   </span>
-                  <span className="box-pill" title={`Stage ${entry.box + 1} of ${GRADUATED_BOX}`}>
-                    {'●'.repeat(entry.box)}{'○'.repeat(GRADUATED_BOX - entry.box)}
-                  </span>
-                  {entry.lapses >= 2 && (
-                    <span className="lapse-pill" title={`Missed ${entry.lapses} times`}>
-                      <AlertTriangle size={12} /> {entry.lapses}
+                  <span className="vault-item-title">{question.question}</span>
+                  <span className="vault-item-meta">
+                    <Pill variant={due ? 'accent' : 'neutral'} icon="Clock">{describeDue(entry)}</Pill>
+                    <span
+                      className="stage-dots"
+                      role="img"
+                      aria-label={`Stage ${entry.box + 1} of ${GRADUATED_BOX}`}
+                      title={`Stage ${entry.box + 1} of ${GRADUATED_BOX}`}
+                    >
+                      {Array.from({ length: GRADUATED_BOX }, (_, i) => (
+                        <span key={i} className="stage-dot" data-on={i < entry.box} />
+                      ))}
                     </span>
-                  )}
-                </div>
-              </div>
+                    {entry.lapses >= 2 && (
+                      <Pill variant="wrong" title={`Missed ${entry.lapses} times`}>
+                        <AlertTriangle size={12} aria-hidden="true" /> {entry.lapses}
+                        <span className="visually-hidden"> misses</span>
+                      </Pill>
+                    )}
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  className="vault-remove"
+                  aria-label="Remove from vault"
+                  title="Remove from vault"
+                  onClick={() => {
+                    onRemove(entry.id);
+                    if (activeId === entry.id) setActiveId(null);
+                  }}
+                >
+                  <X size={18} aria-hidden="true" />
+                </button>
+              </li>
             );
           })}
-        </div>
+        </ul>
 
-        <div className="vault-practice-pane">
+        <div className="vault-practice-pane" ref={paneRef}>
           {active ? (
-            <div className="vault-practice-card">
+            <Card className="vault-practice">
               <div className="vault-practice-meta">
-                <span className={`diff-pill ${active.difficulty}`}>{active.difficulty}</span>
-                <span className="setup-note">
-                  Stage {active.entry.box + 1} of {GRADUATED_BOX} · next interval{' '}
+                <Pill>{capitalise(active.difficulty)}</Pill>
+                <span className="vault-practice-stage">
+                  Stage {active.entry.box + 1} of {GRADUATED_BOX}, back after{' '}
                   {INTERVALS[Math.min(active.entry.box, INTERVALS.length - 1)]} days
                 </span>
               </div>
-              <h3>{active.question}</h3>
+              <h3 className="question-text">{active.question}</h3>
 
-              <div className="options-grid">
-                {active.options.map((opt, idx) => {
-                  let state = '';
-                  if (answered) {
-                    if (idx === active.correctIndex) state = 'correct';
-                    else if (idx === selected) state = 'incorrect';
-                    else state = 'disabled';
-                  }
-                  return (
-                    <button
-                      key={idx}
-                      className={`option-btn ${state}`}
-                      onClick={() => { setSelected(idx); setAnswered(true); }}
-                      disabled={answered}
-                    >
-                      <span className="option-prefix">{String.fromCharCode(65 + idx)}</span>
-                      <span>{opt}</span>
-                    </button>
-                  );
-                })}
-              </div>
+              <QuizOptions
+                options={active.options}
+                correctIndex={active.correctIndex}
+                selected={selected}
+                answered={answered}
+                onSelect={(idx) => { setSelected(idx); setAnswered(true); }}
+              />
 
               {answered && (
-                <div className="vault-explanation-box">
-                  <p>{active.explanation}</p>
-                  <p className="tip-text"><strong>Remember it:</strong> {active.hook}</p>
-                  <p className="empty-sub">
-                    Practising here does not advance the schedule — only the drill rounds do, so
+                <div className="explain">
+                  <span className="eyebrow">Why</span>
+                  <p className="explain-text">{active.explanation}</p>
+                  <p className="tip"><strong>Remember it:</strong> {active.hook}</p>
+                  <p className="vault-practice-note">
+                    Practising here does not advance the schedule. Only the drill rounds do, so
                     that the intervals keep meaning something.
                   </p>
                 </div>
               )}
-            </div>
+            </Card>
           ) : (
-            <div className="select-prompt-card">
-              <BookOpen size={40} className="icon-muted" />
+            <div className="vault-prompt">
+              <BookOpen size={40} strokeWidth={1.75} aria-hidden="true" />
               <h3>Pick a question to look at</h3>
               <p>Or run a drill round, which is what actually moves questions along the schedule.</p>
             </div>

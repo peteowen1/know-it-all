@@ -1,47 +1,134 @@
-// Every game in Know-It-All, played or planned. The home screen renders this
-// list; `status: 'ready'` makes a card playable, anything else shows it as
-// coming so the roadmap is visible in the app itself.
+// Every game in Know-It-All. The home screen renders this list, grouped by
+// SECTIONS, so a game appears on the hub the moment it has an entry here.
 //
-// `tab` is the App tab a ready game opens. Adding a game = one entry here plus
-// one branch in App.jsx.
+// Adding a game = one entry here plus one branch in App.jsx. Fields:
+//   tab           the App tab the card opens
+//   icon          a lucide icon NAME (resolved by components/ui/Icon.jsx)
+//   recordFormat  (entry, ctx) => string | null, the one-line record on the card.
+//                 `entry` is gameEntry(gameStats, id); `ctx` carries what the
+//                 non-game cards need: { quizStats, vaultDue, weeklyScore }.
+//
+// Record lines follow one pattern, "N played · best X", with the unit spelled out.
 
 export const SECTIONS = [
-  { id: 'weekend', title: 'The weekend paper', blurb: 'General knowledge, the way the Saturday quiz asks it.' },
-  { id: 'geo', title: 'Geography', blurb: 'Flags, capitals and how many people live where.' },
-  { id: 'pop', title: 'Pop culture', blurb: 'Charts, box office, awards and famous faces, by year or decade.' },
-  { id: 'words', title: 'Words', blurb: 'Build your vocabulary: synonyms, opposites and meanings.' },
-  { id: 'lab', title: 'The lab', blurb: 'New kinds of trivia game. Rough edges expected.' }
+  { id: 'weekend', accent: 'var(--accent-weekend)', title: 'The weekend paper', blurb: 'General knowledge, the way the Saturday quiz asks it.' },
+  { id: 'geo', accent: 'var(--accent-geo)', title: 'Geography', blurb: 'Flags, capitals and how many people live where.' },
+  { id: 'pop', accent: 'var(--accent-pop)', title: 'Pop culture', blurb: 'Charts, box office, awards and famous faces, by year or decade.' },
+  { id: 'words', accent: 'var(--accent-words)', title: 'Words', blurb: 'Build your vocabulary: synonyms, opposites and meanings.' },
+  { id: 'lab', accent: 'var(--accent-lab)', title: 'The lab', blurb: 'New kinds of trivia game. Rough edges expected.' }
 ];
+
+const played = (e) => `${e.plays} played`;
+// Percentage games: "12 played · best 80%".
+const byPct = (e) => (e.plays ? `${played(e)} · best ${e.bestPct}%` : null);
+// Points games: the maximum is rounds x points per round, stated per game.
+const byPoints = (max) => (e) => (e.plays ? `${played(e)} · best ${e.best} of ${max} points` : null);
 
 export const GAMES = [
   // ---------------------------------------------------------------- weekend
-  { id: 'weekly', section: 'weekend', tab: 'weekly', status: 'ready', icon: '🗞️', title: 'The Saturday paper', blurb: 'Twenty-five questions, easy to hard, the same for everyone. New every Saturday.' },
-  { id: 'quiz', section: 'weekend', tab: 'quiz', status: 'ready', icon: '📰', title: 'Weekend quiz', blurb: '1,500 questions in ten categories. Pick length, categories and difficulty.' },
-  { id: 'daily', section: 'weekend', tab: 'daily', status: 'ready', icon: '☀️', title: 'Daily five', blurb: 'Same five questions for everyone today.' },
-  { id: 'lists', section: 'weekend', tab: 'lists', status: 'ready', icon: '📜', title: 'Fill the list', blurb: 'Every Australian PM, US president or UK PM in order, with the years as clues.' },
-  { id: 'vault', section: 'weekend', tab: 'vault', status: 'ready', icon: '🎯', title: 'Revision vault', blurb: 'Everything you missed, back on a spaced schedule.' },
-  { id: 'decks', section: 'weekend', tab: 'flashcards', status: 'ready', icon: '🗂️', title: 'Flashcard decks', blurb: 'Quick-fire lists: elements, monarchs, wedding anniversaries.' },
+  {
+    id: 'weekly', section: 'weekend', tab: 'weekly', icon: 'Newspaper', title: 'The Saturday paper',
+    blurb: 'Twenty-five questions, easy to hard. New every Saturday.',
+    recordFormat: (_e, { weeklyScore }) => (weeklyScore ? `This week: ${weeklyScore.score}/${weeklyScore.total}` : 'This week\'s paper is out')
+  },
+  {
+    id: 'quiz', section: 'weekend', tab: 'quiz', icon: 'CircleHelp', title: 'Weekend quiz',
+    // The count is a literal until src/data/bankStats.json exists; then import it here.
+    blurb: '1,500+ questions. Choose length, categories and difficulty.',
+    recordFormat: (_e, { quizStats }) => (quizStats?.totalQuizzes ? `${quizStats.totalQuizzes} played · best ${quizStats.bestPercentage}%` : null)
+  },
+  {
+    id: 'daily', section: 'weekend', tab: 'daily', icon: 'Sun', title: 'Daily five',
+    blurb: 'The same five questions for everyone today.',
+    recordFormat: () => null
+  },
+  {
+    id: 'lists', section: 'weekend', tab: 'lists', icon: 'ScrollText', title: 'Fill the list',
+    blurb: 'Name every PM or president in order, with years as clues.',
+    recordFormat: byPct
+  },
+  {
+    id: 'vault', section: 'weekend', tab: 'vault', icon: 'Target', title: 'Revision vault',
+    blurb: 'Everything you missed, back on a spaced schedule.',
+    // Only a count is available here, so no overdue vs due-today split.
+    recordFormat: (_e, { vaultDue }) => (vaultDue ? `${vaultDue} due` : null)
+  },
+  {
+    id: 'decks', section: 'weekend', tab: 'flashcards', icon: 'Layers', title: 'Flashcard decks',
+    blurb: 'Quick-fire lists: elements, monarchs, anniversaries.',
+    recordFormat: () => null
+  },
 
   // -------------------------------------------------------------------- geo
-  { id: 'flags', section: 'geo', tab: 'flags', status: 'ready', icon: '🏳️', title: 'Flags', blurb: '197 flags. Wrong ones come back until they stick.' },
-  { id: 'capitals', section: 'geo', tab: 'capitals', status: 'ready', icon: '🏛️', title: 'Capitals', blurb: 'Both directions. Trap answers like Sydney and Abidjan are marked wrong.' },
-  { id: 'population', section: 'geo', tab: 'population', status: 'ready', icon: '👥', title: 'Population: higher or lower', blurb: 'Chain as many right calls as you can. One miss ends it.' },
+  {
+    id: 'flags', section: 'geo', tab: 'flags', icon: 'Flag', title: 'Flags',
+    blurb: 'Name the flag. Misses come back until they stick.',
+    recordFormat: byPct
+  },
+  {
+    id: 'capitals', section: 'geo', tab: 'capitals', icon: 'Landmark', title: 'Capitals',
+    blurb: 'Both directions. Trap answers like Sydney are marked wrong.',
+    recordFormat: byPct
+  },
+  {
+    id: 'population', section: 'geo', tab: 'population', icon: 'Users', title: 'Population: higher or lower',
+    blurb: 'Chain right calls. One miss ends the run.',
+    recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)
+  },
 
   // -------------------------------------------------------------------- pop
-  { id: 'first-names', section: 'pop', tab: 'first-names', status: 'ready', icon: '🌟', title: 'Famous first names', blurb: 'Given "Tom", fill a board of the fifteen most famous Toms. Easy mode gives hints.' },
-  { id: 'music-years', section: 'pop', tab: 'music-years', status: 'ready', icon: '🎵', title: 'Chart toppers by year', blurb: 'Billboard year-end charts since 1959. Fill a year or decade, or take the quiz.' },
-  { id: 'film-years', section: 'pop', tab: 'film-years', status: 'ready', icon: '🎬', title: 'Films by year', blurb: 'Box-office top 10s since 1970 and every Best Picture race since 1927.' },
-  { id: 'tv-years', section: 'pop', tab: 'tv-years', status: 'ready', icon: '📺', title: 'TV by year', blurb: 'Emmy and Golden Globe drama and comedy races, back to the 1950s.' },
+  {
+    id: 'first-names', section: 'pop', tab: 'first-names', icon: 'UserRound', title: 'Famous first names',
+    blurb: 'Given "Tom", name the fifteen most famous Toms.',
+    recordFormat: (e) => (e.plays ? `${played(e)} · best ${e.bestPct}% of a board` : null)
+  },
+  {
+    id: 'music-years', section: 'pop', tab: 'music-years', icon: 'Music', title: 'Chart toppers by year',
+    blurb: 'Billboard year-end charts since 1959. By year or decade.',
+    recordFormat: byPct
+  },
+  {
+    id: 'film-years', section: 'pop', tab: 'film-years', icon: 'Film', title: 'Films by year',
+    blurb: 'Box-office top 10s since 1970 and every Best Picture race.',
+    recordFormat: byPct
+  },
+  {
+    id: 'tv-years', section: 'pop', tab: 'tv-years', icon: 'Tv', title: 'TV by year',
+    blurb: 'Emmy and Golden Globe races, back to the 1950s.',
+    recordFormat: byPct
+  },
 
   // ------------------------------------------------------------------ words
-  { id: 'vocab', section: 'words', tab: 'vocab', status: 'ready', icon: '📖', title: 'Word play', blurb: 'Synonyms, opposites and meanings. Every answer shows what each word means.' },
+  {
+    id: 'vocab', section: 'words', tab: 'vocab', icon: 'BookA', title: 'Word play',
+    blurb: 'Synonyms, opposites and meanings, every answer explained.',
+    recordFormat: byPct
+  },
 
   // -------------------------------------------------------------------- lab
-  { id: 'connections', section: 'lab', tab: 'connections', status: 'ready', icon: '🧩', title: 'Four by four', blurb: 'Sixteen trivia answers, four hidden groups. Connections, but for quiz knowledge.' },
-  { id: 'timeline', section: 'lab', tab: 'timeline', status: 'ready', icon: '⏳', title: 'Timeline', blurb: 'Put five songs, films, leaders and births in order. Near misses still score.' },
-  { id: 'year-guess', section: 'lab', tab: 'year-guess', status: 'ready', icon: '📅', title: 'Name the year', blurb: 'Three clues from one year. Exact scores 10, close still scores.' },
-  { id: 'pointless', section: 'lab', tab: 'pointless', status: 'ready', icon: '🎯', title: 'Obscure-est', blurb: 'Any right answer scores, but rarer ones score more. Bhutan beats India.' },
-  { id: 'missing-link', section: 'lab', tab: 'missing-link', status: 'ready', icon: '🔗', title: 'Missing link', blurb: 'Four clues, rarest first. Name the link early for more points.' }
+  {
+    id: 'connections', section: 'lab', tab: 'connections', icon: 'LayoutGrid', title: 'Four by four',
+    blurb: 'Sixteen answers, four hidden groups. Connections for quizzers.',
+    recordFormat: byPct
+  },
+  {
+    id: 'timeline', section: 'lab', tab: 'timeline', icon: 'Hourglass', title: 'Timeline',
+    blurb: 'Put five songs, films, leaders and births in order.',
+    recordFormat: byPct
+  },
+  {
+    id: 'year-guess', section: 'lab', tab: 'year-guess', icon: 'CalendarDays', title: 'Name the year',
+    blurb: 'Three clues from one year. Close guesses still score.',
+    recordFormat: byPoints(50)
+  },
+  {
+    id: 'pointless', section: 'lab', tab: 'pointless', icon: 'Gem', title: 'Obscure-est',
+    blurb: 'Rarer right answers score more. Bhutan beats India.',
+    recordFormat: byPoints(500)
+  },
+  {
+    id: 'missing-link', section: 'lab', tab: 'missing-link', icon: 'Link', title: 'Missing link',
+    blurb: 'Four clues, rarest first. Name the link early to score more.',
+    recordFormat: byPoints(20)
+  }
 ];
-
-export const gameById = (id) => GAMES.find((g) => g.id === id);

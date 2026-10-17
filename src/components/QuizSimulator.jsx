@@ -1,25 +1,47 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
-import {
-  HelpCircle, CheckCircle2, XCircle, ArrowRight, RotateCcw, Clock, Eye,
-  Check, X, ChevronDown, ChevronUp, List, Layers, Scissors, Brain, Share2
-} from 'lucide-react';
-import confetti from 'canvas-confetti';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
+import { ArrowRight, Check, X, ChevronDown, Eye, Scissors, Share2, Lightbulb } from 'lucide-react';
 import { loadLive, saveLive } from '../lib/persist';
+import { shuffle } from '../lib/rng';
 import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
+import { AnswerRow, Button, Chip, CategoryIcon, GameResults, MostMissed, Pill } from './ui';
+import QuizOptions from './QuizOptions';
 
 const GRADES = [
-  { min: 92, title: 'Quizmaster', badge: '🏆', note: 'You would win the pub.' },
-  { min: 76, title: 'Saturday Scholar', badge: '🥇', note: 'Comfortably above the room.' },
-  { min: 60, title: 'Coffee & Paper Regular', badge: '🥈', note: 'Respectable. The hard ones are where the gap is.' },
-  { min: 40, title: 'Getting There', badge: '🥉', note: 'Work the weak categories and this moves fast.' },
-  { min: 0, title: 'Warming Up', badge: '📖', note: 'Read the explanations — that is where the gains are.' }
+  { min: 92, title: 'Quizmaster', note: 'You would win the pub.' },
+  { min: 76, title: 'Saturday Scholar', note: 'Comfortably above the room.' },
+  { min: 60, title: 'Coffee & Paper Regular', note: 'Respectable. The hard ones are where the gap is.' },
+  { min: 40, title: 'Getting There', note: 'Work the weak categories and this moves fast.' },
+  { min: 0, title: 'Warming Up', note: 'Read the explanations. That is where the gains are.' }
 ];
 
 const gradeFor = (pct) => GRADES.find((g) => pct >= g.min);
+const catName = (id) => CATEGORIES[id]?.name || 'General';
+const formatTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+const capitalise = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
-const catOf = (q) =>
-  CATEGORIES[q?.category] || { name: 'General', icon: '❓', color: '#6b7280', short: 'General' };
+// What the one primary button on the results card says, by kind of quiz.
+const NEW_ROUND_LABEL = { weekly: 'Back to the papers', daily: 'New daily five' };
+
+// The per-second clock lives in its own component so a tick re-renders only this
+// pill, not the question card and its options. The latest value is handed up
+// through onTick (kept in a ref by the parent) for saving and for the results.
+function QuizTimer({ initial, onTick }) {
+  const [s, setS] = useState(initial);
+  useEffect(() => {
+    const t = setInterval(() => setS((v) => v + 1), 1000);
+    return () => clearInterval(t);
+  }, []);
+  useEffect(() => {
+    onTick(s);
+  }, [s, onTick]);
+  return (
+    <Pill icon="Clock" title="Time so far">
+      <span className="visually-hidden">Time so far </span>
+      {formatTime(s)}
+    </Pill>
+  );
+}
 
 export default function QuizSimulator({
   questions,
@@ -54,31 +76,38 @@ export default function QuizSimulator({
   const [usedFiftyFifty, setUsedFiftyFifty] = useState(saved?.usedFiftyFifty ?? false);
 
   const [reviewFilter, setReviewFilter] = useState('all');
-  const [viewStyle, setViewStyle] = useState('compact');
   const [expanded, setExpanded] = useState({});
 
+  // Elapsed time is kept in a ref and ticked by <QuizTimer/>; `seconds` is only
+  // set once, when the round ends, so the results can show it.
+  const elapsedRef = useRef(saved?.seconds ?? 0);
   const [seconds, setSeconds] = useState(saved?.seconds ?? 0);
+  const onTick = useCallback((s) => {
+    elapsedRef.current = s;
+  }, []);
   const [shareState, setShareState] = useState(null);
   const [shareUrl, setShareUrl] = useState('');
   // A quiz restored already finished was reported when it finished; reporting
   // it again would count it twice in the stats and streak.
   const completedRef = useRef(Boolean(saved?.finished));
+  const restoredFinished = Boolean(saved?.finished);
 
   useEffect(() => {
     if (!saveAs) return;
     saveLive(`sim_${saveAs}`, {
       id: String(saveId ?? seed),
       count: questions.length,
-      index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty, seconds
+      index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty,
+      seconds: elapsedRef.current
     });
-  }, [saveAs, saveId, seed, questions.length, index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty, seconds]);
+  }, [saveAs, saveId, seed, questions.length, index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty]);
 
   // Shares the paper, not the score: the recipient gets the same questions in
   // the same order with the same option positions, which is the only way two
   // scores are comparable.
   //
   // It must be THIS round's seed. Minting a fresh one here would re-shuffle the
-  // recipient's options, so "the trap answer was C" would not survive the trip —
+  // recipient's options, so "the trap answer was C" would not survive the trip,
   // silently breaking the one thing the feature exists to do.
   const shareChallenge = async () => {
     const url = challengeUrl(questions, seed);
@@ -94,16 +123,7 @@ export default function QuizSimulator({
     }
   };
 
-  useEffect(() => {
-    if (finished) return undefined;
-    const t = setInterval(() => setSeconds((s) => s + 1), 1000);
-    return () => clearInterval(t);
-  }, [finished]);
-
   const current = questions[index];
-  const category = catOf(current);
-
-  const formatTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 
   const recordAnswer = (question, chosenIndex, isCorrect) => {
     setAnswers((prev) => [
@@ -140,14 +160,10 @@ export default function QuizSimulator({
 
   // A real aid rather than a spoiler: removes two wrong options. The old build
   // showed the memory hook as a "hint", which usually contains the answer.
-  const useFiftyFifty = () => {
+  const removeTwoOptions = () => {
     if (usedFiftyFifty || answered) return;
-    const wrong = current.options
-      .map((_, i) => i)
-      .filter((i) => i !== current.correctIndex)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 2);
-    setEliminated(wrong);
+    const wrong = current.options.map((_, i) => i).filter((i) => i !== current.correctIndex);
+    setEliminated(shuffle(wrong).slice(0, 2));
     setUsedFiftyFifty(true);
   };
 
@@ -161,10 +177,12 @@ export default function QuizSimulator({
       setUsedFiftyFifty(false);
       return;
     }
+    setSeconds(elapsedRef.current);
     setFinished(true);
   };
 
-  // Report once, after the final answer is in state.
+  // Report once, after the final answer is in state. (The confetti for a perfect
+  // round is fired by GameResults, on demand and not under reduced motion.)
   useEffect(() => {
     if (!finished || completedRef.current) return;
     completedRef.current = true;
@@ -174,21 +192,20 @@ export default function QuizSimulator({
       answers,
       questionIds: questions.map((q) => q.id)
     });
-    if (score / questions.length >= 0.75) {
-      confetti({ particleCount: 120, spread: 75, origin: { y: 0.6 } });
-    }
   }, [finished, score, answers, questions, onComplete]);
+
+  const answerById = useMemo(() => new Map(answers.map((a) => [a.id, a])), [answers]);
 
   const reviewRows = useMemo(
     () =>
       questions
-        .map((q, i) => ({ q, i, a: answers.find((x) => x.id === q.id) || {} }))
+        .map((q, i) => ({ q, i, a: answerById.get(q.id) || {} }))
         .filter(({ a }) => {
           if (reviewFilter === 'missed') return a.isCorrect === false;
           if (reviewFilter === 'correct') return a.isCorrect === true;
           return true;
         }),
-    [questions, answers, reviewFilter]
+    [questions, answerById, reviewFilter]
   );
 
   if (!questions?.length) {
@@ -202,9 +219,10 @@ export default function QuizSimulator({
 
   // ------------------------------------------------------------- results
   if (finished) {
-    const pct = Math.round((score / questions.length) * 100);
+    const total = questions.length;
+    const pct = Math.round((score / total) * 100);
     const grade = gradeFor(pct);
-    const missedCount = questions.length - score;
+    const missedCount = total - score;
 
     const perCategory = {};
     for (const a of answers) {
@@ -212,345 +230,269 @@ export default function QuizSimulator({
       c.total++;
       if (a.isCorrect) c.correct++;
     }
-    const weakest = Object.entries(perCategory)
+    const categoryEntries = Object.entries(perCategory);
+    const weakest = categoryEntries
       .filter(([, v]) => v.total >= 2)
       .sort((a, b) => a[1].correct / a[1].total - b[1].correct / b[1].total)[0];
+    const missedByCategory = categoryEntries
+      .filter(([, v]) => v.correct < v.total)
+      .sort((a, b) => b[1].total - b[1].correct - (a[1].total - a[1].correct))
+      .slice(0, 3)
+      .map(([key, v]) => ({ key, seen: v.total, correct: v.correct }));
 
-    const allExpanded =
-      Object.keys(expanded).length === questions.length && Object.values(expanded).every(Boolean);
+    const allExpanded = Object.keys(expanded).length === total && Object.values(expanded).every(Boolean);
+    const today = new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
+    const eyebrow = `${title ?? 'Quiz round'}${saveAs === 'weekly' ? '' : ` · ${today}`}`;
 
     return (
-      <div className="quiz-finished-card">
-        <div className="finish-header">
-          <span className="badge-icon">{grade.badge}</span>
-          <h2>{score} out of {questions.length}</h2>
-          <p className="finish-subtitle">{grade.title} — {grade.note}</p>
-        </div>
-
-        <div className="score-summary-grid">
-          <div className="summary-box">
-            <span className="box-val">{pct}%</span>
-            <span className="box-label">Accuracy</span>
-          </div>
-          <div className="summary-box">
-            <span className="box-val">{formatTime(seconds)}</span>
-            <span className="box-label">Time taken</span>
-          </div>
-          <div className="summary-box">
-            <span className="box-val">{formatTime(Math.round(seconds / questions.length))}</span>
-            <span className="box-label">Per question</span>
-          </div>
-          <div className="summary-box">
-            <span className="box-val">{missedCount}</span>
-            <span className="box-label">Added to vault</span>
-          </div>
-        </div>
-
-        {weakest && (
-          <div className="recommendation-banner">
-            <Brain size={20} className="rec-icon" />
-            <div>
-              <h4>Weakest category this round: {catOf({ category: weakest[0] }).name}</h4>
-              <p>
-                {weakest[1].correct} of {weakest[1].total} correct. Run a focused round on that
-                category — it is the fastest way to move the total.
-              </p>
-            </div>
+      <GameResults
+        data-section="weekend"
+        className="quiz-results"
+        eyebrow={eyebrow}
+        score={score}
+        total={total}
+        verdict={`${grade.title}. ${grade.note}`}
+        squares={questions.map((q) => answerById.get(q.id)?.isCorrect === true)}
+        celebrate={score === total && !restoredFinished}
+        onPlayAgain={onNewQuiz}
+        playAgainLabel={NEW_ROUND_LABEL[saveAs] || 'Start new round'}
+        onChangeSettings={shareChallenge}
+        settingsLabel={
+          shareState === 'copied' ? (
+            <><Check size={18} /> Link copied</>
+          ) : (
+            <><Share2 size={18} /> Challenge someone</>
+          )
+        }
+        mostMissed={
+          <MostMissed title="Missed most in" items={missedByCategory} labelOf={catName} />
+        }
+      >
+        {shareState === 'failed' && (
+          <div className="quiz-note" role="status">
+            <p>Could not reach the clipboard. Here is the link to copy by hand.</p>
+            <textarea className="transfer-box" readOnly rows={2} value={shareUrl} aria-label="Challenge link" onFocus={(e) => e.target.select()} />
           </div>
         )}
 
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={onNewQuiz}>
-            <RotateCcw size={18} /> New quiz
-          </button>
-          <button className="btn btn-ghost" onClick={shareChallenge} title="Copy a link that gives someone this exact paper">
-            {shareState === 'copied' ? <><Check size={18} /> Link copied</> : <><Share2 size={18} /> Challenge someone</>}
-          </button>
-        </div>
-        {shareState === 'failed' && (
-          <p className="transfer-status bad centered-text">
-            Could not reach the clipboard. Here is the link — copy it manually:
-            <textarea className="transfer-box" readOnly rows={2} value={shareUrl} onFocus={(e) => e.target.select()} />
+        <dl className="quiz-stats">
+          <div><dt>Accuracy</dt><dd>{pct}%</dd></div>
+          <div><dt>Time taken</dt><dd>{formatTime(seconds)}</dd></div>
+          <div><dt>Per question</dt><dd>{formatTime(Math.round(seconds / total))}</dd></div>
+          <div><dt>Added to vault</dt><dd>{missedCount}</dd></div>
+        </dl>
+
+        {weakest && (
+          <p className="quiz-note">
+            <Lightbulb size={18} aria-hidden="true" />
+            <span>
+              <strong>Weakest this round: {catName(weakest[0])}</strong>, {weakest[1].correct} of {weakest[1].total} right.
+              A focused round on it is the fastest way to move your total.
+            </span>
           </p>
         )}
 
-        <div className="review-section">
-          <div className="review-header">
-            <div className="review-title-row">
-              <div>
-                <h3><HelpCircle size={20} /> Answer sheet</h3>
-                <p className="review-subtitle">
-                  Every question with its explanation and memory hook. This is the part that
-                  actually improves your score.
-                </p>
-              </div>
-              <div className="view-style-toggle">
-                <button
-                  className={`view-btn ${viewStyle === 'compact' ? 'active' : ''}`}
-                  onClick={() => setViewStyle('compact')}
-                >
-                  <List size={16} /> Compact
-                </button>
-                <button
-                  className={`view-btn ${viewStyle === 'detailed' ? 'active' : ''}`}
-                  onClick={() => setViewStyle('detailed')}
-                >
-                  <Layers size={16} /> Detailed
-                </button>
-              </div>
-            </div>
+        <section className="sheet" aria-labelledby="sheet-title">
+          <h3 id="sheet-title" className="sheet-title">Answer sheet</h3>
+          <p className="sheet-sub">
+            Every question with its explanation and memory hook. This is the part that improves your score.
+          </p>
 
-            <div className="review-controls-bar">
-              <div className="review-filter-bar">
-                {[
-                  ['all', `All (${questions.length})`],
-                  ['missed', `Missed (${missedCount})`],
-                  ['correct', `Correct (${score})`]
-                ].map(([key, label]) => (
-                  <button
-                    key={key}
-                    className={`filter-chip ${reviewFilter === key ? 'active' : ''}`}
-                    onClick={() => setReviewFilter(key)}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
-              <button
-                className="btn-text-toggle"
-                onClick={() => {
-                  const nextState = {};
-                  questions.forEach((_, i) => { nextState[i] = !allExpanded; });
-                  setExpanded(nextState);
-                }}
-              >
-                {allExpanded ? 'Collapse all' : 'Expand all'}
-              </button>
+          <div className="sheet-tools">
+            <div className="chip-row" role="group" aria-label="Filter answers">
+              {[
+                ['all', `All (${total})`],
+                ['missed', `Missed (${missedCount})`],
+                ['correct', `Correct (${score})`]
+              ].map(([key, label]) => (
+                <Chip key={key} active={reviewFilter === key} onClick={() => setReviewFilter(key)}>
+                  {label}
+                </Chip>
+              ))}
             </div>
+            <button
+              type="button"
+              className="btn-text-toggle"
+              onClick={() => {
+                const nextState = {};
+                questions.forEach((_, i) => { nextState[i] = !allExpanded; });
+                setExpanded(nextState);
+              }}
+            >
+              {allExpanded ? 'Collapse all' : 'Expand all'}
+            </button>
           </div>
 
-          <div className={`review-list ${viewStyle}`}>
-            {reviewRows.length === 0 ? (
-              <div className="empty-review-msg">Nothing matches that filter.</div>
-            ) : (
-              reviewRows.map(({ q, i, a }) => {
-                const c = catOf(q);
+          {reviewRows.length === 0 ? (
+            <p className="sheet-empty">Nothing matches that filter.</p>
+          ) : (
+            <ul className="sheet-list">
+              {reviewRows.map(({ q, i, a }) => {
                 const correct = a.isCorrect === true;
                 const isOpen = !!expanded[i];
-
-                if (viewStyle === 'compact') {
-                  return (
-                    <div key={q.id} className={`compact-review-row ${correct ? 'row-correct' : 'row-incorrect'}`}>
-                      <div className="compact-row-main" onClick={() => setExpanded((p) => ({ ...p, [i]: !p[i] }))}>
-                        <div className="compact-left">
-                          <span className="q-badge-sm">Q{i + 1}</span>
-                          <span className="cat-icon-sm" title={c.name}>{c.icon}</span>
-                          <span className="compact-q-text">{q.question}</span>
-                        </div>
-                        <div className="compact-right">
-                          {!correct && a.chosenIndex >= 0 && (
-                            <span className="ans-pill-compact pill-wrong" title="Your answer">
-                              <X size={14} /> {q.options[a.chosenIndex]}
-                            </span>
-                          )}
-                          <span className="ans-pill-compact pill-right" title="Correct answer">
-                            <Check size={14} /> {q.answer}
-                          </span>
-                          <button className="expand-chevron-btn" aria-label="Toggle explanation">
-                            {isOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-                          </button>
-                        </div>
-                      </div>
-                      {isOpen && (
-                        <div className="compact-exp-drawer">
-                          <p className="exp-text">{q.explanation}</p>
-                          <div className="tip-box-sm"><strong>Remember it:</strong> {q.hook}</div>
-                        </div>
-                      )}
-                    </div>
-                  );
-                }
-
+                const drawerId = `sheet-${q.id}`;
                 return (
-                  <div key={q.id} className={`review-card ${correct ? 'correct-card' : 'incorrect-card'}`}>
-                    <div className="review-card-top">
-                      <div className="review-card-meta">
-                        <span className="q-num-badge">Q{i + 1}</span>
-                        <span
-                          className="category-pill"
-                          style={{ backgroundColor: `${c.color}22`, color: c.color, borderColor: `${c.color}44` }}
-                        >
-                          <span>{c.icon}</span> {c.name}
-                        </span>
-                        <span className={`diff-pill ${q.difficulty}`}>{q.difficulty}</span>
-                      </div>
-                      <span className={`status-tag ${correct ? 'tag-correct' : 'tag-incorrect'}`}>
-                        {correct ? <><Check size={14} /> Correct</> : <><X size={14} /> Missed</>}
+                  <li key={q.id} className="sheet-item">
+                    <AnswerRow
+                      as="button"
+                      type="button"
+                      className="sheet-row"
+                      state={correct ? 'got' : 'missed'}
+                      lead={`Q${i + 1}`}
+                      trail={<ChevronDown className="sheet-chevron" size={18} aria-hidden="true" data-open={isOpen} />}
+                      aria-expanded={isOpen}
+                      aria-controls={drawerId}
+                      onClick={() => setExpanded((p) => ({ ...p, [i]: !p[i] }))}
+                    >
+                      <span className="sheet-q">
+                        <CategoryIcon id={q.category} size={16} aria-hidden="true" />
+                        <span className="sheet-q-text">{q.question}</span>
                       </span>
-                    </div>
-
-                    <h4 className="review-question-text">{q.question}</h4>
-
-                    <div className="review-answers-grid">
-                      {q.options.map((opt, oi) => {
-                        let cls = 'review-opt-normal';
-                        if (oi === q.correctIndex) cls = 'review-opt-correct';
-                        else if (oi === a.chosenIndex && !correct) cls = 'review-opt-wrong';
-                        return (
-                          <div key={oi} className={`review-opt-pill ${cls}`}>
-                            <span className="opt-letter">{String.fromCharCode(65 + oi)}</span>
-                            <span className="opt-text">{opt}</span>
-                            {oi === q.correctIndex && <CheckCircle2 size={16} className="icon-right" />}
-                            {oi === a.chosenIndex && !correct && <XCircle size={16} className="icon-wrong" />}
-                          </div>
-                        );
-                      })}
-                    </div>
-
-                    <div className="review-explanation-box">
-                      <p className="exp-text">{q.explanation}</p>
-                      <div className="tip-box"><strong>Remember it:</strong> {q.hook}</div>
-                    </div>
-                  </div>
+                      <span className="sheet-answers">
+                        {!correct && a.chosenIndex >= 0 && (
+                          <Pill variant="wrong" icon="X"><span className="visually-hidden">Your answer: </span>{q.options[a.chosenIndex]}</Pill>
+                        )}
+                        <Pill variant="correct" icon="Check"><span className="visually-hidden">Correct answer: </span>{q.answer}</Pill>
+                      </span>
+                    </AnswerRow>
+                    {isOpen && (
+                      <div className="sheet-drawer" id={drawerId}>
+                        <ul className="sheet-opts">
+                          {q.options.map((opt, oi) => {
+                            const isRight = oi === q.correctIndex;
+                            const isMine = oi === a.chosenIndex && !correct;
+                            return (
+                              <li key={oi} className="sheet-opt" data-state={isRight ? 'correct' : isMine ? 'wrong' : 'idle'}>
+                                <span className="option-key" aria-hidden="true">{String.fromCharCode(65 + oi)}</span>
+                                <span className="option-label">{opt}</span>
+                                {isRight && <><Check size={16} aria-hidden="true" /><span className="visually-hidden">Correct answer</span></>}
+                                {isMine && <><X size={16} aria-hidden="true" /><span className="visually-hidden">Your answer</span></>}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                        <p className="explain-text">{q.explanation}</p>
+                        <p className="tip"><strong>Remember it:</strong> {q.hook}</p>
+                      </div>
+                    )}
+                  </li>
                 );
-              })
-            )}
-          </div>
-        </div>
-      </div>
+              })}
+            </ul>
+          )}
+        </section>
+      </GameResults>
     );
   }
 
   // ------------------------------------------------------------- question
   return (
-    <div className="quiz-simulator">
+    <div className="quiz-simulator quiz-screen" data-section="weekend">
       {title && (
-        <div className="quiz-intro">
+        <div className="screen-head">
           <h2>{title}</h2>
           {subtitle && <p>{subtitle}</p>}
         </div>
       )}
 
       <div className="quiz-top-bar">
-        <div className="progress-container">
-          <div className="progress-text">
+        <div className="quiz-progress">
+          <div className="quiz-progress-text">
             <span>Question {index + 1} of {questions.length}</span>
-            <span className="score-pill">Score {score}</span>
+            <Pill variant="accent">Score {score}</Pill>
           </div>
-          <div className="progress-bar-track">
-            <div
-              className="progress-bar-fill"
-              style={{ width: `${((index + 1) / questions.length) * 100}%` }}
-            />
+          <div
+            className="meter"
+            role="progressbar"
+            aria-label="Quiz progress"
+            aria-valuemin={0}
+            aria-valuemax={questions.length}
+            aria-valuenow={index + 1}
+          >
+            <div className="meter-fill" style={{ width: `${((index + 1) / questions.length) * 100}%` }} />
           </div>
         </div>
 
-        <div className="mode-toggle">
-          <button
-            className={`mode-btn ${mode === 'multiple_choice' ? 'active' : ''}`}
+        <div className="quiz-modes">
+          <Chip
+            active={mode === 'multiple_choice'}
             onClick={() => setMode('multiple_choice')}
             title="Four options, pick one"
           >
             Multiple choice
-          </button>
-          <button
-            className={`mode-btn ${mode === 'recall' ? 'active' : ''}`}
+          </Chip>
+          <Chip
+            active={mode === 'recall'}
             onClick={() => setMode('recall')}
-            title="No options — answer in your head, then reveal"
+            title="No options. Answer in your head, then reveal"
           >
             Recall
-          </button>
-          <div className="timer-badge">
-            <Clock size={16} />
-            <span>{formatTime(seconds)}</span>
-          </div>
+          </Chip>
+          <QuizTimer initial={elapsedRef.current} onTick={onTick} />
         </div>
       </div>
 
-      <div className="question-card">
+      <div className="card question-card">
         <div className="question-header">
-          <span
-            className="category-pill"
-            style={{ backgroundColor: `${category.color}22`, color: category.color, borderColor: `${category.color}44` }}
-          >
-            <span className="cat-icon">{category.icon}</span> {category.name}
-          </span>
-          <span className={`diff-pill ${current.difficulty}`}>{current.difficulty}</span>
+          <Pill>
+            <CategoryIcon id={current.category} size={14} aria-hidden="true" /> {catName(current.category)}
+          </Pill>
+          <Pill>{capitalise(current.difficulty)}</Pill>
         </div>
 
         <h2 className="question-text">{current.question}</h2>
 
         {mode === 'multiple_choice' && (
           <>
-            <div className="options-grid">
-              {current.options.map((opt, idx) => {
-                const isGone = eliminated.includes(idx);
-                let state = '';
-                if (answered) {
-                  if (idx === current.correctIndex) state = 'correct';
-                  else if (idx === selected) state = 'incorrect';
-                  else state = 'disabled';
-                } else if (isGone) {
-                  state = 'eliminated';
-                }
-                return (
-                  <button
-                    key={idx}
-                    className={`option-btn ${state} ${selected === idx ? 'selected' : ''}`}
-                    onClick={() => handleSelect(idx)}
-                    disabled={answered || isGone}
-                  >
-                    <span className="option-prefix">{String.fromCharCode(65 + idx)}</span>
-                    <span className="option-label">{opt}</span>
-                    {answered && idx === current.correctIndex && <CheckCircle2 className="icon-right" size={20} />}
-                    {answered && idx === selected && idx !== current.correctIndex && (
-                      <XCircle className="icon-wrong" size={20} />
-                    )}
-                  </button>
-                );
-              })}
-            </div>
+            <QuizOptions
+              options={current.options}
+              correctIndex={current.correctIndex}
+              selected={selected}
+              answered={answered}
+              eliminated={eliminated}
+              onSelect={handleSelect}
+            />
 
             {!answered && (
               <div className="hint-section">
-                <button className="hint-btn" onClick={useFiftyFifty} disabled={usedFiftyFifty}>
-                  <Scissors size={16} />
-                  {usedFiftyFifty ? 'Two options removed' : 'Fifty-fifty (remove two wrong answers)'}
-                </button>
+                <Button variant="tertiary" onClick={removeTwoOptions} disabled={usedFiftyFifty}>
+                  <Scissors size={16} aria-hidden="true" />
+                  {usedFiftyFifty ? 'Two options removed' : 'Fifty-fifty: remove two wrong answers'}
+                </Button>
               </div>
             )}
           </>
         )}
 
         {mode === 'recall' && (
-          <div className="newspaper-reveal-box">
+          <div className="recall-box">
             {!revealed ? (
-              <div className="reveal-prompt">
+              <>
                 <p>Answer it in your head first, the way you would reading the paper. No options.</p>
-                <button className="btn btn-secondary" onClick={() => setRevealed(true)}>
-                  <Eye size={18} /> Reveal answer
-                </button>
-              </div>
+                <Button variant="secondary" onClick={() => setRevealed(true)}>
+                  <Eye size={18} aria-hidden="true" /> Reveal answer
+                </Button>
+              </>
             ) : (
-              <div className="revealed-content">
-                <div className="answer-highlight">
-                  <span className="ans-label">Answer</span>
-                  <span className="ans-val">{current.answer}</span>
+              <>
+                <div>
+                  <span className="eyebrow">Answer</span>
+                  <p className="recall-answer">{current.answer}</p>
                 </div>
                 {!answered && (
-                  <div className="self-grading-buttons">
+                  <div className="recall-grade">
                     <p>Did you get it?</p>
-                    <div className="grade-btns">
-                      <button className="btn btn-success" onClick={() => handleSelfGrade(true)}>
-                        <CheckCircle2 size={18} /> Got it
-                      </button>
-                      <button className="btn btn-danger" onClick={() => handleSelfGrade(false)}>
-                        <XCircle size={18} /> Missed it
-                      </button>
+                    <div className="recall-grade-btns">
+                      <Button variant="correct" onClick={() => handleSelfGrade(true)}>
+                        <Check size={18} aria-hidden="true" /> Got it
+                      </Button>
+                      <Button variant="wrong" onClick={() => handleSelfGrade(false)}>
+                        <X size={18} aria-hidden="true" /> Missed it
+                      </Button>
                     </div>
                   </div>
                 )}
-              </div>
+              </>
             )}
           </div>
         )}
@@ -559,18 +501,18 @@ export default function QuizSimulator({
             phone without scrolling past the whole explanation first. */}
         {answered && (
           <div className="next-action-bar">
-            <button className="btn btn-primary next-btn" onClick={next}>
+            <Button variant="primary" className="next-btn" onClick={next}>
               <span>{index < questions.length - 1 ? 'Next question' : 'See results'}</span>
-              <ArrowRight size={18} />
-            </button>
+              <ArrowRight size={18} aria-hidden="true" />
+            </Button>
           </div>
         )}
 
         {answered && (
-          <div className="explanation-card">
-            <h3><HelpCircle size={18} /> Why</h3>
-            <p className="explanation-text">{current.explanation}</p>
-            <div className="tip-box"><strong>Remember it:</strong> {current.hook}</div>
+          <div className="explain">
+            <span className="eyebrow">Why</span>
+            <p className="explain-text">{current.explanation}</p>
+            <p className="tip"><strong>Remember it:</strong> {current.hook}</p>
           </div>
         )}
       </div>

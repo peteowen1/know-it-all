@@ -1,12 +1,12 @@
 import React from 'react';
-import { ArrowRight, CalendarDays, RotateCcw, Shuffle } from 'lucide-react';
 import data from '../../data/obscure.json';
 import { pickCategories, scoreGuess, ROUNDS } from './obscureLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
-
-const KIND_ICON = { geo: '🌍', people: '🌟', music: '🎵', film: '🎬' };
+import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
+import { GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
+import KindIcon from '../shared/KindIcon';
 
 /**
  * Obscure-est: one answer per category, any right answer scores, rarer right
@@ -26,25 +26,24 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
 
   if (!game) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Obscure-est</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
+      <GameSetup
+        title="Obscure-est"
+        section="lab"
+        onExit={onExit}
+        record={
+          <>
+            One answer per category. Any right answer scores; the rarer it is, the more it scores, up to 100. Wrong
+            scores nothing. {ROUNDS} categories.
+            {entry.plays ? ` ${entry.plays} played · best ${entry.best}/${ROUNDS * 100}.` : ''}
+          </>
+        }
+        note="Rarity is measured: population for countries and capitals, Wikipedia readership for people, chart points for songs and box office for films. A small country you know well can still score high."
+      >
+        <div className="setup-actions">
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's five</Button>
+          <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
-        <p className="game-record">
-          One answer per category. Any right answer scores; the rarer it is, the more it scores, up to 100. Wrong
-          scores nothing. {ROUNDS} categories.
-          {entry.plays ? ` ${entry.plays} played · best ${entry.best}/${ROUNDS * 100}.` : ''}
-        </p>
-        <div className="actions-bar">
-          <button className="btn btn-primary" onClick={() => start(true)}><CalendarDays size={18} /> Today's five</button>
-          <button className="btn btn-ghost" onClick={() => start(false)}><Shuffle size={18} /> Random</button>
-        </div>
-        <p className="game-record small">
-          Rarity is measured: population for countries and capitals, Wikipedia readership for people, chart points for
-          songs and box office for films. A small country you know well can still score high.
-        </p>
-      </div>
+      </GameSetup>
     );
   }
 
@@ -53,21 +52,29 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
 
   if (index >= cats.length) {
     return (
-      <div className="card game-results">
-        <h2>{total} / {cats.length * 100}</h2>
-        <div className="ny-summary">
-          {cats.map((c, i) => (
-            <div key={c.id} className="ny-sum-row">
-              <span>{c.prompt}</span>
-              <strong>{results[i].answer ? `${results[i].answer.text} · ${results[i].score}` : `"${results[i].guess}" · 0`}</strong>
-            </div>
-          ))}
-        </div>
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={() => start(false)}><RotateCcw size={18} /> Another five</button>
-          <button className="btn btn-ghost" onClick={() => setGame(null)}>Back</button>
-        </div>
-      </div>
+      <GameResults
+        data-section="lab"
+        eyebrow="Obscure-est"
+        score={total}
+        total={cats.length * 100}
+        verdict={total >= cats.length * 60 ? 'Deep cuts. Very few people know these.' : total > 0 ? 'Some right answers, mostly the obvious ones.' : 'Nothing on the list this time.'}
+        squares={results.map((x) => x.score > 0)}
+        celebrate={false}
+        onPlayAgain={() => start(false)}
+        playAgainLabel="Another five"
+        onChangeSettings={() => setGame(null)}
+        settingsLabel="Back"
+      >
+        {cats.map((c, i) => (
+          <AnswerRow
+            key={c.id}
+            state={results[i].score >= 70 ? 'got' : results[i].score > 0 ? 'pending' : 'missed'}
+            trail={results[i].answer ? `${results[i].answer.text} · ${results[i].score}` : `"${results[i].guess}" · 0`}
+          >
+            {c.prompt}
+          </AnswerRow>
+        ))}
+      </GameResults>
     );
   }
 
@@ -93,52 +100,47 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
   };
 
   return (
-    <div className="card geo-question">
-      <div className="progress-text">
-        <span>Category {index + 1} of {cats.length}</span>
-        <span className="score-pill">{total} pts</span>
-      </div>
-      <h2 className="geo-prompt-text chart-prompt">
-        <span aria-hidden="true">{KIND_ICON[cat.kind]}</span> {cat.prompt}
-      </h2>
-      <p className="game-record small">{cat.answers.length} right answers on the list.</p>
+    <GameCard data-section="lab">
+      <PlayHead left={`Category ${index + 1} of ${cats.length}`}>
+        <Pill variant="accent">{total} pts</Pill>
+      </PlayHead>
+      <Prompt className="chart-prompt">
+        <span className="play-kind"><KindIcon kind={cat.kind} set="obscure" size={24} /></span> {cat.prompt}
+      </Prompt>
+      <p className="setup-caption">{cat.answers.length} right answers on the list.</p>
 
       {!done ? (
-        <form className="names-input-row" onSubmit={submit}>
-          <input
+        <form className="board-form" onSubmit={submit}>
+          <TextInput
             autoFocus
             value={game.input}
             onChange={(e) => setGame({ ...game, input: e.target.value, note: null })}
             placeholder="Your answer…"
-            aria-label="Your answer"
-            autoComplete="off"
-            spellCheck="false"
+            label="Your answer"
           />
-          <button className="btn btn-primary" type="submit" disabled={!game.input.trim()}>Answer</button>
+          <Button variant="primary" type="submit" disabled={!game.input.trim()}>Answer</Button>
         </form>
       ) : (
         <>
-          <p className={`ny-verdict ${res.score >= 70 ? 'good' : res.score > 0 ? 'meh' : 'bad'}`}>
+          <p className="play-verdict" data-tone={res.score >= 70 ? 'good' : res.score > 0 ? 'meh' : 'bad'} role="status">
             {res.answer ? `${res.answer.text}: ${res.score} point${res.score === 1 ? '' : 's'}` : `"${res.guess}" is not on the list: 0`}
           </p>
           <div className="obs-reveal">
             <div>
-              <span className="setup-group-label">Rarest</span>
+              <span className="eyebrow">Rarest</span>
               {cat.answers.slice(-4).reverse().map((a) => <span key={a.text}>{a.text} <em>{a.score}</em></span>)}
             </div>
             <div>
-              <span className="setup-group-label">Most obvious</span>
+              <span className="eyebrow">Most obvious</span>
               {cat.answers.slice(0, 4).map((a) => <span key={a.text}>{a.text} <em>{a.score}</em></span>)}
             </div>
           </div>
-          <div className="next-action-bar">
-            <button className="btn btn-primary next-btn" autoFocus onClick={() => setGame({ ...game, index: index + 1, input: '' })}>
-              {index < cats.length - 1 ? 'Next category' : 'Results'} <ArrowRight size={18} />
-            </button>
-          </div>
+          <NextBar onClick={() => setGame({ ...game, index: index + 1, input: '' })}>
+            {index < cats.length - 1 ? 'Next category' : 'Results'}
+          </NextBar>
         </>
       )}
-      {game.note && <p className="names-msg meh">{game.note}</p>}
-    </div>
+      {game.note && <p className="game-board-msg" role="status">{game.note}</p>}
+    </GameCard>
   );
 }

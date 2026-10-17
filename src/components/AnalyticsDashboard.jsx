@@ -1,9 +1,43 @@
 import React from 'react';
-import { Award, Flame, Target, TrendingUp, ShieldAlert, Compass } from 'lucide-react';
+import { Award, Check, Compass, Flame, Hash, Library, ScrollText, ShieldCheck, Target, TrendingUp } from 'lucide-react';
 import { CATEGORY_LIST, DIFFICULTIES } from '../data/categories';
+import { formatIntervals, INTERVALS, GRADUATED_BOX } from '../lib/scheduler';
+import { Card, CategoryIcon, Pill } from './ui';
 import ProgressTransfer from './ProgressTransfer';
 
 const pct = (correct, total) => (total ? Math.round((correct / total) * 100) : 0);
+const fmt = (n) => n.toLocaleString('en-AU');
+
+// Fewer answers than this and a percentage says nothing; show "not enough yet".
+const MIN_FOR_RATE = 3;
+
+function Meter({ value, max, label }) {
+  return (
+    <div className="meter" role="progressbar" aria-label={label} aria-valuemin={0} aria-valuemax={max} aria-valuenow={Math.min(value, max)}>
+      <div className="meter-fill" style={{ width: `${Math.min(100, (value / max) * 100)}%` }} />
+    </div>
+  );
+}
+
+function RateRow({ icon, label, hint, correct, total }) {
+  const enough = total >= MIN_FOR_RATE;
+  const accuracy = pct(correct, total);
+  return (
+    <li className="rate-row">
+      <div className="rate-head">
+        <span className="rate-label">
+          {icon}
+          {label}
+          {hint && <span className="rate-hint">{hint}</span>}
+        </span>
+        <span className={`rate-value ${enough ? '' : 'rate-value--none'}`}>
+          {enough ? `${accuracy}% (${correct}/${total})` : 'not enough yet'}
+        </span>
+      </div>
+      {enough && <Meter value={accuracy} max={100} label={`${label} accuracy`} />}
+    </li>
+  );
+}
 
 export default function AnalyticsDashboard({
   stats,
@@ -17,152 +51,163 @@ export default function AnalyticsDashboard({
   const weaknessCount = vaultSummary?.total ?? 0;
   const categoryStats = stats.categoryStats || {};
   const difficultyStats = stats.difficultyStats || {};
+  const answered = stats.totalAnswered || 0;
+  const accuracyNow = stats.overallAccuracy || 0;
 
   const breakdown = CATEGORY_LIST.map((cat) => {
     const d = categoryStats[cat.id] || { total: 0, correct: 0 };
-    return { ...cat, ...d, accuracy: pct(d.correct, d.total), bankCount: bankStats.byCategory[cat.id] || 0 };
+    return { ...cat, ...d, accuracy: pct(d.correct, d.total), bankCount: bankStats?.byCategory?.[cat.id] || 0 };
   });
 
   // Only recommend a focus once there is enough data for the number to mean
-  // anything — a single wrong answer is not a weakness.
+  // anything. A single wrong answer is not a weakness.
   const rated = breakdown.filter((c) => c.total >= 5);
   const weakest = [...rated].sort((a, b) => a.accuracy - b.accuracy)[0];
   const strongest = [...rated].sort((a, b) => b.accuracy - a.accuracy)[0];
   const unexplored = breakdown.filter((c) => c.total === 0);
 
-  const badges = [
-    { title: 'First round', desc: 'Finish one quiz', unlocked: stats.totalQuizzes >= 1, icon: '📜' },
-    { title: 'Week of it', desc: 'Seven day streak', unlocked: stats.streak >= 7, icon: '☕' },
-    { title: 'Century', desc: 'Answer 100 questions', unlocked: stats.totalAnswered >= 100, icon: '💯' },
-    { title: 'Half the bank', desc: `See ${Math.floor(totalBank / 2)} different questions`, unlocked: seenCount >= totalBank / 2, icon: '📚' },
-    { title: 'Sharp', desc: '80% overall accuracy over 100+ questions', unlocked: stats.totalAnswered >= 100 && stats.overallAccuracy >= 80, icon: '🎯' },
-    { title: 'Vault cleared', desc: 'Empty the weakness vault after missing 20+', unlocked: stats.totalAnswered >= 100 && weaknessCount === 0, icon: '🧹' }
+  // Each milestone says how far along it is. `ratio` is null when a bar would mislead.
+  const halfBank = Math.floor(totalBank / 2);
+  const milestones = [
+    {
+      title: 'First round', desc: 'Finish one quiz', Glyph: ScrollText,
+      unlocked: stats.totalQuizzes >= 1,
+      ratio: (stats.totalQuizzes || 0) / 1, text: `${Math.min(stats.totalQuizzes || 0, 1)}/1`
+    },
+    {
+      title: 'Week of it', desc: 'Seven day streak', Glyph: Flame,
+      unlocked: stats.streak >= 7,
+      ratio: (stats.streak || 0) / 7, text: `${Math.min(stats.streak || 0, 7)}/7 days`
+    },
+    {
+      title: 'Century', desc: 'Answer 100 questions', Glyph: Hash,
+      unlocked: answered >= 100,
+      ratio: answered / 100, text: `${Math.min(answered, 100)}/100`
+    },
+    {
+      title: 'Half the bank', desc: `See ${fmt(halfBank)} different questions`, Glyph: Library,
+      unlocked: seenCount >= totalBank / 2,
+      ratio: seenCount / (totalBank / 2), text: `${fmt(Math.min(seenCount, halfBank))}/${fmt(halfBank)}`
+    },
+    {
+      // Two conditions: 100 answers first, then 80% across them.
+      title: 'Sharp', desc: '80% overall accuracy over 100+ questions', Glyph: Target,
+      unlocked: answered >= 100 && accuracyNow >= 80,
+      ratio: answered < 100 ? answered / 100 : accuracyNow / 80,
+      text: answered < 100 ? `${answered}/100 answered` : `${accuracyNow}% of 80%`
+    },
+    {
+      title: 'Vault cleared', desc: 'Empty the weakness vault after answering 100+', Glyph: ShieldCheck,
+      unlocked: answered >= 100 && weaknessCount === 0,
+      ratio: answered < 100 ? answered / 100 : null,
+      text: answered < 100 ? `${answered}/100 answered` : `${weaknessCount} left in the vault`
+    }
   ];
 
   return (
-    <div className="analytics-container">
-      <div className="analytics-header">
+    <div className="analytics quiz-screen" data-section="weekend">
+      <div className="screen-head">
         <h2>Progress</h2>
         <p>Where you are strong, where you are not, and what to drill next.</p>
       </div>
 
-      <div className="stats-cards-grid">
-        <div className="stat-card">
-          <div className="card-icon-bg icon-blue"><Target size={24} /></div>
+      <div className="stats-grid">
+        <div className="stat-tile">
+          <span className="stat-icon"><Target size={20} strokeWidth={1.75} aria-hidden="true" /></span>
           <div>
-            <span className="stat-value">{stats.totalQuizzes || 0}</span>
+            <span className="stat-value">{fmt(stats.totalQuizzes || 0)}</span>
             <span className="stat-title">Rounds completed</span>
           </div>
         </div>
-        <div className="stat-card">
-          <div className="card-icon-bg icon-amber"><Flame size={24} /></div>
+        <div className="stat-tile">
+          <span className="stat-icon"><Flame size={20} strokeWidth={1.75} aria-hidden="true" /></span>
           <div>
-            <span className="stat-value">{stats.streak || 0}</span>
+            <span className="stat-value">{fmt(stats.streak || 0)}</span>
             <span className="stat-title">Day streak</span>
           </div>
         </div>
-        <div className="stat-card">
-          <div className="card-icon-bg icon-purple"><TrendingUp size={24} /></div>
+        <div className="stat-tile">
+          <span className="stat-icon"><TrendingUp size={20} strokeWidth={1.75} aria-hidden="true" /></span>
           <div>
-            <span className="stat-value">{stats.overallAccuracy || 0}%</span>
+            <span className="stat-value">{accuracyNow}%</span>
             <span className="stat-title">Overall accuracy</span>
           </div>
         </div>
-        <div className="stat-card">
-          <div className="card-icon-bg icon-green"><Award size={24} /></div>
+        <div className="stat-tile">
+          <span className="stat-icon"><Award size={20} strokeWidth={1.75} aria-hidden="true" /></span>
           <div>
-            <span className="stat-value">{seenCount} / {totalBank}</span>
-            <span className="stat-title">Bank seen</span>
+            <span className="stat-value">{fmt(seenCount)} of {fmt(totalBank)}</span>
+            <span className="stat-title">Questions seen</span>
           </div>
         </div>
       </div>
 
       {weakest && strongest && weakest.id !== strongest.id && (
-        <div className="recommendation-banner">
-          <ShieldAlert size={22} className="rec-icon" />
+        <div className="note note--focus">
+          <CategoryIcon id={weakest.id} size={22} className="note-icon" aria-hidden="true" />
           <div>
-            <h4>Drill next: {weakest.icon} {weakest.name}</h4>
+            <h3>Drill next: {weakest.name}</h3>
             <p>
               You are on {weakest.accuracy}% there ({weakest.correct}/{weakest.total}) against{' '}
               {strongest.accuracy}% in {strongest.name}. That gap is {strongest.accuracy - weakest.accuracy}{' '}
-              points — closing it is worth more than anything else you could practise.
+              points, and closing it is worth more than anything else you could practise.
             </p>
           </div>
         </div>
       )}
 
       {unexplored.length > 0 && stats.totalQuizzes > 0 && (
-        <div className="recommendation-banner subtle">
-          <Compass size={22} className="rec-icon" />
+        <div className="note">
+          <Compass size={22} className="note-icon" aria-hidden="true" />
           <div>
-            <h4>Not touched yet</h4>
+            <h3>Not touched yet</h3>
             <p>
-              {unexplored.map((c) => c.name).join(', ')} — no data at all. Run a focused round before
+              {unexplored.map((c) => c.name).join(', ')}: no answers yet. Run a focused round before
               trusting the numbers above.
             </p>
           </div>
         </div>
       )}
 
-      <div className="category-heatmap-card">
+      <Card className="rates">
         <h3>By category</h3>
-        <div className="heatmap-bars-grid">
+        <ul className="rate-list">
           {breakdown.map((cat) => (
-            <div key={cat.id} className="heatmap-item">
-              <div className="cat-header-label">
-                <span>{cat.icon} {cat.name}</span>
-                <span className="accuracy-label">
-                  {cat.total > 0 ? `${cat.accuracy}% (${cat.correct}/${cat.total})` : 'no data'}
-                </span>
-              </div>
-              <div className="bar-track">
-                <div
-                  className="bar-fill"
-                  style={{ width: `${cat.accuracy}%`, backgroundColor: cat.color }}
-                />
-              </div>
-            </div>
+            <RateRow
+              key={cat.id}
+              icon={<CategoryIcon id={cat.id} size={18} aria-hidden="true" />}
+              label={cat.name}
+              correct={cat.correct}
+              total={cat.total}
+            />
           ))}
-        </div>
-      </div>
+        </ul>
+      </Card>
 
-      <div className="category-heatmap-card">
+      <Card className="rates">
         <h3>By difficulty</h3>
-        <div className="heatmap-bars-grid">
+        <ul className="rate-list">
           {DIFFICULTIES.map((d) => {
             const s = difficultyStats[d.id] || { total: 0, correct: 0 };
-            const accuracy = pct(s.correct, s.total);
-            return (
-              <div key={d.id} className="heatmap-item">
-                <div className="cat-header-label">
-                  <span>{d.label} <span className="setup-note">{d.hint}</span></span>
-                  <span className="accuracy-label">
-                    {s.total > 0 ? `${accuracy}% (${s.correct}/${s.total})` : 'no data'}
-                  </span>
-                </div>
-                <div className="bar-track">
-                  <div className="bar-fill" style={{ width: `${accuracy}%`, backgroundColor: d.color }} />
-                </div>
-              </div>
-            );
+            return <RateRow key={d.id} label={d.label} hint={d.hint} correct={s.correct} total={s.total} />;
           })}
-        </div>
-      </div>
+        </ul>
+      </Card>
 
       {vaultSummary?.total > 0 && (
-        <div className="recommendation-banner subtle">
-          <Target size={22} className="rec-icon" />
+        <div className="note">
+          <ShieldCheck size={22} className="note-icon" aria-hidden="true" />
           <div>
-            <h4>
+            <h3>
               {vaultSummary.due > 0
                 ? `${vaultSummary.due} question${vaultSummary.due === 1 ? '' : 's'} due for revision`
                 : 'Nothing due for revision right now'}
-            </h4>
+            </h3>
             <p>
               {vaultSummary.total} tracked in the vault
               {vaultSummary.struggling > 0 && `, ${vaultSummary.struggling} missed more than once`}.
-              Questions return one day after you miss them, then three, seven, twenty-one and sixty
-              — clear all five and they leave for good.
+              Questions return after {formatIntervals(INTERVALS)}. Clear all {GRADUATED_BOX} stages and
+              they leave for good.
             </p>
           </div>
         </div>
@@ -170,21 +215,28 @@ export default function AnalyticsDashboard({
 
       {profile && onImport && <ProgressTransfer profile={profile} onImport={onImport} />}
 
-      <div className="achievements-section">
-        <h3>Milestones</h3>
-        <div className="badges-grid">
-          {badges.map((b) => (
-            <div key={b.title} className={`badge-card ${b.unlocked ? 'unlocked' : 'locked'}`}>
-              <span className="badge-card-icon">{b.icon}</span>
-              <div>
-                <h4>{b.title}</h4>
-                <p>{b.desc}</p>
-                <span className="status-pill">{b.unlocked ? 'Done' : 'Not yet'}</span>
+      <section aria-labelledby="milestones-title">
+        <h3 id="milestones-title" className="milestones-title">Milestones</h3>
+        <ul className="milestones">
+          {milestones.map(({ title, desc, Glyph, unlocked, ratio, text }) => (
+            <li key={title} className="milestone" data-done={unlocked}>
+              <span className="milestone-icon"><Glyph size={20} strokeWidth={1.75} aria-hidden="true" /></span>
+              <div className="milestone-body">
+                <h4>{title}</h4>
+                <p>{desc}</p>
+                {unlocked ? (
+                  <Pill variant="correct"><Check size={12} aria-hidden="true" /> Done</Pill>
+                ) : (
+                  <div className="milestone-progress">
+                    {ratio !== null && <Meter value={ratio} max={1} label={`${title} progress`} />}
+                    <span className="milestone-fraction">{text}</span>
+                  </div>
+                )}
               </div>
-            </div>
+            </li>
           ))}
-        </div>
-      </div>
+        </ul>
+      </section>
     </div>
   );
 }

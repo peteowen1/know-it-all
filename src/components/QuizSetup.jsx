@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Play, SlidersHorizontal } from 'lucide-react';
+import { Play, SlidersHorizontal, LayoutGrid } from 'lucide-react';
 import { CATEGORY_LIST, DIFFICULTIES } from '../data/categories';
+import { Button, CategoryIcon, Chip } from './ui';
 
 const LENGTHS = [10, 25, 50];
+const fmt = (n) => n.toLocaleString('en-AU');
 
 export default function QuizSetup({ setup, onStart, bankStats }) {
   const [open, setOpen] = useState(false);
@@ -21,31 +23,38 @@ export default function QuizSetup({ setup, onStart, bankStats }) {
   // user isn't silently given a shorter quiz than they asked for.
   const available =
     draft.categories === 'all'
-      ? bankStats.total
-      : selectedCats.reduce((n, id) => n + (bankStats.byCategory[id] || 0), 0);
+      ? bankStats?.total ?? 0
+      : selectedCats.reduce((n, id) => n + (bankStats?.byCategory?.[id] || 0), 0);
+
+  const categoryCount = Object.keys(bankStats?.byCategory ?? {}).length || CATEGORY_LIST.length;
 
   const summary = [
     `${draft.count} questions`,
-    draft.categories === 'all' ? 'all categories' : `${selectedCats.length} categories`,
+    draft.categories === 'all' ? 'all categories' : `${selectedCats.length} ${selectedCats.length === 1 ? 'category' : 'categories'}`,
     draft.difficulty === 'all' ? 'mixed difficulty' : draft.difficulty
   ].join(' · ');
 
   return (
-    <section className="quiz-setup">
+    <section className="card quiz-setup quiz-screen" aria-label="Round setup">
       <div className="setup-summary-row">
         <div>
-          <span className="setup-label">Current round</span>
+          <span className="eyebrow">Current round</span>
           <strong className="setup-summary">{summary}</strong>
         </div>
         <div className="setup-actions">
-          <button className="btn btn-ghost" onClick={() => setOpen((o) => !o)}>
-            <SlidersHorizontal size={16} /> {open ? 'Hide options' : 'Change'}
-          </button>
+          <Button variant="secondary" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+            <SlidersHorizontal size={16} aria-hidden="true" /> {open ? 'Hide options' : 'Change'}
+          </Button>
           {/* Close the options on start: left open, the panel sat above the
-              quiz and its results, pushing the score below the fold on a phone. */}
-          <button className="btn btn-primary" onClick={() => { setOpen(false); onStart(draft); }}>
-            <Play size={16} /> Start new round
-          </button>
+              quiz and its results, pushing the score below the fold on a phone.
+              It is the screen's one primary only while the options are open; the
+              rest of the time the quiz below owns the primary action. */}
+          <Button
+            variant={open ? 'primary' : 'secondary'}
+            onClick={() => { setOpen(false); onStart(draft); }}
+          >
+            <Play size={16} aria-hidden="true" /> Start new round
+          </Button>
         </div>
       </div>
 
@@ -55,35 +64,28 @@ export default function QuizSetup({ setup, onStart, bankStats }) {
             <span className="setup-group-label">Length</span>
             <div className="chip-row">
               {LENGTHS.map((n) => (
-                <button
-                  key={n}
-                  className={`filter-chip ${draft.count === n ? 'active' : ''}`}
-                  onClick={() => setDraft({ ...draft, count: n })}
-                >
+                <Chip key={n} active={draft.count === n} onClick={() => setDraft({ ...draft, count: n })}>
                   {n}
-                </button>
+                </Chip>
               ))}
             </div>
           </div>
 
           <div className="setup-group">
             <span className="setup-group-label">Difficulty</span>
-            <div className="chip-row">
-              <button
-                className={`filter-chip ${draft.difficulty === 'all' ? 'active' : ''}`}
-                onClick={() => setDraft({ ...draft, difficulty: 'all' })}
-              >
+            <div className="chip-row wrap">
+              <Chip active={draft.difficulty === 'all'} onClick={() => setDraft({ ...draft, difficulty: 'all' })}>
                 Mixed (ramps up)
-              </button>
+              </Chip>
               {DIFFICULTIES.map((d) => (
-                <button
+                <Chip
                   key={d.id}
-                  className={`filter-chip ${draft.difficulty === d.id ? 'active' : ''}`}
+                  active={draft.difficulty === d.id}
                   onClick={() => setDraft({ ...draft, difficulty: d.id })}
                   title={d.hint}
                 >
                   {d.label}
-                </button>
+                </Chip>
               ))}
             </div>
           </div>
@@ -93,33 +95,30 @@ export default function QuizSetup({ setup, onStart, bankStats }) {
               Categories
               <span className="setup-note">
                 {draft.categories === 'all'
-                  ? `All ${bankStats ? Object.keys(bankStats.byCategory).length : ''}, evenly spread`
-                  : `${available} questions available`}
+                  ? `All ${categoryCount}, evenly spread`
+                  : `${fmt(available)} questions available`}
               </span>
             </span>
             <div className="chip-row wrap">
-              <button
-                className={`filter-chip ${draft.categories === 'all' ? 'active' : ''}`}
-                onClick={() => setDraft({ ...draft, categories: 'all' })}
-              >
-                🌟 All categories
-              </button>
+              <Chip active={draft.categories === 'all'} onClick={() => setDraft({ ...draft, categories: 'all' })}>
+                <LayoutGrid size={16} aria-hidden="true" /> All categories
+              </Chip>
               {CATEGORY_LIST.map((c) => (
-                <button
+                <Chip
                   key={c.id}
-                  className={`filter-chip ${selectedCats.includes(c.id) ? 'active' : ''}`}
+                  active={selectedCats.includes(c.id)}
                   onClick={() => toggleCategory(c.id)}
                   title={c.blurb}
                 >
-                  {c.icon} {c.short}
-                </button>
+                  <CategoryIcon id={c.id} size={16} aria-hidden="true" /> {c.short}
+                </Chip>
               ))}
             </div>
           </div>
 
           {draft.count > available && (
-            <p className="setup-warning">
-              Only {available} questions match these filters, so the round will be {available} long.
+            <p className="setup-warning" role="status">
+              Only {fmt(available)} questions match these filters, so the round will be {fmt(available)} long.
             </p>
           )}
         </div>

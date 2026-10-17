@@ -1,10 +1,11 @@
 import React from 'react';
-import { ArrowRight, CalendarDays, CheckCircle2, Eye, RotateCcw, Shuffle, XCircle } from 'lucide-react';
 import data from '../../data/obscure.json';
 import { buildLinkRounds, linkPoints, CLUES } from './linkLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { AnswerRow, Button, GameCard, GameResults, Pill } from '../../components/ui';
+import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 
 /**
  * Missing link: clues arrive one at a time, rarest first. Pick the link from
@@ -23,21 +24,23 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
 
   if (!game) {
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Missing link</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
+      <GameSetup
+        title="Missing link"
+        section="lab"
+        onExit={onExit}
+        record={
+          <>
+            Four clues, rarest first. Name the link as early as you dare: 4 points after one clue, 1 after all four,
+            nothing if wrong. Five rounds.
+            {entry.plays ? ` ${entry.plays} played · best ${entry.best}/20.` : ''}
+          </>
+        }
+      >
+        <div className="setup-actions">
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's five</Button>
+          <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
-        <p className="game-record">
-          Four clues, rarest first. Name the link as early as you dare: 4 points after one clue, 1 after all four,
-          nothing if wrong. Five rounds.
-          {entry.plays ? ` ${entry.plays} played · best ${entry.best}/20.` : ''}
-        </p>
-        <div className="actions-bar">
-          <button className="btn btn-primary" onClick={() => start(true)}><CalendarDays size={18} /> Today's five</button>
-          <button className="btn btn-ghost" onClick={() => start(false)}><Shuffle size={18} /> Random</button>
-        </div>
-      </div>
+      </GameSetup>
     );
   }
 
@@ -46,21 +49,26 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
 
   if (index >= rounds.length) {
     return (
-      <div className="card game-results">
-        <h2>{total} / {rounds.length * CLUES}</h2>
-        <div className="ny-summary">
-          {rounds.map((r, i) => (
-            <div key={r.id} className="ny-sum-row">
-              <span>{r.link}</span>
-              <strong>{results[i].points ? `${results[i].points} pts` : 'missed'}</strong>
-            </div>
-          ))}
-        </div>
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={() => start(false)}><RotateCcw size={18} /> Another five</button>
-          <button className="btn btn-ghost" onClick={() => setGame(null)}>Back</button>
-        </div>
-      </div>
+      <GameResults
+        data-section="lab"
+        eyebrow="Missing link"
+        hero={`${total} / ${rounds.length * CLUES}`}
+        score={total}
+        total={rounds.length * CLUES}
+        verdict={total >= rounds.length * 3 ? 'Sharp. You named the links early.' : total > 0 ? 'Some links landed. The rest are below.' : 'No links this time. They are all below.'}
+        squares={results.map((x) => x.points > 0)}
+        celebrate={total === rounds.length * CLUES}
+        onPlayAgain={() => start(false)}
+        playAgainLabel="Another five"
+        onChangeSettings={() => setGame(null)}
+        settingsLabel="Back"
+      >
+        {rounds.map((r, i) => (
+          <AnswerRow key={r.id} state={results[i].points ? 'got' : 'missed'} trail={results[i].points ? `${results[i].points} pts` : 'missed'}>
+            {r.link}
+          </AnswerRow>
+        ))}
+      </GameResults>
     );
   }
 
@@ -80,11 +88,10 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
   };
 
   return (
-    <div className="card geo-question">
-      <div className="progress-text">
-        <span>Round {index + 1} of {rounds.length}</span>
-        <span className="score-pill">{total} pts</span>
-      </div>
+    <GameCard data-section="lab">
+      <PlayHead left={`Round ${index + 1} of ${rounds.length}`}>
+        <Pill variant="accent">{total} pts</Pill>
+      </PlayHead>
 
       <ol className="ml-clues">
         {r.clues.map((c, i) => (
@@ -95,35 +102,31 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
       </ol>
 
       {!done && shown < CLUES && (
-        <div className="actions-bar centered">
-          <button className="btn btn-ghost" onClick={() => setGame({ ...game, shown: shown + 1 })}>
-            <Eye size={16} /> Next clue (worth {linkPoints(shown + 1)} after)
-          </button>
+        <div className="play-grade">
+          <Button variant="secondary" icon="Eye" onClick={() => setGame({ ...game, shown: shown + 1 })}>
+            Next clue (worth {linkPoints(shown + 1)} after)
+          </Button>
         </div>
       )}
 
-      <p className="geo-ask">{done ? 'The link' : `What links them? Worth ${linkPoints(shown)} now`}</p>
-      <div className="options-grid">
+      <Ask>{done ? 'The link' : `What links them? Worth ${linkPoints(shown)} now`}</Ask>
+      <OptionGrid>
         {r.options.map((opt, i) => {
-          let state = '';
-          if (done) state = i === r.correctIndex ? 'correct' : i === res.picked ? 'incorrect' : 'disabled';
+          let state = 'idle';
+          if (done) state = i === r.correctIndex ? 'correct' : i === res.picked ? 'wrong' : 'dim';
           return (
-            <button key={opt} className={`option-btn ${state}`} disabled={done} onClick={() => pick(i)}>
-              <span className="option-label">{opt}</span>
-              {done && i === r.correctIndex && <CheckCircle2 className="icon-right" size={20} />}
-              {done && i === res.picked && i !== r.correctIndex && <XCircle className="icon-wrong" size={20} />}
-            </button>
+            <Option key={opt} letter={'ABCD'[i]} state={state} disabled={done} onClick={() => pick(i)}>
+              {opt}
+            </Option>
           );
         })}
-      </div>
+      </OptionGrid>
 
       {done && (
-        <div className="next-action-bar">
-          <button className="btn btn-primary next-btn" autoFocus onClick={() => setGame({ ...game, index: index + 1, shown: 1 })}>
-            {index < rounds.length - 1 ? 'Next round' : 'Results'} <ArrowRight size={18} />
-          </button>
-        </div>
+        <NextBar onClick={() => setGame({ ...game, index: index + 1, shown: 1 })}>
+          {index < rounds.length - 1 ? 'Next round' : 'Results'}
+        </NextBar>
       )}
-    </div>
+    </GameCard>
   );
 }

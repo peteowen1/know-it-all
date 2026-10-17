@@ -1,10 +1,13 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2, RotateCcw, XCircle } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import data from '../../data/vocab.json';
 import { buildVocabRounds, isCorrect, explainRound } from './vocabLogic';
 import { gameEntry, itemWeights, weakestItems } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import TestMode from './TestMode';
+import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow } from '../../components/ui';
+import { Ask, GameSetup, Option, OptionGrid, PlayHead } from '../shared/Play';
+import { verdictFor } from '../shared/verdict';
 import { testContext, newTest, TEST_LENGTHS, scaleBounds, formatLevel } from './vocabTest.js';
 
 const ALL_WORDS = data.groups.flatMap((g) => g.words.map(([w, d]) => ({ w, d })));
@@ -93,60 +96,55 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
   if (!game) {
     const weak = weakestItems(stats, 'vocab', 8);
     return (
-      <div className="card game-setup">
-        <div className="game-setup-head">
-          <h2>Word play</h2>
-          <button className="btn btn-ghost" onClick={onExit}>All games</button>
-        </div>
+      <GameSetup title="Word play" section="words" onExit={onExit}>
         <section className="vp-mode">
           <h3>Practise</h3>
-          <p className="game-record">
+          <p className="setup-record">
             Every answer shows what each word means and its whole family, and words you miss come back more often.
             {entry.plays ? ` ${entry.plays} played · best ${entry.bestPct}%.` : ''}
           </p>
-          <div className="vp-choice">
+          <SetupRow label="Kind">
             {Object.entries(TYPE_LABEL).map(([k, label]) => (
-              <button key={k} className={`btn ${prefs.type === k ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, type: k })}>{label}</button>
+              <Chip key={k} active={prefs.type === k} onClick={() => setPrefs({ ...prefs, type: k })}>{label}</Chip>
             ))}
-          </div>
-          <div className="vp-choice">
+          </SetupRow>
+          <SetupRow label="Level">
             {Object.entries(LEVEL_LABEL).map(([k, label]) => (
-              <button key={k} className={`btn ${prefs.level === k ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, level: k })}>{label}</button>
+              <Chip key={k} active={prefs.level === k} onClick={() => setPrefs({ ...prefs, level: k })}>{label}</Chip>
             ))}
-          </div>
-          <div className="vp-choice">
+          </SetupRow>
+          <SetupRow label="Length">
             {PRACTICE_LENGTHS.map((n) => (
-              <button key={n} className={`btn ${practiceLength === n ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, practiceLength: n })}>{n} rounds</button>
+              <Chip key={n} active={practiceLength === n} onClick={() => setPrefs({ ...prefs, practiceLength: n })}>{n} rounds</Chip>
             ))}
-          </div>
-          <button className="btn btn-primary" onClick={start}>Start practice</button>
+          </SetupRow>
+          <Button variant="primary" className="game-start" onClick={start}>Start practice</Button>
         </section>
         <section className="vp-mode">
           <h3>Test</h3>
-          <p className="game-record">
+          <p className="setup-record">
             Questions get harder as you get them right, and answers are shown at the end. Gives you a level based on how
             rare the words you know are; the longer test is more precise.
             {history.length ? ` Last test: ${formatLevel(history[history.length - 1].level, BOUNDS)}.` : ''}
           </p>
-          <div className="vp-choice">
+          <SetupRow label="Length">
             {TEST_LENGTHS.map((n) => (
-              <button key={n} className={`btn ${testLength === n ? 'btn-primary' : 'btn-ghost'}`} onClick={() => setPrefs({ ...prefs, testLength: n })}>{n} questions</button>
+              <Chip key={n} active={testLength === n} onClick={() => setPrefs({ ...prefs, testLength: n })}>{n} questions</Chip>
             ))}
-          </div>
-          <button className="btn btn-primary" onClick={startTest}>Start test</button>
+          </SetupRow>
+          <Button variant="secondary" className="game-start" onClick={startTest}>Start test</Button>
         </section>
         {weak.length > 0 && (
           <div className="vp-weak">
-            <h3>Your tricky words</h3>
+            <h3 className="eyebrow">Your tricky words</h3>
             {weak.map((x) => (
-              <div key={x.key} className="ny-sum-row">
-                <span><strong>{x.key}</strong>: {DEF.get(x.key)}</span>
-                <span>{x.correct}/{x.seen}</span>
-              </div>
+              <AnswerRow key={x.key} state="missed" trail={`${x.correct}/${x.seen}`}>
+                <strong>{x.key}</strong>: {DEF.get(x.key)}
+              </AnswerRow>
             ))}
           </div>
         )}
-      </div>
+      </GameSetup>
     );
   }
 
@@ -155,21 +153,23 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
 
   if (index >= rounds.length) {
     return (
-      <div className="card game-results">
-        <h2>{score} / {rounds.length}</h2>
-        <div className="ny-summary">
-          {rounds.map((r, i) => (
-            <div key={r.id} className="ny-sum-row">
-              <span><strong>{r.target}</strong>: {DEF.get(r.target)}</span>
-              <strong>{results[i].correct ? '✓' : '✗'}</strong>
-            </div>
-          ))}
-        </div>
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" onClick={start}><RotateCcw size={18} /> Play again</button>
-          <button className="btn btn-ghost" onClick={() => setGame(null)}>Back</button>
-        </div>
-      </div>
+      <GameResults
+        data-section="words"
+        eyebrow="Word play"
+        score={score}
+        total={rounds.length}
+        verdict={verdictFor(score, rounds.length)}
+        squares={results.map((x) => x.correct)}
+        onPlayAgain={start}
+        onChangeSettings={() => setGame(null)}
+        settingsLabel="Back"
+      >
+        {rounds.map((r, i) => (
+          <AnswerRow key={r.id} state={results[i].correct ? 'got' : 'missed'}>
+            <strong>{r.target}</strong>: {DEF.get(r.target)}
+          </AnswerRow>
+        ))}
+      </GameResults>
     );
   }
 
@@ -197,32 +197,29 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
   }
 
   return (
-    <div className="card geo-question">
-      <div className="progress-text">
-        <span>Round {index + 1} of {rounds.length} · {TYPE_LABEL[r.type]}</span>
-        <span className="score-pill">{score} right</span>
-      </div>
+    <GameCard data-section="words">
+      <PlayHead left={`Round ${index + 1} of ${rounds.length} · ${TYPE_LABEL[r.type]}`}>
+        <Pill variant="accent">{score} right</Pill>
+      </PlayHead>
 
-      <p className="geo-ask">{ask(r)}</p>
-      <div className="options-grid">
-        {r.options.map((w) => {
-          let state = picked.includes(w) ? 'selected' : '';
-          if (done) state = r.answer.includes(w) ? 'correct' : picked.includes(w) ? 'incorrect' : 'disabled';
+      <Ask>{ask(r)}</Ask>
+      <OptionGrid>
+        {r.options.map((w, i) => {
+          let state = picked.includes(w) ? 'selected' : 'idle';
+          if (done) state = r.answer.includes(w) ? 'correct' : picked.includes(w) ? 'wrong' : 'dim';
           return (
-            <button key={w} className={`option-btn ${state}`} disabled={done} onClick={() => toggle(w)}>
-              <span className="option-label">{w}</span>
-              {done && r.answer.includes(w) && <CheckCircle2 className="icon-right" size={20} />}
-              {done && picked.includes(w) && !r.answer.includes(w) && <XCircle className="icon-wrong" size={20} />}
-            </button>
+            <Option key={w} letter={'ABCDEFGH'[i]} pressable={r.pick > 1 && !done} state={state} disabled={done} onClick={() => toggle(w)}>
+              {w}
+            </Option>
           );
         })}
-      </div>
+      </OptionGrid>
 
       {!done && r.pick > 1 && (
-        <div className="actions-bar centered">
-          <button className="btn btn-primary" disabled={picked.length !== r.pick} onClick={() => submit(picked)}>
+        <div className="play-grade">
+          <Button variant="primary" disabled={picked.length !== r.pick} onClick={() => submit(picked)}>
             Check ({picked.length}/{r.pick})
-          </button>
+          </Button>
         </div>
       )}
 
@@ -230,7 +227,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
         <div className="vp-reveal">
           <ul className="vp-defs">
             {info.options.map((o) => (
-              <li key={o.word} className={o.right ? 'right' : ''}>
+              <li key={o.word} data-right={o.right ? 'true' : 'false'}>
                 <strong>{o.word}</strong> {ROLE_LABEL[o.role] && <em>({ROLE_LABEL[o.role]})</em>}
                 <div>{o.def}</div>
               </li>
@@ -245,11 +242,11 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
 
       {done && (
         <div className="next-action-bar">
-          <button className="btn btn-primary next-btn" autoFocus onClick={() => setGame({ ...game, index: index + 1, picked: [] })}>
-            {index < rounds.length - 1 ? 'Next' : 'Results'} <ArrowRight size={18} />
-          </button>
+          <Button variant="primary" className="next-btn" autoFocus onClick={() => setGame({ ...game, index: index + 1, picked: [] })}>
+            {index < rounds.length - 1 ? 'Next' : 'Results'} <ArrowRight size={18} aria-hidden="true" />
+          </Button>
         </div>
       )}
-    </div>
+    </GameCard>
   );
 }
