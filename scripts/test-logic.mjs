@@ -34,6 +34,8 @@ import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess, romanToInt } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
+import { pathForTab, tabForPath } from '../src/lib/route.js';
+import { GAMES } from '../src/games/registry.js';
 import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
   loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
@@ -985,6 +987,23 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
 
   test('sync: unreadable data on one side does not throw', () =>
     assert.doesNotThrow(() => mergeSnapshots({ sqt_v4_stats: stats(5) }, { sqt_v4_stats: '{bad', sqt_v4_missed: 'null', sqt_v4_games: '{"geo":{}}' })));
+}
+
+
+// -------------------------------------------------------------- addresses
+{
+  test('route: every game and screen has an address that leads back to it', () => {
+    const tabs = [...GAMES.map((g) => g.tab), 'home', 'analytics', 'settings', 'revision', 'challenge'];
+    for (const tab of tabs) assert.equal(tabForPath(pathForTab(tab)), tab, tab);
+    assert.equal(new Set(tabs.map(pathForTab)).size, new Set(tabs).size, 'two screens share an address');
+  });
+  test('route: readable names, home at /, trailing slash and case ignored', () => {
+    assert.equal(pathForTab('daily'), '/daily-five');
+    assert.equal(pathForTab('home'), '/');
+    assert.equal(tabForPath('/'), 'home');
+    assert.equal(tabForPath('/Clue-Ladder/'), 'clue-ladder');
+    assert.equal(tabForPath('/%'), '%');
+  });
 }
 
 
