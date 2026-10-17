@@ -38,10 +38,14 @@ test('masks accented forms', () => assert.equal(maskText('Beyoncé sang', 'Beyon
 test('leaves unrelated words alone', () => assert.equal(maskText('Cat sat on a mat', 'Dog'), 'Cat sat on a mat'));
 
 test('skips numeric and year answers', () => {
-  const base = { explanation: 'word '.repeat(20), hook: 'hook here', distractors: ['a', 'b', 'c'] };
+  const base = { explanation: 'word '.repeat(20) + 'Paris 1066 206', hook: 'hook here', distractors: ['a', 'b', 'c'] };
   assert.equal(buildRung({ ...base, answer: '1066' }), null);
   assert.equal(buildRung({ ...base, answer: '206' }), null);
   assert.notEqual(buildRung({ ...base, answer: 'Paris' }), null);
+});
+test('rejects an explanation with no blank to fill', () => {
+  const q = { answer: 'Newspaper editor', hook: 'h', distractors: ['a', 'b', 'c'], explanation: 'Bloomer edited The Lily, a women2019s paper, and printed pictures of the outfit designed by Elizabeth Smith Miller.' };
+  assert.equal(buildRung(q), null);
 });
 test('rejects an explanation that is too short once masked', () => {
   const q = { answer: 'Paris', hook: 'h', distractors: ['a', 'b', 'c'], explanation: 'Paris is the capital of France and Paris is big.' };
@@ -89,6 +93,15 @@ test('no distractor anywhere in the bank is accepted as the answer', () => {
   const known = knownAnswers(ALL);
   const wrong = ALL.filter(buildRung).flatMap((q) => q.distractors.filter((d) => guessIsRight(d, q.answer, q.distractors, known)).map((d) => `${q.id}: ${d}`));
   assert.deepEqual(wrong, []);
+});
+
+test('generic words can be left off', () => {
+  assert.ok(guessIsRight('gum', 'The gum tree'));
+  assert.ok(guessIsRight('Everest', 'Mount Everest'));
+  assert.ok(guessIsRight('pacific', 'Pacific Ocean'));
+  assert.ok(guessIsRight('coolibah', 'A coolibah tree'));
+  assert.ok(!guessIsRight('tree', 'The gum tree'));
+  assert.ok(!guessIsRight('wattle', 'The gum tree', ['The wattle', 'The boab', 'The banksia']));
 });
 
 test('one-character-apart answers need exact typing', () => {

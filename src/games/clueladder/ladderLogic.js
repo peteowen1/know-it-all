@@ -4,6 +4,10 @@
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 import { normalise } from '../names/nameMatch.js';
 import { rowMatches } from '../lists/listMatch.js';
+import { CLUE_LADDER_SKIP } from '../../data/clueLadderSkip.js';
+
+// Questions a playtest found unfair as ladders, kept out by id.
+const SKIP = new Set(CLUE_LADDER_SKIP);
 
 export const ROUNDS = 5;
 export const RUNGS = 4;
@@ -20,7 +24,8 @@ const TOKEN = /[\p{L}\p{N}]+(?:['’][\p{L}]+)?/gu;
 function stem(w) {
   let s = w;
   if (s.length > 3) s = s.replace(/s$/, '');
-  if (s.length > 3) s = s.replace(/e$/, '');
+  // Kept to four letters or more, or "Andes" would come down to "and".
+  if (s.length > 4) s = s.replace(/e$/, '');
   return s;
 }
 
@@ -70,6 +75,20 @@ export function buildRung(q) {
   const explanation = maskText(q.explanation, q.answer);
   const hook = maskText(q.hook, q.answer);
   if (countWords(explanation) < MIN_WORDS) return null;
+  // The first clue has to hold a blank to fill. An explanation that never
+  // names the answer ("Bloomer edited The Lily..." for "Newspaper editor")
+  // leaves nothing to guess until the question itself appears.
+  if (!explanation.includes(MASK)) return null;
+  // And the blanks have to be the answer: every distinctive word of it must
+  // appear in the first clue as itself (or its plural). Otherwise "Buckingham
+  // Palace" blanks only the "Palace" of Kensington Palace, "Adrian IV" blanks
+  // the Adrian of Adrian VI, and a definition answer blanks one stray word.
+  const tokens = normalise(q.explanation).split(' ');
+  const core = words.filter((w) => !GENERIC.has(w));
+  // A one-letter answer ("N") would blank every stray letter in the text.
+  if (core.some((w) => w.length < 2)) return null;
+  if (!core.every((w) => tokens.some((t) => t === w || (w.length > 3 && stem(t) === stem(w))))) return null;
+  if (SKIP.has(q.id)) return null;
   const left = ` ${normalise(explanation)} `;
   if (left.includes(` ${normalise(q.answer)} `)) return null;
   if (words.some((w) => left.includes(` ${w} `))) return null;
@@ -110,6 +129,21 @@ function acceptedForms(answer) {
 
 const dropThe = (s) => normalise(s).replace(/^the /, '');
 
+// Words a person naturally leaves off: "gum" for "The gum tree", "Everest" for
+// "Mount Everest", "Pacific" for "Pacific Ocean".
+const GENERIC = new Set(['tree', 'trees', 'river', 'mount', 'mountain', 'mountains', 'lake', 'ocean', 'sea', 'island', 'islands', 'desert', 'city']);
+
+/** The answer's forms with generic words removed, when something distinctive is left. */
+function shortForms(answer) {
+  const out = new Set();
+  for (const f of acceptedForms(answer)) {
+    const words = dropThe(f).replace(/^an? /, '').split(' ');
+    const kept = words.filter((w) => !GENERIC.has(w));
+    if (kept.length && kept.length < words.length) out.add(kept.join(' '));
+  }
+  return [...out];
+}
+
 /** Every answer and distractor in the bank, normalised: the wrong answers a typo allowance must not land on. */
 export function knownAnswers(questions) {
   const known = new Set();
@@ -119,7 +153,8 @@ export function knownAnswers(questions) {
 
 // Henry VII and Henry VIII, Vitamin C and D, "About 55 per cent": one character
 // apart and both real answers, so these must be typed exactly.
-const needsExact = (answer) => /\d|\b[IVXLC]+\b|\b[A-Z]\b/.test(answer);
+// A leading "A" ("A coolibah tree") is the article, not a letter.
+const needsExact = (answer) => /\d|\b[IVXLC]+\b|\b[A-Z]\b/.test(answer.replace(/^an? /i, ''));
 
 /**
  * Is the typed guess this question's answer? Ignores case, punctuation and a
@@ -135,5 +170,5 @@ export function guessIsRight(guess, answer, distractors = [], known = new Set())
   if (accept.includes(g)) return true;
   if (needsExact(answer) || known.has(g)) return false;
   if (rowMatches(g, { accept: distractors.flatMap(acceptedForms).map(dropThe) })) return false;
-  return rowMatches(g, { accept });
+  return rowMatches(g, { accept: [...accept, ...shortForms(answer)] });
 }

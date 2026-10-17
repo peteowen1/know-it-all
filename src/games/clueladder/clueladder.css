@@ -29,6 +29,15 @@
   color: var(--ink);
   overflow-wrap: anywhere;
 }
+/* A hidden word: a gap about a word wide, underlined so it reads as a blank. */
+.cl-blank {
+  display: inline-block;
+  width: 3em;
+  height: 1em;
+  margin: 0 0.15em;
+  border-bottom: 2px dashed var(--accent);
+  vertical-align: -0.1em;
+}
 .cl-misses {
   text-align: center;
   color: var(--ink-3);
