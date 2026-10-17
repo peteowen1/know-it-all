@@ -110,9 +110,30 @@ function acceptedForms(answer) {
 
 const dropThe = (s) => normalise(s).replace(/^the /, '');
 
-/** Is the typed guess this question's answer? Ignores case, punctuation and a leading "The"; allows small typos. */
-export function guessIsRight(guess, answer) {
+/** Every answer and distractor in the bank, normalised: the wrong answers a typo allowance must not land on. */
+export function knownAnswers(questions) {
+  const known = new Set();
+  for (const q of questions) for (const o of [q.answer, ...q.distractors]) for (const f of acceptedForms(o)) known.add(dropThe(f));
+  return known;
+}
+
+// Henry VII and Henry VIII, Vitamin C and D, "About 55 per cent": one character
+// apart and both real answers, so these must be typed exactly.
+const needsExact = (answer) => /\d|\b[IVXLC]+\b|\b[A-Z]\b/.test(answer);
+
+/**
+ * Is the typed guess this question's answer? Ignores case, punctuation and a
+ * leading "The", and allows small typos, except where a typo could land on a
+ * different real answer: a guess that is exactly another option or another
+ * answer in the bank (`known`) is wrong, and so is one within a typo of this
+ * question's own distractors.
+ */
+export function guessIsRight(guess, answer, distractors = [], known = new Set()) {
   const g = dropThe(guess);
   if (!g) return false;
-  return rowMatches(g, { accept: acceptedForms(answer).map(dropThe) });
+  const accept = acceptedForms(answer).map(dropThe);
+  if (accept.includes(g)) return true;
+  if (needsExact(answer) || known.has(g)) return false;
+  if (rowMatches(g, { accept: distractors.flatMap(acceptedForms).map(dropThe) })) return false;
+  return rowMatches(g, { accept });
 }

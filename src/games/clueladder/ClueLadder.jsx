@@ -5,7 +5,7 @@ import { usePersistentState } from '../../lib/persist';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
 import RouteFallback from '../../components/RouteFallback';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
-import { ROUNDS, RUNGS, buildRung, guessIsRight, ladderPoints, pickRounds } from './ladderLogic';
+import { ROUNDS, RUNGS, buildRung, guessIsRight, knownAnswers, ladderPoints, pickRounds } from './ladderLogic';
 import './clueladder.css';
 
 const RUNG_LABEL = ['', 'The explanation', 'The hook', 'The question', 'Choose one'];
@@ -38,8 +38,11 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
 
   const byId = useMemo(() => (bank ? new Map(bank.map((q) => [q.id, q])) : null), [bank]);
 
-  // A saved round whose questions are no longer in the bank cannot be played on.
-  const stale = Boolean(game && byId && game.rounds.some((r) => !byId.has(r.id)));
+  const known = useMemo(() => (bank ? knownAnswers(bank) : null), [bank]);
+
+  // A saved round cannot be played on if a question has left the bank, or was
+  // edited so it no longer makes a fair ladder.
+  const stale = Boolean(game && byId && game.rounds.some((r) => !byId.has(r.id) || !buildRung(byId.get(r.id))));
   useEffect(() => {
     if (stale) setGame(null);
   }, [stale, setGame]);
@@ -139,7 +142,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
     e.preventDefault();
     const g = guess.trim();
     if (done || !g) return;
-    if (guessIsRight(g, q.answer)) {
+    if (guessIsRight(g, q.answer, q.distractors, known || undefined)) {
       finish(ladderPoints(rung), { guess: g });
     } else {
       setGame({ ...game, rung: rung + 1, misses: [...misses, g] });

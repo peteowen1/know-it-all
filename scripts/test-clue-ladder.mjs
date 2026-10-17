@@ -2,7 +2,7 @@
 // Tests for Clue ladder's pure logic (masking, fair-ladder filter, picking, guess matching).
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { maskText, buildRung, pickRounds, guessIsRight, ladderPoints, eligibleQuestions, MASK } from '../src/games/clueladder/ladderLogic.js';
+import { maskText, buildRung, pickRounds, guessIsRight, knownAnswers, ladderPoints, eligibleQuestions, MASK } from '../src/games/clueladder/ladderLogic.js';
 
 let pass = 0;
 const failures = [];
@@ -83,6 +83,24 @@ test('pickRounds: 5 distinct, mixed, deterministic, options hold the answer', ()
     assert.equal(r.options.length, 4);
     assert.ok(r.options.includes(byId.get(r.id).answer));
   }
+});
+
+test('no distractor anywhere in the bank is accepted as the answer', () => {
+  const known = knownAnswers(ALL);
+  const wrong = ALL.filter(buildRung).flatMap((q) => q.distractors.filter((d) => guessIsRight(d, q.answer, q.distractors, known)).map((d) => `${q.id}: ${d}`));
+  assert.deepEqual(wrong, []);
+});
+
+test('one-character-apart answers need exact typing', () => {
+  assert.equal(guessIsRight('Henry VII', 'Henry VIII'), false);
+  assert.equal(guessIsRight('Vitamin D', 'Vitamin C'), false);
+  assert.equal(guessIsRight('henry viii', 'Henry VIII'), true);
+});
+
+test('every answer is accepted as typed', () => {
+  const known = knownAnswers(ALL);
+  const rejected = ALL.filter(buildRung).filter((q) => !guessIsRight(q.answer, q.answer, q.distractors, known)).map((q) => q.id);
+  assert.deepEqual(rejected, []);
 });
 
 if (failures.length) {

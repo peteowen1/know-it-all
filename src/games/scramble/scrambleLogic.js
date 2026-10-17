@@ -3,7 +3,7 @@
 // scripts/test-scramble.mjs can run it directly.
 
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
-import { normalise } from '../names/nameMatch.js';
+import { normalise, editDistance } from '../names/nameMatch.js';
 import { rowMatches } from '../lists/listMatch.js';
 import { countryPool } from '../geo/geoPool.js';
 
@@ -67,9 +67,16 @@ function acceptList(country, mode) {
 export function answerFor(country, mode) {
   const answer = mode === 'capitals' ? country.capitals?.[0] : country.name;
   if (!isPuzzleWord(answer)) return null;
-  // Singapore, Monaco: the capital is the country, so the hint would give it away.
-  if (mode === 'capitals' && normalise(answer) === normalise(country.name)) return null;
+  // Singapore, Monaco, and Tunis, Kuwait City, San Salvador: the hint "Capital
+  // of <country>" would hand over the capital, or most of it.
+  if (mode === 'capitals' && sharesWord(answer, country.name)) return null;
   return answer;
+}
+
+const words = (s) => normalise(s).split(' ').filter((w) => w.length >= 4);
+function sharesWord(capital, countryName) {
+  const inName = words(countryName);
+  return words(capital).some((w) => inName.some((n) => n.startsWith(w.slice(0, 4)) || w.startsWith(n.slice(0, 4))));
 }
 
 export const hintFor = (country, mode) =>
@@ -79,7 +86,13 @@ export const hintFor = (country, mode) =>
  * Is the typed text one of the accepted spellings? Uses the same typed-answer
  * matcher as Fill the list: one typo allowed from five letters, two from nine.
  */
-export const isCorrect = (guess, round) => rowMatches(guess, { accept: round.accept });
+export function isCorrect(guess, round) {
+  if (rowMatches(guess, { accept: round.accept }, { exact: true })) return true;
+  // A typo allowance must not turn a different real name into a right answer
+  // (Australia for Austria, Zambia for Gambia, Kingston for Kingstown).
+  if (round.reject?.some((r) => normalise(r) === normalise(guess))) return false;
+  return rowMatches(guess, { accept: round.accept });
+}
 
 /**
  * `count` rounds for a mode and region, in a seeded order. Each round is plain
@@ -88,6 +101,9 @@ export const isCorrect = (guess, round) => rowMatches(guess, { accept: round.acc
 export function buildScrambleRounds(countries, { mode = 'countries', region = 'World', seed = Date.now(), count = ROUNDS } = {}) {
   const rand = makeRng(hashString(`scramble:${mode}:${region}:${seed}`));
   const pool = countryPool(countries, { region, needs: mode === 'capitals' ? 'capitals' : null });
+  // Every other name of the same kind: a guess equal to one of these is wrong
+  // even when it is within a typo of this round's answer.
+  const allNames = countries.flatMap((c) => acceptList(c, mode));
   const rounds = [];
   for (const c of shuffle(pool, rand)) {
     if (rounds.length === count) break;
@@ -95,7 +111,11 @@ export function buildScrambleRounds(countries, { mode = 'countries', region = 'W
     if (!answer) continue;
     const tiles = scrambleText(answer, rand);
     if (!tiles) continue;
-    rounds.push({ key: c.code, answer, tiles, accept: acceptList(c, mode), hint: hintFor(c, mode) });
+    const accept = acceptList(c, mode);
+    const own = new Set(accept.map(normalise));
+    const target = normalise(answer);
+    const reject = [...new Set(allNames.filter((n) => !own.has(normalise(n)) && editDistance(normalise(n), target, 2) <= 2))];
+    rounds.push({ key: c.code, answer, tiles, accept, reject, hint: hintFor(c, mode) });
   }
   return rounds;
 }
