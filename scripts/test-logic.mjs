@@ -34,7 +34,7 @@ import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess, romanToInt } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
-import { diffSnapshot, planPull, mergeSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
+import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
   loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
@@ -92,6 +92,14 @@ test('answering early does not advance the schedule', () => {
   const after = recordHit(v, 'q1', '2026-01-01');
   assert.equal(after[0].box, 0);
   assert.equal(after[0].due, v[0].due);
+});
+
+test('answering early restarts the wait without climbing a box', () => {
+  const v = [{ id: 'q1', box: 2, due: '2026-01-06', lapses: 0, reps: 2, added: '2025-12-01' }];
+  const after = recordHit(v, 'q1', '2026-01-03');
+  assert.equal(after[0].box, 2);
+  assert.equal(after[0].due, '2026-01-10', 'today plus the box 2 interval of 7 days');
+  assert.equal(after[0].reps, 3);
 });
 
 test('full ladder promotes through every interval then graduates', () => {
@@ -940,6 +948,39 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
     const w = mergeSnapshots({ sqt_v4_stats: stats(10) }, { sqt_v4_stats: stats(0), sqt_v4_live_quiz_quiz: '{"ids":["a"]}' });
     assert.equal(w.sqt_v4_stats, undefined);
     assert.equal(w.sqt_v4_live_quiz_quiz, '{"ids":["a"]}');
+  });
+
+  test('sync: signing back in to the same account never doubles the totals', () => {
+    const base = { sqt_v4_stats: stats(40), sqt_v4_setup: '{"count":10}' };
+    // Nothing played anywhere since: nothing to write.
+    assert.deepEqual(rebaseSnapshots({ ...base }, { ...base }, base), {});
+    // Played on the phone since, not here: take the account's copy.
+    const w = rebaseSnapshots({ ...base }, { ...base, sqt_v4_stats: stats(60) }, base);
+    assert.equal(JSON.parse(w.sqt_v4_stats).totalAnswered, 60);
+  });
+
+  test('sync: re-sign-in keeps what was played here while signed out', () => {
+    const base = { sqt_v4_stats: stats(40) };
+    assert.deepEqual(rebaseSnapshots({ sqt_v4_stats: stats(50) }, { ...base }, base), {}, 'local copy stays and is pushed');
+  });
+
+  test('sync: re-sign-in with play on both sides adds only the new play', () => {
+    const base = { sqt_v4_stats: stats(40), sqt_v4_games: '{"geo":{"plays":3,"best":5,"items":{"fr":{"seen":2,"correct":1}}}}' };
+    const local = { sqt_v4_stats: stats(50), sqt_v4_games: '{"geo":{"plays":4,"best":9,"items":{"fr":{"seen":3,"correct":2}}}}' };
+    const server = { sqt_v4_stats: stats(60), sqt_v4_games: '{"geo":{"plays":5,"best":6,"items":{"fr":{"seen":2,"correct":1}}}}' };
+    const w = rebaseSnapshots(local, server, base);
+    const st = JSON.parse(w.sqt_v4_stats);
+    assert.equal(st.totalAnswered, 70, '60 on the account plus 10 played here');
+    assert.equal(st.categoryStats.geo.total, 70);
+    const geo = JSON.parse(w.sqt_v4_games).geo;
+    assert.equal(geo.plays, 6);
+    assert.equal(geo.best, 9);
+    assert.deepEqual(geo.items.fr, { seen: 3, correct: 2 });
+  });
+
+  test('sync: re-sign-in copies a deletion made on the account', () => {
+    const base = { sqt_v4_live_quiz_quiz: 'round', sqt_v4_stats: stats(5) };
+    assert.deepEqual(rebaseSnapshots({ ...base }, { sqt_v4_live_quiz_quiz: null, sqt_v4_stats: stats(5) }, base), { sqt_v4_live_quiz_quiz: null });
   });
 
   test('sync: unreadable data on one side does not throw', () =>

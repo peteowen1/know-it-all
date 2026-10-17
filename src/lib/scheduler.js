@@ -135,13 +135,22 @@ export function recordMiss(vault, id, today = localDateKey()) {
   return vault.map((e) => (e.id === id ? demote(e, today) : e));
 }
 
-/** Record a hit. Only moves a question on if it was actually due. */
+/**
+ * Correct answer before the due date. It does not climb a box, since the
+ * intervals only mean something if each is actually waited out, but the wait
+ * restarts from today: there is no point asking again in two days about
+ * something just answered right.
+ */
+export function postpone(entry, today = localDateKey()) {
+  const fresh = addDaysToKey(today, INTERVALS[Math.min(entry.box, INTERVALS.length - 1)]);
+  return { ...entry, due: daysBetween(entry.due, fresh) > 0 ? fresh : entry.due, reps: entry.reps + 1 };
+}
+
+/** Record a hit: a due question moves up a box, an early one is pushed back. */
 export function recordHit(vault, id, today = localDateKey()) {
   const existing = vault.find((e) => e.id === id);
   if (!existing) return vault;
-  // Answering it early — because it turned up in a normal quiz — should not
-  // advance the schedule, or the intervals stop meaning anything.
-  if (!isDue(existing, today)) return vault;
+  if (!isDue(existing, today)) return vault.map((e) => (e.id === id ? postpone(e, today) : e));
   const next = promote(existing, today);
   return next ? vault.map((e) => (e.id === id ? next : e)) : vault.filter((e) => e.id !== id);
 }

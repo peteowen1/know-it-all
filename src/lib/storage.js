@@ -74,4 +74,8 @@ export function clearAllStored() {
   const keys = [];
   for (let i = 0; i < localStorage.length; i++) keys.push(localStorage.key(i));
   keys.filter((k) => RESET_PREFIXES.some((p) => k.startsWith(p))).forEach((k) => localStorage.removeItem(k));
+  // The copy sync.js keeps after signing out. A reset device no longer holds
+  // that account's history, so signing back in should take the account as-is
+  // rather than replay the reset onto it.
+  localStorage.removeItem('kia_sync_base');
 }

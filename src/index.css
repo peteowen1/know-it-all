@@ -413,13 +413,25 @@ button { cursor: pointer; }
 @media (max-width: 519px) {
   .account-trigger-text { display: none; }
   .account-trigger { padding: 0; }
-  /* Four buttons and a big logo have to share 360px: the logo never wraps,
-     the streak shows just its number, the round buttons shrink to 40px. */
+  /* Three round buttons and a big logo share 360px: the logo never wraps and
+     the streak moves down to the games page (.hub-streak), so the buttons
+     keep the full 44px touch size. */
   .wordmark { white-space: nowrap; font-size: min(var(--wm-size), 6.2vw); }
   .header-actions { gap: var(--s-1); }
-  .streak-unit { display: none; }
-  .icon-btn,
-  .account-trigger { width: 40px; min-width: 40px; height: 40px; min-height: 40px; }
+  .header-actions .header-streak { display: none; }
+}
+
+.hub-streak { display: none; }
+@media (max-width: 519px) {
+  .hub-streak {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--s-1);
+    margin: 0 0 var(--s-3);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--ink-2);
+  }
 }
 
 .account-panel {

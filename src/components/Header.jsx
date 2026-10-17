@@ -50,7 +50,7 @@ export default function Header({ onHome, activeTab, setActiveTab, stats, weaknes
         </h1>
 
         <div className="header-actions">
-          <span className="pill" title="Days in a row with a finished quiz">
+          <span className="pill header-streak" title="Days in a row with a finished quiz">
             <Flame size={14} strokeWidth={1.75} aria-hidden="true" />
             {streak}<span className="streak-unit"> day streak</span>
           </span>

@@ -129,3 +129,98 @@ export function mergeSnapshots(local, incoming) {
   writes[WEEKLY] = JSON.stringify({ ...parse(incoming[WEEKLY], {}), ...parse(local[WEEKLY], {}) });
   return writes;
 }
+
+const minus = (a, b) => Math.max(0, (Number(a) || 0) - (Number(b) || 0));
+
+function subtractCounts(now, base) {
+  const out = {};
+  for (const [k, v] of Object.entries(now && typeof now === 'object' ? now : {})) {
+    if (!v || typeof v !== 'object') continue;
+    const b = (base && base[k]) || {};
+    out[k] = { total: minus(v.total, b.total), correct: minus(v.correct, b.correct) };
+  }
+  return out;
+}
+
+/**
+ * What this device added on top of `base`: the counters with the base taken
+ * off, bests and lists left whole (mergeProgress takes the max or the union of
+ * those, so leaving them whole is harmless).
+ */
+function progressSince(side, base) {
+  const s = side.stats;
+  const b = base.stats;
+  const games = {};
+  for (const [id, g] of Object.entries(side.games || {})) {
+    if (!g || typeof g !== 'object') continue;
+    const bg = (base.games || {})[id] || {};
+    const items = {};
+    for (const [k, v] of Object.entries(g.items || {})) {
+      const bi = (bg.items || {})[k] || {};
+      items[k] = { seen: minus(v.seen, bi.seen), correct: minus(v.correct, bi.correct) };
+    }
+    games[id] = { ...g, plays: minus(g.plays, bg.plays), items };
+  }
+  return {
+    ...side,
+    stats: {
+      ...s,
+      totalQuizzes: minus(s.totalQuizzes, b.totalQuizzes),
+      totalAnswered: minus(s.totalAnswered, b.totalAnswered),
+      totalCorrect: minus(s.totalCorrect, b.totalCorrect),
+      categoryStats: subtractCounts(s.categoryStats, b.categoryStats),
+      difficultyStats: subtractCounts(s.difficultyStats, b.difficultyStats)
+    },
+    games
+  };
+}
+
+/**
+ * Signing back in to an account this device was synced with before. Its local
+ * copy is that account's copy (`base`, the last one both sides agreed on) plus
+ * whatever was played here since, so merging it as a separate history would
+ * count the account's totals twice.
+ *
+ * Per key: unchanged here since the base, take the account's copy; unchanged
+ * on the account, keep this device's; changed on both, progress keys add only
+ * what was played here since the base, and anything else takes the account's.
+ *
+ * `server` is { key: rawString | null } (null for a deletion). Returns the
+ * writes to apply locally, null meaning remove.
+ */
+export function rebaseSnapshots(local, server, base) {
+  const writes = {};
+  const both = [];
+  const keys = new Set([...Object.keys(local), ...Object.keys(server), ...Object.keys(base)]);
+  for (const k of keys) {
+    if (!isSyncedKey(k)) continue;
+    const l = local[k] ?? null;
+    const s = server[k] ?? null;
+    const b = base[k] ?? null;
+    if (l === b) {
+      if (s !== l) writes[k] = s;
+    } else if (s !== b && s !== l) {
+      both.push(k);
+      writes[k] = s;
+    }
+  }
+  const progressKeys = new Set(Object.values(PROFILE));
+  if (both.some((k) => progressKeys.has(k))) {
+    const side = (snap) => ({
+      stats: parse(snap[PROFILE.stats], {}),
+      vault: [].concat(parse(snap[PROFILE.vault], [])),
+      recentIds: [].concat(parse(snap[PROFILE.recentIds], [])),
+      games: parse(snap[PROFILE.games], {})
+    });
+    try {
+      const merged = mergeProgress(progressSince(side(local), side(base)), side(server));
+      for (const [field, key] of Object.entries(PROFILE)) if (both.includes(key)) writes[key] = JSON.stringify(merged[field]);
+    } catch {
+      // Unreadable data: the account's copy, already in `writes`, stands.
+    }
+  }
+  if (both.includes(WEEKLY)) {
+    writes[WEEKLY] = JSON.stringify({ ...parse(server[WEEKLY], {}), ...parse(local[WEEKLY], {}) });
+  }
+  return writes;
+}
