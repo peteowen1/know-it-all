@@ -762,9 +762,9 @@
     "question": "Sherry takes its name from an English rendering of which Spanish town?",
     "answer": "Jerez de la Frontera",
     "distractors": [
-      "Seville",
-      "Málaga",
-      "Córdoba"
+      "Medina-Sidonia",
+      "Arcos de la Frontera",
+      "Vejer de la Frontera"
     ],
     "explanation": "Sherry must come from the triangle of Jerez, Sanlúcar de Barrameda and El Puerto de Santa María in Andalucía. Most is made from the Palomino grape and aged in a solera of stacked barrels.",
     "hook": "Say Jerez like an Englishman and you get sherry."
@@ -1028,7 +1028,7 @@
     "question": "Which cocktail was created at the Long Bar of Raffles Hotel in the early 20th century?",
     "answer": "Singapore Sling",
     "distractors": [
-      "Mai Tai",
+      "Planter's Punch",
       "Zombie",
       "Hurricane"
     ],
@@ -1130,7 +1130,7 @@
       "Broadsheet",
       "Time Out"
     ],
-    "explanation": "The Good Food Guide, started by the Sydney Morning Herald and The Age, awards up to three hats. The Michelin Guide makes its first Australian foray with a South Australia edition, its first stars due in October 2026.",
+    "explanation": "The Good Food Guide, started by the Sydney Morning Herald and The Age, awards up to three hats. The Michelin Guide made its first Australian foray in October 2026 with a South Australia edition.",
     "hook": "Australia wears hats; Michelin hands out stars."
   },
   {
@@ -1169,7 +1169,7 @@
     "answer": "The northern Rhône",
     "distractors": [
       "Bordeaux",
-      "The Loire",
+      "The Loire Valley",
       "Alsace"
     ],
     "explanation": "Hermitage and Côte-Rôtie are its most famous appellations. James Busby brought cuttings to Australia in the 1830s, and the Australian name shiraz stuck.",
@@ -1337,7 +1337,7 @@
     "answer": "Emilia-Romagna",
     "distractors": [
       "Tuscany",
-      "Veneto",
+      "Friuli-Venezia Giulia",
       "Lombardy"
     ],
     "explanation": "The same region produces Parmigiano Reggiano and Parma ham, earning it the nickname Food Valley. Traditional balsamic is aged for at least 12 years in a series of ever-smaller barrels.",
@@ -1784,7 +1784,7 @@
     "question": "Besides anise and fennel, which plant gives absinthe its character and name?",
     "answer": "Grande wormwood",
     "distractors": [
-      "Juniper",
+      "Lemon balm",
       "Gentian",
       "Angelica"
     ],
@@ -1818,5 +1818,285 @@
     ],
     "explanation": "Four means oven in French, and old brick ovens were used for delicate pastries as they cooled after the main baking. They are served with coffee after a meal, alongside other mignardises.",
     "hook": "Four is oven, not four."
+  },
+  {
+    "id": "fd_131",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which cured pork cut does an authentic Roman spaghetti alla carbonara use instead of bacon?",
+    "answer": "Guanciale",
+    "distractors": [
+      "Pancetta",
+      "Prosciutto",
+      "Mortadella"
+    ],
+    "explanation": "Guanciale is cured pork cheek, fattier and more deeply flavoured than pancetta, which comes from the belly. A traditional Roman carbonara is made from just guanciale, eggs, pecorino romano and black pepper, with no cream.",
+    "hook": "No cream and no garlic: Rome's carbonara is cheek, egg, cheese and pepper."
+  },
+  {
+    "id": "fd_132",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which grape-based brandy do Peru and Chile both claim as their national spirit?",
+    "answer": "Pisco",
+    "distractors": [
+      "Cachaça",
+      "Mezcal",
+      "Grappa"
+    ],
+    "explanation": "Pisco is distilled from fermented grape juice and is the base of the pisco sour, made with lime juice, sugar, egg white and bitters. Both countries protect the name and argue over who invented it.",
+    "hook": "A grape spirit, a diplomatic row, and a sour with egg white on top."
+  },
+  {
+    "id": "fd_133",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which mould, known in Japan as koji, starts the fermentation of sake, miso and soy sauce?",
+    "answer": "Aspergillus oryzae",
+    "distractors": [
+      "Penicillium roqueforti",
+      "Rhizopus oligosporus",
+      "Fusarium venenatum"
+    ],
+    "explanation": "Koji breaks starch into sugar and proteins into amino acids, which creates the savoury umami flavour; it is grown on rice for sake and on soybeans and wheat for soy sauce. Penicillium roqueforti ripens blue cheese, and Rhizopus oligosporus binds Indonesian tempeh.",
+    "hook": "Koji is the quiet engine behind sake, miso and soy sauce."
+  },
+  {
+    "id": "fd_134",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "What name is given to the grey mould that shrivels grapes on the vine to make sweet wines such as Sauternes and Tokaji?",
+    "answer": "Noble rot",
+    "distractors": [
+      "Powdery mildew",
+      "Black rot",
+      "Downy mildew"
+    ],
+    "explanation": "The fungus Botrytis cinerea pierces the grape skins, so water evaporates while sugars and flavours concentrate. In wet weather the same fungus ruins a crop as grey rot, which is why only some misty vineyards can make these wines.",
+    "hook": "The same fungus is a disaster or a fortune, depending on the weather."
+  },
+  {
+    "id": "fd_135",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which Spanish cured ham comes from black pigs that roam oak pastures eating acorns in autumn?",
+    "answer": "Jamón ibérico",
+    "distractors": [
+      "Jamón serrano",
+      "Lacón gallego",
+      "Cecina de León"
+    ],
+    "explanation": "The best grade, called bellota, comes from Iberian pigs that spend their final months eating acorns in the dehesa oak woodland of south-west Spain. Serrano ham is made from white pigs and is cheaper and milder.",
+    "hook": "Acorns are the secret: the pigs eat their way to the best ham in Spain."
+  },
+  {
+    "id": "fd_136",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which red grape is the backbone of Chianti, grown in central Tuscany?",
+    "answer": "Sangiovese",
+    "distractors": [
+      "Nebbiolo",
+      "Montepulciano",
+      "Barbera"
+    ],
+    "explanation": "Sangiovese is Italy's most planted red grape and gives high-acid, cherry-flavoured wines. Chianti Classico must contain at least 80 percent of it. Nebbiolo makes Barolo in Piedmont, far to the north-west.",
+    "hook": "Its name is said to mean blood of Jove, and Chianti is mostly made of it."
+  },
+  {
+    "id": "fd_137",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which Portuguese island gives its name to a fortified wine that is deliberately heated and keeps for months once opened?",
+    "answer": "Madeira",
+    "distractors": [
+      "Porto Santo",
+      "Pico",
+      "Santa Maria"
+    ],
+    "explanation": "Barrels were once warmed by long sea voyages through the tropics and the wine proved better for it, so producers copied the effect in heated warehouses and warm lofts. The cooking and oxidation make it so stable that an opened bottle lasts for months or longer.",
+    "hook": "Cooked on purpose, and nearly indestructible in the bottle."
+  },
+  {
+    "id": "fd_138",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "On a sparkling-wine label, which term marks the sweetest style?",
+    "answer": "Doux",
+    "distractors": [
+      "Brut",
+      "Extra brut",
+      "Demi-sec"
+    ],
+    "explanation": "Doux has more than 50 grams of sugar per litre. Next come demi-sec, sec and extra dry, with brut and extra brut drier still, so extra dry is sweeter than brut, a common trap.",
+    "hook": "Extra dry is sweeter than brut, and doux is the sweetest of all."
+  },
+  {
+    "id": "fd_139",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Ethiopia's spongy, sour flatbread injera is made from the flour of which tiny grain?",
+    "answer": "Teff",
+    "distractors": [
+      "Quinoa",
+      "Amaranth",
+      "Buckwheat"
+    ],
+    "explanation": "Teff is among the smallest cereal grains in the world, and the batter is fermented for a few days before cooking, which gives injera its tang. The grain is gluten-free and grows mainly in the highlands of Ethiopia and Eritrea.",
+    "hook": "A tiny grain, fermented for days, becomes the plate and the fork."
+  },
+  {
+    "id": "fd_140",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which species of coffee, hardier than arabica and with roughly twice the caffeine, is grown widely in Vietnam and used in instant blends?",
+    "answer": "Robusta",
+    "distractors": [
+      "Liberica",
+      "Excelsa",
+      "Stenophylla"
+    ],
+    "explanation": "Robusta, Coffea canephora, grows at lower altitudes, resists disease and carries about 2.2 to 2.7 percent caffeine against roughly 1.2 to 1.5 percent in arabica. Vietnam grows more of it than any other country.",
+    "hook": "Arabica gets the cafe menu; robusta gets the kick and the instant jar."
+  },
+  {
+    "id": "fd_141",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Darjeeling, the champagne of teas, is grown in the Himalayan foothills of which Indian state?",
+    "answer": "West Bengal",
+    "distractors": [
+      "Assam",
+      "Sikkim",
+      "Himachal Pradesh"
+    ],
+    "explanation": "Darjeeling sits in the north of West Bengal, close to Nepal, Sikkim and Bhutan, and was the first product in India to receive a geographical indication. Assam, a different state, makes the stronger malty teas used in breakfast blends.",
+    "hook": "Darjeeling is a hill town and Assam is a river plain: two states, two kinds of tea."
+  },
+  {
+    "id": "fd_142",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Theobroma, the genus name Linnaeus gave the cacao tree in 1753, comes from Greek and means what?",
+    "answer": "Food of the gods",
+    "distractors": [
+      "Gift of the sun",
+      "Bitter water of the Maya",
+      "Drink of kings"
+    ],
+    "explanation": "Linnaeus joined the Greek words theos, god, and broma, food. Cacao was a sacred and valuable crop for the Maya and Aztecs, who drank it bitter and spiced rather than sweet.",
+    "hook": "Even the scientific name admits chocolate is divine."
+  },
+  {
+    "id": "fd_143",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which English cheese is chased down Cooper's Hill in Gloucestershire in the traditional cheese-rolling race?",
+    "answer": "Double Gloucester",
+    "distractors": [
+      "Red Leicester",
+      "Wensleydale",
+      "Cheshire"
+    ],
+    "explanation": "A round of about 3.6 kilograms is released from the top of the very steep hill, and whoever reaches the bottom first wins it. The race is traditionally held on the spring bank holiday and goes back centuries.",
+    "hook": "The cheese always wins the race: it reaches the bottom first."
+  },
+  {
+    "id": "fd_144",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Which cured ingredient is blended with oil, lemon and bread or potato to make the pink Greek dip taramasalata?",
+    "answer": "Fish roe",
+    "distractors": [
+      "Smoked aubergine",
+      "Salted anchovies",
+      "Pickled octopus"
+    ],
+    "explanation": "Taramas is the salted roe of cod or carp, whipped into a smooth paste. Commercial versions are often dyed pink. Smoked aubergine is the base of a different dip, baba ganoush.",
+    "hook": "Pink dip, fish eggs: not beetroot, and not a mystery."
+  },
+  {
+    "id": "fd_145",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "What is the Japanese name for the thin slices of pickled ginger served with sushi to cleanse the palate?",
+    "answer": "Gari",
+    "distractors": [
+      "Umeboshi",
+      "Takuan",
+      "Rakkyo"
+    ],
+    "explanation": "Gari is young ginger sliced thin and pickled in sweet vinegar, eaten between pieces of sushi so the next fish tastes fresh. Umeboshi are pickled plums, takuan is pickled daikon radish and rakkyo are pickled shallots.",
+    "hook": "Gari clears the palate so the next piece tastes new."
+  },
+  {
+    "id": "fd_146",
+    "category": "food_drink",
+    "difficulty": "medium",
+    "question": "Cloves, the spice used in studded oranges and mulled wine, are which part of the clove tree?",
+    "answer": "Unopened flower buds",
+    "distractors": [
+      "Seed pods",
+      "Inner bark",
+      "Ground roots"
+    ],
+    "explanation": "Cloves are picked before the buds open and dried until dark brown. The tree is native to the Maluku, or Spice, Islands of Indonesia, and its oil contains eugenol, which gives clove its numbing, medicinal smell.",
+    "hook": "Cinnamon is bark, nutmeg is a seed, and cloves are flower buds."
+  },
+  {
+    "id": "fd_147",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "The word lager comes from a German word meaning what?",
+    "answer": "Storehouse",
+    "distractors": [
+      "Golden",
+      "Cold",
+      "Bottom"
+    ],
+    "explanation": "Bavarian brewers stored beer in cold caves and cellars over summer, and the cold-tolerant yeast that settled at the bottom of the vats became lager yeast. Cold storage, called lagering, is still how these beers are conditioned.",
+    "hook": "Lager means storehouse, because the beer sat in a cold cellar for months."
+  },
+  {
+    "id": "fd_148",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Hops, the bitter flavouring in beer, belong to the same plant family as which other well-known plant?",
+    "answer": "Cannabis",
+    "distractors": [
+      "Nettle",
+      "Basil",
+      "Barley"
+    ],
+    "explanation": "Hops and cannabis are both in the Cannabaceae family, and both have sticky resin glands on their female flowers. Hops are the cone-like flowers of the climbing vine Humulus lupulus.",
+    "hook": "Beer's bitter herb and cannabis are botanical cousins."
+  },
+  {
+    "id": "fd_149",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Which French cooking method seals food in a folded parcel of baking paper so it steams in its own juices?",
+    "answer": "En papillote",
+    "distractors": [
+      "Sous vide",
+      "En croûte",
+      "Au gratin"
+    ],
+    "explanation": "Fish, vegetables and herbs are sealed in a paper parcel, which puffs up in the oven as the contents steam. En croûte wraps food in pastry, and sous vide cooks it in a sealed bag in a water bath at a precise low temperature.",
+    "hook": "Open the parcel at the table and the steam does the introductions."
+  },
+  {
+    "id": "fd_150",
+    "category": "food_drink",
+    "difficulty": "hard",
+    "question": "Tequila may only be made in a handful of Mexican states, centred on which state, home to the town of Tequila?",
+    "answer": "Jalisco",
+    "distractors": [
+      "Oaxaca",
+      "Veracruz",
+      "Sonora"
+    ],
+    "explanation": "Most tequila comes from Jalisco, whose blue agave fields and old distilleries around the town of Tequila are a UNESCO World Heritage landscape. Oaxaca, a different state, is the heartland of mezcal.",
+    "hook": "Tequila the spirit comes from Tequila the town in Jalisco."
   }
 ]

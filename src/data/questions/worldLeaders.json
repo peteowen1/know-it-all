@@ -1818,5 +1818,285 @@
     ],
     "explanation": "William Morrison, Viscount Dunrossil, had been Speaker of the House of Commons and died at Yarralumla after only a year. He is buried in Canberra.",
     "hook": "The Speaker who came to Canberra and never left."
+  },
+  {
+    "id": "wl_131",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which British prime minister from 1916 to 1922 was nicknamed the Welsh Wizard?",
+    "answer": "David Lloyd George",
+    "distractors": [
+      "H. H. Asquith",
+      "Ramsay MacDonald",
+      "Stanley Baldwin"
+    ],
+    "explanation": "Lloyd George led Britain to victory in the First World War. As Chancellor he helped bring in old-age pensions and the 1909 People's Budget, and he remains the only prime minister whose first language was Welsh.",
+    "hook": "The Welsh Wizard was the only prime minister to speak Welsh as a first language."
+  },
+  {
+    "id": "wl_132",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which US president said in 1925 that the chief business of the American people is business?",
+    "answer": "Calvin Coolidge",
+    "distractors": [
+      "Herbert Hoover",
+      "Warren G. Harding",
+      "Woodrow Wilson"
+    ],
+    "explanation": "Coolidge became president when Harding died in 1923 and won election in his own right in 1924. A small-government Republican nicknamed Silent Cal, he was famous for saying very little.",
+    "hook": "Silent Cal said little, but that line has stuck for a century."
+  },
+  {
+    "id": "wl_133",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which US president was the first to live in the White House, moving in during November 1800?",
+    "answer": "John Adams",
+    "distractors": [
+      "Thomas Jefferson",
+      "George Washington",
+      "James Madison"
+    ],
+    "explanation": "The building was unfinished and the plaster still damp. Washington chose the site and oversaw the design but died in 1799, and Adams lost the 1800 election, so Jefferson moved in the following spring.",
+    "hook": "Washington picked the site but never slept there."
+  },
+  {
+    "id": "wl_134",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who is the youngest person ever to become US president, taking office at 42?",
+    "answer": "Theodore Roosevelt",
+    "distractors": [
+      "John F. Kennedy",
+      "Bill Clinton",
+      "Ulysses S. Grant"
+    ],
+    "explanation": "Roosevelt took the oath in September 1901 after William McKinley was assassinated. John F. Kennedy was the youngest elected president, at 43, which is the usual trap in this question.",
+    "hook": "Kennedy was the youngest elected; Roosevelt was the youngest, full stop."
+  },
+  {
+    "id": "wl_135",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which two former US presidents both died on 4 July 1826, exactly fifty years after the Declaration of Independence?",
+    "answer": "John Adams and Thomas Jefferson",
+    "distractors": [
+      "Thomas Jefferson and James Madison",
+      "John Adams and James Monroe",
+      "George Washington and John Adams"
+    ],
+    "explanation": "Jefferson died at Monticello and Adams at Quincy, Massachusetts, within hours of each other. Adams's reported last words were that Jefferson survived him, though Jefferson had died earlier that day. James Monroe also died on 4 July, but in 1831.",
+    "hook": "Two Founding Fathers died on the Fourth of July, half a century to the day."
+  },
+  {
+    "id": "wl_136",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which British king, born in Hanover, spoke little English when he took the throne in 1714?",
+    "answer": "George I",
+    "distractors": [
+      "George II",
+      "William III",
+      "George III"
+    ],
+    "explanation": "George I was the Elector of Hanover and became king under the Act of Settlement 1701, which excluded Catholic claimants. He spoke German and French, which is one reason his ministers, led by Robert Walpole, began to run the government without him.",
+    "hook": "He needed a translator, so his ministers took over the running of the country."
+  },
+  {
+    "id": "wl_137",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the last British monarch of the House of Hanover?",
+    "answer": "Queen Victoria",
+    "distractors": [
+      "William IV",
+      "George IV",
+      "Edward VII"
+    ],
+    "explanation": "Victoria's death in 1901 ended the House of Hanover, which had ruled since George I in 1714. Her son Edward VII belonged to his father's House of Saxe-Coburg and Gotha, which became Windsor in 1917.",
+    "hook": "After Victoria came Saxe-Coburg and Gotha, then Windsor."
+  },
+  {
+    "id": "wl_138",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the first prime minister to live at 10 Downing Street, which he accepted in 1735?",
+    "answer": "Robert Walpole",
+    "distractors": [
+      "William Pitt the Elder",
+      "Henry Pelham",
+      "Spencer Compton"
+    ],
+    "explanation": "George II offered the house to Walpole as a personal gift, and he accepted it only as the official residence of the First Lord of the Treasury. He is generally counted as Britain's first prime minister, serving from 1721 to 1742.",
+    "hook": "The house was offered as a gift but taken as a job perk for all his successors."
+  },
+  {
+    "id": "wl_139",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the first Chancellor of West Germany, in office from 1949 to 1963?",
+    "answer": "Konrad Adenauer",
+    "distractors": [
+      "Willy Brandt",
+      "Ludwig Erhard",
+      "Helmut Schmidt"
+    ],
+    "explanation": "Adenauer was 73 when he took office and had been mayor of Cologne before the Nazis removed him. His government tied West Germany to NATO and the European Economic Community and reconciled with France.",
+    "hook": "He took office at 73 and held it for fourteen years."
+  },
+  {
+    "id": "wl_140",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the last emperor of China, a child who abdicated in 1912?",
+    "answer": "Puyi",
+    "distractors": [
+      "Guangxu",
+      "Kangxi",
+      "Qianlong"
+    ],
+    "explanation": "Puyi took the throne aged two in 1908 and abdicated in 1912 after the Xinhai Revolution. Japan later installed him as puppet emperor of Manchukuo, and after years in prison he worked as a gardener in communist Beijing.",
+    "hook": "Emperor at two, a Japanese puppet later, a gardener at the end."
+  },
+  {
+    "id": "wl_141",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which grandson of Genghis Khan founded the Yuan dynasty in China in 1271?",
+    "answer": "Kublai Khan",
+    "distractors": [
+      "Ögedei Khan",
+      "Hulagu Khan",
+      "Batu Khan"
+    ],
+    "explanation": "Kublai completed the Mongol conquest of the Song dynasty in 1279 and ruled from Khanbaliq, now Beijing. Marco Polo's account of his court introduced him to Europe.",
+    "hook": "Genghis conquered, but his grandson ruled China from Beijing."
+  },
+  {
+    "id": "wl_142",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Roman emperor created the Tetrarchy in 293, sharing power among four rulers?",
+    "answer": "Diocletian",
+    "distractors": [
+      "Constantine",
+      "Trajan",
+      "Septimius Severus"
+    ],
+    "explanation": "Diocletian found the empire too big for one man, so he appointed a co-emperor and two junior emperors. He also retired voluntarily in 305 to his palace at Split, which is almost unique among Roman emperors.",
+    "hook": "Four emperors at once: Diocletian's cure for an overstretched empire."
+  },
+  {
+    "id": "wl_143",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became the first emperor of a unified China in 221 BCE and is buried near an army of terracotta warriors?",
+    "answer": "Qin Shi Huang",
+    "distractors": [
+      "Liu Bang",
+      "Emperor Wu of Han",
+      "Kangxi Emperor"
+    ],
+    "explanation": "King Zheng of Qin conquered the last rival states and took the new title huangdi, meaning emperor. He standardised writing, weights and measures, and his tomb near Xi'an holds thousands of life-size terracotta soldiers.",
+    "hook": "He standardised writing, coins and even cart axles."
+  },
+  {
+    "id": "wl_144",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became the first president of Kenya when it became a republic in 1964?",
+    "answer": "Jomo Kenyatta",
+    "distractors": [
+      "Julius Nyerere",
+      "Daniel arap Moi",
+      "Tom Mboya"
+    ],
+    "explanation": "Kenyatta was jailed and kept under restriction by the British for about nine years from 1952, accused of leading the Mau Mau uprising. He was prime minister at independence in 1963 and president until his death in 1978, when Daniel arap Moi succeeded him.",
+    "hook": "Jailed by the colonial government, then handed the country by it."
+  },
+  {
+    "id": "wl_145",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which leader took Ghana to independence in 1957, the first British colony in sub-Saharan Africa to win it?",
+    "answer": "Kwame Nkrumah",
+    "distractors": [
+      "Sékou Touré",
+      "Léopold Senghor",
+      "Félix Houphouët-Boigny"
+    ],
+    "explanation": "Nkrumah led the Convention People's Party to power, became prime minister in 1957 and president when Ghana became a republic in 1960. He championed Pan-Africanism until a coup removed him in 1966 while he was visiting China.",
+    "hook": "The Gold Coast became Ghana, named after a medieval West African empire."
+  },
+  {
+    "id": "wl_146",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who became the first prime minister of the independent Congo in June 1960 and was killed in January 1961?",
+    "answer": "Patrice Lumumba",
+    "distractors": [
+      "Mobutu Sese Seko",
+      "Moïse Tshombe",
+      "Joseph Kasa-Vubu"
+    ],
+    "explanation": "Lumumba was dismissed in September 1960 amid the Congo Crisis and was shot in Katanga in January 1961. A 2001 Belgian parliamentary inquiry found Belgium morally responsible. Army chief Mobutu seized power in 1965.",
+    "hook": "Prime minister for under three months, and the Congo's crisis outlived him."
+  },
+  {
+    "id": "wl_147",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Who was the first president of South Korea, forced to resign by student-led protests in 1960?",
+    "answer": "Syngman Rhee",
+    "distractors": [
+      "Park Chung-hee",
+      "Kim Koo",
+      "Yun Bo-seon"
+    ],
+    "explanation": "Rhee was elected in 1948 and left for exile in Hawaii after the April Revolution, which erupted over a rigged election. Park Chung-hee seized power in a military coup in 1961.",
+    "hook": "A president toppled by students, not by soldiers."
+  },
+  {
+    "id": "wl_148",
+    "category": "world_leaders",
+    "difficulty": "hard",
+    "question": "Which Canadian prime minister pushed through the Maple Leaf flag in 1965 after a long parliamentary debate?",
+    "answer": "Lester B. Pearson",
+    "distractors": [
+      "Pierre Trudeau",
+      "John Diefenbaker",
+      "Louis St. Laurent"
+    ],
+    "explanation": "Pearson, who had won the 1957 Nobel Peace Prize for his role in ending the Suez Crisis, wanted a distinctly Canadian flag to replace the Red Ensign. His rival John Diefenbaker opposed the change.",
+    "hook": "A Nobel peace prize winner and a flag fight that lasted months."
+  },
+  {
+    "id": "wl_149",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who proclaimed Indonesia's independence from the Dutch on 17 August 1945 and became its first president?",
+    "answer": "Sukarno",
+    "distractors": [
+      "Suharto",
+      "Sutan Sjahrir",
+      "Abdurrahman Wahid"
+    ],
+    "explanation": "Sukarno read the proclamation with Mohammad Hatta, who became vice president. The Dutch fought the new republic until they accepted independence in 1949. Sukarno was pushed aside by General Suharto after 1965.",
+    "hook": "Like many Javanese, Sukarno had no family name."
+  },
+  {
+    "id": "wl_150",
+    "category": "world_leaders",
+    "difficulty": "medium",
+    "question": "Who read Israel's Declaration of Independence in Tel Aviv on 14 May 1948 and became its first prime minister?",
+    "answer": "David Ben-Gurion",
+    "distractors": [
+      "Chaim Weizmann",
+      "Golda Meir",
+      "Menachem Begin"
+    ],
+    "explanation": "Ben-Gurion, head of the Jewish Agency, proclaimed the state in a ceremony at the Tel Aviv Museum. Chaim Weizmann became the largely ceremonial first president. Golda Meir signed the declaration and became prime minister in 1969.",
+    "hook": "He declared the state at a museum, not a parliament."
   }
 ]

@@ -1102,7 +1102,7 @@
       "Nusantara",
       "Bandung"
     ],
-    "explanation": "Indonesia is building a new capital, Nusantara, on Borneo because Jakarta is overcrowded and sinking, but the move needs a presidential decree that had still not been issued in 2026. Indonesia's Constitutional Court confirmed in May 2026 that Jakarta remains the capital until then.",
+    "explanation": "Indonesia is building a new capital, Nusantara, on Borneo because Jakarta is overcrowded and sinking, but the move needs a presidential decree that had still not been issued as of October 2026. Indonesia's Constitutional Court confirmed in May 2026 that Jakarta remains the capital until then.",
     "hook": "Nusantara is built but not yet the capital, so Jakarta keeps the title for now."
   },
   {
@@ -1168,7 +1168,7 @@
     "question": "Which country's highest point is Ben Nevis?",
     "answer": "The United Kingdom",
     "distractors": [
-      "Ireland",
+      "The Republic of Ireland",
       "Norway",
       "Iceland"
     ],
@@ -1393,7 +1393,7 @@
     "answer": "Amundsen–Scott South Pole Station",
     "distractors": [
       "McMurdo Station",
-      "Vostok Station",
+      "Halley Research Station",
       "Mawson Station"
     ],
     "explanation": "The United States has run it since 1956–57, and it honours Roald Amundsen, first to the pole in December 1911, and Robert Falcon Scott, who arrived a month later and died on the way back. The ice sheet slides about ten metres a year, so the pole marker is moved every 1 January.",
@@ -1702,9 +1702,9 @@
     "distractors": [
       "The Republic of the Congo",
       "Indonesia",
-      "Papua New Guinea"
+      "The Central African Republic"
     ],
-    "explanation": "The Congo Basin is the world's second-largest rainforest, and more than half of it is in the DR Congo. It is home to the bonobo and the okapi, and it still absorbs more carbon than it releases, which parts of the Amazon no longer do.",
+    "explanation": "The Congo Basin is the world's second-largest rainforest, and more than half of it is in the DR Congo. It is home to the bonobo and the okapi, and it has long been one of the planet's great carbon sinks.",
     "hook": "The world's second lung sits in the Congo Basin."
   },
   {

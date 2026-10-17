@@ -35,8 +35,8 @@
     "answer": "Leonardo da Vinci",
     "distractors": [
       "Michelangelo",
-      "Raphael",
-      "Titian"
+      "Sandro Botticelli",
+      "Raphael"
     ],
     "explanation": "Leonardo worked on it from about 1503 until near his death in 1519, and it hangs in the Louvre. It became a global celebrity after Vincenzo Peruggia, an Italian handyman, walked out of the Louvre with it in 1911; it was missing for more than two years.",
     "hook": "Peruggia made her famous: the empty wall drew bigger crowds than the painting had."
@@ -553,7 +553,7 @@
     "answer": "True History of the Kelly Gang",
     "distractors": [
       "Oscar and Lucinda",
-      "Illywhacker",
+      "Parrot and Olivier in America",
       "Jack Maggs"
     ],
     "explanation": "Written as a letter from Ned Kelly to his daughter, with almost no punctuation, it made Carey a two-time winner after Oscar and Lucinda in 1988. The other double winners are J.M. Coetzee, Hilary Mantel and Margaret Atwood.",
@@ -874,9 +874,9 @@
     "question": "Which movement in art is characterised by dripped and poured paint on large canvases?",
     "answer": "Abstract Expressionism",
     "distractors": [
-      "Fauvism",
-      "Minimalism",
-      "Futurism"
+      "Post-Impressionism",
+      "Neo-Expressionism",
+      "Minimalism"
     ],
     "explanation": "Jackson Pollock's drip paintings, made on canvas laid on the floor, are its best-known works, and Mark Rothko's colour fields its other main branch. Canberra's purchase of Pollock's Blue Poles for A$1.3 million in 1973 caused a national political row.",
     "hook": "Pollock dripped from above, with the canvas flat on the floor, not upright on an easel."
@@ -2168,5 +2168,145 @@
     ],
     "explanation": "It was the first time Australia had won the Golden Lion for best national participation. Moore chalked a family tree reaching back 65,000 years across the pavilion's black walls and ceiling, above a pool and stacks of coroners' reports into Aboriginal deaths in custody. Moffatt, Mesiti and Fusinato represented Australia in 2017, 2019 and 2022.",
     "hook": "Moore's family tree ran 65,000 years and won Australia its first Golden Lion."
+  },
+  {
+    "id": "art_156",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which English author wrote Alice's Adventures in Wonderland under a pen name?",
+    "answer": "Lewis Carroll",
+    "distractors": [
+      "J.M. Barrie",
+      "Roald Dahl",
+      "A.A. Milne"
+    ],
+    "explanation": "Lewis Carroll was the pen name of Charles Dodgson, an Oxford mathematician who first told the story to the daughters of a college dean on a boat trip in 1862. It was published in 1865, and its sequel is Through the Looking-Glass.",
+    "hook": "A mathematician invented Wonderland on a rowing trip."
+  },
+  {
+    "id": "art_157",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which artist painted The Last Supper on the wall of a dining hall in Milan?",
+    "answer": "Leonardo da Vinci",
+    "distractors": [
+      "Sandro Botticelli",
+      "Piero della Francesca",
+      "Caravaggio"
+    ],
+    "explanation": "Leonardo painted it in the 1490s in the refectory of Santa Maria delle Grazie. He experimented with tempera on dry plaster instead of fresco, so it began to flake within decades and has been restored many times.",
+    "hook": "A painting that started peeling almost as soon as it was finished."
+  },
+  {
+    "id": "art_158",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Roald Dahl book follows Charlie Bucket and a golden ticket to a sweet factory?",
+    "answer": "Charlie and the Chocolate Factory",
+    "distractors": [
+      "James and the Giant Peach",
+      "George's Marvellous Medicine",
+      "Fantastic Mr Fox"
+    ],
+    "explanation": "The factory belongs to the eccentric Willy Wonka, and the five children who find golden tickets in chocolate bars win a tour. Dahl published the book in 1964, and it has been filmed twice, in 1971 and 2005.",
+    "hook": "Five golden tickets, one honest boy, and a river of chocolate."
+  },
+  {
+    "id": "art_159",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "In Charles Dickens's A Christmas Carol, which miser is visited by three ghosts on Christmas Eve?",
+    "answer": "Ebenezer Scrooge",
+    "distractors": [
+      "Bob Cratchit",
+      "Fagin",
+      "Uriah Heep"
+    ],
+    "explanation": "Scrooge is first warned by the ghost of his dead partner Jacob Marley, then shown his past, present and future by three spirits. He wakes on Christmas morning a changed man and sends a goose to the Cratchit family.",
+    "hook": "Humbug turns to generosity after one very long night."
+  },
+  {
+    "id": "art_160",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which author wrote The Lord of the Rings?",
+    "answer": "J.R.R. Tolkien",
+    "distractors": [
+      "George R.R. Martin",
+      "Terry Pratchett",
+      "Philip Pullman"
+    ],
+    "explanation": "Tolkien was an Oxford professor of Old English who built Middle-earth from his love of languages and northern myth. The Lord of the Rings was published in three volumes in 1954 and 1955 as a sequel to The Hobbit.",
+    "hook": "A professor of languages invented elvish before he wrote the story."
+  },
+  {
+    "id": "art_161",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "How many keys does a standard modern piano have?",
+    "answer": "88",
+    "distractors": [
+      "76",
+      "92",
+      "100"
+    ],
+    "explanation": "A full-size piano has 52 white keys and 36 black keys, spanning seven and a quarter octaves. Smaller keyboards often have 61 or 76 keys, but the 88-key layout became standard in the late nineteenth century.",
+    "hook": "Fifty-two white and thirty-six black: 88 keys to play."
+  },
+  {
+    "id": "art_162",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Romantic poet wrote 'I wandered lonely as a cloud', about a field of daffodils?",
+    "answer": "William Wordsworth",
+    "distractors": [
+      "Lord Byron",
+      "John Keats",
+      "Percy Bysshe Shelley"
+    ],
+    "explanation": "Wordsworth based the poem on a walk by Ullswater in the Lake District in 1802, as recorded in his sister Dorothy's journal. He lived at Dove Cottage in Grasmere and became Poet Laureate in 1843.",
+    "hook": "His sister's diary supplied the daffodils."
+  },
+  {
+    "id": "art_163",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which Danish author wrote fairy tales such as The Little Mermaid and The Ugly Duckling?",
+    "answer": "Hans Christian Andersen",
+    "distractors": [
+      "The Brothers Grimm",
+      "Charles Perrault",
+      "Aesop"
+    ],
+    "explanation": "Andersen published his first fairy tales in 1835 and wrote more than 150 of them, many drawn from his own lonely childhood. A statue of the Little Mermaid sits on the waterfront in Copenhagen.",
+    "hook": "The ugly duckling was a portrait of Andersen himself."
+  },
+  {
+    "id": "art_164",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "Which English author created the bear Winnie-the-Pooh?",
+    "answer": "A.A. Milne",
+    "distractors": [
+      "Beatrix Potter",
+      "Kenneth Grahame",
+      "Enid Blyton"
+    ],
+    "explanation": "Milne wrote the stories for his son Christopher Robin, who owned the toy bear and the other stuffed animals, and E.H. Shepard drew the illustrations. The first book appeared in 1926 and is set in Ashdown Forest in Sussex.",
+    "hook": "A real boy, real toys, and a very real forest in Sussex."
+  },
+  {
+    "id": "art_165",
+    "category": "arts_lit",
+    "difficulty": "easy",
+    "question": "In music, what is the name for the speed at which a piece is played?",
+    "answer": "Tempo",
+    "distractors": [
+      "Pitch",
+      "Timbre",
+      "Dynamics"
+    ],
+    "explanation": "Tempo comes from the Italian word for time and is often shown by Italian terms such as allegro for fast and adagio for slow. A metronome measures it in beats per minute.",
+    "hook": "Allegro means fast, adagio means slow, and tempo means time."
   }
 ]

@@ -394,16 +394,16 @@
   {
     "id": "aus_029",
     "category": "aus_history",
-    "difficulty": "easy",
-    "question": "How many stars appear in total on the Australian national flag?",
-    "answer": "Six",
+    "difficulty": "medium",
+    "question": "How many points does the Commonwealth Star on the Australian national flag have?",
+    "answer": "Seven",
     "distractors": [
       "Five",
-      "Seven",
-      "Four"
+      "Six",
+      "Eight"
     ],
-    "explanation": "Five make up the Southern Cross and the sixth, the Commonwealth Star, sits under the Union Jack. That star has seven points: six for the states and a seventh added in 1908 for the territories.",
-    "hook": "Five for the Cross plus one big one, and the big one has seven points."
+    "explanation": "The Commonwealth Star sits under the Union Jack, and six of its points stand for the states. A seventh was added in 1908 for the territories. The five stars of the Southern Cross plus the Commonwealth Star make six on the flag in total.",
+    "hook": "Six points for the states, plus a seventh for the territories."
   },
   {
     "id": "aus_030",

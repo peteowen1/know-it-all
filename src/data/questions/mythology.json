@@ -717,15 +717,15 @@
     "id": "myth_052",
     "category": "mythology",
     "difficulty": "medium",
-    "question": "Which Roman goddess of the hearth was served by the Vestal Virgins?",
+    "question": "Which Roman goddess of the hearth had a round temple in the Forum where an eternal flame was kept burning?",
     "answer": "Vesta",
     "distractors": [
       "Juno",
       "Minerva",
       "Ceres"
     ],
-    "explanation": "Six Vestal Virgins served for at least 30 years, keeping the sacred fire in Vesta's round temple in the Forum burning. A Vestal who broke her vow of chastity was buried alive. Vesta's Greek equivalent is Hestia, the eldest child of Cronus and Rhea.",
-    "hook": "Vesta's Vestals kept the flame; let it go out and you were flogged."
+    "explanation": "Her priestesses, the six Vestal Virgins, served for at least 30 years, keeping the sacred fire in her round temple in the Forum burning. A Vestal who broke her vow of chastity was buried alive. Vesta's Greek equivalent is Hestia, the eldest child of Cronus and Rhea.",
+    "hook": "Her Vestals kept the flame; let it go out and you were flogged."
   },
   {
     "id": "myth_053",
@@ -1239,10 +1239,10 @@
     "answer": "The Poetic and Prose Eddas",
     "distractors": [
       "The Nibelungenlied",
-      "The Kalevala",
-      "Beowulf"
+      "The Anglo-Saxon Chronicle",
+      "The Mabinogion"
     ],
-    "explanation": "The Prose Edda was written by the Icelandic chieftain Snorri Sturluson around 1220 as a handbook for poets. The Poetic Edda is an older anonymous collection preserved in the Codex Regius. The Nibelungenlied is German, the Kalevala Finnish and Beowulf Old English.",
+    "explanation": "The Prose Edda was written by the Icelandic chieftain Snorri Sturluson around 1220 as a handbook for poets. The Poetic Edda is an older anonymous collection preserved in the Codex Regius. The Nibelungenlied is German, the Anglo-Saxon Chronicle English history and the Mabinogion Welsh.",
     "hook": "Snorri wrote the Prose Edda; the poems came first. Both are Icelandic."
   },
   {
@@ -1953,8 +1953,8 @@
     "answer": "Mistletoe",
     "distractors": [
       "Holly",
-      "Ivy",
-      "Yew"
+      "Hemlock",
+      "Hawthorn"
     ],
     "explanation": "Frigg made every thing on earth swear not to harm her son Baldr, but skipped the mistletoe as too young. Loki made a dart of it and guided the blind god Höðr to throw it. Many see this as one source of kissing under the mistletoe.",
     "hook": "The only thing that did not swear the oath killed him."

@@ -41,6 +41,13 @@ const MIN_EXPLANATION_WORDS = 12;
 const MIN_HOOK_WORDS = 4;
 const TARGET_TOTAL = 1000;
 
+// Answer-length cue (report only, never an error): an answer at least this many
+// times the mean distractor length is flagged as a warning.
+const LENGTH_RATIO_WARN = 2;
+let lengthChecked = 0;
+let answerLongest = 0;
+let answerShortest = 0;
+
 const errors = [];
 const warnings = [];
 const fail = (id, msg) => errors.push(`${id}: ${msg}`);
@@ -95,6 +102,16 @@ for (const q of all) {
     const lens = [q.answer, ...q.distractors].map((o) => String(o).length);
     if (lens[0] > Math.max(...lens.slice(1)) * 2.2 && lens[0] > 24) {
       warn(id, 'correct answer is much longer than every distractor (giveaway)');
+    }
+    // Report-only length cue: how often the answer is (jointly) the longest or
+    // shortest option, and which answers dwarf the average wrong answer.
+    const distLens = lens.slice(1);
+    const meanDist = distLens.reduce((a, b) => a + b, 0) / distLens.length;
+    lengthChecked += 1;
+    if (lens[0] >= Math.max(...distLens)) answerLongest += 1;
+    if (lens[0] <= Math.min(...distLens)) answerShortest += 1;
+    if (lens[0] >= LENGTH_RATIO_WARN * meanDist) {
+      warn(id, `answer is ${(lens[0] / meanDist).toFixed(1)}x the mean distractor length (length cue)`);
     }
     const key = [...q.distractors].map((d) => d.toLowerCase()).sort().join('|');
     distractorSets.set(key, [...(distractorSets.get(key) || []), id]);
@@ -210,6 +227,11 @@ console.log('  by difficulty: ' + VALID_DIFFICULTIES.map((d) => `${d}=${byDiff[d
 console.log(
   `  distractor reuse: ${questionsInSharedSets} questions share a set with another ` +
     `(${(sharedShare * 100).toFixed(1)}%, ceiling ${MAX_SHARED_SHARE * 100}%)`
+);
+const pct = (n) => `${((n / (lengthChecked || 1)) * 100).toFixed(1)}%`;
+console.log(
+  `  answer length: longest (or tied) in ${answerLongest} of ${lengthChecked} (${pct(answerLongest)}), ` +
+    `shortest (or tied) in ${answerShortest} (${pct(answerShortest)}); a flat 25% each would be ideal`
 );
 
 if (warnings.length) {

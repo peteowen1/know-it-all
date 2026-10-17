@@ -50,7 +50,7 @@
     "distractors": [
       "Oxygen",
       "Nitrogen",
-      "Methane"
+      "Carbon monoxide"
     ],
     "explanation": "Using light, plants turn carbon dioxide and water into glucose and give off oxygen. They also respire around the clock like animals, using some oxygen, but by day photosynthesis far outpaces it.",
     "hook": "Plants breathe in what we breathe out, and hand back the oxygen."
@@ -1837,15 +1837,15 @@
     "id": "sci_132",
     "category": "science",
     "difficulty": "easy",
-    "question": "How many legs does an insect have?",
-    "answer": "Six",
+    "question": "How many main body parts does an insect have?",
+    "answer": "Three",
     "distractors": [
-      "Eight",
+      "Two",
       "Four",
-      "Ten"
+      "Five"
     ],
-    "explanation": "All insects have six legs and three body parts: head, thorax and abdomen. Spiders have eight legs and two body parts, so they are arachnids, not insects.",
-    "hook": "Six legs, insect; eight legs, spider."
+    "explanation": "All insects have three body parts: head, thorax and abdomen, with six legs attached to the thorax. Spiders have eight legs and two body parts, so they are arachnids, not insects.",
+    "hook": "Head, thorax, abdomen: three parts, six legs, insect."
   },
   {
     "id": "sci_133",
