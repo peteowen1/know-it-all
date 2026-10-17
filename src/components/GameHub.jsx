@@ -1,4 +1,5 @@
 import React from 'react';
+import { Flame } from 'lucide-react';
 import { GAMES, SECTIONS } from '../games/registry';
 import { gameEntry } from '../lib/gameStats';
 import { saturdayKey } from '../lib/dates';
@@ -14,6 +15,11 @@ export default function GameHub({ onOpen, gameStats, quizStats, vaultDue, weekly
 
   return (
     <div className="game-hub">
+      {/* On a phone the header has no room for the streak, so it sits here. */}
+      <p className="hub-streak">
+        <Flame size={16} strokeWidth={1.75} aria-hidden="true" />
+        {quizStats?.streak || 0} day streak
+      </p>
       {SECTIONS.map((s) => (
         <section key={s.id} className="hub-section" data-section={s.id} style={{ '--accent': s.accent }}>
           <div className="hub-section-head">

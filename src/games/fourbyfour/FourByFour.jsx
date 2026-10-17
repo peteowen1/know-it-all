@@ -26,6 +26,9 @@ function dailyIndex(n) {
 export default function FourByFour({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame] = usePersistentState('fourbyfour', null);
+  // The day the daily puzzle was last finished: playing it again that day is
+  // allowed, but only the first finish counts as a play.
+  const [dailyDone, setDailyDone] = usePersistentState('fourbyfour-daily', null);
   const entry = gameEntry(stats, 'connections');
 
   const start = (daily) => {
@@ -65,7 +68,12 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       key={`${game.index}-${game.daily}`}
       game={game}
       setGame={setGame}
-      onFinish={(g, won) =>
+      onFinish={(g, won) => {
+        if (g.daily) {
+          const today = localDateKey();
+          if (dailyDone === today) return;
+          setDailyDone(today);
+        }
         onRoundComplete('connections', {
           // A win is a win whatever the mistakes; `run` is groups the player
           // actually found, not the ones revealed after a loss.
@@ -73,8 +81,8 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
           total: 1,
           run: g.found,
           answers: []
-        })
-      }
+        });
+      }}
       onAgain={() => start(false)}
       onSetup={() => setGame(null)}
     />

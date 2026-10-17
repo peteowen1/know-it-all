@@ -13,8 +13,8 @@
 // Signed out, none of this runs: markDirty() returns immediately and the app
 // is exactly the local-only app it was before.
 
-import { diffSnapshot, planPull, mergeSnapshots, tombstoneWrites, isSyncedKey } from './syncCore.js';
-import { onDirty } from './storage.js';
+import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, isSyncedKey } from './syncCore.js';
+import { onDirty, SYNC_BASE_KEY as BASE_KEY } from './storage.js';
 
 const META_KEY = 'kia_sync';
 const PUSH_DELAY_MS = 1500;
@@ -48,6 +48,32 @@ function saveMeta() {
     localStorage.setItem(META_KEY, JSON.stringify(meta));
   } catch (err) {
     console.warn('Could not save sync state.', err);
+  }
+}
+
+/** Stop syncing, keeping what this device last agreed with the account. */
+function forgetAccount() {
+  // Mid sign-in the shadow is still empty; saving it would replace the real
+  // base with one that makes every local key look newly played.
+  if (meta.email && !signingIn && Object.keys(meta.shadow).length) {
+    try {
+      localStorage.setItem(BASE_KEY, JSON.stringify({ email: meta.email, shadow: meta.shadow }));
+    } catch (err) {
+      console.warn('Could not keep the last synced copy.', err);
+    }
+  }
+  meta = blankMeta();
+  saveMeta();
+  setStatus('signed-out');
+}
+
+function loadBase(email) {
+  try {
+    const base = JSON.parse(localStorage.getItem(BASE_KEY) || 'null');
+    const ok = base && base.email === email && base.shadow && typeof base.shadow === 'object';
+    return ok && Object.keys(base.shadow).length ? base.shadow : null;
+  } catch {
+    return null;
   }
 }
 
@@ -116,9 +142,7 @@ async function api(path, options = {}) {
   if (res.status === 401) {
     // The session expired or was revoked. Keep the local data, stop syncing,
     // and show the sign-in button again.
-    meta = blankMeta();
-    saveMeta();
-    setStatus('signed-out');
+    forgetAccount();
     throw new Error('signed out');
   }
   if (!res.ok) throw new Error(`${path} failed: ${res.status}`);
@@ -250,14 +274,23 @@ async function signInAndMerge(credential) {
   setStatus('syncing');
 
   try {
-    // First sign-in on this device: this browser and the account are two
-    // separate histories, so they are merged (never on later syncs).
     if (hasData) {
       const { keys: server } = await api('/sync');
-      const incoming = {};
-      for (const [k, e] of Object.entries(server)) if (e.value !== null) incoming[k] = e.value;
       const local = readSnapshot();
-      writeKeys({ ...mergeSnapshots(local, incoming), ...tombstoneWrites(server, local) });
+      const base = loadBase(email);
+      if (base) {
+        // Back to an account this device synced with before: keep what was
+        // played here since, without adding the account's totals in twice.
+        const values = {};
+        for (const [k, e] of Object.entries(server)) values[k] = e.value;
+        writeKeys(rebaseSnapshots(local, values, base));
+      } else {
+        // First sign-in on this device: this browser and the account are two
+        // separate histories, so they are merged (never on later syncs).
+        const incoming = {};
+        for (const [k, e] of Object.entries(server)) if (e.value !== null) incoming[k] = e.value;
+        writeKeys({ ...mergeSnapshots(local, incoming), ...tombstoneWrites(server, local) });
+      }
       // Record the server's copy as agreed, so push sends only what the merge changed.
       for (const [k, e] of Object.entries(server)) {
         meta.updated[k] = e.updatedAt;
@@ -271,6 +304,7 @@ async function signInAndMerge(credential) {
     throw err;
   }
   saveMeta();
+  localStorage.removeItem(BASE_KEY);
 }
 
 export async function signOut() {
@@ -280,9 +314,7 @@ export async function signOut() {
   await fetch('/api/auth/signout', { method: 'POST', credentials: 'same-origin' }).catch((err) =>
     console.warn('Sign-out did not reach the server; the session will expire on its own.', err)
   );
-  meta = blankMeta();
-  saveMeta();
-  setStatus('signed-out');
+  forgetAccount();
 }
 
 // ------------------------------------------------------------------ lifecycle
@@ -305,11 +337,7 @@ export async function startSync() {
     rendered = true;
     // Confirm the session is still alive (it may have expired on the server).
     api('/me').then((me) => {
-      if (!me.signedIn) {
-        meta = blankMeta();
-        saveMeta();
-        setStatus('signed-out');
-      }
+      if (!me.signedIn) forgetAccount();
     }).catch(() => {});
   }
 
