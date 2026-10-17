@@ -170,9 +170,13 @@ export async function push({ keepalive = false } = {}) {
   for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt };
   const body = JSON.stringify({ keys });
 
+  const email = meta.email;
   setStatus('syncing');
   try {
     const res = await api('/sync', { method: 'PUT', body, keepalive: keepalive && new TextEncoder().encode(body).length < KEEPALIVE_LIMIT });
+    // Another tab signed out or switched account while this was in flight:
+    // this tab's sync state is no longer that account's, so leave it alone.
+    if (meta.email !== email) return false;
     if (res.received !== Object.keys(keys).length) {
       throw new Error(`server took ${res.received} of ${Object.keys(keys).length} keys`);
     }
@@ -207,9 +211,11 @@ export async function pull() {
   // Push first, so a local change is never overwritten by an older server copy.
   // If the push cannot get through, the pull would not be safe either.
   if (!(await push())) return false;
+  const email = meta.email;
   setStatus('syncing');
   try {
     const { keys: server } = await api('/sync');
+    if (meta.email !== email) return false; // as in push()
     const apply = planPull(server, meta.updated, readSnapshot(), meta.touched);
     writeKeys(apply);
     for (const [k, entry] of Object.entries(server)) {
@@ -340,6 +346,29 @@ export async function startSync() {
       if (!me.signedIn) forgetAccount();
     }).catch(() => {});
   }
+
+  // Another tab of the app shares this storage. When it signs in or out, or
+  // pushes and moves the agreed copy on, take its sync state, or this tab would
+  // later write back its own older copy: after a sign-out elsewhere, that
+  // stale copy would be saved as the base and double totals on the next
+  // sign-in (see forgetAccount).
+  window.addEventListener('storage', (e) => {
+    if (e.key !== META_KEY || signingIn) return;
+    const fresh = loadMeta();
+    const sameAccount = fresh.email && fresh.email === meta.email;
+    // Unsent writes from this tab still have to go; keep their marks.
+    meta = sameAccount ? { ...fresh, touched: { ...fresh.touched, ...meta.touched } } : fresh;
+    if (!meta.email) {
+      clearTimeout(pushTimer);
+      setStatus('signed-out');
+    } else if (!sameAccount) {
+      setStatus('idle');
+      // Always remount: the other tab's merge already rewrote storage, so this
+      // pull may change nothing, yet the app here still holds the old values
+      // in memory and would save them over the merge.
+      pull().then(() => remount());
+    }
+  });
 
   document.addEventListener('visibilitychange', async () => {
     if (!meta.email) return;

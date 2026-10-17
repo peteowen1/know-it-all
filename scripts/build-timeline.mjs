@@ -34,7 +34,10 @@ for (const [y, list] of Object.entries(films.boxOffice)) {
 // Award clues say which year they mean: Oscars are dated by the films' year
 // (the ceremony is the next spring), Emmys by the ceremony. A playtester
 // answered 2015 for Birdman (ceremony year) and was marked wrong.
+// Before 1934 the awards ran on split seasons (Wings is 1927/28, Cavalcade
+// 1932/33), so those winners have no single right year; they are left out.
 for (const [y, list] of Object.entries(films.bestPicture)) {
+  if (Number(y) < 1934) continue;
   add('oscars', Number(y), `${list[0].title} wins Best Picture (films of that year; ceremony the next spring)`);
 }
 // A show that won more than once ("The Sopranos", 2004 and 2007) had two right
@@ -57,6 +60,9 @@ for (const [key, title] of Object.entries(office)) {
   for (const t of lists[key].terms) {
     if (seen.has(t.name)) continue;
     seen.add(t.name);
+    // The UK list starts in 1900, so its first row is Salisbury's third term
+    // (1895); he first became Prime Minister in 1885.
+    if (key === 'ukPM' && t.from < 1900) continue;
     add('leaders', t.from, `${t.name} becomes ${title}`);
   }
 }

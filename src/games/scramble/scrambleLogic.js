@@ -86,12 +86,18 @@ export const hintFor = (country, mode) =>
  * Is the typed text one of the accepted spellings? Uses the same typed-answer
  * matcher as Fill the list: one typo allowed from five letters, two from nine.
  */
+// "The Gambia" for Gambia, "St John's" for Saint John's: a leading "The" is
+// optional and "St" is "Saint", on both sides.
+const tidy = (s) => normalise(s).replace(/^the /, '').replace(/\bst\b/g, 'saint');
+
 export function isCorrect(guess, round) {
-  if (rowMatches(guess, { accept: round.accept }, { exact: true })) return true;
+  const g = tidy(guess);
+  const accept = round.accept.map(tidy);
+  if (rowMatches(g, { accept }, { exact: true })) return true;
   // A typo allowance must not turn a different real name into a right answer
   // (Australia for Austria, Zambia for Gambia, Kingston for Kingstown).
-  if (round.reject?.some((r) => normalise(r) === normalise(guess))) return false;
-  return rowMatches(guess, { accept: round.accept });
+  if (round.reject?.some((r) => tidy(r) === g)) return false;
+  return rowMatches(g, { accept });
 }
 
 /**

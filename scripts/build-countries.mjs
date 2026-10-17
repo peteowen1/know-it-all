@@ -34,7 +34,23 @@ const ACCEPT_ALSO = {
   LK: ['Sri Jayawardenepura Kotte'],
   MY: ['Putrajaya'],
   BJ: ['Cotonou'],
-  PS: ['East Jerusalem']
+  PS: ['East Jerusalem'],
+  // Other spellings people type (a 2026-10-18 playtest of Scramble).
+  UA: ['Kiev'],
+  MN: ['Ulaanbaatar'],
+  MM: ['Nay Pyi Taw'],
+  AG: ["St John's"]
+};
+
+// Where REST Countries' subregion differs from the UN geoscheme (M49), whose
+// names it otherwise uses. South Sudan is Eastern Africa there.
+const SUBREGION_FIX = { SS: 'Eastern Africa' };
+
+// Country names people type that REST Countries does not list.
+const NAMES_ALSO = {
+  TR: ['Turkey'],
+  GB: ['Britain'],
+  DE: ['Deutschland']
 };
 
 const EXTRA_SOVEREIGN = new Set(['VA', 'PS', 'XK', 'TW']);
@@ -73,14 +89,14 @@ const countries = raw
       capitals: c.capital || [],
       capitalsAlsoAccepted: ACCEPT_ALSO[c.cca2] || [],
       region: c.region,
-      subregion: c.subregion || c.region,
+      subregion: SUBREGION_FIX[c.cca2] || c.subregion || c.region,
       sovereign: c.unMember || EXTRA_SOVEREIGN.has(c.cca2),
       unMember: c.unMember,
       flag: c.flag,
       population: p?.value ?? null,
       populationYear: p?.year ?? null,
       area: c.area,
-      altNames: c.altSpellings || [],
+      altNames: [...(c.altSpellings || []), ...(NAMES_ALSO[c.cca2] || [])],
       landlocked: c.landlocked,
       borders: c.borders || [],
       languages: Object.values(c.languages || {}),

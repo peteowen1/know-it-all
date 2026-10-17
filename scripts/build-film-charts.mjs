@@ -16,6 +16,7 @@
 
 import { wikitext, tableRows, tableStarts, plain, links, isBold, wikidataByTitle, wikidataLabels } from './lib/wikitable.mjs';
 import { fromRoot, writeData } from './lib/output.mjs';
+import { DIRECTOR_FIX } from './lib/directorFix.mjs';
 
 const RAW = fromRoot('data-raw/charts/films');
 const FIRST_BOX = 1970;
@@ -83,7 +84,11 @@ const names = await wikidataLabels(directorIds);
 
 let noDirector = 0;
 const finish = (f) => {
-  const directors = (lookup(f.link)?.claims.P57 || []).map((id) => names.get(id)).filter(Boolean);
+  const listed = (lookup(f.link)?.claims.P57 || []).map((id) => names.get(id)).filter(Boolean);
+  // A fix only trims a credit list it belongs to: titles repeat (A Star Is
+  // Born, 1937 and 2018), and the other film's directors must not change.
+  const fix = DIRECTOR_FIX[f.title];
+  const directors = fix && listed.length > fix.length && fix.every((d) => listed.includes(d)) ? fix : listed;
   if (!directors.length) noDirector++;
   return {
     rank: f.rank,
