@@ -38,7 +38,7 @@ import { pathForTab, tabForPath } from '../src/lib/route.js';
 import { GAMES } from '../src/games/registry.js';
 import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
-  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { finishAccepts, sharedForms } from './lib/listAccept.mjs';
 import { ROOT, SHIPPED, dataFile, slim, extraKeys } from './lib/output.mjs';
@@ -1175,6 +1175,17 @@ const FBF_SRC = loadSources(ROOT);
 const FBF_GROUPS = buildGroups(FBF_SRC);
 const FBF_BY_LABEL = indexByLabel(FBF_GROUPS);
 const FBF_LOOKUP = countryLookup(FBF_SRC.countries);
+test('four by four: every tile belongs to its own group (2026-10-18: No Time to Die was a Mendes film)', () => {
+  const wrong = [];
+  for (const [i, p] of FBF.puzzles.entries()) {
+    for (const g of p.groups) {
+      const def = FBF_BY_LABEL.get(g.label);
+      if (def) for (const t of g.items) if (!tileFits(def, t, FBF_LOOKUP)) wrong.push(`#${i} "${t}" is not in ${g.label}`);
+    }
+  }
+  assert.deepEqual(wrong, []);
+});
+
 test('four by four: no tile fits a second group in its puzzle (2026-10-17: 21 hits in 10 puzzles)', () => {
   const unknown = new Set();
   const hits = [];

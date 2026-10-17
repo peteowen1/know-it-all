@@ -170,9 +170,13 @@ export async function push({ keepalive = false } = {}) {
   for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt };
   const body = JSON.stringify({ keys });
 
+  const email = meta.email;
   setStatus('syncing');
   try {
     const res = await api('/sync', { method: 'PUT', body, keepalive: keepalive && new TextEncoder().encode(body).length < KEEPALIVE_LIMIT });
+    // Another tab signed out or switched account while this was in flight:
+    // this tab's sync state is no longer that account's, so leave it alone.
+    if (meta.email !== email) return false;
     if (res.received !== Object.keys(keys).length) {
       throw new Error(`server took ${res.received} of ${Object.keys(keys).length} keys`);
     }
@@ -207,9 +211,11 @@ export async function pull() {
   // Push first, so a local change is never overwritten by an older server copy.
   // If the push cannot get through, the pull would not be safe either.
   if (!(await push())) return false;
+  const email = meta.email;
   setStatus('syncing');
   try {
     const { keys: server } = await api('/sync');
+    if (meta.email !== email) return false; // as in push()
     const apply = planPull(server, meta.updated, readSnapshot(), meta.touched);
     writeKeys(apply);
     for (const [k, entry] of Object.entries(server)) {
@@ -357,7 +363,10 @@ export async function startSync() {
       setStatus('signed-out');
     } else if (!sameAccount) {
       setStatus('idle');
-      pull().then((changed) => changed && remount());
+      // Always remount: the other tab's merge already rewrote storage, so this
+      // pull may change nothing, yet the app here still holds the old values
+      // in memory and would save them over the merge.
+      pull().then(() => remount());
     }
   });
 
