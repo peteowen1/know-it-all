@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, lazy, Suspense } from 'react';
+import React, { useState, useEffect, useCallback, useRef, lazy, Suspense } from 'react';
 import Header from './components/Header';
 import GameHub from './components/GameHub';
 import RouteFallback from './components/RouteFallback';
@@ -138,6 +138,8 @@ export default function App() {
 
   const [quiz, setQuiz] = useState();
   const [dailyQuiz, setDailyQuiz] = useState();
+  // The day the daily set was built for; a tab left open past midnight rebuilds it.
+  const dailyDate = useRef(null);
   const [revisionQuiz, setRevisionQuiz] = useState();
   const [challengeQuiz, setChallengeQuiz] = useState();
   useEffect(() => {
@@ -161,7 +163,10 @@ export default function App() {
           ? prev
           : restoreQuiz('quiz', builder) || builder.buildQuiz({ ...DEFAULT_SETUP, ...getStored('setup', {}, isObject) })
       );
-      setDailyQuiz((prev) => (prev !== undefined ? prev : builder.buildDailyQuiz(5)));
+      const today = localDateKey();
+      const stale = dailyDate.current !== today;
+      dailyDate.current = today;
+      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : builder.buildDailyQuiz(5, today)));
       setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
       setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
     });
@@ -203,15 +208,23 @@ export default function App() {
   //
   // lastPlayDate is advanced only by finishing a quiz, never by opening the
   // app, so browsing without playing does not extend the streak.
+  // Rechecked on every tab change and on coming back to the page, so a tab left
+  // open across midnight does not keep showing a streak that has since lapsed.
   useEffect(() => {
-    const today = localDateKey();
-    const yesterday = previousDateKey();
-    setStats((prev) => {
-      const stillLive = prev.lastPlayDate === today || prev.lastPlayDate === yesterday;
-      if (stillLive || prev.streak === 0) return prev;
-      return { ...prev, streak: 0 };
-    });
-  }, []);
+    const check = () => {
+      const today = localDateKey();
+      const yesterday = previousDateKey();
+      setStats((prev) => {
+        const stillLive = prev.lastPlayDate === today || prev.lastPlayDate === yesterday;
+        if (stillLive || prev.streak === 0) return prev;
+        return { ...prev, streak: 0 };
+      });
+    };
+    check();
+    const onVisible = () => document.visibilityState === 'visible' && check();
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, [activeTab]);
 
   const startQuiz = useCallback(
     async (nextSetup) => {

@@ -77,7 +77,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
       <GameResults
         data-section="lab"
         eyebrow={`${title} · pairs the right way round`}
-        hero={`${correct} / ${total}`}
+        hero={`${correct} / ${total} pairs`}
         score={correct}
         total={total}
         verdict={

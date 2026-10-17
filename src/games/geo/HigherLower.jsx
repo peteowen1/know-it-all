@@ -100,7 +100,8 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
       unsaved.current = { run: run + 1, answers: nextAnswers };
     } else {
       unsaved.current = null;
-      onRoundComplete('population', { score: run, total: nextAnswers.length, answers: nextAnswers, run });
+      // A run already recorded on an earlier leave keeps its answers out of this one.
+      onRoundComplete('population', { score: run, total: nextAnswers.length, answers: nextAnswers.slice(alreadyRecorded), run });
     }
   };
 
@@ -110,7 +111,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
       // No country is far enough from this one: the pool is exhausted. End the
       // run on the results screen and record it like any other finished run.
       unsaved.current = null;
-      onRoundComplete('population', { score: run, total: answers.length, answers, run });
+      onRoundComplete('population', { score: run, total: answers.length, answers: answers.slice(alreadyRecorded), run });
       setState({ ...state, verdict: 'done', recordedRun: run });
       return;
     }
@@ -123,7 +124,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
       <GameResults
         data-section="geo"
         eyebrow="Higher or lower · final run"
-        hero={String(run)}
+        hero={`${run} in a row`}
         score={run}
         total={answers.length}
         celebrate={false}

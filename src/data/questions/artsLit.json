@@ -1109,12 +1109,12 @@
     "id": "art_080",
     "category": "arts_lit",
     "difficulty": "hard",
-    "question": "Which Australian author wrote under the pen name Henry Handel Richardson?",
-    "answer": "Ethel Florence Lindesay Richardson",
+    "question": "What was the real first name of the Australian author who wrote as Henry Handel Richardson?",
+    "answer": "Ethel",
     "distractors": [
-      "Stella Miles Franklin",
-      "Barbara Baynton",
-      "Katharine Susannah Prichard"
+      "Stella",
+      "Barbara",
+      "Katharine"
     ],
     "explanation": "Richardson grew up in Victoria and spent most of her adult life in England. Her trilogy The Fortunes of Richard Mahony, based on her father, follows a doctor's decline after the gold rushes, and her first novel Maurice Guest was set among music students in Leipzig. She was nominated for the Nobel Prize in 1932.",
     "hook": "Henry Handel was Ethel: another woman who needed a man's name to be read."
@@ -1935,7 +1935,7 @@
     "id": "art_139",
     "category": "arts_lit",
     "difficulty": "medium",
-    "question": "Which Arthur Miller play is about the travelling salesman Willy Loman?",
+    "question": "Which Arthur Miller play ends with the death of Willy Loman?",
     "answer": "Death of a Salesman",
     "distractors": [
       "The Crucible",
@@ -2033,7 +2033,7 @@
     "id": "art_146",
     "category": "arts_lit",
     "difficulty": "medium",
-    "question": "Which Vienna-born architect designed Sydney's Australia Square tower and the Rose Seidler House?",
+    "question": "Which Vienna-born architect designed Sydney's Australia Square tower and a landmark modernist house for his parents in Wahroonga?",
     "answer": "Harry Seidler",
     "distractors": [
       "Robin Boyd",
@@ -2201,7 +2201,7 @@
     "id": "art_158",
     "category": "arts_lit",
     "difficulty": "easy",
-    "question": "Which Roald Dahl book follows Charlie Bucket and a golden ticket to a sweet factory?",
+    "question": "Which Roald Dahl book follows a poor boy who finds the last golden ticket?",
     "answer": "Charlie and the Chocolate Factory",
     "distractors": [
       "James and the Giant Peach",

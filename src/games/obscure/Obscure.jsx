@@ -128,11 +128,11 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
           <div className="obs-reveal">
             <div>
               <span className="eyebrow">Rarest</span>
-              {cat.answers.slice(-4).reverse().map((a) => <span key={a.text}>{a.text} <em>{a.score}</em></span>)}
+              {cat.answers.slice(-4).reverse().map((a) => <span key={a.text}>{a.text} <em>{a.score} pts</em></span>)}
             </div>
             <div>
               <span className="eyebrow">Most obvious</span>
-              {cat.answers.slice(0, 4).map((a) => <span key={a.text}>{a.text} <em>{a.score}</em></span>)}
+              {cat.answers.slice(0, 4).map((a) => <span key={a.text}>{a.text} <em>{a.score} pts</em></span>)}
             </div>
           </div>
           <NextBar onClick={() => setGame({ ...game, index: index + 1, input: '' })}>

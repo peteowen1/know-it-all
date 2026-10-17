@@ -633,7 +633,7 @@
     "id": "wl_046",
     "category": "world_leaders",
     "difficulty": "medium",
-    "question": "Which title did Elizabeth II give Princess Anne in 1987?",
+    "question": "Which title did Elizabeth II give her daughter Anne in 1987?",
     "answer": "Princess Royal",
     "distractors": [
       "Duchess of Cornwall",
@@ -818,9 +818,9 @@
     "question": "Which prime minister was known as 'the Iron Duke'?",
     "answer": "Duke of Wellington",
     "distractors": [
-      "Robert Peel",
-      "Earl Grey",
-      "Lord Palmerston"
+      "Duke of Newcastle",
+      "Duke of Portland",
+      "Duke of Grafton"
     ],
     "explanation": "Wellington beat Napoleon at Waterloo in 1815 and was prime minister from 1828 to 1830. He pushed Catholic emancipation through in 1829 and fought a duel with an opponent of it.",
     "hook": "He beat Napoleon, then duelled over Catholic rights while PM."

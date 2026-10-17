@@ -7,7 +7,7 @@ import {
 } from '../../components/ui';
 import { ChoiceQuestion, GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
-import { usePersistentState } from '../../lib/persist';
+import { usePersistentState, saveLive } from '../../lib/persist';
 
 /**
  * A "by year" chart game. `domain` holds one or more charts keyed by year,
@@ -201,13 +201,17 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
           answers: r.items.map((it) => ({ key: itemKey(it.id), correct: r.found.includes(it.id) }))
         })
       }
+      // Leaving records the board, so it is saved as finished: reopening shows
+      // its results rather than letting it be played on and recorded again.
+      // Saved directly because this screen is unmounting with the board.
+      onLeave={(r) => saveLive(`chart_${domain.id}`, { ...r, over: true })}
       onAgain={start}
       onSettings={() => setRound(null)}
     />
   );
 }
 
-function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onAgain, onSettings }) {
+function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
   // A board restored already finished must not be recorded again on leaving.
@@ -230,12 +234,15 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onAgain, onSe
   latest.current = round;
   const finishOnLeave = useRef(onFinish);
   finishOnLeave.current = onFinish;
+  const leaveRef = useRef(onLeave);
+  leaveRef.current = onLeave;
   useEffect(
     () => () => {
       const r = latest.current;
       if (!finished.current && r.found.length) {
         finished.current = true;
         finishOnLeave.current(r);
+        leaveRef.current(r);
       }
     },
     []

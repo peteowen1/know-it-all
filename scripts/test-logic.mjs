@@ -34,7 +34,7 @@ import { readdirSync } from 'node:fs';
 import { normalise, editDistance, matchGuess, romanToInt } from '../src/games/names/nameMatch.js';
 import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from '../src/games/charts/chartLogic.js';
 import { readFileSync } from 'node:fs';
-import { diffSnapshot, planPull, mergeSnapshots, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
+import { diffSnapshot, planPull, mergeSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
   loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
@@ -879,6 +879,23 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
       sqt_v4_stats: 'old', sqt_v4_setup: 'mine', sqt_v4_live_quiz_quiz: 'round'
     });
     assert.deepEqual(apply, { sqt_v4_stats: 'new', sqt_v4_live_quiz_quiz: null });
+  });
+
+  test('sync: pull keeps a local edit made after the server copy and not yet sent', () => {
+    const server = { sqt_v4_setup: { value: 'server', updatedAt: 200 }, sqt_v4_stats: { value: 'new', updatedAt: 200 } };
+    const apply = planPull(server, {}, { sqt_v4_setup: 'mine', sqt_v4_stats: 'old' }, { sqt_v4_setup: 250, sqt_v4_stats: 150 });
+    assert.deepEqual(apply, { sqt_v4_stats: 'new' });
+  });
+
+  test('sync: first sign-in copies server deletions except progress keys', () => {
+    const server = {
+      sqt_v4_live_quiz_quiz: { value: null, updatedAt: 9 },
+      sqt_v4_stats: { value: null, updatedAt: 9 },
+      sqt_v4_setup: { value: '{}', updatedAt: 9 },
+      sqt_v4_live_gone_elsewhere: { value: null, updatedAt: 9 }
+    };
+    const local = { sqt_v4_live_quiz_quiz: 'round', sqt_v4_stats: stats(5), sqt_v4_setup: '{}' };
+    assert.deepEqual(tombstoneWrites(server, local), { sqt_v4_live_quiz_quiz: null });
   });
 
   test('sync: pull never writes the device-only tab key even if the server has it', () =>

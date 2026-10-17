@@ -75,11 +75,16 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
       key={round.id}
       round={round}
       easy={answerMode === 'choice'}
-      onFinish={(done) =>
+      onFinish={(done, skip = [], partial = false) =>
         onRoundComplete('lists', {
           score: done.filter(Boolean).length,
           total: round.rows.length,
-          answers: round.rows.map((r, i) => ({ key: `${round.listKey}:${r.name}:${r.from}`, correct: Boolean(done[i]) }))
+          // Rows already recorded on an earlier leave are not counted again; a
+          // leave records only the rows actually filled in.
+          answers: round.rows
+            .map((r, i) => ({ i, key: `${round.listKey}:${r.name}:${r.from}`, correct: Boolean(done[i]) }))
+            .filter((a) => !skip[a.i] && (!partial || a.correct))
+            .map(({ key, correct }) => ({ key, correct }))
         })
       }
       onAgain={start}
@@ -100,7 +105,10 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   const [wrong, setWrong] = useState(null);
   const [hint, setHint] = useState(null);
   const [over, setOver] = useState(saved?.over ?? false);
-  useEffect(() => saveLive('lists_board', { id: round.id, listKey: round.listKey, done, values, over }), [round.id, round.listKey, done, values, over]);
+  // Rows already counted in the stats (by an earlier leave), saved with the board
+  // so reopening and leaving again does not record them twice.
+  const recorded = useRef(saved?.recorded ?? rows.map(() => false));
+  useEffect(() => saveLive('lists_board', { id: round.id, listKey: round.listKey, done, values, over, recorded: recorded.current }), [round.id, round.listKey, done, values, over]);
   const inputs = useRef([]);
   const finished = useRef(Boolean(saved?.over));
   // Rows already locked, kept in a ref as well as state. Moving focus after a
@@ -114,19 +122,27 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
     if (finished.current) return;
     finished.current = true;
     setOver(true);
-    onFinish(d);
+    onFinish(d, recorded.current);
+    recorded.current = rows.map(() => true);
   };
 
   // Leaving part-way still records what was filled in.
   const latest = useRef(done);
   latest.current = done;
+  const valuesRef = useRef(values);
+  valuesRef.current = values;
   const onFinishRef = useRef(onFinish);
   onFinishRef.current = onFinish;
+  const idsRef = useRef({ id: round.id, listKey: round.listKey });
   useEffect(
     () => () => {
-      if (!finished.current && latest.current.some(Boolean)) {
+      if (!finished.current && latest.current.some((d, i) => d && !recorded.current[i])) {
         finished.current = true;
-        onFinishRef.current(latest.current);
+        onFinishRef.current(latest.current, recorded.current, true);
+        recorded.current = latest.current.slice();
+        // Written directly: the component is unmounting, so no further render
+        // would save the updated record.
+        saveLive('lists_board', { ...idsRef.current, done: latest.current, values: valuesRef.current, over: false, recorded: recorded.current });
       }
     },
     []

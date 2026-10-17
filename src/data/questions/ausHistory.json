@@ -115,7 +115,7 @@
     "id": "aus_009",
     "category": "aus_history",
     "difficulty": "easy",
-    "question": "Which document did First Nations delegates issue at Uluru in May 2017?",
+    "question": "Which document did First Nations delegates issue at a constitutional convention in Central Australia in May 2017?",
     "answer": "The Uluru Statement from the Heart",
     "distractors": [
       "The Barunga Statement",
@@ -875,7 +875,7 @@
     "answer": "Joseph Lyons",
     "distractors": [
       "James Scullin",
-      "Stanley Bruce",
+      "Joseph Cook",
       "Earle Page"
     ],
     "explanation": "A former Labor Premier of Tasmania, Lyons left Labor in 1931 to lead the new United Australia Party and was the first PM to die in office. Earle Page became caretaker before Robert Menzies took over.",
@@ -944,9 +944,9 @@
     "question": "Which voting innovation of 1856 became known internationally as the 'Australian ballot'?",
     "answer": "The secret ballot",
     "distractors": [
-      "Compulsory voting",
-      "Preferential voting",
-      "Postal voting"
+      "The preferential ballot",
+      "The postal ballot",
+      "The proxy ballot"
     ],
     "explanation": "Victoria and South Australia both brought in government-printed ballot papers marked in private in 1856, and Britain adopted it in 1872. Compulsory voting, the usual wrong answer, came federally only in 1924.",
     "hook": "Secret ballot 1856, compulsory voting 1924: Australia invented one and made the other famous."
@@ -1380,7 +1380,7 @@
     "distractors": [
       "The Country Party",
       "The United Australia Party",
-      "The Australia Party"
+      "Lang Labor"
     ],
     "explanation": "Mostly Catholic anti-communists, inspired by B.A. Santamaria's Movement, broke away in 1955 and took the DLP name in 1957. Their preferences went to the Coalition, helping keep Labor out of federal office until 1972.",
     "hook": "A party that won few seats kept Labor out for 17 years on preferences."
@@ -1501,7 +1501,7 @@
     "id": "aus_108",
     "category": "aus_history",
     "difficulty": "hard",
-    "question": "Which 1872 project connected Australia to Britain by telegraph?",
+    "question": "Which 1872 project first linked Australia to Britain by wire, via Darwin?",
     "answer": "The Overland Telegraph Line",
     "distractors": [
       "The Trans-Australian Railway",
@@ -1655,7 +1655,7 @@
     "id": "aus_119",
     "category": "aus_history",
     "difficulty": "hard",
-    "question": "Which 1901 Act required the deportation of most Pacific Islander labourers from Queensland?",
+    "question": "Which 1901 Act required the deportation of most South Sea Islanders working in Queensland?",
     "answer": "The Pacific Island Labourers Act",
     "distractors": [
       "The Immigration Restriction Act",

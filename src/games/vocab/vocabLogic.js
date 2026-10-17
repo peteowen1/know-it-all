@@ -25,6 +25,12 @@ export function indexGroups(vocab) {
   const { groups, clash } = vocab;
   const byId = new Map(groups.map((g, i) => [g.id, { ...g, index: i, near: new Set(g.near || []) }]));
   for (const g of byId.values()) for (const n of g.near) byId.get(n)?.near.add(g.id);
+  // Opposites too: a few families name an opposite that does not name them back
+  // (delectable -> bland), which left bland's reveal card without its Opposite.
+  for (const g of byId.values()) {
+    const opp = g.ant && byId.get(g.ant);
+    if (opp && !opp.ant) opp.ant = g.id;
+  }
   const familyOf = new Map();
   for (const g of byId.values()) for (const [w] of g.words) familyOf.set(w, g.id);
   let bits = null;
@@ -70,7 +76,8 @@ function pickDecoyGroups(ix, avoid, pos, n, rand) {
   return chosen;
 }
 
-const oneWord = (g, rand, not = []) => shuffle(g.words.filter(([w]) => !not.includes(w)), rand)[0][0];
+// null when every word is excluded (a one-word family asked to avoid its own word).
+const oneWord = (g, rand, not = []) => shuffle(g.words.filter(([w]) => !not.includes(w)), rand)[0]?.[0] ?? null;
 
 /** Weighted draw: higher weight, more likely. Weights come from gameStats.itemWeights. */
 function weightedPick(items, weightOf, rand) {
@@ -106,6 +113,7 @@ function antRound(g, target, ix, rand) {
   if (!opp) return null;
   const answer = oneWord(opp, rand);
   const trap = oneWord(g, rand, [target]);
+  if (!answer || !trap) return null;
   const decoys = pickDecoyGroups(ix, [g, opp], g.pos, 2, rand);
   if (decoys.length < 2) return null;
   const options = shuffle([answer, trap, ...decoys.map((d) => oneWord(d, rand))], rand);
