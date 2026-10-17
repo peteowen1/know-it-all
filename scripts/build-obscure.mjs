@@ -16,6 +16,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { UA } from './lib/wikitable.mjs';
 import { dataFile, fromRoot, writeData } from './lib/output.mjs';
+import { OBSCURE_EXCLUDE } from './lib/obscureFix.mjs';
 
 const load = (p) => JSON.parse(readFileSync(dataFile(p), 'utf8'));
 const countries = load('countries.json').countries.filter((c) => c.sovereign);
@@ -30,12 +31,18 @@ const categories = [];
  * run 1 (most famous) to 100 (least), spread evenly by rank.
  */
 const add = (id, prompt, kind, answers, min = 6) => {
+  const excluded = new Set(OBSCURE_EXCLUDE[id] || []);
   // Same text twice (two different George Floyds in the people data) keeps the
-  // more famous one: last-write-wins scored the famous George Floyd 100.
+  // more famous one: last-write-wins scored the famous George Floyd 100. Case
+  // is ignored: "Someone Like You" and "Someone like You" are one song.
   const byText = new Map();
   for (const a of answers) {
-    const cur = byText.get(a.text);
-    if (!cur || a.fame > cur.fame) byText.set(a.text, { ...a, accept: [...new Set([...(cur?.accept || []), ...(a.accept || [])])] });
+    if (excluded.has(a.text)) continue;
+    const key = a.text.toLowerCase();
+    const cur = byText.get(key);
+    const merged = [...new Set([...(cur?.accept || []), ...(a.accept || [])])];
+    if (!cur || a.fame > cur.fame) byText.set(key, { ...a, accept: merged });
+    else cur.accept = merged;
   }
   const uniq = [...byText.values()];
   if (uniq.length < min) return;
@@ -115,7 +122,8 @@ for (const list of Object.values(music)) {
   for (const s of list) {
     for (const a of s.artists || [s.artist]) {
       const title = s.title.split(' / ')[0];
-      const cur = ((songsBy[a] ||= {})[title] ||= { text: title, accept: s.titles || [], fame: 0 });
+      // Keyed without case, so a title charted under two capitalisations adds up as one song.
+      const cur = ((songsBy[a] ||= {})[title.toLowerCase()] ||= { text: title, accept: s.titles || [], fame: 0 });
       cur.fame += 101 - s.rank;
     }
   }
