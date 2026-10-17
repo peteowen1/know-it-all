@@ -675,7 +675,7 @@
     "id": "spt_049",
     "category": "sports",
     "difficulty": "medium",
-    "question": "Which national netball league replaced Australia's half of the trans-Tasman ANZ Championship in 2017?",
+    "question": "Which national league replaced Australia's half of the trans-Tasman ANZ Championship in 2017?",
     "answer": "Super Netball",
     "distractors": [
       "The Commonwealth Bank Trophy",
@@ -1151,7 +1151,7 @@
     "id": "spt_083",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which AFL club was formed by the 1996 merger of Fitzroy and the Brisbane Bears?",
+    "question": "Which AFL club was formed by the 1996 merger of Fitzroy and the Bears?",
     "answer": "The Brisbane Lions",
     "distractors": [
       "The Sydney Swans",
@@ -1375,7 +1375,7 @@
     "id": "spt_099",
     "category": "sports",
     "difficulty": "hard",
-    "question": "Which Australian yacht race starts in Sydney Harbour on Boxing Day?",
+    "question": "Which Australian yacht race starts on Boxing Day and crosses Bass Strait to Tasmania?",
     "answer": "The Sydney to Hobart",
     "distractors": [
       "The Brisbane to Gladstone",

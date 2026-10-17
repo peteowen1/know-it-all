@@ -13,13 +13,13 @@
 // Signed out, none of this runs: markDirty() returns immediately and the app
 // is exactly the local-only app it was before.
 
-import { diffSnapshot, planPull, mergeSnapshots, isSyncedKey } from './syncCore.js';
+import { diffSnapshot, planPull, mergeSnapshots, tombstoneWrites, isSyncedKey } from './syncCore.js';
 import { onDirty } from './storage.js';
 
 const META_KEY = 'kia_sync';
 const PUSH_DELAY_MS = 1500;
 const STARTUP_WAIT_MS = 3000;
-// Browsers refuse keepalive requests with a body over 64 KB.
+// Browsers refuse keepalive requests with a body over 64 KB (bytes, not characters).
 const KEEPALIVE_LIMIT = 60_000;
 
 // touched: when each key was last written on this device. Each key is sent
@@ -30,6 +30,7 @@ const blankMeta = () => ({ email: null, shadow: {}, updated: {}, touched: {} });
 let meta = loadMeta();
 let pushTimer = null;
 let applying = false;
+let signingIn = false;
 let generation = 0;
 let status = meta.email ? 'idle' : 'signed-out';
 const listeners = new Set();
@@ -124,7 +125,9 @@ async function api(path, options = {}) {
 
 /** Send changed keys. Resolves true when the server has everything this device has. */
 export async function push({ keepalive = false } = {}) {
-  if (!meta.email) return false;
+  // While signing in, the merge has not run yet: pushing now would send every
+  // local key as the newest copy over the account's.
+  if (!meta.email || signingIn) return false;
   clearTimeout(pushTimer);
   const current = readSnapshot();
   const changes = diffSnapshot(current, meta.shadow);
@@ -143,14 +146,15 @@ export async function push({ keepalive = false } = {}) {
 
   setStatus('syncing');
   try {
-    const res = await api('/sync', { method: 'PUT', body, keepalive: keepalive && body.length < KEEPALIVE_LIMIT });
+    const res = await api('/sync', { method: 'PUT', body, keepalive: keepalive && new TextEncoder().encode(body).length < KEEPALIVE_LIMIT });
     if (res.received !== Object.keys(keys).length) {
       throw new Error(`server took ${res.received} of ${Object.keys(keys).length} keys`);
     }
     for (const [k, v] of Object.entries(changes)) {
       if (v === null) delete meta.shadow[k];
       else meta.shadow[k] = v;
-      meta.updated[k] = keys[k].updatedAt;
+      // The server never stores a time later than its own clock; record what it kept.
+      meta.updated[k] = Math.min(keys[k].updatedAt, res.now ?? Infinity);
       // Keep the mark if the key was written again while this was in flight;
       // that newer write still has to go.
       if (meta.touched[k] === keys[k].updatedAt || !meta.touched[k]) delete meta.touched[k];
@@ -180,7 +184,7 @@ export async function pull() {
   setStatus('syncing');
   try {
     const { keys: server } = await api('/sync');
-    const apply = planPull(server, meta.updated, readSnapshot());
+    const apply = planPull(server, meta.updated, readSnapshot(), meta.touched);
     writeKeys(apply);
     for (const [k, entry] of Object.entries(server)) {
       if (!isSyncedKey(k)) continue;
@@ -218,23 +222,35 @@ export async function signInWithGoogle(credential) {
   if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || 'Sign-in failed.');
   const { email, hasData } = await res.json();
 
+  // The email is saved only once the merge has run. If the fetch fails, this
+  // device stays signed out rather than holding an empty shadow that the next
+  // save would push over the account's newer copies.
   meta = { ...blankMeta(), email };
-  saveMeta();
+  signingIn = true;
   setStatus('syncing');
 
-  // First sign-in on this device: this browser and the account are two
-  // separate histories, so they are merged (never on later syncs).
-  if (hasData) {
-    const { keys: server } = await api('/sync');
-    const incoming = {};
-    for (const [k, e] of Object.entries(server)) if (e.value !== null) incoming[k] = e.value;
-    const writes = mergeSnapshots(readSnapshot(), incoming);
-    writeKeys(writes);
-    // Record the server's copy as agreed, so push sends only what the merge changed.
-    for (const [k, e] of Object.entries(server)) {
-      meta.updated[k] = e.updatedAt;
-      if (e.value !== null) meta.shadow[k] = e.value;
+  try {
+    // First sign-in on this device: this browser and the account are two
+    // separate histories, so they are merged (never on later syncs).
+    if (hasData) {
+      const { keys: server } = await api('/sync');
+      const incoming = {};
+      for (const [k, e] of Object.entries(server)) if (e.value !== null) incoming[k] = e.value;
+      const local = readSnapshot();
+      writeKeys({ ...mergeSnapshots(local, incoming), ...tombstoneWrites(server, local) });
+      // Record the server's copy as agreed, so push sends only what the merge changed.
+      for (const [k, e] of Object.entries(server)) {
+        meta.updated[k] = e.updatedAt;
+        if (e.value !== null) meta.shadow[k] = e.value;
+      }
     }
+  } catch (err) {
+    meta = blankMeta();
+    saveMeta();
+    setStatus('signed-out');
+    throw err;
+  } finally {
+    signingIn = false;
   }
   saveMeta();
   // Remount BEFORE the push awaits: the app still holds the pre-merge values in

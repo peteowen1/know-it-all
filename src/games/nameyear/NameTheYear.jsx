@@ -76,7 +76,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
               key={r.year}
               state={p === 10 ? 'got' : p > 0 ? 'pending' : 'missed'}
               lead={<strong>{r.year}</strong>}
-              trail={`you said ${guesses[i]} · ${p} pts`}
+              trail={`You said ${guesses[i]} · ${p} point${p === 1 ? '' : 's'}`}
             >
               {/* The clues, so the result teaches which events belong to the year. */}
               <ul className="ny-sum-clues">

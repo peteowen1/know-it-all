@@ -36,15 +36,31 @@ export function diffSnapshot(current, shadow) {
  * adds totals together, which is right for two separate histories and wrong
  * for two copies of one: every round trip would double "questions answered".
  */
-export function planPull(server, localUpdated, current) {
+export function planPull(server, localUpdated, current, touched = {}) {
   const apply = {};
   for (const [k, entry] of Object.entries(server)) {
     if (!isSyncedKey(k)) continue;
     if ((entry.updatedAt || 0) <= (localUpdated[k] || 0)) continue;
+    // Written here after the server copy was made, and not yet sent: keep it.
+    if ((touched[k] || 0) > (entry.updatedAt || 0)) continue;
     const mine = k in current ? current[k] : null;
     if (mine !== entry.value) apply[k] = entry.value;
   }
   return apply;
+}
+
+/**
+ * Deletions on the server that this browser should copy on a first sign-in.
+ * Progress keys are left alone: a reset elsewhere must not wipe the history
+ * this browser is bringing to the merge.
+ */
+export function tombstoneWrites(server, local) {
+  const writes = {};
+  const progress = new Set([...Object.values(PROFILE), WEEKLY]);
+  for (const [k, e] of Object.entries(server)) {
+    if (e.value === null && isSyncedKey(k) && k in local && !progress.has(k)) writes[k] = null;
+  }
+  return writes;
 }
 
 // The keys that together are "your progress" in the sense mergeProgress

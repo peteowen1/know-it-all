@@ -52,7 +52,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
       <GameResults
         data-section="lab"
         eyebrow="Missing link"
-        hero={`${total} / ${rounds.length * CLUES}`}
+        hero={`${total} / ${rounds.length * CLUES} points`}
         score={total}
         total={rounds.length * CLUES}
         verdict={total >= rounds.length * 3 ? 'Sharp. You named the links early.' : total > 0 ? 'Some links landed. The rest are below.' : 'No links this time. They are all below.'}
@@ -64,7 +64,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
         settingsLabel="Back"
       >
         {rounds.map((r, i) => (
-          <AnswerRow key={r.id} state={results[i].points ? 'got' : 'missed'} trail={results[i].points ? `${results[i].points} pts` : 'missed'}>
+          <AnswerRow key={r.id} state={results[i].points ? 'got' : 'missed'} trail={results[i].points ? `${results[i].points} point${results[i].points === 1 ? '' : 's'}` : 'missed'}>
             {r.link}
           </AnswerRow>
         ))}

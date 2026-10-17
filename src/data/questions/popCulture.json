@@ -381,7 +381,7 @@
     "id": "pop_028",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which 1985 Nintendo game made the plumber Mario and his brother Luigi household names?",
+    "question": "Which 1985 Nintendo game made a plumber and his brother household names?",
     "answer": "Super Mario Bros.",
     "distractors": [
       "The Legend of Zelda",
@@ -871,7 +871,7 @@
     "id": "pop_063",
     "category": "pop_culture",
     "difficulty": "medium",
-    "question": "Which Australian film features Toni Collette and ABBA songs at a wedding?",
+    "question": "Which Australian film stars Toni Collette as an ABBA-loving bride-to-be from Porpoise Spit?",
     "answer": "Muriel's Wedding",
     "distractors": [
       "Strictly Ballroom",
@@ -1459,7 +1459,7 @@
     "id": "pop_105",
     "category": "pop_culture",
     "difficulty": "hard",
-    "question": "Which film's opening weekend record was broken by Avengers: Endgame in 2019?",
+    "question": "Which film's opening weekend record was broken in 2019 by its own sequel?",
     "answer": "Avengers: Infinity War",
     "distractors": [
       "Star Wars: The Force Awakens",
@@ -1823,7 +1823,7 @@
     "id": "pop_131",
     "category": "pop_culture",
     "difficulty": "easy",
-    "question": "Which Brisbane-made animated series follows a Blue Heeler puppy and her family?",
+    "question": "Which Brisbane-made animated series follows a cattle-dog puppy and her family?",
     "answer": "Bluey",
     "distractors": [
       "Peppa Pig",

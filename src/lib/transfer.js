@@ -152,7 +152,8 @@ export function mergeProgress(local, incoming) {
     byId.set(entry.id, {
       ...mine,
       box: Math.min(mine.box ?? 0, entry.box ?? 0),
-      due: (mine.due || '') < (entry.due || '') ? mine.due : entry.due,
+      // The earlier of the two dates; a missing date never beats a real one.
+      due: !mine.due ? entry.due : !entry.due ? mine.due : mine.due < entry.due ? mine.due : entry.due,
       lapses: Math.max(mine.lapses || 0, entry.lapses || 0),
       reps: Math.max(mine.reps || 0, entry.reps || 0)
     });
