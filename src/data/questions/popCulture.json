@@ -2168,5 +2168,4471 @@
     ],
     "explanation": "Noah Wyle, who played Dr Carter in ER, stars as the head of a Pittsburgh emergency department, and won Best Actor in 2025. Each season covers one fifteen-hour shift, with each episode showing one hour of it.",
     "hook": "One shift per season, one hour per episode."
+  },
+  {
+    "id": "pop_156",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which sitcom follows the staff of the Scranton branch of the Dunder Mifflin paper company?",
+    "answer": "The Office",
+    "distractors": [
+      "Parks and Recreation",
+      "Superstore",
+      "Brooklyn Nine-Nine"
+    ],
+    "explanation": "The American series was adapted from Ricky Gervais and Stephen Merchant's British original and ran for nine seasons from 2005. Steve Carell played the boss Michael Scott for seven of them.",
+    "hook": "A British comedy that critics loved, remade for America and set in Pennsylvania."
+  },
+  {
+    "id": "pop_157",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Australian band, fronted by Chrissy Amphlett, recorded 'I Touch Myself'?",
+    "answer": "Divinyls",
+    "distractors": [
+      "Hoodoo Gurus",
+      "Icehouse",
+      "The Go-Betweens"
+    ],
+    "explanation": "Amphlett died of breast cancer in 2013. A 2014 re-recording of the song by Australian women launched the I Touch Myself Project, which encourages breast self-checks.",
+    "hook": "A cheeky pop hit became a breast-cancer awareness anthem."
+  },
+  {
+    "id": "pop_158",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Australian cooking competition, launched on Network Ten in 2009, was first judged by Gary Mehigan, George Calombaris and Matt Preston?",
+    "answer": "MasterChef Australia",
+    "distractors": [
+      "My Kitchen Rules",
+      "The Great Australian Bake Off",
+      "Hell's Kitchen Australia"
+    ],
+    "explanation": "A home cook, Julie Goodwin, won the first series. The format came from Britain, and the Australian version became one of the most successful local adaptations.",
+    "hook": "A suburban mum's win kicked off Australia's cooking-show boom."
+  },
+  {
+    "id": "pop_159",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which musician created the stage alter ego Ziggy Stardust?",
+    "answer": "David Bowie",
+    "distractors": [
+      "Marc Bolan",
+      "Lou Reed",
+      "Iggy Pop"
+    ],
+    "explanation": "The character appeared on the 1972 album The Rise and Fall of Ziggy Stardust and the Spiders from Mars. Bowie retired Ziggy on stage at London's Hammersmith Odeon in July 1973, surprising even his band.",
+    "hook": "He killed off his own alien rock star on stage."
+  },
+  {
+    "id": "pop_160",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2000 film has Tom Hanks marooned on a Pacific island, talking to a volleyball he names Wilson?",
+    "answer": "Cast Away",
+    "distractors": [
+      "The Blue Lagoon",
+      "Swiss Family Robinson",
+      "Life of Pi"
+    ],
+    "explanation": "Production paused for about a year so Hanks could lose weight and grow a beard, and director Robert Zemeckis shot another film, What Lies Beneath, in the gap. The ball was a real Wilson Sporting Goods volleyball.",
+    "hook": "The crew took a year off so the star could waste away."
+  },
+  {
+    "id": "pop_161",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which ABC mockumentary created by Chris Lilley features the private-school student Ja'mie King and the drama teacher Mr G?",
+    "answer": "Summer Heights High",
+    "distractors": [
+      "We Can Be Heroes",
+      "Angry Boys",
+      "Housos"
+    ],
+    "explanation": "Lilley played all three of the main characters himself, including the Tongan student Jonah. It aired in 2007 and was shot in a real Melbourne school.",
+    "hook": "One actor played the schoolgirl, the teacher and the troublemaker."
+  },
+  {
+    "id": "pop_162",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Disney+ series follows a bounty hunter named Din Djarin who protects a small green child?",
+    "answer": "The Mandalorian",
+    "distractors": [
+      "Andor",
+      "Ahsoka",
+      "Obi-Wan Kenobi"
+    ],
+    "explanation": "Created by Jon Favreau, it premiered on 12 November 2019, the day Disney+ launched in the United States. The child, Grogu, became an internet sensation before his name was revealed.",
+    "hook": "A launch-day show whose breakout star was a tiny green mystery."
+  },
+  {
+    "id": "pop_163",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1939 epic features Rhett Butler saying 'Frankly, my dear, I don't give a damn'?",
+    "answer": "Gone with the Wind",
+    "distractors": [
+      "Rebecca",
+      "Mrs. Miniver",
+      "Wuthering Heights"
+    ],
+    "explanation": "Hattie McDaniel won Best Supporting Actress for it, the first Black performer to win an Oscar. The word 'damn' was so contentious that the film industry's censorship code was amended around it.",
+    "hook": "One swear word forced Hollywood to rewrite its rules."
+  },
+  {
+    "id": "pop_164",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which AMC drama follows creative director Don Draper in a New York advertising agency in the 1960s?",
+    "answer": "Mad Men",
+    "distractors": [
+      "Boardwalk Empire",
+      "The Americans",
+      "Halt and Catch Fire"
+    ],
+    "explanation": "It won the Emmy for Outstanding Drama Series four years running, from 2008 to 2011. Jon Hamm, who played Draper, finally won his only Emmy for the final season in 2015 after many nominations.",
+    "hook": "Four straight Emmys for the show, one late win for its star."
+  },
+  {
+    "id": "pop_165",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Manchester band released '(What's the Story) Morning Glory?' in 1995 and 'Wonderwall'?",
+    "answer": "Oasis",
+    "distractors": [
+      "Blur",
+      "Pulp",
+      "The Verve"
+    ],
+    "explanation": "Noel Gallagher wrote most of the songs and his brother Liam sang them. In August 1995 the band's single went head to head with Blur's 'Country House' in a chart battle that Blur won.",
+    "hook": "They lost the Battle of Britpop but won the album war."
+  },
+  {
+    "id": "pop_166",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In which country was the puzzle game Tetris invented?",
+    "answer": "The Soviet Union",
+    "distractors": [
+      "Japan",
+      "The United States",
+      "Poland"
+    ],
+    "explanation": "Alexey Pajitnov developed it in Moscow on a research computer, starting in 1984, with the Electronika 60 version released in 1985. Nintendo bundling it with the Game Boy in 1989 turned it into a worldwide hit.",
+    "hook": "The world's best-known falling blocks came from Moscow."
+  },
+  {
+    "id": "pop_167",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which musician was born Reginald Kenneth Dwight?",
+    "answer": "Elton John",
+    "distractors": [
+      "Billy Joel",
+      "Rod Stewart",
+      "Cat Stevens"
+    ],
+    "explanation": "He took his stage name from two members of his early band Bluesology, saxophonist Elton Dean and singer Long John Baldry. He changed it legally in 1972.",
+    "hook": "His new name was borrowed from two bandmates."
+  },
+  {
+    "id": "pop_168",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Beatle wrote 'Taxman', the opening track on Revolver?",
+    "answer": "George Harrison",
+    "distractors": [
+      "Paul McCartney",
+      "John Lennon",
+      "Ringo Starr"
+    ],
+    "explanation": "Harrison wrote it to protest against Britain's top income tax rate of 95 per cent. Paul McCartney played the guitar solo on the recording.",
+    "hook": "The song about paying too much tax has a McCartney solo."
+  },
+  {
+    "id": "pop_169",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which British composer wrote the theme tune for Neighbours?",
+    "answer": "Tony Hatch",
+    "distractors": [
+      "Les Reed",
+      "John Barry",
+      "Burt Bacharach"
+    ],
+    "explanation": "Hatch also wrote 'Downtown', a hit for Petula Clark in 1964. Australian singer Barry Crocker recorded the original version of the Neighbours theme.",
+    "hook": "The Ramsay Street theme and 'Downtown' share a composer."
+  },
+  {
+    "id": "pop_170",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which console, released in Japan in 1998, was the last one made by Sega?",
+    "answer": "Dreamcast",
+    "distractors": [
+      "Saturn",
+      "Mega Drive",
+      "Master System"
+    ],
+    "explanation": "It was one of the first consoles with a built-in modem for online play. Sega stopped making hardware in 2001 and became a software publisher, even making games for its old rivals.",
+    "hook": "Sega's last console turned the company into a game publisher."
+  },
+  {
+    "id": "pop_171",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Japanese company released Pac-Man as an arcade game in 1980?",
+    "answer": "Namco",
+    "distractors": [
+      "Taito",
+      "Atari",
+      "Sega"
+    ],
+    "explanation": "Designer Toru Iwatani said the character's shape came from a pizza with a slice missing. The Japanese name Puck-Man was changed overseas because of fears that vandals would alter the P on the arcade cabinets.",
+    "hook": "A pizza with a slice missing, renamed to dodge graffiti."
+  },
+  {
+    "id": "pop_172",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which director made the 1984 mockumentary about a British heavy metal band whose amplifiers go up to eleven?",
+    "answer": "Rob Reiner",
+    "distractors": [
+      "Christopher Guest",
+      "Mel Brooks",
+      "Harold Ramis"
+    ],
+    "explanation": "It was Reiner's first feature as director, and he also appears on screen as the documentary maker. He later directed Stand by Me, The Princess Bride and When Harry Met Sally.",
+    "hook": "One director, four classics from 1984 to 1989."
+  },
+  {
+    "id": "pop_173",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Australian actor made his film debut in Nicolas Roeg's 1971 film Walkabout?",
+    "answer": "David Gulpilil",
+    "distractors": [
+      "Ernie Dingo",
+      "Jack Thompson",
+      "Bruce Spence"
+    ],
+    "explanation": "A young Yolngu dancer from Arnhem Land, he later starred in Storm Boy, Crocodile Dundee and Rabbit-Proof Fence. His 2006 film Ten Canoes, which he narrated, was described as the first feature film shot in Aboriginal languages.",
+    "hook": "A teenage dancer from Arnhem Land opened the door for others."
+  },
+  {
+    "id": "pop_174",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 1969 rock opera by The Who follows a boy who is deaf, dumb and blind and becomes a pinball champion?",
+    "answer": "Tommy",
+    "distractors": [
+      "Quadrophenia",
+      "The Wall",
+      "American Idiot"
+    ],
+    "explanation": "Pete Townshend wrote most of it, and it was later made into a 1975 film directed by Ken Russell. Its song 'Pinball Wizard' was a top-ten hit in Britain.",
+    "hook": "The deaf, dumb and blind kid sure plays a mean pinball."
+  },
+  {
+    "id": "pop_175",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Who became the first African American to win an Academy Award, for her supporting role as Mammy in Gone with the Wind?",
+    "answer": "Hattie McDaniel",
+    "distractors": [
+      "Ethel Waters",
+      "Lena Horne",
+      "Dorothy Dandridge"
+    ],
+    "explanation": "She won Best Supporting Actress at the 1940 ceremony, held at a segregated hotel where she had to sit at a separate table. She was also a radio performer. Hollywood Memorial Park (now Hollywood Forever) refused to bury her on racial grounds, so she was buried at Rosedale Cemetery.",
+    "hook": "First Black Oscar winner, seated at a separate table to collect it."
+  },
+  {
+    "id": "pop_176",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In Citizen Kane, what object does the dying tycoon's last word turn out to refer to?",
+    "answer": "A childhood sled",
+    "distractors": [
+      "A rocking horse",
+      "A toy train",
+      "A silver locket"
+    ],
+    "explanation": "The reporters never solve the puzzle, but the camera shows workmen burning the sled, with its painted name, in the closing shot. The film's twist was already so famous by the 1940s that it has been spoiled in countless parodies.",
+    "hook": "The sled burns in the furnace while the audience finally knows."
+  },
+  {
+    "id": "pop_177",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Orson Welles's Citizen Kane, nominated for nine Academy Awards, won only one. In which category?",
+    "answer": "Best Original Screenplay",
+    "distractors": [
+      "Best Cinematography",
+      "Best Director",
+      "Best Film Editing"
+    ],
+    "explanation": "Welles shared the award with Herman J. Mankiewicz at the 1942 ceremony. The film lost Best Picture to How Green Was My Valley, and the William Randolph Hearst newspaper empire had campaigned against it.",
+    "hook": "Welles and Mankiewicz won for writing, not directing."
+  },
+  {
+    "id": "pop_178",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In L. Frank Baum's original book The Wonderful Wizard of Oz, what colour are Dorothy's magic shoes, before the 1939 film changed them to ruby red?",
+    "answer": "Silver",
+    "distractors": [
+      "Gold",
+      "Emerald green",
+      "Sapphire blue"
+    ],
+    "explanation": "The filmmakers changed the shoes to ruby red to show off the new Technicolor process, which made the red glitter against the yellow brick road. The Kansas scenes at the start of the 1939 film were filmed in sepia rather than colour.",
+    "hook": "Technicolor turned silver slippers into ruby ones."
+  },
+  {
+    "id": "pop_179",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 1952 musical, co-directed by Gene Kelly and Stanley Donen, spoofs Hollywood's panicked move from silent films to talkies?",
+    "answer": "Singin' in the Rain",
+    "distractors": [
+      "An American in Paris",
+      "On the Town",
+      "Meet Me in St. Louis"
+    ],
+    "explanation": "Kelly famously performed the title dance with a fever of about 39 degrees Celsius (103 degrees Fahrenheit).",
+    "hook": "A fevered Kelly splashed through puddles for the greatest dance on film."
+  },
+  {
+    "id": "pop_180",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Al Jolson starred in the 1927 film that is credited as the first feature-length movie with synchronised spoken dialogue and song. What was it called?",
+    "answer": "The Jazz Singer",
+    "distractors": [
+      "The Singing Fool",
+      "Lights of New York",
+      "Steamboat Willie"
+    ],
+    "explanation": "Warner Bros. used the Vitaphone sound-on-disc system, and Jolson's ad-libbed line 'Wait a minute, you ain't heard nothin' yet' stunned audiences. Within a few years almost every studio had converted to sound, ending the silent era.",
+    "hook": "'You ain't heard nothin' yet' ended the silent era."
+  },
+  {
+    "id": "pop_181",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which former US Postmaster General gave his name to Hollywood's self-censorship code, enforced strictly from 1934?",
+    "answer": "Will H. Hays",
+    "distractors": [
+      "Joseph P. Kennedy",
+      "Louis B. Mayer",
+      "Cordell Hull"
+    ],
+    "explanation": "Hays headed the studios' trade body, and the Production Code was enforced by Joseph Breen. It banned things like nudity, open-mouthed kissing and sympathetic criminals, and it faded in the 1960s before the ratings system replaced it in 1968.",
+    "hook": "A postmaster censored the pictures."
+  },
+  {
+    "id": "pop_182",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which actor delivered the line 'Frankly, my dear, I don't give a damn' as Rhett Butler in Gone with the Wind?",
+    "answer": "Clark Gable",
+    "distractors": [
+      "Cary Grant",
+      "Errol Flynn",
+      "Humphrey Bogart"
+    ],
+    "explanation": "The word 'damn' broke the Production Code, and producer David O. Selznick was fined for using it. The line was voted the greatest movie quote by the American Film Institute in 2005.",
+    "hook": "Selznick paid a fine just to say damn."
+  },
+  {
+    "id": "pop_183",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who directed the 1959 comedy Some Like It Hot, in which Tony Curtis and Jack Lemmon go on the run dressed as women?",
+    "answer": "Billy Wilder",
+    "distractors": [
+      "Frank Capra",
+      "George Cukor",
+      "Howard Hawks"
+    ],
+    "explanation": "Marilyn Monroe's famously difficult shoot needed dozens of takes for some lines, yet she earned a Golden Globe for the role. The film ends with the line 'Nobody's perfect' and was shot in black and white because Curtis and Lemmon's makeup looked green in colour.",
+    "hook": "Nobody's perfect, and the makeup looked green in colour."
+  },
+  {
+    "id": "pop_184",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In which 1953 film does Marilyn Monroe sing 'Diamonds Are a Girl's Best Friend' in a pink dress?",
+    "answer": "Gentlemen Prefer Blondes",
+    "distractors": [
+      "How to Marry a Millionaire",
+      "The Seven Year Itch",
+      "River of No Return"
+    ],
+    "explanation": "She starred alongside Jane Russell as showgirls sailing to Paris. Monroe's number was later imitated by Madonna in her 1985 'Material Girl' video.",
+    "hook": "Madonna borrowed the pink dress for Material Girl."
+  },
+  {
+    "id": "pop_185",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which author wrote the 1958 novella that inspired the film Breakfast at Tiffany's starring Audrey Hepburn?",
+    "answer": "Truman Capote",
+    "distractors": [
+      "F. Scott Fitzgerald",
+      "Tennessee Williams",
+      "John Steinbeck"
+    ],
+    "explanation": "Capote wanted Marilyn Monroe to play Holly Golightly and was unhappy when the studio cast Hepburn. The film softened the book's ending and its heroine's lifestyle to suit Hollywood's tastes.",
+    "hook": "Capote wanted Monroe, and got Hepburn."
+  },
+  {
+    "id": "pop_186",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In which 1954 Elia Kazan film does Marlon Brando's ex-boxer say 'I coulda been a contender'?",
+    "answer": "On the Waterfront",
+    "distractors": [
+      "A Streetcar Named Desire",
+      "Viva Zapata!",
+      "The Wild One"
+    ],
+    "explanation": "Brando won Best Actor for the role, and the film took eight Oscars in all, including Best Picture. The famous taxi scene with Rod Steiger was reportedly improvised in part.",
+    "hook": "A bruised ex-fighter who coulda been somebody."
+  },
+  {
+    "id": "pop_187",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "James Dean died in a 1955 road crash while driving a Spyder built by which German carmaker?",
+    "answer": "Porsche",
+    "distractors": [
+      "Mercedes-Benz",
+      "BMW",
+      "Volkswagen"
+    ],
+    "explanation": "The silver 550 Spyder, which Dean had nicknamed 'Little Bastard', collided with another car at a junction in California. He was 24 and died before his second and third films, Rebel Without a Cause and Giant, were released.",
+    "hook": "Dean's 'Little Bastard' was a Porsche."
+  },
+  {
+    "id": "pop_188",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1969 road film, directed by and co-starring Dennis Hopper, follows two bikers crossing the US and became a landmark of New Hollywood?",
+    "answer": "Easy Rider",
+    "distractors": [
+      "Five Easy Pieces",
+      "Bonnie and Clyde",
+      "Midnight Cowboy"
+    ],
+    "explanation": "Peter Fonda played Wyatt, nicknamed Captain America, and Jack Nicholson had his breakout role as a drunk lawyer. Made on a tiny budget, it earned tens of millions and convinced studios that young audiences wanted cheap, counterculture films.",
+    "hook": "A cheap biker film that changed what studios bought."
+  },
+  {
+    "id": "pop_189",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1974 Roman Polanski neo-noir stars Jack Nicholson as private detective Jake Gittes, who uncovers a scandal over Los Angeles's water supply?",
+    "answer": "Chinatown",
+    "distractors": [
+      "The Long Goodbye",
+      "Farewell, My Lovely",
+      "Night Moves"
+    ],
+    "explanation": "The story was loosely based on the California Water Wars, in which Los Angeles secretly acquired water rights in the Owens Valley. Robert Towne won the Oscar for Best Original Screenplay and the film closes with the line 'Forget it, Jake'.",
+    "hook": "Los Angeles stole a valley's water, and the film covers it."
+  },
+  {
+    "id": "pop_190",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "At which film festival did Martin Scorsese's Taxi Driver win the Palme d'Or in 1976?",
+    "answer": "Cannes",
+    "distractors": [
+      "Venice",
+      "Berlin",
+      "Toronto"
+    ],
+    "explanation": "Robert De Niro played Travis Bickle, and the film received four Oscar nominations including Best Picture but won none. Bernard Herrmann composed the score and died a few hours after finishing recording it.",
+    "hook": "Palme d'Or winner that went home from the Oscars empty-handed."
+  },
+  {
+    "id": "pop_191",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "How many roles did Peter Sellers play in Stanley Kubrick's 1964 satire Dr. Strangelove?",
+    "answer": "Three",
+    "distractors": [
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "explanation": "He played RAF Group Captain Mandrake, President Muffley and the title character. He was also cast as bomber pilot Major Kong, but an injury kept him off the set, and Slim Pickens took over, famously riding the bomb.",
+    "hook": "Sellers played three, and an injury cost him a fourth."
+  },
+  {
+    "id": "pop_192",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1960 Hollywood Western was a remake of Akira Kurosawa's Seven Samurai?",
+    "answer": "The Magnificent Seven",
+    "distractors": [
+      "Rio Bravo",
+      "Stagecoach",
+      "Gunfight at the O.K. Corral"
+    ],
+    "explanation": "Yul Brynner led a cast that included Steve McQueen, Charles Bronson and James Coburn. The film turned Kurosawa's samurai into gunslingers in the American West.",
+    "hook": "Seven samurai became seven gunslingers."
+  },
+  {
+    "id": "pop_193",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 1964 Sergio Leone spaghetti Western, starring Clint Eastwood as the Man With No Name, was an unauthorised remake of Kurosawa's Yojimbo?",
+    "answer": "A Fistful of Dollars",
+    "distractors": [
+      "For a Few Dollars More",
+      "The Good, the Bad and the Ugly",
+      "Once Upon a Time in the West"
+    ],
+    "explanation": "Toho, the Japanese studio behind Yojimbo, sued over the copying. The film was shot in Spain and made Eastwood a star.",
+    "hook": "Kurosawa's samurai got a poncho and a lawsuit."
+  },
+  {
+    "id": "pop_194",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which H.G. Wells novel did Orson Welles adapt for a 1938 radio broadcast that some listeners reportedly mistook for a real news report?",
+    "answer": "The War of the Worlds",
+    "distractors": [
+      "The Time Machine",
+      "The Invisible Man",
+      "The Island of Doctor Moreau"
+    ],
+    "explanation": "The Halloween eve show on CBS used fake news bulletins to describe a Martian landing in New Jersey. Press reports of mass panic were probably exaggerated, but the broadcast made the 23-year-old Welles famous and led him to Hollywood.",
+    "hook": "Martians in New Jersey made Welles a star."
+  },
+  {
+    "id": "pop_195",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "For which film did Humphrey Bogart win his only Academy Award for Best Actor, playing a gin-soaked riverboat captain?",
+    "answer": "The African Queen",
+    "distractors": [
+      "The Caine Mutiny",
+      "The Treasure of the Sierra Madre",
+      "In a Lonely Place"
+    ],
+    "explanation": "He won at the 1952 ceremony (the 24th Academy Awards), playing Charlie Allnut opposite Katharine Hepburn in a film shot on location in Africa.",
+    "hook": "Bogie's only Oscar came on an African river with Hepburn."
+  },
+  {
+    "id": "pop_196",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "For which 1969 Western did John Wayne win his only Academy Award for Best Actor, playing one-eyed marshal Rooster Cogburn?",
+    "answer": "True Grit",
+    "distractors": [
+      "The Searchers",
+      "Rio Bravo",
+      "The Shootist"
+    ],
+    "explanation": "Wayne played the eyepatch-wearing lawman opposite Kim Darby and Glen Campbell, in an adaptation of Charles Portis's novel. The Coen brothers remade it in 2010 with Jeff Bridges in the role.",
+    "hook": "The Duke finally won, wearing an eyepatch."
+  },
+  {
+    "id": "pop_197",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 1969 film, originally rated X, remains the only X-rated movie to have won the Academy Award for Best Picture?",
+    "answer": "Midnight Cowboy",
+    "distractors": [
+      "A Clockwork Orange",
+      "Last Tango in Paris",
+      "Easy Rider"
+    ],
+    "explanation": "John Schlesinger's film starred Dustin Hoffman as Ratso Rizzo and Jon Voight as a naive Texan hustler in New York. It was later re-rated R, and Schlesinger won Best Director as well.",
+    "hook": "The only X-rated film ever to win Best Picture."
+  },
+  {
+    "id": "pop_198",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which US congressional committee held the 1947 hearings that led to the Hollywood blacklist?",
+    "answer": "House Un-American Activities Committee",
+    "distractors": [
+      "Senate Judiciary Committee",
+      "Federal Communications Commission",
+      "Kefauver Committee"
+    ],
+    "explanation": "Ten writers and directors who refused to answer questions about communist ties were jailed and became known as the Hollywood Ten. Dalton Trumbo, one of them, wrote Spartacus under his own name in 1960, helping end the blacklist.",
+    "hook": "Hollywood Ten went to jail; Trumbo came back under his own name."
+  },
+  {
+    "id": "pop_199",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which silent comedy star was tried three times in 1921 and 1922 over the death of actress Virginia Rappe, and was finally acquitted?",
+    "answer": "Roscoe 'Fatty' Arbuckle",
+    "distractors": [
+      "Buster Keaton",
+      "Harold Lloyd",
+      "Charlie Chaplin"
+    ],
+    "explanation": "The first two juries could not agree, and the third deliberated for only six minutes before acquitting him and issuing a written apology. His career still collapsed, and the scandal helped prompt the studios to create the Hays Office.",
+    "hook": "The third jury took six minutes, but his career never recovered."
+  },
+  {
+    "id": "pop_201",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Who holds the record for the most competitive Academy Awards won by one person, with 22?",
+    "answer": "Walt Disney",
+    "distractors": [
+      "Cedric Gibbons",
+      "Alfred Newman",
+      "Billy Wilder"
+    ],
+    "explanation": "Disney holds the record for competitive Academy Awards, and most of his wins were for short films, including the Silly Symphonies cartoons and nature documentaries.",
+    "hook": "Mickey's creator leads the Oscar record books."
+  },
+  {
+    "id": "pop_202",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Hollywood costume designer won eight Academy Awards, the most of any woman in Oscar history?",
+    "answer": "Edith Head",
+    "distractors": [
+      "Adrian",
+      "Irene Sharaff",
+      "Orry-Kelly"
+    ],
+    "explanation": "She worked at Paramount for decades and dressed stars such as Grace Kelly and Elizabeth Taylor. Her signature round glasses and severe fringe are said to be the model for Edna Mode in The Incredibles.",
+    "hook": "Eight Oscars and the inspiration for Edna Mode."
+  },
+  {
+    "id": "pop_203",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "At which Hollywood hotel was the first Academy Awards dinner held in 1929?",
+    "answer": "The Hollywood Roosevelt Hotel",
+    "distractors": [
+      "The Beverly Hills Hotel",
+      "The Chateau Marmont",
+      "The Ambassador Hotel"
+    ],
+    "explanation": "The first awards were presented at a private dinner in May 1929, and the winners had been announced months earlier.",
+    "hook": "The first Oscars were a private dinner, with winners named months before."
+  },
+  {
+    "id": "pop_204",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 1967 film features the young Benjamin Braddock being seduced by an older woman, Mrs Robinson?",
+    "answer": "The Graduate",
+    "distractors": [
+      "Midnight Cowboy",
+      "Bonnie and Clyde",
+      "Guess Who's Coming to Dinner"
+    ],
+    "explanation": "Dustin Hoffman was 29 when he played the 21-year-old Benjamin, in the role that made him a star. Mike Nichols won the Oscar for Best Director, and the Simon and Garfunkel soundtrack included 'Mrs. Robinson'.",
+    "hook": "Plastics, Mrs Robinson and Simon and Garfunkel."
+  },
+  {
+    "id": "pop_205",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 2008 film, starring Robert Downey Jr. as Tony Stark, launched the Marvel Cinematic Universe?",
+    "answer": "Iron Man",
+    "distractors": [
+      "Thor",
+      "Captain America: The First Avenger",
+      "The Avengers"
+    ],
+    "explanation": "Marvel Studios gambled on a second-tier hero and a star with a troubled past, and a post-credits scene with Samuel L. Jackson as Nick Fury teased the Avengers. That scene set up a shared universe of more than thirty films.",
+    "hook": "The whole universe began with a billionaire in a metal suit."
+  },
+  {
+    "id": "pop_206",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In Back to the Future, which car did Doc Brown turn into a time machine?",
+    "answer": "DeLorean",
+    "distractors": [
+      "Ford Mustang",
+      "Chevrolet Corvette",
+      "Pontiac Firebird"
+    ],
+    "explanation": "The DMC-12 had gull-wing doors and an unpainted stainless-steel body, and the real car was built in Northern Ireland by a company that collapsed in 1982. In the script the time machine was first a fridge, but the idea was dropped.",
+    "hook": "A real car flop became a time machine."
+  },
+  {
+    "id": "pop_207",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which fictional African nation is ruled by King T'Challa in the Marvel films?",
+    "answer": "Wakanda",
+    "distractors": [
+      "Zamunda",
+      "Genovia",
+      "Latveria"
+    ],
+    "explanation": "Marvel's comics place Wakanda as a hidden, technologically advanced country powered by the metal vibranium. Zamunda is the African kingdom from Coming to America, and Latveria belongs to Doctor Doom.",
+    "hook": "Hidden kingdom, secret metal, and a famous crossed-arms salute."
+  },
+  {
+    "id": "pop_208",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who plays the cyborg assassin who says 'I'll be back' in the 1984 film The Terminator?",
+    "answer": "Arnold Schwarzenegger",
+    "distractors": [
+      "Sylvester Stallone",
+      "Bruce Willis",
+      "Jean-Claude Van Damme"
+    ],
+    "explanation": "Arnold Schwarzenegger plays the title cyborg, the role that made him a global action star. The line 'I'll be back' became one of the most quoted lines in film history.",
+    "hook": "A bodybuilder from Austria played the machine from the future."
+  },
+  {
+    "id": "pop_209",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In The Matrix, which colour of pill does Neo swallow to find out the truth?",
+    "answer": "Red",
+    "distractors": [
+      "Blue",
+      "Green",
+      "White"
+    ],
+    "explanation": "Morpheus offers Neo a choice of two pills: the other one would let him wake up in his bed and believe whatever he liked. The red pill has since become internet slang for accepting an uncomfortable truth.",
+    "hook": "Red means the rabbit hole; blue means going back to sleep."
+  },
+  {
+    "id": "pop_210",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which secret agent does Tom Cruise play in the Mission: Impossible films?",
+    "answer": "Ethan Hunt",
+    "distractors": [
+      "Jack Ryan",
+      "Jason Bourne",
+      "John Wick"
+    ],
+    "explanation": "Cruise also produces the series and famously does his own stunts, including clinging to the outside of an Airbus A400M as it took off for Rogue Nation. The first film came out in 1996, adapting a 1960s TV series.",
+    "hook": "The stuntman star hangs off real planes."
+  },
+  {
+    "id": "pop_211",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which masked killer stalks Laurie Strode in the Halloween films?",
+    "answer": "Michael Myers",
+    "distractors": [
+      "Jason Voorhees",
+      "Leatherface",
+      "Ghostface"
+    ],
+    "explanation": "The 1978 original, directed by John Carpenter on a tiny budget, helped create the slasher genre. The killer's blank white mask was reportedly a cheap William Shatner mask painted white.",
+    "hook": "A mask that started life as Captain Kirk."
+  },
+  {
+    "id": "pop_212",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Australian actor plays the Norse god Thor in the Marvel films?",
+    "answer": "Chris Hemsworth",
+    "distractors": [
+      "Eric Bana",
+      "Sam Worthington",
+      "Joel Edgerton"
+    ],
+    "explanation": "Born in Melbourne, he first became known on Home and Away. Thor: Ragnarok in 2017, directed by New Zealander Taika Waititi, gave the character a much funnier turn.",
+    "hook": "A Home and Away star became a god of thunder."
+  },
+  {
+    "id": "pop_213",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which horror villain with a burnt face and a bladed glove attacks teenagers in their dreams on Elm Street?",
+    "answer": "Freddy Krueger",
+    "distractors": [
+      "Pinhead",
+      "Chucky",
+      "Pennywise"
+    ],
+    "explanation": "Wes Craven created him for A Nightmare on Elm Street in 1984, drawing on news reports of Southeast Asian refugees who died in their sleep. Robert Englund played him in eight films.",
+    "hook": "If you fall asleep, he gets you."
+  },
+  {
+    "id": "pop_214",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor plays Jason Bourne in The Bourne Identity?",
+    "answer": "Matt Damon",
+    "distractors": [
+      "Mark Wahlberg",
+      "Jeremy Renner",
+      "Tom Cruise"
+    ],
+    "explanation": "The 2002 film was based on Robert Ludlum's 1980 novel, and Damon trained in martial arts, including Filipino knife fighting, for the role. Renner starred in the spin-off The Bourne Legacy in 2012 as a different character, Aaron Cross.",
+    "hook": "Not a Bond-style star: a bruised man who forgets who he is."
+  },
+  {
+    "id": "pop_215",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which British actor played Gandalf in Peter Jackson's Lord of the Rings films?",
+    "answer": "Ian McKellen",
+    "distractors": [
+      "Patrick Stewart",
+      "Ian Holm",
+      "Christopher Lee"
+    ],
+    "explanation": "He reprised Gandalf in Peter Jackson's three Hobbit films. Ian Holm played Bilbo Baggins, and Christopher Lee was the wizard Saruman.",
+    "hook": "One Ian was the wizard, the other the hobbit."
+  },
+  {
+    "id": "pop_216",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor plays palaeontologist Dr Alan Grant in Jurassic Park?",
+    "answer": "Sam Neill",
+    "distractors": [
+      "Jeff Goldblum",
+      "Richard Attenborough",
+      "Bob Peck"
+    ],
+    "explanation": "Born in Northern Ireland and raised in New Zealand, he returned as Grant in 2001's Jurassic Park III and in Jurassic World Dominion in 2022. Jeff Goldblum played the mathematician Ian Malcolm.",
+    "hook": "The dinosaur expert was a Kiwi who loves wine."
+  },
+  {
+    "id": "pop_217",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In the original Jurassic Park, which insect trapped in amber supplies the dinosaur blood and DNA?",
+    "answer": "A mosquito",
+    "distractors": [
+      "A horsefly",
+      "A dragonfly",
+      "A wasp"
+    ],
+    "explanation": "In both Michael Crichton's novel and the 1993 film, scientists extract dinosaur blood from prehistoric biting insects. Real DNA breaks down far too quickly to survive tens of millions of years, so the science is fiction.",
+    "hook": "The bite that cloned the dinosaurs."
+  },
+  {
+    "id": "pop_218",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Australian actor played the villain Agent Smith in The Matrix?",
+    "answer": "Hugo Weaving",
+    "distractors": [
+      "Joe Pantoliano",
+      "Laurence Fishburne",
+      "Guy Pearce"
+    ],
+    "explanation": "The two sequels, The Matrix Reloaded and The Matrix Revolutions, were shot in Sydney at Fox Studios Australia. He also played Elrond in The Lord of the Rings, making him a key figure in both trilogies.",
+    "hook": "Mr Anderson's enemy was an Australian in a suit."
+  },
+  {
+    "id": "pop_219",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which British actor voiced and performed the dragon Smaug in The Hobbit films?",
+    "answer": "Benedict Cumberbatch",
+    "distractors": [
+      "Andy Serkis",
+      "Stephen Fry",
+      "Hugo Weaving"
+    ],
+    "explanation": "He used motion capture to perform the dragon's movements, and also voiced a second role in the films, the Necromancer. Andy Serkis, who played Gollum, was a second-unit director on the trilogy.",
+    "hook": "Sherlock gave the dragon its voice."
+  },
+  {
+    "id": "pop_220",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "What is the surname of Vin Diesel's character in The Fast and the Furious?",
+    "answer": "Toretto",
+    "distractors": [
+      "O'Conner",
+      "Shaw",
+      "Hobbs"
+    ],
+    "explanation": "The 2001 film began as a street-racing story based on a magazine article, and Dominic Toretto's talk of family became the franchise's catchphrase. O'Conner is the undercover cop played by Paul Walker, and Shaw and Hobbs are later characters.",
+    "hook": "Family is the one word that fuels every sequel."
+  },
+  {
+    "id": "pop_221",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2016 spin-off film shows how the Rebel Alliance stole the plans to the Death Star?",
+    "answer": "Rogue One",
+    "distractors": [
+      "Solo",
+      "The Force Awakens",
+      "The Last Jedi"
+    ],
+    "explanation": "It was the first of the live-action Star Wars anthology films, directed by Gareth Edwards, and ends right before the original 1977 film begins. Its lead was Felicity Jones as Jyn Erso.",
+    "hook": "The film that ends where the first film starts."
+  },
+  {
+    "id": "pop_222",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor won the Best Actor Oscar for playing the title character in the 2019 film Joker?",
+    "answer": "Joaquin Phoenix",
+    "distractors": [
+      "Adam Driver",
+      "Leonardo DiCaprio",
+      "Antonio Banderas"
+    ],
+    "explanation": "He lost about twenty-three kilograms for the role, and the film topped the Oscar nominations that year with eleven. Driver, DiCaprio and Banderas were among the other nominees.",
+    "hook": "He lost the weight and won the statue."
+  },
+  {
+    "id": "pop_223",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2018 animated film featuring Miles Morales won the Oscar for Best Animated Feature?",
+    "answer": "Spider-Man: Into the Spider-Verse",
+    "distractors": [
+      "Incredibles 2",
+      "Ralph Breaks the Internet",
+      "Isle of Dogs"
+    ],
+    "explanation": "Its comic-book look, using dots and offset colours, broke the mould of computer animation and a sequel followed in 2023. Incredibles 2, Ralph Breaks the Internet and Isle of Dogs were all nominated against it.",
+    "hook": "The cartoon that looked like a comic book."
+  },
+  {
+    "id": "pop_224",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor plays Newt Scamander in Fantastic Beasts and Where to Find Them?",
+    "answer": "Eddie Redmayne",
+    "distractors": [
+      "Dan Fogler",
+      "Johnny Depp",
+      "Colin Farrell"
+    ],
+    "explanation": "The 2016 film was the first in the Wizarding World spin-off series, written by J.K. Rowling and set in 1920s New York. Redmayne had won the Best Actor Oscar for The Theory of Everything in 2015.",
+    "hook": "The Oscar winner who became a wizard zoologist."
+  },
+  {
+    "id": "pop_225",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2018 Marvel film became the first superhero movie nominated for the Oscar for Best Picture?",
+    "answer": "Black Panther",
+    "distractors": [
+      "Captain Marvel",
+      "Thor: Ragnarok",
+      "Avengers: Infinity War"
+    ],
+    "explanation": "It won three Oscars at the 2019 ceremony, for costume design, production design and original score. Ruth E. Carter became the first Black winner of the costume design award.",
+    "hook": "A superhero film finally reached the top category."
+  },
+  {
+    "id": "pop_226",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor was originally cast as Marty McFly in Back to the Future before Michael J. Fox replaced him?",
+    "answer": "Eric Stoltz",
+    "distractors": [
+      "Matthew Broderick",
+      "Charlie Sheen",
+      "C. Thomas Howell"
+    ],
+    "explanation": "Director Robert Zemeckis found Stoltz too intense after about five weeks of filming and reshot his scenes. Fox then worked on Family Ties by day and the film at night, and many of his scenes were shot overnight.",
+    "hook": "Five weeks in, the wrong McFly was fired."
+  },
+  {
+    "id": "pop_227",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Argentine-born composer wrote the Mission: Impossible theme, famously in a 5/4 time signature?",
+    "answer": "Lalo Schifrin",
+    "distractors": [
+      "Henry Mancini",
+      "John Barry",
+      "Ennio Morricone"
+    ],
+    "explanation": "He wrote it for the original 1966 TV series, and the unusual five-beat bar has made it instantly recognisable ever since. Barry wrote Bond music, and Morricone is known for his spaghetti westerns.",
+    "hook": "Five beats to the bar, and a fuse always burning."
+  },
+  {
+    "id": "pop_228",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which New Zealand volcano played Mount Doom in Peter Jackson's Lord of the Rings films?",
+    "answer": "Ngauruhoe",
+    "distractors": [
+      "Taranaki",
+      "Tarawera",
+      "Aspiring"
+    ],
+    "explanation": "The active volcano in Tongariro National Park is one of the most active in New Zealand. Taranaki was used as Mount Fuji in The Last Samurai, not as Mount Doom.",
+    "hook": "The ring was destroyed on a real Kiwi volcano."
+  },
+  {
+    "id": "pop_229",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor played the shape-shifting liquid-metal T-1000 in Terminator 2: Judgment Day?",
+    "answer": "Robert Patrick",
+    "distractors": [
+      "Lance Henriksen",
+      "Bill Paxton",
+      "Michael Ironside"
+    ],
+    "explanation": "The 1991 film used groundbreaking computer-generated effects for the T-1000's shape-shifting, and the actor later played agent John Doggett in The X-Files. Henriksen and Paxton were in the first Terminator, in minor roles.",
+    "hook": "The liquid villain later joined the X-Files."
+  },
+  {
+    "id": "pop_230",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor played Dumbledore in the first two Harry Potter films?",
+    "answer": "Richard Harris",
+    "distractors": [
+      "Michael Gambon",
+      "Ian Holm",
+      "Derek Jacobi"
+    ],
+    "explanation": "The Irish actor reportedly turned the role down at first, until his granddaughter said she would never speak to him again if he did. He died in October 2002, and Michael Gambon took over from the third film.",
+    "hook": "His granddaughter talked him into the beard."
+  },
+  {
+    "id": "pop_231",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor played the masked villain Bane in The Dark Knight Rises?",
+    "answer": "Tom Hardy",
+    "distractors": [
+      "Idris Elba",
+      "Michael Shannon",
+      "Jon Hamm"
+    ],
+    "explanation": "His muffled voice through the mask drew criticism in early footage and became a talking point. The 2012 film was the final part of Nolan's Batman trilogy.",
+    "hook": "The voice behind the mask became a talking point."
+  },
+  {
+    "id": "pop_232",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "In Back to the Future, how many gigawatts of power does Doc Brown say are needed to travel through time?",
+    "answer": "1.21",
+    "distractors": [
+      "1.12",
+      "2.11",
+      "1.88"
+    ],
+    "explanation": "Doc pronounces the unit 'jigowatts' in the film. In the first film the time machine runs on plutonium, and the sequels use a Mr Fusion unit instead.",
+    "hook": "One point two one, and a famous mispronunciation."
+  },
+  {
+    "id": "pop_233",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which comedian played the villain Dr Robotnik in the 2020 film Sonic the Hedgehog?",
+    "answer": "Jim Carrey",
+    "distractors": [
+      "Jack Black",
+      "Jason Sudeikis",
+      "Steve Carell"
+    ],
+    "explanation": "He had also played the Riddler in Batman Forever in 1995, and he returned as Robotnik in the sequel, Sonic the Hedgehog 2, in 2022.",
+    "hook": "The Riddler became an egg-shaped doctor."
+  },
+  {
+    "id": "pop_234",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor provides the voice of Rocket Raccoon in the Guardians of the Galaxy films?",
+    "answer": "Bradley Cooper",
+    "distractors": [
+      "Seth Rogen",
+      "Jon Favreau",
+      "Paul Rudd"
+    ],
+    "explanation": "Vin Diesel voices Groot, whose lines are mostly 'I am Groot', while Sean Gunn plays Rocket on set for the other actors to react to. Cooper recorded his own dialogue separately and is credited for the voice.",
+    "hook": "A raccoon with Bradley Cooper's voice and Sean Gunn's body."
+  },
+  {
+    "id": "pop_235",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which director made The Godfather trilogy?",
+    "answer": "Francis Ford Coppola",
+    "distractors": [
+      "Martin Scorsese",
+      "Brian De Palma",
+      "Sidney Lumet"
+    ],
+    "explanation": "Coppola nearly lost the job on the first film, as studio executives doubted his choices of Marlon Brando and Al Pacino. His daughter Sofia Coppola later became an Oscar-winning writer-director herself.",
+    "hook": "A family business, on screen and off: Sofia is his daughter."
+  },
+  {
+    "id": "pop_236",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which British-born director made Inception, Interstellar and The Dark Knight?",
+    "answer": "Christopher Nolan",
+    "distractors": [
+      "Ridley Scott",
+      "Zack Snyder",
+      "Sam Mendes"
+    ],
+    "explanation": "Nolan is known for favouring real film stock and practical effects over computer graphics, and he often shoots on large-format IMAX cameras. He also directed the 2017 war film Dunkirk.",
+    "hook": "Nolan spins a real corridor, not a green screen."
+  },
+  {
+    "id": "pop_237",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "For which 2015 film did Leonardo DiCaprio finally win his first Academy Award?",
+    "answer": "The Revenant",
+    "distractors": [
+      "The Wolf of Wall Street",
+      "Blood Diamond",
+      "Django Unchained"
+    ],
+    "explanation": "He played frontiersman Hugh Glass, who is mauled by a bear and left for dead, and filming in freezing conditions was famously gruelling. He had been nominated for acting several times before the win at the 2016 ceremony.",
+    "hook": "A bear attack finally earned him the statuette."
+  },
+  {
+    "id": "pop_238",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which film was wrongly announced as Best Picture at the 2017 Oscars before the mistake was corrected?",
+    "answer": "La La Land",
+    "distractors": [
+      "Manchester by the Sea",
+      "Hacksaw Ridge",
+      "Hidden Figures"
+    ],
+    "explanation": "Presenters Warren Beatty and Faye Dunaway were handed the wrong envelope, which named Emma Stone's Best Actress win. The real winner was Moonlight, and the cast and crew were already giving speeches on stage.",
+    "hook": "The wrong envelope handed over the wrong film."
+  },
+  {
+    "id": "pop_240",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which filmmaking duo made Fargo and No Country for Old Men?",
+    "answer": "Joel and Ethan Coen",
+    "distractors": [
+      "Lana and Lilly Wachowski",
+      "Peter and Bobby Farrelly",
+      "Albert and Allen Hughes"
+    ],
+    "explanation": "Fargo opens with a card claiming it is a true story, which is not the case. Frances McDormand won Best Actress for playing the pregnant police chief Marge Gunderson in it.",
+    "hook": "Fargo's 'true story' card is the Coens' first fib."
+  },
+  {
+    "id": "pop_241",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Italian composer wrote the score for The Good, the Bad and the Ugly?",
+    "answer": "Ennio Morricone",
+    "distractors": [
+      "Nino Rota",
+      "Bernard Herrmann",
+      "Lalo Schifrin"
+    ],
+    "explanation": "His whistling, gunshots and yodel-like theme for Sergio Leone's 1966 western is among the most recognisable in cinema. He received an honorary Oscar in 2007, and in 2016 he won his first competitive Oscar, for The Hateful Eight.",
+    "hook": "The wah-wah-wah howl of the spaghetti western."
+  },
+  {
+    "id": "pop_242",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which director made Seven, Fight Club and Gone Girl?",
+    "answer": "David Fincher",
+    "distractors": [
+      "Darren Aronofsky",
+      "Paul Thomas Anderson",
+      "Gus Van Sant"
+    ],
+    "explanation": "Fincher began by directing music videos, including Madonna's 'Vogue', before moving to features. He is known for demanding dozens of takes of a single scene, and has been nominated for Best Director for The Social Network.",
+    "hook": "From Madonna videos to a box in the desert."
+  },
+  {
+    "id": "pop_243",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which director made Arrival and Sicario?",
+    "answer": "Denis Villeneuve",
+    "distractors": [
+      "Ridley Scott",
+      "Alejandro G. Iñárritu",
+      "Jean-Marc Vallée"
+    ],
+    "explanation": "The Quebec-born filmmaker later took on Frank Herbert's Dune, releasing the first part in 2021 and the second in 2024. Roger Deakins shot Sicario, one of several films the pair made together.",
+    "hook": "A Quebecer behind Arrival and the big sandworm films."
+  },
+  {
+    "id": "pop_244",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Wes Anderson film follows three estranged brothers on a train journey across India?",
+    "answer": "The Darjeeling Limited",
+    "distractors": [
+      "The Royal Tenenbaums",
+      "Moonrise Kingdom",
+      "Rushmore"
+    ],
+    "explanation": "Owen Wilson, Adrien Brody and Jason Schwartzman play the Whitman brothers, who try to reconnect after their father's death. The film was shot on location in India.",
+    "hook": "Three brothers, many suitcases, one Indian railway."
+  },
+  {
+    "id": "pop_245",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which city hosts the film festival that awards the Golden Bear?",
+    "answer": "Berlin",
+    "distractors": [
+      "Venice",
+      "Cannes",
+      "Locarno"
+    ],
+    "explanation": "The bear is the symbol of the city, in the same way that the Golden Lion belongs to Venice and the Palme d'Or to Cannes. The festival, known as the Berlinale, is held each February.",
+    "hook": "Berlin's bear, Venice's lion, Cannes's palm."
+  },
+  {
+    "id": "pop_246",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor founded the Sundance Institute in 1981?",
+    "answer": "Robert Redford",
+    "distractors": [
+      "Paul Newman",
+      "Clint Eastwood",
+      "Dustin Hoffman"
+    ],
+    "explanation": "The institute took its name from the role he played in Butch Cassidy and the Sundance Kid. The institute now runs the Sundance Film Festival, a leading American showcase for independent film.",
+    "hook": "The Sundance Kid built a home for indie film."
+  },
+  {
+    "id": "pop_247",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which composer won the Oscar for the original score of The Lion King?",
+    "answer": "Hans Zimmer",
+    "distractors": [
+      "Alan Menken",
+      "James Horner",
+      "Danny Elfman"
+    ],
+    "explanation": "The German-born composer blended orchestral music with African choral arrangements by Lebo M. It won him his first Academy Award, at the ceremony held in early 1995, with Elton John winning for the song.",
+    "hook": "The score went to Zimmer, the songs went to Elton."
+  },
+  {
+    "id": "pop_248",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which South Korean director made the revenge thriller Oldboy?",
+    "answer": "Park Chan-wook",
+    "distractors": [
+      "Bong Joon-ho",
+      "Kim Ki-duk",
+      "Lee Chang-dong"
+    ],
+    "explanation": "Oldboy won the Grand Prix at Cannes in 2004, where Quentin Tarantino was president of the jury. The film is the second part of Park's loose 'Vengeance Trilogy'.",
+    "hook": "A hallway hammer fight, and a Cannes Grand Prix from Tarantino's jury."
+  },
+  {
+    "id": "pop_249",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which director became the first Asian to win the Best Director Oscar, for Brokeback Mountain?",
+    "answer": "Ang Lee",
+    "distractors": [
+      "John Woo",
+      "Wong Kar-wai",
+      "Zhang Yimou"
+    ],
+    "explanation": "Lee won at the 2006 ceremony and took the award a second time for Life of Pi in 2013. Brokeback Mountain lost Best Picture that night to Crash, an upset still debated by film fans.",
+    "hook": "Two Best Director wins, one famously lost Best Picture."
+  },
+  {
+    "id": "pop_250",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Who became the first woman to win the Best Director Oscar, at the 2010 ceremony?",
+    "answer": "Kathryn Bigelow",
+    "distractors": [
+      "Sofia Coppola",
+      "Nora Ephron",
+      "Penny Marshall"
+    ],
+    "explanation": "She won for The Hurt Locker, which also took Best Picture and beat her former husband James Cameron's Avatar. The film follows a US bomb-disposal team in Iraq.",
+    "hook": "She beat her ex-husband's blockbuster on the night."
+  },
+  {
+    "id": "pop_251",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Martin Scorsese film opens with the line 'As far back as I can remember, I always wanted to be a gangster'?",
+    "answer": "Goodfellas",
+    "distractors": [
+      "Casino",
+      "Mean Streets",
+      "The Departed"
+    ],
+    "explanation": "Ray Liotta speaks the line as the real-life mobster Henry Hill, whose story was told in the book Wiseguy. Joe Pesci won the Best Supporting Actor Oscar for playing the volatile Tommy DeVito.",
+    "hook": "A gangster's confession is the very first sentence."
+  },
+  {
+    "id": "pop_252",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which British director made Trainspotting and later won Best Director for Slumdog Millionaire?",
+    "answer": "Danny Boyle",
+    "distractors": [
+      "Guy Ritchie",
+      "Edgar Wright",
+      "Matthew Vaughn"
+    ],
+    "explanation": "Slumdog Millionaire won eight Oscars, including Best Picture, at the 2009 ceremony. Boyle also directed the opening ceremony of the 2012 London Olympics, which featured the Queen and James Bond.",
+    "hook": "From heroin chic to the Queen's Olympic cameo."
+  },
+  {
+    "id": "pop_253",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Mexican director won the Best Director Oscar for both Gravity and Roma?",
+    "answer": "Alfonso Cuarón",
+    "distractors": [
+      "Guillermo del Toro",
+      "Alejandro G. Iñárritu",
+      "Carlos Reygadas"
+    ],
+    "explanation": "Roma is a black-and-white film drawn from his childhood in Mexico City, and Cuarón also shot and edited it. Del Toro and Iñárritu, his fellow Mexicans, each have their own Best Director wins.",
+    "hook": "Space in 3D, then his own Mexico City childhood."
+  },
+  {
+    "id": "pop_254",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "For which 2017 film did cinematographer Roger Deakins finally win his first Academy Award?",
+    "answer": "Blade Runner 2049",
+    "distractors": [
+      "Skyfall",
+      "No Country for Old Men",
+      "The Shawshank Redemption"
+    ],
+    "explanation": "Deakins had been nominated many times before without winning, including for Skyfall and No Country for Old Men. He won again two years later for 1917, which was staged to look like a single continuous shot.",
+    "hook": "Decades of nominations paid off in neon-lit Los Angeles."
+  },
+  {
+    "id": "pop_255",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which film editor has cut almost all of Martin Scorsese's films since Raging Bull?",
+    "answer": "Thelma Schoonmaker",
+    "distractors": [
+      "Anne V. Coates",
+      "Walter Murch",
+      "Margaret Booth"
+    ],
+    "explanation": "She won Oscars for Raging Bull, The Aviator and The Departed. She is the widow of the British director Michael Powell, whose films Scorsese loved.",
+    "hook": "Scorsese's cutting-room partner for half a century."
+  },
+  {
+    "id": "pop_256",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Japanese director's film Rashomon won the Golden Lion at the 1951 Venice Film Festival?",
+    "answer": "Akira Kurosawa",
+    "distractors": [
+      "Yasujiro Ozu",
+      "Kenji Mizoguchi",
+      "Hiroshi Teshigahara"
+    ],
+    "explanation": "The film retells a single crime from four conflicting viewpoints, giving rise to the term 'the Rashomon effect'. Its win opened Western audiences to Japanese cinema, and it received an honorary Oscar in 1952.",
+    "hook": "One crime, four witnesses, and the world discovers Japan."
+  },
+  {
+    "id": "pop_257",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which composer won his first Academy Award for scoring The Grand Budapest Hotel?",
+    "answer": "Alexandre Desplat",
+    "distractors": [
+      "Michel Legrand",
+      "Gabriel Yared",
+      "Thomas Newman"
+    ],
+    "explanation": "The French composer had been nominated several times before this win, which came at the 2015 ceremony. He won a second Oscar for The Shape of Water at the 2018 ceremony.",
+    "hook": "A French composer's score for the fictional Eastern European republic of Zubrowka."
+  },
+  {
+    "id": "pop_258",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which song from the Telugu film RRR won the Best Original Song Oscar at the 2023 ceremony?",
+    "answer": "Naatu Naatu",
+    "distractors": [
+      "Jai Ho",
+      "Chaiyya Chaiyya",
+      "Kajra Re"
+    ],
+    "explanation": "M. M. Keeravani composed it and Chandrabose wrote the lyrics, with the dance number performed live at the Oscars. The song beat entries from Top Gun: Maverick and Black Panther: Wakanda Forever.",
+    "hook": "A Telugu dance number that out-danced Hollywood."
+  },
+  {
+    "id": "pop_259",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Bengali director made the Apu Trilogy, which began with Pather Panchali in 1955?",
+    "answer": "Satyajit Ray",
+    "distractors": [
+      "Mehboob Khan",
+      "Raj Kapoor",
+      "Guru Dutt"
+    ],
+    "explanation": "Ray made Pather Panchali on a tiny budget, funded partly by pawning his wife's jewellery. He was given an honorary Oscar in 1992, shortly before his death, for lifetime achievement.",
+    "hook": "A wife's jewellery bankrolled Indian cinema's classic."
+  },
+  {
+    "id": "pop_260",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Vietnam War film shared the 1979 Palme d'Or with The Tin Drum?",
+    "answer": "Apocalypse Now",
+    "distractors": [
+      "Platoon",
+      "The Deer Hunter",
+      "Full Metal Jacket"
+    ],
+    "explanation": "Francis Ford Coppola showed an unfinished cut at Cannes, and filming in the Philippines had run far over time and budget. The documentary Hearts of Darkness later told the story of the troubled production.",
+    "hook": "A shared prize for a famously shambolic shoot."
+  },
+  {
+    "id": "pop_261",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Quentin Tarantino film was shot on 70mm Ultra Panavision film?",
+    "answer": "The Hateful Eight",
+    "distractors": [
+      "Jackie Brown",
+      "Django Unchained",
+      "Death Proof"
+    ],
+    "explanation": "The 2015 western was shown in a special roadshow release, complete with an overture and an interval, in cinemas fitted for 70mm projection. Ennio Morricone's score for it won him his first competitive Oscar.",
+    "hook": "A snowbound western, filmed in an old-fashioned widescreen."
+  },
+  {
+    "id": "pop_262",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 2014 Australian horror film, directed by Jennifer Kent, features a sinister top-hatted figure from a pop-up storybook?",
+    "answer": "The Babadook",
+    "distractors": [
+      "Wolf Creek",
+      "Long Weekend",
+      "Razorback"
+    ],
+    "explanation": "Essie Davis plays a grieving widow whose son becomes convinced the book's monster is real. It was Kent's debut feature, and the character was later adopted online as an unlikely gay icon.",
+    "hook": "Say it three times and he becomes a pride icon."
+  },
+  {
+    "id": "pop_263",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which actress played Ann Darrow in Peter Jackson's 2005 remake of King Kong?",
+    "answer": "Naomi Watts",
+    "distractors": [
+      "Nicole Kidman",
+      "Toni Collette",
+      "Rose Byrne"
+    ],
+    "explanation": "Born in England and raised partly in Australia, Watts struggled for years until Mulholland Drive in 2001. She later earned Oscar nominations for 21 Grams and The Impossible.",
+    "hook": "She was the one the giant ape fell for."
+  },
+  {
+    "id": "pop_264",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Elven ruler of Lothlórien does Cate Blanchett play in Peter Jackson's Lord of the Rings films?",
+    "answer": "Galadriel",
+    "distractors": [
+      "Arwen",
+      "Eowyn",
+      "Tauriel"
+    ],
+    "explanation": "Blanchett, who grew up in Melbourne, played the character again in The Hobbit films. Eowyn is a human shieldmaiden, and Tauriel was invented for The Hobbit, so neither is Lothlórien's lady.",
+    "hook": "A Melbourne girl rules the golden wood."
+  },
+  {
+    "id": "pop_265",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which nickname does Rebel Wilson's character use in the 2012 film Pitch Perfect?",
+    "answer": "Fat Amy",
+    "distractors": [
+      "Big Beca",
+      "Chubby Chloe",
+      "Stocky Stacie"
+    ],
+    "explanation": "Wilson, from Sydney, wrote much of her own comedy and made the character famous for explaining the nickname is so that people like her will not say it behind her back. The role made her a Hollywood name.",
+    "hook": "She calls herself it first, so nobody else can."
+  },
+  {
+    "id": "pop_266",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Australian actress played figure skater Tonya Harding in the 2017 film I, Tonya?",
+    "answer": "Margot Robbie",
+    "distractors": [
+      "Mia Wasikowska",
+      "Teresa Palmer",
+      "Emily Browning"
+    ],
+    "explanation": "Born in Dalby, Queensland, Robbie raised on the Gold Coast, found early fame as Donna Freedman on Neighbours. The role earned her a Best Actress Oscar nomination, and she also produced the film.",
+    "hook": "A Neighbours alum landed on thin ice and an Oscar nomination."
+  },
+  {
+    "id": "pop_267",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1981 Peter Weir film follows two young sprinters from Western Australia who enlist in the First World War?",
+    "answer": "Gallipoli",
+    "distractors": [
+      "Breaker Morant",
+      "The Lighthorsemen",
+      "Anzacs"
+    ],
+    "explanation": "Mark Lee and Mel Gibson play the friends, and David Williamson wrote the script. Its final freeze-frame of a runner struck by gunfire is among Australian cinema's best-remembered images.",
+    "hook": "The race ends on a frozen frame of a runner mid-stride."
+  },
+  {
+    "id": "pop_268",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1992 Geoffrey Wright film gave Russell Crowe his role as the skinhead gang leader Hando?",
+    "answer": "Romper Stomper",
+    "distractors": [
+      "Blackrock",
+      "Heaven's Burning",
+      "Proof"
+    ],
+    "explanation": "Set in Melbourne's western suburbs and largely filmed in Footscray, it also starred Jacqueline McKenzie. Crowe won the AFI Award for Best Actor for it, years before Hollywood noticed him.",
+    "hook": "Crowe's breakout was a brawl in Footscray."
+  },
+  {
+    "id": "pop_269",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2001 Ray Lawrence mystery, starring Anthony LaPaglia and Barbara Hershey, won the AFI Award for Best Film?",
+    "answer": "Lantana",
+    "distractors": [
+      "Japanese Story",
+      "Look Both Ways",
+      "Gettin' Square"
+    ],
+    "explanation": "Andrew Bovell adapted it from his own play Speaking in Tongues. Lantana is an invasive weed in Australia that tangles over and hides what lies beneath, a fitting image for the film's interlocking secrets.",
+    "hook": "Named after the weed that hides what's underneath."
+  },
+  {
+    "id": "pop_270",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2010 David Michôd crime drama earned Jacki Weaver an Oscar nomination for playing the matriarch Smurf?",
+    "answer": "Animal Kingdom",
+    "distractors": [
+      "Chopper",
+      "Newcastle",
+      "The Square"
+    ],
+    "explanation": "Set among a Melbourne crime family, it also starred Guy Pearce, Ben Mendelsohn and Joel Edgerton. It was Michôd's first feature, and Weaver was nominated for Best Supporting Actress.",
+    "hook": "The sweetest mum in crime earned the nomination."
+  },
+  {
+    "id": "pop_271",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2016 film stars Dev Patel as an adopted man who uses satellite maps to find his birth family in India?",
+    "answer": "Lion",
+    "distractors": [
+      "Chappie",
+      "Tracks",
+      "Red Dog"
+    ],
+    "explanation": "Based on Saroo Brierley's memoir A Long Way Home and directed by Garth Davis, it was nominated for six Oscars including Best Picture. The title comes from Saroo's real birth name, Sheru, which means lion.",
+    "hook": "His birth name meant the film's title."
+  },
+  {
+    "id": "pop_272",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actress played the title role in the 2024 prequel Furiosa: A Mad Max Saga?",
+    "answer": "Anya Taylor-Joy",
+    "distractors": [
+      "Florence Pugh",
+      "Saoirse Ronan",
+      "Jodie Comer"
+    ],
+    "explanation": "Charlize Theron played the adult character in Fury Road, while Alyla Browne played the young Furiosa in the prequel. Chris Hemsworth played the warlord Dementus, and the film premiered at Cannes.",
+    "hook": "Hemsworth got to play the baddie for once."
+  },
+  {
+    "id": "pop_273",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2011 Justin Kurzel debut film dramatises the bodies-in-barrels murders in South Australia?",
+    "answer": "Snowtown",
+    "distractors": [
+      "Wolf Creek",
+      "Mystery Road",
+      "Chopper"
+    ],
+    "explanation": "Daniel Henshall plays the killer John Bunting, and many cast members were non-professionals from Adelaide's northern suburbs. Kurzel later directed Michael Fassbender in Macbeth.",
+    "hook": "Barrels in a disused bank vault."
+  },
+  {
+    "id": "pop_274",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1998 Peter Weir film stars Jim Carrey as a man whose entire life is secretly broadcast to the world?",
+    "answer": "The Truman Show",
+    "distractors": [
+      "Edtv",
+      "Pleasantville",
+      "Gattaca"
+    ],
+    "explanation": "Ed Harris plays the creator of the artificial town of Seahaven, which was filmed in the real Florida community of Seaside. Weir earned a Best Director Oscar nomination, and the title lent its name to a real psychological delusion.",
+    "hook": "A psychiatric condition is named after this film."
+  },
+  {
+    "id": "pop_275",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1994 adaptation of Louisa May Alcott's novel, starring Winona Ryder as Jo, was directed by Australian Gillian Armstrong?",
+    "answer": "Little Women",
+    "distractors": [
+      "Pride and Prejudice",
+      "Anne of Green Gables",
+      "The Age of Innocence"
+    ],
+    "explanation": "Susan Sarandon played Marmee and Christian Bale played Laurie. Armstrong also directed Oscar and Lucinda in 1997, with Cate Blanchett and Ralph Fiennes.",
+    "hook": "An Australian made the March sisters' best-loved film."
+  },
+  {
+    "id": "pop_276",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which film directed by Australian Bruce Beresford won Best Picture for 1989?",
+    "answer": "Driving Miss Daisy",
+    "distractors": [
+      "Born on the Fourth of July",
+      "Dead Poets Society",
+      "My Left Foot"
+    ],
+    "explanation": "Jessica Tandy won Best Actress, but Beresford was famously left out of the Best Director nominations. Another Australian, Peter Weir, had Dead Poets Society nominated for the same top prize that year.",
+    "hook": "It won the top prize, but its director wasn't even nominated."
+  },
+  {
+    "id": "pop_277",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2000 Christopher Nolan thriller stars Guy Pearce as a man who cannot form new memories and tattoos clues on his body?",
+    "answer": "Memento",
+    "distractors": [
+      "Insomnia",
+      "The Prestige",
+      "Following"
+    ],
+    "explanation": "Pearce was born in England but raised in Geelong, Victoria, and was in Neighbours before Priscilla and L.A. Confidential. The film is told partly in reverse, built from Nolan's brother Jonathan's short story.",
+    "hook": "The story runs backwards, so you forget too."
+  },
+  {
+    "id": "pop_278",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Queensland city's Village Roadshow Studios hosted the filming of Aquaman and Pirates of the Caribbean: Dead Men Tell No Tales?",
+    "answer": "Gold Coast",
+    "distractors": [
+      "Sunshine Coast",
+      "Cairns",
+      "Townsville"
+    ],
+    "explanation": "The studio complex at Oxenford sits beside the Warner Bros. Movie World theme park. Thor: Ragnarok was also shot there, giving Hollywood a sunny alternative to Los Angeles.",
+    "hook": "Hollywood sets built beside the theme park rides."
+  },
+  {
+    "id": "pop_279",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 2006 Rolf de Heer film, spoken in Yolngu languages, won the Special Jury Prize in Cannes's Un Certain Regard section?",
+    "answer": "Ten Canoes",
+    "distractors": [
+      "The Tracker",
+      "Bad Boy Bubby",
+      "Charlie's Country"
+    ],
+    "explanation": "It is widely described as the first feature made entirely in Aboriginal languages, co-directed with Peter Djigirr in Arnhem Land. David Gulpilil narrates in English, and the story was inspired by 1930s photographs.",
+    "hook": "Gulpilil tells the story, in English, of a film in Yolngu."
+  },
+  {
+    "id": "pop_280",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Canadian director made the 1971 outback thriller Wake in Fright, shot around Broken Hill?",
+    "answer": "Ted Kotcheff",
+    "distractors": [
+      "Nicolas Roeg",
+      "Fred Schepisi",
+      "Tim Burstall"
+    ],
+    "explanation": "Kotcheff later directed First Blood, the first Rambo film. Wake in Fright was long thought lost until a rediscovered print was restored and returned to Cannes in 2009.",
+    "hook": "A lost Outback film, rediscovered and restored."
+  },
+  {
+    "id": "pop_281",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which outback ghost town near Broken Hill hosts a Mad Max 2 museum and has appeared in many films?",
+    "answer": "Silverton",
+    "distractors": [
+      "Tibooburra",
+      "White Cliffs",
+      "Wilcannia"
+    ],
+    "explanation": "The old mining settlement, about 25 kilometres from Broken Hill, was used for Mad Max 2 in 1981 and for scenes in Priscilla, Queen of the Desert. Its Mad Max 2 Museum draws film fans.",
+    "hook": "Max and the drag queens both detoured through the same ghost town."
+  },
+  {
+    "id": "pop_282",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which federal body, created in 2008, took over from the Film Finance Corporation and the Film Commission as the government's main funder of local films?",
+    "answer": "Screen Australia",
+    "distractors": [
+      "Film Victoria",
+      "Create NSW",
+      "Screen Queensland"
+    ],
+    "explanation": "It was formed by merging three agencies: the Australian Film Commission, the Film Finance Corporation and Film Australia. It also administers the Producer Offset, a tax rebate for local productions.",
+    "hook": "Three older film bodies merged into one national screen funder."
+  },
+  {
+    "id": "pop_283",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which acronym replaced AFI on Australia's main screen awards when they were rebranded in 2011?",
+    "answer": "AACTA",
+    "distractors": [
+      "ASTRA",
+      "ACMI",
+      "ACTRA"
+    ],
+    "explanation": "It stands for the Australian Academy of Cinema and Television Arts, which was set up to run the awards on an Oscars-style model. The awards moved from the AFI to the new academy in 2011.",
+    "hook": "The Aussie academy that took over from the AFI."
+  },
+  {
+    "id": "pop_284",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 2008 Mark Hartley documentary celebrates low-budget Australian genre films of the 1970s and 80s, such as Dead End Drive-In and Patrick?",
+    "answer": "Not Quite Hollywood",
+    "distractors": [
+      "Machete Maidens Unleashed",
+      "Electric Boogaloo",
+      "Hollywood Down Under"
+    ],
+    "explanation": "Subtitled The Wild, Untold Story of Ozploitation!, it features Quentin Tarantino praising the era's films. Hartley later made similar documentaries about the Philippines and Cannon Films.",
+    "hook": "Tarantino loves the sleaze Australia made."
+  },
+  {
+    "id": "pop_285",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 2017 Warwick Thornton western, set in 1929 Northern Territory and starring Hamilton Morris and Bryan Brown, won the Special Jury Prize at Venice?",
+    "answer": "Sweet Country",
+    "distractors": [
+      "The Proposition",
+      "Red Hill",
+      "Mystery Road"
+    ],
+    "explanation": "Based on a true story, it follows an Aboriginal stockman who flees after killing a white man in self-defence. Thornton also served as the film's cinematographer.",
+    "hook": "The director also shot his own film."
+  },
+  {
+    "id": "pop_286",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which YouTube channel, known for chaotic action-comedy sketches, made the Adelaide twins Danny and Michael Philippou famous before they directed Talk to Me?",
+    "answer": "RackaRacka",
+    "distractors": [
+      "Aunty Donna",
+      "Smosh",
+      "Vsauce"
+    ],
+    "explanation": "Talk to Me, in which teens use an embalmed hand to contact spirits, premiered at Sundance in 2023 and was picked up by A24. The twins followed it with Bring Her Back in 2025, starring Sally Hawkins.",
+    "hook": "YouTube prank brothers turned A24 horror directors."
+  },
+  {
+    "id": "pop_287",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 2009 stop-motion clay feature by Adam Elliot follows a lonely Melbourne girl and her New York pen pal?",
+    "answer": "Mary and Max",
+    "distractors": [
+      "Harvie Krumpet",
+      "Ernie Biscuit",
+      "Dot and the Kangaroo"
+    ],
+    "explanation": "Toni Collette voices Mary and Philip Seymour Hoffman voices Max, who has Asperger's syndrome. Elliot had already won the Oscar for the animated short Harvie Krumpet in 2004.",
+    "hook": "Letters between Mount Waverley and New York, in clay."
+  },
+  {
+    "id": "pop_288",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which ABC children's puppet, who drew pictures from viewers' scribbles using a pencil for a nose, arrived in a rocket from the Moon?",
+    "answer": "Mr Squiggle",
+    "distractors": [
+      "Humphrey B. Bear",
+      "Bananas in Pyjamas",
+      "Blinky Bill"
+    ],
+    "explanation": "Created by Norman Hetherington, the puppet ran on ABC from 1959 to 1999, helped by his assistant Miss Jane and by Blackboard, who sat on the studio wall. Children posted in scribbles for him to turn into pictures, drawing them upside down.",
+    "hook": "A pencil-nosed Moon visitor who draws upside down."
+  },
+  {
+    "id": "pop_289",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In the children's series Round the Twist, what unusual building does the Twist family move into?",
+    "answer": "A lighthouse",
+    "distractors": [
+      "A railway station",
+      "A windmill",
+      "A shearing shed"
+    ],
+    "explanation": "The series was based on Paul Jennings' short stories and was made in Australia from 1990. The family's odd happenings include a ghost sailor, a toilet that swallows people and the lighthouse's own spooky history.",
+    "hook": "The Twists lived in a beacon by the sea."
+  },
+  {
+    "id": "pop_290",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "The Logie awards, Australia's TV Week prizes, are named after which early television pioneer?",
+    "answer": "John Logie Baird",
+    "distractors": [
+      "Philo Farnsworth",
+      "Vladimir Zworykin",
+      "Paul Nipkow"
+    ],
+    "explanation": "The awards began in 1959 and the top prize, the Gold Logie, was added the following year. The awards are named after John Logie Baird, a Scot who gave the first public demonstration of a working television system in London in 1926.",
+    "hook": "The statuette honours the man who first showed television publicly."
+  },
+  {
+    "id": "pop_291",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In the Seven drama Offspring, which medical specialist is the central character Nina Proudman?",
+    "answer": "An obstetrician",
+    "distractors": [
+      "A paediatrician",
+      "A cardiac surgeon",
+      "A general practitioner"
+    ],
+    "explanation": "Nina is played by Asher Keddie, one of the biggest television stars of the early 2010s. The show follows the chaotic Proudman family in Melbourne, with Nina's work delivering babies at the heart of it.",
+    "hook": "Her job is the show's name: babies arriving."
+  },
+  {
+    "id": "pop_292",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who won the first series of Australian Idol in 2003, beating runner-up Shannon Noll?",
+    "answer": "Guy Sebastian",
+    "distractors": [
+      "Casey Donovan",
+      "Anthony Callea",
+      "Kate DeAraugo"
+    ],
+    "explanation": "The final drew a huge audience to Network Ten, and Noll's loss became a famous underdog story, with his debut single selling strongly anyway. Casey Donovan won the following year, in 2004.",
+    "hook": "Guy won the first crown; the runner-up still scored a hit."
+  },
+  {
+    "id": "pop_293",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which tradie-turned-presenter hosted Nine's renovation show The Block from its first series in 2003?",
+    "answer": "Scott Cam",
+    "distractors": [
+      "Jamie Durie",
+      "Karl Stefanovic",
+      "Gordon Ramsay"
+    ],
+    "explanation": "Cam was a carpenter before he became a TV presenter. The format sends couples to renovate flats or houses, and the winning couple keeps whatever profit remains after costs.",
+    "hook": "A carpenter who became the bloke with the hammer on TV."
+  },
+  {
+    "id": "pop_294",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who won the first series of MasterChef Australia in 2009?",
+    "answer": "Julie Goodwin",
+    "distractors": [
+      "Poh Ling Yeow",
+      "Adam Liaw",
+      "Kate Bracks"
+    ],
+    "explanation": "A mother of three from the Central Coast of New South Wales, Goodwin beat Poh Ling Yeow in the final. She later published cookbooks, while Poh went on to become one of the show's most popular figures.",
+    "hook": "The first home cook to win the apron was a Central Coast mum."
+  },
+  {
+    "id": "pop_295",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Chris Lilley character, a private-school girl, spends a term at a government school in the ABC series Summer Heights High?",
+    "answer": "Ja'mie King",
+    "distractors": [
+      "Jonah Takalua",
+      "Mr G",
+      "S.Mouse"
+    ],
+    "explanation": "Lilley plays all three of the school's main characters himself: Ja'mie, the Tongan student Jonah and the drama teacher Mr G. The show aired in 2007 and its mockumentary style was copied across later comedies.",
+    "hook": "One actor, three students and teachers, and one very loud private-school girl."
+  },
+  {
+    "id": "pop_296",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Neighbours character, a bald, bespectacled man, was presumed dead after being lost at sea?",
+    "answer": "Harold Bishop",
+    "distractors": [
+      "Karl Kennedy",
+      "Paul Robinson",
+      "Lou Carpenter"
+    ],
+    "explanation": "Harold was played by Ian Smith. After going missing at sea he was presumed dead, then returned to Ramsay Street, and his marriage to Madge made them one of the street's most loved couples.",
+    "hook": "Lost at sea but never lost his glasses."
+  },
+  {
+    "id": "pop_297",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Graham Kennedy's late-night variety show, which began on GTV-9 in 1957, went by what name?",
+    "answer": "In Melbourne Tonight",
+    "distractors": [
+      "Hey Hey It's Saturday",
+      "The Tonight Show",
+      "The Don Lane Show"
+    ],
+    "explanation": "Kennedy hosted the show from its start in 1957, and his ad-libbed, risque patter made it a model for live Australian television. He won the first Gold Logie in 1960.",
+    "hook": "Live at night from Melbourne, with a king hosting."
+  },
+  {
+    "id": "pop_298",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In the ABC comedy Utopia, which fictional government body is responsible for delivering big infrastructure projects?",
+    "answer": "The Nation Building Authority",
+    "distractors": [
+      "The Infrastructure Delivery Commission",
+      "The National Projects Bureau",
+      "The Federal Works Department"
+    ],
+    "explanation": "Utopia is made by the Working Dog team. Its comedy comes from the gap between grand announcements and the bureaucracy that tries to realise them.",
+    "hook": "Big ideas, small progress, and a name that promises a nation."
+  },
+  {
+    "id": "pop_299",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "What is the name of the fictional suburb of Melbourne in which Neighbours is set?",
+    "answer": "Erinsborough",
+    "distractors": [
+      "Kewborough",
+      "Canterley",
+      "Warrnboro"
+    ],
+    "explanation": "Ramsay Street, the main street, is filmed in Pin Oak Court in the real Melbourne suburb of Vermont South. Fans still visit the cul-de-sac, which has been a popular tourist stop since the 1980s.",
+    "hook": "A fictional Melbourne suburb, filmed in a real cul-de-sac."
+  },
+  {
+    "id": "pop_300",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Prisoner, the Network Ten drama that began in 1979, was set in which fictional women's jail?",
+    "answer": "Wentworth Detention Centre",
+    "distractors": [
+      "Barwon Detention Centre",
+      "Fairfield Women's Correctional Centre",
+      "Bakehouse Remand Centre"
+    ],
+    "explanation": "The series ran until 1986 and was sold overseas as Prisoner: Cell Block H, where it became a cult hit. A remake called Wentworth began in 2013 and ran for eight seasons on Foxtel.",
+    "hook": "The prison name was later borrowed for the remake's title."
+  },
+  {
+    "id": "pop_301",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "The Sullivans, a Nine drama that began in 1976, followed a Melbourne family through which historical period?",
+    "answer": "The Second World War",
+    "distractors": [
+      "The Great Depression",
+      "The Vietnam War",
+      "The First World War"
+    ],
+    "explanation": "The series was so popular it won multiple Logie awards and ran until 1983. It followed the family from 1939, with the father Dave Sullivan serving at the front.",
+    "hook": "A suburban family in uniform and wartime."
+  },
+  {
+    "id": "pop_302",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Blue Heelers, the Seven police drama of 1994 to 2006, was set in which fictional Victorian town?",
+    "answer": "Mount Thomas",
+    "distractors": [
+      "Mount Kerrigan",
+      "Port Marlow",
+      "Hawk's Landing"
+    ],
+    "explanation": "The show's central figure was Sergeant Tom Croydon, played by John Wood, and the series ran for thirteen seasons. Lisa McCune played Constable Maggie Doyle.",
+    "hook": "A small-town station run by a gruff sergeant and a blue dog breed."
+  },
+  {
+    "id": "pop_303",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor played Julie Rafter, the mother in the Seven drama Packed to the Rafters?",
+    "answer": "Rebecca Gibney",
+    "distractors": [
+      "Asher Keddie",
+      "Claudia Karvan",
+      "Rachel Griffiths"
+    ],
+    "explanation": "The drama about a family whose grown children moved back home ran from 2008 to 2013. Gibney, New Zealand-born, was already a television star from series like Halifax f.p., and Erik Thomson played her husband Dave.",
+    "hook": "The mum who ended up with a full house again."
+  },
+  {
+    "id": "pop_304",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor hosted the 2016 revival of Network Ten's Australian Survivor?",
+    "answer": "Jonathan LaPaglia",
+    "distractors": [
+      "Anthony LaPaglia",
+      "Luke Jacobz",
+      "Hamish Blake"
+    ],
+    "explanation": "LaPaglia's brother Anthony is also an actor, known for Without a Trace in the United States.",
+    "hook": "The Survivor host is the less famous of two acting brothers."
+  },
+  {
+    "id": "pop_305",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which actor played Norman Gunston, the bumbling interviewer with bits of tissue stuck to his shaving cuts?",
+    "answer": "Garry McDonald",
+    "distractors": [
+      "Max Gillies",
+      "Paul Hogan",
+      "Grahame Bond"
+    ],
+    "explanation": "The character first came to wide notice on The Aunty Jack Show. McDonald later played Arthur Beare in the sitcom Mother and Son.",
+    "hook": "The tissue-faced interviewer later became a sitcom son."
+  },
+  {
+    "id": "pop_306",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which production company is behind Utopia, The Late Show and Thank God You're Here?",
+    "answer": "Working Dog Productions",
+    "distractors": [
+      "Southern Star",
+      "Grundy Television",
+      "Matchbox Pictures"
+    ],
+    "explanation": "Working Dog's comedy team, which includes Rob Sitch, Santo Cilauro, Tom Gleisner and Jane Kennedy, has moved between satire, sketch and live comedy across its output.",
+    "hook": "A canine-named crew behind half your favourite comedies."
+  },
+  {
+    "id": "pop_307",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Seven Network sketch show, launched in 1964 and starring Gordon Chater and Noeline Brown, was a landmark of Australian political satire?",
+    "answer": "The Mavis Bramston Show",
+    "distractors": [
+      "The Graham Kennedy Show",
+      "The Norman Gunston Show",
+      "Tonight with Don Lane"
+    ],
+    "explanation": "It was modelled on the British programme That Was the Week That Was, and its sketches sent up politicians and social habits. The show ran until 1968 and helped make Australian comedy sharper and more local.",
+    "hook": "Sixties satire named for a woman who never existed."
+  },
+  {
+    "id": "pop_308",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which producer created Prisoner, Sons and Daughters and Neighbours?",
+    "answer": "Reg Watson",
+    "distractors": [
+      "Bruce Beresford",
+      "Hector Crawford",
+      "Bruce Gyngell"
+    ],
+    "explanation": "Watson had created the British soap Crossroads in 1964 before creating these Australian shows. Reg Grundy's company produced several of them, but the creative origins were Watson's.",
+    "hook": "One writer behind three of Australia's biggest long-runners."
+  },
+  {
+    "id": "pop_309",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "The Seven drama A Country Practice was set in which fictional New South Wales town?",
+    "answer": "Wandin Valley",
+    "distractors": [
+      "Gum Creek",
+      "Tarra Plains",
+      "Narrabeen Ridge"
+    ],
+    "explanation": "The show began in 1981 and followed doctors, nurses and townspeople at the local hospital. Its long run turned its medical storylines into a regular source of family viewing and launched many young actors' careers.",
+    "hook": "A country hospital with a made-up valley name."
+  },
+  {
+    "id": "pop_310",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor created and stars as the suburban hitman Ray Shoesmith in Mr Inbetween?",
+    "answer": "Scott Ryan",
+    "distractors": [
+      "Damon Herriman",
+      "Richard Roxburgh",
+      "Rob Collins"
+    ],
+    "explanation": "Ryan wrote the series and plays Ray, a hitman who also has to manage his life as a father and a friend.",
+    "hook": "The same man wrote it and plays the hitman next door."
+  },
+  {
+    "id": "pop_311",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which journalist hosted the ABC's 7.30 Report from 1995 until the end of 2010?",
+    "answer": "Kerry O'Brien",
+    "distractors": [
+      "Tony Jones",
+      "Ray Martin",
+      "Leigh Sales"
+    ],
+    "explanation": "O'Brien is known for sustained interviews with prime ministers. Leigh Sales took over the program from the start of 2011.",
+    "hook": "The long interviewer who held the chair for fifteen years."
+  },
+  {
+    "id": "pop_312",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which journalist presented the ABC's Sunday politics program Insiders from its launch in 2001?",
+    "answer": "Barrie Cassidy",
+    "distractors": [
+      "Laurie Oakes",
+      "Kerry O'Brien",
+      "David Speers"
+    ],
+    "explanation": "Cassidy had earlier served as press secretary to Prime Minister Bob Hawke. The show's panel format is known for a Sunday-morning look at the week in politics.",
+    "hook": "Hawke's former press secretary became Sunday's host."
+  },
+  {
+    "id": "pop_313",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which actor played New Jersey mob boss Tony Soprano in The Sopranos?",
+    "answer": "James Gandolfini",
+    "distractors": [
+      "Michael Imperioli",
+      "Steven Van Zandt",
+      "Joe Pantoliano"
+    ],
+    "explanation": "Gandolfini played the role across the HBO series, which ran from 1999 to 2007. Creator David Chase has said he wrote the part of a mobster who sees a therapist, and the show is widely credited with launching television's modern golden age.",
+    "hook": "The mob boss who needed a therapist."
+  },
+  {
+    "id": "pop_314",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which British actress played the sharp-tongued Dowager Countess in Downton Abbey?",
+    "answer": "Maggie Smith",
+    "distractors": [
+      "Judi Dench",
+      "Penelope Wilton",
+      "Joanna Lumley"
+    ],
+    "explanation": "Smith played Violet Crawley, whose one-liners became the show's most quoted moments, and won Emmy awards for the part. She had already played Professor McGonagall in the Harry Potter films, so a generation knew her for two very different grand dames.",
+    "hook": "Her one-liners outlasted the plot lines."
+  },
+  {
+    "id": "pop_315",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In which English city is the gangster drama Peaky Blinders set?",
+    "answer": "Birmingham",
+    "distractors": [
+      "Manchester",
+      "Liverpool",
+      "Leeds"
+    ],
+    "explanation": "The series follows the Shelby family in the Small Heath district after the First World War. The real Peaky Blinders were a street gang in Birmingham in the late 19th and early 20th century, though the show's version of them is heavily fictionalised, and Cillian Murphy stars as Tommy Shelby.",
+    "hook": "Flat caps, razor blades and a gang that rules the backstreets."
+  },
+  {
+    "id": "pop_316",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which dim-witted servant in Blackadder is famous for announcing that he has a 'cunning plan'?",
+    "answer": "Baldrick",
+    "distractors": [
+      "Percy",
+      "Melchett",
+      "Darling"
+    ],
+    "explanation": "Tony Robinson played Baldrick through all four series, each set in a different era from the Middle Ages to the First World War. His plans were almost always disastrous, and the last series ended with the characters going over the top in the trenches.",
+    "hook": "The plan was cunning only in his own mind."
+  },
+  {
+    "id": "pop_317",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which FBI agent, played by Gillian Anderson, is Fox Mulder's sceptical partner in The X-Files?",
+    "answer": "Dana Scully",
+    "distractors": [
+      "Dana Sullivan",
+      "Diana Fowley",
+      "Monica Reyes"
+    ],
+    "explanation": "Scully, a medical doctor, was assigned to debunk Mulder's work on paranormal cases, and her scepticism became the show's engine. The series premiered in 1993, and its tagline 'The truth is out there' became one of television's best-known slogans.",
+    "hook": "The believer needed a doubter."
+  },
+  {
+    "id": "pop_318",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Big Bang Theory character is known for the catchphrase 'Bazinga!'?",
+    "answer": "Sheldon Cooper",
+    "distractors": [
+      "Leonard Hofstadter",
+      "Howard Wolowitz",
+      "Raj Koothrappali"
+    ],
+    "explanation": "Jim Parsons played Sheldon for twelve seasons. The show ran from 2007 to 2019, and Sheldon's rigid habits, including a fixed spot on the couch, drove much of its humour.",
+    "hook": "Bazinga: the physicist's way of saying 'just kidding'."
+  },
+  {
+    "id": "pop_319",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who won the very first season of American Idol in 2002?",
+    "answer": "Kelly Clarkson",
+    "distractors": [
+      "Carrie Underwood",
+      "Jennifer Hudson",
+      "Justin Guarini"
+    ],
+    "explanation": "Clarkson beat Justin Guarini in the finale, and her winner's single 'A Moment Like This' reached number one in the US. The format came from the British show Pop Idol, and Clarkson later became one of its most successful graduates.",
+    "hook": "The first Idol winner's debut single went to number one in the US."
+  },
+  {
+    "id": "pop_320",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which long-running NBC sitcom, set in a Boston bar, gave rise to the spin-off Frasier?",
+    "answer": "Cheers",
+    "distractors": [
+      "Taxi",
+      "Wings",
+      "Night Court"
+    ],
+    "explanation": "Kelsey Grammer first played psychiatrist Frasier Crane as a recurring character in Cheers, then took him to Seattle for Frasier in 1993. The theme song, 'Where Everybody Knows Your Name', is as famous as the show itself.",
+    "hook": "Where everybody knows your name, and where Frasier began."
+  },
+  {
+    "id": "pop_321",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Canadian-born host fronted the syndicated version of Jeopardy! from 1984 until his death in 2020?",
+    "answer": "Alex Trebek",
+    "distractors": [
+      "Pat Sajak",
+      "Bob Barker",
+      "Regis Philbin"
+    ],
+    "explanation": "Trebek hosted more than 8,000 episodes. Ken Jennings and others later took over the lectern after his death from pancreatic cancer.",
+    "hook": "Thirty-six years of answers phrased as questions."
+  },
+  {
+    "id": "pop_322",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "On which fictional island do the priests of Father Ted live?",
+    "answer": "Craggy Island",
+    "distractors": [
+      "Rocky Island",
+      "Barren Island",
+      "Mizen Island"
+    ],
+    "explanation": "Written by Graham Linehan and Arthur Mathews, the Channel 4 sitcom was filmed mostly in County Clare. Dermot Morgan played Ted until his death in 1998.",
+    "hook": "A parish at the end of the earth, run by exiled priests."
+  },
+  {
+    "id": "pop_323",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In which Berkshire town is the paper company of the original UK version of The Office located?",
+    "answer": "Slough",
+    "distractors": [
+      "Reading",
+      "Swindon",
+      "Basingstoke"
+    ],
+    "explanation": "Wernham Hogg's Slough branch was home to David Brent, played by co-creator Ricky Gervais. The series ran for only twelve episodes plus a Christmas special in 2001 to 2003, yet it was remade in more than a dozen countries.",
+    "hook": "Brent's corner of the world was a Thames Valley trading estate."
+  },
+  {
+    "id": "pop_324",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "What is the name of the media empire run by Logan Roy in Succession?",
+    "answer": "Waystar Royco",
+    "distractors": [
+      "Pierce Global",
+      "Hartmann Media",
+      "Cyclops Holdings"
+    ],
+    "explanation": "Brian Cox played Logan, and the show created by Jesse Armstrong ran for four seasons on HBO from 2018 to 2023. Armstrong has said the Murdoch family was one inspiration, though the Roys are fictional.",
+    "hook": "A family fight over a company with the royal name of Roy."
+  },
+  {
+    "id": "pop_325",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In Lost, what is the number of the Oceanic Airlines flight that crashes on the island?",
+    "answer": "815",
+    "distractors": [
+      "714",
+      "612",
+      "902"
+    ],
+    "explanation": "Oceanic 815 broke apart while flying from Sydney to Los Angeles. The show also made the numbers 4, 8, 15, 16, 23 and 42 famous, which turned up on the flight and all over the island.",
+    "hook": "Sydney to Los Angeles, with a detour through the series."
+  },
+  {
+    "id": "pop_326",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "What is the registry number painted on the starship Enterprise in the original Star Trek?",
+    "answer": "NCC-1701",
+    "distractors": [
+      "NCC-1031",
+      "NCC-1864",
+      "NCC-1707"
+    ],
+    "explanation": "The original Enterprise carried the registry number NCC-1701, the number every Trekkie knows. Later Enterprises carried the suffixes A to E, such as NCC-1701-D in The Next Generation.",
+    "hook": "Seventeen-oh-one: the number every Trekkie knows."
+  },
+  {
+    "id": "pop_327",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which British writer created the dystopian anthology series Black Mirror?",
+    "answer": "Charlie Brooker",
+    "distractors": [
+      "Armando Iannucci",
+      "Chris Morris",
+      "Stephen Merchant"
+    ],
+    "explanation": "The show began on Channel 4 in 2011 before Netflix took it over in 2016. Brooker had been a TV critic and satirist, and the title refers to the dark screens of phones and televisions when switched off.",
+    "hook": "The black mirror is the blank screen in your hand."
+  },
+  {
+    "id": "pop_328",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which creator voices Peter Griffin, Stewie and Brian on Family Guy?",
+    "answer": "Seth MacFarlane",
+    "distractors": [
+      "Trey Parker",
+      "Mike Judge",
+      "Matt Stone"
+    ],
+    "explanation": "MacFarlane also voices Quagmire and created the series for Fox in 1999. It was cancelled by Fox, then DVD sales and strong reruns convinced Fox to bring it back in 2005.",
+    "hook": "One man, four of the household voices."
+  },
+  {
+    "id": "pop_329",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "To which broadcaster did The Great British Bake Off move from the BBC in 2017?",
+    "answer": "Channel 4",
+    "distractors": [
+      "ITV",
+      "Sky One",
+      "Channel 5"
+    ],
+    "explanation": "Producer Love Productions moved the show to Channel 4 in 2017. Mary Berry, Mel and Sue did not follow it, while Paul Hollywood was joined on the judging panel by Prue Leith.",
+    "hook": "The tent moved; most of the people stayed behind."
+  },
+  {
+    "id": "pop_330",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which US prime-time soap's 1980 cliffhanger inspired a worldwide guessing game about who had shot one of its lead characters?",
+    "answer": "Dallas",
+    "distractors": [
+      "Dynasty",
+      "Falcon Crest",
+      "Knots Landing"
+    ],
+    "explanation": "The episode in which J.R. Ewing was shot aired in March 1980, and viewers waited until November to find out that his sister-in-law Kristin was the culprit. The reveal episode drew about 83 million US viewers, a record at that time.",
+    "hook": "The eight-month wait for a gunman's name."
+  },
+  {
+    "id": "pop_331",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In which country is the third season of The White Lotus set?",
+    "answer": "Thailand",
+    "distractors": [
+      "Vietnam",
+      "Indonesia",
+      "Cambodia"
+    ],
+    "explanation": "Mike White's HBO anthology changes resort and cast each season, moving from Hawaii to Sicily before the Thai season.",
+    "hook": "Every season is a new holiday and a new cast."
+  },
+  {
+    "id": "pop_332",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which host fronted NBC's The Tonight Show from 1962 until 1992?",
+    "answer": "Johnny Carson",
+    "distractors": [
+      "Jack Paar",
+      "Steve Allen",
+      "Dick Cavett"
+    ],
+    "explanation": "Carson took over from Jack Paar and set the template for late-night talk shows, with a monologue, desk and couch. His final broadcast in May 1992 closed the run, and he stayed out of the spotlight afterwards.",
+    "hook": "Thirty years behind the same desk."
+  },
+  {
+    "id": "pop_333",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In what year did Doctor Who first air on the BBC?",
+    "answer": "1963",
+    "distractors": [
+      "1961",
+      "1965",
+      "1967"
+    ],
+    "explanation": "The first episode, An Unearthly Child, aired the day after President Kennedy was assassinated, so many viewers missed it and the BBC repeated it the following week. William Hartnell played the First Doctor.",
+    "hook": "The Doctor arrived the day after the news that stunned the world."
+  },
+  {
+    "id": "pop_334",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which orange-parka-wearing boy in South Park was killed off in many early episodes?",
+    "answer": "Kenny McCormick",
+    "distractors": [
+      "Kyle Broflovski",
+      "Eric Cartman",
+      "Butters Stotch"
+    ],
+    "explanation": "Kenny's muffled speech comes from his hood, and his repeated deaths were a running gag early on. Creators Trey Parker and Matt Stone voice most of the main characters, and the show began in 1997.",
+    "hook": "The boy whose hood muffled his words and saved him from nothing."
+  },
+  {
+    "id": "pop_335",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actress who played chambermaid Polly also co-wrote Fawlty Towers with John Cleese?",
+    "answer": "Connie Booth",
+    "distractors": [
+      "Prunella Scales",
+      "Andrew Sachs",
+      "Ballard Berkeley"
+    ],
+    "explanation": "Booth and Cleese were married when they wrote the show. Fawlty Towers ran for only twelve episodes in total across its two series, and the tight construction of the scripts is often credited to the care they took over each one.",
+    "hook": "Twelve episodes, co-written by the woman who played the chambermaid."
+  },
+  {
+    "id": "pop_336",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "How many consecutive games did Ken Jennings win on Jeopardy! in his 2004 run?",
+    "answer": "74",
+    "distractors": [
+      "54",
+      "64",
+      "84"
+    ],
+    "explanation": "His streak earned him about 2.5 million dollars in regular play before he lost to Nancy Zerg in a Final Jeopardy answer about H&R Block. It remains the longest run of consecutive wins in the show's history.",
+    "hook": "Seventy-four wins, ended by a tax-preparer question."
+  },
+  {
+    "id": "pop_337",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which network rescued Brooklyn Nine-Nine after Fox cancelled it in May 2018?",
+    "answer": "NBC",
+    "distractors": [
+      "CBS",
+      "ABC",
+      "Hulu"
+    ],
+    "explanation": "Fans ran a strong social media campaign after the cancellation. NBC's rescue led to three more seasons after Fox's five, taking the cop comedy to a total of eight seasons.",
+    "hook": "Cancelled by Fox, rescued by a rival network."
+  },
+  {
+    "id": "pop_338",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which writer co-created Rick and Morty with Justin Roiland and also created the sitcom Community?",
+    "answer": "Dan Harmon",
+    "distractors": [
+      "Mike Schur",
+      "Greg Daniels",
+      "Seth Meyers"
+    ],
+    "explanation": "Harmon was fired from Community in 2012 and returned for the fifth season. Rick and Morty began in 2013 on Adult Swim, and its roots lie in a crude Back to the Future parody Roiland made before the show existed.",
+    "hook": "A sitcom writer who got fired, then came back."
+  },
+  {
+    "id": "pop_339",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which actor played Soviet nuclear scientist Valery Legasov in HBO's Chernobyl?",
+    "answer": "Jared Harris",
+    "distractors": [
+      "Stellan Skarsgard",
+      "Mark Strong",
+      "Ciaran Hinds"
+    ],
+    "explanation": "Legasov took his own life on the second anniversary of the disaster, in 1988, and the 2019 miniseries opens with that moment. Skarsgard played the deputy prime minister Boris Shcherbina, and the series won the Emmy for Outstanding Limited Series.",
+    "hook": "The show begins with the ending of Legasov's life."
+  },
+  {
+    "id": "pop_340",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "In the Apple TV+ series Severance, which company's employees have their work and home memories surgically separated?",
+    "answer": "Lumon Industries",
+    "distractors": [
+      "Initech Industries",
+      "Vandelay Industries",
+      "Cyberdyne Systems"
+    ],
+    "explanation": "Created by Dan Erickson and directed in large part by Ben Stiller, the series premiered in 2022. Lumon's founder Kier Eagan is revered like a prophet, and its offices were filmed at the Bell Labs complex in New Jersey.",
+    "hook": "A corporation that treats its founder like a saint."
+  },
+  {
+    "id": "pop_341",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Irish comedian plays the drunken bookshop owner Bernard Black?",
+    "answer": "Dylan Moran",
+    "distractors": [
+      "Ardal O'Hanlon",
+      "Chris O'Dowd",
+      "Tommy Tiernan"
+    ],
+    "explanation": "Moran co-wrote Black Books with Graham Linehan, with Bill Bailey as the assistant Manny and Tamsin Greig as the friend Fran. The Channel 4 sitcom ran for three series from 2000 to 2004.",
+    "hook": "A bookshop owner who hates customers."
+  },
+  {
+    "id": "pop_342",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "On which Swedish reality format was the American show Survivor based?",
+    "answer": "Expedition Robinson",
+    "distractors": [
+      "Island Challenge",
+      "Castaway Quest",
+      "Robinson Crusoe Live"
+    ],
+    "explanation": "Expedition Robinson first aired in Sweden in 1997 and was created by Charlie Parsons, who later brought the idea to Mark Burnett. The US version launched on CBS in 2000 and was won by Richard Hatch.",
+    "hook": "Survivor's format came from a Swedish show named after a famous castaway."
+  },
+  {
+    "id": "pop_343",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which singer bought the Memphis mansion Graceland in 1957 and died there in 1977?",
+    "answer": "Elvis Presley",
+    "distractors": [
+      "Johnny Cash",
+      "Jerry Lee Lewis",
+      "Roy Orbison"
+    ],
+    "explanation": "He bought the house at 22 for about $102,500, and it opened to the public as a museum in 1982. It is now one of the most visited private homes in the United States.",
+    "hook": "Graceland: the house that rock and roll built."
+  },
+  {
+    "id": "pop_344",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which band's main songwriting partnership was Mick Jagger and Keith Richards?",
+    "answer": "The Rolling Stones",
+    "distractors": [
+      "The Kinks",
+      "The Who",
+      "The Animals"
+    ],
+    "explanation": "The band was founded in London in 1962 by Brian Jones, who chose the name from a Muddy Waters song, 'Rollin' Stone'. Jagger and Richards were reportedly locked in a kitchen by their manager until they wrote their first song.",
+    "hook": "Named after a Muddy Waters song, led by Jagger and Richards."
+  },
+  {
+    "id": "pop_345",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which singer had a 1984 hit with 'Like a Virgin'?",
+    "answer": "Madonna",
+    "distractors": [
+      "Cyndi Lauper",
+      "Pat Benatar",
+      "Debbie Harry"
+    ],
+    "explanation": "She performed it in a wedding dress at the first MTV Video Music Awards in 1984, famously rolling across the stage. The song was written by Billy Steinberg and Tom Kelly, not by Madonna herself.",
+    "hook": "A wedding dress, a stage floor and a pop career."
+  },
+  {
+    "id": "pop_346",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which British girl group had a 1996 debut single called 'Wannabe'?",
+    "answer": "The Spice Girls",
+    "distractors": [
+      "All Saints",
+      "Bananarama",
+      "Eternal"
+    ],
+    "explanation": "It went to number one in the UK in July 1996 and topped the US Hot 100 in early 1997. The group's five members were known as Scary, Sporty, Baby, Ginger and Posh.",
+    "hook": "Five nicknames, one 'Girl Power' catchphrase."
+  },
+  {
+    "id": "pop_347",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 1985 charity concert, staged at Wembley Stadium and in Philadelphia, was organised by Bob Geldof and Midge Ure?",
+    "answer": "Live Aid",
+    "distractors": [
+      "Farm Aid",
+      "Live 8",
+      "The Concert for Bangladesh"
+    ],
+    "explanation": "It raised money for famine relief in Ethiopia. Phil Collins played at Wembley, then flew by Concorde to Philadelphia to perform again the same day.",
+    "hook": "One drummer, two continents, one afternoon."
+  },
+  {
+    "id": "pop_348",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which punk band, managed by Malcolm McLaren, released 'Anarchy in the UK' in 1976?",
+    "answer": "The Sex Pistols",
+    "distractors": [
+      "The Clash",
+      "The Damned",
+      "The Ramones"
+    ],
+    "explanation": "EMI dropped the band within weeks after its members swore on Bill Grundy's live Today show in December 1976. Their only studio album, Never Mind the Bollocks, came out in 1977.",
+    "hook": "One rude TV interview ended the record deal."
+  },
+  {
+    "id": "pop_349",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which singer fronted the New York band Blondie?",
+    "answer": "Debbie Harry",
+    "distractors": [
+      "Chrissie Hynde",
+      "Siouxsie Sioux",
+      "Patti Smith"
+    ],
+    "explanation": "The band's 1979 disco-flavoured single 'Heart of Glass' reached number one in both the UK and the US. Harry had worked as a Playboy Club waitress before the band took off.",
+    "hook": "The band is named after its singer's hair."
+  },
+  {
+    "id": "pop_350",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Irish band released the 1987 album The Joshua Tree?",
+    "answer": "U2",
+    "distractors": [
+      "Thin Lizzy",
+      "The Cranberries",
+      "Simple Minds"
+    ],
+    "explanation": "It includes 'With or Without You' and 'I Still Haven't Found What I'm Looking For', and won Album of the Year at the 1988 Grammys. The cover was shot in the California desert.",
+    "hook": "Dublin band, desert cover, two number-one singles."
+  },
+  {
+    "id": "pop_351",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Who recorded the 1992 hit version of 'I Will Always Love You' for the film The Bodyguard?",
+    "answer": "Whitney Houston",
+    "distractors": [
+      "Mariah Carey",
+      "Diana Ross",
+      "Janet Jackson"
+    ],
+    "explanation": "Dolly Parton wrote the song in 1973. She refused Elvis Presley's manager's demand for half the publishing rights, so Elvis never recorded it, and she later earned a fortune from Houston's version.",
+    "hook": "Dolly turned down Elvis's manager and still got rich from Whitney."
+  },
+  {
+    "id": "pop_352",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which guitarist set his instrument on fire at the 1967 Monterey Pop Festival?",
+    "answer": "Jimi Hendrix",
+    "distractors": [
+      "Eric Clapton",
+      "Pete Townshend",
+      "Jeff Beck"
+    ],
+    "explanation": "He poured lighter fluid on his Fender Stratocaster and burned it after his set, a stunt that made his name in America. The Who had smashed their gear earlier the same night.",
+    "hook": "Lighter fluid, a Stratocaster and an American breakthrough."
+  },
+  {
+    "id": "pop_353",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In which US state did the plane crash that killed Buddy Holly, Ritchie Valens and the Big Bopper happen in February 1959?",
+    "answer": "Iowa",
+    "distractors": [
+      "Texas",
+      "Minnesota",
+      "Wisconsin"
+    ],
+    "explanation": "The small plane crashed in a cornfield near Clear Lake shortly after takeoff, on a winter tour leg bound for Moorhead, Minnesota. Don McLean later called it 'the day the music died' in 'American Pie'.",
+    "hook": "A cornfield near Clear Lake: the day the music died."
+  },
+  {
+    "id": "pop_354",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which heavy metal band took its name from a 1963 Boris Karloff horror film?",
+    "answer": "Black Sabbath",
+    "distractors": [
+      "Judas Priest",
+      "Deep Purple",
+      "Iron Maiden"
+    ],
+    "explanation": "The Birmingham band was originally called Earth and changed its name after the Italian horror anthology directed by Mario Bava. Ozzy Osbourne was the singer on their first albums.",
+    "hook": "A horror movie gave metal its name."
+  },
+  {
+    "id": "pop_355",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which hip-hop group released the 1988 album It Takes a Nation of Millions to Hold Us Back?",
+    "answer": "Public Enemy",
+    "distractors": [
+      "N.W.A",
+      "Run-DMC",
+      "De La Soul"
+    ],
+    "explanation": "Fronted by Chuck D and Flavor Flav, the group used a dense production team called the Bomb Squad. Its 1989 single 'Fight the Power' was written for Spike Lee's film Do the Right Thing.",
+    "hook": "Chuck D's booming voice, Flavor Flav's clock."
+  },
+  {
+    "id": "pop_356",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which band beat Oasis to number one in the August 1995 British chart battle with 'Country House'?",
+    "answer": "Blur",
+    "distractors": [
+      "Pulp",
+      "Suede",
+      "Elastica"
+    ],
+    "explanation": "Both bands released singles on the same day, 14 August 1995, and the press dubbed it the Battle of Britpop. Oasis's 'Roll with It' finished second, though Oasis went on to far bigger album sales.",
+    "hook": "Blur won the week, Oasis won the decade."
+  },
+  {
+    "id": "pop_357",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Who founded the Tamla label in Detroit in 1959, the start of what became Motown?",
+    "answer": "Berry Gordy",
+    "distractors": [
+      "Phil Spector",
+      "Clive Davis",
+      "Jerry Wexler"
+    ],
+    "explanation": "He started the Tamla label with an $800 loan from his family's savings fund, after working on a Ford assembly line. The company's name is a blend of 'motor' and 'town'.",
+    "hook": "$800 and a car-factory nickname built Hitsville."
+  },
+  {
+    "id": "pop_358",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Doors singer died in Paris in July 1971?",
+    "answer": "Jim Morrison",
+    "distractors": [
+      "Janis Joplin",
+      "Brian Jones",
+      "Jimi Hendrix"
+    ],
+    "explanation": "He was found dead in a bathtub at the age of 27 and is buried in Paris's Père Lachaise Cemetery. Jones, Hendrix and Joplin also died at 27 between 1969 and 1970, creating the idea of the '27 Club'.",
+    "hook": "Four stars died at 27 in two years."
+  },
+  {
+    "id": "pop_359",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which glam rock star fronted T. Rex until his death in a 1977 car crash?",
+    "answer": "Marc Bolan",
+    "distractors": [
+      "Mick Ronson",
+      "Ian Hunter",
+      "Bryan Ferry"
+    ],
+    "explanation": "A Mini driven by his girlfriend Gloria Jones hit a tree on Barnes Common in London, two weeks before his 30th birthday. The tree is now a shrine for fans.",
+    "hook": "A tree in Barnes is still a fan shrine."
+  },
+  {
+    "id": "pop_360",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which lyricist has written the words for most of Elton John's best-known songs, including 'Your Song'?",
+    "answer": "Bernie Taupin",
+    "distractors": [
+      "Tim Rice",
+      "Gary Osborne",
+      "Pete Sinfield"
+    ],
+    "explanation": "The two were brought together in 1967 after both answered a talent-scout advertisement. Taupin usually writes the lyrics first and hands them over for John to set to music.",
+    "hook": "Words first from Bernie, then the piano."
+  },
+  {
+    "id": "pop_361",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1984 Bruce Springsteen album contains 'Dancing in the Dark' and 'Glory Days'?",
+    "answer": "Born in the U.S.A.",
+    "distractors": [
+      "Nebraska",
+      "The River",
+      "Darkness on the Edge of Town"
+    ],
+    "explanation": "Seven of its twelve tracks became US top-ten singles, a feat it shares with Michael Jackson's Thriller. The flag-draped cover and the title song are often misread as patriotic, though the lyrics criticise the treatment of Vietnam veterans.",
+    "hook": "A flag on the cover, a protest in the lyrics."
+  },
+  {
+    "id": "pop_362",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which song was the first music video shown on MTV when the channel launched on 1 August 1981?",
+    "answer": "Video Killed the Radio Star",
+    "distractors": [
+      "Hungry Like the Wolf",
+      "Don't You Want Me",
+      "Girls on Film"
+    ],
+    "explanation": "It was recorded by the Buggles, a duo of Trevor Horn and Geoff Downes, and released in 1979. Horn and Downes briefly joined the band Yes soon after.",
+    "hook": "MTV opened by announcing its own arrival."
+  },
+  {
+    "id": "pop_363",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Clash double album of 1979 had a cover photo of a bass guitar being smashed, echoing the lettering of Elvis Presley's debut LP?",
+    "answer": "London Calling",
+    "distractors": [
+      "Sandinista!",
+      "Give 'Em Enough Rope",
+      "Combat Rock"
+    ],
+    "explanation": "The band persuaded its record company to sell the 19-track double album at the price of a single LP. Paul Simonon's smashing of his bass during a New York show appears on the cover.",
+    "hook": "A smashed bass and a pink-and-green Elvis homage."
+  },
+  {
+    "id": "pop_364",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Whose dairy farm in Bethel, New York, hosted the 1969 Woodstock festival?",
+    "answer": "Max Yasgur",
+    "distractors": [
+      "Michael Lang",
+      "Bill Graham",
+      "Albert Grossman"
+    ],
+    "explanation": "After other towns refused the organisers, Yasgur rented them his land, and roughly 400,000 people came. The festival was held about 60 kilometres from the town of Woodstock itself.",
+    "hook": "Woodstock wasn't held in Woodstock."
+  },
+  {
+    "id": "pop_365",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which posthumous 1971 Janis Joplin album, a US number one, includes 'Me and Bobby McGee'?",
+    "answer": "Pearl",
+    "distractors": [
+      "Cheap Thrills",
+      "I Got Dem Ol' Kozmic Blues Again Mama!",
+      "Big Brother and the Holding Company"
+    ],
+    "explanation": "She died in October 1970 before finishing it. Kris Kristofferson wrote the song, and her version went to number one in the US.",
+    "hook": "Her nickname became her last album's title."
+  },
+  {
+    "id": "pop_366",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which songwriter wrote and first recorded 'Girls Just Want to Have Fun' before Cyndi Lauper made it a hit in 1983?",
+    "answer": "Robert Hazard",
+    "distractors": [
+      "Billy Steinberg",
+      "Jules Shear",
+      "Rick Springfield"
+    ],
+    "explanation": "Hazard recorded his version in 1979. Lauper's 1983 cover turned it into a defining anthem of 1980s pop.",
+    "hook": "A man's song became a women's anthem."
+  },
+  {
+    "id": "pop_367",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "In which New York City borough did the Ramones form in 1974?",
+    "answer": "Queens",
+    "distractors": [
+      "Brooklyn",
+      "The Bronx",
+      "Manhattan"
+    ],
+    "explanation": "The founders met in Forest Hills and all adopted the stage surname Ramone. They played their first shows around Manhattan, helping launch the CBGB punk scene.",
+    "hook": "Four fake brothers from Forest Hills."
+  },
+  {
+    "id": "pop_368",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "What was George Michael's surname at birth?",
+    "answer": "Panayiotou",
+    "distractors": [
+      "Papadakis",
+      "Kyriakides",
+      "Georgiadis"
+    ],
+    "explanation": "He was born Georgios Kyriacos Panayiotou in London to a Greek Cypriot father. He formed Wham! with school friend Andrew Ridgeley.",
+    "hook": "Greek Cypriot family name, hidden behind Wham!."
+  },
+  {
+    "id": "pop_369",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Duran Duran took their name from a villain in which 1968 science-fiction film?",
+    "answer": "Barbarella",
+    "distractors": [
+      "2001: A Space Odyssey",
+      "Planet of the Apes",
+      "Fahrenheit 451"
+    ],
+    "explanation": "The film's scientist character is called Durand Durand. The Birmingham band formed in 1978 and named themselves after him, playing at the Rum Runner club.",
+    "hook": "The band was named after a movie scientist."
+  },
+  {
+    "id": "pop_370",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 1964 Kinks single is said to owe its distorted guitar sound to Dave Davies slashing his amplifier's speaker cone?",
+    "answer": "You Really Got Me",
+    "distractors": [
+      "All Day and All of the Night",
+      "Waterloo Sunset",
+      "Lola"
+    ],
+    "explanation": "The raw sound, made with a razor blade, is often cited as an early step toward heavy metal. The Ray Davies composition gave the group its first UK number one.",
+    "hook": "A razor blade made the riff."
+  },
+  {
+    "id": "pop_371",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 1977 Donna Summer single, produced by Giorgio Moroder, used an entirely synthesised backing track?",
+    "answer": "I Feel Love",
+    "distractors": [
+      "Hot Stuff",
+      "Bad Girls",
+      "Last Dance"
+    ],
+    "explanation": "Moroder and Pete Bellotte built it around a pulsing sequenced bassline, making it an influential template for the synth-driven dance music that followed.",
+    "hook": "A machine-made pulse that predicted techno."
+  },
+  {
+    "id": "pop_372",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Chuck Berry song was included on the Golden Record launched aboard the Voyager space probes in 1977?",
+    "answer": "Johnny B. Goode",
+    "distractors": [
+      "Maybellene",
+      "Roll Over Beethoven",
+      "Sweet Little Sixteen"
+    ],
+    "explanation": "The 1958 song, about a country boy who plays guitar, is the only rock and roll track on the record, along with Bach, Beethoven and music from around the world. The Voyager probes are now in interstellar space.",
+    "hook": "Rock and roll's ambassador to the stars."
+  },
+  {
+    "id": "pop_373",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Psy's 2012 hit Gangnam Style is named after an affluent district of which city?",
+    "answer": "Seoul",
+    "distractors": [
+      "Busan",
+      "Incheon",
+      "Daegu"
+    ],
+    "explanation": "Gangnam means 'south of the river' and lies south of the Han River in the South Korean capital. The video became the first on YouTube to pass one billion views in December 2012.",
+    "hook": "Gangnam is south of the Han, in the capital."
+  },
+  {
+    "id": "pop_374",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Shake It Off is a single from which Taylor Swift album, released in 2014?",
+    "answer": "1989",
+    "distractors": [
+      "Red",
+      "Reputation",
+      "Fearless"
+    ],
+    "explanation": "The album was named after the year of Swift's birth and marked her full move from country to pure pop. It won Album of the Year at the 2016 Grammys.",
+    "hook": "Named for her birth year, not its release year."
+  },
+  {
+    "id": "pop_375",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Doja Cat's 2020 hit Say So, her first number one in the US, was boosted by a viral dance on which app?",
+    "answer": "TikTok",
+    "distractors": [
+      "Instagram",
+      "Snapchat",
+      "Vine"
+    ],
+    "explanation": "A viral dance challenge on TikTok helped the song climb the charts, and a remix with Nicki Minaj helped it reach number one on the Billboard Hot 100. It showed how a short video trend could make a hit.",
+    "hook": "A dance craze plus a Nicki remix made it a chart-topper."
+  },
+  {
+    "id": "pop_376",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which singer headlined the Super Bowl LVII halftime show in 2023 and revealed she was expecting her second child?",
+    "answer": "Rihanna",
+    "distractors": [
+      "Beyoncé",
+      "Lady Gaga",
+      "Jennifer Lopez"
+    ],
+    "explanation": "The performance in Arizona was her first live show in years and ran without any guest performers. Her red jumpsuit and the visible bump made the pregnancy news the talking point of the night.",
+    "hook": "Red jumpsuit, no guests, and a baby bump."
+  },
+  {
+    "id": "pop_377",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Just Dance and Poker Face both appear on which 2008 debut album?",
+    "answer": "The Fame",
+    "distractors": [
+      "Born This Way",
+      "Artpop",
+      "Chromatica"
+    ],
+    "explanation": "The album made Lady Gaga a global star and was followed in 2009 by an extended edition called The Fame Monster. Both singles reached number one in the US.",
+    "hook": "Her first album, then the Monster follow-up."
+  },
+  {
+    "id": "pop_378",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which song by Billie Eilish, written for the film Barbie, won the Oscar for Best Original Song at the 2024 ceremony?",
+    "answer": "What Was I Made For?",
+    "distractors": [
+      "Bad Guy",
+      "Lovely",
+      "Happier Than Ever"
+    ],
+    "explanation": "Eilish wrote it with her brother Finneas O'Connell. It was her second Oscar, after No Time to Die in 2022.",
+    "hook": "A sibling duo's second Oscar in two years."
+  },
+  {
+    "id": "pop_379",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which two Latin stars shared the Super Bowl LIV halftime show in Miami in 2020?",
+    "answer": "Shakira and Jennifer Lopez",
+    "distractors": [
+      "Marc Anthony and Gloria Estefan",
+      "Ricky Martin and Enrique Iglesias",
+      "Selena Gomez and Camila Cabello"
+    ],
+    "explanation": "The show included a tribute to Puerto Rico and Colombia and a cameo by Bad Bunny and J Balvin. A large audience watched.",
+    "hook": "Colombia and Puerto Rico shared the stage."
+  },
+  {
+    "id": "pop_380",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "On which British talent show were Harry Styles and four other solo hopefuls put together as a group in 2010?",
+    "answer": "The X Factor",
+    "distractors": [
+      "Britain's Got Talent",
+      "Pop Idol",
+      "The Voice UK"
+    ],
+    "explanation": "Simon Cowell's judges merged the five contestants into One Direction at the boot camp stage. They finished third but became one of the best-selling boy bands ever.",
+    "hook": "Five solo losers became one big winner."
+  },
+  {
+    "id": "pop_381",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which 2016 Beyonce visual album includes the songs Formation and Hold Up?",
+    "answer": "Lemonade",
+    "distractors": [
+      "Renaissance",
+      "B'Day",
+      "4"
+    ],
+    "explanation": "The film premiered on HBO alongside the album's release on the streaming service Tidal. Its songs deal with infidelity and reconciliation, and it was widely hailed as one of the decade's major albums.",
+    "hook": "Lemonade came as an HBO film and a Tidal album."
+  },
+  {
+    "id": "pop_382",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Kendrick Lamar album won the Pulitzer Prize for Music in 2018?",
+    "answer": "DAMN.",
+    "distractors": [
+      "To Pimp a Butterfly",
+      "good kid, m.A.A.d city",
+      "Mr. Morale & the Big Steppers"
+    ],
+    "explanation": "It was the first time the music Pulitzer went to an artist outside classical or jazz. The jury praised it as a virtuosic song collection capturing modern African American life.",
+    "hook": "First non-classical, non-jazz Pulitzer in music."
+  },
+  {
+    "id": "pop_383",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which country star appeared on the remix of Lil Nas X's 2019 hit Old Town Road?",
+    "answer": "Billy Ray Cyrus",
+    "distractors": [
+      "Luke Combs",
+      "Blake Shelton",
+      "Kenny Chesney"
+    ],
+    "explanation": "The remix helped the song spend 19 weeks at number one on the Billboard Hot 100, a record at the time. It had earlier been removed from the country chart, which sparked debate about genre.",
+    "hook": "Achy Breaky Heart's singer joins the cowboy trap."
+  },
+  {
+    "id": "pop_384",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "In which country was rapper Nicki Minaj born?",
+    "answer": "Trinidad and Tobago",
+    "distractors": [
+      "Jamaica",
+      "Barbados",
+      "Haiti"
+    ],
+    "explanation": "She was born in Saint James, Port of Spain, and moved to Queens, New York, at the age of five. Her Caribbean heritage shaped her accent work and her early mixtape persona.",
+    "hook": "Port of Spain to Queens at age five."
+  },
+  {
+    "id": "pop_386",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which singer, known for the album The Rise and Fall of a Midwest Princess, won Best New Artist at the 2025 Grammys?",
+    "answer": "Chappell Roan",
+    "distractors": [
+      "Sabrina Carpenter",
+      "Doechii",
+      "Benson Boone"
+    ],
+    "explanation": "Her win came after a breakout 2024, driven by festival slots and the hit Good Luck, Babe!",
+    "hook": "Midwest Princess takes the Grammy crown."
+  },
+  {
+    "id": "pop_387",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "What colour was the cover of Charli XCX's 2024 album Brat, which gave rise to a summer-long trend?",
+    "answer": "Lime green",
+    "distractors": [
+      "Hot pink",
+      "Electric blue",
+      "Bright orange"
+    ],
+    "explanation": "The plain lime-green cover with lowercase text became a viral meme and a social media aesthetic. Politicians and brands even adopted the colour during 2024.",
+    "hook": "Slime-green, low-fi, and it took over the summer."
+  },
+  {
+    "id": "pop_388",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which album was the first that Taylor Swift re-recorded and released in April 2021?",
+    "answer": "Fearless",
+    "distractors": [
+      "Red",
+      "Speak Now",
+      "1989"
+    ],
+    "explanation": "She re-recorded her albums after a dispute over ownership of her original masters. The re-recordings carry the 'Taylor's Version' label so fans can tell them apart.",
+    "hook": "Fearless was first on her Taylor's Version list."
+  },
+  {
+    "id": "pop_389",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Lady Gaga song from A Star Is Born won the Oscar for Best Original Song at the 2019 ceremony?",
+    "answer": "Shallow",
+    "distractors": [
+      "Always Remember Us This Way",
+      "I'll Never Love Again",
+      "Born This Way"
+    ],
+    "explanation": "She co-wrote and performed it with Bradley Cooper. The song also won Grammys for Best Pop Duo/Group Performance and Best Song Written for Visual Media.",
+    "hook": "A duet with Bradley Cooper that went deep."
+  },
+  {
+    "id": "pop_390",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which K-pop group became the first Korean act to headline the Coachella festival, in 2023?",
+    "answer": "Blackpink",
+    "distractors": [
+      "Twice",
+      "Red Velvet",
+      "Stray Kids"
+    ],
+    "explanation": "The four-member girl group from YG Entertainment headlined both weekends of the festival in California. Their stage show included hits such as Pink Venom and Kill This Love.",
+    "hook": "Pink-and-black stage for a historic Coachella."
+  },
+  {
+    "id": "pop_391",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which rapper features on Rihanna's 2007 single Umbrella?",
+    "answer": "Jay-Z",
+    "distractors": [
+      "Kanye West",
+      "Eminem",
+      "Drake"
+    ],
+    "explanation": "Jay-Z raps on the track, which spent seven weeks at number one on the Billboard Hot 100 and was Rihanna's first US number one. It appears on Good Girl Gone Bad, her third album, but it is not the album's title track.",
+    "hook": "Hov's rap joins the downpour."
+  },
+  {
+    "id": "pop_392",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which country did Conchita Wurst represent when she won Eurovision in 2014 with Rise Like a Phoenix?",
+    "answer": "Austria",
+    "distractors": [
+      "Germany",
+      "Switzerland",
+      "Hungary"
+    ],
+    "explanation": "Conchita was the drag persona of singer Tom Neuwirth, whose bearded look made headlines. The contest in Copenhagen was Austria's first win since 1966.",
+    "hook": "Bearded diva ends a 48-year drought."
+  },
+  {
+    "id": "pop_393",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "The Lollapalooza festival began in 1991 as the farewell tour of which American rock band?",
+    "answer": "Jane's Addiction",
+    "distractors": [
+      "Soundgarden",
+      "Pearl Jam",
+      "Faith No More"
+    ],
+    "explanation": "Frontman Perry Farrell conceived it as a travelling alternative-rock festival. It later settled into a fixed annual event in Grant Park, Chicago.",
+    "hook": "Perry Farrell's goodbye turned into a festival."
+  },
+  {
+    "id": "pop_394",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Who became the first artist to win the Grammy for Album of the Year four times, at the 2024 ceremony?",
+    "answer": "Taylor Swift",
+    "distractors": [
+      "Beyoncé",
+      "Stevie Wonder",
+      "Paul Simon"
+    ],
+    "explanation": "Midnights gave her a fourth win after Fearless, 1989 and folklore. Stevie Wonder had won three before her.",
+    "hook": "Midnights made it four, ahead of Stevie."
+  },
+  {
+    "id": "pop_395",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Cardi B's 2017 hit Bodak Yellow was the first Hot 100 number one for a solo female rapper since which artist's 1998 hit Doo Wop (That Thing)?",
+    "answer": "Lauryn Hill",
+    "distractors": [
+      "Missy Elliott",
+      "Lil' Kim",
+      "Queen Latifah"
+    ],
+    "explanation": "Cardi B became only the second solo woman rapper to top the chart. Hill's song came from her album The Miseducation of Lauryn Hill.",
+    "hook": "Nineteen years between solo women rap number ones."
+  },
+  {
+    "id": "pop_396",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "In September 2007 Kanye West's album Graduation was released on the same day as a rival record from which rapper?",
+    "answer": "50 Cent",
+    "distractors": [
+      "Lil Wayne",
+      "Jay-Z",
+      "Eminem"
+    ],
+    "explanation": "The two stars staged a much-hyped sales showdown, which Kanye won comfortably. It was seen as a turning point away from gangsta rap toward more experimental styles.",
+    "hook": "Curtis vs Graduation, 11 September 2007."
+  },
+  {
+    "id": "pop_397",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Who won the first UK series of The X Factor in 2004?",
+    "answer": "Steve Brookstein",
+    "distractors": [
+      "Shayne Ward",
+      "Leona Lewis",
+      "Joe McElderry"
+    ],
+    "explanation": "Brookstein was mentored by Louis Walsh and went on to release an album that reached number one. The later winners on the list came in 2005, 2006 and 2009 respectively.",
+    "hook": "The first X Factor champion, before Ward and Lewis."
+  },
+  {
+    "id": "pop_398",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which country won the very first Eurovision Song Contest in 1956?",
+    "answer": "Switzerland",
+    "distractors": [
+      "France",
+      "Italy",
+      "Netherlands"
+    ],
+    "explanation": "Lys Assia won with Refrain at the contest in Lugano, and the host country has not won many times since. Only seven countries took part in that first edition.",
+    "hook": "A tiny field of seven, and the host won."
+  },
+  {
+    "id": "pop_399",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which 2000 NSYNC album sold about 2.4 million copies in its first week in the US, a record at the time?",
+    "answer": "No Strings Attached",
+    "distractors": [
+      "Celebrity",
+      "Home for Christmas",
+      "Greatest Hits"
+    ],
+    "explanation": "The record stood until 2015 when Adele's 25 broke it. The album included Bye Bye Bye and It's Gonna Be Me.",
+    "hook": "2.4 million in a week, only Adele passed it."
+  },
+  {
+    "id": "pop_400",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Stray Kids leader Bang Chan, who was born in Seoul, grew up in which Australian city?",
+    "answer": "Sydney",
+    "distractors": [
+      "Melbourne",
+      "Brisbane",
+      "Perth"
+    ],
+    "explanation": "Christopher Bahng moved to Australia as a child and was scouted by JYP Entertainment as a teenager. The group's debut came after a 2017 reality survival series.",
+    "hook": "A K-pop leader raised in Sydney."
+  },
+  {
+    "id": "pop_401",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Jay-Z album, released on 11 September 2001, is widely regarded as one of his greatest?",
+    "answer": "The Blueprint",
+    "distractors": [
+      "Reasonable Doubt",
+      "The Black Album",
+      "Vol. 2... Hard Knock Life"
+    ],
+    "explanation": "It features production from Kanye West and Just Blazed, helping launch Kanye's career. It was released the same day as the September 11 attacks but still became a landmark hip-hop album.",
+    "hook": "Kanye's production breakout year on Hov's classic."
+  },
+  {
+    "id": "pop_402",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which New Zealand singer-songwriter topped the US charts in 2013 with 'Royals'?",
+    "answer": "Lorde",
+    "distractors": [
+      "Kimbra",
+      "Bic Runga",
+      "Brooke Fraser"
+    ],
+    "explanation": "She was only 16 when 'Royals' spent nine weeks at number one on the Billboard Hot 100, and it won her two Grammys in 2014, including Song of the Year. Her real name is Ella Yelich-O'Connor.",
+    "hook": "A 16-year-old from Auckland ruled the American charts."
+  },
+  {
+    "id": "pop_403",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Australian duo recorded the 1997 ballad 'Truly Madly Deeply'?",
+    "answer": "Savage Garden",
+    "distractors": [
+      "Human Nature",
+      "Pseudo Echo",
+      "Taxiride"
+    ],
+    "explanation": "Darren Hayes and Daniel Jones met through a newspaper advertisement in Brisbane. The song went to number one in the United States in 1998, and the duo split in 2001.",
+    "hook": "Two Brisbane strangers, one classified ad, and a US number one."
+  },
+  {
+    "id": "pop_404",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Australian singer played Sandy in the 1978 film version of Grease?",
+    "answer": "Olivia Newton-John",
+    "distractors": [
+      "Marcia Hines",
+      "Renée Geyer",
+      "Debra Byrne"
+    ],
+    "explanation": "Born in Cambridge, England, and raised in Melbourne, she was cast in the role. Sandy's character was rewritten as Australian for her, and 'Hopelessly Devoted to You' was written for the film.",
+    "hook": "Sandy was rewritten as an Aussie just for her."
+  },
+  {
+    "id": "pop_405",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Australian singer's 1972 song 'I Am Woman' became an anthem of the women's movement?",
+    "answer": "Helen Reddy",
+    "distractors": [
+      "Olivia Newton-John",
+      "Wendy Matthews",
+      "Little Pattie"
+    ],
+    "explanation": "The song reached number one on the US Billboard Hot 100 in December 1972, and she won the 1973 Grammy for Best Female Pop Vocal Performance. She co-wrote the lyrics after finding no existing songs that spoke for her.",
+    "hook": "She co-wrote the anthem after finding no song that said it for her."
+  },
+  {
+    "id": "pop_406",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which New Zealand folk-comedy duo starred in the HBO series about two Kiwis trying to make it as a band in New York?",
+    "answer": "Flight of the Conchords",
+    "distractors": [
+      "Tenacious D",
+      "The Lonely Island",
+      "Garfunkel and Oates"
+    ],
+    "explanation": "The series ran for two seasons from 2007 to 2009. Bret McKenzie later won the Oscar for Best Original Song in 2012 for 'Man or Muppet' from The Muppets.",
+    "hook": "Half the duo has an Oscar for a song sung by a Muppet."
+  },
+  {
+    "id": "pop_407",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Newcastle band, fronted by teenager Daniel Johns, released the grunge hit 'Tomorrow' in 1994?",
+    "answer": "Silverchair",
+    "distractors": [
+      "Powderfinger",
+      "Spiderbait",
+      "Grinspoon"
+    ],
+    "explanation": "The band formed at school in Newcastle, New South Wales. Their debut album, Frogstomp, went to number one in Australia in 1995.",
+    "hook": "Three Newcastle schoolboys took grunge to number one in Australia."
+  },
+  {
+    "id": "pop_408",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Australian singer had a 1986 comeback hit with 'You're the Voice'?",
+    "answer": "John Farnham",
+    "distractors": [
+      "Jimmy Barnes",
+      "Jon English",
+      "Daryl Braithwaite"
+    ],
+    "explanation": "The song came from the album Whispering Jack, which became one of the biggest-selling Australian albums ever. Farnham had been a teenage pop star in the late 1960s with 'Sadie (The Cleaning Lady)' before his career stalled.",
+    "hook": "From 'Sadie the Cleaning Lady' to the voice of a nation."
+  },
+  {
+    "id": "pop_409",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Belgian-born Melbourne musician, real name Wally De Backer, had a worldwide hit in 2011 with 'Somebody That I Used to Know'?",
+    "answer": "Gotye",
+    "distractors": [
+      "Flume",
+      "Pete Murray",
+      "Cut Copy"
+    ],
+    "explanation": "The song featured New Zealand singer Kimbra and won Record of the Year at the 2013 Grammy Awards. It topped the 2011 triple j Hottest 100.",
+    "hook": "A Belgian-born Aussie and a Kiwi won a Grammy together."
+  },
+  {
+    "id": "pop_410",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which New Zealand band, led by Tim Finn, had the 1980 hit 'I Got You'?",
+    "answer": "Split Enz",
+    "distractors": [
+      "The Chills",
+      "Dragon",
+      "Th' Dudes"
+    ],
+    "explanation": "Tim's younger brother Neil joined in 1977 and wrote 'I Got You'. After the band broke up in 1984, Neil went on to form Crowded House.",
+    "hook": "The little brother wrote the hit, then started his own band."
+  },
+  {
+    "id": "pop_411",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Melbourne band, with frontman Ross Wilson, went to number one in 1971 with 'Eagle Rock'?",
+    "answer": "Daddy Cool",
+    "distractors": [
+      "Sherbet",
+      "Mondo Rock",
+      "The Masters Apprentices"
+    ],
+    "explanation": "Ross Wilson fronted Daddy Cool, whose 1971 hit 'Eagle Rock' went to number one. Wilson later formed Mondo Rock, which is the trap: same frontman, but the 1971 number one belongs to Daddy Cool.",
+    "hook": "Fifties rock 'n' roll, seventies chart-topper."
+  },
+  {
+    "id": "pop_412",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Melbourne glam-rock band, fronted by Shirley Strachan, had the 1974 hit 'Horror Movie'?",
+    "answer": "Skyhooks",
+    "distractors": [
+      "Hush",
+      "Supernaut",
+      "Ol' 55"
+    ],
+    "explanation": "Their debut album, Living in the 70's, sang about Melbourne suburbs. Glittery stage make-up and local lyrics made them a sensation.",
+    "hook": "Glam-rock Melbourne boys who sang about their own streets."
+  },
+  {
+    "id": "pop_413",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Who was the lead singer of The Seekers, whose 1965 hit 'I'll Never Find Another You' reached number one in Britain?",
+    "answer": "Judith Durham",
+    "distractors": [
+      "Kate Ceberano",
+      "Jenny Morris",
+      "Marcia Hines"
+    ],
+    "explanation": "The Seekers were an Australian folk-pop group. Their 1965 single 'I'll Never Find Another You' went to number one in Britain, and the group recorded the theme song for the film Georgy Girl.",
+    "hook": "A folk-pop group from Australia that topped the British charts."
+  },
+  {
+    "id": "pop_414",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Melbourne band, fronted by Mark Seymour, recorded 'Throw Your Arms Around Me'?",
+    "answer": "Hunters & Collectors",
+    "distractors": [
+      "Hoodoo Gurus",
+      "Models",
+      "Icehouse"
+    ],
+    "explanation": "The song appeared on their 1986 album Human Frailty and became a wedding and funeral favourite. Seymour's brother Nick was the bassist in Crowded House.",
+    "hook": "Their frontman's brother played bass for Crowded House."
+  },
+  {
+    "id": "pop_415",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which band, led by Mandawuy Yunupingu, released the 1991 protest song 'Treaty'?",
+    "answer": "Yothu Yindi",
+    "distractors": [
+      "Warumpi Band",
+      "Coloured Stone",
+      "Blekbala Mujik"
+    ],
+    "explanation": "The song was a response to Bob Hawke's 1988 Barunga promise of a treaty. Mandawuy Yunupingu, a former teacher, led the band.",
+    "hook": "A promised treaty became a protest anthem."
+  },
+  {
+    "id": "pop_416",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Adelaide-born singer, known for hiding her face behind a wig, had a hit with 'Chandelier' in 2014?",
+    "answer": "Sia",
+    "distractors": [
+      "Kimbra",
+      "Natalie Imbruglia",
+      "Montaigne"
+    ],
+    "explanation": "She co-wrote Rihanna's 'Diamonds' before her own solo career took off. Child dancer Maddie Ziegler stood in for her in the music videos.",
+    "hook": "A star who wrote hits for others before hiding behind a wig."
+  },
+  {
+    "id": "pop_417",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Brisbane band released the 2000 album Odyssey Number Five, featuring 'My Happiness'?",
+    "answer": "Powderfinger",
+    "distractors": [
+      "Silverchair",
+      "Grinspoon",
+      "Regurgitator"
+    ],
+    "explanation": "The band formed in Brisbane in 1989, with Bernard Fanning as singer. Their 2000 album Odyssey Number Five included the hit 'My Happiness'.",
+    "hook": "A 2000 album from a Brisbane band, built around one love song."
+  },
+  {
+    "id": "pop_418",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Perth musician writes, records and produces nearly all the music on the albums Lonerism and Currents?",
+    "answer": "Kevin Parker",
+    "distractors": [
+      "Nick Allbrook",
+      "Jay Watson",
+      "Dom Simper"
+    ],
+    "explanation": "Under the name Tame Impala, Parker recorded much of the music himself, often at home. His live band members, such as Jay Watson and Dom Simper, play his songs on tour.",
+    "hook": "One man in a Perth bedroom plays almost everything."
+  },
+  {
+    "id": "pop_419",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Sydney pop-rock band, first noticed on YouTube, toured with One Direction before topping the US albums chart in 2014?",
+    "answer": "5 Seconds of Summer",
+    "distractors": [
+      "The Vamps",
+      "Sheppard",
+      "Parkway Drive"
+    ],
+    "explanation": "The members, Luke Hemmings, Michael Clifford, Calum Hood and Ashton Irwin, were teenagers when they started. Their debut album reached number one on the Billboard 200 in 2014.",
+    "hook": "Four teenagers who found fame on YouTube and toured with One Direction."
+  },
+  {
+    "id": "pop_420",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Brisbane band, built around songwriters Robert Forster and Grant McLennan, recorded 'Cattle and Cane'?",
+    "answer": "The Go-Betweens",
+    "distractors": [
+      "The Saints",
+      "The Triffids",
+      "The Church"
+    ],
+    "explanation": "McLennan died in 2006, and a Brisbane bridge opened in 2010 was named the Go Between Bridge in honour of the band. The Triffids were from Perth and the Saints from Brisbane too, but neither wrote the song.",
+    "hook": "A Brisbane bridge carries their name."
+  },
+  {
+    "id": "pop_421",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Brisbane punk band, fronted by Chris Bailey, released the single '(I'm) Stranded' in 1976?",
+    "answer": "The Saints",
+    "distractors": [
+      "Radio Birdman",
+      "The Scientists",
+      "The Celibate Rifles"
+    ],
+    "explanation": "The band released the single in 1976 on their own Fatal Records label. Radio Birdman, their Sydney rivals, were also an early Australian punk band.",
+    "hook": "Punk in Brisbane before the Pistols."
+  },
+  {
+    "id": "pop_422",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which singer-songwriter's 1990 song 'Took the Children Away' told the story of the Stolen Generations?",
+    "answer": "Archie Roach",
+    "distractors": [
+      "Kev Carmody",
+      "Jimmy Little",
+      "Warren H. Williams"
+    ],
+    "explanation": "It appeared on his debut album, Charcoal Lane (1990). Roach had himself been taken from his family as a small child.",
+    "hook": "He sang a history he had lived."
+  },
+  {
+    "id": "pop_423",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Torres Strait Islander singer had a 1995 hit with 'My Island Home'?",
+    "answer": "Christine Anu",
+    "distractors": [
+      "Jessica Mauboy",
+      "Deborah Cheetham",
+      "Shelley Morris"
+    ],
+    "explanation": "Neil Murray wrote the song for the Warumpi Band, and Anu's version became a hit. She also sang it at the opening ceremony of the Sydney 2000 Olympics.",
+    "hook": "A Warumpi Band song became an Olympic moment."
+  },
+  {
+    "id": "pop_424",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which singer represented Australia in its first Eurovision entry in 2015, finishing fifth with 'Tonight Again'?",
+    "answer": "Guy Sebastian",
+    "distractors": [
+      "Jessica Mauboy",
+      "Dami Im",
+      "Isaiah Firebrace"
+    ],
+    "explanation": "Australia was invited as a one-off guest for the contest's 60th anniversary. Sebastian had won the first season of Australian Idol in 2003.",
+    "hook": "Australia's first Eurovision act was the first Idol winner."
+  },
+  {
+    "id": "pop_425",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which singer finished second for Australia at Eurovision 2016 with 'Sound of Silence'?",
+    "answer": "Dami Im",
+    "distractors": [
+      "Jessica Mauboy",
+      "Isaiah Firebrace",
+      "Kate Miller-Heidke"
+    ],
+    "explanation": "Ukraine's Jamala won the contest with '1944'. Im had won The X Factor Australia in 2013.",
+    "hook": "A former X Factor winner, second in Eurovision."
+  },
+  {
+    "id": "pop_426",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which keyboard player wrote most of Cold Chisel's songs, including 'Flame Trees'?",
+    "answer": "Don Walker",
+    "distractors": [
+      "Ian Moss",
+      "Phil Small",
+      "Jimmy Barnes"
+    ],
+    "explanation": "Cold Chisel formed in Adelaide in the 1970s. Walker later led the band Tex, Don and Charlie and is the band's main songwriter.",
+    "hook": "The quiet keyboard player behind the pub-rock anthems."
+  },
+  {
+    "id": "pop_427",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which band, led by Iva Davies and originally called Flowers, recorded 'Great Southern Land'?",
+    "answer": "Icehouse",
+    "distractors": [
+      "Pseudo Echo",
+      "Mondo Rock",
+      "Models"
+    ],
+    "explanation": "Flowers changed its name to Icehouse, and Iva Davies led the band through its best-known hits.",
+    "hook": "The band that was once Flowers."
+  },
+  {
+    "id": "pop_428",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "What was the original call sign of the ABC's youth radio station, launched in Sydney in 1975, that later became triple j?",
+    "answer": "2JJ",
+    "distractors": [
+      "2BL",
+      "2FC",
+      "2JB"
+    ],
+    "explanation": "It began as a youth station on the AM dial. It was renamed triple j in 1989.",
+    "hook": "Triple j started life as two J's and a number."
+  },
+  {
+    "id": "pop_429",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which yellow electric mouse is the loyal companion of Ash Ketchum in the Pokémon anime?",
+    "answer": "Pikachu",
+    "distractors": [
+      "Jigglypuff",
+      "Psyduck",
+      "Togepi"
+    ],
+    "explanation": "Pikachu was never the original mascot plan, as early marketing focused on Clefairy, but the anime's star turned it into the face of the franchise. It is Pokémon number 25 in the original Pokédex.",
+    "hook": "Number 25 in the Pokédex took over from Clefairy as the face of Pokémon."
+  },
+  {
+    "id": "pop_430",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which video-sharing site, founded in 2005, began with a short clip titled 'Me at the zoo'?",
+    "answer": "YouTube",
+    "distractors": [
+      "Vimeo",
+      "Dailymotion",
+      "Vine"
+    ],
+    "explanation": "Co-founder Jawed Karim appeared in that first 19-second upload, filmed at the San Diego Zoo in April 2005. Google bought the site the following year for about US$1.65 billion.",
+    "hook": "The first clip ever uploaded was 19 seconds of elephants."
+  },
+  {
+    "id": "pop_431",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Sega mascot, debuting in 1991, collects golden rings and battles the villain Doctor Robotnik?",
+    "answer": "Sonic the Hedgehog",
+    "distractors": [
+      "Crash Bandicoot",
+      "Spyro the Dragon",
+      "Rayman"
+    ],
+    "explanation": "Sega created him to rival Nintendo's Mario and gave him attitude and speed instead of a plumber's patience. Doctor Robotnik is now more commonly known to players as Doctor Eggman.",
+    "hook": "Sega built a speedster to beat the plumber."
+  },
+  {
+    "id": "pop_432",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Nintendo console, launched in March 2017, can be docked to a TV or carried as a handheld?",
+    "answer": "Nintendo Switch",
+    "distractors": [
+      "Wii U",
+      "GameCube",
+      "Nintendo 3DS"
+    ],
+    "explanation": "It went on to outsell the Wii and by 2025 had passed 150 million units, making it one of the best-selling consoles of all time. Its launch title The Legend of Zelda: Breath of the Wild became a landmark open-world game.",
+    "hook": "One console, two modes: couch or backpack."
+  },
+  {
+    "id": "pop_433",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which photo-sharing app, launched in October 2010 by Kevin Systrom and Mike Krieger, was bought by Facebook in 2012?",
+    "answer": "Instagram",
+    "distractors": [
+      "Snapchat",
+      "Pinterest",
+      "Flickr"
+    ],
+    "explanation": "Facebook paid about US$1 billion in cash and shares in 2012, when the app had a small team. It began as a check-in app called Burbn before the founders stripped it back to photos.",
+    "hook": "A billion-dollar photo filter began life as a check-in app."
+  },
+  {
+    "id": "pop_434",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Apple device did Steve Jobs unveil in January 2007, combining a phone, a music player and a web browser?",
+    "answer": "iPhone",
+    "distractors": [
+      "iPad",
+      "Apple Watch",
+      "Newton"
+    ],
+    "explanation": "It went on sale in June 2007 with no App Store; apps from outside developers only arrived in 2008. Jobs introduced it as three devices in one before revealing they were a single product.",
+    "hook": "Three devices in one was really just one."
+  },
+  {
+    "id": "pop_435",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "In Nintendo's Zelda series, what is the name of the green-clad hero the player controls?",
+    "answer": "Link",
+    "distractors": [
+      "Ganondorf",
+      "Sheik",
+      "Navi"
+    ],
+    "explanation": "Despite the title, the playable hero is not Princess Zelda. Link is usually silent.",
+    "hook": "The game is named after the princess, but you play the one who isn't her."
+  },
+  {
+    "id": "pop_436",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which falling-block puzzle game, created in 1984 by Soviet programmer Alexey Pajitnov, was bundled with the Game Boy in 1989?",
+    "answer": "Tetris",
+    "distractors": [
+      "Columns",
+      "Bejeweled",
+      "Puyo Puyo"
+    ],
+    "explanation": "Pajitnov built it in Moscow, and complicated licensing disputes followed before Nintendo secured the handheld rights. Pairing it with the Game Boy helped sell millions of units to adults as well as children.",
+    "hook": "A Moscow lab prototype became the Game Boy's killer app."
+  },
+  {
+    "id": "pop_437",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which Hungarian architecture professor invented a famous twisting 3D puzzle in 1974 to teach students about spatial relationships?",
+    "answer": "Ernő Rubik",
+    "distractors": [
+      "László Bíró",
+      "Dennis Gabor",
+      "Ányos Jedlik"
+    ],
+    "explanation": "He first called it the Magic Cube and reportedly took about a month to solve his own prototype. Sold worldwide from 1980 under his surname, a standard model has about 43 quintillion possible arrangements.",
+    "hook": "The inventor needed a month to solve his own puzzle."
+  },
+  {
+    "id": "pop_438",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2019 game from Melbourne studio House House has players honking and stealing as a mischievous waterbird in a quiet village?",
+    "answer": "Untitled Goose Game",
+    "distractors": [
+      "Goat Simulator",
+      "Stray",
+      "Little Nightmares"
+    ],
+    "explanation": "House House is a small independent studio based in Melbourne. The game's dynamic piano soundtrack uses Debussy arrangements by Dan Golding, and the goose's honking is central to its humour.",
+    "hook": "Melbourne's honking bird has a Debussy soundtrack."
+  },
+  {
+    "id": "pop_439",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2017 bug-filled action-platformer by Adelaide studio Team Cherry received a long-awaited sequel, Silksong, in 2025?",
+    "answer": "Hollow Knight",
+    "distractors": [
+      "Ori and the Blind Forest",
+      "Celeste",
+      "Cuphead"
+    ],
+    "explanation": "The original was funded through a 2014 Kickstarter that raised more than A$50,000 and was made by a very small team. Silksong's years-long wait became a running joke among fans.",
+    "hook": "Three Adelaide developers built a vast insect kingdom."
+  },
+  {
+    "id": "pop_440",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Brisbane studio Halfbrick made which 2010 touchscreen hit about slicing airborne produce with a swipe?",
+    "answer": "Fruit Ninja",
+    "distractors": [
+      "Cut the Rope",
+      "Temple Run",
+      "Doodle Jump"
+    ],
+    "explanation": "It became one of the biggest mobile hits of its era and spawned sequels and spin-offs, including a Kinect version. Halfbrick was founded in Brisbane in 2001 and also made Jetpack Joyride.",
+    "hook": "A Brisbane swipe game sliced its way around the world."
+  },
+  {
+    "id": "pop_441",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2014 mobile game by Melbourne studio Hipster Whale asks players to hop a chicken across endless lanes of traffic?",
+    "answer": "Crossy Road",
+    "distractors": [
+      "Flappy Bird",
+      "Subway Surfers",
+      "Piano Tiles"
+    ],
+    "explanation": "It was inspired by the 1981 arcade game Frogger, and its characters can be unlocked as collectables.",
+    "hook": "A Melbourne chicken crossing took on the arcade frog."
+  },
+  {
+    "id": "pop_442",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which South Korean song by Psy became the first video on YouTube to pass one billion views, in December 2012?",
+    "answer": "Gangnam Style",
+    "distractors": [
+      "Call Me Maybe",
+      "Party Rock Anthem",
+      "Baby"
+    ],
+    "explanation": "By 2014 the view count outgrew YouTube's 32-bit counter, which tops out at 2,147,483,647, forcing an upgrade. The song also made Psy a global star, with the horse-riding dance spreading worldwide.",
+    "hook": "A viral dance broke YouTube's view counter."
+  },
+  {
+    "id": "pop_443",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which software engineer built the word game Wordle as a gift for his partner before the New York Times bought it in 2022?",
+    "answer": "Josh Wardle",
+    "distractors": [
+      "Will Shortz",
+      "Evan Spiegel",
+      "Markus Persson"
+    ],
+    "explanation": "He named it with a pun on his own surname and released it free in October 2021, with only one puzzle per day. The shareable grid of coloured squares, designed to avoid spoilers, spread it across social media.",
+    "hook": "A love letter in five letters named after its maker."
+  },
+  {
+    "id": "pop_444",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Under what name was Sega's Mega Drive console sold in North America?",
+    "answer": "Genesis",
+    "distractors": [
+      "Dreamcast",
+      "Saturn",
+      "Master System"
+    ],
+    "explanation": "Sega used the name Genesis there because it could not secure the Mega Drive trademark in the United States. The console launched in Japan in 1988 and competed hard with Nintendo's NES and Super Nintendo.",
+    "hook": "Same console, different continent, different name."
+  },
+  {
+    "id": "pop_445",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 2001 Xbox launch title from Bungie introduced armoured super-soldier Master Chief?",
+    "answer": "Halo: Combat Evolved",
+    "distractors": [
+      "Gears of War",
+      "Perfect Dark",
+      "Doom 3"
+    ],
+    "explanation": "The game began life as a Mac game, and Microsoft bought its developer, Bungie, in 2000 and moved the game to the Xbox before release. It is widely credited with making the first Xbox a success by proving console shooters could work with a controller.",
+    "hook": "A Mac prototype turned into the Xbox's flagship."
+  },
+  {
+    "id": "pop_446",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which company developed the 1993 first-person shooter Doom, distributing the first episode as free shareware?",
+    "answer": "id Software",
+    "distractors": [
+      "Epic Games",
+      "Valve",
+      "Bungie"
+    ],
+    "explanation": "Programmers John Carmack and John Romero led the team, and the shareware model let millions of players try it for free. It helped popularise multiplayer deathmatch over office networks.",
+    "hook": "Free levels fuelled a deathmatch craze in the office."
+  },
+  {
+    "id": "pop_447",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Northeastern University dropout launched the music-sharing service Napster in 1999?",
+    "answer": "Shawn Fanning",
+    "distractors": [
+      "Daniel Ek",
+      "Chad Hurley",
+      "Larry Page"
+    ],
+    "explanation": "Napster let users swap MP3 files directly with one another and attracted tens of millions of users before court cases forced it offline in 2001. Its name came from Fanning's own childhood nickname.",
+    "hook": "The service took its name from the founder's nickname."
+  },
+  {
+    "id": "pop_448",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which Japanese company released the arcade shooter Space Invaders in 1978?",
+    "answer": "Taito",
+    "distractors": [
+      "Namco",
+      "Konami",
+      "Capcom"
+    ],
+    "explanation": "Designer Tomohiro Nishikado built his own hardware for it, and its popularity is often credited with launching the golden age of arcade games. Legend says it caused a coin shortage in Japan, though that story is disputed.",
+    "hook": "One designer built the hardware and sparked an arcade boom."
+  },
+  {
+    "id": "pop_449",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which genus of parasitic fungus that takes over insects inspired the infection in The Last of Us?",
+    "answer": "Cordyceps",
+    "distractors": [
+      "Aspergillus",
+      "Penicillium",
+      "Candida"
+    ],
+    "explanation": "The real fungi infect ants and other insects, steering them to climb a plant before killing them. The game's creators saw a nature documentary clip of it and imagined the same thing happening to humans.",
+    "hook": "A nature documentary clip of zombie ants started the apocalypse."
+  },
+  {
+    "id": "pop_450",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which company bought the live-streaming platform Twitch in 2014 for roughly US$970 million?",
+    "answer": "Amazon",
+    "distractors": [
+      "Google",
+      "Microsoft",
+      "Apple"
+    ],
+    "explanation": "Twitch began in 2011 as a spin-off from the general-interest site Justin.tv, which then closed to focus on the gaming offshoot. Its growth was driven by fans watching others play games and esports tournaments live.",
+    "hook": "A gaming spin-off outgrew the site it came from."
+  },
+  {
+    "id": "pop_451",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "On the early social network MySpace, which person was automatically every new user's first friend?",
+    "answer": "Tom Anderson",
+    "distractors": [
+      "Chris DeWolfe",
+      "Justin Timberlake",
+      "Rupert Murdoch"
+    ],
+    "explanation": "Anderson co-founded the site in 2003 and appeared in the default profile picture, which made him a household figure to a generation of users. News Corporation bought MySpace in 2005 for about US$580 million.",
+    "hook": "Everybody's first friend was the founder in his default photo."
+  },
+  {
+    "id": "pop_452",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which company released the arcade table-tennis game Pong in 1972?",
+    "answer": "Atari",
+    "distractors": [
+      "Magnavox",
+      "Sega",
+      "Namco"
+    ],
+    "explanation": "Engineer Allan Alcorn built it as a training exercise for the new company, founded by Nolan Bushnell and Ted Dabney. A prototype in a Californian bar reportedly stopped working because the coin box overflowed.",
+    "hook": "A training exercise filled a bar's coin box to overflowing."
+  },
+  {
+    "id": "pop_453",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "What was the working name of the carpenter hero of 1981's Donkey Kong before he was renamed Mario?",
+    "answer": "Jumpman",
+    "distractors": [
+      "Mr. Carpenter",
+      "Captain Jump",
+      "Hammer Harry"
+    ],
+    "explanation": "He was renamed after Mario Segale, the landlord of Nintendo of America's warehouse, who had once demanded overdue rent. The character was a carpenter rather than a plumber at first, and plumbing arrived with Mario Bros. in 1983.",
+    "hook": "The hero was named after an angry landlord."
+  },
+  {
+    "id": "pop_454",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "In which year did the first Pokémon games, Red and Green, go on sale in Japan?",
+    "answer": "1996",
+    "distractors": [
+      "1994",
+      "1998",
+      "2000"
+    ],
+    "explanation": "They launched on the Game Boy on 27 February 1996 and were created by Satoshi Tajiri's studio Game Freak. The English-language versions, Red and Blue, did not appear in North America until 1998.",
+    "hook": "Japan got Red and Green two years before the West."
+  },
+  {
+    "id": "pop_455",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which British composer wrote the music for The Phantom of the Opera, which opened in London in 1986?",
+    "answer": "Andrew Lloyd Webber",
+    "distractors": [
+      "Stephen Sondheim",
+      "Leonard Bernstein",
+      "Richard Rodgers"
+    ],
+    "explanation": "Sarah Brightman, then married to the composer, originated the role of Christine. The Broadway production opened in 1988 and closed in 2023 after more than 13,000 performances, the longest run in Broadway history.",
+    "hook": "Brightman sang Christine; her husband wrote every note."
+  },
+  {
+    "id": "pop_456",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Rodgers and Hammerstein musical features the songs 'Do-Re-Mi' and 'Edelweiss'?",
+    "answer": "The Sound of Music",
+    "distractors": [
+      "Oklahoma!",
+      "South Pacific",
+      "The King and I"
+    ],
+    "explanation": "It opened on Broadway in 1959, and 'Edelweiss' was the last song Oscar Hammerstein ever wrote; he died nine months later. The 1965 film with Julie Andrews won the Oscar for Best Picture.",
+    "hook": "Hammerstein's final song was a flower, written for the Alps."
+  },
+  {
+    "id": "pop_457",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which country star wrote 'I Will Always Love You' as a farewell to her duet partner Porter Wagoner?",
+    "answer": "Dolly Parton",
+    "distractors": [
+      "Tammy Wynette",
+      "Loretta Lynn",
+      "Emmylou Harris"
+    ],
+    "explanation": "She wrote it in 1973 when leaving his TV show to go solo. Elvis wanted to record it, but his manager demanded half the publishing rights, so she refused; Whitney Houston's 1992 version later made her a fortune.",
+    "hook": "She said no to Elvis and was paid by Whitney."
+  },
+  {
+    "id": "pop_458",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which British comedy troupe made the 1975 film about the search for the Holy Grail and the 1979 film Life of Brian?",
+    "answer": "Monty Python",
+    "distractors": [
+      "The Goodies",
+      "The Goons",
+      "Beyond the Fringe"
+    ],
+    "explanation": "The troupe's six members were Cleese, Palin, Idle, Jones, Gilliam and Chapman. Their TV series Flying Circus began on the BBC in 1969, and Gilliam, the only American, handled the animations.",
+    "hook": "Six men, one Flying Circus, and a very naughty boy."
+  },
+  {
+    "id": "pop_459",
+    "category": "pop_culture",
+    "difficulty": "easy",
+    "question": "Which Swedish pop group's songs power the stage musical Mamma Mia!?",
+    "answer": "ABBA",
+    "distractors": [
+      "Roxette",
+      "Ace of Base",
+      "Europe"
+    ],
+    "explanation": "The musical premiered in London in 1999 and spawned a 2008 film with Meryl Streep, shot largely on the Greek island of Skopelos. Its plot is built around a bride and three possible fathers.",
+    "hook": "Three possible dads and one jukebox of ABBA hits."
+  },
+  {
+    "id": "pop_460",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Hamilton won how many Tony Awards in 2016, after a record 16 nominations?",
+    "answer": "11",
+    "distractors": [
+      "9",
+      "13",
+      "14"
+    ],
+    "explanation": "It won Best Musical among them, and Lin-Manuel Miranda took the Tonys for Best Score and Best Book. Miranda wrote the show after reading Ron Chernow's biography of Alexander Hamilton on holiday.",
+    "hook": "Sixteen nominations, eleven wins, one holiday paperback."
+  },
+  {
+    "id": "pop_461",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which songwriting duo wrote the scores for both Cabaret and Chicago?",
+    "answer": "Kander and Ebb",
+    "distractors": [
+      "Rodgers and Hart",
+      "Lerner and Loewe",
+      "Gilbert and Sullivan"
+    ],
+    "explanation": "John Kander wrote the music and Fred Ebb the lyrics. Their partnership also produced 'New York, New York', which Liza Minnelli sang in the 1977 film before Frank Sinatra made it his own.",
+    "hook": "Willkommen and Welcome to Chicago, courtesy of the same pair."
+  },
+  {
+    "id": "pop_462",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which young lyricist made his Broadway debut on West Side Story in 1957, working with composer Leonard Bernstein?",
+    "answer": "Stephen Sondheim",
+    "distractors": [
+      "Oscar Hammerstein",
+      "Alan Jay Lerner",
+      "Lorenz Hart"
+    ],
+    "explanation": "Sondheim was mentored by Hammerstein, and later wrote Sweeney Todd and Into the Woods.",
+    "hook": "A mentee of Hammerstein found his voice in New York's gangs."
+  },
+  {
+    "id": "pop_463",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which director's masks and puppetry shaped the 1997 Broadway stage version of The Lion King?",
+    "answer": "Julie Taymor",
+    "distractors": [
+      "Trevor Nunn",
+      "Susan Stroman",
+      "Kenny Ortega"
+    ],
+    "explanation": "In 1998 she became the first woman to win the Tony for directing a musical. The show opened with the 'Circle of Life' procession of animals through the audience and has since been seen worldwide.",
+    "hook": "The elephants walk down the aisle, thanks to Taymor."
+  },
+  {
+    "id": "pop_464",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Tim Minchin wrote the songs for which Royal Shakespeare Company musical based on a Roald Dahl novel, first staged in 2010?",
+    "answer": "Matilda",
+    "distractors": [
+      "Charlie and the Chocolate Factory",
+      "The BFG",
+      "James and the Giant Peach"
+    ],
+    "explanation": "Minchin was raised in Perth and drew on Dahl's cruel Miss Trunchbull and bookish heroine. It opened in Stratford-upon-Avon in November 2010.",
+    "hook": "A Perth comic gave a book-loving girl her songs."
+  },
+  {
+    "id": "pop_465",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Johnny Cash recorded a celebrated 1968 live album behind the walls of which Californian institution?",
+    "answer": "Folsom",
+    "distractors": [
+      "San Quentin",
+      "Soledad",
+      "Pelican Bay"
+    ],
+    "explanation": "The concert revived his career, which had slumped. He recorded a second prison album at San Quentin in 1969, which included the comic hit 'A Boy Named Sue'.",
+    "hook": "Cash's comeback came inside the walls, not outside."
+  },
+  {
+    "id": "pop_466",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which 1959 Miles Davis album is often called the best-selling jazz record of all time?",
+    "answer": "Kind of Blue",
+    "distractors": [
+      "Bitches Brew",
+      "A Love Supreme",
+      "Time Out"
+    ],
+    "explanation": "It featured saxophonists John Coltrane and Cannonball Adderley and pianist Bill Evans, and opens with 'So What'. Most of it was recorded with almost no rehearsal and few takes.",
+    "hook": "Jazz's biggest seller, recorded nearly on the spot."
+  },
+  {
+    "id": "pop_467",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Which blues and soul singer made 'At Last' her signature song with her 1960 recording?",
+    "answer": "Etta James",
+    "distractors": [
+      "Nina Simone",
+      "Ella Fitzgerald",
+      "Dinah Washington"
+    ],
+    "explanation": "The song was written in 1941 for a Glenn Miller film. Beyoncé later played James in Cadillac Records and sang it at Barack Obama's first inaugural ball in 2009.",
+    "hook": "Written for Glenn Miller, made hers, played at a presidential ball."
+  },
+  {
+    "id": "pop_468",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Orson Welles's 1938 radio dramatisation of The War of the Worlds went to air on the eve of which festival?",
+    "answer": "Halloween",
+    "distractors": [
+      "Thanksgiving",
+      "Armistice Day",
+      "Christmas Eve"
+    ],
+    "explanation": "Broadcast on 30 October, it was written as fake news bulletins about a Martian invasion of New Jersey. Reports of panic were later thought to be exaggerated by newspapers rivalling radio.",
+    "hook": "A Martian scare, one night before trick or treat."
+  },
+  {
+    "id": "pop_469",
+    "category": "pop_culture",
+    "difficulty": "medium",
+    "question": "Nanette, the 2018 Netflix special that reshaped stand-up, was performed by which Tasmanian comedian?",
+    "answer": "Hannah Gadsby",
+    "distractors": [
+      "Judith Lucy",
+      "Kitty Flanagan",
+      "Celeste Barber"
+    ],
+    "explanation": "Gadsby grew up in Smithton and used the show to dismantle comedy's punchline structure, discussing her experience of trauma. It won a Peabody Award.",
+    "hook": "A Tasmanian comic broke the joke format on purpose."
+  },
+  {
+    "id": "pop_470",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which musical about the painter Georges Seurat won the 1985 Pulitzer Prize for Drama?",
+    "answer": "Sunday in the Park with George",
+    "distractors": [
+      "Into the Woods",
+      "Company",
+      "Follies"
+    ],
+    "explanation": "With music and lyrics by Stephen Sondheim and a book by James Lapine, it imagines the making of Seurat's pointillist painting of a Paris park. Few musicals have won the Pulitzer.",
+    "hook": "A show built from dots of paint on a Paris riverbank."
+  },
+  {
+    "id": "pop_471",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which musical's creator, Jonathan Larson, died suddenly just hours before its first Off-Broadway preview in 1996?",
+    "answer": "Rent",
+    "distractors": [
+      "Hair",
+      "Avenue Q",
+      "Spring Awakening"
+    ],
+    "explanation": "Larson died of an undiagnosed aortic dissection. The show, loosely based on Puccini's La Bohème, went on to win the Pulitzer Prize for Drama and the Tony for Best Musical.",
+    "hook": "He never saw the show that paid everyone's rent."
+  },
+  {
+    "id": "pop_472",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Who wrote the book, music and lyrics for the 1960 West End musical Oliver!?",
+    "answer": "Lionel Bart",
+    "distractors": [
+      "Noël Coward",
+      "Ivor Novello",
+      "Tim Rice"
+    ],
+    "explanation": "Bart's songs include 'Consider Yourself' and 'Food, Glorious Food'. The 1968 film adaptation won the Oscar for Best Picture, though Bart had sold his rights early and missed much of the profits.",
+    "hook": "He wrote 'Consider Yourself' but sold off his own rights."
+  },
+  {
+    "id": "pop_473",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which keyboard instrument, discovered by Tchaikovsky in Paris, gives the Sugar Plum Fairy's dance its shimmering sound?",
+    "answer": "Celesta",
+    "distractors": [
+      "Harpsichord",
+      "Glockenspiel",
+      "Xylophone"
+    ],
+    "explanation": "Tchaikovsky wrote to his publisher asking for the new instrument to be sent to Russia in secret so no rival composer could use it first. The Nutcracker premiered in St Petersburg in 1892.",
+    "hook": "A secret Parisian instrument for the Sugar Plum Fairy."
+  },
+  {
+    "id": "pop_474",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which nickname did opera fans give the Sydney-born soprano Joan Sutherland after her 1960 triumph in Venice?",
+    "answer": "La Stupenda",
+    "distractors": [
+      "La Divina",
+      "La Fenice",
+      "La Bellissima"
+    ],
+    "explanation": "Sutherland's husband, the conductor Richard Bonynge, coached her through bel canto roles that few sopranos could sing. Her Covent Garden Lucia of 1959 had already made her a star.",
+    "hook": "Venice called her the stupendous one, and it stuck."
+  },
+  {
+    "id": "pop_475",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "The first Three Tenors concert in Rome in 1990 was staged on the eve of which sporting event?",
+    "answer": "The FIFA World Cup final",
+    "distractors": [
+      "The Melbourne Cup",
+      "The Olympic opening ceremony",
+      "The Ryder Cup opening day"
+    ],
+    "explanation": "Pavarotti, Placido Domingo and José Carreras sang at the ancient Baths of Caracalla. Carreras was returning after treatment for leukaemia, and the recording became a huge best-seller.",
+    "hook": "Three tenors, one Roman bath, and the World Cup next day."
+  },
+  {
+    "id": "pop_476",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which playwright wrote the 1979 stage play Amadeus about the rivalry between Mozart and Salieri?",
+    "answer": "Peter Shaffer",
+    "distractors": [
+      "Tom Stoppard",
+      "Alan Bennett",
+      "Harold Pinter"
+    ],
+    "explanation": "Shaffer adapted it for Milos Forman's 1984 film, which won eight Oscars including Best Picture. The real Salieri did not poison Mozart, though a rumour said so.",
+    "hook": "A play that made Salieri the most famous mediocrity."
+  },
+  {
+    "id": "pop_477",
+    "category": "pop_culture",
+    "difficulty": "hard",
+    "question": "Which clergyman wrote The Railway Series books that introduced Thomas the Tank Engine in 1946?",
+    "answer": "Wilbert Awdry",
+    "distractors": [
+      "A. A. Milne",
+      "Enid Blyton",
+      "Michael Bond"
+    ],
+    "explanation": "Awdry first made up the stories for his son Christopher, who had measles. The books began in 1945 with The Three Railway Engines, and Thomas arrived in the second volume.",
+    "hook": "A bedtime story for a sick boy became a railway empire."
   }
 ]

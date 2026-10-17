@@ -2168,5 +2168,3967 @@
     ],
     "explanation": "Several hundred convicts led by Phillip Cunningham rose on 4 March 1804, echoing the Irish rebellion of 1798. Soldiers under Major George Johnston crushed them near Rouse Hill, and nine leaders were hanged.",
     "hook": "Named after the 1798 Irish battle, and lost the same way."
+  },
+  {
+    "id": "aus_156",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Who was the first Governor of New South Wales?",
+    "answer": "Arthur Phillip",
+    "distractors": [
+      "Lachlan Macquarie",
+      "William Bligh",
+      "Philip Gidley King"
+    ],
+    "explanation": "Phillip commanded the First Fleet of eleven ships and governed the new colony until December 1792, when he sailed home ill. He had been speared in the shoulder by an Aboriginal man at Manly in 1790, during a tense attempt to make contact.",
+    "hook": "First fleet, first governor, first spear wound at Manly."
+  },
+  {
+    "id": "aus_157",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What do the letters in ANZAC stand for?",
+    "answer": "Australian and New Zealand Army Corps",
+    "distractors": [
+      "Australian and New Zealand Allied Corps",
+      "Australian and New Zealand Army Command",
+      "Australasian National Army Corps"
+    ],
+    "explanation": "The acronym began as a rubber-stamp abbreviation used by clerks at the corps headquarters in Egypt in late 1914 or early 1915, and the name stuck to the soldiers themselves. Lieutenant-General William Birdwood commanded the corps at Gallipoli.",
+    "hook": "A clerk's rubber stamp became a national word."
+  },
+  {
+    "id": "aus_158",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "On which date is Anzac Day held each year?",
+    "answer": "25 April",
+    "distractors": [
+      "11 November",
+      "26 January",
+      "3 September"
+    ],
+    "explanation": "The date marks the 1915 landing, but the day was first observed on its first anniversary in 1916, with marches in Australian capitals and in London. Armistice Day on 11 November is the trap, since it remembers the end of the First World War.",
+    "hook": "The landing's anniversary, marched for the very first time in 1916."
+  },
+  {
+    "id": "aus_159",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which present-day country was the 1942 Kokoda Track campaign fought?",
+    "answer": "Papua New Guinea",
+    "distractors": [
+      "Indonesia",
+      "Solomon Islands",
+      "Timor-Leste"
+    ],
+    "explanation": "Australian militia and AIF troops held back a Japanese advance on Port Moresby over the Owen Stanley Range from July to November 1942. Local carriers, later nicknamed the Fuzzy Wuzzy Angels, brought supplies in and the wounded out along the roughly 96-kilometre track.",
+    "hook": "The fight for Port Moresby was won on a jungle footpath."
+  },
+  {
+    "id": "aus_160",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which colour fills the top half of the Aboriginal flag?",
+    "answer": "Black",
+    "distractors": [
+      "Red",
+      "Yellow",
+      "Green"
+    ],
+    "explanation": "Black stands for Aboriginal people, red for the earth and spiritual connection to the land, and the yellow circle for the sun. The flag was proclaimed a Flag of Australia in 1995, alongside the Torres Strait Islander flag.",
+    "hook": "People above, earth below, sun in the middle."
+  },
+  {
+    "id": "aus_161",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What is the longest a House of Representatives term can run before an election is due?",
+    "answer": "Three years",
+    "distractors": [
+      "Two years",
+      "Four years",
+      "Five years"
+    ],
+    "explanation": "The Constitution lets each House term run three years from its first sitting, while senators serve six-year terms with half elected every three years. A 1988 referendum proposing four-year terms for the House was defeated.",
+    "hook": "Three years for the House, six for the Senate, and four was voted down."
+  },
+  {
+    "id": "aus_162",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Tasmanian river was saved from a dam by a 1983 High Court decision after a mass blockade?",
+    "answer": "The Franklin River",
+    "distractors": [
+      "The Huon River",
+      "The Derwent River",
+      "The Tamar River"
+    ],
+    "explanation": "More than 1,200 protesters were arrested during the blockade, and Bob Brown was among them before he entered parliament. The newly elected Hawke government used the Commonwealth's external affairs power to enforce World Heritage protection, and the High Court upheld it by four judges to three.",
+    "hook": "Protesters blocked the dam by boat, and the court finished it by law."
+  },
+  {
+    "id": "aus_163",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which aviator led the first trans-Pacific flight, from the United States to Brisbane, in 1928?",
+    "answer": "Charles Kingsford Smith",
+    "distractors": [
+      "Bert Hinkler",
+      "Hubert Wilkins",
+      "Jim Mollison"
+    ],
+    "explanation": "His Fokker aircraft, the Southern Cross, left Oakland on 31 May 1928 and reached Brisbane on 9 June after stops in Hawaii and Fiji. Kingsford Smith vanished over the Andaman Sea in 1935 while attempting a record flight to Australia.",
+    "hook": "Smithy hopped the Pacific in three legs and landed in Brisbane."
+  },
+  {
+    "id": "aus_164",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which stretcher-bearer became a Gallipoli legend for rescuing wounded men with a donkey?",
+    "answer": "John Simpson Kirkpatrick",
+    "distractors": [
+      "Albert Jacka",
+      "Billy Sing",
+      "John Monash"
+    ],
+    "explanation": "Born in England, Simpson jumped ship in Newcastle in 1910 and enlisted in the AIF under the name Simpson. He was killed by machine-gun fire on 19 May 1915, less than a month after the landing, while carrying men down Shrapnel Gully.",
+    "hook": "The Man with the Donkey worked daily for just 24 days."
+  },
+  {
+    "id": "aus_165",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year was the title to Uluru handed back to its Anangu traditional owners?",
+    "answer": "1985",
+    "distractors": [
+      "1976",
+      "1979",
+      "1992"
+    ],
+    "explanation": "Governor-General Sir Ninian Stephen presented the title deeds on 26 October 1985, and the Anangu then leased the land back to the national parks service for 99 years. The climb was permanently closed on the same date in 2019.",
+    "hook": "Handed back 26 October 1985, climb closed 26 October 2019."
+  },
+  {
+    "id": "aus_166",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year was the first Melbourne Cup run at Flemington?",
+    "answer": "1861",
+    "distractors": [
+      "1851",
+      "1871",
+      "1881"
+    ],
+    "explanation": "The first Cup was won by Archer, a New South Wales horse. Archer won again in 1862, and the race now stops the nation on the first Tuesday of November.",
+    "hook": "A New South Wales horse won the first Melbourne Cup, then won it again."
+  },
+  {
+    "id": "aus_167",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who became the first woman elected to an Australian parliament, winning a Western Australian seat in 1921?",
+    "answer": "Edith Cowan",
+    "distractors": [
+      "Vida Goldstein",
+      "Catherine Helen Spence",
+      "Rose Scott"
+    ],
+    "explanation": "Cowan won the seat of West Perth in the state's Legislative Assembly. A social reformer who campaigned for women's and children's welfare, she has appeared on the Australian $50 note since the polymer redesign entered circulation in October 2018.",
+    "hook": "First woman in any Australian parliament, and on the $50 note since 2018."
+  },
+  {
+    "id": "aus_168",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which state capital grew from a penal settlement set up at Moreton Bay in the 1820s?",
+    "answer": "Brisbane",
+    "distractors": [
+      "Perth",
+      "Adelaide",
+      "Hobart"
+    ],
+    "explanation": "The penal settlement moved up the Brisbane River, and both the river and the city were named after Governor Thomas Brisbane. Queensland separated from New South Wales in 1859.",
+    "hook": "Convicts moved up the river, and the city took the governor's name."
+  },
+  {
+    "id": "aus_169",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "On what date is National Sorry Day marked each year?",
+    "answer": "26 May",
+    "distractors": [
+      "13 February",
+      "27 May",
+      "3 June"
+    ],
+    "explanation": "The first Sorry Day was held in 1998, a year after the Bringing Them Home report was tabled in federal parliament on 26 May 1997. National Reconciliation Week begins the next day, 27 May, the anniversary of the 1967 referendum.",
+    "hook": "Sorry Day on the 26th, Reconciliation Week from the 27th."
+  },
+  {
+    "id": "aus_170",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Western Australian town grew from Paddy Hannan's 1893 gold discovery?",
+    "answer": "Kalgoorlie",
+    "distractors": [
+      "Coolgardie",
+      "Broome",
+      "Geraldton"
+    ],
+    "explanation": "Hannan, an Irish-born prospector, found gold in June 1893 with two mates, starting a rush to what became known as the Golden Mile.",
+    "hook": "Hannan's find began the Golden Mile, one of the richest square miles of gold."
+  },
+  {
+    "id": "aus_171",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who gave the 1949 'light on the hill' speech to a Labor conference in Sydney?",
+    "answer": "Ben Chifley",
+    "distractors": [
+      "Herbert Evatt",
+      "Arthur Calwell",
+      "John Curtin"
+    ],
+    "explanation": "Chifley spoke on 12 June 1949 about the movement's aim of bringing something better to people, calling it a light on the hill. He lost the federal election that December and died of a heart attack in 1951, while still Labor leader.",
+    "hook": "Chifley spoke of the light on the hill, then lost office six months later."
+  },
+  {
+    "id": "aus_172",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which two states suffered the deadly Ash Wednesday bushfires of February 1983?",
+    "answer": "Victoria and South Australia",
+    "distractors": [
+      "Victoria and New South Wales",
+      "South Australia and Tasmania",
+      "Western Australia and South Australia"
+    ],
+    "explanation": "The fires on 16 February 1983 killed 75 people, 47 in Victoria and 28 in South Australia, and destroyed more than 2,000 homes in Victoria alone. They followed a severe drought and a day of hot, strong winds.",
+    "hook": "A drought, a hot wind, and two states burning on a Wednesday."
+  },
+  {
+    "id": "aus_173",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What was the name of Labor's 1983 deal with the ACTU that traded wage restraint for social benefits?",
+    "answer": "The Prices and Incomes Accord",
+    "distractors": [
+      "The Wages and Productivity Compact",
+      "The Industrial Peace Pact",
+      "The Social Contract Agreement"
+    ],
+    "explanation": "Negotiated between Labor and the union movement before the 1983 election, it was renewed in successive versions through the Hawke and Keating governments. It was credited with holding down strikes and inflation, and it ended with the 1996 change of government.",
+    "hook": "Unions held back wage demands and got Medicare and super in return."
+  },
+  {
+    "id": "aus_174",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did a reigning monarch first set foot in Australia?",
+    "answer": "1954",
+    "distractors": [
+      "1927",
+      "1938",
+      "1963"
+    ],
+    "explanation": "Queen Elizabeth II arrived in Sydney on 3 February 1954. Crowds were so large that it is often said around three-quarters of all Australians saw her at least once.",
+    "hook": "A royal visit that about three in four Australians are said to have seen."
+  },
+  {
+    "id": "aus_175",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who became the first Aboriginal person appointed to an Australian federal parliament, in 1971?",
+    "answer": "Neville Bonner",
+    "distractors": [
+      "Aden Ridgeway",
+      "Charles Perkins",
+      "Pat Dodson"
+    ],
+    "explanation": "A Liberal, Bonner was appointed in 1971 to fill a Queensland Senate vacancy and was elected at the 1972 poll. He remained a senator until 1983.",
+    "hook": "Appointed to the Senate in 1971, from a Queensland vacancy."
+  },
+  {
+    "id": "aus_176",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "From which South Australian rocket range was Australia's first satellite launched in 1967?",
+    "answer": "Woomera",
+    "distractors": [
+      "Maralinga",
+      "Roxby Downs",
+      "Port Augusta"
+    ],
+    "explanation": "The research satellite WRESAT went up on 29 November 1967 on a modified American rocket. Woomera had been a joint British and Australian rocket range since 1947, and the satellite took its name from the Weapons Research Establishment that built it.",
+    "hook": "WRESAT came from Woomera, named for the Weapons Research Establishment."
+  },
+  {
+    "id": "aus_177",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Governor of New South Wales used the name 'Australia' in official dispatches from 1817, helping to popularise it?",
+    "answer": "Lachlan Macquarie",
+    "distractors": [
+      "William Bligh",
+      "Philip Gidley King",
+      "Thomas Brisbane"
+    ],
+    "explanation": "Macquarie recommended 'Australia' to London after reading Matthew Flinders's 1814 account of his voyage. The British Admiralty officially adopted the name in 1824, replacing the old 'New Holland'.",
+    "hook": "Flinders suggested it, Macquarie used it, and the Admiralty made it official in 1824."
+  },
+  {
+    "id": "aus_178",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Who was the first woman elected to the Australian Senate, in 1943?",
+    "answer": "Dorothy Tangney",
+    "distractors": [
+      "Enid Lyons",
+      "Annabelle Rankin",
+      "Agnes Robertson"
+    ],
+    "explanation": "Tangney, a Labor candidate from Western Australia, won her seat at the same election that sent Enid Lyons to the House of Representatives. She stayed in the Senate until 1968, a stretch of 25 years.",
+    "hook": "Tangney in the Senate, Lyons in the House: one election, two firsts."
+  },
+  {
+    "id": "aus_179",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What was the title of Robert Menzies' 1942 radio talks championing the middle class?",
+    "answer": "The Forgotten People",
+    "distractors": [
+      "The Silent Majority",
+      "The Quiet Australians",
+      "The Battlers' Creed"
+    ],
+    "explanation": "Menzies broadcast it in May 1942, while out of office, arguing that the salaried and small-business middle class was neglected by both big capital and organised labour. The ideas fed directly into his founding of the Liberal Party a few years later.",
+    "hook": "The speech that planted the Liberal Party's middle-class base."
+  },
+  {
+    "id": "aus_180",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which NSW town did Henry Parkes deliver his famous 1889 speech calling for a national government?",
+    "answer": "Tenterfield",
+    "distractors": [
+      "Armidale",
+      "Goulburn",
+      "Bathurst"
+    ],
+    "explanation": "Parkes spoke at the Tenterfield School of Arts on 24 October 1889, urging the colonies to form a single federal parliament. The speech gave new energy to the federation movement, which then led to the Constitution Convention of 1891 in Sydney.",
+    "hook": "Tenterfield School of Arts: where the federation drive was relaunched."
+  },
+  {
+    "id": "aus_181",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Riverina town hosted the 1893 conference that proposed a popularly elected convention to write the Constitution?",
+    "answer": "Corowa",
+    "distractors": [
+      "Albury",
+      "Wagga Wagga",
+      "Deniliquin"
+    ],
+    "explanation": "At the Corowa Conference, John Quick proposed that voters elect delegates to draft a constitution and then approve it by referendum. That plan was adopted by the colonial premiers in 1895 and became the path to the 1898 and 1899 referendums.",
+    "hook": "Corowa gave Federation its recipe: elect the drafters, then vote on the draft."
+  },
+  {
+    "id": "aus_182",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year did the Commonwealth take over income tax from the states under the wartime uniform tax scheme?",
+    "answer": "1942",
+    "distractors": [
+      "1932",
+      "1939",
+      "1946"
+    ],
+    "explanation": "The Curtin government's legislation took over income tax collection, and the High Court upheld it that year. It was meant as a wartime measure but never ended, and the states have depended on federal grants ever since.",
+    "hook": "A temporary wartime grab that never gave the money back."
+  },
+  {
+    "id": "aus_183",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Minister for External Affairs proposed the 1950 Colombo Plan and negotiated the ANZUS Treaty?",
+    "answer": "Percy Spender",
+    "distractors": [
+      "Richard Casey",
+      "Paul Hasluck",
+      "Garfield Barwick"
+    ],
+    "explanation": "Spender was Menzies' External Affairs Minister from 1949 to 1951 and then Ambassador to the United States. He later became a judge, and then President, of the International Court of Justice in The Hague from 1964 to 1967.",
+    "hook": "Spender's career ran from Colombo to ANZUS to The Hague."
+  },
+  {
+    "id": "aus_184",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which Queensland town did striking shearers meet under the 'Tree of Knowledge' in 1891?",
+    "answer": "Barcaldine",
+    "distractors": [
+      "Longreach",
+      "Winton",
+      "Charleville"
+    ],
+    "explanation": "The 1891 shearers' strike led to the jailing of its leaders on St Helena Island, and many trace the birth of the Queensland Labor Party to it. The tree was poisoned in 2006, and a memorial building was later built around its preserved remains.",
+    "hook": "The tree where Labor's roots grew was poisoned in 2006."
+  },
+  {
+    "id": "aus_185",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which ship carried about 2,500 German and Austrian internees, mostly Jewish refugees, from Britain to Australia in 1940?",
+    "answer": "HMT Dunera",
+    "distractors": [
+      "HMT Strathnaver",
+      "HMT Largs Bay",
+      "HMT Orcades"
+    ],
+    "explanation": "The voyage reached Sydney on 6 September 1940 after the guards had stolen and abused the passengers, and British officers were later court-martialled over it. The men were held at Hay in NSW, and many later joined the Australian Army's labour units or became noted academics and artists.",
+    "hook": "A cruel voyage that later brought Australia many scholars and artists."
+  },
+  {
+    "id": "aus_186",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Sydney city, founded in November 1788 as the colony's second settlement, later gained a Female Factory and an Old Government House?",
+    "answer": "Parramatta",
+    "distractors": [
+      "Liverpool",
+      "Windsor",
+      "Penrith"
+    ],
+    "explanation": "Phillip chose the site at the head of the harbour because its soil could grow crops when Sydney Cove's could not. Old Government House there, begun in 1799, is the oldest surviving public building in the country and is World Heritage listed.",
+    "hook": "Sydney Cove was for landing, Parramatta was for farming."
+  },
+  {
+    "id": "aus_187",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Sydney district on the western side of the cove began as a huddle of convict huts and tents in 1788?",
+    "answer": "The Rocks",
+    "distractors": [
+      "Pyrmont",
+      "Darlinghurst",
+      "Woolloomooloo"
+    ],
+    "explanation": "The first convicts, sailors and traders built rough dwellings on the sandstone ridge beside the landing place. It became notorious for taverns and street gangs, and the southern approach to the Harbour Bridge now runs above it.",
+    "hook": "First homes were built on the rock, and the name stuck."
+  },
+  {
+    "id": "aus_188",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What name was given to the document that let a well-behaved convict work for wages within a set district before their sentence ended?",
+    "answer": "A ticket of leave",
+    "distractors": [
+      "A certificate of freedom",
+      "A conditional pardon",
+      "An assignment order"
+    ],
+    "explanation": "The system began in New South Wales under Governor King in 1801, and Governor Macquarie regulated it from 1810. Holders had to report to a magistrate, stay in their district and could lose the ticket for misconduct, but they could own property and choose their employer.",
+    "hook": "A ticket to leave the barracks, not the colony."
+  },
+  {
+    "id": "aus_189",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which fine-wooled breed of sheep did John Macarthur help establish in the colony from the 1790s?",
+    "answer": "The Merino",
+    "distractors": [
+      "The Corriedale",
+      "The Romney",
+      "The Southdown"
+    ],
+    "explanation": "Macarthur bred imported Spanish-descended merino stock at Elizabeth Farm and then Camden. He is credited with sending the first bale of Australian wool to London in 1807, and wool became the colony's leading export in the decades that followed.",
+    "hook": "Macarthur's merinos put a nation's fortune on the sheep's back."
+  },
+  {
+    "id": "aus_190",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which city was the Cascades Female Factory, where convict women were held from 1828?",
+    "answer": "Hobart",
+    "distractors": [
+      "Launceston",
+      "Sydney",
+      "Parramatta"
+    ],
+    "explanation": "Women at Cascades were assigned to wash laundry, sew and picket oakum, and many served time in cramped solitary cells. The site sits at the foot of Mount Wellington and is part of the World Heritage convict sites listing.",
+    "hook": "Cascades is the cold, wet factory at the foot of Wellington."
+  },
+  {
+    "id": "aus_191",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which governor of New South Wales from 1810 to 1821 championed emancipists and oversaw a boom in public building and road-making?",
+    "answer": "Lachlan Macquarie",
+    "distractors": [
+      "Thomas Brisbane",
+      "Richard Bourke",
+      "John Hunter"
+    ],
+    "explanation": "Macquarie's 1810 to 1821 term transformed Sydney's layout and appointed ex-convicts as magistrates, which enraged the exclusives. He lent his name to rivers, streets and a university, and is often called the father of Australia.",
+    "hook": "Macquarie built the town and welcomed the ex-convicts."
+  },
+  {
+    "id": "aus_192",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "From which English port did the First Fleet sail on 13 May 1787?",
+    "answer": "Portsmouth",
+    "distractors": [
+      "Plymouth",
+      "Southampton",
+      "Liverpool"
+    ],
+    "explanation": "Eleven ships left Portsmouth carrying roughly 750 convicts, with marines and officials, then called at Tenerife, Rio de Janeiro and Cape Town before the 252-day voyage ended at Botany Bay.",
+    "hook": "From Portsmouth the fleet sailed on a long road south."
+  },
+  {
+    "id": "aus_193",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Whose independence in 1783 closed Britain's main destination for transported convicts and pushed it to look at Botany Bay?",
+    "answer": "The American colonies",
+    "distractors": [
+      "The Canadian provinces",
+      "The West Indian islands",
+      "The Gold Coast forts"
+    ],
+    "explanation": "Before 1776 Britain had sent around 50,000 convicts to Maryland and Virginia. With the prisons overflowing into rotting hulks on the Thames, Botany Bay was chosen in 1786 as a replacement dumping ground.",
+    "hook": "Lose Virginia, find Botany Bay."
+  },
+  {
+    "id": "aus_194",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Eora man, captured on Governor Phillip's orders in 1789 and taken to England in 1792, returned to Sydney in 1795?",
+    "answer": "Bennelong",
+    "distractors": [
+      "Colebee",
+      "Arabanoo",
+      "Nanbaree"
+    ],
+    "explanation": "Phillip built him a brick hut on the point that still carries his name, now the site of the Opera House. Bennelong returned in 1795, found himself caught between two worlds and died in 1813 at Kissing Point.",
+    "hook": "Bennelong's hut sat where the Opera House now sits."
+  },
+  {
+    "id": "aus_195",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which woman from Bruny Island, who died in Hobart in 1876, was wrongly called the last Tasmanian Aboriginal person?",
+    "answer": "Truganini",
+    "distractors": [
+      "Walyer",
+      "Fanny Cochrane Smith",
+      "Tarenootairer"
+    ],
+    "explanation": "She survived the Black War and exile on Flinders Island, and her people continue today through descendants. Her skeleton was displayed in a museum until 1947, and her ashes were finally scattered in the channel in 1976.",
+    "hook": "Truganini's body was displayed for decades after she asked to be buried at sea."
+  },
+  {
+    "id": "aus_196",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which English county was the village of the Tolpuddle Martyrs, six labourers transported in 1834 for swearing an oath?",
+    "answer": "Dorset",
+    "distractors": [
+      "Devon",
+      "Somerset",
+      "Hampshire"
+    ],
+    "explanation": "The farm workers had formed a friendly society to resist wage cuts, and an old law against secret oaths was used to convict them. After mass protests in London they were pardoned in 1836, and most of them later emigrated to Canada.",
+    "hook": "Dorset labourers swore an oath and were shipped south."
+  },
+  {
+    "id": "aus_197",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What name was given to Lieutenant-Governor Arthur's 1830 operation in which about 2,200 colonists formed a human chain across south-east Tasmania to herd Aboriginal people?",
+    "answer": "The Black Line",
+    "distractors": [
+      "The Great Muster",
+      "The Hobart Cordon",
+      "The Midlands Drive"
+    ],
+    "explanation": "It dragged settlers, soldiers and convicts across the island for about two months at huge cost and captured very few Aboriginal people. It failed militarily, but it led to George Augustus Robinson's conciliation mission and the exile of survivors to Flinders Island.",
+    "hook": "A huge human chain cost a fortune and caught almost nobody."
+  },
+  {
+    "id": "aus_198",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which convict architect designed Hyde Park Barracks for Governor Macquarie?",
+    "answer": "Francis Greenway",
+    "distractors": [
+      "John Verge",
+      "Edmund Blacket",
+      "Mortimer Lewis"
+    ],
+    "explanation": "Greenway was transported for forgery and became Macquarie's civil architect, designing the Barracks, St James' Church and the Macquarie Lighthouse. His portrait appeared on the paper $10 note, one of the few convicts to be honoured on currency.",
+    "hook": "A forger who ended up on the ten-dollar note."
+  },
+  {
+    "id": "aus_199",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What name was given to the free settlers and officers who refused to dine with ex-convicts in early New South Wales?",
+    "answer": "Exclusives",
+    "distractors": [
+      "Squatters",
+      "Currency lads",
+      "Loyalists"
+    ],
+    "explanation": "The exclusives, led by figures such as John Macarthur, wanted the colony run by free gentry and opposed Macquarie's elevation of emancipists. The two camps clashed over juries, land and the right to sit on the bench into the 1830s.",
+    "hook": "The exclusives locked the dinner-party door to emancipists."
+  },
+  {
+    "id": "aus_200",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did Britain end the transportation of convicts to New South Wales?",
+    "answer": "1840",
+    "distractors": [
+      "1828",
+      "1834",
+      "1853"
+    ],
+    "explanation": "An Order in Council ended it in 1840 after campaigns by free settlers and critics in Britain. Transportation to Van Diemen's Land continued until 1853, and then to Western Australia from 1850.",
+    "hook": "Sydney said no in 1840; Hobart waited until 1853."
+  },
+  {
+    "id": "aus_201",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which regiment, raised in 1789 specifically for colonial service, took over from the Royal Marines as the garrison at Sydney?",
+    "answer": "The New South Wales Corps",
+    "distractors": [
+      "The 73rd Regiment of Foot",
+      "The Royal Veteran Company",
+      "The 46th Regiment of Foot"
+    ],
+    "explanation": "The Corps' officers became rich through land grants and control of the rum trade, which earned them a rough nickname. It was later renumbered the 102nd Regiment and was replaced by Macquarie's 73rd in 1810.",
+    "hook": "A regiment made for Botany Bay, and mostly made rich there."
+  },
+  {
+    "id": "aus_202",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Scottish-born governor of New South Wales from 1821 to 1825 built an astronomical observatory at Parramatta?",
+    "answer": "Thomas Brisbane",
+    "distractors": [
+      "Ralph Darling",
+      "Richard Bourke",
+      "George Gipps"
+    ],
+    "explanation": "Brisbane brought his own instruments, and his Parramatta Observatory of 1822 was the first in Australia. A city and a river were later named after him.",
+    "hook": "The governor who stared at stars gave Queensland its capital's name."
+  },
+  {
+    "id": "aus_203",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which feared commandant of the Moreton Bay penal settlement was found dead in 1830?",
+    "answer": "Patrick Logan",
+    "distractors": [
+      "Henry Miller",
+      "Foster Fyans",
+      "John Oxley"
+    ],
+    "explanation": "Logan ran the settlement from 1826 with brutal floggings, and also explored the Logan and Bremer rivers. Aboriginal people were blamed for his death, but suspicion lingers that escaped convicts were responsible.",
+    "hook": "The whip made him hated; the river made him famous."
+  },
+  {
+    "id": "aus_204",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Bidjigal man led armed resistance to settlers around Parramatta and the Hawkesbury from 1790 until he was shot dead in 1802?",
+    "answer": "Pemulwuy",
+    "distractors": [
+      "Windradyne",
+      "Yagan",
+      "Musquito"
+    ],
+    "explanation": "Governor King put a bounty on his head, and his preserved head was reportedly sent to England as a curiosity. His son Tedbury continued the fight, and he is now remembered as the first great leader of resistance to the colony.",
+    "hook": "The warrior of Botany Bay who ran the early colony ragged."
+  },
+  {
+    "id": "aus_205",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Young Irelander, transported to Tasmania, escaped in 1852 and became a Union general in the American Civil War?",
+    "answer": "Thomas Francis Meagher",
+    "distractors": [
+      "William Smith O'Brien",
+      "John Mitchel",
+      "Charles Gavan Duffy"
+    ],
+    "explanation": "Meagher commanded the Irish Brigade at Fredericksburg. Smith O'Brien was pardoned, Mitchel escaped in 1853, and Duffy avoided transportation and later became Premier of Victoria.",
+    "hook": "Meagher swapped Tasmania for a Union command."
+  },
+  {
+    "id": "aus_206",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What did the Cato Street conspirators of 1820 plot to murder?",
+    "answer": "The British Cabinet",
+    "distractors": [
+      "The royal family",
+      "The House of Lords",
+      "The London magistrates"
+    ],
+    "explanation": "Their plan was to kill ministers at a dinner, but a government spy gave them away. Five were hanged, and five others were transported to New South Wales, where one of them later worked as a constable at Bathurst.",
+    "hook": "A cabinet dinner that never reached the soup."
+  },
+  {
+    "id": "aus_207",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which reforming naval officer introduced a 'mark system' of rewards on Norfolk Island in 1840?",
+    "answer": "Alexander Maconochie",
+    "distractors": [
+      "Joseph Anderson",
+      "John Price",
+      "James Morisset"
+    ],
+    "explanation": "He believed convicts should earn their way to freedom by good behaviour rather than serve a fixed term, and his gentle methods angered the colonial establishment. He was removed in 1844; Joseph Childs succeeded him, and the brutal John Price took over as commandant in 1846.",
+    "hook": "Maconochie earned marks, Price handed out lashes."
+  },
+  {
+    "id": "aus_208",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Who led the first settlement of Norfolk Island in 1788, and later served as governor of New South Wales from 1800 to 1806?",
+    "answer": "Philip Gidley King",
+    "distractors": [
+      "John Hunter",
+      "William Paterson",
+      "David Collins"
+    ],
+    "explanation": "King had sailed with the First Fleet and was an able administrator, though he struggled to curb the power of the NSW Corps. He also commissioned Matthew Flinders's survey voyages and fought to reduce the rum trade.",
+    "hook": "King went from Norfolk Island commandant to governor."
+  },
+  {
+    "id": "aus_209",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which convict surgeon, transported for his part in the 1797 Nore mutiny, later became a respected doctor in Sydney?",
+    "answer": "William Redfern",
+    "distractors": [
+      "Simeon Lord",
+      "Edward Eagar",
+      "Samuel Terry"
+    ],
+    "explanation": "Redfern was sentenced to death for the mutiny, reprieved and transported. He became a respected doctor, and his 1814 report on convict ship health led to improvements. Simeon Lord was a merchant and fellow emancipist, and the other two were also ex-convicts.",
+    "hook": "A mutineer who went on to treat Sydney's sick."
+  },
+  {
+    "id": "aus_210",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What payment arrangement helped make the death rate on the 1790 convoy of Neptune, Scarborough and Surprize so high?",
+    "answer": "Contractors were paid per convict embarked, not per convict landed alive",
+    "distractors": [
+      "Surgeons were paid per convict who died on board",
+      "Captains were paid only for convicts landed sick",
+      "Rations were sold to convicts at cost"
+    ],
+    "explanation": "With no incentive to keep prisoners alive, contractors starved and neglected them, and about a quarter died at sea. The scandal prompted reforms, and later voyages paid for convicts landed in good health.",
+    "hook": "Paid for loading, not landing."
+  },
+  {
+    "id": "aus_211",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which homestead, begun at Parramatta in 1793 by John Macarthur, is among Australia's oldest surviving European houses?",
+    "answer": "Elizabeth Farm",
+    "distractors": [
+      "Hambledon Cottage",
+      "Vaucluse House",
+      "Camden Park"
+    ],
+    "explanation": "Macarthur's wife Elizabeth managed the property and the wool business while he was twice sent to England, and the house survives as a museum. Camden Park, the family's later estate, was built in the 1830s.",
+    "hook": "Elizabeth Farm ran on Elizabeth's work."
+  },
+  {
+    "id": "aus_212",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which commissioner, sent from London in 1819 to investigate Macquarie's administration, produced reports that ended his emancipist-friendly policies?",
+    "answer": "John Thomas Bigge",
+    "distractors": [
+      "Earl Bathurst",
+      "Robert Peel",
+      "Frederick Goulburn"
+    ],
+    "explanation": "Bigge's 1822 and 1823 reports criticised Macquarie's building spree and leniency, and urged tougher convict discipline and wool-growing by free settlers. His recommendations shaped the era of assigned labour and the squatters' rise.",
+    "hook": "Bigge came to judge Macquarie and shut the emancipist door."
+  },
+  {
+    "id": "aus_213",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Hawkesbury town founded by Macquarie in 1810 honours the English anti-slavery campaigner?",
+    "answer": "Wilberforce",
+    "distractors": [
+      "Richmond",
+      "Pitt Town",
+      "Castlereagh"
+    ],
+    "explanation": "Macquarie planned five towns on higher ground after the river's floods. They were Windsor, Richmond, Wilberforce, Pitt Town and Castlereagh, which he named after royalty, statesmen and reformers.",
+    "hook": "Of five flood-proof towns, one was named for a freedom campaigner."
+  },
+  {
+    "id": "aus_214",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which year did Blaxland, Lawson and Wentworth cross the Blue Mountains?",
+    "answer": "1813",
+    "distractors": [
+      "1788",
+      "1802",
+      "1824"
+    ],
+    "explanation": "The three men found a ridge route west of Sydney in May 1813, opening the grazing plains beyond. Governor Macquarie then ordered a road built, and Bathurst was proclaimed in 1815.",
+    "hook": "Follow the ridges, not the gullies: 1813, and Sydney's cage was open."
+  },
+  {
+    "id": "aus_215",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Dutch navigator first sighted Van Diemen's Land in 1642?",
+    "answer": "Abel Tasman",
+    "distractors": [
+      "Willem Janszoon",
+      "Dirk Hartog",
+      "Willem de Vlamingh"
+    ],
+    "explanation": "Tasman named the island after Anthony van Diemen, the Dutch East Indies governor who sent him. He sailed on to sight New Zealand, but never realised he had found the south of a continent.",
+    "hook": "He named it for his boss, then the island took his own name much later."
+  },
+  {
+    "id": "aus_216",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which colonel surveyed the site and laid out the grid plan of Adelaide, ringed by parklands?",
+    "answer": "William Light",
+    "distractors": [
+      "Charles Sturt",
+      "George Gawler",
+      "John Hindmarsh"
+    ],
+    "explanation": "As the colony's first Surveyor-General, Light weighed Port Lincoln and Encounter Bay before choosing the site on the Torrens. His survey of the city began on 11 January 1837 and was finished by about May that year, with parklands around the city.",
+    "hook": "Light drew the plan: squares, a grid and a green belt of parkland."
+  },
+  {
+    "id": "aus_217",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which naval captain founded the Swan River Colony, the beginning of Perth, in 1829?",
+    "answer": "James Stirling",
+    "distractors": [
+      "Phillip Parker King",
+      "George Grey",
+      "Matthew Flinders"
+    ],
+    "explanation": "Stirling explored the Swan River in 1827 and returned as the colony's first Governor. He named Perth after the Scottish home town of Sir George Murray, then the Colonial Secretary.",
+    "hook": "Stirling stirred up the Swan, then named the town after a minister's birthplace."
+  },
+  {
+    "id": "aus_218",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What did Harold Lasseter claim to have found in central Australia in 1930?",
+    "answer": "A reef of gold",
+    "distractors": [
+      "A lost inland sea",
+      "A buried bushranger hoard",
+      "A field of opals"
+    ],
+    "explanation": "Lasseter said he had found a rich gold reef, and in 1930 he led an expedition backed by investors to relocate it. The expedition failed, and he died in the Petermann Ranges in 1931. No one has ever found the reef.",
+    "hook": "Lasseter's reef: a fortune that only one man ever claimed to see."
+  },
+  {
+    "id": "aus_219",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which form of transport did the American-founded firm Cobb & Co run across eastern Australia from the 1850s?",
+    "answer": "Horse-drawn coaches",
+    "distractors": [
+      "Paddle steamer ferries",
+      "Camel trains",
+      "Bullock wagon teams"
+    ],
+    "explanation": "The firm began in Victoria during the gold rush and grew into a network across Queensland and New South Wales. Its coaches carried passengers, mail and gold until railways and motor vehicles took over.",
+    "hook": "Cobb & Co: the outback's coach company before the engine."
+  },
+  {
+    "id": "aus_220",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In 1616 Dirk Hartog left an inscribed pewter plate on an island in which present-day state?",
+    "answer": "Western Australia",
+    "distractors": [
+      "Queensland",
+      "South Australia",
+      "Northern Territory"
+    ],
+    "explanation": "Hartog landed from the Eendracht at Cape Inscription on what is now Dirk Hartog Island in Shark Bay. His plate was replaced by de Vlamingh in 1697 and the original now sits in a museum in Amsterdam.",
+    "hook": "The first known European note left on Australian soil, on the west coast."
+  },
+  {
+    "id": "aus_221",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What name was given to graziers who occupied Crown land beyond the official limits of settlement in the 1830s?",
+    "answer": "Squatters",
+    "distractors": [
+      "Selectors",
+      "Drovers",
+      "Overlanders"
+    ],
+    "explanation": "They ran sheep and cattle on land they did not own, pushing far past the nineteen counties around Sydney. The government gave up trying to stop them and began selling grazing licences in 1836.",
+    "hook": "They sat down on the land first and got the paperwork later."
+  },
+  {
+    "id": "aus_222",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Dutch ship, under Willem Janszoon, charted part of Cape York Peninsula in 1606?",
+    "answer": "Duyfken",
+    "distractors": [
+      "Batavia",
+      "Leeuwin",
+      "Eendracht"
+    ],
+    "explanation": "The little ship sailed from Bantam in Java and mapped part of the gulf coast, making the earliest recorded European landing in Australia. Its name means 'little dove', and a replica was built in Fremantle in 1999.",
+    "hook": "The little dove landed first, 164 years before Cook."
+  },
+  {
+    "id": "aus_223",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Whose 1835 journal described the site of Melbourne with the words 'This will be the place for a village'?",
+    "answer": "John Batman",
+    "distractors": [
+      "John Pascoe Fawkner",
+      "Charles La Trobe",
+      "Joseph Gellibrand"
+    ],
+    "explanation": "Batman was a Tasmanian grazier who led the Port Phillip Association's party to the Yarra. Fawkner's party arrived within months, and Governor Bourke named the town Melbourne in 1837.",
+    "hook": "Batman picked the spot; Fawkner arrived to fight over it."
+  },
+  {
+    "id": "aus_224",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which English buccaneer landed on the north-west coast in 1688 and later wrote 'A New Voyage Round the World'?",
+    "answer": "William Dampier",
+    "distractors": [
+      "Francis Drake",
+      "Thomas Cavendish",
+      "William Bligh"
+    ],
+    "explanation": "Dampier's 1688 landing on the north-west coast was one of the first recorded English visits to Australia, and his book describing it was published in 1697.",
+    "hook": "The pirate who reviewed Australia badly, 82 years before Cook."
+  },
+  {
+    "id": "aus_225",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which surgeon sailed with Matthew Flinders in the sloop Norfolk in 1798-99 to prove Van Diemen's Land was an island?",
+    "answer": "George Bass",
+    "distractors": [
+      "John Hunter",
+      "Philip Gidley King",
+      "William Paterson"
+    ],
+    "explanation": "Bass had already rowed a whaleboat along the coast to Western Port in 1797. The strait between the mainland and Tasmania was later named for him, and he vanished on a trading voyage in 1803.",
+    "hook": "A whaleboat, a sloop, a strait with his name, and then he disappeared."
+  },
+  {
+    "id": "aus_226",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "By what name was the settlement now called Darwin officially known until 1911?",
+    "answer": "Palmerston",
+    "distractors": [
+      "Escape Cliffs",
+      "Port Essington",
+      "Fort Dundas"
+    ],
+    "explanation": "The town was founded in 1869 and named after the British Prime Minister Lord Palmerston. The Commonwealth took over the Northern Territory in 1911, and the town was renamed to avoid confusion with a New Zealand place of the same name.",
+    "hook": "A prime minister's name until 1911, then Darwin of the Beagle."
+  },
+  {
+    "id": "aus_227",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which lieutenant-governor founded Hobart at Sullivans Cove in 1804 after abandoning an attempt at Port Phillip?",
+    "answer": "David Collins",
+    "distractors": [
+      "John Bowen",
+      "William Paterson",
+      "Philip Gidley King"
+    ],
+    "explanation": "Collins had tried to settle the shore of Port Phillip in 1803, found it unsuitable, and moved to the Derwent. He died in Hobart in 1810 and the town was named after Lord Hobart, Secretary of State for War and the Colonies.",
+    "hook": "Collins gave up on Port Phillip and Hobart is the result."
+  },
+  {
+    "id": "aus_228",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who discovered the Darling River in 1829 and rowed down the Murray to its mouth the next year?",
+    "answer": "Charles Sturt",
+    "distractors": [
+      "Thomas Mitchell",
+      "Hamilton Hume",
+      "John Oxley"
+    ],
+    "explanation": "Sturt expected the inland rivers to drain into an inland sea. His 1830 whaleboat journey instead found the Murray's mouth at Lake Alexandrina, opening up the land that became South Australia.",
+    "hook": "Sturt went looking for an inland sea and found a river mouth instead."
+  },
+  {
+    "id": "aus_229",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What Latin name did Thomas Mitchell give in 1836 to the fertile country of western Victoria?",
+    "answer": "Australia Felix",
+    "distractors": [
+      "Australia Fertilis",
+      "Terra Fertilis",
+      "Arcadia Nova"
+    ],
+    "explanation": "Mitchell, the NSW Surveyor-General, found grassland and rivers after crossing arid country further north. His glowing report sent squatters flooding south and helped lead to the settlement of Port Phillip.",
+    "hook": "Felix means lucky: the happy country that drew the squatters."
+  },
+  {
+    "id": "aus_230",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who in 1873 became the first European to reach the rock the Anangu call Uluru, naming it after South Australian politician Sir Henry Ayers?",
+    "answer": "William Gosse",
+    "distractors": [
+      "Ernest Giles",
+      "Peter Warburton",
+      "John Forrest"
+    ],
+    "explanation": "Gosse led a camel-supported expedition west of Alice Springs and climbed the rock in July 1873. Sources differ on the exact sighting date, so the explanation gives only the month.",
+    "hook": "Gosse climbed the rock, and it took its name from a South Australian politician."
+  },
+  {
+    "id": "aus_231",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which explorer, who crossed from Perth to Adelaide in 1870, became Western Australia's first premier in 1890?",
+    "answer": "John Forrest",
+    "distractors": [
+      "Ernest Giles",
+      "Peter Warburton",
+      "David Carnegie"
+    ],
+    "explanation": "Forrest led three major expeditions, including a search for Leichhardt in 1869 and an 1874 crossing to the Overland Telegraph. He served as premier for just over ten years, and later became a baron, the first Australian-born peer.",
+    "hook": "Forrest walked across the continent, then ran the state for just over ten years."
+  },
+  {
+    "id": "aus_232",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Where on the South Australian coast did Matthew Flinders meet the French commander Nicolas Baudin in April 1802?",
+    "answer": "Encounter Bay",
+    "distractors": [
+      "Rapid Bay",
+      "Guichen Bay",
+      "Holdfast Bay"
+    ],
+    "explanation": "The two captains, who did not yet know their countries had made peace, met peacefully on 8 April 1802. Flinders named the spot Encounter Bay.",
+    "hook": "Two captains who had not heard the war was over, one friendly meeting, and a bay named for the surprise."
+  },
+  {
+    "id": "aus_233",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which surveyor-general explored the lower Brisbane River in 1823, leading to the Moreton Bay convict settlement?",
+    "answer": "John Oxley",
+    "distractors": [
+      "Allan Cunningham",
+      "Hamilton Hume",
+      "William Hovell"
+    ],
+    "explanation": "Oxley found the river after rescuing castaway convicts, and recommended Moreton Bay as a site for secondary punishment. He named the river after Governor Sir Thomas Brisbane, and the settlement began in 1824.",
+    "hook": "Oxley named the river for his governor, and the city followed the river."
+  },
+  {
+    "id": "aus_234",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which group of camel handlers, mostly from British India's north-west, carried freight across the outback from the 1860s?",
+    "answer": "Afghan cameleers",
+    "distractors": [
+      "Persian muleteers",
+      "Turkish caravan drivers",
+      "Egyptian camel traders"
+    ],
+    "explanation": "Most came from what is now Pakistan and Afghanistan, and they hauled supplies to stations, mines and telegraph lines. Their camels were later let loose when trucks and railways arrived, and the descendants are the wild herds of today.",
+    "hook": "Camels, cameleers and a railway nickname that still carries their name."
+  },
+  {
+    "id": "aus_235",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which survey ship's crew named Port Darwin in 1839, honouring a former shipmate?",
+    "answer": "HMS Beagle",
+    "distractors": [
+      "HMS Rattlesnake",
+      "HMS Fly",
+      "HMS Alligator"
+    ],
+    "explanation": "Commander John Lort Stokes was on the Beagle's third survey voyage, and had sailed with Charles Darwin on the second. The city of Darwin took the harbour's name when it was renamed in 1911.",
+    "hook": "Darwin never saw the place, but his old ship named it for him."
+  },
+  {
+    "id": "aus_236",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "At which site on the Derwent River was Tasmania's first British settlement established in 1803 under Lieutenant John Bowen?",
+    "answer": "Risdon Cove",
+    "distractors": [
+      "Sullivans Cove",
+      "Ralphs Bay",
+      "Blackmans Bay"
+    ],
+    "explanation": "The tiny party was sent from Sydney to forestall French interest. Its water supply was poor, and Collins abandoned the site in favour of Sullivans Cove, across the river, in 1804.",
+    "hook": "The first try on the Derwent failed, and the city grew across the river."
+  },
+  {
+    "id": "aus_237",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Aboriginal guide carried Edmund Kennedy's papers to the rescue ship in 1848, after Kennedy died?",
+    "answer": "Jackey Jackey",
+    "distractors": [
+      "Tommy Windich",
+      "Yuranigh",
+      "Bungaree"
+    ],
+    "explanation": "Kennedy's Cape York expedition met starvation and attacks, and only three of thirteen men survived. Jackey Jackey stayed with Kennedy until he died and then reached the schooner Ariel with his journal.",
+    "hook": "He stayed with the leader until the end, then walked on alone with the journal."
+  },
+  {
+    "id": "aus_238",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "After Edward Eyre's overseer Baxter was killed during the 1841 crossing to Albany, which Aboriginal man completed the journey with him?",
+    "answer": "Wylie",
+    "distractors": [
+      "Jackey Jackey",
+      "Tommy Windich",
+      "Yuranigh"
+    ],
+    "explanation": "Two other members of Eyre's party killed Baxter and fled with most of the supplies. Eyre and Wylie survived on scraps and a rescue by a French whaler, and they reached Albany after crossing the Nullarbor coast.",
+    "hook": "Two men ran with the stores, and the one who stayed helped Eyre reach Albany."
+  },
+  {
+    "id": "aus_239",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which South Australian explorer led a camel party from Alice Springs to the Pilbara coast in 1873-74, emerging close to starvation?",
+    "answer": "Peter Warburton",
+    "distractors": [
+      "Ernest Giles",
+      "Augustus Gregory",
+      "David Carnegie"
+    ],
+    "explanation": "Warburton's party ate some of its own camels and reached Roebourne in January 1874, in terrible condition. His journey was among the first to use camels for exploration, and the South Australian government granted him 1000 pounds.",
+    "hook": "He ate his own transport to survive, so the camels never got the thanks."
+  },
+  {
+    "id": "aus_240",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which German-born botanist joined Augustus Gregory's 1855-56 North Australian Expedition?",
+    "answer": "Ferdinand von Mueller",
+    "distractors": [
+      "Georg von Neumayer",
+      "Ludwig Becker",
+      "Allan Cunningham"
+    ],
+    "explanation": "The expedition travelled from the Victoria River in the Northern Territory across the top of the continent to the east coast. Mueller became Victoria's government botanist and director of the Melbourne Botanic Gardens.",
+    "hook": "Gregory led the trek, and one of the party later ran a famous Melbourne garden."
+  },
+  {
+    "id": "aus_241",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "At which peninsula on Moreton Bay was Queensland's first convict settlement established in 1824?",
+    "answer": "Redcliffe",
+    "distractors": [
+      "Cleveland Point",
+      "Sandgate",
+      "Bribie Island"
+    ],
+    "explanation": "The settlement was abandoned within a year because of poor water and attacks, and moved up the Brisbane River in 1825. The Redcliffe site is often said to be Queensland's first European settlement.",
+    "hook": "The first try was abandoned within a year, and the lasting town sat upriver."
+  },
+  {
+    "id": "aus_242",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year did Cobb & Co run its last coach service, in Queensland?",
+    "answer": "1924",
+    "distractors": [
+      "1899",
+      "1911",
+      "1936"
+    ],
+    "explanation": "The final run was a Royal Mail coach on the Surat to Yuleba route in 1924, closing the long era of Cobb & Co coaches. The company started in Victoria in the 1850s and at its peak ran a large network of coaches across the colonies.",
+    "hook": "From the gold rush years to the end of the horse coach, the company carried the outback."
+  },
+  {
+    "id": "aus_243",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year did the first train on the Central Australia Railway, forerunner of the Ghan, reach Alice Springs?",
+    "answer": "1929",
+    "distractors": [
+      "1911",
+      "1939",
+      "1954"
+    ],
+    "explanation": "The line from Port Augusta had reached Oodnadatta in 1891, and the extension to Alice Springs took decades more. The Adelaide to Darwin link was not completed until 2004.",
+    "hook": "Alice Springs got its rail line late, and Darwin's link came as late as 2004."
+  },
+  {
+    "id": "aus_244",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "From which country was Ned Kelly's father transported as a convict to Van Diemen's Land?",
+    "answer": "Ireland",
+    "distractors": [
+      "Scotland",
+      "England",
+      "Wales"
+    ],
+    "explanation": "John Kelly of County Tipperary was transported for seven years for stealing two pigs and arrived in Van Diemen's Land in 1842. He later moved to Victoria, married Ellen Quinn, and died in 1866 when Ned was about eleven.",
+    "hook": "Two stolen pigs from Tipperary shipped one man to Tasmania and gave Australia its most famous outlaw."
+  },
+  {
+    "id": "aus_245",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which three words are traditionally given as Ned Kelly's last words on the scaffold in 1880?",
+    "answer": "Such is life",
+    "distractors": [
+      "So be it",
+      "Fare thee well",
+      "It is finished"
+    ],
+    "explanation": "Reports differ on his exact words, but 'Such is life' became the accepted version and is now a stock phrase for shrugging off misfortune. Joseph Furphy borrowed the same phrase for the title of his 1903 novel.",
+    "hook": "A shrug at the gallows that became a national saying."
+  },
+  {
+    "id": "aus_246",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which coach company, founded in Melbourne in 1853, carried passengers and mail across the bush for about seventy years?",
+    "answer": "Cobb & Co",
+    "distractors": [
+      "Wells Fargo & Co",
+      "Tait & Co",
+      "Elder & Co"
+    ],
+    "explanation": "Cobb and Co first ran from Melbourne to the goldfields, then spread across eastern Australia and into Queensland and New South Wales, using American-style Concord coaches. Its last regular run was in Queensland in 1924, when motor vehicles and rail took over.",
+    "hook": "The Wells Fargo of the outback, only it began in Melbourne."
+  },
+  {
+    "id": "aus_247",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which state was the Welcome Stranger, the largest alluvial gold nugget ever found, unearthed in 1869?",
+    "answer": "Victoria",
+    "distractors": [
+      "Western Australia",
+      "New South Wales",
+      "Queensland"
+    ],
+    "explanation": "Two Cornish miners, John Deason and Richard Oates, found it at Moliagul, almost on the surface, and had to break it up with a hammer and chisel because it was too big to move whole. It weighed about 72 kilograms, with roughly 2,200 ounces of gold.",
+    "hook": "Found nearly at the surface by two miners who had to smash it with a hammer."
+  },
+  {
+    "id": "aus_248",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which constellation's stars appear on the Eureka flag?",
+    "answer": "The Southern Cross",
+    "distractors": [
+      "Orion",
+      "Scorpius",
+      "Centaurus"
+    ],
+    "explanation": "The flag shows five white stars arranged as the Southern Cross on a blue field, and was sewn in Ballarat in 1854. The Southern Cross was already a symbol of the colonies, and it later appeared on the Australian national flag as well.",
+    "hook": "The same five stars a digger saw overhead, stitched to a flag."
+  },
+  {
+    "id": "aus_249",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Who wrote the 1892 short story 'The Drover's Wife', about a woman alone in the bush with her children?",
+    "answer": "Henry Lawson",
+    "distractors": [
+      "Banjo Paterson",
+      "Steele Rudd",
+      "Marcus Clarke"
+    ],
+    "explanation": "It first appeared in the Bulletin and was later collected in While the Billy Boils. Lawson's plain, bleak style was the opposite of the romantic bush verse of his rival Paterson, and the story has been reworked many times by later writers.",
+    "hook": "Lawson showed the bush as hard, not romantic, and the drover's wife holds the fort."
+  },
+  {
+    "id": "aus_250",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which colonial gaol, now a museum, was the scene of Ned Kelly's hanging in 1880?",
+    "answer": "Old Melbourne Gaol",
+    "distractors": [
+      "Pentridge Prison",
+      "Beechworth Gaol",
+      "Darlinghurst Gaol"
+    ],
+    "explanation": "Kelly was hanged there on 11 November 1880, and the gaol carried out more than 130 hangings in total between 1842 and 1924.",
+    "hook": "The cell block is open to visitors, death mask and all."
+  },
+  {
+    "id": "aus_251",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Along which coast of the continent does the Great Australian Bight curve?",
+    "answer": "The southern coast",
+    "distractors": [
+      "The northern coast",
+      "The eastern coast",
+      "The western coast"
+    ],
+    "explanation": "The Bight is a broad open bay on the southern coastline, running across the edges of Western Australia and South Australia, with the huge Nullarbor cliffs behind it. Southern right whales visit its waters each winter to calve.",
+    "hook": "The Bight is the big bite out of the bottom of the map."
+  },
+  {
+    "id": "aus_252",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In the old bush song, what does 'waltzing Matilda' mean?",
+    "answer": "Travelling on foot with a swag",
+    "distractors": [
+      "Dancing at a country ball",
+      "Fleeing from the troopers",
+      "Droving sheep to market"
+    ],
+    "explanation": "A 'matilda' was the bedroll or swag carried by itinerant workers, and 'waltzing' means tramping along the road with it. One proposed origin for 'waltzing' is the German 'auf der Walz', the travelling years of a journeyman, but that etymology is disputed. The song's swagman drowns himself rather than be arrested for stealing a jumbuck.",
+    "hook": "A swag was your Matilda, and carrying it down the road was a waltz."
+  },
+  {
+    "id": "aus_253",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Irish-born prospector's 1893 discovery sparked the gold rush at Kalgoorlie?",
+    "answer": "Paddy Hannan",
+    "distractors": [
+      "Arthur Bayley",
+      "John Forrest",
+      "Edward Hargraves"
+    ],
+    "explanation": "Hannan found gold in June 1893 at what became the Golden Mile, one of the richest square miles of mining in the world. The rush there followed Arthur Bayley's find at Coolgardie, about 40 kilometres away, the year before.",
+    "hook": "Hannan's Find: Kalgoorlie began where Paddy stopped to look for his lost horse."
+  },
+  {
+    "id": "aus_254",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which engineer designed the pipeline that carries water inland from Perth's hills to the Western Australian goldfields?",
+    "answer": "C.Y. O'Connor",
+    "distractors": [
+      "John Monash",
+      "John Bradfield",
+      "Charles Todd"
+    ],
+    "explanation": "O'Connor's scheme pumped water from Mundaring Weir over roughly 560 kilometres to Coolgardie and Kalgoorlie. Attacked in the press as a folly, he died in 1902, a few months before the first water arrived in 1903.",
+    "hook": "He pumped a river uphill to a desert and did not live to see it flow."
+  },
+  {
+    "id": "aus_255",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What was the outcome of the 1855 high-treason trials of thirteen men arrested after the rebellion at Ballarat?",
+    "answer": "All were acquitted",
+    "distractors": [
+      "Three were hanged",
+      "All were transported",
+      "All were jailed for ten years"
+    ],
+    "explanation": "Juries refused to convict despite the Crown's case, and the verdicts were greeted with cheering crowds in Melbourne. The result forced the colonial government to reform the gold licence system and give diggers political rights.",
+    "hook": "The government charged thirteen men and the people said no, every time."
+  },
+  {
+    "id": "aus_256",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In 1854, what monthly fee did Victoria charge each digger for a goldfield licence?",
+    "answer": "Thirty shillings",
+    "distractors": [
+      "Five shillings",
+      "Ten shillings",
+      "Two pounds"
+    ],
+    "explanation": "The flat fee was charged whether a digger struck gold or not, and was enforced by police licence hunts. In 1855 it was replaced by a £1 annual miner's right, which also gave holders the vote.",
+    "hook": "Thirty bob a month, gold or no gold."
+  },
+  {
+    "id": "aus_257",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which New South Wales town, formerly called Lambing Flat, was the scene of anti-Chinese riots in 1861?",
+    "answer": "Young",
+    "distractors": [
+      "Cootamundra",
+      "Cowra",
+      "Temora"
+    ],
+    "explanation": "Thousands of European diggers drove Chinese miners from the goldfield, and the 'Roll Up' banner became the rioters' flag. Troops restored order, and the unrest helped lead to NSW's Chinese restriction laws. The town was renamed after Governor Sir John Young.",
+    "hook": "The riots left the town with the governor's name."
+  },
+  {
+    "id": "aus_258",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which central-west New South Wales town gives its name to the 1862 gold escort robbery by Frank Gardiner's gang?",
+    "answer": "Eugowra",
+    "distractors": [
+      "Forbes",
+      "Orange",
+      "Cowra"
+    ],
+    "explanation": "Gardiner's gang, including Ben Hall, ambushed the escort at a rocky pass and took gold and cash worth roughly £14,000, one of the biggest hauls in colonial history. Gardiner was later jailed, then released and exiled in 1874.",
+    "hook": "Cliffs, cached rifles, and a coach load of gold."
+  },
+  {
+    "id": "aus_259",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "From which Sydney Harbour prison did Frederick Ward escape in 1863 before turning bushranger as Captain Thunderbolt?",
+    "answer": "Cockatoo Island",
+    "distractors": [
+      "Goat Island",
+      "Norfolk Island",
+      "Garden Island"
+    ],
+    "explanation": "Ward swam from the island and bushranged across the New England district for six years, helped by Mary Ann Bugg, who was of Aboriginal descent. He was shot dead by a policeman near Uralla in 1870.",
+    "hook": "Ward swam out of a harbour jail, then rode into legend."
+  },
+  {
+    "id": "aus_260",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which bushranger terrorised the Murray and Riverina districts before being shot at Peechelba Station in 1865?",
+    "answer": "Dan Morgan",
+    "distractors": [
+      "Ben Hall",
+      "Harry Power",
+      "Frank Gardiner"
+    ],
+    "explanation": "Morgan was feared as unusually violent and was nicknamed Mad Dog. He was shot dead at Peechelba Station in 1865.",
+    "hook": "Mad Dog's last ride ended at a station."
+  },
+  {
+    "id": "aus_261",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "At which creek in Victoria's north-east did the Kelly gang kill three police officers in October 1878?",
+    "answer": "Stringybark Creek",
+    "distractors": [
+      "Sheepstation Creek",
+      "Broken Creek",
+      "Eleven Mile Creek"
+    ],
+    "explanation": "Sergeant Michael Kennedy and Constables Thomas Lonigan and Michael Scanlan died when the police party was ambushed in the Wombat Ranges. The killings made the gang outlaws and brought a large reward for their capture.",
+    "hook": "The blood at Stringybark Creek turned a horse-thief into an outlaw."
+  },
+  {
+    "id": "aus_262",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In 1856, which group of Melbourne tradesmen, led by James Stephens, won the eight-hour working day?",
+    "answer": "Stonemasons",
+    "distractors": [
+      "Carpenters",
+      "Bricklayers",
+      "Painters"
+    ],
+    "explanation": "The stonemasons working on the University of Melbourne's building site won eight hours' work for the same pay. Melbourne's Eight Hours Day march began that year on 21 April, and the slogan was eight hours labour, eight hours recreation, eight hours rest.",
+    "hook": "Eight hours work, eight hours rest, eight hours play, and the masons asked first."
+  },
+  {
+    "id": "aus_263",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Sydney weekly magazine, founded in 1880, launched the careers of Henry Lawson and Banjo Paterson?",
+    "answer": "The Bulletin",
+    "distractors": [
+      "The Sydney Morning Herald",
+      "The Worker",
+      "Town and Country Journal"
+    ],
+    "explanation": "J.F. Archibald and John Haynes started it, and its nationalist, republican voice earned it the nickname 'the Bushman's Bible'. It later gave its name to the Archibald Prize, from Archibald's bequest.",
+    "hook": "The magazine that turned bush yarns into national literature."
+  },
+  {
+    "id": "aus_264",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Peter Lalor, who led the 1854 miners' stand at Ballarat, later held which office from 1880 to 1887?",
+    "answer": "Speaker of the Victorian Legislative Assembly",
+    "distractors": [
+      "Premier of Victoria",
+      "Attorney-General of Victoria",
+      "Treasurer of Victoria"
+    ],
+    "explanation": "Lalor lost an arm in the fighting and spent months hidden by supporters afterwards. He later sat in the Victorian parliament for decades, changing from rebel to conservative landowner and mine owner.",
+    "hook": "The rebel with one arm ended up wielding the gavel."
+  },
+  {
+    "id": "aus_265",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Kelly gang member wrote out Ned Kelly's 1879 Jerilderie letter as Kelly dictated it?",
+    "answer": "Joe Byrne",
+    "distractors": [
+      "Dan Kelly",
+      "Steve Hart",
+      "Aaron Sherritt"
+    ],
+    "explanation": "The letter was Kelly's long account of his grievances against the police, dictated to Byrne. Kelly tried to have a Jerilderie newspaper print it, but the editor fled, so the text stayed unpublished for decades.",
+    "hook": "Kelly talked, Byrne wrote, and a town's newspaper editor ran."
+  },
+  {
+    "id": "aus_266",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Irish convict bushranger, shot dead in 1830 near Bringelly, was celebrated in a ballad the colonial authorities banned?",
+    "answer": "Jack Donohoe",
+    "distractors": [
+      "Matthew Brady",
+      "Martin Cash",
+      "Michael Howe"
+    ],
+    "explanation": "Donohoe escaped custody, bushranged west of Sydney, and was killed by troopers in 1830. The ballad 'Bold Jack Donahue' made him a hero and was suppressed because it glorified defying the law.",
+    "hook": "A song so popular that singing it could get you arrested."
+  },
+  {
+    "id": "aus_267",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "At which property near Gundagai did Captain Moonlite's gang hold hostages in November 1879?",
+    "answer": "Wantabadgery Station",
+    "distractors": [
+      "Jugiong Station",
+      "Tumut Plains Station",
+      "Coolac Station"
+    ],
+    "explanation": "Andrew George Scott led his gang in a stand-off that ended in a gunfight with police and local volunteers. Two of his young followers were killed, and Scott was hanged in Sydney in January 1880.",
+    "hook": "Moonlite's last stand was an old sheep station."
+  },
+  {
+    "id": "aus_268",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which travelling journalist coined the phrase 'Marvellous Melbourne' during his 1885 visit?",
+    "answer": "George Augustus Sala",
+    "distractors": [
+      "Anthony Trollope",
+      "Mark Twain",
+      "Robert Louis Stevenson"
+    ],
+    "explanation": "Sala wrote of a city flush with land-boom money, and the phrase stuck through the 1880s boom. The crash of the early 1890s ended it, and the glittering buildings of the era still dominate Collins Street.",
+    "hook": "A visiting writer put a slogan on a boom just before the bust."
+  },
+  {
+    "id": "aus_269",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "At which South Australian port did more than 15,000 Chinese miners land in 1857 to dodge Victoria's poll tax?",
+    "answer": "Robe",
+    "distractors": [
+      "Port MacDonnell",
+      "Port Lincoln",
+      "Victor Harbor"
+    ],
+    "explanation": "Victoria charged a £10 landing tax on each Chinese passenger, so ship masters dropped them across the border and they walked roughly 400 kilometres to the goldfields. South Australia had no such tax, and Robe's population briefly exploded.",
+    "hook": "A tax dodge that put a tiny port on the map."
+  },
+  {
+    "id": "aus_270",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "On which Queensland station was a woolshed burned in the 1894 shearers' strike, an episode linked to the origins of 'Waltzing Matilda'?",
+    "answer": "Dagworth Station",
+    "distractors": [
+      "Gracemere Station",
+      "Jimbour Station",
+      "Camden Park Station"
+    ],
+    "explanation": "Striking shearers burned the woolshed there during the 1894 strike. Banjo Paterson visited Dagworth in 1895 and heard the tune that became 'Waltzing Matilda', a key piece of the song's legend. The origins of the song are still debated.",
+    "hook": "A burned shed, and the tune that became a national song."
+  },
+  {
+    "id": "aus_271",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which city does the High Court of Australia have its permanent home?",
+    "answer": "Canberra",
+    "distractors": [
+      "Melbourne",
+      "Sydney",
+      "Brisbane"
+    ],
+    "explanation": "The High Court sat in Melbourne and Sydney for more than seven decades before moving into its own building beside Lake Burley Griffin, which Queen Elizabeth II opened in 1980. The court's seven justices also hear cases in other capital cities.",
+    "hook": "The nation's top court sits in the nation's capital, in a concrete building by the lake."
+  },
+  {
+    "id": "aus_272",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What is the name of the prime minister's official residence in Canberra?",
+    "answer": "The Lodge",
+    "distractors": [
+      "Duntroon House",
+      "Government House",
+      "Lanyon Homestead"
+    ],
+    "explanation": "The building in the suburb of Deakin was completed in 1927, the year Parliament moved to Canberra. Prime ministers are not obliged to live there.",
+    "hook": "A prime minister's lodging is simply called a lodge."
+  },
+  {
+    "id": "aus_273",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which house on the shore of Sydney Harbour is the prime minister's official Sydney residence?",
+    "answer": "Kirribilli House",
+    "distractors": [
+      "Admiralty House",
+      "Vaucluse House",
+      "Elizabeth Bay House"
+    ],
+    "explanation": "Kirribilli House sits on the north shore with views of the Opera House and Harbour Bridge. Next door, Admiralty House serves as the Governor-General's Sydney residence, and the two are often confused.",
+    "hook": "The PM's harbour house looks across the water at the Opera House."
+  },
+  {
+    "id": "aus_274",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What is the official word-for-word record of parliamentary debates in Australia called?",
+    "answer": "Hansard",
+    "distractors": [
+      "The Gazette",
+      "The Register",
+      "Votes and Proceedings"
+    ],
+    "explanation": "The name comes from Thomas Curson Hansard, the London printer who published reports of British parliamentary debates from the early nineteenth century. Federal Hansard has recorded the House and Senate since 1901 and is searchable online.",
+    "hook": "Named after a London printer, it records every word politicians say."
+  },
+  {
+    "id": "aus_275",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What ceremonial object lies on the table of the House of Representatives whenever the Speaker is in the chair?",
+    "answer": "The mace",
+    "distractors": [
+      "The sceptre",
+      "The gavel",
+      "The sword"
+    ],
+    "explanation": "The Serjeant-at-Arms carries it in ahead of the Speaker at the start of each sitting and places it on the table, a custom inherited from the House of Commons. It symbolises the authority of the House and the Speaker.",
+    "hook": "No mace on the table, no sitting of the House."
+  },
+  {
+    "id": "aus_276",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which year was the current Parliament House on Capital Hill opened?",
+    "answer": "1988",
+    "distractors": [
+      "1984",
+      "1986",
+      "1991"
+    ],
+    "explanation": "Queen Elizabeth II opened it on 9 May 1988, during the bicentenary year, sixty-one years to the day after the provisional building opened. It was designed by Mitchell/Giurgola and Thorp and is topped by an 81-metre flagpole.",
+    "hook": "Opened in the bicentenary year, on the same date as the 1927 opening."
+  },
+  {
+    "id": "aus_277",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "How many senators does each Australian state elect to the Senate?",
+    "answer": "Twelve",
+    "distractors": [
+      "Six",
+      "Ten",
+      "Eight"
+    ],
+    "explanation": "Each state has equal Senate representation regardless of population, so Tasmania has as many senators as New South Wales. The number rose from ten to twelve in 1984, and the two territories elect two each, making 76 in total.",
+    "hook": "A dozen per state, whether you are big Victoria or little Tasmania."
+  },
+  {
+    "id": "aus_278",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What colour are the seats in the chamber of the House of Representatives?",
+    "answer": "Green",
+    "distractors": [
+      "Red",
+      "Blue",
+      "Brown"
+    ],
+    "explanation": "The House copies the green benches of the British House of Commons, while the Senate chamber is furnished in red, like the House of Lords.",
+    "hook": "Green for the people's house, red for the house of review."
+  },
+  {
+    "id": "aus_279",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Nationals leader and Deputy Prime Minister was disqualified in 2017 because he held New Zealand citizenship by descent?",
+    "answer": "Barnaby Joyce",
+    "distractors": [
+      "Warren Truss",
+      "Michael McCormack",
+      "John Anderson"
+    ],
+    "explanation": "The High Court ruled on 27 October 2017 that Joyce was ineligible under Section 44(i) of the Constitution, which bars dual citizens from Parliament. He won the resulting New England by-election in December and returned to the front bench.",
+    "hook": "A father's New Zealand birthplace cost the then Deputy PM his seat, until he won it back at the by-election."
+  },
+  {
+    "id": "aus_280",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Family First senator for South Australia was ruled ineligible in 2017 because of a financial interest in the lease of his electorate office?",
+    "answer": "Bob Day",
+    "distractors": [
+      "Nick Xenophon",
+      "Cory Bernardi",
+      "Dean Smith"
+    ],
+    "explanation": "Day resigned in November 2016 after the collapse of his Home Australia group of companies. In April 2017 the High Court ruled that the Commonwealth's lease of his South Australian electorate office gave him an indirect financial interest in a Commonwealth agreement. That made him ineligible under Section 44(v) from February 2016, before the July 2016 election, and the vacancy was filled by a special count of ballot papers.",
+    "hook": "The landlord problem: renting your office to the Commonwealth is not allowed."
+  },
+  {
+    "id": "aus_281",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In how many of the six states must a referendum proposal win a majority of voters, as well as a national majority, to pass?",
+    "answer": "Four",
+    "distractors": [
+      "Three",
+      "Five",
+      "All six"
+    ],
+    "explanation": "Section 128 of the Constitution sets this double majority test. Since 1977 voters in the territories count toward the national total, but the territories do not count as states for the second hurdle.",
+    "hook": "Win the nation, then win four of six states: two majorities, hence a hard road."
+  },
+  {
+    "id": "aus_282",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did voting become compulsory for federal elections in Australia?",
+    "answer": "1924",
+    "distractors": [
+      "1911",
+      "1918",
+      "1934"
+    ],
+    "explanation": "A private member's bill from senator Herbert Payne made voting compulsory after turnout had fallen to about 59 per cent at the 1922 election. Turnout at the first compulsory election, in 1925, was about 91 per cent, far above the 1922 level.",
+    "hook": "Turnout jumped from 59 to 91 per cent once voting turned compulsory."
+  },
+  {
+    "id": "aus_283",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did preferential voting replace first-past-the-post for federal elections?",
+    "answer": "1918",
+    "distractors": [
+      "1903",
+      "1915",
+      "1931"
+    ],
+    "explanation": "The Farmers' and Settlers' Association had split the conservative vote at the October 1918 Swan by-election, letting Labor win, so the Hughes government changed the law. Preferential voting was first used at the Corangamite by-election in December 1918, and it was used for Senate elections from 1919.",
+    "hook": "A split conservative vote after the First World War forced the change."
+  },
+  {
+    "id": "aus_284",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What name is given to the Governor-General's rarely used powers, such as dismissing a government, that may be exercised without ministerial advice?",
+    "answer": "The reserve powers",
+    "distractors": [
+      "The emergency powers",
+      "The caretaker powers",
+      "The vice-regal veto"
+    ],
+    "explanation": "The reserve powers are not set out in detail in the Constitution. They rest on the Constitution's text and on convention, and they include dismissing a government. The most controversial use was the dismissal of the Whitlam government on 11 November 1975.",
+    "hook": "Powers held in reserve are the Crown's emergency kit."
+  },
+  {
+    "id": "aus_285",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who in 2017 became the first woman to serve as Chief Justice of the High Court of Australia?",
+    "answer": "Susan Kiefel",
+    "distractors": [
+      "Mary Gaudron",
+      "Virginia Bell",
+      "Susan Crennan"
+    ],
+    "explanation": "Kiefel, a Queenslander who left school at fifteen, joined the court in 2007 and became Chief Justice on 30 January 2017. Mary Gaudron had earlier been the first woman justice of the court, appointed in 1987.",
+    "hook": "A school-leaver at fifteen rose to lead the nation's highest court."
+  },
+  {
+    "id": "aus_286",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who was the first Chief Justice of the High Court, appointed when it was established in 1903?",
+    "answer": "Sir Samuel Griffith",
+    "distractors": [
+      "Sir Isaac Isaacs",
+      "Sir Adrian Knox",
+      "Sir John Latham"
+    ],
+    "explanation": "Griffith, a former Premier of Queensland, had led the drafting of the 1891 Constitution Bill that formed the basis of the final Constitution. He held the office until 1919, when Adrian Knox succeeded him.",
+    "hook": "The draftsman of the Constitution became its first chief interpreter."
+  },
+  {
+    "id": "aus_287",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What is the upper house of the New South Wales and Victorian parliaments called?",
+    "answer": "The Legislative Council",
+    "distractors": [
+      "The Legislative Assembly",
+      "The House of Assembly",
+      "The State Senate"
+    ],
+    "explanation": "Both colonies had upper houses before Federation, and the councils survived as houses of review. The Legislative Assembly is the lower house in both, while 'House of Assembly' is the name used in South Australia and Tasmania.",
+    "hook": "Council above, Assembly below."
+  },
+  {
+    "id": "aus_288",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Greens senator for Western Australia resigned in July 2017 after discovering he was a New Zealand citizen?",
+    "answer": "Scott Ludlam",
+    "distractors": [
+      "Larissa Waters",
+      "Richard Di Natale",
+      "Lee Rhiannon"
+    ],
+    "explanation": "Ludlam, born in Palmerston North, had never renounced his New Zealand citizenship before nominating for the Senate. Days later his colleague Larissa Waters resigned after finding she held Canadian citizenship, and the pair began the 2017 citizenship saga.",
+    "hook": "Born in New Zealand, he went home to Section 44's front door."
+  },
+  {
+    "id": "aus_289",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Commonwealth law-making power did the High Court rely on in 1983 to stop construction of the Tasmanian dam on the Gordon below Franklin scheme?",
+    "answer": "The external affairs power",
+    "distractors": [
+      "The defence power",
+      "The taxation power",
+      "The postal power"
+    ],
+    "explanation": "By 4-3 the court held that Section 51(xxix) allowed the Commonwealth to legislate to carry out treaty obligations, here the World Heritage Convention. The decision hugely widened Canberra's reach over matters that states once saw as their own.",
+    "hook": "Sign a treaty and Canberra gets the power to enforce it."
+  },
+  {
+    "id": "aus_290",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which High Court Chief Justice, in office from 1952 to 1964, famously said that 'strict and complete legalism' was the only safe path for judges?",
+    "answer": "Sir Owen Dixon",
+    "distractors": [
+      "Sir Garfield Barwick",
+      "Sir John Latham",
+      "Sir Harry Gibbs"
+    ],
+    "explanation": "Dixon made the remark at his swearing-in as Chief Justice in 1952. He had sat on the court since 1929 and is widely regarded as the greatest Australian judge, and in 1950, before he became Chief Justice, he helped mediate a dispute between India and Pakistan.",
+    "hook": "Dixon's creed: follow the law, not your feelings."
+  },
+  {
+    "id": "aus_291",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Chief Justice led the High Court when it decided the Mabo case in 1992?",
+    "answer": "Sir Anthony Mason",
+    "distractors": [
+      "Sir Gerard Brennan",
+      "Sir Harry Gibbs",
+      "Sir Garfield Barwick"
+    ],
+    "explanation": "Mason was Chief Justice from 1987 to 1995 and is remembered for a more openly creative approach to the Constitution. Gerard Brennan wrote the leading Mabo judgment and succeeded him as Chief Justice in 1995.",
+    "hook": "Mason ran the court; Brennan wrote the famous judgment and took over later."
+  },
+  {
+    "id": "aus_292",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year did the Australian Electoral Commission begin operating as an independent statutory body?",
+    "answer": "1984",
+    "distractors": [
+      "1974",
+      "1979",
+      "1988"
+    ],
+    "explanation": "Before then federal elections were run by the Commonwealth Electoral Office, which was part of a government department. The 1983 amendments to the Electoral Act created the independent commission, which also draws up boundaries and keeps the electoral roll.",
+    "hook": "The umpire got its own independent whistle in the mid-1980s."
+  },
+  {
+    "id": "aus_293",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which city did the Federal Convention, with elected delegates, first meet in March 1897?",
+    "answer": "Adelaide",
+    "distractors": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "explanation": "Delegates were elected by voters in New South Wales, Victoria, South Australia and Tasmania, and Western Australia sent nominees. Queensland sent no delegates to Adelaide and announced during the Sydney session that it wanted to join. The convention then met in Sydney in late 1897 and Melbourne in 1898 to finish the draft.",
+    "hook": "Adelaide, Sydney, Melbourne: the three stops to the Constitution."
+  },
+  {
+    "id": "aus_294",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Queensland One Nation senator was ruled ineligible by the High Court in October 2017 because he held British citizenship by descent?",
+    "answer": "Malcolm Roberts",
+    "distractors": [
+      "Pauline Hanson",
+      "Brian Burston",
+      "Peter Georgiou"
+    ],
+    "explanation": "The Court of Disputed Returns found that Roberts was still a British citizen when he nominated. His seat went to the next candidate on the One Nation ticket, Fraser Anning, who was later widely condemned for his maiden speech.",
+    "hook": "A British claim through his father put his Senate seat out of reach."
+  },
+  {
+    "id": "aus_295",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Italian-born architect led the design team for the new Parliament House on Capital Hill?",
+    "answer": "Romaldo Giurgola",
+    "distractors": [
+      "Harry Seidler",
+      "Walter Burley Griffin",
+      "Jørn Utzon"
+    ],
+    "explanation": "His firm Mitchell/Giurgola and Thorp won an international design competition in 1979 with a plan that buried the building within the hill, topped by a flagpole. Giurgola later became an Australian citizen and lived in Canberra.",
+    "hook": "The Italian-born architect who built a parliament into a hill."
+  },
+  {
+    "id": "aus_296",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What does Section 92 of the Constitution say trade, commerce and intercourse among the states shall be?",
+    "answer": "Absolutely free",
+    "distractors": [
+      "Equally taxed",
+      "Uniformly regulated",
+      "Strictly licensed"
+    ],
+    "explanation": "For decades the High Court read the clause as a limit on many regulations, and it struck down Chifley's bank nationalisation in 1948. Cole v Whitfield in 1988 settled that it only bans discriminatory protectionism against interstate trade.",
+    "hook": "Two words, absolutely free, caused decades of court cases."
+  },
+  {
+    "id": "aus_297",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Prime Minister led the Coalition to victory in 2013 on the three-word slogan 'Stop the boats'?",
+    "answer": "Tony Abbott",
+    "distractors": [
+      "Malcolm Turnbull",
+      "Scott Morrison",
+      "John Howard"
+    ],
+    "explanation": "Abbott beat Kevin Rudd at the September 2013 election and launched Operation Sovereign Borders within weeks, a military-led response to asylum seeker boat arrivals. He was himself replaced by Malcolm Turnbull in a party room vote in 2015.",
+    "hook": "Three words won the election: stop, the, boats."
+  },
+  {
+    "id": "aus_298",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Prime Minister was criticised for taking a family holiday in Hawaii during the 2019-20 Black Summer bushfires?",
+    "answer": "Scott Morrison",
+    "distractors": [
+      "Tony Abbott",
+      "Malcolm Turnbull",
+      "Anthony Albanese"
+    ],
+    "explanation": "Morrison flew out in December 2019 as fires burned across New South Wales and Victoria, then cut the trip short and apologised. His remark that he did not 'hold a hose, mate' became a lasting symbol of the backlash.",
+    "hook": "Aloha in Hawaii while the bush burned back home."
+  },
+  {
+    "id": "aus_299",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which politician ran a fish and chip shop in Ipswich, Queensland, before winning the federal seat of Oxley in 1996?",
+    "answer": "Pauline Hanson",
+    "distractors": [
+      "Jacqui Lambie",
+      "Bob Katter",
+      "Clive Palmer"
+    ],
+    "explanation": "Hanson was disendorsed by the Liberal Party just before the 1996 election over comments about Indigenous Australians, but her name still appeared as a Liberal on the ballot paper. She won Oxley as an independent and later founded One Nation.",
+    "hook": "Battered fish in Ipswich, then a seat in Parliament."
+  },
+  {
+    "id": "aus_300",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Queensland mining billionaire announced in 2012 that he would build a replica of the Titanic?",
+    "answer": "Clive Palmer",
+    "distractors": [
+      "Gina Rinehart",
+      "Andrew Forrest",
+      "Kerry Stokes"
+    ],
+    "explanation": "Palmer's Titanic II plan was announced through his Blue Star Line company, with a Chinese shipyard named as the builder. He also founded the Palmer United Party in 2013 and won the Queensland seat of Fairfax by 53 votes after a recount.",
+    "hook": "Palmer promised a second Titanic and a second career in politics."
+  },
+  {
+    "id": "aus_301",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Who led Labor to victory over Scott Morrison's Coalition at the May 2022 federal election?",
+    "answer": "Anthony Albanese",
+    "distractors": [
+      "Bill Shorten",
+      "Kevin Rudd",
+      "Chris Bowen"
+    ],
+    "explanation": "Albanese was raised by a single mother in public housing in Camperdown, inner Sydney, and had been a Labor MP for Grayndler since 1996. Labor won with a smaller primary vote than usual, as many seats fell to independents and the Greens.",
+    "hook": "From Camperdown public housing to The Lodge."
+  },
+  {
+    "id": "aus_302",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Prime Minister described the Senate as 'unrepresentative swill'?",
+    "answer": "Paul Keating",
+    "distractors": [
+      "Bob Hawke",
+      "John Howard",
+      "Gough Whitlam"
+    ],
+    "explanation": "Keating was famous for creative insults in Parliament and attacked the Senate often. He was Treasurer under Hawke before taking the leadership in December 1991 and losing to Howard in 1996.",
+    "hook": "Keating never insulted anyone with a plain word when swill would do."
+  },
+  {
+    "id": "aus_303",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who was Treasurer for the entire eleven years of the Howard government?",
+    "answer": "Peter Costello",
+    "distractors": [
+      "Wayne Swan",
+      "Joe Hockey",
+      "Ralph Willis"
+    ],
+    "explanation": "Costello delivered twelve budgets between 1996 and 2007 and was deputy leader of the Liberal Party for most of that time. He famously never challenged Howard for the leadership, and left parliament in 2009.",
+    "hook": "Costello held the purse for the whole Howard era."
+  },
+  {
+    "id": "aus_304",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which 1989 event reduced Bob Hawke to tears on television before he offered Chinese students in Australia permission to stay?",
+    "answer": "The Tiananmen Square massacre",
+    "distractors": [
+      "The Hong Kong handover",
+      "The Sino-Vietnamese War",
+      "The death of Deng Xiaoping"
+    ],
+    "explanation": "Hawke wept at a memorial service at Parliament House in Canberra in June 1989 while describing the crackdown on protesters in Beijing. Tens of thousands of Chinese students were allowed to remain in Australia, and many later became permanent residents.",
+    "hook": "Hawke's tears opened Australia's door to Chinese students."
+  },
+  {
+    "id": "aus_305",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Prime Minister lost office in March 1971 after casting the deciding vote against himself in a tied party room ballot?",
+    "answer": "John Gorton",
+    "distractors": [
+      "William McMahon",
+      "Harold Holt",
+      "Robert Menzies"
+    ],
+    "explanation": "The Liberal party room split 33-33 on a confidence motion, and Gorton declared that a tied vote meant the motion failed, voting against himself. William McMahon then won the leadership and became Prime Minister.",
+    "hook": "Gorton did it his way, even voting himself out."
+  },
+  {
+    "id": "aus_306",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Country Party leader was Prime Minister for just nineteen days in April 1939, after Joseph Lyons died?",
+    "answer": "Earle Page",
+    "distractors": [
+      "Arthur Fadden",
+      "John McEwen",
+      "Doug Anthony"
+    ],
+    "explanation": "Page refused to serve in a coalition under Robert Menzies, so Menzies took office on 26 April 1939 when Page's brief term ended. Page resigned as Country Party leader in September 1939.",
+    "hook": "Nineteen days, then Menzies took over."
+  },
+  {
+    "id": "aus_307",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which future Prime Minister, then a young barrister, acted for former spy Peter Wright in the 1986 Spycatcher trial in Sydney?",
+    "answer": "Malcolm Turnbull",
+    "distractors": [
+      "Tony Abbott",
+      "Kevin Rudd",
+      "Scott Morrison"
+    ],
+    "explanation": "The British government tried to ban Wright's memoir in the New South Wales Supreme Court, and Turnbull's cross-examination of Cabinet Secretary Sir Robert Armstrong made him famous. The government lost the case, and he went on to a career in business before politics.",
+    "hook": "Turnbull took on Thatcher's government and won."
+  },
+  {
+    "id": "aus_308",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Liberal became Australia's first female Foreign Minister in September 2013?",
+    "answer": "Julie Bishop",
+    "distractors": [
+      "Kelly O'Dwyer",
+      "Sophie Mirabella",
+      "Marise Payne"
+    ],
+    "explanation": "Bishop held the portfolio for nearly five years in the Abbott and Turnbull governments, and was deputy leader of the Liberal Party from 2007 to 2018. She later became Chancellor of the Australian National University.",
+    "hook": "First woman to run foreign affairs, with the famous stare."
+  },
+  {
+    "id": "aus_309",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Liberal leader, who lost the 1984 election to Bob Hawke, was nicknamed 'the Colt from Kooyong'?",
+    "answer": "Andrew Peacock",
+    "distractors": [
+      "John Hewson",
+      "Alexander Downer",
+      "John Howard"
+    ],
+    "explanation": "Peacock led the Liberals from 1983 to 1985, and again from 1989 to 1990, losing the 1990 election to Hawke by a narrow margin. He later served as Australia's ambassador to the United States.",
+    "hook": "The colt ran in Kooyong, but never won the big race."
+  },
+  {
+    "id": "aus_310",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which party did Jacqui Lambie represent when she was first elected to the Senate for Tasmania in 2013?",
+    "answer": "Palmer United Party",
+    "distractors": [
+      "Pauline Hanson's One Nation",
+      "Katter's Australian Party",
+      "Family First"
+    ],
+    "explanation": "Lambie resigned from the party in November 2014 and sat as an independent, later forming the Jacqui Lambie Network in 2015. Her election was part of a three-seat Senate breakthrough for the party in 2013.",
+    "hook": "Lambie arrived with Palmer, then left him behind."
+  },
+  {
+    "id": "aus_311",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Bob Brown first rose to national prominence campaigning to save which Tasmanian river from being dammed in 1982-83?",
+    "answer": "Franklin River",
+    "distractors": [
+      "Derwent River",
+      "Tamar River",
+      "Huon River"
+    ],
+    "explanation": "The Franklin Dam blockades saw more than 1,000 people arrested, including Brown, and Hawke's government blocked the dam, a decision upheld by the High Court in 1983. Brown later became the first leader of the Australian Greens in 2005.",
+    "hook": "Save the Franklin: the blockade that grew the Greens."
+  },
+  {
+    "id": "aus_312",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "John Howard grew up in the Sydney suburb of Earlwood, where his family ran what kind of business?",
+    "answer": "A petrol station",
+    "distractors": [
+      "A butcher's shop",
+      "A newsagency",
+      "A hardware store"
+    ],
+    "explanation": "Howard's father and grandfather ran a service station in Earlwood, and young John helped out there. He attended Canterbury Boys' High School and studied law at the University of Sydney before entering parliament in 1974.",
+    "hook": "Howard learned about the public by serving petrol."
+  },
+  {
+    "id": "aus_313",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which Queensland town was Kevin Rudd born in 1957?",
+    "answer": "Nambour",
+    "distractors": [
+      "Maryborough",
+      "Bundaberg",
+      "Gympie"
+    ],
+    "explanation": "Rudd was born in Nambour on the Sunshine Coast hinterland. He grew up on a farm near Eumundi, and his father died when Rudd was 11.",
+    "hook": "From a farm near Nambour to the Lodge."
+  },
+  {
+    "id": "aus_314",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Prime Minister lost his own seat of Flinders at the 1929 federal election?",
+    "answer": "Stanley Bruce",
+    "distractors": [
+      "Joseph Lyons",
+      "Billy Hughes",
+      "James Scullin"
+    ],
+    "explanation": "Bruce was defeated by Labor's Jack Holloway after his plan to abolish federal arbitration failed, and James Scullin became PM. Bruce later regained his seat and served as High Commissioner to London from 1933 to 1945.",
+    "hook": "Bruce attacked arbitration, lost Flinders, and lost the government."
+  },
+  {
+    "id": "aus_315",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "For how many days did Arthur Fadden serve as Prime Minister in 1941?",
+    "answer": "Forty days",
+    "distractors": [
+      "Nineteen days",
+      "Twenty-three days",
+      "Sixty-one days"
+    ],
+    "explanation": "Fadden led the Country Party and took over from Menzies in late August 1941, but his budget was defeated in October and John Curtin took office. Fadden later served as Treasurer under Menzies from 1949 to 1958.",
+    "hook": "Forty days: a short tenure in a crowded war year."
+  },
+  {
+    "id": "aus_316",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which Malaysian city was Penny Wong born in 1968?",
+    "answer": "Kota Kinabalu",
+    "distractors": [
+      "Kuching",
+      "George Town",
+      "Ipoh"
+    ],
+    "explanation": "Wong was born in Sabah, Malaysia, and grew up in Adelaide. She has been a Labor senator for South Australia and has served in federal cabinet.",
+    "hook": "Born in Borneo, raised in Adelaide, and a federal cabinet minister."
+  },
+  {
+    "id": "aus_317",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Kim Beazley senior, father of the later Labor leader, held which portfolio in the Whitlam government?",
+    "answer": "Education",
+    "distractors": [
+      "Defence",
+      "Treasury",
+      "Foreign Affairs"
+    ],
+    "explanation": "Beazley Sr was Minister for Education from 1972 to 1975 and was a key figure in the expansion of federal funding for schools. His son, Kim Beazley Jr, later served as Defence Minister and Labor leader.",
+    "hook": "Father schooled the nation, son defended it."
+  },
+  {
+    "id": "aus_318",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Before entering Parliament in 2007, which union did Bill Shorten serve as national secretary?",
+    "answer": "The Australian Workers' Union",
+    "distractors": [
+      "The CFMEU",
+      "The Transport Workers' Union",
+      "The Manufacturing Workers' Union"
+    ],
+    "explanation": "Shorten led the AWU's Victorian branch from 1998 and became national secretary in 2001. He later led federal Labor from 2013 to 2019 and lost the 'unlosable' 2019 election to Scott Morrison.",
+    "hook": "Shorten came from the AWU, then led Labor into 2019."
+  },
+  {
+    "id": "aus_319",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "How many children, including one who died in infancy, did Joseph and Enid Lyons have?",
+    "answer": "Twelve",
+    "distractors": [
+      "Seven",
+      "Nine",
+      "Fifteen"
+    ],
+    "explanation": "Enid raised the family largely in Devonport while Joe was in politics, then became the first woman to serve in federal cabinet in 1949. She was made a Dame Grand Cross in 1937.",
+    "hook": "A dozen children and two political careers."
+  },
+  {
+    "id": "aus_320",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Melbourne school did Robert Menzies attend as a teenager?",
+    "answer": "Wesley College",
+    "distractors": [
+      "Scotch College",
+      "Melbourne Grammar",
+      "Geelong Grammar"
+    ],
+    "explanation": "Menzies was born in Jeparit in the Wimmera and moved to Melbourne to attend Wesley College before studying law at the University of Melbourne. He was brilliant, winning scholarships, and entered Victorian politics in 1928.",
+    "hook": "From Jeparit to Wesley, then to the top."
+  },
+  {
+    "id": "aus_321",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Who served as Gough Whitlam's first Deputy Prime Minister, in a two-man government sworn in December 1972?",
+    "answer": "Lance Barnard",
+    "distractors": [
+      "Jim Cairns",
+      "Frank Crean",
+      "Lionel Murphy"
+    ],
+    "explanation": "Whitlam and Barnard held every ministry between them for two weeks in December 1972 before the full ministry was chosen. Barnard, a Tasmanian, lost the deputy leadership to Jim Cairns in June 1974 and left parliament in 1975.",
+    "hook": "Two men ran the whole country for fourteen days."
+  },
+  {
+    "id": "aus_322",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Joan Child became the first woman to hold which parliamentary office in 1986?",
+    "answer": "Speaker of the House of Representatives",
+    "distractors": [
+      "President of the Senate",
+      "Clerk of the House",
+      "Leader of the Opposition"
+    ],
+    "explanation": "Child was a Labor MP for the Victorian seat of Henty and held the Speaker's chair until 1989. Margaret Reid became the first woman to be President of the Senate in 1996, and Bronwyn Bishop was Speaker from 2013 to 2015.",
+    "hook": "Joan Child took the chair before Bishop or Reid."
+  },
+  {
+    "id": "aus_323",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which party did Pauline Hanson found in 1997, after the Liberals disendorsed her before the 1996 federal election?",
+    "answer": "One Nation",
+    "distractors": [
+      "Australia First",
+      "Family First",
+      "Palmer United"
+    ],
+    "explanation": "Hanson was dumped as the Liberal candidate for Oxley over comments about Aboriginal people, but her name stayed on the ballot paper and she won the seat anyway. One Nation then won eleven seats at the 1998 Queensland state election.",
+    "hook": "Disendorsed, still on the ballot, still won: Oxley's accidental MP started a party."
+  },
+  {
+    "id": "aus_324",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Norwegian freighter was refused permission to land more than 400 rescued asylum seekers near Christmas Island in August 2001?",
+    "answer": "MV Tampa",
+    "distractors": [
+      "MV Nordic Star",
+      "MV Oslo Voyager",
+      "MV Fjord Queen"
+    ],
+    "explanation": "Prime Minister Howard refused entry, SAS troops boarded the ship, and the people were sent to Nauru under the new 'Pacific Solution'. The stand-off came weeks before the September 11 attacks and the 2001 federal election, which the Coalition won.",
+    "hook": "A ship, a standoff, and an election: the Tampa turned border control into the campaign."
+  },
+  {
+    "id": "aus_325",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which snack sold at school fundraising stalls outside polling places has been dubbed a 'democracy' staple of election day?",
+    "answer": "A sausage in bread",
+    "distractors": [
+      "A meat pie",
+      "A lamington",
+      "A fairy bread slice"
+    ],
+    "explanation": "Voting is compulsory, so polling places draw huge crowds and community groups raise money from the queues. The phrase 'democracy sausage' was named the Australian National Dictionary's word of the year in 2016.",
+    "hook": "Compulsory voting plus a hungry queue equals the sizzle, and the sausage wins the vote."
+  },
+  {
+    "id": "aus_326",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which psephologist became the face of ABC election-night coverage with his computer-modelled seat calls and swing graphics?",
+    "answer": "Antony Green",
+    "distractors": [
+      "Laurie Oakes",
+      "Barrie Cassidy",
+      "Kerry O'Brien"
+    ],
+    "explanation": "Green, who studied mathematics and computing, has been the ABC's election analyst since joining in 1989. He is known for projecting seat results from partial counts well before the official count is finished.",
+    "hook": "When Green says it's over, it's over; the official count just catches up."
+  },
+  {
+    "id": "aus_327",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What was the name of the wage subsidy announced in March 2020 to stop businesses sacking staff during COVID-19 shutdowns?",
+    "answer": "JobKeeper",
+    "distractors": [
+      "JobSeeker",
+      "JobMaker",
+      "JobStart"
+    ],
+    "explanation": "The scheme paid employers a flat fortnightly amount for each eligible worker they kept on, and ran from March 2020 until March 2021. Its first estimate of about $130 billion was revised down to about $70 billion in May 2020, after enrolment forms overstated how many workers would be covered.",
+    "hook": "JobKeeper kept the staff; JobSeeker was for those who'd already lost the job."
+  },
+  {
+    "id": "aus_328",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What colour name was given to the mostly female independents who won affluent Liberal-held seats such as Kooyong and Goldstein in 2022?",
+    "answer": "Teal",
+    "distractors": [
+      "Magenta",
+      "Amber",
+      "Olive"
+    ],
+    "explanation": "The 'teals' ran on climate action, integrity in politics and gender equality, with campaign branding blending Liberal blue and green. Monique Ryan took Kooyong from Treasurer Josh Frydenberg and Zoe Daniel won Goldstein.",
+    "hook": "Liberal blue plus climate green made teal, and it cost the Liberals their heartland."
+  },
+  {
+    "id": "aus_329",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Prime Minister told supporters on election night in May 2019, 'I have always believed in miracles'?",
+    "answer": "Scott Morrison",
+    "distractors": [
+      "Tony Abbott",
+      "Malcolm Turnbull",
+      "Peter Dutton"
+    ],
+    "explanation": "Polls had predicted a Labor win under Bill Shorten, but the Coalition kept government, helped by a strong swing in Queensland.",
+    "hook": "Every poll said Shorten; the 'miracle' was a Queensland swing the polls missed."
+  },
+  {
+    "id": "aus_330",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "What nickname was given to the automated Centrelink income-averaging scheme that a royal commission condemned as unlawful?",
+    "answer": "Robodebt",
+    "distractors": [
+      "Cashbot",
+      "Centrebot",
+      "Autocheck"
+    ],
+    "explanation": "The scheme issued welfare overpayment notices by averaging annual income across fortnights, and people had to prove they did not owe money. The government settled a class action in 2020, and the royal commission reported in July 2023.",
+    "hook": "A robot guessed, citizens paid: the scheme's own nickname says what happened."
+  },
+  {
+    "id": "aus_331",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Premier of Victoria led the state through its long lockdowns and the Melbourne night curfew of 2020?",
+    "answer": "Daniel Andrews",
+    "distractors": [
+      "Gladys Berejiklian",
+      "Mark McGowan",
+      "Annastacia Palaszczuk"
+    ],
+    "explanation": "Melbourne's second wave in mid-2020 brought Stage 4 restrictions, with an 8pm to 5am curfew from August. Andrews gave near-daily press conferences, and was Victoria's longest-serving Labor premier until he resigned in 2023.",
+    "hook": "Daily press conferences, a curfew and a long winter: Melbourne's 2020 belonged to Dan."
+  },
+  {
+    "id": "aus_332",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which international climate agreement did Kevin Rudd ratify in December 2007, ending Australia's isolation among developed nations?",
+    "answer": "The Kyoto Protocol",
+    "distractors": [
+      "The Paris Agreement",
+      "The Montreal Protocol",
+      "The Rio Declaration"
+    ],
+    "explanation": "Ratification was Rudd's first official act as Prime Minister, signed on 3 December 2007 at the Bali climate conference. The Howard government had refused to ratify, leaving the United States as the only other major developed country outside the treaty.",
+    "hook": "First act in office: sign the treaty Howard wouldn't, and leave only America outside."
+  },
+  {
+    "id": "aus_333",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which tiny Pacific nation hosted an offshore processing centre for asylum seekers under Howard's 2001 'Pacific Solution'?",
+    "answer": "Nauru",
+    "distractors": [
+      "Tuvalu",
+      "Kiribati",
+      "Vanuatu"
+    ],
+    "explanation": "The island's detention centre opened in 2001 and received people intercepted at sea, with Papua New Guinea's Manus Island as the second site. Labor closed the centres in 2008, then reopened Nauru and Manus in 2012 under Julia Gillard.",
+    "hook": "Smallest republic, biggest policy: Nauru became Australia's offshore waiting room."
+  },
+  {
+    "id": "aus_334",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which industrial relations laws, passed in 2005 after the Coalition won control of the Senate, put most new agreements outside the award safety net and sparked a union campaign?",
+    "answer": "Work Choices",
+    "distractors": [
+      "Fair Pay",
+      "Workplace Reform Act",
+      "Industrial Freedom Package"
+    ],
+    "explanation": "The laws removed unfair dismissal protection for firms with under 100 staff and weakened the role of the Industrial Relations Commission. The ACTU's 'Your Rights at Work' campaign made the changes unpopular, and Labor repealed them under Rudd and Gillard.",
+    "hook": "Howard finally got the Senate, and the union campaign made him pay for using it."
+  },
+  {
+    "id": "aus_335",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which mining magnate launched a party in 2013 and won the Queensland seat of Fairfax by a handful of votes?",
+    "answer": "Clive Palmer",
+    "distractors": [
+      "Gina Rinehart",
+      "Andrew Forrest",
+      "Kerry Stokes"
+    ],
+    "explanation": "Palmer won Fairfax by 53 votes after a recount. His party also took three Senate seats in 2013, and its senators, including Jacqui Lambie, helped block parts of the 2014 budget before the party disintegrated.",
+    "hook": "Fifty-three votes and a Senate trio: a billionaire's party that fell apart faster than it formed."
+  },
+  {
+    "id": "aus_336",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who succeeded John Cain in 1990 to become Victoria's first female Premier?",
+    "answer": "Joan Kirner",
+    "distractors": [
+      "Carmen Lawrence",
+      "Joan Child",
+      "Rosemary Follett"
+    ],
+    "explanation": "Kirner took over as Victoria struggled with the collapse of the Pyramid building society and the Tricontinental merchant bank. She lost the October 1992 election to Jeff Kennett's Liberals. Carmen Lawrence had become WA Premier a few months earlier.",
+    "hook": "Cain's tired government passed to Kirner, and Kennett took it off her two years later."
+  },
+  {
+    "id": "aus_337",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which scheme, introduced by Education Minister John Dawkins in 1989, let students defer their university charges and repay through the tax system?",
+    "answer": "HECS",
+    "distractors": [
+      "Austudy",
+      "Youth Allowance",
+      "FEE-HELP"
+    ],
+    "explanation": "Whitlam had abolished university fees in 1974, and the Hawke government brought in a charge that students repaid through their tax assessment only once their income passed a threshold. It was extended to HELP in 2005 and remains the model for income-contingent loans.",
+    "hook": "Pay later, once you earn: the tax office became the university's debt collector."
+  },
+  {
+    "id": "aus_338",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What was the name of the military-led border protection operation launched in September 2013 by the Abbott government under the slogan 'stop the boats'?",
+    "answer": "Operation Sovereign Borders",
+    "distractors": [
+      "Operation Relex",
+      "Operation Southern Cross",
+      "Operation Safe Passage"
+    ],
+    "explanation": "The operation was run by a three-star military commander and included turning back vessels at sea where safe, along with offshore processing. Operation Relex was the earlier naval operation under the Howard government in 2001.",
+    "hook": "Three words on a slogan, three stars on the commander, and no more boats."
+  },
+  {
+    "id": "aus_339",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "The 2011 Gonski review, commissioned by the Gillard government, recommended needs-based funding for which part of the education system?",
+    "answer": "Schools",
+    "distractors": [
+      "Universities",
+      "TAFE colleges",
+      "Childcare centres"
+    ],
+    "explanation": "David Gonski's panel found that students from disadvantaged backgrounds were falling behind and recommended a single funding standard with extra loadings. Parliament passed the Australian Education Act in June 2013 to put a version of it into law, and a second Gonski review followed under Turnbull in 2018.",
+    "hook": "Gonski's idea: money follows need, not postcode."
+  },
+  {
+    "id": "aus_340",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which company's wheat-export kickbacks to Saddam Hussein's Iraq were investigated by the Cole inquiry in 2006?",
+    "answer": "AWB",
+    "distractors": [
+      "GrainCorp",
+      "Elders",
+      "Cargill Australia"
+    ],
+    "explanation": "The company, formerly the Australian Wheat Board, paid hundreds of millions of dollars to Iraq via a trucking company during the UN oil-for-food program. Commissioner Terence Cole criticised the company and some of its executives, but did not find Howard government ministers at fault.",
+    "hook": "Wheat for oil, with kickbacks in the trucking bill: the Cole inquiry followed the money."
+  },
+  {
+    "id": "aus_341",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Who succeeded Joh Bjelke-Petersen as Queensland Premier in December 1987, after his own party turned on him?",
+    "answer": "Mike Ahern",
+    "distractors": [
+      "Russell Cooper",
+      "Rob Borbidge",
+      "Peter Beattie"
+    ],
+    "explanation": "The 'Joh for Canberra' campaign earlier that year had split the conservatives and helped hand Hawke a third term. Cabinet and the party room finally forced Joh out, and Ahern in turn lost the leadership to Russell Cooper in 1989.",
+    "hook": "Joh went for Canberra, his party turned on him, and Ahern got the keys."
+  },
+  {
+    "id": "aus_342",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Treasury official's fabricated email in 2009 triggered the 'Utegate' scandal and damaged Opposition Leader Malcolm Turnbull?",
+    "answer": "Godwin Grech",
+    "distractors": [
+      "Ken Henry",
+      "Martin Parkinson",
+      "John Grant"
+    ],
+    "explanation": "Turnbull accused Rudd and Treasurer Wayne Swan of favouring Brisbane car dealer John Grant after relying on the email. The Federal Police found it had been fabricated, and Turnbull lost the Liberal leadership to Tony Abbott by a single vote that December.",
+    "hook": "One faked email, and Turnbull was out as Liberal leader before the year was done."
+  },
+  {
+    "id": "aus_343",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Speaker of the House of Representatives stepped down in October 2012 after allegations by a former staffer, James Ashby?",
+    "answer": "Peter Slipper",
+    "distractors": [
+      "Harry Jenkins",
+      "Bronwyn Bishop",
+      "Anna Burke"
+    ],
+    "explanation": "Slipper was a former Liberal who became Speaker in 2011 with the support of Labor and the crossbench, replacing Harry Jenkins. The episode weakened Gillard's minority government, and Anna Burke was elected Speaker in his place.",
+    "hook": "A Liberal in the Speaker's chair, kept there by Labor: the arrangement didn't last the year."
+  },
+  {
+    "id": "aus_344",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Nationals minister resigned from cabinet in February 2020 over the colour-coded spreadsheet used to hand out community sports grants?",
+    "answer": "Bridget McKenzie",
+    "distractors": [
+      "Barnaby Joyce",
+      "Michael McCormack",
+      "Fiona Nash"
+    ],
+    "explanation": "An Auditor-General report found the grant program favoured marginal and targeted seats. McKenzie resigned for failing to declare her membership of a gun club that received a grant, but remained a Nationals senator.",
+    "hook": "A spreadsheet colour-coded by seat: the rorts report, and the minister's resignation."
+  },
+  {
+    "id": "aus_345",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What was the margin in the December 1991 Labor caucus ballot in which Paul Keating toppled Bob Hawke?",
+    "answer": "56 votes to 51",
+    "distractors": [
+      "58 votes to 49",
+      "54 votes to 53",
+      "60 votes to 47"
+    ],
+    "explanation": "Keating had lost a challenge to Hawke in June 1991, stayed on as Treasurer, then challenged again once Labor's polling slumped. He became Prime Minister on 20 December 1991 and won the 1993 election against John Hewson.",
+    "hook": "Five votes ended Hawke: 56 to 51 in the Caucus room."
+  },
+  {
+    "id": "aus_346",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "After the Port Arthur massacre, the Howard government paid for its national firearms buyback with a one-off rise in which levy?",
+    "answer": "The Medicare levy",
+    "distractors": [
+      "The fuel excise",
+      "The wholesale sales tax",
+      "The luxury car tax"
+    ],
+    "explanation": "The 1996-97 increase of 0.2 percentage points raised several hundred million dollars to compensate owners who surrendered prohibited semi-automatic and pump-action guns. More than 600,000 firearms were handed in and destroyed.",
+    "hook": "A one-off tax tweak bought back more than half a million guns."
+  },
+  {
+    "id": "aus_347",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Greens candidate won the seat of Melbourne in 2010, the party's first lower-house victory at a general election?",
+    "answer": "Adam Bandt",
+    "distractors": [
+      "Bob Brown",
+      "Richard Di Natale",
+      "Christine Milne"
+    ],
+    "explanation": "Bandt won the seat after Labor's Lindsay Tanner retired, helped by Liberal preferences. The Greens had earlier won Cunningham at a 2002 by-election through Michael Organ, but Bandt was the first to win a seat at a general election.",
+    "hook": "Melbourne went Green in 2010, with Labor's retirement and Liberal preferences doing the lifting."
+  },
+  {
+    "id": "aus_348",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which year did federal Parliament pass the Native Title Act?",
+    "answer": "1993",
+    "distractors": [
+      "1990",
+      "1995",
+      "1999"
+    ],
+    "explanation": "The Keating government passed the Act in December 1993, after negotiating with Indigenous leaders, and it created the National Native Title Tribunal to hear claims. It was later amended in 1998 under John Howard's Ten Point Plan after the Wik decision.",
+    "hook": "The Act followed the court's ruling by a year: '92 the judgment, '93 the law."
+  },
+  {
+    "id": "aus_349",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which year did climbing Uluru become permanently banned?",
+    "answer": "2019",
+    "distractors": [
+      "2012",
+      "2016",
+      "2022"
+    ],
+    "explanation": "The ban took effect on 26 October 2019, the 34th anniversary of the handback. The park board had voted for it two years earlier, saying the climb was a sacred route for the Anangu and unsafe for visitors.",
+    "hook": "The last climbers went up in the final days of 2019's October, exactly 34 years after the handback."
+  },
+  {
+    "id": "aus_350",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which animal did the Gunditjmara farm using stone channels and ponds at Budj Bim in south-west Victoria?",
+    "answer": "Eels",
+    "distractors": [
+      "Mullet",
+      "Yabbies",
+      "Barramundi"
+    ],
+    "explanation": "The Gunditjmara engineered channels and weirs across lava flows to trap and smoke short-finned eels, and some of the system is thousands of years old. Budj Bim was World Heritage listed in 2019.",
+    "hook": "Budj Bim's lava made the channels and the Gunditjmara made the eel farm."
+  },
+  {
+    "id": "aus_351",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "The Arrernte people are the traditional owners of the country around which Central Australian town?",
+    "answer": "Alice Springs",
+    "distractors": [
+      "Tennant Creek",
+      "Katherine",
+      "Coober Pedy"
+    ],
+    "explanation": "Alice Springs is known to the Arrernte as Mparntwe, and the Arrernte language has several dialects.",
+    "hook": "Alice Springs is Mparntwe first: the town sits on Arrernte country."
+  },
+  {
+    "id": "aus_352",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "The Yolngu people live in which region of the Northern Territory?",
+    "answer": "Arnhem Land",
+    "distractors": [
+      "The Barkly Tableland",
+      "The Tanami Desert",
+      "The Victoria River District"
+    ],
+    "explanation": "Yolngu, meaning 'people', live across north-east Arnhem Land in communities such as Yirrkala and Galiwin'ku. The band Yothu Yindi, led by Mandawuy Yunupingu, brought Yolngu Matha lyrics into the pop charts with 'Treaty' in 1991.",
+    "hook": "Arnhem Land is Yolngu country, and Yothu Yindi's 'Treaty' carried Yolngu Matha onto the charts."
+  },
+  {
+    "id": "aus_353",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Perth sits on the traditional country of which Aboriginal people?",
+    "answer": "The Noongar",
+    "distractors": [
+      "The Wiradjuri",
+      "The Yolngu",
+      "The Palawa"
+    ],
+    "explanation": "The Noongar homelands cover the whole south-west corner of Western Australia, and Perth is Whadjuk Noongar country. The South West Native Title Settlement between the Noongar people and the WA government covers this region.",
+    "hook": "Noongar country is the whole south-west corner, not just Perth."
+  },
+  {
+    "id": "aus_354",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which AFL club did two-time Brownlow medallist Adam Goodes play his entire career with?",
+    "answer": "Sydney",
+    "distractors": [
+      "Essendon",
+      "Collingwood",
+      "Richmond"
+    ],
+    "explanation": "Goodes played 372 games for the Swans between 1999 and 2015, won premierships in 2005 and 2012 and was named Australian of the Year in 2014. His Brownlow Medals came in 2003 and 2006.",
+    "hook": "Goodes: 372 games, one club, two Brownlows, two flags."
+  },
+  {
+    "id": "aus_355",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which month is NAIDOC Week normally held?",
+    "answer": "July",
+    "distractors": [
+      "February",
+      "May",
+      "October"
+    ],
+    "explanation": "The week grew out of Aboriginal protests such as the 1938 Day of Mourning, and the name stands for National Aborigines and Islanders Day Observance Committee. It celebrates the history, culture and achievements of Aboriginal and Torres Strait Islander peoples.",
+    "hook": "NAIDOC in the heart of winter: first full week of July."
+  },
+  {
+    "id": "aus_356",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Prime Minister's government passed the Aboriginal Land Rights (Northern Territory) Act in 1976?",
+    "answer": "Malcolm Fraser",
+    "distractors": [
+      "Gough Whitlam",
+      "Bob Hawke",
+      "Harold Holt"
+    ],
+    "explanation": "Whitlam's bill lapsed with the 1975 dismissal, so the Fraser government passed the Act in December 1976. It gave Aboriginal people freehold title to former reserves in the Territory, and Aboriginal land trusts now hold title to a large share of the Territory's land.",
+    "hook": "Whitlam drafted it, Fraser delivered it: a Liberal government finished Labor's land rights law."
+  },
+  {
+    "id": "aus_357",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Geologist Jim Bowler found 'Mungo Lady' at Lake Mungo, among the world's oldest known examples of which funeral practice?",
+    "answer": "Cremation",
+    "distractors": [
+      "Sky burial",
+      "Mummification",
+      "Boat burial"
+    ],
+    "explanation": "Her bones had been burnt, crushed and buried, some 40,000 years ago. Mungo Man, found nearby in 1974, was buried with his hands crossed and his body covered in ochre, and his remains were returned to Willandra Lakes country in 2017.",
+    "hook": "Mungo Lady was cremated around 40,000 years ago, among the oldest known cremations in the world."
+  },
+  {
+    "id": "aus_358",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Neville Bonner, the first Indigenous member of federal parliament, represented which state in the Senate from 1971?",
+    "answer": "Queensland",
+    "distractors": [
+      "New South Wales",
+      "South Australia",
+      "Western Australia"
+    ],
+    "explanation": "Bonner, a Bundjalung man, was chosen by the Queensland parliament to fill a casual vacancy and sat for the Liberals until 1983. He lost his seat that year as an independent after being dropped from the Liberal ticket.",
+    "hook": "Bundjalung man, Queensland senator, first through the door in 1971."
+  },
+  {
+    "id": "aus_359",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Jack Patten and William Ferguson helped organise a 1938 Day of Mourning as the colony's settlers marked how many years since the First Fleet?",
+    "answer": "150 years",
+    "distractors": [
+      "100 years",
+      "125 years",
+      "175 years"
+    ],
+    "explanation": "Around 100 Aboriginal people met at Australian Hall in Sydney on 26 January 1938 and demanded full citizenship and equal rights, while the rest of the city celebrated the sesquicentenary. The Aborigines Progressive Association, which they founded in 1937, ran the protest.",
+    "hook": "1788 plus 150 is 1938: while Sydney partied, Aboriginal people mourned."
+  },
+  {
+    "id": "aus_360",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In 1939 residents of Cummeragunja Aboriginal Station walked off in protest at conditions, crossing which river into Victoria?",
+    "answer": "The Murray",
+    "distractors": [
+      "The Goulburn",
+      "The Murrumbidgee",
+      "The Darling"
+    ],
+    "explanation": "Residents left the New South Wales station in February 1939 over harsh management, poor rations and rules that kept families under control. William Cooper and Doug Nicholls had both lived there.",
+    "hook": "Cummeragunja people crossed the Murray from NSW into Victoria in a 1939 walk-off over conditions."
+  },
+  {
+    "id": "aus_361",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which settlement was placed under martial law in 1824 during the Wiradjuri resistance led by Windradyne?",
+    "answer": "Bathurst",
+    "distractors": [
+      "Goulburn",
+      "Camden",
+      "Wollongong"
+    ],
+    "explanation": "Governor Brisbane declared martial law in August 1824 after fighting and killings around the new settlement of Bathurst. Windradyne was the Wiradjuri leader at the centre of that resistance.",
+    "hook": "Windradyne's resistance around Bathurst brought martial law to the town in 1824."
+  },
+  {
+    "id": "aus_362",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which region of Western Australia did the 1926 Forrest River massacre take place?",
+    "answer": "The Kimberley",
+    "distractors": [
+      "The Pilbara",
+      "The Goldfields",
+      "The Gascoyne"
+    ],
+    "explanation": "Police and settlers shot Aboriginal people in 1926, and the missionary Ernest Gribble publicised the killings.",
+    "hook": "A missionary blew the whistle on a 1926 massacre in Western Australia."
+  },
+  {
+    "id": "aus_363",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "The Howard government launched the Northern Territory Intervention in 2007 after which report on child abuse in Aboriginal communities?",
+    "answer": "Little Children Are Sacred",
+    "distractors": [
+      "Our Children Are Precious",
+      "Hidden Harm in the Bush",
+      "Breaking the Silence"
+    ],
+    "explanation": "The report was written by Rex Wild and Pat Anderson for the Territory government. Mal Brough's emergency response in August 2007 sent in the army and suspended the Racial Discrimination Act for the measures.",
+    "hook": "The report said 'sacred' and the Intervention sent in soldiers."
+  },
+  {
+    "id": "aus_364",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Noel Pearson gave a eulogy at the 2014 state memorial service in Sydney for which former Prime Minister?",
+    "answer": "Gough Whitlam",
+    "distractors": [
+      "Malcolm Fraser",
+      "Bob Hawke",
+      "Paul Keating"
+    ],
+    "explanation": "Pearson, a Guugu Yimithirr man from Hope Vale and founder of the Cape York Institute, spoke at Sydney Town Hall in 2014. Whitlam commissioned the Woodward inquiry that led to land rights, and in 1975 he handed back Gurindji land at Wave Hill.",
+    "hook": "Pearson spoke for Whitlam in 2014, a leader whose 1975 land gesture mattered to him."
+  },
+  {
+    "id": "aus_365",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Patrick Dodson, former chair of the Council for Aboriginal Reconciliation, entered federal parliament in 2016 as a senator for which state?",
+    "answer": "Western Australia",
+    "distractors": [
+      "Queensland",
+      "South Australia",
+      "Victoria"
+    ],
+    "explanation": "Dodson, a Yawuru man from Broome, was appointed to fill a Labor casual Senate vacancy. Earlier in life he was a Catholic priest, one of the first Aboriginal men ordained as a Catholic priest in Australia.",
+    "hook": "Broome-born Dodson went from priest to reconciliation chair to a Western Australian Senate seat."
+  },
+  {
+    "id": "aus_366",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In many Aboriginal Dreaming stories, the Seven Sisters fleeing across the land become which star cluster?",
+    "answer": "The Pleiades",
+    "distractors": [
+      "The Southern Cross",
+      "The Magellanic Clouds",
+      "The Jewel Box"
+    ],
+    "explanation": "The story is told by many language groups across the Western and Central Deserts, and its songline stretches across much of the country from Western Australia into South Australia. In many versions the pursuer, Wati Nyiru, is linked with the stars of Orion.",
+    "hook": "Seven sisters, seven stars: the Pleiades are a family on the run."
+  },
+  {
+    "id": "aus_367",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Charles Perkins in 1966 became the first Aboriginal man to graduate from which university?",
+    "answer": "University of Sydney",
+    "distractors": [
+      "University of Melbourne",
+      "University of Adelaide",
+      "University of Queensland"
+    ],
+    "explanation": "Perkins graduated with a Bachelor of Arts from the University of Sydney. In 1984 he became the first Aboriginal person to head a Commonwealth department, the Department of Aboriginal Affairs.",
+    "hook": "Perkins studied at Sydney, then led the 1965 Freedom Ride through the towns of country New South Wales."
+  },
+  {
+    "id": "aus_368",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Who designed the Torres Strait Islander flag, adopted by the Island Coordinating Council in 1992?",
+    "answer": "Bernard Namok",
+    "distractors": [
+      "Eddie Mabo",
+      "Getano Lui",
+      "George Mye"
+    ],
+    "explanation": "Namok's design has green for the land, blue for the sea and black for the people, with a white dhari headdress and a five-pointed star. It was recognised as an official flag of Australia, alongside the Aboriginal flag, in 1995.",
+    "hook": "Green land, blue sea, black people, white star: Namok made the Torres Strait flag."
+  },
+  {
+    "id": "aus_369",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year was Lowitja O'Donoghue, who was removed from her family as a child, named Australian of the Year?",
+    "answer": "1984",
+    "distractors": [
+      "1978",
+      "1990",
+      "1996"
+    ],
+    "explanation": "O'Donoghue trained as a nurse at the Royal Adelaide Hospital and became one of the best-known Aboriginal leaders of her generation. The Lowitja Institute, the national institute for Aboriginal and Torres Strait Islander health research, is named after her.",
+    "hook": "Orwell's year, Lowitja's year: she was Australian of the Year in 1984."
+  },
+  {
+    "id": "aus_370",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In December 1938 William Cooper led a march through Melbourne to which country's consulate to protest the November pogrom against Jews?",
+    "answer": "Germany",
+    "distractors": [
+      "Italy",
+      "Japan",
+      "Soviet Union"
+    ],
+    "explanation": "Cooper, a Yorta Yorta man, walked from Footscray with a delegation to deliver a petition, and the consulate refused to accept it. He had also gathered signatures for a petition to King George VI seeking Aboriginal representation in parliament.",
+    "hook": "Cooper walked miles to say what the world's governments had not."
+  },
+  {
+    "id": "aus_371",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "To whom in England was the preserved head of the Bidjigal warrior Pemulwuy sent after his death in 1802?",
+    "answer": "Joseph Banks",
+    "distractors": [
+      "Matthew Flinders",
+      "Robert Brown",
+      "Richard Owen"
+    ],
+    "explanation": "Governor Philip Gidley King sent the head, preserved in spirits, to Banks, who had sailed with Cook. Pemulwuy had led resistance around Parramatta and the Hawkesbury since 1788, and his son Tedbury continued the fight.",
+    "hook": "The governor sent the head to Banks: the botanist who sailed with Cook and landed at Botany Bay."
+  },
+  {
+    "id": "aus_372",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which colony passed Australia's first Aboriginal protection legislation in 1869?",
+    "answer": "Victoria",
+    "distractors": [
+      "New South Wales",
+      "Queensland",
+      "Western Australia"
+    ],
+    "explanation": "The Victorian Act created a Board for the Protection of Aborigines with sweeping control over where Aboriginal people lived and worked. Queensland followed in 1897 and Western Australia in 1905, and an 1886 Victorian amendment pushed people of mixed descent off the stations.",
+    "hook": "Victoria went first with protection laws, and protection really meant control."
+  },
+  {
+    "id": "aus_373",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "From which Western Australian settlement did Molly, Daisy and Gracie escape in 1931 to follow the rabbit-proof fence home?",
+    "answer": "Moore River Native Settlement",
+    "distractors": [
+      "Carrolup Native Settlement",
+      "Cosmo Newbery Mission",
+      "Roelands Mission"
+    ],
+    "explanation": "The girls were taken from Jigalong under the Aborigines Act and Chief Protector A.O. Neville's policy. Molly and Daisy reached home, while Gracie was recaptured; Molly's daughter Doris Pilkington Garimara later wrote the book 'Follow the Rabbit-Proof Fence'.",
+    "hook": "Moore River was the place they fled, Jigalong the place they reached."
+  },
+  {
+    "id": "aus_374",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year were Truganini's remains cremated and her ashes scattered in the D'Entrecasteaux Channel, as she had wished?",
+    "answer": "1976",
+    "distractors": [
+      "1947",
+      "1966",
+      "1988"
+    ],
+    "explanation": "Truganini died in 1876 and feared her body would be dissected, but her skeleton was exhumed and displayed at the Tasmanian Museum until 1947. The idea that she was the last Tasmanian Aboriginal person is wrong: the palawa community survives through other families.",
+    "hook": "She died in 1876 and found rest in 1976: a century of waiting."
+  },
+  {
+    "id": "aus_375",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Aboriginal and Torres Strait Islander Social Justice Commissioner's 2005 report called for health equality for Indigenous Australians within 25 years?",
+    "answer": "Tom Calma",
+    "distractors": [
+      "Mick Dodson",
+      "Mick Gooda",
+      "Noel Pearson"
+    ],
+    "explanation": "Calma, a Kungarakan and Iwaidja man, helped inspire the Close the Gap campaign launched in 2006. In 2008 the Council of Australian Governments adopted Closing the Gap targets, the first of which was to close the life expectancy gap within a generation.",
+    "hook": "Calma's 2005 report set the health-equality goal that the Close the Gap campaign took up."
+  },
+  {
+    "id": "aus_376",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which bugle call is sounded at dawn services and Remembrance Day ceremonies just before the minute's silence?",
+    "answer": "The Last Post",
+    "distractors": [
+      "Reveille",
+      "The Rouse",
+      "Lights Out"
+    ],
+    "explanation": "The call was traditionally played at the end of the day in army camps to signal that the sentries were posted. At commemorations it marks the end of a soldier's service, and is followed by the silence and then Reveille or the Rouse.",
+    "hook": "The bugle call that closes the day in camp is also played to honour the fallen."
+  },
+  {
+    "id": "aus_377",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which gambling game, in which a 'spinner' tosses coins from a small wooden paddle called a kip, is legally played in pubs and clubs on Anzac Day in most states?",
+    "answer": "Two-up",
+    "distractors": [
+      "Crown and Anchor",
+      "Pontoon",
+      "Keno"
+    ],
+    "explanation": "Soldiers played it on troopships and trenches during the First World War, and bettors wager on whether both coins land heads or tails. The Anzac Day exemption from gaming laws is a living tradition that links modern crowds to the soldiers of 1915.",
+    "hook": "Once a year the law looks the other way and the pennies fly."
+  },
+  {
+    "id": "aus_378",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which 96-kilometre jungle path over the Owen Stanley Range in Papua New Guinea was the scene of Australia's 1942 campaign against Japan's advance on Port Moresby?",
+    "answer": "The Kokoda Track",
+    "distractors": [
+      "The Black Cat Track",
+      "The Bulldog Track",
+      "The Mount Hagen Trail"
+    ],
+    "explanation": "Australian militia and then AIF troops fought a fighting retreat along the track from July to September 1942, then pushed the Japanese back over the range to the north coast, where the Buna-Gona fighting ran until January 1943. Many soldiers were lost to disease, exhaustion and the terrain as much as to combat.",
+    "hook": "A narrow, muddy track that stopped an invasion before Port Moresby."
+  },
+  {
+    "id": "aus_379",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which area of eastern Singapore became the main prison camp for Australian soldiers captured when the island fell in February 1942?",
+    "answer": "Changi",
+    "distractors": [
+      "Sentosa",
+      "Jurong",
+      "Pulau Ubin"
+    ],
+    "explanation": "About 15,000 Australians were taken prisoner at Singapore, and thousands were held at Changi before being sent to work camps such as the Burma-Thailand Railway. The Changi name became shorthand for the wider captivity experience of Australian prisoners of the Japanese.",
+    "hook": "Singapore fell on 15 February 1942, and Changi became a name for captivity."
+  },
+  {
+    "id": "aus_380",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Victorian surgeon is the best-known Australian prisoner of war leader on the Burma-Thailand Railway?",
+    "answer": "Sir Edward Dunlop",
+    "distractors": [
+      "Sir Thomas Blamey",
+      "Leslie Morshead",
+      "Stanley Savige"
+    ],
+    "explanation": "Born at Wangaratta, Dunlop commanded a prisoner force on the railway and used his medical skill and authority to protect sick men from brutality. He was knighted in 1969 and became a national symbol of courage and compassion.",
+    "hook": "A surgeon who put the sick prisoners first, even when facing the guards."
+  },
+  {
+    "id": "aus_381",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which 1966 Vietnam battle did Delta Company of 6RAR hold off a far larger enemy force in a rubber plantation?",
+    "answer": "Long Tan",
+    "distractors": [
+      "Binh Ba",
+      "Nui Dat",
+      "Coral"
+    ],
+    "explanation": "On 18 August 1966, about 108 Australians fought through monsoon rain against an enemy force of more than 2,000. Eighteen Australians were killed, and artillery fire from the nearby base was vital in saving the survivors.",
+    "hook": "Rain, rubber trees and one hundred men against thousands."
+  },
+  {
+    "id": "aus_382",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "At what time on 11 November is the national minute's silence observed in Australia on Remembrance Day?",
+    "answer": "11 am",
+    "distractors": [
+      "6 am",
+      "Noon",
+      "3 pm"
+    ],
+    "explanation": "The time recalls the armistice that ended fighting on the Western Front in 1918, which took effect at the eleventh hour of the eleventh day of the eleventh month. The silence was first observed in Australia in 1919.",
+    "hook": "Eleventh hour of the eleventh day: 11 am on 11 November."
+  },
+  {
+    "id": "aus_383",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Who was the first Australian to win the Victoria Cross in the First World War, for holding a trench at Courtney's Post at Gallipoli in May 1915?",
+    "answer": "Albert Jacka",
+    "distractors": [
+      "Harry Murray",
+      "Hugo Throssell",
+      "Percy Cherry"
+    ],
+    "explanation": "Jacka single-handedly killed several Turkish soldiers who had broken into the trench on 19 May 1915. He later won a Military Cross and bar on the Western Front.",
+    "hook": "First Australian VC of the war, won on his own in a trench."
+  },
+  {
+    "id": "aus_384",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Labor leader, campaigning for the 1914 election, promised to defend Britain 'to our last man and our last shilling'?",
+    "answer": "Andrew Fisher",
+    "distractors": [
+      "Joseph Cook",
+      "Billy Hughes",
+      "Alfred Deakin"
+    ],
+    "explanation": "Fisher spoke at Colac in Victoria on 31 July 1914, days before war was declared. Joseph Cook was Prime Minister when war began, but Fisher's Labor Party won the September 1914 election and he returned to the Prime Ministership.",
+    "hook": "The opposition leader out-pledged the Prime Minister on loyalty to Britain."
+  },
+  {
+    "id": "aus_385",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which German light cruiser was destroyed by HMAS Sydney off the Cocos Islands in November 1914?",
+    "answer": "SMS Emden",
+    "distractors": [
+      "SMS Scharnhorst",
+      "SMS Konigsberg",
+      "SMS Dresden"
+    ],
+    "explanation": "The Emden had sunk or captured more than twenty Allied ships in the Indian Ocean. On 9 November 1914, Captain John Glossop's Sydney destroyed her off the Cocos Islands, the first single-ship action fought by the Royal Australian Navy.",
+    "hook": "The young Australian navy won a one-on-one duel against the raider that terrorised the Indian Ocean."
+  },
+  {
+    "id": "aus_386",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which French town did Australian troops retake from the Germans in a night counter-attack on 24-25 April 1918, exactly three years after the Gallipoli landing?",
+    "answer": "Villers-Bretonneux",
+    "distractors": [
+      "Pozieres",
+      "Bullecourt",
+      "Amiens"
+    ],
+    "explanation": "The Germans had captured it using tanks, and Australian brigades surrounded it in a night attack. The town is now twinned with Robinvale in Victoria, and a school there carries the words 'Do not forget Australia'.",
+    "hook": "Anzac Day 1918: the Diggers saved the road to Amiens."
+  },
+  {
+    "id": "aus_387",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "At which Ottoman-held town did the 4th Light Horse Brigade charge across open ground at dusk on 31 October 1917?",
+    "answer": "Beersheba",
+    "distractors": [
+      "Gaza",
+      "Romani",
+      "Magdhaba"
+    ],
+    "explanation": "Horsemen of the 4th Light Horse Brigade galloped at the trenches, using bayonets as swords, to seize the town's wells before dark. The victory opened the Ottoman line in Palestine, and the charge is remembered as one of the last great cavalry charges in history.",
+    "hook": "Wells before dark: horsemen won the water, and the line collapsed."
+  },
+  {
+    "id": "aus_388",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which battle of 19-20 July 1916 cost the 5th Australian Division more than 5,500 casualties in a single night, and is often called the worst night in Australian military history?",
+    "answer": "Fromelles",
+    "distractors": [
+      "Messines",
+      "Bullecourt",
+      "Mont St Quentin"
+    ],
+    "explanation": "The attack was a diversion meant to hold German troops away from the Somme, but it was poorly planned and failed. In 2008, a mass grave of Australian and British soldiers was found behind the German line, and a new cemetery opened in 2010.",
+    "hook": "A diversion meant to hold German troops away from the Somme ended in disaster in one night."
+  },
+  {
+    "id": "aus_389",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Somme village, captured in July 1916, cost Australians around 23,000 casualties in under seven weeks, including the fighting at Mouquet Farm?",
+    "answer": "Pozieres",
+    "distractors": [
+      "Fromelles",
+      "Passchendaele",
+      "Hamel"
+    ],
+    "explanation": "Charles Bean wrote that the ridge was 'more densely sown with Australian sacrifice than any other place on earth'. The fighting there pushed the Australian conscription debate to a head after the losses at home became known.",
+    "hook": "One ridge, seven weeks, 23,000 casualties."
+  },
+  {
+    "id": "aus_390",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "At which Belgian village did the 1917 Third Ypres offensive end in a sea of mud, after Australians fought at Polygon Wood and Broodseinde?",
+    "answer": "Passchendaele",
+    "distractors": [
+      "Vimy Ridge",
+      "Hamel",
+      "Villers-Bretonneux"
+    ],
+    "explanation": "Australian divisions suffered tens of thousands of casualties in the Ypres battles of September and October 1917. Canadian troops took the ruins of the village itself in November, and the name has come to stand for the futility and mud of the war.",
+    "hook": "The Australians fought through it, but Canadians held the village at last."
+  },
+  {
+    "id": "aus_391",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Libyan port did the Australian 9th Division hold against a siege by Rommel's Afrika Korps from April 1941, earning its defenders a rodent nickname?",
+    "answer": "Tobruk",
+    "distractors": [
+      "Benghazi",
+      "Alexandria",
+      "Mersa Matruh"
+    ],
+    "explanation": "The defenders lived in dugouts and caves, and endured air raids and shortages while the Germans bypassed the port. The Australians were relieved in the second half of 1941, and later the 9th Division fought at El Alamein.",
+    "hook": "Hold the harbour, ignore the bombs, and wear the insult with pride."
+  },
+  {
+    "id": "aus_392",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Australian Army nurse was the only survivor of the massacre of her colleagues on Bangka Island in February 1942?",
+    "answer": "Vivian Bullwinkel",
+    "distractors": [
+      "Betty Jeffrey",
+      "Elizabeth Kenny",
+      "Nancy Wake"
+    ],
+    "explanation": "Japanese soldiers shot 21 nurses on Radji Beach after their ship was sunk. Bullwinkel, wounded, hid for twelve days before surrendering, spent the rest of the war as a prisoner, and gave evidence at a Tokyo war crimes trial in 1947.",
+    "hook": "A wounded nurse left alone on the beach who lived to testify."
+  },
+  {
+    "id": "aus_393",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which small former Japanese fishing vessel carried Z Special Unit commandos to Singapore Harbour for the 1943 raid on Japanese shipping?",
+    "answer": "MV Krait",
+    "distractors": [
+      "HMAS Voyager",
+      "MV Kanimbla",
+      "HMAS Perth"
+    ],
+    "explanation": "In September 1943, 14 men paddled folding canoes into the harbour and placed limpet mines on ships, then escaped without loss. The Krait is preserved at the Australian National Maritime Museum, though the 1944 sequel raid, Operation Rimau, ended in disaster.",
+    "hook": "A tiny fishing boat sailed a long way to sink a lot of ships."
+  },
+  {
+    "id": "aus_394",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What name did Australian soldiers give to the Papuan carriers who helped evacuate their wounded over the Owen Stanley Range in 1942?",
+    "answer": "The Fuzzy Wuzzy Angels",
+    "distractors": [
+      "The Coastwatchers",
+      "The Papuan Infantry Battalion",
+      "The Kokoda Irregulars"
+    ],
+    "explanation": "The name comes from a poem by Bert Beros, a sapper with the Royal Australian Engineers on the Kokoda Track, which honoured the Papuan carriers who evacuated wounded soldiers from the Owen Stanley Ranges. Kipling's older poem 'Fuzzy-Wuzzy', about Sudanese fighters, was the source of the earlier phrase.",
+    "hook": "Gentle hands and great strength carried the wounded home."
+  },
+  {
+    "id": "aus_395",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which irregular unit, raised in 1901 in the northern Transvaal, was Lieutenant Harry Morant serving when he was court-martialled and shot in February 1902?",
+    "answer": "Bushveldt Carbineers",
+    "distractors": [
+      "Lumsden's Horse",
+      "Imperial Light Horse",
+      "Thorneycroft's Mounted Infantry"
+    ],
+    "explanation": "Morant and Peter Handcock were convicted of killing prisoners, and were executed in Pretoria on 27 February 1902. A third man, George Witton, had his sentence commuted, and later campaigns questioned the fairness of the trial.",
+    "hook": "A colonial irregular unit from which two men faced a firing squad in Pretoria."
+  },
+  {
+    "id": "aus_396",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which British innovation, first used on the Somme in 1916, largely failed to support the Australian attack at First Bullecourt in April 1917 and left the infantry exposed?",
+    "answer": "Tanks",
+    "distractors": [
+      "Zeppelin airships",
+      "Dreadnought battleships",
+      "Mustard gas"
+    ],
+    "explanation": "The tanks broke down or were knocked out early, and the attack went in without an artillery bombardment, so the Australian 4th Brigade lost about 2,300 men, per Peter Burness of the Australian War Memorial. Tanks worked far better alongside infantry at Hamel in 1918.",
+    "hook": "A machine that failed at Bullecourt, then helped win the war once it was used properly."
+  },
+  {
+    "id": "aus_397",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Japanese transport ship, torpedoed by an American submarine in July 1942, carried more than 1,000 Australian prisoners and civilians captured at Rabaul?",
+    "answer": "Montevideo Maru",
+    "distractors": [
+      "Rakuyo Maru",
+      "Lisbon Maru",
+      "Tango Maru"
+    ],
+    "explanation": "The USS Sturgeon sank it off the Philippines on 1 July 1942, killing nearly all aboard, in what remains Australia's worst maritime disaster. The Americans did not know that the ship carried prisoners, and the families waited years for answers.",
+    "hook": "Friendly torpedoes, no markings and Australia's worst maritime loss."
+  },
+  {
+    "id": "aus_398",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In the 2020 Brereton Report, how many Afghan prisoners and civilians were found to have credible evidence of being unlawfully killed by Australian special forces?",
+    "answer": "39",
+    "distractors": [
+      "19",
+      "57",
+      "93"
+    ],
+    "explanation": "The inquiry by Major General Paul Brereton found credible information of 23 incidents involving 25 current or former personnel. It recommended referral of cases to the Office of the Special Investigator, and it led to the disbandment of a squadron of the Special Air Service Regiment.",
+    "hook": "Thirty-nine killings, twenty-three incidents, and a reckoning for the elite units."
+  },
+  {
+    "id": "aus_399",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which April 1951 Korean War battle saw the 3rd Battalion, Royal Australian Regiment, and Canadians hold a position against a Chinese attack, earning a US Presidential Unit Citation?",
+    "answer": "Kapyong",
+    "distractors": [
+      "Imjin River",
+      "Maryang San",
+      "Chosin Reservoir"
+    ],
+    "explanation": "The fighting on 22-25 April 1951 helped block the Chinese spring offensive aimed at Seoul. The battalion's commander, Lieutenant Colonel Bruce Ferguson, led the stand, and Australia lost 32 men killed in the action.",
+    "hook": "A stand in Korea where the Chinese advance on Seoul was checked."
+  },
+  {
+    "id": "aus_400",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Of roughly 2,400 Allied prisoners held at Sandakan in Borneo, how many survived the camp and the death marches to Ranau in 1945?",
+    "answer": "Six",
+    "distractors": [
+      "Sixteen",
+      "Sixty",
+      "Twenty-six"
+    ],
+    "explanation": "The six survivors were all Australians who escaped from the marches or the camp, and were hidden by local people. The Sandakan death marches are often described as the worst single atrocity against Australian prisoners in the Second World War.",
+    "hook": "Two and a half thousand men went in; six came out."
+  },
+  {
+    "id": "aus_401",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which company designed the Collins-class submarines built at Osborne in South Australia?",
+    "answer": "Kockums",
+    "distractors": [
+      "Fincantieri",
+      "Vickers-Armstrongs",
+      "Mitsubishi"
+    ],
+    "explanation": "The Collins class were based on the Swedish Västergötland design and built by the Australian Submarine Corporation in Adelaide. The first, HMAS Collins, was commissioned in 1996, and the class suffered early technical and noise problems before being reworked.",
+    "hook": "Swedish design, Adelaide build."
+  },
+  {
+    "id": "aus_402",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Roughly how long did the main battle at Hamel on 4 July 1918, John Monash's model of combined-arms warfare, take to capture its objectives?",
+    "answer": "About 93 minutes",
+    "distractors": [
+      "About 30 minutes",
+      "About 3 hours",
+      "About 9 hours"
+    ],
+    "explanation": "Monash had planned for the attack to last about 90 minutes, and it took only three minutes longer. He used tanks, aircraft, artillery and infantry together, and ten companies from US Army battalions took part. Australian and US casualties together were about 1,380 killed or wounded.",
+    "hook": "Planned at about ninety minutes and delivered within three of it."
+  },
+  {
+    "id": "aus_403",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "In which year was the national Welcome Home Parade for Vietnam veterans held in Sydney?",
+    "answer": "1987",
+    "distractors": [
+      "1973",
+      "1979",
+      "1992"
+    ],
+    "explanation": "The parade on 3 October 1987 was held more than a decade after the last Australian troops had returned. Many veterans felt they had been ignored or scorned when they came home, and the parade became a powerful moment of recognition.",
+    "hook": "Welcome home came fifteen years late, but it came."
+  },
+  {
+    "id": "aus_404",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which nickname was given to British migrants who paid a token fare under the post-war assisted passage scheme to Australia?",
+    "answer": "Ten Pound Poms",
+    "distractors": [
+      "Fifteen Pound Poms",
+      "Twenty Pound Poms",
+      "Ten Shilling Poms"
+    ],
+    "explanation": "Adults paid a flat £10 for the voyage under the scheme from 1945, and roughly one in four of those migrants went home again. Those who returned were sometimes called 'Boomerang Poms'.",
+    "hook": "Ten pounds bought the passage, and the nickname is the price tag."
+  },
+  {
+    "id": "aus_405",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Presbyterian minister founded the Australian Inland Mission that grew into the Royal Flying Doctor Service?",
+    "answer": "John Flynn",
+    "distractors": [
+      "John Bradfield",
+      "John Monash",
+      "John Macarthur"
+    ],
+    "explanation": "John Flynn set up the Australian Inland Mission, whose medical air service grew into the Royal Flying Doctor Service, bringing doctors to remote outback communities by plane.",
+    "hook": "Flynn of the Inland put a doctor in the sky."
+  },
+  {
+    "id": "aus_406",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Prime Minister presented the first Holden car to the public in November 1948?",
+    "answer": "Ben Chifley",
+    "distractors": [
+      "Robert Menzies",
+      "John Curtin",
+      "Frank Forde"
+    ],
+    "explanation": "The 48-215 was the first car mass-produced in Australia with local design input, built at Fishermans Bend in Melbourne by General Motors-Holden's. Chifley's Labor government had encouraged the project as part of post-war industrial growth.",
+    "hook": "A Labor Prime Minister handed over the first Holden, the 48-215, built for the working family."
+  },
+  {
+    "id": "aus_407",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which multicultural broadcaster began regular television services in Sydney and Melbourne in 1980?",
+    "answer": "SBS",
+    "distractors": [
+      "Network Ten",
+      "Seven Network",
+      "ABC2"
+    ],
+    "explanation": "It grew from ethnic radio stations set up in 1975 and was made an independent public broadcaster in 1991. It became known for subtitled foreign films.",
+    "hook": "Subtitled foreign films and a multicultural mission: the Special Broadcasting Service."
+  },
+  {
+    "id": "aus_408",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Melbourne suffragist was one of the first women in the British Empire to stand for a national parliament, in 1903?",
+    "answer": "Vida Goldstein",
+    "distractors": [
+      "Louisa Lawson",
+      "Catherine Helen Spence",
+      "Edith Cowan"
+    ],
+    "explanation": "Goldstein ran for the Senate in Victoria in 1903 and polled 51,497 votes but did not win, standing again four more times. She also edited The Woman Voter and campaigned against conscription in the First World War.",
+    "hook": "Goldstein stood five times and never won, but she was among the first."
+  },
+  {
+    "id": "aus_409",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Sydney publisher founded the feminist magazine The Dawn in 1888?",
+    "answer": "Louisa Lawson",
+    "distractors": [
+      "Rose Scott",
+      "Vida Goldstein",
+      "Mary Gilmore"
+    ],
+    "explanation": "The Dawn campaigned for votes for women and for law reform. Lawson was the mother of the poet and short-story writer Henry Lawson, whom she also helped to publish.",
+    "hook": "The Dawn rose from Sydney, and her son Henry became the famous Lawson."
+  },
+  {
+    "id": "aus_410",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which South Australian writer and reformer stood for the 1897 Federal Convention election?",
+    "answer": "Catherine Helen Spence",
+    "distractors": [
+      "Rose Scott",
+      "Mary Gilmore",
+      "Maybanke Anderson"
+    ],
+    "explanation": "Spence, born in Scotland, was a novelist and reformer who promoted proportional representation. At 71 she stood for the 1897 Federal Convention election and was not elected.",
+    "hook": "Spence stood at 71, proving it is never too late to run."
+  },
+  {
+    "id": "aus_411",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "At the depths of the Great Depression in 1932, roughly what proportion of Australian union members were out of work?",
+    "answer": "About 30 per cent",
+    "distractors": [
+      "About 10 per cent",
+      "About 15 per cent",
+      "About 45 per cent"
+    ],
+    "explanation": "Unemployment among trade unionists peaked near 30 per cent in mid-1932. Many families survived on government rations or sustenance payments, and unemployed men took to the road as swagmen.",
+    "hook": "Nearly one union member in three was jobless at the worst of it."
+  },
+  {
+    "id": "aus_412",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Governor of New South Wales dismissed Premier Jack Lang in May 1932?",
+    "answer": "Sir Philip Game",
+    "distractors": [
+      "Lord Gowrie",
+      "Lord Stonehaven",
+      "Sir Dudley de Chair"
+    ],
+    "explanation": "Game sacked Lang after Lang defied the Commonwealth over payments on state loans. Lang's party lost the election that followed.",
+    "hook": "Lang's second run as premier ended in May 1932, at the governor's hand."
+  },
+  {
+    "id": "aus_413",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "From 1916, at what hour were pub bars in New South Wales and Victoria required to shut each night?",
+    "answer": "6 pm",
+    "distractors": [
+      "8 pm",
+      "9 pm",
+      "10 pm"
+    ],
+    "explanation": "Closing time was brought forward as a wartime measure, and workers rushed to drink as much as possible after finishing work. The hurried drinking gave rise to the term 'the six o'clock swill', which ended in the 1950s in New South Wales and in the 1960s in Victoria.",
+    "hook": "Knock off at five, drink fast before the bell."
+  },
+  {
+    "id": "aus_414",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Near which border city was Bonegilla, the migrant reception camp through which over 300,000 post-war arrivals passed?",
+    "answer": "Albury-Wodonga",
+    "distractors": [
+      "Wagga Wagga",
+      "Mildura",
+      "Shepparton"
+    ],
+    "explanation": "Bonegilla operated from 1947 to 1971 on a former army camp site on the Victorian side of the Murray, and was a first home for migrants from Europe.",
+    "hook": "The migrant camp by the Murray, between the twin border towns."
+  },
+  {
+    "id": "aus_415",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Australian city did the first ship carrying European displaced persons reach in November 1947?",
+    "answer": "Melbourne",
+    "distractors": [
+      "Sydney",
+      "Fremantle",
+      "Adelaide"
+    ],
+    "explanation": "The General Stuart Heintzelman brought about 800 people from camps in Europe, mainly Baltic refugees. Arthur Calwell's scheme eventually settled about 170,000 displaced persons, and many were required to work for two years wherever the government sent them.",
+    "hook": "The Heintzelman docked in Calwell's home city, Melbourne."
+  },
+  {
+    "id": "aus_416",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Whitlam government immigration minister promoted a 'Family of the Nation' vision and helped establish multiculturalism as policy?",
+    "answer": "Al Grassby",
+    "distractors": [
+      "Tom Uren",
+      "Jim Cairns",
+      "Lionel Murphy"
+    ],
+    "explanation": "Grassby, the member for Riverina, produced a 1973 paper on a multicultural future and promoted the 'Family of the Nation' idea. He lost his seat in 1974.",
+    "hook": "Grassby grew multiculturalism out of the Riverina."
+  },
+  {
+    "id": "aus_417",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Prime Minister's government accepted tens of thousands of Indochinese refugees after the first Vietnamese boat reached Darwin in 1976?",
+    "answer": "Malcolm Fraser",
+    "distractors": [
+      "Gough Whitlam",
+      "Bob Hawke",
+      "Billy McMahon"
+    ],
+    "explanation": "The first boat, with five men aboard, arrived in April 1976, and over the next few years about 2,000 more people came by boat, with many more resettled from camps in Asia. The intake reshaped suburbs in Sydney and Melbourne.",
+    "hook": "Fraser opened the door when the first boat reached Darwin."
+  },
+  {
+    "id": "aus_418",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Pauline Hanson was first elected to Parliament in 1996 for which Queensland seat?",
+    "answer": "Oxley",
+    "distractors": [
+      "Longman",
+      "Moreton",
+      "Blair"
+    ],
+    "explanation": "Hanson was the Liberal candidate for Oxley in 1996 but was disendorsed, then won the seat as an independent. In 1998 she won Blair for One Nation.",
+    "hook": "The seat she won after being disendorsed."
+  },
+  {
+    "id": "aus_419",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "What sum was the poll tax imposed on every Chinese person arriving in Victoria in 1855?",
+    "answer": "£10",
+    "distractors": [
+      "£1",
+      "£5",
+      "£50"
+    ],
+    "explanation": "Victoria's law, meant to limit the number of Chinese gold seekers, also restricted ships to one Chinese passenger per ten tons. Diggers simply landed in South Australia and walked overland, a journey of several hundred kilometres, to avoid it.",
+    "hook": "A tenner on the head of every arrival."
+  },
+  {
+    "id": "aus_420",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Australian-born writer's 1970 bestseller The Female Eunuch became a landmark of second-wave feminism?",
+    "answer": "Germaine Greer",
+    "distractors": [
+      "Anne Summers",
+      "Elizabeth Evatt",
+      "Helen Garner"
+    ],
+    "explanation": "Born in Melbourne, Greer studied at the University of Melbourne and Sydney, then moved to Cambridge in England. The book challenged marriage and sexual roles for women and has been translated into dozens of languages.",
+    "hook": "Greer wrote the 1970 book that launched a thousand debates."
+  },
+  {
+    "id": "aus_421",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which lawyer became the first Chief Judge of the Family Court of Australia in 1976?",
+    "answer": "Elizabeth Evatt",
+    "distractors": [
+      "Mary Gaudron",
+      "Quentin Bryce",
+      "Susan Ryan"
+    ],
+    "explanation": "She had also been the first chair of the Australian Law Reform Commission, and later sat on a United Nations committee on women's rights. She was the niece of the Labor leader H. V. Evatt.",
+    "hook": "An Evatt niece, first judge of the new court for families."
+  },
+  {
+    "id": "aus_422",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did the Commonwealth Public Service end the rule forcing women to resign once they married?",
+    "answer": "1966",
+    "distractors": [
+      "1946",
+      "1956",
+      "1973"
+    ],
+    "explanation": "Before the change, a woman who wed was required to leave her permanent job. The bar went in the Holt government's term, three years before equal pay was first recognised in 1969.",
+    "hook": "The marriage bar fell in 1966, three years before equal pay."
+  },
+  {
+    "id": "aus_423",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which body, formed in 1927, is the peak council representing Australian trade unions?",
+    "answer": "The ACTU",
+    "distractors": [
+      "The ALP",
+      "The AWU",
+      "The IPA"
+    ],
+    "explanation": "Its leader from 1969 to 1980 was Bob Hawke, who left to enter Parliament for Wills. It was founded in Melbourne, after earlier attempts to unite state labour councils had failed.",
+    "hook": "One roof for all the unions, long before Hawke ran it."
+  },
+  {
+    "id": "aus_424",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What new workplace scheme, copied from American 'scientific management', sparked the 1917 General Strike in New South Wales?",
+    "answer": "A job-timing card system",
+    "distractors": [
+      "A compulsory overtime roster",
+      "A wage freeze for railwaymen",
+      "A piecework payment scheme"
+    ],
+    "explanation": "Railway and tramway workers objected to cards that timed every task, and the stoppage spread to other industries. The strike was defeated after strikebreakers filled many places.",
+    "hook": "Cards on the clock: workers struck against stopwatch management."
+  },
+  {
+    "id": "aus_425",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "What did Jack Lang's 1930 plan for the Depression propose doing with interest owed to British bondholders?",
+    "answer": "Stop paying it for now",
+    "distractors": [
+      "Pay it early and in full",
+      "Convert it into shares",
+      "Pay it in gold bullion"
+    ],
+    "explanation": "The Scullin government in Canberra rejected the plan, and Lang was dismissed by the Governor in 1932 after he defied federal law.",
+    "hook": "Lang's plan: stop the payments and let Britain squirm."
+  },
+  {
+    "id": "aus_426",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did the Commonwealth first introduce a national unemployment benefit, partly driven by memories of the Depression?",
+    "answer": "1945",
+    "distractors": [
+      "1932",
+      "1938",
+      "1952"
+    ],
+    "explanation": "Payments began on 1 July 1945, along with sickness benefits, under the Unemployment and Sickness Benefits Act passed in 1944 under the Curtin government, with Treasurer Ben Chifley as its champion. Before that the unemployed relied on state-run relief, such as sustenance work paid in rations and vouchers.",
+    "hook": "The dole began in mid-1945, a promise born of the Depression."
+  },
+  {
+    "id": "aus_427",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which Melbourne suburb is home to the character Dame Edna Everage?",
+    "answer": "Moonee Ponds",
+    "distractors": [
+      "Toorak",
+      "Camberwell",
+      "Brighton"
+    ],
+    "explanation": "The housewife-megastar was created by Barry Humphries in 1955 as a satire of Melbourne suburbia. Humphries was also the creator of Sir Les Patterson and Sandy Stone.",
+    "hook": "Edna's suburb: gladioli and a very ordinary street."
+  },
+  {
+    "id": "aus_428",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which critic coined the phrase 'the cultural cringe' in a 1950 essay about Australian attitudes to local culture?",
+    "answer": "A. A. Phillips",
+    "distractors": [
+      "Donald Horne",
+      "A. D. Hope",
+      "Vance Palmer"
+    ],
+    "explanation": "Arthur Angell Phillips argued that Australians tended to assume local work was inferior to work from overseas, especially Britain. Donald Horne's The Lucky Country followed in 1964 and is often confused with it.",
+    "hook": "Phillips named the cringe in 1950, before anyone else could."
+  },
+  {
+    "id": "aus_429",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Mary MacKillop co-founded a teaching order of nuns in 1866 in which South Australian town?",
+    "answer": "Penola",
+    "distractors": [
+      "Mount Gambier",
+      "Naracoorte",
+      "Port Lincoln"
+    ],
+    "explanation": "She started with Father Julian Tenison-Woods, opening a school for poor children in a stable. She was canonised in October 2010 as Australia's first saint.",
+    "hook": "A stable school in Penola started the first Australian saint."
+  },
+  {
+    "id": "aus_457",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "In which year did the Wall Street Crash begin, ushering in the Great Depression?",
+    "answer": "1929",
+    "distractors": [
+      "1925",
+      "1932",
+      "1936"
+    ],
+    "explanation": "Share prices collapsed in late October 1929, with 24 and 29 October remembered as Black Thursday and Black Tuesday. Australia was hit hard because it depended on wool and wheat exports, and unemployment passed 25 per cent by 1932.",
+    "hook": "Nineteen twenty-nine: the roaring twenties ended one year before the thirties began."
+  },
+  {
+    "id": "aus_458",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "On which date did Japanese carrier aircraft attack Pearl Harbor, bringing the United States into the Second World War?",
+    "answer": "7 December 1941",
+    "distractors": [
+      "1 September 1939",
+      "6 June 1944",
+      "15 August 1945"
+    ],
+    "explanation": "The raid on the Hawaiian naval base sank or damaged eight battleships and killed more than 2,400 Americans. Japan struck Malaya, Hong Kong and the Philippines within hours, and Australia declared war on Japan on 8 December.",
+    "hook": "Seven-twelve: a date which will live in infamy, as Roosevelt put it."
+  },
+  {
+    "id": "aus_462",
+    "category": "aus_history",
+    "difficulty": "easy",
+    "question": "Which militant network led by Osama bin Laden carried out the September 2001 attacks on New York and Washington?",
+    "answer": "Al-Qaeda",
+    "distractors": [
+      "Hezbollah",
+      "Hamas",
+      "The Taliban"
+    ],
+    "explanation": "Four hijacked airliners killed nearly 3,000 people, including 10 Australians. The Taliban government of Afghanistan had sheltered bin Laden, which is why the United States and Australia sent forces there within weeks.",
+    "hook": "Al-Qaeda means 'the base': a name for the group, a network rather than a state."
+  },
+  {
+    "id": "aus_473",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "In which year did the first Bali bombings kill 88 Australians?",
+    "answer": "2002",
+    "distractors": [
+      "2001",
+      "2003",
+      "2005"
+    ],
+    "explanation": "Two bombs in Kuta on 12 October 2002 killed 202 people from more than 20 countries, and Jemaah Islamiyah was blamed. Australians were the largest group of victims, and a second set of Bali bombings in 2005 killed four more.",
+    "hook": "Kuta on 12 October: the Australian toll in 2002 was 88."
+  },
+  {
+    "id": "aus_474",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which Commonwealth scheme launched in 1950 brought thousands of Asian students to study at Australian universities?",
+    "answer": "The Colombo Plan",
+    "distractors": [
+      "The Schuman Plan",
+      "The Dawes Plan",
+      "The Young Plan"
+    ],
+    "explanation": "Australia's external affairs minister Percy Spender pushed it at a Commonwealth conference in Ceylon, and it soon trained a generation of Asian leaders and professionals. It also began to soften White Australia attitudes by putting Asian students on Australian campuses.",
+    "hook": "Named for the Sri Lankan capital, it brought Asia's brightest to Australian lecture halls."
+  },
+  {
+    "id": "aus_475",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which of these countries belongs to the Five Eyes intelligence alliance with Australia, Britain, Canada and the United States?",
+    "answer": "New Zealand",
+    "distractors": [
+      "Ireland",
+      "Japan",
+      "Singapore"
+    ],
+    "explanation": "The partnership grew out of the secret UKUSA signals-intelligence agreement of 1946, and the five members share intercepted communications. New Zealand remains a member despite its 1985 split with the United States over nuclear-armed ships.",
+    "hook": "Five Eyes, five English-speaking nations, and one of them is across the Tasman."
+  },
+  {
+    "id": "aus_477",
+    "category": "aus_history",
+    "difficulty": "medium",
+    "question": "Which battle on the Western Front opened on 1 July 1916 with about 19,000 British soldiers killed on its first day?",
+    "answer": "The Somme",
+    "distractors": [
+      "Verdun",
+      "Passchendaele",
+      "Ypres"
+    ],
+    "explanation": "It was the bloodiest day in British Army history, and the offensive dragged on until November with over a million casualties on all sides. Australians fought at Pozieres and Mouquet Farm in the same battle, losing about 23,000 men in seven weeks.",
+    "hook": "First of July: the worst single day the British Army ever had."
+  },
+  {
+    "id": "aus_482",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which Australian Prime Minister led a five-nation committee to Cairo in September 1956 that failed to persuade Nasser to accept international control of the Suez Canal?",
+    "answer": "Robert Menzies",
+    "distractors": [
+      "Harold Holt",
+      "John McEwen",
+      "Arthur Fadden"
+    ],
+    "explanation": "Nasser rejected the plan and Britain and France, with Israel, invaded Egypt that October. Menzies backed Britain, and Australia's support for the intervention was criticised by Labor and many Asian and Commonwealth governments.",
+    "hook": "Menzies went to Cairo to talk Nasser round, and came home with nothing."
+  },
+  {
+    "id": "aus_485",
+    "category": "aus_history",
+    "difficulty": "hard",
+    "question": "Which security treaty did John Howard invoke for the first time in September 2001, after the attacks on the United States?",
+    "answer": "ANZUS",
+    "distractors": [
+      "SEATO",
+      "UKUSA",
+      "The Five Power Defence Arrangements"
+    ],
+    "explanation": "Howard was in Washington on 11 September and announced on 14 September that Australia would treat the attacks as an attack on itself. Australian special forces went to Afghanistan in late 2001, and the treaty dated from 1951 had never been invoked before.",
+    "hook": "A pact signed in 1951 was called on for the first time on the other side of the world."
   }
 ]

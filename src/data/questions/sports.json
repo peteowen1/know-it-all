@@ -2168,5 +2168,4261 @@
     ],
     "explanation": "He beat Novak Djokovic in four sets in the final, having already won the French Open, Wimbledon and US Open. Elena Rybakina won the women's title, beating Aryna Sabalenka.",
     "hook": "Melbourne was the last slam missing from Alcaraz's collection."
+  },
+  {
+    "id": "spt_156",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which sport uses downs, a line of scrimmage and end zones?",
+    "answer": "American football",
+    "distractors": [
+      "Baseball",
+      "Basketball",
+      "Ice hockey"
+    ],
+    "explanation": "The first Super Bowl was played in January 1967, and the game is numbered in Roman numerals rather than by year. It is one of the most-watched television broadcasts in the United States each year.",
+    "hook": "Roman numerals on the biggest game: the Super Bowl is never called by its year."
+  },
+  {
+    "id": "spt_157",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "The Claret Jug goes to the winner of which golf major?",
+    "answer": "The Open Championship",
+    "distractors": [
+      "The Masters",
+      "The US Open",
+      "The PGA Championship"
+    ],
+    "explanation": "First played in 1860 at Prestwick in Scotland, it is the oldest of the four majors. Winners get the jug for the year and keep a replica, and the Open is always played on a links course by the sea.",
+    "hook": "Green jacket for the Masters, Claret Jug for the Open: the trophies are the clue."
+  },
+  {
+    "id": "spt_158",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which nickname belongs to Australia's national men's rugby union team?",
+    "answer": "The Wallabies",
+    "distractors": [
+      "The Kangaroos",
+      "The Waratahs",
+      "The Brumbies"
+    ],
+    "explanation": "The name dates back to the early 1900s, when Australian teams toured Britain. The 1908 Olympic rugby gold in London went to a combined Australasia side rather than the Wallabies alone. The Kangaroos is the national rugby league side, while the Waratahs and Brumbies are Super Rugby franchises.",
+    "hook": "Two marsupials, two codes: the Wallabies play union and the Kangaroos play league."
+  },
+  {
+    "id": "spt_159",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which sport do competitors use apparatus such as the pommel horse and the rings?",
+    "answer": "Gymnastics",
+    "distractors": [
+      "Weightlifting",
+      "Diving",
+      "Wrestling"
+    ],
+    "explanation": "Men's artistic gymnastics has six apparatus: floor, pommel horse, rings, vault, parallel bars and high bar. Women compete on four: vault, uneven bars, balance beam and floor.",
+    "hook": "Six apparatus for the men, four for the women."
+  },
+  {
+    "id": "spt_160",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which Winter Olympic sport do teams slide granite stones towards a target called the house?",
+    "answer": "Curling",
+    "distractors": [
+      "Bobsleigh",
+      "Luge",
+      "Biathlon"
+    ],
+    "explanation": "Sweepers rub the ice in front of the stone to make it travel further and curl less. Many competition stones are cut from granite quarried on Ailsa Craig, a small island off the Scottish coast.",
+    "hook": "Sweeping the ice is how a team steers a stone it has already let go."
+  },
+  {
+    "id": "spt_162",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the small peg a golfer rests the ball on for the opening shot of a hole called?",
+    "answer": "A tee",
+    "distractors": [
+      "A marker",
+      "A wedge",
+      "A spike"
+    ],
+    "explanation": "Early golfers built a small mound of sand to raise the ball. A wooden peg was patented in the late 1800s, and dentist Dr William Lowell popularised an improved version in the 1920s.",
+    "hook": "A dentist helped make the golf tee popular."
+  },
+  {
+    "id": "spt_163",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What colour is the centre of a standard archery target?",
+    "answer": "Gold",
+    "distractors": [
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "explanation": "The rings run outwards from gold through red, blue, black and white. A gold hit scores ten points, and the innermost part of the gold ring is used to break ties at some events.",
+    "hook": "Gold in the middle, white on the edge: the colours step outwards from the centre."
+  },
+  {
+    "id": "spt_164",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many balls make up one over in modern cricket?",
+    "answer": "Six",
+    "distractors": [
+      "Four",
+      "Five",
+      "Eight"
+    ],
+    "explanation": "Australia used eight-ball overs in Test cricket for decades, before switching to the six-ball over used everywhere else. The switch to six-ball overs came in 1979. A maiden is an over in which the bowler concedes no runs.",
+    "hook": "Australia once played eight balls an over, and it stopped in 1979."
+  },
+  {
+    "id": "spt_165",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which nickname is used for Australia's national women's basketball team?",
+    "answer": "The Opals",
+    "distractors": [
+      "The Boomers",
+      "The Diamonds",
+      "The Sapphires"
+    ],
+    "explanation": "The name nods to Australia's national gem. The Opals have won silver or bronze at several Olympics, including silver at Sydney 2000, and the men's team is the Boomers.",
+    "hook": "Opals for the women, Boomers for the men, and the Diamonds play netball."
+  },
+  {
+    "id": "spt_166",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the maximum break in snooker without a free ball?",
+    "answer": "147",
+    "distractors": [
+      "100",
+      "180",
+      "200"
+    ],
+    "explanation": "It takes fifteen reds each followed by a black, then all six colours in order: 15 x 8 plus 27. Joe Davis made a 147 in a 1955 exhibition at Leicester Square, but the governing body did not officially recognise it until 1957. Steve Davis's 1982 maximum is generally treated as the first officially recognised 147 in professional competition. The 180 is the maximum score in darts.",
+    "hook": "Fifteen red-black pairs make 120, and the colours add 27."
+  },
+  {
+    "id": "spt_167",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which circuit hosts the Bathurst 1000 touring car race?",
+    "answer": "Mount Panorama",
+    "distractors": [
+      "Phillip Island",
+      "Eastern Creek",
+      "Sandown"
+    ],
+    "explanation": "The track is a public road for most of the year and includes the 1.9 km Conrod Straight. Its lap runs up and down a steep hill, so it is one of the few circuits where drivers use real elevation changes.",
+    "hook": "A road you can drive on any other day of the year."
+  },
+  {
+    "id": "spt_168",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which two nations contest the Calcutta Cup in rugby union?",
+    "answer": "England and Scotland",
+    "distractors": [
+      "England and Wales",
+      "Scotland and Ireland",
+      "Wales and Ireland"
+    ],
+    "explanation": "The trophy was first contested in 1879 and is said to be made from melted silver rupees donated when the Calcutta Rugby Club closed. The match is played each year as part of the Six Nations.",
+    "hook": "A trophy made from melted silver rupees, awarded for beating the auld enemy."
+  },
+  {
+    "id": "spt_170",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of the four competitive swimming strokes is the slowest?",
+    "answer": "Breaststroke",
+    "distractors": [
+      "Backstroke",
+      "Butterfly",
+      "Freestyle"
+    ],
+    "explanation": "Butterfly split off from breaststroke in the early 1950s after swimmers began using an over-the-water arm recovery. Freestyle is the fastest because the front crawl is the most efficient of the four strokes, and nearly all swimmers choose it when they are free to pick any stroke.",
+    "hook": "Butterfly was born as a cheat in breaststroke, and breaststroke is still the slowest."
+  },
+  {
+    "id": "spt_171",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which grand slam tennis tournament is played on red clay?",
+    "answer": "The French Open",
+    "distractors": [
+      "The US Open",
+      "Wimbledon",
+      "The Australian Open"
+    ],
+    "explanation": "It is held at Roland Garros in Paris, named after a French aviator who was a First World War pilot. Clay slows the ball and produces a high bounce, which is why Rafael Nadal won it fourteen times.",
+    "hook": "The slowest slam surface, named for a pilot rather than a player."
+  },
+  {
+    "id": "spt_172",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which AFL club plays its home games at Kardinia Park?",
+    "answer": "Geelong",
+    "distractors": [
+      "Essendon",
+      "Richmond",
+      "North Melbourne"
+    ],
+    "explanation": "Through sponsorship the ground has been called Shell Stadium, Baytec Stadium, Skilled Stadium, Simonds Stadium and GMHBA Stadium, the name it has carried since 2018. Geelong's home crowd is famously loud, and it has been one of the hardest venues for visiting teams.",
+    "hook": "Geelong's home ground has gone by at least five names."
+  },
+  {
+    "id": "spt_173",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many players per side, including the goalkeeper, are in the water in water polo?",
+    "answer": "Seven",
+    "distractors": [
+      "Six",
+      "Eight",
+      "Nine"
+    ],
+    "explanation": "Players cannot touch the bottom of the pool or hold the ball with two hands, except the goalkeeper. Women's water polo debuted at Sydney 2000, where Australia won gold with a last-second goal.",
+    "hook": "Australia's women won the first Olympic final with a goal on the buzzer."
+  },
+  {
+    "id": "spt_174",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who ran the first mile in under four minutes, in 1954?",
+    "answer": "Roger Bannister",
+    "distractors": [
+      "John Landy",
+      "Peter Snell",
+      "Steve Ovett"
+    ],
+    "explanation": "He ran 3:59.4 at Iffley Road in Oxford on 6 May 1954. Australia's John Landy broke the mark himself 46 days later, and the two raced in a famous 'Miracle Mile' at the Vancouver Empire Games.",
+    "hook": "Bannister's record lasted only 46 days before Landy beat it."
+  },
+  {
+    "id": "spt_175",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which team beat the Matildas in the semi-final of the 2023 FIFA Women's World Cup?",
+    "answer": "England",
+    "distractors": [
+      "Sweden",
+      "France",
+      "Spain"
+    ],
+    "explanation": "England won 3-1 at Stadium Australia in Sydney. The Matildas had reached the last four by beating France 7-6 on penalties, with Cortnee Vine scoring the winning kick.",
+    "hook": "The Matildas went out to England after a penalty shootout win over France."
+  },
+  {
+    "id": "spt_176",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which AFL club wears a black guernsey with a red sash?",
+    "answer": "Essendon",
+    "distractors": [
+      "Richmond",
+      "Collingwood",
+      "Hawthorn"
+    ],
+    "explanation": "The club is nicknamed the Bombers. Richmond also wears black with a sash, but its sash is yellow, and Collingwood wears black and white vertical stripes.",
+    "hook": "Red sash means Essendon, yellow sash means Richmond."
+  },
+  {
+    "id": "spt_177",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which horse won the first Melbourne Cup in 1861?",
+    "answer": "Archer",
+    "distractors": [
+      "Carbine",
+      "Peter Pan",
+      "Poseidon"
+    ],
+    "explanation": "The 1861 field had 17 starters. A popular legend says Archer walked from Nowra to Melbourne, but the Australian Dictionary of Biography cites considerable evidence that he travelled by steamer. Carbine, Peter Pan and Poseidon all won the Cup later.",
+    "hook": "The first Cup winner has a popular legend about walking to the race."
+  },
+  {
+    "id": "spt_178",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which team won the first men's Cricket World Cup in 1975?",
+    "answer": "West Indies",
+    "distractors": [
+      "England",
+      "India",
+      "Pakistan"
+    ],
+    "explanation": "They beat Australia by 17 runs in the final at Lord's, with captain Clive Lloyd scoring 102. The tournament was played over sixty overs a side in white clothing with a red ball.",
+    "hook": "Lloyd's century at Lord's started a dynasty that won the first two World Cups."
+  },
+  {
+    "id": "spt_179",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which 21-year-old West Indian batter scored 365 not out against Pakistan in 1958?",
+    "answer": "Garfield Sobers",
+    "distractors": [
+      "Len Hutton",
+      "Brian Lara",
+      "Viv Richards"
+    ],
+    "explanation": "The innings in Kingston broke Len Hutton's record Test score of 364, set in 1938. It stood until Brian Lara made 375 in 1994, and Sobers also hit six sixes in an over in county cricket in 1968.",
+    "hook": "A 21-year-old broke a 20-year-old record that stood another 36 years."
+  },
+  {
+    "id": "spt_180",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which city were the equestrian events of the 1956 Melbourne Olympics held?",
+    "answer": "Stockholm",
+    "distractors": [
+      "Oslo",
+      "Helsinki",
+      "Copenhagen"
+    ],
+    "explanation": "Australia's strict quarantine rules for horses made it impractical to hold the equestrian events in Melbourne, so they were held in Stockholm months before the rest of the Games.",
+    "hook": "The horses were quarantined out of the Melbourne Games and went to Sweden."
+  },
+  {
+    "id": "spt_181",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won the 800m and 1500m at the first modern Olympics in 1896?",
+    "answer": "Edwin Flack",
+    "distractors": [
+      "Fred Lane",
+      "Frank Beaurepaire",
+      "Snowy Baker"
+    ],
+    "explanation": "An accountant working in London, he was Australia's only competitor at the 1896 Athens Games and won both races. He also tried the marathon and collapsed before the finish, and he is regarded as Australia's first Olympic champion.",
+    "hook": "Australia's first Olympic champion was an accountant and its only competitor in 1896."
+  },
+  {
+    "id": "spt_182",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which South American team did the Socceroos beat on penalties in Sydney in 2005 to qualify for the 2006 World Cup?",
+    "answer": "Uruguay",
+    "distractors": [
+      "Chile",
+      "Paraguay",
+      "Peru"
+    ],
+    "explanation": "After a 1-0 loss in Montevideo, Australia won the second leg by the same score and then won the shootout 4-2, with John Aloisi scoring the winning kick. It ended a 32-year wait since their only previous World Cup in 1974.",
+    "hook": "Thirty-two years of waiting ended with one penalty from John Aloisi."
+  },
+  {
+    "id": "spt_183",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which batter became the first to score 10,000 Test runs, in 1987?",
+    "answer": "Sunil Gavaskar",
+    "distractors": [
+      "Allan Border",
+      "Sachin Tendulkar",
+      "Viv Richards"
+    ],
+    "explanation": "He reached the milestone against Pakistan in Ahmedabad. Allan Border was the next to reach it in 1993 and became the first Australian to do so.",
+    "hook": "Gavaskar first to 10,000, Border next, then Tendulkar went far beyond."
+  },
+  {
+    "id": "spt_184",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which trainer prepared Phar Lap to win the 1930 Melbourne Cup?",
+    "answer": "Harry Telford",
+    "distractors": [
+      "Bart Cummings",
+      "Lee Freedman",
+      "Tommy Woodcock"
+    ],
+    "explanation": "Jim Pike rode the horse in the Cup, and Tommy Woodcock was his strapper who stayed with him to the end in California. Bart Cummings trained a record twelve Cup winners but not Phar Lap.",
+    "hook": "The trainer was Telford, the strapper was Woodcock: keep the pair apart."
+  },
+  {
+    "id": "spt_185",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Apollo 14 astronaut hit golf balls on the Moon in 1971?",
+    "answer": "Alan Shepard",
+    "distractors": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Gene Cernan"
+    ],
+    "explanation": "He swung a makeshift six-iron head attached to a tool handle, and the low gravity sent the ball a long way. He was also the first American in space, in 1961, and the only one of the Mercury Seven to walk on the Moon.",
+    "hook": "The first American in space was also the first golfer on the Moon."
+  },
+  {
+    "id": "spt_186",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Indian batter is the only man in history to score 100 international centuries?",
+    "answer": "Sachin Tendulkar",
+    "distractors": [
+      "Virat Kohli",
+      "Rahul Dravid",
+      "Ricky Ponting"
+    ],
+    "explanation": "He made 51 Test and 49 one-day hundreds, and his hundredth came against Bangladesh in Mirpur in 2012. He finished his Test career with 15,921 runs.",
+    "hook": "Fifty-one plus forty-nine makes a hundred."
+  },
+  {
+    "id": "spt_187",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Big Bash League club is based in Tasmania?",
+    "answer": "Hobart Hurricanes",
+    "distractors": [
+      "Adelaide Strikers",
+      "Melbourne Renegades",
+      "Brisbane Heat"
+    ],
+    "explanation": "The Hurricanes were one of the eight founding clubs when the league began in 2011-12. They play most home games at Bellerive Oval in Hobart.",
+    "hook": "Hurricanes blow in from the island state."
+  },
+  {
+    "id": "spt_188",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In cricket, what do the letters LBW stand for?",
+    "answer": "Leg before wicket",
+    "distractors": [
+      "Leg behind wicket",
+      "Line before wicket",
+      "Leg beyond wicket"
+    ],
+    "explanation": "A batter can be given out when the ball strikes the pad and would have gone on to hit the stumps. They cannot be out this way if the ball pitched outside leg stump.",
+    "hook": "Pad in the way of the stumps."
+  },
+  {
+    "id": "spt_189",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which two countries contest the Chappell-Hadlee Trophy in one-day cricket?",
+    "answer": "Australia and New Zealand",
+    "distractors": [
+      "Australia and South Africa",
+      "Australia and England",
+      "Australia and India"
+    ],
+    "explanation": "The trophy honours the cricketing families of the Chappells and of Sir Richard Hadlee. It is a short series, usually three one-day internationals, played either side of the Tasman.",
+    "hook": "Two cricketing families, one Tasman rivalry."
+  },
+  {
+    "id": "spt_190",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which leg-spinner captained Australia in the late 1950s and early 1960s before becoming a famous television commentator?",
+    "answer": "Richie Benaud",
+    "distractors": [
+      "Bill Lawry",
+      "Ian Chappell",
+      "Bob Simpson"
+    ],
+    "explanation": "His relaxed 'Morning everyone' opened Channel Nine's cricket coverage for decades. He was also captain in the first tied Test in 1960.",
+    "hook": "Captain first, then the voice of summer."
+  },
+  {
+    "id": "spt_191",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Sri Lankan spinner holds the record for the most Test wickets?",
+    "answer": "Muttiah Muralitharan",
+    "distractors": [
+      "Anil Kumble",
+      "Rangana Herath",
+      "Harbhajan Singh"
+    ],
+    "explanation": "He took 800 wickets in 133 Tests, reaching the mark with his final delivery in Test cricket, against India at Galle in 2010. His unusual bowling action was cleared by the ICC after testing.",
+    "hook": "Eight hundred, and he finished on the number."
+  },
+  {
+    "id": "spt_192",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian fast bowler is married to wicketkeeper Alyssa Healy?",
+    "answer": "Mitchell Starc",
+    "distractors": [
+      "Pat Cummins",
+      "Josh Hazlewood",
+      "Nathan Lyon"
+    ],
+    "explanation": "They married in 2016, and both are left-handers who play for Australia. Healy comes from a cricket family, as her uncle Ian Healy was a long-serving Australian Test wicketkeeper.",
+    "hook": "Australia's first couple of cricket."
+  },
+  {
+    "id": "spt_193",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Besides cricket, which sport has Ellyse Perry played for Australia at international level?",
+    "answer": "Soccer",
+    "distractors": [
+      "Netball",
+      "Hockey",
+      "Softball"
+    ],
+    "explanation": "She debuted for both the Matildas and the Australian women's cricket team in 2007, aged sixteen.",
+    "hook": "Two national teams before she turned seventeen."
+  },
+  {
+    "id": "spt_194",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In which year did Kerry Packer launch his breakaway World Series Cricket?",
+    "answer": "1977",
+    "distractors": [
+      "1975",
+      "1979",
+      "1981"
+    ],
+    "explanation": "Packer's Channel Nine signed the world's best players after being refused broadcast rights. The competition brought coloured clothing, white balls, floodlit matches and helmets before a peace deal in 1979.",
+    "hook": "Seventy-seven: the circus that changed cricket."
+  },
+  {
+    "id": "spt_195",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who captained Pakistan to the 1992 Cricket World Cup title at the MCG?",
+    "answer": "Imran Khan",
+    "distractors": [
+      "Wasim Akram",
+      "Javed Miandad",
+      "Inzamam-ul-Haq"
+    ],
+    "explanation": "Pakistan beat England by 22 runs after a slow start in the tournament, with Wasim Akram taking key late wickets in the final. Imran famously told his side to play like cornered tigers.",
+    "hook": "Cornered tigers won at the MCG."
+  },
+  {
+    "id": "spt_196",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian captain played his last one-day international in the 2015 World Cup final at the MCG?",
+    "answer": "Michael Clarke",
+    "distractors": [
+      "Steve Smith",
+      "Aaron Finch",
+      "George Bailey"
+    ],
+    "explanation": "He top-scored with 74 as Australia beat New Zealand by seven wickets in front of 93,013 people. He had announced before the final that it would be his final one-day match.",
+    "hook": "A home final to say goodbye."
+  },
+  {
+    "id": "spt_197",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who scored 137 in Australia's win over India in the 2023 World Cup final?",
+    "answer": "Travis Head",
+    "distractors": [
+      "David Warner",
+      "Marnus Labuschagne",
+      "Glenn Maxwell"
+    ],
+    "explanation": "Australia chased down 241 in Ahmedabad with six wickets in hand to win a sixth title. Labuschagne added a steady 58 not out.",
+    "hook": "Head turned a chase into a party."
+  },
+  {
+    "id": "spt_198",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who hit the winning six for India in the 2011 World Cup final at Wankhede Stadium?",
+    "answer": "MS Dhoni",
+    "distractors": [
+      "Virat Kohli",
+      "Yuvraj Singh",
+      "Gautam Gambhir"
+    ],
+    "explanation": "His unbeaten 91 chased down Sri Lanka's 274 and gave India its first title since 1983.",
+    "hook": "A captain finished it with a six."
+  },
+  {
+    "id": "spt_199",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which franchise did Shane Warne lead to the inaugural Indian Premier League title in 2008?",
+    "answer": "Rajasthan Royals",
+    "distractors": [
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "explanation": "Warne was captain of a cheap, young squad and beat Chennai by three wickets off the last ball of the final. It remains one of the great underdog stories of the league.",
+    "hook": "The cheapest squad won the first IPL."
+  },
+  {
+    "id": "spt_200",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What do the letters DRS stand for in the technology that lets teams challenge an umpire's call?",
+    "answer": "Decision Review System",
+    "distractors": [
+      "Dismissal Referral Scheme",
+      "Delivery Review Standard",
+      "Decision Replay System"
+    ],
+    "explanation": "It was first used in Test cricket in a series between India and Sri Lanka in 2008. It uses ball-tracking, Hot Spot and Snicko, and each team gets a limited number of unsuccessful reviews per innings.",
+    "hook": "Challenge the call and let the replay decide."
+  },
+  {
+    "id": "spt_201",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the Duckworth-Lewis method used for in cricket?",
+    "answer": "Setting targets in rain-affected games",
+    "distractors": [
+      "Ranking bowlers by match impact",
+      "Deciding the toss before night games",
+      "Measuring pitch moisture before play"
+    ],
+    "explanation": "It was devised by two statisticians, Frank Duckworth and Tony Lewis, and adopted by the ICC in 1999. It was later extended to Duckworth-Lewis-Stern after Steven Stern updated the system.",
+    "hook": "Two statisticians solved the rain delay."
+  },
+  {
+    "id": "spt_202",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Whom did Pat Cummins replace as Australia's Test captain in 2021?",
+    "answer": "Tim Paine",
+    "distractors": [
+      "Steve Smith",
+      "Aaron Finch",
+      "Michael Clarke"
+    ],
+    "explanation": "Paine stepped down about three weeks before the 2021-22 Ashes after a past text-message scandal became public. Cummins was named Test captain in November 2021.",
+    "hook": "A quick bowler took the captain's cap."
+  },
+  {
+    "id": "spt_203",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "The SCG's annual pink Test in January honours the late wife of which Australian fast bowler?",
+    "answer": "Glenn McGrath",
+    "distractors": [
+      "Brett Lee",
+      "Dennis Lillee",
+      "Jason Gillespie"
+    ],
+    "explanation": "Jane McGrath died of breast cancer in 2008, and the Sydney Test has been Jane McGrath Day since 2009. The Pink Test raises funds for breast care nurses, and the crowd and players wear pink.",
+    "hook": "The SCG turns pink for Jane."
+  },
+  {
+    "id": "spt_204",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which ground hosted the first day-night Test, played with a pink ball in November 2015?",
+    "answer": "Adelaide Oval",
+    "distractors": [
+      "The Gabba",
+      "WACA Ground",
+      "Sydney Cricket Ground"
+    ],
+    "explanation": "Australia beat New Zealand in the match. The pink ball was chosen because it stays visible under floodlights.",
+    "hook": "Adelaide first played Tests under lights."
+  },
+  {
+    "id": "spt_205",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian wicketkeeper smashed 170 in the 2022 Women's World Cup final against England?",
+    "answer": "Alyssa Healy",
+    "distractors": [
+      "Meg Lanning",
+      "Beth Mooney",
+      "Rachael Haynes"
+    ],
+    "explanation": "Played in Christchurch, her innings powered Australia to 356 and a 71-run win and a seventh title.",
+    "hook": "One hundred and seventy in a final."
+  },
+  {
+    "id": "spt_206",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which South African tail-ender was run out going for the winning run in the tied 1999 World Cup semi-final at Edgbaston?",
+    "answer": "Allan Donald",
+    "distractors": [
+      "Shaun Pollock",
+      "Lance Klusener",
+      "Mark Boucher"
+    ],
+    "explanation": "Donald dropped his bat in the mix-up, and Australia went through to the final because it had finished higher in the Super Six stage. Australia then beat Pakistan at Lord's to win the Cup.",
+    "hook": "Bat dropped, run out, season over."
+  },
+  {
+    "id": "spt_207",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which team was the last to beat Australia in a Test at the Gabba before India did in January 2021?",
+    "answer": "West Indies",
+    "distractors": [
+      "England",
+      "Pakistan",
+      "New Zealand"
+    ],
+    "explanation": "The West Indies won there in 1988, starting a run of more than three decades without an Australian defeat at the ground. India chased 328 on the last day, with Rishabh Pant hitting the winning runs.",
+    "hook": "Thirty-two years between Brisbane losses."
+  },
+  {
+    "id": "spt_208",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Where was cricket's first tied Test, between Australia and the West Indies, played in December 1960?",
+    "answer": "The Gabba",
+    "distractors": [
+      "Melbourne Cricket Ground",
+      "Adelaide Oval",
+      "Sydney Cricket Ground"
+    ],
+    "explanation": "Wes Hall bowled the final over, and Joe Solomon's direct hit ran out Ian Meckiff to level the scores. The captains were Richie Benaud and Frank Worrell, and the rivalry's trophy later bore Worrell's name.",
+    "hook": "Brisbane held the first dead heat."
+  },
+  {
+    "id": "spt_209",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian captain declared on 334 not out at Peshawar in 1998, level with Bradman's Australian record?",
+    "answer": "Mark Taylor",
+    "distractors": [
+      "Steve Waugh",
+      "Allan Border",
+      "Greg Chappell"
+    ],
+    "explanation": "Taylor chose to declare rather than pass Bradman's mark, a gesture widely praised as unselfish. Matthew Hayden went past both men with 380 against Zimbabwe in 2003.",
+    "hook": "He stopped on 334 to respect Bradman."
+  },
+  {
+    "id": "spt_210",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian captain made 229 not out against Denmark at the 1997 Women's World Cup, the first double century in one-day internationals?",
+    "answer": "Belinda Clark",
+    "distractors": [
+      "Karen Rolton",
+      "Lisa Keightley",
+      "Cathryn Fitzpatrick"
+    ],
+    "explanation": "The innings came in Mumbai, 13 years before Sachin Tendulkar became the first man to reach 200 in a one-day international. Clark also captained Australia to the 1997 title.",
+    "hook": "A woman made the first ODI double ton."
+  },
+  {
+    "id": "spt_211",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which fast bowler retired in 1984 with a then-world-record 355 Test wickets?",
+    "answer": "Dennis Lillee",
+    "distractors": [
+      "Jeff Thomson",
+      "Craig McDermott",
+      "Rodney Hogg"
+    ],
+    "explanation": "He took those wickets in 70 Tests, and his pace partnership with Jeff Thomson dominated the 1974-75 Ashes, won 4-1 by Australia. He also helped start the MRF Pace Foundation in India.",
+    "hook": "Lillee and Thomson: ashes to ashes."
+  },
+  {
+    "id": "spt_212",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which South African finished his Test career with over 13,000 runs and 290 wickets?",
+    "answer": "Jacques Kallis",
+    "distractors": [
+      "AB de Villiers",
+      "Graeme Smith",
+      "Shaun Pollock"
+    ],
+    "explanation": "He made 13,289 runs and took 292 wickets in 166 Tests, with 45 centuries, second only to Tendulkar's 51. He is generally ranked among the greatest all-rounders alongside Garfield Sobers.",
+    "hook": "The all-rounder with two careers' numbers."
+  },
+  {
+    "id": "spt_213",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "On which ground did Adam Gilchrist hit a 57-ball Test century against England in December 2006?",
+    "answer": "WACA Ground",
+    "distractors": [
+      "The Gabba",
+      "Adelaide Oval",
+      "Sydney Cricket Ground"
+    ],
+    "explanation": "The Perth innings was one of the fastest Test hundreds ever made, and came in the third Test of a 5-0 Ashes whitewash. The WACA was famed for having the fastest and bounciest pitch in the world.",
+    "hook": "Gilly hit a Test hundred off 57 balls in Perth."
+  },
+  {
+    "id": "spt_214",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "By how many runs must a side trail on the first innings in a five-day Test before the opposing captain may enforce the follow-on?",
+    "answer": "200",
+    "distractors": [
+      "150",
+      "250",
+      "300"
+    ],
+    "explanation": "The follow-on makes the team that batted second bat again immediately. The threshold is lower in shorter matches, and the captain with the lead can choose whether to enforce it.",
+    "hook": "Two hundred behind and you bat again."
+  },
+  {
+    "id": "spt_215",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which award goes to the best player on the ground in the AFL Grand Final?",
+    "answer": "The Norm Smith Medal",
+    "distractors": [
+      "The Coleman Medal",
+      "The Magarey Medal",
+      "The Leigh Matthews Trophy"
+    ],
+    "explanation": "It is named after Norm Smith, who played for Fitzroy and Melbourne and coached the Demons to six flags. First awarded in 1979, it is voted by a panel straight after the final siren.",
+    "hook": "Norm Smith is the one for the big day, Brownlow for the whole year."
+  },
+  {
+    "id": "spt_216",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which award goes to the AFL's leading goalkicker after the home-and-away season?",
+    "answer": "The Coleman Medal",
+    "distractors": [
+      "The Norm Smith Medal",
+      "The Brownlow Medal",
+      "The Sandover Medal"
+    ],
+    "explanation": "It honours John Coleman, the Essendon full-forward who kicked 537 goals in just 98 games before a knee injury ended his career in 1954. Finals goals do not count towards the tally.",
+    "hook": "Coleman counts the goals, but only before September."
+  },
+  {
+    "id": "spt_217",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Victorian cricketer wrote a famous 1858 letter proposing a winter game to keep cricketers fit?",
+    "answer": "Tom Wills",
+    "distractors": [
+      "Billy Murdoch",
+      "Fred Spofforth",
+      "Dave Gregory"
+    ],
+    "explanation": "Wills, a star of early colonial cricket, helped draw up the first rules in Melbourne in 1859.",
+    "hook": "Footy began as cricketers' winter training."
+  },
+  {
+    "id": "spt_219",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which stadium do Adelaide and Port Adelaide currently share as their home ground?",
+    "answer": "Adelaide Oval",
+    "distractors": [
+      "Football Park",
+      "Norwood Oval",
+      "Hindmarsh Stadium"
+    ],
+    "explanation": "Both clubs moved there in 2014 after a redevelopment that added grandstands. Before that, both clubs shared Football Park at West Lakes.",
+    "hook": "Two South Australian clubs, one city-centre ground."
+  },
+  {
+    "id": "spt_220",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which club won three consecutive AFL premierships from 2013 to 2015?",
+    "answer": "Hawthorn",
+    "distractors": [
+      "Geelong",
+      "Richmond",
+      "Sydney"
+    ],
+    "explanation": "Under coach Alastair Clarkson, the Hawks beat Fremantle, Sydney and West Coast in those three Grand Finals. They are the only side to three-peat since the Brisbane Lions of 2001-03.",
+    "hook": "Hawks 13, 14, 15: a brown-and-gold hat-trick."
+  },
+  {
+    "id": "spt_221",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which two colours make up the Richmond guernsey?",
+    "answer": "Yellow and black",
+    "distractors": [
+      "Black and white",
+      "Red and black",
+      "Navy and white"
+    ],
+    "explanation": "The famous yellow jumper with a black sash is Richmond's guernsey, and the club entered the VFL in 1908.",
+    "hook": "Tigers wear the colours of a warning sign."
+  },
+  {
+    "id": "spt_222",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which footballer's name is given to the imaginary line separating AFL heartland from rugby league heartland?",
+    "answer": "Ron Barassi",
+    "distractors": [
+      "Ted Whitten",
+      "Kevin Sheedy",
+      "Leigh Matthews"
+    ],
+    "explanation": "The Barassi Line runs roughly through New South Wales and Queensland, with rugby league dominant to the north and east. The line is named after Ron Barassi, the Melbourne legend.",
+    "hook": "Barassi's line splits the footy country from the league country."
+  },
+  {
+    "id": "spt_223",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won the Norm Smith Medal in 2017, 2019 and 2020?",
+    "answer": "Dustin Martin",
+    "distractors": [
+      "Patrick Dangerfield",
+      "Trent Cotchin",
+      "Nat Fyfe"
+    ],
+    "explanation": "Martin has won the Norm Smith Medal three times. He also won the 2017 Brownlow Medal, giving him a Brownlow, a Norm Smith and a premiership in the same season.",
+    "hook": "Martin's triple: three Grand Finals, three best afield."
+  },
+  {
+    "id": "spt_224",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "After which Aboriginal Fitzroy footballer and pastor is the AFL's Indigenous Round named?",
+    "answer": "Sir Doug Nicholls",
+    "distractors": [
+      "Michael Long",
+      "Nicky Winmar",
+      "Adam Goodes"
+    ],
+    "explanation": "The Sir Doug Nicholls Round celebrates Indigenous contributions to football. Nicholls also became Governor of South Australia in 1976.",
+    "hook": "Footballer, pastor and governor: Sir Doug Nicholls."
+  },
+  {
+    "id": "spt_225",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which stadium in Perth has hosted West Coast and Fremantle home games since 2018?",
+    "answer": "Optus Stadium",
+    "distractors": [
+      "Subiaco Oval",
+      "Perth Arena",
+      "HBF Park"
+    ],
+    "explanation": "Optus Stadium in Burswood replaced Subiaco Oval as the home of both clubs when it opened in 2018.",
+    "hook": "Both Perth clubs swapped Subi for Burswood."
+  },
+  {
+    "id": "spt_226",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club did Carlton beat in the 1970 Grand Final after trailing at half-time?",
+    "answer": "Collingwood",
+    "distractors": [
+      "Richmond",
+      "Essendon",
+      "St Kilda"
+    ],
+    "explanation": "Under coach Ron Barassi, the Blues turned to handball and ran down the Magpies to win.",
+    "hook": "Barassi's handball revolution turned a rout around."
+  },
+  {
+    "id": "spt_227",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club did Collingwood beat in the 2010 Grand Final replay a week after the first game was drawn?",
+    "answer": "St Kilda",
+    "distractors": [
+      "Geelong",
+      "Western Bulldogs",
+      "Sydney"
+    ],
+    "explanation": "The first game finished 68-68, and Collingwood won the replay a week later. The Saints had also lost the 2009 Grand Final, to Geelong. A drawn Grand Final is still replayed.",
+    "hook": "Drawn one week, Pies won the replay the next."
+  },
+  {
+    "id": "spt_228",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Sydney defender took the famous mark in the final seconds of the 2005 Grand Final?",
+    "answer": "Leo Barry",
+    "distractors": [
+      "Barry Hall",
+      "Adam Goodes",
+      "Michael O'Loughlin"
+    ],
+    "explanation": "His mark in the last moments kept West Coast from the winning goal, and Sydney won by four points. It was the club's first premiership since 1933, when it was based in South Melbourne.",
+    "hook": "Barry's mark ended a 72-year wait."
+  },
+  {
+    "id": "spt_229",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which coach led the Brisbane Lions to three straight premierships from 2001 to 2003?",
+    "answer": "Leigh Matthews",
+    "distractors": [
+      "Mick Malthouse",
+      "Kevin Sheedy",
+      "Denis Pagan"
+    ],
+    "explanation": "Matthews had been a champion player at Hawthorn, winning four flags with the Hawks. The Lions beat Essendon in 2001 and Collingwood in both 2002 and 2003.",
+    "hook": "A Hawk who became a Lion and won three straight."
+  },
+  {
+    "id": "spt_230",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Chris Judd won a Brownlow Medal at West Coast in 2004 and another at which club in 2010?",
+    "answer": "Carlton",
+    "distractors": [
+      "Essendon",
+      "Melbourne",
+      "Collingwood"
+    ],
+    "explanation": "Judd was one of the few to win the award with two clubs. He captained Carlton for years after leaving the Eagles, and he was a premiership player in 2006 with West Coast.",
+    "hook": "Judd won in the west, then again in navy blue."
+  },
+  {
+    "id": "spt_231",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Geelong forward kicked nine goals in the 1989 Grand Final despite losing to Hawthorn by six points?",
+    "answer": "Gary Ablett Senior",
+    "distractors": [
+      "Jason Dunstall",
+      "Billy Brownless",
+      "Dermott Brereton"
+    ],
+    "explanation": "Hawthorn won 21.18 (144) to 21.12 (138) in a brutal game. Gary Ablett Senior's son, Gary Junior, later also became a Geelong star.",
+    "hook": "Nine goals and still a loser: Ablett's bittersweet day."
+  },
+  {
+    "id": "spt_232",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which club beat Collingwood in the 1977 Grand Final replay after the first game was drawn?",
+    "answer": "North Melbourne",
+    "distractors": [
+      "Hawthorn",
+      "Carlton",
+      "Richmond"
+    ],
+    "explanation": "The first 1977 Grand Final ended in a draw. North Melbourne won the replay under Ron Barassi, giving the Kangaroos the second of their flags.",
+    "hook": "A drawn final, then a Roos win in the replay."
+  },
+  {
+    "id": "spt_233",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which club did Geelong beat by a record 119 points in the 2007 Grand Final?",
+    "answer": "Port Adelaide",
+    "distractors": [
+      "Collingwood",
+      "Sydney",
+      "West Coast"
+    ],
+    "explanation": "Geelong won 24.19 (163) to 6.8 (44), the biggest margin in VFL/AFL Grand Final history. It ended the Cats' 44-year premiership drought, since their last flag in 1963.",
+    "hook": "A 119-point rout: still the biggest Grand Final margin."
+  },
+  {
+    "id": "spt_234",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which year did Port Adelaide win its only AFL premiership, beating Brisbane?",
+    "answer": "2004",
+    "distractors": [
+      "2001",
+      "2007",
+      "2013"
+    ],
+    "explanation": "Mark Williams' side beat Brisbane at the MCG. Port had been admitted to the AFL in 1997, and it had won SANFL premierships before joining.",
+    "hook": "Port's only AFL flag came in 2004."
+  },
+  {
+    "id": "spt_235",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which ground hosted the 2020 Grand Final, the first held outside Victoria?",
+    "answer": "The Gabba",
+    "distractors": [
+      "Optus Stadium",
+      "Adelaide Oval",
+      "Sydney Cricket Ground"
+    ],
+    "explanation": "Covid restrictions forced the game to Brisbane, where Richmond beat Geelong. It was the first Grand Final ever held outside Victoria.",
+    "hook": "Footy's big day moved north to the Gabba."
+  },
+  {
+    "id": "spt_236",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "The Magarey Medal is the best and fairest award in which state league?",
+    "answer": "The SANFL",
+    "distractors": [
+      "The WAFL",
+      "The VFL",
+      "The QAFL"
+    ],
+    "explanation": "The South Australian National Football League's award sits alongside the WAFL's Sandover Medal and the VFL's Brownlow Medal. Players from clubs like Norwood, Sturt and Port Adelaide have won it.",
+    "hook": "Magarey is South Australia's own Brownlow."
+  },
+  {
+    "id": "spt_237",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Richmond rover played 403 games and won premierships in 1967, 1969, 1973 and 1974?",
+    "answer": "Kevin Bartlett",
+    "distractors": [
+      "Royce Hart",
+      "Francis Bourke",
+      "Dick Reynolds"
+    ],
+    "explanation": "Bartlett, nicknamed KB, played his whole VFL career for Richmond, a rover known for his speed and flair. He won four premierships with the Tigers.",
+    "hook": "KB's 403 games were all for the Tigers."
+  },
+  {
+    "id": "spt_238",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which club did Adelaide beat in the 1997 Grand Final for its first AFL premiership?",
+    "answer": "St Kilda",
+    "distractors": [
+      "North Melbourne",
+      "Essendon",
+      "Sydney"
+    ],
+    "explanation": "The Crows, coached by Malcolm Blight, won 19.11 (125) to 13.17 (95). They then won again in 1998, beating North Melbourne, to become the first non-Victorian side to win back-to-back flags.",
+    "hook": "The Crows' first flag came against the Saints."
+  },
+  {
+    "id": "spt_239",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How many premierships did Alastair Clarkson win as Hawthorn's senior coach?",
+    "answer": "Four",
+    "distractors": [
+      "Three",
+      "Five",
+      "Six"
+    ],
+    "explanation": "He won in 2008, 2013, 2014 and 2015, the last three consecutively. Clarkson later coached North Melbourne after leaving the Hawks, but did not win a flag there.",
+    "hook": "One upset in 2008, then a three-peat."
+  },
+  {
+    "id": "spt_240",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many points is a try worth in rugby league?",
+    "answer": "Four",
+    "distractors": [
+      "Five",
+      "Three",
+      "Six"
+    ],
+    "explanation": "A converted try is worth six, since the conversion adds two points. Rugby union gives five points for a try, so the two codes' numbers are easy to mix up.",
+    "hook": "Same touchdown, two different scores: know the code before you count."
+  },
+  {
+    "id": "spt_241",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which nickname is given to Brisbane's Suncorp Stadium because of its steep stands and roaring crowds?",
+    "answer": "The Cauldron",
+    "distractors": [
+      "The Furnace",
+      "The Pit",
+      "The Colosseum"
+    ],
+    "explanation": "The ground was long known as Lang Park, and it hosted the very first State of Origin match in 1980. Its tightly packed stands keep the noise in, which makes it an intimidating place for visiting teams.",
+    "hook": "Steep stands and a loud crowd make Brisbane's ground boil."
+  },
+  {
+    "id": "spt_242",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "By what team name is the New South Wales State of Origin side known?",
+    "answer": "The Blues",
+    "distractors": [
+      "The Waratahs",
+      "The Bushrangers",
+      "The Swans"
+    ],
+    "explanation": "They wear sky blue jerseys and have worn them since the series began in 1980. Their northern rivals are known as the Maroons, the colour of the Queensland jersey.",
+    "hook": "Sky blue for the south, maroon for the north."
+  },
+  {
+    "id": "spt_243",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "By what nickname is New Zealand's national rugby league team known?",
+    "answer": "The Kiwis",
+    "distractors": [
+      "The All Blacks",
+      "The Black Caps",
+      "The Tall Blacks"
+    ],
+    "explanation": "The side is named after the flightless native bird and has played Test matches against Australia since 1908. The other names listed belong to New Zealand's rugby union, cricket and basketball teams.",
+    "hook": "The All Blacks belong to rugby union; the league side has its own name."
+  },
+  {
+    "id": "spt_244",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which NRL club won four consecutive premierships between 2021 and 2024?",
+    "answer": "Penrith Panthers",
+    "distractors": [
+      "Melbourne Storm",
+      "Sydney Roosters",
+      "Cronulla Sharks"
+    ],
+    "explanation": "The club from Sydney's west had won two premierships before 2021, in 1991 and 2003, and then won the next four: South Sydney in 2021, Parramatta in 2022, Brisbane in 2023 and Melbourne in 2024.",
+    "hook": "Four straight flags from the foot of the Blue Mountains."
+  },
+  {
+    "id": "spt_245",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Cameron Smith, Billy Slater and Cooper Cronk formed the spine of which club's success in the 2000s and 2010s?",
+    "answer": "Melbourne Storm",
+    "distractors": [
+      "Brisbane Broncos",
+      "Sydney Roosters",
+      "Canberra Raiders"
+    ],
+    "explanation": "The three were key players for the Victorian club during its most successful years, and Smith and Slater both finished their careers there. Cronk later moved to Sydney, where he won a premiership in 2018.",
+    "hook": "A hooker, a fullback and a halfback made one club a powerhouse."
+  },
+  {
+    "id": "spt_246",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which is the only NRL club based outside Australia?",
+    "answer": "New Zealand Warriors",
+    "distractors": [
+      "Gold Coast Titans",
+      "Canberra Raiders",
+      "North Queensland Cowboys"
+    ],
+    "explanation": "Based in Auckland, the club entered the national competition in 1995 and plays its home games in Auckland. It was runner-up in the 2011 grand final, but it has never won a premiership.",
+    "hook": "Every away game means a trip across the Tasman."
+  },
+  {
+    "id": "spt_247",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "For how many minutes is a player sent to the sin bin in the NRL?",
+    "answer": "Ten",
+    "distractors": [
+      "Five",
+      "Fifteen",
+      "Twenty"
+    ],
+    "explanation": "The side plays a player short during that time, and a send-off for foul play is a different, permanent punishment. Rugby union also uses a ten minute yellow card.",
+    "hook": "A short spell in the bin, but the side plays a man down the whole time."
+  },
+  {
+    "id": "spt_248",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club ended a 49-year wait for a first premiership by winning the 2016 grand final?",
+    "answer": "Cronulla Sharks",
+    "distractors": [
+      "Canterbury Bulldogs",
+      "Newcastle Knights",
+      "North Queensland Cowboys"
+    ],
+    "explanation": "The club was founded in 1967 and won its first premiership in 2016, beating Melbourne 14-12 in the grand final.",
+    "hook": "Forty-nine years in the making, finally won over Melbourne."
+  },
+  {
+    "id": "spt_249",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Clive Churchill, namesake of the grand final player of the match award, played in which position?",
+    "answer": "Fullback",
+    "distractors": [
+      "Five-eighth",
+      "Halfback",
+      "Prop"
+    ],
+    "explanation": "Churchill spent his playing career with South Sydney in the 1940s and early 1950s, and the Clive Churchill Medal is awarded to the player of the match in the grand final.",
+    "hook": "The medal goes to the final's best player, named for a South Sydney great."
+  },
+  {
+    "id": "spt_250",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which big forward captained Queensland in the first State of Origin match in 1980?",
+    "answer": "Arthur Beetson",
+    "distractors": [
+      "Wally Lewis",
+      "Mal Meninga",
+      "Allan Langer"
+    ],
+    "explanation": "The Roma-born forward, known as Big Artie, led Queensland in that first Origin match.",
+    "hook": "Big Artie started it all in 1980."
+  },
+  {
+    "id": "spt_251",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club won its maiden premiership in 1997 thanks to a late Darren Albert try in a 22-16 grand final win over Manly?",
+    "answer": "Newcastle Knights",
+    "distractors": [
+      "Cronulla Sharks",
+      "North Sydney Bears",
+      "Canterbury Bulldogs"
+    ],
+    "explanation": "The 1997 grand final was played in the ARL competition during the Super League split year, and Newcastle won another premiership in 2001.",
+    "hook": "Albert's last-minute try gave Newcastle its first flag."
+  },
+  {
+    "id": "spt_252",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club won the 2015 grand final when Johnathan Thurston kicked a golden-point field goal?",
+    "answer": "North Queensland Cowboys",
+    "distractors": [
+      "Brisbane Broncos",
+      "Gold Coast Titans",
+      "Canberra Raiders"
+    ],
+    "explanation": "The Townsville club beat Brisbane 17-16 in golden-point extra time after Johnathan Thurston's field goal, winning its first premiership.",
+    "hook": "A Townsville boot decided it in extra time."
+  },
+  {
+    "id": "spt_253",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which club won three consecutive premierships between 1981 and 1983 under coach Jack Gibson?",
+    "answer": "Parramatta Eels",
+    "distractors": [
+      "Manly Sea Eagles",
+      "Canterbury Bulldogs",
+      "Eastern Suburbs Roosters"
+    ],
+    "explanation": "Jack Gibson, nicknamed Supercoach, coached the club to all three of its consecutive titles.",
+    "hook": "Gibson, nicknamed Supercoach, won three straight grand finals in the early 1980s."
+  },
+  {
+    "id": "spt_254",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many consecutive premierships did St George win from 1956 to 1966?",
+    "answer": "Eleven",
+    "distractors": [
+      "Seven",
+      "Nine",
+      "Thirteen"
+    ],
+    "explanation": "The Dragons' run of premierships from 1956 to 1966 is the longest consecutive run in Australian top-level rugby league. The club merged with Illawarra in 1999 to form St George Illawarra.",
+    "hook": "One club's unbroken run of grand final wins stretched from the 1950s into the 1960s."
+  },
+  {
+    "id": "spt_255",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Western Suburbs joined with which club to form the Wests Tigers joint venture in 2000?",
+    "answer": "Balmain",
+    "distractors": [
+      "Newtown",
+      "Glebe",
+      "North Sydney"
+    ],
+    "explanation": "Both were founding clubs of the Sydney competition in 1908. The merged side won the 2005 premiership, beating North Queensland 30-16 in the grand final.",
+    "hook": "Magpies met Tigers in the inner west."
+  },
+  {
+    "id": "spt_256",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which veteran coach led the Dolphins in the club's first NRL season in 2023?",
+    "answer": "Wayne Bennett",
+    "distractors": [
+      "Craig Bellamy",
+      "Ivan Cleary",
+      "Trent Robinson"
+    ],
+    "explanation": "Based at Redcliffe north of Brisbane, the Dolphins were the 17th team in the competition. Bennett had earlier coached Brisbane and St George Illawarra across a long career.",
+    "hook": "The old master built a new club."
+  },
+  {
+    "id": "spt_257",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Mal Meninga played most of his rugby league career with which club?",
+    "answer": "Canberra Raiders",
+    "distractors": [
+      "Brisbane Broncos",
+      "Parramatta Eels",
+      "Manly Sea Eagles"
+    ],
+    "explanation": "The centre won premierships with the club in 1989, 1990 and 1994. He later coached Queensland in State of Origin and the Kangaroos.",
+    "hook": "Big Mal's three grand final wins came in the late 1980s and mid 1990s."
+  },
+  {
+    "id": "spt_258",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Pacific nation did Australia beat 30-10 in the Rugby League World Cup final held at Old Trafford in 2022?",
+    "answer": "Samoa",
+    "distractors": [
+      "Tonga",
+      "Fiji",
+      "Papua New Guinea"
+    ],
+    "explanation": "The tournament, called the 2021 World Cup, was postponed until late 2022 and played in England, with the final at Old Trafford.",
+    "hook": "The tournament was delayed by a year before it was played in England."
+  },
+  {
+    "id": "spt_259",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which nation won the first Rugby League World Cup, held in France in 1954?",
+    "answer": "Great Britain",
+    "distractors": [
+      "Australia",
+      "France",
+      "New Zealand"
+    ],
+    "explanation": "Great Britain beat the hosts 16-12 in the final in Paris. It was the first Rugby League World Cup, and the first rugby union World Cup did not take place until 1987, 33 years later.",
+    "hook": "The league world cup came 33 years before the union one."
+  },
+  {
+    "id": "spt_260",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which trophy is awarded to the man of the match in the Challenge Cup final?",
+    "answer": "Lance Todd Trophy",
+    "distractors": [
+      "Harry Sunderland Trophy",
+      "Man of Steel",
+      "Albert Goldthorpe Medal"
+    ],
+    "explanation": "It is named after a New Zealand-born player and administrator who died in a car crash in 1942.",
+    "hook": "Todd's name goes on the cup's best-player award."
+  },
+  {
+    "id": "spt_261",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Dally Messenger, the first big star of rugby league, played for which club in the 1908 inaugural Sydney competition?",
+    "answer": "Eastern Suburbs",
+    "distractors": [
+      "South Sydney",
+      "Balmain",
+      "Newtown"
+    ],
+    "explanation": "The club is now known as the Sydney Roosters. Messenger also toured Britain with the first Kangaroos team in 1908-09.",
+    "hook": "The first superstar wore Easts colours."
+  },
+  {
+    "id": "spt_262",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which year did the Gold Coast Titans play their first NRL season?",
+    "answer": "2007",
+    "distractors": [
+      "2005",
+      "2009",
+      "2011"
+    ],
+    "explanation": "The Gold Coast Titans entered the NRL and played their first season in 2007.",
+    "hook": "A Gold Coast club arrived in the NRL in 2007."
+  },
+  {
+    "id": "spt_263",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What is the name of the oldest rugby league knockout competition in England, first played for in 1897?",
+    "answer": "Challenge Cup",
+    "distractors": [
+      "Floodlit Trophy",
+      "Premiership Trophy",
+      "League Leaders' Shield"
+    ],
+    "explanation": "Its final is traditionally staged at Wembley and is a showpiece of the English season. Winners are awarded a trophy and the match's best player gets the Lance Todd Trophy.",
+    "hook": "Wembley's old cup final, since 1897."
+  },
+  {
+    "id": "spt_264",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country's national rugby union team is famous for performing the haka before matches?",
+    "answer": "New Zealand",
+    "distractors": [
+      "Wales",
+      "Australia",
+      "South Africa"
+    ],
+    "explanation": "The All Blacks' best-known haka is Ka Mate. Other Pacific teams, such as Fiji and Samoa, have their own pre-match challenges with different names.",
+    "hook": "All Blacks, black jerseys, and a war dance before every kick-off."
+  },
+  {
+    "id": "spt_265",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the nickname of Australia's women's national rugby union team?",
+    "answer": "The Wallaroos",
+    "distractors": [
+      "The Jillaroos",
+      "The Matildas",
+      "The Opals"
+    ],
+    "explanation": "The name is a play on the men's Wallabies, since a wallaroo is a large kangaroo-like marsupial. The Jillaroos are the national women's rugby league side, and the Matildas and Opals play soccer and basketball.",
+    "hook": "A wallaroo is a bigger cousin of the wallaby."
+  },
+  {
+    "id": "spt_266",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Super Rugby club represents Canberra and the ACT?",
+    "answer": "The Brumbies",
+    "distractors": [
+      "The Waratahs",
+      "The Rebels",
+      "The Force"
+    ],
+    "explanation": "The club was founded in 1996, and its name refers to Australia's wild horses. It has produced Wallabies including George Gregan and Stephen Larkham.",
+    "hook": "Brumbies are wild bush horses, and Canberra is their home."
+  },
+  {
+    "id": "spt_267",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many players does each side have on the field in a rugby union match?",
+    "answer": "Fifteen",
+    "distractors": [
+      "Thirteen",
+      "Eleven",
+      "Eighteen"
+    ],
+    "explanation": "Eight forwards and seven backs make up the side, with up to eight replacements on the bench for a Test match. The shortened sevens version of the game uses seven players per side.",
+    "hook": "Eight in the pack, seven behind: fifteen in all."
+  },
+  {
+    "id": "spt_268",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Pacific nation won the first Olympic gold medal in men's rugby sevens at Rio 2016?",
+    "answer": "Fiji",
+    "distractors": [
+      "Samoa",
+      "Tonga",
+      "Papua New Guinea"
+    ],
+    "explanation": "Fiji beat Great Britain 43-7 in the final, and it was the country's first Olympic medal of any kind. Rugby sevens returned to the Olympics in 2016 after rugby union's last appearance in 1924.",
+    "hook": "Fiji's first-ever Olympic medal was gold."
+  },
+  {
+    "id": "spt_269",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Jonny Wilkinson's drop goal in extra time won the 2003 Rugby World Cup final against which host nation?",
+    "answer": "Australia",
+    "distractors": [
+      "New Zealand",
+      "South Africa",
+      "France"
+    ],
+    "explanation": "England won 20-17 after extra time in Sydney, with Jonny Wilkinson's drop goal deciding it. It remains England's only men's Rugby World Cup title.",
+    "hook": "Extra time, one drop goal, and England took the cup."
+  },
+  {
+    "id": "spt_270",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "At which London ground does England's rugby union team play its home matches?",
+    "answer": "Twickenham",
+    "distractors": [
+      "Wembley Stadium",
+      "Murrayfield",
+      "Lord's"
+    ],
+    "explanation": "With a capacity of over 80,000 it is the largest dedicated rugby stadium in the world. It opened in 1909, and Murrayfield is Scotland's national ground in Edinburgh.",
+    "hook": "Rugby's home in south-west London, and the biggest rugby ground on earth."
+  },
+  {
+    "id": "spt_271",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which combined touring team is picked from players in England, Scotland, Wales and Ireland and visits the southern hemisphere every four years?",
+    "answer": "The British and Irish Lions",
+    "distractors": [
+      "The Barbarians",
+      "The Home Nations XV",
+      "The Celtic Select"
+    ],
+    "explanation": "The Lions play Test series in turn against Australia, New Zealand and South Africa. They won in Australia in 2013, taking the series 2-1 with a 41-16 victory in the third Test in Sydney.",
+    "hook": "Four nations, one red jersey, one tour every four years."
+  },
+  {
+    "id": "spt_272",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many Six Nations matches must a team win to complete a Grand Slam?",
+    "answer": "Five",
+    "distractors": [
+      "Four",
+      "Three",
+      "Seven"
+    ],
+    "explanation": "Each team plays the other five once in the championship, so a Grand Slam means winning all of them. The Triple Crown is a separate prize for beating the other three home nations of England, Ireland, Scotland and Wales.",
+    "hook": "Five opponents, five wins, one Grand Slam."
+  },
+  {
+    "id": "spt_273",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Australia won the 1991 Rugby World Cup final in London against which opponent?",
+    "answer": "England",
+    "distractors": [
+      "New Zealand",
+      "France",
+      "Scotland"
+    ],
+    "explanation": "The Wallabies won 12-6 in front of England's home crowd, with Nick Farr-Jones as captain. Their second title came in 1999, when they beat France in Cardiff.",
+    "hook": "1991 beat England at their own ground; 1999 beat France in Cardiff."
+  },
+  {
+    "id": "spt_274",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which team did Australia's women's sevens side defeat in the final to win gold at the Rio 2016 Olympics?",
+    "answer": "New Zealand",
+    "distractors": [
+      "Canada",
+      "Great Britain",
+      "United States"
+    ],
+    "explanation": "Australia won the final 24-17 in the first Olympic women's rugby sevens tournament.",
+    "hook": "Gold in the first women's Olympic sevens, and the Kiwis took silver."
+  },
+  {
+    "id": "spt_275",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In which position did George Gregan play his record 139 Tests for the Wallabies?",
+    "answer": "Scrum-half",
+    "distractors": [
+      "Number eight",
+      "Full-back",
+      "Loosehead prop"
+    ],
+    "explanation": "Gregan made his Test debut in 1994 and retired from Test rugby after the 2007 World Cup.",
+    "hook": "Gregan was the link between forwards and backs for 139 Tests."
+  },
+  {
+    "id": "spt_276",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Stephen Larkham's long-range extra-time drop goal knocked which team out of the 1999 Rugby World Cup semi-final?",
+    "answer": "South Africa",
+    "distractors": [
+      "New Zealand",
+      "England",
+      "France"
+    ],
+    "explanation": "Australia won that semi-final 27-21 at Twickenham, and Larkham, usually a playmaker rather than a kicker, struck the goal from long range. The Wallabies then won the final against France.",
+    "hook": "A drop goal from nowhere, by a man who rarely kicked them."
+  },
+  {
+    "id": "spt_277",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What does the T in the rugby abbreviation TMO stand for?",
+    "answer": "Television",
+    "distractors": [
+      "Technical",
+      "Tackle",
+      "Touchline"
+    ],
+    "explanation": "The Television Match Official uses replays to help the referee decide whether a try was scored or whether foul play occurred.",
+    "hook": "The TMO watches the replays so the referee does not have to guess."
+  },
+  {
+    "id": "spt_278",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Super Rugby club is based in Dunedin?",
+    "answer": "The Highlanders",
+    "distractors": [
+      "The Chiefs",
+      "The Crusaders",
+      "The Blues"
+    ],
+    "explanation": "The club plays at Forsyth Barr Stadium, the roofed ground known as the Glasshouse. The Highlanders won the Super Rugby title in 2015, beating the Hurricanes in the final.",
+    "hook": "Dunedin is the Scottish-flavoured city, and the Highlanders are its team."
+  },
+  {
+    "id": "spt_279",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Auckland ground hosted the finals of both the 1987 and 2011 Rugby World Cups?",
+    "answer": "Eden Park",
+    "distractors": [
+      "Carisbrook",
+      "Lancaster Park",
+      "Westpac Stadium"
+    ],
+    "explanation": "The All Blacks won both finals there, beating France 29-9 in 1987 and then 8-7 in 2011. Eden Park is also a cricket ground and is the home of the Blues.",
+    "hook": "New Zealand's two cup wins on home turf came at the same ground."
+  },
+  {
+    "id": "spt_280",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is it called when a rugby union player fumbles the ball so it travels towards the opponents' goal line?",
+    "answer": "A knock-on",
+    "distractors": [
+      "A forward pass",
+      "A double movement",
+      "A crooked feed"
+    ],
+    "explanation": "The sanction is a scrum to the other side, unless the referee plays advantage. A forward pass is a different offence in which the ball is thrown forward by hand.",
+    "hook": "Drop it forward and the scrum goes to the other team."
+  },
+  {
+    "id": "spt_281",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Australia and Ireland have played which hybrid contest that mixes Gaelic football with Australian football?",
+    "answer": "The International Rules Series",
+    "distractors": [
+      "The Celtic Challenge",
+      "The Hibernian Shield",
+      "The Southern Cross Cup"
+    ],
+    "explanation": "It is played with an oval Australian rules ball on an oval field, mixing the rules of both codes, including goals and points as in the Australian game.",
+    "hook": "Two codes' rules, one oval ball."
+  },
+  {
+    "id": "spt_282",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which country made its Rugby Championship debut in 2012, joining Australia, New Zealand and South Africa?",
+    "answer": "Argentina",
+    "distractors": [
+      "Japan",
+      "Fiji",
+      "Uruguay"
+    ],
+    "explanation": "The tournament grew out of the Tri Nations, which began in 1996. Argentina was invited after finishing third at the 2007 Rugby World Cup in France, and the Pumas are its nickname.",
+    "hook": "Three became four when the Pumas joined in 2012."
+  },
+  {
+    "id": "spt_283",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which year did the NSW Waratahs win their only Super Rugby title?",
+    "answer": "2014",
+    "distractors": [
+      "2008",
+      "2012",
+      "2016"
+    ],
+    "explanation": "They beat the Crusaders 33-32 in the final in Sydney, by a single point. It is the only Super Rugby title the Waratahs have won.",
+    "hook": "Waratahs 2014: one flag, won by a single point."
+  },
+  {
+    "id": "spt_284",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Brisbane ground in Herston has long been the home of Queensland rugby union?",
+    "answer": "Ballymore",
+    "distractors": [
+      "Perry Park",
+      "The Gabba",
+      "Carrara Stadium"
+    ],
+    "explanation": "Ballymore is the long-standing home of Queensland rugby union, and it has hosted Wallabies Tests as well as Reds games.",
+    "hook": "Ballymore is Queensland rugby's old stomping ground."
+  },
+  {
+    "id": "spt_285",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Māori chief is credited with composing the Ka Mate haka performed by the All Blacks?",
+    "answer": "Te Rauparaha",
+    "distractors": [
+      "Hone Heke",
+      "Te Kooti",
+      "Tāwhiao"
+    ],
+    "explanation": "The haka is traditionally said to have been composed around 1820 after he escaped enemies by hiding in a kumara pit. Its words celebrate the moment of life after near death.",
+    "hook": "A chief hid in a pit and a haka was born."
+  },
+  {
+    "id": "spt_286",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which year did the Brumbies become the first Australian club to win Super Rugby?",
+    "answer": "2001",
+    "distractors": [
+      "1999",
+      "2000",
+      "2002"
+    ],
+    "explanation": "The Brumbies won the title in 2001 and added a second in 2004.",
+    "hook": "The Brumbies made Australian Super Rugby history in 2001."
+  },
+  {
+    "id": "spt_287",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which year did the British and Irish Lions win their only Test series in New Zealand?",
+    "answer": "1971",
+    "distractors": [
+      "1959",
+      "1983",
+      "1993"
+    ],
+    "explanation": "The Lions won 2-1 with one drawn Test, under coach Carwyn James and captain John Dawes. No Lions team has won a Test series in New Zealand since.",
+    "hook": "1971: the one time the Lions won a Test series in New Zealand."
+  },
+  {
+    "id": "spt_288",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Australia beat France in the 1999 Rugby World Cup final at which Cardiff venue?",
+    "answer": "Millennium Stadium",
+    "distractors": [
+      "Murrayfield",
+      "Stade de France",
+      "Lansdowne Road"
+    ],
+    "explanation": "The Wallabies won 35-12 in front of a crowd of over 70,000 at a ground opened that same year. It has since been renamed the Principality Stadium.",
+    "hook": "A new Welsh stadium hosted Australia's second world title."
+  },
+  {
+    "id": "spt_289",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "At which Johannesburg ground did South Africa win the 1995 Rugby World Cup final?",
+    "answer": "Ellis Park",
+    "distractors": [
+      "Loftus Versfeld",
+      "Newlands",
+      "Kings Park"
+    ],
+    "explanation": "The Springboks beat New Zealand 15-12 in extra time, with Joel Stransky kicking the winning drop goal. President Nelson Mandela wore a Springbok jersey as he presented the trophy.",
+    "hook": "Mandela in a Springbok jersey, and a drop goal in extra time."
+  },
+  {
+    "id": "spt_290",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Lions winger scored after David Campese's errant pass in the deciding 1989 Test in Sydney?",
+    "answer": "Ieuan Evans",
+    "distractors": [
+      "Rory Underwood",
+      "Gavin Hastings",
+      "Jeremy Guscott"
+    ],
+    "explanation": "Campese's loose pass gave the Lions their chance, and they won the match 19-18 to take the series 2-1. Campese was otherwise one of the game's great attackers.",
+    "hook": "One careless pass handed the Lions a series."
+  },
+  {
+    "id": "spt_291",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which nation won its only men's World Cup in 1966 on home soil?",
+    "answer": "England",
+    "distractors": [
+      "West Germany",
+      "Brazil",
+      "Portugal"
+    ],
+    "explanation": "England beat West Germany 4-2 after extra time at Wembley, with Geoff Hurst scoring the only hat-trick ever in a men's World Cup final, and have not won the trophy since.",
+    "hook": "Three lions, one trophy, 1966."
+  },
+  {
+    "id": "spt_292",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Argentine forward scored with his hand against England in the 1986 World Cup quarter-final?",
+    "answer": "Diego Maradona",
+    "distractors": [
+      "Claudio Caniggia",
+      "Jorge Valdano",
+      "Gabriel Batistuta"
+    ],
+    "explanation": "He called it the work of 'the hand of God', then minutes later dribbled past half the England team for a second goal widely voted the best in World Cup history. Argentina won 2-1 and went on to take the title.",
+    "hook": "Cheating goal and a genius goal, four minutes apart."
+  },
+  {
+    "id": "spt_293",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Argentine captained his country to the 2022 World Cup title in Qatar?",
+    "answer": "Lionel Messi",
+    "distractors": [
+      "Angel Di Maria",
+      "Paulo Dybala",
+      "Lautaro Martinez"
+    ],
+    "explanation": "Argentina beat France on penalties after a 3-3 draw in the final, which included a hat-trick from Kylian Mbappe. Messi won the Golden Ball as the tournament's best player.",
+    "hook": "The one trophy missing from Messi's shelf, finally filled."
+  },
+  {
+    "id": "spt_294",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "On which ground do Liverpool play their home matches?",
+    "answer": "Anfield",
+    "distractors": [
+      "Goodison Park",
+      "Villa Park",
+      "Elland Road"
+    ],
+    "explanation": "The ground opened in 1884 and was first used by Everton before Liverpool were formed in 1892. Its famous Kop end is known for the pre-match singing of You'll Never Walk Alone.",
+    "hook": "Everton built it, then left, and Liverpool took over."
+  },
+  {
+    "id": "spt_295",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which colour of card means a player is sent off in soccer?",
+    "answer": "Red",
+    "distractors": [
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
+    "explanation": "A yellow card is only a caution, though two yellows in one match add up to a red. Cards were introduced at the 1970 World Cup after referee Ken Aston, stopped at traffic lights, came up with the idea.",
+    "hook": "Traffic lights inspired the cards: yellow for caution, red for stop."
+  },
+  {
+    "id": "spt_296",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian coach won the Scottish Premiership with Celtic and later took charge of Tottenham Hotspur?",
+    "answer": "Ange Postecoglou",
+    "distractors": [
+      "Graham Arnold",
+      "Tony Popovic",
+      "Kevin Muscat"
+    ],
+    "explanation": "He won the 2021-22 league title in his first season at Celtic, and went on to win the 2025 Europa League with Tottenham. Earlier he coached Brisbane Roar and the Socceroos.",
+    "hook": "From the A-League to Glasgow to north London."
+  },
+  {
+    "id": "spt_297",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country won the 2018 men's World Cup in Russia, beating Croatia in the final?",
+    "answer": "France",
+    "distractors": [
+      "Belgium",
+      "England",
+      "Brazil"
+    ],
+    "explanation": "France won 4-2 in Moscow, with teenager Kylian Mbappe scoring in the final. It was their second title, 20 years after winning on home soil in 1998 under captain Didier Deschamps, who won it as coach in 2018.",
+    "hook": "Deschamps lifted it as captain in 1998 and coach in 2018."
+  },
+  {
+    "id": "spt_298",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Rio de Janeiro stadium hosted the World Cup finals of both 1950 and 2014?",
+    "answer": "Maracana",
+    "distractors": [
+      "Estadio Azteca",
+      "San Siro",
+      "Santiago Bernabeu"
+    ],
+    "explanation": "In 1950 Uruguay stunned Brazil there in front of an official crowd of about 174,000 (some estimates are close to 200,000), a loss Brazilians call the Maracanazo. In 2014 Germany beat Argentina 1-0 after extra time in the final.",
+    "hook": "Rio's temple of football has seen two finals, 64 years apart."
+  },
+  {
+    "id": "spt_299",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Croatian midfielder won the 2018 Ballon d'Or, ending a decade of wins by Lionel Messi and Cristiano Ronaldo?",
+    "answer": "Luka Modric",
+    "distractors": [
+      "Ivan Rakitic",
+      "Mario Mandzukic",
+      "Ivan Perisic"
+    ],
+    "explanation": "He led Croatia to their first World Cup final and won the Golden Ball in Russia, then took the Ballon d'Or in the same year. Messi and Ronaldo had shared every award from 2008 to 2017.",
+    "hook": "The man who broke the Messi-Ronaldo monopoly."
+  },
+  {
+    "id": "spt_300",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Dutch coach led the Socceroos to the second round of the 2006 World Cup?",
+    "answer": "Guus Hiddink",
+    "distractors": [
+      "Louis van Gaal",
+      "Dick Advocaat",
+      "Frank Rijkaard"
+    ],
+    "explanation": "Australia were beaten 1-0 by eventual champions Italy through a controversial last-minute penalty. Hiddink had earlier taken South Korea to the semi-finals of the 2002 World Cup.",
+    "hook": "A Dutch miracle worker with a habit of taking underdogs far."
+  },
+  {
+    "id": "spt_301",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Asian club title did Western Sydney Wanderers win in 2014, beating Al-Hilal over two legs?",
+    "answer": "AFC Champions League",
+    "distractors": [
+      "AFC Cup",
+      "OFC Champions League",
+      "FIFA Club World Cup"
+    ],
+    "explanation": "The Wanderers, founded only in 2012, were the first Australian club to win Asia's top club competition. Their win earned them a place at the Club World Cup in Morocco.",
+    "hook": "Two-year-old club conquers Asia."
+  },
+  {
+    "id": "spt_302",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "For an offside decision, which instant matters for the attacker's position?",
+    "answer": "Teammate's pass being played",
+    "distractors": [
+      "Attacker's first touch of it",
+      "Ball crossing the goal-line",
+      "Referee's whistle for the free kick"
+    ],
+    "explanation": "Offside is judged when the ball is played by a teammate, not when it is received, which is why linesmen and video referees freeze the exact frame of the pass. A player level with the second-last defender is onside.",
+    "hook": "Freeze the frame at the pass, not the finish."
+  },
+  {
+    "id": "spt_303",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "By the end of 2024, which club had won the most European Cup and Champions League titles?",
+    "answer": "Real Madrid",
+    "distractors": [
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Real won the first five European Cups from 1956 to 1960 and had reached 15 titles by 2024. AC Milan are the next most successful Italian side, and Liverpool lead the English clubs on six.",
+    "hook": "Los Blancos own the competition, starting with five in a row."
+  },
+  {
+    "id": "spt_304",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian winger left the field injured early in Liverpool's 2005 Champions League final against AC Milan?",
+    "answer": "Harry Kewell",
+    "distractors": [
+      "Mark Viduka",
+      "Brett Emerton",
+      "Lucas Neill"
+    ],
+    "explanation": "Kewell went off after about 23 minutes with a groin injury, and Liverpool then recovered from 3-0 down to draw 3-3 and win on penalties in Istanbul.",
+    "hook": "He limped off, then watched the Miracle of Istanbul."
+  },
+  {
+    "id": "spt_305",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which English referee booked the same Croatian player three times in the Socceroos' 2006 World Cup draw?",
+    "answer": "Graham Poll",
+    "distractors": [
+      "Howard Webb",
+      "Mark Clattenburg",
+      "Mike Dean"
+    ],
+    "explanation": "Josip Simunic was only sent off after a third yellow card late in the 2-2 draw, which sent Australia into the knockout stage. Poll had forgotten the second booking.",
+    "hook": "The ref who couldn't count to two."
+  },
+  {
+    "id": "spt_306",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Socceroo captain at the 1974 World Cup wrote the 2002 book Sheilas, Wogs and Poofters?",
+    "answer": "Johnny Warren",
+    "distractors": [
+      "Attila Abonyi",
+      "Ray Baartz",
+      "Harry Williams"
+    ],
+    "explanation": "The book challenged Australian attitudes to soccer as a migrant sport. He died in 2004, a year before the Socceroos ended their long wait for another World Cup, and the A-League's player of the year medal now carries his name.",
+    "hook": "The man who campaigned for the game and missed 2006 by a year."
+  },
+  {
+    "id": "spt_307",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which striker scored twice in the 1978 World Cup final as hosts Argentina beat the Netherlands?",
+    "answer": "Mario Kempes",
+    "distractors": [
+      "Daniel Passarella",
+      "Leopoldo Luque",
+      "Osvaldo Ardiles"
+    ],
+    "explanation": "Kempes scored once in normal time and again in extra time of a 3-1 win. He finished as the tournament's top scorer and its best player.",
+    "hook": "Golden Boot, Golden Ball and a goal in extra time."
+  },
+  {
+    "id": "spt_308",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which player scored the only goal as the Socceroos beat Denmark 1-0 at the 2022 World Cup?",
+    "answer": "Mathew Leckie",
+    "distractors": [
+      "Craig Goodwin",
+      "Mitchell Duke",
+      "Jackson Irvine"
+    ],
+    "explanation": "The win put Australia into the round of 16 for the first time since 2006. They had already beaten Tunisia 1-0 thanks to a header from Duke, and then lost 2-1 to eventual champions Argentina.",
+    "hook": "A winner against Denmark sent Australia into the knockouts."
+  },
+  {
+    "id": "spt_309",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Liverpool midfielder of the 1980s, raised in Australia, went on to design the Predator football boot?",
+    "answer": "Craig Johnston",
+    "distractors": [
+      "Tony Dorigo",
+      "Paul Okon",
+      "Ned Zelic"
+    ],
+    "explanation": "He won the 1984 European Cup and the 1986 league and FA Cup double at Anfield. He later developed the Predator boot, which had a rubber-fin striking surface.",
+    "hook": "A Liverpool double winner who invented the Predator."
+  },
+  {
+    "id": "spt_310",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who was England's goalkeeper at the 1986 World Cup quarter-final against Argentina?",
+    "answer": "Peter Shilton",
+    "distractors": [
+      "Gordon Banks",
+      "David Seaman",
+      "Ray Clemence"
+    ],
+    "explanation": "Shilton jumped for the ball but was beaten in the air by the much shorter Maradona, whose handball goal was allowed to stand. Shilton finished his England career with 125 caps.",
+    "hook": "Shilton, the keeper with 125 caps, beaten by a famous handball."
+  },
+  {
+    "id": "spt_311",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which team beat the Matildas in the 2023 Women's World Cup third-place play-off in Brisbane?",
+    "answer": "Sweden",
+    "distractors": [
+      "Spain",
+      "Germany",
+      "Brazil"
+    ],
+    "explanation": "Sweden won 2-0 after the Matildas had lost their semi-final to England, leaving Australia fourth, their best World Cup result. The tournament was won by Spain, who beat England in the final.",
+    "hook": "Fourth place was the Matildas' best ever."
+  },
+  {
+    "id": "spt_313",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which gymnast scored the first perfect ten in Olympic history, at Montreal in 1976?",
+    "answer": "Nadia Comaneci",
+    "distractors": [
+      "Olga Korbut",
+      "Simone Biles",
+      "Larisa Latynina"
+    ],
+    "explanation": "She was fourteen when she earned it on the uneven bars, and the scoreboard could only show 1.00 because it was never built to display a ten. She went on to score six more perfect marks in Montreal.",
+    "hook": "The scoreboard flashed 1.00 because nobody expected a ten."
+  },
+  {
+    "id": "spt_314",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which American city will host the 2028 Summer Olympics?",
+    "answer": "Los Angeles",
+    "distractors": [
+      "Chicago",
+      "Houston",
+      "Boston"
+    ],
+    "explanation": "It will be the third time the city has staged the Games, after 1932 and 1984, joining London and Paris as three-time hosts. Atlanta was the last American host, in 1996.",
+    "hook": "LA 1932, LA 1984, LA 2028: a hat-trick for Hollywood's city."
+  },
+  {
+    "id": "spt_315",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "The 2016 Rio Olympics were the first Games held on which continent?",
+    "answer": "South America",
+    "distractors": [
+      "Africa",
+      "Asia",
+      "Oceania"
+    ],
+    "explanation": "Brazil's win ended a long wait for the continent, though Africa has still never hosted. Melbourne in 1956 was the first Games staged in the Southern Hemisphere, six decades before Brazil's turn arrived.",
+    "hook": "Rio 2016 filled in South America on the Olympic map."
+  },
+  {
+    "id": "spt_316",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which city's 2020 Olympics were delayed by a year because of the pandemic?",
+    "answer": "Tokyo",
+    "distractors": [
+      "Paris",
+      "Beijing",
+      "Rio de Janeiro"
+    ],
+    "explanation": "The Games opened in July 2021 but kept the 2020 name, and nearly all events were held without spectators. It was the first postponement in Olympic history, since earlier cancellations in wartime were never rescheduled.",
+    "hook": "Tokyo 2020 happened in 2021 and kept its old name."
+  },
+  {
+    "id": "spt_317",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What does the Olympic motto \"Citius, Altius, Fortius\" mean in English?",
+    "answer": "Faster, Higher, Stronger",
+    "distractors": [
+      "Swifter, Bolder, Wiser",
+      "Proud, United, Fearless",
+      "Quicker, Taller, Braver"
+    ],
+    "explanation": "The Latin phrase was adopted in 1894 at the founding of the International Olympic Committee, borrowed from a friend of Pierre de Coubertin. In 2021 the IOC added the word \"Together\" to the motto.",
+    "hook": "Faster, higher, stronger, and since 2021, together."
+  },
+  {
+    "id": "spt_318",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which country is the Olympic flame lit before each torch relay begins?",
+    "answer": "Greece",
+    "distractors": [
+      "Italy",
+      "Switzerland",
+      "Egypt"
+    ],
+    "explanation": "Actresses dressed as priestesses ignite it at the ancient site of Olympia, using the sun's rays and a curved mirror. The flame is then carried to the host city by a relay of torchbearers.",
+    "hook": "The sun lights it, in Olympia, every single time."
+  },
+  {
+    "id": "spt_319",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which city became the first to host the Summer Olympics three times, in 2012?",
+    "answer": "London",
+    "distractors": [
+      "Paris",
+      "Los Angeles",
+      "Athens"
+    ],
+    "explanation": "It had previously staged the 1908 and 1948 Games, the latter in a postwar austerity that gave it the nickname the Austerity Games. Paris joined it as a three-time host in 2024.",
+    "hook": "London 1908, 1948, 2012: first to the hat-trick."
+  },
+  {
+    "id": "spt_320",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who ran the first sub-two-hour marathon, under unofficial conditions in Vienna in 2019?",
+    "answer": "Eliud Kipchoge",
+    "distractors": [
+      "Haile Gebrselassie",
+      "Kenenisa Bekele",
+      "Mo Farah"
+    ],
+    "explanation": "His 1:59:40 did not count as a world record because rotating pacemakers and a laser-guided car aided him. He also won Olympic marathon gold in 2016 and 2020.",
+    "hook": "The two-hour barrier fell in Vienna, but with pacers."
+  },
+  {
+    "id": "spt_321",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Alisa Camplin won Olympic gold at Salt Lake City in 2002 in which freestyle skiing event?",
+    "answer": "Aerials",
+    "distractors": [
+      "Moguls",
+      "Halfpipe",
+      "Ski cross"
+    ],
+    "explanation": "She was the first Australian woman to win a Winter Olympic gold, just days before Steven Bradbury's shock short-track win. She added bronze at Turin in 2006.",
+    "hook": "Aerials gold: flips high above the snow, days before Bradbury."
+  },
+  {
+    "id": "spt_322",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian has won all four Grand Slam singles titles and Paralympic gold in quad wheelchair tennis?",
+    "answer": "Dylan Alcott",
+    "distractors": [
+      "Kurt Fearnley",
+      "Heath Davidson",
+      "Curtis McGrath"
+    ],
+    "explanation": "His quad wheelchair tennis Golden Slam was completed with Paralympic gold in Tokyo. Steffi Graf is the only able-bodied player to do the same, in 1988. He retired after winning the 2022 Australian Open.",
+    "hook": "Four majors plus Paralympic gold: tennis's Golden Slam."
+  },
+  {
+    "id": "spt_323",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian wheelchair racer crawled the Kokoda Track in 2009?",
+    "answer": "Kurt Fearnley",
+    "distractors": [
+      "Dylan Alcott",
+      "Louise Sauvage",
+      "Brad Ness"
+    ],
+    "explanation": "He covered roughly 96 kilometres through Papua New Guinea's jungle, hauling himself along on his hands. He is also a marathon racer and a multiple Paralympic gold medallist.",
+    "hook": "He crawled the Kokoda Track, Papua New Guinea's famous trail."
+  },
+  {
+    "id": "spt_324",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In 1948, Ludwig Guttmann organised a sports competition for wounded veterans at which English hospital?",
+    "answer": "Stoke Mandeville",
+    "distractors": [
+      "St Thomas' Hospital",
+      "Addenbrooke's Hospital",
+      "Royal Free Hospital"
+    ],
+    "explanation": "The Stoke Mandeville Games opened on the same day as the London Olympics. They grew into the Paralympics, with the first official Games held in Rome in 1960.",
+    "hook": "A hospital in Buckinghamshire started the Paralympic movement."
+  },
+  {
+    "id": "spt_325",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "The US-led boycott of the 1980 Moscow Olympics followed the Soviet invasion of which country?",
+    "answer": "Afghanistan",
+    "distractors": [
+      "Poland",
+      "Czechoslovakia",
+      "Hungary"
+    ],
+    "explanation": "Dozens of nations stayed away, and the Soviet bloc retaliated by skipping Los Angeles in 1984. Australia still competed after its Olympic Federation defied pressure from the Fraser government.",
+    "hook": "Afghanistan invaded in 1979; boycott followed in 1980."
+  },
+  {
+    "id": "spt_326",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What tradition began at the closing ceremony of the 1956 Melbourne Olympics?",
+    "answer": "Athletes marching in together, not by country",
+    "distractors": [
+      "A second cauldron lit in the stands",
+      "Children's choirs singing the host's anthem",
+      "Past champions carrying the Olympic flag"
+    ],
+    "explanation": "The idea came from John Ian Wing, a teenage Chinese-Australian apprentice who wrote to organisers, and it became a fixture of every closing ceremony since. Athletes mingled freely, symbolising unity between nations.",
+    "hook": "A Melbourne teenager's letter ended the marching-by-nation ritual."
+  },
+  {
+    "id": "spt_327",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which Olympics did Sally Pearson win gold in the 100m hurdles?",
+    "answer": "London 2012",
+    "distractors": [
+      "Beijing 2008",
+      "Rio 2016",
+      "Athens 2004"
+    ],
+    "explanation": "She had taken silver at Beijing in 2008 and won the world title in 2011 before completing the set in London. She retired in 2019 after repeated injury setbacks.",
+    "hook": "Silver in Beijing, then gold in London."
+  },
+  {
+    "id": "spt_328",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which dance-based sport made its Olympic debut at Paris 2024, with Australia's Raygun competing?",
+    "answer": "Breaking",
+    "distractors": [
+      "Ballroom dancing",
+      "Parkour",
+      "Pole fitness"
+    ],
+    "explanation": "Rachael Gunn, an academic who competed as Raygun, scored no points in her round-robin battles and became a worldwide talking point. The discipline was dropped from the Los Angeles 2028 programme.",
+    "hook": "Raygun's moves went viral, but breaking will not return in 2028."
+  },
+  {
+    "id": "spt_329",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Athletes from which country were taken hostage at the 1972 Munich Olympics?",
+    "answer": "Israel",
+    "distractors": [
+      "Great Britain",
+      "Egypt",
+      "Argentina"
+    ],
+    "explanation": "Eleven members of the Israeli team were killed by Palestinian gunmen, along with a West German police officer. The Games paused for a memorial service then continued, a decision still debated today.",
+    "hook": "Munich 1972: the Games' darkest day, a memorial before resuming."
+  },
+  {
+    "id": "spt_330",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many Olympic gold medals did American sprinter and long jumper Carl Lewis win?",
+    "answer": "Nine",
+    "distractors": [
+      "Seven",
+      "Eight",
+      "Ten"
+    ],
+    "explanation": "Between 1984 and 1996 he won the long jump at four straight Games and also took 100m, 200m and relay golds. He also collected one Olympic silver, in the 200m at Seoul in 1988.",
+    "hook": "Nine golds, including four in a row in the long jump."
+  },
+  {
+    "id": "spt_331",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Borobi, the mascot of the Gold Coast 2018 Commonwealth Games, was which animal?",
+    "answer": "A koala",
+    "distractors": [
+      "A kangaroo",
+      "A kookaburra",
+      "A wombat"
+    ],
+    "explanation": "The blue mascot's name is the Yugambeh word for koala, the language of the area's Aboriginal people. Australia topped the medal table on home soil, as it did in Melbourne in 2006.",
+    "hook": "A blue koala wore the Gold Coast's local Indigenous name."
+  },
+  {
+    "id": "spt_332",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How high did Steve Hooker clear to win pole vault gold at Beijing 2008?",
+    "answer": "5.96 metres",
+    "distractors": [
+      "5.85 metres",
+      "6.01 metres",
+      "5.90 metres"
+    ],
+    "explanation": "It was an Olympic record at the time and gave Australia its first men's Olympic pole vault gold. Armand Duplantis later raised the Games mark to 6.25 metres at Paris 2024.",
+    "hook": "Hooker cleared 5.96 in Beijing, just shy of six metres."
+  },
+  {
+    "id": "spt_333",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won the heptathlon at the Los Angeles Olympics in 1984?",
+    "answer": "Glynis Nunn",
+    "distractors": [
+      "Debbie Flintoff-King",
+      "Jane Flemming",
+      "Kerry Saxby-Junna"
+    ],
+    "explanation": "It was the first Olympic heptathlon, which replaced the five-event pentathlon that year. She was Australia's first female track and field champion since Betty Cuthbert in 1964.",
+    "hook": "Seven events, and Nunn won the very first Olympic heptathlon."
+  },
+  {
+    "id": "spt_334",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which breed of dog was Waldi, the first official Olympic mascot, at Munich in 1972?",
+    "answer": "A dachshund",
+    "distractors": [
+      "A German shepherd",
+      "A rottweiler",
+      "A dalmatian"
+    ],
+    "explanation": "Waldi was a colourful dachshund, chosen as a Bavarian favourite for being tough, agile and resilient. Official mascots have been a feature of every Games since.",
+    "hook": "Waldi the dachshund started the Olympic mascot tradition."
+  },
+  {
+    "id": "spt_335",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What was the ancient Greek sacred truce called that let athletes and spectators travel safely to the Games?",
+    "answer": "Ekecheiria",
+    "distractors": [
+      "Eleutheria",
+      "Symmachia",
+      "Isonomia"
+    ],
+    "explanation": "Heralds proclaimed it before each ancient Games at Olympia so travellers could cross warring city-states safely. The United Nations has backed a modern Olympic Truce resolution for each Games since 1993.",
+    "hook": "Ekecheiria: the ancient Greek ceasefire for the Games."
+  },
+  {
+    "id": "spt_336",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Canadian city hosted the first British Empire Games in 1930?",
+    "answer": "Hamilton",
+    "distractors": [
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ],
+    "explanation": "Eleven nations took part in the Ontario city, a forerunner of today's Commonwealth Games. Australia sent a team and the Games were later renamed British Commonwealth Games and then Commonwealth Games.",
+    "hook": "Hamilton, Ontario, kicked off the Empire Games in 1930."
+  },
+  {
+    "id": "spt_337",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Perth venue was the main stadium for the 1962 British Empire and Commonwealth Games?",
+    "answer": "Perry Lakes Stadium",
+    "distractors": [
+      "Subiaco Oval",
+      "The WACA Ground",
+      "Claremont Showground"
+    ],
+    "explanation": "Built for the Games at Floreat, Perry Lakes Stadium was the main athletics venue for the 1962 event.",
+    "hook": "Perry Lakes, Perth's own 1962 Games arena."
+  },
+  {
+    "id": "spt_338",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "At which Winter Games did Dale Begg-Smith win the men's moguls gold medal?",
+    "answer": "Turin 2006",
+    "distractors": [
+      "Salt Lake City 2002",
+      "Vancouver 2010",
+      "Sochi 2014"
+    ],
+    "explanation": "The Canadian-born skier had switched to Australia and won gold in Italy, then took silver at Vancouver in 2010. He was Australia's second male Winter Olympic champion after Steven Bradbury.",
+    "hook": "Turin 2006 gold, Vancouver 2010 silver."
+  },
+  {
+    "id": "spt_339",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Paris 2024 surfing was held at Teahupo'o in which French overseas location?",
+    "answer": "Tahiti",
+    "distractors": [
+      "New Caledonia",
+      "Réunion",
+      "Martinique"
+    ],
+    "explanation": "The famed reef break is more than 15,000 kilometres from Paris, among the most distant venues any Olympic event has had from its host city. Surfing debuted at Tokyo 2020 and is on the programme again in 2028.",
+    "hook": "Paris's surfing happened in the South Pacific, in Tahiti."
+  },
+  {
+    "id": "spt_340",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which boxer beat George Foreman in Kinshasa, Zaire, in October 1974?",
+    "answer": "Muhammad Ali",
+    "distractors": [
+      "Joe Frazier",
+      "Sonny Liston",
+      "Larry Holmes"
+    ],
+    "explanation": "Ali leaned on the ropes and let the hard-hitting Foreman punch himself out, then knocked him down in the eighth round to regain the heavyweight title. The fight was billed as the Rumble in the Jungle.",
+    "hook": "Ali let Foreman tire himself out, then struck in round eight."
+  },
+  {
+    "id": "spt_341",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which heavyweight was disqualified in 1997 for biting a piece off Evander Holyfield's ear?",
+    "answer": "Mike Tyson",
+    "distractors": [
+      "George Foreman",
+      "Lennox Lewis",
+      "Riddick Bowe"
+    ],
+    "explanation": "The bite came in the third round of the rematch in Las Vegas. Nevada fined him US$3 million and revoked his boxing licence for more than a year before it was reinstated.",
+    "hook": "Iron Mike lost his licence for taking a bite out of the fight."
+  },
+  {
+    "id": "spt_342",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which American cyclist was stripped of seven consecutive Tour de France titles after a doping investigation?",
+    "answer": "Lance Armstrong",
+    "distractors": [
+      "Greg LeMond",
+      "Floyd Landis",
+      "Tyler Hamilton"
+    ],
+    "explanation": "The US Anti-Doping Agency's 2012 report led the sport's governing body, the UCI, to strip all of his results from 1 August 1998 onward, including the seven Tour wins, and no replacement winners were named. He admitted doping in a 2013 television interview with Oprah Winfrey.",
+    "hook": "Seven Tours won, seven Tours wiped from the record books."
+  },
+  {
+    "id": "spt_343",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which sprinter lost his 100 metres gold from the 1988 Seoul Olympics after testing positive for the steroid stanozolol?",
+    "answer": "Ben Johnson",
+    "distractors": [
+      "Donovan Bailey",
+      "Linford Christie",
+      "Carl Lewis"
+    ],
+    "explanation": "He had run a world-record 9.79 seconds, which was also struck from the books. Carl Lewis was upgraded from silver to gold, and Britain's Linford Christie moved up to silver.",
+    "hook": "Seoul's fastest man lasted only a couple of days as champion."
+  },
+  {
+    "id": "spt_344",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What colour belt does a beginner in karate usually wear when starting out?",
+    "answer": "White",
+    "distractors": [
+      "Yellow",
+      "Orange",
+      "Green"
+    ],
+    "explanation": "In most karate schools white is the first belt. Students then move through the coloured kyu grades before reaching the black belt and its dan ranks.",
+    "hook": "White is the blank page; black is the finished book."
+  },
+  {
+    "id": "spt_345",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which swimming stroke do racers begin the race in the water rather than diving in from the blocks?",
+    "answer": "Backstroke",
+    "distractors": [
+      "Butterfly",
+      "Breaststroke",
+      "Freestyle"
+    ],
+    "explanation": "Swimmers hold the starting grips while facing the wall, then push off on their backs. It is also the first leg of the medley relay, so only the other three swimmers in that relay dive.",
+    "hook": "Backstroke is the only start with no dive at all."
+  },
+  {
+    "id": "spt_346",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the name of the somersault manoeuvre freestyle swimmers use to reverse direction at the wall?",
+    "answer": "A tumble turn",
+    "distractors": [
+      "A glide turn",
+      "A pivot turn",
+      "A spiral turn"
+    ],
+    "explanation": "The swimmer flips over, plants both feet on the wall and pushes off underwater, which is faster than touching the wall with the hands. Breaststroke and butterfly require a two-hand touch instead.",
+    "hook": "Freestylers flip; breaststrokers and butterfliers must touch."
+  },
+  {
+    "id": "spt_347",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which state is the cycling race Tour Down Under held each January?",
+    "answer": "South Australia",
+    "distractors": [
+      "Victoria",
+      "New South Wales",
+      "Queensland"
+    ],
+    "explanation": "First run in 1999 and based around Adelaide, the race has riders tackle the Adelaide Hills, including the climb up Willunga Hill.",
+    "hook": "Summer in Adelaide opens the world cycling season."
+  },
+  {
+    "id": "spt_348",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Olympic athletics event was transformed by Dick Fosbury's backwards-over-the-bar technique at Mexico City in 1968?",
+    "answer": "High jump",
+    "distractors": [
+      "Pole vault",
+      "Long jump",
+      "Triple jump"
+    ],
+    "explanation": "Fosbury won gold with a leap of 2.24 metres. His style became practical only because foam landing mats had replaced sawdust pits, and almost every top jumper now uses it.",
+    "hook": "Fosbury's Flop: go over backwards and land on your shoulders."
+  },
+  {
+    "id": "spt_349",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What was Muhammad Ali's name at birth?",
+    "answer": "Cassius Clay",
+    "distractors": [
+      "Marcus Clay",
+      "Cassius Lewis",
+      "Clay Cassidy"
+    ],
+    "explanation": "He won Olympic light-heavyweight gold in Rome in 1960 under his birth name. He announced the change after beating Sonny Liston for the heavyweight title in 1964 and joining the Nation of Islam.",
+    "hook": "Clay won Olympic gold in Rome before becoming Ali."
+  },
+  {
+    "id": "spt_350",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian won the 2022 Giro d'Italia?",
+    "answer": "Jai Hindley",
+    "distractors": [
+      "Richie Porte",
+      "Michael Matthews",
+      "Cadel Evans"
+    ],
+    "explanation": "He became the first Australian to win the Giro. He took the leader's pink jersey from Richard Carapaz on the Marmolada climb on the penultimate stage and held it through the final time trial in Verona.",
+    "hook": "First Aussie in pink, sealed on the Marmolada mountain."
+  },
+  {
+    "id": "spt_351",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Whose 8.90-metre leap at the 1968 Mexico City Olympics stood as the long jump world record for almost 23 years?",
+    "answer": "Bob Beamon",
+    "distractors": [
+      "Carl Lewis",
+      "Mike Powell",
+      "Jesse Owens"
+    ],
+    "explanation": "It beat the previous record by 55 centimetres, helped by the thin air at altitude. Mike Powell finally broke it with 8.95 metres at the 1991 world championships in a famous duel with Carl Lewis.",
+    "hook": "Beamon beat the old mark by more than half a metre."
+  },
+  {
+    "id": "spt_352",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which British runner won consecutive Olympic 1500 metres titles in 1980 and 1984?",
+    "answer": "Sebastian Coe",
+    "distractors": [
+      "Steve Ovett",
+      "Steve Cram",
+      "Peter Elliott"
+    ],
+    "explanation": "His rival Steve Ovett won the 800 metres in Moscow, with Coe taking silver in that event at both Games. Coe later led the organising committee for the London 2012 Olympics.",
+    "hook": "Coe's two 1500 golds, Ovett's Moscow 800: Britain's great rivalry."
+  },
+  {
+    "id": "spt_353",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which famous Sydney suburb does the 14 kilometre City2Surf fun run finish?",
+    "answer": "Bondi",
+    "distractors": [
+      "Manly",
+      "Coogee",
+      "Cronulla"
+    ],
+    "explanation": "The race starts at Hyde Park in the city each August and finishes at Bondi Beach. Runners climb Heartbreak Hill partway along the course before the long descent to the sea.",
+    "hook": "From the city to the sand, with Heartbreak Hill in between."
+  },
+  {
+    "id": "spt_354",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which city hosts the world's oldest annual marathon, first run in 1897?",
+    "answer": "Boston",
+    "distractors": [
+      "New York",
+      "London",
+      "Chicago"
+    ],
+    "explanation": "Held on Patriots' Day in April, it was inspired by the marathon at the first modern Olympics in Athens in 1896. The New York race began in 1970 and London's in 1981.",
+    "hook": "Boston's 1897 race came just one year after the first Olympic marathon."
+  },
+  {
+    "id": "spt_355",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which country does Louisiana-born pole vaulter Mondo Duplantis compete for?",
+    "answer": "Sweden",
+    "distractors": [
+      "Norway",
+      "Finland",
+      "Denmark"
+    ],
+    "explanation": "His mother Helena is Swedish, and his American father Greg, a former vaulter, coached him. He won Olympic gold at both Tokyo and Paris.",
+    "hook": "Born in Louisiana, vaulting for the Swedish flag."
+  },
+  {
+    "id": "spt_356",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Since 2010, which colour jersey has the overall leader of the Vuelta a España worn?",
+    "answer": "Red",
+    "distractors": [
+      "Pink",
+      "White",
+      "Blue"
+    ],
+    "explanation": "Before 2010 the leader's jersey was gold, and green marks the points leader. Pink is the colour of the Giro d'Italia leader.",
+    "hook": "Spain's Grand Tour leader wears red, Italy's wears pink."
+  },
+  {
+    "id": "spt_357",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which country does UFC star Israel Adesanya represent, despite being born in Nigeria?",
+    "answer": "New Zealand",
+    "distractors": [
+      "Australia",
+      "England",
+      "Canada"
+    ],
+    "explanation": "He moved to Auckland as a boy and fought his way up through kickboxing. He won the middleweight title at Melbourne's Marvel Stadium in 2019 and is nicknamed The Last Stylebender.",
+    "hook": "Nigerian-born, Kiwi-raised, crowned in Melbourne."
+  },
+  {
+    "id": "spt_358",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the highest rank in professional sumo wrestling?",
+    "answer": "Yokozuna",
+    "distractors": [
+      "Ozeki",
+      "Sekiwake",
+      "Komusubi"
+    ],
+    "explanation": "A grand champion cannot be demoted, so he is expected to retire when his performance declines. He wears a thick braided white rope around his waist at ceremonies.",
+    "hook": "The rope-wearing champion cannot be demoted, only retired."
+  },
+  {
+    "id": "spt_359",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "After the 1964 Tokyo Olympics, Dawn Fraser was banned by Australian swimming officials for taking what souvenir from the Emperor's palace?",
+    "answer": "A flag",
+    "distractors": [
+      "A silk kimono",
+      "A bronze statue",
+      "A ceremonial sword"
+    ],
+    "explanation": "She and teammates took it from a flagpole at the Imperial Palace grounds, and police briefly detained her before releasing her. Swimming officials then banned her from competition.",
+    "hook": "A flag taken as a prank got a champion banned."
+  },
+  {
+    "id": "spt_360",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian distance runner broke seventeen world records but never won an Olympic gold medal?",
+    "answer": "Ron Clarke",
+    "distractors": [
+      "Rob de Castella",
+      "Steve Moneghetti",
+      "Derek Clayton"
+    ],
+    "explanation": "He won bronze in the 10,000 metres at Tokyo in 1964 and collapsed after the same race at altitude in Mexico City in 1968. As a teenager he lit the cauldron at the 1956 Melbourne Games.",
+    "hook": "A record-breaker who never struck Olympic gold."
+  },
+  {
+    "id": "spt_361",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian teenager won the 400 and 1500 metres freestyle at the 1956 Melbourne Olympics?",
+    "answer": "Murray Rose",
+    "distractors": [
+      "Jon Henricks",
+      "John Devitt",
+      "Kevin Berry"
+    ],
+    "explanation": "He also swam in the winning 4x200m relay at Melbourne, giving him three golds at seventeen. He won the 400 metres again at Rome in 1960.",
+    "hook": "Three golds at home at seventeen."
+  },
+  {
+    "id": "spt_362",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won the women's triathlon at the 2008 Beijing Olympics?",
+    "answer": "Emma Snowsill",
+    "distractors": [
+      "Michellie Jones",
+      "Erin Densham",
+      "Emma Moffatt"
+    ],
+    "explanation": "Michellie Jones had won silver at Sydney 2000, when triathlon made its Olympic debut.",
+    "hook": "Snowsill won Australia's women's triathlon gold in Beijing."
+  },
+  {
+    "id": "spt_363",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Whom did Alexander Volkanovski beat at UFC 245 in December 2019 to win the featherweight title?",
+    "answer": "Max Holloway",
+    "distractors": [
+      "Jose Aldo",
+      "Brian Ortega",
+      "Chad Mendes"
+    ],
+    "explanation": "The Illawarra fighter won a unanimous decision to take the belt from Holloway, a Hawaiian.",
+    "hook": "Volk beat Max to take the belt."
+  },
+  {
+    "id": "spt_365",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which country created the track cycling event keirin as a betting sport in 1948?",
+    "answer": "Japan",
+    "distractors": [
+      "Italy",
+      "France",
+      "Belgium"
+    ],
+    "explanation": "The first races were held at Kokura, with riders following a pacer until the final laps. Keirin joined the Olympic programme at Sydney in 2000.",
+    "hook": "A Japanese betting sport that became an Olympic event."
+  },
+  {
+    "id": "spt_366",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Olympic wrestling style prohibits attacking an opponent's legs and holds below the waist?",
+    "answer": "Greco-Roman",
+    "distractors": [
+      "Freestyle",
+      "Folkstyle",
+      "Sambo"
+    ],
+    "explanation": "Freestyle allows leg attacks, while Greco-Roman is a pure upper-body contest. It has been on the Olympic programme since the first modern Games in Athens in 1896.",
+    "hook": "Greco-Roman: from the waist up only."
+  },
+  {
+    "id": "spt_367",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which country is the Comrades Marathon, a road race of roughly 90 kilometres run between Durban and Pietermaritzburg?",
+    "answer": "South Africa",
+    "distractors": [
+      "Kenya",
+      "Zimbabwe",
+      "Namibia"
+    ],
+    "explanation": "First run in 1921 in memory of soldiers killed in the First World War, it alternates between an uphill and a downhill direction each year. Runners must finish within twelve hours.",
+    "hook": "Up one year, down the next, always with a twelve-hour cut-off."
+  },
+  {
+    "id": "spt_368",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Grand Slam tournament insists that players dress almost entirely in white?",
+    "answer": "Wimbledon",
+    "distractors": [
+      "The French Open",
+      "The US Open",
+      "The Australian Open"
+    ],
+    "explanation": "Wimbledon's all-white dress rule is a long-standing tradition, and it is still enforced, down to undergarments. The other three Grand Slams allow colour freely.",
+    "hook": "Wimbledon keeps its whites and nobody else bothers."
+  },
+  {
+    "id": "spt_369",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What surface is used for the French Open at Roland Garros?",
+    "answer": "Clay",
+    "distractors": [
+      "Grass",
+      "Hard court",
+      "Carpet"
+    ],
+    "explanation": "The courts are crushed red brick, which slows the ball and produces a high bounce, so long rallies and sliding footwork dominate. Rafael Nadal won the title a record fourteen times on it.",
+    "hook": "Red dust on your socks means you have been at Paris."
+  },
+  {
+    "id": "spt_370",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What garment is presented to the winner of the golf tournament at Augusta National each April?",
+    "answer": "A green jacket",
+    "distractors": [
+      "A blue blazer",
+      "A tartan waistcoat",
+      "A white dinner jacket"
+    ],
+    "explanation": "Members of Augusta National wear the jackets on the grounds, and the winner is given one in a ceremony in Butler Cabin. Winners may take it home for the first year only and must then return it to the club.",
+    "hook": "Win at Augusta and you get measured for a green jacket."
+  },
+  {
+    "id": "spt_371",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian won the Wimbledon women's singles title in 2021?",
+    "answer": "Ashleigh Barty",
+    "distractors": [
+      "Samantha Stosur",
+      "Daria Gavrilova",
+      "Jelena Dokic"
+    ],
+    "explanation": "She beat Karolina Pliskova in three sets in the final. Her title came fifty years after Evonne Goolagong Cawley won her first Wimbledon title, in 1971.",
+    "hook": "Fifty years after Goolagong, Barty lifted the Wimbledon trophy too."
+  },
+  {
+    "id": "spt_372",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which golfer won the 2019 Masters, his first major title in 11 years?",
+    "answer": "Tiger Woods",
+    "distractors": [
+      "Phil Mickelson",
+      "Rory McIlroy",
+      "Jordan Spieth"
+    ],
+    "explanation": "It was his fifth green jacket and his fifteenth major, after a run of back surgeries that had threatened his career. His previous major was the 2008 US Open at Torrey Pines.",
+    "hook": "Back from the surgeon's table to Augusta's 18th green."
+  },
+  {
+    "id": "spt_373",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the name for a tennis score of 40-40?",
+    "answer": "Deuce",
+    "distractors": [
+      "Advantage",
+      "Break point",
+      "Let"
+    ],
+    "explanation": "From deuce, a player must win two points in a row to take the game. The first point after deuce gives the winner the advantage, and losing the next point sends the game back to deuce.",
+    "hook": "At deuce, one point is never enough."
+  },
+  {
+    "id": "spt_374",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which fruit, served with cream, is the classic snack of the Wimbledon crowd?",
+    "answer": "Strawberries",
+    "distractors": [
+      "Raspberries",
+      "Cherries",
+      "Blackcurrants"
+    ],
+    "explanation": "Strawberries and cream have been part of the Wimbledon tradition since the early years of the championships, and the pairing is one of the event's best-known sights.",
+    "hook": "Strawberries and cream: the taste of an English summer."
+  },
+  {
+    "id": "spt_375",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What name is given to seaside golf courses laid over sandy dunes, such as those hosting The Open?",
+    "answer": "Links",
+    "distractors": [
+      "Parkland",
+      "Heathland",
+      "Moorland"
+    ],
+    "explanation": "The word comes from an old Scots term for the sandy ground linking beach and farmland. St Andrews is the best-known example, with wind, firm turf and deep pot bunkers the main defences.",
+    "hook": "Wind off the sea is the links course's secret weapon."
+  },
+  {
+    "id": "spt_376",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian won the US Open in 2001, beating Pete Sampras in the final?",
+    "answer": "Lleyton Hewitt",
+    "distractors": [
+      "Mark Philippoussis",
+      "Pat Rafter",
+      "Todd Woodbridge"
+    ],
+    "explanation": "He reached world number one in February 2001 and held the record as the youngest man ever to top the rankings until Carlos Alcaraz broke it in 2022. He added a Wimbledon title in 2002 over David Nalbandian, and he was a key player in Australia's Davis Cup wins in 1999 and 2003.",
+    "hook": "Come on! The little battler from Adelaide beat Pistol Pete."
+  },
+  {
+    "id": "spt_377",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which German won all four major titles and Olympic gold in the same year, 1988?",
+    "answer": "Steffi Graf",
+    "distractors": [
+      "Martina Navratilova",
+      "Chris Evert",
+      "Monica Seles"
+    ],
+    "explanation": "The feat is called the Golden Slam, and no other singles player has achieved it in one year. She took the Olympic title in Seoul, and finished her career with twenty-two major singles titles.",
+    "hook": "Graf's golden year: four slams plus Seoul gold."
+  },
+  {
+    "id": "spt_378",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many men's major championships did Jack Nicklaus win?",
+    "answer": "Eighteen",
+    "distractors": [
+      "Fifteen",
+      "Sixteen",
+      "Twenty"
+    ],
+    "explanation": "They included six Masters, four US Opens, three Open Championships and five PGA Championships. Tiger Woods is next on the list with fifteen, and Nicklaus also finished runner-up in nineteen majors.",
+    "hook": "The Golden Bear's eighteen is the number Tiger chased."
+  },
+  {
+    "id": "spt_379",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In which New York City borough is the US Open tennis played?",
+    "answer": "Queens",
+    "distractors": [
+      "Brooklyn",
+      "Manhattan",
+      "The Bronx"
+    ],
+    "explanation": "The venue at Flushing Meadows is the Billie Jean King National Tennis Center, named for the 1970s star. Its main stadium is named after Arthur Ashe, and it is the largest tennis stadium in the world.",
+    "hook": "Flushing Meadows sits in Queens, not Manhattan."
+  },
+  {
+    "id": "spt_380",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many times did Australia's Peter Thomson win The Open Championship?",
+    "answer": "Five",
+    "distractors": [
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "explanation": "He won in 1954, 1955, 1956, 1958 and 1965, with the first three in a row. The last came at Royal Birkdale against a field that included Americans, and he later dominated the senior tour.",
+    "hook": "Thomson's five Opens: a hat-trick plus two more."
+  },
+  {
+    "id": "spt_381",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian won the 2015 PGA Championship at Whistling Straits?",
+    "answer": "Jason Day",
+    "distractors": [
+      "Adam Scott",
+      "Cameron Smith",
+      "Marc Leishman"
+    ],
+    "explanation": "His winning total was 20 under par. It was his first major, after several near misses.",
+    "hook": "Day's twenty-under won his first major at Whistling Straits."
+  },
+  {
+    "id": "spt_382",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian won the 2022 US Women's Open at Pine Needles?",
+    "answer": "Minjee Lee",
+    "distractors": [
+      "Karrie Webb",
+      "Hannah Green",
+      "Su Oh"
+    ],
+    "explanation": "She won the tournament at Pine Needles in Southern Pines, North Carolina. Born in Perth, she is one of Australia's leading women golfers.",
+    "hook": "Perth's Minjee Lee took the US Women's Open in North Carolina."
+  },
+  {
+    "id": "spt_383",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Queensland-born golfer completed the career grand slam of women's major titles?",
+    "answer": "Karrie Webb",
+    "distractors": [
+      "Jan Stephenson",
+      "Minjee Lee",
+      "Wendy Doolan"
+    ],
+    "explanation": "From the small town of Ayr, she won seven majors in all and 41 LPGA Tour titles. She is in the World Golf Hall of Fame.",
+    "hook": "The kid from Ayr, Queensland, took all the big ones."
+  },
+  {
+    "id": "spt_384",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Scot ended a 77-year wait for a British men's singles champion at Wimbledon in 2013?",
+    "answer": "Andy Murray",
+    "distractors": [
+      "Tim Henman",
+      "Greg Rusedski",
+      "Cameron Norrie"
+    ],
+    "explanation": "He beat Novak Djokovic in straight sets, and the last British winner had been Fred Perry in 1936. Murray won again in 2016 and also took two Olympic singles golds.",
+    "hook": "Seventy-seven years of hurt ended on Centre Court."
+  },
+  {
+    "id": "spt_385",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which player won a record nine Wimbledon women's singles titles?",
+    "answer": "Martina Navratilova",
+    "distractors": [
+      "Steffi Graf",
+      "Chris Evert",
+      "Billie Jean King"
+    ],
+    "explanation": "Six of her nine came in a row from 1982 to 1987, and her great rival Chris Evert won three. Born in Czechoslovakia, she became a United States citizen in 1981.",
+    "hook": "Nine at Wimbledon: Navratilova owns the lawn."
+  },
+  {
+    "id": "spt_386",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Northern Irishman completed the career grand slam by winning the 2025 Masters?",
+    "answer": "Rory McIlroy",
+    "distractors": [
+      "Shane Lowry",
+      "Graeme McDowell",
+      "Padraig Harrington"
+    ],
+    "explanation": "He beat Justin Rose in a play-off, becoming the sixth man to win all four majors. The other five are Gene Sarazen, Ben Hogan, Gary Player, Jack Nicklaus and Tiger Woods.",
+    "hook": "After years of Augusta heartbreak, Rory finally got the jacket."
+  },
+  {
+    "id": "spt_387",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian city was the long-time home of the Hopman Cup mixed-teams tennis event?",
+    "answer": "Perth",
+    "distractors": [
+      "Brisbane",
+      "Adelaide",
+      "Sydney"
+    ],
+    "explanation": "Named for Australian Davis Cup captain Harry Hopman, it was held every January from 1989 until 2019. Each country sent one man and one woman, and the United Cup replaced it in 2023.",
+    "hook": "A January mixed-teams event named for a Davis Cup captain."
+  },
+  {
+    "id": "spt_388",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Greg Norman won The Open at Turnberry in 1986. At which course did he win it again in 1993?",
+    "answer": "Royal St George's",
+    "distractors": [
+      "Royal Birkdale",
+      "Muirfield",
+      "Carnoustie"
+    ],
+    "explanation": "A closing 64 at Sandwich gave him a two-shot win over Nick Faldo, finishing ahead of a strong field. These two Opens remain his only majors despite many near misses.",
+    "hook": "Norman's second and final Claret Jug, seven years after his first."
+  },
+  {
+    "id": "spt_389",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which holes make up Augusta National's famous Amen Corner?",
+    "answer": "The 11th, 12th and 13th",
+    "distractors": [
+      "The 9th, 10th and 11th",
+      "The 12th, 13th and 14th",
+      "The 15th, 16th and 17th"
+    ],
+    "explanation": "It starts with the approach to the 11th green and continues through the short 12th and the 13th, a par five that bends around Rae's Creek. Writer Herbert Warren Wind coined the name in Sports Illustrated in 1958.",
+    "hook": "Creeks, azaleas and a famous nickname for the toughest stretch at Augusta."
+  },
+  {
+    "id": "spt_390",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian lost the 2003 Wimbledon men's singles final in straight sets?",
+    "answer": "Mark Philippoussis",
+    "distractors": [
+      "Lleyton Hewitt",
+      "Pat Rafter",
+      "Wayne Arthurs"
+    ],
+    "explanation": "He was beaten by Roger Federer, who won the first of his eight Wimbledon titles and his first major. Philippoussis was known as the Scud for a serve that was among the fastest in the game.",
+    "hook": "Federer's first major title came at the expense of a big-serving Australian."
+  },
+  {
+    "id": "spt_391",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Whom did Billie Jean King beat in the 1973 Battle of the Sexes match at the Houston Astrodome?",
+    "answer": "Bobby Riggs",
+    "distractors": [
+      "Jimmy Connors",
+      "Ilie Nastase",
+      "Arthur Ashe"
+    ],
+    "explanation": "She won in straight sets before an audience of about 30,000 and many millions on television. Riggs, a former Wimbledon champion, had beaten Margaret Court earlier that year in the so-called Mother's Day Massacre.",
+    "hook": "A 1973 Astrodome exhibition that made a point about women's tennis."
+  },
+  {
+    "id": "spt_392",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Australian won five consecutive Australian Championships from 1963 to 1967?",
+    "answer": "Roy Emerson",
+    "distractors": [
+      "Rod Laver",
+      "Ken Rosewall",
+      "Fred Stolle"
+    ],
+    "explanation": "He won twelve major singles titles overall, six of them in Australia, and also took many doubles crowns. His run began just after Rod Laver turned professional, which left the field open.",
+    "hook": "Emerson's five-in-a-row came while Laver was away as a pro."
+  },
+  {
+    "id": "spt_393",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "At which racecourse is the Melbourne Cup run each year?",
+    "answer": "Flemington",
+    "distractors": [
+      "Randwick",
+      "Caulfield",
+      "Rosehill"
+    ],
+    "explanation": "Flemington sits beside the Maribyrnong River, and the Victoria Racing Club has staged the Cup there since 1861. Caulfield hosts the Caulfield Cup, while Randwick and Rosehill are Sydney tracks.",
+    "hook": "Flemington: Cup Day's fashions, crowds and racing all sit beside the Maribyrnong River."
+  },
+  {
+    "id": "spt_394",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Australian Red Bull driver won three grands prix in his first season at the team in 2014?",
+    "answer": "Daniel Ricciardo",
+    "distractors": [
+      "Mark Webber",
+      "Oscar Piastri",
+      "Alan Jones"
+    ],
+    "explanation": "He won in Canada, Hungary and Belgium, the only races in 2014 that a non-Mercedes car won. He finished third in the 2014 championship behind Hamilton and Rosberg.",
+    "hook": "The smiling honey badger who beat Mercedes three times in 2014."
+  },
+  {
+    "id": "spt_395",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which two colours are the flags that mark the safe swimming area on a patrolled Australian beach?",
+    "answer": "Red and yellow",
+    "distractors": [
+      "Blue and yellow",
+      "Green and white",
+      "Orange and white"
+    ],
+    "explanation": "Lifesavers place the pair of flags so that swimmers can stay between them, where the surf is supervised and the rips are least likely. The same red and yellow colours appear on lifesaver caps.",
+    "hook": "Between the red and yellow flags is where the lifesavers are watching."
+  },
+  {
+    "id": "spt_396",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many races did the sprinter Black Caviar win from as many career starts?",
+    "answer": "Twenty-five",
+    "distractors": [
+      "Twenty-one",
+      "Twenty-nine",
+      "Eighteen"
+    ],
+    "explanation": "Trained by Peter Moody, the mare retired in 2013 undefeated. Her narrowest escape came at Royal Ascot in 2012, where she scraped home in the Diamond Jubilee Stakes by a head.",
+    "hook": "Twenty-five starts, twenty-five wins, one very nervous Ascot afternoon."
+  },
+  {
+    "id": "spt_397",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In which country was Mick Fanning attacked by a shark during a surfing final in 2015?",
+    "answer": "South Africa",
+    "distractors": [
+      "Fiji",
+      "Mexico",
+      "Portugal"
+    ],
+    "explanation": "The attack happened at Jeffreys Bay on live television, and he fended off the shark and was rescued unhurt by fellow surfer Julian Wilson. The event was halted and later cancelled.",
+    "hook": "The J-Bay punch heard around the world."
+  },
+  {
+    "id": "spt_398",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Queensland teenager completed a solo, non-stop voyage around the world in 2010, having set out aged sixteen?",
+    "answer": "Jessica Watson",
+    "distractors": [
+      "Kay Cottee",
+      "Lisa Blair",
+      "Dee Caffari"
+    ],
+    "explanation": "She sailed the pink yacht Ella's Pink Lady for 210 days and returned to Sydney Harbour in May 2010. Kay Cottee had become the first woman to do it solo and non-stop back in 1988.",
+    "hook": "A pink yacht and 210 days alone at sea."
+  },
+  {
+    "id": "spt_399",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which British driver won his seventh Formula One world championship in 2020?",
+    "answer": "Lewis Hamilton",
+    "distractors": [
+      "Jenson Button",
+      "Damon Hill",
+      "Nigel Mansell"
+    ],
+    "explanation": "The title drew him level with Michael Schumacher's long-standing record of seven. He had won his first in 2008 with McLaren, and the other six came with Mercedes.",
+    "hook": "Seven titles: Hamilton matched the German great in 2020."
+  },
+  {
+    "id": "spt_400",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which 100-1 outsider carried Michelle Payne to victory in the 2015 Melbourne Cup?",
+    "answer": "Prince of Penzance",
+    "distractors": [
+      "Almandin",
+      "Green Moon",
+      "Protectionist"
+    ],
+    "explanation": "Payne became the first woman to ride a Cup winner, and her brother Stevie, who has Down syndrome, was the horse's strapper. The gelding was trained by Darren Weir.",
+    "hook": "Payne's famous line: 'get stuffed, because women are good enough.'"
+  },
+  {
+    "id": "spt_401",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many Melbourne Cups did the trainer Bart Cummings win?",
+    "answer": "Twelve",
+    "distractors": [
+      "Eight",
+      "Ten",
+      "Fifteen"
+    ],
+    "explanation": "His first came with Light Fingers in 1965 and his last with Viewed in 2008. He won back-to-back Cups with Think Big in 1974 and 1975, and his total of 12 is the most by any trainer in Cup history.",
+    "hook": "The Cups King: a dozen, forty-three years apart."
+  },
+  {
+    "id": "spt_402",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which Melbourne racecourse is the weight-for-age Cox Plate run each spring?",
+    "answer": "Moonee Valley",
+    "distractors": [
+      "Caulfield",
+      "Sandown",
+      "Flemington"
+    ],
+    "explanation": "The race has run over 2040 metres at the tight, circular track since 1922 and is named after the club's founder William Cox. Many regard it as Australia's true championship race.",
+    "hook": "The Cox Plate: the quizzers' pick for Australia's best race, held on a tight circle."
+  },
+  {
+    "id": "spt_403",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which jockey rode all seven winners on a single card at Ascot on 28 September 1996?",
+    "answer": "Frankie Dettori",
+    "distractors": [
+      "Lester Piggott",
+      "Ryan Moore",
+      "Kieren Fallon"
+    ],
+    "explanation": "The feat became known as the Magnificent Seven, and bookmakers lost millions as the Italian-born rider's wins paid out at around 25,095 to 1 on the accumulator. He is famous for his flying dismount.",
+    "hook": "Seven from seven in a single afternoon: the Magnificent Seven."
+  },
+  {
+    "id": "spt_404",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which Louisville track is the Kentucky Derby held on the first Saturday in May?",
+    "answer": "Churchill Downs",
+    "distractors": [
+      "Belmont Park",
+      "Pimlico",
+      "Santa Anita"
+    ],
+    "explanation": "First run in 1875, the race lasts about two minutes and is known as the Run for the Roses. Pimlico hosts the Preakness and Belmont Park the Belmont Stakes, completing the Triple Crown.",
+    "hook": "The most exciting two minutes in sport happens at Churchill Downs."
+  },
+  {
+    "id": "spt_405",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which course near Liverpool is the Grand National steeplechase run?",
+    "answer": "Aintree",
+    "distractors": [
+      "Cheltenham",
+      "Doncaster",
+      "Haydock"
+    ],
+    "explanation": "The race was first run in 1839 over about four miles and 514 yards and thirty daunting fences, including Becher's Brook. It is run in spring, while Cheltenham hosts the Gold Cup in March.",
+    "hook": "Becher's Brook claims horses at Aintree every spring."
+  },
+  {
+    "id": "spt_406",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which city hosted the Australian Grand Prix from 1985 to 1995 before it moved to Melbourne?",
+    "answer": "Adelaide",
+    "distractors": [
+      "Sydney",
+      "Perth",
+      "Brisbane"
+    ],
+    "explanation": "The street circuit used city roads and Victoria Park. Its 1994 race decided the world title when Michael Schumacher and Damon Hill collided, handing Schumacher the championship. Albert Park staged its first race in 1996.",
+    "hook": "Adelaide's streets decided the 1994 title in one collision."
+  },
+  {
+    "id": "spt_407",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which famous Victorian surf beach hosts the long-running Rip Curl Pro?",
+    "answer": "Bells Beach",
+    "distractors": [
+      "Margaret River",
+      "Snapper Rocks",
+      "Manly"
+    ],
+    "explanation": "The contest has run there since 1961 and is the world's longest-running surfing competition. The winner receives a bell as a trophy, and the beach is near the Great Ocean Road.",
+    "hook": "The Bells Beach winner takes home an actual bell."
+  },
+  {
+    "id": "spt_408",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Hawaiian Olympic swimmer, who introduced surfing to Australia in 1914, is called the father of modern surfing?",
+    "answer": "Duke Kahanamoku",
+    "distractors": [
+      "Eddie Aikau",
+      "Tom Blake",
+      "Gerry Lopez"
+    ],
+    "explanation": "He won Olympic swimming gold in 1912 and 1920, and during a visit to Sydney he gave a famous surfing demonstration at Freshwater beach.",
+    "hook": "One Hawaiian demonstration at Freshwater brought surfing to Australia."
+  },
+  {
+    "id": "spt_409",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many sailors died in the storm that struck the 1998 Sydney to Hobart yacht race?",
+    "answer": "Six",
+    "distractors": [
+      "Three",
+      "Nine",
+      "Twelve"
+    ],
+    "explanation": "A fierce storm in Bass Strait sank five yachts and forced dozens to retire, and 55 sailors were rescued in the biggest peacetime sea and air rescue operation in Australia. Safety rules were tightened afterwards.",
+    "hook": "Six lives lost, 55 saved: the storm that changed offshore safety rules."
+  },
+  {
+    "id": "spt_410",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "On which Italian make of motorcycle did Casey Stoner win the 2007 MotoGP world championship?",
+    "answer": "Ducati",
+    "distractors": [
+      "Aprilia",
+      "Yamaha",
+      "Honda"
+    ],
+    "explanation": "It was Ducati's first premier-class title. Stoner, from Queensland, later won again in 2011 on a Honda and retired from full-time racing in 2012 at the age of 27.",
+    "hook": "Queenslander Casey Stoner's title-winning 2007 season."
+  },
+  {
+    "id": "spt_411",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Over how long a distance is the Golden Slipper, Australia's major race for two-year-olds, run at Rosehill?",
+    "answer": "1,200 metres",
+    "distractors": [
+      "1,000 metres",
+      "1,400 metres",
+      "1,600 metres"
+    ],
+    "explanation": "First run in 1957, the Slipper takes place in March. Its sprint distance of about six furlongs tests young horses before they have raced much.",
+    "hook": "A sprint for the babies of the Australian racing season."
+  },
+  {
+    "id": "spt_412",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which horse won the 1890 Melbourne Cup carrying a record 10 stone 5 pounds?",
+    "answer": "Carbine",
+    "distractors": [
+      "Malua",
+      "Poseidon",
+      "Grand Flaneur"
+    ],
+    "explanation": "No Cup winner has carried more weight, and the New Zealand-bred horse remains one of the great names of Australian racing.",
+    "hook": "The weight this 1890 winner carried has never been beaten by a Cup winner."
+  },
+  {
+    "id": "spt_413",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which mare won the 2021 Melbourne Cup for trainer Chris Waller and jockey James McDonald?",
+    "answer": "Verry Elleegant",
+    "distractors": [
+      "Twilight Payment",
+      "Gold Trip",
+      "Without a Fight"
+    ],
+    "explanation": "She was the first mare to win the Melbourne Cup since Makybe Diva. Waller, based in Sydney, had also trained the champion Winx.",
+    "hook": "A mare's 2021 Cup win, the first by a mare since Makybe Diva."
+  },
+  {
+    "id": "spt_414",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who in 2013 became the first woman to train a Melbourne Cup winner, with Fiorente?",
+    "answer": "Gai Waterhouse",
+    "distractors": [
+      "Sheila Laxon",
+      "Annabel Neasham",
+      "Jane Chapple-Hyam"
+    ],
+    "explanation": "The daughter of the legendary trainer Tommy Smith trained Fiorente, who was ridden to victory by Damien Oliver. She ended the long wait for a woman trainer in the race's history.",
+    "hook": "The first Cup-winning woman trainer: a daughter of Tommy Smith."
+  },
+  {
+    "id": "spt_415",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How many Formula One grands prix did the Australian Mark Webber win in his career?",
+    "answer": "Nine",
+    "distractors": [
+      "Five",
+      "Seven",
+      "Twelve"
+    ],
+    "explanation": "Webber finished third in the championship in 2010, 2011 and 2013, all while racing for Red Bull.",
+    "hook": "A Queanbeyan-born driver who spent years at Red Bull."
+  },
+  {
+    "id": "spt_416",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which designer gave Australia II its radical winged keel in 1983?",
+    "answer": "Ben Lexcen",
+    "distractors": [
+      "Alan Bond",
+      "Iain Murray",
+      "Warren Jones"
+    ],
+    "explanation": "Born Bob Miller, he changed his name to Lexcen. The secret keel was kept covered between races, and it helped Australia II end the longest winning streak in sport by beating Liberty in the final.",
+    "hook": "A secret keel hidden under a skirt won the Cup."
+  },
+  {
+    "id": "spt_417",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How many times did Peter Brock win the Bathurst 1000?",
+    "answer": "Nine",
+    "distractors": [
+      "Six",
+      "Eleven",
+      "Seven"
+    ],
+    "explanation": "His wins ran from 1972 to 1987 and earned him the nickname King of the Mountain. He also won the race with Holden Dealer Team Commodores, and his death in a rally crash in 2006 stunned the nation.",
+    "hook": "Brocky, the King of the Mountain at Bathurst."
+  },
+  {
+    "id": "spt_418",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How many consecutive 500cc world titles did Mick Doohan win from 1994?",
+    "answer": "Five",
+    "distractors": [
+      "Three",
+      "Four",
+      "Seven"
+    ],
+    "explanation": "The Queenslander won every 500cc title from 1994 to 1998 on a Honda. A 1992 leg injury had nearly cost him the leg, and a further crash in 1999 ended his career.",
+    "hook": "The rider who nearly lost a leg and still dominated the 500cc class."
+  },
+  {
+    "id": "spt_419",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "For roughly how many years had the New York Yacht Club held the America's Cup before it lost in 1983?",
+    "answer": "132 years",
+    "distractors": [
+      "112 years",
+      "98 years",
+      "150 years"
+    ],
+    "explanation": "Held since the schooner America won the trophy off the Isle of Wight in 1851, it was the longest winning streak in sport until Australia II ended it. The Cup then went to the Royal Perth Yacht Club.",
+    "hook": "The longest winning streak in sport ended at Newport in 1983."
+  },
+  {
+    "id": "spt_420",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which team did Michael Jordan lead to six NBA championships in the 1990s?",
+    "answer": "Chicago Bulls",
+    "distractors": [
+      "Detroit Pistons",
+      "New York Knicks",
+      "Los Angeles Lakers"
+    ],
+    "explanation": "The Bulls won two three-peats, in 1991-93 and 1996-98, with Jordan taking a break to play minor league baseball in between. The 1995-96 side won a then-record 72 regular-season games.",
+    "hook": "Two three-peats with a baseball break in the middle."
+  },
+  {
+    "id": "spt_421",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which quarterback holds the record for the most Super Bowl wins, with seven?",
+    "answer": "Tom Brady",
+    "distractors": [
+      "Joe Montana",
+      "Peyton Manning",
+      "Patrick Mahomes"
+    ],
+    "explanation": "Brady won six with the New England Patriots and a seventh with Tampa Bay in 2021 at age 43. Montana won four with the San Francisco 49ers and never lost a Super Bowl.",
+    "hook": "Six in New England, then one more in Tampa."
+  },
+  {
+    "id": "spt_422",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which Major League Baseball club has won the most World Series titles, with 27 up to 2025?",
+    "answer": "New York Yankees",
+    "distractors": [
+      "Boston Red Sox",
+      "St. Louis Cardinals",
+      "Los Angeles Dodgers"
+    ],
+    "explanation": "The Yankees' first titles came in the 1920s with Babe Ruth, and their most recent was in 2009. The St. Louis Cardinals are second with eleven.",
+    "hook": "Twenty-seven pinstripe parades, with Ruth starting the run."
+  },
+  {
+    "id": "spt_423",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What name is given to a performance in which a basketball player reaches ten or more in points, rebounds and assists in a single game?",
+    "answer": "A triple-double",
+    "distractors": [
+      "A hat-trick",
+      "A grand slam",
+      "A perfect game"
+    ],
+    "explanation": "Oscar Robertson famously averaged one across the entire 1961-62 season, and Russell Westbrook later matched it. Reaching ten in four categories, a quadruple-double, has happened only a handful of times.",
+    "hook": "Three tens in one night: points, boards and dimes."
+  },
+  {
+    "id": "spt_424",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which two netball positions are allowed to score?",
+    "answer": "Goal shooter and goal attack",
+    "distractors": [
+      "Goal attack and wing attack",
+      "Goal shooter and centre",
+      "Goal keeper and goal defence"
+    ],
+    "explanation": "Only these two may shoot, and only from inside the goal circle at their end. The goal keeper and goal defence are the players trying to stop them.",
+    "hook": "Only the letters with a G for shooting and a GA for attacking can score."
+  },
+  {
+    "id": "spt_425",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which NBA team did Kobe Bryant play for across his whole 20-year career?",
+    "answer": "Los Angeles Lakers",
+    "distractors": [
+      "Chicago Bulls",
+      "Boston Celtics",
+      "San Antonio Spurs"
+    ],
+    "explanation": "Bryant won five championships with the Lakers between 2000 and 2010 and wore two shirt numbers, 8 and then 24, both of which the club retired. He scored 81 points in a game against Toronto in 2006.",
+    "hook": "One franchise, two numbers, five rings."
+  },
+  {
+    "id": "spt_427",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which nickname do Australia's national men's field hockey team carry?",
+    "answer": "The Kookaburras",
+    "distractors": [
+      "The Hockeyroos",
+      "The Boomers",
+      "The Socceroos"
+    ],
+    "explanation": "The Kookaburras won the men's Olympic gold medal in 2004. The women's national team is the Hockeyroos.",
+    "hook": "Kookaburras laugh last: the men's hockey side, with the Hockeyroos for the women."
+  },
+  {
+    "id": "spt_428",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many points is a successful free throw worth in basketball?",
+    "answer": "One",
+    "distractors": [
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "explanation": "Free throws are awarded after certain fouls and are taken unchallenged from a line fifteen feet from the backboard. A shot from beyond the three-point arc earns three, and all other field goals are worth two.",
+    "hook": "The free throw gives one free point, so it is the cheapest in the game."
+  },
+  {
+    "id": "spt_429",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which trophy is awarded to the winner of the Super Bowl?",
+    "answer": "The Vince Lombardi Trophy",
+    "distractors": [
+      "The Larry O'Brien Trophy",
+      "The Commissioner's Trophy",
+      "The Heisman Trophy"
+    ],
+    "explanation": "It is named after the Green Bay Packers coach who won the first two Super Bowls. The Larry O'Brien Trophy goes to the NBA champion and the Commissioner's Trophy to the World Series winner.",
+    "hook": "Lombardi coached the first two winners, so his name stuck."
+  },
+  {
+    "id": "spt_430",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which shirt number was retired across the whole NHL in honour of Wayne Gretzky?",
+    "answer": "99",
+    "distractors": [
+      "66",
+      "88",
+      "9"
+    ],
+    "explanation": "No NHL player can wear it again, an honour Gretzky shares with only Jackie Robinson's 42 across Major League Baseball. Mario Lemieux wore 66, and Gordie Howe wore 9.",
+    "hook": "The Great One is 99, and nobody else will wear it."
+  },
+  {
+    "id": "spt_431",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian was chosen first overall in the 2005 NBA draft?",
+    "answer": "Andrew Bogut",
+    "distractors": [
+      "Ben Simmons",
+      "Patty Mills",
+      "Luc Longley"
+    ],
+    "explanation": "The Milwaukee Bucks took Bogut straight from the University of Utah. He later won the 2015 NBA championship with the Golden State Warriors, and Simmons became the next Australian number one pick in 2016.",
+    "hook": "Bogut was first in 2005, and Simmons followed in 2016."
+  },
+  {
+    "id": "spt_432",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian centre won three straight NBA titles from 1996 to 1998?",
+    "answer": "Luc Longley",
+    "distractors": [
+      "Andrew Gaze",
+      "Shane Heal",
+      "Joe Ingles"
+    ],
+    "explanation": "Longley started at centre for the Chicago Bulls alongside Michael Jordan and Scottie Pippen. He was the first Australian to win an NBA championship and the first to play in the NBA Finals.",
+    "hook": "The big Aussie on the 72-win Bulls."
+  },
+  {
+    "id": "spt_433",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Super Netball club is based in Perth?",
+    "answer": "West Coast Fever",
+    "distractors": [
+      "Adelaide Thunderbirds",
+      "Sunshine Coast Lightning",
+      "Melbourne Vixens"
+    ],
+    "explanation": "The Fever play their home games at RAC Arena. The Thunderbirds are Adelaide's team, the Lightning come from the Sunshine Coast and the Vixens from Melbourne.",
+    "hook": "The Fever of the west, playing at RAC Arena."
+  },
+  {
+    "id": "spt_434",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many teams compete in the NFL?",
+    "answer": "Thirty-two",
+    "distractors": [
+      "Thirty",
+      "Thirty-six",
+      "Twenty-eight"
+    ],
+    "explanation": "The league settled on 32 in 2002 when the Houston Texans joined. They are split into two conferences, the AFC and NFC, each with four divisions of four teams.",
+    "hook": "Two conferences, eight divisions, four teams each."
+  },
+  {
+    "id": "spt_435",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In hurling, what is the small ball called?",
+    "answer": "A sliotar",
+    "distractors": [
+      "A camán",
+      "A bodhrán",
+      "A leather puck"
+    ],
+    "explanation": "The sliotar has a cork core and a leather cover, and players strike it with a stick called a camán, or hurley. A bodhrán is an Irish frame drum.",
+    "hook": "The sliotar is the ball, and the camán is the stick."
+  },
+  {
+    "id": "spt_436",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many seconds does an NBA team have to attempt a shot before the clock expires?",
+    "answer": "Twenty-four",
+    "distractors": [
+      "Thirty",
+      "Thirty-five",
+      "Twenty"
+    ],
+    "explanation": "Syracuse Nationals owner Danny Biasone introduced it in 1954 to stop teams stalling with a lead. Biasone chose the figure after working out that a good game needed about 120 shots.",
+    "hook": "Biasone's maths: 120 shots in 48 minutes gives 24 seconds a shot."
+  },
+  {
+    "id": "spt_437",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which Olympics did the Boomers win their first medal, a bronze?",
+    "answer": "Tokyo 2020",
+    "distractors": [
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008"
+    ],
+    "explanation": "Held in 2021 because of the pandemic, the Tokyo Games saw Australia beat Slovenia 107-93 in the bronze final. It was the Boomers' first men's basketball medal, after four earlier fourth-place finishes.",
+    "hook": "Fourth four times, then bronze at last."
+  },
+  {
+    "id": "spt_438",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "With which WNBA team did Lauren Jackson win championships in 2004 and 2010?",
+    "answer": "Seattle Storm",
+    "distractors": [
+      "Los Angeles Sparks",
+      "Minnesota Lynx",
+      "Houston Comets"
+    ],
+    "explanation": "Jackson won the 2004 and 2010 WNBA titles with the Storm. She never won Olympic gold with the Opals, taking silver in 2000, 2004 and 2008.",
+    "hook": "The Storm gave Jackson her titles, but Olympic gold escaped her."
+  },
+  {
+    "id": "spt_439",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In lawn bowls, what is the small white target ball called?",
+    "answer": "The jack",
+    "distractors": [
+      "The mat",
+      "The skip",
+      "The rink"
+    ],
+    "explanation": "The jack is rolled first, and players then try to get their bowls closest to it. The mat is where bowlers stand and the rink is the lane they bowl along.",
+    "hook": "Jack is the target; get your bowls nearest it."
+  },
+  {
+    "id": "spt_440",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which country won the Olympic softball gold medal at Tokyo 2020, beating the United States in the final?",
+    "answer": "Japan",
+    "distractors": [
+      "Canada",
+      "Australia",
+      "Mexico"
+    ],
+    "explanation": "Softball was dropped after Beijing 2008 and returned for Tokyo, but was left out of Paris 2024. It is due back at Los Angeles 2028.",
+    "hook": "Out after 2008, back in Tokyo and won by the hosts."
+  },
+  {
+    "id": "spt_441",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which NBA team picked Ben Simmons first overall in the 2016 draft?",
+    "answer": "Philadelphia 76ers",
+    "distractors": [
+      "Los Angeles Lakers",
+      "Boston Celtics",
+      "Brooklyn Nets"
+    ],
+    "explanation": "Simmons missed his whole first season with a foot injury, then won Rookie of the Year in 2018. The Lakers picked Brandon Ingram second that night.",
+    "hook": "A year on the sideline then Rookie of the Year."
+  },
+  {
+    "id": "spt_442",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which NBA team picked Josh Giddey sixth overall in the 2021 draft?",
+    "answer": "Oklahoma City Thunder",
+    "distractors": [
+      "Orlando Magic",
+      "Houston Rockets",
+      "Memphis Grizzlies"
+    ],
+    "explanation": "Giddey came through the NBL Next Stars program with the Adelaide 36ers before the draft. He was later traded to the Chicago Bulls.",
+    "hook": "From the Adelaide 36ers to Oklahoma City at number six."
+  },
+  {
+    "id": "spt_443",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which player scored 100 points in a single NBA game on 2 March 1962?",
+    "answer": "Wilt Chamberlain",
+    "distractors": [
+      "Bill Russell",
+      "Kareem Abdul-Jabbar",
+      "Oscar Robertson"
+    ],
+    "explanation": "Playing for the Philadelphia Warriors against the New York Knicks in Hershey, Pennsylvania, Chamberlain made 36 field goals and 28 free throws. The 100-point game remains the highest total in NBA history.",
+    "hook": "A century of points, and no one has matched it."
+  },
+  {
+    "id": "spt_444",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In football slang, who receives the 'wooden spoon' at the end of a season?",
+    "answer": "The team that finishes last",
+    "distractors": [
+      "The team with the best defence",
+      "The player who scores most goals",
+      "The coach who loses the grand final"
+    ],
+    "explanation": "The phrase began at Cambridge University, where the student ranked lowest in the maths exams was once handed a wooden spoon. Australian codes use it for the bottom side on the ladder, and the booby prize now has fans of its own.",
+    "hook": "Last on the ladder gets a spoon, not a cup."
+  },
+  {
+    "id": "spt_445",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country's sprinter Ben Johnson lost the 1988 Seoul Olympic men's 100 metres gold after testing positive for stanozolol?",
+    "answer": "Canada",
+    "distractors": [
+      "Jamaica",
+      "Great Britain",
+      "Nigeria"
+    ],
+    "explanation": "Johnson ran 9.79 seconds, a world record, then was sent home within days. The gold passed to American Carl Lewis, and a Canadian government inquiry followed into doping across sport.",
+    "hook": "A record run and a sacking in the same week."
+  },
+  {
+    "id": "spt_446",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which sport is named after the Gloucestershire country house of the Duke of Beaufort?",
+    "answer": "Badminton",
+    "distractors": [
+      "Croquet",
+      "Squash",
+      "Polo"
+    ],
+    "explanation": "A game with shuttlecocks reached England from India, where army officers played it as 'Poona', and it was popularised at Badminton House in the 1870s. The estate also lends its name to the famous Badminton Horse Trials.",
+    "hook": "A duke's house gave a shuttlecock its name."
+  },
+  {
+    "id": "spt_447",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In sport, what is the name for a match played after the series result is already decided?",
+    "answer": "A dead rubber",
+    "distractors": [
+      "A walkover",
+      "A friendly",
+      "A play-off"
+    ],
+    "explanation": "Once a team has won the series, the leftover fixtures have no bearing on the result, though players still chase pride and ranking points.",
+    "hook": "The series is over, so the rubber is dead."
+  },
+  {
+    "id": "spt_448",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which city is home to Madison Square Garden, the arena where the Knicks and Rangers play?",
+    "answer": "New York City",
+    "distractors": [
+      "Chicago",
+      "Los Angeles",
+      "Boston"
+    ],
+    "explanation": "The current building, the fourth to carry the name, opened above Penn Station in 1968. It has staged famous boxing nights, including the first Ali versus Frazier fight in 1971, and a long run of concerts.",
+    "hook": "The world's most famous arena sits on Seventh Avenue."
+  },
+  {
+    "id": "spt_449",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "On which day of the week is Victoria's public holiday for the AFL Grand Final held?",
+    "answer": "Friday",
+    "distractors": [
+      "Monday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "explanation": "The holiday falls on the Friday before the Saturday Grand Final, so Victorian fans get a day off before the game.",
+    "hook": "Footy fans get Friday off, then the big game on Saturday."
+  },
+  {
+    "id": "spt_450",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which leg-spinning Australian Test captain became cricket's most famous commentator, greeting viewers with 'Morning, everyone'?",
+    "answer": "Richie Benaud",
+    "distractors": [
+      "Bill Lawry",
+      "Tony Greig",
+      "Ian Chappell"
+    ],
+    "explanation": "Benaud captained Australia in the 1960-61 Brisbane Test, the first tie in Test history. He later called cricket for the BBC and Channel Nine for decades, and was known for sparse commentary and the word 'marvellous'.",
+    "hook": "He captained the first tied Test, then spent decades calling cricket on TV."
+  },
+  {
+    "id": "spt_451",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Brisbane's Suncorp Stadium, nicknamed 'The Cauldron', is still often called by which older name?",
+    "answer": "Lang Park",
+    "distractors": [
+      "Ballymore",
+      "Davies Park",
+      "Carrara Park"
+    ],
+    "explanation": "The first State of Origin match was played there in 1980. The ground at Milton was rebuilt for the 2003 season, and its steep stands keep the noise in.",
+    "hook": "Origin began at Lang Park, and the name never left."
+  },
+  {
+    "id": "spt_452",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In which city is Bellerive Oval, Tasmania's main Test and Big Bash cricket ground?",
+    "answer": "Hobart",
+    "distractors": [
+      "Launceston",
+      "Devonport",
+      "Burnie"
+    ],
+    "explanation": "The ground sits on the Derwent's eastern shore, across the river from Hobart's city centre. Launceston's York Park, in the state's north, is the other main venue and hosts AFL games.",
+    "hook": "Across the Derwent from Hobart's centre, but still Hobart's ground."
+  },
+  {
+    "id": "spt_453",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which sporting organisation owns Dublin's Croke Park?",
+    "answer": "Gaelic Athletic Association",
+    "distractors": [
+      "Irish Rugby Football Union",
+      "Football Association of Ireland",
+      "Irish Greyhound Board"
+    ],
+    "explanation": "Founded in 1884, the GAA governs hurling and Gaelic football and holds its All-Ireland finals at the Dublin ground, which seats about 82,000.",
+    "hook": "Croke Park is the GAA's cathedral."
+  },
+  {
+    "id": "spt_454",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What colour is traditionally worn on day three of the Sydney Test to raise money for breast cancer care?",
+    "answer": "Pink",
+    "distractors": [
+      "Red",
+      "Purple",
+      "Teal"
+    ],
+    "explanation": "The Pink Test began in 2009 as a tribute to Jane McGrath, wife of Glenn McGrath, who died of breast cancer in 2008. Money raised by the McGrath Foundation funds breast care nurses around Australia.",
+    "hook": "The SCG goes pink for Jane McGrath."
+  },
+  {
+    "id": "spt_455",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which former Australian captain gives his name to Cricket Australia's annual top player award?",
+    "answer": "Allan Border",
+    "distractors": [
+      "Steve Waugh",
+      "Mark Taylor",
+      "Greg Chappell"
+    ],
+    "explanation": "Border captained Australia from 1984 to 1994 and rebuilt a struggling side into world champions, winning the 1987 World Cup. The medal is voted on by players, umpires and media.",
+    "hook": "Captain Grumpy's name is on the cricketers' night of nights."
+  },
+  {
+    "id": "spt_456",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Australian city hosted the 2018 Invictus Games, the sporting event for wounded service personnel?",
+    "answer": "Sydney",
+    "distractors": [
+      "Melbourne",
+      "Brisbane",
+      "Canberra"
+    ],
+    "explanation": "Prince Harry launched the Games after seeing the American Warrior Games. The first Games were held in London in 2014. The Sydney edition ran in October 2018 at the Olympic Park precinct, and the name comes from a poem by William Ernest Henley.",
+    "hook": "From a London start to Sydney, the unconquered compete."
+  },
+  {
+    "id": "spt_457",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Indian all-rounder gave his name to the dismissal of a batter run out for backing up before the bowler releases the ball?",
+    "answer": "Vinoo Mankad",
+    "distractors": [
+      "Kapil Dev",
+      "Vijay Hazare",
+      "Lala Amarnath"
+    ],
+    "explanation": "He ran out Australia's Bill Brown this way on India's 1947-48 tour, and the act drew criticism in the press. In 2022 the laws were changed so that it is treated as an ordinary run-out.",
+    "hook": "A dismissal so contested it took his name for life."
+  },
+  {
+    "id": "spt_458",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which sport did Major Walter Wingfield patent in 1874 under the name 'Sphairistike'?",
+    "answer": "Lawn tennis",
+    "distractors": [
+      "Croquet",
+      "Badminton",
+      "Rackets"
+    ],
+    "explanation": "Wingfield sold boxed sets with rackets, balls and net for a court shaped like an hourglass. The Greek name, meaning 'playing ball', did not stick, and the rectangular court and scoring of the modern game followed within a few years.",
+    "hook": "A tongue-twisting Greek name gave way to plain old tennis."
+  },
+  {
+    "id": "spt_459",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which US state's Bainbridge Island is credited as the birthplace of pickleball in 1965?",
+    "answer": "Washington",
+    "distractors": [
+      "California",
+      "Florida",
+      "Oregon"
+    ],
+    "explanation": "Congressman Joel Pritchard and his friends improvised the game for bored children using a badminton court, a perforated plastic ball and ping-pong paddles. The name's origin is disputed, with one account crediting a family dog named Pickles.",
+    "hook": "A rainy island afternoon gave birth to a paddle craze."
+  },
+  {
+    "id": "spt_460",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which country did British Army officers devise snooker in 1875?",
+    "answer": "India",
+    "distractors": [
+      "England",
+      "Scotland",
+      "Australia"
+    ],
+    "explanation": "The story goes that Neville Chamberlain, stationed at Jubbulpore, invented it as a variant of pool. He called a fellow officer a 'snooker', army slang for a first-year cadet, after he missed a shot.",
+    "hook": "A barracks insult named a green-baize game."
+  },
+  {
+    "id": "spt_461",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which tennis great gives his name to Tennis Australia's annual medal for the country's top player?",
+    "answer": "John Newcombe",
+    "distractors": [
+      "Rod Laver",
+      "Roy Emerson",
+      "Ken Rosewall"
+    ],
+    "explanation": "Newcombe won seven grand slam singles titles, including three at Wimbledon and two at the Australian Open. He was also a stellar doubles player.",
+    "hook": "Newk's name is on the medal."
+  },
+  {
+    "id": "spt_462",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who in December 2024 became the youngest undisputed world chess champion, aged 18?",
+    "answer": "Gukesh Dommaraju",
+    "distractors": [
+      "Praggnanandhaa Rameshbabu",
+      "Arjun Erigaisi",
+      "Alireza Firouzja"
+    ],
+    "explanation": "He beat China's Ding Liren in Singapore, winning the match 7.5 to 6.5 after the final game turned in the late stage. He topped the record Garry Kasparov set in 1985, when he won the title at 22.",
+    "hook": "An 18-year-old topped Kasparov's youngest-champion record."
+  },
+  {
+    "id": "spt_463",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In which sport did Sweden's Oscar Swahn win a medal at the 1920 Antwerp Games aged 72, the oldest Olympic medallist in sporting events?",
+    "answer": "Shooting",
+    "distractors": [
+      "Archery",
+      "Fencing",
+      "Sailing"
+    ],
+    "explanation": "He took silver in the team running deer, double-shot event, having won gold in the same event at the 1908 and 1912 Games. His son Alfred also won Olympic medals in shooting.",
+    "hook": "Seventy-two years old and still hitting a running target."
+  },
+  {
+    "id": "spt_464",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which diver won the 1936 Olympic springboard title aged 13, the youngest individual Olympic champion?",
+    "answer": "Marjorie Gestring",
+    "distractors": [
+      "Fu Mingxia",
+      "Aileen Riggin",
+      "Dorothy Poynton-Hill"
+    ],
+    "explanation": "She won in Berlin for the United States at 13 years and 268 days. The 1940 and 1944 Games were cancelled because of the war, so she never defended it.",
+    "hook": "Berlin's champion was just 13 years old."
+  },
+  {
+    "id": "spt_465",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which banned substance did the Court of Arbitration for Sport find had been given to Essendon players in 2012?",
+    "answer": "Thymosin beta-4",
+    "distractors": [
+      "Erythropoietin",
+      "Stanozolol",
+      "Clenbuterol"
+    ],
+    "explanation": "In January 2016 the court banned 34 current and former players for two years, backdated to cover the 2016 season. The saga started with a 2013 investigation into the club's supplements program and cost Essendon heavily.",
+    "hook": "A peptide sunk Essendon's 2016 season."
   }
 ]

@@ -1,21 +1,21 @@
 {
-  "total": 1550,
+  "total": 4753,
   "byCategory": {
-    "aus_history": 155,
-    "geography": 155,
-    "science": 155,
-    "arts_lit": 165,
-    "language": 155,
-    "mythology": 155,
-    "sports": 155,
-    "pop_culture": 155,
-    "food_drink": 150,
-    "world_leaders": 150
+    "aus_history": 438,
+    "geography": 482,
+    "science": 491,
+    "arts_lit": 490,
+    "language": 487,
+    "mythology": 470,
+    "sports": 459,
+    "pop_culture": 474,
+    "food_drink": 473,
+    "world_leaders": 489
   },
   "byDifficulty": {
-    "easy": 427,
-    "medium": 584,
-    "hard": 539
+    "easy": 1338,
+    "medium": 1902,
+    "hard": 1513
   },
   "countryCount": 197
 }
