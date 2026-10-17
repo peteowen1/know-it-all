@@ -20,7 +20,9 @@ export const MAX_PUZZLES_PER_LABEL = 5;
 export const MAX_LEN = 26; // longer tiles do not fit a phone-width grid
 export const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 const fits = (s) => s.length <= MAX_LEN;
-export const cleanTitle = (t) => t.split(' / ')[0].replace(/\s*\([^)]*\)\s*$/, '').trim();
+// "Birdman or (The Unexpected Virtue of Ignorance)" loses its subtitle, and
+// then the dangling "or" with it.
+export const cleanTitle = (t) => t.split(' / ')[0].replace(/\s*\([^)]*\)\s*$/, '').replace(/\s+or$/i, '').trim();
 
 /** Reads every source file the groups are made from. `root` is the repo root. */
 export function loadSources(root = '.') {
@@ -102,7 +104,7 @@ export function buildGroups({ countries, famous, music, films, tv }) {
   // Nigeria hides Niger, Romania hides Oman, Somalia hides Mali. Only the
   // longer name counts as a member; the hidden one is the answer to nothing.
   const hides = (c) => countries.some((o) => o !== c && norm(o.name).length >= 4 && norm(c.name).includes(norm(o.name)) && norm(c.name) !== norm(o.name));
-  add('wordplay-hidden', 'Countries with another country inside', 4, countries.filter(hides).map((c) => c.name), undefined, { via: 'name', test: hides });
+  add('wordplay-hidden', 'Countries whose name hides another country', 4, countries.filter(hides).map((c) => c.name), undefined, { via: 'name', test: hides });
 
   // Albania, Algeria, Armenia, Indonesia: the first and last letters match.
   const bookends = (c) => {

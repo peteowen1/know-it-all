@@ -42,6 +42,10 @@ const ACCEPT_ALSO = {
   AG: ["St John's"]
 };
 
+// Where REST Countries' subregion differs from the UN geoscheme (M49), whose
+// names it otherwise uses. South Sudan is Eastern Africa there.
+const SUBREGION_FIX = { SS: 'Eastern Africa' };
+
 // Country names people type that REST Countries does not list.
 const NAMES_ALSO = {
   TR: ['Turkey'],
@@ -85,7 +89,7 @@ const countries = raw
       capitals: c.capital || [],
       capitalsAlsoAccepted: ACCEPT_ALSO[c.cca2] || [],
       region: c.region,
-      subregion: c.subregion || c.region,
+      subregion: SUBREGION_FIX[c.cca2] || c.subregion || c.region,
       sovereign: c.unMember || EXTRA_SOVEREIGN.has(c.cca2),
       unMember: c.unMember,
       flag: c.flag,
