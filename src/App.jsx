@@ -32,6 +32,7 @@ const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
+const Settings = lazy(() => import('./components/Settings'));
 
 // The quiz builder pulls in the whole question bank, so it is imported when a
 // quiz is first needed rather than at startup. The promise is shared.
@@ -368,6 +369,7 @@ export default function App() {
     timeline: () => <Timeline {...play} />,
     connections: () => <FourByFour {...play} />,
     'first-names': () => <FirstNames {...play} {...mode} />,
+    settings: () => <Settings />,
     quiz: () =>
       quiz ? (
         <>

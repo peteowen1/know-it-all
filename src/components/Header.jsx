@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { Flame } from 'lucide-react';
+import { Flame, Moon, Settings as Gear, Sun } from 'lucide-react';
 import AccountButton from './AccountButton';
+import { useTheme, toggleMode } from '../lib/theme';
 
 const TABS = [
   { id: 'home', label: 'Games' },
@@ -27,6 +28,8 @@ export default function Header({ onHome, activeTab, setActiveTab, stats, weaknes
   }, [activeTab]);
 
   const streak = stats.streak || 0;
+  const { mode } = useTheme();
+  const next = mode === 'light' ? 'dark' : 'light';
 
   return (
     <header className="app-header">
@@ -42,15 +45,34 @@ export default function Header({ onHome, activeTab, setActiveTab, stats, weaknes
             }}
           >
             <span className="wordmark-dot" aria-hidden="true" />
-            Know-It-All
+            <span className="wordmark-text">Know-It-All</span>
           </a>
         </h1>
 
         <div className="header-actions">
           <span className="pill" title="Days in a row with a finished quiz">
             <Flame size={14} strokeWidth={1.75} aria-hidden="true" />
-            {streak} day streak
+            {streak}<span className="streak-unit"> day streak</span>
           </span>
+          <button
+            type="button"
+            className="icon-btn"
+            onClick={toggleMode}
+            aria-label={`Switch to ${next} mode`}
+            title={`Switch to ${next} mode`}
+          >
+            {mode === 'light' ? <Moon size={18} strokeWidth={1.75} /> : <Sun size={18} strokeWidth={1.75} />}
+          </button>
+          <button
+            type="button"
+            className="icon-btn"
+            onClick={() => setActiveTab('settings')}
+            aria-label="Settings"
+            title="Settings"
+            aria-current={activeTab === 'settings' ? 'page' : undefined}
+          >
+            <Gear size={18} strokeWidth={1.75} />
+          </button>
           <AccountButton onReset={onReset} />
         </div>
       </div>

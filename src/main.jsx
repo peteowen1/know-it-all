@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client';
 import 'flag-icons/css/flag-icons.min.css';
 import './index.css';
 import './games.css';
+import './themes.css';
+import './lib/theme.js';
 import Root from './Root.jsx';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import { startSync } from './lib/sync.js';

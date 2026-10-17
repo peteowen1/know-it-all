@@ -55,7 +55,7 @@
   text-wrap: balance;
 }
 .chart-prompt { text-wrap: balance; }
-.play-kind { display: inline-flex; vertical-align: -0.2em; color: var(--accent); }
+.play-kind { display: inline-flex; vertical-align: -0.2em; color: var(--accent-text); }
 .play-fact { color: var(--ink-2); font-size: var(--fs-sm); text-align: center; }
 .play-verdict {
   font-family: var(--font-serif);
@@ -89,7 +89,7 @@
   min-height: 56px;
   padding: var(--s-2) var(--s-4);
   background: var(--surface-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
   color: var(--ink);
   font-size: var(--fs-md);
@@ -115,7 +115,7 @@
 .play-option-label { flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .play-option-mark { display: inline-flex; flex-shrink: 0; margin-left: auto; }
 .play-option[data-state='selected'] {
-  border-color: var(--accent);
+  border-color: var(--accent-text);
   box-shadow: inset 0 0 0 1px var(--accent);
   background: color-mix(in srgb, var(--accent) 12%, transparent);
 }
@@ -145,7 +145,7 @@
   padding: var(--s-4);
   text-align: center;
   background: var(--surface-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
   transition: border-color var(--t-base);
 }
@@ -156,7 +156,7 @@
   font-size: var(--fs-xl);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 .hl-vs { color: var(--ink-3); font-size: var(--fs-sm); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
 .hl-buttons { display: flex; flex-direction: column; align-items: center; gap: var(--s-3); text-align: center; }
@@ -169,7 +169,7 @@
 /* ----------------------------------------- boards: names, charts, lists */
 .board-form { display: flex; flex: 1 1 100%; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
 .board-form .input { flex: 1; min-width: 140px; width: auto; }
-.board-prefix { color: var(--accent); font-weight: 600; }
+.board-prefix { color: var(--accent-text); font-weight: 600; }
 .board-grid {
   list-style: none;
   display: grid;
@@ -183,7 +183,7 @@
 .board-hidden { font-style: italic; }
 .board-initial { font-style: normal; color: var(--ink-3); }
 .board-sub { display: block; }
-.game-board-title strong { color: var(--accent); font-weight: 600; }
+.game-board-title strong { color: var(--accent-text); font-weight: 600; }
 
 /* -------------------------------------------------------- fill the list */
 /* One column: a list learnt in order should read top to bottom. */
@@ -197,10 +197,10 @@
   margin: 0 auto;
 }
 .list-clue { display: flex; flex-direction: column; min-width: 5.5rem; font-size: var(--fs-xs); color: var(--ink-2); line-height: 1.2; }
-.list-clue strong { color: var(--accent); font-size: var(--fs-sm); }
+.list-clue strong { color: var(--accent-text); font-size: var(--fs-sm); }
 .list-answer { display: inline-flex; align-items: center; gap: var(--s-1); font-weight: 600; }
 .list-rows .input { background: var(--surface-1); }
-.list-hint { display: block; margin-top: var(--s-1); font-size: var(--fs-xs); color: var(--accent); }
+.list-hint { display: block; margin-top: var(--s-1); font-size: var(--fs-xs); color: var(--accent-text); }
 
 /* ------------------------------------------------------------ four by four */
 .fbf-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-1); }
@@ -217,6 +217,10 @@
      "anywhere" cut words at any letter ("Copenha / gen"). */
   overflow-wrap: break-word;
   hyphens: auto;
+  /* Narrower letters where the face has a width axis (Risograph's
+     Bricolage), so "Copenhagen" fits a phone-width tile whole. */
+  font-stretch: 80%;
+  letter-spacing: -0.01em;
   transition: background var(--t-fast), border-color var(--t-fast), transform var(--t-fast);
 }
 .answer-row.fbf-tile .answer-row-main { flex: 0 1 auto; }
@@ -267,7 +271,7 @@
   width: 44px;
   height: 44px;
   background: transparent;
-  border: 1px solid var(--line-strong);
+  border: var(--border-w) var(--border-style) var(--line-strong);
   border-radius: var(--r-control);
   color: var(--ink-2);
   transition: background var(--t-fast), color var(--t-fast), transform var(--t-fast);
@@ -284,7 +288,7 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 /* ----------------------------------------------------------- name the year */
@@ -300,10 +304,10 @@
   gap: var(--s-1);
   padding: var(--s-3);
   background: var(--surface-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
 }
-.obs-reveal em { font-style: normal; color: var(--accent); font-weight: 600; margin-left: var(--s-1); }
+.obs-reveal em { font-style: normal; color: var(--accent-text); font-weight: 600; margin-left: var(--s-1); }
 
 /* ------------------------------------------------------------ missing link */
 .ml-clues { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr)); gap: var(--s-2); }
@@ -314,7 +318,7 @@
   justify-content: center;
   padding: var(--s-2);
   text-align: center;
-  border: 1px dashed var(--line-strong);
+  border: var(--border-w) dashed var(--line-strong);
   border-radius: var(--r-control);
   color: var(--ink-3);
   font-weight: 600;
@@ -322,7 +326,7 @@
 }
 .ml-clues li.on {
   border-style: solid;
-  border-color: var(--accent);
+  border-color: var(--accent-text);
   background: color-mix(in srgb, var(--accent) 10%, transparent);
   color: var(--ink);
 }
@@ -333,7 +337,7 @@
   flex-direction: column;
   gap: var(--s-3);
   padding: var(--s-4);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
 }
 .vp-mode h3 { font-family: var(--font-serif); font-size: var(--fs-lg); font-weight: 600; }
@@ -344,7 +348,7 @@
 .vp-defs li {
   padding: var(--s-3);
   background: var(--surface-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
 }
 .vp-defs li[data-right='true'] { border-color: var(--correct); }

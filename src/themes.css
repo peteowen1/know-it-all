@@ -1,0 +1,626 @@
+/* ==========================================================================
+   Looks. Each look restates every colour and flourish token, once for dark
+   ([data-look='x']) and once for light ([data-look='x'][data-mode='light']).
+   They match on <html> for the whole site and on any container, which is how
+   the looks gallery previews one look inside another. That only works because
+   component CSS reads tokens: a rule keyed on a look and aimed at a component
+   would leak into the previews of other looks, so the few structural rules at
+   the bottom are page-level only (html[...] .app-header ...).
+
+   Light modes darken the section accents so they pass as text on paper, and
+   flip --on-brand to white for the solid buttons. Risograph is the default
+   (src/lib/theme.js and the boot script in index.html); players pick another
+   in Settings.
+   ========================================================================== */
+
+/* ---------------------------------------------------------------- Evening */
+[data-look='evening'] {
+  color-scheme: dark;
+  --bg: #0b1120;
+  --surface-1: #121a2e;
+  --surface-2: #1a243d;
+  --surface-3: #243049;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --ink: #f3f5f9;
+  --ink-2: #aab4c6;
+  --ink-3: #8591a8;
+  --brand: #f5b83d;
+  --on-brand: #1a1305;
+  --correct: #34d399;
+  --wrong: #fb7185;
+  --focus: #7aa2ff;
+  --accent-weekend: #f5b83d;
+  --accent-geo: #4ecb9a;
+  --accent-pop: #ff8f6b;
+  --accent-words: #c49bff;
+  --accent-lab: #5fd0e0;
+  --tile-picked: #e2e8f0;
+  --on-tile-picked: #0b1120;
+  --shadow-raised: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: var(--font-serif);
+  --display-weight: 600;
+  --display-tracking: -0.01em;
+  --r-control: 12px;
+  --r-card: 16px;
+  --border-w: 1px;
+  --border-style: solid;
+  --bg-image: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(245, 184, 61, 0.07), transparent 70%);
+  --accent-text-mix: 100%;
+  --shadow-base: rgba(0, 0, 0, 0.45);
+  --shadow-accent: 12%;
+  --card-x: 0px; --card-y: 2px; --card-blur: 6px;
+  --card-hover-x: 0px; --card-hover-y: 14px; --card-hover-blur: 30px;
+  --ctl-x: 0px; --ctl-y: 2px; --ctl-blur: 6px;
+  --hover-lift: translateY(-3px);
+  --tilt: 0deg;
+  --wm-font: var(--font-serif);
+  --wm-size: 1.5rem;
+  --wm-fill: none;
+  --wm-color: currentColor;
+  --sh-font: var(--font-serif);
+  --sh-size: 1.5rem;
+  --sh-weight: 600;
+  --sh-style: normal;
+  --sh-transform: none;
+  --sh-tracking: -0.01em;
+  --sh-bar: 18px;
+  --sh-highlight: 100%;
+  --hub-bw: 1px;
+  --hub-card-bg: var(--surface-1);
+  --hub-bc: var(--line);
+  --sh-color: var(--ink);
+}
+[data-look='evening'][data-mode='light'] {
+  color-scheme: light;
+  --bg: #f6f3ec;
+  --surface-1: #ffffff;
+  --surface-2: #f1ede4;
+  --surface-3: #e7e1d4;
+  --line: rgba(20, 24, 40, 0.1);
+  --line-strong: rgba(20, 24, 40, 0.2);
+  --ink: #141a2b;
+  --ink-2: #4a5266;
+  --ink-3: #5a6276;
+  --brand: #9a6200;
+  --on-brand: #ffffff;
+  --correct: #15803d;
+  --wrong: #be123c;
+  --focus: #2f5bd8;
+  --accent-weekend: #9a6200;
+  --accent-geo: #0f7a52;
+  --accent-pop: #c0441c;
+  --accent-words: #7445c2;
+  --accent-lab: #0d7584;
+  --tile-picked: #2d3344;
+  --on-tile-picked: #ffffff;
+  --shadow-raised: 0 8px 24px rgba(20, 24, 40, 0.14);
+  --bg-image: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(245, 184, 61, 0.16), transparent 70%);
+  --shadow-base: rgba(20, 24, 40, 0.16);
+}
+
+/* ------------------------------------------------------------- Broadsheet
+   Newsprint: cream paper, black ink, a blackletter masthead, hairline column
+   rules instead of boxes, square corners. */
+[data-look='broadsheet'] {
+  color-scheme: dark;
+  --bg: #16140f;
+  --surface-1: #1d1a14;
+  --surface-2: #26221a;
+  --surface-3: #312c22;
+  --line: rgba(241, 234, 217, 0.14);
+  --line-strong: rgba(241, 234, 217, 0.45);
+  --ink: #f1ead9;
+  --ink-2: #c2b9a5;
+  --ink-3: #a0977f;
+  --brand: #ff7a6b;
+  --on-brand: #1a0d0b;
+  --correct: #6fcf97;
+  --wrong: #ff7a85;
+  --focus: #8fb0ff;
+  --accent-weekend: #ff7a6b;
+  --accent-geo: #6fcf97;
+  --accent-pop: #ffa26b;
+  --accent-words: #c3a6ff;
+  --accent-lab: #6cc6e0;
+  --tile-picked: #f1ead9;
+  --on-tile-picked: #16140f;
+  --shadow-raised: 0 6px 18px rgba(0, 0, 0, 0.45);
+
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Libre Franklin', 'Franklin Gothic Medium', Arial, sans-serif;
+  --font-display: var(--font-serif);
+  --display-weight: 700;
+  --display-tracking: -0.015em;
+  --r-control: 2px;
+  --r-card: 2px;
+  --border-w: 1px;
+  --border-style: solid;
+  --bg-image: none;
+  --accent-text-mix: 100%;
+  --shadow-base: transparent;
+  --shadow-accent: 0%;
+  --card-x: 0px; --card-y: 0px; --card-blur: 0px;
+  --card-hover-x: 0px; --card-hover-y: 0px; --card-hover-blur: 0px;
+  --ctl-x: 0px; --ctl-y: 0px; --ctl-blur: 0px;
+  --hover-lift: translate(0, 0);
+  --tilt: 0deg;
+  --wm-font: 'UnifrakturMaguntia', 'Old English Text MT', serif;
+  --wm-size: clamp(2.1rem, 8vw, 3.25rem);
+  --wm-fill: none;
+  --wm-color: currentColor;
+  --sh-font: var(--font-serif);
+  --sh-size: 1.6rem;
+  --sh-weight: 600;
+  --sh-style: italic;
+  --sh-transform: none;
+  --sh-tracking: -0.01em;
+  --sh-bar: 10px;
+  --sh-highlight: 100%;
+  --hub-bw: 3px 0 0 0;
+  --hub-card-bg: var(--surface-1);
+  --hub-bc: var(--ink);
+  --sh-color: var(--ink);
+}
+[data-look='broadsheet'][data-mode='light'] {
+  color-scheme: light;
+  --bg: #f4efe4;
+  --surface-1: #fbf8f1;
+  --surface-2: #eee7d8;
+  --surface-3: #e4dbc8;
+  --line: rgba(28, 24, 18, 0.16);
+  --line-strong: rgba(28, 24, 18, 0.5);
+  --ink: #1c1812;
+  --ink-2: #4b4438;
+  --ink-3: #5e5546;
+  --brand: #b3261e;
+  --on-brand: #ffffff;
+  --correct: #1f7a3a;
+  --wrong: #a3122a;
+  --focus: #1d4ed8;
+  --accent-weekend: #b3261e;
+  --accent-geo: #1f6b45;
+  --accent-pop: #a3431a;
+  --accent-words: #5b3a8c;
+  --accent-lab: #1d5f7a;
+  --tile-picked: #1c1812;
+  --on-tile-picked: #f4efe4;
+  --shadow-raised: 0 6px 18px rgba(28, 24, 18, 0.18);
+  /* faint newsprint grain */
+  --bg-image: repeating-linear-gradient(0deg, rgba(28, 24, 18, 0.018) 0 1px, transparent 1px 3px);
+}
+
+/* ------------------------------------------------------------- Risograph
+   A two-colour print poster: fat ink outlines, hard offset shadows, halftone
+   dots, highlighter section heads, cards that tilt when you touch them. */
+[data-look='riso'] {
+  color-scheme: dark;
+  --bg: #15131f;
+  --surface-1: #1f1c2e;
+  --surface-2: #29253b;
+  --surface-3: #353049;
+  --line: #e9e2d0;
+  --line-strong: #e9e2d0;
+  --ink: #f7f1e3;
+  --ink-2: #d3cbb7;
+  --ink-3: #aaa28e;
+  --brand: #ff5cbc;
+  --on-brand: #15131f;
+  --correct: #3ddc97;
+  --wrong: #ff6b6b;
+  --focus: #33c9ff;
+  --accent-weekend: #ffd23f;
+  --accent-geo: #3ddc97;
+  --accent-pop: #ff7a59;
+  --accent-words: #c3a2ff;
+  --accent-lab: #33c9ff;
+  --tile-picked: #f7f1e3;
+  --on-tile-picked: #15131f;
+  --shadow-raised: 4px 4px 0 #ff5cbc;
+
+  --font-serif: 'Bricolage Grotesque', 'Inter', sans-serif;
+  --font-sans: 'Bricolage Grotesque', 'Inter', system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Inter', sans-serif;
+  --display-weight: 800;
+  --display-tracking: -0.035em;
+  --r-control: 10px;
+  --r-card: 14px;
+  --border-w: 2px;
+  --border-style: solid;
+  --bg-image: radial-gradient(rgba(247, 241, 227, 0.07) 1px, transparent 1.5px);
+  --accent-text-mix: 100%;
+  --shadow-base: #f7f1e3;
+  --shadow-accent: 100%;
+  --card-x: 4px; --card-y: 4px; --card-blur: 0px;
+  --card-hover-x: 7px; --card-hover-y: 7px; --card-hover-blur: 0px;
+  --ctl-x: 3px; --ctl-y: 3px; --ctl-blur: 0px;
+  --hover-lift: translate(-3px, -3px);
+  --tilt: 0.6deg;
+  --wm-font: var(--font-display);
+  --wm-size: 1.6rem;
+  --wm-fill: none;
+  --wm-color: currentColor;
+  --sh-font: var(--font-display);
+  --sh-size: 1.5rem;
+  --sh-weight: 800;
+  --sh-style: normal;
+  --sh-transform: none;
+  --sh-tracking: -0.03em;
+  --sh-bar: 0px;
+  --sh-highlight: 58%;
+  --hub-bw: 2px;
+  --hub-card-bg: var(--surface-1);
+  --hub-bc: var(--line);
+  --sh-color: var(--ink);
+}
+[data-look='riso'][data-mode='light'] {
+  color-scheme: light;
+  --bg: #f7f1e3;
+  --surface-1: #fffaf0;
+  --surface-2: #fdf0d8;
+  --surface-3: #f8e2bd;
+  --line: #1d1a2f;
+  --line-strong: #1d1a2f;
+  --ink: #1d1a2f;
+  --ink-2: #3f3a55;
+  --ink-3: #555069;
+  --brand: #ff48b0;
+  --on-brand: #1d1a2f;
+  --correct: #0e8a55;
+  --wrong: #d6334a;
+  --focus: #2563eb;
+  --accent-weekend: #ffc72c;
+  --accent-geo: #2fd38b;
+  --accent-pop: #ff6b4a;
+  --accent-words: #b28dff;
+  --accent-lab: #33c3ff;
+  --tile-picked: #1d1a2f;
+  --on-tile-picked: #fffaf0;
+  --shadow-raised: 4px 4px 0 #1d1a2f;
+  --bg-image: radial-gradient(rgba(255, 72, 176, 0.16) 1px, transparent 1.5px);
+  /* Fluoro accents are fills here, too pale to read as text on cream */
+  --accent-text-mix: 0%;
+  --shadow-base: #1d1a2f;
+  --shadow-accent: 0%;
+}
+
+/* ------------------------------------------------------------- Chalkboard
+   The pub quiz: a green board, chalk lettering, dashed hand-drawn borders
+   with wonky corners. Light mode is the whiteboard and marker pens. */
+[data-look='chalk'] {
+  color-scheme: dark;
+  --bg: #1d3a2f;
+  --surface-1: #224336;
+  --surface-2: #294c3d;
+  --surface-3: #325848;
+  --line: rgba(242, 240, 228, 0.3);
+  --line-strong: rgba(242, 240, 228, 0.55);
+  --ink: #f4f2e6;
+  --ink-2: #d2d9cb;
+  --ink-3: #b6c1b2;
+  --brand: #ffe57a;
+  --on-brand: #1d3a2f;
+  --correct: #a4f0ae;
+  --wrong: #ffa3a3;
+  --focus: #ffe57a;
+  --accent-weekend: #ffe57a;
+  --accent-geo: #a4f0c4;
+  --accent-pop: #ffb59e;
+  --accent-words: #dcc6ff;
+  --accent-lab: #a3e5f2;
+  --tile-picked: #f4f2e6;
+  --on-tile-picked: #1d3a2f;
+  --shadow-raised: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  --font-serif: 'Nunito', system-ui, sans-serif;
+  --font-sans: 'Nunito', system-ui, sans-serif;
+  --font-display: 'Caveat', 'Segoe Print', cursive;
+  --display-weight: 700;
+  --display-tracking: 0;
+  --r-control: 14px 6px 16px 5px / 6px 14px 5px 16px;
+  --r-card: 255px 18px 225px 18px / 18px 225px 18px 255px;
+  --border-w: 2px;
+  --border-style: dashed;
+  --bg-image:
+    radial-gradient(ellipse 60% 40% at 15% 5%, rgba(255, 255, 255, 0.07), transparent 70%),
+    radial-gradient(ellipse 50% 35% at 85% 60%, rgba(255, 255, 255, 0.05), transparent 70%),
+    radial-gradient(ellipse 40% 30% at 40% 95%, rgba(255, 255, 255, 0.04), transparent 70%);
+  --accent-text-mix: 100%;
+  --shadow-base: transparent;
+  --shadow-accent: 0%;
+  --card-x: 0px; --card-y: 0px; --card-blur: 0px;
+  --card-hover-x: 0px; --card-hover-y: 0px; --card-hover-blur: 0px;
+  --ctl-x: 0px; --ctl-y: 0px; --ctl-blur: 0px;
+  --hover-lift: scale(1.02);
+  --tilt: 0.5deg;
+  --wm-font: var(--font-display);
+  --wm-size: 2.1rem;
+  --wm-fill: none;
+  --wm-color: currentColor;
+  --sh-font: var(--font-display);
+  --sh-size: 2rem;
+  --sh-weight: 700;
+  --sh-style: normal;
+  --sh-transform: none;
+  --sh-tracking: 0;
+  --sh-bar: 28px;
+  --sh-highlight: 100%;
+  --hub-bw: 2px;
+  --hub-card-bg: transparent;
+  --hub-bc: var(--line);
+  --sh-color: var(--ink);
+}
+[data-look='chalk'][data-mode='light'] {
+  color-scheme: light;
+  --bg: #f7f8f5;
+  --surface-1: #ffffff;
+  --surface-2: #f0f2ee;
+  --surface-3: #e3e6e0;
+  --line: rgba(31, 42, 68, 0.28);
+  --line-strong: rgba(31, 42, 68, 0.55);
+  --ink: #1f2a44;
+  --ink-2: #43506a;
+  --ink-3: #56627c;
+  --brand: #1f5fd1;
+  --on-brand: #ffffff;
+  --correct: #15803d;
+  --wrong: #c62828;
+  --focus: #1f5fd1;
+  --accent-weekend: #1f5fd1;
+  --accent-geo: #15803d;
+  --accent-pop: #c62828;
+  --accent-words: #7b3fc4;
+  --accent-lab: #0e7490;
+  --tile-picked: #1f2a44;
+  --on-tile-picked: #ffffff;
+  --shadow-raised: 0 8px 24px rgba(31, 42, 68, 0.15);
+  --bg-image: linear-gradient(115deg, transparent 40%, rgba(255, 255, 255, 0.9) 50%, transparent 60%);
+}
+
+/* -------------------------------------------------------------- Quiz show
+   Saturday-night TV: deep studio purple, neon glow, marquee-bulb section
+   heads, a chunky display face. Light mode is the daytime candy version. */
+[data-look='showtime'] {
+  color-scheme: dark;
+  --bg: #120a2e;
+  --surface-1: #1c1242;
+  --surface-2: #261a57;
+  --surface-3: #32246c;
+  --line: rgba(180, 150, 255, 0.2);
+  --line-strong: rgba(180, 150, 255, 0.42);
+  --ink: #f6f1ff;
+  --ink-2: #c8bbec;
+  --ink-3: #a093cb;
+  --brand: #ffd400;
+  --on-brand: #1a0f00;
+  --correct: #36f1a5;
+  --wrong: #ff5f7e;
+  --focus: #3fd8ff;
+  --accent-weekend: #ffd400;
+  --accent-geo: #36f1a5;
+  --accent-pop: #ff5fa2;
+  --accent-words: #b98cff;
+  --accent-lab: #3fd8ff;
+  --tile-picked: #f6f1ff;
+  --on-tile-picked: #120a2e;
+  --shadow-raised: 0 0 24px rgba(255, 212, 0, 0.35);
+
+  --font-serif: 'Space Grotesk', 'Inter', sans-serif;
+  --font-sans: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-display: 'Bungee', 'Impact', sans-serif;
+  --display-weight: 400;
+  --display-tracking: 0.01em;
+  --r-control: 14px;
+  --r-card: 20px;
+  --border-w: 1px;
+  --border-style: solid;
+  --bg-image:
+    radial-gradient(ellipse 70% 40% at 50% -8%, rgba(255, 95, 162, 0.16), transparent 70%),
+    radial-gradient(ellipse 50% 40% at 100% 100%, rgba(63, 216, 255, 0.08), transparent 70%);
+  --accent-text-mix: 100%;
+  --shadow-base: transparent;
+  --shadow-accent: 30%;
+  --card-x: 0px; --card-y: 8px; --card-blur: 22px;
+  --card-hover-x: 0px; --card-hover-y: 0px; --card-hover-blur: 26px;
+  --ctl-x: 0px; --ctl-y: 0px; --ctl-blur: 12px;
+  --hover-lift: translateY(-3px);
+  --tilt: 0deg;
+  --wm-font: var(--font-display);
+  --wm-size: 1.15rem;
+  --wm-fill: none;
+  --wm-color: var(--brand);
+  --sh-font: var(--font-sans);
+  --sh-size: 0.95rem;
+  --sh-weight: 700;
+  --sh-style: normal;
+  --sh-transform: uppercase;
+  --sh-tracking: 0.04em;
+  --sh-bar: 44px;
+  --sh-highlight: 100%;
+  --hub-bw: 1px;
+  --hub-card-bg: var(--surface-1);
+  --hub-bc: var(--line);
+  --sh-color: var(--ink);
+}
+[data-look='showtime'][data-mode='light'] {
+  color-scheme: light;
+  --bg: #fff4fb;
+  --surface-1: #ffffff;
+  --surface-2: #fbe8f6;
+  --surface-3: #f4d4ec;
+  --line: rgba(80, 30, 120, 0.14);
+  --line-strong: rgba(80, 30, 120, 0.3);
+  --ink: #2a0f4a;
+  --ink-2: #583a7a;
+  --ink-3: #6b528c;
+  --brand: #7a1fd6;
+  --on-brand: #ffffff;
+  --correct: #0b7a54;
+  --wrong: #d81b4a;
+  --focus: #7a1fd6;
+  --accent-weekend: #b45309;
+  --accent-geo: #0b7a54;
+  --accent-pop: #d81b72;
+  --accent-words: #7a1fd6;
+  --accent-lab: #0b74a0;
+  --tile-picked: #2a0f4a;
+  --on-tile-picked: #ffffff;
+  --shadow-raised: 0 10px 28px rgba(122, 31, 214, 0.22);
+  --bg-image:
+    radial-gradient(ellipse 60% 40% at 10% 0%, rgba(255, 95, 162, 0.18), transparent 70%),
+    radial-gradient(ellipse 55% 40% at 95% 30%, rgba(63, 216, 255, 0.16), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 50% 100%, rgba(255, 212, 0, 0.16), transparent 70%);
+  --shadow-accent: 22%;
+}
+
+/* Every look's text and surfaces sit on the container that names the look. */
+[data-look] {
+  font-family: var(--font-sans);
+}
+
+/* ---- Small component touches that ride on tokens, so previews stay true ---- */
+
+/* Marquee bulbs: the quiz show's section-head bar is a row of lit dots. */
+/* @scope ... to ([data-look]) stops at a nested look, so a preview of another
+   look inside this one keeps its own section heads. */
+@scope ([data-look='showtime']) to ([data-look]) {
+  .hub-section-head h2::before {
+    height: 8px;
+    border-radius: 0;
+    background: radial-gradient(circle, var(--accent) 2.5px, transparent 3px) 0 50% / 9px 8px repeat-x;
+    filter: drop-shadow(0 0 4px var(--accent));
+  }
+}
+/* A pressed button sinks into its shadow: Risograph's hard offset, a plain
+   press in looks whose offsets are zero. */
+.btn-primary:active:not(:disabled),
+.btn-secondary:active:not(:disabled) {
+  box-shadow: 0 0 0 var(--shadow-color);
+  transform: translate(var(--ctl-x), var(--ctl-y)) scale(0.98);
+}
+/* Chalk: section heads get a dashed chalk underline instead of a bar. */
+@scope ([data-look='chalk']) to ([data-look]) {
+  .hub-section-head h2::before {
+    height: 6px;
+    border-radius: 0;
+    background: none;
+    border-bottom: 2px dashed var(--accent);
+  }
+}
+
+/* ---- Page-level structure (html only; never inside a preview) ---- */
+
+/* Broadsheet: a centred masthead between double rules, like a front page. */
+html[data-look='broadsheet'] .app-header .header-top {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: var(--s-2);
+}
+html[data-look='broadsheet'] .app-header .header-actions {
+  order: -1;
+  flex: 1 0 100%;
+  justify-content: flex-end;
+}
+/* The masthead has its own row, so it keeps full size on a phone too. */
+html[data-look='broadsheet'] .app-header .wordmark { text-align: center; font-size: var(--wm-size); }
+html[data-look='broadsheet'] .app-header .wordmark-dot { display: none; }
+html[data-look='broadsheet'] .app-header .nav-tabs {
+  justify-content: safe center;
+  border-top: 1px solid var(--ink);
+  border-bottom: 4px double var(--ink);
+}
+html[data-look='broadsheet'] .app-header .tab-btn {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Riso: the wordmark dot becomes a tilted pink tile. */
+@scope ([data-look='riso']) to ([data-look]) {
+  .wordmark-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    transform: rotate(12deg);
+    background: var(--brand);
+    box-shadow: 2px 2px 0 var(--ink);
+  }
+}
+html[data-look='riso'] .nav-tabs { border-bottom-width: 2px; border-bottom-color: var(--ink); }
+
+/* Quiz show: the wordmark dot is a pulsing on-air light. */
+@scope ([data-look='showtime']) to ([data-look]) {
+  .wordmark-dot {
+    background: #ff3b5c;
+    box-shadow: 0 0 10px #ff3b5c;
+    animation: on-air 1.6s ease-in-out infinite;
+  }
+}
+@keyframes on-air {
+  50% { opacity: 0.45; box-shadow: 0 0 2px #ff3b5c; }
+}
+
+/* Chalkboard: a wooden frame along the top of the page. */
+html[data-look='chalk']:not([data-mode='light']) body {
+  border-top: 10px solid #7a5230;
+}
+
+/* ---- Settings: the looks gallery (components/Settings.jsx) ---- */
+.settings .setup-group-label { margin-top: var(--s-5); }
+.looks-modes { margin-bottom: var(--s-2); }
+.looks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--s-5);
+}
+@media (max-width: 519px) {
+  .looks-grid { grid-template-columns: 1fr; }
+}
+.look-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  padding: var(--s-2);
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: calc(var(--r-control) + 8px);
+  color: var(--ink);
+  text-align: left;
+  transition: border-color var(--t-base), transform var(--t-fast);
+}
+.look-tile:hover { border-color: var(--line-strong); }
+.look-tile:active { transform: scale(0.985); }
+.look-tile[aria-pressed='true'] { border-color: var(--accent); }
+
+.look-preview {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  padding: var(--s-4);
+  overflow: hidden;
+  border-radius: 14px;
+  background-color: var(--bg);
+  background-image: var(--bg-image);
+  background-size: auto;
+  color: var(--ink);
+  pointer-events: none;
+  box-shadow: 0 0 0 1px var(--line-strong);
+}
+.look-preview[data-look='riso'] { background-size: 14px 14px; }
+.look-preview .wordmark { display: flex; align-items: center; gap: var(--s-2); font-size: calc(var(--wm-size) * 0.8); }
+.look-preview .hub-section-head { margin: 0; }
+.look-preview-row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); }
+.look-preview .hub-card { min-height: 0; padding: var(--s-3); }
+.look-preview .hub-icon { width: 32px; height: 32px; }
+.look-preview .hub-title { font-size: var(--fs-sm); }
+.look-preview-actions { display: flex; align-items: center; justify-content: space-between; gap: var(--s-2); flex-wrap: wrap; }
+
+.look-caption { display: flex; flex-direction: column; gap: var(--s-1); padding: 0 var(--s-2) var(--s-1); }
+.look-name { display: flex; align-items: center; gap: var(--s-2); font-weight: 700; font-size: var(--fs-md); }
+.look-blurb { color: var(--ink-2); font-size: var(--fs-sm); }
+
+/* Riso's halftone needs a tile size wherever it is the page background. */
+html[data-look='riso'] body { background-size: 14px 14px; }

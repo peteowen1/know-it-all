@@ -2,9 +2,10 @@
 
 /* ==========================================================================
    Know-It-All design system: "evening edition".
-   Flat, editorial, dark only for now. Every colour is a token, so a light set
-   can be added later under :root[data-theme="light"]. Component CSS uses tokens
-   only: no hex or rgba literals, tints via color-mix().
+   Flat, editorial. Every colour is a token. These are the defaults (the
+   Evening look, dark); themes.css overrides them per look and per light/dark
+   mode via data-look / data-mode on <html> or on any preview container.
+   Component CSS uses tokens only: no hex or rgba literals, tints via color-mix().
    ========================================================================== */
 
 :root {
@@ -28,8 +29,6 @@
   --on-brand: #1a1305;
   --correct: #34d399;
   --wrong: #fb7185;
-  --correct-bg: color-mix(in srgb, var(--correct) 12%, transparent);
-  --wrong-bg: color-mix(in srgb, var(--wrong) 12%, transparent);
   --focus: #7aa2ff;
 
   /* Section accents, each >= 6.2:1 on all surfaces */
@@ -39,19 +38,15 @@
   --accent-words: #c49bff;
   --accent-lab: #5fd0e0;
 
-  /* The live accent. A section root or a game screen overrides it (see
-     [data-section] below); everything accented reads --accent. */
-  --accent: var(--brand);
-  --on-accent: var(--on-brand);
 
   /* Four by four keeps its Connections hues, the one allowed extra palette */
   --level-1: #f9df6d;
   --level-2: #a0c35a;
   --level-3: #b0c4ef;
   --level-4: #ba81c5;
-  --on-level: var(--bg);
+  --on-level: #0b1120;
   --tile-picked: #e2e8f0;
-  --on-tile-picked: var(--bg);
+  --on-tile-picked: #0b1120;
 
   /* Type */
   --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
@@ -88,6 +83,39 @@
   --w-game-md: 760px;
   --w-game-sm: 640px;
 
+  /* Look flourishes. Plain defaults here; themes.css gives each look its own.
+     None of these may reference another token (see the block below), so a
+     look's shadow colour is a mix percentage applied in the rule itself. */
+  --font-display: var(--font-serif);
+  --display-weight: 600;
+  --display-tracking: -0.01em;
+  --border-w: 1px;
+  --border-style: solid;
+  --bg-image: none;
+  --accent-text-mix: 100%;  /* 0% = accented text drawn in ink instead */
+  /* Shadows: offsets and blur, coloured accent-mix% of the accent over --shadow-base */
+  --shadow-base: transparent;
+  --shadow-accent: 0%;
+  --card-x: 0px; --card-y: 0px; --card-blur: 0px;
+  --card-hover-x: 0px; --card-hover-y: 0px; --card-hover-blur: 0px;
+  --ctl-x: 0px; --ctl-y: 0px; --ctl-blur: 0px;
+  --hover-lift: translate(0, 0);
+  --tilt: 0deg;
+  /* Wordmark and hub section heads */
+  --wm-font: var(--font-display);
+  --wm-size: 1.375rem;
+  --wm-fill: none;
+  --wm-color: currentColor;
+  --sh-font: var(--font-sans);
+  --sh-size: var(--fs-xs);
+  --sh-weight: 600;
+  --sh-style: normal;
+  --sh-transform: uppercase;
+  --sh-tracking: 0.08em;
+  --sh-bar: 24px;
+  --sh-highlight: 100%; /* where the accent highlighter starts behind the head; 100% = none */
+  --hub-bw: var(--border-w);
+
   /* Motion */
   --t-fast: 120ms ease-out;
   --t-base: 160ms ease-out;
@@ -97,16 +125,39 @@
   :root { --gutter: 24px; }
 }
 
+/* Tokens built from other tokens. A custom property resolves where it is
+   declared, so these are restated on every [data-look] container (the looks
+   gallery previews) to pick up that container's colours. */
+:root,
+[data-look] {
+  --correct-bg: color-mix(in srgb, var(--correct) 12%, transparent);
+  --wrong-bg: color-mix(in srgb, var(--wrong) 12%, transparent);
+  /* The live accent. A section root or a game screen overrides it (see
+     [data-section] below); everything accented reads --accent. */
+  --accent: var(--brand);
+  --on-accent: var(--on-brand);
+  --accent-text: color-mix(in srgb, var(--accent) var(--accent-text-mix), var(--ink));
+  --hub-card-bg: var(--surface-1);
+  --hub-bc: var(--line);
+  --sh-color: var(--ink-2);
+  --shadow-color: color-mix(in srgb, var(--accent) var(--shadow-accent), var(--shadow-base));
+}
+
 /* A section root (hub section, or the game screen) sets its accent. */
 [data-section='weekend'] { --accent: var(--accent-weekend); }
 [data-section='geo'] { --accent: var(--accent-geo); }
 [data-section='pop'] { --accent: var(--accent-pop); }
 [data-section='words'] { --accent: var(--accent-words); }
 [data-section='lab'] { --accent: var(--accent-lab); }
+[data-section] {
+  --accent-text: color-mix(in srgb, var(--accent) var(--accent-text-mix), var(--ink));
+  --shadow-color: color-mix(in srgb, var(--accent) var(--shadow-accent), var(--shadow-base));
+}
 
 /* ---- Old token names, kept as aliases while the other packages migrate.
    Remove aliases when no references remain (grep src for each name). ---- */
-:root {
+:root,
+[data-look] {
   --bg-primary: var(--bg);
   --bg-secondary: var(--surface-1);
   --bg-card: var(--surface-1);
@@ -141,8 +192,11 @@ body {
   font-size: var(--fs-md);
   line-height: 1.5;
   background-color: var(--bg);
+  background-image: var(--bg-image);
+  background-attachment: fixed;
   color: var(--ink);
   min-height: 100vh;
+  transition: background-color var(--t-base), color var(--t-base);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -228,11 +282,11 @@ button { cursor: pointer; }
 }
 
 .wordmark {
-  font-family: var(--font-serif);
-  font-size: 1.375rem;
-  font-weight: 600;
+  font-family: var(--wm-font);
+  font-size: var(--wm-size);
+  font-weight: var(--display-weight);
   line-height: 1.2;
-  letter-spacing: -0.01em;
+  letter-spacing: var(--display-tracking);
 }
 
 .wordmark a {
@@ -242,6 +296,13 @@ button { cursor: pointer; }
   min-height: 44px;
   color: var(--ink);
   text-decoration: none;
+}
+
+.wordmark-text {
+  background-image: var(--wm-fill);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--wm-color);
 }
 
 .wordmark-dot {
@@ -310,6 +371,23 @@ button { cursor: pointer; }
   font-variant-numeric: tabular-nums;
 }
 
+/* Light/dark switch: a round icon button the size of the account trigger. */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border: var(--border-w) var(--border-style) var(--line-strong);
+  border-radius: var(--r-pill);
+  color: var(--ink);
+  transition: background var(--t-fast), transform var(--t-base);
+}
+.icon-btn:hover,
+.icon-btn[aria-current='page'] { background: var(--surface-2); }
+.icon-btn:active { transform: rotate(-30deg) scale(0.94); }
+
 /* ---- Account menu (Header) ---- */
 .account { position: relative; }
 
@@ -322,7 +400,7 @@ button { cursor: pointer; }
   min-height: 44px;
   padding: 0 var(--s-3);
   background: transparent;
-  border: 1px solid var(--line-strong);
+  border: var(--border-w) var(--border-style) var(--line-strong);
   border-radius: var(--r-pill);
   color: var(--ink);
   font-size: var(--fs-sm);
@@ -335,6 +413,13 @@ button { cursor: pointer; }
 @media (max-width: 519px) {
   .account-trigger-text { display: none; }
   .account-trigger { padding: 0; }
+  /* Four buttons and a big logo have to share 360px: the logo never wraps,
+     the streak shows just its number, the round buttons shrink to 40px. */
+  .wordmark { white-space: nowrap; font-size: min(var(--wm-size), 6.2vw); }
+  .header-actions { gap: var(--s-1); }
+  .streak-unit { display: none; }
+  .icon-btn,
+  .account-trigger { width: 40px; min-width: 40px; height: 40px; min-height: 40px; }
 }
 
 .account-panel {
@@ -348,7 +433,7 @@ button { cursor: pointer; }
   gap: var(--s-3);
   padding: var(--s-4);
   background: var(--surface-2);
-  border: 1px solid var(--line-strong);
+  border: var(--border-w) var(--border-style) var(--line-strong);
   border-radius: var(--r-card);
   box-shadow: var(--shadow-raised);
 }
@@ -381,7 +466,7 @@ button { cursor: pointer; }
   gap: var(--s-2);
   min-height: 44px;
   padding: 0 20px;
-  border: 1px solid transparent;
+  border: var(--border-w) var(--border-style) transparent;
   border-radius: var(--r-control);
   font-size: 0.9375rem;
   font-weight: 600;
@@ -389,6 +474,8 @@ button { cursor: pointer; }
   cursor: pointer;
   transition: background var(--t-fast), border-color var(--t-fast), color var(--t-fast), transform var(--t-fast);
 }
+.btn-primary,
+.btn-secondary { box-shadow: var(--ctl-x) var(--ctl-y) var(--ctl-blur) var(--shadow-color); }
 .btn:active:not(:disabled) { transform: scale(0.98); }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
@@ -444,7 +531,7 @@ button { cursor: pointer; }
   min-height: 44px;
   background: none;
   border: 0;
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: var(--fs-sm);
   font-weight: 600;
 }
@@ -485,12 +572,12 @@ button { cursor: pointer; }
   font-variant-numeric: tabular-nums;
   background: var(--surface-2);
   color: var(--ink-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
 }
 .pill-accent,
 .score-pill {
   background: color-mix(in srgb, var(--accent) 14%, transparent);
-  color: var(--accent);
+  color: var(--accent-text);
   border-color: color-mix(in srgb, var(--accent) 30%, transparent);
 }
 .pill-correct {
@@ -507,9 +594,10 @@ button { cursor: pointer; }
 /* ---- Card ---- */
 .card {
   background: var(--surface-1);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-card);
   padding: var(--s-4);
+  box-shadow: var(--card-x) var(--card-y) var(--card-blur) var(--shadow-color);
 }
 @media (min-width: 720px) {
   .card { padding: var(--s-5); }
@@ -534,7 +622,7 @@ button { cursor: pointer; }
   min-height: 48px;
   padding: var(--s-2) var(--s-3);
   background: var(--surface-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
   min-width: 0;
   overflow-wrap: anywhere;
@@ -577,7 +665,7 @@ button { cursor: pointer; }
   padding: 0 var(--s-4);
   background: var(--surface-2);
   color: var(--ink);
-  border: 1px solid var(--line-strong);
+  border: var(--border-w) var(--border-style) var(--line-strong);
   border-radius: var(--r-control);
   font-size: var(--fs-md); /* 16px stops the iOS focus zoom */
 }
@@ -593,7 +681,7 @@ button { cursor: pointer; }
   gap: var(--s-3);
 }
 .game-board-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: var(--fs-xl);
   font-weight: 600;
   line-height: 1.2;
@@ -628,7 +716,7 @@ button { cursor: pointer; }
   text-align: center;
 }
 .results-hero {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: var(--fs-2xl);
   font-weight: 600;
   line-height: 1.1;
@@ -675,13 +763,13 @@ button { cursor: pointer; }
   width: min(320px, 70vw);
   height: auto;
   aspect-ratio: 4 / 3;
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
 }
 .ui-flag--md {
   width: 96px;
   height: 72px;
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
 }
 .ui-flag--sm { width: 1.6em; height: 1.2em; vertical-align: -0.15em; }
@@ -715,7 +803,7 @@ button { cursor: pointer; }
   min-height: 44px;
   padding: 0 var(--s-4);
   background: var(--surface-2);
-  border: 1px solid var(--line);
+  border: var(--border-w) var(--border-style) var(--line);
   border-radius: var(--r-control);
   color: var(--ink-2);
   font-size: var(--fs-sm);
@@ -728,7 +816,7 @@ button { cursor: pointer; }
 .filter-chip.active,
 .filter-chip[aria-pressed='true'] {
   background: color-mix(in srgb, var(--accent) 14%, transparent);
-  border-color: var(--accent);
+  border-color: var(--accent-text);
   color: var(--ink);
 }
 
@@ -740,16 +828,20 @@ button { cursor: pointer; }
   display: flex;
   align-items: center;
   gap: var(--s-3);
-  font-family: var(--font-sans);
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--ink-2);
+  width: fit-content;
+  font-family: var(--sh-font);
+  font-size: var(--sh-size);
+  font-weight: var(--sh-weight);
+  font-style: var(--sh-style);
+  text-transform: var(--sh-transform);
+  letter-spacing: var(--sh-tracking);
+  color: var(--sh-color);
+  background: linear-gradient(transparent var(--sh-highlight), color-mix(in srgb, var(--accent) 70%, transparent) var(--sh-highlight));
 }
 .hub-section-head h2::before {
   content: '';
-  width: 24px;
+  flex-shrink: 0;
+  width: var(--sh-bar);
   height: 3px;
   border-radius: var(--r-pill);
   background: var(--accent);
@@ -779,13 +871,22 @@ button { cursor: pointer; }
   min-height: 160px;
   padding: var(--s-4);
   text-align: left;
-  background: var(--surface-1);
-  border: 1px solid var(--line);
+  background: var(--hub-card-bg);
+  border: var(--border-w) var(--border-style) var(--hub-bc);
+  border-width: var(--hub-bw);
   border-radius: var(--r-card);
   color: var(--ink);
-  transition: border-color var(--t-base), transform var(--t-fast);
+  --turn: var(--tilt);
+  transform: rotate(var(--turn));
+  box-shadow: var(--card-x) var(--card-y) var(--card-blur) var(--shadow-color);
+  transition: border-color var(--t-base), transform var(--t-fast), box-shadow var(--t-fast);
 }
-.hub-card:hover { border-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+.hub-card:nth-child(even) { --turn: calc(var(--tilt) * -1); }
+.hub-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  box-shadow: var(--card-hover-x) var(--card-hover-y) var(--card-hover-blur) var(--shadow-color);
+  transform: var(--hover-lift) rotate(var(--turn));
+}
 .hub-card:active { transform: scale(0.98); }
 
 .hub-icon {
@@ -797,7 +898,7 @@ button { cursor: pointer; }
   margin-bottom: var(--s-1);
   background: var(--surface-2);
   border-radius: var(--r-control);
-  color: var(--accent);
+  color: var(--accent-text);
 }
 .hub-title { font-weight: 600; font-size: var(--fs-md); line-height: 1.3; }
 .hub-blurb {
@@ -813,7 +914,7 @@ button { cursor: pointer; }
 }
 .hub-record {
   margin-top: var(--s-1);
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: var(--fs-xs);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
