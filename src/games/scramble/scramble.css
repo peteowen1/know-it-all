@@ -1,0 +1,47 @@
+/* Scramble: letter tiles. Tokens only, so every theme works. */
+.scramble-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-2);
+  padding: var(--s-3) 0;
+}
+.scramble-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 52px;
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--surface-2);
+  border: var(--border-w) var(--border-style) var(--line-strong);
+  border-radius: var(--r-control);
+}
+.scramble-tile[data-done] {
+  border-color: var(--correct);
+  background: var(--correct-bg);
+}
+.scramble-gap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--s-4);
+  height: 52px;
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.scramble-hint {
+  text-align: center;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+.scramble-form { display: grid; gap: var(--s-3); }
+
+/* Seven tiles of 44px and gaps fit 390px; longer words wrap to a second line. */
+@media (max-width: 420px) {
+  .scramble-tile { width: 40px; height: 48px; }
+}

@@ -130,5 +130,20 @@ export const GAMES = [
     id: 'missing-link', section: 'lab', tab: 'missing-link', icon: 'Link', title: 'Missing link',
     blurb: 'Four clues, rarest first. Name the link early to score more.',
     recordFormat: byPoints(20)
+  },
+  {
+    id: 'clue-ladder', section: 'lab', tab: 'clue-ladder', icon: 'Lightbulb', title: 'Clue ladder',
+    blurb: 'Clues get easier as you climb. Name it early for more points.',
+    recordFormat: byPoints(20)
+  },
+  {
+    id: 'twin-flags', section: 'lab', tab: 'twin-flags', icon: 'Eye', title: 'Twin flags',
+    blurb: 'Two flags that look almost the same. Which one is it?',
+    recordFormat: byPoints(10)
+  },
+  {
+    id: 'scramble', section: 'lab', tab: 'scramble', icon: 'Shuffle', title: 'Scramble',
+    blurb: 'Unscramble the letters of a country or a capital city.',
+    recordFormat: byPoints(20)
   }
 ];

@@ -1,0 +1,4 @@
+.tf-reveal { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); text-align: center; margin-top: var(--s-3); }
+.tf-name { font-weight: 600; margin: 0; overflow-wrap: anywhere; }
+.tf-name[data-ask='true'] { text-decoration: underline; text-underline-offset: 3px; }
+.tf-how { margin: var(--s-3) 0 0; line-height: 1.5; text-align: center; }
