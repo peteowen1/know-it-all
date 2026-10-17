@@ -153,7 +153,8 @@ export function knownAnswers(questions) {
 
 // Henry VII and Henry VIII, Vitamin C and D, "About 55 per cent": one character
 // apart and both real answers, so these must be typed exactly.
-const needsExact = (answer) => /\d|\b[IVXLC]+\b|\b[A-Z]\b/.test(answer);
+// A leading "A" ("A coolibah tree") is the article, not a letter.
+const needsExact = (answer) => /\d|\b[IVXLC]+\b|\b[A-Z]\b/.test(answer.replace(/^an? /i, ''));
 
 /**
  * Is the typed guess this question's answer? Ignores case, punctuation and a
