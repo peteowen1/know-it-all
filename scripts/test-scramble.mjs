@@ -126,6 +126,14 @@ test('points and hints', () => {
   assert.equal(hintFor({ name: 'Kenya', region: 'Africa' }, 'countries'), 'Country in Africa');
 });
 
+test('optional "The", St for Saint, and the common English names', () => {
+  const r = (accept) => ({ accept, reject: [] });
+  assert.ok(isCorrect('The Gambia', r(['Gambia'])));
+  assert.ok(isCorrect("St John's", r(["Saint John's"])));
+  assert.ok(isCorrect('Austria', r(['Austria'])));
+  assert.ok(!isCorrect('Australia', { accept: ['Austria'], reject: ['Australia'] }));
+});
+
 if (failures.length) {
   console.error(`${failures.length} failed, ${pass} passed\n  ${failures.join('\n  ')}`);
   process.exit(1);

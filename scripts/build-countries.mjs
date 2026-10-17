@@ -34,7 +34,19 @@ const ACCEPT_ALSO = {
   LK: ['Sri Jayawardenepura Kotte'],
   MY: ['Putrajaya'],
   BJ: ['Cotonou'],
-  PS: ['East Jerusalem']
+  PS: ['East Jerusalem'],
+  // Other spellings people type (a 2026-10-18 playtest of Scramble).
+  UA: ['Kiev'],
+  MN: ['Ulaanbaatar'],
+  MM: ['Nay Pyi Taw'],
+  AG: ["St John's"]
+};
+
+// Country names people type that REST Countries does not list.
+const NAMES_ALSO = {
+  TR: ['Turkey'],
+  GB: ['Britain'],
+  DE: ['Deutschland']
 };
 
 const EXTRA_SOVEREIGN = new Set(['VA', 'PS', 'XK', 'TW']);
@@ -80,7 +92,7 @@ const countries = raw
       population: p?.value ?? null,
       populationYear: p?.year ?? null,
       area: c.area,
-      altNames: c.altSpellings || [],
+      altNames: [...(c.altSpellings || []), ...(NAMES_ALSO[c.cca2] || [])],
       landlocked: c.landlocked,
       borders: c.borders || [],
       languages: Object.values(c.languages || {}),
