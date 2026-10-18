@@ -13,6 +13,12 @@ const KIND_LIMITS = [MAX_PER_KIND, 3, ROUND_SIZE];
 const WINDOWS = [12, 20, 40, Infinity];
 // Easy mode's eight-year gap is the last thing to give way.
 const GAPS = { easy: [8, 4, 1], hard: [1] };
+// Births bunch in the 1960s to 1980s (about 70 events a decade against 34 in
+// the 2020s), so a plain shuffle made two cards in five come from those three
+// decades. Each event is weighted 1 / max(events in its decade, FULL_DECADE):
+// every decade with at least that many events is drawn equally often, and a
+// thin early decade keeps the chance its few events had.
+const FULL_DECADE = 25;
 
 /**
  * Five events with distinct years, no more than two of any kind, so a round
@@ -28,11 +34,14 @@ const GAPS = { easy: [8, 4, 1], hard: [1] };
  */
 export function buildRound(events, { difficulty = 'easy', seed = Date.now() } = {}) {
   const rand = makeRng(hashString(`timeline:${seed}`));
+  const perDecade = {};
+  for (const e of events) perDecade[decade(e)] = (perDecade[decade(e)] || 0) + 1;
+  const weights = events.map((e) => 1 / Math.max(perDecade[decade(e)], FULL_DECADE));
   for (const minGap of GAPS[difficulty] || GAPS.easy) {
     for (const window of difficulty === 'hard' ? WINDOWS : [Infinity]) {
       for (const maxPerKind of KIND_LIMITS) {
         for (let attempt = 0; attempt < ATTEMPTS; attempt++) {
-          const round = drawRound(events, { rand, minGap, window, maxPerKind });
+          const round = drawRound(events, { rand, weights, minGap, window, maxPerKind });
           if (round) return round;
         }
       }
@@ -41,8 +50,18 @@ export function buildRound(events, { difficulty = 'easy', seed = Date.now() } = 
   throw new Error('could not draw a timeline round');
 }
 
-function drawRound(events, { rand, minGap, window, maxPerKind }) {
-  let pool = shuffle(events, rand);
+const decade = (e) => Math.floor(e.year / 10);
+
+/** A shuffle where heavier events tend to come first (Efraimidis-Spirakis keys). */
+function weightedShuffle(events, weights, rand) {
+  return events
+    .map((e, i) => ({ e, key: Math.pow(rand(), 1 / weights[i]) }))
+    .sort((a, b) => b.key - a.key)
+    .map((x) => x.e);
+}
+
+function drawRound(events, { rand, weights, minGap, window, maxPerKind }) {
+  let pool = weightedShuffle(events, weights, rand);
   if (window !== Infinity && pool.length) {
     const anchor = pool[0].year;
     pool = pool.filter((e) => e.year >= anchor && e.year <= anchor + window);

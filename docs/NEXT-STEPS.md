@@ -15,8 +15,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Data
 
-- OPEN **Timeline skew** (review E4): heavy in the 1960s to 1980s (about 70
-  events a decade) against about 34 in the 2020s. Needs new event sources.
 - OPEN **Old Wikidata batches saved trimmed**: `data-raw/famous/entities/*.json`
   (519 batches) and the first 201 of `entities-vital/` were saved slimmed, before
   the save-raw rule. New batches are raw. Refetching them is about 750 requests;
