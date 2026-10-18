@@ -75,7 +75,16 @@ export const GAMES = [
   {
     id: 'population', section: 'geo', tab: 'population', icon: 'Users', title: 'Higher or lower',
     blurb: 'Population, area or GDP: chain right calls. One miss ends the run.',
-    recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)
+    // Each measure keeps its own record (HigherLower.jsx MEASURES); the card
+    // shows the best run for every measure played.
+    recordFormat: (e, { gameStats = {} } = {}) => {
+      const runs = [['population', 'population'], ['higher-lower-area', 'area'], ['higher-lower-gdp', 'GDP'], ['higher-lower-gdp-head', 'GDP a person']]
+        .map(([id, label]) => [label, gameStats[id]])
+        .filter(([, g]) => g?.plays);
+      if (!runs.length) return null;
+      if (runs.length === 1 && runs[0][0] === 'population') return `${played(e)} · best run of ${e.bestRun}`;
+      return `Best runs: ${runs.map(([label, g]) => `${label} ${g.bestRun}`).join(' · ')}`;
+    }
   },
 
   // -------------------------------------------------------------------- pop

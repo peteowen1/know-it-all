@@ -19,7 +19,7 @@ import {
   exportProgress, importProgress, mergeProgress, encodeChallenge, decodeChallenge
 } from '../src/lib/transfer.js';
 import { localDateKey, previousDateKey, addDaysToKey, daysBetween, saturdayKey } from '../src/lib/dates.js';
-import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation } from '../src/games/geo/geoPool.js';
+import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopulation, countryInText } from '../src/games/geo/geoPool.js';
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
@@ -1007,6 +1007,14 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
   });
 }
 
+
+test('countries that take "the" in a sentence', () => {
+  assert.equal(countryInText('Marshall Islands'), 'the Marshall Islands');
+  assert.equal(countryInText('Bahamas', { start: true }), 'The Bahamas');
+  assert.equal(countryInText('United States'), 'the United States');
+  assert.equal(countryInText('France'), 'France');
+  assert.equal(countryInText('Isle of Man'), 'Isle of Man');
+});
 
 // ---------------------------------------------------------- famous first names
 {

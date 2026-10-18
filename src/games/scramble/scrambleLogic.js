@@ -5,7 +5,7 @@
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 import { normalise, editDistance } from '../names/nameMatch.js';
 import { rowMatches } from '../lists/listMatch.js';
-import { countryPool } from '../geo/geoPool.js';
+import { countryPool, countryInText } from '../geo/geoPool.js';
 
 export const ROUNDS = 10;
 export const MAX_LETTERS = 14;
@@ -80,7 +80,7 @@ function sharesWord(capital, countryName) {
 }
 
 export const hintFor = (country, mode) =>
-  mode === 'capitals' ? `Capital of ${country.name}` : `Country in ${country.region}`;
+  mode === 'capitals' ? `Capital of ${countryInText(country.name)}` : `Country in ${country.region}`;
 
 /**
  * Is the typed text one of the accepted spellings? Uses the same typed-answer
