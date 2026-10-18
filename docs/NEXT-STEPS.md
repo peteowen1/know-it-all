@@ -28,9 +28,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Check
 
-- OPEN **Two open tabs and sync** (da82aa4, e12c720): the fixes were reviewed
-  but never run with a real sign-in. Test once by hand: sign in, open a second
-  tab, sign out in one, play in the other, sign back in; totals must not double.
 - OPEN **Download sizes**: Famous first names grew to about 270 KB gzipped
   (2026-10-18); the question bank is about 835 KB, loaded when a quiz opens.
   A split was costed and judged not worth it; revisit if loading feels slow.
