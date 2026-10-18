@@ -12,7 +12,7 @@ export const HOW_IT_WORKS = {
   quiz: {
     play: 'Choose how many questions, which categories and how hard, then answer. Multiple choice gives four options; Recall shows none, so you answer in your head and reveal.',
     score: 'One point per right answer. Questions you miss go into the Vault to come back later, and a finished quiz counts towards your streak.',
-    source: 'A bank of over 4,700 general-knowledge questions in ten categories, each with an explanation and a memory hook. Questions you have seen recently are held back so they do not repeat.'
+    source: 'A bank of over 4,700 general-knowledge questions in ten categories, each with an explanation and a memory hook. Questions you have seen recently are skipped where possible, so they rarely repeat.'
   },
   daily: {
     play: 'Five questions, the same for everyone today. A new set starts at midnight where you are.',
@@ -21,7 +21,7 @@ export const HOW_IT_WORKS = {
   },
   vault: {
     play: 'Every question you have missed, brought back on a schedule. Drill the ones due today, or all of them.',
-    score: 'A right answer when a question is due moves it further out (1, 3, 7, 21, then 60 days), and after the last step it leaves the vault. Right before it is due, the wait restarts without moving on. Wrong sends it back to the start.',
+    score: 'A missed question waits 1 day, then 3, 7, 21 and 60: each right answer when it is due moves it to the next wait, and a right answer after the 60-day wait clears it from the vault. Right before it is due, the wait restarts without moving on. Wrong sends it back to the 1-day wait.',
     source: 'Your own missed questions from the weekend quiz, the Daily five and the Saturday paper.'
   },
   decks: {

@@ -53,7 +53,7 @@ const loadBuilder = () =>
 // Tabs that show a quiz built from the bank.
 const QUIZ_TABS = new Set(['quiz', 'daily', 'revision', 'challenge']);
 
-// Footer copy: "1,500+" is the total rounded down to the hundred.
+// Footer copy: "4,700+" is the total rounded down to the hundred.
 const BANK_LABEL = `${(Math.floor(BANK_STATS.total / 100) * 100).toLocaleString('en-US')}+`;
 
 // How many recent question ids to remember so quizzes don't repeat across
