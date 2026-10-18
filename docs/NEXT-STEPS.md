@@ -15,12 +15,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Data
 
-- OPEN **Obscure-est song lists** come only from Billboard year-end Hot 100s, so
-  43 famous songs are missing (Purple Rain, Gin and Juice, Where Is the Love?).
-  Option: add weekly Hot 100 peaks or another chart source.
-- OPEN **Films by year, Best Picture 1927-1932**: split seasons are labelled by
-  the year they started (1928 board = 1928/29). Timeline already leaves them
-  out; Films by year still shows them under one year.
 - OPEN **Timeline skew** (review E4): heavy in the 1960s to 1980s (about 70
   events a decade) against about 34 in the 2020s. Needs new event sources.
 - OPEN **Old Wikidata batches saved trimmed**: `data-raw/famous/entities/*.json`

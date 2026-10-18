@@ -17,6 +17,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { UA } from './lib/wikitable.mjs';
 import { dataFile, fromRoot, writeData } from './lib/output.mjs';
 import { OBSCURE_EXCLUDE } from './lib/obscureFix.mjs';
+import { loadTopTens } from './lib/topTens.mjs';
 import { countryInText } from '../src/games/geo/geoPool.js';
 
 // 'A country that borders the Central African Republic', 'A country in the Caribbean'.
@@ -132,6 +133,30 @@ for (const list of Object.values(music)) {
     }
   }
 }
+// Top-ten hits that missed every year-end Hot 100 (Purple Rain peaked in
+// December 1984, Gin and Juice spanned two years). They join an artist's list
+// only when the artist already has one, matched without case or a leading
+// "The", and score as deep cuts: a peak of 1 counts like a year-end rank of
+// about 80, a peak of 10 like rank 98.
+const artistKey = (a) => a.toLowerCase().replace(/^the /, '');
+// The same act under an earlier name.
+const SAME_ACT = { 'snoop doggy dogg': 'snoop dogg' };
+const listFor = new Map(Object.keys(songsBy).map((a) => [artistKey(a), a]));
+// Titles compared on letters and digits only: "Paint It Black" is "Paint It, Black".
+const titleKey = (t) => t.toLowerCase().replace(/[^a-z0-9]/g, '');
+let topTenAdded = 0;
+for (const s of loadTopTens()) {
+  for (const a of s.artists) {
+    const k = artistKey(a);
+    const songs = songsBy[listFor.get(SAME_ACT[k] || k)];
+    if (!songs) continue;
+    const have = new Set(Object.values(songs).flatMap((x) => [x.text, ...x.accept]).map(titleKey));
+    if (s.titles.some((t) => have.has(titleKey(t)))) continue;
+    songs[s.title.toLowerCase()] = { text: s.title, accept: s.titles.length > 1 ? s.titles : [], fame: 2 * (11 - s.peak) };
+    topTenAdded++;
+  }
+}
+console.log(`Songs: ${topTenAdded} top-ten hits added that no year-end list has.`);
 for (const [artist, songs] of Object.entries(songsBy)) {
   add(`songs-${artist}`, `A hit song by ${artist}`, 'music', Object.values(songs), 8);
 }
