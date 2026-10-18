@@ -40,6 +40,9 @@ const DOMAIN = {
       boardLabel: 'Nominees board',
       creditsLabel: null,
       boardTitle: (label, single) => (single ? `Best Picture nominees, ${label}` : `Best Picture winners of ${label}`),
+      // Until 1934 the awards ran on split seasons: the 1928 board is the
+      // 1928/29 season (The Broadway Melody), so it says so.
+      yearLabel: (y) => (y <= 1932 ? `${y}/${String(y + 1).slice(2)}` : String(y)),
       yearSize: null,
       decadeSize: 10,
       yearSpanLabel: "One year's nominees",
