@@ -330,6 +330,11 @@ button { cursor: pointer; }
   scrollbar-width: none;
 }
 .nav-tabs::-webkit-scrollbar { display: none; }
+/* Four tabs share a phone's width evenly rather than scrolling (Pete, 2026-10-18). */
+@media (max-width: 519px) {
+  .nav-tabs { gap: 0; }
+  .nav-tabs .tab-btn { flex: 1 1 auto; justify-content: center; gap: var(--s-1); padding: 0 var(--s-1); font-size: var(--fs-sm); }
+}
 
 .tab-btn {
   display: inline-flex;

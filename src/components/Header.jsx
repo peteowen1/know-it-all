@@ -3,15 +3,19 @@ import { Flame, Moon, Settings as Gear, Sun } from 'lucide-react';
 import AccountButton from './AccountButton';
 import { useTheme, toggleMode } from '../lib/theme';
 
+// Four tabs, so the row fits a phone without scrolling (Pete, 2026-10-18).
+// The Saturday paper, Daily five and Decks are on the games page and in its
+// Today row; their addresses are unchanged. Every game screen lights Games.
 const TABS = [
   { id: 'home', label: 'Games' },
-  { id: 'weekly', label: 'Saturday paper' },
   { id: 'quiz', label: 'Weekend quiz' },
-  { id: 'daily', label: 'Daily five' },
-  { id: 'flashcards', label: 'Decks' },
   { id: 'vault', label: 'Vault' },
   { id: 'analytics', label: 'Progress' }
 ];
+const OWN_TAB = new Set(['quiz', 'vault', 'analytics', 'settings']);
+// A vault drill lights Vault, a challenge round lights Weekend quiz.
+const LIGHTS = { revision: 'vault', challenge: 'quiz' };
+const litTab = (tab) => LIGHTS[tab] || (OWN_TAB.has(tab) ? tab : 'home');
 
 export default function Header({ onHome, activeTab, setActiveTab, stats, weaknessCount, onReset }) {
   const navRef = useRef(null);
@@ -82,7 +86,7 @@ export default function Header({ onHome, activeTab, setActiveTab, stats, weaknes
           <button
             key={id}
             className="tab-btn"
-            aria-current={activeTab === id ? 'page' : undefined}
+            aria-current={litTab(activeTab) === id ? 'page' : undefined}
             onClick={() => setActiveTab(id)}
           >
             <span>{label}</span>
