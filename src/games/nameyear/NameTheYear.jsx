@@ -2,10 +2,11 @@ import React from 'react';
 import data from '../../data/timeline.json';
 import { buildYearRounds, yearPoints, ROUNDS } from './nameYearLogic';
 import { localDateKey } from '../../lib/dates';
+import { useDay, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
-import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow, TextInput } from '../../components/ui';
+import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow, TextInput, EarlierDays } from '../../components/ui';
 import { GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 import KindIcon from '../shared/KindIcon';
 
@@ -17,14 +18,19 @@ import KindIcon from '../shared/KindIcon';
 export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame] = usePersistentState('name_year', null);
+  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
+  const day = useDay();
   const entry = gameEntry(stats, 'year-guess');
 
   const start = (daily) => {
-    const seed = daily ? localDateKey() : `${Date.now()}`;
-    setGame({ daily, date: localDateKey(), rounds: buildYearRounds(data.events, { seed }), index: 0, guesses: [], input: '' });
+    // A random round is not tied to a day, so it leaves the earlier day's address.
+    if (!daily) clearDay();
+    const date = daily ? day || localDateKey() : localDateKey();
+    const seed = daily ? date : `${Date.now()}`;
+    setGame({ daily, date, rounds: buildYearRounds(data.events, { seed }), index: 0, guesses: [], input: '' });
   };
 
-  if (!game) {
+  if (!game || (day && !(game.daily && game.date === day))) {
     return (
       <GameSetup
         title="Name the year"
@@ -44,8 +50,9 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
           <Chip active={answerMode === 'choice'} onClick={() => onAnswerModeChange('choice')}>Easy: pick from four years</Chip>
           <Chip active={answerMode === 'reveal'} onClick={() => onAnswerModeChange('reveal')}>Hard: type the year</Chip>
         </SetupRow>
+        <EarlierDays day={day} />
         <div className="setup-actions">
-          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's five</Button>
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>{daysOwn(day)} five</Button>
           <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
       </GameSetup>

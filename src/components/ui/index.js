@@ -12,4 +12,4 @@ export { default as GameBoard } from './GameBoard';
 export { default as GameResults } from './GameResults';
 export { default as MostMissed } from './MostMissed';
 export { default as Flag, preloadFlags } from './Flag';
-export { Chip, SetupRow, AnswerModeToggle } from './Setup';
+export { Chip, SetupRow, AnswerModeToggle, EarlierDays } from './Setup';

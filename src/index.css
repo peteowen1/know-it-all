@@ -319,8 +319,9 @@ button { cursor: pointer; }
   gap: var(--s-2);
 }
 
-/* Tabs: text only, a 2px brand underline on the active one, scrollable on a
-   phone with snap. */
+/* Tabs: text only, a 2px brand underline on the active one. Four fit a phone
+   (the rule below); the row still scrolls, with snap, if a look or a very
+   narrow screen makes them wider. */
 .nav-tabs {
   display: flex;
   gap: var(--s-1);
@@ -960,3 +961,6 @@ button { cursor: pointer; }
 /* ---- Small shared bits ---- */
 .most-missed-list { list-style: none; }
 .setup-caption { margin-top: var(--s-2); font-size: var(--fs-sm); color: var(--ink-3); }
+
+/* The "Day" row under the Daily five (earlier days, src/lib/day.js). */
+.daily-days { margin-top: var(--s-5); }

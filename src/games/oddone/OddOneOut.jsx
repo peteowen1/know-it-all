@@ -2,10 +2,11 @@ import React from 'react';
 import data from '../../data/obscure.json';
 import { buildOddRounds, ROUNDS } from './oddLogic';
 import { localDateKey } from '../../lib/dates';
+import { useDay, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
-import { AnswerRow, Button, GameCard, GameResults, Pill } from '../../components/ui';
+import { AnswerRow, Button, GameCard, GameResults, Pill, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 
 /**
@@ -15,14 +16,19 @@ import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared
 export default function OddOneOut({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame] = usePersistentState('odd_one_out', null);
+  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
+  const day = useDay();
   const entry = gameEntry(stats, 'odd-one-out');
 
   const start = (daily) => {
-    const seed = daily ? localDateKey() : `${Date.now()}`;
-    setGame({ daily, date: localDateKey(), rounds: buildOddRounds(data.categories, { seed }), index: 0, results: [] });
+    // A random round is not tied to a day, so it leaves the earlier day's address.
+    if (!daily) clearDay();
+    const date = daily ? day || localDateKey() : localDateKey();
+    const seed = daily ? date : `${Date.now()}`;
+    setGame({ daily, date, rounds: buildOddRounds(data.categories, { seed }), index: 0, results: [] });
   };
 
-  if (!game) {
+  if (!game || (day && !(game.daily && game.date === day))) {
     return (
       <GameSetup
         title="Odd one out"
@@ -35,8 +41,9 @@ export default function OddOneOut({ stats, onRoundComplete, onExit }) {
           </>
         }
       >
+        <EarlierDays day={day} />
         <div className="setup-actions">
-          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's five</Button>
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>{daysOwn(day)} five</Button>
           <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
       </GameSetup>

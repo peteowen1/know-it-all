@@ -715,6 +715,18 @@ test('timeline: rounds have 5 distinct years, at most 2 per kind, easy gaps of 8
     }
   }
 });
+test('timeline: the 1960s to 1980s do not crowd out other decades', () => {
+  // Births bunch in those decades; the draw weights decades evenly (was 34%).
+  let n = 0;
+  let crowded = 0;
+  for (let s = 0; s < 1000; s++) {
+    for (const e of buildRound(TL, { difficulty: 'easy', seed: s })) {
+      n++;
+      if (e.year >= 1960 && e.year < 1990) crowded++;
+    }
+  }
+  assert.ok(crowded / n < 0.28, `1960-1989 is ${((100 * crowded) / n).toFixed(1)}% of cards`);
+});
 test('timeline: scoring counts correctly ordered pairs', () => {
   const ev = (year) => ({ year });
   assert.deepEqual(scoreOrder([1, 2, 3, 4, 5].map(ev)), { correct: 10, total: 10 });

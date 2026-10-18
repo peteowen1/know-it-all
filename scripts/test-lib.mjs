@@ -18,6 +18,7 @@ import { loadLive, saveLive } from '../src/lib/persist.js';
 import { shareText } from '../src/lib/share.js';
 import { markDailyDone, dailyDoneToday, onDailyDone } from '../src/lib/dailyDone.js';
 import { advanceStreak } from '../src/lib/streak.js';
+import { requestedDay, searchWithDay, pastDays } from '../src/lib/day.js';
 
 const read = (rel) => readFileSync(new URL(rel, import.meta.url), 'utf8');
 
@@ -199,6 +200,25 @@ test('daily done: listeners hear a newly finished round once', () => {
   off();
   markDailyDone('other-test', '2026-10-22');
   assert.deepEqual(heard, ['scramble-test 2026-10-22']);
+});
+
+test("daily done: an earlier day's board finished later keeps today's tick", () => {
+  markDailyDone('earlier-test', '2026-10-22');
+  markDailyDone('earlier-test', '2026-10-15');
+  assert.ok(dailyDoneToday('2026-10-22').has('earlier-test'));
+});
+
+test('day: only a real past day from the address counts', () => {
+  assert.equal(requestedDay('?day=2026-10-17', '2026-10-18'), '2026-10-17');
+  assert.equal(requestedDay('?day=2026-10-18', '2026-10-18'), null); // today is the normal daily
+  assert.equal(requestedDay('?day=2026-10-19', '2026-10-18'), null); // no peeking ahead
+  assert.equal(requestedDay('?day=2026-02-30', '2026-10-18'), null);
+  assert.equal(requestedDay('?day=2025-12-31', '2026-10-18'), null); // before FIRST_DAY
+  assert.equal(requestedDay('?day=17-10-2026', '2026-10-18'), null);
+  assert.equal(requestedDay('', '2026-10-18'), null);
+  assert.equal(searchWithDay('?x=1&day=2026-10-17', null), '?x=1');
+  assert.equal(searchWithDay('', '2026-10-17'), '?day=2026-10-17');
+  assert.deepEqual(pastDays(3, '2026-11-01'), ['2026-10-31', '2026-10-30', '2026-10-29']);
 });
 
 test('daily done: a round from yesterday does not tick today', () => {

@@ -12,6 +12,7 @@
     "data:famous": "node scripts/build-famous.mjs",
     "data:flags": "node scripts/build-flag-lookalikes.mjs",
     "data:music": "node scripts/build-music-charts.mjs",
+    "data:top-tens": "node scripts/fetch-top-tens.mjs",
     "data:films": "node scripts/build-film-charts.mjs",
     "data:tv": "node scripts/build-tv-charts.mjs",
     "data:fourbyfour": "node scripts/build-fourbyfour.mjs",

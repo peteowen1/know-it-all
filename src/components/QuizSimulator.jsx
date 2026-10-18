@@ -4,7 +4,7 @@ import { loadLive, saveLive } from '../lib/persist';
 import { shuffle } from '../lib/rng';
 import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
-import { dailyShare } from '../lib/share';
+import { dailyShare, shareDayOf } from '../lib/share';
 import { localDateKey } from '../lib/dates';
 
 // The rounds everyone gets the same: a result worth sharing.
@@ -62,14 +62,17 @@ export default function QuizSimulator({
   onCorrect,
   onNewQuiz,
   saveAs = null,
-  saveId = null
+  saveId = null,
+  // The save slot when it differs from `saveAs`: an earlier day's Daily five
+  // keeps its own, so opening one never wipes today's half-played round.
+  saveSlot = saveAs
 }) {
   // Progress through this exact quiz, saved under one slot per kind of quiz
   // (`saveAs`: 'quiz', 'daily', 'weekly'...) and tagged with the quiz's seed,
   // so reopening the app resumes it and a different quiz starts fresh.
   const [saved] = useState(() => {
-    if (!saveAs) return null;
-    const s = loadLive(`sim_${saveAs}`);
+    if (!saveSlot) return null;
+    const s = loadLive(`sim_${saveSlot}`);
     return s && s.id === String(saveId ?? seed) && s.count === questions.length ? s : null;
   });
   const [index, setIndex] = useState(saved?.index ?? 0);
@@ -102,14 +105,14 @@ export default function QuizSimulator({
   const restoredFinished = Boolean(saved?.finished);
 
   useEffect(() => {
-    if (!saveAs) return;
-    saveLive(`sim_${saveAs}`, {
+    if (!saveSlot) return;
+    saveLive(`sim_${saveSlot}`, {
       id: String(saveId ?? seed),
       count: questions.length,
       index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty,
       seconds: elapsedRef.current
     });
-  }, [saveAs, saveId, seed, questions.length, index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty]);
+  }, [saveSlot, saveId, seed, questions.length, index, selected, answered, answers, score, finished, mode, revealed, eliminated, usedFiftyFifty]);
 
   // Shares the paper, not the score: the recipient gets the same questions in
   // the same order with the same option positions, which is the only way two
@@ -250,7 +253,7 @@ export default function QuizSimulator({
       .map(([key, v]) => ({ key, seen: v.total, correct: v.correct }));
 
     const allExpanded = Object.keys(expanded).length === total && Object.values(expanded).every(Boolean);
-    const today = new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
+    const today = shareDayOf(saveAs === 'daily' ? roundDate : null);
     const eyebrow = `${title ?? 'Quiz round'}${saveAs === 'weekly' ? '' : ` · ${today}`}`;
 
     return (
@@ -265,9 +268,10 @@ export default function QuizSimulator({
         celebrate={score === total && !restoredFinished}
         onPlayAgain={onNewQuiz}
         playAgainLabel={NEW_ROUND_LABEL[saveAs] || 'Start new round'}
-        // The Daily five ticks the day it was built for (roundDate). The paper's
-        // tick comes from the weekly scores, so its date here only labels it.
-        share={DAILY_SHARE[saveAs] && { ...DAILY_SHARE[saveAs], date: saveAs === 'daily' ? roundDate : localDateKey() }}
+        // The Daily five ticks the day it was built for (roundDate); the paper
+        // passes its week, which only labels the share (its tick comes from the
+        // weekly scores).
+        share={DAILY_SHARE[saveAs] && { ...DAILY_SHARE[saveAs], date: saveAs === 'daily' ? roundDate : roundDate || localDateKey() }}
         onChangeSettings={shareChallenge}
         settingsLabel={
           shareState === 'copied' ? (

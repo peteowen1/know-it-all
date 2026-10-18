@@ -4,7 +4,7 @@
 import React, { useEffect, useState } from 'react';
 import GameCard from './GameCard';
 import Button from './Button';
-import { shareText, shareOrCopy, shareDay } from '../../lib/share';
+import { shareText, shareOrCopy, shareDayOf } from '../../lib/share';
 import { markDailyDone } from '../../lib/dailyDone';
 
 // `share` ({ game, url }) adds a "Share result" button for the daily rounds:
@@ -24,7 +24,7 @@ export default function GameResults({
   useEffect(() => {
     if (dailyTab && dailyDate) markDailyDone(dailyTab, dailyDate);
   }, [dailyTab, dailyDate]);
-  const text = share ? shareText({ game: share.game, day: shareDay(), score: hero ?? `${score} / ${total}`, squares, url: share.url }) : '';
+  const text = share ? shareText({ game: share.game, day: shareDayOf(share.date), score: hero ?? `${score} / ${total}`, squares, url: share.url }) : '';
 
   useEffect(() => {
     if (!perfect) return undefined;

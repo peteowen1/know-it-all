@@ -67,7 +67,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
     // A time-based id: a counter restarts at 0 after a reload and could reuse
     // the saved round's id, which would stop the next board remounting.
     const id = Date.now();
-    const label = from === to ? String(from) : `the ${from}s`;
+    const label = from === to ? (chart.yearLabel ? chart.yearLabel(from) : String(from)) : `the ${from}s`;
     if (activeFormat === 'quiz') {
       const whole = activeDecade == null;
       const questions = buildChartQuiz(chart.years, {

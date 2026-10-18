@@ -20,7 +20,8 @@ const litTab = (tab) => LIGHTS[tab] || (OWN_TAB.has(tab) ? tab : 'home');
 export default function Header({ onHome, activeTab, setActiveTab, stats, weaknessCount, onReset }) {
   const navRef = useRef(null);
 
-  // On a phone the tab row scrolls; keep the active tab in view.
+  // If the tab row has to scroll (a narrow phone, a wide look), keep the
+  // active tab in view.
   useEffect(() => {
     const nav = navRef.current;
     const el = nav?.querySelector('[aria-current="page"]');
