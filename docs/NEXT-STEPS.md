@@ -7,10 +7,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-- OPEN **Time-sensitive facts** (review C14): pop_145 (2026 Oscars), spt_121,
-  spt_133, spt_151, fd_081 (Michelin reveal due October 2026), geo_079
-  (Nusantara as of May 2026), pop_133, pop_097's figure. Verify against a live
-  source, or reword as "as of". Wording only, never a changed fact, without Pete.
 - OPEN **Famous people still missing**: names that are neither in a monthly
   Wikipedia top 1000 nor on the vital-articles lists (Jason Derulo, Emma Bunton,
   Billy Idol) score "not on the list". Widening further means a new candidate
