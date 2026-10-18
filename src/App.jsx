@@ -479,7 +479,10 @@ export default function App() {
           onCorrect={handleCorrect}
           onNewQuiz={async () => {
             const builder = await bank();
-            if (builder) setDailyQuiz({ ...builder.buildDailyQuiz(5), date: localDateKey() });
+            if (builder) {
+              const today = localDateKey();
+              setDailyQuiz({ ...builder.buildDailyQuiz(5, today), date: today });
+            }
           }}
         />
       ) : (

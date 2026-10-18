@@ -537,6 +537,10 @@ html[data-look='broadsheet'] .app-header .tab-btn {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+/* Spaced capitals make the four tabs wider; tighten them so they fit a phone. */
+@media (max-width: 519px) {
+  html[data-look='broadsheet'] .app-header .tab-btn { letter-spacing: 0; }
+}
 
 /* Riso: the wordmark dot becomes a tilted pink tile. */
 @scope ([data-look='riso']) to ([data-look]) {
