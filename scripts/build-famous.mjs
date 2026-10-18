@@ -22,6 +22,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { gzipSync, gunzipSync } from 'node:zlib';
 import { fromRoot, writeData } from './lib/output.mjs';
+import { leftOutByRule } from './lib/famousRules.mjs';
 
 const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
 const RAW = fromRoot('data-raw/famous');
@@ -281,10 +282,16 @@ for (let i = 0; i < todo.length; i += 5) {
 const FAME_FROM = process.env.FAME_FROM || `${START_YEAR}-01`;
 const fromMonth = FAME_FROM.replace('-', '');
 const fame = (title) => (readPv(title)?.items || []).reduce((sum, x) => (x.timestamp.slice(0, 6) >= fromMonth ? sum + x.views : sum), 0);
-const people = candidates.map((e) => {
+// One entry per person: two titles can lead to the same Wikidata item (a top
+// list's "Luis Suárez" and a vital article's link), which put him on the Luis
+// board twice. The better-read title is kept.
+const byId = new Map();
+for (const e of candidates) {
   const key = e.title.replace(/ /g, '_');
-  return { ...e, views: fame(e.title), monthsInTop: monthsSeen.get(key) || 0 };
-});
+  const p = { ...e, views: fame(e.title), monthsInTop: monthsSeen.get(key) || 0 };
+  if (!byId.has(e.id) || p.views > byId.get(e.id).views) byId.set(e.id, p);
+}
+const people = [...byId.values()];
 console.log(`people: ${fromTop.length} from the top lists + ${fromVital.length} vital articles; ${todo.length} fetched; fame = views ${FAME_FROM} to ${through} (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
 
 
@@ -381,18 +388,9 @@ for (const p of kept) {
 console.log('descriptions from:', descStats);
 
 // ---------------------------------------------------------- 5. who to leave out
-// Pageviews make serial killers and murder victims "famous", and easy mode
-// printed clues like "American serial killer". Pete chose (2026-10-01) to
-// leave out people known mainly for violent or sexual crimes, or for being
-// their victims; the board fills from the next most famous. Fraudsters and
-// other non-violent offenders stay (Abagnale, Bankman-Fried). Also dropped:
-// articles about a trial rather than a person ("Michael Peterson trial").
-const NOTORIOUS = /\b(serial killer|spree killer|mass (murderer|shooter)|murderer|murdered|killer of|assassin|rapist|sex(ual)? (offender|abuser|predator)|child (molester|sex)|pedophile|paedophile|terrorist|hijacker|mobster|gangster|drug (lord|trafficker)|cult (leader|founder)|murder victim|victim of|war criminal|holocaust perpetrator|ss (officer|official)|leader of the ss|commandant of|kidnap(ping)? (victim|survivor)|abuse survivor|lynching victim|beheaded|jihadist|islamic state|mob boss|crime boss|paramilitary leader|murder defendant|(gang|crips|bloods) (member|leader|founder)|founder of the \w+ gang|lord's resistance army)\b|(?<!wrongfully )convicted of (murder|rape)|^\p{L}+(-\p{L}+)? criminal\b/iu;
-// Descriptions that mention a crime without being about a criminal: a
-// "criminal defense attorney", the nurse who "helped stop a serial killer".
-// "<nationality> criminal" alone (Charles Bronson, Kenneth Noye) is caught too;
-// fraudsters are described by what they did instead, so they stay.
-const NOT_NOTORIOUS = /defen[cs]e (attorney|lawyer)|helped (stop|catch)/i;
+// The rule (Pete, 2026-10-01: people known mainly for violent or sexual crimes,
+// or as their victims) lives in lib/famousRules.mjs, shared with the tests.
+// Also dropped: articles about a trial or case rather than a person.
 // Pete's calls on individual people live in scripts/famous-left-out.csv: its
 // `decision` column overrides the rule ("in" keeps someone the rule would
 // drop, "out" drops someone it would keep). The file is rewritten each build
@@ -426,7 +424,7 @@ let leftOut = 0;
 for (const n of names) {
   const before = n.people.length;
   n.people = n.people.filter((p) => {
-    const byRule = (NOTORIOUS.test(p.description) && !NOT_NOTORIOUS.test(p.description)) || /\b(trial|case)\b/i.test(p.name);
+    const byRule = leftOutByRule(p.description, p.name);
     const decision = decisions.get(p.id) || '';
     if (byRule || decision) reviewRows.push({ id: p.id, name: p.name, board: n.first, description: p.description, views: p.views, rule: byRule ? 'left out' : 'kept', decision });
     const out = decision ? decision === 'out' : byRule;

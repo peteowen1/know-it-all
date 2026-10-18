@@ -3,11 +3,14 @@ Jeffrey Dahmer,Jeffrey / Geoffrey,American serial killer (1960–1994),108120153
 Jeffrey Epstein,Jeffrey / Geoffrey,American financier and child sex offender (1953–2019),88418696,left out,,Q2904131
 Charles Manson,Charles,American criminal and cult leader (1934–2017),59191021,left out,,Q485508
 Ed Gein,Ed,American murderer and body snatcher (1906–1984),58577059,left out,,Q309643
+Joseph Stalin,Joseph,Leader of the Soviet Union from 1924 to 1953,50323347,kept,in,Q855
 John Wayne Gacy,John,American serial killer (1942–1994),41521797,left out,,Q298252
 Aaron Hernandez,Aaron,American football player and murderer (1989–2017),37352613,left out,,Q302091
 Al Capone,Al,American gangster and businessman (1899–1947),33414476,left out,,Q80048
 Richard Ramirez,Richard,American serial killer and sex offender (1960–2013),32436673,left out,,Q382035
 Dennis Rader,Dennis,American serial killer (born 1945),30330022,left out,,Q365456
+Danny Masterson,Danny,American actor (born 1976),29757358,kept,in,Q374220
+Bill Cosby,Bill,American entertainer (born 1937),27377305,kept,in,Q213512
 Edmund Kemper,Edmund,American serial killer (born 1948),27233145,left out,,Q549242
 John Gotti,John,American mobster (1940–2002),23385388,left out,,Q301646
 Christopher Scarver,Christopher,American murderer (born 1969),23047043,left out,,Q2357346
@@ -16,7 +19,7 @@ Lee Harvey Oswald,Lee,Assassin of John F. Kennedy (1939–1963),22764526,left ou
 Andrew Cunanan,Andrew,American spree killer (1969–1997),22694278,left out,,Q462125
 Heinrich Himmler,Heinrich,German Nazi leader of the SS (1900–1945),21155751,left out,,Q43067
 Jim Jones,Jim,American cult leader and mass murderer (1931–1978),21034889,left out,,Q213861
-Steven Avery,Stephen / Steven,American man convicted of murder and previously wrongly convicted of rape,20482362,left out,,Q7614463
+Amanda Knox,Amanda,American writer and activist (born 1987),20817298,kept,in,Q4739665
 Jimmy Savile,Jimmy,English media personality and sex offender (1926–2011),20037462,left out,,Q713479
 David Berkowitz,David,American serial killer (born 1953),19672843,left out,,Q352717
 Timothy McVeigh,Timothy,American domestic terrorist (1968–2001),18719589,left out,,Q220850
@@ -93,8 +96,10 @@ Joseph Kony,Joseph,Head of the Lord's Resistance Army (born 1961),6670430,left o
 Russell Bufalino,Russell,Italian-American mobster (1903–1994),6607101,left out,,Q7381393
 Billy Milligan,Billy / Billie,American criminal (1955–2014),6584998,left out,,Q1774745
 Steven Stayner,Stephen / Steven,American child kidnapping victim (1965–1989),6450685,left out,,Q501680
+Dorothy Stratten,Dorothy,Canadian Playmate and actress (1960–1980),6433090,kept,in,Q241081
 Carlo Gambino,Carlo,American mobster (1902–1976),6338133,left out,,Q452127
 Lawrence Bishnoi,Lawrence,Indian gang member (born 1993),6288077,left out,,Q112186865
+Kyle Rittenhouse,Kyle,American known for the Kenosha unrest shooting (born 2003),6239521,kept,in,Q98663135
 Susan Smith,Susan,American murderer (born 1971),6206175,left out,,Q2449527
 Miguel Rodríguez Orejuela,Miguel,Guatemalan drug lord,6131820,left out,,Q2254048
 Charles Whitman,Charles,American mass murderer (1941–1966),5954614,left out,,Q453209
@@ -114,7 +119,6 @@ Daniel Pearl,Daniel,American journalist beheaded by militants in Pakistan (1963�
 Omar Mateen,Omar,American mass murderer (1986–2016),4777227,left out,,Q24567454
 Victor Salva,Victor,American film director and convicted sex offender,4573883,left out,,Q946039
 Jeremy Bamber,Jeremy,British convicted murderer (born 1961),4336970,left out,,Q6181078
-Walter McMillian,Walter,American wrongly convicted of murder (1941–2013),4319136,left out,,Q16732382
 Ruth Ellis,Ruth,British escort and convicted murderer (1926–1955),4246240,left out,,Q467755
 Leo Frank,Leo,Jewish-American lynching victim (1884–1915),4189762,left out,,Q130973
 Christopher Paul Neil,Christopher,Canadian convicted serial child molester (born 1975),4177303,left out,,Q1331171
@@ -143,8 +147,6 @@ Ryan Wedding,Ryan,Canadian snowboarder and alleged drug trafficker (born 1981),3
 Alfred Rosenberg,Alfred,Baltic German Nazi theorist and war criminal (1893–1946),3081014,left out,,Q75849
 Edward Edwards,Edward,American serial killer (1933–2011),3058897,left out,,Q5342742
 Rafael Aguilar Guajardo,Rafael,Mexican drug lord (1950-1993),3055653,left out,,Q2880142
-James R. Fitzgerald,James,"American criminal profiler, forensic linguist, and author",3016774,left out,,Q36988087
-Alice Marie Johnson,Alice,American criminal-justice activist and commuted convict,2947190,left out,,Q55075496
 Ernst Kaltenbrunner,Ernst,Austrian SS official (1903–1946),2938075,left out,,Q78473
 Peter Kürten,Peter,German serial killer (1883–1931),2923164,left out,,Q60291
 Mary Ann Cotton,Mary,English serial killer (1832–1873),2864703,left out,,Q292650
@@ -156,6 +158,7 @@ Stephen Port,Stephen / Steven,English serial killer (born 1975),2598251,left out
 Dan Markel,Dan,American law professor and murder victim (1972–2014),2589618,left out,,Q5213934
 Sally McNeil,Sally,American bodybuilder and convicted murderer,2585043,left out,,Q24898165
 Joseph Massino,Joseph,American mobster (1943–2023),2581449,left out,,Q2094605
+Sergei Skripal,Sergei,Russian intelligence officer (born 1951),2529793,kept,in,Q3742411
 Mark Hofmann,Mark,American murderer who forged Mormon documents,2442053,left out,,Q4354485
 Charlotte Corday,Charlotte,French assassin (1768–1793),2380051,left out,,Q216063
 Louise Woodward case,Louise,American criminal case of 1997 baby death by British au pair,2309879,left out,,Q4990718
@@ -188,7 +191,7 @@ Samuel Bateman,Samuel,American criminal and religious leader,820688,left out,,Q1
 Carlo Gesualdo,Carlo,"Italian prince, composer and murderer (1566–1613)",729787,left out,,Q192958
 Ryan Grantham,Ryan,Canadian actor and murderer (born 1998),725299,left out,,Q85173999
 Mohamed Lahouaiej-Bouhlel,Muhammad / Mohamed / Mohammed,Tunisian terrorist (1985–2016),670038,left out,,Q25905081
-Jack Sheppard,Jack,English criminal (1702-1724),640063,left out,,Q636214
+Jack Sheppard,Jack,English criminal (1702-1724),640063,left out,in,Q636214
 Brad Sigmon,Brad,American convicted murderer (1957–2025),592138,left out,,Q131308170
 François Ravaillac,François,Assassin of King Henry IV of France,523400,left out,,Q349190
-René Belbenoît,René,French criminal and author (1899–1959),236139,left out,,Q3425816
+René Belbenoît,René,French criminal and author (1899–1959),236139,left out,in,Q3425816
