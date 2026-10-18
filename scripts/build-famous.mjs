@@ -20,15 +20,16 @@
 // re-run with a different grouping rule costs no network at all.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { gzipSync, gunzipSync } from 'node:zlib';
 import { fromRoot, writeData } from './lib/output.mjs';
 
 const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
 const RAW = fromRoot('data-raw/famous');
 const START_YEAR = 2016;
 const MIN_PEOPLE_PER_NAME = 12; // a prompt needs enough answers to be a game
-const KEEP_PER_NAME = 40;
+const KEEP_PER_NAME = 60;
 // Extra people fetched per name so that leaving notorious people out (step 5)
-// still leaves 40, rather than shrinking boards below the 15 the game shows:
+// still leaves a full list, rather than shrinking boards below the 15 the game shows:
 // trimming first dropped 8 boards, Carlos among them.
 const SPARE_PER_NAME = 25;
 
@@ -36,7 +37,7 @@ mkdirSync(`${RAW}/top`, { recursive: true });
 mkdirSync(`${RAW}/entities`, { recursive: true });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-async function getJson(url, tries = 4) {
+async function getJson(url, tries = 6) {
   for (let i = 0; i < tries; i++) {
     const res = await fetch(url, { headers: { 'User-Agent': UA } });
     if (res.ok) return res.json();
@@ -45,6 +46,15 @@ async function getJson(url, tries = 4) {
   }
   throw new Error(`failed after ${tries} tries: ${url}`);
 }
+// Raw responses are saved as returned (gzipped) and everything is derived on
+// reading, so a different cut of the data never needs a second scrape.
+const cachedRaw = async (path, fetcher) => {
+  if (existsSync(path)) return JSON.parse(gunzipSync(readFileSync(path)).toString('utf8'));
+  const data = await fetcher();
+  writeFileSync(path, gzipSync(JSON.stringify(data)));
+  return data;
+};
+const fileSafe = (title) => encodeURIComponent(title).replace(/[%*]/g, '~');
 const cached = async (path, fetcher) => {
   if (existsSync(path)) return JSON.parse(readFileSync(path, 'utf8'));
   const data = await fetcher();
@@ -78,53 +88,104 @@ for (const [y, m] of months) {
 console.log(`top lists: ${months.length} months, ${views.size} distinct articles (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
 
 // ---------------------------------------------------------- 2. which are people
-// wbgetentities by enwiki title, 50 per call. Cached per batch of titles.
-const titles = [...views.keys()].sort();
-const people = [];
-t0 = Date.now();
-for (let i = 0; i < titles.length; i += 50) {
-  const batch = titles.slice(i, i + 50);
-  const data = await cached(`${RAW}/entities/${String(i / 50).padStart(4, '0')}.json`, async () => {
-    const url =
-      'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&sites=enwiki' +
-      '&props=claims|descriptions|sitelinks|labels&languages=en&sitefilter=enwiki&titles=' +
-      encodeURIComponent(batch.join('|'));
-    const j = await getJson(url);
-    // The API reports bad parameters as HTTP 200 with an `error` body. Throw,
-    // or `cached` would save an empty batch and every later run would reuse it.
-    // (That happened on the first run: normalize=1 is single-title only, and
-    // all 519 batches were cached empty.)
-    if (!j || j.error) throw new Error(`wbgetentities: ${j?.error?.info || 'no response'}`);
-    // Keep only what is needed from claims; full claims are ~200 kB per batch.
-    const slim = {};
-    for (const [id, e] of Object.entries(j?.entities || {})) {
-      if (e.missing !== undefined) continue;
-      const claim = (p) => (e.claims?.[p] || []).map((c) => c.mainsnak?.datavalue?.value);
-      slim[id] = {
-        id,
-        title: e.sitelinks?.enwiki?.title,
-        label: e.labels?.en?.value,
-        description: e.descriptions?.en?.value,
-        instanceOf: claim('P31').map((v) => v?.id),
-        sex: claim('P21').map((v) => v?.id)[0] || null,
-        born: claim('P569').map((v) => v?.time)[0] || null,
-        died: claim('P570').map((v) => v?.time)[0] || null,
-        occupations: claim('P106').map((v) => v?.id),
-        citizenship: claim('P27').map((v) => v?.id)
-      };
-    }
-    return slim;
-  });
-  for (const e of Object.values(data)) {
-    if (!e.instanceOf.includes('Q5') || !e.title) continue;
-    const key = e.title.replace(/ /g, '_');
-    people.push({ ...e, views: views.get(key) || 0, monthsInTop: monthsSeen.get(key) || 0 });
+// wbgetentities by enwiki title, 50 per call. Cached per batch of titles, in
+// `dir`, keyed by position in the sorted list, so each source keeps its own
+// folder (adding titles to one list must not shift the other's batches).
+function slimEntities(j) {
+  const slim = {};
+  for (const [id, e] of Object.entries(j?.entities || {})) {
+    if (e.missing !== undefined) continue;
+    const claim = (p) => (e.claims?.[p] || []).map((c) => c.mainsnak?.datavalue?.value);
+    slim[id] = {
+      id,
+      title: e.sitelinks?.enwiki?.title,
+      label: e.labels?.en?.value,
+      description: e.descriptions?.en?.value,
+      instanceOf: claim('P31').map((v) => v?.id),
+      sex: claim('P21').map((v) => v?.id)[0] || null,
+      born: claim('P569').map((v) => v?.time)[0] || null,
+      died: claim('P570').map((v) => v?.time)[0] || null,
+      occupations: claim('P106').map((v) => v?.id),
+      citizenship: claim('P27').map((v) => v?.id)
+    };
   }
-  if (i % 2000 === 0) process.stdout.write(`  entities ${i}/${titles.length}\r`);
+  return slim;
 }
-console.log(`people: ${people.length} of ${titles.length} articles (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
 
-// --------------------------------------------------------------- 3. group
+async function peopleAmong(list, dir) {
+  mkdirSync(`${RAW}/${dir}`, { recursive: true });
+  const out = [];
+  for (let i = 0; i < list.length; i += 50) {
+    const batch = list.slice(i, i + 50);
+    const base = `${RAW}/${dir}/${String(i / 50).padStart(4, '0')}`;
+    // Batches from runs before 2026-10-18 were saved already slimmed (.json);
+    // newer ones keep the whole response (.raw.json.gz).
+    const data = existsSync(`${base}.json`)
+      ? JSON.parse(readFileSync(`${base}.json`, 'utf8'))
+      : slimEntities(await cachedRaw(`${base}.raw.json.gz`, async () => {
+          const url =
+            'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&sites=enwiki' +
+            '&props=claims|descriptions|sitelinks|labels&languages=en&sitefilter=enwiki&titles=' +
+            encodeURIComponent(batch.join('|'));
+          const j = await getJson(url);
+          // The API reports bad parameters as HTTP 200 with an `error` body. Throw,
+          // or the cache would save an empty batch and every later run would reuse it.
+          if (!j || j.error) throw new Error(`wbgetentities: ${j?.error?.info || 'no response'}`);
+          return j;
+        }));
+    for (const e of Object.values(data)) if (e.instanceOf.includes('Q5') && e.title) out.push(e);
+    if (i % 2000 === 0) process.stdout.write(`  ${dir} ${i}/${list.length}\r`);
+  }
+  return out;
+}
+
+t0 = Date.now();
+const titles = [...views.keys()].sort();
+const fromTop = await peopleAmong(titles, 'entities');
+
+// Long-run fame. The monthly top 1000 only sees people who spike: Mark Twain
+// draws over a million reads a year but never makes a month's top 1000, so he
+// was missing from the Marks while Mark Kerr (one film, 2025) was 6th. Wikipedia's
+// own lists of the most important people (Vital articles, levels 4 and 5) add
+// the steady ones.
+// Every page under these roots is read: at level 4 the parent page holds the
+// links, at level 5 (~15,000 people, which is where Bob Hope and Frank Zappa
+// are) the section pages do. Wikipedia's API rate-limits bursts, so requests
+// are spaced out; the list is cached once fetched.
+const VITAL_ROOTS = ['Vital articles/Level 4/People', 'Vital articles/Level 5/People'];
+const vitalTitles = await cached(`${RAW}/vital-people.json`, async () => {
+  const api = async (params) => {
+    await sleep(400);
+    const j = await getJson(`https://en.wikipedia.org/w/api.php?${new URLSearchParams({ format: 'json', ...params })}`);
+    if (!j || j.error) throw new Error(`vital articles: ${j?.error?.info || 'no response'}`);
+    return j;
+  };
+  const pages = [];
+  for (const root of VITAL_ROOTS) {
+    const j = await api({ action: 'query', list: 'allpages', apnamespace: '4', apprefix: root, aplimit: 'max' });
+    pages.push(...j.query.allpages.map((p) => p.title));
+  }
+  const found = new Set();
+  for (const page of pages) {
+    let cont = {};
+    do {
+      const j = await api({ action: 'query', prop: 'links', titles: page, plnamespace: '0', pllimit: 'max', ...cont });
+      for (const p of Object.values(j.query?.pages || {})) for (const l of p.links || []) found.add(l.title);
+      cont = j.continue || null;
+    } while (cont);
+  }
+  if (found.size < 5000) throw new Error(`only ${found.size} vital articles found in ${pages.length} pages; the page layout may have changed`);
+  return [...found].sort();
+});
+const seenTitle = new Set(fromTop.map((e) => e.title));
+const fromVital = (await peopleAmong(vitalTitles.filter((t) => !views.has(t.replace(/ /g, '_'))), 'entities-vital')).filter((e) => !seenTitle.has(e.title));
+
+// Fame: every candidate's total English Wikipedia reads over the whole window,
+// month by month. Summing only the months someone was in the top 1000 scored a
+// one-month spike above decades of steady reading. One request per person
+// (~1.5 s, network-bound), so 16 run at once (about 10 a second, well under
+// the pageviews API limit) and every total is saved as it
+// arrives: a run stopped part way keeps what it fetched.
 // The title minus any "(singer)"-style disambiguator is the public name.
 // First token is the prompt; names that are a single token (Madonna, Pelé,
 // Zendaya) have no first name to be asked about and drop out.
@@ -141,16 +202,100 @@ const SAME_SOUND = [
 ];
 const boardOf = new Map(SAME_SOUND.flatMap((g) => g.map((n) => [n, g[0]])));
 
+// Words that lead a name without being a first name: titles and honorifics
+// ("The Buddha", "Princess Margaret", "Abu Bakr", "Ma Rainey"), and family
+// names written first ("Wang Jianlin", "Park Chung Hee", "Ma Long"), which the
+// vital articles brought in. Lee stays: it is also a common first name.
+const NOT_FIRST_NAMES = new Set([
+  'The', 'King', 'Queen', 'Prince', 'Princess', 'Emperor', 'Empress', 'Pope', 'Saint', 'St.', 'Sir', 'Lord', 'Lady',
+  'Duke', 'Duchess', 'Abu', 'Ibn', 'Ma', 'Mother', 'Sister', 'Brother', 'Father', 'General', 'President',
+  'Wang', 'Li', 'Zhang', 'Liu', 'Chen', 'Yang', 'Zhao', 'Huang', 'Zhou', 'Wu', 'Xu', 'Sun', 'Hu', 'Zhu', 'Gao', 'Lin',
+  'Guo', 'Luo', 'Liang', 'Song', 'Zheng', 'Xie', 'Tang', 'Feng', 'Deng', 'Cao', 'Xi', 'Mao', 'Jiang', 'Yuan', 'Kim',
+  'Park', 'Choi', 'Jung', 'Kang', 'Cho', 'Yoon', 'Jang', 'Lim', 'Shin', 'Nguyen', 'Tran'
+]);
+
+/** The board a person goes on, or null if their name has no first name to ask about. */
+const boardFor = (p) => {
+  const parts = displayName(p).split(' ');
+  if (parts.length < 2) return null;
+  // "Emma of Normandy", "John the Baptist": no surname to type.
+  if (parts[1] === 'of' || parts[1] === 'the') return null;
+  if (!/^\p{Lu}[\p{L}'-]+$/u.test(parts[0])) return null; // "J.", "50", "Al-"
+  if (NOT_FIRST_NAMES.has(parts[0])) return null;
+  return boardOf.get(parts[0]) || parts[0];
+};
+
+// One request per person, saved as returned in data-raw/famous/pageviews/
+// (one gzipped file per article: every monthly row with all its fields), so
+// the fame window or any other cut can change without fetching again. A file
+// is fetched again only once a newer complete month exists than its last row.
+const PV_DIR = `${RAW}/pageviews`;
+mkdirSync(PV_DIR, { recursive: true });
+const [fy, fm] = months[0];
+const [ly, lm] = months.at(-1);
+const through = `${ly}-${lm}`;
+const lastDay = new Date(Number(ly), Number(lm), 0).getDate();
+const pvPath = (title) => `${PV_DIR}/${fileSafe(title)}.json.gz`;
+const readPv = (title) => (existsSync(pvPath(title)) ? JSON.parse(gunzipSync(readFileSync(pvPath(title))).toString('utf8')) : null);
+const lastRow = (pv) => {
+  const t = pv?.items?.at(-1)?.timestamp;
+  return t ? `${t.slice(0, 4)}-${t.slice(4, 6)}` : null;
+};
+const fetchPv = async (title) => {
+  const url = `https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/${encodeURIComponent(title.replace(/ /g, '_'))}/monthly/${fy}${fm}0100/${ly}${lm}${lastDay}00`;
+  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  // A 404 (no views recorded) is an answer too; save it so it is not re-asked.
+  const body = res.status === 404 ? { status: 404, items: [] } : res.ok ? await res.json() : null;
+  if (!body) throw new Error(`pageviews ${res.status}: ${title}`);
+  writeFileSync(pvPath(title), gzipSync(JSON.stringify(body)));
+};
+const boardSize = new Map();
+for (const e of [...fromTop, ...fromVital]) {
+  const b = boardFor(e);
+  if (b) boardSize.set(b, (boardSize.get(b) || 0) + 1);
+}
+const candidates = [...fromTop, ...fromVital].filter((e) => (boardSize.get(boardFor(e)) || 0) >= MIN_PEOPLE_PER_NAME);
+const todo = candidates.map((e) => e.title).filter((t) => {
+  const pv = readPv(t);
+  return !pv || (pv.status !== 404 && lastRow(pv) < through);
+});
+let done = 0;
+// Wikimedia rate-limited 16 at once (429 after ~400), so 5 at a time.
+for (let i = 0; i < todo.length; i += 5) {
+  const batch = todo.slice(i, i + 5);
+  // A failed request is retried with backoff; one that keeps failing stops the
+  // run, and everything saved so far stays.
+  await Promise.all(batch.map(async (t) => {
+    for (let k = 0; k < 6; k++) {
+      try { return await fetchPv(t); } catch (err) { if (k === 5) throw err; await sleep(/ 429:/.test(err.message) ? 60000 : 1000 * 2 ** k); }
+    }
+  }));
+  done += batch.length;
+  if (done % 400 < 5) process.stdout.write(`  page views ${done}/${todo.length} (${((Date.now() - t0) / 60000).toFixed(1)} min)\r`);
+}
+
+// The fame window: every month from FAME_FROM to the last complete month.
+// Set FAME_FROM=2021-10 (say) for the last five years; the default is the whole
+// span the top lists cover.
+const FAME_FROM = process.env.FAME_FROM || `${START_YEAR}-01`;
+const fromMonth = FAME_FROM.replace('-', '');
+const fame = (title) => (readPv(title)?.items || []).reduce((sum, x) => (x.timestamp.slice(0, 6) >= fromMonth ? sum + x.views : sum), 0);
+const people = candidates.map((e) => {
+  const key = e.title.replace(/ /g, '_');
+  return { ...e, views: fame(e.title), monthsInTop: monthsSeen.get(key) || 0 };
+});
+console.log(`people: ${fromTop.length} from the top lists + ${fromVital.length} vital articles; ${todo.length} fetched; fame = views ${FAME_FROM} to ${through} (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
+
+
+// --------------------------------------------------------------- 3. group
+
 const groups = new Map();
 for (const p of people) {
+  const board = boardFor(p);
+  if (!board) continue;
   const name = displayName(p);
   const parts = name.split(' ');
-  if (parts.length < 2) continue;
-  // "Emma of Normandy", "John the Baptist": no surname to type.
-  if (parts[1] === 'of' || parts[1] === 'the') continue;
   const first = parts[0];
-  if (!/^\p{Lu}[\p{L}'-]+$/u.test(first)) continue; // "J.", "50", "Al-"
-  const board = boardOf.get(first) || first;
   if (!groups.has(board)) groups.set(board, []);
   groups.get(board).push({
     id: p.id,
@@ -219,7 +364,9 @@ for (let i = 0; i < toFetch.length; i += 50) {
 if (toFetch.length) console.log(`fetched ${toFetch.length} Wikipedia descriptions`);
 const descStats = { enwiki: 0, wikidata: 0, none: 0, yearFixed: 0 };
 for (const p of kept) {
-  const wiki = shortDesc[p.title];
+  // A title that resolves to a disambiguation page (Luis Suárez) brings back
+  // that page's description; Wikidata's is used instead.
+  const wiki = /^topics referred to by the same term/i.test(shortDesc[p.title] || '') ? null : shortDesc[p.title];
   if (wiki) { p.description = wiki; descStats.enwiki++; }
   else if (p.description) descStats.wikidata++;
   else descStats.none++;
@@ -239,9 +386,11 @@ console.log('descriptions from:', descStats);
 // their victims; the board fills from the next most famous. Fraudsters and
 // other non-violent offenders stay (Abagnale, Bankman-Fried). Also dropped:
 // articles about a trial rather than a person ("Michael Peterson trial").
-const NOTORIOUS = /\b(serial killer|spree killer|mass (murderer|shooter)|murderer|murdered|killer of|assassin|rapist|sex(ual)? (offender|abuser|predator)|child (molester|sex)|pedophile|paedophile|terrorist|hijacker|mobster|gangster|drug (lord|trafficker)|cult (leader|founder)|murder victim|victim of)\b|(?<!wrongfully )convicted of (murder|rape)/i;
+const NOTORIOUS = /\b(serial killer|spree killer|mass (murderer|shooter)|murderer|murdered|killer of|assassin|rapist|sex(ual)? (offender|abuser|predator)|child (molester|sex)|pedophile|paedophile|terrorist|hijacker|mobster|gangster|drug (lord|trafficker)|cult (leader|founder)|murder victim|victim of|war criminal|holocaust perpetrator|ss (officer|official)|leader of the ss|commandant of|kidnap(ping)? (victim|survivor)|abuse survivor|lynching victim|beheaded|jihadist|islamic state|mob boss|crime boss|paramilitary leader|murder defendant|(gang|crips|bloods) (member|leader|founder)|founder of the \w+ gang|lord's resistance army)\b|(?<!wrongfully )convicted of (murder|rape)|^\p{L}+(-\p{L}+)? criminal\b/iu;
 // Descriptions that mention a crime without being about a criminal: a
 // "criminal defense attorney", the nurse who "helped stop a serial killer".
+// "<nationality> criminal" alone (Charles Bronson, Kenneth Noye) is caught too;
+// fraudsters are described by what they did instead, so they stay.
 const NOT_NOTORIOUS = /defen[cs]e (attorney|lawyer)|helped (stop|catch)/i;
 // Pete's calls on individual people live in scripts/famous-left-out.csv: its
 // `decision` column overrides the rule ("in" keeps someone the rule would
@@ -276,7 +425,7 @@ let leftOut = 0;
 for (const n of names) {
   const before = n.people.length;
   n.people = n.people.filter((p) => {
-    const byRule = (NOTORIOUS.test(p.description) && !NOT_NOTORIOUS.test(p.description)) || /\btrial\b/i.test(p.name);
+    const byRule = (NOTORIOUS.test(p.description) && !NOT_NOTORIOUS.test(p.description)) || /\b(trial|case)\b/i.test(p.name);
     const decision = decisions.get(p.id) || '';
     if (byRule || decision) reviewRows.push({ id: p.id, name: p.name, board: n.first, description: p.description, views: p.views, rule: byRule ? 'left out' : 'kept', decision });
     const out = decision ? decision === 'out' : byRule;
@@ -304,6 +453,6 @@ console.log(`people kept: ${names.reduce((n, x) => n + x.people.length, 0)}, wit
 if (names.length < 20) throw new Error(`only ${names.length} usable names — a source or the join is broken`);
 
 writeData('famous.json', {
-  source: `English Wikipedia monthly top-1000 pageviews ${START_YEAR}-${months.at(-1).join('-')}`,
+  source: `English Wikipedia pageviews ${FAME_FROM} to ${through}, every month, for people in a monthly top 1000 or in Wikipedia's vital articles`,
   names
 });
