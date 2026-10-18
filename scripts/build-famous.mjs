@@ -297,6 +297,8 @@ console.log(`people: ${fromTop.length} from the top lists + ${fromVital.length} 
 
 // --------------------------------------------------------------- 3. group
 
+const wikidataYear = (t) => (t ? (t[0] === '-' ? -1 : 1) * Number(t.slice(1, 5)) : null);
+
 const groups = new Map();
 for (const p of people) {
   const board = boardFor(p);
@@ -312,8 +314,10 @@ for (const p of people) {
     name,
     rest: parts.slice(1).join(' '),
     description: p.description || '',
-    born: p.born ? Number(p.born.slice(1, 5)) : null,
-    died: p.died ? Number(p.died.slice(1, 5)) : null,
+    // Wikidata times are "+1962-07-03T..." or "-0083-01-14T..." (BC): keep the
+    // sign, or Mark Antony is born in AD 83.
+    born: wikidataYear(p.born),
+    died: wikidataYear(p.died),
     sex: p.sex === 'Q6581072' ? 'f' : p.sex === 'Q6581097' ? 'm' : null,
     views: p.views,
     monthsInTop: p.monthsInTop

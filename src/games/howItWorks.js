@@ -104,6 +104,11 @@ export const HOW_IT_WORKS = {
     score: '4 points on the first clue, then 3, 2, and 1 for the options. Small typos are fine, and you can leave off words like "the" or "mount".',
     source: 'The weekend quiz questions, using only those whose first clue holds the answer, after a playtest removed rounds that gave nothing to go on.'
   },
+  'who-am-i': {
+    play: 'A famous person in three clues: what they are known for, the year they were born, then their first name. Type a guess at any point, or wait for four names to choose from.',
+    score: '4 points on the first clue, then 3, 2, and 1 for picking from the four. A surname is enough, and small typos are fine.',
+    source: "The Famous first names data: each name's best-known people by English Wikipedia readership since 2016, with Wikipedia's own short descriptions."
+  },
   'odd-one-out': {
     play: 'Four answers: three share a link and one does not. Pick the odd one out.',
     score: 'One point per right pick. The answer shows the link and where the odd one belongs.',

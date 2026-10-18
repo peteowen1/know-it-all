@@ -148,6 +148,11 @@ export const GAMES = [
     recordFormat: (e) => (e.plays ? `${played(e)} · best ${e.best} of 5` : null)
   },
   {
+    id: 'who-am-i', section: 'lab', tab: 'who-am-i', icon: 'User', title: 'Who am I',
+    blurb: 'A famous person in three clues. Name them early to score more.',
+    recordFormat: byPoints(20)
+  },
+  {
     id: 'clue-ladder', section: 'lab', tab: 'clue-ladder', icon: 'Lightbulb', title: 'Clue ladder',
     blurb: 'Clues get easier as you climb. Name it early for more points.',
     recordFormat: byPoints(20)
