@@ -45,9 +45,9 @@ export const HOW_IT_WORKS = {
     source: 'REST Countries, with second capitals accepted where a country has two (Bolivia, Eswatini, Sri Lanka). Regions follow the UN geoscheme.'
   },
   population: {
-    play: 'Two countries: does the second have more people than the first, or fewer?',
-    score: 'Your run is how many you get right in a row. One miss ends it.',
-    source: 'World Bank population estimates, the latest year with figures for nearly every country.'
+    play: 'Two countries: is the second higher or lower than the first? Choose what to compare: population, area, GDP or GDP a person.',
+    score: 'Your run is how many you get right in a row. One miss ends it. Each measure keeps its own best run.',
+    source: "World Bank population and GDP (each country's latest year), and area from REST Countries. Pairs closer than 15% are skipped as too close to call."
   },
   'first-names': {
     play: 'Name the fifteen most famous people with the first name shown. Type surnames only.',
