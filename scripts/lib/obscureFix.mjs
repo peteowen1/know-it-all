@@ -25,7 +25,7 @@ export const OBSCURE_EXCLUDE = {
   // Found by an Odd one out playtest (2026-10-18): uncredited or replaced.
   'films-John Huston': ['A Farewell to Arms'],
   'films-George Stevens': ['Hollywood Party'],
-  'films-Sam Wood': ['The Great Moment', 'The Cat and the Fiddle'],
+  'films-Sam Wood': ['The Great Moment', 'The Cat and the Fiddle', 'Hollywood Party'],
   // A double A-side ("How Do U Want It / California Love") carries both sides'
   // artists; Dr. Dre is on California Love only.
   'songs-Dr. Dre': ['How Do U Want It']
