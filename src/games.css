@@ -24,7 +24,9 @@
 }
 .setup-record { color: var(--ink-2); font-size: var(--fs-sm); line-height: 1.5; }
 .setup-head-actions { display: flex; align-items: center; gap: var(--s-2); flex-shrink: 0; }
-.how-btn { width: 40px; height: 40px; }
+.how-btn { width: 40px; height: 40px; flex-shrink: 0; }
+.deck-head-meta { display: flex; align-items: center; gap: var(--s-2); }
+.screen-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-3); }
 .how-btn[aria-expanded='true'] { background: var(--surface-2); }
 /* How it works: three short labelled parts, on the card's quieter surface. */
 .how-panel {

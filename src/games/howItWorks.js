@@ -4,6 +4,31 @@
 // GameSetup behind the "?" button; keep each part to a sentence or two.
 
 export const HOW_IT_WORKS = {
+  weekly: {
+    play: 'Twenty-five questions in paper order: eight easy, ten medium, seven hard, with no more than three from any one category. Switch between multiple choice and Recall as you go.',
+    score: 'One point per right answer. Your first score each week is the one kept, so replays do not change it. A finished paper counts towards your streak.',
+    source: 'The weekend quiz question bank. The paper is picked from the date, so everyone gets the same one, and a new paper starts every Saturday.'
+  },
+  quiz: {
+    play: 'Choose how many questions, which categories and how hard, then answer. Multiple choice gives four options; Recall shows none, so you answer in your head and reveal.',
+    score: 'One point per right answer. Questions you miss go into the Vault to come back later, and a finished quiz counts towards your streak.',
+    source: 'A bank of over 4,700 general-knowledge questions in ten categories, each with an explanation and a memory hook. Questions you have seen recently are held back so they do not repeat.'
+  },
+  daily: {
+    play: 'Five questions, the same for everyone today. A new set starts at midnight where you are.',
+    score: 'One point per right answer. Finishing it counts towards your streak.',
+    source: 'Picked from the weekend quiz question bank using the date.'
+  },
+  vault: {
+    play: 'Every question you have missed, brought back on a schedule. Drill the ones due today, or all of them.',
+    score: 'A right answer when a question is due moves it further out (1, 3, 7, 21, then 60 days), and after the last step it leaves the vault. Right before it is due, the wait restarts without moving on. Wrong sends it back to the start.',
+    source: 'Your own missed questions from the weekend quiz, the Daily five and the Saturday paper.'
+  },
+  decks: {
+    play: 'Flashcards for the lists quiz-setters love: tap a card to see the answer, and mark the ones you have mastered.',
+    score: 'No score: cards you mark as mastered are kept per deck, so you can see how much of each deck you have.',
+    source: 'Hand-made decks of classic quiz facts (anniversaries, birthstones and the like).'
+  },
   lists: {
     play: 'Name every office holder in order. Each box shows the years in office as a clue; type a surname into any box and right answers lock in.',
     score: 'One point per name. Leaders who returned for a second term appear once for each term.',

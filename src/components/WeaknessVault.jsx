@@ -6,6 +6,7 @@ import { isDue, describeDue, formatIntervals, INTERVALS, GRADUATED_BOX } from '.
 import { Button, Card, CategoryIcon, Pill } from './ui';
 import { CATEGORIES } from '../data/categories';
 import QuizOptions from './QuizOptions';
+import { HowButton, HowPanel } from '../games/shared/HowItWorks';
 
 const capitalise = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
@@ -96,8 +97,10 @@ export default function WeaknessVault({ vault, summary, onRemove, onClearAll, on
               <Trash2 size={16} aria-hidden="true" /> Clear vault
             </Button>
           )}
+          <HowButton />
         </div>
       </div>
+      <HowPanel />
 
       {confirmClear && (
         <div className="vault-confirm" role="alertdialog" aria-label="Clear the vault">

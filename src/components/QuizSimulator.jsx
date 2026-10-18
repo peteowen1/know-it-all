@@ -6,6 +6,7 @@ import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
 import { AnswerRow, Button, Chip, CategoryIcon, GameResults, MostMissed, Pill } from './ui';
 import QuizOptions from './QuizOptions';
+import { HowButton, HowPanel } from '../games/shared/HowItWorks';
 
 const GRADES = [
   { min: 92, title: 'Quizmaster', note: 'You would win the pub.' },
@@ -429,8 +430,10 @@ export default function QuizSimulator({
             Recall
           </Chip>
           <QuizTimer initial={elapsedRef.current} onTick={onTick} />
+          <HowButton />
         </div>
       </div>
+      <HowPanel />
 
       <div className="card question-card">
         <div className="question-header">
