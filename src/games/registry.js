@@ -73,8 +73,8 @@ export const GAMES = [
     recordFormat: byPct
   },
   {
-    id: 'population', section: 'geo', tab: 'population', icon: 'Users', title: 'Population: higher or lower',
-    blurb: 'Chain right calls. One miss ends the run.',
+    id: 'population', section: 'geo', tab: 'population', icon: 'Users', title: 'Higher or lower',
+    blurb: 'Population, area or GDP: chain right calls. One miss ends the run.',
     recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)
   },
 
