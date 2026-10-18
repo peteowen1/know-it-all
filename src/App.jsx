@@ -336,7 +336,9 @@ export default function App() {
     []
   );
 
-  const handleComplete = useCallback((result) => {
+  // `countsForStreak` is false for an earlier day's Daily five (?day=): its
+  // answers still count in the totals, but only today's play keeps a streak.
+  const handleComplete = useCallback((result, { countsForStreak = true } = {}) => {
     const { score, total, answers, questionIds } = result;
 
     setRecentIds((prev) => [...questionIds, ...prev.filter((id) => !questionIds.includes(id))].slice(0, RECENT_MEMORY));
@@ -344,7 +346,9 @@ export default function App() {
     setStats((prev) => {
       const today = localDateKey();
       const yesterday = previousDateKey();
-      const { streak } = advanceStreak(prev, today, yesterday);
+      const { streak, lastPlayDate } = countsForStreak
+        ? advanceStreak(prev, today, yesterday)
+        : { streak: prev.streak, lastPlayDate: prev.lastPlayDate };
 
       const categoryStats = { ...prev.categoryStats };
       const difficultyStats = { ...prev.difficultyStats };
@@ -364,7 +368,7 @@ export default function App() {
         totalAnswered: prev.totalAnswered + total,
         totalCorrect: prev.totalCorrect + score,
         streak,
-        lastPlayDate: today,
+        lastPlayDate,
         categoryStats,
         difficultyStats
       };
@@ -479,13 +483,13 @@ export default function App() {
           questions={dailyQuiz.questions}
           seed={dailyQuiz.seed}
           roundDate={dailyQuiz.date}
+          onComplete={(result) => handleComplete(result, { countsForStreak: dailyQuiz.date === localDateKey() })}
           title="Daily Five"
           subtitle={
             dailyQuiz.date === localDateKey()
               ? 'The same five questions for everyone today. Come back tomorrow for a new set.'
               : `The five questions everyone got on ${dayLabel(dailyQuiz.date)}. They do not count towards your streak.`
           }
-          onComplete={handleComplete}
           onMissed={handleMissed}
           onCorrect={handleCorrect}
           onNewQuiz={async () => {
