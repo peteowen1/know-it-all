@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import GameCard from './GameCard';
 import Button from './Button';
 import { shareText, shareOrCopy, shareDay } from '../../lib/share';
+import { markDailyDone } from '../../lib/dailyDone';
 
 // `share` ({ game, url }) adds a "Share result" button for the daily rounds:
 // game, day, score and the squares as 🟩🟥, the NYT way, ready for a chat.
@@ -15,6 +16,11 @@ export default function GameResults({
 }) {
   const perfect = celebrate ?? (total > 0 && score === total);
   const [shareState, setShareState] = useState(null);
+  // A daily round's results mean today's round is done (the Today row ticks it).
+  const dailyTab = share?.tab;
+  useEffect(() => {
+    if (dailyTab) markDailyDone(dailyTab);
+  }, [dailyTab]);
   const text = share ? shareText({ game: share.game, day: shareDay(), score: hero ?? `${score} / ${total}`, squares, url: share.url }) : '';
 
   useEffect(() => {

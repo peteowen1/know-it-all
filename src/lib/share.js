@@ -37,5 +37,6 @@ export async function shareOrCopy(text) {
 /** The share settings for a daily round: its name and its own address. */
 export const dailyShare = (game, tab) => ({
   game,
+  tab,
   url: typeof window === 'undefined' ? undefined : `${window.location.origin}${pathForTab(tab)}`
 });
