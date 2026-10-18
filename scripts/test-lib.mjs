@@ -16,7 +16,8 @@ import { STORAGE_PREFIX, storageKey, getStored, setStored, removeStored, clearAl
 import { isSyncedKey, mergeSnapshots } from '../src/lib/syncCore.js';
 import { loadLive, saveLive } from '../src/lib/persist.js';
 import { shareText } from '../src/lib/share.js';
-import { markDailyDone, dailyDoneToday } from '../src/lib/dailyDone.js';
+import { markDailyDone, dailyDoneToday, onDailyDone } from '../src/lib/dailyDone.js';
+import { advanceStreak } from '../src/lib/streak.js';
 
 const read = (rel) => readFileSync(new URL(rel, import.meta.url), 'utf8');
 
@@ -181,6 +182,23 @@ test('daily done: marked for today only, and a new day starts clear', () => {
   assert.equal(dailyDoneToday('2026-10-19').size, 0);
   markDailyDone('daily', '2026-10-19');
   assert.deepEqual([...dailyDoneToday('2026-10-19')], ['daily']);
+});
+
+test('streak: same day no change, next day +1, a gap restarts at 1', () => {
+  assert.deepEqual(advanceStreak({ streak: 4, lastPlayDate: '2026-10-18' }, '2026-10-18', '2026-10-17'), { streak: 4, lastPlayDate: '2026-10-18' });
+  assert.deepEqual(advanceStreak({ streak: 4, lastPlayDate: '2026-10-17' }, '2026-10-18', '2026-10-17'), { streak: 5, lastPlayDate: '2026-10-18' });
+  assert.deepEqual(advanceStreak({ streak: 4, lastPlayDate: '2026-10-15' }, '2026-10-18', '2026-10-17'), { streak: 1, lastPlayDate: '2026-10-18' });
+  assert.deepEqual(advanceStreak({}, '2026-10-18', '2026-10-17'), { streak: 1, lastPlayDate: '2026-10-18' });
+});
+
+test('daily done: listeners hear a newly finished round once', () => {
+  const heard = [];
+  const off = onDailyDone((tab, date) => heard.push(`${tab} ${date}`));
+  markDailyDone('scramble-test', '2026-10-22');
+  markDailyDone('scramble-test', '2026-10-22');
+  off();
+  markDailyDone('other-test', '2026-10-22');
+  assert.deepEqual(heard, ['scramble-test 2026-10-22']);
 });
 
 test('daily done: a round from yesterday does not tick today', () => {

@@ -8,11 +8,19 @@ import { localDateKey } from './dates.js';
 
 const isObject = (v) => v && typeof v === 'object' && !Array.isArray(v);
 
+// App listens so a finished daily round also advances the streak.
+const listeners = new Set();
+export function onDailyDone(fn) {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+
 /** Record that today's round of `tab` is finished. */
 export function markDailyDone(tab, today = localDateKey()) {
   const done = getStored('daily_done', {}, isObject);
   if (done[tab] === today) return;
   setStored('daily_done', { ...done, [tab]: today });
+  listeners.forEach((fn) => fn(tab, today));
 }
 
 /** The tabs whose daily round is finished today. */
