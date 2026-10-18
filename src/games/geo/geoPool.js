@@ -136,3 +136,16 @@ export function formatPopulation(n) {
   if (n >= 1e6) return `${(n / 1e6).toFixed(n >= 1e8 ? 0 : 1)} million`;
   return n.toLocaleString('en-AU');
 }
+
+// Country names that take "the" in a sentence ("in the Marshall Islands",
+// "Capital of the Bahamas"): plural and "United ..." names, and this list.
+const TAKES_THE = new Set([
+  'Bahamas', 'Gambia', 'Netherlands', 'Philippines', 'Maldives', 'Comoros', 'Seychelles',
+  'Congo', 'DR Congo', 'Caribbean Netherlands', 'Central African Republic', 'Dominican Republic'
+]);
+
+/** A country name as it reads mid-sentence, or at the start of one with `start`. */
+export function countryInText(name, { start = false } = {}) {
+  const the = TAKES_THE.has(name) || /Islands$/.test(name) || /^United /.test(name);
+  return the ? `${start ? 'The' : 'the'} ${name}` : name;
+}

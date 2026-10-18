@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUp, ArrowDown } from 'lucide-react';
 import { COUNTRIES, POPULATION_YEAR } from './countries';
-import { REGIONS, countryPool, nextChallenger, formatPopulation } from './geoPool';
+import { REGIONS, countryPool, nextChallenger, formatPopulation, countryInText } from './geoPool';
 import { gameEntry } from '../../lib/gameStats';
 import { AnswerRow, Button, Chip, Flag, GameCard, GameResults, Pill, SetupRow } from '../../components/ui';
 import { GameSetup, PlayHead, NextBar } from '../shared/Play';
@@ -26,6 +26,9 @@ const SOURCE = {
 };
 const formatArea = (n) => (n == null ? '—' : `${n < 10 ? n.toFixed(2) : Math.round(n).toLocaleString('en-AU')} km²`);
 
+const T = (c) => countryInText(c.name, { start: true });
+const t = (c) => countryInText(c.name);
+
 /**
  * What the run compares. Each measure keeps its own best run under `statId`
  * (population keeps the game's original id, so its record carries on).
@@ -35,22 +38,22 @@ const MEASURES = {
   population: {
     label: 'Population', field: 'population', statId: 'population', format: formatPopulation,
     up: 'More', down: 'Fewer', ask: (r, l) => <>Does <strong>{r}</strong> have more or fewer people than {l}?</>,
-    told: (r, l, more) => `${r.name} has ${formatPopulation(r.population)} people, ${more ? 'more' : 'fewer'} than ${l.name}.`
+    told: (r, l, more) => `${T(r)} has ${formatPopulation(r.population)} people, ${more ? 'more' : 'fewer'} than ${t(l)}.`
   },
   area: {
     label: 'Area', field: 'area', statId: 'higher-lower-area', format: formatArea,
     up: 'Bigger', down: 'Smaller', ask: (r, l) => <>Is <strong>{r}</strong> bigger or smaller than {l}?</>,
-    told: (r, l, more) => `${r.name} covers ${formatArea(r.area)}, ${more ? 'more' : 'less'} than ${l.name}.`
+    told: (r, l, more) => `${T(r)} covers ${formatArea(r.area)}, ${more ? 'more' : 'less'} than ${t(l)}.`
   },
   gdp: {
     label: 'GDP', field: 'gdp', statId: 'higher-lower-gdp', format: formatMoney,
     up: 'Bigger', down: 'Smaller', ask: (r, l) => <>Is <strong>{r}</strong>&rsquo;s economy bigger or smaller than {l}&rsquo;s?</>,
-    told: (r, l, more) => `${r.name}'s GDP is ${formatMoney(r.gdp)}, ${more ? 'more' : 'less'} than ${l.name}'s.`
+    told: (r, l, more) => `${T(r)}'s GDP is ${formatMoney(r.gdp)}, ${more ? 'more' : 'less'} than ${t(l)}'s.`
   },
   gdpPerHead: {
     label: 'GDP a person', field: 'gdpPerHead', statId: 'higher-lower-gdp-head', format: formatMoney,
     up: 'Higher', down: 'Lower', ask: (r, l) => <>Is GDP a person in <strong>{r}</strong> higher or lower than in {l}?</>,
-    told: (r, l, more) => `GDP a person in ${r.name} is ${formatMoney(r.gdpPerHead)}, ${more ? 'higher' : 'lower'} than in ${l.name}.`
+    told: (r, l, more) => `GDP a person in ${t(r)} is ${formatMoney(r.gdpPerHead)}, ${more ? 'higher' : 'lower'} than in ${t(l)}.`
   }
 };
 
@@ -224,7 +227,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
 
       {verdict === null && (
         <div className="hl-buttons">
-          <p>{m.ask(right.name, left.name)}</p>
+          <p>{m.ask(t(right), t(left))}</p>
           <div className="play-grade">
             <Button variant="secondary" onClick={() => guess(true)}><ArrowUp size={18} aria-hidden="true" /> {m.up}</Button>
             <Button variant="secondary" onClick={() => guess(false)}><ArrowDown size={18} aria-hidden="true" /> {m.down}</Button>

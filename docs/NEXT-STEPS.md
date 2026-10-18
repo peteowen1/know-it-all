@@ -30,7 +30,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
-- OPEN **Country names in sentences**: Higher or lower asks "in Marshall Islands", not "in the Marshall Islands". Countries that take "the" (Bahamas, Gambia, Netherlands, Philippines, UAE and so on) need a flag in countries.json.
 - OPEN **New lab games** from the 2026-10-17 review: Odd one out, Who am I.
 - OPEN **Dated daily addresses** (`/daily-five/2026-10-18`) and an archive of
   past dailies. Addresses are one level deep today because the build loads its

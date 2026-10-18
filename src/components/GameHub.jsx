@@ -11,7 +11,7 @@ import GameIcon from './ui/GameIcon';
  * `recordFormat` in games/registry.js.
  */
 export default function GameHub({ onOpen, gameStats, quizStats, vaultDue, weeklyScores }) {
-  const ctx = { quizStats, vaultDue, weeklyScore: weeklyScores?.[saturdayKey()] };
+  const ctx = { quizStats, vaultDue, weeklyScore: weeklyScores?.[saturdayKey()], gameStats };
 
   return (
     <div className="game-hub">
