@@ -35,6 +35,7 @@ const Timeline = lazy(() => import('./games/timeline/Timeline'));
 const NameTheYear = lazy(() => import('./games/nameyear/NameTheYear'));
 const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
+const OddOneOut = lazy(() => import('./games/oddone/OddOneOut'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
 const Settings = lazy(() => import('./components/Settings'));
 const ClueLadder = lazy(() => import('./games/clueladder/ClueLadder'));
@@ -412,6 +413,7 @@ export default function App() {
     'tv-years': () => <TvCharts {...play} {...mode} onAnswer={handleGameAnswer} />,
     lists: () => <ListGame {...play} {...mode} />,
     'missing-link': () => <MissingLink {...play} />,
+    'odd-one-out': () => <OddOneOut {...play} />,
     'clue-ladder': () => <ClueLadder {...play} />,
     'twin-flags': () => <TwinFlags {...play} />,
     scramble: () => <Scramble {...play} />,

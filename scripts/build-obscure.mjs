@@ -17,6 +17,10 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { UA } from './lib/wikitable.mjs';
 import { dataFile, fromRoot, writeData } from './lib/output.mjs';
 import { OBSCURE_EXCLUDE } from './lib/obscureFix.mjs';
+import { countryInText } from '../src/games/geo/geoPool.js';
+
+// 'A country that borders the Central African Republic', 'A country in the Caribbean'.
+const inRegion = (sub) => (sub === 'Caribbean' ? 'the Caribbean' : sub);
 
 const load = (p) => JSON.parse(readFileSync(dataFile(p), 'utf8'));
 const countries = load('countries.json').countries.filter((c) => c.sovereign);
@@ -80,15 +84,15 @@ const country = (c) => ({
 const byIso3 = new Map(countries.map((c) => [c.iso3, c]));
 for (const c of countries) {
   const n = c.borders.map((b) => byIso3.get(b)).filter(Boolean);
-  add(`borders-${c.code}`, `A country that borders ${c.name}`, 'geo', n.map(country));
+  add(`borders-${c.code}`, `A country that borders ${countryInText(c.name)}`, 'geo', n.map(country));
 }
 const bySub = {};
 for (const c of countries) (bySub[c.subregion] ||= []).push(c);
 for (const [sub, list] of Object.entries(bySub)) {
-  add(`in-${sub}`, `A country in ${sub}`, 'geo', list.map(country));
+  add(`in-${sub}`, `A country in ${inRegion(sub)}`, 'geo', list.map(country));
   add(
     `cap-${sub}`,
-    `A capital city in ${sub}`,
+    `A capital city in ${inRegion(sub)}`,
     'geo',
     list.filter((c) => c.capitals[0]).map((c) => ({ text: c.capitals[0], accept: [...c.capitals, ...c.capitalsAlsoAccepted], fame: c.population ?? 0 }))
   );
