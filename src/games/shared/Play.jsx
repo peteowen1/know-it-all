@@ -4,6 +4,7 @@
 import React from 'react';
 import { Check, X, ArrowRight } from 'lucide-react';
 import { GameCard, Button } from '../../components/ui';
+import { HowButton, HowPanel } from './HowItWorks';
 
 /** The setup screen shell: title, "All games", a record line, the controls, a footnote. */
 export function GameSetup({ title, section, record, note, onExit, className = '', children }) {
@@ -11,8 +12,12 @@ export function GameSetup({ title, section, record, note, onExit, className = ''
     <GameCard data-section={section} className={`setup ${className}`.trim()}>
       <div className="setup-head">
         <h2 className="setup-title">{title}</h2>
-        <Button variant="tertiary" icon="ArrowLeft" onClick={onExit}>All games</Button>
+        <div className="setup-head-actions">
+          <HowButton />
+          <Button variant="tertiary" icon="ArrowLeft" onClick={onExit}>All games</Button>
+        </div>
       </div>
+      <HowPanel />
       {record && <p className="setup-record">{record}</p>}
       {children}
       {note && <p className="setup-foot">{note}</p>}
@@ -23,10 +28,16 @@ export function GameSetup({ title, section, record, note, onExit, className = ''
 /** The play-screen header: progress on the left, pills and small buttons on the right. */
 export function PlayHead({ left, children }) {
   return (
-    <div className="play-head">
-      <p className="play-progress">{left}</p>
-      {children && <div className="play-meta">{children}</div>}
-    </div>
+    <>
+      <div className="play-head">
+        <p className="play-progress">{left}</p>
+        <div className="play-meta">
+          {children}
+          <HowButton />
+        </div>
+      </div>
+      <HowPanel />
+    </>
   );
 }
 

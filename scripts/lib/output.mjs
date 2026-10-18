@@ -32,13 +32,14 @@ export const SHIPPED = {
     source: true,
     names: { first: true, spellings: true, people: { id: true, name: true, rest: true, description: true, born: true, views: true, monthsInTop: true, first: true } }
   },
-  // Unread: unMember, flag (the flag-icons SVG is used instead), area, demonym,
+  // Unread: unMember, flag (the flag-icons SVG is used instead), demonym,
   // latlng, tld, cioc, status, unRegionalGroup, currencies[].code and .symbol.
   'countries.json': {
     builtAt: true,
     countries: {
       code: true, iso3: true, name: true, officialName: true, capitals: true, capitalsAlsoAccepted: true,
-      region: true, subregion: true, sovereign: true, population: true, populationYear: true, altNames: true,
+      region: true, subregion: true, sovereign: true, population: true, populationYear: true, gdp: true, gdpYear: true,
+      area: true, altNames: true,
       landlocked: true, borders: true, languages: true, currencies: { name: true }
     }
   },

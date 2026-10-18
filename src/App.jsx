@@ -5,6 +5,7 @@ import RouteFallback from './components/RouteFallback';
 import { recordRound, recordItems } from './lib/gameStats';
 import { loadLive, saveLive } from './lib/persist';
 import { GAMES } from './games/registry';
+import { HowProvider } from './games/shared/HowItWorks';
 import { getStored, setStored, clearAllStored } from './lib/storage.js';
 import BANK_STATS from './data/bankStats.json';
 import { localDateKey, previousDateKey } from './lib/dates';
@@ -567,7 +568,10 @@ export default function App() {
       />
 
       <main className="main-content">
-        <Suspense fallback={waiting}>{known ? TABS[activeTab]() : null}</Suspense>
+        {/* The game's "How it works" (?) on its start and play screens; keyed so it starts closed in each game. */}
+          <HowProvider key={activeTab} gameId={GAMES.find((g) => g.tab === activeTab)?.id}>
+            <Suspense fallback={waiting}>{known ? TABS[activeTab]() : null}</Suspense>
+          </HowProvider>
       </main>
 
       <footer className="app-footer">
