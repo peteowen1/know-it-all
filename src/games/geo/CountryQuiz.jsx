@@ -74,7 +74,8 @@ function formatMoney(n) {
 function statsLine(c) {
   const parts = [];
   if (c.population) parts.push(`population ${formatPopulation(c.population)}`);
-  if (c.area) parts.push(`${Math.round(c.area).toLocaleString('en-AU')} km²`);
+  // Vatican City is 0.44 km²: small areas keep their decimals.
+  if (c.area) parts.push(`${c.area < 10 ? c.area.toFixed(2) : Math.round(c.area).toLocaleString('en-AU')} km²`);
   if (c.gdp) {
     const perHead = c.population ? ` (US$${Math.round(c.gdp / c.population).toLocaleString('en-AU')} a person)` : '';
     parts.push(`GDP ${formatMoney(c.gdp)}${perHead}, ${c.gdpYear}`);
@@ -114,8 +115,11 @@ export default function CountryQuiz({
   // fetched as the round starts rather than one by one as they appear.
   const roundQuestions = round?.questions;
   useEffect(() => {
-    if (roundQuestions) preloadFlags(roundQuestions.flatMap((q) => [q.target.code, ...q.options.map((o) => o.code)]));
-  }, [roundQuestions]);
+    // Capitals shows only the question's own flag; Flags shows the options' too.
+    if (roundQuestions) {
+      preloadFlags(roundQuestions.flatMap((q) => (kind === 'flags' ? [q.target.code, ...q.options.map((o) => o.code)] : [q.target.code])));
+    }
+  }, [roundQuestions, kind]);
   // Index of the last question answered. A ref, not state: two clicks landing
   // before React re-renders both see the old state, and on the last question
   // that recorded the whole round twice.

@@ -79,12 +79,14 @@ const [, popRows] = await getJson(POP_URL);
 // GDP in current US dollars, every year for every country (the most-recent
 // filter is ignored for this indicator), saved whole; each country's latest
 // reported year is used.
-const [, gdpRows] = await getJson(GDP_URL);
+const gdpResponse = await getJson(GDP_URL);
+const [gdpMeta, gdpRows] = gdpResponse;
+if (gdpMeta.pages > 1) throw new Error(`World Bank GDP came in ${gdpMeta.pages} pages; raise per_page in GDP_URL`);
 
 mkdirSync(fromRoot('data-raw'), { recursive: true });
 writeFileSync(fromRoot('data-raw/mledoze-countries.json'), JSON.stringify(raw));
 writeFileSync(fromRoot('data-raw/worldbank-population.json'), JSON.stringify(popRows));
-writeFileSync(fromRoot('data-raw/worldbank-gdp.json'), JSON.stringify([{}, gdpRows]));
+writeFileSync(fromRoot('data-raw/worldbank-gdp.json'), JSON.stringify(gdpResponse));
 
 // Kosovo is UNK in mledoze and XKX at the World Bank; no other code differs.
 const WB_ISO3 = { UNK: 'XKX' };

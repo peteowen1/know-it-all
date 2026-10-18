@@ -51,7 +51,7 @@ export const HOW_IT_WORKS = {
   },
   connections: {
     play: 'Sixteen answers hide four groups of four. Pick four that belong together. Four mistakes and you are out.',
-    score: 'Solved or not, and how many mistakes it took. Today\'s puzzle counts once; replays are for fun.',
+    score: 'Solved or not. Today\'s puzzle counts once a day, however often you replay it; each random puzzle counts.',
     source: 'Built from the flags, capitals, charts, films, TV and famous-names data, and checked so that no answer fits two groups in its puzzle.'
   },
   timeline: {
