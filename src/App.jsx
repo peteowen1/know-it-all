@@ -9,6 +9,8 @@ import { HowProvider } from './games/shared/HowItWorks';
 import { getStored, setStored, clearAllStored } from './lib/storage.js';
 import BANK_STATS from './data/bankStats.json';
 import { localDateKey, previousDateKey } from './lib/dates';
+import { advanceStreak } from './lib/streak';
+import { onDailyDone } from './lib/dailyDone';
 import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
 import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
 import { pathForTab, tabForPath } from './lib/route';
@@ -244,8 +246,8 @@ export default function App() {
   // load rather than only on completion — otherwise a stale streak from three
   // weeks ago would still be showing in the header.
   //
-  // lastPlayDate is advanced only by finishing a quiz, never by opening the
-  // app, so browsing without playing does not extend the streak.
+  // lastPlayDate is advanced only by finishing a quiz or a daily round, never
+  // by opening the app, so browsing without playing does not extend the streak.
   // Rechecked on every tab change and on coming back to the page, so a tab left
   // open across midnight does not keep showing a streak that has since lapsed.
   useEffect(() => {
@@ -317,6 +319,18 @@ export default function App() {
     return true;
   }, [setActiveTab, bank]);
 
+  // A finished daily round of any game (Four by four, Odd one out...) keeps the
+  // streak going too, not only a finished quiz. Only today's round counts: a
+  // round from another day reopened on screen ticks its own day and no streak.
+  useEffect(
+    () =>
+      onDailyDone((_tab, date) => {
+        if (date !== localDateKey()) return;
+        setStats((prev) => ({ ...prev, ...advanceStreak(prev, date, previousDateKey()) }));
+      }),
+    []
+  );
+
   const handleComplete = useCallback((result) => {
     const { score, total, answers, questionIds } = result;
 
@@ -325,10 +339,7 @@ export default function App() {
     setStats((prev) => {
       const today = localDateKey();
       const yesterday = previousDateKey();
-      let streak = prev.streak;
-      if (prev.lastPlayDate !== today) {
-        streak = prev.lastPlayDate === yesterday ? prev.streak + 1 : 1;
-      }
+      const { streak } = advanceStreak(prev, today, yesterday);
 
       const categoryStats = { ...prev.categoryStats };
       const difficultyStats = { ...prev.difficultyStats };

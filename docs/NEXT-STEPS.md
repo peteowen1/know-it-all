@@ -34,8 +34,8 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 - OPEN **Dated daily addresses** (`/daily-five/2026-10-18`) and an archive of
   past dailies. Addresses are one level deep today because the build loads its
   files by relative path; a second level needs an absolute base or a redirect.
-- OPEN **Product ideas** from the review (N7 to N13):
-  one streak across games, fewer tabs.
+- OPEN **Product ideas** from the review (N7 to N13): fewer tabs.
+
 
 ## Check
 
