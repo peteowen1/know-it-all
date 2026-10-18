@@ -59,6 +59,18 @@ test('typed guesses: surname, full name, a small typo; not someone else', () => 
   assert.ok(!guessIsRight('Crus', r), 'no typo allowance under five letters');
   assert.ok(!guessIsRight('Hanks', r));
   assert.ok(guessIsRight('Schwarzeneger', { id: 'x', name: 'Arnold Schwarzenegger', first: 'Arnold' }));
+  const ali = { id: 'y', name: 'Muhammad Ali', first: 'Muhammad', spellings: ['Muhammad', 'Mohamed', 'Mohammed'] };
+  assert.ok(guessIsRight('Mohamed Ali', ali), 'the other spelling of a merged first name');
+});
+
+test('no first clue is mostly blanks', () => {
+  const bad = [];
+  for (let s = 0; s < 300; s++) {
+    for (const r of buildWhoRounds(names, { seed: `b${s}` })) {
+      if ((r.knownFor.match(/…/g) || []).length > 1 || r.knownFor.replace(/[^\p{L}]/gu, '').length < 12) bad.push(`${r.name}: ${r.knownFor}`);
+    }
+  }
+  assert.deepEqual(bad.slice(0, 5), []);
 });
 
 if (failures.length) {

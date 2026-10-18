@@ -34,7 +34,13 @@ export function knownFor(person, first) {
 }
 
 /** A person makes a fair round: a description worth reading and a birth year. */
-const usable = (person, first) => person.born && knownFor(person, first).length >= 12;
+// Blanking a monarch's name can leave nothing to go on ("… … … from 1745 to
+// 1765" for Francis I, Holy Roman Emperor), so a clue with more than one
+// blank, or under a dozen real letters, is skipped.
+const usable = (person, first) => {
+  const clue = knownFor(person, first);
+  return person.born && (clue.match(/…/g) || []).length <= 1 && clue.replace(/[^\p{L}]/gu, '').length >= 12;
+};
 
 /**
  * `count` rounds from different first names. Each: the person, their first
@@ -66,6 +72,8 @@ export function buildWhoRounds(names, { seed = Date.now(), count = ROUNDS } = {}
       id: person.id,
       name: person.name,
       first: person.first || first,
+      // Every spelling on a merged board, so "Mohamed Ali" counts for Muhammad Ali.
+      spellings: board.spellings || [board.first],
       knownFor: knownFor(person, person.first || first),
       born: person.born,
       description: person.description,
@@ -84,6 +92,6 @@ export function buildWhoRounds(names, { seed = Date.now(), count = ROUNDS } = {}
  */
 export function guessIsRight(guess, round) {
   const person = { id: round.id, rest: round.name.slice(round.first.length).trim(), first: round.first, views: 0 };
-  const hit = matchGuess(guess, round.first, [person]);
+  const hit = matchGuess(guess, round.spellings || round.first, [person]);
   return Boolean(hit) || normalise(guess) === normalise(round.name);
 }
