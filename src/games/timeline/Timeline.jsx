@@ -5,6 +5,7 @@ import { buildRound, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
@@ -88,6 +89,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
         squares={order.map((e, i) => truth[i] === e)}
         celebrate={correct === total}
         onPlayAgain={() => start(false)}
+        share={round.daily ? dailyShare('Timeline', 'timeline') : undefined}
         playAgainLabel="Another"
         onChangeSettings={() => setRound(null)}
       >

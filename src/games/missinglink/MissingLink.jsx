@@ -4,6 +4,7 @@ import { buildLinkRounds, linkPoints, CLUES } from './linkLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 
@@ -59,6 +60,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.points > 0)}
         celebrate={total === rounds.length * CLUES}
         onPlayAgain={() => start(false)}
+        share={game.daily ? dailyShare('Missing link', 'missing-link') : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

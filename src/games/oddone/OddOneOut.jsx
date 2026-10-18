@@ -4,6 +4,7 @@ import { buildOddRounds, ROUNDS } from './oddLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 
@@ -57,6 +58,7 @@ export default function OddOneOut({ stats, onRoundComplete, onExit }) {
         squares={results.map((r) => r.right)}
         celebrate={score === rounds.length}
         onPlayAgain={() => start(false)}
+        share={game.daily ? dailyShare('Odd one out', 'odd-one-out') : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

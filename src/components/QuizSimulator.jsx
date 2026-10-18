@@ -4,6 +4,10 @@ import { loadLive, saveLive } from '../lib/persist';
 import { shuffle } from '../lib/rng';
 import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
+import { dailyShare } from '../lib/share';
+
+// The rounds everyone gets the same: a result worth sharing.
+const DAILY_SHARE = { daily: dailyShare('Daily five', 'daily'), weekly: dailyShare('Saturday paper', 'weekly') };
 import { AnswerRow, Button, Chip, CategoryIcon, GameResults, MostMissed, Pill } from './ui';
 import QuizOptions from './QuizOptions';
 import { HowButton, HowPanel } from '../games/shared/HowItWorks';
@@ -257,6 +261,7 @@ export default function QuizSimulator({
         celebrate={score === total && !restoredFinished}
         onPlayAgain={onNewQuiz}
         playAgainLabel={NEW_ROUND_LABEL[saveAs] || 'Start new round'}
+        share={DAILY_SHARE[saveAs]}
         onChangeSettings={shareChallenge}
         settingsLabel={
           shareState === 'copied' ? (

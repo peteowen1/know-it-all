@@ -4,6 +4,7 @@ import { pickCategories, scoreGuess, ROUNDS } from './obscureLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
 import { GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import KindIcon from '../shared/KindIcon';
@@ -61,6 +62,7 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.score > 0)}
         celebrate={false}
         onPlayAgain={() => start(false)}
+        share={game.daily ? dailyShare('Obscure-est', 'pointless') : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

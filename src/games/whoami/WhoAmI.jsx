@@ -4,6 +4,7 @@ import { buildWhoRounds, guessIsRight, whoPoints, yearText, ROUNDS, RUNGS } from
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 // The clue stack and guess box look the same as Clue ladder's.
@@ -67,6 +68,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.points > 0)}
         celebrate={total === MAX}
         onPlayAgain={() => start(false)}
+        share={game.daily ? dailyShare('Who am I', 'who-am-i') : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

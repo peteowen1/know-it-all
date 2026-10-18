@@ -4,6 +4,7 @@ import { buildYearRounds, yearPoints, ROUNDS } from './nameYearLogic';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow, TextInput } from '../../components/ui';
 import { GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 import KindIcon from '../shared/KindIcon';
@@ -65,6 +66,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
         squares={guesses.map((g, i) => yearPoints(g, rounds[i].year) > 0)}
         celebrate={total === rounds.length * 10}
         onPlayAgain={() => start(false)}
+        share={game.daily ? dailyShare('Name the year', 'year-guess') : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

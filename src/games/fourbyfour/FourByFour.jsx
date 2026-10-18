@@ -4,6 +4,7 @@ import { localDateKey } from '../../lib/dates';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
 import { HowButton, HowPanel } from '../shared/HowItWorks';
@@ -151,6 +152,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
         verdict={won ? (mistakes === 0 ? 'Four groups, no mistakes.' : `Solved with ${mistakes} mistake${mistakes === 1 ? '' : 's'}.`) : 'Here are the four groups.'}
         celebrate={won && mistakes === 0}
         onPlayAgain={onAgain}
+        share={game.daily ? dailyShare('Four by four', 'connections') : undefined}
         playAgainLabel="Another puzzle"
         onChangeSettings={onSetup}
         settingsLabel="Back"
