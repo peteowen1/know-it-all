@@ -23,7 +23,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
 
   const start = (daily) => {
     const seed = daily ? `${localDateKey()}:${difficulty}` : `${Date.now()}`;
-    setRound({ daily, order: buildRound(data.events, { difficulty, seed }), checked: false });
+    setRound({ daily, date: localDateKey(), order: buildRound(data.events, { difficulty, seed }), checked: false });
   };
 
   if (!round) {
@@ -89,7 +89,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
         squares={order.map((e, i) => truth[i] === e)}
         celebrate={correct === total}
         onPlayAgain={() => start(false)}
-        share={round.daily ? dailyShare('Timeline', 'timeline') : undefined}
+        share={round.daily ? dailyShare('Timeline', 'timeline', round.date) : undefined}
         playAgainLabel="Another"
         onChangeSettings={() => setRound(null)}
       >

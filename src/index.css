@@ -838,6 +838,22 @@ button { cursor: pointer; }
 
 /* ---- Hub (home screen) ---- */
 .game-hub { display: flex; flex-direction: column; gap: var(--s-7); }
+/* Today: every daily round in one strip, ticked when done. Scrolls sideways on a phone. */
+.today-row { display: flex; flex-direction: column; gap: var(--s-3); }
+.today-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-3); }
+.today-head h2 { font-family: var(--font-serif); font-size: var(--fs-xl); }
+.today-head p { color: var(--ink-3); font-size: var(--fs-sm); }
+.today-chips { display: flex; gap: var(--s-2); overflow-x: auto; padding-bottom: var(--s-1); scrollbar-width: thin; }
+.today-chip {
+  display: inline-flex; align-items: center; gap: var(--s-2); flex-shrink: 0;
+  min-height: 44px; padding: 0 var(--s-3);
+  background: var(--surface-1); color: var(--ink);
+  border: var(--border-w) var(--border-style) var(--line-strong); border-radius: var(--r-pill);
+  font-size: var(--fs-sm); font-weight: 600; white-space: nowrap;
+}
+.today-chip:hover { background: var(--surface-2); }
+.today-chip[data-done] { border-color: var(--correct); color: var(--ink-2); }
+.today-chip[data-done] svg:last-child { color: var(--correct); }
 
 .hub-section-head { margin-bottom: var(--s-4); }
 .hub-section-head h2 {

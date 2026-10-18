@@ -22,7 +22,7 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
 
   const start = (daily) => {
     const seed = daily ? localDateKey() : `${Date.now()}`;
-    setGame({ daily, cats: pickCategories(data.categories, seed), index: 0, results: [], input: '', note: null });
+    setGame({ daily, date: localDateKey(), cats: pickCategories(data.categories, seed), index: 0, results: [], input: '', note: null });
   };
 
   if (!game) {
@@ -62,7 +62,7 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.score > 0)}
         celebrate={false}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Obscure-est', 'pointless') : undefined}
+        share={game.daily ? dailyShare('Obscure-est', 'pointless', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

@@ -204,7 +204,7 @@ export default function App() {
       const today = localDateKey();
       const stale = dailyDate.current !== today;
       dailyDate.current = today;
-      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : builder.buildDailyQuiz(5, today)));
+      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : { ...builder.buildDailyQuiz(5, today), date: today }));
       setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
       setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
     });
@@ -460,6 +460,7 @@ export default function App() {
           saveAs="daily"
           questions={dailyQuiz.questions}
           seed={dailyQuiz.seed}
+          roundDate={dailyQuiz.date}
           title="Daily Five"
           subtitle="The same five questions for everyone today. Come back tomorrow for a new set."
           onComplete={handleComplete}
@@ -467,7 +468,7 @@ export default function App() {
           onCorrect={handleCorrect}
           onNewQuiz={async () => {
             const builder = await bank();
-            if (builder) setDailyQuiz(builder.buildDailyQuiz(5));
+            if (builder) setDailyQuiz({ ...builder.buildDailyQuiz(5), date: localDateKey() });
           }}
         />
       ) : (

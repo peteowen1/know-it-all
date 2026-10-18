@@ -34,8 +34,14 @@ export async function shareOrCopy(text) {
   }
 }
 
-/** The share settings for a daily round: its name and its own address. */
-export const dailyShare = (game, tab) => ({
+/**
+ * The share settings for a daily round: its name, its own address, and the day
+ * it was played, so a round left on screen overnight ticks its own day, not the
+ * next (lib/dailyDone.js).
+ */
+export const dailyShare = (game, tab, date) => ({
   game,
+  tab,
+  date,
   url: typeof window === 'undefined' ? undefined : `${window.location.origin}${pathForTab(tab)}`
 });

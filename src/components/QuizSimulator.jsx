@@ -5,6 +5,7 @@ import { shuffle } from '../lib/rng';
 import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
 import { dailyShare } from '../lib/share';
+import { localDateKey } from '../lib/dates';
 
 // The rounds everyone gets the same: a result worth sharing.
 const DAILY_SHARE = { daily: dailyShare('Daily five', 'daily'), weekly: dailyShare('Saturday paper', 'weekly') };
@@ -51,6 +52,9 @@ function QuizTimer({ initial, onTick }) {
 export default function QuizSimulator({
   questions,
   seed,
+  // The day a Daily five was built for: the Today row ticks that day, never
+  // the day a stale round happens to be on screen.
+  roundDate = null,
   title = null,
   subtitle = null,
   onComplete,
@@ -261,7 +265,9 @@ export default function QuizSimulator({
         celebrate={score === total && !restoredFinished}
         onPlayAgain={onNewQuiz}
         playAgainLabel={NEW_ROUND_LABEL[saveAs] || 'Start new round'}
-        share={DAILY_SHARE[saveAs]}
+        // The Daily five ticks the day it was built for (roundDate). The paper's
+        // tick comes from the weekly scores, so its date here only labels it.
+        share={DAILY_SHARE[saveAs] && { ...DAILY_SHARE[saveAs], date: saveAs === 'daily' ? roundDate : localDateKey() }}
         onChangeSettings={shareChallenge}
         settingsLabel={
           shareState === 'copied' ? (

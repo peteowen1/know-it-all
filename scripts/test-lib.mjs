@@ -16,6 +16,7 @@ import { STORAGE_PREFIX, storageKey, getStored, setStored, removeStored, clearAl
 import { isSyncedKey, mergeSnapshots } from '../src/lib/syncCore.js';
 import { loadLive, saveLive } from '../src/lib/persist.js';
 import { shareText } from '../src/lib/share.js';
+import { markDailyDone, dailyDoneToday } from '../src/lib/dailyDone.js';
 
 const read = (rel) => readFileSync(new URL(rel, import.meta.url), 'utf8');
 
@@ -173,6 +174,20 @@ test('reset clears every version of the app keys and nothing else', () => {
 });
 
 // ------------------------------------------------------------------ report
+test('daily done: marked for today only, and a new day starts clear', () => {
+  markDailyDone('odd-one-out', '2026-10-18');
+  markDailyDone('daily', '2026-10-18');
+  assert.deepEqual([...dailyDoneToday('2026-10-18')].sort(), ['daily', 'odd-one-out']);
+  assert.equal(dailyDoneToday('2026-10-19').size, 0);
+  markDailyDone('daily', '2026-10-19');
+  assert.deepEqual([...dailyDoneToday('2026-10-19')], ['daily']);
+});
+
+test('daily done: a round from yesterday does not tick today', () => {
+  markDailyDone('timeline', '2026-10-20');
+  assert.ok(!dailyDoneToday('2026-10-21').has('timeline'));
+});
+
 test('share text: game and day, score, squares, link without https', () => {
   assert.equal(
     shareText({ game: 'Daily five', day: '18 Oct', score: '4 / 5', squares: [true, true, false, true, true], url: 'https://quiz.peteowen.dev/daily-five' }),
