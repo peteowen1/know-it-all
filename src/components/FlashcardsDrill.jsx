@@ -7,6 +7,7 @@ import { FLASHCARD_DECKS as CORE_DECKS } from '../data/flashcardsData';
 import { EXTRA_DECKS } from '../data/flashcardsExtra';
 import { loadLive, saveLive } from '../lib/persist';
 import { Button, Pill } from './ui';
+import { HowButton, HowPanel } from '../games/shared/HowItWorks';
 
 // Core decks first, then the classic quiz lists (anniversaries, birthstones,
 // phobias...). Two files so each can be rebuilt without touching the other.
@@ -112,8 +113,12 @@ export default function FlashcardsDrill() {
           <h2>{activeDeck.title}</h2>
           <p>{activeDeck.description}</p>
         </div>
-        <Pill>Card {cardIndex + 1} of {activeDeck.cards.length}</Pill>
+        <div className="deck-head-meta">
+          <Pill>Card {cardIndex + 1} of {activeDeck.cards.length}</Pill>
+          <HowButton />
+        </div>
       </div>
+      <HowPanel />
 
       <button
         type="button"

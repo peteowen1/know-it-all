@@ -5,6 +5,7 @@ import { Button, Card, Pill } from './ui';
 import { buildWeeklyPaper, WEEKLY_SHAPE } from '../lib/quizBuilder';
 import { saturdayKey, addDaysToKey } from '../lib/dates';
 import { usePersistentState } from '../lib/persist';
+import { HowButton, HowPanel } from '../games/shared/HowItWorks';
 
 const PAST_WEEKS = 4;
 
@@ -64,12 +65,16 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
   return (
     <Card className="weekly quiz-screen" data-section="weekend">
       <div className="screen-head">
-        <h2>The Saturday paper</h2>
+        <div className="screen-title-row">
+          <h2>The Saturday paper</h2>
+          <HowButton />
+        </div>
         <p>
           Twenty-five questions, easy to hard, the same for everyone. A new paper every Saturday.
           Switch between multiple choice and Recall during the quiz.
         </p>
       </div>
+      <HowPanel />
       <ul className="weekly-list">
         {weeks.map((w) => {
           const s = scores[w];

@@ -33,8 +33,10 @@ export const GAMES = [
   },
   {
     id: 'quiz', section: 'weekend', tab: 'quiz', icon: 'CircleHelp', title: 'Weekend quiz',
-    // The count is a literal until src/data/bankStats.json exists; then import it here.
-    blurb: '1,500+ questions. Choose length, categories and difficulty.',
+    // A literal, not bankStats.json: scripts/test-logic.mjs imports this file in
+    // Node, which cannot import JSON without an import attribute. Update it when
+    // the bank passes the next hundred (4,753 on 2026-10-18).
+    blurb: '4,700+ questions. Choose length, categories and difficulty.',
     recordFormat: (_e, { quizStats }) => (quizStats?.totalQuizzes ? `${quizStats.totalQuizzes} played · best ${quizStats.bestPercentage}%` : null)
   },
   {
