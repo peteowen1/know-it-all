@@ -18,7 +18,9 @@ export function onDailyDone(fn) {
 /** Record that today's round of `tab` is finished. */
 export function markDailyDone(tab, today = localDateKey()) {
   const done = getStored('daily_done', {}, isObject);
-  if (done[tab] === today) return;
+  // Never moves back: finishing an earlier day's board (?day=) after today's
+  // must not take today's tick away.
+  if (done[tab] && done[tab] >= today) return;
   setStored('daily_done', { ...done, [tab]: today });
   listeners.forEach((fn) => fn(tab, today));
 }

@@ -14,6 +14,8 @@ import { onDailyDone } from './lib/dailyDone';
 import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
 import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
 import { pathForTab, tabForPath } from './lib/route';
+import { useDay, dayLabel, searchWithDay } from './lib/day';
+import { EarlierDays } from './components/ui';
 import { OLD_HOST } from './lib/syncConfig';
 
 // Every screen is loaded on first open. The quiz screens share the question
@@ -116,7 +118,8 @@ export default function App() {
     const path = pathForTab(activeTab);
     if (ROUTED && window.location.pathname !== path) {
       // The hash carries a challenge link (#c=...), read once on mount.
-      const url = path + window.location.search + window.location.hash;
+      // An earlier day (?day=) belongs to the screen it was chosen on.
+      const url = path + searchWithDay(window.location.search, null) + window.location.hash;
       if (replaceNext.current) window.history.replaceState(null, '', url);
       else window.history.pushState(null, '', url);
     }
@@ -178,6 +181,8 @@ export default function App() {
 
   const [quiz, setQuiz] = useState();
   const [dailyQuiz, setDailyQuiz] = useState();
+  // The Daily five for an earlier day when the address asks (?day=, src/lib/day.js).
+  const day = useDay();
   // The day the daily set was built for; a tab left open past midnight rebuilds it.
   const dailyDate = useRef(null);
   const [revisionQuiz, setRevisionQuiz] = useState();
@@ -203,14 +208,14 @@ export default function App() {
           ? prev
           : restoreQuiz('quiz', builder) || builder.buildQuiz({ ...DEFAULT_SETUP, ...getStored('setup', {}, isObject) })
       );
-      const today = localDateKey();
-      const stale = dailyDate.current !== today;
-      dailyDate.current = today;
-      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : { ...builder.buildDailyQuiz(5, today), date: today }));
+      const want = (activeTab === 'daily' && day) || localDateKey();
+      const stale = dailyDate.current !== want;
+      dailyDate.current = want;
+      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : { ...builder.buildDailyQuiz(5, want), date: want }));
       setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
       setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
     });
-  }, [activeTab, bank]);
+  }, [activeTab, bank, day]);
 
   useEffect(() => setStored('stats', stats), [stats]);
   useEffect(() => setStored('recent', recentIds), [recentIds]);
@@ -466,25 +471,35 @@ export default function App() {
     ),
     daily: () =>
       dailyQuiz ? (
+        <>
         <QuizSimulator
           key={`daily-${dailyQuiz.seed}`}
           saveAs="daily"
+          saveSlot={dailyQuiz.date === localDateKey() ? 'daily' : 'daily_past'}
           questions={dailyQuiz.questions}
           seed={dailyQuiz.seed}
           roundDate={dailyQuiz.date}
           title="Daily Five"
-          subtitle="The same five questions for everyone today. Come back tomorrow for a new set."
+          subtitle={
+            dailyQuiz.date === localDateKey()
+              ? 'The same five questions for everyone today. Come back tomorrow for a new set.'
+              : `The five questions everyone got on ${dayLabel(dailyQuiz.date)}. They do not count towards your streak.`
+          }
           onComplete={handleComplete}
           onMissed={handleMissed}
           onCorrect={handleCorrect}
           onNewQuiz={async () => {
             const builder = await bank();
             if (builder) {
-              const today = localDateKey();
-              setDailyQuiz({ ...builder.buildDailyQuiz(5, today), date: today });
+              const want = day || localDateKey();
+              setDailyQuiz({ ...builder.buildDailyQuiz(5, want), date: want });
             }
           }}
         />
+        <div className="daily-days">
+          <EarlierDays day={day} />
+        </div>
+        </>
       ) : (
         waiting
       ),

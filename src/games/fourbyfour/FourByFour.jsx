@@ -1,11 +1,12 @@
 import React, { useMemo } from 'react';
 import data from '../../data/fourbyfour.json';
 import { localDateKey } from '../../lib/dates';
+import { useDay, daysOwn, clearDay } from '../../lib/day';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
-import { AnswerRow, Button, GameCard, GameResults } from '../../components/ui';
+import { AnswerRow, Button, GameCard, GameResults, EarlierDays } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
 import { HowButton, HowPanel } from '../shared/HowItWorks';
 
@@ -13,11 +14,11 @@ const MISTAKES = 4;
 
 /**
  * The day's puzzle is the same for everyone: its index comes from the local
- * date, so it changes at local midnight rather than at UTC midnight (10am in
+ * date (an earlier day's, from ?day=, gives that day's puzzle), so it changes at local midnight rather than at UTC midnight (10am in
  * Sydney), the same rule the Daily Five uses.
  */
-function dailyIndex(n) {
-  return hashString(`fourbyfour:${localDateKey()}`) % n;
+function dailyIndex(n, date) {
+  return hashString(`fourbyfour:${date}`) % n;
 }
 
 /**
@@ -28,22 +29,27 @@ function dailyIndex(n) {
 export default function FourByFour({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame] = usePersistentState('fourbyfour', null);
+  // An earlier day's puzzle when the address asks for one (?day=, src/lib/day.js).
+  const day = useDay();
   // The day the daily puzzle was last finished: playing it again that day is
   // allowed, but only the first finish counts as a play.
   const [dailyDone, setDailyDone] = usePersistentState('fourbyfour-daily', null);
   const entry = gameEntry(stats, 'connections');
 
   const start = (daily) => {
-    const index = daily ? dailyIndex(data.puzzles.length) : Math.floor(Math.random() * data.puzzles.length);
+    // A random puzzle is not tied to a day, so it leaves the earlier day's address.
+    if (!daily) clearDay();
+    const date = daily ? day || localDateKey() : localDateKey();
+    const index = daily ? dailyIndex(data.puzzles.length, date) : Math.floor(Math.random() * data.puzzles.length);
     const puzzle = data.puzzles[index];
     const tiles = shuffle(
       puzzle.groups.flatMap((g, gi) => g.items.map((text) => ({ text, group: gi }))),
       makeRng(hashString(`${index}:${Date.now()}`))
     );
-    setGame({ daily, date: localDateKey(), index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [] });
+    setGame({ daily, date, index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [] });
   };
 
-  if (!game) {
+  if (!game || (day && !(game.daily && game.date === day))) {
     return (
       <GameSetup
         title="Four by four"
@@ -57,8 +63,9 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
         }
         note={`${data.puzzles.length} puzzles built from the flags, capitals, charts, films, TV and famous-names data.`}
       >
+        <EarlierDays day={day} />
         <div className="setup-actions">
-          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's puzzle</Button>
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>{daysOwn(day)} puzzle</Button>
           <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random puzzle</Button>
         </div>
       </GameSetup>
@@ -71,10 +78,9 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       game={game}
       setGame={setGame}
       onFinish={(g, won) => {
-        if (g.daily) {
-          const today = localDateKey();
-          if (dailyDone === today) return;
-          setDailyDone(today);
+        if (g.daily && g.date === localDateKey()) {
+          if (dailyDone === g.date) return;
+          setDailyDone(g.date);
         }
         onRoundComplete('connections', {
           // A win is a win whatever the mistakes; `run` is groups the player
@@ -147,7 +153,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
     return (
       <GameResults
         data-section="lab"
-        eyebrow={game.daily ? "Today's four by four" : 'Four by four'}
+        eyebrow={game.daily ? `${daysOwn(game.date === localDateKey() ? null : game.date)} four by four` : 'Four by four'}
         hero={won ? (mistakes === 0 ? 'Perfect' : 'Solved') : 'Out of guesses'}
         verdict={won ? (mistakes === 0 ? 'Four groups, no mistakes.' : `Solved with ${mistakes} mistake${mistakes === 1 ? '' : 's'}.`) : 'Here are the four groups.'}
         celebrate={won && mistakes === 0}
@@ -176,7 +182,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
   return (
     <GameCard data-section="lab" width="sm">
       <div className="play-head">
-        <p className="play-progress">{game.daily ? "Today's four by four" : 'Four by four'}</p>
+        <p className="play-progress">{game.daily ? `${daysOwn(game.date === localDateKey() ? null : game.date)} four by four` : 'Four by four'}</p>
         <span className="fbf-mistakes" role="img" aria-label={`${left} mistake${left === 1 ? '' : 's'} left`}>
           {Array.from({ length: MISTAKES }, (_, i) => (
             <span key={i} className="fbf-dot" data-on={i < left ? 'true' : 'false'} />

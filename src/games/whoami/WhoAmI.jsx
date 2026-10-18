@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import data from '../../data/famous.json';
 import { buildWhoRounds, guessIsRight, whoPoints, yearText, ROUNDS, RUNGS } from './whoLogic';
 import { localDateKey } from '../../lib/dates';
+import { useDay, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
-import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
+import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 // The clue stack and guess box look the same as Clue ladder's.
 import '../clueladder/clueladder.css';
@@ -22,16 +23,21 @@ const RUNG_LABEL = ['', 'Known for', 'Born', 'First name'];
 export default function WhoAmI({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame] = usePersistentState('who_am_i', null);
+  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
+  const day = useDay();
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'who-am-i');
 
   const start = (daily) => {
-    const seed = daily ? localDateKey() : `${Date.now()}`;
+    // A random round is not tied to a day, so it leaves the earlier day's address.
+    if (!daily) clearDay();
+    const date = daily ? day || localDateKey() : localDateKey();
+    const seed = daily ? date : `${Date.now()}`;
     setGuess('');
-    setGame({ daily, date: localDateKey(), rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [] });
+    setGame({ daily, date, rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [] });
   };
 
-  if (!game) {
+  if (!game || (day && !(game.daily && game.date === day))) {
     return (
       <GameSetup
         title="Who am I"
@@ -45,8 +51,9 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
           </>
         }
       >
+        <EarlierDays day={day} />
         <div className="setup-actions">
-          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's five</Button>
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>{daysOwn(day)} five</Button>
           <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
       </GameSetup>

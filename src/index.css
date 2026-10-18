@@ -961,3 +961,6 @@ button { cursor: pointer; }
 /* ---- Small shared bits ---- */
 .most-missed-list { list-style: none; }
 .setup-caption { margin-top: var(--s-2); font-size: var(--fs-sm); color: var(--ink-3); }
+
+/* The "Day" row under the Daily five (earlier days, src/lib/day.js). */
+.daily-days { margin-top: var(--s-5); }

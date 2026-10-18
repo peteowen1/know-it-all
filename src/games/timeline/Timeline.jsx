@@ -3,10 +3,11 @@ import { ArrowDown, ArrowUp } from 'lucide-react';
 import data from '../../data/timeline.json';
 import { buildRound, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
+import { useDay, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
-import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow } from '../../components/ui';
+import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow, EarlierDays } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
 import KindIcon from '../shared/KindIcon';
@@ -19,14 +20,19 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
   const [difficulty, setDifficulty] = useState('easy');
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [round, setRound] = usePersistentState('timeline', null);
+  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
+  const day = useDay();
   const entry = gameEntry(stats, 'timeline');
 
   const start = (daily) => {
-    const seed = daily ? `${localDateKey()}:${difficulty}` : `${Date.now()}`;
-    setRound({ daily, date: localDateKey(), order: buildRound(data.events, { difficulty, seed }), checked: false });
+    // A random round is not tied to a day, so it leaves the earlier day's address.
+    if (!daily) clearDay();
+    const date = daily ? day || localDateKey() : localDateKey();
+    const seed = daily ? `${date}:${difficulty}` : `${Date.now()}`;
+    setRound({ daily, date, order: buildRound(data.events, { difficulty, seed }), checked: false });
   };
 
-  if (!round) {
+  if (!round || (day && !(round.daily && round.date === day))) {
     return (
       <GameSetup
         title="Timeline"
@@ -47,8 +53,9 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
           <Chip active={difficulty === 'easy'} onClick={() => setDifficulty('easy')}>Easy: years well apart</Chip>
           <Chip active={difficulty === 'hard'} onClick={() => setDifficulty('hard')}>Hard: all within 12 years</Chip>
         </SetupRow>
+        <EarlierDays day={day} />
         <div className="setup-actions">
-          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>Today's timeline</Button>
+          <Button variant="primary" icon="CalendarDays" onClick={() => start(true)}>{daysOwn(day)} timeline</Button>
           <Button variant="secondary" icon="Shuffle" onClick={() => start(false)}>Random</Button>
         </div>
       </GameSetup>
@@ -70,7 +77,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
   };
   const truth = [...order].sort((a, b) => a.year - b.year);
 
-  const title = round.daily ? "Today's timeline" : 'Timeline';
+  const title = round.daily ? `${daysOwn(round.date === localDateKey() ? null : round.date)} timeline` : 'Timeline';
 
   if (checked) {
     const { correct, total } = round.score;

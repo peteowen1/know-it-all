@@ -17,7 +17,9 @@ over and redirects). The home screen lists every game, played or planned:
 
 Every screen has its own address (`/clue-ladder`, `/daily-five`; the list is in
 `src/lib/route.js`), one level deep because the build loads its files by
-relative path.
+relative path. An earlier day's daily round adds `?day=`, for example
+`/four-by-four?day=2026-10-17` (`src/lib/day.js`); each daily game's setup
+screen lists the last week.
 
 Each data set is rebuilt by a script in `scripts/` (`npm run data:*`) from
 Wikipedia, Wikidata or the World Bank, so nothing time-sensitive is typed by hand.
