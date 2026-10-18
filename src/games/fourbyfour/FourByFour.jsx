@@ -151,6 +151,9 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
         hero={won ? (mistakes === 0 ? 'Perfect' : 'Solved') : 'Out of guesses'}
         verdict={won ? (mistakes === 0 ? 'Four groups, no mistakes.' : `Solved with ${mistakes} mistake${mistakes === 1 ? '' : 's'}.`) : 'Here are the four groups.'}
         celebrate={won && mistakes === 0}
+        // One square per guess, in order: a whole group, or a mistake. The
+        // shared result then shows how the puzzle went, as NYT's does.
+        squares={game.guesses.map((key) => new Set(key.split('|').map((t) => tiles.find((x) => x.text === t)?.group)).size === 1)}
         onPlayAgain={onAgain}
         share={game.daily ? dailyShare('Four by four', 'connections', game.date) : undefined}
         playAgainLabel="Another puzzle"
