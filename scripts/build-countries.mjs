@@ -15,8 +15,9 @@
 // re-fetching. What ships is slimmer: lib/output.mjs lists the fields something
 // reads (the name in 25 languages, ~40% of the raw file, never ships).
 
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fromRoot, writeData } from './lib/output.mjs';
+import { unSubregions } from './lib/unRegions.mjs';
 
 const COUNTRIES_URL = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
 const POP_URL =
@@ -42,9 +43,20 @@ const ACCEPT_ALSO = {
   AG: ["St John's"]
 };
 
-// Where REST Countries' subregion differs from the UN geoscheme (M49), whose
-// names it otherwise uses. South Sudan is Eastern Africa there.
-const SUBREGION_FIX = { SS: 'Eastern Africa' };
+// Subregions follow the UN geoscheme (M49), not REST Countries' own grouping
+// (see lib/unRegions.mjs). The UN table is saved raw in data-raw/un-m49/.
+// Kosovo and Taiwan are not in it: Kosovo goes with its neighbours in Southern
+// Europe (M49 counts it under Serbia), Taiwan keeps REST Countries' Eastern Asia.
+const UN_M49_URL = 'https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv';
+const UN_M49_FILE = fromRoot('data-raw/un-m49/all.csv');
+if (!existsSync(UN_M49_FILE)) {
+  const res = await fetch(UN_M49_URL);
+  if (!res.ok) throw new Error(`UN M49 table: ${res.status}`);
+  mkdirSync(fromRoot('data-raw/un-m49'), { recursive: true });
+  writeFileSync(UN_M49_FILE, await res.text());
+}
+const UN_SUBREGION = unSubregions(UN_M49_FILE);
+UN_SUBREGION.set('XK', 'Southern Europe');
 
 // Country names people type that REST Countries does not list.
 const NAMES_ALSO = {
@@ -89,7 +101,7 @@ const countries = raw
       capitals: c.capital || [],
       capitalsAlsoAccepted: ACCEPT_ALSO[c.cca2] || [],
       region: c.region,
-      subregion: SUBREGION_FIX[c.cca2] || c.subregion || c.region,
+      subregion: UN_SUBREGION.get(c.cca2) || c.subregion || c.region,
       sovereign: c.unMember || EXTRA_SOVEREIGN.has(c.cca2),
       unMember: c.unMember,
       flag: c.flag,

@@ -41,6 +41,7 @@ import {
   loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { finishAccepts, sharedForms } from './lib/listAccept.mjs';
+import { leftOutByRule } from './lib/famousRules.mjs';
 import { ROOT, SHIPPED, dataFile, slim, extraKeys } from './lib/output.mjs';
 
 const { years: MUSIC } = JSON.parse(readFileSync(new URL('../src/data/charts/music.json', import.meta.url), 'utf8'));
@@ -1003,6 +1004,40 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
     assert.equal(tabForPath('/'), 'home');
     assert.equal(tabForPath('/Clue-Ladder/'), 'clue-ladder');
     assert.equal(tabForPath('/%'), '%');
+  });
+}
+
+
+// ---------------------------------------------------------- famous first names
+{
+  const FAMOUS = JSON.parse(readFileSync(new URL('../src/data/famous.json', import.meta.url), 'utf8')).names;
+  // Pete's per-person calls: "in" keeps someone the rule would leave out.
+  const keptByPete = new Set(
+    readFileSync(new URL('./famous-left-out.csv', import.meta.url), 'utf8')
+      .split(/\r?\n/)
+      .filter((l) => /,in,Q\d+$/.test(l))
+      .map((l) => l.match(/(Q\d+)$/)[1])
+  );
+  test('famous: nobody is on the boards twice (2026-10-18: Luis Suárez was, via two titles)', () => {
+    const seen = new Map();
+    const twice = [];
+    for (const n of FAMOUS) for (const p of n.people) {
+      if (seen.has(p.id)) twice.push(`${p.name} on ${seen.get(p.id)} and ${n.first}`);
+      seen.set(p.id, n.first);
+    }
+    assert.deepEqual(twice, []);
+  });
+  test('famous: every board has at least 12 people', () =>
+    assert.deepEqual(FAMOUS.filter((n) => n.people.length < 12).map((n) => `${n.first} ${n.people.length}`), []));
+  test("famous: nobody Pete's rule leaves out is on a board, unless he kept them", () => {
+    const hits = FAMOUS.flatMap((n) => n.people.filter((p) => leftOutByRule(p.description, p.name) && !keptByPete.has(p.id)).map((p) => `${p.name}: ${p.description}`));
+    assert.deepEqual(hits, []);
+  });
+  test('famous: the rule keeps the cases it once got wrong', () => {
+    for (const d of ['American criminal-justice activist', 'American criminal profiler, forensic linguist, and author', 'American wrongly convicted of murder (1941–2013)', 'American con artist'])
+      assert.equal(leftOutByRule(d, ''), false, d);
+    for (const d of ['English criminal (born 1952)', 'Austrian war criminal', 'American serial killer', 'American man convicted of murder and previously wrongly convicted of rape'])
+      assert.equal(leftOutByRule(d, ''), true, d);
   });
 }
 
