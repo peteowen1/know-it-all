@@ -205,12 +205,13 @@ const boardOf = new Map(SAME_SOUND.flatMap((g) => g.map((n) => [n, g[0]])));
 // Words that lead a name without being a first name: titles and honorifics
 // ("The Buddha", "Princess Margaret", "Abu Bakr", "Ma Rainey"), and family
 // names written first ("Wang Jianlin", "Park Chung Hee", "Ma Long"), which the
-// vital articles brought in. Lee stays: it is also a common first name.
+// vital articles brought in. Lee and Kim stay: both are common first names too
+// (Kim Kardashian), so those boards mix the two, as they always have.
 const NOT_FIRST_NAMES = new Set([
   'The', 'King', 'Queen', 'Prince', 'Princess', 'Emperor', 'Empress', 'Pope', 'Saint', 'St.', 'Sir', 'Lord', 'Lady',
   'Duke', 'Duchess', 'Abu', 'Ibn', 'Ma', 'Mother', 'Sister', 'Brother', 'Father', 'General', 'President',
   'Wang', 'Li', 'Zhang', 'Liu', 'Chen', 'Yang', 'Zhao', 'Huang', 'Zhou', 'Wu', 'Xu', 'Sun', 'Hu', 'Zhu', 'Gao', 'Lin',
-  'Guo', 'Luo', 'Liang', 'Song', 'Zheng', 'Xie', 'Tang', 'Feng', 'Deng', 'Cao', 'Xi', 'Mao', 'Jiang', 'Yuan', 'Kim',
+  'Guo', 'Luo', 'Liang', 'Song', 'Zheng', 'Xie', 'Tang', 'Feng', 'Deng', 'Cao', 'Xi', 'Mao', 'Jiang', 'Yuan',
   'Park', 'Choi', 'Jung', 'Kang', 'Cho', 'Yoon', 'Jang', 'Lim', 'Shin', 'Nguyen', 'Tran'
 ]);
 
