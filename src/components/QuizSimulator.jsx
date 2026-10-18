@@ -265,9 +265,10 @@ export default function QuizSimulator({
         celebrate={score === total && !restoredFinished}
         onPlayAgain={onNewQuiz}
         playAgainLabel={NEW_ROUND_LABEL[saveAs] || 'Start new round'}
-        // The Daily five ticks the day it was built for (roundDate). The paper's
-        // tick comes from the weekly scores, so its date here only labels it.
-        share={DAILY_SHARE[saveAs] && { ...DAILY_SHARE[saveAs], date: saveAs === 'daily' ? roundDate : localDateKey() }}
+        // The Daily five ticks the day it was built for (roundDate); the paper
+        // passes its week, which only labels the share (its tick comes from the
+        // weekly scores).
+        share={DAILY_SHARE[saveAs] && { ...DAILY_SHARE[saveAs], date: saveAs === 'daily' ? roundDate : roundDate || localDateKey() }}
         onChangeSettings={shareChallenge}
         settingsLabel={
           shareState === 'copied' ? (

@@ -14,6 +14,13 @@ export function shareText({ game, day, score, squares = [], url }) {
 /** Today as the share line shows it: "18 Oct". */
 export const shareDay = (date = new Date()) => date.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
 
+/** A 'YYYY-MM-DD' key as the share line shows it, or today when there is none. */
+export const shareDayOf = (key) => {
+  if (!key) return shareDay();
+  const [y, m, d] = key.split('-').map(Number);
+  return shareDay(new Date(y, m - 1, d));
+};
+
 /**
  * Share or copy the text. The phone's share sheet where there is one (it can
  * go straight to a chat), the clipboard otherwise. Resolves 'shared',

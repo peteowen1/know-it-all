@@ -44,6 +44,7 @@ export default function WeeklyPaper({ scores, onPaperDone, onComplete, onMissed,
         questions={paper.questions}
         seed={paper.seed}
         saveAs="weekly"
+        roundDate={open}
         saveId={`${open}:${runId}`}
         title={`The Saturday paper · ${pretty(open)}`}
         subtitle={
