@@ -1,10 +1,10 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import lookalikes from '../../data/flagLookalikes.json';
 import countriesData from '../../data/countries.json';
 import { buildRounds, eligiblePairs, ROUNDS } from './twinLogic';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
-import { AnswerRow, Button, Flag, GameCard, GameResults, Pill } from '../../components/ui';
+import { AnswerRow, Button, Flag, GameCard, GameResults, Pill, preloadFlags } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead, Prompt } from '../shared/Play';
 import './twinflags.css';
 
@@ -17,6 +17,11 @@ const PAIRS = eligiblePairs(lookalikes, NAME_OF);
  */
 export default function TwinFlags({ stats, onRoundComplete, onExit }) {
   const [game, setGame] = usePersistentState('twin-flags', null);
+  // Both flags of every round, fetched as the round starts (see preloadFlags).
+  const flagRounds = game?.rounds;
+  useEffect(() => {
+    if (flagRounds) preloadFlags(flagRounds.flatMap((r) => [r.left, r.right]));
+  }, [flagRounds]);
   const entry = gameEntry(stats, 'twin-flags');
   const pairs = useMemo(() => PAIRS, []);
 

@@ -23,6 +23,21 @@
   line-height: 1.2;
 }
 .setup-record { color: var(--ink-2); font-size: var(--fs-sm); line-height: 1.5; }
+.setup-head-actions { display: flex; align-items: center; gap: var(--s-2); flex-shrink: 0; }
+.how-btn { width: 40px; height: 40px; }
+.how-btn[aria-expanded='true'] { background: var(--surface-2); }
+/* How it works: three short labelled parts, on the card's quieter surface. */
+.how-panel {
+  margin: 0;
+  padding: var(--s-3) var(--s-4);
+  background: var(--surface-2);
+  border-radius: var(--r-md, 12px);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+}
+.how-panel dt { font-weight: 700; color: var(--accent-text); }
+.how-panel dt:not(:first-child) { margin-top: var(--s-2); }
+.how-panel dd { margin: 0; color: var(--ink-2); }
 .setup-foot { color: var(--ink-3); font-size: var(--fs-xs); line-height: 1.5; }
 .setup-caption { font-size: var(--fs-xs); color: var(--ink-3); }
 .setup-actions { display: flex; flex-wrap: wrap; gap: var(--s-3); }
@@ -81,6 +96,9 @@
   .play-options { grid-template-columns: 1fr 1fr; }
 }
 .play-options[data-flags='true'] { grid-template-columns: 1fr 1fr; }
+/* A named option shows its flag once answered (Flags), to compare the near-misses. */
+.option-flag { display: inline-flex; align-items: center; gap: var(--s-2); }
+.option-flag .ui-flag { flex-shrink: 0; width: 2em; height: 1.5em; border-radius: 3px; box-shadow: 0 0 0 1px var(--line); }
 .play-option {
   display: flex;
   align-items: center;

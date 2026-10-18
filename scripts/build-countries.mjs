@@ -20,6 +20,7 @@ import { fromRoot, writeData } from './lib/output.mjs';
 import { unSubregions } from './lib/unRegions.mjs';
 
 const COUNTRIES_URL = 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json';
+const GDP_URL = 'https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json&per_page=20000';
 const POP_URL =
   'https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&mrnev=1&per_page=400';
 
@@ -75,10 +76,17 @@ const getJson = async (url) => {
 
 const raw = await getJson(COUNTRIES_URL);
 const [, popRows] = await getJson(POP_URL);
+// GDP in current US dollars, every year for every country (the most-recent
+// filter is ignored for this indicator), saved whole; each country's latest
+// reported year is used.
+const gdpResponse = await getJson(GDP_URL);
+const [gdpMeta, gdpRows] = gdpResponse;
+if (gdpMeta.pages > 1) throw new Error(`World Bank GDP came in ${gdpMeta.pages} pages; raise per_page in GDP_URL`);
 
 mkdirSync(fromRoot('data-raw'), { recursive: true });
 writeFileSync(fromRoot('data-raw/mledoze-countries.json'), JSON.stringify(raw));
 writeFileSync(fromRoot('data-raw/worldbank-population.json'), JSON.stringify(popRows));
+writeFileSync(fromRoot('data-raw/worldbank-gdp.json'), JSON.stringify(gdpResponse));
 
 // Kosovo is UNK in mledoze and XKX at the World Bank; no other code differs.
 const WB_ISO3 = { UNK: 'XKX' };
@@ -87,9 +95,17 @@ const pop = new Map(
   popRows.filter((r) => r.value != null).map((r) => [r.countryiso3code, { value: r.value, year: Number(r.date) }])
 );
 
+const gdp = new Map();
+for (const r of gdpRows) {
+  if (r.value == null || !r.countryiso3code) continue;
+  const cur = gdp.get(r.countryiso3code);
+  if (!cur || Number(r.date) > cur.year) gdp.set(r.countryiso3code, { value: r.value, year: Number(r.date) });
+}
+
 const countries = raw
   .map(({ translations: _translations, ...c }) => {
     const p = pop.get(WB_ISO3[c.cca3] || c.cca3);
+    const g = gdp.get(WB_ISO3[c.cca3] || c.cca3);
     return {
       code: c.cca2,
       iso3: c.cca3,
@@ -107,6 +123,8 @@ const countries = raw
       flag: c.flag,
       population: p?.value ?? null,
       populationYear: p?.year ?? null,
+      gdp: g ? Math.round(g.value) : null,
+      gdpYear: g?.year ?? null,
       area: c.area,
       altNames: [...(c.altSpellings || []), ...(NAMES_ALSO[c.cca2] || [])],
       landlocked: c.landlocked,

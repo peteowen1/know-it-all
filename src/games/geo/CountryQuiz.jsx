@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { COUNTRIES } from './countries';
-import { REGIONS, countryPool, buildGeoRound, identicalFlags } from './geoPool';
+import { REGIONS, countryPool, buildGeoRound, identicalFlags, formatPopulation } from './geoPool';
 import LOOKALIKES from '../../data/flagLookalikes.json';
 import { gameEntry, itemWeights, weakestItems } from '../../lib/gameStats';
 import {
-  AnswerRow, Button, Chip, Flag, GameCard, GameResults, MostMissed, Pill, SetupRow, AnswerModeToggle
+  AnswerRow, Button, Chip, Flag, GameCard, GameResults, MostMissed, Pill, SetupRow, AnswerModeToggle, preloadFlags
 } from '../../components/ui';
 import { Ask, ChoiceQuestion, GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
@@ -63,6 +63,26 @@ function restoreRound(saved) {
   return { ...saved, questions };
 }
 
+/** "US$1.80 trillion", "US$57.3 million": World Bank GDP in US dollars. */
+function formatMoney(n) {
+  if (n >= 1e12) return `US$${(n / 1e12).toFixed(2)} trillion`;
+  if (n >= 1e9) return `US$${(n / 1e9).toFixed(n >= 1e11 ? 0 : 1)} billion`;
+  return `US$${(n / 1e6).toFixed(1)} million`;
+}
+
+/** The country in numbers: people, size and economy, each with its year. */
+function statsLine(c) {
+  const parts = [];
+  if (c.population) parts.push(`population ${formatPopulation(c.population)}`);
+  // Vatican City is 0.44 km²: small areas keep their decimals.
+  if (c.area) parts.push(`${c.area < 10 ? c.area.toFixed(2) : Math.round(c.area).toLocaleString('en-AU')} km²`);
+  if (c.gdp) {
+    const perHead = c.population ? ` (US$${Math.round(c.gdp / c.population).toLocaleString('en-AU')} a person)` : '';
+    parts.push(`GDP ${formatMoney(c.gdp)}${perHead}, ${c.gdpYear}`);
+  }
+  return parts.join(' · ');
+}
+
 /** What to show under the answer once it is revealed: the bits a quiz-setter would use next. */
 function factLine(c) {
   const parts = [c.subregion];
@@ -91,6 +111,15 @@ export default function CountryQuiz({
     const live = round && round.index < round.questions.length;
     onRoundChange(kind, live ? serialiseRound(round) : null);
   }, [round, kind, onRoundChange]);
+  // Every flag the round can show (each question's country and its options),
+  // fetched as the round starts rather than one by one as they appear.
+  const roundQuestions = round?.questions;
+  useEffect(() => {
+    // Capitals shows only the question's own flag; Flags shows the options' too.
+    if (roundQuestions) {
+      preloadFlags(roundQuestions.flatMap((q) => (kind === 'flags' ? [q.target.code, ...q.options.map((o) => o.code)] : [q.target.code])));
+    }
+  }, [roundQuestions, kind]);
   // Index of the last question answered. A ref, not state: two clicks landing
   // before React re-renders both see the old state, and on the last question
   // that recorded the whole round twice.
@@ -211,7 +240,7 @@ export default function CountryQuiz({
       >
         {missed.length > 0 && <h3 className="eyebrow">Missed this round</h3>}
         {missed.map(({ target: c }) => (
-          <AnswerRow key={c.code} state="missed" lead={<Flag code={c.code} size="sm" decorative />} trail={c.capitals[0]}>
+          <AnswerRow key={c.code} state="missed" lead={<Flag code={c.code} size="sm" decorative />} trail={`capital ${c.capitals[0]}`}>
             <strong>{c.name}</strong>
           </AnswerRow>
         ))}
@@ -251,7 +280,13 @@ export default function CountryQuiz({
       <ChoiceQuestion
         options={q.options.map((o) => ({
           key: o.code,
-          label: dir.render ? dir.render(o) : dir.label(o),
+          // Once answered, each named option shows its flag beside the name,
+          // so a wrong pick can be compared with the right one.
+          label: dir.render
+            ? dir.render(o)
+            : kind === 'flags' && answered
+              ? <span className="option-flag"><Flag code={o.code} size="sm" decorative />{dir.label(o)}</span>
+              : dir.label(o),
           name: dir.render ? o.name : undefined
         }))}
         correctIndex={q.correctIndex}
@@ -270,6 +305,7 @@ export default function CountryQuiz({
         <>
           <p className="play-fact">
             <strong>{q.target.name}</strong>: capital {q.target.capitals[0]} · {factLine(q.target)}
+            {statsLine(q.target) && <><br />{statsLine(q.target)}</>}
             {lookalikes.length > 0 && (
               <><br />Same flag as {lookalikes.join(', ')} apart from its proportions.</>
             )}

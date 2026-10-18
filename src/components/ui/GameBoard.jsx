@@ -4,6 +4,7 @@
 import React from 'react';
 import GameCard from './GameCard';
 import Pill from './Pill';
+import { HowButton, HowPanel } from '../../games/shared/HowItWorks';
 
 export default function GameBoard({
   title, subtitle, score, timer, headExtra, input, message, tone, children, footer, width, className = '', ...rest
@@ -19,8 +20,10 @@ export default function GameBoard({
           {score != null && <Pill variant="accent">{score}</Pill>}
           {timer != null && <Pill>{timer}</Pill>}
           {headExtra}
+          <HowButton />
         </div>
       </div>
+      <HowPanel />
       {input && <div className="game-board-input">{input}</div>}
       {message != null && (
         <p className="game-board-msg" data-tone={tone} role="status" aria-live="polite">

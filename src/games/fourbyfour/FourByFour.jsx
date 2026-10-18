@@ -6,6 +6,7 @@ import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
 import { AnswerRow, Button, GameCard, GameResults } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
+import { HowButton, HowPanel } from '../shared/HowItWorks';
 
 const MISTAKES = 4;
 
@@ -176,7 +177,9 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
             <span key={i} className="fbf-dot" data-on={i < left ? 'true' : 'false'} />
           ))}
         </span>
+        <HowButton />
       </div>
+      <HowPanel />
 
       {solved.map((gi) => {
         const g = puzzle.groups[gi];
