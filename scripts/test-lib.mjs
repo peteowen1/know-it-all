@@ -15,6 +15,7 @@ import { computeBankStats } from './build-bank-stats.mjs';
 import { STORAGE_PREFIX, storageKey, getStored, setStored, removeStored, clearAllStored, onDirty } from '../src/lib/storage.js';
 import { isSyncedKey, mergeSnapshots } from '../src/lib/syncCore.js';
 import { loadLive, saveLive } from '../src/lib/persist.js';
+import { shareText } from '../src/lib/share.js';
 
 const read = (rel) => readFileSync(new URL(rel, import.meta.url), 'utf8');
 
@@ -172,7 +173,16 @@ test('reset clears every version of the app keys and nothing else', () => {
 });
 
 // ------------------------------------------------------------------ report
+test('share text: game and day, score, squares, link without https', () => {
+  assert.equal(
+    shareText({ game: 'Daily five', day: '18 Oct', score: '4 / 5', squares: [true, true, false, true, true], url: 'https://quiz.peteowen.dev/daily-five' }),
+    'Know-It-All · Daily five · 18 Oct\n4 / 5\n🟩🟩🟥🟩🟩\nquiz.peteowen.dev/daily-five'
+  );
+  assert.equal(shareText({ game: 'Odd one out', score: '3 / 5' }), 'Know-It-All · Odd one out\n3 / 5');
+});
+
 console.log(`\n${pass} passed, ${failures.length} failed`);
+
 if (failures.length) {
   failures.forEach((f) => console.error(`  x ${f}`));
   process.exit(1);

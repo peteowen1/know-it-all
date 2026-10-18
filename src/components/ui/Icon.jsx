@@ -10,7 +10,7 @@ import {
   Lightbulb, Link, Map, Medal, MessageSquareText, Microscope, Moon, Music, Newspaper, Orbit,
   Palette, Puzzle, Radio, RotateCcw, Scale, ScrollText, Shuffle, Sparkles, Sprout, Star, Sun,
   Swords, Target, Telescope, ThumbsUp, Timer, Trophy, Tv, TrendingUp, User, UserRound, Users,
-  Utensils, Vote, Wine, X, Zap, ArrowRight, ArrowLeft, ArrowLeftRight, Landmark, Lock
+  Utensils, Vote, Wine, X, Zap, ArrowRight, ArrowLeft, ArrowLeftRight, Landmark, Lock, Share2
 } from 'lucide-react';
 
 const ICONS = {
@@ -21,7 +21,8 @@ const ICONS = {
   Lightbulb, Link, Map, Medal, MessageSquareText, Microscope, Moon, Music, Newspaper, Orbit,
   Palette, Puzzle, Radio, RotateCcw, Scale, ScrollText, Shuffle, Sparkles, Sprout, Star, Sun,
   Swords, Target, Telescope, ThumbsUp, Timer, Trophy, Tv, TrendingUp, User, UserRound, Users,
-  Utensils, Vote, Wine, X, Zap, ArrowRight, ArrowLeft, ArrowLeftRight, Landmark, Lock
+  Utensils, Vote, Wine, X, Zap, ArrowRight, ArrowLeft, ArrowLeftRight, Landmark, Lock,
+  Share: Share2
 };
 
 export default function Icon({ name, size = 20, ...rest }) {

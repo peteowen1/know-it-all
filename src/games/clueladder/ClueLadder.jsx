@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { localDateKey } from '../../lib/dates';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput } from '../../components/ui';
 import RouteFallback from '../../components/RouteFallback';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
@@ -112,6 +113,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.points > 0)}
         celebrate={total === MAX}
         onPlayAgain={() => start(false)}
+        share={game.daily ? dailyShare('Clue ladder', 'clue-ladder') : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
