@@ -20,7 +20,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
 
   const start = (daily) => {
     const seed = daily ? localDateKey() : `${Date.now()}`;
-    setGame({ daily, rounds: buildLinkRounds(data.categories, { seed }), index: 0, shown: 1, results: [] });
+    setGame({ daily, date: localDateKey(), rounds: buildLinkRounds(data.categories, { seed }), index: 0, shown: 1, results: [] });
   };
 
   if (!game) {
@@ -60,7 +60,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.points > 0)}
         celebrate={total === rounds.length * CLUES}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Missing link', 'missing-link') : undefined}
+        share={game.daily ? dailyShare('Missing link', 'missing-link', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

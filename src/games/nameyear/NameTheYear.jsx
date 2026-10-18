@@ -21,7 +21,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
 
   const start = (daily) => {
     const seed = daily ? localDateKey() : `${Date.now()}`;
-    setGame({ daily, rounds: buildYearRounds(data.events, { seed }), index: 0, guesses: [], input: '' });
+    setGame({ daily, date: localDateKey(), rounds: buildYearRounds(data.events, { seed }), index: 0, guesses: [], input: '' });
   };
 
   if (!game) {
@@ -66,7 +66,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
         squares={guesses.map((g, i) => yearPoints(g, rounds[i].year) > 0)}
         celebrate={total === rounds.length * 10}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Name the year', 'year-guess') : undefined}
+        share={game.daily ? dailyShare('Name the year', 'year-guess', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

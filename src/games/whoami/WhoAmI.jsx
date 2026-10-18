@@ -28,7 +28,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
   const start = (daily) => {
     const seed = daily ? localDateKey() : `${Date.now()}`;
     setGuess('');
-    setGame({ daily, rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [] });
+    setGame({ daily, date: localDateKey(), rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [] });
   };
 
   if (!game) {
@@ -68,7 +68,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.points > 0)}
         celebrate={total === MAX}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Who am I', 'who-am-i') : undefined}
+        share={game.daily ? dailyShare('Who am I', 'who-am-i', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

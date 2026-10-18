@@ -5,6 +5,7 @@ import { shuffle } from '../lib/rng';
 import { CATEGORIES } from '../data/categories';
 import { challengeUrl } from '../lib/transfer';
 import { dailyShare } from '../lib/share';
+import { localDateKey } from '../lib/dates';
 
 // The rounds everyone gets the same: a result worth sharing.
 const DAILY_SHARE = { daily: dailyShare('Daily five', 'daily'), weekly: dailyShare('Saturday paper', 'weekly') };
@@ -261,7 +262,9 @@ export default function QuizSimulator({
         celebrate={score === total && !restoredFinished}
         onPlayAgain={onNewQuiz}
         playAgainLabel={NEW_ROUND_LABEL[saveAs] || 'Start new round'}
-        share={DAILY_SHARE[saveAs]}
+        // A Daily five saved yesterday is never restored (its seed is the date),
+        // so the results on screen are always today's round.
+        share={DAILY_SHARE[saveAs] && { ...DAILY_SHARE[saveAs], date: localDateKey() }}
         onChangeSettings={shareChallenge}
         settingsLabel={
           shareState === 'copied' ? (

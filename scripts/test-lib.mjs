@@ -183,6 +183,11 @@ test('daily done: marked for today only, and a new day starts clear', () => {
   assert.deepEqual([...dailyDoneToday('2026-10-19')], ['daily']);
 });
 
+test('daily done: a round from yesterday does not tick today', () => {
+  markDailyDone('timeline', '2026-10-20');
+  assert.ok(!dailyDoneToday('2026-10-21').has('timeline'));
+});
+
 test('share text: game and day, score, squares, link without https', () => {
   assert.equal(
     shareText({ game: 'Daily five', day: '18 Oct', score: '4 / 5', squares: [true, true, false, true, true], url: 'https://quiz.peteowen.dev/daily-five' }),

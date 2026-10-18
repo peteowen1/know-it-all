@@ -19,7 +19,7 @@ export default function OddOneOut({ stats, onRoundComplete, onExit }) {
 
   const start = (daily) => {
     const seed = daily ? localDateKey() : `${Date.now()}`;
-    setGame({ daily, rounds: buildOddRounds(data.categories, { seed }), index: 0, results: [] });
+    setGame({ daily, date: localDateKey(), rounds: buildOddRounds(data.categories, { seed }), index: 0, results: [] });
   };
 
   if (!game) {
@@ -58,7 +58,7 @@ export default function OddOneOut({ stats, onRoundComplete, onExit }) {
         squares={results.map((r) => r.right)}
         celebrate={score === rounds.length}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Odd one out', 'odd-one-out') : undefined}
+        share={game.daily ? dailyShare('Odd one out', 'odd-one-out', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

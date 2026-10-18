@@ -16,11 +16,14 @@ export default function GameResults({
 }) {
   const perfect = celebrate ?? (total > 0 && score === total);
   const [shareState, setShareState] = useState(null);
-  // A daily round's results mean today's round is done (the Today row ticks it).
+  // A daily round's results mean its day's round is done (the Today row ticks
+  // it). The round's own date is used: yesterday's finished round, reopened
+  // this morning, must not tick today. A round saved without one is skipped.
   const dailyTab = share?.tab;
+  const dailyDate = share?.date;
   useEffect(() => {
-    if (dailyTab) markDailyDone(dailyTab);
-  }, [dailyTab]);
+    if (dailyTab && dailyDate) markDailyDone(dailyTab, dailyDate);
+  }, [dailyTab, dailyDate]);
   const text = share ? shareText({ game: share.game, day: shareDay(), score: hero ?? `${score} / ${total}`, squares, url: share.url }) : '';
 
   useEffect(() => {

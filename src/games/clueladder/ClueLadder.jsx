@@ -73,7 +73,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
   const start = (daily) => {
     const seed = daily ? localDateKey() : `${Date.now()}`;
     setGuess('');
-    setGame({ daily, rounds: pickRounds(bank, { seed }), index: 0, rung: 1, misses: [], results: [] });
+    setGame({ daily, date: localDateKey(), rounds: pickRounds(bank, { seed }), index: 0, rung: 1, misses: [], results: [] });
   };
 
   if (!game) {
@@ -113,7 +113,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
         squares={results.map((x) => x.points > 0)}
         celebrate={total === MAX}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Clue ladder', 'clue-ladder') : undefined}
+        share={game.daily ? dailyShare('Clue ladder', 'clue-ladder', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

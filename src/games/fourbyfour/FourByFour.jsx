@@ -40,7 +40,7 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       puzzle.groups.flatMap((g, gi) => g.items.map((text) => ({ text, group: gi }))),
       makeRng(hashString(`${index}:${Date.now()}`))
     );
-    setGame({ daily, index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [] });
+    setGame({ daily, date: localDateKey(), index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [] });
   };
 
   if (!game) {
@@ -152,7 +152,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
         verdict={won ? (mistakes === 0 ? 'Four groups, no mistakes.' : `Solved with ${mistakes} mistake${mistakes === 1 ? '' : 's'}.`) : 'Here are the four groups.'}
         celebrate={won && mistakes === 0}
         onPlayAgain={onAgain}
-        share={game.daily ? dailyShare('Four by four', 'connections') : undefined}
+        share={game.daily ? dailyShare('Four by four', 'connections', game.date) : undefined}
         playAgainLabel="Another puzzle"
         onChangeSettings={onSetup}
         settingsLabel="Back"
