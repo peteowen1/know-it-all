@@ -1036,7 +1036,7 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
   test('famous: the rule keeps the cases it once got wrong', () => {
     for (const d of ['American criminal-justice activist', 'American criminal profiler, forensic linguist, and author', 'American wrongly convicted of murder (1941–2013)', 'American con artist'])
       assert.equal(leftOutByRule(d, ''), false, d);
-    for (const d of ['English criminal (born 1952)', 'Austrian war criminal', 'American serial killer'])
+    for (const d of ['English criminal (born 1952)', 'Austrian war criminal', 'American serial killer', 'American man convicted of murder and previously wrongly convicted of rape'])
       assert.equal(leftOutByRule(d, ''), true, d);
   });
 }

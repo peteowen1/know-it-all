@@ -45,7 +45,8 @@ const ACCEPT_ALSO = {
 
 // Subregions follow the UN geoscheme (M49), not REST Countries' own grouping
 // (see lib/unRegions.mjs). The UN table is saved raw in data-raw/un-m49/.
-// Kosovo and Taiwan are not in it and keep REST Countries' subregion.
+// Kosovo and Taiwan are not in it: Kosovo goes with its neighbours in Southern
+// Europe (M49 counts it under Serbia), Taiwan keeps REST Countries' Eastern Asia.
 const UN_M49_URL = 'https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv';
 const UN_M49_FILE = fromRoot('data-raw/un-m49/all.csv');
 if (!existsSync(UN_M49_FILE)) {
@@ -55,6 +56,7 @@ if (!existsSync(UN_M49_FILE)) {
   writeFileSync(UN_M49_FILE, await res.text());
 }
 const UN_SUBREGION = unSubregions(UN_M49_FILE);
+UN_SUBREGION.set('XK', 'Southern Europe');
 
 // Country names people type that REST Countries does not list.
 const NAMES_ALSO = {
