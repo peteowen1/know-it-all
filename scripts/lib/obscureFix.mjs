@@ -21,7 +21,10 @@ export const OBSCURE_EXCLUDE = {
   'films-Mervyn LeRoy': ['The Great Garrick', 'The Green Berets'],
   'films-Victor Fleming': ['The Great Waltz'],
   'films-Martin Scorsese': ['Woodstock'],
-  'films-George Cukor': ['Lust for Life', 'Manhattan Melodrama', 'The Adventures of Tom Sawyer'],
+  'films-George Cukor': ['Lust for Life', 'Manhattan Melodrama', 'The Adventures of Tom Sawyer', 'Song Without End'],
+  // Found by an Odd one out playtest (2026-10-18): uncredited or replaced.
+  'films-John Huston': ['A Farewell to Arms'],
+  'films-George Stevens': ['Hollywood Party'],
   'films-Sam Wood': ['The Great Moment', 'The Cat and the Fiddle'],
   // A double A-side ("How Do U Want It / California Love") carries both sides'
   // artists; Dr. Dre is on California Love only.

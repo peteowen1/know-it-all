@@ -104,6 +104,11 @@ export const HOW_IT_WORKS = {
     score: '4 points on the first clue, then 3, 2, and 1 for the options. Small typos are fine, and you can leave off words like "the" or "mount".',
     source: 'The weekend quiz questions, using only those whose first clue holds the answer, after a playtest removed rounds that gave nothing to go on.'
   },
+  'odd-one-out': {
+    play: 'Four answers: three share a link and one does not. Pick the odd one out.',
+    score: 'One point per right pick. The answer shows the link and where the odd one belongs.',
+    source: 'The Obscure-est categories (countries, capitals, songs, films), using well-known answers only. Each round is checked so that no other category groups a different three.'
+  },
   'twin-flags': {
     play: 'Two flags that look almost the same. Pick the one for the country named.',
     score: 'One point per right answer. After each round a tip says how to tell the pair apart.',

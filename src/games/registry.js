@@ -143,6 +143,11 @@ export const GAMES = [
     recordFormat: byPoints(20)
   },
   {
+    id: 'odd-one-out', section: 'lab', tab: 'odd-one-out', icon: 'Puzzle', title: 'Odd one out',
+    blurb: 'Three share a link, one does not. Spot it.',
+    recordFormat: (e) => (e.plays ? `${played(e)} · best ${e.best} of 5` : null)
+  },
+  {
     id: 'clue-ladder', section: 'lab', tab: 'clue-ladder', icon: 'Lightbulb', title: 'Clue ladder',
     blurb: 'Clues get easier as you climb. Name it early for more points.',
     recordFormat: byPoints(20)
