@@ -28,6 +28,8 @@ const formatArea = (n) => (n == null ? '—' : `${n < 10 ? n.toFixed(2) : Math.r
 
 const T = (c) => countryInText(c.name, { start: true });
 const t = (c) => countryInText(c.name);
+// "Spain's", but "the United States'" and "the Philippines'".
+const own = (name) => `${name}${name.endsWith('s') ? '’' : '’s'}`;
 
 /**
  * What the run compares. Each measure keeps its own best run under `statId`
@@ -47,8 +49,8 @@ const MEASURES = {
   },
   gdp: {
     label: 'GDP', field: 'gdp', statId: 'higher-lower-gdp', format: formatMoney,
-    up: 'Bigger', down: 'Smaller', ask: (r, l) => <>Is <strong>{r}</strong>&rsquo;s economy bigger or smaller than {l}&rsquo;s?</>,
-    told: (r, l, more) => `${T(r)}'s GDP is ${formatMoney(r.gdp)}, ${more ? 'more' : 'less'} than ${t(l)}'s.`
+    up: 'Bigger', down: 'Smaller', ask: (r, l) => <>Is <strong>{own(r)}</strong> economy bigger or smaller than {own(l)}?</>,
+    told: (r, l, more) => `${own(T(r))} GDP is ${formatMoney(r.gdp)}, ${more ? 'more' : 'less'} than ${own(t(l))}.`
   },
   gdpPerHead: {
     label: 'GDP a person', field: 'gdpPerHead', statId: 'higher-lower-gdp-head', format: formatMoney,
