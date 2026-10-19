@@ -85,6 +85,16 @@ test('no country appears more than twice in a game', () => {
   }
 });
 
+test('no country in two rounds in a row across 200 games', () => {
+  for (let s = 0; s < 200; s++) {
+    const rounds = buildRounds(pairs, { seed: `row${s}` });
+    for (let i = 1; i < rounds.length; i++) {
+      const prev = [rounds[i - 1].left, rounds[i - 1].right];
+      assert.ok(!prev.includes(rounds[i].left) && !prev.includes(rounds[i].right), `seed ${s} round ${i + 1}`);
+    }
+  }
+});
+
 if (failures.length) {
   console.error(`FAIL ${failures.length} of ${pass + failures.length}\n  ${failures.join('\n  ')}`);
   process.exit(1);

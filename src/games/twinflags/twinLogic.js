@@ -21,6 +21,33 @@ export function eligiblePairs(lookalikes, nameOf, table = TWIN_TABLE, threshold 
     .map(([a, b, how]) => ({ key: pairKey(a, b), a, b, how, similarity: similarity(lookalikes, a, b) }));
 }
 
+const shares = (p, q) => Boolean(q) && (p.a === q.a || p.a === q.b || p.b === q.a || p.b === q.b);
+
+/**
+ * The same pairs, reordered so no country is in two rounds in a row where
+ * possible: Tuvalu straight after Tuvalu gives the second round away
+ * (playtest 2026-10-19). Keeps the given order as far as it can: the first
+ * arrangement found taking the earliest pair that fits each time. If none
+ * exists, the pairs as given.
+ */
+export function spaceOut(pairs) {
+  const out = [];
+  const used = new Array(pairs.length).fill(false);
+  const place = () => {
+    if (out.length === pairs.length) return true;
+    for (let i = 0; i < pairs.length; i++) {
+      if (used[i] || shares(pairs[i], out.at(-1))) continue;
+      used[i] = true;
+      out.push(pairs[i]);
+      if (place()) return true;
+      out.pop();
+      used[i] = false;
+    }
+    return false;
+  };
+  return place() ? out : [...pairs];
+}
+
 /**
  * ROUNDS rounds. Each: { id, left, right, ask, how }. `ask` is the code to find; which side
  * it sits on is random. A country appears at most twice per game where the pool allows.
@@ -39,7 +66,7 @@ export function buildRounds(pairs, { seed, count = ROUNDS } = {}) {
     } else rest.push(p);
   }
   for (const p of rest) if (picked.length < count) picked.push(p);
-  return picked.map((p) => {
+  return spaceOut(picked).map((p) => {
     const ask = rng() < 0.5 ? p.a : p.b;
     const other = ask === p.a ? p.b : p.a;
     const askLeft = rng() < 0.5;

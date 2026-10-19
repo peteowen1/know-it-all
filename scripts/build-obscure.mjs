@@ -123,9 +123,13 @@ for (const n of famous) {
 
 // ------------------------------------------------------------------ music
 const songsBy = {};
+// An artist credited under two capitalisations ("The Weeknd" and "the
+// Weeknd") is one list, named the first way seen.
+const artistAs = {};
 for (const list of Object.values(music)) {
   for (const s of list) {
-    for (const a of s.artists || [s.artist]) {
+    for (const credited of s.artists || [s.artist]) {
+      const a = (artistAs[credited.toLowerCase()] ||= credited);
       const title = s.title.split(' / ')[0];
       // Keyed without case, so a title charted under two capitalisations adds up as one song.
       const cur = ((songsBy[a] ||= {})[title.toLowerCase()] ||= { text: title, accept: s.titles || [], fame: 0 });
