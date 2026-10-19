@@ -18,7 +18,7 @@ import { loadLive, saveLive } from '../src/lib/persist.js';
 import { shareText } from '../src/lib/share.js';
 import { markDailyDone, dailyDoneToday, onDailyDone } from '../src/lib/dailyDone.js';
 import { advanceStreak } from '../src/lib/streak.js';
-import { requestedDay, searchWithDay, pastDays } from '../src/lib/day.js';
+import { requestedDay, searchWithDay, pastDays, savedFor, saveSlotFor } from '../src/lib/day.js';
 
 const read = (rel) => readFileSync(new URL(rel, import.meta.url), 'utf8');
 
@@ -219,6 +219,25 @@ test('day: only a real past day from the address counts', () => {
   assert.equal(searchWithDay('?x=1&day=2026-10-17', null), '?x=1');
   assert.equal(searchWithDay('', '2026-10-17'), '?day=2026-10-17');
   assert.deepEqual(pastDays(3, '2026-11-01'), ['2026-10-31', '2026-10-30', '2026-10-29']);
+});
+
+test("day saves: an earlier day never shows or overwrites today's round", () => {
+  const now = '2026-10-19';
+  const todays = { daily: true, date: now };
+  const friday = { daily: true, date: '2026-10-17' };
+  const random = { daily: false, date: '2026-10-18' };
+  // What shows: each address sees only its own day's daily.
+  assert.equal(savedFor(null, todays, friday, now), todays);
+  assert.equal(savedFor('2026-10-17', todays, friday, now), friday);
+  assert.equal(savedFor('2026-10-16', todays, friday, now), null); // another earlier day: setup
+  assert.equal(savedFor(null, friday, null, now), null); // a daily left unfinished overnight: setup
+  assert.equal(savedFor(null, random, null, now), random); // a random round resumes any day
+  // Where writes go: a new earlier-day round to the past slot, today's and random ones to today's.
+  assert.equal(saveSlotFor(friday, null, now), 'past');
+  assert.equal(saveSlotFor(todays, '2026-10-17', now), 'today');
+  assert.equal(saveSlotFor(random, '2026-10-17', now), 'today'); // Random started from an earlier day
+  assert.equal(saveSlotFor(null, '2026-10-17', now), 'past'); // reset clears the board on screen
+  assert.equal(saveSlotFor(null, null, now), 'today');
 });
 
 test('daily done: a round from yesterday does not tick today', () => {

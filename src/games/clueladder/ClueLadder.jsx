@@ -1,8 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { localDateKey } from '../../lib/dates';
-import { useDay, daysOwn, clearDay } from '../../lib/day';
+import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
-import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import RouteFallback from '../../components/RouteFallback';
@@ -34,9 +33,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
   const [bank, setBank] = useState(null);
   const [failed, setFailed] = useState(false);
   // Saved so the round survives the app being closed (see src/lib/persist.js).
-  const [game, setGame] = usePersistentState('clue-ladder', null);
-  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
-  const day = useDay();
+  const [game, setGame, day] = useDaySave('clue-ladder');
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'clue-ladder');
 
@@ -82,7 +79,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
     setGame({ daily, date, rounds: pickRounds(bank, { seed }), index: 0, rung: 1, misses: [], results: [] });
   };
 
-  if (!game || (day && !(game.daily && game.date === day))) {
+  if (!game) {
     return (
       <GameSetup
         title="Clue ladder"
