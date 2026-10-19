@@ -7,13 +7,7 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-- OPEN **Four by four group types**: 2026-10-19 playtest found every puzzle the
-  same shape (182 of 243 have a "Famous X" group; wordplay is 10% and reuses the
-  same four items). Plan: show Pete 10 example new groups (phrases, hidden words,
-  homophones, decoys) to rate before building. See `PLAYTEST-2026-10-19.md`.
-- OPEN **Who am I clues**: clue 1 is often just "American actor", clue 3 is the
-  first name all four options share. Needs a famous-for fact per person (new
-  data) or a pageview floor; Pete to pick.
+- Nothing waiting.
 
 ## Data
 
@@ -24,10 +18,24 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
+- OPEN **Four by four "fill the gap" groups**: "Red ___" (Herring, Tape, Carpet,
+  Card), "___land" (Ice, Fin, Ire, Thai), surnames that are jobs. Needs a small
+  hand-written phrase list. Hidden words, traps and red herrings shipped in #56
+  (`scripts/fbf-variety.mjs`; rerun it after any Four by four rebuild). Traps are
+  all "Famous X" puzzles; widen if they feel samey.
+
 ## Check
 
+- OPEN **Who am I works clues**: 2,969 of 4,455 top-15 people have one; the
+  answer is always one of them. Singers in bands get thin clues (Marc Bolan:
+  "Zip Gun Boogie", as Wikidata credits the hits to T. Rex), and teams rank by
+  Wikipedia coverage, not by when they played (Wembanyama: ASVEL before the
+  Spurs). New top-15 people: `npm run data:famous`, then
+  `node scripts/fetch-famous-works.mjs`, then `npm run data:famous` again.
+
 - OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took
-  `famous.json` from 273 to 602 KB gzipped (Famous first names, Who am I) and
+  `famous.json` from 273 to 602 KB gzipped (678 KB with the 2026-10-20 works
+  clues) (Famous first names, Who am I) and
   `obscure.json` from 177 to 323 KB (Obscure-est, Missing link, Odd one out);
   the question bank is about 835 KB, loaded when a quiz opens. Each loads only
   when its game opens. Slimming people past each board's top 15 is not simple,

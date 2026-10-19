@@ -51,6 +51,20 @@ test('across 300 seeds: four distinct options, the answer among them, no birth y
   assert.deepEqual(problems.slice(0, 5), []);
 });
 
+test('across 300 seeds: every answer has a works clue, without their name in it', () => {
+  const problems = [];
+  for (let s = 0; s < 300; s++) {
+    for (const r of buildWhoRounds(names, { seed: `k${s}` })) {
+      if (!/^(Starred in|Recorded|Played for|Directed|Wrote|Created|Known for) /.test(r.known || '')) problems.push(`${r.name}: "${r.known}"`);
+      // A name word, or a longer one with an ending: "Browns" for Jim Brown.
+      const nameWords = normalise(r.name).split(' ').filter((w) => w.length > 2 && !['and', 'the', 'von', 'van', 'des'].includes(w));
+      const clueWords = normalise(r.known || '').split(' ');
+      if (clueWords.some((c) => nameWords.some((n) => c === n || (n.length >= 4 && c.startsWith(n))))) problems.push(`${r.name}: name in "${r.known}"`);
+    }
+  }
+  assert.deepEqual(problems.slice(0, 5), []);
+});
+
 test('typed guesses: surname, full name, a small typo; not someone else', () => {
   const r = { id: 'Q37079', name: 'Tom Cruise', first: 'Tom' };
   assert.ok(guessIsRight('Cruise', r));
