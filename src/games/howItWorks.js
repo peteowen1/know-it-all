@@ -75,9 +75,9 @@ export const HOW_IT_WORKS = {
     source: 'A hand-checked word list in families of related words, each with its meaning.'
   },
   connections: {
-    play: 'Sixteen answers hide four groups of four. Pick four that belong together. Four mistakes and you are out.',
+    play: 'Sixteen answers hide four groups of four. Pick four that belong together. Four mistakes and you are out. Watch for red herrings: an answer that seems to fit two groups, or four that look like a group and are not one.',
     score: 'Solved or not. Today\'s puzzle counts once a day, however often you replay it; each random puzzle counts.',
-    source: 'Built from the flags, capitals, charts, films, TV and famous-names data, and checked so that no answer fits two groups in its puzzle.'
+    source: 'Built from the flags, capitals, charts, films, TV and famous-names data, and checked so that every puzzle has exactly one solution.'
   },
   timeline: {
     play: 'Five events. Put them in order, oldest at the top.',

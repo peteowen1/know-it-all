@@ -38,7 +38,7 @@ import { pathForTab, tabForPath } from '../src/lib/route.js';
 import { GAMES } from '../src/games/registry.js';
 import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
-  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, countSolutions, isFair, hidingWord, HIDDEN, TRAPS, norm as fbfNorm, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { finishAccepts, sharedForms } from './lib/listAccept.mjs';
 import { leftOutByRule } from './lib/famousRules.mjs';
@@ -1254,16 +1254,69 @@ test('four by four: every tile belongs to its own group (2026-10-18: No Time to 
   assert.deepEqual(wrong, []);
 });
 
-test('four by four: no tile fits a second group in its puzzle (2026-10-17: 21 hits in 10 puzzles)', () => {
+test('four by four: no tile fits a second group in its puzzle, except its named red herring (2026-10-17: 21 hits in 10 puzzles)', () => {
   const unknown = new Set();
   const hits = [];
   for (const [i, p] of FBF.puzzles.entries()) {
     for (const g of p.groups) if (!FBF_BY_LABEL.has(g.label)) unknown.add(g.label);
-    for (const h of findOverlaps(p, FBF_BY_LABEL, FBF_LOOKUP)) hits.push(`#${i} "${h.tile}" (${h.own}) also fits ${h.other}`);
+    for (const h of findOverlaps(p, FBF_BY_LABEL, FBF_LOOKUP)) {
+      if (h.tile !== p.decoy?.tile || h.other !== p.decoy?.also) hits.push(`#${i} "${h.tile}" (${h.own}) also fits ${h.other}`);
+    }
   }
   // A label the builder no longer makes would be skipped silently by the check.
   assert.equal(unknown.size, 0, `labels the builder does not know: ${[...unknown].join('; ')}`);
   assert.equal(hits.length, 0, `${hits.length} overlaps, first: ${hits[0]}`);
+});
+test('four by four: every puzzle has exactly one solution; a red herring really fits both groups', () => {
+  const bad = FBF.puzzles.map((p, i) => [i, p]).filter(([, p]) => countSolutions(p, FBF_BY_LABEL, FBF_LOOKUP) !== 1).map(([i]) => i);
+  assert.deepEqual(bad, []);
+  for (const [i, p] of FBF.puzzles.entries()) {
+    if (!p.decoy) continue;
+    const own = p.groups.find((g) => g.items.includes(p.decoy.tile));
+    assert.ok(own, `#${i} decoy ${p.decoy.tile} is not a tile`);
+    assert.ok(tileFits(FBF_BY_LABEL.get(p.decoy.also), p.decoy.tile, FBF_LOOKUP), `#${i} ${p.decoy.tile} does not fit ${p.decoy.also}`);
+    assert.ok(p.groups.some((g) => g.label === p.decoy.also), `#${i} ${p.decoy.also} is not in the puzzle`);
+    // A hidden-word red herring names its word, and the tile really holds it.
+    if (p.decoy.hides) assert.ok(fbfNorm(p.decoy.tile).replace(/ /g, '').includes(p.decoy.hides), `#${i} ${p.decoy.tile} has no ${p.decoy.hides}`);
+  }
+});
+test('four by four: a trap is four tiles of its theme, one per group, and no theme tile besides', () => {
+  for (const [i, p] of FBF.puzzles.entries()) {
+    if (!p.trap) continue;
+    const words = TRAPS[p.trap.theme];
+    assert.ok(words, `#${i} unknown theme ${p.trap.theme}`);
+    const themed = p.groups.map((g) => g.items.filter((t) => words.includes(fbfNorm(t))));
+    assert.deepEqual(themed.map((x) => x.length), [1, 1, 1, 1], `#${i} ${JSON.stringify(themed)}`);
+    assert.deepEqual(themed.flat().sort(), [...p.trap.tiles].sort(), `#${i}`);
+  }
+});
+test('four by four: a counted solution catches a puzzle a red herring makes ambiguous', () => {
+  const puzzle = (decoy, ...groups) => ({ decoy, groups: groups.map(([label, items]) => ({ label, items })) });
+  // Jordan is a Famous Michael and borders Iraq. With Iraq's other four
+  // neighbours in their own group, Jordan can only be Michael's: one solution.
+  const one = puzzle({ tile: 'Jordan', also: 'Borders Iraq' },
+    ['Borders Iraq', ['Turkey', 'Iran', 'Kuwait', 'Syria']], ['Famous Michaels', ['Jordan', 'Caine', 'Bublé', 'Douglas']]);
+  assert.equal(countSolutions(one, FBF_BY_LABEL, FBF_LOOKUP), 1);
+  assert.ok(isFair(one, FBF_BY_LABEL, FBF_LOOKUP));
+  // Saudi Arabia in Michael's place fits nothing else, but if two tiles could
+  // swap groups the puzzle has two answers and is not fair.
+  const two = puzzle(null,
+    ['Borders Iraq', ['Turkey', 'Iran', 'Kuwait', 'Jordan']], ['Borders Saudi Arabia', ['Iraq', 'Yemen', 'Oman', 'Qatar']]);
+  assert.ok(countSolutions(two, FBF_BY_LABEL, FBF_LOOKUP) !== 1 || findOverlaps(two, FBF_BY_LABEL, FBF_LOOKUP).length > 0);
+  assert.ok(!isFair(two, FBF_BY_LABEL, FBF_LOOKUP));
+});
+test('four by four: hidden words are hidden, not said outright', () => {
+  const parts = (what) => HIDDEN[what];
+  assert.equal(hidingWord('Rambo: First Blood Part II', parts('an animal')), 'rambo');
+  assert.equal(hidingWord('Botswana', parts('an animal')), 'botswana');
+  assert.equal(hidingWord('Wuthering Heights', parts('a number'), true), 'heights');
+  assert.equal(hidingWord('Armenia', parts('a body part')), 'armenia');
+  // The word itself, its plural, a plain compound or a number word is not hidden.
+  assert.equal(hidingWord('Top Cat', parts('an animal')), null);
+  assert.equal(hidingWord('Cats', parts('an animal')), null);
+  assert.equal(hidingWord("What's New Pussycat?", parts('an animal')), null);
+  assert.equal(hidingWord('Heartbreak Hotel', parts('a body part')), null);
+  assert.equal(hidingWord('Sixteen Candles', parts('a number'), true), null);
 });
 test('four by four: the overlap check catches landlocked decoys and capitals that are also countries', () => {
   const puzzle = (...groups) => ({ groups: groups.map(([label, items]) => ({ label, items })) });

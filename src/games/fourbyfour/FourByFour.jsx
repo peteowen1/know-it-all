@@ -20,6 +20,17 @@ function dailyIndex(n, date) {
   return hashString(`fourbyfour:${date}`) % n;
 }
 
+const listed = (xs) => `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`;
+
+/** The puzzle's red herring or trap, named once it is over (scripts/fbf-variety.mjs). */
+function Trick({ puzzle }) {
+  const { decoy } = puzzle;
+  if (decoy?.hides) return <p className="fbf-trick">Red herring: {decoy.tile} also hides “{decoy.hides}”.</p>;
+  if (decoy) return <p className="fbf-trick">Red herring: {decoy.tile} also fits {decoy.also}.</p>;
+  if (puzzle.trap) return <p className="fbf-trick">The trap: {listed(puzzle.trap.tiles)} are all {puzzle.trap.theme}, but not a group.</p>;
+  return null;
+}
+
 /**
  * Four by four: sixteen tiles, four hidden groups of four, four mistakes.
  * Puzzles are pre-built by scripts/build-fourbyfour.mjs, which guarantees
@@ -166,6 +177,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
             </div>
           );
         })}
+        <Trick puzzle={puzzle} />
       </GameResults>
     );
   }
