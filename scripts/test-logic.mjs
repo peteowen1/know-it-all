@@ -38,7 +38,7 @@ import { pathForTab, tabForPath } from '../src/lib/route.js';
 import { GAMES } from '../src/games/registry.js';
 import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
-  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, countSolutions, isFair, hidingWord, HIDDEN, TRAPS, norm as fbfNorm, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+  loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, countSolutions, isFair, hidingWord, HIDDEN, TRAPS, GAPS, GAP_HERRINGS, norm as fbfNorm, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { finishAccepts, sharedForms } from './lib/listAccept.mjs';
 import { leftOutByRule } from './lib/famousRules.mjs';
@@ -1289,6 +1289,21 @@ test('four by four: a trap is four tiles of its theme, one per group, and no the
     assert.deepEqual(themed.map((x) => x.length), [1, 1, 1, 1], `#${i} ${JSON.stringify(themed)}`);
     assert.deepEqual(themed.flat().sort(), [...p.trap.tiles].sort(), `#${i}`);
   }
+});
+test('four by four: a fill-the-gap group is four plain words; a surname that fits is only ever its red herring', () => {
+  let gaps = 0;
+  for (const [i, p] of FBF.puzzles.entries()) {
+    for (const g of p.groups.filter((x) => GAPS[x.label])) {
+      gaps++;
+      const words = GAPS[g.label].map(fbfNorm);
+      for (const t of g.items) {
+        assert.ok(words.includes(fbfNorm(t)), `#${i} ${t} does not complete ${g.label}`);
+        assert.ok(!GAP_HERRINGS.has(fbfNorm(t)), `#${i} herring ${t} is one of the four in ${g.label}`);
+      }
+      if (p.decoy?.also === g.label) assert.ok(GAP_HERRINGS.has(fbfNorm(p.decoy.tile)), `#${i} ${p.decoy.tile} is not a herring word`);
+    }
+  }
+  assert.ok(gaps >= 15, `only ${gaps} fill-the-gap groups`);
 });
 test('four by four: a counted solution catches a puzzle a red herring makes ambiguous', () => {
   const puzzle = (decoy, ...groups) => ({ decoy, groups: groups.map(([label, items]) => ({ label, items })) });

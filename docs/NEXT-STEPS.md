@@ -18,11 +18,12 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
-- OPEN **Four by four "fill the gap" groups**: "Red ___" (Herring, Tape, Carpet,
-  Card), "___land" (Ice, Fin, Ire, Thai), surnames that are jobs. Needs a small
-  hand-written phrase list. Hidden words, traps and red herrings shipped in #56
-  (`scripts/fbf-variety.mjs`; rerun it after any Four by four rebuild). Traps are
-  all "Famous X" puzzles; widen if they feel samey.
+- OPEN **Four by four tricks**: hidden words, traps and red herrings (#56) and
+  fill-the-gap groups (2026-10-20: 20 puzzles, 11 with a famous-surname red
+  herring) live in `scripts/fbf-variety.mjs`, which reruns after any Four by
+  four rebuild and only tops up. Traps are all "Famous X" puzzles, and Sally
+  Field and Victoria Wood are each the herring three times; widen the
+  phrase list (`GAPS` in `scripts/lib/fbfGroups.mjs`) if they feel samey.
 
 ## Check
 
