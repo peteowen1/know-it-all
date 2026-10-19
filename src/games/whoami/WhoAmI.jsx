@@ -11,11 +11,11 @@ import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared
 import '../clueladder/clueladder.css';
 
 const MAX = ROUNDS * RUNGS;
-const RUNG_LABEL = ['', 'Known for', 'Born', 'First name'];
+const RUNG_LABEL = ['', 'Who', 'Born', 'Known for'];
 
 /**
- * Who am I: a famous person in three clues, vaguest first (what they are known
- * for, the year they were born, their first name), then four names to choose
+ * Who am I: a famous person in three clues, vaguest first (what they are, the
+ * year they were born, their best-known works), then four names to choose
  * from. Type a guess at any clue: 4 points on the first, then 3, 2, and 1 for
  * picking from the four.
  */
@@ -42,7 +42,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
         onExit={onExit}
         record={
           <>
-            A famous person in three clues: what they are known for, the year they were born, their first name. Guess
+            A famous person in three clues: what they are, the year they were born, their best-known work. Guess
             early for more points: 4, 3, 2, then 1 for picking from four names. {ROUNDS} people.
             {entry.plays ? ` ${entry.plays} played · best ${entry.best}/${MAX}.` : ''}
           </>
@@ -90,7 +90,8 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
   const done = results.length > index;
   const res = done ? results[index] : null;
   const shown = done ? RUNGS : rung;
-  const clues = [r.knownFor, yearText(r.born), r.first];
+  // A round saved before works clues existed (2026-10-20) still has its first name.
+  const clues = [r.knownFor, yearText(r.born), r.known || r.first];
 
   const finish = (points, extra) => {
     const next = [...results, { points, ...extra }];
@@ -173,6 +174,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
               {res.points ? `${res.points} point${res.points === 1 ? '' : 's'}` : 'No points'}: {r.name}
             </p>
             <p>{r.description}</p>
+            {r.known && <p>{r.known}.</p>}
           </div>
           <NextBar onClick={() => setGame({ ...game, index: index + 1, rung: 1, misses: [] })}>
             {index < rounds.length - 1 ? 'Next person' : 'Results'}

@@ -24,6 +24,7 @@ import { gzipSync, gunzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 import { fromRoot, writeData } from './lib/output.mjs';
 import { leftOutByRule } from './lib/famousRules.mjs';
+import { loadWorks, worksClue } from './lib/famousWorks.mjs';
 
 const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
 const RAW = fromRoot('data-raw/famous');
@@ -497,6 +498,19 @@ const noDesc = names.flatMap((n) => n.people).filter((p) => !p.description).leng
 console.log(`people kept: ${names.reduce((n, x) => n + x.people.length, 0)}, without description: ${noDesc}`);
 
 if (names.length < 20) throw new Error(`only ${names.length} usable names — a source or the join is broken`);
+
+// Who am I's third clue, for the top 15 of each name (the people it uses):
+// best-known works from the raw files scripts/fetch-famous-works.mjs saves.
+// Run that first for any new top-15 people.
+const works = loadWorks(RAW);
+let withWorks = 0;
+for (const n of names) {
+  for (const p of n.people.slice(0, 15)) {
+    const known = worksClue(p, works);
+    if (known) (p.known = known), withWorks++;
+  }
+}
+console.log(`works clues: ${withWorks} of ${names.reduce((s, n) => s + Math.min(15, n.people.length), 0)} top-15 people`);
 
 writeData('famous.json', {
   source: `English Wikipedia pageviews ${FAME_FROM} to ${through}, every month, for people in a monthly top 1000, in Wikipedia's vital articles, or with an article titled by the first name`,

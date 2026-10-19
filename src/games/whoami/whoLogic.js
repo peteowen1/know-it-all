@@ -1,5 +1,6 @@
-// Pure logic for Who am I: a famous person in three clues, vague to plain,
-// then four names to choose from. Built from the Famous first names data
+// Pure logic for Who am I: a famous person in three clues, vague to plain
+// (what they are, the year they were born, their best-known works), then four
+// names to choose from. Built from the Famous first names data
 // (src/data/famous.json). No React, no JSON import: scripts/test-who-am-i.mjs
 // runs it on the real file.
 
@@ -33,15 +34,18 @@ export function knownFor(person, first) {
     .trim();
 }
 
-/** A person makes a fair round: a description worth reading and a birth year. */
+/** A person makes a fair round: a description worth reading, a birth year and known works. */
 // Blanking a monarch's name can leave nothing to go on ("… … … from 1745 to
 // 1765" for Francis I, Holy Roman Emperor), so a clue with more than one
 // blank, or under a dozen real letters, is skipped. So is a clue that already
 // holds the birth year, the second clue: Ivan VI was emperor 'from 1740 to
 // 1741', the year he was born.
+// The works clue ("Starred in Titanic and Inception", from
+// scripts/lib/famousWorks.mjs) is the one that tells four people with the
+// same first name apart, so a person without one is never the answer.
 const usable = (person, first) => {
   const clue = knownFor(person, first);
-  return person.born && !clue.includes(String(person.born)) && (clue.match(/…/g) || []).length <= 1 && clue.replace(/[^\p{L}]/gu, '').length >= 12;
+  return person.known && person.born && !clue.includes(String(person.born)) && (clue.match(/…/g) || []).length <= 1 && clue.replace(/[^\p{L}]/gu, '').length >= 12;
 };
 
 /**
@@ -78,6 +82,7 @@ export function buildWhoRounds(names, { seed = Date.now(), count = ROUNDS } = {}
       spellings: board.spellings || [board.first],
       knownFor: knownFor(person, person.first || first),
       born: person.born,
+      known: person.known,
       description: person.description,
       options,
       // Who each option is: two people can share a name (two Brian Coxes).

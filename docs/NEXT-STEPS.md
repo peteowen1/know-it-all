@@ -7,9 +7,7 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-- OPEN **Who am I clues**: clue 1 is often just "American actor", clue 3 is the
-  first name all four options share. Needs a famous-for fact per person (new
-  data) or a pageview floor; Pete to pick.
+- Nothing waiting.
 
 ## Data
 
@@ -28,8 +26,16 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Check
 
+- OPEN **Who am I works clues**: 2,972 of 4,455 top-15 people have one; the
+  answer is always one of them. Singers in bands get thin clues (Marc Bolan:
+  "Zip Gun Boogie", as Wikidata credits the hits to T. Rex), and teams rank by
+  Wikipedia coverage, not by when they played (Wembanyama: ASVEL before the
+  Spurs). New top-15 people need `node scripts/fetch-famous-works.mjs` before
+  `npm run data:famous`.
+
 - OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took
-  `famous.json` from 273 to 602 KB gzipped (Famous first names, Who am I) and
+  `famous.json` from 273 to 602 KB gzipped (678 KB with the 2026-10-20 works
+  clues) (Famous first names, Who am I) and
   `obscure.json` from 177 to 323 KB (Obscure-est, Missing link, Odd one out);
   the question bank is about 835 KB, loaded when a quiz opens. Each loads only
   when its game opens. Slimming people past each board's top 15 is not simple,

@@ -30,7 +30,7 @@ export const SHIPPED = {
   'famous.json': {
     builtAt: true,
     source: true,
-    names: { first: true, spellings: true, people: { id: true, name: true, rest: true, description: true, born: true, views: true, monthsInTop: true, first: true } }
+    names: { first: true, spellings: true, people: { id: true, name: true, rest: true, description: true, born: true, views: true, monthsInTop: true, first: true, known: true } }
   },
   // Unread: unMember, flag (the flag-icons SVG is used instead), demonym,
   // latlng, tld, cioc, status, unRegionalGroup, currencies[].code and .symbol.
