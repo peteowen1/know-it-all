@@ -3,9 +3,8 @@ import { ArrowDown, ArrowUp } from 'lucide-react';
 import data from '../../data/timeline.json';
 import { buildRound, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
-import { useDay, daysOwn, clearDay } from '../../lib/day';
+import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
-import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow, EarlierDays } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
@@ -19,9 +18,7 @@ import KindIcon from '../shared/KindIcon';
 export default function Timeline({ stats, onRoundComplete, onExit }) {
   const [difficulty, setDifficulty] = useState('easy');
   // Saved so the round survives the app being closed (see src/lib/persist.js).
-  const [round, setRound] = usePersistentState('timeline', null);
-  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
-  const day = useDay();
+  const [round, setRound, day] = useDaySave('timeline');
   const entry = gameEntry(stats, 'timeline');
 
   const start = (daily) => {
@@ -32,7 +29,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
     setRound({ daily, date, order: buildRound(data.events, { difficulty, seed }), checked: false });
   };
 
-  if (!round || (day && !(round.daily && round.date === day))) {
+  if (!round) {
     return (
       <GameSetup
         title="Timeline"

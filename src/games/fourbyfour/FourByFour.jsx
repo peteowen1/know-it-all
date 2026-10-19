@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import data from '../../data/fourbyfour.json';
 import { localDateKey } from '../../lib/dates';
-import { useDay, daysOwn, clearDay } from '../../lib/day';
+import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
@@ -28,9 +28,7 @@ function dailyIndex(n, date) {
  */
 export default function FourByFour({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
-  const [game, setGame] = usePersistentState('fourbyfour', null);
-  // An earlier day's puzzle when the address asks for one (?day=, src/lib/day.js).
-  const day = useDay();
+  const [game, setGame, day] = useDaySave('fourbyfour');
   // The day the daily puzzle was last finished: playing it again that day is
   // allowed, but only the first finish counts as a play.
   const [dailyDone, setDailyDone] = usePersistentState('fourbyfour-daily', null);
@@ -49,7 +47,7 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
     setGame({ daily, date, index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [] });
   };
 
-  if (!game || (day && !(game.daily && game.date === day))) {
+  if (!game) {
     return (
       <GameSetup
         title="Four by four"

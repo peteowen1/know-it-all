@@ -1,6 +1,6 @@
 name,board,description,views,rule,decision,id
-Jeffrey Dahmer,Jeffrey / Geoffrey,American serial killer (1960–1994),108120153,left out,,Q298364
-Jeffrey Epstein,Jeffrey / Geoffrey,American financier and child sex offender (1953–2019),88418696,left out,,Q2904131
+Jeffrey Dahmer,Geoffrey / Jeffrey,American serial killer (1960–1994),108120153,left out,,Q298364
+Jeffrey Epstein,Geoffrey / Jeffrey,American financier and child sex offender (1953–2019),88418696,left out,,Q2904131
 Charles Manson,Charles,American criminal and cult leader (1934–2017),59191021,left out,,Q485508
 Ed Gein,Ed,American murderer and body snatcher (1906–1984),58577059,left out,,Q309643
 Joseph Stalin,Joseph,Leader of the Soviet Union from 1924 to 1953,50323347,kept,in,Q855
@@ -113,16 +113,26 @@ Martin Bryant,Martin,Australian mass murderer (born 1967),5490803,left out,,Q970
 Pedro López,Pedro,Colombian serial killer (born 1948),5415528,left out,,Q459307
 Charles J. Guiteau,Charles,Assassin of James A. Garfield (1841–1882),5408711,left out,,Q364232
 Jerry Brudos,Jerry,American serial killer (1939–2006),5333263,left out,,Q1385693
-Jeffrey Manchester,Jeffrey / Geoffrey,American criminal (born 1971),5101231,left out,,Q112082208
+Ken McElroy,Ken,American criminal and murder victim (1934–1981),5188870,left out,,Q6388114
+Jeffrey Manchester,Geoffrey / Jeffrey,American criminal (born 1971),5101231,left out,,Q112082208
 Wilhelm Keitel,Wilhelm,German field marshal and war criminal (1882–1946),5064434,left out,,Q76361
+Katherine Knight,Kathryn / Catherine / Katherine,Australian murderer (born 1955),4919582,left out,,Q543755
+Danny Rolling,Danny,American serial killer (1954–2006),4878380,left out,,Q1352339
 Albert Anastasia,Albert,Italian-American mob boss (1902–1957),4811098,left out,,Q706235
 Daniel Pearl,Daniel,American journalist beheaded by militants in Pakistan (1963–2002),4807148,left out,,Q357936
+Joseph Colombo,Joseph,American mob boss (1923–1978),4800118,left out,,Q640717
 Omar Mateen,Omar,American mass murderer (1986–2016),4777227,left out,,Q24567454
+Johnny Ringo,Johnny,US criminal and gunfighter (1850–1882),4606407,left out,,Q1346246
 Victor Salva,Victor,American film director and convicted sex offender,4573883,left out,,Q946039
+Rachel Scott,Rachel,American murder victim (1981–1999),4408771,left out,,Q470048
 Jeremy Bamber,Jeremy,British convicted murderer (born 1961),4336970,left out,,Q6181078
+Dan White,Dan,American politician and assassin (1946–1985),4330287,left out,,Q1263456
 Ruth Ellis,Ruth,British escort and convicted murderer (1926–1955),4246240,left out,,Q467755
 Leo Frank,Leo,Jewish-American lynching victim (1884–1915),4189762,left out,,Q130973
 Christopher Paul Neil,Christopher,Canadian convicted serial child molester (born 1975),4177303,left out,,Q1331171
+José Gonzalo Rodríguez Gacha,José,Colombian drug lord (1947-1989),4159695,left out,,Q1353690
+Russell Williams,Russell,Canadian criminal and former colonel (born 1963),4130292,left out,,Q2176976
+Nancy Benoit,Nancy,American professional wrestling valet and murder victim (1964–2007),4096536,left out,,Q2529268
 Brian Peck,Brian / Bryan,American sex offender and dialogue coach (born 1960),4068740,left out,,Q76324987
 Pedro Rodrigues Filho,Pedro,Brazilian serial killer (1954–2023),4022297,left out,,Q1999429
 Charles Starkweather,Charles,American spree killer (1938–1959),3966562,left out,,Q920200
@@ -132,67 +142,277 @@ Juan José Esparragoza Moreno,Juan,Mexican drug trafficker (1949–2014),3818521
 Marcus Junius Brutus,Marcus,Roman politician and assassin of Julius Caesar (85–42 BC),3804734,left out,,Q172248
 Frank Cali,Frank,American mobster (1965–2019),3680608,left out,,Q3751778
 Anthony Provenzano,Anthony,American gangster (1917–1988),3647065,left out,,Q4773306
+Richard Chase,Richard,American serial killer and cannibal (1950–1980),3646776,left out,,Q529509
 Albert DeSalvo,Albert,American rapist and suspected serial killer (1931–1973),3633380,left out,,Q1342909
+Jesse James Hollywood,Jesse,American criminal (born 1980),3614239,left out,,Q723169
 Lisa McVey,Lisa,"American police officer and motivational speaker, kidnapping victim of Bobby Joe Long",3605798,left out,,Q107119297
+Joe Francis,Joe,American criminal and founder of Girls Gone Wild (born 1973),3605511,left out,,Q1059796
+Joel Rifkin,Joel,American serial killer (born 1959),3599610,left out,,Q1382865
 "Mark ""Chopper"" Read",Mark,Australian criminal (1954–2013),3550691,left out,,Q2428420
+Roy DeMeo,Roy,American gangster (1940–1983),3520715,left out,,Q1338001
 Ivan Milat,Ivan,Australian serial killer (1944–2019),3518430,left out,,Q723700
 Kenneth Noye,Kenneth,English criminal (born 1947),3460869,left out,,Q6390541
 Robert Chambers,Robert,American criminal (born 1966),3456483,left out,,Q7342848
+Jeffrey R. MacDonald,Geoffrey / Jeffrey,American military physician convicted of murder (born 1943),3455569,left out,,Q1686465
 Richard Cottingham,Richard,American serial killer (born 1946),3449922,left out,,Q2364408
 Raymond Washington,Raymond,Founder of the Crips gang (1953–1979),3434505,left out,,Q960697
+Peter Nygård,Peter,Canadian-Finnish fashion executive and convicted sex offender,3365891,left out,,Q7176146
 Joseph Bonanno,Joseph,American organized crime boss (1905–2002),3358116,left out,,Q709936
+Mary Jane Kelly,Mary,Irish murder victim (c. 1863–1888),3336523,left out,,Q242469
 Johnny Torrio,Johnny,Italian mob boss (1882–1957),3297130,left out,,Q366166
+Gary M. Heidnik,Gary,"American kidnapper, rapist, and murderer (1943–1999)",3288969,left out,,Q93839
+Bobby Beausoleil,Bobby,"American murderer, musician, and painter (born 1947)",3285931,left out,,Q888453
 Richard Evonitz,Richard,"American serial killer, kidnapper, and rapist (1963–2002)",3269138,left out,,Q7325562
+Carl Panzram,Carl,American serial killer and rapist (1891–1930),3268758,left out,,Q716583
+Danny Greene,Danny,American mobster (1933–1977),3261401,left out,,Q381888
+Marc Dutroux,Marc,Belgian serial killer and serial rapist (born 1956),3257742,left out,,Q32484
 Alfred Jodl,Alfred,German general and war criminal (1890–1946),3216022,left out,,Q57123
+Jared Lee Loughner,Jared,American mass murderer (born 1988),3206880,left out,,Q4267485
 Ryan Wedding,Ryan,Canadian snowboarder and alleged drug trafficker (born 1981),3167362,left out,,Q90041365
 Alfred Rosenberg,Alfred,Baltic German Nazi theorist and war criminal (1893–1946),3081014,left out,,Q75849
 Edward Edwards,Edward,American serial killer (1933–2011),3058897,left out,,Q5342742
 Rafael Aguilar Guajardo,Rafael,Mexican drug lord (1950-1993),3055653,left out,,Q2880142
+William Bonin,William,American serial killer and rapist (1947–1996),2992528,left out,,Q1372199
+Josh Phillips,Josh,American murderer (born 1984),2991510,left out,,Q6289261
+Herbert Mullin,Herbert,American serial killer (1947–2022),2943851,left out,,Q1383283
 Ernst Kaltenbrunner,Ernst,Austrian SS official (1903–1946),2938075,left out,,Q78473
+Donald Henry Gaskins,Donald,American serial killer (1933–1991),2935342,left out,,Q1239896
 Peter Kürten,Peter,German serial killer (1883–1931),2923164,left out,,Q60291
+Peter Tobin,Peter,Scottish serial killer (1946–2022),2892314,left out,,Q2078689
+Kenneth Bianchi,Kenneth,American serial killer (born 1951),2870963,left out,,Q2745288
 Mary Ann Cotton,Mary,English serial killer (1832–1873),2864703,left out,,Q292650
 Robert Napper,Robert,English serial killer and rapist,2729134,left out,,Q7347954
+Leonard Lake,Leonard,American serial killer (1945–1985),2714164,left out,,Q731435
 Max Clifford,Max,English publicist and sex offender (1943–2017),2700287,left out,,Q6794659
 Daniel Kinahan,Daniel,Irish sports promoter and suspected crime boss (born 1977),2691197,left out,,Q96375926
 Hans Frank,Hans,German politician and war criminal (1900–1946),2656775,left out,,Q60087
 Stephen Port,Stephen / Steven,English serial killer (born 1975),2598251,left out,,Q27909514
+Shawn Grate,Sean / Shaun / Shawn,American serial killer on death row,2590676,left out,,Q27733874
 Dan Markel,Dan,American law professor and murder victim (1972–2014),2589618,left out,,Q5213934
 Sally McNeil,Sally,American bodybuilder and convicted murderer,2585043,left out,,Q24898165
 Joseph Massino,Joseph,American mobster (1943–2023),2581449,left out,,Q2094605
+Joseph Paul Franklin,Joseph,American serial killer (1950–2013),2537833,left out,,Q1336472
 Sergei Skripal,Sergei,Russian intelligence officer (born 1951),2529793,kept,in,Q3742411
+Anthony Casso,Anthony,American mobster (1942–2020),2452684,left out,,Q572992
 Mark Hofmann,Mark,American murderer who forged Mormon documents,2442053,left out,,Q4354485
 Charlotte Corday,Charlotte,French assassin (1768–1793),2380051,left out,,Q216063
 Louise Woodward case,Louise,American criminal case of 1997 baby death by British au pair,2309879,left out,,Q4990718
+Gary Gilmore,Gary,American murderer (1940–1977),2275967,left out,,Q560440
 Ernest Burkhart,Ernest,American murderer (1892–1986),2260052,left out,,Q123189870
+Charles Graner,Charles,American war criminal (born 1968),2231357,left out,,Q1064607
+Tommy Lynn Sells,Tommy,American serial killer (1964–2014),2217281,left out,,Q1364334
+Colin Pitchfork,Colin,English child-murderer and rapist (born 1960),2119593,left out,,Q2624994
 William King Hale,William,American cattleman and murderer (1874–1962),2108802,left out,,Q8010717
+Christopher Wilder,Christopher,Australian-American serial killer and kidnapper (1945–1984),2096678,left out,,Q355976
+Kenneth Parnell,Kenneth,"American sex offender, child rapist and kidnapper (1931–2008)",2087978,left out,,Q6390578
+Mikhail Popkov,Mikhail,Russian serial killer and rapist (born 1964),2085509,left out,,Q16734632
 Peter Manuel,Peter,Scottish serial killer (1927–1958),2081115,left out,,Q7175650
+Sarah Jo Pender,Sarah / Sara,American murderer (born 1979),2060688,left out,,Q7422457
 Jane Andrews,Jane,English murderer and former royal dresser (born 1967),2056126,left out,,Q6151103
 Diego Murillo Bejarano,Diego,Colombian drug trafficker,2052031,left out,,Q337589
 Tommy Lucchese,Tommy,Italian-American crime boss (1899–1967),2022945,left out,,Q609174
+Arthur Bremer,Arthur,Attempted assassin of George Wallace (born 1950),2016970,left out,,Q2865153
+Victor Amuso,Victor,New York mobster (born 1934),1992066,left out,,Q1618045
+Alexander Pichushkin,Alexander,Russian serial killer,1929440,left out,,Q317496
 Carlos Castaño Gil,Carlos,Colombian paramilitary leader (1965–2004),1927235,left out,,Q707091
+Joseph Edward Duncan,Joseph,American convicted serial killer and child molester (1963–2021),1890523,left out,,Q4154853
+Adam Lanza,Adam,American mass murderer (1992–2012),1887940,left out,,Q1144884
+Randy Kraft,Randy,American serial killer (born 1945),1879652,left out,,Q1368838
+Ruth Snyder,Ruth,American murderer (1895–1928),1849377,left out,,Q3453643
+Marc Lépine,Marc,Canadian mass murderer (1964–1989),1848100,left out,,Q575023
+Larry Hall,Larry,American suspected serial killer (born 1962),1787457,left out,,Q113631850
+Mary Ann Nichols,Mary,First canonical victim of Jack the Ripper (1845–1888),1765823,left out,,Q239251
+Giuseppe Zangara,Giuseppe,Attempted assassin of Franklin D. Roosevelt (1900–1933),1755299,left out,,Q2658306
+William Heirens,William,American criminal (1928–2012),1754067,left out,,Q705276
+Timothy White,Timothy,American child kidnapping victim (1974–2010),1741241,left out,,Q19663658
+Donald Harvey,Donald,American serial killer (1952–2017),1694355,left out,,Q2068960
+Carl Williams,Carl,Australian murderer and drug trafficker,1657961,left out,,Q3658816
+Maya Dolas,Maya,Indian criminal,1654439,left out,,Q6796680
+Amy Carlson,Amy,American cult leader (1975–2021),1651767,left out,,Q123561027
 Jacob Wetterling,Jacob,American kidnap victim,1636309,left out,,Q5924459
 Dave Courtney,Dave,English author and gangster (1959–2023),1606750,left out,,Q5228589
-Jeffrey Donaldson,Jeffrey / Geoffrey,Northern Irish former politician and child sex offender (born 1962),1597004,left out,,Q300292
+Jeffrey Donaldson,Geoffrey / Jeffrey,Northern Irish former politician and child sex offender (born 1962),1597004,left out,,Q300292
+Christine Paolilla,Christine,American mass murderer (born 1986),1577749,left out,,Q5111142
+Dean O'Banion,Dean,American mobster (1892–1924),1575025,left out,,Q1181113
 Franz Stangl,Franz,Austrian war criminal (1908–1971),1565048,left out,,Q78931
-Mark Anthony Stroman,Mark,American spree killer (1969–2011),1387399,left out,,Q62602236
+Gerard John Schaefer,Gerard,American murderer and suspected serial killer,1544711,left out,,Q2698895
+Catherine Eddowes,Kathryn / Catherine / Katherine,Whitechapel murder victim (1842–1888),1535641,left out,,Q263112
+Juan Corona,Juan,Mexican serial killer (1934–2019),1533766,left out,,Q720063
+Miguel Treviño Morales,Miguel,Mexican drug lord,1527633,left out,,Q555661
+José Rodrigo Aréchiga Gamboa,José,Mexican drug trafficker (1980–2020),1511330,left out,,Q15614435
+Ricky Rodriguez,Ricky,American cult victim who murdered childhood sexual abuser (1975–2005),1504037,left out,,Q7332186
+Larry Gene Bell,Larry,American serial killer (1949–1996),1470781,left out,,Q3218054
+Larry Eyler,Larry,American serial killer (1952–1994),1456197,left out,,Q127020
+Carlos Marcello,Carlos,American mobster (1910–1993),1454302,left out,,Q2487962
+Roger Rogerson,Roger,Australian disgraced detective sergeant and convicted murderer (1941–2024),1435046,left out,,Q7358847
+Annie Chapman,Annie,Whitechapel murder victim (1840–1888),1396835,left out,,Q263123
 Daniel Lewis Lee,Daniel,American murderer (1973–2020),1373045,left out,,Q97351006
+Elizabeth Stride,Elizabeth,Whitechapel murder victim (1843–1888),1371519,left out,,Q263094
+Barbara Graham,Barbara,American convicted murderer (1923–1955),1370118,left out,,Q438990
 Ian Watkins,Ian,Welsh musician and child sex offender (1977–2025),1364906,left out,,Q2386801
+Michel Fourniret,Michel,French serial killer (1942–2021),1311449,left out,,Q153355
 Christopher Coke,Christopher,Jamaican drug lord (born 1969),1309573,left out,,Q1086587
+Juan Matta-Ballesteros,Juan,Honduran drug lord (1945–2025),1305112,left out,,Q6300489
+Gary Hilton,Gary,American serial killer (born 1946),1280562,left out,,Q107010812
+Donald Neilson,Donald,British criminal (1936–2011),1257997,left out,,Q5294929
+Terry Peder Rasmussen,Terry,American serial killer (1943–2010),1242565,left out,,Q64755713
 Giuseppe Morello,Giuseppe,Italian-American crime boss,1219981,left out,,Q1370325
+Kenneth McDuff,Kenneth,American serial killer (1946–1998),1217674,left out,,Q1738884
+Malcolm Webster,Malcolm,British murderer (born 1959),1217283,left out,,Q6742697
 Mohammad Shahabuddin,Mohammad,Indian criminal (1980 –2021),1194244,left out,,Q5493306
+Susan Wright,Susan,American convicted murderer (born 1976),1192309,left out,,Q7648565
+Maurice Boucher,Maurice,Canadian outlaw biker and gangster (1953–2022),1154992,left out,,Q1911275
+Jesse Pomeroy,Jesse,American murderer (1859–1932),1150927,left out,,Q344215
 Thomas Crooks,Thomas,Attempted assassin of Donald Trump (2003–2024),1138669,left out,,Q127424136
 Jimmy Chérizier,Jimmy,Haitian gang leader (born 1977),1133558,left out,,Q101440369
+Kurt Meyer,Kurt,German SS officer (1910–1961),1100263,left out,,Q57220
+Scott Lee Kimball,Scott,American serial killer (born 1966),1095592,left out,,Q7436685
+Howard Unruh,Howard,American mass murderer (1921–2009),1083037,left out,,Q324297
 Joseph Christopher,Joseph,American serial killer (1955–1993),1079604,left out,,Q4241305
+Linda Carty,Linda,British-American murderer on death row,1075334,left out,,Q6551443
+Graham Young,Graham,English serial killer,1071848,left out,,Q2018566
+Kelly Gissendaner,Kelly,American criminal (1968–2015),1066978,left out,,Q21031095
+Francisco Rafael Arellano Félix,Francisco,Mexican drug lord (1949–2013),1055404,left out,,Q5483835
+Sally Clark,Sally,English woman falsely convicted of murder,1048287,left out,,Q3544105
+Hans Reiser,Hans,"American computer programmer, entrepreneur, and convicted murderer",1024498,left out,,Q92652
+Diane Zamora,Diane,American midshipman and murderer (born 1978),1023634,left out,,Q5271618
 Otto Ohlendorf,Otto,German SS officer and Holocaust perpetrator (1907–1951),1010242,left out,,Q57575
+Maria Mandl,Maria,Austrian Holocaust perpetrator (1912–1948),998128,left out,,Q78645
+Giovanni Brusca,Giovanni,Italian mobster and murderer (born 1957),987747,left out,,Q1525995
+Allen Lee Davis,Alan / Allan / Allen,American murderer (1944–1999),984354,left out,,Q2837909
+Arthur Nebe,Arthur,German SS functionary and Holocaust perpetrator (1894–1945),965313,left out,,Q57742
 Kim Jae-gyu,Kim,Assassin of South Korean president Park Chung Hee (1924–1980),964468,left out,,Q623475
 Jacques Mesrine,Jacques,French criminal (1936–1979),947788,left out,,Q520852
+Mohammad Sidique Khan,Mohammad,British terrorist (1974–2005),931824,left out,,Q674709
+Colin Ireland,Colin,British serial killer (1954–2012),911608,left out,,Q2470189
 Joseph Konopka,Joseph,American hacker and domestic terrorist (born 1976),907683,left out,,Q6284654
+Edward Oxford,Edward,Would-be assassin of Queen Victoria (1822–1900),897276,left out,,Q821504
+Hermann Hoth,Hermann,German World War II general and war criminal,895918,left out,,Q57150
+Henri Désiré Landru,Henri,French serial killer (1869–1922),864708,left out,,Q534708
+Jeffrey Lundgren,Geoffrey / Jeffrey,American cult leader and mass murderer (1950–2006),843386,left out,,Q967717
 Johnny Kitagawa,Johnny,Japanese talent manager and sex offender (1931–2019),825738,left out,,Q1321093
 Samuel Bateman,Samuel,American criminal and religious leader,820688,left out,,Q139374503
+Manuel Torres Félix,Manuel,Mexican drug lord and cartel leader,819683,left out,,Q6752918
+Bruce Johnston,Bruce,American gangster and murderer,804662,left out,,Q4977754
+Friedrich Jeckeln,Friedrich,German SS general and war criminal (1895–1946),779255,left out,,Q77111
+Ahmed al-Haznawi,Ahmed,Saudi terrorist and 9/11 hijacker (1980–2001),763736,left out,,Q3493803
 Carlo Gesualdo,Carlo,"Italian prince, composer and murderer (1566–1613)",729787,left out,,Q192958
+Charlie Elphicke,Charlie,British Conservative politician and convicted sex offender,726922,left out,,Q303351
 Ryan Grantham,Ryan,Canadian actor and murderer (born 1998),725299,left out,,Q85173999
+Gordon Cummins,Gordon,British serial killer who exploited wartime blackouts (1914–1942),723324,left out,,Q2346804
+Frances Newton,Frances,American murderer executed by the state of Texas (1965-2005),702222,left out,,Q274535
+Matthew Muller,Matthew / Mathew,"American serial rapist, kidnapper, and lawyer",684730,left out,,Q125915468
 Mohamed Lahouaiej-Bouhlel,Muhammad / Mohamed / Mohammed,Tunisian terrorist (1985–2016),670038,left out,,Q25905081
-Jack Sheppard,Jack,English criminal (1702-1724),640063,left out,in,Q636214
+Jesse Tafero,Jesse,American man convicted of murder (1946–1990),665155,left out,,Q6186899
+Daniel Conahan,Daniel,"American murderer, rapist and suspected serial killer (1954–2026)",660034,left out,,Q1160361
+Ed Case,Ed,American lawyer and politician (born 1952),657423,left out,,Q597613
+Benjamin Atkins,Benjamin,American serial killer (1968–1997),657083,left out,,Q817391
+Randy Roth,Randy,American murderer (born 1954),630308,left out,,Q7292409
+Mohammed Bouyeri,Muhammad / Mohamed / Mohammed,Moroccan-Dutch Islamic terrorist (born 1978),618070,left out,,Q918995
+Larry Davis,Larry,"American criminal from the Bronx, New York, United States (1966-2008)",600834,left out,,Q6490183
+Guy Fisher,Guy,American former drug trafficker linked to Harlem's Apollo Theater,595762,left out,,Q5622245
 Brad Sigmon,Brad,American convicted murderer (1957–2025),592138,left out,,Q131308170
+Gabriel Matzneff,Gabriel,French writer and pedophile (born 1936),575377,left out,,Q3093872
+Ali Irsan,Ali,Jordanian-American convicted murderer,547069,left out,,Q56599884
+Oscar Ray Bolin,Oscar,Executed American serial killer,535450,left out,,Q22027981
 François Ravaillac,François,Assassin of King Henry IV of France,523400,left out,,Q349190
+Rudolf Lange,Rudolf,Nazi German SS officer (1910–1945),514774,left out,,Q60343
+Eddie Leonski,Eddie,American soldier and serial murderer,506870,left out,,Q723008
+Timothy Joseph McGhee,Timothy,American mass murderer on death row,499071,left out,,Q7807320
+"Raymond ""Shrimp Boy"" Chow",Raymond,Chinese-American criminal (born 1959),493221,left out,,Q7298668
+Julian Knight,Julian,Australian mass murderer,492160,left out,,Q6307312
+Harry Pierpont,Harry,"American gangster, murderer and bank robber",491785,left out,,Q14725165
+Kurt Franz,Kurt,SS officer and criminal,483292,left out,,Q61185
+Ian Fang,Ian,Chinese sex offender and actor (born 1989),469384,left out,,Q17306048
+Kurt Gerstein,Kurt,SS officer (1905–1945),449261,left out,,Q76537
+Antonio Cárdenas Guillén,Antonio,Mexican drug lord,447919,left out,,Q963940
+Colin Norris,Colin,Scottish serial killer,440356,left out,,Q1821730
+Diego León Montoya Sánchez,Diego,Colombian drug trafficker,428562,left out,,Q1085283
+Viktor Brack,Viktor,Nazi war criminal (1904–1948),419939,left out,,Q60459
+Rudolf von Ribbentrop,Rudolf,German Waffen-SS officer (1921–2019),419158,left out,,Q2565094
+Karl Eberhard Schöngarth,Karl,German Nazi SS general and war criminal (1903–1946),417383,left out,,Q61000
+Malcolm Fairley,Malcolm,British criminal and sex offender (1952–2024),399601,left out,,Q105045738
+Liam Byrne,Liam,Irish criminal,388392,left out,,Q97111111
+Bernard Giles,Bernard,American serial killer and rapist,377969,left out,,Q100535068
+Albert Forster,Albert,Nazi Gauleiter of Danzig and war criminal (1902–1952),373720,left out,,Q704305
+Timothy Jones Jr.,Timothy,American murderer on South Carolina's death row,365705,left out,,Q113130840
+Nikolai Dzhumagaliev,Nikolai,Soviet serial killer,358202,left out,,Q465885
+Timothy Krajcir,Timothy,American serial killer,351775,left out,,Q7807334
+Roberto Suárez Gómez,Roberto,Bolivian drug trafficker (1932–2000),351621,left out,,Q3436982
+Omar Bakri Muhammad,Omar,Syrian Islamist militant leader and terrorist (born 1958),348352,left out,,Q1362148
+Nicholas Todd Sutton,Nicholas / Nicolas,American serial killer (1961–2020),341905,left out,,Q109735199
+Ernst von Weizsäcker,Ernst,German diplomat and war criminal (1882–1951),332494,left out,,Q60650
+"Ralph ""Bucky"" Phillips",Ralph,American murderer (born 1962),331125,left out,,Q7287121
+Erich Bauer,Erich,Holocaust perpetrator (1900–1980),326874,left out,,Q78348
+Otto Moll,Otto,Nazi mass murderer (1915–1946),325277,left out,,Q68707
+Jackie Arklöv,Jackie,Swedish criminal (born 1973),322005,left out,,Q3657915
+Dominic Ongwen,Dominic,Ugandan rebel and convicted war criminal,318164,left out,,Q16204177
+Francisco de Assis Pereira,Francisco,Brazilian serial killer,307321,left out,,Q10324780
+Harold Jones,Harold,Welsh murderer (1906–1971),303463,left out,,Q5661304
+Benjamin Geen,Benjamin,British murderer,295129,left out,,Q4888699
+Dorothy Stang,Dorothy,"American-Brazilian Religious Sister, educator and social activist (murdered 2005)",286435,left out,,Q465318
+Louise Porton,Louise,British double murderer,286054,left out,,Q112247448
+Rudolf Brandt,Rudolf,"German civil servant and SS officer, convicted war criminal (1909–1948)",283440,left out,,Q461423
+Barry Prudom,Barry,English murderer,281874,left out,,Q4864623
+Carl Großmann,Carl,German serial killer and sexual predator,275286,left out,,Q63976
+Hermann Höfle,Hermann,Austrian SS officer and war criminal (1911–1962),274744,left out,,Q78678
+Benjamin Ritchie,Benjamin,American convicted murderer (1980–2025),274030,left out,,Q134237313
+José Padilla,José,American terrorist incarcerated in a US federal prison,272423,left out,,Q1664533
+Louise Peete,Louise,American serial killer,254041,left out,,Q1528918
+Roger Touhy,Roger,Irish American mob boss (1898–1959),252822,left out,,Q7359020
+René Velázquez Valenzuela,René,Mexican drug lord and hitman,251848,left out,,Q57313274
+Erich Muhsfeldt,Erich,German SS officer (1913–1948),245037,left out,,Q69884
 René Belbenoît,René,French criminal and author (1899–1959),236139,left out,in,Q3425816
+Giuseppe Marco Fieschi,Giuseppe,Corsican mass murderer (1790–1836),235288,left out,,Q1345609
+Friedrich Flick,Friedrich,German businessman and war criminal,232489,left out,,Q63888
+Giuseppe Morabito,Giuseppe,Italian criminal,226912,left out,,Q1067919
+Giuseppe Calò,Giuseppe,Italian mobster,226266,left out,,Q644362
+François Vérove,François,French serial killer,222188,left out,,Q108760741
+Rachel Whitear,Rachel,British victim of drugs overdose,217865,left out,,Q7279451
+Phillip Paske,Philip / Phillip,American criminal and child pornographer (1953–1998),212550,left out,,Q124333858
+Nicholas Tartaglione,Nicholas / Nicolas,American police officer and murderer (born 1967),211090,left out,,Q119080286
+Viktor Mokhov,Viktor,Russian criminal (born 1950),200477,left out,,Q4305076
+Oscar Franklin Smith,Oscar,Executed American convicted murderer (1950–2025),196845,left out,,Q111508676
+Kenneth Law,Kenneth,Canadian criminal (born 1965),187012,left out,,Q126451201
+Donald Gene Miller,Donald,American serial killer,182529,left out,,Q112252799
+Ruth Ann Steinhagen,Ruth,American criminal,180290,left out,,Q7382871
+Abdul Salam Bhuttavi,Abdul,Pakistani terrorist and Islamic scholar (1940s–2023),175101,left out,,Q98957704
+Lucy Partington,Lucy,English student and victim of murder (1952–1973),166948,left out,,Q6698449
+Johannes van Damme,Johannes,Dutch drug trafficker executed in Singapore in 1994,160387,left out,,Q347557
+Mario Ramírez Treviño,Mario,Mexican drug trafficker (1962–2025),146733,left out,,Q6764907
+Ahmed Ghailani,Ahmed,Islamist terrorist; member of al-Qaeda (born 1974),144533,left out,,Q320491
+Ludwig Hahn,Ludwig,German SS officer & war criminal (1908-1986),140282,left out,,Q95875
+Pedro Medina,Pedro,Cuban-American murderer (1957–1997),137792,left out,,Q2329468
+Ahmad Badreddin Hassoun,Ahmad,Syrian criminal and former Islamic scholar (born 1949),136958,left out,,Q400606
+Douglas Gretzler,Douglas,Executed American serial killer (1951–1998),134429,left out,,Q108427586
+Giuseppe Graviano,Giuseppe,Italian mob boss,126030,left out,,Q3770712
+Marie Lafarge,Marie,French murderer,124156,left out,,Q274927
+Gerard Ouimette,Gerard,American mobster and author,119850,left out,,Q41450087
+Ralph Menzies,Ralph,American convicted murderer (1958–2025),106294,left out,,Q130680897
+Johannes Schmidt,Johannes,"German SS member, murderer of Kurt von Schleicher (1908-1976)",102198,left out,,Q1698355
+Alfred Rouse,Alfred,British murderer (1894–1931),101609,left out,,Q4723370
+Ferdinand Brandner,Ferdinand,Austrian aerospace designer & SS officer (1903-1986),97389,left out,,Q87825
+Ryan Routh,Ryan,Attempted assassin of Donald Trump (born 1966),91019,left out,,Q130304876
+Emma Humphreys,Emma,Welsh murderer (1967–1998),88730,left out,,Q24962883
+Frances Knorr,Frances,Australian serial killer,88644,left out,,Q5478822
+André Boisclair,André,Canadian politician and sex offender (born 1966),86667,left out,,Q470957
+Ernst August Wagner,Ernst,German mass murderer (1874–1938),79072,left out,,Q91434
+August Sangret,August,Canadian murderer (1913–1943),76710,left out,,Q4820802
+Abdul Quader Mollah,Abdul,"Executed Islamist Bangladeshi politician, writer, and war criminal (1948–2013)",75417,left out,,Q4311299
+Rafael Cárdenas Vela,Rafael,Mexican drug lord,75383,left out,,Q7282100
+Edwin Kaprat,Edwin,American serial killer (1964–1995),70785,left out,,Q112742991
+Rudolf Pleil,Rudolf,German serial killer,64586,left out,,Q110950
+Alfred Polizzi,Alfred,American mobster,58220,left out,,Q368827
+Heinrich Tillessen,Heinrich,German assassin (1894–1984),54077,left out,,Q1599055
+Victor Martinez Hernandez,Victor,Salvadoran criminal (born 2000),52119,left out,,Q133873093
+Leo Boatman,Leo,American convicted serial killer (born 1986),46932,left out,,Q136956193
+Omar Lorméndez Pitalúa,Omar,Mexican drug lord,44405,left out,,Q83688598
+Jacques Rançon,Jacques,French rapist and serial killer,35032,left out,,Q111802585
+Stanley Theodore Adams,Stanley,American convicted serial killer (born 1966),28868,left out,,Q139386834
+Bernard McGrath,Bernard,New Zealand child sexual abuser,28220,left out,,Q108116493
+Victor Prévost,Victor,French murderer and suspected serial killer (1836–1880),21245,left out,,Q28839341
+Timothy McCorquodale,Timothy,American convicted murderer (1952–1987),15597,left out,,Q135244321
+Erich Muenter,Erich,American failed assassin (1871–1915),7163,left out,,Q214868
+Michel Lambin,Michel,French serial killer (born 1950),2420,left out,,Q64760963
+Vasily Khiletsky,Vasily,Ukrainian-Russian serial killer,812,left out,,Q136817303
+Raymond Horsch,Raymond,American criminal and artist (1943–2025),60,left out,,Q18687844

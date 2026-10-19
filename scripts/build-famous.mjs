@@ -21,6 +21,7 @@
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { gzipSync, gunzipSync } from 'node:zlib';
+import { createHash } from 'node:crypto';
 import { fromRoot, writeData } from './lib/output.mjs';
 import { leftOutByRule } from './lib/famousRules.mjs';
 
@@ -113,12 +114,14 @@ function slimEntities(j) {
   return slim;
 }
 
-async function peopleAmong(list, dir) {
+// `byContent` names each batch's cache file after its titles rather than its
+// position, so a list that grows between runs never reads another batch's file.
+async function peopleAmong(list, dir, { byContent = false } = {}) {
   mkdirSync(`${RAW}/${dir}`, { recursive: true });
   const out = [];
   for (let i = 0; i < list.length; i += 50) {
     const batch = list.slice(i, i + 50);
-    const base = `${RAW}/${dir}/${String(i / 50).padStart(4, '0')}`;
+    const base = `${RAW}/${dir}/${byContent ? createHash('sha1').update(batch.join('|')).digest('hex').slice(0, 16) : String(i / 50).padStart(4, '0')}`;
     // Batches from runs before 2026-10-18 were saved already slimmed (.json);
     // newer ones keep the whole response (.raw.json.gz).
     const data = existsSync(`${base}.json`)
@@ -251,16 +254,56 @@ const fetchPv = async (title) => {
   if (!body) throw new Error(`pageviews ${res.status}: ${title}`);
   writeFileSync(pvPath(title), gzipSync(JSON.stringify(body)));
 };
-const boardSize = new Map();
+// Steady fame that both sources above miss: Jason Derulo, Emma Bunton and
+// Billy Idol never top a month and are not vital articles. For every first
+// name with a board (each spelling of a shared board), Wikipedia's title
+// search for "Jason " lists up to 100 pages starting with it, ranked by how
+// much each is read and linked (Derulo 5th, Bunton 7th, Idol 15th). Each
+// response is saved raw in data-raw/famous/prefix/.
+const PREFIX_DIR = `${RAW}/prefix`;
+mkdirSync(PREFIX_DIR, { recursive: true });
+const earlyBoards = new Map();
 for (const e of [...fromTop, ...fromVital]) {
+  const b = boardFor(e);
+  if (b) earlyBoards.set(b, (earlyBoards.get(b) || 0) + 1);
+}
+const prefixTitles = new Set();
+for (const [b, n] of earlyBoards) {
+  if (n < MIN_PEOPLE_PER_NAME) continue;
+  for (const spelling of SAME_SOUND.find((g) => g[0] === b) || [b]) {
+    const j = await cachedRaw(`${PREFIX_DIR}/${fileSafe(spelling)}.json.gz`, async () => {
+      await sleep(300);
+      const r = await getJson(`https://en.wikipedia.org/w/api.php?${new URLSearchParams({ action: 'query', list: 'prefixsearch', pssearch: `${spelling} `, pslimit: 'max', psnamespace: '0', format: 'json' })}`);
+      if (!r || r.error) throw new Error(`prefixsearch ${spelling}: ${r?.error?.info || 'no response'}`);
+      return r;
+    });
+    // Past the exact matches the search pads with loose ones ("Email" for Emma).
+    for (const x of j.query?.prefixsearch || []) if (x.title.startsWith(`${spelling} `)) prefixTitles.add(x.title);
+  }
+}
+const knownTitles = new Set([...fromTop, ...fromVital].map((e) => e.title));
+const vitalSet = new Set(vitalTitles);
+const fromPrefix = (
+  await peopleAmong(
+    [...prefixTitles].filter((t) => !knownTitles.has(t) && !views.has(t.replace(/ /g, '_')) && !vitalSet.has(t)).sort(),
+    'entities-prefix',
+    { byContent: true }
+  )
+).filter((e) => !knownTitles.has(e.title));
+console.log(`title search: ${prefixTitles.size} titles for ${[...earlyBoards.values()].filter((n) => n >= MIN_PEOPLE_PER_NAME).length} names, ${fromPrefix.length} new people`);
+
+const boardSize = new Map();
+for (const e of [...fromTop, ...fromVital, ...fromPrefix]) {
   const b = boardFor(e);
   if (b) boardSize.set(b, (boardSize.get(b) || 0) + 1);
 }
-const candidates = [...fromTop, ...fromVital].filter((e) => (boardSize.get(boardFor(e)) || 0) >= MIN_PEOPLE_PER_NAME);
+const candidates = [...fromTop, ...fromVital, ...fromPrefix].filter((e) => (boardSize.get(boardFor(e)) || 0) >= MIN_PEOPLE_PER_NAME);
 const todo = candidates.map((e) => e.title).filter((t) => {
   const pv = readPv(t);
   return !pv || (pv.status !== 404 && lastRow(pv) < through);
 });
+console.log(`page views to fetch: ${todo.length} of ${candidates.length} candidates (about ${Math.ceil(todo.length / 200)} min at 5 at a time)`);
+if (process.env.COUNT_ONLY) process.exit(0);
 let done = 0;
 // Wikimedia rate-limited 16 at once (429 after ~400), so 5 at a time.
 for (let i = 0; i < todo.length; i += 5) {
@@ -292,7 +335,7 @@ for (const e of candidates) {
   if (!byId.has(e.id) || p.views > byId.get(e.id).views) byId.set(e.id, p);
 }
 const people = [...byId.values()];
-console.log(`people: ${fromTop.length} from the top lists + ${fromVital.length} vital articles; ${todo.length} fetched; fame = views ${FAME_FROM} to ${through} (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
+console.log(`people: ${fromTop.length} from the top lists + ${fromVital.length} vital articles + ${fromPrefix.length} from title search; ${todo.length} fetched; fame = views ${FAME_FROM} to ${through} (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
 
 
 // --------------------------------------------------------------- 3. group
@@ -456,6 +499,6 @@ console.log(`people kept: ${names.reduce((n, x) => n + x.people.length, 0)}, wit
 if (names.length < 20) throw new Error(`only ${names.length} usable names — a source or the join is broken`);
 
 writeData('famous.json', {
-  source: `English Wikipedia pageviews ${FAME_FROM} to ${through}, every month, for people in a monthly top 1000 or in Wikipedia's vital articles`,
+  source: `English Wikipedia pageviews ${FAME_FROM} to ${through}, every month, for people in a monthly top 1000, in Wikipedia's vital articles, or with an article titled by the first name`,
   names
 });

@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import data from '../../data/famous.json';
 import { buildWhoRounds, guessIsRight, whoPoints, yearText, ROUNDS, RUNGS } from './whoLogic';
 import { localDateKey } from '../../lib/dates';
-import { useDay, daysOwn, clearDay } from '../../lib/day';
+import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
-import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
@@ -22,9 +21,7 @@ const RUNG_LABEL = ['', 'Known for', 'Born', 'First name'];
  */
 export default function WhoAmI({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
-  const [game, setGame] = usePersistentState('who_am_i', null);
-  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
-  const day = useDay();
+  const [game, setGame, day] = useDaySave('who_am_i');
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'who-am-i');
 
@@ -37,7 +34,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
     setGame({ daily, date, rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [] });
   };
 
-  if (!game || (day && !(game.daily && game.date === day))) {
+  if (!game) {
     return (
       <GameSetup
         title="Who am I"

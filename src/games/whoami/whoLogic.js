@@ -36,10 +36,12 @@ export function knownFor(person, first) {
 /** A person makes a fair round: a description worth reading and a birth year. */
 // Blanking a monarch's name can leave nothing to go on ("… … … from 1745 to
 // 1765" for Francis I, Holy Roman Emperor), so a clue with more than one
-// blank, or under a dozen real letters, is skipped.
+// blank, or under a dozen real letters, is skipped. So is a clue that already
+// holds the birth year, the second clue: Ivan VI was emperor 'from 1740 to
+// 1741', the year he was born.
 const usable = (person, first) => {
   const clue = knownFor(person, first);
-  return person.born && (clue.match(/…/g) || []).length <= 1 && clue.replace(/[^\p{L}]/gu, '').length >= 12;
+  return person.born && !clue.includes(String(person.born)) && (clue.match(/…/g) || []).length <= 1 && clue.replace(/[^\p{L}]/gu, '').length >= 12;
 };
 
 /**

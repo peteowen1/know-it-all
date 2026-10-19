@@ -3,8 +3,9 @@
 // files by relative path (see src/lib/route.js). Every daily is built from a
 // seed made of its date, so any earlier day can be rebuilt on demand.
 
-import { useSyncExternalStore } from 'react';
+import { useCallback, useSyncExternalStore } from 'react';
 import { addDaysToKey, localDateKey } from './dates.js';
+import { usePersistentState } from './persist.js';
 
 const EVENT = 'kia:day';
 const KEY = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -65,6 +66,39 @@ export function dayLabel(key) {
 
 /** "Today's" or "Fri 17 Oct's", for the daily button's label. */
 export const daysOwn = (day) => (day ? `${dayLabel(day)}'s` : "Today's");
+
+/**
+ * A daily game's saved round, kept apart by day: today's daily and random
+ * rounds in `name`, an earlier day's daily in `name_past`, so replaying last
+ * Friday never overwrites today's half-played board. Returns
+ * [game, setGame, day]. `game` is null (show the setup screen) when the saved
+ * round is not for the day the address asks for, including a daily left
+ * unfinished overnight. A new round goes to the slot its own date belongs to;
+ * an update or a reset (null) goes to the slot on screen.
+ */
+export function useDaySave(name) {
+  const day = useDay();
+  const [today, setToday] = usePersistentState(name, null);
+  const [past, setPast] = usePersistentState(`${name}_past`, null);
+  const game = savedFor(day, today, past, localDateKey());
+  const setGame = useCallback(
+    (v) => (saveSlotFor(v, day, localDateKey()) === 'past' ? setPast : setToday)(v),
+    [day, setPast, setToday]
+  );
+  return [game, setGame, day];
+}
+
+/** The saved round to show for `day` (null for today), or null for the setup screen. */
+export function savedFor(day, today, past, now) {
+  if (day) return past?.daily && past.date === day ? past : null;
+  return today?.daily && today.date !== now ? null : today;
+}
+
+/** 'past' or 'today': where a write goes. A new round by its own date; an update or reset to the slot on screen. */
+export function saveSlotFor(v, day, now) {
+  if (v === null || typeof v === 'function') return day ? 'past' : 'today';
+  return v.daily && v.date !== now ? 'past' : 'today';
+}
 
 /** Back to today's address without a new history entry (a random round started from an earlier day). */
 export function clearDay() {

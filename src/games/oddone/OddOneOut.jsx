@@ -2,9 +2,8 @@ import React from 'react';
 import data from '../../data/obscure.json';
 import { buildOddRounds, ROUNDS } from './oddLogic';
 import { localDateKey } from '../../lib/dates';
-import { useDay, daysOwn, clearDay } from '../../lib/day';
+import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
-import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
@@ -15,9 +14,7 @@ import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared
  */
 export default function OddOneOut({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
-  const [game, setGame] = usePersistentState('odd_one_out', null);
-  // An earlier day's board when the address asks for one (?day=, src/lib/day.js).
-  const day = useDay();
+  const [game, setGame, day] = useDaySave('odd_one_out');
   const entry = gameEntry(stats, 'odd-one-out');
 
   const start = (daily) => {
@@ -28,7 +25,7 @@ export default function OddOneOut({ stats, onRoundComplete, onExit }) {
     setGame({ daily, date, rounds: buildOddRounds(data.categories, { seed }), index: 0, results: [] });
   };
 
-  if (!game || (day && !(game.daily && game.date === day))) {
+  if (!game) {
     return (
       <GameSetup
         title="Odd one out"

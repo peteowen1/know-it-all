@@ -7,11 +7,7 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-- OPEN **Famous people still missing**: names that are neither in a monthly
-  Wikipedia top 1000 nor on the vital-articles lists (Jason Derulo, Emma Bunton,
-  Billy Idol) score "not on the list". Widening further means a new candidate
-  source (for example, every person with that first name, ranked by views),
-  which is thousands more page-view requests. Worth it?
+(nothing waiting)
 
 ## Data
 
@@ -22,15 +18,30 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
+- OPEN **"New daily five" does nothing** (bug hunt 2026-10-19, read in code,
+  not run): the button rebuilds the same day's five, so the quiz key is
+  unchanged and the results stay up (`src/App.jsx` `onNewQuiz`, label in
+  `QuizSimulator.jsx:30`). Either hide it for the Daily five or make it a real
+  "Play it again"; replays then count again in lifetime totals (next item).
+- OPEN **Replays add to lifetime totals**: an earlier day's Daily five, and
+  every replayed daily game round, adds to total quizzes, answered and best
+  scores on the Progress page each time (`App.jsx` `handleComplete`,
+  `onRoundComplete`). The streak is not affected. The comment says counting is
+  deliberate; Pete to decide whether replays should count.
+- OPEN **Daily five open past midnight**: its save slot is chosen each render
+  (`App.jsx` `saveSlot`), so after midnight yesterday's round starts saving to
+  `daily_past` and its subtitle says it does not count. Low impact; the tick
+  still goes to the right day.
+
 
 
 
 
 ## Check
 
-- OPEN **Two open tabs and sync** (da82aa4, e12c720): the fixes were reviewed
-  but never run with a real sign-in. Test once by hand: sign in, open a second
-  tab, sign out in one, play in the other, sign back in; totals must not double.
-- OPEN **Download sizes**: Famous first names grew to about 270 KB gzipped
-  (2026-10-18); the question bank is about 835 KB, loaded when a quiz opens.
-  A split was costed and judged not worth it; revisit if loading feels slow.
+- OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took
+  `famous.json` from 273 to 602 KB gzipped (Famous first names, Who am I) and
+  `obscure.json` from 177 to 323 KB (Obscure-est, Missing link, Odd one out);
+  the question bank is about 835 KB, loaded when a quiz opens. Each loads only
+  when its game opens. Slimming people past each board's top 15 is not simple,
+  because the era filter picks a different top 15. Revisit if loading feels slow.

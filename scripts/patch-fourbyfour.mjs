@@ -95,6 +95,25 @@ data.puzzles.forEach((p, idx) => {
       return item;
     });
   }
+  // A tile that now also fits another group in its puzzle (a newly listed
+  // Jeremy London makes the capital London a famous Jeremy): swap it for
+  // another member of its own group.
+  for (const o of findOverlaps(p, byLabel, lookup)) {
+    const g = p.groups.find((x) => x.label === o.own);
+    if (!g.items.includes(o.tile) || !findOverlaps(p, byLabel, lookup).some((h) => h.tile === o.tile)) continue;
+    const inPuzzle = new Set(p.groups.flatMap((x) => x.items).map(norm));
+    const cand = shuffle(byLabel.get(g.label).pool, makeRng(hashString(`${idx}:${g.label}:${o.tile}`))).find((c) => {
+      if (inPuzzle.has(norm(c)) || !itemFree(c)) return false;
+      const trial = { groups: p.groups.map((x) => (x === g ? { ...x, items: x.items.map((t) => (t === o.tile ? c : t)) } : x)) };
+      return !findOverlaps(trial, byLabel, lookup).length;
+    });
+    if (!cand) continue; // left for the overlap report below
+    console.log(`puzzle ${idx} [${g.label}]: ${o.tile} -> ${cand} (also fit ${o.other})`);
+    g.items = g.items.map((t) => (t === o.tile ? cand : t));
+    swapped++;
+    bump(itemUse, o.tile.toLowerCase(), -1);
+    bump(itemUse, cand.toLowerCase(), 1);
+  }
   // A tile with no free replacement: swap its whole group instead.
   for (const g of p.groups) {
     const def = byLabel.get(g.label);
