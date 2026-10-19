@@ -812,6 +812,19 @@ test('obscure: famous-person categories accept a surname alone', () => {
   const johns = OBS.find((c) => c.id === 'name-John');
   assert.equal(scoreGuess(johns, 'Washington').answer?.text, 'John David Washington');
 });
+test('obscure: St, Dr, a leading The and half a two-place country all score', () => {
+  const cat = (id) => OBS.find((c) => c.id === id);
+  const carib = OBS.find((c) => c.prompt === 'A country in the Caribbean');
+  for (const [guess, text] of [['St Lucia', 'Saint Lucia'], ['The Bahamas', 'Bahamas'], ['Trinidad', 'Trinidad and Tobago'], ['Saint Kitts', 'Saint Kitts and Nevis']]) {
+    assert.equal(scoreGuess(carib, guess).answer?.text, text, guess);
+  }
+  assert.equal(scoreGuess(cat('films-David Lean'), 'Dr Zhivago').answer?.text, 'Doctor Zhivago');
+  assert.equal(scoreGuess(carib, 'Hong Kong').score, 0);
+});
+test('obscure: an artist charted under two capitalisations is one category (The Weeknd)', () => {
+  const prompts = OBS.map((c) => c.prompt.toLowerCase());
+  assert.equal(new Set(prompts).size, prompts.length);
+});
 test('obscure: a shared name keeps the more famous rarity (Anne Hathaway)', () => {
   // Two Anne Hathaways: the actress and Shakespeare's wife. Last-write-wins
   // once scored a shared name as the rarer person (George Floyd scored 100,

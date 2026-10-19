@@ -43,6 +43,12 @@ test('skips numeric and year answers', () => {
   assert.equal(buildRung({ ...base, answer: '206' }), null);
   assert.notEqual(buildRung({ ...base, answer: 'Paris' }), null);
 });
+test('skips a question that points at options not yet shown', () => {
+  const base = { explanation: 'word '.repeat(20) + 'Dutch', hook: 'hook here', answer: 'Dutch', distractors: ['a', 'b', 'c'] };
+  assert.notEqual(buildRung({ ...base, question: 'Which language is spoken in Amsterdam?' }), null);
+  assert.equal(buildRung({ ...base, question: 'Which of these is a Germanic language?' }), null);
+  assert.equal(buildRung({ ...base, question: 'Which language is NOT Romance?' }), null);
+});
 test('rejects an explanation with no blank to fill', () => {
   const q = { answer: 'Newspaper editor', hook: 'h', distractors: ['a', 'b', 'c'], explanation: 'Bloomer edited The Lily, a women2019s paper, and printed pictures of the outfit designed by Elizabeth Smith Miller.' };
   assert.equal(buildRung(q), null);

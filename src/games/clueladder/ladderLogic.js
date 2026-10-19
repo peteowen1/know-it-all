@@ -89,6 +89,10 @@ export function buildRung(q) {
   if (core.some((w) => w.length < 2)) return null;
   if (!core.every((w) => tokens.some((t) => t === w || (w.length > 3 && stem(t) === stem(w))))) return null;
   if (SKIP.has(q.id)) return null;
+  // The question is the third clue, shown before the options: "Which of these
+  // is a Germanic language?" or "Which is NOT in the G7?" has nothing to
+  // point at yet (playtest 2026-10-19).
+  if (/\bof these\b|\bNOT\b/.test(q.question || '')) return null;
   const left = ` ${normalise(explanation)} `;
   if (left.includes(` ${normalise(q.answer)} `)) return null;
   if (words.some((w) => left.includes(` ${w} `))) return null;
