@@ -10,7 +10,7 @@ import { getStored, setStored, clearAllStored } from './lib/storage.js';
 import BANK_STATS from './data/bankStats.json';
 import { localDateKey, previousDateKey } from './lib/dates';
 import { advanceStreak } from './lib/streak';
-import { onDailyDone } from './lib/dailyDone';
+import { onDailyDone, firstFinish } from './lib/dailyDone';
 import { normaliseVault, recordMiss, recordHit, dueEntries, vaultSummary } from './lib/scheduler';
 import { readChallengeFromUrl, clearChallengeFromUrl } from './lib/transfer';
 import { pathForTab, tabForPath } from './lib/route';
@@ -243,7 +243,10 @@ export default function App() {
     setGameStats((prev) => recordItems(prev, gameId, [{ key, correct }]));
   }, []);
 
-  const handleGameRound = useCallback((gameId, result) => {
+  // A daily round passes its `day`; a replay of that day's round (today's
+  // again, or an earlier day's) does not count a second time.
+  const handleGameRound = useCallback((gameId, { day, ...result }) => {
+    if (day && !firstFinish(gameId, day)) return;
     setGameStats((prev) => recordRound(prev, gameId, { ...result, date: localDateKey() }));
   }, []);
 
@@ -337,11 +340,13 @@ export default function App() {
   );
 
   // `countsForStreak` is false for an earlier day's Daily five (?day=): its
-  // answers still count in the totals, but only today's play keeps a streak.
-  const handleComplete = useCallback((result, { countsForStreak = true } = {}) => {
+  // first finish counts in the totals, but only today's play keeps a streak.
+  // `day` is the Daily five's own date: a replay of it adds nothing.
+  const handleComplete = useCallback((result, { countsForStreak = true, day = null } = {}) => {
     const { score, total, answers, questionIds } = result;
 
     setRecentIds((prev) => [...questionIds, ...prev.filter((id) => !questionIds.includes(id))].slice(0, RECENT_MEMORY));
+    if (day && !firstFinish('daily', day)) return;
 
     setStats((prev) => {
       const today = localDateKey();
@@ -483,7 +488,7 @@ export default function App() {
           questions={dailyQuiz.questions}
           seed={dailyQuiz.seed}
           roundDate={dailyQuiz.date}
-          onComplete={(result) => handleComplete(result, { countsForStreak: dailyQuiz.date === localDateKey() })}
+          onComplete={(result) => handleComplete(result, { countsForStreak: dailyQuiz.date === localDateKey(), day: dailyQuiz.date })}
           title="Daily Five"
           subtitle={
             dailyQuiz.date === localDateKey()
@@ -492,13 +497,7 @@ export default function App() {
           }
           onMissed={handleMissed}
           onCorrect={handleCorrect}
-          onNewQuiz={async () => {
-            const builder = await bank();
-            if (builder) {
-              const want = day || localDateKey();
-              setDailyQuiz({ ...builder.buildDailyQuiz(5, want), date: want });
-            }
-          }}
+          // No new-round button: a day has one Daily five. Earlier days are below.
         />
         <div className="daily-days">
           <EarlierDays day={day} />

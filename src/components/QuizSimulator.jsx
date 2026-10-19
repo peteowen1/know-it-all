@@ -27,7 +27,7 @@ const formatTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0
 const capitalise = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
 // What the one primary button on the results card says, by kind of quiz.
-const NEW_ROUND_LABEL = { weekly: 'Back to the papers', daily: 'New daily five' };
+const NEW_ROUND_LABEL = { weekly: 'Back to the papers' };
 
 // The per-second clock lives in its own component so a tick re-renders only this
 // pill, not the question card and its options. The latest value is handed up

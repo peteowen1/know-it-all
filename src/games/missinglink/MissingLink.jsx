@@ -89,7 +89,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
     const next = [...results, { picked: i, points: right ? linkPoints(shown) : 0 }];
     setGame({ ...game, results: next });
     if (next.length === rounds.length) {
-      onRoundComplete('missing-link', { score: next.reduce((s, x) => s + x.points, 0), total: rounds.length * CLUES, answers: [] });
+      onRoundComplete('missing-link', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.points, 0), total: rounds.length * CLUES, answers: [] });
     }
   };
 

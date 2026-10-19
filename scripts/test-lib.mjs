@@ -16,7 +16,7 @@ import { STORAGE_PREFIX, storageKey, getStored, setStored, removeStored, clearAl
 import { isSyncedKey, mergeSnapshots } from '../src/lib/syncCore.js';
 import { loadLive, saveLive } from '../src/lib/persist.js';
 import { shareText } from '../src/lib/share.js';
-import { markDailyDone, dailyDoneToday, onDailyDone } from '../src/lib/dailyDone.js';
+import { markDailyDone, dailyDoneToday, onDailyDone, firstFinish } from '../src/lib/dailyDone.js';
 import { advanceStreak } from '../src/lib/streak.js';
 import { requestedDay, searchWithDay, pastDays, savedFor, saveSlotFor } from '../src/lib/day.js';
 
@@ -238,6 +238,19 @@ test("day saves: an earlier day never shows or overwrites today's round", () => 
   assert.equal(saveSlotFor(random, '2026-10-17', now), 'today'); // Random started from an earlier day
   assert.equal(saveSlotFor(null, '2026-10-17', now), 'past'); // reset clears the board on screen
   assert.equal(saveSlotFor(null, null, now), 'today');
+});
+
+test("totals: only the first finish of a day's round counts", () => {
+  globalThis.localStorage = fakeStorage();
+  assert.equal(firstFinish('timeline', '2026-10-19', '2026-10-19'), true);
+  assert.equal(firstFinish('timeline', '2026-10-19', '2026-10-19'), false); // today's again
+  assert.equal(firstFinish('timeline', '2026-10-17', '2026-10-19'), true); // an earlier day, once
+  assert.equal(firstFinish('timeline', '2026-10-17', '2026-10-19'), false);
+  assert.equal(firstFinish('who-am-i', '2026-10-19', '2026-10-19'), true); // each game separately
+  assert.equal(firstFinish('timeline', '2026-09-01', '2026-10-19'), false); // past the fortnight kept
+  // Old entries are pruned as new ones are added.
+  firstFinish('daily', '2026-11-10', '2026-11-10');
+  assert.deepEqual(Object.keys(getStored('daily_counted', {})), ['daily:2026-11-10']);
 });
 
 test('daily done: a round from yesterday does not tick today', () => {

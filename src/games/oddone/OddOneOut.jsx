@@ -85,7 +85,7 @@ export default function OddOneOut({ stats, onRoundComplete, onExit }) {
     const next = [...results, { picked: i, right: i === r.oddIndex }];
     setGame({ ...game, results: next });
     if (next.length === rounds.length) {
-      onRoundComplete('odd-one-out', { score: next.filter((x) => x.right).length, total: rounds.length, answers: [] });
+      onRoundComplete('odd-one-out', { day: game.daily ? game.date : null, score: next.filter((x) => x.right).length, total: rounds.length, answers: [] });
     }
   };
 
