@@ -18,11 +18,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
-- OPEN **"New daily five" does nothing** (bug hunt 2026-10-19, read in code,
-  not run): the button rebuilds the same day's five, so the quiz key is
-  unchanged and the results stay up (`src/App.jsx` `onNewQuiz`, label in
-  `QuizSimulator.jsx:30`). Either hide it for the Daily five or make it a real
-  "Play it again"; replays then count again in lifetime totals (next item).
 - OPEN **Replays add to lifetime totals**: an earlier day's Daily five, and
   every replayed daily game round, adds to total quizzes, answered and best
   scores on the Progress page each time (`App.jsx` `handleComplete`,

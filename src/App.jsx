@@ -492,13 +492,7 @@ export default function App() {
           }
           onMissed={handleMissed}
           onCorrect={handleCorrect}
-          onNewQuiz={async () => {
-            const builder = await bank();
-            if (builder) {
-              const want = day || localDateKey();
-              setDailyQuiz({ ...builder.buildDailyQuiz(5, want), date: want });
-            }
-          }}
+          // No new-round button: a day has one Daily five. Earlier days are below.
         />
         <div className="daily-days">
           <EarlierDays day={day} />
