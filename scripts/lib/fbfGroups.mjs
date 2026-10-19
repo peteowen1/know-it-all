@@ -119,6 +119,8 @@ export function buildGroups({ countries, famous, music, films, tv }) {
   // Jong-un) are skipped: "Famous Lees: Sun-kyun, Jung-jae" is not a first-name
   // group at all.
   const FAMILY_NAME_FIRST = new Set(['Lee', 'Kim', 'Park', 'Choi', 'Jung', 'Kang', 'Wang', 'Li', 'Zhang', 'Liu', 'Chen', 'Ma', 'Nguyen']);
+  // Louis and Louise both pluralise to 'Louises'; the less famous board says it plainly.
+  const usedLabels = new Set();
   for (const n of famous) {
     if (FAMILY_NAME_FIRST.has(n.first)) continue;
     const modern = n.people.filter((p) => p.born == null || p.born >= 1940);
@@ -127,7 +129,9 @@ export function buildGroups({ countries, famous, music, films, tv }) {
     // Checked against everyone on the list, drawn from the six best known.
     // Merged-spelling boards ("Billy / Billie") read "Famous Billys & Billies".
     const names = (n.spellings || [n.first]).map(pluralName);
-    const label = `Famous ${names.length < 2 ? names[0] : `${names.slice(0, -1).join(', ')} & ${names.at(-1)}`}`;
+    let label = `Famous ${names.length < 2 ? names[0] : `${names.slice(0, -1).join(', ')} & ${names.at(-1)}`}`;
+    if (usedLabels.has(label)) label = `Famous people called ${(n.spellings || [n.first]).join(' or ')}`;
+    usedLabels.add(label);
     if (surnames.length >= 8) add('first-name', label, 2, surnames, surnames.slice(0, 6));
   }
 
