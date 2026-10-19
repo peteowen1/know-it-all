@@ -7,7 +7,13 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-(nothing waiting)
+- OPEN **Four by four group types**: 2026-10-19 playtest found every puzzle the
+  same shape (182 of 243 have a "Famous X" group; wordplay is 10% and reuses the
+  same four items). Plan: show Pete 10 example new groups (phrases, hidden words,
+  homophones, decoys) to rate before building. See `PLAYTEST-2026-10-19.md`.
+- OPEN **Who am I clues**: clue 1 is often just "American actor", clue 3 is the
+  first name all four options share. Needs a famous-for fact per person (new
+  data) or a pageview floor; Pete to pick.
 
 ## Data
 
