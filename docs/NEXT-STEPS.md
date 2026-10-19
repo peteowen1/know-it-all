@@ -18,15 +18,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
-- OPEN **Daily five open past midnight**: its save slot is chosen each render
-  (`App.jsx` `saveSlot`), so after midnight yesterday's round starts saving to
-  `daily_past` and its subtitle says it does not count. Low impact; the tick
-  still goes to the right day.
-
-
-
-
-
 ## Check
 
 - OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took

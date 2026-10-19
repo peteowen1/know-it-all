@@ -211,7 +211,7 @@ export default function App() {
       const want = (activeTab === 'daily' && day) || localDateKey();
       const stale = dailyDate.current !== want;
       dailyDate.current = want;
-      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : { ...builder.buildDailyQuiz(5, want), date: want }));
+      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : { ...builder.buildDailyQuiz(5, want), date: want, past: want !== localDateKey() }));
       setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
       setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
     });
@@ -484,14 +484,16 @@ export default function App() {
         <QuizSimulator
           key={`daily-${dailyQuiz.seed}`}
           saveAs="daily"
-          saveSlot={dailyQuiz.date === localDateKey() ? 'daily' : 'daily_past'}
+          // Fixed when the quiz is built (`past`), so a quiz left open past midnight
+          // keeps saving to the slot it started in.
+          saveSlot={dailyQuiz.past ? 'daily_past' : 'daily'}
           questions={dailyQuiz.questions}
           seed={dailyQuiz.seed}
           roundDate={dailyQuiz.date}
           onComplete={(result) => handleComplete(result, { countsForStreak: dailyQuiz.date === localDateKey(), day: dailyQuiz.date })}
           title="Daily Five"
           subtitle={
-            dailyQuiz.date === localDateKey()
+            !dailyQuiz.past
               ? 'The same five questions for everyone today. Come back tomorrow for a new set.'
               : `The five questions everyone got on ${dayLabel(dailyQuiz.date)}. They do not count towards your streak.`
           }
