@@ -56,8 +56,10 @@ test('across 300 seeds: every answer has a works clue, without their name in it'
   for (let s = 0; s < 300; s++) {
     for (const r of buildWhoRounds(names, { seed: `k${s}` })) {
       if (!/^(Starred in|Recorded|Played for|Directed|Wrote|Created|Known for) /.test(r.known || '')) problems.push(`${r.name}: "${r.known}"`);
+      // A name word, or a longer one with an ending: "Browns" for Jim Brown.
       const nameWords = normalise(r.name).split(' ').filter((w) => w.length > 2 && !['and', 'the', 'von', 'van', 'des'].includes(w));
-      if (nameWords.some((w) => normalise(r.known || '').split(' ').includes(w))) problems.push(`${r.name}: name in "${r.known}"`);
+      const clueWords = normalise(r.known || '').split(' ');
+      if (clueWords.some((c) => nameWords.some((n) => c === n || (n.length >= 4 && c.startsWith(n))))) problems.push(`${r.name}: name in "${r.known}"`);
     }
   }
   assert.deepEqual(problems.slice(0, 5), []);

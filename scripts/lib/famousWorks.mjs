@@ -45,6 +45,14 @@ export function loadWorks(root) {
 const words = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').split(/[^a-z0-9]+/).filter((w) => w.length > 2);
 
 /**
+ * Does a title give the name away? A whole word of it, or a longer name word
+ * with an ending added: "Cleveland Browns" for Jim Brown, "Keeping Up with
+ * the Kardashians" for Rob Kardashian.
+ */
+export const leaksName = (title, nameWords) =>
+  words(title).some((x) => nameWords.has(x) || [...nameWords].some((n) => n.length >= 4 && x.startsWith(n)));
+
+/**
  * "Starred in Titanic and Inception", or null when nothing fits. The two
  * best-known works (by Wikipedia sitelinks) of the kind the description
  * points to, else of the person's notable works. A work whose title holds
@@ -65,7 +73,7 @@ export function worksClue(person, { rows, labels }) {
       .filter((r) => r.prop === kind.prop && labels.has(r.work))
       .sort((a, b) => b.links - a.links)
       .map((r) => labels.get(r.work))
-      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !words(w.label).some((x) => nameWords.has(x)))
+      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !leaksName(w.label, nameWords))
       // "Fulham F.C." reads as "Fulham" in a clue.
       .map((w) => w.label.replace(/\s+(A\.?F\.?C\.?|F\.?C\.?|C\.?F\.?|S\.?C\.?)$/, ''))
       .filter((t) => !seen.has(t) && seen.add(t))
