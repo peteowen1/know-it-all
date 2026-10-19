@@ -18,7 +18,7 @@
 
 import { readFileSync } from 'node:fs';
 import {
-  loadSources, buildGroups, countryLookup, indexByLabel, tileFits, isFair, norm, cleanTitle, TRAPS, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+  loadSources, buildGroups, countryLookup, indexByLabel, tileFits, isFair, norm, cleanTitle, hidingWord, HIDDEN, TRAPS, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { makeRng, hashString, shuffle } from '../src/lib/rng.js';
 import { addDaysToKey } from '../src/lib/dates.js';
@@ -156,27 +156,47 @@ const oneThing = (ga, gb, x) => {
   return need.length < 2 || records.some((r) => r.title === norm(x) && need.every((l) => r.labels.has(l)));
 };
 
+// A tile that plainly hides a hidden-word group's word, as a red herring for
+// it: in one word where a player will see it (Moscow), or across a space
+// ("How Low" hides an owl). Not one lost mid-word: "Education" holds a cat
+// that nobody would offer.
+function plainlyHides(gb, x) {
+  const what = gb.label.split(' hiding ')[1];
+  const parts = HIDDEN[what];
+  const w = hidingWord(x, parts, what === 'a number');
+  if (w) return parts.find((p) => w.includes(p));
+  const words = norm(x).split(' ');
+  if (words.some((w) => parts.some((p) => w.includes(p)))) return null;
+  return parts.find((p) => words.join('').includes(p)) ?? null;
+}
+
 // Every red herring the data offers: x is in A's pool and fits B too,
-// recognisably (in B's own pool, or a country B's rule names). Not into a
-// landlocked group: its loose rule takes Chad for "Landlocked in Europe",
-// right for keeping tiles apart and wrong to tell a player.
+// recognisably (in B's own pool, a country B's rule names, or a word B's
+// tiles hide, among its own kind). Not into a landlocked group: its loose rule takes Chad for
+// "Landlocked in Europe", right for keeping tiles apart and wrong to tell a
+// player.
 const DECOYS = [];
 for (const ga of groups) {
   for (const gb of groups) {
-    if (ga === gb || (ga.type === 'first-name' && gb.type === 'first-name') || gb.type.startsWith('hidden-') || gb.type === 'landlocked') continue;
+    if (ga === gb || (ga.type === 'first-name' && gb.type === 'first-name') || gb.type === 'landlocked') continue;
+    const hidden = gb.type.startsWith('hidden-');
     for (const x of ga.pool) {
-      if (!tileFits(gb, x, lookup) || (!gb.pool.some((y) => norm(y) === norm(x)) && !gb.rule)) continue;
+      if (!tileFits(gb, x, lookup)) continue;
+      // For a hidden-word group, the same kind of thing too: a hit for "Hits
+      // hiding", not the TV show China Beach.
+      const hides = hidden && gb.members.some((y) => norm(y) === norm(x)) ? plainlyHides(gb, x) : null;
+      if (hidden ? !hides : !gb.pool.some((y) => norm(y) === norm(x)) && !gb.rule) continue;
       if (!oneThing(ga, gb, x)) continue;
-      DECOYS.push({ ga, gb, x });
+      DECOYS.push({ ga, gb, x, hides });
     }
   }
 }
 
-function addDecoy(p) {
+function addDecoy(p, only = () => true) {
   const labels = new Set(p.groups.map((g) => g.label));
   // A already in the puzzle; B is in it too, or comes in for one of its
   // "Famous X" or "Hits by" groups.
-  for (const { ga, gb, x } of shuffle(DECOYS.filter((d) => labels.has(d.ga.label)), rng)) {
+  for (const { ga, gb, x, hides } of shuffle(DECOYS.filter((d) => labels.has(d.ga.label) && only(d)), rng)) {
     if (tiles(p).has(norm(x)) || !itemFree(x)) continue;
     const a = p.groups.find((g) => g.label === ga.label);
     const swaps = labels.has(gb.label)
@@ -193,7 +213,8 @@ function addDecoy(p) {
       for (const out of shuffle(a.items, rng)) {
         const trial = {
           groups: base.map((g) => (g.label === a.label ? { ...g, items: g.items.map((t) => (t === out ? x : t)) } : g)),
-          decoy: { tile: x, also: gb.label }
+          // The hidden word itself, for the end screen: "heel" in The Elephant Man.
+          decoy: { tile: x, also: gb.label, ...(hides && { hides }) }
         };
         if (fair(trial)) return trial;
       }
@@ -229,6 +250,23 @@ for (const i of open) {
     break;
   }
 }
+
+// A hidden-word puzzle can take a red herring for its own hidden word too: a
+// fifth tile that also hides it ("How Low" hides an owl, Pete 2026-10-19).
+let hiddenDecoys = 0;
+for (const i of open) {
+  const p = data.puzzles[i];
+  const h = p.groups.find((g) => byLabel.get(g.label)?.type.startsWith('hidden-'));
+  if (!h || p.decoy || p.trap) continue;
+  const next = addDecoy(p, (d) => d.gb.label === h.label);
+  if (!next) continue;
+  count(p, -1);
+  count(next, 1);
+  sortLevels(next);
+  data.puzzles[i] = next;
+  hiddenDecoys++;
+}
+console.log(`red herrings for a hidden word: ${hiddenDecoys}`);
 
 const unfair = data.puzzles.map((p, i) => [i, p]).filter(([, p]) => !fair(p)).map(([i]) => i);
 console.log(`${n} puzzles, ${kept.size} kept for recent and coming days; target ${target} of each kind`);

@@ -1276,6 +1276,8 @@ test('four by four: every puzzle has exactly one solution; a red herring really 
     assert.ok(own, `#${i} decoy ${p.decoy.tile} is not a tile`);
     assert.ok(tileFits(FBF_BY_LABEL.get(p.decoy.also), p.decoy.tile, FBF_LOOKUP), `#${i} ${p.decoy.tile} does not fit ${p.decoy.also}`);
     assert.ok(p.groups.some((g) => g.label === p.decoy.also), `#${i} ${p.decoy.also} is not in the puzzle`);
+    // A hidden-word red herring names its word, and the tile really holds it.
+    if (p.decoy.hides) assert.ok(fbfNorm(p.decoy.tile).replace(/ /g, '').includes(p.decoy.hides), `#${i} ${p.decoy.tile} has no ${p.decoy.hides}`);
   }
 });
 test('four by four: a trap is four tiles of its theme, one per group, and no theme tile besides', () => {

@@ -24,7 +24,9 @@ const listed = (xs) => `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`;
 
 /** The puzzle's red herring or trap, named once it is over (scripts/fbf-variety.mjs). */
 function Trick({ puzzle }) {
-  if (puzzle.decoy) return <p className="fbf-trick">Red herring: {puzzle.decoy.tile} also fits {puzzle.decoy.also}.</p>;
+  const { decoy } = puzzle;
+  if (decoy?.hides) return <p className="fbf-trick">Red herring: {decoy.tile} also hides “{decoy.hides}”.</p>;
+  if (decoy) return <p className="fbf-trick">Red herring: {decoy.tile} also fits {decoy.also}.</p>;
   if (puzzle.trap) return <p className="fbf-trick">The trap: {listed(puzzle.trap.tiles)} are all {puzzle.trap.theme}, but not a group.</p>;
   return null;
 }
