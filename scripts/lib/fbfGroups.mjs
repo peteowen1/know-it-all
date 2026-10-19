@@ -256,6 +256,15 @@ export function buildGroups({ countries, famous, music, films, tv }) {
     }
   }
 
+  // -------------------------------------------------------------- fill the gap
+  // Every word that completes the phrase is a member, so a famous surname that
+  // does ("Rose" in "Red ___") counts as an overlap wherever it appears; only
+  // the plain words are ever one of the four.
+  for (const [label, words] of Object.entries(GAPS)) {
+    const keys = new Set(words.map(norm));
+    add('gap', label, 3, words, words.filter((w) => !GAP_HERRINGS.has(norm(w))), { via: 'text', test: (t) => keys.has(norm(t)) });
+  }
+
   // ----------------------------------------------------------------------- tv
   const winsOn = {};
   for (const key of ['emmyDrama', 'emmyComedy', 'globeDrama', 'globeComedy']) {
@@ -327,6 +336,24 @@ export function isFair(puzzle, groupsByLabel, lookup) {
   const stray = findOverlaps(puzzle, groupsByLabel, lookup).filter((h) => h.tile !== puzzle.decoy?.tile || h.other !== puzzle.decoy?.also);
   return stray.length === 0 && countSolutions(puzzle, groupsByLabel, lookup) === 1;
 }
+
+// Fill the gap: four words that each complete the phrase (Pete's list,
+// 2026-10-20). Words that are also famous surnames (Rose for Justin Rose) are
+// in GAP_HERRINGS: never one of the four, only a red herring from a "Famous X"
+// group.
+export const GAPS = {
+  'Red ___': ['Herring', 'Carpet', 'Card', 'Tape', 'Wine', 'Cross', 'Light', 'Alert', 'Panda', 'Velvet', 'Sea', 'Dwarf', 'Bull', 'Square', 'Rose'],
+  'Black ___': ['Pool', 'Board', 'Mail', 'Market', 'Hole', 'Friday', 'Sheep', 'Widow', 'Panther', 'Forest', 'Pudding', 'Jack', 'Box', 'Bird', 'Smith', 'Berry'],
+  'Green ___': ['House', 'Land', 'Peace', 'Grass', 'Card', 'Light', 'Belt', 'Day', 'Back', 'Room', 'Finch', 'Bay', 'Wood', 'Field'],
+  '___ House': ['White', 'Green', 'Opera', 'Light', 'Bleak', 'Tree', 'Doll', 'Coffee', 'Full', 'Ware'],
+  '___ Stone': ['Rolling', 'Kidney', 'Mile', 'Corner', 'Rosetta', 'Blarney', 'Key', 'Lime', 'Gall', 'Oliver'],
+  '___ Man': ['Iron', 'Bat', 'Spider', 'Ant', 'Snow', 'Rain', 'Sand', 'Super', 'Pac', 'Elephant', 'Music', 'Marathon'],
+  'Fire ___': ['Work', 'Place', 'Fly', 'Ball', 'Wall', 'Brigade', 'Alarm', 'Storm', 'Cracker', 'Side'],
+  '___ Park': ['Jurassic', 'Central', 'Car', 'Theme', 'Hyde', 'South', 'Ball', 'National'],
+  '___ball': ['Basket', 'Foot', 'Base', 'Volley', 'Snow', 'Hand', 'Meat', 'Pin', 'Dodge', 'Gum', 'Eye'],
+  '___land': ['Ice', 'Fin', 'Ire', 'Thai', 'Scot', 'Switzer', 'Green', 'Nether', 'Wonder', 'Fairy', 'Mother']
+};
+export const GAP_HERRINGS = new Set(['rose', 'bird', 'smith', 'berry', 'wood', 'day', 'field', 'white', 'green', 'tree', 'oliver', 'rain']);
 
 // Traps: four tiles from four different groups that look like a fifth group
 // and are not one (Black, White, Green and Brown as Famous Jacks, Bettys, Evas

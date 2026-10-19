@@ -77,7 +77,7 @@ export const HOW_IT_WORKS = {
   connections: {
     play: 'Sixteen answers hide four groups of four. Pick four that belong together. Four mistakes and you are out. Watch for red herrings: an answer that seems to fit two groups, or four that look like a group and are not one.',
     score: 'Solved or not. Today\'s puzzle counts once a day, however often you replay it; each random puzzle counts.',
-    source: 'Built from the flags, capitals, charts, films, TV and famous-names data, and checked so that every puzzle has exactly one solution.'
+    source: 'Built from the flags, capitals, charts, films, TV and famous-names data, plus a hand-written list of phrases to complete ("Red ___"), and checked so that every puzzle has exactly one solution.'
   },
   timeline: {
     play: 'Five events. Put them in order, oldest at the top.',

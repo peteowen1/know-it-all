@@ -8,17 +8,23 @@
 //   decoy    one tile swapped for a red herring that also fits a second group
 //            (Jordan, a Famous Eddie and a country that borders Iraq) while the
 //            puzzle keeps exactly one solution
+//   gap      one group swapped for a fill-the-gap group ("Red ___": Herring,
+//            Carpet, Card, Tape), with a famous surname that also fits ("Rose",
+//            a Famous Justin) as its red herring where the data allows
 // The 2026-10-19 playtest found every puzzle the same shape: two "Hits by", a
 // "Famous X" and one other, with no traps.
 //
 // Puzzles a daily round has used or is about to use are left alone, so today's
 // puzzle and the last month's archive do not change under anyone. The daily
 // index is the game's own (FourByFour.jsx), so the file keeps its length.
-// Run from the repo root: `node scripts/fbf-variety.mjs`.
+// Puzzles that already have a trick keep it, and each kind counts what the
+// file already holds towards its share, so a rerun only tops up.
+// Run from the repo root: `node scripts/fbf-variety.mjs [kind ...]` (all kinds
+// by default; `gap` alone added the fill-the-gap groups on 2026-10-20).
 
 import { readFileSync } from 'node:fs';
 import {
-  loadSources, buildGroups, countryLookup, indexByLabel, tileFits, isFair, norm, cleanTitle, hidingWord, HIDDEN, TRAPS, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+  loadSources, buildGroups, countryLookup, indexByLabel, tileFits, isFair, norm, cleanTitle, hidingWord, HIDDEN, TRAPS, GAP_HERRINGS, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { makeRng, hashString, shuffle } from '../src/lib/rng.js';
 import { addDaysToKey } from '../src/lib/dates.js';
@@ -30,7 +36,7 @@ const SHARE = 0.25;
 // Days whose puzzle stays as it is: the last month, today and the next two
 // (today in Sydney can be tomorrow in UTC).
 const KEEP_FROM = '2026-09-19';
-const KEEP_TO = '2026-10-21';
+const KEEP_TO = '2026-10-23';
 
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const n = data.puzzles.length;
@@ -73,6 +79,44 @@ function addHidden(p) {
       const trial = { groups: p.groups.map((g) => (g === old ? { label: h.label, level: h.level, items } : g)) };
       if (!fair(trial)) continue;
       return trial;
+    }
+  }
+  return null;
+}
+
+/**
+ * Swap a "Famous X" or "Hits by" group for a fill-the-gap group. First tries a
+ * red herring: a famous surname that also completes the phrase, brought in
+ * with its first-name group (or swapped into it, if the puzzle has it). With
+ * `herring` false, a plain gap group is enough.
+ */
+function addGap(p, herring = true) {
+  const swappable = (q, keep) => shuffle(q.groups.filter((g) => g !== keep && /^(Famous |Hits by )/.test(g.label)), rng);
+  const fill = (q, old, g, also = []) => {
+    const rest = tiles({ groups: q.groups.filter((x) => x !== old) });
+    const items = shuffle(g.pool.filter((t) => !rest.has(norm(t)) && !also.includes(norm(t)) && itemFree(t)), rng).slice(0, 4 - also.length);
+    return items.length < 4 - also.length ? null : q.groups.map((x) => (x === old ? { label: g.label, level: g.level, items: [...also.map((a) => g.pool.find((t) => norm(t) === a)), ...items] } : x));
+  };
+  for (const gap of shuffle(groups.filter((g) => g.type === 'gap' && labelFree(g.label)), rng)) {
+    for (const old of swappable(p)) {
+      const withGap = fill(p, old, gap);
+      if (!withGap) continue;
+      const base = { groups: withGap };
+      // The herring: a surname of the gap's own list, from a first-name group.
+      const herrings = !herring ? [] : gap.members.filter((w) => GAP_HERRINGS.has(norm(w)) && itemFree(w) && !tiles(base).has(norm(w)));
+      for (const w of shuffle(herrings, rng)) {
+        for (const owner of shuffle(groups.filter((g) => g.type === 'first-name' && g.pool.some((t) => norm(t) === norm(w))), rng)) {
+          const there = base.groups.find((g) => g.label === owner.label);
+          const options = there
+            ? there.items.map((out) => base.groups.map((g) => (g === there ? { ...g, items: g.items.map((t) => (t === out ? owner.pool.find((x) => norm(x) === norm(w)) : t)) } : g)))
+            : labelFree(owner.label) ? swappable(base, base.groups.find((g) => g.label === gap.label)).map((o) => fill(base, o, owner, [norm(w)])).filter(Boolean) : [];
+          for (const groupsTried of options) {
+            const trial = { groups: groupsTried, decoy: { tile: owner.pool.find((x) => norm(x) === norm(w)), also: gap.label } };
+            if (fair(trial)) return trial;
+          }
+        }
+      }
+      if (!herring && fair(base)) return base;
     }
   }
   return null;
@@ -224,19 +268,27 @@ function addDecoy(p, only = () => true) {
 }
 
 const open = shuffle([...Array(n).keys()].filter((i) => !kept.has(i)), rng);
-const target = Math.round(n * SHARE);
-const done = { trap: 0, hidden: 0, decoy: 0 };
-const misses = { trap: 0, hidden: 0, decoy: 0 };
+const KINDS = process.argv.length > 2 ? process.argv.slice(2) : ['trap', 'hidden', 'decoy', 'gap'];
+// A gap group gives itself away once seen, so fewer of them: about one in twelve.
+const targets = { trap: Math.round(n * SHARE), hidden: Math.round(n * SHARE), decoy: Math.round(n * SHARE), gap: Math.round(n / 12) };
+const kindOf = (p) => {
+  const types = p.groups.map((g) => byLabel.get(g.label)?.type || '');
+  return p.trap ? 'trap' : types.includes('gap') ? 'gap' : types.some((t) => t.startsWith('hidden-')) ? 'hidden' : p.decoy ? 'decoy' : null;
+};
+const done = { trap: 0, hidden: 0, decoy: 0, gap: 0 };
+for (const p of data.puzzles) if (kindOf(p)) done[kindOf(p)]++;
+const before = { ...done };
+const misses = { trap: 0, hidden: 0, decoy: 0, gap: 0 };
 // Each open puzzle gets one kind, taking turns, until each kind reaches its share.
 let turn = 0;
 for (const i of open) {
-  const kinds = ['trap', 'hidden', 'decoy'].filter((k) => done[k] < target);
+  const kinds = KINDS.filter((k) => done[k] < targets[k]);
   if (!kinds.length) break;
   const p = data.puzzles[i];
-  if (p.trap || p.decoy || p.groups.some((g) => byLabel.get(g.label)?.type.startsWith('hidden-'))) continue;
+  if (kindOf(p)) continue;
   for (let k = 0; k < kinds.length; k++) {
     const kind = kinds[(turn + k) % kinds.length];
-    const next = kind === 'trap' ? makeTrap() : kind === 'hidden' ? addHidden(p) : addDecoy(p);
+    const next = kind === 'trap' ? makeTrap() : kind === 'hidden' ? addHidden(p) : kind === 'gap' ? addGap(p) || addGap(p, false) : addDecoy(p);
     if (!next) {
       misses[kind]++;
       continue;
@@ -254,7 +306,7 @@ for (const i of open) {
 // A hidden-word puzzle can take a red herring for its own hidden word too: a
 // fifth tile that also hides it ("How Low" hides an owl, Pete 2026-10-19).
 let hiddenDecoys = 0;
-for (const i of open) {
+for (const i of KINDS.includes('hidden') ? open : []) {
   const p = data.puzzles[i];
   const h = p.groups.find((g) => byLabel.get(g.label)?.type.startsWith('hidden-'));
   if (!h || p.decoy || p.trap) continue;
@@ -269,8 +321,12 @@ for (const i of open) {
 console.log(`red herrings for a hidden word: ${hiddenDecoys}`);
 
 const unfair = data.puzzles.map((p, i) => [i, p]).filter(([, p]) => !fair(p)).map(([i]) => i);
-console.log(`${n} puzzles, ${kept.size} kept for recent and coming days; target ${target} of each kind`);
-console.log(`added: trap ${done.trap}, hidden ${done.hidden}, decoy ${done.decoy}; no fit found: trap ${misses.trap}, hidden ${misses.hidden}, decoy ${misses.decoy}`);
+console.log(`${n} puzzles, ${kept.size} kept for recent and coming days; targets ${JSON.stringify(targets)}`);
+for (const k of KINDS) console.log(`  ${k}: ${before[k]} already, ${done[k] - before[k]} added, no fit found ${misses[k]} times`);
+for (const p of data.puzzles.filter((x) => kindOf(x) === 'gap').slice(0, 8)) {
+  const g = p.groups.find((x) => byLabel.get(x.label)?.type === 'gap');
+  console.log(`  gap ${g.label}: ${g.items.join(', ')}${p.decoy ? ` (red herring ${p.decoy.tile})` : ''}`);
+}
 for (const p of data.puzzles.filter((x) => x.trap).slice(0, 3)) console.log(`  trap ${p.trap.theme}: ${p.trap.tiles.join(', ')} in ${p.groups.map((g) => g.label).join(' / ')}`);
 for (const p of data.puzzles.filter((x) => x.decoy).slice(0, 5)) console.log(`  decoy ${p.decoy.tile}: also ${p.decoy.also}`);
 if (unfair.length) {
