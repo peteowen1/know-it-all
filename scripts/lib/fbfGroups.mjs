@@ -71,8 +71,9 @@ const NUMBERISH = /^(one|two|three|four|five|six|seven|eight|nine|ten)(s|th|ths|
 // cat, a cowboy works with cows, a heartache is in the heart.
 const PLAIN = /^(pussycats?|cow(boy|girl)s?|heart\w*|\w*hearts?|\w*hearted|foot\w+|hand(y|s|ful|made)|\w*skinny)$/;
 const wordsOf = (t) => norm(t).split(' ').filter(Boolean);
-/** Does any word of `t` contain one of `parts`, hidden or plain? The loose test a player applies. */
-export const holdsWord = (t, parts) => wordsOf(t).some((w) => parts.some((p) => w.includes(p)));
+/** Does `t` contain one of `parts`, hidden or plain? The loose test a player applies. */
+// Across a space too: "How Low" hides an owl, "The Art Carney Special" a heart.
+export const holdsWord = (t, parts) => [...wordsOf(t), wordsOf(t).join('')].some((w) => parts.some((p) => w.includes(p)));
 /**
  * The word of `t` that hides one of `parts` where a player will see it, or
  * null: inside a longer word, not the word itself or its plural, and for a
@@ -244,8 +245,10 @@ export function buildGroups({ countries, famous, music, films, tv }) {
       for (const t of list) {
         const w = hidingWord(t, parts, numbers);
         const part = w && parts.find((p) => w.includes(p));
-        if (!w || words.has(w) || (perPart.get(part) || 0) >= 2) continue;
-        words.add(w);
+        // Wheel and Wheels are one hiding word.
+        const key = w?.replace(/s$/, '');
+        if (!w || words.has(key) || (perPart.get(part) || 0) >= 2) continue;
+        words.add(key);
         perPart.set(part, (perPart.get(part) || 0) + 1);
         pool.push(t);
       }

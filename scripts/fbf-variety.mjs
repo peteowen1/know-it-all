@@ -18,7 +18,7 @@
 
 import { readFileSync } from 'node:fs';
 import {
-  loadSources, buildGroups, countryLookup, indexByLabel, tileFits, isFair, norm, TRAPS, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
+  loadSources, buildGroups, countryLookup, indexByLabel, tileFits, isFair, norm, cleanTitle, TRAPS, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
 import { makeRng, hashString, shuffle } from '../src/lib/rng.js';
 import { addDaysToKey } from '../src/lib/dates.js';
@@ -129,14 +129,44 @@ function makeTrap() {
  * solution, but a player sees five candidates for B. Not between two first-name
  * groups: two Wilsons are a coin toss, not a clue.
  */
+// Which chart groups each recording or film belongs to, so a red herring is
+// one song in two groups, not two songs that share a title: Bruno Mars's
+// "Just the Way You Are" is not Billy Joel's (review, 2026-10-19).
+const decade = (y) => `${Math.floor(y / 10) * 10}s`;
+const records = [];
+for (const [y, list] of Object.entries(src.music)) {
+  list.slice(0, 40).forEach((s, i) => {
+    const labels = new Set((s.artists || [s.artist]).map((a) => `Hits by ${a}`));
+    if (i === 0) labels.add(`Billboard year-end #1s, ${decade(y)}`);
+    records.push({ title: norm(cleanTitle(s.title)), labels });
+  });
+}
+for (const [chart, best] of [[src.films.boxOffice, false], [src.films.bestPicture, true]]) {
+  for (const [y, list] of Object.entries(chart)) {
+    list.forEach((f, i) => {
+      const labels = new Set((f.artists || [f.artist]).map((d) => `Directed by ${d}`));
+      if (best && i === 0) labels.add(`Best Picture winners, ${decade(y)}`);
+      records.push({ title: norm(cleanTitle(f.title)), labels });
+    });
+  }
+}
+const CHART = new Set(['artist', 'number-ones', 'director', 'best-picture']);
+const oneThing = (ga, gb, x) => {
+  const need = [ga, gb].filter((g) => CHART.has(g.type)).map((g) => g.label);
+  return need.length < 2 || records.some((r) => r.title === norm(x) && need.every((l) => r.labels.has(l)));
+};
+
 // Every red herring the data offers: x is in A's pool and fits B too,
-// recognisably (in B's own pool, or a country B's rule names).
+// recognisably (in B's own pool, or a country B's rule names). Not into a
+// landlocked group: its loose rule takes Chad for "Landlocked in Europe",
+// right for keeping tiles apart and wrong to tell a player.
 const DECOYS = [];
 for (const ga of groups) {
   for (const gb of groups) {
-    if (ga === gb || (ga.type === 'first-name' && gb.type === 'first-name') || gb.type.startsWith('hidden-')) continue;
+    if (ga === gb || (ga.type === 'first-name' && gb.type === 'first-name') || gb.type.startsWith('hidden-') || gb.type === 'landlocked') continue;
     for (const x of ga.pool) {
       if (!tileFits(gb, x, lookup) || (!gb.pool.some((y) => norm(y) === norm(x)) && !gb.rule)) continue;
+      if (!oneThing(ga, gb, x)) continue;
       DECOYS.push({ ga, gb, x });
     }
   }
