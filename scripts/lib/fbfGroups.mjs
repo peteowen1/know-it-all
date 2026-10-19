@@ -9,6 +9,9 @@
 //   rule     optional: a test on the country a tile names, for the groups
 //            that are about countries. Catches a tile the member list does
 //            not spell the same way, and the loose reading of "landlocked".
+//            Or a test on the tile's own text (via 'text'), for the hidden
+//            word groups: any tile with a hidden animal fits "Films hiding an
+//            animal", film or not.
 // A tile fits a group if either says yes.
 
 import { readFileSync } from 'node:fs';
@@ -48,6 +51,40 @@ const MONTHS = /\b(january|february|april|june|july|august|september|october|nov
 const SEQUEL = /\s(2|3|4|5|6|7|8|9|II|III|IV|VI|VII|VIII)$/;
 const hasColour = (t) => COLOURS.test(t);
 const hasNumber = (t) => NUMBER_WORDS.test(t);
+
+// Hidden words: ARMenia, CHINa, waSHINgton, RAMbo, DOGma, CATch Me If You
+// Can, phONE, ofTEN (2026-10-19 playtest: the groups were all plain lists).
+// "Ear", "eye", "ant", "bee", "hen" and "brow" are left out: they hide in so
+// many words ("year", "want", "been", "when", every Brown) that nobody would
+// see them as a clue.
+export const HIDDEN = {
+  'a body part': ['arm', 'leg', 'hip', 'lip', 'rib', 'toe', 'chin', 'shin', 'neck', 'chest', 'knee', 'heel', 'hand', 'foot', 'nose',
+    'palm', 'skin', 'liver', 'heart', 'thumb', 'spine', 'lung', 'ankle', 'elbow', 'wrist', 'tongue', 'tooth'],
+  'an animal': ['cat', 'dog', 'rat', 'ram', 'bat', 'owl', 'ape', 'cow', 'pig', 'emu', 'yak', 'elk', 'fox', 'hare', 'lion', 'bear',
+    'wolf', 'mole', 'deer', 'goat', 'toad', 'crab', 'lamb', 'seal', 'swan', 'mule', 'mink', 'puma', 'newt', 'wren', 'crow', 'hawk',
+    'dove', 'moth', 'slug', 'frog', 'boar'],
+  'a number': ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
+};
+// "Sixteen", "Seventy", "Fourth": a number word, not one hiding in another.
+const NUMBERISH = /^(one|two|three|four|five|six|seven|eight|nine|ten)(s|th|ths|teen|teens|ty|ties|fold)?$/;
+// Compounds that say the word outright rather than hide it: a pussycat is a
+// cat, a cowboy works with cows, a heartache is in the heart.
+const PLAIN = /^(pussycats?|cow(boy|girl)s?|heart\w*|\w*hearts?|\w*hearted|foot\w+|hand(y|s|ful|made)|\w*skinny)$/;
+const wordsOf = (t) => norm(t).split(' ').filter(Boolean);
+/** Does any word of `t` contain one of `parts`, hidden or plain? The loose test a player applies. */
+export const holdsWord = (t, parts) => wordsOf(t).some((w) => parts.some((p) => w.includes(p)));
+/**
+ * The word of `t` that hides one of `parts` where a player will see it, or
+ * null: inside a longer word, not the word itself or its plural, and for a
+ * three-letter part at the start or end of the word (RAMbo, ofTEN), not lost
+ * in the middle.
+ */
+export const hidingWord = (t, parts, numbers = false) =>
+  wordsOf(t).find((w) =>
+    !(numbers && NUMBERISH.test(w)) &&
+    !PLAIN.test(w) &&
+    parts.some((p) => w !== p && w !== `${p}s` && w !== `${p}es` && (p.length >= 4 ? w.includes(p) : w.startsWith(p) || w.endsWith(p)))
+  ) ?? null;
 
 /**
  * Every candidate group: { type, label, level, members, pool, rule }.
@@ -185,6 +222,37 @@ export function buildGroups({ countries, famous, music, films, tv }) {
   add('wordplay-film', 'Films with an animal in the title', 4, allFilms.filter((t) => ANIMALS.test(t)));
   add('wordplay-film', 'Films numbered as sequels', 4, allFilms.filter((t) => SEQUEL.test(t) && !/^\d/.test(t)));
 
+  // ------------------------------------------------------------ hidden words
+  // Drawn from what hides the word well (hidingWord), checked against anything
+  // that holds it at all (holdsWord), so "Top Cat" can't sit in another group
+  // of a puzzle that has "Films hiding an animal".
+  const places = [...new Set(countries.flatMap((c) => [c.name, c.capitals[0]]))];
+  for (const [what, parts] of Object.entries(HIDDEN)) {
+    const numbers = what === 'a number';
+    const rule = { via: 'text', test: (t) => holdsWord(t, parts) };
+    for (const [type, label, list] of [
+      ['hidden-geo', `Countries and capitals hiding ${what}`, places],
+      ['hidden-film', `Films hiding ${what}`, allFilms],
+      ['hidden-music', `Hits hiding ${what}`, allHits]
+    ]) {
+      // One title per hiding word and two per hidden word, so a group is
+      // never Batman, Batman Returns, Batman Forever and The Batman, or four
+      // songs that all hide "one".
+      const words = new Set();
+      const perPart = new Map();
+      const pool = [];
+      for (const t of list) {
+        const w = hidingWord(t, parts, numbers);
+        const part = w && parts.find((p) => w.includes(p));
+        if (!w || words.has(w) || (perPart.get(part) || 0) >= 2) continue;
+        words.add(w);
+        perPart.set(part, (perPart.get(part) || 0) + 1);
+        pool.push(t);
+      }
+      add(type, label, 4, list.filter((t) => holdsWord(t, parts)), pool, rule);
+    }
+  }
+
   // ----------------------------------------------------------------------- tv
   const winsOn = {};
   for (const key of ['emmyDrama', 'emmyComedy', 'globeDrama', 'globeComedy']) {
@@ -215,8 +283,56 @@ export function countryLookup(countries) {
 export function tileFits(group, text, lookup) {
   group.memberKeys ||= new Set(group.members.map(norm));
   if (group.memberKeys.has(norm(text))) return true;
+  if (group.rule?.via === 'text') return group.rule.test(text);
   return !!group.rule && lookup(text, group.rule.via).some(group.rule.test);
 }
+
+/**
+ * How many ways the sixteen tiles split into the puzzle's four groups, each
+ * tile into a group it fits, stopping at `limit`. A fair puzzle has exactly
+ * one. A red herring (Purple Rain, a Prince hit that also has a colour in the
+ * title) fits two groups and is still fair when the count stays at one: the
+ * colour group already has its four without it.
+ */
+export function countSolutions(puzzle, groupsByLabel, lookup, limit = 2) {
+  const defs = puzzle.groups.map((g) => groupsByLabel.get(g.label));
+  const tiles = puzzle.groups.flatMap((g, own) =>
+    g.items.map((t) => puzzle.groups.map((_, i) => i).filter((i) => i === own || (defs[i] && tileFits(defs[i], t, lookup))))
+  );
+  const room = puzzle.groups.map((g) => g.items.length);
+  let found = 0;
+  const place = (k) => {
+    if (k === tiles.length) return void found++;
+    for (const i of tiles[k]) {
+      if (!room[i]) continue;
+      room[i]--;
+      place(k + 1);
+      room[i]++;
+      if (found >= limit) return;
+    }
+  };
+  place(0);
+  return found;
+}
+
+/**
+ * Is this puzzle fair: one solution, and any tile that fits a second group is
+ * the puzzle's named red herring (`puzzle.decoy`), so no overlap gets in by
+ * accident?
+ */
+export function isFair(puzzle, groupsByLabel, lookup) {
+  const stray = findOverlaps(puzzle, groupsByLabel, lookup).filter((h) => h.tile !== puzzle.decoy?.tile || h.other !== puzzle.decoy?.also);
+  return stray.length === 0 && countSolutions(puzzle, groupsByLabel, lookup) === 1;
+}
+
+// Traps: four tiles from four different groups that look like a fifth group
+// and are not one (Black, White, Green and Brown as Famous Jacks, Bettys, Evas
+// and Gordons). The label is never a group, so the four can't be submitted.
+export const TRAPS = {
+  colours: ['black', 'white', 'green', 'brown', 'grey', 'gray', 'pink', 'rose', 'blue', 'gold', 'silver'],
+  birds: ['swift', 'crowe', 'crow', 'hawk', 'bird', 'finch', 'robin', 'wren', 'swan', 'drake', 'crane', 'jay', 'starling', 'sparrow', 'parrot', 'nightingale', 'martin'],
+  jobs: ['cooper', 'smith', 'taylor', 'baker', 'butler', 'carpenter', 'mason', 'turner', 'fisher', 'hunter', 'miller', 'porter', 'cook', 'potter', 'archer', 'weaver', 'shepherd', 'thatcher', 'sawyer', 'barber']
+};
 
 /**
  * Every tile that fits a group other than its own, in one puzzle of
