@@ -70,7 +70,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
   const check = () => {
     const s = scoreOrder(order);
     setRound({ ...round, checked: true, score: s });
-    onRoundComplete('timeline', { score: s.correct, total: s.total, answers: [] });
+    onRoundComplete('timeline', { day: round.daily ? round.date : null, score: s.correct, total: s.total, answers: [] });
   };
   const truth = [...order].sort((a, b) => a.year - b.year);
 

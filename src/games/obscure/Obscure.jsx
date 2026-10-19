@@ -101,7 +101,7 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
     const next = [...results, { ...r, guess }];
     setGame({ ...game, results: next, note: null });
     if (next.length === cats.length) {
-      onRoundComplete('pointless', { score: next.reduce((s, x) => s + x.score, 0), total: cats.length * 100, answers: [] });
+      onRoundComplete('pointless', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.score, 0), total: cats.length * 100, answers: [] });
     }
   };
 

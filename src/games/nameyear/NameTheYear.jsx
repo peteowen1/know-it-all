@@ -104,7 +104,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
     setGame({ ...game, guesses: next });
     if (next.length === rounds.length) {
       const score = next.reduce((s, g, i) => s + yearPoints(g, rounds[i].year), 0);
-      onRoundComplete('year-guess', { score, total: rounds.length * 10, answers: [] });
+      onRoundComplete('year-guess', { day: game.daily ? game.date : null, score, total: rounds.length * 10, answers: [] });
     }
   };
   const pts = answered ? yearPoints(guesses[index], r.year) : null;

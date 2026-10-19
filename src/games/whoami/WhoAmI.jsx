@@ -97,7 +97,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
     setGame({ ...game, results: next });
     setGuess('');
     if (next.length === rounds.length) {
-      onRoundComplete('who-am-i', { score: next.reduce((s, x) => s + x.points, 0), total: MAX, answers: [] });
+      onRoundComplete('who-am-i', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.points, 0), total: MAX, answers: [] });
     }
   };
 

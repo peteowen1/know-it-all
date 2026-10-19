@@ -4,7 +4,6 @@ import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
-import { usePersistentState } from '../../lib/persist';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, EarlierDays } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
@@ -29,9 +28,6 @@ function dailyIndex(n, date) {
 export default function FourByFour({ stats, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('fourbyfour');
-  // The day the daily puzzle was last finished: playing it again that day is
-  // allowed, but only the first finish counts as a play.
-  const [dailyDone, setDailyDone] = usePersistentState('fourbyfour-daily', null);
   const entry = gameEntry(stats, 'connections');
 
   const start = (daily) => {
@@ -76,11 +72,8 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       game={game}
       setGame={setGame}
       onFinish={(g, won) => {
-        if (g.daily && g.date === localDateKey()) {
-          if (dailyDone === g.date) return;
-          setDailyDone(g.date);
-        }
         onRoundComplete('connections', {
+          day: g.daily ? g.date : null,
           // A win is a win whatever the mistakes; `run` is groups the player
           // actually found, not the ones revealed after a loss.
           score: won ? 1 : 0,

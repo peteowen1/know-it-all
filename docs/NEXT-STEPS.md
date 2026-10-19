@@ -18,11 +18,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
-- OPEN **Replays add to lifetime totals**: an earlier day's Daily five, and
-  every replayed daily game round, adds to total quizzes, answered and best
-  scores on the Progress page each time (`App.jsx` `handleComplete`,
-  `onRoundComplete`). The streak is not affected. The comment says counting is
-  deliberate; Pete to decide whether replays should count.
 - OPEN **Daily five open past midnight**: its save slot is chosen each render
   (`App.jsx` `saveSlot`), so after midnight yesterday's round starts saving to
   `daily_past` and its subtitle says it does not count. Low impact; the tick
