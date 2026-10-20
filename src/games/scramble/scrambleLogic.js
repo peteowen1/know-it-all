@@ -138,6 +138,19 @@ export function peopleText(n) {
 const listText = (xs) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`);
 
 /**
+ * "speaks French", or null. The data lists languages in no useful order
+ * (Belgium: German, French, Dutch), so a country with three or more is left
+ * out rather than named by two minor ones. Two kinds of one language
+ * (Norwegian Bokmål and Nynorsk) read as the one.
+ */
+function languagesText(languages = []) {
+  if (!languages.length || languages.length > 2) return null;
+  const first = languages.map((l) => l.split(' ')[0]);
+  if (languages.length === 2 && first[0] === first[1]) return `speaks ${first[0]}`;
+  return `speaks ${listText(languages)}`;
+}
+
+/**
  * What the answer is, shown once the round is over, right or wrong, so a
  * miss still teaches something:
  *   countries  "Gabon: in Middle Africa, capital Libreville, 2.6 million
@@ -162,7 +175,7 @@ export function factFor(country, mode, countries) {
     where && `in ${where}`,
     capital && capital !== country.name && `capital ${capital}`,
     people,
-    country.languages?.length && `speaks ${listText(country.languages.slice(0, 2))}`,
+    languagesText(country.languages),
     borders.length > 3 ? `borders ${borders.length} countries` : borders.length && `borders ${listText(borders.map((b) => countryInText(b)))}`
   ].filter(Boolean);
   return `${countryInText(country.name, { start: true })}: ${parts.join(', ')}.`;
