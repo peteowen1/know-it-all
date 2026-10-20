@@ -46,7 +46,7 @@ export const SHIPPED = {
   // Unread: source (MusicCharts writes its own credit line).
   'charts/music.json': { builtAt: true, years: true },
   // Every field is read; listed so the shape is checked.
-  'obscure.json': { builtAt: true, categories: { id: true, prompt: true, kind: true, answers: { text: true, accept: true, score: true } } }
+  'obscure.json': { builtAt: true, categories: { id: true, prompt: true, kind: true, answers: { text: true, accept: true, score: true, year: true, region: true } } }
   // flagLookalikes.json is { code: [[code, similarity], ...] } and all of it is read.
 };
 

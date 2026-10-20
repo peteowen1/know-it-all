@@ -64,7 +64,11 @@ const add = (id, prompt, kind, answers, min = 6) => {
     answers: sorted.map((a, i) => ({
       text: a.text,
       accept: [...new Set([a.text, ...(a.accept || [])])],
-      score: n === 1 ? 50 : 1 + Math.round((99 * i) / (n - 1))
+      score: n === 1 ? 50 : 1 + Math.round((99 * i) / (n - 1)),
+      // For Odd one out, to draw an odd one that sits close to the other
+      // three: a song's or film's year, a country's or capital's continent.
+      ...(a.year && { year: a.year }),
+      ...(a.region && { region: a.region })
     }))
   });
 };
@@ -80,7 +84,8 @@ const PEOPLE_USE = new Set(['DRC', 'UAE', 'USA', 'UK']);
 const country = (c) => ({
   text: c.name,
   accept: [c.officialName, ...c.altNames.filter((a) => a.length > 3 || PEOPLE_USE.has(a)), ...(EXTRA_NAMES[c.name] || [])],
-  fame: c.population ?? 0
+  fame: c.population ?? 0,
+  region: c.region
 });
 const byIso3 = new Map(countries.map((c) => [c.iso3, c]));
 for (const c of countries) {
@@ -95,7 +100,7 @@ for (const [sub, list] of Object.entries(bySub)) {
     `cap-${sub}`,
     `A capital city in ${inRegion(sub)}`,
     'geo',
-    list.filter((c) => c.capitals[0]).map((c) => ({ text: c.capitals[0], accept: [...c.capitals, ...c.capitalsAlsoAccepted], fame: c.population ?? 0 }))
+    list.filter((c) => c.capitals[0]).map((c) => ({ text: c.capitals[0], accept: [...c.capitals, ...c.capitalsAlsoAccepted], fame: c.population ?? 0, region: c.region }))
   );
 }
 const byRegion = {};
@@ -126,7 +131,7 @@ const songsBy = {};
 // An artist credited under two capitalisations ("The Weeknd" and "the
 // Weeknd") is one list, named the first way seen.
 const artistAs = {};
-for (const list of Object.values(music)) {
+for (const [year, list] of Object.entries(music)) {
   for (const s of list) {
     for (const credited of s.artists || [s.artist]) {
       const a = (artistAs[credited.toLowerCase()] ||= credited);
@@ -134,6 +139,7 @@ for (const list of Object.values(music)) {
       // Keyed without case, so a title charted under two capitalisations adds up as one song.
       const cur = ((songsBy[a] ||= {})[title.toLowerCase()] ||= { text: title, accept: s.titles || [], fame: 0 });
       cur.fame += 101 - s.rank;
+      cur.year = Math.min(cur.year || Infinity, Number(year)); // the first year it charted
     }
   }
 }
@@ -156,7 +162,7 @@ for (const s of loadTopTens()) {
     if (!songs) continue;
     const have = new Set(Object.values(songs).flatMap((x) => [x.text, ...x.accept]).map(titleKey));
     if (s.titles.some((t) => have.has(titleKey(t)))) continue;
-    songs[s.title.toLowerCase()] = { text: s.title, accept: s.titles.length > 1 ? s.titles : [], fame: 2 * (11 - s.peak) };
+    songs[s.title.toLowerCase()] = { text: s.title, accept: s.titles.length > 1 ? s.titles : [], fame: 2 * (11 - s.peak), year: s.year };
     topTenAdded++;
   }
 }
@@ -243,7 +249,7 @@ for (const d of directors) {
   const answers = kept.map((x) => {
     const shown = x.title.replace(/\s*\([^)]*\)$/, ''); // "Jaws (film)" -> "Jaws"
     // Other titles count too: "A New Hope", US "Sorcerer's Stone", "E.T.".
-    return { text: shown, accept: [shown, x.label, shown.replace(/^The /, ''), ...(x.aliases || [])].filter(Boolean), fame: x.editions };
+    return { text: shown, accept: [shown, x.label, shown.replace(/^The /, ''), ...(x.aliases || [])].filter(Boolean), fame: x.editions, year: x.year };
   });
   filmStats.push(`${d} ${answers.length}`);
   add(`films-${d}`, `A film directed by ${d}`, 'film', answers, 6);

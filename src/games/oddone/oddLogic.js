@@ -10,7 +10,12 @@ export const ROUNDS = 5;
 
 // Category ids share a prefix by kind ("borders-CN", "songs-Madonna"): the odd
 // one comes from a sibling of the same kind, so it looks like it belongs.
-const family = (id) => id.split('-')[0];
+// Country categories count as one family (a landlocked round can take its odd
+// one from "A country in Western Africa"); capitals stay apart, being cities.
+const family = (id) => {
+  const f = id.split('-')[0];
+  return f === 'borders' || f === 'in' || f === 'landlocked' ? 'country' : f;
+};
 
 // "A famous Tom" shows full names, so the odd one would be plain to see.
 const SKIP_FAMILIES = new Set(['name']);
@@ -46,9 +51,32 @@ export function hasSecondTrio(categories, target, items, odd) {
 }
 
 /**
+ * How far an odd one sits from the other three, in steps; 0 is closest. A
+ * country or capital on another continent is 1 step (the 2026-10-19 playtest
+ * found 79% of geography odd ones on another continent: France's neighbours
+ * and Sudan). A song or film is a step per full ten years from the three's
+ * middle year (59% of song odd ones were over 15 years away). Answers without
+ * the data are 0 steps, as before.
+ */
+export function distance(three, odd) {
+  if (odd.region && three.every((a) => a.region)) {
+    const counts = {};
+    for (const a of three) counts[a.region] = (counts[a.region] || 0) + 1;
+    const main = Object.keys(counts).sort((x, y) => counts[y] - counts[x])[0];
+    return odd.region === main ? 0 : 1;
+  }
+  if (odd.year && three.every((a) => a.year)) {
+    const middle = three.map((a) => a.year).sort((x, y) => x - y)[1];
+    return Math.floor(Math.abs(odd.year - middle) / 10);
+  }
+  return 0;
+}
+
+/**
  * `count` rounds, kinds varied. Each round: three well-known answers from one
  * category, one well-known answer from a sibling category that is not in the
- * first, checked so that no other category groups a different three.
+ * first and is as close to the three as any (see `distance`), checked so that
+ * no other category groups a different three.
  * Returns [{ id, link, oddLink, odd, options, oddIndex }].
  */
 export function buildOddRounds(categories, { seed = Date.now(), count = ROUNDS } = {}) {
@@ -63,14 +91,24 @@ export function buildOddRounds(categories, { seed = Date.now(), count = ROUNDS }
     if (usedKinds.includes(cat.kind) && new Set(usedKinds).size < kinds.size) continue;
     const pool = wellKnown(cat);
     if (pool.length < 3) continue;
-    const three = shuffle(pool, rand).slice(0, 3).map((a) => a.text);
+    const picks = shuffle(pool, rand).slice(0, 3);
+    const three = picks.map((a) => a.text);
     if (new Set(three.map(normalise)).size < 3) continue;
-    const siblings = shuffle(usable.filter((c) => c.id !== cat.id && family(c.id) === family(cat.id)), rand);
-    for (const sib of siblings) {
-      const odd = shuffle(wellKnown(sib), rand).find((a) => !inCategory(cat, a.text) && !three.some((t) => normalise(t) === normalise(a.text)))?.text;
-      if (!odd) continue;
+    // Every candidate from every sibling, closest first, in a seeded order
+    // within each step.
+    const candidates = shuffle(usable.filter((c) => c.id !== cat.id && family(c.id) === family(cat.id)), rand)
+      .flatMap((sib) =>
+        shuffle(wellKnown(sib), rand)
+          .filter((a) => !inCategory(cat, a.text) && !three.some((t) => normalise(t) === normalise(a.text)))
+          .map((a) => ({ sib, odd: a.text, steps: distance(picks, a) }))
+      )
+      .map((c, i) => ({ ...c, i }))
+      .sort((x, y) => x.steps - y.steps || x.i - y.i);
+    for (const { sib, odd } of candidates) {
       const items = [...three, odd];
-      if (hasSecondTrio(usable, cat, items, odd)) continue;
+      // Against every category, the famous-names ones too: "A famous person
+      // called Charles" accepts Spain, France and Austria, for the kings.
+      if (hasSecondTrio(categories, cat, items, odd)) continue;
       const options = shuffle(items, rand);
       rounds.push({ id: cat.id, link: cat.prompt, oddLink: sib.prompt, odd, options, oddIndex: options.indexOf(odd) });
       usedKinds.push(cat.kind);
