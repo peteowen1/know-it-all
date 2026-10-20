@@ -351,9 +351,23 @@ export const GAPS = {
   'Fire ___': ['Work', 'Place', 'Fly', 'Ball', 'Wall', 'Brigade', 'Alarm', 'Storm', 'Cracker', 'Side'],
   '___ Park': ['Jurassic', 'Central', 'Car', 'Theme', 'Hyde', 'South', 'Ball', 'National'],
   '___ball': ['Basket', 'Foot', 'Base', 'Volley', 'Snow', 'Hand', 'Meat', 'Pin', 'Dodge', 'Gum', 'Eye'],
-  '___land': ['Ice', 'Fin', 'Ire', 'Thai', 'Scot', 'Switzer', 'Green', 'Nether', 'Wonder', 'Fairy', 'Mother']
+  '___land': ['Ice', 'Fin', 'Ire', 'Thai', 'Scot', 'Switzer', 'Green', 'Nether', 'Wonder', 'Fairy', 'Mother'],
+  // Added 2026-10-20 so the same few surnames are not the herring every time.
+  'Blue ___': ['Tooth', 'Print', 'Grass', 'Bottle', 'Whale', 'Moon', 'Bell', 'Bird', 'Berry'],
+  'Moon ___': ['Light', 'Walk', 'Shine', 'Beam', 'Raker', 'Struck', 'Stone'],
+  'Gold ___': ['Fish', 'Finch', 'Mine', 'Medal', 'Coast', 'Dust', 'Digger', 'Smith', 'Rush'],
+  '___mark': ['Book', 'Land', 'Trade', 'Birth', 'Water', 'Question', 'Check', 'Bench', 'Hall'],
+  '___wood': ['Bolly', 'Drift', 'Fire', 'Ply', 'Dog', 'Sandal', 'Brush', 'Heart', 'Holly'],
+  'King ___': ['Pin', 'Dom', 'Size', 'Maker', 'Ship', 'Kong', 'Fisher'],
+  '___ Cake': ['Pan', 'Cup', 'Cheese', 'Sponge', 'Fish', 'Carrot', 'Rock', 'Fruit', 'Short'],
+  '___ Hunt': ['Treasure', 'Witch', 'Egg', 'Scavenger', 'Bargain', 'Job', 'Head', 'Fox'],
+  'Door ___': ['Step', 'Mat', 'Way', 'Knob', 'Frame', 'Stop', 'Bell'],
+  'Silver ___': ['Ware', 'Screen', 'Back', 'Spoon', 'Lining', 'Fish', 'Smith', 'Stone']
 };
-export const GAP_HERRINGS = new Set(['rose', 'bird', 'smith', 'berry', 'wood', 'day', 'field', 'white', 'green', 'tree', 'oliver', 'rain']);
+export const GAP_HERRINGS = new Set([
+  'rose', 'bird', 'smith', 'berry', 'wood', 'day', 'field', 'white', 'green', 'tree', 'oliver', 'rain',
+  'bell', 'stone', 'rush', 'hall', 'holly', 'fisher', 'short', 'fox'
+]);
 
 // Traps: four tiles from four different groups that look like a fifth group
 // and are not one (Black, White, Green and Brown as Famous Jacks, Bettys, Evas
