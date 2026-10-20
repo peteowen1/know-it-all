@@ -22,6 +22,9 @@ function dailyIndex(n, date) {
 
 const listed = (xs) => `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`;
 
+/** A solved group's tiles, each with the word it hides where the group is one: "Ramallah (ram)". */
+const groupItems = (g) => g.items.map((t, i) => (g.hides?.[i] ? `${t} (${g.hides[i]})` : t)).join(', ');
+
 /** The puzzle's red herring or trap, named once it is over (scripts/fbf-variety.mjs). */
 function Trick({ puzzle }) {
   const { decoy } = puzzle;
@@ -173,7 +176,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
           return (
             <div key={gi} className="fbf-solved" data-level={g.level}>
               <strong>{g.label}</strong>
-              <span>{g.items.join(', ')}</span>
+              <span>{groupItems(g)}</span>
             </div>
           );
         })}
@@ -200,7 +203,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
         return (
           <div key={gi} className="fbf-solved" data-level={g.level}>
             <strong>{g.label}</strong>
-            <span>{g.items.join(', ')}</span>
+            <span>{groupItems(g)}</span>
           </div>
         );
       })}
