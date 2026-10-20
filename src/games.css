@@ -352,6 +352,7 @@
   background: color-mix(in srgb, var(--accent) 10%, transparent);
   color: var(--ink);
 }
+.ml-full { display: block; font-size: var(--fs-xs); font-weight: 400; color: var(--ink-2); }
 
 /* ------------------------------------------------------------- word play */
 .vp-mode {
