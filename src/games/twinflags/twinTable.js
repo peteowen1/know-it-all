@@ -29,7 +29,6 @@ export const TWIN_TABLE = [
   ['RU', 'SI', "Slovenia has a small blue shield with mountains in the top-left; Russia's flag is plain."],
   ['SK', 'RU', "Slovakia has a red shield with a white double cross near the pole; Russia's flag is plain."],
   ['SI', 'SK', "Slovakia's shield is bigger and has a white double cross on it; Slovenia's is smaller and shows mountains."],
-  ['DK', 'LV', "Denmark is bright red with a white cross; Latvia is dark red with a thin white stripe across the middle."],
   ['AD', 'RO', "Andorra has a coat of arms in the yellow stripe; Romania's flag is plain."],
   ['AD', 'TD', "Andorra has a coat of arms in the yellow stripe; Chad's flag is plain."],
   ['TW', 'WS', "Taiwan has a white sun in the blue corner; Samoa has five white stars there."],
@@ -45,7 +44,9 @@ export const TWIN_TABLE = [
   ['IR', 'TJ', "Iran has green on top; Tajikistan has red on top and a gold crown in the middle."],
   ['SL', 'LS', "Sierra Leone has green on top; Lesotho has blue on top."],
   ['FM', 'SO', "Micronesia has four white stars in a diamond; Somalia has one."],
-  ['GQ', 'HU', "Equatorial Guinea has green on top and a blue triangle at the pole; Hungary has red on top."],
+  // Cut 2026-10-21 as not look-alikes (the layout differs, so a glance tells
+  // them apart): DK-LV, AT-DK, GN-GW, AE-JO, AE-PS, GQ-HU. Same stripes in
+  // reverse order with a badge added (RS-RU, PL-SG) stay.
   // Added 2026-10-20, each written against the flag-icons images the game shows.
   ['AU', 'TV', "Tuvalu is light blue with nine yellow stars; Australia is dark blue with white stars."],
   ['PL', 'SG', "Singapore has red on top with a white crescent and five stars; Poland has white on top and no badge."],
@@ -61,11 +62,7 @@ export const TWIN_TABLE = [
   ['RS', 'RU', "Serbia has red on top and a coat of arms near the pole; Russia has white on top and no badge."],
   ['RS', 'SK', "Serbia has red on top and a double-headed eagle; Slovakia has white on top and a shield with a white double cross."],
   ['RS', 'SI', "Serbia has red on top; Slovenia has white on top and a small shield with mountains."],
-  ['AE', 'JO', "The UAE has green on top and an upright red stripe by the pole; Jordan has black on top, a red triangle and a white star."],
-  ['AE', 'PS', "The UAE has green on top and an upright red stripe by the pole; Palestine has black on top and a red triangle."],
   ['CA', 'PE', "Canada has a red maple leaf in the middle; Peru's white stripe is plain."],
-  ['GN', 'GW', "Guinea-Bissau has a red upright stripe with a black star, and yellow over green; Guinea has three upright stripes."],
-  ['AT', 'DK', "Denmark has a white cross; Austria has a white stripe straight across the middle."],
   ['CH', 'DK', "Switzerland's white cross sits in the middle and does not reach the edges; Denmark's runs to the edges, nearer the pole."],
   ['MA', 'VN', "Vietnam has a big yellow star; Morocco has a thin green outlined star."],
   ['TN', 'TR', "Tunisia's crescent and star sit inside a white circle in the middle; Türkiye's are nearer the pole with no circle."],
