@@ -22,6 +22,11 @@ const test = (name, fn) => {
 
 const pairs = eligiblePairs(lookalikes, nameOf);
 
+test('pairs cut on 2026-10-21 as not look-alikes stay out', () => {
+  const cut = ['DK-LV', 'AT-DK', 'GN-GW', 'AE-JO', 'AE-PS', 'GQ-HU'];
+  const has = new Set(TWIN_TABLE.flatMap(([a, b]) => [`${a}-${b}`, `${b}-${a}`]));
+  assert.deepEqual(cut.filter((k) => has.has(k)), []);
+});
 test('table has 60-80 pairs, all with real countries and a sentence', () => {
   assert.ok(TWIN_TABLE.length >= 60 && TWIN_TABLE.length <= 80, `${TWIN_TABLE.length}`);
   for (const [a, b, how] of TWIN_TABLE) {
