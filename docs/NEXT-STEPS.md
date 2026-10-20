@@ -38,7 +38,7 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 - OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took
   `famous.json` from 273 to 602 KB gzipped (678 KB with the 2026-10-20 works
   clues) (Famous first names, Who am I) and
-  `obscure.json` from 177 to 323 KB (Obscure-est, Missing link, Odd one out);
+  `obscure.json` from 177 to 323 KB (334 KB with the 2026-10-20 years and continents) (Obscure-est, Missing link, Odd one out);
   the question bank is about 835 KB, loaded when a quiz opens. Each loads only
   when its game opens. Slimming people past each board's top 15 is not simple,
   because the era filter picks a different top 15. Revisit if loading feels slow.
