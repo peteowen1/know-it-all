@@ -29,11 +29,28 @@ export function isPuzzleWord(text) {
   return n >= MIN_LETTERS && n <= MAX_LETTERS;
 }
 
+// Shuffles tried per word, keeping the one that gives least away.
+const SHUFFLES = 200;
+
+/**
+ * How much a shuffled word still shows of the real one: letters left in their
+ * own place, plus neighbouring tiles that are neighbours in the word too
+ * ("hoetosL" for Lesotho keeps "oto"). 0 is a clean scramble.
+ */
+export function giveaway(word, tiles) {
+  const w = [...word.toLowerCase()];
+  const t = [...tiles.toLowerCase()];
+  const pairs = new Set(w.slice(1).map((ch, i) => w[i] + ch));
+  return t.filter((ch, i) => ch === w[i]).length + t.slice(1).filter((ch, i) => pairs.has(t[i] + ch)).length;
+}
+
 /**
  * Shuffle the letters inside each word. Spaces, hyphens and apostrophes stay
  * where they are, and each word is moved off its original order whenever it
- * has two different letters to swap. Returns null if nothing could move
- * (every word is one repeated letter).
+ * has two different letters to swap. Of up to 200 shuffles the one with the
+ * lowest `giveaway` is kept: the 2026-10-19 playtest scored 19 and 20 of 20,
+ * with a fifth of the letters left in place. Returns null if nothing could
+ * move (every word is one repeated letter).
  */
 export function scrambleText(text, rand) {
   let changed = false;
@@ -47,9 +64,15 @@ export function scrambleText(text, rand) {
     .map((chars) => {
       const word = chars.join('');
       if (SEPARATOR.test(chars[0]) || new Set(chars.map((c) => c.toLowerCase())).size < 2) return word;
-      let next = chars;
-      for (let tries = 0; tries < 50 && next.join('') === word; tries++) next = shuffle(chars, rand);
-      if (next.join('') === word) next = [...chars.slice(1), chars[0]];
+      let next = null;
+      let best = Infinity;
+      for (let tries = 0; tries < SHUFFLES && best > 0; tries++) {
+        const trial = shuffle(chars, rand);
+        if (trial.join('') === word) continue;
+        const score = giveaway(word, trial.join(''));
+        if (score < best) [next, best] = [trial, score];
+      }
+      if (!next) next = [...chars.slice(1), chars[0]];
       changed = true;
       return next.join('');
     })
@@ -100,9 +123,21 @@ export function isCorrect(guess, round) {
   return rowMatches(g, { accept });
 }
 
+// The game gets longer as it goes: of ten rounds, 2 short words, then 3 of
+// 6-7 letters, 3 of 8-9 and 2 of 10-14. A band without enough places (a small
+// region) is filled from the others.
+const BANDS = [
+  { most: 5, share: 0.2 },
+  { most: 7, share: 0.3 },
+  { most: 9, share: 0.3 },
+  { most: MAX_LETTERS, share: 0.2 }
+];
+const bandOf = (answer) => BANDS.findIndex((b) => letterCount(answer) <= b.most);
+
 /**
- * `count` rounds for a mode and region, in a seeded order. Each round is plain
- * JSON so it can be saved with the game.
+ * `count` rounds for a mode and region, shortest words first, in a seeded
+ * order within each length. Each round is plain JSON so it can be saved with
+ * the game.
  */
 export function buildScrambleRounds(countries, { mode = 'countries', region = 'World', seed = Date.now(), count = ROUNDS } = {}) {
   const rand = makeRng(hashString(`scramble:${mode}:${region}:${seed}`));
@@ -110,11 +145,26 @@ export function buildScrambleRounds(countries, { mode = 'countries', region = 'W
   // Every other name of the same kind: a guess equal to one of these is wrong
   // even when it is within a typo of this round's answer.
   const allNames = countries.flatMap((c) => acceptList(c, mode));
+  const playable = shuffle(pool, rand).filter((c) => answerFor(c, mode));
+  const want = BANDS.map((b) => Math.round(b.share * count));
+  const picked = [];
+  for (const c of playable) {
+    const band = bandOf(answerFor(c, mode));
+    if (want[band] > 0) {
+      want[band]--;
+      picked.push(c);
+    }
+  }
+  // Short of a band: the rest of the places, in their shuffled order.
+  for (const c of playable) if (picked.length < count && !picked.includes(c)) picked.push(c);
+  const ordered = picked.map((c, i) => ({ c, i, band: bandOf(answerFor(c, mode)) })).sort((a, b) => a.band - b.band || a.i - b.i).map((x) => x.c);
+  // Spares, should a picked word not scramble (one repeated letter).
+  ordered.push(...playable.filter((c) => !picked.includes(c)));
+
   const rounds = [];
-  for (const c of shuffle(pool, rand)) {
+  for (const c of ordered) {
     if (rounds.length === count) break;
     const answer = answerFor(c, mode);
-    if (!answer) continue;
     const tiles = scrambleText(answer, rand);
     if (!tiles) continue;
     const accept = acceptList(c, mode);
