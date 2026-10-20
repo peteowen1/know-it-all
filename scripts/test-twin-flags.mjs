@@ -22,8 +22,8 @@ const test = (name, fn) => {
 
 const pairs = eligiblePairs(lookalikes, nameOf);
 
-test('table has 25-45 pairs, all with real countries and a sentence', () => {
-  assert.ok(TWIN_TABLE.length >= 25 && TWIN_TABLE.length <= 45, `${TWIN_TABLE.length}`);
+test('table has 60-80 pairs, all with real countries and a sentence', () => {
+  assert.ok(TWIN_TABLE.length >= 60 && TWIN_TABLE.length <= 80, `${TWIN_TABLE.length}`);
   for (const [a, b, how] of TWIN_TABLE) {
     assert.ok(nameOf[a] && nameOf[b], `${a}-${b} unknown code`);
     assert.ok(how && how.length > 20, `${a}-${b} no sentence`);
