@@ -317,6 +317,7 @@
 .ny-clues { list-style: none; display: flex; flex-direction: column; gap: var(--s-2); }
 .ny-sum-clues { list-style: none; color: var(--ink-2); font-size: var(--fs-sm); }
 .ny-sum-clues li::before { content: '· '; }
+.ny-fact { font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.35; }
 
 /* ------------------------------------------------------------- obscure-est */
 .obs-reveal { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: var(--s-3); }

@@ -24,7 +24,7 @@ import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, co
 import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
-import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
+import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact } from '../src/games/nameyear/nameYearLogic.js';
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
@@ -772,6 +772,23 @@ test('matchChartGuess: a short name shared by several films is ambiguous, not a 
 test('name the year: points fall by two per year out', () => {
   assert.deepEqual([0, 1, 2, 4, 5, 9].map((d) => yearPoints(1990 + d, 1990)), [10, 8, 6, 2, 0, 0]);
   assert.equal(yearPoints('', 1990), 0);
+});
+test('name the year: a second try after a 0, worth half', () => {
+  assert.deepEqual([1994, 1995, 2010].map((g) => earnsRetry(g, 1990)), [false, true, true]);
+  assert.deepEqual([0, 1, 2, 4].map((d) => roundPoints(1990 + d, 1990, true)), [5, 4, 3, 1]);
+  assert.equal(roundPoints(1992, 1990), 6);
+});
+test('name the year: a fact from the guessed year, never from the answer year or past it', () => {
+  assert.equal(guessedYearFact(2013, 2013, TL), null);
+  const f = guessedYearFact(2009, 2013, TL);
+  assert.equal(f.year, 2009);
+  assert.ok(TL.some((e) => e.year === 2009 && e.text === f.text));
+  for (let answer = 1800; answer <= 2026; answer++) {
+    for (const g of [answer - 7, answer - 1, answer + 1, answer + 7]) {
+      const x = guessedYearFact(g, answer, TL);
+      if (x) assert.ok(x.year !== answer && (x.year - answer) * (g - answer) > 0 && Math.abs(x.year - g) <= 10, `${g} for ${answer}: ${x.year}`);
+    }
+  }
 });
 test('name the year: 5 rounds, 3 clues of 3 kinds from the right year, 4 options incl. the answer', () => {
   for (let s = 0; s < 200; s++) {

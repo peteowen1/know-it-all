@@ -14,6 +14,42 @@ export function yearPoints(guess, year) {
 }
 
 /**
+ * Points for a round. In hard mode a first guess that scores nothing earns a
+ * second try ("Later than 1950"), worth half points, rounded down.
+ */
+export function roundPoints(guess, year, retried = false) {
+  const p = yearPoints(guess, year);
+  return retried ? Math.floor(p / 2) : p;
+}
+
+/** Does a hard-mode first guess earn a second try? Only when it scores 0. */
+export const earnsRetry = (guess, year) => yearPoints(guess, year) === 0;
+
+/**
+ * One thing that happened in the year the player guessed, so a miss still
+ * teaches something: { year, text }. A year the timeline has nothing for
+ * gives the nearest year that has (`year` then differs from the guess). The
+ * round's own year is never used: its events are the clues, and nor is a
+ * year on the other side of the answer from the guess. Null when the
+ * guess is the answer or nothing is near.
+ */
+export function guessedYearFact(guess, answer, events) {
+  const g = Number(guess);
+  if (!Number.isInteger(g) || g === answer) return null;
+  const byYear = new Map();
+  for (const e of events) if (e.year !== answer) (byYear.get(e.year) || byYear.set(e.year, []).get(e.year)).push(e);
+  for (let d = 0; d <= 10; d++) {
+    // Nearer the answer first: it says more about the gap.
+    for (const y of g < answer ? [g + d, g - d] : [g - d, g + d]) {
+      const list = byYear.get(y);
+      // Never past the answer: "In 2014" for a 2012 guess at 2013 misleads.
+      if (list && (y - answer) * (g - answer) > 0) return { year: y, text: list[hashString(`nameyear-fact:${g}`) % list.length].text };
+    }
+  }
+  return null;
+}
+
+/**
  * Five rounds, each a year with three clues of three different kinds (a song,
  * a film or award, a leader or birth), so no single clue type gives it away.
  * Years are at least three apart, so two rounds never share clues.
