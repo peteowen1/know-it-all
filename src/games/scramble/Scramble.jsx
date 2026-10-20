@@ -164,7 +164,9 @@ export default function Scramble({ stats, onRoundComplete, onExit }) {
         )}
       </div>
 
-      {(hinted || done) && <p className="scramble-hint">{r.hint}</p>}
+      {/* Once the round is over, facts about the answer, right or wrong.
+          Rounds saved before facts existed fall back to the hint. */}
+      {done ? <p className="scramble-fact">{r.fact || r.hint}</p> : hinted && <p className="scramble-hint">{r.hint}</p>}
 
       {!done && (
         <form className="scramble-form" onSubmit={submit}>

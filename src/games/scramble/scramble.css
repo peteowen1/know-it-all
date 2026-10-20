@@ -39,6 +39,13 @@
   font-weight: 600;
   color: var(--accent-text);
 }
+.scramble-fact {
+  text-align: center;
+  color: var(--ink-2);
+  line-height: 1.4;
+  max-width: 34rem;
+  margin-inline: auto;
+}
 .scramble-form { display: grid; gap: var(--s-3); }
 
 /* Seven tiles of 44px and gaps fit 390px; longer words wrap to a second line. */

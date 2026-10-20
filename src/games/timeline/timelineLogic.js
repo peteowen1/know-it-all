@@ -94,3 +94,16 @@ export function scoreOrder(order) {
   }
   return { correct, total };
 }
+
+/**
+ * Another event from the same year, shown under a card placed wrong so the
+ * year sticks: "Same year: Star Wars is the top-grossing film". A different
+ * kind first (a president gets a film or a song, not another president), the
+ * same kind if that is all the year has, and null when the year has nothing
+ * else. Picked by the event's own text, so a card always gets the same partner.
+ */
+export function sameYear(event, events) {
+  const others = events.filter((e) => e.year === event.year && e.text !== event.text);
+  const pool = others.some((e) => e.kind !== event.kind) ? others.filter((e) => e.kind !== event.kind) : others;
+  return pool.length ? pool[hashString(event.text) % pool.length] : null;
+}
