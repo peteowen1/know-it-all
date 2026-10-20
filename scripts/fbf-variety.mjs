@@ -330,6 +330,19 @@ for (const i of KINDS.includes('hidden') ? open : []) {
 }
 console.log(`red herrings for a hidden word: ${hiddenDecoys}`);
 
+// The word each tile of a hidden-word group hides, for the screen that shows
+// the solved group: "Ramallah (ram)". The 2026-10-20 playtest found the
+// hidden words were never shown. Display only, so it is set on every puzzle,
+// the kept days too, and a rerun sets the same thing.
+for (const p of data.puzzles) {
+  for (const g of p.groups) {
+    if (!byLabel.get(g.label)?.type.startsWith('hidden-')) continue;
+    const parts = HIDDEN[g.label.replace(/^.* hiding /, '')];
+    // The longest part in the title, spaces dropped: "How Low" hides an owl.
+    g.hides = g.items.map((t) => parts.filter((w) => norm(t).replace(/ /g, '').includes(w)).sort((a, b) => b.length - a.length)[0] || null);
+  }
+}
+
 const unfair = data.puzzles.map((p, i) => [i, p]).filter(([, p]) => !fair(p)).map(([i]) => i);
 console.log(`${n} puzzles, ${kept.size} kept for recent and coming days; targets ${JSON.stringify(targets)}`);
 for (const k of KINDS) console.log(`  ${k}: ${before[k]} already, ${done[k] - before[k]} added, no fit found ${misses[k]} times`);
