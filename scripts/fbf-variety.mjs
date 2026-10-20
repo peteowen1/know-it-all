@@ -338,8 +338,12 @@ for (const p of data.puzzles) {
   for (const g of p.groups) {
     if (!byLabel.get(g.label)?.type.startsWith('hidden-')) continue;
     const parts = HIDDEN[g.label.replace(/^.* hiding /, '')];
-    // The longest part in the title, spaces dropped: "How Low" hides an owl.
-    g.hides = g.items.map((t) => parts.filter((w) => norm(t).replace(/ /g, '').includes(w)).sort((a, b) => b.length - a.length)[0] || null);
+    // Every part in the title, spaces dropped ("How Low" hides an owl), less
+    // any inside a longer one found: Slumdog Millionaire is "dog, lion".
+    g.hides = g.items.map((t) => {
+      const found = parts.filter((w) => norm(t).replace(/ /g, '').includes(w));
+      return found.filter((w) => !found.some((x) => x !== w && x.includes(w))).join(', ') || null;
+    });
   }
 }
 
