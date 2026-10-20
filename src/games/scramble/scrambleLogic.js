@@ -110,8 +110,13 @@ const placeName = (c) => {
   const where = c.subregion || c.region;
   return /^(Caribbean|Antarctic)$/.test(where) ? `the ${where}` : where;
 };
-export const hintFor = (country, mode) =>
-  mode === 'capitals' ? `A capital in ${placeName(country)}` : `A country in ${placeName(country)}`;
+export function hintFor(country, mode) {
+  // "A country in Australia and New Zealand" names the answer: the region then.
+  const answer = mode === 'capitals' ? country.capitals?.[0] || '' : country.name;
+  let where = placeName(country);
+  if (answer && where.toLowerCase().includes(answer.toLowerCase())) where = country.region;
+  return mode === 'capitals' ? `A capital in ${where}` : `A country in ${where}`;
+}
 
 /**
  * Is the typed text one of the accepted spellings? Uses the same typed-answer

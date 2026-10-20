@@ -125,6 +125,14 @@ test('points and hints', () => {
   assert.equal(hintFor({ name: 'Kenya', region: 'Africa', subregion: 'Eastern Africa' }, 'capitals'), 'A capital in Eastern Africa');
   assert.equal(hintFor({ name: 'Kenya', region: 'Africa', subregion: 'Eastern Africa' }, 'countries'), 'A country in Eastern Africa');
   assert.equal(hintFor({ name: 'Jamaica', region: 'Americas', subregion: 'Caribbean' }, 'countries'), 'A country in the Caribbean');
+  // A hint never holds its own answer: Australia, New Zealand and Micronesia fall back to Oceania.
+  for (const c of countries) {
+    for (const mode of ['countries', 'capitals']) {
+      const answer = answerFor(c, mode);
+      if (answer) assert.ok(!hintFor(c, mode).toLowerCase().includes(answer.toLowerCase()), `${answer}: ${hintFor(c, mode)}`);
+    }
+  }
+  assert.equal(hintFor(countries.find((c) => c.code === 'AU'), 'countries'), 'A country in Oceania');
 });
 
 test('optional "The", St for Saint, and the common English names', () => {
