@@ -122,8 +122,9 @@ test('points and hints', () => {
   assert.equal(pointsFor({ hinted: false, skipped: false }), 2);
   assert.equal(pointsFor({ hinted: true, skipped: false }), 1);
   assert.equal(pointsFor({ hinted: true, skipped: true }), 0);
-  assert.equal(hintFor({ name: 'Kenya', region: 'Africa' }, 'capitals'), 'Capital of Kenya');
-  assert.equal(hintFor({ name: 'Kenya', region: 'Africa' }, 'countries'), 'Country in Africa');
+  assert.equal(hintFor({ name: 'Kenya', region: 'Africa', subregion: 'Eastern Africa' }, 'capitals'), 'A capital in Eastern Africa');
+  assert.equal(hintFor({ name: 'Kenya', region: 'Africa', subregion: 'Eastern Africa' }, 'countries'), 'A country in Eastern Africa');
+  assert.equal(hintFor({ name: 'Jamaica', region: 'Americas', subregion: 'Caribbean' }, 'countries'), 'A country in the Caribbean');
 });
 
 test('optional "The", St for Saint, and the common English names', () => {
@@ -138,6 +139,9 @@ test('the fact after a round: Gabon in both modes, word for word', () => {
   const gabon = countries.find((c) => c.code === 'GA');
   assert.equal(factFor(gabon, 'countries', countries), 'Gabon: in Middle Africa, capital Libreville, 2.6 million people, speaks French, borders Cameroon, the Congo and Equatorial Guinea.');
   assert.equal(factFor(gabon, 'capitals', countries), 'Libreville is the capital of Gabon, in Middle Africa, a country of 2.6 million people.');
+  const cn = countries.find((c) => c.code === 'CN');
+  assert.match(factFor(cn, 'countries', countries), /borders 14 countries/, 'Hong Kong and Macau are not borders');
+  assert.doesNotMatch(factFor(countries.find((c) => c.code === 'LK'), 'countries', countries), /borders/, 'no land border with India');
   assert.deepEqual([1.42e9, 123.4e6, 2593130, 403123, 9492].map(peopleText), ['1.4 billion', '123 million', '2.6 million', '403,000', '9,492']);
 });
 

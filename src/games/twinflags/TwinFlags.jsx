@@ -67,7 +67,8 @@ export default function TwinFlags({ stats, onRoundComplete, onExit }) {
       >
         {rounds.map((r, i) => (
           <AnswerRow key={r.id} state={results[i].correct ? 'got' : 'missed'} trail={results[i].correct ? 'right' : 'missed'}>
-            {NAME_OF[r.ask]}: {r.how}
+            {/* The pair, then the tip: "Ecuador: Ecuador has..." named the country twice. */}
+            <strong>{NAME_OF[r.ask]} or {NAME_OF[r.ask === r.left ? r.right : r.left]}.</strong> {r.how}
           </AnswerRow>
         ))}
       </GameResults>

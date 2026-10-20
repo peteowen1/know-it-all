@@ -21,9 +21,12 @@ const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
 const TOP = 15;
 const PEOPLE_PER_QUERY = 50;
 const WORKS_KEPT = 4; // per person and property, for the label fetch
-const RAW = 'data-raw/famous/works';
+// v2 (2026-10-20): every non-deprecated statement, not only the best-ranked.
+// With `wdt:` a person with one preferred-rank club kept only that club, so
+// Robert Lewandowski "Played for Chicago Fire". The v1 files stay on disk.
+const RAW = 'data-raw/famous/works-v2';
 const RAW_LABELS = 'data-raw/famous/works-labels';
-const INDEX = 'data-raw/famous/works-index.json';
+const INDEX = 'data-raw/famous/works-v2-index.json';
 const WORK_PROPS = ['P800', 'P161', 'P175', 'P50', 'P57', 'P170', 'P54'];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -77,12 +80,16 @@ async function saveBatch(ids, name, index) {
 
 function query(ids) {
   // Forward properties are the person's own claims; the rest point at them.
+  // Statements, not truthy triples, so normal-rank ones count when another is preferred.
   const branch = (p) =>
-    p === 'P800' || p === 'P54' ? `{ ?person wdt:${p} ?work . BIND("${p}" AS ?prop) }` : `{ ?work wdt:${p} ?person . BIND("${p}" AS ?prop) }`;
+    p === 'P800' || p === 'P54'
+      ? `{ ?person p:${p} ?st . ?st ps:${p} ?work . BIND("${p}" AS ?prop) }`
+      : `{ ?work p:${p} ?st . ?st ps:${p} ?person . BIND("${p}" AS ?prop) }`;
   // runLast: without it the service looks up sitelinks first and times out.
   return `SELECT ?person ?prop ?work ?links WHERE {
   VALUES ?person { ${ids.map((i) => 'wd:' + i).join(' ')} }
   ${WORK_PROPS.map(branch).join('\n  UNION ')}
+  FILTER NOT EXISTS { ?st wikibase:rank wikibase:DeprecatedRank }
   ?work wikibase:sitelinks ?links . hint:Prior hint:runLast true .
 }`;
 }

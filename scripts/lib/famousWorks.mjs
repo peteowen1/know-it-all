@@ -19,13 +19,24 @@ const NOTABLE = { prop: 'P800', verb: 'Known for' };
 
 // Works that say nothing about why the person is famous: films about them,
 // national and youth sides (the description already says the nationality).
-const DULL = /\b(documentary|concert film|national .*team|under-\d+|U-?\d\d|youth|reserves?|academy)\b/i;
+// College sides too ("Davidson Wildcats men's basketball"). A national side
+// is matched on its name only: the description "National Basketball
+// Association team" dropped the Golden State Warriors, leaving Stephen Curry
+// "Played for Davidson".
+const DULL = /\b(documentary|concert film|under-\d+|U-?\d\d|youth|reserves?|academy|men's basketball|college|university)\b/i;
+const NATIONAL_SIDE = /\bnational\b.*\bteam\b/i;
+
+// Works Wikidata credits wrongly, by person id, each checked by hand. Kyle
+// Kuzma never played for Guangdong (his teams are the Lakers, Wizards and
+// Bucks, none of which Wikidata lists); playtest 2026-10-20.
+const WRONG = { Q30063347: ['Q2629395'] };
 
 /** Raw rows and labels from data-raw/famous/works*. */
 export function loadWorks(root) {
   const rows = new Map(); // person id -> [{prop, work, links}]
   const labels = new Map(); // work id -> {label, description}
-  const dir = `${root}/works`;
+  // works-v2 has every statement (see scripts/fetch-famous-works.mjs).
+  const dir = `${root}/works-v2`;
   if (!existsSync(dir)) return { rows, labels };
   for (const f of readdirSync(dir).sort()) {
     for (const b of JSON.parse(readFileSync(`${dir}/${f}`, 'utf8')).results.bindings) {
@@ -70,12 +81,12 @@ export function worksClue(person, { rows, labels }) {
   for (const kind of [...kinds, NOTABLE]) {
     const seen = new Set();
     const titles = own
-      .filter((r) => r.prop === kind.prop && labels.has(r.work))
+      .filter((r) => r.prop === kind.prop && labels.has(r.work) && !WRONG[person.id]?.includes(r.work))
       .sort((a, b) => b.links - a.links)
       .map((r) => labels.get(r.work))
-      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !leaksName(w.label, nameWords))
-      // "Fulham F.C." reads as "Fulham" in a clue.
-      .map((w) => w.label.replace(/\s+(A\.?F\.?C\.?|F\.?C\.?|C\.?F\.?|S\.?C\.?)$/, ''))
+      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords))
+      // "Fulham F.C." reads as "Fulham" in a clue, "FC Barcelona" as "Barcelona".
+      .map((w) => w.label.replace(/\s+(A\.?F\.?C\.?|F\.?C\.?|C\.?F\.?|S\.?C\.?)$/, '').replace(/^F\.?C\.?\s+/, ''))
       .filter((t) => !seen.has(t) && seen.add(t))
       .slice(0, 2);
     if (titles.length) return `${kind.verb} ${titles.join(' and ')}`;

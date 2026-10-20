@@ -90,8 +90,9 @@ function acceptList(country, mode) {
 export function answerFor(country, mode) {
   const answer = mode === 'capitals' ? country.capitals?.[0] : country.name;
   if (!isPuzzleWord(answer)) return null;
-  // Singapore, Monaco, and Tunis, Kuwait City, San Salvador: the hint "Capital
-  // of <country>" would hand over the capital, or most of it.
+  // Singapore, Monaco, and Tunis, Kuwait City, San Salvador: a capital named
+  // after its country is the country puzzle again, and the fact line after
+  // the round ("Tunis is the capital of Tunisia") would read oddly.
   if (mode === 'capitals' && sharesWord(answer, country.name)) return null;
   return answer;
 }
@@ -102,8 +103,15 @@ function sharesWord(capital, countryName) {
   return words(capital).some((w) => inName.some((n) => n.startsWith(w.slice(0, 4)) || w.startsWith(n.slice(0, 4))));
 }
 
+// The hint names the part of the world, smaller than the region picked at
+// setup: "Country in Africa" told an Africa player nothing, and "Capital of
+// Switzerland" handed over Bern (playtest 2026-10-20).
+const placeName = (c) => {
+  const where = c.subregion || c.region;
+  return /^(Caribbean|Antarctic)$/.test(where) ? `the ${where}` : where;
+};
 export const hintFor = (country, mode) =>
-  mode === 'capitals' ? `Capital of ${countryInText(country.name)}` : `Country in ${country.region}`;
+  mode === 'capitals' ? `A capital in ${placeName(country)}` : `A country in ${placeName(country)}`;
 
 /**
  * Is the typed text one of the accepted spellings? Uses the same typed-answer
@@ -211,16 +219,20 @@ function languagesText(languages = []) {
  * more than that are counted.
  */
 export function factFor(country, mode, countries) {
-  const region = country.subregion || country.region;
-  const where = region && (/^(Caribbean|Antarctic)$/.test(region) ? `the ${region}` : region);
+  const where = placeName(country);
   const people = country.population ? `${peopleText(country.population)} people` : null;
   const capital = country.capitals?.[0];
   if (mode === 'capitals') {
     const ofPeople = people && country.sovereign ? `, a country of ${people}` : '';
     return `${capital} is the capital of ${countryInText(country.name)}${where ? `, in ${where}` : ''}${ofPeople}.`;
   }
-  const byIso3 = new Map(countries.map((c) => [c.iso3, c.name]));
-  const borders = (country.borders || []).map((b) => byIso3.get(b)).filter(Boolean);
+  // Land borders with other countries, listed on both sides: China's list has
+  // Hong Kong and Macau (16, not 14), and Sri Lanka lists India one way only.
+  const byIso3 = new Map(countries.map((c) => [c.iso3, c]));
+  const borders = (country.borders || [])
+    .map((b) => byIso3.get(b))
+    .filter((c) => c && c.sovereign && (c.borders || []).includes(country.iso3))
+    .map((c) => c.name);
   const parts = [
     where && `in ${where}`,
     capital && capital !== country.name && `capital ${capital}`,

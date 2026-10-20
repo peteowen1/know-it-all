@@ -41,6 +41,9 @@ const sameWord = (token, word) => {
   if (word.length < 3 || token.length < 3) return false;
   // Longer words also catch their derived forms: "Sahara" hides "Saharan".
   if (word.length >= 4 && token.startsWith(word)) return true;
+  // And a shorter word the answer grows out of: "August" gives away Augustus
+  // (playtest 2026-10-20). Five letters or more, at most two letters short.
+  if (token.length >= 5 && word.startsWith(token) && word.length - token.length <= 2) return true;
   return stem(token) === stem(word);
 };
 
