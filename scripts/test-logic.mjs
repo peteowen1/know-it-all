@@ -26,7 +26,7 @@ import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
-import { buildLinkRounds, linkPoints, hasRepeatedClue } from '../src/games/missinglink/linkLogic.js';
+import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
 import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel, scaleBounds, formatLevel } from '../src/games/vocab/vocabTest.js';
 import { pickWeekly, WEEKLY_SHAPE, WEEKLY_MAX_PER_CATEGORY } from '../src/lib/weekly.js';
@@ -867,6 +867,23 @@ test('obscure: a game has five distinct categories covering all four areas', () 
   }
 });
 // ------------------------------------------------------------ missing link
+test('missing link: geography wrong options from the same continent where there are enough', () => {
+  const byPrompt = new Map(OBS.map((c) => [c.prompt, c]));
+  let geo = 0;
+  let near = 0;
+  for (let s = 0; s < 200; s++) {
+    for (const r of buildLinkRounds(OBS, { seed: `near${s}` })) {
+      const cat = byPrompt.get(r.link);
+      if (cat.kind !== 'geo') continue;
+      for (const o of r.options.filter((x) => x !== r.link)) {
+        geo++;
+        if (optionDistance(cat, byPrompt.get(o)) === 0) near++;
+      }
+    }
+  }
+  // Oceania and Northern America have few same-continent siblings, so not all.
+  assert.ok(near / geo > 0.85, `${near} of ${geo} wrong options on the same continent`);
+});
 test('missing link: points 4, 3, 2, 1 by clues seen', () => {
   assert.deepEqual([1, 2, 3, 4].map(linkPoints), [4, 3, 2, 1]);
 });

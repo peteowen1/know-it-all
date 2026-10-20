@@ -11,6 +11,38 @@ export const CLUES = 4;
 // "songs-"), which makes the best wrong options.
 const family = (id) => id.split('-')[0];
 
+/**
+ * A category's continent (most of its answers' `region`) and era (the middle
+ * year of its well-known answers), or null where obscure.json has neither.
+ */
+const placeCache = new WeakMap();
+function place(category) {
+  let p = placeCache.get(category);
+  if (!p) {
+    const counts = {};
+    for (const a of category.answers) if (a.region) counts[a.region] = (counts[a.region] || 0) + 1;
+    const years = category.answers.filter((a) => a.year && a.score <= 60).map((a) => a.year).sort((x, y) => x - y);
+    p = { region: Object.keys(counts).sort((x, y) => counts[y] - counts[x])[0] || null, era: years.length ? years[years.length >> 1] : null };
+    placeCache.set(category, p);
+  }
+  return p;
+}
+
+/**
+ * How far a wrong option sits from the link, in steps; 0 is closest. Another
+ * continent is 1 step; for songs and films, a step per full 15 years between
+ * eras. The 2026-10-19 playtest found geography and film links guessable at
+ * clue 1: over 400 games, clue 1 alone ruled out all three wrong options in
+ * 208 of 436 geography rounds and 193 of 427 film rounds.
+ */
+export function optionDistance(link, other) {
+  const a = place(link);
+  const b = place(other);
+  if (a.region && b.region) return a.region === b.region ? 0 : 1;
+  if (a.era && b.era) return Math.floor(Math.abs(a.era - b.era) / 15);
+  return 0;
+}
+
 /** Points for guessing right after seeing `shown` clues: 4, 3, 2, 1. */
 export const linkPoints = (shown) => Math.max(0, CLUES + 1 - shown);
 
@@ -84,7 +116,7 @@ function normalisedAnswers(category) {
 
 /**
  * Five rounds, one category each, drawn so the kinds vary. Each round's three
- * wrong options come from the same family where possible and are checked not
+ * wrong options come from the same family where possible, closest first, and are checked not
  * to fit ANY of the four clues, so exactly one option is right however many
  * clues the player has seen.
  */
@@ -99,7 +131,11 @@ export function buildLinkRounds(categories, { seed = Date.now(), count = ROUNDS 
     const clues = pickClues(cat);
     if (!clues || hasRepeatedClue(clues)) continue;
     const others = categories.filter((c) => c.id !== cat.id && !fitsAny(c, clues));
-    const same = shuffle(others.filter((c) => family(c.id) === family(cat.id)), rand);
+    // Closest first (same continent, nearby era), in a seeded order within each step.
+    const same = shuffle(others.filter((c) => family(c.id) === family(cat.id)), rand)
+      .map((c, i) => ({ c, i, steps: optionDistance(cat, c) }))
+      .sort((x, y) => x.steps - y.steps || x.i - y.i)
+      .map((x) => x.c);
     const rest = shuffle(others.filter((c) => family(c.id) !== family(cat.id) && c.kind === cat.kind), rand);
     const decoys = [...same, ...rest].slice(0, 3);
     if (decoys.length < 3) continue;

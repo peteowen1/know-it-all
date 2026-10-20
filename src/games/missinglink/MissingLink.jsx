@@ -103,6 +103,8 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
         {r.clues.map((c, i) => (
           <li key={c.answer} className={i < visible ? 'on' : ''}>
             {i < visible ? c.text : '?'}
+            {/* Once the round is over, a surname clue gets its full name: "Oldman" is Gary Oldman. */}
+            {done && c.answer !== c.text && <span className="ml-full">{c.answer}</span>}
           </li>
         ))}
       </ol>
