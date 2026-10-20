@@ -108,11 +108,13 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
     if (answered || !/^\d{4}$/.test(String(y).trim())) return;
     const g = Number(y);
     // Hard mode, first try, nowhere near: point the way and let them go again.
-    if (answerMode !== 'choice' && game.pending == null && earnsRetry(g, r.year)) {
+    const hard = answerMode !== 'choice';
+    if (hard && game.pending == null && earnsRetry(g, r.year)) {
       setGame({ ...game, pending: g, input: '' });
       return;
     }
-    const nextFirsts = game.pending != null ? { ...firsts, [index]: game.pending } : firsts;
+    // A switch to easy mode mid-retry drops the retry: a pick from four is not halved.
+    const nextFirsts = hard && game.pending != null ? { ...firsts, [index]: game.pending } : firsts;
     const next = [...guesses, g];
     setGame({ ...game, guesses: next, firsts: nextFirsts, pending: null });
     if (next.length === rounds.length) {
@@ -141,7 +143,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
           ))}
         </OptionGrid>
       )}
-      {!answered && game.pending != null && (
+      {!answered && answerMode !== 'choice' && game.pending != null && (
         <p className="play-verdict" data-tone="meh" role="status">
           {r.year > game.pending ? 'Later' : 'Earlier'} than {game.pending}. One more try, for half points.
         </p>
