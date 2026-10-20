@@ -19,11 +19,12 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 ## Build
 
 - OPEN **Four by four tricks**: hidden words, traps and red herrings (#56) and
-  fill-the-gap groups (2026-10-20: 20 puzzles, 11 with a famous-surname red
-  herring) live in `scripts/fbf-variety.mjs`, which reruns after any Four by
-  four rebuild and only tops up. Traps are all "Famous X" puzzles, and Sally
-  Field and Victoria Wood are each the herring three times; widen the
-  phrase list (`GAPS` in `scripts/lib/fbfGroups.mjs`) if they feel samey.
+  fill-the-gap groups (2026-10-20: 30 puzzles from 20 phrases, 17 with a
+  famous-surname red herring) live in `scripts/fbf-variety.mjs`, which reruns
+  after any Four by four rebuild and only tops up. Traps are all "Famous X"
+  puzzles. A herring surname is capped at two puzzles from now on (Sally Field
+  was already in three). Gold, Silver, ___ Cake and ___mark found no fit in the
+  10 new slots; they are there for the next top-up.
 
 ## Check
 

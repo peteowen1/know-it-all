@@ -20,7 +20,8 @@
 // Puzzles that already have a trick keep it, and each kind counts what the
 // file already holds towards its share, so a rerun only tops up.
 // Run from the repo root: `node scripts/fbf-variety.mjs [kind ...]` (all kinds
-// by default; `gap` alone added the fill-the-gap groups on 2026-10-20).
+// by default; `gap` alone added the fill-the-gap groups on 2026-10-20, and
+// topped them up to 30 after the phrase list doubled the same day).
 
 import { readFileSync } from 'node:fs';
 import {
@@ -62,6 +63,11 @@ const count = (p, by) => {
 };
 data.puzzles.forEach((p) => count(p, 1));
 const itemFree = (t) => (itemUse.get(norm(t)) || 0) < MAX_PUZZLES_PER_ITEM;
+// A gap's red herring surname in at most two puzzles, so the same few people
+// (Sally Field, Victoria Wood) are not the herring every time.
+const MAX_PER_HERRING = 2;
+const herringUse = new Map();
+for (const p of data.puzzles) if (p.decoy && /___/.test(p.decoy.also)) bump(herringUse, norm(p.decoy.tile), 1);
 const labelFree = (l) => (labelUse.get(l) || 0) < MAX_PUZZLES_PER_LABEL;
 const fair = (p) => isFair(p, byLabel, lookup);
 const tiles = (p) => new Set(p.groups.flatMap((g) => g.items).map(norm));
@@ -103,7 +109,7 @@ function addGap(p, herring = true) {
       if (!withGap) continue;
       const base = { groups: withGap };
       // The herring: a surname of the gap's own list, from a first-name group.
-      const herrings = !herring ? [] : gap.members.filter((w) => GAP_HERRINGS.has(norm(w)) && itemFree(w) && !tiles(base).has(norm(w)));
+      const herrings = !herring ? [] : gap.members.filter((w) => GAP_HERRINGS.has(norm(w)) && itemFree(w) && (herringUse.get(norm(w)) || 0) < MAX_PER_HERRING && !tiles(base).has(norm(w)));
       for (const w of shuffle(herrings, rng)) {
         for (const owner of shuffle(groups.filter((g) => g.type === 'first-name' && g.pool.some((t) => norm(t) === norm(w))), rng)) {
           const there = base.groups.find((g) => g.label === owner.label);
@@ -112,7 +118,10 @@ function addGap(p, herring = true) {
             : labelFree(owner.label) ? swappable(base, base.groups.find((g) => g.label === gap.label)).map((o) => fill(base, o, owner, [norm(w)])).filter(Boolean) : [];
           for (const groupsTried of options) {
             const trial = { groups: groupsTried, decoy: { tile: owner.pool.find((x) => norm(x) === norm(w)), also: gap.label } };
-            if (fair(trial)) return trial;
+            if (fair(trial)) {
+              bump(herringUse, norm(w), 1);
+              return trial;
+            }
           }
         }
       }
@@ -269,8 +278,9 @@ function addDecoy(p, only = () => true) {
 
 const open = shuffle([...Array(n).keys()].filter((i) => !kept.has(i)), rng);
 const KINDS = process.argv.length > 2 ? process.argv.slice(2) : ['trap', 'hidden', 'decoy', 'gap'];
-// A gap group gives itself away once seen, so fewer of them: about one in twelve.
-const targets = { trap: Math.round(n * SHARE), hidden: Math.round(n * SHARE), decoy: Math.round(n * SHARE), gap: Math.round(n / 12) };
+// A gap group gives itself away once seen, so fewer of them: about one in eight
+// (one in twelve until the phrase list doubled, 2026-10-20).
+const targets = { trap: Math.round(n * SHARE), hidden: Math.round(n * SHARE), decoy: Math.round(n * SHARE), gap: Math.round(n / 8) };
 const kindOf = (p) => {
   const types = p.groups.map((g) => byLabel.get(g.label)?.type || '');
   return p.trap ? 'trap' : types.includes('gap') ? 'gap' : types.some((t) => t.startsWith('hidden-')) ? 'hidden' : p.decoy ? 'decoy' : null;
