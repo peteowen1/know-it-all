@@ -154,7 +154,7 @@ export default function Scramble({ stats, onRoundComplete, onExit }) {
       footer={done ? <NextBar onClick={next}>{index < rounds.length - 1 ? 'Next round' : 'Results'}</NextBar> : null}
     >
       <p className="eyebrow">{done ? 'The answer' : `Worth ${hinted ? 1 : 2} now`}</p>
-      <div className="scramble-tiles" role="img" aria-label={`Scrambled letters: ${(done ? r.answer : r.tiles).split('').join(' ')}`}>
+      <div className="scramble-tiles" role="img" aria-label={`Scrambled letters: ${(done ? r.answer : r.tiles.toLowerCase()).split('').join(' ')}`}>
         {[...(done ? r.answer : r.tiles)].map((ch, i) =>
           /[ '’-]/.test(ch) ? (
             <span key={i} className="scramble-gap" aria-hidden="true">{ch === ' ' ? '' : ch}</span>

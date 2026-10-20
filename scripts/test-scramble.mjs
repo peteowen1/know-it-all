@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { makeRng } from '../src/lib/rng.js';
 import {
-  isPuzzleWord, scrambleText, buildScrambleRounds, isCorrect, pointsFor, answerFor, hintFor, factFor, peopleText, ROUNDS
+  isPuzzleWord, scrambleText, buildScrambleRounds, isCorrect, pointsFor, answerFor, hintFor, factFor, peopleText, giveaway, ROUNDS
 } from '../src/games/scramble/scrambleLogic.js';
 
 let pass = 0;
@@ -151,6 +151,35 @@ test('every round in every mode and region has a fact naming its answer, with no
     }
   }
   assert.deepEqual(bad.slice(0, 5), []);
+});
+
+test('the tiles give little away: kept letters and pairs under 8% of letters across 200 games (about 40% before 2026-10-20)', () => {
+  assert.equal(giveaway('Lesotho', 'hoetosL'), 1); // "to" kept from "oto"
+  assert.equal(giveaway('Cuba', 'abuC'), 0);
+  let shown = 0;
+  let letters = 0;
+  for (let s = 0; s < 200; s++) {
+    for (const r of buildScrambleRounds(countries, { seed: `g${s}` })) {
+      shown += giveaway(r.answer, r.tiles);
+      letters += r.answer.replace(/[^\p{L}]/gu, '').length;
+    }
+  }
+  assert.ok(shown / letters < 0.08, `${shown} of ${letters}`);
+});
+
+test('words get longer through the game, in every region and mode', () => {
+  const len = (r) => r.answer.replace(/[^\p{L}]/gu, '').length;
+  for (const mode of ['countries', 'capitals']) {
+    for (const region of ['World', 'Africa', 'Americas', 'Asia', 'Europe', 'Oceania']) {
+      for (const seed of [1, 2, 3]) {
+        const r = buildScrambleRounds(countries, { mode, region, seed });
+        // Bands, not exact lengths: Asia has too few 10-letter capitals to end on two.
+        const band = (x) => (len(x) <= 5 ? 0 : len(x) <= 7 ? 1 : len(x) <= 9 ? 2 : 3);
+        assert.ok(r.every((x, i) => i === 0 || band(r[i - 1]) <= band(x)), `${mode} ${region}: ${r.map(len)}`);
+        assert.ok(len(r[0]) <= 5 && len(r.at(-1)) >= 9, `${mode} ${region}: ${r.map(len)}`);
+      }
+    }
+  }
 });
 
 if (failures.length) {
