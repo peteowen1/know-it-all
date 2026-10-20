@@ -34,6 +34,8 @@ test('masks every word of a multi-word answer but not "the"', () => {
     `The ${MASK} ${MASK} ${MASK} is huge, said the ${MASK} guide.`
   );
 });
+test('masks a word the answer grows out of: August for Augustus', () =>
+  assert.equal(maskText('The title Augustus. The month of August is named after him.', 'Augustus'), `The title ${MASK}. The month of ${MASK} is named after him.`));
 test('masks accented forms', () => assert.equal(maskText('Beyoncé sang', 'Beyonce'), `${MASK} sang`));
 test('leaves unrelated words alone', () => assert.equal(maskText('Cat sat on a mat', 'Dog'), 'Cat sat on a mat'));
 

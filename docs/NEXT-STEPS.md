@@ -28,11 +28,13 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Check
 
-- OPEN **Who am I works clues**: 2,969 of 4,455 top-15 people have one; the
+- OPEN **Who am I works clues**: 2,960 of 4,455 top-15 people have one; the
   answer is always one of them. Singers in bands get thin clues (Marc Bolan:
   "Zip Gun Boogie", as Wikidata credits the hits to T. Rex), and teams rank by
   Wikipedia coverage, not by when they played (Wembanyama: ASVEL before the
-  Spurs). New top-15 people: `npm run data:famous`, then
+  Spurs), and some actors get late-career films (Sally Field: The Amazing
+  Spider-Man). Raw data is `data-raw/famous/works-v2` (every statement, not
+  only the best-ranked). New top-15 people: `npm run data:famous`, then
   `node scripts/fetch-famous-works.mjs`, then `npm run data:famous` again.
 
 - OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took
