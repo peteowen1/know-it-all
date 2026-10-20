@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowDown, ArrowUp } from 'lucide-react';
 import data from '../../data/timeline.json';
-import { buildRound, scoreOrder } from './timelineLogic';
+import { buildRound, sameYear, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
@@ -99,11 +99,17 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
       >
         <h3 className="eyebrow">Right order</h3>
         <ol className="tl-list">
-          {truth.map((e, i) => (
-            <AnswerRow key={e.text} as="li" state={order[i] === e ? 'got' : 'missed'} lead={<strong>{e.year}</strong>}>
-              <span className="tl-text">{e.text}</span>
-            </AnswerRow>
-          ))}
+          {truth.map((e, i) => {
+            const got = order[i] === e;
+            // A card placed wrong gets another event from its year, to hang the year on.
+            const partner = got ? null : sameYear(e, data.events);
+            return (
+              <AnswerRow key={e.text} as="li" state={got ? 'got' : 'missed'} lead={<strong>{e.year}</strong>}>
+                <span className="tl-text">{e.text}</span>
+                {partner && <span className="tl-same">Same year: {partner.text}</span>}
+              </AnswerRow>
+            );
+          })}
         </ol>
       </GameResults>
     );

@@ -121,7 +121,49 @@ export function buildScrambleRounds(countries, { mode = 'countries', region = 'W
     const own = new Set(accept.map(normalise));
     const target = normalise(answer);
     const reject = [...new Set(allNames.filter((n) => !own.has(normalise(n)) && editDistance(normalise(n), target, 2) <= 2))];
-    rounds.push({ key: c.code, answer, tiles, accept, reject, hint: hintFor(c, mode) });
+    rounds.push({ key: c.code, answer, tiles, accept, reject, hint: hintFor(c, mode), fact: factFor(c, mode, countries) });
   }
   return rounds;
+}
+
+/** "2.6 million", "1.4 billion", "34,000": a population said out loud. */
+export function peopleText(n) {
+  if (n >= 1e9) return `${+(n / 1e9).toFixed(1)} billion`;
+  if (n >= 1e7) return `${Math.round(n / 1e6)} million`;
+  if (n >= 1e6) return `${+(n / 1e6).toFixed(1)} million`;
+  if (n >= 1e4) return Math.round(n / 1000).toLocaleString('en-GB') + ',000';
+  return Math.round(n).toLocaleString('en-GB');
+}
+
+const listText = (xs) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`);
+
+/**
+ * What the answer is, shown once the round is over, right or wrong, so a
+ * miss still teaches something:
+ *   countries  "Gabon: in Middle Africa, capital Libreville, 2.6 million
+ *              people, speaks French, borders Cameroon, Congo and Equatorial Guinea."
+ *   capitals   "Libreville is the capital of Gabon, in Middle Africa, a country
+ *              of 2.6 million people."
+ * Any piece the data lacks is left out. Up to three neighbours are named;
+ * more than that are counted.
+ */
+export function factFor(country, mode, countries) {
+  const region = country.subregion || country.region;
+  const where = region && (/^(Caribbean|Antarctic)$/.test(region) ? `the ${region}` : region);
+  const people = country.population ? `${peopleText(country.population)} people` : null;
+  const capital = country.capitals?.[0];
+  if (mode === 'capitals') {
+    const ofPeople = people && country.sovereign ? `, a country of ${people}` : '';
+    return `${capital} is the capital of ${countryInText(country.name)}${where ? `, in ${where}` : ''}${ofPeople}.`;
+  }
+  const byIso3 = new Map(countries.map((c) => [c.iso3, c.name]));
+  const borders = (country.borders || []).map((b) => byIso3.get(b)).filter(Boolean);
+  const parts = [
+    where && `in ${where}`,
+    capital && capital !== country.name && `capital ${capital}`,
+    people,
+    country.languages?.length && `speaks ${listText(country.languages.slice(0, 2))}`,
+    borders.length > 3 ? `borders ${borders.length} countries` : borders.length && `borders ${listText(borders.map((b) => countryInText(b)))}`
+  ].filter(Boolean);
+  return `${countryInText(country.name, { start: true })}: ${parts.join(', ')}.`;
 }

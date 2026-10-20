@@ -23,7 +23,7 @@ import { countryPool, pickDistractors, buildGeoRound, nextChallenger, formatPopu
 import { recordItems, recordRound, itemWeights, weakestItems, mergeGameStats, coerceGameStats } from '../src/lib/gameStats.js';
 import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
-import { buildRound, scoreOrder } from '../src/games/timeline/timelineLogic.js';
+import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints } from '../src/games/nameyear/nameYearLogic.js';
 import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue } from '../src/games/missinglink/linkLogic.js';
@@ -732,6 +732,20 @@ test('timeline: scoring counts correctly ordered pairs', () => {
   assert.deepEqual(scoreOrder([1, 2, 3, 4, 5].map(ev)), { correct: 10, total: 10 });
   assert.deepEqual(scoreOrder([5, 4, 3, 2, 1].map(ev)), { correct: 0, total: 10 });
   assert.deepEqual(scoreOrder([2, 1, 3, 4, 5].map(ev)), { correct: 9, total: 10 });
+});
+test('timeline: a missed card gets another event from its year, of another kind when there is one', () => {
+  let partnered = 0;
+  for (const e of TL) {
+    const p = sameYear(e, TL);
+    if (!p) continue;
+    partnered++;
+    assert.equal(p.year, e.year, e.text);
+    assert.notEqual(p.text, e.text);
+    if (TL.some((o) => o.year === e.year && o.kind !== e.kind)) assert.notEqual(p.kind, e.kind, e.text);
+    assert.equal(sameYear(e, TL), p, 'the same partner every time');
+  }
+  assert.ok(partnered > TL.length * 0.85, `${partnered} of ${TL.length} have a partner`);
+  assert.equal(sameYear({ year: 1, kind: 'x', text: 'alone' }, TL), null);
 });
 test('matchChartGuess: leading abbreviation and pre-colon title (E.T., Rambo)', () => {
   const films = [

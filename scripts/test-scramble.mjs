@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { makeRng } from '../src/lib/rng.js';
 import {
-  isPuzzleWord, scrambleText, buildScrambleRounds, isCorrect, pointsFor, answerFor, hintFor, ROUNDS
+  isPuzzleWord, scrambleText, buildScrambleRounds, isCorrect, pointsFor, answerFor, hintFor, factFor, peopleText, ROUNDS
 } from '../src/games/scramble/scrambleLogic.js';
 
 let pass = 0;
@@ -132,6 +132,25 @@ test('optional "The", St for Saint, and the common English names', () => {
   assert.ok(isCorrect("St John's", r(["Saint John's"])));
   assert.ok(isCorrect('Austria', r(['Austria'])));
   assert.ok(!isCorrect('Australia', { accept: ['Austria'], reject: ['Australia'] }));
+});
+
+test('the fact after a round: Gabon in both modes, word for word', () => {
+  const gabon = countries.find((c) => c.code === 'GA');
+  assert.equal(factFor(gabon, 'countries', countries), 'Gabon: in Middle Africa, capital Libreville, 2.6 million people, speaks French, borders Cameroon, the Congo and Equatorial Guinea.');
+  assert.equal(factFor(gabon, 'capitals', countries), 'Libreville is the capital of Gabon, in Middle Africa, a country of 2.6 million people.');
+  assert.deepEqual([1.42e9, 123.4e6, 2593130, 403123, 9492].map(peopleText), ['1.4 billion', '123 million', '2.6 million', '403,000', '9,492']);
+});
+
+test('every round in every mode and region has a fact naming its answer, with no gaps', () => {
+  const bad = [];
+  for (const mode of ['countries', 'capitals']) {
+    for (const region of ['World', 'Africa', 'Americas', 'Asia', 'Europe', 'Oceania']) {
+      for (const r of buildScrambleRounds(countries, { mode, region, seed: 'f', count: 300 })) {
+        if (!r.fact || /undefined|null|NaN|, [,.]|: \./.test(r.fact) || !r.fact.toLowerCase().includes(r.answer.toLowerCase())) bad.push(`${mode} ${r.answer}: ${r.fact}`);
+      }
+    }
+  }
+  assert.deepEqual(bad.slice(0, 5), []);
 });
 
 if (failures.length) {
