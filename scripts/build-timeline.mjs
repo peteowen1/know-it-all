@@ -32,10 +32,10 @@ for (const [y, list] of Object.entries(films.boxOffice)) {
   add('film', Number(y), `${list[0].title} is the year's top-grossing new film`);
 }
 // Award clues say which year they mean: Oscars are dated by the films' year
-// (the ceremony is the next spring), Emmys by the ceremony. The one
-// exception is the 2023 Emmys, held in January 2024 after the strikes: that
-// clue says so. A playtester
-// answered 2015 for Birdman (ceremony year) and was marked wrong.
+// (the ceremony is the next spring), Emmys by the ceremony. A playtester
+// answered 2015 for Birdman (ceremony year) and was marked wrong. The one
+// Emmy exception is 2023, held in January 2024 after the strikes: that clue
+// says so (EMMY_HELD_LATE below).
 // Before 1934 the awards ran on split seasons (Wings is 1927/28, Cavalcade
 // 1932/33), so those winners have no single right year; they are left out.
 for (const [y, list] of Object.entries(films.bestPicture)) {
