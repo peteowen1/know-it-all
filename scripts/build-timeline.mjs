@@ -40,7 +40,7 @@ for (const [y, list] of Object.entries(films.boxOffice)) {
 // 1932/33), so those winners have no single right year; they are left out.
 for (const [y, list] of Object.entries(films.bestPicture)) {
   if (Number(y) < 1934) continue;
-  add('oscars', Number(y), `${list[0].title} wins Best Picture (films of that year; ceremony the next spring)`);
+  add('oscars', Number(y), `${list[0].title} wins Best Picture (for that year's films)`);
 }
 // A show that won more than once ("The Sopranos", 2004 and 2007) had two right
 // years for one clue. Only its first win is kept (see byText below), so the
