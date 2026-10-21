@@ -30,7 +30,7 @@ const award = (label, years, source, prize) => ({
   }
 });
 
-const EMMY = 'Primetime Emmy Award, via Wikipedia. Years are the ceremony year.';
+const EMMY = 'Primetime Emmy Award, via Wikipedia. Years are the ceremony year, except 2023, whose ceremony was delayed to January 2024.';
 const GLOBE = 'Golden Globe Award, via Wikipedia. Years are the year of television honoured (2010 = the ceremony in January 2011).';
 
 const DOMAIN = {
