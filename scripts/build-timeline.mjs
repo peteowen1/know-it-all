@@ -33,7 +33,9 @@ for (const [y, list] of Object.entries(films.boxOffice)) {
 }
 // Award clues say which year they mean: Oscars are dated by the films' year
 // (the ceremony is the next spring), Emmys by the ceremony. A playtester
-// answered 2015 for Birdman (ceremony year) and was marked wrong.
+// answered 2015 for Birdman (ceremony year) and was marked wrong. The one
+// Emmy exception is 2023, held in January 2024 after the strikes: that clue
+// says so (EMMY_HELD_LATE below).
 // Before 1934 the awards ran on split seasons (Wings is 1927/28, Cavalcade
 // 1932/33), so those winners have no single right year; they are left out.
 for (const [y, list] of Object.entries(films.bestPicture)) {
@@ -43,12 +45,21 @@ for (const [y, list] of Object.entries(films.bestPicture)) {
 // A show that won more than once ("The Sopranos", 2004 and 2007) had two right
 // years for one clue. Only its first win is kept (see byText below), so the
 // clue says "its first".
+// Emmy years whose ceremony fell in a later year: the 75th, moved by the
+// 2023 writers' and actors' strikes to 15 January 2024.
+const EMMY_HELD_LATE = { 2023: 'January 2024' };
 for (const [key, label] of [['emmyDrama', 'Outstanding Drama'], ['emmyComedy', 'Outstanding Comedy']]) {
   const wins = {};
   for (const list of Object.values(tv[key])) wins[list[0].title] = (wins[list[0].title] || 0) + 1;
+  const seen = new Set();
   for (const [y, list] of Object.entries(tv[key])) {
     const t = list[0].title;
-    add('tv', Number(y), `${t} wins ${wins[t] > 1 ? 'its first' : 'the'} Emmy for ${label} Series (ceremony that year)`);
+    // Skipped here as well as by byText: the 2023 wording differs, so a
+    // repeat win that year (Succession) would not match its first.
+    if (seen.has(t)) continue;
+    seen.add(t);
+    const when = EMMY_HELD_LATE[y] ? `the ${y} awards, held ${EMMY_HELD_LATE[y]}` : 'ceremony that year';
+    add('tv', Number(y), `${t} wins ${wins[t] > 1 ? 'its first' : 'the'} Emmy for ${label} Series (${when})`);
   }
 }
 

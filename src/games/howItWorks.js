@@ -67,7 +67,7 @@ export const HOW_IT_WORKS = {
   'tv-years': {
     play: "Fill a year's Emmy or Golden Globe winners and nominees for best drama and comedy series, or take the quiz.",
     score: 'The board scores the share of shows you find.',
-    source: 'Emmy and Golden Globe lists back to the 1950s, via Wikipedia. Emmys are dated by the ceremony year.'
+    source: 'Emmy and Golden Globe lists back to the 1950s, via Wikipedia. Emmys are dated by the ceremony year, except 2023, whose ceremony was delayed to January 2024.'
   },
   vocab: {
     play: 'Pick words that mean the same, the opposite of a word, or the word for a meaning.',

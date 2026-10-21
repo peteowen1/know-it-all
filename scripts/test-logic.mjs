@@ -773,6 +773,15 @@ test('name the year: points fall by two per year out', () => {
   assert.deepEqual([0, 1, 2, 4, 5, 9].map((d) => yearPoints(1990 + d, 1990)), [10, 8, 6, 2, 0, 0]);
   assert.equal(yearPoints('', 1990), 0);
 });
+test('timeline: the 2023 Emmys say they were held in January 2024, and each show wins once', () => {
+  const emmy = TL.filter((e) => /Emmy for/.test(e.text));
+  assert.ok(emmy.length > 70);
+  assert.ok(emmy.some((e) => e.year === 2023));
+  assert.ok(emmy.filter((e) => e.year === 2023).every((e) => /held January 2024/.test(e.text)));
+  assert.ok(emmy.filter((e) => e.year !== 2023).every((e) => /\(ceremony that year\)$/.test(e.text)));
+  const shows = emmy.map((e) => e.text.split(' wins ')[0] + e.text.match(/Outstanding \w+/)[0]);
+  assert.equal(new Set(shows).size, shows.length);
+});
 test('name the year: a second try after a 0, worth half', () => {
   assert.deepEqual([1994, 1995, 2010].map((g) => earnsRetry(g, 1990)), [false, true, true]);
   assert.deepEqual([0, 1, 2, 4].map((d) => roundPoints(1990 + d, 1990, true)), [5, 4, 3, 1]);
