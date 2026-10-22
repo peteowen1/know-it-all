@@ -2,7 +2,7 @@
 // Tests for Odd one out's round building, on the real Obscure-est categories.
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { buildOddRounds, hasSecondTrio, distance, ROUNDS } from '../src/games/oddone/oddLogic.js';
+import { buildOddRounds, hasSecondTrio, distance, ROUNDS, ARGUABLE_REGION } from '../src/games/oddone/oddLogic.js';
 import { normalise } from '../src/games/names/nameMatch.js';
 
 let pass = 0;
@@ -62,6 +62,23 @@ test('the odd one sits close: same continent, or within 15 years of the middle o
     }
   }
   assert.deepEqual(far.slice(0, 5), []);
+});
+
+test('region rounds leave out countries the UN places where many would not (Iran, Harare)', () => {
+  // Each name is spelt as the data has it, or the filter would miss it silently.
+  const regionNames = new Set(categories.filter((c) => /^(in|cap)-/.test(c.id)).flatMap((c) => c.answers.map((a) => a.text)));
+  assert.deepEqual([...ARGUABLE_REGION].filter((n) => !regionNames.has(n)), []);
+  const hits = [];
+  let regionRounds = 0;
+  for (let s = 0; s < 200; s++) {
+    for (const r of buildOddRounds(categories, { seed: `r${s}` })) {
+      if (!/^(in|cap)-/.test(r.id)) continue;
+      regionRounds++;
+      for (const o of r.options) if (ARGUABLE_REGION.has(o)) hits.push(`${r.link}: ${o}`);
+    }
+  }
+  assert.ok(regionRounds > 50, `only ${regionRounds} region rounds`);
+  assert.deepEqual(hits.slice(0, 5), []);
 });
 
 if (failures.length) {

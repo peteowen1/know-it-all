@@ -25,6 +25,23 @@ const SKIP_FAMILIES = new Set(['name']);
 const WELL_KNOWN = 60;
 const wellKnown = (category) => category.answers.filter((a) => a.score <= WELL_KNOWN);
 
+// Countries (and their capitals) that the UN subregions put somewhere many
+// people would not: Iran in Southern Asia (most say the Middle East), Harare
+// in Eastern Africa (most say Southern Africa), Hungary in Eastern Europe
+// (Central). In a region round they could make a second answer right, so
+// region rounds leave them out, as one of the three and as the odd one. The
+// 2026-10-22 count: 230 of 1,270 region rounds in 2,000 games turned on one.
+// Typing games keep them: there an arguable answer is only a missed chance.
+export const ARGUABLE_REGION = new Set([
+  'Iran', 'Tehran', 'Afghanistan', 'Kabul', 'Mexico', 'Mexico City', 'Sudan', 'Khartoum',
+  'Angola', 'Luanda', 'Mozambique', 'Maputo', 'Madagascar', 'Antananarivo', 'Malawi', 'Lilongwe',
+  'Zambia', 'Lusaka', 'Zimbabwe', 'Harare', 'Czechia', 'Prague', 'Hungary', 'Budapest',
+  'Poland', 'Warsaw', 'Austria', 'Vienna', 'Slovenia', 'Ljubljana', 'Croatia', 'Zagreb',
+  'Serbia', 'Belgrade', 'Bosnia and Herzegovina', 'Sarajevo', 'Albania', 'Tirana',
+  'North Macedonia', 'Skopje', 'United Kingdom', 'London', 'Ireland', 'Dublin', 'Azerbaijan', 'Baku',
+]);
+const isRegionRound = (category) => /^(in|cap)-/.test(category.id);
+
 // Every name each category accepts, normalised once: membership is checked
 // against all ~500 categories for every candidate round.
 const memberCache = new WeakMap();
@@ -89,7 +106,9 @@ export function buildOddRounds(categories, { seed = Date.now(), count = ROUNDS }
     if (rounds.length === count) break;
     // No kind twice until every kind has had a turn.
     if (usedKinds.includes(cat.kind) && new Set(usedKinds).size < kinds.size) continue;
-    const pool = wellKnown(cat);
+    const region = isRegionRound(cat);
+    const fair = (a) => !region || !ARGUABLE_REGION.has(a.text);
+    const pool = wellKnown(cat).filter(fair);
     if (pool.length < 3) continue;
     const picks = shuffle(pool, rand).slice(0, 3);
     const three = picks.map((a) => a.text);
@@ -99,7 +118,7 @@ export function buildOddRounds(categories, { seed = Date.now(), count = ROUNDS }
     const candidates = shuffle(usable.filter((c) => c.id !== cat.id && family(c.id) === family(cat.id)), rand)
       .flatMap((sib) =>
         shuffle(wellKnown(sib), rand)
-          .filter((a) => !inCategory(cat, a.text) && !three.some((t) => normalise(t) === normalise(a.text)))
+          .filter((a) => fair(a) && !inCategory(cat, a.text) && !three.some((t) => normalise(t) === normalise(a.text)))
           .map((a) => ({ sib, odd: a.text, steps: distance(picks, a) }))
       )
       .map((c, i) => ({ ...c, i }))
