@@ -500,8 +500,9 @@ console.log(`people kept: ${names.reduce((n, x) => n + x.people.length, 0)}, wit
 if (names.length < 20) throw new Error(`only ${names.length} usable names — a source or the join is broken`);
 
 // Who am I's third clue, for the top 15 of each name (the people it uses):
-// best-known works from the raw files scripts/fetch-famous-works.mjs saves.
-// Run that first for any new top-15 people.
+// best-known works from the raw files scripts/fetch-famous-works.mjs saves,
+// those named in the Wikipedia opening first (scripts/fetch-famous-leads.mjs).
+// Run both first for any new top-15 people.
 const works = loadWorks(RAW);
 let withWorks = 0;
 for (const n of names) {
@@ -514,6 +515,9 @@ console.log(`works clues: ${withWorks} of ${names.reduce((s, n) => s + Math.min(
 // data-raw is not in git: on a machine without the works files every clue
 // would vanish and Who am I would have no rounds. 2,972 on 2026-10-20.
 if (withWorks < 2500) throw new Error(`only ${withWorks} works clues; run node scripts/fetch-famous-works.mjs first`);
+// Without the Wikipedia openings the clues quietly go back to fame order
+// (Laura Prepon in House M.D.). 2,960 on 2026-10-22.
+if (works.lead.size < 2500) throw new Error(`only ${works.lead.size} Wikipedia openings; run node scripts/fetch-famous-leads.mjs first`);
 
 writeData('famous.json', {
   source: `English Wikipedia pageviews ${FAME_FROM} to ${through}, every month, for people in a monthly top 1000, in Wikipedia's vital articles, or with an article titled by the first name`,

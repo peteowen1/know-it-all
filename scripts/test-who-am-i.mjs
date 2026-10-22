@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { buildWhoRounds, guessIsRight, knownFor, whoPoints, ROUNDS } from '../src/games/whoami/whoLogic.js';
 import { normalise } from '../src/games/names/nameMatch.js';
+import { worksClue } from './lib/famousWorks.mjs';
 
 let pass = 0;
 const failures = [];
@@ -85,6 +86,30 @@ test('no first clue is mostly blanks', () => {
     }
   }
   assert.deepEqual(bad.slice(0, 5), []);
+});
+
+test('the works clue puts works the Wikipedia opening names first (Laura Prepon)', () => {
+  const person = { id: 'Q1', name: 'Laura Prepon', description: 'American actress' };
+  const rows = new Map([['Q1', [
+    { prop: 'P161', work: 'Qhouse', links: 90 },
+    { prop: 'P161', work: 'Qhimym', links: 80 },
+    { prop: 'P161', work: 'Q70s', links: 40 },
+    { prop: 'P161', work: 'Qoitnb', links: 30 },
+    { prop: 'P161', work: 'Qseason', links: 20 }
+  ]]]);
+  const labels = new Map([['Qhouse', { label: 'House M.D.', description: '' }], ['Qhimym', { label: 'How I Met Your Mother', description: '' }], ['Q70s', { label: "That '70s Show", description: '' }]]);
+  // Orange Is the New Black has no fetched label: its article title stands in.
+  const titles = new Map([['Qoitnb', 'Orange Is the New Black (TV series)'], ['Qseason', 'Dancing with the Stars season 12']]);
+  assert.equal(worksClue(person, { rows, labels }), 'Starred in House M.D. and How I Met Your Mother');
+  const lead = new Map([['Q1', new Set(['Q70s', 'Qoitnb', 'Qseason'])]]);
+  assert.equal(worksClue(person, { rows, labels, lead, titles }), "Starred in That '70s Show and Orange Is the New Black");
+});
+
+test('club names read plainly, women\'s sides kept as such', () => {
+  const person = { id: 'Q2', name: 'Ellen White', description: 'English footballer' };
+  const rows = new Map([['Q2', [{ prop: 'P54', work: 'Qa', links: 9 }, { prop: 'P54', work: 'Qc', links: 8 }]]]);
+  const labels = new Map([['Qa', { label: 'Arsenal W.F.C.', description: '' }], ['Qc', { label: 'Chelsea F.C. Women', description: '' }]]);
+  assert.equal(worksClue(person, { rows, labels }), 'Played for Arsenal Women and Chelsea Women');
 });
 
 if (failures.length) {
