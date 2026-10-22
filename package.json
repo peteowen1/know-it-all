@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "npm run validate && npm run test && vite build",
     "build:only": "vite build",
-    "validate": "node scripts/build-bank-stats.mjs && node scripts/validate-questions.mjs",
+    "validate": "node scripts/build-bank-stats.mjs && node scripts/build-game-slices.mjs && node scripts/validate-questions.mjs",
     "data:countries": "node scripts/build-countries.mjs",
     "data:famous": "node scripts/build-famous.mjs",
     "data:flags": "node scripts/build-flag-lookalikes.mjs",

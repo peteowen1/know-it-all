@@ -6,7 +6,7 @@ import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import RouteFallback from '../../components/RouteFallback';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
-import { MASK, ROUNDS, RUNGS, buildRung, guessIsRight, knownAnswers, ladderPoints, pickRounds } from './ladderLogic';
+import { MASK, ROUNDS, RUNGS, buildRung, guessIsRight, ladderPoints, pickRounds } from './ladderLogic';
 import './clueladder.css';
 
 /** Clue text with each hidden word drawn as a blank line rather than ▢▢▢. */
@@ -37,20 +37,21 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'clue-ladder');
 
-  // The question bank is large, so it is loaded only when this game opens.
+  // Only the questions that make a ladder, and every answer in the bank for
+  // the typo check (scripts/build-game-slices.mjs): a third of the full bank.
   useEffect(() => {
     let live = true;
-    import('../../data/questionBank.js')
-      .then((m) => live && setBank(m.ALL_QUESTIONS))
+    import('../../data/clueLadder.json')
+      .then((m) => live && setBank(m.default))
       .catch(() => live && setFailed(true));
     return () => {
       live = false;
     };
   }, []);
 
-  const byId = useMemo(() => (bank ? new Map(bank.map((q) => [q.id, q])) : null), [bank]);
+  const byId = useMemo(() => (bank ? new Map(bank.questions.map((q) => [q.id, q])) : null), [bank]);
 
-  const known = useMemo(() => (bank ? knownAnswers(bank) : null), [bank]);
+  const known = useMemo(() => (bank ? new Set(bank.known) : null), [bank]);
 
   // A saved round cannot be played on if a question has left the bank, or was
   // edited so it no longer makes a fair ladder.
@@ -76,7 +77,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
     setGuess('');
-    setGame({ daily, date, rounds: pickRounds(bank, { seed }), index: 0, rung: 1, misses: [], results: [] });
+    setGame({ daily, date, rounds: pickRounds(bank.questions, { seed }), index: 0, rung: 1, misses: [], results: [] });
   };
 
   if (!game) {
