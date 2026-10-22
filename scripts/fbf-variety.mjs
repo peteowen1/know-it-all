@@ -11,6 +11,8 @@
 //   gap      one group swapped for a fill-the-gap group ("Red ___": Herring,
 //            Carpet, Card, Tape), with a famous surname that also fits ("Rose",
 //            a Famous Justin) as its red herring where the data allows
+//   retrap   a trap with a tile no longer in its theme's list (TRAPS) rebuilt
+//            as a new trap: Taylor, Crowe and Bird left the lists on 2026-10-23
 // The 2026-10-19 playtest found every puzzle the same shape: two "Hits by", a
 // "Famous X" and one other, with no traps.
 //
@@ -36,8 +38,8 @@ const FILE = 'src/data/fourbyfour.json';
 const SHARE = 0.25;
 // Days whose puzzle stays as it is: the last month, today and the next two
 // (today in Sydney can be tomorrow in UTC).
-const KEEP_FROM = '2026-09-19';
-const KEEP_TO = '2026-10-23';
+const KEEP_FROM = '2026-09-22';
+const KEEP_TO = '2026-10-26';
 
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const n = data.puzzles.length;
@@ -277,7 +279,67 @@ function addDecoy(p, only = () => true) {
 }
 
 const open = shuffle([...Array(n).keys()].filter((i) => !kept.has(i)), rng);
-const KINDS = process.argv.length > 2 ? process.argv.slice(2) : ['trap', 'hidden', 'decoy', 'gap'];
+const KINDS = process.argv.length > 2 ? process.argv.slice(2) : ['retrap', 'trap', 'hidden', 'decoy', 'gap'];
+
+function untrap(p) {
+  const words = TRAPS[p.trap.theme] || [];
+  for (let attempt = 0; attempt < 40; attempt++) {
+    const used = tiles(p);
+    const trial = {
+      groups: p.groups.map((g) => {
+        const pool = byLabel.get(g.label)?.pool || [];
+        const items = g.items.map((t) => {
+          if (!p.trap.tiles.includes(t)) return t;
+          const x = shuffle(pool, rng).find((y) => !used.has(norm(y)) && !words.includes(norm(y)) && itemFree(y));
+          if (x) used.add(norm(x));
+          return x;
+        });
+        return { ...g, items };
+      })
+    };
+    if (trial.groups.every((g) => g.items.every(Boolean)) && fair(trial)) return trial;
+  }
+  return null;
+}
+
+// First, the traps whose tiles are no longer all their theme: the end screen
+// would call them all something one of them is not.
+const stale = (q) => !q.trap.tiles.every((t) => TRAPS[q.trap.theme]?.includes(norm(t)));
+let retrapped = 0;
+for (const i of KINDS.includes('retrap') ? data.puzzles.keys() : []) {
+  const p = data.puzzles[i];
+  if (!p.trap || !stale(p)) continue;
+  if (kept.has(i)) {
+    console.error(`#${i}: trap ${p.trap.tiles.join(', ')} is on a kept day; fix it by hand or move KEEP_FROM`);
+    process.exit(1);
+  }
+  count(p, -1);
+  // Each try shuffles afresh: few tiles carry a theme, so one try can miss.
+  // A new trap shares at most one group with any other trap: few tiles carry
+  // a theme, and the first try gave #18 and #153 the same Grahams, Alices and Jimmys.
+  const others = data.puzzles.filter((q, j) => j !== i && q.trap && !stale(q)).map((q) => new Set(q.groups.map((g) => g.label)));
+  const fresh = (q) => others.every((s) => q.groups.filter((g) => s.has(g.label)).length <= 1);
+  let next = null;
+  for (let t = 0; t < 40 && !next; t++) {
+    const q = makeTrap();
+    if (q && fresh(q)) next = q;
+  }
+  // Else the same puzzle with no trap: each trap tile swapped for another of
+  // its group's pool, none of the theme, so no three birds are left looking
+  // like a trap. Only four bird surnames are in the
+  // name groups (Swift, Hawk, Finch, Martin), so a second bird trap can't be built.
+  if (!next) next = untrap(p);
+  if (!next) {
+    console.error(`#${i}: no new trap found for ${p.trap.tiles.join(', ')}`);
+    process.exit(1);
+  }
+  count(next, 1);
+  data.puzzles[i] = next;
+  retrapped++;
+  const now = next.trap ? `${next.trap.theme}: ${next.trap.tiles.join(', ')}` : 'no trap';
+  console.log(`  retrap #${i}: ${p.trap.tiles.join(', ')} -> ${now} in ${next.groups.map((g) => `${g.label} (${g.items.join(', ')})`).join(' / ')}`);
+}
+if (KINDS.includes('retrap')) console.log(`traps rebuilt: ${retrapped}`);
 // A gap group gives itself away once seen, so fewer of them: about one in eight
 // (one in twelve until the phrase list doubled, 2026-10-20).
 const targets = { trap: Math.round(n * SHARE), hidden: Math.round(n * SHARE), decoy: Math.round(n * SHARE), gap: Math.round(n / 8) };
@@ -349,7 +411,7 @@ for (const p of data.puzzles) {
 
 const unfair = data.puzzles.map((p, i) => [i, p]).filter(([, p]) => !fair(p)).map(([i]) => i);
 console.log(`${n} puzzles, ${kept.size} kept for recent and coming days; targets ${JSON.stringify(targets)}`);
-for (const k of KINDS) console.log(`  ${k}: ${before[k]} already, ${done[k] - before[k]} added, no fit found ${misses[k]} times`);
+for (const k of KINDS.filter((x) => x in done)) console.log(`  ${k}: ${before[k]} already, ${done[k] - before[k]} added, no fit found ${misses[k]} times`);
 for (const p of data.puzzles.filter((x) => kindOf(x) === 'gap').slice(0, 8)) {
   const g = p.groups.find((x) => byLabel.get(x.label)?.type === 'gap');
   console.log(`  gap ${g.label}: ${g.items.join(', ')}${p.decoy ? ` (red herring ${p.decoy.tile})` : ''}`);
