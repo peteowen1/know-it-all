@@ -340,6 +340,65 @@ for (const i of KINDS.includes('retrap') ? data.puzzles.keys() : []) {
   console.log(`  retrap #${i}: ${p.trap.tiles.join(', ')} -> ${now} in ${next.groups.map((g) => `${g.label} (${g.items.join(', ')})`).join(' / ')}`);
 }
 if (KINDS.includes('retrap')) console.log(`traps rebuilt: ${retrapped}`);
+
+// Then the lopsided puzzles: one field (music, film, names...) filling three
+// or four of the four groups. 39 of 243 did on 2026-10-23, 8 of them all
+// "Famous X". One group of the crowded field goes, for a group from a field
+// the puzzle lacks, unused groups first. Trick groups and a red herring's two
+// groups stay, and so does any trap puzzle.
+const FIELD = {
+  artist: 'music', 'number-ones': 'music', 'wordplay-music': 'music', 'hidden-music': 'music',
+  director: 'film', 'best-picture': 'film', 'wordplay-film': 'film', 'hidden-film': 'film',
+  network: 'tv', 'first-name': 'names', capitals: 'geo', borders: 'geo', landlocked: 'geo', 'hidden-geo': 'geo',
+  gap: 'words', wordplay: 'words', 'wordplay-hidden': 'words'
+};
+const PLAIN = new Set(['artist', 'number-ones', 'director', 'best-picture', 'network', 'first-name', 'capitals', 'borders']);
+const RANK = ['geo', 'words', 'tv', 'film', 'names', 'music'];
+const fieldOf = (g) => FIELD[byLabel.get(g.label)?.type];
+const crowded = (p) => {
+  const c = {};
+  for (const g of p.groups) c[fieldOf(g)] = (c[fieldOf(g)] || 0) + 1;
+  return Object.entries(c).find(([, k]) => k >= 3)?.[0] || null;
+};
+function spread(p) {
+  const field = crowded(p);
+  const have = new Set(p.groups.map(fieldOf));
+  const out = shuffle(p.groups.filter((g) => fieldOf(g) === field && PLAIN.has(byLabel.get(g.label).type) && g.label !== p.decoy?.also && !g.items.includes(p.decoy?.tile)), rng);
+  const unused = (g) => !labelUse.get(g.label);
+  // The rarer fields first (geography, wordplay, TV), then unused groups:
+  // unused groups are mostly "Famous X", the field least short of puzzles.
+  // Not a gap group: they stay about one puzzle in eight (see targets).
+  const ins = shuffle(groups.filter((g) => g.type !== 'gap' && !have.has(FIELD[g.type]) && labelFree(g.label)), rng)
+    .sort((a, b) => RANK.indexOf(FIELD[a.type]) - RANK.indexOf(FIELD[b.type]) || unused(b) - unused(a));
+  for (const h of ins) {
+    for (const old of out) {
+      const rest = tiles({ groups: p.groups.filter((g) => g !== old) });
+      const items = shuffle(h.pool.filter((t) => !rest.has(norm(t)) && itemFree(t)), rng).slice(0, 4);
+      if (items.length < 4) continue;
+      const trial = { ...p, groups: p.groups.map((g) => (g === old ? { label: h.label, level: h.level, items } : g)) };
+      if (fair(trial)) return trial;
+    }
+  }
+  return null;
+}
+let spreadOut = 0;
+for (const i of KINDS.includes('spread') ? data.puzzles.keys() : []) {
+  const p = data.puzzles[i];
+  if (p.trap || !crowded(p)) continue;
+  if (kept.has(i)) continue;
+  const next = spread(p);
+  if (!next) {
+    console.log(`  spread #${i}: no swap found (${p.groups.map((g) => g.label).join(' / ')})`);
+    continue;
+  }
+  count(p, -1);
+  count(next, 1);
+  sortLevels(next);
+  data.puzzles[i] = next;
+  spreadOut++;
+  console.log(`  spread #${i}: ${p.groups.map((g) => g.label).join(' / ')} -> ${next.groups.map((g) => g.label).join(' / ')}`);
+}
+if (KINDS.includes('spread')) console.log(`lopsided puzzles spread out: ${spreadOut}`);
 // A gap group gives itself away once seen, so fewer of them: about one in eight
 // (one in twelve until the phrase list doubled, 2026-10-20).
 const targets = { trap: Math.round(n * SHARE), hidden: Math.round(n * SHARE), decoy: Math.round(n * SHARE), gap: Math.round(n / 8) };
