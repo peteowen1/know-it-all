@@ -25,6 +25,9 @@ const NOTABLE = { prop: 'P800', verb: 'Known for' };
 // "Played for Davidson".
 const DULL = /\b(documentary|concert film|under-\d+|U-?\d\d|youth|reserves?|academy|men's basketball|college|university)\b/i;
 const NATIONAL_SIDE = /\bnational\b.*\bteam\b/i;
+// Article titles stand in for some labels (see worksClue), and an opening can
+// link a season or a franchise page: "Squid Game, season 2", "Spider-Man in film".
+const NOT_A_WORK = /\bseason \d+\b|\bin film$/i;
 
 // Works Wikidata credits wrongly, by person id, each checked by hand. Kyle
 // Kuzma never played for Guangdong (his teams are the Lakers, Wizards and
@@ -50,7 +53,37 @@ export function loadWorks(root) {
       if (e.labels?.en) labels.set(id, { label: e.labels.en.value, description: e.descriptions?.en?.value || '' });
     }
   }
-  return { rows, labels };
+  return { rows, labels, ...loadLeads(root) };
+}
+
+/**
+ * What each person's Wikipedia opening links to, as Wikidata ids, from the raw
+ * files scripts/fetch-famous-leads.mjs saves: lead (person id -> Set of work
+ * ids) and titles (work id -> article title, the label for a work whose
+ * Wikidata label was never fetched). Empty when the files are missing.
+ */
+function loadLeads(root) {
+  const lead = new Map();
+  const titles = new Map();
+  if (!existsSync(`${root}/leads`) || !existsSync(`${root}/leads-qids`)) return { lead, titles };
+  // Asked title -> the article it lands on, then article -> Wikidata id.
+  const to = new Map();
+  const qid = new Map();
+  for (const f of readdirSync(`${root}/leads-qids`).sort()) {
+    const q = JSON.parse(readFileSync(`${root}/leads-qids/${f}`, 'utf8')).response.query || {};
+    for (const r of [...(q.normalized || []), ...(q.redirects || [])]) to.set(r.from, r.to);
+    for (const p of q.pages || []) if (p.pageprops?.wikibase_item) qid.set(p.title, p.pageprops.wikibase_item);
+  }
+  const idOf = (t) => {
+    for (let i = 0; i < 3 && to.has(t); i++) t = to.get(t);
+    return qid.get(t);
+  };
+  for (const [t, id] of qid) titles.set(id, t);
+  for (const f of readdirSync(`${root}/leads`)) {
+    const links = JSON.parse(readFileSync(`${root}/leads/${f}`, 'utf8')).parse?.links || [];
+    lead.set(f.replace(/\.json$/, ''), new Set(links.filter((l) => l.ns === 0).map((l) => idOf(l.title)).filter(Boolean)));
+  }
+  return { lead, titles };
 }
 
 const words = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').split(/[^a-z0-9]+/).filter((w) => w.length > 2);
@@ -65,13 +98,22 @@ export const leaksName = (title, nameWords) =>
 
 /**
  * "Starred in Titanic and Inception", or null when nothing fits. The two
- * best-known works (by Wikipedia sitelinks) of the kind the description
- * points to, else of the person's notable works. A work whose title holds
- * any word of the person's name ("Taylor Swift", the album) is skipped: it
- * would give the answer away.
+ * best-known works of the kind the description points to, else of the
+ * person's notable works. Works their Wikipedia opening names come first,
+ * then the rest by Wikipedia sitelinks: by sitelinks alone Laura Prepon
+ * "Starred in House M.D. and How I Met Your Mother", guest spots in shows
+ * more famous than That '70s Show (373 of 2,960 clues on 2026-10-22). A work
+ * whose title holds any word of the person's name ("Taylor Swift", the album)
+ * is skipped: it would give the answer away.
  */
-export function worksClue(person, { rows, labels }) {
+export function worksClue(person, { rows, labels, lead = new Map(), titles = new Map() }) {
   const own = rows.get(person.id) || [];
+  const inLead = lead.get(person.id) || new Set();
+  // A work the opening names may have no fetched label (only each person's
+  // four most famous per kind were): its article title stands in, without
+  // the "(2016 film)" part.
+  const label = (id) =>
+    labels.get(id) || (inLead.has(id) && titles.has(id) ? { label: titles.get(id).replace(/\s+\([^)]*\)$/, ''), description: '' } : null);
   const nameWords = new Set(words(person.name));
   const desc = person.description || '';
   const kinds = KINDS.map((k) => ({ k, at: desc.search(k.words) }))
@@ -81,12 +123,18 @@ export function worksClue(person, { rows, labels }) {
   for (const kind of [...kinds, NOTABLE]) {
     const seen = new Set();
     const titles = own
-      .filter((r) => r.prop === kind.prop && labels.has(r.work) && !WRONG[person.id]?.includes(r.work))
-      .sort((a, b) => b.links - a.links)
-      .map((r) => labels.get(r.work))
-      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords))
-      // "Fulham F.C." reads as "Fulham" in a clue, "FC Barcelona" as "Barcelona".
-      .map((w) => w.label.replace(/\s+(A\.?F\.?C\.?|F\.?C\.?|C\.?F\.?|S\.?C\.?)$/, '').replace(/^F\.?C\.?\s+/, ''))
+      .filter((r) => r.prop === kind.prop && label(r.work) && !WRONG[person.id]?.includes(r.work))
+      .sort((a, b) => inLead.has(b.work) - inLead.has(a.work) || b.links - a.links)
+      .map((r) => label(r.work))
+      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !NOT_A_WORK.test(w.label) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords))
+      // "Fulham F.C." reads as "Fulham" in a clue, "FC Barcelona" as "Barcelona",
+      // "Arsenal W.F.C." and "Chelsea F.C. Women" as "Arsenal Women", "Chelsea Women".
+      .map((w) =>
+        w.label
+          .replace(/\s+(W\.?F\.?C\.?|F\.?C\.?\s+Women)$/, ' Women')
+          .replace(/\s+(A\.?F\.?C\.?|F\.?C\.?|C\.?F\.?|S\.?C\.?)$/, '')
+          .replace(/^F\.?C\.?\s+/, '')
+      )
       .filter((t) => !seen.has(t) && seen.add(t))
       .slice(0, 2);
     if (titles.length) return `${kind.verb} ${titles.join(' and ')}`;

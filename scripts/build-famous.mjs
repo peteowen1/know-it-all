@@ -500,8 +500,9 @@ console.log(`people kept: ${names.reduce((n, x) => n + x.people.length, 0)}, wit
 if (names.length < 20) throw new Error(`only ${names.length} usable names — a source or the join is broken`);
 
 // Who am I's third clue, for the top 15 of each name (the people it uses):
-// best-known works from the raw files scripts/fetch-famous-works.mjs saves.
-// Run that first for any new top-15 people.
+// best-known works from the raw files scripts/fetch-famous-works.mjs saves,
+// those named in the Wikipedia opening first (scripts/fetch-famous-leads.mjs).
+// Run both first for any new top-15 people.
 const works = loadWorks(RAW);
 let withWorks = 0;
 for (const n of names) {
