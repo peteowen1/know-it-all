@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import data from '../../data/famous.json';
+// Each first name's top 15 only (scripts/build-game-slices.mjs).
+import data from '../../data/whoAmI.json';
 import { buildWhoRounds, guessIsRight, whoPoints, yearText, ROUNDS, RUNGS } from './whoLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
