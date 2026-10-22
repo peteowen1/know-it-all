@@ -26,7 +26,9 @@ async function get(url, tries = 4) {
   for (let attempt = 1; ; attempt++) {
     const res = await fetch(url, { headers: { 'User-Agent': UA } });
     const text = await res.text();
-    if (res.ok && text.trimStart().startsWith('{')) return text;
+    // The API answers some failures (missingtitle, maxlag) with a 200 and an
+    // "error" key; saved, they would be skipped as done on every rerun.
+    if (res.ok && text.trimStart().startsWith('{') && !('error' in JSON.parse(text))) return text;
     if (attempt === tries) throw new Error(`${res.status} after ${attempt} tries: ${text.slice(0, 200)}`);
     console.warn(`  ${res.status}, retrying: ${text.slice(0, 80)}`);
     await sleep(5000 * attempt);

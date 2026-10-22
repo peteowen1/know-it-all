@@ -112,8 +112,14 @@ export function worksClue(person, { rows, labels, lead = new Map(), titles = new
   // A work the opening names may have no fetched label (only each person's
   // four most famous per kind were): its article title stands in, without
   // the "(2016 film)" part.
-  const label = (id) =>
-    labels.get(id) || (inLead.has(id) && titles.has(id) ? { label: titles.get(id).replace(/\s+\([^)]*\)$/, ''), description: '' } : null);
+  // The full title is checked before its "(…)" goes. A franchise stays: "Back
+  // to the Future (franchise)" is the clue Michael J. Fox needs.
+  const label = (id) => {
+    if (labels.has(id)) return labels.get(id);
+    const t = inLead.has(id) && titles.get(id);
+    if (!t || NOT_A_WORK.test(t)) return null;
+    return { label: t.replace(/\s+\([^)]*\)$/, ''), description: '' };
+  };
   const nameWords = new Set(words(person.name));
   const desc = person.description || '';
   const kinds = KINDS.map((k) => ({ k, at: desc.search(k.words) }))
