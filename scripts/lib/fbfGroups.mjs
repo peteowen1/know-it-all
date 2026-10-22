@@ -372,10 +372,12 @@ export const GAP_HERRINGS = new Set([
 // Traps: four tiles from four different groups that look like a fifth group
 // and are not one (Black, White, Green and Brown as Famous Jacks, Bettys, Evas
 // and Gordons). The label is never a group, so the four can't be submitted.
+// The end screen says the four "are all birds", so each word must be one as
+// spelt: not Crowe, Taylor (a tailor) or Bird (playtest 2026-10-20).
 export const TRAPS = {
   colours: ['black', 'white', 'green', 'brown', 'grey', 'gray', 'pink', 'rose', 'blue', 'gold', 'silver'],
-  birds: ['swift', 'crowe', 'crow', 'hawk', 'bird', 'finch', 'robin', 'wren', 'swan', 'drake', 'crane', 'jay', 'starling', 'sparrow', 'parrot', 'nightingale', 'martin'],
-  jobs: ['cooper', 'smith', 'taylor', 'baker', 'butler', 'carpenter', 'mason', 'turner', 'fisher', 'hunter', 'miller', 'porter', 'cook', 'potter', 'archer', 'weaver', 'shepherd', 'thatcher', 'sawyer', 'barber']
+  birds: ['swift', 'crow', 'hawk', 'finch', 'robin', 'wren', 'swan', 'drake', 'crane', 'jay', 'starling', 'sparrow', 'parrot', 'nightingale', 'martin'],
+  jobs: ['cooper', 'smith', 'baker', 'butler', 'carpenter', 'mason', 'turner', 'fisher', 'hunter', 'miller', 'porter', 'cook', 'potter', 'archer', 'weaver', 'shepherd', 'thatcher', 'sawyer', 'barber']
 };
 
 /**
