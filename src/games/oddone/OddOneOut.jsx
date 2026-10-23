@@ -1,5 +1,6 @@
 import React from 'react';
-import data from '../../data/obscure.json';
+// Only what the rounds use; see scripts/build-game-slices.mjs.
+import data from '../../data/oddOne.json';
 import { buildOddRounds, ROUNDS } from './oddLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
