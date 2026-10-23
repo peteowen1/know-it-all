@@ -12,17 +12,17 @@ export const ROUNDS = 5;
 // one comes from a sibling of the same kind, so it looks like it belongs.
 // Country categories count as one family (a landlocked round can take its odd
 // one from "A country in Western Africa"); capitals stay apart, being cities.
-const family = (id) => {
+export const family = (id) => {
   const f = id.split('-')[0];
   return f === 'borders' || f === 'in' || f === 'landlocked' ? 'country' : f;
 };
 
 // "A famous Tom" shows full names, so the odd one would be plain to see.
-const SKIP_FAMILIES = new Set(['name']);
+export const SKIP_FAMILIES = new Set(['name']);
 
 // Only well-known answers (score 1 is the most obvious, 100 the deepest cut),
 // so the round is about spotting the link, not knowing an obscure B-side.
-const WELL_KNOWN = 60;
+export const WELL_KNOWN = 60;
 const wellKnown = (category) => category.answers.filter((a) => a.score <= WELL_KNOWN);
 
 // Countries (and their capitals) that the UN subregions put somewhere many

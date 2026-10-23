@@ -12,7 +12,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { computeBankStats } from './build-bank-stats.mjs';
-import { computeClueLadder, computeWhoAmI, bankQuestions } from './build-game-slices.mjs';
+import { computeClueLadder, computeWhoAmI, computeOddOne, bankQuestions } from './build-game-slices.mjs';
+import { buildOddRounds } from '../src/games/oddone/oddLogic.js';
 import { pickRounds, knownAnswers } from '../src/games/clueladder/ladderLogic.js';
 import { buildWhoRounds } from '../src/games/whoami/whoLogic.js';
 import { STORAGE_PREFIX, storageKey, getStored, setStored, removeStored, clearAllStored, onDirty } from '../src/lib/storage.js';
@@ -59,9 +60,10 @@ const stats = JSON.parse(read('../src/data/bankStats.json'));
 test('bankStats.json matches the question files', () => {
   assert.deepEqual(stats, computeBankStats(), 'bankStats.json is stale: run npm run data:bankstats');
 });
-test('clueLadder.json and whoAmI.json match their sources (run npm run validate)', () => {
+test('clueLadder.json, whoAmI.json and oddOne.json match their sources (run npm run validate)', () => {
   assert.deepEqual(JSON.parse(read('../src/data/clueLadder.json')), computeClueLadder(), 'clueLadder.json is stale');
   assert.deepEqual(JSON.parse(read('../src/data/whoAmI.json')), computeWhoAmI(), 'whoAmI.json is stale');
+  assert.deepEqual(JSON.parse(read('../src/data/oddOne.json')), computeOddOne(), 'oddOne.json is stale');
 });
 test('the small files deal the same rounds as the full data, so no day changes', () => {
   const all = bankQuestions();
@@ -70,10 +72,14 @@ test('the small files deal the same rounds as the full data, so no day changes',
   assert.deepEqual(new Set(ladder.known), knownAnswers(all));
   const famous = JSON.parse(read('../src/data/famous.json')).names;
   const who = JSON.parse(read('../src/data/whoAmI.json')).names;
+  const obscure = JSON.parse(read('../src/data/obscure.json')).categories;
+  const odd = JSON.parse(read('../src/data/oddOne.json')).categories;
+  assert.ok(odd.length > 400 && odd.length < obscure.length, `${odd.length} of ${obscure.length} categories`);
   for (let d = 1; d <= 60; d++) {
     const seed = `2026-11-${String(d).padStart(2, '0')}`;
     assert.deepEqual(pickRounds(ladder.questions, { seed }), pickRounds(all, { seed }), `ladder ${seed}`);
     assert.deepEqual(buildWhoRounds(who, { seed }), buildWhoRounds(famous, { seed }), `who ${seed}`);
+    assert.deepEqual(buildOddRounds(odd, { seed }), buildOddRounds(obscure, { seed }), `odd one out ${seed}`);
   }
 });
 test('bankStats totals add up', () => {
