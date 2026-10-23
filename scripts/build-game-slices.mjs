@@ -93,7 +93,9 @@ export function computeOddOne() {
             return { text: a.text, score: a.score, ...(accept.length && { accept }), ...(a.year && { year: a.year }), ...(a.region && { region: a.region }) };
           })
       }))
-      .filter((c) => c.answers.length)
+      // A played category stays even when empty: dropping it would change
+      // the shuffle, and so every round.
+      .filter((c) => plays(c) || c.answers.length)
   };
 }
 
