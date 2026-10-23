@@ -24,7 +24,11 @@ const NOTABLE = { prop: 'P800', verb: 'Known for' };
 // Association team" dropped the Golden State Warriors, leaving Stephen Curry
 // "Played for Davidson".
 const DULL = /\b(documentary|concert film|under-\d+|U-?\d\d|youth|reserves?|academy|men's basketball|college|university)\b/i;
-const NATIONAL_SIDE = /\bnational\b.*\bteam\b/i;
+// Never a slur on screen, title or not: Dick Gregory's autobiography, Bobby
+// Shmurda's "Hot Nigga" (2026-10-23).
+const SLUR = /\bnigg/i;
+// Tennis sides are national too: "Czechoslovakia Davis Cup team" for Ivan Lendl.
+const NATIONAL_SIDE = /\bnational\b.*\bteam\b|\b(Davis Cup|Billie Jean King Cup|Fed Cup|Hopman Cup)\b/i;
 // Article titles stand in for some labels (see worksClue), and an opening can
 // link a season or a franchise page: "Squid Game, season 2", "Spider-Man in film".
 const NOT_A_WORK = /\bseason \d+\b|\bin film$/i;
@@ -126,13 +130,22 @@ export function worksClue(person, { rows, labels, lead = new Map(), titles = new
     .filter((x) => x.at >= 0)
     .sort((a, b) => a.at - b.at)
     .map((x) => x.k);
+  // With the opening fetched, a kind whose works it names none of is passed
+  // over: by sitelinks alone Karen Carpenter "Recorded Looking for Love" and
+  // Francis Crick was "Known for Life Itself" (330 of 2,960 clues, 2026-10-23).
+  const checked = lead.has(person.id);
   for (const kind of [...kinds, NOTABLE]) {
     const seen = new Set();
-    const titles = own
+    const fits = own
       .filter((r) => r.prop === kind.prop && label(r.work) && !WRONG[person.id]?.includes(r.work))
-      .sort((a, b) => inLead.has(b.work) - inLead.has(a.work) || b.links - a.links)
+      .filter((r) => {
+        const w = label(r.work);
+        return !DULL.test(`${w.label} ${w.description}`) && !SLUR.test(w.label) && !NOT_A_WORK.test(w.label) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords);
+      })
+      .sort((a, b) => inLead.has(b.work) - inLead.has(a.work) || b.links - a.links);
+    if (checked && !fits.some((r) => inLead.has(r.work))) continue;
+    const titles = fits
       .map((r) => label(r.work))
-      .filter((w) => !DULL.test(`${w.label} ${w.description}`) && !NOT_A_WORK.test(w.label) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords))
       // "Fulham F.C." reads as "Fulham" in a clue, "FC Barcelona" as "Barcelona",
       // "Arsenal W.F.C." and "Chelsea F.C. Women" as "Arsenal Women", "Chelsea Women".
       .map((w) =>

@@ -112,6 +112,20 @@ test('club names read plainly, women\'s sides kept as such', () => {
   assert.equal(worksClue(person, { rows, labels }), 'Played for Arsenal Women and Chelsea Women');
 });
 
+test('no works clue the Wikipedia opening backs none of, no national tennis side, no slur', () => {
+  const person = { id: 'Q3', name: 'Karen Carpenter', description: 'American singer' };
+  const rows = new Map([['Q3', [{ prop: 'P175', work: 'Qs', links: 9 }]]]);
+  const labels = new Map([['Qs', { label: 'Looking for Love', description: '' }]]);
+  assert.equal(worksClue(person, { rows, labels }), 'Recorded Looking for Love');
+  assert.equal(worksClue(person, { rows, labels, lead: new Map([['Q3', new Set()]]) }), null);
+  const tennis = { id: 'Q4', name: 'Ivan Lendl', description: 'tennis player' };
+  const tRows = new Map([['Q4', [{ prop: 'P800', work: 'Qd', links: 9 }]]]);
+  assert.equal(worksClue(tennis, { rows: tRows, labels: new Map([['Qd', { label: 'Czechoslovakia Davis Cup team', description: '' }]]) }), null);
+  const writer = { id: 'Q5', name: 'Dick Gregory', description: 'American writer' };
+  const wRows = new Map([['Q5', [{ prop: 'P50', work: 'Qb', links: 9 }]]]);
+  assert.equal(worksClue(writer, { rows: wRows, labels: new Map([['Qb', { label: 'Nigger', description: '' }]]) }), null);
+});
+
 if (failures.length) {
   console.error(`${failures.length} failed, ${pass} passed\n  ${failures.join('\n  ')}`);
   process.exit(1);
