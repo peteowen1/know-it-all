@@ -861,9 +861,13 @@ test('obscure: St, Dr, a leading The and half a two-place country all score', ()
   assert.equal(scoreGuess(cat('films-David Lean'), 'Dr Zhivago').answer?.text, 'Doctor Zhivago');
   assert.equal(scoreGuess(carib, 'Hong Kong').score, 0);
 });
-test('obscure: an artist charted under two capitalisations is one category (The Weeknd)', () => {
-  const prompts = OBS.map((c) => c.prompt.toLowerCase());
+test('obscure: an artist charted two ways is one category (The Weeknd, The Four Tops)', () => {
+  const prompts = OBS.map((c) => c.prompt.toLowerCase().replace(/\bby the /, 'by '));
   assert.equal(new Set(prompts).size, prompts.length);
+  // Credited "Four Tops" in the 1960s: their #1s rank first, not as deep cuts.
+  const tops = OBS.find((c) => c.id === 'songs-Four Tops');
+  assert.ok(scoreGuess(tops, "Reach Out I'll Be There").score < scoreGuess(tops, 'Still Water (Love)').score);
+  assert.ok(scoreGuess(tops, 'Baby I Need Your Loving').score > 0);
 });
 test('obscure: a shared name keeps the more famous rarity (Anne Hathaway)', () => {
   // Two Anne Hathaways: the actress and Shakespeare's wife. Last-write-wins
