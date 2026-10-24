@@ -34,13 +34,17 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   unless Wikidata lists the work among their notable works (#80). Band members
   get their band's works when the opening links the band, released in their
   years and not covers (`scripts/fetch-famous-bands.mjs`): Marc Bolan "Recorded
-  Electric Warrior and Hot Love". Known misses: Dave Mustaine gets Kill 'Em All
-  (fired months before it, same year); some actors still get a late-career
-  film second (Sally Field: Forrest Gump and The Amazing Spider-Man). Raw data
-  is `data-raw/famous/works-v2`, `bands/` and `leads/`. New top-15 people:
-  `npm run data:famous`, then `node scripts/fetch-famous-works.mjs`,
-  `node scripts/fetch-famous-bands.mjs` and `node scripts/fetch-famous-leads.mjs`,
-  then `npm run data:famous` again.
+  Electric Warrior and Hot Love". The second work is one they won a major
+  award for, if any (`scripts/fetch-famous-awards.mjs`; 15+ sitelinks, no
+  Razzies or fan votes): Diane Keaton "The Godfather and Annie Hall". Known
+  misses: Dave Mustaine gets Kill 'Em All (fired months before it); about 15
+  of the 243 award picks are weaker (Gene Kelly: Invitation to the Dance, not
+  Singin' in the Rain); Wikidata ties Sally Field's Oscars to no film, so she
+  gets Brothers & Sisters. Raw data is `data-raw/famous/works-v2`, `bands/`,
+  `awards/` and `leads/`. New top-15 people: `npm run data:famous`, then
+  `node scripts/fetch-famous-works.mjs`, `fetch-famous-bands.mjs`,
+  `fetch-famous-awards.mjs` and `fetch-famous-leads.mjs`, then
+  `npm run data:famous` again.
 
 - OPEN **Download sizes**: three games load a small file of their own, built by
   `scripts/build-game-slices.mjs` (#73, #78), and Google's sign-in script waits
