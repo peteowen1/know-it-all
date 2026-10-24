@@ -43,18 +43,19 @@ for (const dir of ['entities', 'entities-prefix', 'entities-vital']) {
 }
 
 const month = (ts) => `${ts.slice(0, 4)}-${ts.slice(4, 6)}`;
-let from = null;
+// The month every pageview file starts (scripts/build-famous.mjs FAME_FROM).
+const from = process.env.FAME_FROM || '2016-01';
 const out = [];
 for (const [id, p] of people) {
   const file = `${RAW}/pageviews/${fileSafe(titles.get(id) || '')}.json.gz`;
   if (!titles.has(id) || !existsSync(file)) continue;
   const items = JSON.parse(gunzipSync(readFileSync(file))).items;
   if (items.length < MIN_MONTHS) continue;
-  from ??= month(items[0].timestamp);
   // Every curve starts in the same month: an article younger than the window
   // is padded with zeros at the front.
   const lead = (+items[0].timestamp.slice(0, 4) - +from.slice(0, 4)) * 12 + (+items[0].timestamp.slice(4, 6) - +from.slice(5, 7));
-  const views = [...Array(Math.max(0, lead)).fill(0), ...items.map((i) => i.views)];
+  if (lead < 0) throw new Error(`${titles.get(id)} starts ${month(items[0].timestamp)}, before ${from}`);
+  const views = [...Array(lead).fill(0), ...items.map((i) => i.views)];
   const sorted = [...views].sort((a, b) => a - b);
   const top = sorted.at(-1);
   if (top < PEAK * Math.max(1, sorted[Math.floor(sorted.length / 2)])) continue;
@@ -65,7 +66,7 @@ for (const [id, p] of people) {
     // "British monarch (1926–2022)" -> "British monarch"
     what: p.description.replace(/\s*\([^)]*\)\s*$/, ''),
     ...(died && { died: +died }),
-    peak: month(items[views.indexOf(top) - Math.max(0, lead)].timestamp),
+    peak: month(items[views.indexOf(top) - lead].timestamp),
     s: views.map((v) => Math.round((99 * v) / top))
   });
 }
