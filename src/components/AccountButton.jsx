@@ -53,6 +53,7 @@ export default function AccountButton({ onReset }) {
     if (!signedOut) rendered.current = false;
     if (!signedOut || !open || rendered.current || !GOOGLE_CLIENT_ID) return;
     let cancelled = false;
+    setError(null);
     loadGis()
       .then((google) => {
         if (cancelled || !buttonRef.current) return;
