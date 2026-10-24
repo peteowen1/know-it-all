@@ -27,6 +27,17 @@ test('every curve is full length, scaled to 99 at its peak month', () => {
   }
 });
 
+test('reasons are short and only on the month they explain', () => {
+  const reasons = JSON.parse(readFileSync(new URL('./curve-reasons.json', import.meta.url), 'utf8'));
+  const byId = new Map(data.people.map((p) => [p.id, p]));
+  for (const r of reasons) {
+    assert.ok(r.why.split(' ').length <= 8, `${r.name}: ${r.why}`);
+    const p = byId.get(r.id);
+    if (p) assert.equal(p.why, p.peak === r.peak ? r.why : undefined, r.name);
+  }
+  assert.ok(data.people.filter((p) => p.why).length >= 200);
+});
+
 test('a full game, the same for the same seed', () => {
   const a = buildCurveRounds(data.people, { seed: 'x' });
   assert.equal(a.length, ROUNDS);
@@ -54,6 +65,7 @@ test('the reveal names the peak month, and a death only in the peak year', () =>
   assert.equal(peakNote({ peak: '2022-09', died: 2022 }), 'Peak September 2022 (died 2022)');
   assert.equal(peakNote({ peak: '2022-09', died: 2019 }), 'Peak September 2022');
   assert.equal(peakNote({ peak: '2022-09' }), 'Peak September 2022');
+  assert.equal(peakNote({ peak: '2022-09', died: 2022, why: 'Died aged 96' }), 'Peak September 2022: Died aged 96');
 });
 
 if (failures.length) {
