@@ -28,16 +28,19 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Check
 
-- OPEN **Who am I works clues**: 2,673 of 4,455 top-15 people have one
+- OPEN **Who am I works clues**: 2,779 of 4,455 top-15 people have one
   (2026-10-24); the answer is always one of them. Works the person's Wikipedia
   opening links come first (#72); a kind it backs none of is passed over (#76)
-  unless Wikidata lists the work among their notable works (#80). Singers in
-  bands lose out: Marc Bolan has no clue, as Wikidata credits the hits to
-  T. Rex. Some actors still get a late-career film second (Sally Field:
-  Forrest Gump and The Amazing Spider-Man). Raw data is
-  `data-raw/famous/works-v2` (every statement, not only the best-ranked). New
-  top-15 people: `npm run data:famous`, then
-  `node scripts/fetch-famous-works.mjs`, then `npm run data:famous` again.
+  unless Wikidata lists the work among their notable works (#80). Band members
+  get their band's works when the opening links the band, released in their
+  years and not covers (`scripts/fetch-famous-bands.mjs`): Marc Bolan "Recorded
+  Electric Warrior and Hot Love". Known misses: Dave Mustaine gets Kill 'Em All
+  (fired months before it, same year); some actors still get a late-career
+  film second (Sally Field: Forrest Gump and The Amazing Spider-Man). Raw data
+  is `data-raw/famous/works-v2`, `bands/` and `leads/`. New top-15 people:
+  `npm run data:famous`, then `node scripts/fetch-famous-works.mjs`,
+  `node scripts/fetch-famous-bands.mjs` and `node scripts/fetch-famous-leads.mjs`,
+  then `npm run data:famous` again.
 
 - OPEN **Download sizes**: three games load a small file of their own, built by
   `scripts/build-game-slices.mjs` (#73, #78), and Google's sign-in script waits

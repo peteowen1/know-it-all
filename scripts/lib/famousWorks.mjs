@@ -7,9 +7,12 @@ import { readdirSync, readFileSync, existsSync } from 'node:fs';
 // Which kind of work to name, from the first job word in the person's short
 // description ("American actor and singer" is an actor first). Each kind has
 // its verb; notable works (P800) are the fallback for everyone.
+// Band members count as musicians: Roger Taylor and Eddie Van Halen are a
+// drummer and a guitarist (2026-10-24).
+export const MUSICIAN = /\b(singer|rapper|musician|songwriter|vocalist|singer-songwriter|DJ|guitarist|drummer|bassist|keyboardist|frontman)\b/;
 const KINDS = [
   { prop: 'P161', verb: 'Starred in', words: /\b(actor|actress|comedian|entertainer)\b/ },
-  { prop: 'P175', verb: 'Recorded', words: /\b(singer|rapper|musician|songwriter|vocalist|singer-songwriter|DJ)\b/ },
+  { prop: 'P175', verb: 'Recorded', words: MUSICIAN },
   { prop: 'P54', verb: 'Played for', words: /\b(footballer|player|cricketer|goalkeeper|striker|midfielder|defender|forward|pitcher|quarterback)\b/ },
   { prop: 'P57', verb: 'Directed', words: /\b(director|filmmaker)\b/ },
   { prop: 'P50', verb: 'Wrote', words: /\b(writer|novelist|author|poet|playwright)\b/ },
@@ -31,7 +34,9 @@ const SLUR = /\bnigg/i;
 const NATIONAL_SIDE = /\bnational\b.*\bteam\b|\b(Davis Cup|Billie Jean King Cup|Fed Cup|Hopman Cup)\b/i;
 // Article titles stand in for some labels (see worksClue), and an opening can
 // link a season or a franchise page: "Squid Game, season 2", "Spider-Man in film".
-const NOT_A_WORK = /\bseason \d+\b|\bin film$/i;
+// Band works can be events: "59th Annual Grammy Awards" for Megadeth,
+// "Italy in the Eurovision Song Contest 2021" for Måneskin.
+const NOT_A_WORK = /\bseason \d+\b|\bin film$|\bAwards$|\bEurovision Song Contest\b/i;
 
 // Works Wikidata credits wrongly, by person id, each checked by hand. Kyle
 // Kuzma never played for Guangdong (his teams are the Lakers, Wizards and
@@ -57,7 +62,57 @@ export function loadWorks(root) {
       if (e.labels?.en) labels.set(id, { label: e.labels.en.value, description: e.descriptions?.en?.value || '' });
     }
   }
+  loadBands(root, rows);
   return { rows, labels, ...loadLeads(root) };
+}
+
+const year = (v) => (v ? +v.slice(0, 4) : null);
+
+/**
+ * Adds each musician's band works, from the raw files
+ * scripts/fetch-famous-bands.mjs saves, as P175 rows carrying the band's id:
+ * Wikidata credits T. Rex's hits to T. Rex, not to Marc Bolan. A dated work
+ * counts only if a release year falls in one of their spells in the band
+ * (Brian Johnson joined AC/DC in 1980); an undated work, or a spell with no
+ * dates, is not ruled out. A work first out before the band was formed is a
+ * cover and dropped (White Christmas for the Beach Boys). A work they are
+ * credited with themselves keeps that row.
+ */
+function loadBands(root, rows) {
+  const dir = `${root}/bands`;
+  if (!existsSync(dir)) return;
+  addBandRows(rows, readdirSync(dir).sort().flatMap((f) => JSON.parse(readFileSync(`${dir}/${f}`, 'utf8')).results.bindings));
+}
+
+/** loadBands on the SPARQL rows themselves; exported for the tests. */
+export function addBandRows(rows, bindings) {
+  const spells = new Map(); // person|band -> Set of "start-end"
+  const works = new Map(); // person|band -> Map(work -> {links, years})
+  const formed = new Map(); // band -> earliest formation year
+  for (const b of bindings) {
+    const bandId = b.band.value.split('/').pop();
+    const key = `${b.person.value.split('/').pop()}|${bandId}`;
+    if (b.formed?.value) formed.set(bandId, Math.min(formed.get(bandId) ?? Infinity, year(b.formed.value)));
+    if (!spells.has(key)) spells.set(key, new Set());
+    spells.get(key).add(`${year(b.start?.value) ?? ''}-${year(b.end?.value) ?? ''}`);
+    if (!works.has(key)) works.set(key, new Map());
+    const w = b.work.value.split('/').pop();
+    if (!works.get(key).has(w)) works.get(key).set(w, { links: +b.links.value, years: new Set() });
+    if (b.date?.value) works.get(key).get(w).years.add(year(b.date.value));
+  }
+  for (const [key, ws] of works) {
+    const [person, band] = key.split('|');
+    const ranges = [...spells.get(key)].map((s) => s.split('-').map((x) => (x === '' ? null : +x)));
+    const inBand = (y) => ranges.some(([s, e]) => (s == null || y >= s) && (e == null || y <= e));
+    const own = rows.get(person) || [];
+    const credited = new Set(own.filter((r) => r.prop === 'P175').map((r) => r.work));
+    const cover = (years) => formed.has(band) && Math.min(...years) < formed.get(band);
+    for (const [work, { links, years }] of ws) {
+      if (credited.has(work) || (years.size && (cover(years) || ![...years].some(inBand)))) continue;
+      own.push({ prop: 'P175', work, links, band });
+    }
+    rows.set(person, own);
+  }
 }
 
 /**
@@ -140,11 +195,17 @@ export function worksClue(person, { rows, labels, lead = new Map(), titles = new
   // (2026-10-24). Not for the notable-works clue itself: Francis Crick's
   // notable works include Life Itself.
   const notable = new Set(own.filter((r) => r.prop === NOTABLE.prop).map((r) => r.work));
-  const backed = (r, kind) => inLead.has(r.work) || (kind !== NOTABLE && notable.has(r.work));
+  // A band's works are backed when the opening links the band itself (Marc
+  // Bolan's names T. Rex, not Get It On), but rank below the person's own
+  // backed works: Harry Styles is Fine Line, not One Direction's Up All Night.
+  const backed = (r, kind) =>
+    inLead.has(r.work) || (kind !== NOTABLE && notable.has(r.work)) ? 2 : r.band && inLead.has(r.band) ? 1 : 0;
   for (const kind of [...kinds, NOTABLE]) {
     const seen = new Set();
     const fits = own
-      .filter((r) => r.prop === kind.prop && label(r.work) && !WRONG[person.id]?.includes(r.work))
+      // A band's work only with the band in the opening: a band they once
+      // passed through says nothing.
+      .filter((r) => r.prop === kind.prop && label(r.work) && !WRONG[person.id]?.includes(r.work) && (!r.band || backed(r, kind)))
       .filter((r) => {
         const w = label(r.work);
         return !DULL.test(`${w.label} ${w.description}`) && !SLUR.test(w.label) && !NOT_A_WORK.test(w.label) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords);

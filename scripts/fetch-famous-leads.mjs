@@ -4,7 +4,7 @@
 // Orange Is the New Black), where ranking their works by fame alone picked a
 // guest spot in House. Read by scripts/lib/famousWorks.mjs.
 //
-// Only people with a works clue among each board's top 15. Every response is
+// Only people with a works clue among each board's top 15, and musicians. Every response is
 // saved raw: one file per person under data-raw/famous/leads/, one per batch
 // of 50 titles under data-raw/famous/leads-qids/. A rerun fetches only what
 // is not on disk, so a stopped run resumes.
@@ -14,6 +14,7 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
 import { gunzipSync } from 'node:zlib';
+import { MUSICIAN } from './lib/famousWorks.mjs';
 
 const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
 const LEADS = 'data-raw/famous/leads';
@@ -36,9 +37,11 @@ async function get(url, tries = 4) {
 }
 
 // The people: top 15 per board with a works clue, and their enwiki titles.
+// Musicians too, clue or not: their band's works can give them one
+// (scripts/fetch-famous-bands.mjs).
 const famous = JSON.parse(readFileSync('src/data/famous.json', 'utf8'));
 const ids = new Set();
-for (const b of famous.names) for (const p of b.people.slice(0, 15)) if (p.known) ids.add(p.id);
+for (const b of famous.names) for (const p of b.people.slice(0, 15)) if (p.known || MUSICIAN.test(p.description)) ids.add(p.id);
 const titles = new Map();
 // entities/ and entities-vital/ hold build-famous.mjs's trimmed entities
 // ({id: {title}}); entities-prefix/ the raw wbgetentities responses, gzipped.
