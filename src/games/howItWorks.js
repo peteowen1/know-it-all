@@ -109,6 +109,11 @@ export const HOW_IT_WORKS = {
     score: '4 points on the first clue, then 3, 2, and 1 for picking from the four. A surname is enough, and small typos are fine.',
     source: "The Famous first names data: each name's best-known people by English Wikipedia readership since 2016, with Wikipedia's own short descriptions. Best-known works are the films, songs, books or teams Wikidata links them to, ranked by how many Wikipedias cover each."
   },
+  'match-curve': {
+    play: 'Four famous people and four curves of how much their English Wikipedia page was read each month. Tap a name, then the curve you think is theirs; check when all four are placed.',
+    score: 'One point per name on the right curve, 20 in all. Each curve has its own scale, so match the shape and when it peaked, not the height.',
+    source: 'English Wikipedia monthly pageviews since 2016 for the Famous first names people with a clear peak, the top month at least five times their typical one. Idea from Daily Orbs.'
+  },
   'odd-one-out': {
     play: 'Four answers: three share a link and one does not. Pick the odd one out.',
     score: 'One point per right pick. The answer shows the link and where the odd one belongs.',
