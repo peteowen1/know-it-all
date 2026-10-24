@@ -112,7 +112,7 @@ export const HOW_IT_WORKS = {
   'match-curve': {
     play: 'Four famous people and four curves of how much their English Wikipedia page was read each month. Tap a name, then the curve you think is theirs; check when all four are placed.',
     score: 'One point per name on the right curve, 20 in all. Each curve has its own scale, so match the shape and when it peaked, not the height.',
-    source: 'English Wikipedia monthly pageviews since 2016 for the Famous first names people with a clear peak, the top month at least five times their typical one. Idea from Daily Orbs.'
+    source: 'English Wikipedia monthly pageviews since 2016 for the Famous first names people with a clear peak, the top month at least five times their typical one. Why each peaked comes from the weekly Top 25 Report on Wikipedia, checked by hand. Idea from Daily Orbs.'
   },
   'odd-one-out': {
     play: 'Four answers: three share a link and one does not. Pick the odd one out.',

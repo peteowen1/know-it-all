@@ -43,5 +43,9 @@ export function buildCurveRounds(people, { seed = Date.now(), count = ROUNDS } =
 export const monthName = (ym) =>
   `${['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][+ym.slice(5, 7) - 1]} ${ym.slice(0, 4)}`;
 
-/** What the reveal says under a curve: its peak, and a death that year. */
-export const peakNote = (p) => `Peak ${monthName(p.peak)}${p.died === +p.peak.slice(0, 4) ? ` (died ${p.died})` : ''}`;
+/**
+ * What the reveal says under a curve: its peak month and why, from the Top 25
+ * Report (scripts/curve-reasons.json), or failing that a death that year.
+ */
+export const peakNote = (p) =>
+  `Peak ${monthName(p.peak)}${p.why ? `: ${p.why}` : p.died === +p.peak.slice(0, 4) ? ` (died ${p.died})` : ''}`;

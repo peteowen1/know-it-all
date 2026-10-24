@@ -24,6 +24,12 @@ const MIN_VIEWS = 20_000_000;
 const PEAK = 5;
 const MIN_MONTHS = 100;
 
+// Why each person peaked, one short line, checked by hand from Wikipedia's
+// weekly Top 25 Report (scripts/fetch-top25.mjs). Kept only while the peak
+// month still matches: a new peak needs a new reason.
+const REASONS = 'scripts/curve-reasons.json';
+const why = new Map(existsSync(REASONS) ? JSON.parse(readFileSync(REASONS, 'utf8')).map((r) => [r.id, r]) : []);
+
 const fileSafe = (title) => encodeURIComponent(title).replace(/[%*]/g, '~');
 const famous = JSON.parse(readFileSync('src/data/famous.json', 'utf8'));
 const people = new Map();
@@ -59,6 +65,8 @@ for (const [id, p] of people) {
   const sorted = [...views].sort((a, b) => a - b);
   const top = sorted.at(-1);
   if (top < PEAK * Math.max(1, sorted[Math.floor(sorted.length / 2)])) continue;
+  const peak = month(items[views.indexOf(top) - lead].timestamp);
+  const reason = why.get(id)?.peak === peak ? why.get(id).why : null;
   const died = p.description.match(/\(\D*\d{3,4}\s*[–-]\s*(\d{3,4})\)/)?.[1];
   out.push({
     id,
@@ -66,7 +74,8 @@ for (const [id, p] of people) {
     // "British monarch (1926–2022)" -> "British monarch"
     what: p.description.replace(/\s*\([^)]*\)\s*$/, ''),
     ...(died && { died: +died }),
-    peak: month(items[views.indexOf(top) - lead].timestamp),
+    peak,
+    ...(reason && { why: reason }),
     s: views.map((v) => Math.round((99 * v) / top))
   });
 }
@@ -76,4 +85,5 @@ const length = Math.max(...out.map((p) => p.s.length));
 const full = out.filter((p) => p.s.length === length).sort((a, b) => a.id.localeCompare(b.id, 'en', { numeric: true }));
 const text = JSON.stringify({ from, months: length, people: full });
 writeFileSync('src/data/curves.json', text);
-console.log(`curves.json: ${full.length} people (${out.length - full.length} short curves left out) from ${people.size} with ${MIN_VIEWS.toLocaleString('en-US')}+ views, ${from} on, ${text.length.toLocaleString('en-US')} bytes`);
+const withWhy = full.filter((p) => p.why).length;
+console.log(`curves.json: ${full.length} people (${withWhy} with a reason for the peak) (${out.length - full.length} short curves left out) from ${people.size} with ${MIN_VIEWS.toLocaleString('en-US')}+ views, ${from} on, ${text.length.toLocaleString('en-US')} bytes`);
