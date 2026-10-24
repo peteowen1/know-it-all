@@ -5,8 +5,10 @@ import { subscribe, getStatus, getEmail, signInWithGoogle, signOut } from '../li
 
 const GIS_SRC = 'https://accounts.google.com/gsi/client';
 
-// Google's script is only needed while signed out, so it is loaded on demand
-// rather than in index.html; signed-in visits never fetch it.
+// Google's script is only needed while signed out, and only once the account
+// menu opens: loaded with the page it took 100 KB from each game's data on a
+// slow phone (Who am I 4.66 s to its first screen, 3.69 s without it;
+// 2026-10-24). Signed-in visits never fetch it.
 let gisPromise = null;
 function loadGis() {
   gisPromise ||= new Promise((resolve, reject) => {
@@ -39,6 +41,7 @@ export default function AccountButton({ onReset }) {
   const buttonRef = useRef(null);
   const rootRef = useRef(null);
   const triggerRef = useRef(null);
+  const rendered = useRef(false);
   const [error, setError] = useState(null);
   const [open, setOpen] = useState(false);
   const [confirming, setConfirming] = useState(false);
@@ -46,8 +49,11 @@ export default function AccountButton({ onReset }) {
   const signedOut = status === 'signed-out';
 
   useEffect(() => {
-    if (!signedOut || !GOOGLE_CLIENT_ID) return;
+    // The button div unmounts on sign-in, so a later sign-out draws it again.
+    if (!signedOut) rendered.current = false;
+    if (!signedOut || !open || rendered.current || !GOOGLE_CLIENT_ID) return;
     let cancelled = false;
+    setError(null);
     loadGis()
       .then((google) => {
         if (cancelled || !buttonRef.current) return;
@@ -62,12 +68,13 @@ export default function AccountButton({ onReset }) {
         google.accounts.id.renderButton(buttonRef.current, {
           theme: 'filled_black', size: 'large', shape: 'rectangular', text: 'signin'
         });
+        rendered.current = true;
       })
       .catch((err) => !cancelled && setError(err.message));
     return () => {
       cancelled = true;
     };
-  }, [signedOut]);
+  }, [signedOut, open]);
 
   // Close on Escape (focus returns to the button) or a click outside the menu.
   useEffect(() => {
