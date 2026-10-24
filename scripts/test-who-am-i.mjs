@@ -168,6 +168,22 @@ test('band works: only in the band\'s years, no covers, only with the band in th
   assert.equal(worksClue(singer('Qhs', 'Harry Styles'), { rows, labels, lead: new Map([['Qhs', new Set(['Qfine', 'Q1d'])]]) }), 'Recorded Fine Line and Up All Night');
 });
 
+test('the second work is one they won a major award for, if as well backed (Diane Keaton)', () => {
+  const person = { id: 'Q8', name: 'Diane Keaton', description: 'American actress' };
+  const rows = new Map([['Q8', [
+    { prop: 'P161', work: 'Qgf', links: 90 },
+    { prop: 'P161', work: 'Qgf2', links: 80 },
+    { prop: 'P161', work: 'Qah', links: 40 },
+    { prop: 'P161', work: 'Qcameo', links: 30 }
+  ]]]);
+  const labels = new Map([['Qgf', 'The Godfather'], ['Qgf2', 'The Godfather Part II'], ['Qah', 'Annie Hall'], ['Qcameo', 'A Cameo']].map(([id, label]) => [id, { label, description: '' }]));
+  const lead = new Map([['Q8', new Set(['Qgf', 'Qgf2', 'Qah'])]]);
+  assert.equal(worksClue(person, { rows, labels, lead }), 'Starred in The Godfather and The Godfather Part II');
+  assert.equal(worksClue(person, { rows, labels, lead, awards: new Map([['Q8', new Set(['Qah'])]]) }), 'Starred in The Godfather and Annie Hall');
+  // An award for a work the opening does not back does not jump the queue.
+  assert.equal(worksClue(person, { rows, labels, lead, awards: new Map([['Q8', new Set(['Qcameo'])]]) }), 'Starred in The Godfather and The Godfather Part II');
+});
+
 if (failures.length) {
   console.error(`${failures.length} failed, ${pass} passed\n  ${failures.join('\n  ')}`);
   process.exit(1);

@@ -63,7 +63,31 @@ export function loadWorks(root) {
     }
   }
   loadBands(root, rows);
-  return { rows, labels, ...loadLeads(root) };
+  return { rows, labels, awards: loadAwards(root), ...loadLeads(root) };
+}
+
+// An award counts as major from this many Wikipedia sitelinks: the Oscars
+// have 64, a Golden Globe 24; the Bram Stoker Award that gave Stephen King
+// "On Writing" has 3 (2026-10-24).
+const MAJOR_AWARD = 15;
+// Awards for the worst, and fan votes: MTV gave Jim Carrey "Dumb and Dumber"
+// over Eternal Sunshine of the Spotless Mind.
+const NOT_AN_HONOUR = /\b(Golden Raspberry|Razzie|MTV|Kids' Choice|People's Choice|Teen Choice|Nickelodeon)\b/i;
+
+/** Person id -> Set of work ids they won a major award for, from data-raw/famous/awards. */
+function loadAwards(root) {
+  const awards = new Map();
+  const dir = `${root}/awards`;
+  if (!existsSync(dir)) return awards;
+  for (const f of readdirSync(dir).sort()) {
+    for (const b of JSON.parse(readFileSync(`${dir}/${f}`, 'utf8')).results.bindings) {
+      if (+b.awardLinks.value < MAJOR_AWARD || NOT_AN_HONOUR.test(b.awardLabel?.value || '')) continue;
+      const person = b.person.value.split('/').pop();
+      if (!awards.has(person)) awards.set(person, new Set());
+      awards.get(person).add(b.work.value.split('/').pop());
+    }
+  }
+  return awards;
 }
 
 const year = (v) => (v ? +v.slice(0, 4) : null);
@@ -165,7 +189,7 @@ export const leaksName = (title, nameWords) =>
  * whose title holds any word of the person's name ("Taylor Swift", the album)
  * is skipped: it would give the answer away.
  */
-export function worksClue(person, { rows, labels, lead = new Map(), titles = new Map() }) {
+export function worksClue(person, { rows, labels, lead = new Map(), titles = new Map(), awards = new Map() }) {
   const own = rows.get(person.id) || [];
   const inLead = lead.get(person.id) || new Set();
   // A work the opening names may have no fetched label (only each person's
@@ -212,6 +236,12 @@ export function worksClue(person, { rows, labels, lead = new Map(), titles = new
       })
       .sort((a, b) => backed(b, kind) - backed(a, kind) || b.links - a.links);
     if (checked && !fits.some((r) => backed(r, kind))) continue;
+    // The best-known work stays first; second goes to one they won a major
+    // award for, if any is as well backed: Diane Keaton "Starred in The
+    // Godfather and Annie Hall", not The Godfather Part II.
+    const won = awards.get(person.id);
+    const prize = won && fits.slice(1).find((r) => won.has(r.work) && backed(r, kind) === backed(fits[0], kind));
+    if (prize) fits.splice(1, 0, ...fits.splice(fits.indexOf(prize), 1));
     const titles = fits
       .map((r) => label(r.work))
       // "Fulham F.C." reads as "Fulham" in a clue, "FC Barcelona" as "Barcelona",
