@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { buildWhoRounds, guessIsRight, knownFor, whoPoints, ROUNDS } from '../src/games/whoami/whoLogic.js';
 import { normalise } from '../src/games/names/nameMatch.js';
-import { worksClue } from './lib/famousWorks.mjs';
+import { worksClue, addBandRows } from './lib/famousWorks.mjs';
 
 let pass = 0;
 const failures = [];
@@ -140,6 +140,32 @@ test('a notable work of the right kind backs a clue the opening does not (Jacque
   const crick = { id: 'Q7', name: 'Francis Crick', description: 'English physicist' };
   const cRows = new Map([['Q7', [{ prop: 'P800', work: 'Qli', links: 9 }]]]);
   assert.equal(worksClue(crick, { rows: cRows, labels: new Map([['Qli', { label: 'Life Itself', description: '' }]]), lead: new Map([['Q7', new Set()]]) }), null);
+});
+
+test('band works: only in the band\'s years, no covers, only with the band in the opening, below their own (Marc Bolan, Brian Johnson, Harry Styles)', () => {
+  const row = (person, band, work, links, date, extra = {}) => ({
+    person: { value: `http://www.wikidata.org/entity/${person}` },
+    band: { value: `http://www.wikidata.org/entity/${band}` },
+    work: { value: `http://www.wikidata.org/entity/${work}` },
+    links: { value: String(links) },
+    ...(date && { date: { value: `${date}-01-01T00:00:00Z` } }),
+    ...Object.fromEntries(Object.entries(extra).map(([k, v]) => [k, { value: `${v}-01-01T00:00:00Z` }]))
+  });
+  const rows = new Map([['Qhs', [{ prop: 'P175', work: 'Qfine', links: 30 }]]]);
+  addBandRows(rows, [
+    row('Qmb', 'Qtrex', 'Qhot', 17, 1971, { formed: 1967 }),
+    row('Qmb', 'Qtrex', 'Qxmas', 90, 1942, { formed: 1967 }), // a cover
+    row('Qbj', 'Qacdc', 'Qbib', 44, 1980, { formed: 1973, start: 1980, end: 2016 }),
+    row('Qbj', 'Qacdc', 'Qhth', 40, 1979, { formed: 1973, start: 1980, end: 2016 }), // before he joined
+    row('Qhs', 'Q1d', 'Quan', 60, 2011, { formed: 2010 })
+  ]);
+  assert.deepEqual(rows.get('Qmb').map((r) => r.work), ['Qhot']);
+  assert.deepEqual(rows.get('Qbj').map((r) => r.work), ['Qbib']);
+  const labels = new Map([['Qhot', 'Hot Love'], ['Qbib', 'Back in Black'], ['Qfine', 'Fine Line'], ['Quan', 'Up All Night']].map(([id, label]) => [id, { label, description: '' }]));
+  const singer = (id, name) => ({ id, name, description: 'English singer' });
+  assert.equal(worksClue(singer('Qmb', 'Marc Bolan'), { rows, labels, lead: new Map([['Qmb', new Set(['Qtrex'])]]) }), 'Recorded Hot Love');
+  assert.equal(worksClue(singer('Qbj', 'Brian Johnson'), { rows, labels, lead: new Map([['Qbj', new Set()]]) }), null, 'band not in the opening');
+  assert.equal(worksClue(singer('Qhs', 'Harry Styles'), { rows, labels, lead: new Map([['Qhs', new Set(['Qfine', 'Q1d'])]]) }), 'Recorded Fine Line and Up All Night');
 });
 
 if (failures.length) {

@@ -28,19 +28,25 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Check
 
-- OPEN **Who am I works clues**: 2,960 of 4,455 top-15 people have one; the
-  answer is always one of them. Singers in bands get thin clues (Marc Bolan:
-  "Zip Gun Boogie", as Wikidata credits the hits to T. Rex), and teams rank by
-  Wikipedia coverage, not by when they played (Wembanyama: ASVEL before the
-  Spurs), and some actors get late-career films (Sally Field: The Amazing
-  Spider-Man). Raw data is `data-raw/famous/works-v2` (every statement, not
-  only the best-ranked). New top-15 people: `npm run data:famous`, then
-  `node scripts/fetch-famous-works.mjs`, then `npm run data:famous` again.
+- OPEN **Who am I works clues**: 2,779 of 4,455 top-15 people have one
+  (2026-10-24); the answer is always one of them. Works the person's Wikipedia
+  opening links come first (#72); a kind it backs none of is passed over (#76)
+  unless Wikidata lists the work among their notable works (#80). Band members
+  get their band's works when the opening links the band, released in their
+  years and not covers (`scripts/fetch-famous-bands.mjs`): Marc Bolan "Recorded
+  Electric Warrior and Hot Love". Known misses: Dave Mustaine gets Kill 'Em All
+  (fired months before it, same year); some actors still get a late-career
+  film second (Sally Field: Forrest Gump and The Amazing Spider-Man). Raw data
+  is `data-raw/famous/works-v2`, `bands/` and `leads/`. New top-15 people:
+  `npm run data:famous`, then `node scripts/fetch-famous-works.mjs`,
+  `node scripts/fetch-famous-bands.mjs` and `node scripts/fetch-famous-leads.mjs`,
+  then `npm run data:famous` again.
 
-- OPEN **Download sizes**: the 2026-10-19 famous-people fill-in took
-  `famous.json` from 273 to 602 KB gzipped (678 KB with the 2026-10-20 works
-  clues) (Famous first names, Who am I) and
-  `obscure.json` from 177 to 323 KB (334 KB with the 2026-10-20 years and continents) (Obscure-est, Missing link, Odd one out);
-  the question bank is about 835 KB, loaded when a quiz opens. Each loads only
-  when its game opens. Slimming people past each board's top 15 is not simple,
-  because the era filter picks a different top 15. Revisit if loading feels slow.
+- OPEN **Download sizes**: three games load a small file of their own, built by
+  `scripts/build-game-slices.mjs` (#73, #78), and Google's sign-in script waits
+  for the account menu (#79). On a slow phone (Lighthouse mobile) on
+  2026-10-24: Clue ladder 4.36 s to its first screen (was 8.42 s), Who am I
+  3.65 s (7.25 s), Odd one out 2.09 s (5.10 s). Still loading the full files,
+  gzipped: `famous.json` 670 KB (Famous first names), `obscure.json` 334 KB
+  (Obscure-est, Missing link), the question bank about 835 KB (quizzes).
+  Revisit if one of those feels slow.

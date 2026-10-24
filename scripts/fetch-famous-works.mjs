@@ -16,8 +16,8 @@
 //   npm run data:famous                   # and build the clues
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
+import { get, sparql, sleep, nextName } from './lib/fetchRaw.mjs';
 
-const UA = 'know-it-all-builder/0.1 (https://github.com/peteowen1/know-it-all)';
 const TOP = 15;
 const PEOPLE_PER_QUERY = 50;
 const WORKS_KEPT = 4; // per person and property, for the label fetch
@@ -29,30 +29,6 @@ const RAW_LABELS = 'data-raw/famous/works-labels';
 const INDEX = 'data-raw/famous/works-v2-index.json';
 const WORK_PROPS = ['P800', 'P161', 'P175', 'P50', 'P57', 'P170', 'P54'];
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-async function get(url, init = {}, tries = 4) {
-  for (let attempt = 1; ; attempt++) {
-    const res = await fetch(url, { ...init, headers: { 'User-Agent': UA, ...init.headers } });
-    const text = await res.text();
-    if (res.ok && text.trimStart().startsWith('{')) return text;
-    if (attempt === tries) throw new Error(`${res.status} after ${attempt} tries: ${text.slice(0, 200)}`);
-    console.warn(`  ${res.status}, retrying: ${text.slice(0, 80)}`);
-    await sleep(5000 * attempt);
-  }
-}
-
-const sparql = (ids, tries) =>
-  get(
-    'https://query.wikidata.org/sparql',
-    {
-      method: 'POST',
-      headers: { Accept: 'application/sparql-results+json', 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: 'query=' + encodeURIComponent(query(ids))
-    },
-    tries
-  );
-
 /**
  * Saves one batch's response as `name`.json and records its people in the
  * index straight after, so a stop between the two only refetches them. A
@@ -62,7 +38,7 @@ const sparql = (ids, tries) =>
  */
 async function saveBatch(ids, name, index) {
   try {
-    const text = await sparql(ids, ids.length > 1 ? 2 : 3);
+    const text = await sparql(query(ids), ids.length > 1 ? 2 : 3);
     writeFileSync(`${RAW}/${name}.json`, text);
     index[`${name}.json`] = ids;
     writeFileSync(INDEX, JSON.stringify(index));
@@ -100,9 +76,6 @@ console.log(`${ids.length} people from ${famous.names.length} boards`);
 
 mkdirSync(RAW, { recursive: true });
 mkdirSync(RAW_LABELS, { recursive: true });
-
-// File names only need to be new: the next number after any on disk.
-const nextName = (dir) => String(readdirSync(dir).reduce((n, f) => Math.max(n, parseInt(f, 10) + 1 || 0), 0)).padStart(4, '0');
 
 const index = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {};
 const done = new Set(Object.values(index).flat());
