@@ -7,7 +7,9 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-- Nothing waiting.
+- OPEN **Match the curve in Today?** Live in the Lab since 2026-10-24 (#83,
+  #84) but not in the Today tabs (`TODAY_TABS` in `GameHub.jsx`). Play it,
+  then add it or say what felt off.
 
 ## Data
 
@@ -27,6 +29,15 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   10 new slots; they are there for the next top-up.
 
 ## Check
+
+- OPEN **Match the curve reasons**: 236 of 281 peaks have a line saying why
+  (`scripts/curve-reasons.json`, checked by hand from Wikipedia's weekly Top 25
+  Report, saved raw in `data-raw/famous/top25/`). 45 have none and show the
+  month only. A reason is dropped when the person's peak month moves, so after
+  `npm run data:famous` and `npm run data:curves`, run
+  `node scripts/fetch-top25.mjs` and write lines for the new peaks. Tried and
+  dropped: Portal:Current events explained 6 of 21 pilot peaks (no film or TV
+  releases); the Top 25 Report explained 18.
 
 - OPEN **Who am I works clues**: 2,779 of 4,455 top-15 people have one
   (2026-10-24); the answer is always one of them. Works the person's Wikipedia
