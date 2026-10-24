@@ -1,0 +1,47 @@
+/* Match the curve: name chips above a grid of readership curves. */
+.curve-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-bottom: var(--s-2);
+}
+.curve-name-placed:not(.active) { opacity: 0.55; }
+
+.curve-grid-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-2);
+}
+@media (min-width: 560px) {
+  .curve-grid-list { grid-template-columns: 1fr 1fr; }
+}
+
+.curve-card {
+  display: grid;
+  gap: 4px;
+  padding: var(--s-2) var(--s-2) 6px;
+  text-align: left;
+  color: var(--ink);
+  background: var(--surface-2);
+  border: var(--border-w) var(--border-style) var(--line-strong);
+  border-radius: var(--r-control);
+  cursor: pointer;
+  font: inherit;
+}
+.curve-card:disabled { cursor: default; }
+.curve-card[data-state='open'] { border-color: var(--accent); }
+.curve-card[data-state='placed'] { border-color: var(--accent); background: var(--surface-3); }
+.curve-card[data-state='right'] { border-color: var(--correct); background: var(--correct-bg); }
+.curve-card[data-state='wrong'] { border-color: var(--wrong); background: var(--wrong-bg); }
+
+.curve-label { font-weight: 600; font-size: var(--fs-sm); }
+.curve-note { font-size: var(--fs-xs); color: var(--ink-2); }
+
+.curve-svg { width: 100%; height: 64px; display: block; }
+.curve-grid { stroke: var(--line-strong); stroke-width: 1; stroke-dasharray: 2 3; }
+.curve-area { fill: color-mix(in srgb, var(--accent) 22%, transparent); }
+.curve-line { fill: none; stroke: var(--accent); stroke-width: 1.75; stroke-linejoin: round; }
+
+.curve-years { position: relative; height: 1.1em; font-size: var(--fs-xs); color: var(--ink-3); }
+.curve-years span { position: absolute; transform: translateX(-50%); }
+.curve-years span:first-child { transform: none; }

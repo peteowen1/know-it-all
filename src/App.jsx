@@ -41,6 +41,7 @@ const Obscure = lazy(() => import('./games/obscure/Obscure'));
 const MissingLink = lazy(() => import('./games/missinglink/MissingLink'));
 const OddOneOut = lazy(() => import('./games/oddone/OddOneOut'));
 const WhoAmI = lazy(() => import('./games/whoami/WhoAmI'));
+const MatchCurve = lazy(() => import('./games/curves/MatchCurve'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
 const Settings = lazy(() => import('./components/Settings'));
 const ClueLadder = lazy(() => import('./games/clueladder/ClueLadder'));
@@ -441,6 +442,7 @@ export default function App() {
     'missing-link': () => <MissingLink {...play} />,
     'odd-one-out': () => <OddOneOut {...play} />,
     'who-am-i': () => <WhoAmI {...play} />,
+    'match-curve': () => <MatchCurve {...play} />,
     'clue-ladder': () => <ClueLadder {...play} />,
     'twin-flags': () => <TwinFlags {...play} />,
     scramble: () => <Scramble {...play} />,
