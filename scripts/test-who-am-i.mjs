@@ -126,6 +126,22 @@ test('no works clue the Wikipedia opening backs none of, no national tennis side
   assert.equal(worksClue(writer, { rows: wRows, labels: new Map([['Qb', { label: 'Nigger', description: '' }]]) }), null);
 });
 
+test('a notable work of the right kind backs a clue the opening does not (Jacques Brel); not a notable-works clue (Francis Crick)', () => {
+  const brel = { id: 'Q6', name: 'Jacques Brel', description: 'Belgian singer and actor' };
+  const rows = new Map([['Q6', [
+    { prop: 'P175', work: 'Qnmq', links: 21 },
+    { prop: 'P175', work: 'Qmor', links: 30 },
+    { prop: 'P800', work: 'Qnmq', links: 21 },
+    { prop: 'P161', work: 'Qfw', links: 6 }
+  ]]]);
+  const labels = new Map([['Qnmq', { label: 'Ne me quitte pas', description: '' }], ['Qmor', { label: 'Le Moribond', description: '' }], ['Qfw', { label: 'Far West', description: '' }]]);
+  const lead = new Map([['Q6', new Set(['Qfw'])]]);
+  assert.equal(worksClue(brel, { rows, labels, lead }), 'Recorded Ne me quitte pas and Le Moribond');
+  const crick = { id: 'Q7', name: 'Francis Crick', description: 'English physicist' };
+  const cRows = new Map([['Q7', [{ prop: 'P800', work: 'Qli', links: 9 }]]]);
+  assert.equal(worksClue(crick, { rows: cRows, labels: new Map([['Qli', { label: 'Life Itself', description: '' }]]), lead: new Map([['Q7', new Set()]]) }), null);
+});
+
 if (failures.length) {
   console.error(`${failures.length} failed, ${pass} passed\n  ${failures.join('\n  ')}`);
   process.exit(1);

@@ -134,6 +134,13 @@ export function worksClue(person, { rows, labels, lead = new Map(), titles = new
   // over: by sitelinks alone Karen Carpenter "Recorded Looking for Love" and
   // Francis Crick was "Known for Life Itself" (330 of 2,960 clues, 2026-10-23).
   const checked = lead.has(person.id);
+  // A work Wikidata lists among the person's notable works backs a kind's
+  // clue too: Jacques Brel's opening links Sinatra and Nina Simone but none
+  // of his songs, so he "Starred in Far West" until Ne me quitte pas counted
+  // (2026-10-24). Not for the notable-works clue itself: Francis Crick's
+  // notable works include Life Itself.
+  const notable = new Set(own.filter((r) => r.prop === NOTABLE.prop).map((r) => r.work));
+  const backed = (r, kind) => inLead.has(r.work) || (kind !== NOTABLE && notable.has(r.work));
   for (const kind of [...kinds, NOTABLE]) {
     const seen = new Set();
     const fits = own
@@ -142,8 +149,8 @@ export function worksClue(person, { rows, labels, lead = new Map(), titles = new
         const w = label(r.work);
         return !DULL.test(`${w.label} ${w.description}`) && !SLUR.test(w.label) && !NOT_A_WORK.test(w.label) && !NATIONAL_SIDE.test(w.label) && !leaksName(w.label, nameWords);
       })
-      .sort((a, b) => inLead.has(b.work) - inLead.has(a.work) || b.links - a.links);
-    if (checked && !fits.some((r) => inLead.has(r.work))) continue;
+      .sort((a, b) => backed(b, kind) - backed(a, kind) || b.links - a.links);
+    if (checked && !fits.some((r) => backed(r, kind))) continue;
     const titles = fits
       .map((r) => label(r.work))
       // "Fulham F.C." reads as "Fulham" in a clue, "FC Barcelona" as "Barcelona",
