@@ -41,7 +41,12 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   (rounds, settings, `word_play_history`) keep this device's copy, so a word
   history built on both devices keeps only one side. And a push whose reply is
   lost, followed by another device writing before this one retries, adds that
-  lost batch twice. Both need the clash plus a second coincidence.
+  lost batch twice. Both need the clash plus a second coincidence. Update
+  2026-11-25: the second case is fixed by write ids (kv_writes); left: more
+  than 10 different unsent values for one key while offline evicts the lost
+  write's entry. Also a second open tab is not remounted when the first tab
+  merges a clash (the storage listener watches only kia_sync), so it can save
+  its stale in-memory copy back.
 - OPEN **Hand-over retry can merge twice**: `src/lib/handoff.js` writes keys
   before recording the parcel id, so a quota error part-way then "reload to
   retry" adds totals again. Record the id first or roll back.
