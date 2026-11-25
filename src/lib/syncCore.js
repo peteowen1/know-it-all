@@ -63,6 +63,19 @@ export function tombstoneWrites(server, local) {
   return writes;
 }
 
+/**
+ * Writes that leave this browser holding exactly the account's copy. Used on
+ * signing in when the device last synced with a different account: what is
+ * stored here is that account's history, and merging it would copy one
+ * person's progress into another's (and switching back would double it).
+ */
+export function adoptAccount(server, local) {
+  const writes = {};
+  for (const k of Object.keys(local)) if (isSyncedKey(k)) writes[k] = null;
+  for (const [k, e] of Object.entries(server)) if (isSyncedKey(k)) writes[k] = e.value ?? null;
+  return writes;
+}
+
 // The keys that together are "your progress" in the sense mergeProgress
 // understands, mapped to its field names.
 const PROFILE = {

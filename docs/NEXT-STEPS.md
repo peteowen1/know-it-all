@@ -10,12 +10,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 - OPEN **Match the curve in Today?** Live in the Lab since 2026-10-24 (#83,
   #84) but not in the Today tabs (`TODAY_TABS` in `GameHub.jsx`). Play it,
   then add it or say what felt off.
-- OPEN **Switching Google accounts on one device mixes them** (same review,
-  still live). Signing out keeps one base copy tagged with the old email;
-  signing in as someone else finds no base and merges this device's local
-  history into the new account (`src/lib/sync.js:287-313`), and switching back
-  doubles totals. Only matters on a shared device. Recommended fix: when a base
-  for a different email exists, take the new account as-is instead of merging.
 
 ## Data
 
@@ -52,19 +46,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   `AnalyticsDashboard` "N tracked in the vault" uses App's `vaultSummary`,
   which cannot see the bank until it loads. Small; prune only once every
   device runs a bundle with the same bank, or a stale tab deletes new ids.
-- OPEN **14 new React lint warnings** since oxlint 1.95 (2026-11-25
-  `npm update`): refs read during render (`ListGame.jsx:131`,
-  `ChartGame.jsx:237`, `HigherLower.jsx:94`, `QuizSimulator.jsx:447`),
-  `Date.now()` during render (`HigherLower.jsx:79`, `FirstNames.jsx:140`,
-  `ChartGame.jsx:219`) and setState in an effect (`App.jsx:443`, `:633`).
-  Warnings only, CI passes. Checked `ListGame.jsx:131`, `HigherLower.jsx:79`
-  and `:94`, `App.jsx:443` and `:633`: all deliberate (a ref holding the
-  latest value for an unmount save, a seed only used on first render, a
-  redirect effect), so not bugs. Options: turn off `react/refs`,
-  `react/purity` and `react/set-state-in-effect` in `.oxlintrc.json`, or add
-  a disable comment at each site. Not yet checked: `ChartGame.jsx`,
-  `FirstNames.jsx`, `QuizSimulator.jsx`.
-
 ## Check
 
 - OPEN **Match the curve reasons**: 236 of 281 peaks have a line saying why

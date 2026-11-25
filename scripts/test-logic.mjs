@@ -36,7 +36,7 @@ import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from
 import { readFileSync } from 'node:fs';
 import { pathForTab, tabForPath } from '../src/lib/route.js';
 import { GAMES } from '../src/games/registry.js';
-import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
+import { adoptAccount, diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
   loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, countSolutions, isFair, hidingWord, HIDDEN, TRAPS, GAPS, GAP_HERRINGS, norm as fbfNorm, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
@@ -1642,6 +1642,14 @@ test('data: shipped files carry only fields something reads (lib/output.mjs SHIP
     assert.equal(matchChartGuess('Despacito', items, new Set(['o'])).item.id, 'r');
   });
 }
+
+// Signing in on a device that last synced with another account takes the
+// new account as it is (NEXT-STEPS, fixed 2026-11-26).
+test('adoptAccount: local keys the account lacks are removed, the rest replaced', () => {
+  const local = { sqt_v4_stats: '{"totalAnswered":10}', sqt_v4_games: '{"a":1}', sqt_v4_live_tab: '"home"', other: 'x' };
+  const server = { sqt_v4_stats: { value: '{"totalAnswered":3}', updatedAt: 5 }, sqt_v4_setup: { value: null, updatedAt: 6 } };
+  assert.deepEqual(adoptAccount(server, local), { sqt_v4_stats: '{"totalAnswered":3}', sqt_v4_games: null, sqt_v4_setup: null });
+});
 
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {

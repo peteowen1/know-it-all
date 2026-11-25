@@ -13,7 +13,7 @@
 // Signed out, none of this runs: markDirty() returns immediately and the app
 // is exactly the local-only app it was before.
 
-import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, isSyncedKey } from './syncCore.js';
+import { adoptAccount, diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, isSyncedKey } from './syncCore.js';
 import { onDirty, SYNC_BASE_KEY as BASE_KEY } from './storage.js';
 
 const META_KEY = 'kia_sync';
@@ -80,6 +80,19 @@ function loadBase(email) {
     return null;
   }
 }
+
+/** The email the kept base copy belongs to, or null. */
+function baseOwner() {
+  try {
+    return JSON.parse(localStorage.getItem(BASE_KEY) || 'null')?.email || null;
+  } catch {
+    return null;
+  }
+}
+
+// What a sign-in as a different account replaced, kept on this device only
+// (not a synced key) so nothing played while signed out is lost for good.
+const SWITCHED_FROM_KEY = 'kia_switched_from';
 
 function newWid() {
   const b = crypto.getRandomValues(new Uint8Array(12));
@@ -380,11 +393,25 @@ async function signInAndMerge(credential) {
   setStatus('syncing');
 
   try {
-    if (hasData) {
-      const { keys: server } = await api('/sync');
+    const base = loadBase(email);
+    const previous = baseOwner();
+    // Last synced as someone else: the progress stored here is theirs.
+    const switching = !base && Boolean(previous) && previous !== email;
+    if (hasData || switching) {
+      const { keys: server } = hasData ? await api('/sync') : { keys: {} };
       const local = readSnapshot();
-      const base = loadBase(email);
-      if (base) {
+      if (switching) {
+        // Take the account as it is. Merging would add the other account's
+        // totals into this one, and switching back would add them again.
+        if (Object.keys(local).length) {
+          try {
+            localStorage.setItem(SWITCHED_FROM_KEY, JSON.stringify({ email: previous, at: Date.now(), snapshot: local }));
+          } catch (err) {
+            console.warn('Could not keep a copy of the progress replaced by this sign-in.', err);
+          }
+        }
+        writeKeys(adoptAccount(server, local));
+      } else if (base) {
         // Back to an account this device synced with before: keep what was
         // played here since, without adding the account's totals in twice.
         const values = {};
