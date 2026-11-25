@@ -24,6 +24,30 @@ const LAST = new Date().getFullYear() - 1;
 
 const filmLink = (cell) => links(cell).find((l) => !/^(File|Image):/i.test(l.target));
 
+// From 1988 the pages list worldwide gross; before that, US gross or rentals,
+// which are not comparable, so those years get no `gross`.
+const FIRST_WORLDWIDE = 1988;
+
+/**
+ * Worldwide gross in US dollars from the table's last cell, as written:
+ * "$618,638,999", "{{US$|1280802282|long=no}}", "{{nts|prefix=$|763455561}}",
+ * "$2.1 billion", or a "{{#expr:2155690000+60000000}}" sum. Comments and
+ * references go first (they carry other figures). Null if none is found.
+ */
+export function grossOf(cell) {
+  const s = cell.replace(/<!--[\s\S]*?-->/g, '').replace(/<ref[^>]*\/>/g, '').replace(/<ref[\s\S]*?<\/ref>/g, '').replace(/\{\{(?:refn|efn)[^{}]*\}\}/g, '');
+  const expr = s.match(/#expr:([^}]*)/);
+  if (expr) {
+    const parts = expr[1].replace(/,/g, '').match(/\d+/g) || [];
+    const sum = parts.map(Number).reduce((a, b) => a + b, 0);
+    return sum >= 1e6 ? sum : null;
+  }
+  const big = s.replace(/,/g, '').match(/\d{7,}/);
+  if (big) return Number(big[0]);
+  const short = s.replace(/,/g, '').match(/\$\s*([\d.]+)\s*(billion|million)/i);
+  return short ? Math.round(Number(short[1]) * (/b/i.test(short[2]) ? 1e9 : 1e6)) : null;
+}
+
 // ------------------------------------------------------------ box office
 const boxOffice = {};
 const problems = [];
@@ -39,7 +63,9 @@ for (let y = FIRST_BOX; y <= LAST; y++) {
     const rank = Number(plain(cells[0]).replace(/[^0-9]/g, ''));
     if (!rank || rank > 10 || cells.length < 3) continue;
     const link = filmLink(cells[1]);
-    rows.push({ rank, title: plain(cells[1]).replace(/\s*†\s*$/, ''), link: link?.target, studio: plain(cells[2]) });
+    const gross = y >= FIRST_WORLDWIDE ? grossOf(cells[cells.length - 1]) : null;
+    if (y >= FIRST_WORLDWIDE && !gross) problems.push(`${y} #${rank}: no gross`);
+    rows.push({ rank, title: plain(cells[1]).replace(/\s*†\s*$/, ''), link: link?.target, studio: plain(cells[2]), ...(gross && { gross }) });
   }
   if (rows.length < 10) problems.push(`${y}: ${rows.length} box-office rows`);
   boxOffice[y] = rows;
@@ -95,7 +121,8 @@ const finish = (f) => {
     title: f.title,
     artist: directors.join(' & ') || 'Unknown director',
     ...(directors.length > 1 ? { artists: directors } : {}),
-    ...(f.studio ? { studio: f.studio } : {})
+    ...(f.studio ? { studio: f.studio } : {}),
+    ...(f.gross ? { gross: f.gross } : {})
   };
 };
 const out = { boxOffice: {}, bestPicture: {} };

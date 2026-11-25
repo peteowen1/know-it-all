@@ -153,6 +153,11 @@ export const GAMES = [
     recordFormat: byPoints(20)
   },
   {
+    id: 'box-office', section: 'lab', tab: 'box-office', icon: 'Clapperboard', title: 'Box office',
+    blurb: 'Two hit films: which made more? One miss ends the run.',
+    recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)
+  },
+  {
     id: 'whos-older', section: 'lab', tab: 'whos-older', icon: 'Cake', title: "Who's older?",
     blurb: 'Two famous people: who was born first? One miss ends the run.',
     recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)

@@ -26,10 +26,6 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   was already in three). Gold, Silver, ___ Cake and ___mark found no fit in the
   10 new slots; they are there for the next top-up.
 
-- OPEN **Higher or lower: films** (Pete liked the idea, 2026-11-26). Blocked
-  on data: `src/data/charts/films.json` has each year's chart position, no
-  box office in dollars. Needs a box-office source saved raw first (the
-  `mediaverse/boxoffice` repo may have it; not checked).
 - OPEN **Find it on the map** (Pete liked the idea, 2026-11-26): tap the
   named country on a world map. Needs a map drawing (a world SVG keyed by
   the same country codes as `countries.json`) and tap targets big enough

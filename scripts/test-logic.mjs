@@ -26,6 +26,7 @@ import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact } from '../src/games/nameyear/nameYearLogic.js';
 import { geoNames, pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
+import { filmPool, formatGross, ratioRange, nextFilm, firstFilms, madeMore } from '../src/games/boxoffice/boxLogic.js';
 import { POOLS, describe, formatYear, gapRange, nextPerson, firstPair, bornBefore } from '../src/games/older/olderLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
@@ -1702,6 +1703,40 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
       if (n && Math.abs(n.born - cur.born) >= lo && Math.abs(n.born - cur.born) <= hi) inside++;
     }
     assert.ok(inside >= 270, `${inside} of 300 inside the first gap range`);
+  });
+}
+
+// Box office (added 2026-11-26).
+{
+  const films = JSON.parse(readFileSync(new URL('../src/data/charts/films.json', import.meta.url), 'utf8'));
+  const pool = filmPool(films.boxOffice);
+  test('Box office: every film from 1988 has a worldwide gross, none before', () => {
+    const fromWorldwide = Object.entries(films.boxOffice).filter(([y]) => Number(y) >= 1988).reduce((n, [, l]) => n + l.length, 0);
+    assert.equal(pool.length, fromWorldwide);
+    assert.ok(pool.every((f) => f.year >= 1988 && f.gross > 1e8 && f.gross < 5e9), 'a gross out of range');
+    assert.equal(pool.find((f) => f.title === 'Titanic').gross, 1843201268);
+    assert.equal(formatGross(1843201268), '$1.84 billion');
+    assert.equal(formatGross(618638999), '$619 million');
+    assert.equal(madeMore({ gross: 2 }, { gross: 1 }), true);
+  });
+  test('Box office: every pick is a new film with a different gross, inside the range when one fits', () => {
+    const rand = makeRng(11);
+    for (let trial = 0; trial < 20; trial++) {
+      const { left, right } = firstFilms(pool, rand);
+      const seen = new Set([left.id, right.id]);
+      let cur = right;
+      for (let run = 0; run < 40; run++) {
+        const next = nextFilm(cur, pool, rand, { seen, run });
+        assert.ok(next, 'a run ended with films left');
+        assert.ok(!seen.has(next.id) && next.gross !== cur.gross);
+        const [lo, hi] = ratioRange(run);
+        const r = Math.max(next.gross, cur.gross) / Math.min(next.gross, cur.gross);
+        const fits = pool.some((f) => !seen.has(f.id) && f.id !== cur.id && f.gross !== cur.gross && (() => { const q = Math.max(f.gross, cur.gross) / Math.min(f.gross, cur.gross); return q >= lo && q <= hi; })());
+        if (fits) assert.ok(r >= lo && r <= hi, `ratio ${r.toFixed(2)} outside ${lo}-${hi}`);
+        seen.add(next.id);
+        cur = next;
+      }
+    }
   });
 }
 
