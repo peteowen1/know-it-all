@@ -508,7 +508,10 @@ let withWorks = 0;
 for (const n of names) {
   for (const p of n.people.slice(0, 15)) {
     const known = worksClue(p, works);
-    if (known) (p.known = known), withWorks++;
+    if (known) {
+      p.known = known;
+      withWorks++;
+    }
   }
 }
 console.log(`works clues: ${withWorks} of ${names.reduce((s, n) => s + Math.min(15, n.people.length), 0)} top-15 people`);
