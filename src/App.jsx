@@ -227,7 +227,11 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (!QUIZ_TABS.has(activeTab)) return;
+    if (!QUIZ_TABS.has(activeTab)) {
+      // Leaving for another tab is a navigation, so coming back counts as one.
+      lastTrigger.current = { tab: activeTab, day };
+      return;
+    }
     bank().then((builder) => {
       if (!builder) return;
       setQuiz((prev) =>
