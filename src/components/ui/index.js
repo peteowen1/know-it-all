@@ -11,5 +11,6 @@ export { default as TextInput } from './TextInput';
 export { default as GameBoard } from './GameBoard';
 export { default as GameResults } from './GameResults';
 export { default as MostMissed } from './MostMissed';
-export { default as Flag, preloadFlags } from './Flag';
+export { default as Flag } from './Flag';
+export { preloadFlags } from './preloadFlags';
 export { Chip, SetupRow, AnswerModeToggle, EarlierDays } from './Setup';

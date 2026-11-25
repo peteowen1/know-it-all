@@ -141,12 +141,16 @@ function shortForms(answer) {
  */
 export function matchChartGuess(guess, items, foundIds = new Set()) {
   const g = normalise(guess);
-  if (g.length < 2) return null;
+  // One character is allowed ("W.", "The 1"): it can only match exactly,
+  // since the typo allowance starts at five letters.
+  if (!g) return null;
   const tolerance = g.length >= 9 ? 2 : g.length >= 5 ? 1 : 0;
   let best = null;
   for (const item of items) {
     let dist = Infinity;
+    let verbatim = false;
     for (const a of item.answers) {
+      if (normalise(a) === g) verbatim = true;
       for (const f of forms(a)) {
         const d = f === g ? 0 : tolerance ? editDistance(g, f, tolerance) : Infinity;
         dist = Math.min(dist, d);
@@ -156,8 +160,10 @@ export function matchChartGuess(guess, items, foundIds = new Set()) {
     const taken = foundIds.has(item.id);
     // An exact title beats any near miss, found or not: typing "Yesterday"
     // again must say "already got it", not credit "Yesterdays". Among equally
-    // close titles, one still to find wins (two songs with the same name).
-    const score = [dist === 0 ? 0 : 1, taken ? 1 : 0, dist, item.rank];
+    // close titles, one still to find wins (two songs with the same name),
+    // and then the one whose full title is the guess: "Despacito" is the
+    // original, not "Despacito (Remix)" ranked above it.
+    const score = [dist === 0 ? 0 : 1, taken ? 1 : 0, verbatim ? 0 : 1, dist, item.rank];
     if (!best || cmp(score, best.score) < 0) best = { item, score, taken };
   }
   if (best) return { item: best.item, alreadyFound: best.taken };

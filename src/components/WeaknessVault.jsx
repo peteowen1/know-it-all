@@ -2,7 +2,7 @@ import React, { useMemo, useRef, useState } from 'react';
 import { BookOpen, Play, AlertTriangle, X, ShieldCheck, Trash2 } from 'lucide-react';
 import { getQuestion } from '../data/questionBank';
 import { materialise } from '../lib/quizBuilder';
-import { isDue, describeDue, formatIntervals, INTERVALS, GRADUATED_BOX } from '../lib/scheduler';
+import { isDue, describeDue, formatIntervals, vaultSummary, INTERVALS, GRADUATED_BOX } from '../lib/scheduler';
 import { Button, Card, CategoryIcon, Pill } from './ui';
 import { CATEGORIES } from '../data/categories';
 import QuizOptions from './QuizOptions';
@@ -10,7 +10,7 @@ import { HowButton, HowPanel } from '../games/shared/HowItWorks';
 
 const capitalise = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
-export default function WeaknessVault({ vault, summary, onRemove, onClearAll, onStartRevision }) {
+export default function WeaknessVault({ vault, onRemove, onClearAll, onStartRevision }) {
   const [activeId, setActiveId] = useState(null);
   const [selected, setSelected] = useState(null);
   const [answered, setAnswered] = useState(false);
@@ -35,6 +35,10 @@ export default function WeaknessVault({ vault, summary, onRemove, onClearAll, on
         }),
     [vault]
   );
+  // Counted from the rows, not the whole vault: an entry for a question since
+  // removed from the bank is not shown, so it must not be counted either, or
+  // "Drill 3 due" opens on fewer questions (or none).
+  const summary = useMemo(() => vaultSummary(rows.map((r) => r.entry)), [rows]);
 
   const active = useMemo(() => {
     const row = rows.find((r) => r.entry.id === activeId);
