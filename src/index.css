@@ -245,6 +245,13 @@ button { cursor: pointer; }
   max-width: var(--w-hub);
   margin: 0 auto;
   padding: var(--s-4) var(--gutter) var(--s-7);
+  /* Saved to the home screen, iOS draws the page under a see-through status bar
+     (viewport-fit=cover + black-translucent in index.html), so push the content
+     below the clock and notch. env() is 0 in a normal browser tab. */
+  padding-top: calc(var(--s-4) + env(safe-area-inset-top, 0px));
+  padding-left: max(var(--gutter), env(safe-area-inset-left, 0px));
+  padding-right: max(var(--gutter), env(safe-area-inset-right, 0px));
+  padding-bottom: calc(var(--s-7) + env(safe-area-inset-bottom, 0px));
 }
 
 .app-footer {
@@ -562,7 +569,7 @@ button { cursor: pointer; }
   justify-content: flex-end;
   margin-top: var(--s-4);
   position: sticky;
-  bottom: var(--s-3);
+  bottom: calc(var(--s-3) + env(safe-area-inset-bottom, 0px));
   z-index: 5;
 }
 .next-action-bar .btn { box-shadow: var(--shadow-raised); }
