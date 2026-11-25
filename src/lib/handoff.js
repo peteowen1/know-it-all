@@ -86,8 +86,23 @@ export async function collectHandoff() {
       const k = localStorage.key(i);
       if (isSyncedKey(k)) local[k] = localStorage.getItem(k);
     }
-    for (const [k, v] of Object.entries(mergeSnapshots(local, snapshot))) localStorage.setItem(k, v);
-    localStorage.setItem(COLLECTED, JSON.stringify([...collected, id].slice(-10)));
+    // All or nothing: a quota error part-way through must not leave half the
+    // parcel merged, because the reload-to-retry below would then add those
+    // keys' totals a second time. Undo what was written, then rethrow.
+    const written = [];
+    try {
+      for (const [k, v] of Object.entries(mergeSnapshots(local, snapshot))) {
+        written.push(k);
+        localStorage.setItem(k, v);
+      }
+      localStorage.setItem(COLLECTED, JSON.stringify([...collected, id].slice(-10)));
+    } catch (err) {
+      for (const k of written) {
+        if (k in local) localStorage.setItem(k, local[k]);
+        else localStorage.removeItem(k);
+      }
+      throw err;
+    }
     clearUrl();
   } catch (err) {
     // The id stays in the address bar, so reloading retries (the parcel stays

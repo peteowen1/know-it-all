@@ -47,18 +47,11 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   write's entry. Also a second open tab is not remounted when the first tab
   merges a clash (the storage listener watches only kia_sync), so it can save
   its stale in-memory copy back.
-- OPEN **Hand-over retry can merge twice**: `src/lib/handoff.js` writes keys
-  before recording the parcel id, so a quota error part-way then "reload to
-  retry" adds totals again. Record the id first or roll back.
-- OPEN **Obscure-est answers that cannot be typed**: "The 1" (Taylor Swift
-  songs) and "W." (Oliver Stone films) tidy down to one character and the
-  matcher drops guesses under 2 (`obscureLogic.js` tidy, `chartLogic.js:144`).
-- OPEN **Duplicate song titles credit the remix**: typing "Despacito" credits
-  "Despacito (Remix)" (`chartLogic.js:151` breaks a tie by rank). Prefer the
-  entry whose full title equals the guess.
-- OPEN **Vault counts questions removed from the bank**: `vaultSummary` counts
-  entries `WeaknessVault` and `buildRevisionQuiz` drop, so a drill can open on
-  "No questions match".
+- OPEN **Progress page still counts removed Vault questions**: the Vault tab
+  and drills now skip ids no longer in the bank (2026-11-25), but
+  `AnalyticsDashboard` "N tracked in the vault" uses App's `vaultSummary`,
+  which cannot see the bank until it loads. Small; prune only once every
+  device runs a bundle with the same bank, or a stale tab deletes new ids.
 
 ## Check
 

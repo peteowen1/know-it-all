@@ -1614,6 +1614,36 @@ test('data: shipped files carry only fields something reads (lib/output.mjs SHIP
 
 // ------------------------------------------------------------------ report
 console.log(`\n${pass} passed, ${failures.length} failed`);
+// Obscure-est answers that tidy down to one character, and a song listed
+// both as itself and as a remix (NEXT-STEPS, 2026-11-25 review).
+{
+  const obs = JSON.parse(readFileSync(new URL('../src/data/obscure.json', import.meta.url), 'utf8'));
+  const cat = (id) => obs.categories.find((c) => c.id === id);
+  test('Obscure-est: "The 1" and "1" both score for Taylor Swift', () => {
+    assert.equal(scoreGuess(cat('songs-Taylor Swift'), 'The 1').answer?.text, 'The 1');
+    assert.equal(scoreGuess(cat('songs-Taylor Swift'), '1').answer?.text, 'The 1');
+  });
+  test('Obscure-est: "W." and "W" score for Oliver Stone', () => {
+    assert.equal(scoreGuess(cat('films-Oliver Stone'), 'W.').answer?.text, 'W.');
+    assert.equal(scoreGuess(cat('films-Oliver Stone'), 'w').answer?.text, 'W.');
+  });
+  test('Obscure-est: a one-letter guess that is not an answer still misses', () => {
+    assert.equal(scoreGuess(cat('films-Oliver Stone'), 'Q').score, 0);
+  });
+  test('Obscure-est: "Despacito" is the original, not the remix', () => {
+    assert.equal(scoreGuess(cat('songs-Justin Bieber'), 'Despacito').answer?.text, 'Despacito');
+    assert.equal(scoreGuess(cat('songs-Justin Bieber'), 'Despacito (Remix)').answer?.text, 'Despacito (Remix)');
+  });
+  test('chart board: with the original found, "Despacito" fills the remix', () => {
+    const items = [
+      { id: 'r', rank: 1, label: 'Despacito (Remix)', answers: ['Despacito (Remix)'] },
+      { id: 'o', rank: 2, label: 'Despacito', answers: ['Despacito'] }
+    ];
+    assert.equal(matchChartGuess('Despacito', items).item.id, 'o');
+    assert.equal(matchChartGuess('Despacito', items, new Set(['o'])).item.id, 'r');
+  });
+}
+
 if (failures.length) {
   failures.forEach((f) => console.error(`  x ${f}`));
   process.exit(1);

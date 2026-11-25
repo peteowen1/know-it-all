@@ -330,7 +330,11 @@ export default function App() {
       if (!pool.length) return;
       const builder = await bank();
       if (!builder) return;
-      setRevisionQuiz(builder.buildRevisionQuiz(pool.map((e) => e.id), Date.now()));
+      const built = builder.buildRevisionQuiz(pool.map((e) => e.id), Date.now());
+      // Every due id may be a question since removed from the bank: show the
+      // vault rather than open a drill with nothing in it.
+      if (!built.questions.length) return setActiveTab('vault');
+      setRevisionQuiz(built);
       setActiveTab('revision');
     },
     [vault, setActiveTab, bank]
@@ -586,7 +590,6 @@ export default function App() {
     vault: () => (
       <WeaknessVault
         vault={vault}
-        summary={summary}
         onRemove={handleForget}
         onClearAll={() => setVault([])}
         onStartRevision={startRevision}
