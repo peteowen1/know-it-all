@@ -153,6 +153,11 @@ export const GAMES = [
     recordFormat: byPoints(20)
   },
   {
+    id: 'whos-older', section: 'lab', tab: 'whos-older', icon: 'Cake', title: "Who's older?",
+    blurb: 'Two famous people: who was born first? One miss ends the run.',
+    recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)
+  },
+  {
     id: 'who-am-i', section: 'lab', tab: 'who-am-i', icon: 'User', title: 'Who am I',
     blurb: 'A famous person in three clues. Name them early to score more.',
     recordFormat: byPoints(20)

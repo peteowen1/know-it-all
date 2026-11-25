@@ -12,7 +12,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { computeBankStats } from './build-bank-stats.mjs';
-import { computeClueLadder, computeWhoAmI, computeOddOne, bankQuestions } from './build-game-slices.mjs';
+import { computeClueLadder, computeWhoAmI, computeOddOne, computeWhosOlder, bankQuestions } from './build-game-slices.mjs';
 import { buildOddRounds } from '../src/games/oddone/oddLogic.js';
 import { pickRounds, knownAnswers } from '../src/games/clueladder/ladderLogic.js';
 import { buildWhoRounds } from '../src/games/whoami/whoLogic.js';
@@ -64,6 +64,7 @@ test('clueLadder.json, whoAmI.json and oddOne.json match their sources (run npm 
   assert.deepEqual(JSON.parse(read('../src/data/clueLadder.json')), computeClueLadder(), 'clueLadder.json is stale');
   assert.deepEqual(JSON.parse(read('../src/data/whoAmI.json')), computeWhoAmI(), 'whoAmI.json is stale');
   assert.deepEqual(JSON.parse(read('../src/data/oddOne.json')), computeOddOne(), 'oddOne.json is stale');
+  assert.deepEqual(JSON.parse(read('../src/data/whosOlder.json')), computeWhosOlder(), 'whosOlder.json is stale');
 });
 test('the small files deal the same rounds as the full data, so no day changes', () => {
   const all = bankQuestions();

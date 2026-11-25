@@ -3,7 +3,7 @@
 // (registry.js, categories.js, flashcard decks, milestones). Add a name to ICONS to make it available.
 import React from 'react';
 import {
-  Atom, Award, BadgeCheck, BarChart3, Bird, BookA, BookOpen, Check, ChevronDown, ChevronRight,
+  Atom, Award, BadgeCheck, BarChart3, Bird, BookA, BookOpen, Cake, Check, ChevronDown, ChevronRight,
   Church, CalendarDays, Circle, CircleCheck, CircleHelp, CircleX, Clapperboard, Clock, Cloud,
   Coffee, Coins, Crown, Dices, Drama, Eraser, Eye, EyeOff, Film, Flag, Flame, FlaskConical, Gem,
   Ghost, Gift, Globe, Hand, Hash, Heart, Hourglass, Languages, Layers, LayoutGrid, Library,
@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 const ICONS = {
-  Atom, Award, BadgeCheck, BarChart3, Bird, BookA, BookOpen, Check, ChevronDown, ChevronRight,
+  Atom, Award, BadgeCheck, BarChart3, Bird, BookA, BookOpen, Cake, Check, ChevronDown, ChevronRight,
   Church, CalendarDays, Circle, CircleCheck, CircleHelp, CircleX, Clapperboard, Clock, Cloud,
   Coffee, Coins, Crown, Dices, Drama, Eraser, Eye, EyeOff, Film, Flag, Flame, FlaskConical, Gem,
   Ghost, Gift, Globe, Hand, Hash, Heart, Hourglass, Languages, Layers, LayoutGrid, Library,
