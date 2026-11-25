@@ -1067,6 +1067,13 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
     assert.equal(JSON.parse(w.sqt_v4_stats).totalAnswered, 140);
   });
 
+  test('sync clash: a lost reply the other device built on is not counted twice', () => {
+    // Agreed at 100. The laptop sent 110 (stored, reply lost), the phone pulled
+    // it and pushed 115, the laptop played 2 more. Measured from its own 110.
+    const w = resolveConflicts({ sqt_v4_stats: stats(112) }, { sqt_v4_stats: stats(110) }, { sqt_v4_stats: { value: stats(115), updatedAt: 9 } });
+    assert.equal(JSON.parse(w.sqt_v4_stats).totalAnswered, 117);
+  });
+
   test('sync clash: a round in progress here keeps this device copy', () => {
     const shadow = { sqt_v4_live_quiz_quiz: '{"i":1}' };
     const w = resolveConflicts({ sqt_v4_live_quiz_quiz: '{"i":3}' }, shadow, { sqt_v4_live_quiz_quiz: { value: '{"i":2}', updatedAt: 5 } });

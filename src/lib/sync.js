@@ -25,8 +25,10 @@ const KEEPALIVE_LIMIT = 60_000;
 // touched: when each key was last written on this device. Each key is sent
 // with its own time, so a batch after a spell offline does not stamp a late
 // edit with the time of the first one (which could make it lose a clash).
-// pending: values sent for each key whose reply has not come back yet, so a
-// write that landed without its reply is recognised as this device's own.
+// pending: per key, the writes sent whose reply has not come back yet, as
+// [{ wid, value }]. If one landed without its reply, the server's copy may be
+// built on it; the server's write ids say so, and that value is then the base
+// for merging rather than the older agreed copy.
 const blankMeta = () => ({ email: null, shadow: {}, updated: {}, touched: {}, pending: {} });
 
 let meta = loadMeta();
@@ -77,6 +79,11 @@ function loadBase(email) {
   } catch {
     return null;
   }
+}
+
+function newWid() {
+  const b = crypto.getRandomValues(new Uint8Array(12));
+  return btoa(String.fromCharCode(...b)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
 function readSnapshot() {
@@ -154,7 +161,8 @@ async function api(path, options = {}) {
 // A refused push merges and tries again; another device racing every retry is
 // not plausible, so a few attempts is plenty before leaving it for the next save.
 const PUSH_ATTEMPTS = 3;
-const PENDING_KEEP = 3;
+// Same value again reuses its entry, so only new play while offline adds one.
+const PENDING_KEEP = 10;
 
 /** Send changed keys. Resolves true when the server has everything this device has. */
 export async function push({ keepalive = false } = {}) {
@@ -187,13 +195,18 @@ async function pushOnce({ keepalive }) {
   const keys = {};
   // `base`: the server copy these changes were made on top of. The server
   // refuses the write if another device has written since.
-  for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt, base: meta.updated[k] || 0 };
-  const body = JSON.stringify({ keys });
-
   // Noted before sending: if the server stores this but the reply is lost,
-  // the next push must recognise the server's copy as this device's own.
-  for (const [k, v] of Object.entries(changes)) meta.pending[k] = [...(meta.pending[k] || []), v].slice(-PENDING_KEEP);
+  // the next push must recognise the server's copy as built on this write.
+  for (const [k, v] of Object.entries(changes)) {
+    const list = meta.pending[k] || [];
+    if (!list.some((p) => p.value === v)) meta.pending[k] = [...list, { wid: newWid(), value: v }].slice(-PENDING_KEEP);
+  }
   saveMeta();
+  for (const [k, v] of Object.entries(changes)) {
+    const wid = meta.pending[k].find((p) => p.value === v).wid;
+    keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt, base: meta.updated[k] || 0, wid };
+  }
+  const body = JSON.stringify({ keys });
 
   const email = meta.email;
   setStatus('syncing');
@@ -222,11 +235,19 @@ async function pushOnce({ keepalive }) {
 
     const clashes = {};
     const ownEarlier = {};
+    // Per key, what this device's changes are measured from: the agreed copy,
+    // or its own newest write the server's copy is built on.
+    const bases = { ...meta.shadow };
     let mergedSomething = false;
     for (const [k, e] of Object.entries(conflicts)) {
+      const sent = meta.pending[k] || [];
+      const landed = [...sent].reverse().find((p) => (e.wids || []).includes(p.wid));
       if (e.value === changes[k]) stored[k] = e.updatedAt;
-      else if ((meta.pending[k] || []).includes(e.value)) ownEarlier[k] = e;
-      else clashes[k] = e;
+      else if (sent.some((p) => p.value === e.value)) ownEarlier[k] = e;
+      else {
+        if (landed) bases[k] = landed.value;
+        clashes[k] = e;
+      }
     }
 
     // Merge against the copy these changes were made on, before moving it on,
@@ -235,7 +256,7 @@ async function pushOnce({ keepalive }) {
     // server's copy is recorded as agreed, so a failed write leaves the old
     // bookkeeping and the next push clashes and merges again.
     if (Object.keys(clashes).length) {
-      const merged = resolveConflicts(readSnapshot(), meta.shadow, clashes);
+      const merged = resolveConflicts(readSnapshot(), bases, clashes);
       if (Object.keys(merged).length) writeKeys(merged);
       mergedSomething = Object.keys(merged).length > 0;
     }
@@ -295,6 +316,10 @@ export async function pull() {
     writeKeys(apply);
     for (const [k, entry] of Object.entries(server)) {
       if (!isSyncedKey(k)) continue;
+      // Written here after the server copy and kept (see planPull): the base
+      // stays the old copy, so the next push is refused and merged instead of
+      // overwriting the other device's progress.
+      if ((meta.touched[k] || 0) > (entry.updatedAt || 0) && !(k in apply)) continue;
       if ((entry.updatedAt || 0) > (meta.updated[k] || 0)) {
         meta.updated[k] = entry.updatedAt;
         if (entry.value === null) delete meta.shadow[k];

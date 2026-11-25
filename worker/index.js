@@ -16,6 +16,8 @@ const SESSION_DAYS = 180;
 const DAY_MS = 86_400_000;
 const MAX_BODY = 512 * 1024;
 const MAX_KEYS = 300;
+// How long the write history behind lost-reply detection is kept.
+const WRITES_KEEP_MS = 60 * 24 * 60 * 60 * 1000;
 const HANDOFF_MINUTES = 15;
 const OLD_ORIGIN = `https://${OLD_HOST}`;
 
@@ -61,7 +63,10 @@ async function route(request, env, url) {
     if (method === 'GET') return syncGet(env, sub);
     if (method === 'PUT') return syncPut(request, env, sub);
     if (method === 'DELETE') {
-      await env.DB.prepare('DELETE FROM kv WHERE sub = ?').bind(sub).run();
+      await env.DB.batch([
+        env.DB.prepare('DELETE FROM kv WHERE sub = ?').bind(sub),
+        env.DB.prepare('DELETE FROM kv_writes WHERE sub = ?').bind(sub)
+      ]);
       return json({ ok: true });
     }
   }
@@ -144,7 +149,9 @@ async function syncPut(request, env, sub) {
     const t = Number(entry?.updatedAt);
     const hasBase = entry && 'base' in entry;
     const base = Number(entry?.base);
-    if (!isSyncedKey(key) || !(value === null || typeof value === 'string') || !Number.isFinite(t) || (hasBase && !Number.isFinite(base))) {
+    const wid = entry?.wid;
+    const badWid = wid !== undefined && !(typeof wid === 'string' && /^[A-Za-z0-9_-]{8,40}$/.test(wid));
+    if (!isSyncedKey(key) || !(value === null || typeof value === 'string') || !Number.isFinite(t) || (hasBase && !Number.isFinite(base)) || badWid) {
       return json({ error: `Bad entry for ${String(key).slice(0, 40)}.` }, 400);
     }
     // A device whose clock runs fast would otherwise win every clash for as
@@ -181,22 +188,41 @@ async function syncPut(request, env, sub) {
 
   const stored = {};
   const refused = [];
+  const history = [env.DB.prepare('DELETE FROM kv_writes WHERE sub = ? AND updated_at < ?').bind(sub, now - WRITES_KEEP_MS)];
   let i = 0;
   for (const [key, entry] of entries) {
     const r = results[i++];
     if (!(entry && 'base' in entry)) continue;
     const row = r?.results?.[0];
-    if (row) stored[key] = row.updated_at;
-    else refused.push(key);
+    if (!row) {
+      refused.push(key);
+      continue;
+    }
+    stored[key] = row.updated_at;
+    if (entry.wid) {
+      history.push(
+        env.DB.prepare('INSERT OR REPLACE INTO kv_writes (sub, key, wid, updated_at) VALUES (?, ?, ?, ?)')
+          .bind(sub, key, entry.wid, row.updated_at)
+      );
+    }
   }
-  // The copies that won, so the device can merge its changes into them.
+  await env.DB.batch(history);
+
+  // The copies that won, so the device can merge its changes into them, with
+  // the ids of every write since the copy the device built on: if one is its
+  // own (a reply it never got), the winning copy already holds those plays.
+  // Whole-account reads, filtered here: an IN list of refused keys could pass
+  // D1's limit on bound values.
   const conflicts = {};
   if (refused.length) {
-    const marks = refused.map(() => '?').join(', ');
-    const { results: rows } = await env.DB.prepare(
-      `SELECT key, value, updated_at FROM kv WHERE sub = ? AND key IN (${marks})`
-    ).bind(sub, ...refused).all();
-    for (const r of rows) conflicts[r.key] = { value: r.value, updatedAt: r.updated_at };
+    const want = new Set(refused);
+    const { results: rows } = await env.DB.prepare('SELECT key, value, updated_at FROM kv WHERE sub = ?').bind(sub).all();
+    for (const r of rows) if (want.has(r.key)) conflicts[r.key] = { value: r.value, updatedAt: r.updated_at, wids: [] };
+    const { results: writes } = await env.DB.prepare('SELECT key, wid, updated_at FROM kv_writes WHERE sub = ?').bind(sub).all();
+    for (const w of writes) {
+      const c = conflicts[w.key];
+      if (c && w.updated_at > Number(body.keys[w.key].base)) c.wids.push(w.wid);
+    }
   }
   // `received` is how many were sent, for older copies of the app; newer ones
   // read `stored` and `conflicts`. Without a base, an older copy loses silently.
