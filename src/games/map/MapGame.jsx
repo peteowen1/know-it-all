@@ -12,12 +12,19 @@ const STAT_ID = 'map';
 const NAME = new Map(COUNTRIES.map((c) => [c.code, c.name]));
 // One small file per view (scripts/build-world-map.mjs), loaded when played.
 const VIEW_FILES = import.meta.glob('../../data/map/*.json', { import: 'default' });
-const loadView = (id) => VIEW_FILES[`../../data/map/${id}.json`]();
 const VIEWS = [
   ['europe', 'Europe'], ['africa', 'Africa'], ['middle-east', 'Middle East'], ['asia', 'Asia'],
   ['north-america', 'North America'], ['central-america', 'Central America and Caribbean'],
   ['south-america', 'South America'], ['oceania', 'Oceania']
 ];
+const KNOWN = new Set(VIEWS.map(([id]) => id));
+const loadView = (id) => {
+  const file = VIEW_FILES[`../../data/map/${id}.json`];
+  return file ? file() : Promise.reject(new Error(`No map called ${id}`));
+};
+// A round saved by an older build (a view since renamed, or another shape)
+// starts over rather than crash on every open.
+const usable = (r) => r && KNOWN.has(r.view) && Array.isArray(r.targets) && Array.isArray(r.answers) ? r : null;
 
 /**
  * Find it on the map: a country is named; tap it. Ten a round, one tap each.
@@ -25,20 +32,28 @@ const VIEWS = [
  * you miss come back more often.
  */
 export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
-  const [viewId, setViewId] = usePersistentState('map_view', 'europe');
+  const [savedViewId, setViewId] = usePersistentState('map_view', 'europe');
+  const viewId = KNOWN.has(savedViewId) ? savedViewId : 'europe';
   // Saved so a round survives the app being closed (see src/lib/persist.js).
-  const [round, setRound] = usePersistentState('map_round', null);
-  const [view, setView] = useState(null);
+  const [savedRound, setRound] = usePersistentState('map_round', null);
+  const round = usable(savedRound);
+  const [loaded, setLoaded] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const rand = useRef(makeRng(Date.now() >>> 0));
+  // The question last answered. Two taps landing before a re-render would
+  // both see it unanswered and record it (and on the last one, the round)
+  // twice; this ref is updated at once (as CountryQuiz's answeredUpTo).
+  const answeredUpTo = useRef((round?.answers.length ?? 0) - 1);
   const entry = gameEntry(stats, STAT_ID);
   const shownId = round?.view || viewId;
+  // The loaded view only counts once it is the one asked for: just after a
+  // switch the previous one is still in state.
+  const view = loaded?.id === shownId ? loaded : null;
 
   useEffect(() => {
     let live = true;
-    setView(null);
     loadView(shownId)
-      .then((v) => live && setView(v))
+      .then((v) => live && setLoaded(v))
       .catch((err) => live && setLoadError(err));
     return () => {
       live = false;
@@ -50,6 +65,7 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
     if (!view) return;
     const codes = playableCodes(view);
     const targets = pickTargets(codes, itemWeights(stats, STAT_ID, codes), rand.current);
+    answeredUpTo.current = -1;
     setRound({ view: view.id, targets, index: 0, answers: [], tapped: null });
   };
 
@@ -108,7 +124,8 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
   const right = answers.filter((a) => a.correct).length;
 
   const tap = (code) => {
-    if (answered || !code) return;
+    if (answered || !code || answeredUpTo.current >= index) return;
+    answeredUpTo.current = index;
     const correct = code === target;
     const nextAnswers = [...answers, { key: target, correct, ...(correct ? {} : { tapped: code }) }];
     setRound({ ...round, answers: nextAnswers, tapped: code });
