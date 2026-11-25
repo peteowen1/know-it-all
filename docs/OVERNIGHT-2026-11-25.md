@@ -18,3 +18,8 @@ Rules this run never breaks:
   close open titles, the one whose full title is the guess wins.
 - The Vault counts only questions still in the bank, and a drill whose due
   questions were all removed opens the Vault instead of an empty round.
+- Lint: the two old warnings are gone (`preloadFlags` has its own file).
+- `npm update` within the allowed ranges (React 19.3, Vite 8.3, wrangler
+  4.168, lucide-react 1.80, oxlint 1.95): build, lint and all tests pass.
+  The newer oxlint adds 14 React warnings, queued in NEXT-STEPS.
+- Review: one Sonnet reviewer, 0 important findings.

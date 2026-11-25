@@ -1613,7 +1613,6 @@ test('data: shipped files carry only fields something reads (lib/output.mjs SHIP
 });
 
 // ------------------------------------------------------------------ report
-console.log(`\n${pass} passed, ${failures.length} failed`);
 // Obscure-est answers that tidy down to one character, and a song listed
 // both as itself and as a remix (NEXT-STEPS, 2026-11-25 review).
 {
@@ -1644,6 +1643,7 @@ console.log(`\n${pass} passed, ${failures.length} failed`);
   });
 }
 
+console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {
   failures.forEach((f) => console.error(`  x ${f}`));
   process.exit(1);

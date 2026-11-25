@@ -52,6 +52,13 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   `AnalyticsDashboard` "N tracked in the vault" uses App's `vaultSummary`,
   which cannot see the bank until it loads. Small; prune only once every
   device runs a bundle with the same bank, or a stale tab deletes new ids.
+- OPEN **14 new React lint warnings** since oxlint 1.95 (2026-11-25
+  `npm update`): refs read during render (`ListGame.jsx:131`,
+  `ChartGame.jsx:237`, `HigherLower.jsx:94`, `QuizSimulator.jsx:447`),
+  `Date.now()` during render (`HigherLower.jsx:79`, `FirstNames.jsx:140`,
+  `ChartGame.jsx:219`) and setState in an effect (`App.jsx:443`, `:633`).
+  Warnings only, CI passes. Each needs a look at whether it is a real stale
+  value or the countdown-timer pattern the rule cannot see.
 
 ## Check
 
