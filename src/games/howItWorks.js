@@ -114,6 +114,11 @@ export const HOW_IT_WORKS = {
     score: 'One point per name on the right curve, 20 in all. Each curve has its own scale, so match the shape and when it peaked, not the height.',
     source: 'English Wikipedia monthly pageviews since 2016 for the Famous first names people with a clear peak, the top month at least five times their typical one. Why each peaked comes from the weekly Top 25 Report on Wikipedia, checked by hand. Idea from Daily Orbs.'
   },
+  'whos-older': {
+    play: 'The left card shows the year someone was born. Was the person on the right born before or after them? A right call moves them across and brings in someone new.',
+    score: 'One point per right call; one miss ends the run. The gap between birth years starts wide (15 to 40 years) and closes as the run grows, down to a year or two.',
+    source: "The Famous first names people: the most-read on English Wikipedia since 2016, with Wikidata's birth year and Wikipedia's short description, years taken out. Two people born the same year are never paired, since only the year is known."
+  },
   'odd-one-out': {
     play: 'Four answers: three share a link and one does not. Pick the odd one out.',
     score: 'One point per right pick. The answer shows the link and where the odd one belongs.',

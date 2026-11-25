@@ -26,6 +26,7 @@ import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact } from '../src/games/nameyear/nameYearLogic.js';
 import { geoNames, pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
+import { POOLS, describe, formatYear, gapRange, nextPerson, firstPair, bornBefore } from '../src/games/older/olderLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
 import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel, scaleBounds, formatLevel } from '../src/games/vocab/vocabTest.js';
@@ -1650,6 +1651,59 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
   const server = { sqt_v4_stats: { value: '{"totalAnswered":3}', updatedAt: 5 }, sqt_v4_setup: { value: null, updatedAt: 6 } };
   assert.deepEqual(adoptAccount(server, local), { sqt_v4_stats: '{"totalAnswered":3}', sqt_v4_games: null, sqt_v4_setup: null });
 });
+
+// Who's older? (added 2026-11-26).
+{
+  const people = JSON.parse(readFileSync(new URL('../src/data/whosOlder.json', import.meta.url), 'utf8')).people;
+  test("Who's older: no card text gives a year away", () => {
+    assert.equal(people.length, Math.max(...Object.values(POOLS)));
+    for (const p of people) {
+      assert.ok(Number.isInteger(p.born), p.name);
+      assert.ok(!/\d/.test(p.who), `${p.name}: ${p.who}`);
+    }
+    assert.equal(describe('English footballer (born 1995)'), 'English footballer');
+    assert.equal(describe('President of the United States from 1861 to 1865'), 'President of the United States');
+    assert.equal(describe('Leader of Russia since 1999'), 'Leader of Russia');
+  });
+  test("Who's older: BC years and before/after", () => {
+    assert.equal(formatYear(-100), '100 BC');
+    assert.equal(formatYear(1946), '1946');
+    assert.equal(bornBefore({ born: 1940 }, { born: 1946 }), true);
+    assert.equal(bornBefore({ born: 1950 }, { born: 1946 }), false);
+  });
+  test("Who's older: every pick is a new person, a different year, the nearest when none is close", () => {
+    const rand = makeRng(7);
+    for (const size of Object.values(POOLS)) {
+      const pool = people.slice(0, size);
+      for (let trial = 0; trial < 20; trial++) {
+        const { left, right } = firstPair(pool, rand);
+        const seen = new Set([left.id, right.id]);
+        let cur = right;
+        for (let run = 0; run < 40; run++) {
+          const next = nextPerson(cur, pool, rand, { seen, run });
+          assert.ok(next, 'a run ended with people left');
+          const gap = Math.abs(next.born - cur.born);
+          const open = pool.filter((p) => !seen.has(p.id) && p.born !== cur.born);
+          assert.ok(!seen.has(next.id), 'repeat');
+          assert.ok(gap >= 1, 'same year');
+          if (gap > 60) assert.ok(open.every((p) => Math.abs(p.born - cur.born) >= gap), `${cur.name} to ${next.name}: not the nearest`);
+          seen.add(next.id);
+          cur = next;
+        }
+      }
+    }
+    // Mostly inside the range: the fallback is for the rare person with no one near.
+    const pool = people.slice(0, POOLS.household);
+    let inside = 0;
+    for (let i = 0; i < 300; i++) {
+      const cur = pool[i % pool.length];
+      const n = nextPerson(cur, pool, rand, { run: 0 });
+      const [lo, hi] = gapRange(0);
+      if (n && Math.abs(n.born - cur.born) >= lo && Math.abs(n.born - cur.born) <= hi) inside++;
+    }
+    assert.ok(inside >= 270, `${inside} of 300 inside the first gap range`);
+  });
+}
 
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {

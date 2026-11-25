@@ -178,6 +178,7 @@
   font-variant-numeric: tabular-nums;
   color: var(--accent-text);
 }
+.older-who { color: var(--ink-3); font-size: var(--fs-sm); text-align: center; }
 .hl-vs { color: var(--ink-3); font-size: var(--fs-sm); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
 .hl-buttons { display: flex; flex-direction: column; align-items: center; gap: var(--s-3); text-align: center; }
 

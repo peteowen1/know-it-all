@@ -13,6 +13,8 @@
 //   src/data/whoAmI.json      each first name's top 15, the fields Who am I reads
 //   src/data/oddOne.json      the obscure.json answers Odd one out can ask, and
 //                             every other answer that matches one of them
+//   src/data/whosOlder.json   the most-read people, with birth year and a
+//                             description cleared of years
 //
 // Run by `npm run validate` and `npm run build`, so none can go stale;
 // scripts/test-lib.mjs checks each against its source.
@@ -23,6 +25,7 @@ import { fileURLToPath } from 'node:url';
 import { eligibleQuestions, knownAnswers } from '../src/games/clueladder/ladderLogic.js';
 import { WELL_KNOWN, SKIP_FAMILIES, family } from '../src/games/oddone/oddLogic.js';
 import { normalise } from '../src/games/names/nameMatch.js';
+import { POOLS, describe } from '../src/games/older/olderLogic.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = join(ROOT, 'src', 'data');
@@ -99,8 +102,21 @@ export function computeOddOne() {
   };
 }
 
+/**
+ * Who's older? draws from the most-read people (olderLogic.js POOLS), most
+ * read first, once each (a person can sit under two first names), with the
+ * description's years taken out so the card cannot give the answer away.
+ */
+export function computeWhosOlder() {
+  const { names } = JSON.parse(read('famous.json'));
+  const byId = new Map();
+  for (const b of names) for (const p of b.people) if (Number.isInteger(p.born) && !byId.has(p.id)) byId.set(p.id, p);
+  const top = [...byId.values()].sort((a, b) => b.views - a.views || a.id.localeCompare(b.id)).slice(0, Math.max(...Object.values(POOLS)));
+  return { people: top.map((p) => ({ id: p.id, name: p.name, born: p.born, who: describe(p.description) })) };
+}
+
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
-  for (const [file, data] of [['clueLadder.json', computeClueLadder()], ['whoAmI.json', computeWhoAmI()], ['oddOne.json', computeOddOne()]]) {
+  for (const [file, data] of [['clueLadder.json', computeClueLadder()], ['whoAmI.json', computeWhoAmI()], ['oddOne.json', computeOddOne()], ['whosOlder.json', computeWhosOlder()]]) {
     const text = JSON.stringify(data);
     writeFileSync(join(DATA, file), text);
     console.log(`${file}: ${text.length.toLocaleString('en-US')} bytes`);
