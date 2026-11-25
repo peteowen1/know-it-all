@@ -214,16 +214,31 @@ async function pushOnce({ keepalive }) {
     // earlier write whose reply never arrived (keepalive on locking the phone,
     // a dropped connection). That copy is the agreed one, with no merge:
     // merging would add this device's plays in a second time.
+    // Every key sent must come back stored or refused; anything else is a
+    // reply this device cannot account for, so it must not report success.
+    const answered = new Set([...Object.keys(stored), ...Object.keys(conflicts)]);
+    const unanswered = Object.keys(keys).filter((k) => !answered.has(k));
+    if (unanswered.length) throw new Error(`server answered neither way for ${unanswered.join(', ')}`);
+
     const clashes = {};
     const ownEarlier = {};
+    let mergedSomething = false;
     for (const [k, e] of Object.entries(conflicts)) {
       if (e.value === changes[k]) stored[k] = e.updatedAt;
       else if ((meta.pending[k] || []).includes(e.value)) ownEarlier[k] = e;
       else clashes[k] = e;
     }
 
-    // Merge against the copy these changes were made on, before moving it on.
-    const merged = Object.keys(clashes).length ? resolveConflicts(current, meta.shadow, clashes) : {};
+    // Merge against the copy these changes were made on, before moving it on,
+    // and from storage as it is now: anything played while the request was out
+    // is part of what this device adds. The merge is written before the
+    // server's copy is recorded as agreed, so a failed write leaves the old
+    // bookkeeping and the next push clashes and merges again.
+    if (Object.keys(clashes).length) {
+      const merged = resolveConflicts(readSnapshot(), meta.shadow, clashes);
+      if (Object.keys(merged).length) writeKeys(merged);
+      mergedSomething = Object.keys(merged).length > 0;
+    }
 
     const agree = (k, value, updatedAt) => {
       if (value === null) delete meta.shadow[k];
@@ -254,12 +269,9 @@ async function pushOnce({ keepalive }) {
       setStatus('idle');
       return true;
     }
-    // Write the merge and remount in one go: the app still holds the old
-    // values in memory and would otherwise save them back over the merge.
-    if (Object.keys(merged).length) {
-      writeKeys(merged);
-      remount();
-    }
+    // Remount in the same synchronous run as the merge write: the app still
+    // holds the old values in memory and would otherwise save them back over it.
+    if (mergedSomething) remount();
     return 'refused';
   } catch (err) {
     if (meta.email) setStatus('offline');

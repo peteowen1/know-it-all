@@ -215,8 +215,9 @@ export function rebaseSnapshots(local, server, base) {
     try {
       const merged = mergeProgress(progressSince(side(local), side(base)), side(server));
       for (const [field, key] of Object.entries(PROFILE)) if (both.includes(key)) writes[key] = JSON.stringify(merged[field]);
-    } catch {
+    } catch (err) {
       // Unreadable data: the account's copy, already in `writes`, stands.
+      console.warn('Progress merge failed; keeping the account copy.', err);
     }
   }
   if (both.includes(WEEKLY)) {
@@ -261,7 +262,8 @@ export function resolveConflicts(local, shadow, conflicts) {
   if (DAILY_DONE in conflicts) {
     const mine = parse(local[DAILY_DONE], {});
     const theirs = parse(conflicts[DAILY_DONE].value, {});
-    if (isMap(mine) && isMap(theirs)) {
+    if (!isMap(mine) || !isMap(theirs)) console.warn('daily_done unreadable on one side; keeping this device copy.');
+    else {
       const out = { ...theirs };
       for (const [tab, date] of Object.entries(mine)) if (!out[tab] || date > out[tab]) out[tab] = date;
       writes[DAILY_DONE] = JSON.stringify(out);
@@ -271,6 +273,7 @@ export function resolveConflicts(local, shadow, conflicts) {
     const mine = parse(local[DAILY_COUNTED], {});
     const theirs = parse(conflicts[DAILY_COUNTED].value, {});
     if (isMap(mine) && isMap(theirs)) writes[DAILY_COUNTED] = JSON.stringify({ ...theirs, ...mine });
+    else console.warn('daily_counted unreadable on one side; keeping this device copy.');
   }
   return writes;
 }
