@@ -240,7 +240,7 @@ export default function CountryQuiz({
       >
         {missed.length > 0 && <h3 className="eyebrow">Missed this round</h3>}
         {missed.map(({ target: c }) => (
-          <AnswerRow key={c.code} state="missed" lead={<Flag code={c.code} size="sm" decorative />} trail={`capital ${c.capitals[0]}`}>
+          <AnswerRow key={c.code} state="missed" lead={<Flag code={c.code} size="sm" decorative />} trail={c.capitals[0] ? `capital ${c.capitals[0]}` : undefined}>
             <strong>{c.name}</strong>
           </AnswerRow>
         ))}
@@ -304,7 +304,7 @@ export default function CountryQuiz({
       {answered && (
         <>
           <p className="play-fact">
-            <strong>{q.target.name}</strong>: capital {q.target.capitals[0]} · {factLine(q.target)}
+            <strong>{q.target.name}</strong>{q.target.capitals[0] ? `: capital ${q.target.capitals[0]}` : ''} · {factLine(q.target)}
             {statsLine(q.target) && <><br />{statsLine(q.target)}</>}
             {lookalikes.length > 0 && (
               <><br />Same flag as {lookalikes.join(', ')} apart from its proportions.</>

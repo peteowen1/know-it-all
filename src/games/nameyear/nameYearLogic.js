@@ -76,6 +76,8 @@ export function buildYearRounds(events, { seed = Date.now(), count = ROUNDS } = 
     const kinds = new Set();
     for (const e of shuffle(byYear[year], rand)) {
       if (kinds.has(e.kind)) continue;
+      // "Candle in the Wind 1997" would give the year away.
+      if (e.text.includes(String(year))) continue;
       kinds.add(e.kind);
       clues.push(e);
       if (clues.length === 3) break;

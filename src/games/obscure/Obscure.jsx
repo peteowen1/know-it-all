@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../../data/obscure.json';
-import { pickCategories, scoreGuess, ROUNDS } from './obscureLogic';
+import { COUNTRIES } from '../geo/countries';
+import { geoNames, pickCategories, scoreGuess, ROUNDS } from './obscureLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
@@ -8,6 +9,10 @@ import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import { GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import KindIcon from '../shared/KindIcon';
+
+// Every country and capital name, built once: a guess that is exactly
+// another place is a miss, not a typo of this category's answer.
+const placeNames = geoNames(COUNTRIES);
 
 /**
  * Obscure-est: one answer per category, any right answer scores, rarer right
@@ -92,7 +97,7 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
     e.preventDefault();
     const guess = game.input.trim();
     if (done || !guess) return;
-    const r = scoreGuess(cat, guess);
+    const r = scoreGuess(cat, guess, placeNames);
     // Ambiguous is not an answer yet: ask for more rather than score it 0.
     if (r.ambiguous) {
       setGame({ ...game, note: 'That matches more than one answer here. Be more specific.' });

@@ -8,7 +8,7 @@
 // content-hashed by Vite, so a new build produces new keys automatically and
 // old entries are cleaned up on activate.
 
-const CACHE_VERSION = 'sqt-v3';
+const CACHE_VERSION = 'sqt-v4';
 
 // Runtime entries are capped, oldest first, so every deploy's new hashed files
 // don't pile up forever. Code (JS/CSS) and everything else (mostly ~540 flag
@@ -55,6 +55,10 @@ self.addEventListener('fetch', (event) => {
   // Never cache cross-origin requests (the Google Fonts stylesheet); letting
   // them fail closed keeps the app usable offline with fallback fonts.
   if (url.origin !== self.location.origin) return;
+  // The sync API (/api/sync, /api/me) must always hit the network: cached, a
+  // phone kept reading its first snapshot and never saw another device's
+  // progress, and never noticed a signed-out session.
+  if (url.pathname.startsWith('/api/')) return;
 
   if (request.mode === 'navigate') {
     event.respondWith(

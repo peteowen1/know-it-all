@@ -2,8 +2,14 @@
 // so scripts/test-logic.mjs covers it.
 
 /** "Beyoncé Knowles-Carter" -> "beyonce knowles carter". */
+// Letters NFD leaves whole, so the accent strip below would turn them into
+// spaces: "Kjær" must match "Kjaer", "Bø" must match "Bo".
+const SPELLED = { ø: 'o', æ: 'ae', œ: 'oe', ł: 'l', đ: 'd', ð: 'd', ß: 'ss', þ: 'th', ı: 'i' };
+
 export function normalise(s) {
   return s
+    .toLowerCase()
+    .replace(/[øæœłđðßþı]/g, (ch) => SPELLED[ch])
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()

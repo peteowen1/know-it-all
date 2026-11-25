@@ -10,6 +10,21 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 - OPEN **Match the curve in Today?** Live in the Lab since 2026-10-24 (#83,
   #84) but not in the Today tabs (`TODAY_TABS` in `GameHub.jsx`). Play it,
   then add it or say what felt off.
+- OPEN **Sync can lose progress between two live devices** (full review
+  2026-11-25, still live). Progress keys (`stats`, `missed`, `games`) sync as
+  whole blobs, newest `updatedAt` wins (`worker/index.js:152`,
+  `src/lib/syncCore.js:39`). A laptop tab left visible never re-pulls, so its
+  next save overwrites the phone's newer plays. Pulling more often would remount
+  the app mid-game. Recommended fix: the client sends the `updatedAt` it last
+  saw per key and the server answers 409 on a stale write, then the client
+  pulls, merges with `mergeSnapshots`, and retries. Needs Pete's yes as a sync
+  design change.
+- OPEN **Switching Google accounts on one device mixes them** (same review,
+  still live). Signing out keeps one base copy tagged with the old email;
+  signing in as someone else finds no base and merges this device's local
+  history into the new account (`src/lib/sync.js:287-313`), and switching back
+  doubles totals. Only matters on a shared device. Recommended fix: when a base
+  for a different email exists, take the new account as-is instead of merging.
 
 ## Data
 
@@ -27,6 +42,21 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   puzzles. A herring surname is capped at two puzzles from now on (Sally Field
   was already in three). Gold, Silver, ___ Cake and ___mark found no fit in the
   10 new slots; they are there for the next top-up.
+
+## Fix (small, from the 2026-11-25 full review)
+
+- OPEN **Hand-over retry can merge twice**: `src/lib/handoff.js` writes keys
+  before recording the parcel id, so a quota error part-way then "reload to
+  retry" adds totals again. Record the id first or roll back.
+- OPEN **Obscure-est answers that cannot be typed**: "The 1" (Taylor Swift
+  songs) and "W." (Oliver Stone films) tidy down to one character and the
+  matcher drops guesses under 2 (`obscureLogic.js` tidy, `chartLogic.js:144`).
+- OPEN **Duplicate song titles credit the remix**: typing "Despacito" credits
+  "Despacito (Remix)" (`chartLogic.js:151` breaks a tie by rank). Prefer the
+  entry whose full title equals the guess.
+- OPEN **Vault counts questions removed from the bank**: `vaultSummary` counts
+  entries `WeaknessVault` and `buildRevisionQuiz` drop, so a drill can open on
+  "No questions match".
 
 ## Check
 

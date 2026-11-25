@@ -68,6 +68,11 @@ test('typed guesses: case, punctuation, "The", typos', () => {
   assert.ok(!guessIsRight('Amazon', 'Nile'));
   assert.ok(!guessIsRight('', 'Nile'));
   assert.ok(!guessIsRight('Cat', 'Car'));
+  // A short form is right even when that word answers another question.
+  const known = new Set(['everest', 'chad']);
+  assert.ok(guessIsRight('everest', 'Mount Everest', [], known));
+  assert.ok(guessIsRight('chad', 'Lake Chad', [], known));
+  assert.ok(!guessIsRight('chad', 'Lake Victoria', [], known));
 });
 
 test('real bank: enough fair questions across categories, none leaking the answer', () => {

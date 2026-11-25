@@ -136,6 +136,8 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
     const marks = r.people.map((_, j) => r.order[placed.indexOf(j)] === j);
     const right = marks.filter(Boolean).length;
     const next = [...results, { placed, marks, right }];
+    // A name picked but never placed must not stay picked into the next round.
+    setChosen(null);
     setGame({ ...game, results: next, placed: [] });
     if (next.length === rounds.length) {
       onRoundComplete('match-curve', { day: game.daily ? game.date : null, score: next.reduce((n, x) => n + x.right, 0), total: TOTAL, answers: [] });

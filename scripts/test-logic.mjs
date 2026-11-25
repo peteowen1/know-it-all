@@ -25,7 +25,7 @@ import { makeRng } from '../src/lib/rng.js';
 import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact } from '../src/games/nameyear/nameYearLogic.js';
-import { pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
+import { geoNames, pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
 import { testContext, nextRound, prior, update, estimate, guessRate, TEST_LENGTH, describeLevel, scaleBounds, formatLevel } from '../src/games/vocab/vocabTest.js';
@@ -845,6 +845,16 @@ test('obscure: rarity is sensible (China: India obvious, Bhutan rare)', () => {
   const s = (name) => scoreGuess(china, name).score;
   assert.ok(s('India') < 10 && s('Bhutan') > 90, `India ${s('India')}, Bhutan ${s('Bhutan')}`);
   assert.equal(s('Japan'), 0);
+});
+test('obscure: another real place is a miss, not a typo (Australia for Austria)', () => {
+  const names = geoNames(JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8')).countries);
+  const de = OBS.find((c) => c.id === 'borders-DE');
+  assert.equal(scoreGuess(de, 'Australia', names).score, 0);
+  assert.ok(scoreGuess(de, 'Austria', names).score > 0);
+  assert.ok(scoreGuess(de, 'Austia', names).score > 0);
+  const cn = OBS.find((c) => c.id === 'borders-CN');
+  assert.equal(scoreGuess(cn, 'South Korea', names).score, 0);
+  assert.ok(scoreGuess(cn, 'North Korea', names).score > 0);
 });
 test('obscure: famous-person categories accept a surname alone', () => {
   const toms = OBS.find((c) => c.id === 'name-Tom');
