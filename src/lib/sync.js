@@ -444,8 +444,8 @@ async function signInAndMerge(credential) {
     setStatus('signed-out');
     // Signed out here, so end the server session too rather than leave it
     // open until it expires. Not awaited: a hung request must not hold up
-    // the error message.
-    fetch('/api/auth/signout', { method: 'POST', credentials: 'same-origin' }).catch((e) =>
+    // the error message. keepalive lets it finish if the page closes.
+    fetch('/api/auth/signout', { method: 'POST', credentials: 'same-origin', keepalive: true }).catch((e) =>
       console.warn('Sign-out did not reach the server; the session will expire on its own.', e)
     );
     throw err;
