@@ -71,6 +71,9 @@ export function removeStored(name) {
 
 // The last copy sync.js agreed with the account, kept after signing out.
 export const SYNC_BASE_KEY = 'kia_sync_base';
+// What was played here while signed out, kept when signing in as a different
+// account replaced it (sync.js). Never synced; recoverable by hand only.
+export const SWITCHED_FROM_KEY = 'kia_switched_from';
 
 /** Reset: remove every key this app (any version) has ever written. */
 export function clearAllStored() {
@@ -81,4 +84,5 @@ export function clearAllStored() {
   // that account's history, so signing back in should take the account as-is
   // rather than replay the reset onto it.
   localStorage.removeItem(SYNC_BASE_KEY);
+  localStorage.removeItem(SWITCHED_FROM_KEY);
 }

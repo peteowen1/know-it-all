@@ -14,7 +14,7 @@
 // is exactly the local-only app it was before.
 
 import { adoptAccount, diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, isSyncedKey } from './syncCore.js';
-import { onDirty, SYNC_BASE_KEY as BASE_KEY } from './storage.js';
+import { onDirty, SYNC_BASE_KEY as BASE_KEY, SWITCHED_FROM_KEY } from './storage.js';
 
 const META_KEY = 'kia_sync';
 const PUSH_DELAY_MS = 1500;
@@ -81,18 +81,16 @@ function loadBase(email) {
   }
 }
 
-/** The email the kept base copy belongs to, or null. */
-function baseOwner() {
+/** The kept base copy, whoever it belongs to: { email, shadow } or null. */
+function keptBase() {
   try {
-    return JSON.parse(localStorage.getItem(BASE_KEY) || 'null')?.email || null;
-  } catch {
+    const base = JSON.parse(localStorage.getItem(BASE_KEY) || 'null');
+    return base?.email ? { email: base.email, shadow: base.shadow || {} } : null;
+  } catch (err) {
+    console.warn('The last synced copy is unreadable; signing in will merge.', err);
     return null;
   }
 }
-
-// What a sign-in as a different account replaced, kept on this device only
-// (not a synced key) so nothing played while signed out is lost for good.
-const SWITCHED_FROM_KEY = 'kia_switched_from';
 
 function newWid() {
   const b = crypto.getRandomValues(new Uint8Array(12));
@@ -394,20 +392,28 @@ async function signInAndMerge(credential) {
 
   try {
     const base = loadBase(email);
-    const previous = baseOwner();
+    const previous = keptBase();
     // Last synced as someone else: the progress stored here is theirs.
-    const switching = !base && Boolean(previous) && previous !== email;
+    const switching = !base && Boolean(previous) && previous.email !== email;
     if (hasData || switching) {
       const { keys: server } = hasData ? await api('/sync') : { keys: {} };
       const local = readSnapshot();
       if (switching) {
         // Take the account as it is. Merging would add the other account's
         // totals into this one, and switching back would add them again.
-        if (Object.keys(local).length) {
+        // What was played here after signing out of the other account is on
+        // no server. Keep it on this device, and if there is no room to, stop
+        // rather than delete it.
+        const unsynced = {};
+        for (const k of new Set([...Object.keys(local), ...Object.keys(previous.shadow)])) {
+          if ((local[k] ?? null) !== (previous.shadow[k] ?? null)) unsynced[k] = local[k] ?? null;
+        }
+        if (Object.keys(unsynced).length) {
           try {
-            localStorage.setItem(SWITCHED_FROM_KEY, JSON.stringify({ email: previous, at: Date.now(), snapshot: local }));
+            localStorage.setItem(SWITCHED_FROM_KEY, JSON.stringify({ email: previous.email, at: Date.now(), keys: unsynced }));
           } catch (err) {
-            console.warn('Could not keep a copy of the progress replaced by this sign-in.', err);
+            console.warn('Could not keep the progress this sign-in would replace.', err);
+            throw new Error(`This device has progress played since ${previous.email} signed out, and no room to keep a copy. Sign in as ${previous.email} to keep it.`);
           }
         }
         writeKeys(adoptAccount(server, local));

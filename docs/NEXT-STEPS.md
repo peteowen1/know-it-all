@@ -45,7 +45,15 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   and drills now skip ids no longer in the bank (2026-11-25), but
   `AnalyticsDashboard` "N tracked in the vault" uses App's `vaultSummary`,
   which cannot see the bank until it loads. Small; prune only once every
-  device runs a bundle with the same bank, or a stale tab deletes new ids.
+  device runs a bundle with the same bank, or a stale tab deletes new ids.- OPEN **Account switch backup has no restore button**: signing in as a
+  different account keeps what was played here while signed out in
+  `kia_switched_from` (2026-11-26), one slot, readable only in devtools. Add a
+  "bring back" option if anyone shares a device.
+- OPEN **Unconfirmed: server keys outside `isSyncedKey` in the shadow**
+  (review, 2026-11-26): sign-in copies every server key into `meta.shadow`;
+  one that fails `isSyncedKey` is never in local, so `diffSnapshot` may send
+  it as a deletion. Check `diffSnapshot` and the Worker's key check.
+
 ## Check
 
 - OPEN **Match the curve reasons**: 236 of 281 peaks have a line saying why
