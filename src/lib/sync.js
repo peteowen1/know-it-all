@@ -13,8 +13,8 @@
 // Signed out, none of this runs: markDirty() returns immediately and the app
 // is exactly the local-only app it was before.
 
-import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, isSyncedKey } from './syncCore.js';
-import { onDirty, SYNC_BASE_KEY as BASE_KEY } from './storage.js';
+import { adoptAccount, diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, isSyncedKey } from './syncCore.js';
+import { onDirty, SYNC_BASE_KEY as BASE_KEY, SWITCHED_FROM_KEY } from './storage.js';
 
 const META_KEY = 'kia_sync';
 const PUSH_DELAY_MS = 1500;
@@ -77,6 +77,17 @@ function loadBase(email) {
     const ok = base && base.email === email && base.shadow && typeof base.shadow === 'object';
     return ok && Object.keys(base.shadow).length ? base.shadow : null;
   } catch {
+    return null;
+  }
+}
+
+/** The kept base copy, whoever it belongs to: { email, shadow } or null. */
+function keptBase() {
+  try {
+    const base = JSON.parse(localStorage.getItem(BASE_KEY) || 'null');
+    return base?.email ? { email: base.email, shadow: base.shadow || {} } : null;
+  } catch (err) {
+    console.warn('The last synced copy is unreadable; signing in will merge.', err);
     return null;
   }
 }
@@ -380,11 +391,33 @@ async function signInAndMerge(credential) {
   setStatus('syncing');
 
   try {
-    if (hasData) {
-      const { keys: server } = await api('/sync');
+    const base = loadBase(email);
+    const previous = keptBase();
+    // Last synced as someone else: the progress stored here is theirs.
+    const switching = !base && Boolean(previous) && previous.email !== email;
+    if (hasData || switching) {
+      const { keys: server } = hasData ? await api('/sync') : { keys: {} };
       const local = readSnapshot();
-      const base = loadBase(email);
-      if (base) {
+      if (switching) {
+        // Take the account as it is. Merging would add the other account's
+        // totals into this one, and switching back would add them again.
+        // What was played here after signing out of the other account is on
+        // no server. Keep it on this device, and if there is no room to, stop
+        // rather than delete it.
+        const unsynced = {};
+        for (const k of new Set([...Object.keys(local), ...Object.keys(previous.shadow)])) {
+          if ((local[k] ?? null) !== (previous.shadow[k] ?? null)) unsynced[k] = local[k] ?? null;
+        }
+        if (Object.keys(unsynced).length) {
+          try {
+            localStorage.setItem(SWITCHED_FROM_KEY, JSON.stringify({ email: previous.email, at: Date.now(), keys: unsynced }));
+          } catch (err) {
+            console.warn('Could not keep the progress this sign-in would replace.', err);
+            throw new Error(`This device has progress played since ${previous.email} signed out, and no room to keep a copy. Sign in as ${previous.email} to keep it.`);
+          }
+        }
+        writeKeys(adoptAccount(server, local));
+      } else if (base) {
         // Back to an account this device synced with before: keep what was
         // played here since, without adding the account's totals in twice.
         const values = {};

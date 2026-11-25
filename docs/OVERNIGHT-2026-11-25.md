@@ -27,8 +27,10 @@ Rules this run never breaks:
   from `npm update` was missing the `@types/node` 18 copy the cloudflare SDK
   pins. Fixed with `npm install` in 6eff055; CI build passed.
 
-## Needs Pete
+## Morning, 2026-11-26 (Pete: merge #88, fix accounts, rules off)
 
-- Merge #88.
-- Account switching mixes progress (NEXT-STEPS "Needs Pete").
-- Silence the three new React lint rules, or leave the 14 warnings.
+- #88 merged (f32bf27), deploy succeeded.
+- Account switch: signing in as a different account takes it as-is. Plays
+  made while signed out are kept in `kia_switched_from`; if there is no room
+  for that copy, sign-in is refused with a message instead of deleting them.
+- `react/refs`, `react/purity`, `react/set-state-in-effect` turned off.
