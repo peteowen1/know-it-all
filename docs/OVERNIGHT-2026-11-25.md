@@ -23,3 +23,12 @@ Rules this run never breaks:
   4.168, lucide-react 1.80, oxlint 1.95): build, lint and all tests pass.
   The newer oxlint adds 14 React warnings, queued in NEXT-STEPS.
 - Review: one Sonnet reviewer, 0 important findings.
+- PR #88 opened, not merged. The first CI run failed at `npm ci`: the lockfile
+  from `npm update` was missing the `@types/node` 18 copy the cloudflare SDK
+  pins. Fixed with `npm install` in 6eff055; CI build passed.
+
+## Needs Pete
+
+- Merge #88.
+- Account switching mixes progress (NEXT-STEPS "Needs Pete").
+- Silence the three new React lint rules, or leave the 14 warnings.
