@@ -1,0 +1,8 @@
+/* Find it on the map: one region's outlines, tappable. */
+.map-ask { text-align: center; font-size: var(--fs-md); min-height: 1.6em; }
+.map-svg { display: block; width: 100%; height: auto; max-height: 70vh; touch-action: manipulation; user-select: none; }
+.map-svg path { fill: var(--surface-2); stroke: var(--ink-3); stroke-width: 0.8; stroke-linejoin: round; }
+.map-svg path[data-code] { fill: var(--surface-3); cursor: pointer; }
+.map-svg path[data-code]:hover { fill: var(--accent-lab); }
+.map-svg path[data-state='target'] { fill: var(--correct); }
+.map-svg path[data-state='wrong'] { fill: var(--wrong); }

@@ -26,11 +26,13 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
   was already in three). Gold, Silver, ___ Cake and ___mark found no fit in the
   10 new slots; they are there for the next top-up.
 
-- OPEN **Find it on the map** (Pete liked the idea, 2026-11-26): tap the
-  named country on a world map. Needs a map drawing (a world SVG keyed by
-  the same country codes as `countries.json`) and tap targets big enough
-  for tiny countries. About two days.
-
+- OPEN **Map: 40 small countries left out** (2026-11-26): Find it on the
+  map asks only countries at least 8 px across at 360 px wide
+  (`MIN_TAP_PX` in `scripts/build-world-map.mjs`). `npm run data:map` prints
+  the list: microstates, most island nations, plus Sri Lanka, Taiwan,
+  Singapore, Cyprus, Luxembourg. A zoomed South and East Asia view would add
+  Sri Lanka and Taiwan; islands need a different way to ask (a dot to tap,
+  or pinch zoom).
 ## Fix (small, from the 2026-11-25 full review)
 
 - OPEN **Sync clashes: two rare cases left** (after the 2026-11-25 clash fix).

@@ -27,6 +27,7 @@ import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timeline
 import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact } from '../src/games/nameyear/nameYearLogic.js';
 import { geoNames, pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { filmPool, formatGross, ratioRange, nextFilm, firstFilms, madeMore, YEAR_WINDOW } from '../src/games/boxoffice/boxLogic.js';
+import { playableCodes, pickTargets, ROUND } from '../src/games/map/mapLogic.js';
 import { POOLS, describe, formatYear, gapRange, nextPerson, firstPair, bornBefore } from '../src/games/older/olderLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
@@ -1740,6 +1741,38 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
         cur = next;
       }
     }
+  });
+}
+
+// Find it on the map (added 2026-11-26).
+{
+  const dir = new URL('../src/data/map/', import.meta.url);
+  const views = readdirSync(dir).map((f) => JSON.parse(readFileSync(new URL(f, dir), 'utf8')));
+  const codes = new Set(JSON.parse(readFileSync(new URL('../src/data/countries.json', import.meta.url), 'utf8')).countries.map((c) => c.code));
+  test('map: every view has shapes, every code is a real country, enough to play', () => {
+    assert.equal(views.length, 8);
+    for (const v of views) {
+      assert.ok(v.width > 0 && v.height > 0 && v.shapes.length, v.id);
+      for (const s of v.shapes) {
+        assert.ok(!s.code || codes.has(s.code), `${v.id}: ${s.code}`);
+        assert.ok(s.d && s.d.startsWith('M'), `${v.id}: empty path`);
+      }
+      assert.ok(playableCodes(v).length >= ROUND - 3, `${v.id}: ${playableCodes(v).length} playable`);
+    }
+    const all = new Set(views.flatMap(playableCodes));
+    assert.ok(all.size >= 150, `${all.size} countries playable`);
+    assert.ok(all.has('RU') && all.has('FR') && all.has('AU') && all.has('BR'));
+  });
+  test('map: a round asks different countries, weighted toward misses', () => {
+    const rand = makeRng(5);
+    const pool = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
+    const t = pickTargets(pool, {}, rand);
+    assert.equal(t.length, ROUND);
+    assert.equal(new Set(t).size, ROUND);
+    assert.equal(pickTargets(['A', 'B'], {}, rand).length, 2);
+    let heavyFirst = 0;
+    for (let i = 0; i < 500; i++) if (pickTargets(pool, { L: 20 }, rand, 1)[0] === 'L') heavyFirst++;
+    assert.ok(heavyFirst > 250, `${heavyFirst} of 500`);
   });
 }
 

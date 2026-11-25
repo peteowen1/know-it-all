@@ -114,6 +114,11 @@ export const HOW_IT_WORKS = {
     score: 'One point per name on the right curve, 20 in all. Each curve has its own scale, so match the shape and when it peaked, not the height.',
     source: 'English Wikipedia monthly pageviews since 2016 for the Famous first names people with a clear peak, the top month at least five times their typical one. Why each peaked comes from the weekly Top 25 Report on Wikipedia, checked by hand. Idea from Daily Orbs.'
   },
+  map: {
+    play: 'A country is named: tap it on the map. One tap each, ten a round. A wrong tap says which country you hit and shows the right one in green. Pick a part of the world first; the Middle East and Central America have their own closer maps.',
+    score: 'One point per country found. Countries you miss come back more often in later rounds.',
+    source: 'Country outlines from Natural Earth (public domain), drawn ahead of time for each map. Countries too small to tap on a phone screen, mostly islands and microstates, are left out for now.'
+  },
   'box-office': {
     play: 'The left card shows what a hit film made worldwide. Did the film on the right make more or less? A right call moves it across and brings in another film.',
     score: 'One point per right call; one miss ends the run. The first calls are easy (one film made 1.5 to 4 times the other), and they get closer as the run grows. The two films are always released within four years of each other, so the newer one is not simply the answer.',
