@@ -114,6 +114,11 @@ export const HOW_IT_WORKS = {
     score: 'One point per name on the right curve, 20 in all. Each curve has its own scale, so match the shape and when it peaked, not the height.',
     source: 'English Wikipedia monthly pageviews since 2016 for the Famous first names people with a clear peak, the top month at least five times their typical one. Why each peaked comes from the weekly Top 25 Report on Wikipedia, checked by hand. Idea from Daily Orbs.'
   },
+  'box-office': {
+    play: 'The left card shows what a hit film made worldwide. Did the film on the right make more or less? A right call moves it across and brings in another film.',
+    score: 'One point per right call; one miss ends the run. The first calls are easy (one film made 1.5 to 4 times the other), and they get closer as the run grows. The two films are always released within four years of each other, so the newer one is not simply the answer.',
+    source: "Each year's ten highest-grossing films from 1988, from Wikipedia's \"Year in film\" pages: worldwide gross in US dollars from the first run in cinemas, not adjusted for inflation. Earlier pages give US takings only, so those years are left out."
+  },
   'whos-older': {
     play: 'The left card shows the year someone was born. Is the person on the right older or younger? Older is on the left, younger on the right, like a timeline. A right call moves them across and brings in someone new.',
     score: 'One point per right call; one miss ends the run. The gap between birth years starts wide (15 to 40 years) and closes as the run grows, down to a year or two.',
