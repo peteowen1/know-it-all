@@ -16,6 +16,9 @@ const SESSION_DAYS = 180;
 const DAY_MS = 86_400_000;
 const MAX_BODY = 512 * 1024;
 const MAX_KEYS = 300;
+// How long the write history behind lost-reply detection is kept.
+const WRITES_KEEP_MS = 60 * 24 * 60 * 60 * 1000;
+const WRITES_KEEP_PER_KEY = 20;
 const HANDOFF_MINUTES = 15;
 const OLD_ORIGIN = `https://${OLD_HOST}`;
 
@@ -61,7 +64,10 @@ async function route(request, env, url) {
     if (method === 'GET') return syncGet(env, sub);
     if (method === 'PUT') return syncPut(request, env, sub);
     if (method === 'DELETE') {
-      await env.DB.prepare('DELETE FROM kv WHERE sub = ?').bind(sub).run();
+      await env.DB.batch([
+        env.DB.prepare('DELETE FROM kv WHERE sub = ?').bind(sub),
+        env.DB.prepare('DELETE FROM kv_writes WHERE sub = ?').bind(sub)
+      ]);
       return json({ ok: true });
     }
   }
@@ -133,31 +139,103 @@ async function syncPut(request, env, sub) {
     return json({ error: 'Body too large or not readable.' }, 413);
   }
   const entries = Object.entries(body.keys);
-  if (!entries.length) return json({ received: 0 });
+  if (!entries.length) return json({ received: 0, stored: {}, conflicts: {} });
   if (entries.length > MAX_KEYS) return json({ error: 'Too many keys.' }, 413);
 
   const now = Date.now();
   const stmts = [];
+  const checked = [];
   for (const [key, entry] of entries) {
     const value = entry?.value;
     const t = Number(entry?.updatedAt);
-    if (!isSyncedKey(key) || !(value === null || typeof value === 'string') || !Number.isFinite(t)) {
+    const hasBase = entry && 'base' in entry;
+    const base = Number(entry?.base);
+    const wid = entry?.wid;
+    const badWid = wid !== undefined && !(typeof wid === 'string' && /^[A-Za-z0-9_-]{8,40}$/.test(wid));
+    if (!isSyncedKey(key) || !(value === null || typeof value === 'string') || !Number.isFinite(t) || (hasBase && !Number.isFinite(base)) || badWid) {
       return json({ error: `Bad entry for ${String(key).slice(0, 40)}.` }, 400);
     }
     // A device whose clock runs fast would otherwise win every clash for as
     // long as it stays fast. Nothing may claim to be newer than the server's now.
     const updatedAt = Math.min(t, now);
-    stmts.push(
-      env.DB.prepare(
-        `INSERT INTO kv (sub, key, value, updated_at) VALUES (?, ?, ?, ?)
-         ON CONFLICT(sub, key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
-         WHERE excluded.updated_at > kv.updated_at`
-      ).bind(sub, key, value, updatedAt)
-    );
+    if (hasBase) {
+      // Written only on top of the copy this device last saw (`base` is that
+      // copy's updated_at, 0 for none). Otherwise another device got there
+      // first: the write is refused and the device merges and retries, rather
+      // than a tab left open overwriting newer progress with its older copy.
+      // The stored time is always past the row it replaces, so other devices
+      // see the write as newer even when this device's clock is behind.
+      checked.push(key);
+      stmts.push(
+        env.DB.prepare(
+          `INSERT INTO kv (sub, key, value, updated_at) VALUES (?1, ?2, ?3, ?4)
+           ON CONFLICT(sub, key) DO UPDATE SET value = excluded.value, updated_at = MAX(excluded.updated_at, kv.updated_at + 1)
+           WHERE kv.updated_at = ?5
+           RETURNING updated_at`
+        ).bind(sub, key, value, updatedAt, base)
+      );
+    } else {
+      // An older copy of the app that sends no base: newest time wins, as before.
+      stmts.push(
+        env.DB.prepare(
+          `INSERT INTO kv (sub, key, value, updated_at) VALUES (?, ?, ?, ?)
+           ON CONFLICT(sub, key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
+           WHERE excluded.updated_at > kv.updated_at`
+        ).bind(sub, key, value, updatedAt)
+      );
+    }
   }
-  await env.DB.batch(stmts);
-  // How many were sent, not how many won: an older copy loses silently, by design.
-  return json({ received: stmts.length, now });
+  const results = await env.DB.batch(stmts);
+
+  const stored = {};
+  const refused = [];
+  const history = [env.DB.prepare('DELETE FROM kv_writes WHERE sub = ? AND updated_at < ?').bind(sub, now - WRITES_KEEP_MS)];
+  let i = 0;
+  for (const [key, entry] of entries) {
+    const r = results[i++];
+    if (!(entry && 'base' in entry)) continue;
+    const row = r?.results?.[0];
+    if (!row) {
+      refused.push(key);
+      continue;
+    }
+    stored[key] = row.updated_at;
+    if (entry.wid) {
+      history.push(
+        env.DB.prepare('INSERT OR REPLACE INTO kv_writes (sub, key, wid, updated_at) VALUES (?, ?, ?, ?)')
+          .bind(sub, key, entry.wid, row.updated_at),
+        // Only the newest few per key matter (a lost reply is followed by a
+        // handful of writes at most), so the history cannot grow without bound.
+        env.DB.prepare(
+          `DELETE FROM kv_writes WHERE sub = ?1 AND key = ?2 AND wid NOT IN
+             (SELECT wid FROM kv_writes WHERE sub = ?1 AND key = ?2 ORDER BY updated_at DESC LIMIT ?3)`
+        ).bind(sub, key, WRITES_KEEP_PER_KEY)
+      );
+    }
+  }
+  await env.DB.batch(history);
+
+  // The copies that won, so the device can merge its changes into them, with
+  // the ids of every write since the copy the device built on: if one is its
+  // own (a reply it never got), the winning copy already holds those plays.
+  // One read per refused key: an IN list of many keys could pass D1's limit
+  // on bound values, and reading the whole account would cost more than needed.
+  const conflicts = {};
+  if (refused.length) {
+    const reads = refused.flatMap((key) => [
+      env.DB.prepare('SELECT value, updated_at FROM kv WHERE sub = ? AND key = ?').bind(sub, key),
+      env.DB.prepare('SELECT wid FROM kv_writes WHERE sub = ? AND key = ? AND updated_at > ? ORDER BY updated_at DESC LIMIT ?')
+        .bind(sub, key, Number(body.keys[key].base), WRITES_KEEP_PER_KEY)
+    ]);
+    const out = await env.DB.batch(reads);
+    refused.forEach((key, j) => {
+      const row = out[2 * j]?.results?.[0];
+      if (row) conflicts[key] = { value: row.value, updatedAt: row.updated_at, wids: (out[2 * j + 1]?.results || []).map((w) => w.wid) };
+    });
+  }
+  // `received` is how many were sent, for older copies of the app; newer ones
+  // read `stored` and `conflicts`. Without a base, an older copy loses silently.
+  return json({ received: stmts.length, now, stored, conflicts });
 }
 
 // ------------------------------------------------------------------ handoff

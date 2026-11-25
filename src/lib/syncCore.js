@@ -215,12 +215,65 @@ export function rebaseSnapshots(local, server, base) {
     try {
       const merged = mergeProgress(progressSince(side(local), side(base)), side(server));
       for (const [field, key] of Object.entries(PROFILE)) if (both.includes(key)) writes[key] = JSON.stringify(merged[field]);
-    } catch {
+    } catch (err) {
       // Unreadable data: the account's copy, already in `writes`, stands.
+      console.warn('Progress merge failed; keeping the account copy.', err);
     }
   }
   if (both.includes(WEEKLY)) {
     writes[WEEKLY] = JSON.stringify({ ...parse(server[WEEKLY], {}), ...parse(local[WEEKLY], {}) });
+  }
+  return writes;
+}
+
+// Keys that are maps built up on every device, so a clash keeps both sides'
+// entries: which dailies are done (latest date per game) and which daily
+// rounds have already counted (every one either side has).
+const DAILY_DONE = storageKey('daily_done');
+const DAILY_COUNTED = storageKey('daily_counted');
+
+const isMap = (v) => v && typeof v === 'object' && !Array.isArray(v);
+
+/**
+ * A push the server refused because another device wrote those keys first.
+ *
+ * `local` is this browser's snapshot, `shadow` the copy both sides last agreed
+ * on (what this device's changes were made on top of), and `conflicts` the
+ * server's current entries for the refused keys, { key: { value, updatedAt } }.
+ *
+ * Returns the raw strings to write locally before pushing again:
+ *   - progress (stats, vault, recent, games) and the weekly scores: what was
+ *     played here since the agreed copy, added to the server's copy, so neither
+ *     device's plays are lost or counted twice;
+ *   - which dailies are done and counted: both sides' entries;
+ *   - anything else (rounds in progress, settings): nothing, so this device's
+ *     copy is pushed again and wins, as it did before. Swapping a round under
+ *     someone playing it here would be worse than losing the other device's.
+ */
+export function resolveConflicts(local, shadow, conflicts) {
+  const server = { ...shadow };
+  for (const [k, e] of Object.entries(conflicts)) server[k] = e.value;
+  const rebased = rebaseSnapshots(local, server, shadow);
+  const writes = {};
+  const mergeable = new Set([...Object.values(PROFILE), WEEKLY]);
+  for (const k of Object.keys(conflicts)) {
+    if (mergeable.has(k) && k in rebased) writes[k] = rebased[k];
+  }
+  if (DAILY_DONE in conflicts) {
+    const mine = parse(local[DAILY_DONE], {});
+    const theirs = parse(conflicts[DAILY_DONE].value, {});
+    if (!isMap(mine) || !isMap(theirs)) console.warn('daily_done unreadable on one side; keeping this device copy.');
+    else {
+      const out = { ...theirs };
+      for (const [tab, date] of Object.entries(mine)) if (!out[tab] || date > out[tab]) out[tab] = date;
+      writes[DAILY_DONE] = JSON.stringify(out);
+    }
+  }
+  if (DAILY_COUNTED in conflicts) {
+    const mine = parse(local[DAILY_COUNTED], {});
+    const theirs = parse(conflicts[DAILY_COUNTED].value, {});
+    if (isMap(mine) && isMap(theirs)) writes[DAILY_COUNTED] = JSON.stringify({ ...theirs, ...mine });
+    else console.warn('daily_counted unreadable on one side; keeping this device copy.');
   }
   return writes;
 }
