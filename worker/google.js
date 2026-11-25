@@ -23,11 +23,14 @@ const b64urlJson = (s) => JSON.parse(new TextDecoder().decode(b64urlBytes(s)));
 
 async function googleKeys(force = false) {
   if (!force && keyCache.keys && Date.now() < keyCache.expiresAt) return keyCache.keys;
+  // Sign-in needs no login, so a made-up key id must not trigger a Google
+  // fetch on every request: force at most once a minute.
+  if (force && keyCache.keys && Date.now() - (keyCache.fetchedAt || 0) < 60_000) return keyCache.keys;
   const res = await fetch(CERTS_URL);
   if (!res.ok) throw new Error(`Google certs fetch failed: ${res.status}`);
   const { keys } = await res.json();
   const maxAge = Number(/max-age=(\d+)/.exec(res.headers.get('cache-control') || '')?.[1]) || 3600;
-  keyCache = { keys, expiresAt: Date.now() + maxAge * 1000 };
+  keyCache = { keys, expiresAt: Date.now() + maxAge * 1000, fetchedAt: Date.now() };
   return keys;
 }
 

@@ -27,15 +27,17 @@ import { usePersistentState, saveLive } from '../../lib/persist';
  */
 export default function ChartGame({ domain, stats, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit }) {
   const chartKeys = Object.keys(domain.charts);
-  const [chartKey, setChartKey] = useState(chartKeys[0]);
+  // Saved so the round survives the app being closed (see src/lib/persist.js).
+  const [round, setRound] = usePersistentState(`chart_${domain.id}`, null);
+  // A resumed round reopens on its own chart, so its answers are saved under
+  // that chart's keys rather than the first chart's.
+  const [chartKey, setChartKey] = useState(() => (chartKeys.includes(round?.chartKey) ? round.chartKey : chartKeys[0]));
   const chart = domain.charts[chartKey];
   const decades = useMemo(() => decadesOf(chart.years), [chart.years]);
   const [format, setFormat] = useState('board');
   const [span, setSpan] = useState('year'); // 'year' | 'decade'
   const [decade, setDecade] = useState(null); // null = any
   const [timed, setTimed] = useState(true);
-  // Saved so the round survives the app being closed (see src/lib/persist.js).
-  const [round, setRound] = usePersistentState(`chart_${domain.id}`, null);
   const entry = gameEntry(stats, domain.id);
   // Saved answers are keyed by chart only when a game has several, so Box
   // office and Best Picture never collide. A one-chart game keeps plain keys;
@@ -77,7 +79,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         ...(chart.quizWords ? { words: chart.quizWords } : {}),
         sameYearDistractors: Boolean(chart.sameYearDistractors)
       });
-      setRound({ id, type: 'quiz', label: `${chart.label} · ${whole ? 'all years' : label}`, questions, index: 0, answers: [], revealed: false, picked: null });
+      setRound({ id, chartKey, type: 'quiz', label: `${chart.label} · ${whole ? 'all years' : label}`, questions, index: 0, answers: [], revealed: false, picked: null });
       return;
     }
     const single = from === to;
@@ -88,6 +90,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         : topArtists(chart.years, from, to, size, { noun: chart.noun });
     setRound({
       id,
+      chartKey,
       type: 'board',
       title: activeFormat === 'board' ? chart.boardTitle(label, single) : `Top ${chart.creditNoun}s of ${label}`,
       placeholder: activeFormat === 'board' ? `${chart.noun} or ${chart.creditNoun}…` : `${chart.creditNoun}…`,

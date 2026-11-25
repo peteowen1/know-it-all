@@ -110,7 +110,9 @@ export default function App() {
   // through screens. Changing tab adds a history entry; `replace` swaps the
   // current one, for redirects that Back should skip over.
   const [activeTab, setTab] = useState(() => (ROUTED ? tabForPath(window.location.pathname) : 'home'));
-  const replaceNext = useRef(false);
+  // Starts true: tidying the opening address (/daily -> /daily-five) replaces
+  // it, so Back does not land on the same screen under its old address.
+  const replaceNext = useRef(true);
   const setActiveTab = useCallback((tab, { replace = false } = {}) => {
     replaceNext.current = replace;
     setTab(tab);
@@ -200,6 +202,28 @@ export default function App() {
 
   // Load the bank and fill in whichever quizzes are still unbuilt. Anything a
   // handler has already set is kept.
+  // Today's date as state, so the hub's ticks and the daily set move on at
+  // midnight and when the home-screen app is reopened the next day. Without
+  // it nothing re-rendered: Today kept saying "All done" with yesterday's ticks.
+  const [today, setToday] = useState(localDateKey);
+  useEffect(() => {
+    let timer;
+    const tick = () => {
+      setToday(localDateKey());
+      clearTimeout(timer);
+      const now = new Date();
+      const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 5);
+      timer = setTimeout(tick, nextMidnight - now);
+    };
+    tick();
+    const onVisible = () => document.visibilityState === 'visible' && tick();
+    document.addEventListener('visibilitychange', onVisible);
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('visibilitychange', onVisible);
+    };
+  }, []);
+
   useEffect(() => {
     if (!QUIZ_TABS.has(activeTab)) return;
     bank().then((builder) => {
@@ -216,7 +240,7 @@ export default function App() {
       setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
       setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
     });
-  }, [activeTab, bank, day]);
+  }, [activeTab, bank, day, today]);
 
   useEffect(() => setStored('stats', stats), [stats]);
   useEffect(() => setStored('recent', recentIds), [recentIds]);
@@ -270,10 +294,7 @@ export default function App() {
       });
     };
     check();
-    const onVisible = () => document.visibilityState === 'visible' && check();
-    document.addEventListener('visibilitychange', onVisible);
-    return () => document.removeEventListener('visibilitychange', onVisible);
-  }, [activeTab]);
+  }, [activeTab, today]);
 
   const startQuiz = useCallback(
     async (nextSetup) => {
@@ -522,7 +543,9 @@ export default function App() {
           onComplete={handleComplete}
           onMissed={handleMissed}
           onCorrect={handleCorrect}
-          onNewQuiz={() => startRevision()}
+          // Finishing a drill moves every due question on, so often nothing is
+          // due any more: go back to the Vault rather than a button that does nothing.
+          onNewQuiz={() => (dueEntries(vault).length ? startRevision() : setActiveTab('vault'))}
         />
       ) : (
         waiting

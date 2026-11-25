@@ -69,10 +69,11 @@ const MEASURES = {
  * and makes the best run the number worth chasing.
  */
 export default function HigherLower({ stats, onRoundComplete, onExit }) {
-  const [region, setRegion] = useState('World');
   const [measureKey, setMeasureKey] = usePersistentState('population_measure', 'population');
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [state, setState] = usePersistentState('population', null);
+  // A resumed run keeps drawing from the region it was started in.
+  const [region, setRegion] = useState(() => state?.region || 'World');
   // A saved run keeps the measure it was started with.
   const m = MEASURES[state?.measure || measureKey] || MEASURES.population;
   const rand = useRef(makeRng(Date.now() >>> 0));
@@ -121,7 +122,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
     // Still nothing: pair it with any other country, however close.
     if (!right) right = pool.find((c) => c.code !== left.code) ?? null;
     if (!right) return;
-    setState({ left, right, run: 0, verdict: null, answers: [], measure: measureKey });
+    setState({ left, right, run: 0, verdict: null, answers: [], measure: measureKey, region });
   };
 
   if (!state) {

@@ -8,8 +8,16 @@
 import { coerceGameStats, mergeGameStats } from './gameStats.js';
 import { OLD_HOST } from './syncConfig.js';
 
+// Built in chunks: spreading every byte as one argument throws past ~65k
+// arguments on iPhone Safari, and a big profile is larger than that.
+const bytesToBinary = (bytes) => {
+  let out = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) out += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return out;
+};
+
 const b64encode = (str) =>
-  btoa(String.fromCharCode(...new TextEncoder().encode(str)))
+  btoa(bytesToBinary(new TextEncoder().encode(str)))
     .replace(/\+/g, '-')
     .replace(/\//g, '_')
     .replace(/=+$/, '');

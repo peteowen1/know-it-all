@@ -175,7 +175,11 @@ export function guessIsRight(guess, answer, distractors = [], known = new Set())
   if (!g) return false;
   const accept = acceptedForms(answer).map(dropThe);
   if (accept.includes(g)) return true;
+  const wrong = distractors.flatMap(acceptedForms).map(dropThe);
+  // An exact short form ("everest" for "Mount Everest") is right even when the
+  // same word answers another question in the bank; `known` only guards typos.
+  if (shortForms(answer).includes(g) && !wrong.includes(g)) return true;
   if (needsExact(answer) || known.has(g)) return false;
-  if (rowMatches(g, { accept: distractors.flatMap(acceptedForms).map(dropThe) })) return false;
+  if (rowMatches(g, { accept: wrong })) return false;
   return rowMatches(g, { accept: [...accept, ...shortForms(answer)] });
 }
