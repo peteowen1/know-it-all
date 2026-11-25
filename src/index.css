@@ -569,7 +569,7 @@ button { cursor: pointer; }
   justify-content: flex-end;
   margin-top: var(--s-4);
   position: sticky;
-  bottom: var(--s-3);
+  bottom: calc(var(--s-3) + env(safe-area-inset-bottom, 0px));
   z-index: 5;
 }
 .next-action-bar .btn { box-shadow: var(--shadow-raised); }
