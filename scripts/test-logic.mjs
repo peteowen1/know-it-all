@@ -1671,7 +1671,7 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
     assert.equal(bornBefore({ born: 1940 }, { born: 1946 }), true);
     assert.equal(bornBefore({ born: 1950 }, { born: 1946 }), false);
   });
-  test("Who's older: every pick is a new person, a different year, inside the run's gap", () => {
+  test("Who's older: every pick is a new person, a different year, the nearest when none is close", () => {
     const rand = makeRng(7);
     for (const size of Object.values(POOLS)) {
       const pool = people.slice(0, size);
@@ -1681,10 +1681,12 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
         let cur = right;
         for (let run = 0; run < 40; run++) {
           const next = nextPerson(cur, pool, rand, { seen, run });
-          if (!next) break;
+          assert.ok(next, 'a run ended with people left');
           const gap = Math.abs(next.born - cur.born);
+          const open = pool.filter((p) => !seen.has(p.id) && p.born !== cur.born);
           assert.ok(!seen.has(next.id), 'repeat');
-          assert.ok(gap >= 1 && gap <= 60, `gap ${gap}`);
+          assert.ok(gap >= 1, 'same year');
+          if (gap > 60) assert.ok(open.every((p) => Math.abs(p.born - cur.born) >= gap), `${cur.name} to ${next.name}: not the nearest`);
           seen.add(next.id);
           cur = next;
         }

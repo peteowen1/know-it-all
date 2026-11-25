@@ -14,7 +14,7 @@ export const POOLS = { household: 400, known: 1500 };
 export function describe(description = '') {
   let s = description
     .replace(/\s*\([^)]*\d[^)]*\)/g, '')
-    .replace(/,?\s+(?:from|since|in|between|during|until|until|of|c\.|circa|born|died|d\.)?\s*(?:the\s+)?\d.*$/i, '')
+    .replace(/,?\s+(?:from|since|in|between|during|until|of|c\.|circa|born|died|d\.)?\s*(?:the\s+)?\d.*$/i, '')
     .replace(/\s*\d{1,4}(?:s|st|nd|rd|th)?\b.*$/, '')
     .replace(/[\s,;:–-]+$/, '')
     .trim();
@@ -41,7 +41,9 @@ export function gapRange(run) {
 /**
  * The next person to compare against `current`: someone not yet in this run,
  * born a different year, within the run's gap range. Falls back to any
- * unseen person within 60 years, then null (the run has used everyone).
+ * unseen person within 60 years, then to the nearest unseen one (Julius
+ * Caesar has nobody within 60 years), and null only once the run has used
+ * everyone.
  */
 export function nextPerson(current, pool, rand, { seen = new Set(), run = 0 } = {}) {
   const open = pool.filter((p) => p.id !== current.id && !seen.has(p.id) && p.born !== current.born);
@@ -51,7 +53,7 @@ export function nextPerson(current, pool, rand, { seen = new Set(), run = 0 } = 
     const choices = open.filter(fits);
     if (choices.length) return choices[Math.floor(rand() * choices.length)];
   }
-  return null;
+  return open.reduce((best, p) => (!best || gap(p) < gap(best) ? p : best), null);
 }
 
 /** A run's first pair: a random person who has someone to compare with. */
