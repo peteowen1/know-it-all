@@ -413,7 +413,9 @@ async function signInAndMerge(credential) {
             localStorage.setItem(SWITCHED_FROM_KEY, JSON.stringify({ email: previous.email, at: Date.now(), keys: unsynced }));
           } catch (err) {
             console.warn('Could not keep the progress this sign-in would replace.', err);
-            throw new Error(`This device has progress played since ${previous.email} signed out, and no room to keep a copy. Sign in as ${previous.email} to keep it.`);
+            // No email in the message: whoever holds a shared device should
+            // not learn which other account was used on it.
+            throw new Error('This device has progress played since the last account here signed out, and no room to keep a copy. Sign in with that account to keep it.');
           }
         }
         writeKeys(adoptAccount(server, local));
@@ -440,6 +442,12 @@ async function signInAndMerge(credential) {
     meta = blankMeta();
     saveMeta();
     setStatus('signed-out');
+    // Signed out here, so end the server session too rather than leave it
+    // open until it expires. Not awaited: a hung request must not hold up
+    // the error message.
+    fetch('/api/auth/signout', { method: 'POST', credentials: 'same-origin' }).catch((e) =>
+      console.warn('Sign-out did not reach the server; the session will expire on its own.', e)
+    );
     throw err;
   }
   saveMeta();
