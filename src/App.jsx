@@ -188,6 +188,8 @@ export default function App() {
   const day = useDay();
   // The day the daily set was built for; a tab left open past midnight rebuilds it.
   const dailyDate = useRef(null);
+  // The tab and day the daily-quiz effect last ran for, to tell a clock tick from a navigation.
+  const lastTrigger = useRef({ tab: null, day: null });
   const [revisionQuiz, setRevisionQuiz] = useState();
   const [challengeQuiz, setChallengeQuiz] = useState();
   useEffect(() => {
@@ -235,8 +237,13 @@ export default function App() {
       );
       const want = (activeTab === 'daily' && day) || localDateKey();
       const stale = dailyDate.current !== want;
-      dailyDate.current = want;
-      setDailyQuiz((prev) => (prev !== undefined && !stale ? prev : { ...builder.buildDailyQuiz(5, want), date: want, past: want !== localDateKey() }));
+      // Midnight passing while the Daily five is open must not swap the set
+      // under a player mid-round; it moves on at the next tab change instead.
+      const onlyClock = lastTrigger.current.tab === activeTab && lastTrigger.current.day === day;
+      lastTrigger.current = { tab: activeTab, day };
+      const keepOpenGame = stale && onlyClock && activeTab === 'daily';
+      if (!keepOpenGame) dailyDate.current = want;
+      setDailyQuiz((prev) => (prev !== undefined && (!stale || keepOpenGame) ? prev : { ...builder.buildDailyQuiz(5, want), date: want, past: want !== localDateKey() }));
       setRevisionQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('revision', builder)));
       setChallengeQuiz((prev) => (prev !== undefined ? prev : restoreQuiz('challenge', builder)));
     });
