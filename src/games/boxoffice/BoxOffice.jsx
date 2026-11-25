@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef } from 'react';
 import { ArrowDown, ArrowUp } from 'lucide-react';
 import films from '../../data/charts/films.json';
-import { filmPool, firstFilms, nextFilm, madeMore, formatGross } from './boxLogic';
+import { filmPool, firstFilms, nextFilm, madeMore, formatGross, YEAR_WINDOW } from './boxLogic';
 import { gameEntry } from '../../lib/gameStats';
 import { AnswerRow, Button, GameCard, GameResults, Pill } from '../../components/ui';
 import { GameSetup, PlayHead, NextBar } from '../shared/Play';
@@ -57,7 +57,7 @@ export default function BoxOffice({ stats, onRoundComplete, onExit }) {
             The gaps get closer the longer you last.
           </>
         }
-        note={`Each year's ten biggest films from 1988, ${pool.length} in all. Worldwide gross in US dollars from its first run in cinemas, not adjusted for inflation, from Wikipedia's "Year in film" pages.`}
+        note={`Each year's ten biggest films from 1988, ${pool.length} in all. Worldwide gross in US dollars from its first run in cinemas, not adjusted for inflation, from Wikipedia's "Year in film" pages. The two films are always released within ${YEAR_WINDOW} years of each other.`}
       >
         <Button variant="primary" className="game-start" onClick={start}>Start</Button>
       </GameSetup>

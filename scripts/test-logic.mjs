@@ -26,7 +26,7 @@ import { rowMatches } from '../src/games/lists/listMatch.js';
 import { buildRound, sameYear, scoreOrder } from '../src/games/timeline/timelineLogic.js';
 import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact } from '../src/games/nameyear/nameYearLogic.js';
 import { geoNames, pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
-import { filmPool, formatGross, ratioRange, nextFilm, firstFilms, madeMore } from '../src/games/boxoffice/boxLogic.js';
+import { filmPool, formatGross, ratioRange, nextFilm, firstFilms, madeMore, YEAR_WINDOW } from '../src/games/boxoffice/boxLogic.js';
 import { POOLS, describe, formatYear, gapRange, nextPerson, firstPair, bornBefore } from '../src/games/older/olderLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
@@ -1715,6 +1715,8 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
     assert.equal(pool.length, fromWorldwide);
     assert.ok(pool.every((f) => f.year >= 1988 && f.gross > 1e8 && f.gross < 5e9), 'a gross out of range');
     assert.equal(pool.find((f) => f.title === 'Titanic').gross, 1843201268);
+    // Its cell subtracts re-release takings: {{#expr:377350553-25487190-5546156}}.
+    assert.equal(pool.find((f) => f.title === 'Beauty and the Beast' && f.year === 1991).gross, 346317207);
     assert.equal(formatGross(1843201268), '$1.84 billion');
     assert.equal(formatGross(618638999), '$619 million');
     assert.equal(madeMore({ gross: 2 }, { gross: 1 }), true);
@@ -1731,7 +1733,8 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
         assert.ok(!seen.has(next.id) && next.gross !== cur.gross);
         const [lo, hi] = ratioRange(run);
         const r = Math.max(next.gross, cur.gross) / Math.min(next.gross, cur.gross);
-        const fits = pool.some((f) => !seen.has(f.id) && f.id !== cur.id && f.gross !== cur.gross && (() => { const q = Math.max(f.gross, cur.gross) / Math.min(f.gross, cur.gross); return q >= lo && q <= hi; })());
+        assert.ok(Math.abs(next.year - cur.year) <= YEAR_WINDOW || !pool.some((f) => !seen.has(f.id) && f.id !== cur.id && f.gross !== cur.gross && Math.abs(f.year - cur.year) <= YEAR_WINDOW), 'outside the year window');
+        const fits = pool.some((f) => !seen.has(f.id) && f.id !== cur.id && f.gross !== cur.gross && Math.abs(f.year - cur.year) <= YEAR_WINDOW && (() => { const q = Math.max(f.gross, cur.gross) / Math.min(f.gross, cur.gross); return q >= lo && q <= hi; })());
         if (fits) assert.ok(r >= lo && r <= hi, `ratio ${r.toFixed(2)} outside ${lo}-${hi}`);
         seen.add(next.id);
         cur = next;

@@ -13,7 +13,7 @@ const DOMAIN = {
       label: 'Box office',
       years: films.boxOffice,
       source:
-        'Top 10 films released each year, from the Wikipedia "YYYY in film" pages: worldwide gross from the 1980s, North American rentals in the 1970s. Decade boards add up each film\'s points.',
+        'Top 10 films released each year, from the Wikipedia "YYYY in film" pages: worldwide gross from 1988, US gross for 1980 to 1987, North American rentals in the 1970s. Decade boards add up each film\'s points.',
       noun: 'film',
       creditNoun: 'director',
       boardLabel: 'Films board',

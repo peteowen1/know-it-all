@@ -4,8 +4,9 @@
 //
 //   boxOffice    top 10 films released each year, 1970 to last year, from the
 //                "Highest-grossing films" table on Wikipedia's "YYYY in film"
-//                pages. Worldwide gross from the 1980s onward; the 1970s pages
-//                list North American rentals, which is what exists for them.
+//                pages. Worldwide gross from 1988 (kept as `gross`), US gross
+//                for 1980 to 1987, and North American rentals in the 1970s,
+//                which is what those pages list.
 //   bestPicture  every Academy Award for Best Picture winner (rank 1) and the
 //                other nominees (rank 2+), from the award's Wikipedia page.
 //
@@ -31,14 +32,15 @@ const FIRST_WORLDWIDE = 1988;
 /**
  * Worldwide gross in US dollars from the table's last cell, as written:
  * "$618,638,999", "{{US$|1280802282|long=no}}", "{{nts|prefix=$|763455561}}",
- * "$2.1 billion", or a "{{#expr:2155690000+60000000}}" sum. Comments and
+ * "$2.1 billion", or a "{{#expr:...}}" sum or difference. Comments and
  * references go first (they carry other figures). Null if none is found.
  */
 export function grossOf(cell) {
   const s = cell.replace(/<!--[\s\S]*?-->/g, '').replace(/<ref[^>]*\/>/g, '').replace(/<ref[\s\S]*?<\/ref>/g, '').replace(/\{\{(?:refn|efn)[^{}]*\}\}/g, '');
   const expr = s.match(/#expr:([^}]*)/);
   if (expr) {
-    const parts = expr[1].replace(/,/g, '').match(/\d+/g) || [];
+    // Signed: 1991's Beauty and the Beast subtracts its re-release takings.
+    const parts = expr[1].replace(/,/g, '').match(/[+-]?\d+/g) || [];
     const sum = parts.map(Number).reduce((a, b) => a + b, 0);
     return sum >= 1e6 ? sum : null;
   }

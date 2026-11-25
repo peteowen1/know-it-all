@@ -116,7 +116,7 @@ export const HOW_IT_WORKS = {
   },
   'box-office': {
     play: 'The left card shows what a hit film made worldwide. Did the film on the right make more or less? A right call moves it across and brings in another film.',
-    score: 'One point per right call; one miss ends the run. The first calls are easy (one film made 1.5 to 4 times the other), and they get closer as the run grows.',
+    score: 'One point per right call; one miss ends the run. The first calls are easy (one film made 1.5 to 4 times the other), and they get closer as the run grows. The two films are always released within four years of each other, so the newer one is not simply the answer.',
     source: "Each year's ten highest-grossing films from 1988, from Wikipedia's \"Year in film\" pages: worldwide gross in US dollars from the first run in cinemas, not adjusted for inflation. Earlier pages give US takings only, so those years are left out."
   },
   'whos-older': {
