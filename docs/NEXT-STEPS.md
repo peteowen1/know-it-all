@@ -7,9 +7,7 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Needs Pete
 
-- OPEN **Match the curve in Today?** Live in the Lab since 2026-10-24 (#83,
-  #84) but not in the Today tabs (`TODAY_TABS` in `GameHub.jsx`). Play it,
-  then add it or say what felt off.
+- None right now.
 
 ## On dev, not yet on main
 
@@ -62,7 +60,7 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Check
 
-- OPEN **Match the curve reasons**: 236 of 281 peaks have a line saying why
+- OPEN **Fame lines (was Match the curve) reasons**: 236 of 281 peaks have a line saying why
   (`scripts/curve-reasons.json`, checked by hand from Wikipedia's weekly Top 25
   Report, saved raw in `data-raw/famous/top25/`). 45 have none and show the
   month only. A reason is dropped when the person's peak month moves, so after

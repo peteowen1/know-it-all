@@ -148,7 +148,7 @@ export const GAMES = [
     recordFormat: (e) => (e.plays ? `${played(e)} · best ${e.best} of 5` : null)
   },
   {
-    id: 'match-curve', section: 'lab', tab: 'match-curve', icon: 'TrendingUp', title: 'Match the curve',
+    id: 'match-curve', section: 'lab', tab: 'match-curve', icon: 'TrendingUp', title: 'Fame lines',
     blurb: 'Four famous names, four readership curves. Match them up.',
     recordFormat: byPoints(20)
   },

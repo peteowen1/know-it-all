@@ -39,7 +39,7 @@ const Years = () => (
 );
 
 /**
- * Match the curve: four famous people, four curves of how much their English
+ * Fame lines (was Match the curve): four famous people, four curves of how much their English
  * Wikipedia article was read each month since 2016. Tap a name, then its
  * curve; check when all four are placed.
  */
@@ -60,7 +60,7 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
   if (!game) {
     return (
       <GameSetup
-        title="Match the curve"
+        title="Fame lines"
         section="lab"
         onExit={onExit}
         record={
@@ -86,7 +86,7 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
     return (
       <GameResults
         data-section="lab"
-        eyebrow="Match the curve"
+        eyebrow="Fame lines"
         hero={`${score} / ${TOTAL}`}
         score={score}
         total={TOTAL}
@@ -94,7 +94,7 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
         squares={results.map((r) => r.right === PER_ROUND)}
         celebrate={score === TOTAL}
         onPlayAgain={() => start(false)}
-        share={game.daily ? dailyShare('Match the curve', 'match-curve', game.date) : undefined}
+        share={game.daily ? dailyShare('Fame lines', 'match-curve', game.date) : undefined}
         playAgainLabel="Another five"
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"

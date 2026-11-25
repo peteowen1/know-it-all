@@ -1,4 +1,4 @@
-// Pure logic for Match the curve: four famous people and four readership
+// Pure logic for Fame lines (was Match the curve): four famous people and four readership
 // curves; match each name to its curve. Built from src/data/curves.json
 // (scripts/build-curves.mjs). No React, no JSON import:
 // scripts/test-curves.mjs runs it on the real file.
