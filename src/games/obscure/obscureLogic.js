@@ -2,6 +2,7 @@
 
 import { makeRng, hashString, shuffle } from '../../lib/rng.js';
 import { matchChartGuess } from '../charts/chartLogic.js';
+import { normalise } from '../names/nameMatch.js';
 
 export const ROUNDS = 5;
 const KINDS = ['geo', 'people', 'music', 'film'];
@@ -47,11 +48,32 @@ function spellings(accept, geo) {
  * the list, 0 if not. Uses the chart boards' matching, so typos, "The" and
  * surnames alone behave the same way everywhere.
  */
-export function scoreGuess(category, guess) {
+export function scoreGuess(category, guess, otherNames = null) {
   const geo = category.kind === 'geo';
   const items = category.answers.map((a, i) => ({ id: a.text, rank: i + 1, label: a.text, answers: spellings(a.accept, geo) }));
+  // A typo allowance must not turn a different real place into a right answer
+  // (Australia for Austria, Gambia for Zambia, South Korea for North Korea).
+  const g = normalise(tidy(guess));
+  if (geo && otherNames?.has(g) && !items.some((it) => it.answers.some((a) => normalise(a) === g))) {
+    return { answer: null, score: 0, ambiguous: false };
+  }
   const m = matchChartGuess(tidy(guess), items);
   if (!m || m.ambiguous) return { answer: null, score: 0, ambiguous: Boolean(m?.ambiguous) };
   const answer = category.answers.find((a) => a.text === m.item.id);
   return { answer, score: answer.score };
+}
+
+/**
+ * Every country and capital name, tidied: the names `scoreGuess` must not
+ * typo-match onto a different answer. Taken from the full country list, since
+ * the wrong guess (Australia) is often in no category at all.
+ */
+export function geoNames(countries) {
+  const out = new Set();
+  for (const c of countries) {
+    for (const n of [c.name, ...(c.altNames || []), ...(c.capitals || []), ...(c.capitalsAlsoAccepted || [])]) {
+      if (n) out.add(normalise(tidy(n)));
+    }
+  }
+  return out;
 }

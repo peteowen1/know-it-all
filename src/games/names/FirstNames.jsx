@@ -272,7 +272,7 @@ function Board({ game, setGame, stats, easy, onFinish, onAgain, onSettings }) {
                   {easy ? (
                     <>
                       {p.description || 'famous person'}
-                      <span className="board-initial"> · surname starts with {p.rest[0]}</span>
+                      <span className="board-initial"> · surname starts with {(p.rest.split(/\s+/).find((w) => w.replace(/\W/g, '').length > 1) || p.rest)[0]}</span>
                     </>
                   ) : ' '}
                 </span>
