@@ -18,6 +18,7 @@ const MAX_BODY = 512 * 1024;
 const MAX_KEYS = 300;
 // How long the write history behind lost-reply detection is kept.
 const WRITES_KEEP_MS = 60 * 24 * 60 * 60 * 1000;
+const WRITES_KEEP_PER_KEY = 20;
 const HANDOFF_MINUTES = 15;
 const OLD_ORIGIN = `https://${OLD_HOST}`;
 
@@ -202,7 +203,13 @@ async function syncPut(request, env, sub) {
     if (entry.wid) {
       history.push(
         env.DB.prepare('INSERT OR REPLACE INTO kv_writes (sub, key, wid, updated_at) VALUES (?, ?, ?, ?)')
-          .bind(sub, key, entry.wid, row.updated_at)
+          .bind(sub, key, entry.wid, row.updated_at),
+        // Only the newest few per key matter (a lost reply is followed by a
+        // handful of writes at most), so the history cannot grow without bound.
+        env.DB.prepare(
+          `DELETE FROM kv_writes WHERE sub = ?1 AND key = ?2 AND wid NOT IN
+             (SELECT wid FROM kv_writes WHERE sub = ?1 AND key = ?2 ORDER BY updated_at DESC LIMIT ?3)`
+        ).bind(sub, key, WRITES_KEEP_PER_KEY)
       );
     }
   }
@@ -211,18 +218,20 @@ async function syncPut(request, env, sub) {
   // The copies that won, so the device can merge its changes into them, with
   // the ids of every write since the copy the device built on: if one is its
   // own (a reply it never got), the winning copy already holds those plays.
-  // Whole-account reads, filtered here: an IN list of refused keys could pass
-  // D1's limit on bound values.
+  // One read per refused key: an IN list of many keys could pass D1's limit
+  // on bound values, and reading the whole account would cost more than needed.
   const conflicts = {};
   if (refused.length) {
-    const want = new Set(refused);
-    const { results: rows } = await env.DB.prepare('SELECT key, value, updated_at FROM kv WHERE sub = ?').bind(sub).all();
-    for (const r of rows) if (want.has(r.key)) conflicts[r.key] = { value: r.value, updatedAt: r.updated_at, wids: [] };
-    const { results: writes } = await env.DB.prepare('SELECT key, wid, updated_at FROM kv_writes WHERE sub = ?').bind(sub).all();
-    for (const w of writes) {
-      const c = conflicts[w.key];
-      if (c && w.updated_at > Number(body.keys[w.key].base)) c.wids.push(w.wid);
-    }
+    const reads = refused.flatMap((key) => [
+      env.DB.prepare('SELECT value, updated_at FROM kv WHERE sub = ? AND key = ?').bind(sub, key),
+      env.DB.prepare('SELECT wid FROM kv_writes WHERE sub = ? AND key = ? AND updated_at > ? ORDER BY updated_at DESC LIMIT ?')
+        .bind(sub, key, Number(body.keys[key].base), WRITES_KEEP_PER_KEY)
+    ]);
+    const out = await env.DB.batch(reads);
+    refused.forEach((key, j) => {
+      const row = out[2 * j]?.results?.[0];
+      if (row) conflicts[key] = { value: row.value, updatedAt: row.updated_at, wids: (out[2 * j + 1]?.results || []).map((w) => w.wid) };
+    });
   }
   // `received` is how many were sent, for older copies of the app; newer ones
   // read `stored` and `conflicts`. Without a base, an older copy loses silently.
