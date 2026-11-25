@@ -44,6 +44,7 @@ const WhoAmI = lazy(() => import('./games/whoami/WhoAmI'));
 const MatchCurve = lazy(() => import('./games/curves/MatchCurve'));
 const WhosOlder = lazy(() => import('./games/older/WhosOlder'));
 const BoxOffice = lazy(() => import('./games/boxoffice/BoxOffice'));
+const MapGame = lazy(() => import('./games/map/MapGame'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
 const Settings = lazy(() => import('./components/Settings'));
 const ClueLadder = lazy(() => import('./games/clueladder/ClueLadder'));
@@ -483,6 +484,7 @@ export default function App() {
     'match-curve': () => <MatchCurve {...play} />,
     'whos-older': () => <WhosOlder {...play} />,
     'box-office': () => <BoxOffice {...play} />,
+    map: () => <MapGame {...play} onAnswer={handleGameAnswer} />,
     'clue-ladder': () => <ClueLadder {...play} />,
     'twin-flags': () => <TwinFlags {...play} />,
     scramble: () => <Scramble {...play} />,

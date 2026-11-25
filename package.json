@@ -15,6 +15,7 @@
     "data:music": "node scripts/build-music-charts.mjs",
     "data:top-tens": "node scripts/fetch-top-tens.mjs",
     "data:films": "node scripts/build-film-charts.mjs",
+    "data:map": "node scripts/build-world-map.mjs",
     "data:tv": "node scripts/build-tv-charts.mjs",
     "data:fourbyfour": "node scripts/build-fourbyfour.mjs",
     "data:lists": "node scripts/build-lists.mjs",
@@ -38,8 +39,11 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
+    "d3-geo": "^3.1.2",
     "oxlint": "^1.75.0",
+    "topojson-client": "^3.1.0",
     "vite": "^8.2.0",
+    "world-atlas": "^2.0.2",
     "wrangler": "^4.137.0"
   }
 }

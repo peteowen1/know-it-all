@@ -153,6 +153,11 @@ export const GAMES = [
     recordFormat: byPoints(20)
   },
   {
+    id: 'map', section: 'lab', tab: 'map', icon: 'Map', title: 'Find it on the map',
+    blurb: 'A country is named; tap it on the map. Ten a round.',
+    recordFormat: (e) => (e.plays ? `${played(e)} · best ${e.best} of 10` : null)
+  },
+  {
     id: 'box-office', section: 'lab', tab: 'box-office', icon: 'Clapperboard', title: 'Box office',
     blurb: 'Two hit films: which made more? One miss ends the run.',
     recordFormat: (e) => (e.plays ? `${played(e)} · best run of ${e.bestRun}` : null)
