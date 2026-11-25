@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef } from 'react';
-import { ArrowUp, ArrowDown } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import data from '../../data/whosOlder.json';
 import { POOLS, firstPair, nextPerson, bornBefore, formatYear } from './olderLogic';
 import { gameEntry } from '../../lib/gameStats';
@@ -12,8 +12,8 @@ const STAT_ID = 'whos-older';
 const POOL_LABELS = { household: 'Household names', known: 'Well known' };
 
 /**
- * Who's older?: the left card shows when someone was born; was the right one
- * born before or after? A right call moves the right card across, so a run is
+ * Who's older?: the left card shows when someone was born; is the right one
+ * older or younger? A right call moves the right card across, so a run is
  * a chain, and one miss ends it. The gaps close as the run grows (see
  * olderLogic.js gapRange). Same save-on-leave rules as Higher or lower.
  */
@@ -75,8 +75,9 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
 
   const { left, right, run, total, verdict, seen } = state;
 
-  const guess = (before) => {
-    const correct = before === bornBefore(right, left);
+  // Older sits on the left and younger on the right, like a timeline.
+  const guess = (older) => {
+    const correct = older === bornBefore(right, left);
     const nextRun = run + (correct ? 1 : 0);
     setState({ ...state, verdict: correct ? 'right' : 'wrong', run: nextRun, total: total + 1 });
     if (correct) {
@@ -110,7 +111,7 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
         celebrate={false}
         verdict={
           lost
-            ? `${right.name} was born in ${formatYear(right.born)}, ${bornBefore(right, left) ? 'before' : 'after'} ${left.name}.`
+            ? `${right.name} was born in ${formatYear(right.born)}, so is ${bornBefore(right, left) ? 'older' : 'younger'} than ${left.name}.`
             : 'You ran out of people to compare. That is everyone in this set.'
         }
         onPlayAgain={start}
@@ -142,10 +143,10 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
 
       {verdict === null && (
         <div className="hl-buttons">
-          <p>Was <strong>{right.name}</strong> born before or after {left.name}?</p>
+          <p><strong>{right.name}</strong>: older or younger than {left.name}?</p>
           <div className="play-grade">
-            <Button variant="secondary" onClick={() => guess(true)}><ArrowUp size={18} aria-hidden="true" /> Before</Button>
-            <Button variant="secondary" onClick={() => guess(false)}><ArrowDown size={18} aria-hidden="true" /> After</Button>
+            <Button variant="secondary" onClick={() => guess(true)}><ArrowLeft size={18} aria-hidden="true" /> Older</Button>
+            <Button variant="secondary" onClick={() => guess(false)}>Younger <ArrowRight size={18} aria-hidden="true" /></Button>
           </div>
         </div>
       )}
