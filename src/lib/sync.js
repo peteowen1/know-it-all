@@ -13,7 +13,7 @@
 // Signed out, none of this runs: markDirty() returns immediately and the app
 // is exactly the local-only app it was before.
 
-import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, isSyncedKey } from './syncCore.js';
+import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, isSyncedKey } from './syncCore.js';
 import { onDirty, SYNC_BASE_KEY as BASE_KEY } from './storage.js';
 
 const META_KEY = 'kia_sync';
@@ -25,7 +25,9 @@ const KEEPALIVE_LIMIT = 60_000;
 // touched: when each key was last written on this device. Each key is sent
 // with its own time, so a batch after a spell offline does not stamp a late
 // edit with the time of the first one (which could make it lose a clash).
-const blankMeta = () => ({ email: null, shadow: {}, updated: {}, touched: {} });
+// pending: values sent for each key whose reply has not come back yet, so a
+// write that landed without its reply is recognised as this device's own.
+const blankMeta = () => ({ email: null, shadow: {}, updated: {}, touched: {}, pending: {} });
 
 let meta = loadMeta();
 let pushTimer = null;
@@ -38,7 +40,7 @@ const listeners = new Set();
 function loadMeta() {
   try {
     const saved = JSON.parse(localStorage.getItem(META_KEY) || '{}');
-    return { ...blankMeta(), ...saved, touched: saved.touched || {} };
+    return { ...blankMeta(), ...saved, touched: saved.touched || {}, pending: saved.pending || {} };
   } catch {
     return blankMeta();
   }
@@ -149,12 +151,28 @@ async function api(path, options = {}) {
   return res.json();
 }
 
+// A refused push merges and tries again; another device racing every retry is
+// not plausible, so a few attempts is plenty before leaving it for the next save.
+const PUSH_ATTEMPTS = 3;
+const PENDING_KEEP = 3;
+
 /** Send changed keys. Resolves true when the server has everything this device has. */
 export async function push({ keepalive = false } = {}) {
   // While signing in, the merge has not run yet: pushing now would send every
   // local key as the newest copy over the account's.
   if (!meta.email || signingIn) return false;
   clearTimeout(pushTimer);
+  for (let attempt = 0; attempt < PUSH_ATTEMPTS; attempt++) {
+    const result = await pushOnce({ keepalive });
+    if (result !== 'refused') return result;
+  }
+  setStatus('offline');
+  console.warn('Sync push kept clashing with another device; will retry on the next save or visit.');
+  return false;
+}
+
+/** One push. Resolves true, false (failed), or 'refused' (merged; push again). */
+async function pushOnce({ keepalive }) {
   const current = readSnapshot();
   const changes = diffSnapshot(current, meta.shadow);
   if (!Object.keys(changes).length) {
@@ -167,8 +185,15 @@ export async function push({ keepalive = false } = {}) {
   // Writes that bypassed markDirty (reset, a hand-over) count as happening now.
   const sentAt = Date.now();
   const keys = {};
-  for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt };
+  // `base`: the server copy these changes were made on top of. The server
+  // refuses the write if another device has written since.
+  for (const [k, v] of Object.entries(changes)) keys[k] = { value: v, updatedAt: meta.touched[k] || sentAt, base: meta.updated[k] || 0 };
   const body = JSON.stringify({ keys });
+
+  // Noted before sending: if the server stores this but the reply is lost,
+  // the next push must recognise the server's copy as this device's own.
+  for (const [k, v] of Object.entries(changes)) meta.pending[k] = [...(meta.pending[k] || []), v].slice(-PENDING_KEEP);
+  saveMeta();
 
   const email = meta.email;
   setStatus('syncing');
@@ -180,15 +205,44 @@ export async function push({ keepalive = false } = {}) {
     if (res.received !== Object.keys(keys).length) {
       throw new Error(`server took ${res.received} of ${Object.keys(keys).length} keys`);
     }
-    for (const [k, v] of Object.entries(changes)) {
-      if (v === null) delete meta.shadow[k];
-      else meta.shadow[k] = v;
-      // The server never stores a time later than its own clock; record what it kept.
-      meta.updated[k] = Math.min(keys[k].updatedAt, res.now ?? Infinity);
+    // A server from before refusals existed sends neither map: every key it
+    // took counts as stored at the time sent, as before.
+    const stored = res.stored || Object.fromEntries(Object.keys(keys).map((k) => [k, Math.min(keys[k].updatedAt, res.now ?? Infinity)]));
+    const conflicts = res.conflicts || {};
+
+    // A refused key whose server copy is something this device sent is its own
+    // earlier write whose reply never arrived (keepalive on locking the phone,
+    // a dropped connection). That copy is the agreed one, with no merge:
+    // merging would add this device's plays in a second time.
+    const clashes = {};
+    const ownEarlier = {};
+    for (const [k, e] of Object.entries(conflicts)) {
+      if (e.value === changes[k]) stored[k] = e.updatedAt;
+      else if ((meta.pending[k] || []).includes(e.value)) ownEarlier[k] = e;
+      else clashes[k] = e;
+    }
+
+    // Merge against the copy these changes were made on, before moving it on.
+    const merged = Object.keys(clashes).length ? resolveConflicts(current, meta.shadow, clashes) : {};
+
+    const agree = (k, value, updatedAt) => {
+      if (value === null) delete meta.shadow[k];
+      else meta.shadow[k] = value;
+      meta.updated[k] = updatedAt;
+    };
+    for (const [k, t] of Object.entries(stored)) {
+      if (!(k in changes)) continue;
+      agree(k, changes[k], t);
       // Keep the mark if the key was written again while this was in flight;
       // that newer write still has to go.
       if (meta.touched[k] === keys[k].updatedAt || !meta.touched[k]) delete meta.touched[k];
     }
+    // The other device's copy is now the agreed one; this device's merged (or,
+    // for rounds and settings, own) value still differs from it, so the next
+    // attempt sends it on top.
+    for (const [k, e] of Object.entries({ ...clashes, ...ownEarlier })) agree(k, e.value, e.updatedAt);
+    // Every reply here settles what was sent for these keys.
+    for (const k of Object.keys(changes)) delete meta.pending[k];
     // Saves that rewrote an identical value leave a mark but no change; drop
     // those, or a later write that bypasses markDirty would inherit the old time.
     const now = readSnapshot();
@@ -196,8 +250,17 @@ export async function push({ keepalive = false } = {}) {
       if (!(k in changes) && (now[k] ?? null) === (meta.shadow[k] ?? null)) delete meta.touched[k];
     }
     saveMeta();
-    setStatus('idle');
-    return true;
+    if (!Object.keys(clashes).length && !Object.keys(ownEarlier).length) {
+      setStatus('idle');
+      return true;
+    }
+    // Write the merge and remount in one go: the app still holds the old
+    // values in memory and would otherwise save them back over the merge.
+    if (Object.keys(merged).length) {
+      writeKeys(merged);
+      remount();
+    }
+    return 'refused';
   } catch (err) {
     if (meta.email) setStatus('offline');
     console.warn('Sync push failed; will retry on the next save or visit.', err);

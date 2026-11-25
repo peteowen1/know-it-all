@@ -36,7 +36,7 @@ import { topSongs, topArtists, matchChartGuess, buildChartQuiz, decadesOf } from
 import { readFileSync } from 'node:fs';
 import { pathForTab, tabForPath } from '../src/lib/route.js';
 import { GAMES } from '../src/games/registry.js';
-import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
+import { diffSnapshot, planPull, mergeSnapshots, rebaseSnapshots, resolveConflicts, tombstoneWrites, hasProgress, isSyncedKey } from '../src/lib/syncCore.js';
 import {
   loadSources, buildGroups, countryLookup, findOverlaps, indexByLabel, tileFits, countSolutions, isFair, hidingWord, HIDDEN, TRAPS, GAPS, GAP_HERRINGS, norm as fbfNorm, MAX_PUZZLES_PER_ITEM, MAX_PUZZLES_PER_LABEL
 } from './lib/fbfGroups.mjs';
@@ -1056,6 +1056,28 @@ test('missing link: people clues are surnames, not giveaway full names', () => {
     // Played on the phone since, not here: take the account's copy.
     const w = rebaseSnapshots({ ...base }, { ...base, sqt_v4_stats: stats(60) }, base);
     assert.equal(JSON.parse(w.sqt_v4_stats).totalAnswered, 60);
+  });
+
+  test('sync clash: a stale laptop adds its plays to the phone, losing neither', () => {
+    // Agreed at 100; the phone took the account to 130; the laptop, still on
+    // 100, played 10 more and its push was refused.
+    const shadow = { sqt_v4_stats: stats(100), sqt_v4_setup: '{"count":10}' };
+    const local = { sqt_v4_stats: stats(110), sqt_v4_setup: '{"count":10}' };
+    const w = resolveConflicts(local, shadow, { sqt_v4_stats: { value: stats(130), updatedAt: 5 } });
+    assert.equal(JSON.parse(w.sqt_v4_stats).totalAnswered, 140);
+  });
+
+  test('sync clash: a round in progress here keeps this device copy', () => {
+    const shadow = { sqt_v4_live_quiz_quiz: '{"i":1}' };
+    const w = resolveConflicts({ sqt_v4_live_quiz_quiz: '{"i":3}' }, shadow, { sqt_v4_live_quiz_quiz: { value: '{"i":2}', updatedAt: 5 } });
+    assert.deepEqual(w, {}, 'nothing written, so the local round is pushed again and wins');
+  });
+
+  test('sync clash: done-today ticks from both devices are kept', () => {
+    const shadow = { sqt_v4_daily_done: '{"daily":"2026-11-24"}' };
+    const local = { sqt_v4_daily_done: '{"daily":"2026-11-25"}' };
+    const w = resolveConflicts(local, shadow, { sqt_v4_daily_done: { value: '{"daily":"2026-11-24","scramble":"2026-11-25"}', updatedAt: 5 } });
+    assert.deepEqual(JSON.parse(w.sqt_v4_daily_done), { daily: '2026-11-25', scramble: '2026-11-25' });
   });
 
   test('sync: re-sign-in keeps what was played here while signed out', () => {

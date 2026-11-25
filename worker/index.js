@@ -133,31 +133,74 @@ async function syncPut(request, env, sub) {
     return json({ error: 'Body too large or not readable.' }, 413);
   }
   const entries = Object.entries(body.keys);
-  if (!entries.length) return json({ received: 0 });
+  if (!entries.length) return json({ received: 0, stored: {}, conflicts: {} });
   if (entries.length > MAX_KEYS) return json({ error: 'Too many keys.' }, 413);
 
   const now = Date.now();
   const stmts = [];
+  const checked = [];
   for (const [key, entry] of entries) {
     const value = entry?.value;
     const t = Number(entry?.updatedAt);
-    if (!isSyncedKey(key) || !(value === null || typeof value === 'string') || !Number.isFinite(t)) {
+    const hasBase = entry && 'base' in entry;
+    const base = Number(entry?.base);
+    if (!isSyncedKey(key) || !(value === null || typeof value === 'string') || !Number.isFinite(t) || (hasBase && !Number.isFinite(base))) {
       return json({ error: `Bad entry for ${String(key).slice(0, 40)}.` }, 400);
     }
     // A device whose clock runs fast would otherwise win every clash for as
     // long as it stays fast. Nothing may claim to be newer than the server's now.
     const updatedAt = Math.min(t, now);
-    stmts.push(
-      env.DB.prepare(
-        `INSERT INTO kv (sub, key, value, updated_at) VALUES (?, ?, ?, ?)
-         ON CONFLICT(sub, key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
-         WHERE excluded.updated_at > kv.updated_at`
-      ).bind(sub, key, value, updatedAt)
-    );
+    if (hasBase) {
+      // Written only on top of the copy this device last saw (`base` is that
+      // copy's updated_at, 0 for none). Otherwise another device got there
+      // first: the write is refused and the device merges and retries, rather
+      // than a tab left open overwriting newer progress with its older copy.
+      // The stored time is always past the row it replaces, so other devices
+      // see the write as newer even when this device's clock is behind.
+      checked.push(key);
+      stmts.push(
+        env.DB.prepare(
+          `INSERT INTO kv (sub, key, value, updated_at) VALUES (?1, ?2, ?3, ?4)
+           ON CONFLICT(sub, key) DO UPDATE SET value = excluded.value, updated_at = MAX(excluded.updated_at, kv.updated_at + 1)
+           WHERE kv.updated_at = ?5
+           RETURNING updated_at`
+        ).bind(sub, key, value, updatedAt, base)
+      );
+    } else {
+      // An older copy of the app that sends no base: newest time wins, as before.
+      stmts.push(
+        env.DB.prepare(
+          `INSERT INTO kv (sub, key, value, updated_at) VALUES (?, ?, ?, ?)
+           ON CONFLICT(sub, key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
+           WHERE excluded.updated_at > kv.updated_at`
+        ).bind(sub, key, value, updatedAt)
+      );
+    }
   }
-  await env.DB.batch(stmts);
-  // How many were sent, not how many won: an older copy loses silently, by design.
-  return json({ received: stmts.length, now });
+  const results = await env.DB.batch(stmts);
+
+  const stored = {};
+  const refused = [];
+  let i = 0;
+  for (const [key, entry] of entries) {
+    const r = results[i++];
+    if (!(entry && 'base' in entry)) continue;
+    const row = r?.results?.[0];
+    if (row) stored[key] = row.updated_at;
+    else refused.push(key);
+  }
+  // The copies that won, so the device can merge its changes into them.
+  const conflicts = {};
+  if (refused.length) {
+    const marks = refused.map(() => '?').join(', ');
+    const { results: rows } = await env.DB.prepare(
+      `SELECT key, value, updated_at FROM kv WHERE sub = ? AND key IN (${marks})`
+    ).bind(sub, ...refused).all();
+    for (const r of rows) conflicts[r.key] = { value: r.value, updatedAt: r.updated_at };
+  }
+  // `received` is how many were sent, for older copies of the app; newer ones
+  // read `stored` and `conflicts`. Without a base, an older copy loses silently.
+  return json({ received: stmts.length, now, stored, conflicts });
 }
 
 // ------------------------------------------------------------------ handoff
