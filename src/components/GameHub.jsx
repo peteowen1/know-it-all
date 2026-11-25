@@ -7,7 +7,7 @@ import GameIcon from './ui/GameIcon';
 import { dailyDoneToday } from '../lib/dailyDone';
 
 // The rounds that are the same for everyone, in the order the Today row shows them.
-const TODAY_TABS = ['daily', 'weekly', 'connections', 'clue-ladder', 'odd-one-out', 'who-am-i', 'missing-link', 'timeline', 'year-guess', 'pointless'];
+const TODAY_TABS = ['daily', 'weekly', 'connections', 'clue-ladder', 'odd-one-out', 'who-am-i', 'missing-link', 'timeline', 'year-guess', 'pointless', 'match-curve'];
 
 /**
  * The home screen: every game, grouped by section. Each section sets its own

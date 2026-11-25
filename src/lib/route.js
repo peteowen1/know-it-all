@@ -15,6 +15,8 @@ const SLUGS = {
   flashcards: 'decks',
   connections: 'four-by-four',
   pointless: 'obscurest',
+  // Renamed from Match the curve on 2026-11-26; /match-curve still opens it.
+  'match-curve': 'fame-lines',
   analytics: 'progress'
 };
 const TAB_FOR_SLUG = new Map(Object.entries(SLUGS).map(([tab, slug]) => [slug, tab]));
