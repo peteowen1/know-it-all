@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Clock } from 'lucide-react';
 import { activeMs, formatClock } from '../../lib/roundClock';
+import BoardPanel from '../../components/BoardPanel';
 
 /**
  * The time so far, ticking once a second. Its own component, so only the
@@ -32,9 +33,12 @@ export function ClockPill({ clock }) {
 export function RoundTime({ time, best, score }) {
   const isBest = best && best.activeMs === time.activeMs && best.score === score;
   return (
-    <p className="round-time">
-      Time {formatClock(time.activeMs)}
-      {isBest ? ' · your best on these settings' : best ? ` · your best: ${best.score} points in ${formatClock(best.activeMs)}` : ''}
-    </p>
+    <>
+      <p className="round-time">
+        Time {formatClock(time.activeMs)}
+        {isBest ? ' · your best on these settings' : best ? ` · your best: ${best.score} points in ${formatClock(best.activeMs)}` : ''}
+      </p>
+      {time.roundId && time.board && <BoardPanel time={time} />}
+    </>
   );
 }

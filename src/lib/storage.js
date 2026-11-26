@@ -85,4 +85,6 @@ export function clearAllStored() {
   // rather than replay the reset onto it.
   localStorage.removeItem(SYNC_BASE_KEY);
   localStorage.removeItem(SWITCHED_FROM_KEY);
+  // Rounds waiting to go to the leaderboards (src/lib/boards.js OUTBOX).
+  localStorage.removeItem('kia_board_outbox');
 }
