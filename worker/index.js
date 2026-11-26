@@ -10,6 +10,10 @@
 import { verifyGoogleIdToken } from './google.js';
 import { GOOGLE_CLIENT_ID, OLD_HOST } from '../src/lib/syncConfig.js';
 import { isSyncedKey } from '../src/lib/syncCore.js';
+import {
+  profileGet, profilePut, resultPost, boardGet, invitesGet, groupCreate,
+  invitePreview, inviteJoin, inviteLeave, friendRemove, deleteBoardData
+} from './boards.js';
 
 const COOKIE = 'kia_session';
 const SESSION_DAYS = 180;
@@ -64,14 +68,43 @@ async function route(request, env, url) {
     if (method === 'GET') return syncGet(env, sub);
     if (method === 'PUT') return syncPut(request, env, sub);
     if (method === 'DELETE') {
+      // Reset deletes the leaderboard side too: nickname, results, friends, groups.
       await env.DB.batch([
         env.DB.prepare('DELETE FROM kv WHERE sub = ?').bind(sub),
-        env.DB.prepare('DELETE FROM kv_writes WHERE sub = ?').bind(sub)
+        env.DB.prepare('DELETE FROM kv_writes WHERE sub = ?').bind(sub),
+        ...deleteBoardData(env, sub)
       ]);
       return json({ ok: true });
     }
   }
+  if (/^\/api\/(profile|results|boards|invites|friends)(\/|$)/.test(pathname)) {
+    if (!sub) return json({ error: 'Signed out.' }, 401);
+    return reply(await boardsRoute(request, env, url, sub));
+  }
   return json({ error: 'Not found.' }, 404);
+}
+
+/** Leaderboard endpoints (worker/boards.js). Each handler returns { body } or { status, error }. */
+async function boardsRoute(request, env, url, sub) {
+  const { pathname } = url;
+  const method = request.method;
+  if (pathname === '/api/profile' && method === 'GET') return { body: await profileGet(env, sub) };
+  if (pathname === '/api/profile' && method === 'PUT') return profilePut(env, sub, await readJson(request));
+  if (pathname === '/api/results' && method === 'POST') return resultPost(env, sub, await readJson(request));
+  if (pathname === '/api/boards' && method === 'GET') return boardGet(env, sub, url.searchParams);
+  if (pathname === '/api/invites' && method === 'GET') return invitesGet(env, sub);
+  if (pathname === '/api/invites' && method === 'POST') return groupCreate(env, sub, await readJson(request));
+  const invite = pathname.match(/^\/api\/invites\/([A-Z0-9]+)(\/join)?$/);
+  if (invite && !invite[2] && method === 'GET') return invitePreview(env, sub, invite[1]);
+  if (invite && invite[2] && method === 'POST') return inviteJoin(env, sub, invite[1]);
+  if (invite && !invite[2] && method === 'DELETE') return inviteLeave(env, sub, invite[1]);
+  const friend = pathname.match(/^\/api\/friends\/([A-Z0-9]+)$/);
+  if (friend && method === 'DELETE') return friendRemove(env, sub, friend[1]);
+  return { status: 404, error: 'Not found.' };
+}
+
+function reply(r) {
+  return r.error ? json({ error: r.error }, r.status || 400) : json(r.body);
 }
 
 // ------------------------------------------------------------------ auth
@@ -86,9 +119,9 @@ async function signIn(request, env) {
   const existing = await env.DB.prepare('SELECT 1 AS x FROM kv WHERE sub = ? LIMIT 1').bind(claims.sub).first();
   await env.DB.batch([
     env.DB.prepare(
-      `INSERT INTO users (sub, email, created_at, last_seen_at) VALUES (?, ?, ?, ?)
-       ON CONFLICT(sub) DO UPDATE SET email = excluded.email, last_seen_at = excluded.last_seen_at`
-    ).bind(claims.sub, claims.email || null, now, now),
+      `INSERT INTO users (sub, email, given_name, created_at, last_seen_at) VALUES (?, ?, ?, ?, ?)
+       ON CONFLICT(sub) DO UPDATE SET email = excluded.email, given_name = excluded.given_name, last_seen_at = excluded.last_seen_at`
+    ).bind(claims.sub, claims.email || null, typeof claims.given_name === 'string' ? claims.given_name.slice(0, 60) : null, now, now),
     env.DB.prepare('INSERT INTO sessions (token_hash, sub, created_at, expires_at) VALUES (?, ?, ?, ?)')
       .bind(await sha256(token), claims.sub, now, now + SESSION_DAYS * DAY_MS),
     env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now)

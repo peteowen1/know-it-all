@@ -59,9 +59,10 @@ leaderboard and compete with friends". His answers:
   my data clears nickname, results and memberships; every board read has a
   limit.
 
-## Open questions for Pete (ask at the phase, not before)
+## Pete's answers for Phase 2 (2026-11-26)
 
-- Random boards: weekly, monthly or all-time?
-- Public boards: opt-in per person?
-- A late first play of an earlier day's daily round: does it post to that
-  day's board?
+- Random-round boards: **weekly (from Monday) plus all-time**. Daily games
+  also get a board per day.
+- Public boards: **opt in** per person. Friends and groups see you either way
+  once you have added each other.
+- A first play of an earlier day's daily: **on that day's board, marked late**.
