@@ -159,6 +159,14 @@ try {
     await call('ann', 'DELETE', `friends/${bobCode}`);
     assert.equal((await call('bob', 'GET', 'invites')).body.friends.length, 0);
     assert.equal((await call('bob', 'POST', `invites/${annCode}/join`)).status, 403);
+    // Removing or leaving a code you have nothing to do with answers the same
+    // as a real one and blocks no one: no way to test guesses.
+    const catCode = (await call('cat', 'GET', 'profile')).body.friendCode;
+    for (const c of [catCode, 'ZZZZZZZZ']) {
+      assert.deepEqual((await call('bob', 'DELETE', `friends/${c}`)).body, { ok: true });
+      assert.deepEqual((await call('bob', 'DELETE', `invites/${c}`)).body, { ok: true });
+    }
+    assert.equal((await env.DB.prepare("SELECT COUNT(*) AS n FROM blocks WHERE owner = 'bob'").first()).n, 0);
   });
 
   await test('a new friend code: the old one stops working, friends stay', async () => {

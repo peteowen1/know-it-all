@@ -293,11 +293,14 @@ export async function inviteJoin(env, sub, code) {
   return { body: { ...preview.body, joined: true } };
 }
 
-/** Leave a group, or unfriend (either side of the friendship). Owners delete a group they own. */
+/**
+ * Leave a group; an owner deletes a group they own. The answer is the same
+ * whether or not the code exists, so this cannot be used to test guesses.
+ */
 export async function inviteLeave(env, sub, code) {
-  if (!CODE.test(code)) return { status: 404, error: 'No such invite.' };
+  if (!CODE.test(code)) return { body: { ok: true } };
   const inv = await env.DB.prepare('SELECT kind, owner FROM invites WHERE code = ?').bind(code).first();
-  if (!inv) return { status: 404, error: 'No such invite.' };
+  if (!inv) return { body: { ok: true } };
   if (inv.kind === 'group' && inv.owner === sub) {
     await env.DB.batch([
       env.DB.prepare('DELETE FROM members WHERE code = ?').bind(code),
@@ -311,12 +314,19 @@ export async function inviteLeave(env, sub, code) {
 
 /**
  * Unfriend: `code` is the friend's own friend code. Ends it both ways, whoever
- * joined whom, and stops them rejoining through your code.
+ * joined whom, and stops them rejoining through your code (or your groups:
+ * the block is on you, not on one code). Acts only on an actual friend, and
+ * answers the same either way, so it cannot be used to test guessed codes or
+ * to block strangers.
  */
 export async function friendRemove(env, sub, code) {
-  if (!CODE.test(code)) return { status: 404, error: 'No such friend.' };
-  const other = await env.DB.prepare("SELECT owner FROM invites WHERE code = ? AND kind = 'friend'").bind(code).first();
-  if (!other || other.owner === sub) return { status: 404, error: 'No such friend.' };
+  if (!CODE.test(code)) return { body: { ok: true } };
+  const other = await env.DB.prepare(
+    `SELECT i.owner FROM invites i WHERE i.code = ?1 AND i.kind = 'friend' AND i.owner != ?2 AND (
+       EXISTS (SELECT 1 FROM members m WHERE m.code = i.code AND m.sub = ?2)
+       OR EXISTS (SELECT 1 FROM members m JOIN invites mine ON mine.code = m.code WHERE mine.owner = ?2 AND mine.kind = 'friend' AND m.sub = i.owner))`
+  ).bind(code, sub).first();
+  if (!other) return { body: { ok: true } };
   // Either they joined my code, or I joined theirs.
   await env.DB.batch([
     env.DB.prepare('INSERT OR IGNORE INTO blocks (owner, blocked) VALUES (?, ?)').bind(sub, other.owner),
@@ -340,7 +350,8 @@ export async function friendCodeReset(env, sub) {
       env.DB.prepare('UPDATE invites SET code = ? WHERE code = ?').bind(code, old),
       env.DB.prepare('UPDATE members SET code = ? WHERE code = ?').bind(code, old)
     ]);
-    return { body: { friendCode: code } };
+    // Read back: a second reset racing this one may have moved the code first.
+    return { body: { friendCode: await friendCode(env, sub) } };
   }
   throw new Error('Could not make a friend code.');
 }
