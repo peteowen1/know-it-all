@@ -257,13 +257,14 @@ export async function groupCreate(env, sub, body) {
 /** Counts a preview or join; false once this person has made 30 in the last hour. */
 async function allowTry(env, sub) {
   const now = Date.now();
-  const recent = await env.DB.prepare('SELECT COUNT(*) AS n FROM invite_tries WHERE sub = ? AND at > ?').bind(sub, now - 3600_000).first();
-  if ((recent?.n || 0) >= TRIES_PER_HOUR) return false;
-  await env.DB.batch([
-    env.DB.prepare('INSERT INTO invite_tries (sub, at) VALUES (?, ?)').bind(sub, now),
-    env.DB.prepare('DELETE FROM invite_tries WHERE sub = ? AND at < ?').bind(sub, now - DAY_MS)
-  ]);
-  return true;
+  // Count and record in one statement, so requests sent at once cannot all
+  // see room under the cap.
+  const res = await env.DB.prepare(
+    `INSERT INTO invite_tries (sub, at) SELECT ?1, ?2
+     WHERE (SELECT COUNT(*) FROM invite_tries WHERE sub = ?1 AND at > ?3) < ?4`
+  ).bind(sub, now, now - 3600_000, TRIES_PER_HOUR).run();
+  await env.DB.prepare('DELETE FROM invite_tries WHERE sub = ? AND at < ?').bind(sub, now - DAY_MS).run();
+  return Boolean(res.meta.changes);
 }
 
 /** What an invite is, before joining it: shown so joining is a choice. */
@@ -364,7 +365,10 @@ export function deleteBoardData(env, sub) {
     env.DB.prepare('DELETE FROM members WHERE code IN (SELECT code FROM invites WHERE owner = ?)').bind(sub),
     env.DB.prepare('DELETE FROM invites WHERE owner = ?').bind(sub),
     env.DB.prepare('DELETE FROM profiles WHERE sub = ?').bind(sub),
-    env.DB.prepare('DELETE FROM blocks WHERE owner = ? OR blocked = ?').bind(sub, sub),
-    env.DB.prepare('DELETE FROM invite_tries WHERE sub = ?').bind(sub)
+    // Only blocks this person made: a block someone put on them is that
+    // person's, and must outlast a Reset. invite_tries is left too: it holds
+    // only times, clears itself after a day, and clearing it on Reset would
+    // undo the cap on guessing codes.
+    env.DB.prepare('DELETE FROM blocks WHERE owner = ?').bind(sub)
   ];
 }

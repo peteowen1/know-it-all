@@ -183,6 +183,9 @@ try {
     let last;
     for (let i = 0; i < 31; i++) last = await call('cat', 'GET', 'invites/ZZZZZZZZ');
     assert.equal(last.status, 429);
+    // Thirty at once cannot slip past the cap either.
+    const burst = await Promise.all(Array.from({ length: 40 }, () => call('dan', 'GET', 'invites/ZZZZZZZZ')));
+    assert.ok(burst.filter((r) => r.status === 404).length <= 30, 'no more than 30 tries counted');
   });
 
   await test('Reset deletes the leaderboard side too', async () => {
@@ -192,6 +195,12 @@ try {
       assert.equal(r.n, 0, t);
     }
     assert.equal((await env.DB.prepare("SELECT COUNT(*) AS n FROM invites WHERE owner = 'ann'").first()).n, 0);
+    // Ann's block on Bob went with her; Bob's Reset would not lift a block on him.
+    await env.DB.prepare("INSERT INTO blocks VALUES ('cat', 'bob')").run();
+    await call('bob', 'DELETE', 'sync');
+    assert.equal((await env.DB.prepare("SELECT COUNT(*) AS n FROM blocks WHERE owner = 'cat' AND blocked = 'bob'").first()).n, 1);
+    await call('cat', 'DELETE', 'sync');
+    assert.equal((await call('cat', 'GET', 'invites/ZZZZZZZZ')).status, 429, 'Reset does not reset the tries cap');
   });
 } finally {
   await dispose();
