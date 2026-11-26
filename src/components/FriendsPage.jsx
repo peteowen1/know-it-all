@@ -66,7 +66,7 @@ export default function FriendsPage() {
       <div className="quiz-screen friends">
         <div className="screen-head">
           <h2>Friends and leaderboards</h2>
-          <p>Sign in with Google (top right) to add friends, join groups and see how your times compare. If you opened a friend&apos;s link, open it again after signing in.</p>
+          <p>Sign in with Google (top right) to add friends, join groups and see how your times compare. If you opened a friend&apos;s link, stay on this page: it shows here once you are signed in.</p>
         </div>
       </div>
     );

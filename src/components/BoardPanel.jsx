@@ -2,7 +2,7 @@ import React, { useEffect, useState, useSyncExternalStore } from 'react';
 import { subscribe, getEmail } from '../lib/sync';
 import { Chip } from './ui';
 import { formatClock } from '../lib/roundClock';
-import { getBoard, getInvites, getProfile, openFriends, roundDay, thisWeek } from '../lib/boards';
+import { boardKey, getBoard, getInvites, getProfile, openFriends, roundDay, roundPosted, thisWeek } from '../lib/boards';
 
 /**
  * The leaderboard under a finished round's time: you against your friends, a
@@ -43,17 +43,15 @@ export default function BoardPanel({ time }) {
     if (!email) return undefined;
     let live = true;
     setState({ loading: true });
-    // A round just posted may still be on its way: a short wait first.
-    const t = setTimeout(() => {
-      getBoard(time.board, period, scope)
-        .then((b) => live && setState({ rows: b.rows }))
-        .catch((err) => live && setState({ error: err.message }));
-    }, 400);
+    // Wait for this round's own post, so it is on the board it opens.
+    roundPosted(time.roundId)
+      .then(() => getBoard(boardKey(time.board), period, scope))
+      .then((b) => live && setState({ rows: b.rows }))
+      .catch((err) => live && setState({ error: err.message }));
     return () => {
       live = false;
-      clearTimeout(t);
     };
-  }, [email, time.board, period, scope]);
+  }, [email, time.roundId, time.board, period, scope]);
 
   if (!email) {
     return <p className="board-note">Sign in (top right) to see how this stacks up against your friends.</p>;

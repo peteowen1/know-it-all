@@ -54,29 +54,58 @@ function writeOutbox(list) {
   }
 }
 
+/**
+ * A board key the server accepts (worker/boards.js BOARD): accents dropped
+ * and anything else outside its characters turned into "-". Famous first
+ * names keys carry names like "José" and "Sean / Shaun / Shawn". Used both
+ * for posting and for reading, so a board is always found under one key.
+ */
+export function boardKey(raw) {
+  const key = String(raw)
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^A-Za-z0-9 _:.&'()-]+/g, '-')
+    .replace(/^[^A-Za-z0-9]+/, '')
+    .slice(0, 120);
+  return key || 'board';
+}
+
+// One send at a time: two overlapping sends would each write back their own
+// view of the outbox, and the later one could drop a round the other added.
+let sending = Promise.resolve();
+
 /** Send waiting rounds. A round the server refuses as bad is dropped, not retried forever. */
-export async function flushOutbox() {
+export function flushOutbox() {
+  sending = sending.then(sendWaiting, sendWaiting);
+  return sending;
+}
+
+async function sendWaiting() {
   if (!signedIn()) return;
-  const waiting = readOutbox();
-  if (!waiting.length) return;
   const me = getEmail();
-  const left = [];
-  for (const { account, ...r } of waiting) {
+  // Ids settled this pass (posted, or refused as bad). The outbox is read
+  // again at the end, so a round added meanwhile is kept.
+  const settled = new Set();
+  for (const { account, ...r } of readOutbox()) {
     // Played under another account (since switched): never posted as this
     // one; it waits in case that account signs in here again.
-    if (account !== me) {
-      left.push({ account, ...r });
-      continue;
-    }
+    if (account !== me) continue;
     try {
       await api('results', { method: 'POST', body: r });
+      settled.add(r.roundId);
     } catch (err) {
-      if (err.status === 400) console.warn('A round was refused by the leaderboard and dropped.', err.message);
-      else left.push({ account, ...r });
+      if (err.status === 400) {
+        console.warn('A round was refused by the leaderboard and dropped.', err.message);
+        settled.add(r.roundId);
+      }
     }
   }
-  writeOutbox(left);
+  if (settled.size) writeOutbox(readOutbox().filter((r) => !settled.has(r.roundId)));
 }
+
+// When each round of this visit was last sent, so its board waits for it.
+const posted = new Map();
+export const roundPosted = (roundId) => posted.get(roundId) ?? Promise.resolve();
 
 /**
  * Post a finished round: `time` from roundClock's finishClock (with its
@@ -89,7 +118,7 @@ export function postResult({ time, day = null, score, total = null }) {
   const round = {
     account: getEmail(),
     roundId: time.roundId,
-    board: time.board,
+    board: boardKey(time.board),
     day,
     date: localDateKey(),
     score,
@@ -98,7 +127,7 @@ export function postResult({ time, day = null, score, total = null }) {
     wallMs: Math.max(Math.round(time.wallMs), Math.round(time.activeMs))
   };
   writeOutbox([...readOutbox().filter((r) => r.roundId !== round.roundId), round]);
-  flushOutbox().catch(() => {});
+  posted.set(round.roundId, flushOutbox().catch(() => {}));
 }
 
 // ------------------------------------------------------------------ reading
