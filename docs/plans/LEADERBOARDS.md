@@ -20,7 +20,7 @@ leaderboard and compete with friends". His answers:
 3. Nothing about a person leaves the device unless they chose to post it, and
    Reset or delete-my-data clears it on the server too.
 
-## Phase 1: the clock (in progress)
+## Phase 1: the clock (shipped: #96, #97, 2026-11-26)
 
 - `src/lib/roundClock.js`: a round's clock `{ id, startedAt, activeMs,
   runningSince }`. `activeMs` pauses when the page is hidden; wall time is
@@ -32,8 +32,11 @@ leaderboard and compete with friends". His answers:
 - Best times in their own key (`game_times`), not in game stats:
   `coerceGameStats` drops unknown fields, so an old open tab would strip them
   and sync the loss back. Merge rule: better score, then shorter time.
-- First: Scramble and Clue ladder (one random game, one daily). Then the rest
-  once Pete has played with it.
+- On every game except the weekend quiz and Daily five (they show their own
+  timer; not yet joined to best times) and Word play's adaptive test (a
+  level, not a score). A board left part-way records no time.
+- Not yet played in a browser by a session: Chrome could not reach the local
+  server on 2026-11-26. Pete played Scramble and Clue ladder and said it looks good.
 
 ## Phase 2: boards (server)
 
