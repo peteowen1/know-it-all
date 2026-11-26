@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { Cloud, CloudOff, RefreshCw, LogOut, UserRound } from 'lucide-react';
 import { GOOGLE_CLIENT_ID } from '../lib/syncConfig';
 import { subscribe, getStatus, getEmail, signInWithGoogle, signOut } from '../lib/sync';
+import { openFriends } from '../lib/boards';
 
 const GIS_SRC = 'https://accounts.google.com/gsi/client';
 
@@ -139,6 +140,18 @@ export default function AccountButton({ onReset }) {
             <div className="account-signin-btn" ref={buttonRef} />
             {error && <span className="account-error">{error}</span>}
           </div>
+        )}
+
+        {!signedOut && (
+          <button
+            className="btn btn-secondary"
+            onClick={() => {
+              openFriends();
+              setOpen(false);
+            }}
+          >
+            Friends and leaderboards
+          </button>
         )}
 
         {!signedOut && (

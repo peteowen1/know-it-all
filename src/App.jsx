@@ -4,6 +4,7 @@ import GameHub from './components/GameHub';
 import RouteFallback from './components/RouteFallback';
 import { recordRound, recordItems } from './lib/gameStats';
 import { recordTime, coerceTimes } from './lib/gameTimes';
+import { postResult, flushOutbox } from './lib/boards';
 import { loadLive, saveLive } from './lib/persist';
 import { GAMES } from './games/registry';
 import { HowProvider } from './games/shared/HowItWorks';
@@ -48,6 +49,7 @@ const BoxOffice = lazy(() => import('./games/boxoffice/BoxOffice'));
 const MapGame = lazy(() => import('./games/map/MapGame'));
 const WordPlay = lazy(() => import('./games/vocab/WordPlay'));
 const Settings = lazy(() => import('./components/Settings'));
+const FriendsPage = lazy(() => import('./components/FriendsPage'));
 const ClueLadder = lazy(() => import('./games/clueladder/ClueLadder'));
 const TwinFlags = lazy(() => import('./games/twinflags/TwinFlags'));
 const Scramble = lazy(() => import('./games/scramble/Scramble'));
@@ -140,6 +142,14 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPop);
   }, []);
   const goHome = useCallback(() => setActiveTab('home'), [setActiveTab]);
+  // Rounds that could not be posted to the leaderboards wait on this device;
+  // try them again on load and each time the page comes back.
+  useEffect(() => {
+    const send = () => document.visibilityState === 'visible' && flushOutbox().catch(() => {});
+    send();
+    document.addEventListener('visibilitychange', send);
+    return () => document.removeEventListener('visibilitychange', send);
+  }, []);
 
   // Progress for every game other than the weekend quiz, keyed by game id.
   const [gameStats, setGameStats] = useState(() => getStored('games', {}, isObject));
@@ -298,6 +308,8 @@ export default function App() {
     // `time.board` names the settings it was played on (a Scramble mode and
     // region); a best time only compares within one board.
     if (time) setGameTimes((prev) => recordTime(prev, time.board || gameId, { score: rest.score, total: rest.total, activeMs: time.activeMs, wallMs: time.wallMs, date }));
+    // Signed in, the round also goes to the leaderboards (src/lib/boards.js).
+    if (time) postResult({ time: { ...time, board: time.board || gameId }, day: day || null, score: rest.score, total: rest.total ?? null });
   }, []);
 
   // A streak is broken the moment you miss a day, so it has to be checked on
@@ -507,6 +519,7 @@ export default function App() {
     connections: () => <FourByFour {...play} />,
     'first-names': () => <FirstNames {...play} {...mode} />,
     settings: () => <Settings />,
+    friends: () => <FriendsPage />,
     quiz: () =>
       quiz ? (
         <>
@@ -674,7 +687,9 @@ export default function App() {
         <p>
           Know-It-All. {BANK_LABEL} weekend-quiz questions, {BANK_STATS.countryCount} countries.
           Signed out, progress stays in this browser. Signed in with Google, it is saved to this
-          site's server so your other devices can pick it up; nothing else is collected.
+          site's server so your other devices can pick it up. Finished rounds also go to the
+          leaderboards, shown to your friends and groups under the nickname you pick (and to
+          everyone only if you switch that on). Your email is never shown.
         </p>
       </footer>
     </div>
