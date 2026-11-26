@@ -7,8 +7,12 @@ import { AnswerRow, Button, GameCard, GameResults, Pill } from '../../components
 import { GameSetup, PlayHead, NextBar } from '../shared/Play';
 import { makeRng } from '../../lib/rng';
 import { saveLive, usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 const STAT_ID = 'box-office';
+const boardOf = () => STAT_ID;
 
 /**
  * Box office: the left card shows what a hit film made worldwide; did the
@@ -16,7 +20,7 @@ const STAT_ID = 'box-office';
  * a run is a chain, and one miss ends it. Built like Who's older?
  * (src/games/older/WhosOlder.jsx), with the same save-on-leave rules.
  */
-export default function BoxOffice({ stats, onRoundComplete, onExit }) {
+export default function BoxOffice({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so a run survives the app being closed (see src/lib/persist.js).
   const [state, setState] = usePersistentState('box_office', null);
   const pool = useMemo(() => filmPool(films.boxOffice), []);
@@ -35,14 +39,21 @@ export default function BoxOffice({ stats, onRoundComplete, onExit }) {
     const u = unsaved.current;
     const s = latest.current;
     if (!u || !s || u.run <= (s.recordedRun ?? 0)) return;
-    save.current(STAT_ID, { score: u.run, total: u.total, answers: [], run: u.run });
+    const c = validClock(s.clock);
+    const time = c ? { ...finishClock(c), board: boardOf(s) } : null;
+    save.current(STAT_ID, { score: u.run, total: u.total, answers: [], run: u.run, ...(time ? { time } : {}) });
     saveLive('box_office', { ...s, recordedRun: u.run });
   }, []);
+
+  const clock = validClock(state?.clock);
+  // Stopped while a verdict is showing, which includes the results.
+  const showing = state?.verdict != null;
+  useRoundClock(clock, clockSetter(setState), showing);
 
   const start = () => {
     const pair = firstFilms(pool, rand.current);
     if (!pair) return;
-    setState({ ...pair, seen: [pair.left.id, pair.right.id], run: 0, total: 0, verdict: null });
+    setState({ ...pair, seen: [pair.left.id, pair.right.id], run: 0, total: 0, verdict: null, clock: newClock() });
   };
 
   if (!state) {
@@ -69,12 +80,13 @@ export default function BoxOffice({ stats, onRoundComplete, onExit }) {
   const guess = (more) => {
     const correct = more === madeMore(right, left);
     const nextRun = run + (correct ? 1 : 0);
-    setState({ ...state, verdict: correct ? 'right' : 'wrong', run: nextRun, total: total + 1 });
+    const time = !correct && clock ? { ...finishClock(clock), board: boardOf(state) } : null;
+    setState({ ...state, verdict: correct ? 'right' : 'wrong', run: nextRun, total: total + 1, ...(time ? { time } : {}) });
     if (correct) {
       unsaved.current = { run: nextRun, total: total + 1 };
     } else {
       unsaved.current = null;
-      onRoundComplete(STAT_ID, { score: run, total: total + 1, answers: [], run });
+      onRoundComplete(STAT_ID, { score: run, total: total + 1, answers: [], run, ...(time ? { time } : {}) });
     }
   };
 
@@ -82,8 +94,9 @@ export default function BoxOffice({ stats, onRoundComplete, onExit }) {
     const next = nextFilm(right, pool, rand.current, { seen: new Set(seen), run });
     if (!next) {
       unsaved.current = null;
-      onRoundComplete(STAT_ID, { score: run, total, answers: [], run });
-      setState({ ...state, verdict: 'done', recordedRun: run });
+      const time = clock ? { ...finishClock(clock), board: boardOf(state) } : null;
+      onRoundComplete(STAT_ID, { score: run, total, answers: [], run, ...(time ? { time } : {}) });
+      setState({ ...state, verdict: 'done', recordedRun: run, ...(time ? { time } : {}) });
       return;
     }
     setState({ ...state, left: right, right: next, seen: [...seen, next.id], verdict: null });
@@ -111,6 +124,7 @@ export default function BoxOffice({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setState(null)}
         settingsLabel="Back"
       >
+        {state.time && <RoundTime time={state.time} best={times[boardOf(state)]} score={run} />}
         {lost && (
           <>
             <h3 className="eyebrow">The last pair</h3>
@@ -125,6 +139,7 @@ export default function BoxOffice({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Run ${run}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">Best {Math.max(entry.bestRun, run)}</Pill>
       </PlayHead>
 

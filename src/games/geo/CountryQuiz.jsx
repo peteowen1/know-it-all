@@ -8,6 +8,9 @@ import {
 } from '../../components/ui';
 import { Ask, ChoiceQuestion, GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 // Each game asks one thing about a country, in either direction. `prompt` and
 // `label` are the two sides; `forward` asks prompt -> label.
@@ -47,7 +50,10 @@ function serialiseRound(r) {
     index: r.index,
     answers: r.answers,
     picked: r.picked,
-    revealed: r.revealed
+    revealed: r.revealed,
+    board: r.board,
+    clock: r.clock,
+    time: r.time
   };
 }
 function restoreRound(saved) {
@@ -95,7 +101,7 @@ function factLine(c) {
 }
 
 export default function CountryQuiz({
-  kind, stats, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit, savedRound, onRoundChange
+  kind, stats, times = {}, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit, savedRound, onRoundChange
 }) {
   const spec = KINDS[kind];
   const initial = { region: 'World', territories: false, count: 10, direction: 'forward', hard: false, ...savedRound?.settings };
@@ -125,6 +131,12 @@ export default function CountryQuiz({
   // that recorded the whole round twice.
   const answeredUpTo = useRef((savedRound?.answers?.length ?? 0) - 1);
 
+  // Stopped while an answer is showing and on the results: the time is for
+  // working the answer out. A round saved before the clock existed has none.
+  const clock = validClock(round?.clock);
+  const showing = Boolean(round && (round.answers.length > round.index || round.index >= round.questions.length));
+  useRoundClock(clock, clockSetter(setRound), showing);
+
   const dir = spec.directions[round?.direction || direction];
   const pool = useMemo(
     () => countryPool(COUNTRIES, { region, territories, needs: spec.needs }),
@@ -153,6 +165,9 @@ export default function CountryQuiz({
     answeredUpTo.current = -1;
     setRound({
       settings: { region, territories, count: Number.isFinite(shownCount) ? shownCount : 'all', direction, hard },
+      // The settings a time is compared within (see docs/plans/LEADERBOARDS.md).
+      board: `${kind}:${direction}:${region}:${territories ? 'territories' : 'countries'}:${Number.isFinite(shownCount) ? shownCount : 'all'}:${kind === 'flags' && hard ? 'hard' : 'normal'}:${answerMode}`,
+      clock: newClock(),
       direction,
       region,
       questions,
@@ -238,6 +253,7 @@ export default function CountryQuiz({
         onChangeSettings={() => setRound(null)}
         mostMissed={<MostMissed items={mostMissed(6)} />}
       >
+        {round.time && <RoundTime time={round.time} best={times[round.board]} score={score} />}
         {missed.length > 0 && <h3 className="eyebrow">Missed this round</h3>}
         {missed.map(({ target: c }) => (
           <AnswerRow key={c.code} state="missed" lead={<Flag code={c.code} size="sm" decorative />} trail={c.capitals[0] ? `capital ${c.capitals[0]}` : undefined}>
@@ -256,13 +272,15 @@ export default function CountryQuiz({
     if (answeredUpTo.current >= index) return;
     answeredUpTo.current = index;
     const nextAnswers = [...answers, { key: q.target.code, correct }];
-    setRound({ ...round, picked: pickedIndex, revealed: true, answers: nextAnswers });
+    const last = index === questions.length - 1;
+    const time = last && clock ? { ...finishClock(clock), board: round.board } : null;
+    setRound({ ...round, picked: pickedIndex, revealed: true, answers: nextAnswers, ...(time ? { time } : {}) });
     // Saved per answer, so leaving mid-round never loses what was learned.
     // The round record (plays, best score) is only written when it finishes.
     onAnswer(kind, q.target.code, correct);
-    if (index === questions.length - 1) {
+    if (last) {
       const score = nextAnswers.filter((a) => a.correct).length;
-      onRoundComplete(kind, { score, total: questions.length, answers: [] });
+      onRoundComplete(kind, { score, total: questions.length, answers: [], ...(time ? { time } : {}) });
     }
   };
   const next = () => setRound({ ...round, index: index + 1, picked: null, revealed: false });
@@ -271,6 +289,7 @@ export default function CountryQuiz({
   return (
     <GameCard data-section="geo">
       <PlayHead left={`${index + 1} / ${questions.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">Score {right}</Pill>
         <Button variant="tertiary" onClick={() => setRound(null)} title="Abandon this round">End round</Button>
       </PlayHead>

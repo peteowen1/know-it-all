@@ -8,6 +8,9 @@ import TestMode from './TestMode';
 import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow } from '../../components/ui';
 import { Ask, GameSetup, Option, OptionGrid, PlayHead } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 import { testContext, newTest, TEST_LENGTHS, scaleBounds, formatLevel } from './vocabTest.js';
 
 const ALL_WORDS = data.groups.flatMap((g) => g.words.map(([w, d]) => ({ w, d })));
@@ -40,9 +43,15 @@ function ask(r) {
  * card defines every option and shows the whole word family, because the point
  * is learning the words, not just scoring.
  */
-export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
+export default function WordPlay({ stats, times = {}, onAnswer, onRoundComplete, onExit }) {
   const [saved, setGame] = usePersistentState('word_play', null);
   const game = saved && stillValid(saved) ? saved : null;
+  // Practice only: the adaptive test (TestMode) is scored as a level, not a
+  // time. Stopped while an answer is showing and on the results. A round saved
+  // before the clock existed has none.
+  const clock = validClock(game?.clock);
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
   const [savedTest, setTest] = usePersistentState('word_play_test', null);
   const test = savedTest && stillValid(savedTest) ? savedTest : null;
   const [rawHistory, setHistory] = usePersistentState('word_play_history', []);
@@ -90,7 +99,9 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
     const { items } = gameEntry(stats, 'vocab');
     const review = new Set(Object.entries(items).filter(([, v]) => v.seen - v.correct > v.seen / 4).map(([k]) => k));
     const rounds = buildVocabRounds(data, { seed: `${Date.now()}`, type: prefs.type, level: prefs.level, count: practiceLength, weights, review });
-    setGame({ rounds, index: 0, picked: [], results: [] });
+    // The settings a time is compared within (see docs/plans/LEADERBOARDS.md).
+    const board = `vocab:${prefs.type}:${prefs.level}:${practiceLength}`;
+    setGame({ rounds, index: 0, picked: [], results: [], board, clock: newClock() });
   };
 
   if (!game) {
@@ -164,6 +175,7 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[game.time.board]} score={score} />}
         {rounds.map((r, i) => (
           <AnswerRow key={r.id} state={results[i].correct ? 'got' : 'missed'}>
             <strong>{r.target}</strong>: {DEF.get(r.target)}
@@ -190,15 +202,18 @@ export default function WordPlay({ stats, onAnswer, onRoundComplete, onExit }) {
     for (const key of new Set([r.target, ...r.answer])) onAnswer('vocab', key, correct);
     onSeen(r.options.concat(r.target));
     const next = [...results, { picked: sel, correct }];
-    setGame({ ...game, picked: sel, results: next });
-    if (next.length === rounds.length) {
-      onRoundComplete('vocab', { score: next.filter((x) => x.correct).length, total: rounds.length, answers: [] });
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: game.board } : null;
+    setGame({ ...game, picked: sel, results: next, ...(time ? { time } : {}) });
+    if (last) {
+      onRoundComplete('vocab', { score: next.filter((x) => x.correct).length, total: rounds.length, answers: [], ...(time ? { time } : {}) });
     }
   }
 
   return (
     <GameCard data-section="words">
       <PlayHead left={`Round ${index + 1} of ${rounds.length} · ${TYPE_LABEL[r.type]}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{score} right</Pill>
       </PlayHead>
 

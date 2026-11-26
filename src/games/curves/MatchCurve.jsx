@@ -4,9 +4,12 @@ import { buildCurveRounds, peakNote, PER_ROUND, ROUNDS } from './curveLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, PlayHead } from '../shared/Play';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 import './curves.css';
 
 const TOTAL = ROUNDS * PER_ROUND;
@@ -43,18 +46,24 @@ const Years = () => (
  * Wikipedia article was read each month since 2016. Tap a name, then its
  * curve; check when all four are placed.
  */
-export default function MatchCurve({ stats, onRoundComplete, onExit }) {
+const boardOf = (g) => `match-curve:${g.daily ? 'daily' : 'random'}`;
+
+export default function MatchCurve({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('match_curve');
   const [chosen, setChosen] = useState(null);
   const entry = gameEntry(stats, 'match-curve');
+  const clock = validClock(game?.clock);
+  // Stopped while a round's answer is showing and on the results.
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
 
   const start = (daily) => {
     if (!daily) clearDay();
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
     setChosen(null);
-    setGame({ daily, date, rounds: buildCurveRounds(data.people, { seed }), index: 0, placed: [], results: [] });
+    setGame({ daily, date, rounds: buildCurveRounds(data.people, { seed }), index: 0, placed: [], results: [], clock: newClock() });
   };
 
   if (!game) {
@@ -99,6 +108,7 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={score} />}
         {rounds.flatMap((r, i) =>
           r.people.map((p, j) => (
             <AnswerRow key={p.id} state={results[i].marks[j] ? 'got' : 'missed'} trail={peakNote(p)}>
@@ -138,9 +148,11 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
     const next = [...results, { placed, marks, right }];
     // A name picked but never placed must not stay picked into the next round.
     setChosen(null);
-    setGame({ ...game, results: next, placed: [] });
-    if (next.length === rounds.length) {
-      onRoundComplete('match-curve', { day: game.daily ? game.date : null, score: next.reduce((n, x) => n + x.right, 0), total: TOTAL, answers: [] });
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, placed: [], ...(time ? { time } : {}) });
+    if (last) {
+      onRoundComplete('match-curve', { day: game.daily ? game.date : null, score: next.reduce((n, x) => n + x.right, 0), total: TOTAL, answers: [], ...(time ? { time } : {}) });
     }
   };
 
@@ -149,6 +161,7 @@ export default function MatchCurve({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Round ${index + 1} of ${rounds.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{score} matched</Pill>
       </PlayHead>
 

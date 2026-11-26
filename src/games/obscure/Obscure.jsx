@@ -5,10 +5,13 @@ import { geoNames, pickCategories, scoreGuess, ROUNDS } from './obscureLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import { GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import KindIcon from '../shared/KindIcon';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 // Every country and capital name, built once: a guess that is exactly
 // another place is a miss, not a typo of this category's answer.
@@ -20,17 +23,23 @@ const placeNames = geoNames(COUNTRIES);
  * After each answer the rarest and the most obvious answers are shown, which
  * is where the learning is.
  */
-export default function Obscure({ stats, onRoundComplete, onExit }) {
+const boardOf = (g) => `pointless:${g.daily ? 'daily' : 'random'}`;
+
+export default function Obscure({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('obscure');
   const entry = gameEntry(stats, 'pointless');
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results.
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.cats.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
 
   const start = (daily) => {
     // A random round is not tied to a day, so it leaves the earlier day's address.
     if (!daily) clearDay();
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
-    setGame({ daily, date, cats: pickCategories(data.categories, seed), index: 0, results: [], input: '', note: null });
+    setGame({ daily, date, cats: pickCategories(data.categories, seed), index: 0, results: [], input: '', note: null, clock: newClock() });
   };
 
   if (!game) {
@@ -76,6 +85,7 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={total} />}
         {cats.map((c, i) => (
           <AnswerRow
             key={c.id}
@@ -104,15 +114,18 @@ export default function Obscure({ stats, onRoundComplete, onExit }) {
       return;
     }
     const next = [...results, { ...r, guess }];
-    setGame({ ...game, results: next, note: null });
-    if (next.length === cats.length) {
-      onRoundComplete('pointless', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.score, 0), total: cats.length * 100, answers: [] });
+    const last = next.length === cats.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, note: null, ...(time ? { time } : {}) });
+    if (last) {
+      onRoundComplete('pointless', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.score, 0), total: cats.length * 100, answers: [], ...(time ? { time } : {}) });
     }
   };
 
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Category ${index + 1} of ${cats.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{total} pts</Pill>
       </PlayHead>
       <Prompt className="chart-prompt">

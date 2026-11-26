@@ -7,6 +7,9 @@ import { AnswerRow, Button, Chip, GameBoard, GameResults, MostMissed, SetupRow, 
 import { GameSetup } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
 import { usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 const BOARD_SIZE = 15;
 // A name with 12-14 famous people still gets a (shorter) board. Leaving out
@@ -30,7 +33,7 @@ const ERAS = {
 /** "Seans, Shauns & Shawns". */
 const listJoin = (xs) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} & ${xs.at(-1)}`);
 
-export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
+export default function FirstNames({ stats, times = {}, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
   const [era, setEra] = useState('all');
   const [timer, setTimer] = useState(120);
   const [picked, setPicked] = useState(null); // null = random
@@ -56,6 +59,10 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
     const chosen = pool[Math.floor(Math.random() * pool.length)];
     setGame({
       id: Date.now(), // not a counter: it restarts after a reload
+      // The settings a time is compared within (see docs/plans/LEADERBOARDS.md).
+      // `board` here is the people, so the key is `boardKey`.
+      boardKey: `first-names:${chosen.first}:${era}:${timer}:${answerMode}`,
+      clock: newClock(),
       first: chosen.first,
       spellings: chosen.spellings || [chosen.first],
       board: chosen.people.slice(0, BOARD_SIZE),
@@ -118,6 +125,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
       game={game}
       setGame={setGame}
       stats={stats}
+      times={times}
       easy={answerMode === 'choice'}
       onFinish={(g) => {
         const boardIds = new Set(g.board.map((p) => p.id));
@@ -126,7 +134,8 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
           score: onBoard,
           total: g.board.length,
           run: g.found.length,
-          answers: g.board.map((p) => ({ key: p.id, correct: g.found.includes(p.id) }))
+          answers: g.board.map((p) => ({ key: p.id, correct: g.found.includes(p.id) })),
+          ...(g.time ? { time: g.time } : {})
         });
       }}
       onAgain={start}
@@ -135,7 +144,7 @@ export default function FirstNames({ stats, answerMode, onAnswerModeChange, onRo
   );
 }
 
-function Board({ game, setGame, stats, easy, onFinish, onAgain, onSettings }) {
+function Board({ game, setGame, stats, times, easy, onFinish, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
   const finished = useRef(Boolean(game.over));
@@ -149,12 +158,17 @@ function Board({ game, setGame, stats, easy, onFinish, onAgain, onSettings }) {
   const bonus = found.filter((id) => !board.some((p) => p.id === id)).map((id) => bonusPool.find((p) => p.id === id));
   const secondsLeft = endsAt ? Math.max(0, Math.ceil((endsAt - now) / 1000)) : null;
 
+  // Stopped on the results. A round saved before the clock existed has none.
+  const clock = validClock(game.clock);
+  useRoundClock(clock, clockSetter(setGame), over);
+
   const finish = () => {
     if (finished.current) return;
     finished.current = true;
     // Recorded from the rendered state, not inside a setState updater: React
     // runs updaters twice in StrictMode, which would record the round twice.
-    const done = { ...game, over: true };
+    const time = clock ? { ...finishClock(clock), board: game.boardKey } : null;
+    const done = { ...game, over: true, ...(time ? { time } : {}) };
     setGame(done);
     onFinish(done);
   };
@@ -218,6 +232,7 @@ function Board({ game, setGame, stats, easy, onFinish, onAgain, onSettings }) {
         onChangeSettings={onSettings}
         mostMissed={<MostMissed items={mostMissed} />}
       >
+        {game.time && <RoundTime time={game.time} best={times[game.boardKey]} score={onBoardCount} />}
         <ol className="board-grid">
           {board.map((p, i) => (
             <AnswerRow key={p.id} as="li" state={foundSet.has(p.id) ? 'got' : 'missed'} lead={i + 1}>
@@ -238,7 +253,7 @@ function Board({ game, setGame, stats, easy, onFinish, onAgain, onSettings }) {
       data-section="pop"
       title={<>Famous <strong>{listJoin(spellings.map(pluralName))}</strong></>}
       score={score}
-      timer={secondsLeft !== null ? <><Clock size={14} aria-hidden="true" /> {secondsLeft}s</> : undefined}
+      timer={secondsLeft !== null ? <><Clock size={14} aria-hidden="true" /> {secondsLeft}s</> : clock ? <ClockPill clock={clock} /> : undefined}
       message={message?.text ?? ''}
       tone={message?.tone === 'good' ? 'good' : message?.tone === 'bad' ? 'bad' : undefined}
       input={

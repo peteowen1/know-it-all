@@ -4,10 +4,13 @@ import { buildYearRounds, roundPoints, earnsRetry, guessedYearFact, ROUNDS } fro
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow, TextInput, EarlierDays } from '../../components/ui';
 import { GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
 import KindIcon from '../shared/KindIcon';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 /**
  * Name the year: three clues from the same year, five rounds, 10 points for
@@ -15,17 +18,24 @@ import KindIcon from '../shared/KindIcon';
  * types the year, and a guess 5 or more years out gets a second try, pointed
  * earlier or later, for half points.
  */
-export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
+// Easy (pick from four) and hard (type the year) ask different things, so they are separate boards.
+const boardOf = (g, mode) => `year-guess:${g.daily ? 'daily' : 'random'}:${mode === 'choice' ? 'easy' : 'hard'}`;
+
+export default function NameTheYear({ stats, times = {}, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('name_year');
   const entry = gameEntry(stats, 'year-guess');
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results.
+  const showing = Boolean(game && (game.guesses.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
 
   const start = (daily) => {
     // A random round is not tied to a day, so it leaves the earlier day's address.
     if (!daily) clearDay();
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
-    setGame({ daily, date, rounds: buildYearRounds(data.events, { seed }), index: 0, guesses: [], firsts: {}, pending: null, input: '' });
+    setGame({ daily, date, rounds: buildYearRounds(data.events, { seed }), index: 0, guesses: [], firsts: {}, pending: null, input: '', clock: newClock() });
   };
 
   if (!game) {
@@ -80,6 +90,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[game.time.board]} score={total} />}
         {rounds.map((r, i) => {
           const p = pointsAt(i);
           const said = firsts[i] != null ? `${firsts[i]}, then ${guesses[i]}` : guesses[i];
@@ -116,10 +127,12 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
     // A switch to easy mode mid-retry drops the retry: a pick from four is not halved.
     const nextFirsts = hard && game.pending != null ? { ...firsts, [index]: game.pending } : firsts;
     const next = [...guesses, g];
-    setGame({ ...game, guesses: next, firsts: nextFirsts, pending: null });
-    if (next.length === rounds.length) {
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game, answerMode) } : null;
+    setGame({ ...game, guesses: next, firsts: nextFirsts, pending: null, ...(time ? { time } : {}) });
+    if (last) {
       const score = next.reduce((s, _, i) => s + roundPoints(next[i], rounds[i].year, nextFirsts[i] != null), 0);
-      onRoundComplete('year-guess', { day: game.daily ? game.date : null, score, total: rounds.length * 10, answers: [] });
+      onRoundComplete('year-guess', { day: game.daily ? game.date : null, score, total: rounds.length * 10, answers: [], ...(time ? { time } : {}) });
     }
   };
   const pts = answered ? pointsAt(index) : null;
@@ -128,6 +141,7 @@ export default function NameTheYear({ stats, answerMode, onAnswerModeChange, onR
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Year ${index + 1} of ${rounds.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{total} pts</Pill>
       </PlayHead>
       <ul className="ny-clues">

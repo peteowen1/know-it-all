@@ -7,8 +7,12 @@ import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow } from '
 import { GameSetup, PlayHead, NextBar } from '../shared/Play';
 import { makeRng } from '../../lib/rng';
 import { saveLive, usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 const STAT_ID = 'whos-older';
+const boardOf = (s) => `${STAT_ID}:${s.pool || 'household'}`;
 const POOL_LABELS = { household: 'Household names', known: 'Well known' };
 
 /**
@@ -17,7 +21,7 @@ const POOL_LABELS = { household: 'Household names', known: 'Well known' };
  * a chain, and one miss ends it. The gaps close as the run grows (see
  * olderLogic.js gapRange). Same save-on-leave rules as Higher or lower.
  */
-export default function WhosOlder({ stats, onRoundComplete, onExit }) {
+export default function WhosOlder({ stats, times = {}, onRoundComplete, onExit }) {
   const [poolKey, setPoolKey] = usePersistentState('whos_older_pool', 'household');
   // Saved so a run survives the app being closed (see src/lib/persist.js).
   const [state, setState] = usePersistentState('whos_older', null);
@@ -38,15 +42,22 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
     const u = unsaved.current;
     const s = latest.current;
     if (!u || !s || u.run <= (s.recordedRun ?? 0)) return;
+    const c = validClock(s.clock);
+    const time = c ? { ...finishClock(c), board: boardOf(s) } : null;
     // No per-person answers: a person each would grow the synced stats without limit.
-    save.current(STAT_ID, { score: u.run, total: u.total, answers: [], run: u.run });
+    save.current(STAT_ID, { score: u.run, total: u.total, answers: [], run: u.run, ...(time ? { time } : {}) });
     saveLive('whos_older', { ...s, recordedRun: u.run });
   }, []);
+
+  const clock = validClock(state?.clock);
+  // Stopped while a verdict is showing, which includes the results.
+  const showing = state?.verdict != null;
+  useRoundClock(clock, clockSetter(setState), showing);
 
   const start = () => {
     const pair = firstPair(pool, rand.current);
     if (!pair) return;
-    setState({ ...pair, seen: [pair.left.id, pair.right.id], run: 0, total: 0, verdict: null, pool: poolKey });
+    setState({ ...pair, seen: [pair.left.id, pair.right.id], run: 0, total: 0, verdict: null, pool: poolKey, clock: newClock() });
   };
 
   if (!state) {
@@ -79,12 +90,13 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
   const guess = (older) => {
     const correct = older === bornBefore(right, left);
     const nextRun = run + (correct ? 1 : 0);
-    setState({ ...state, verdict: correct ? 'right' : 'wrong', run: nextRun, total: total + 1 });
+    const time = !correct && clock ? { ...finishClock(clock), board: boardOf(state) } : null;
+    setState({ ...state, verdict: correct ? 'right' : 'wrong', run: nextRun, total: total + 1, ...(time ? { time } : {}) });
     if (correct) {
       unsaved.current = { run: nextRun, total: total + 1 };
     } else {
       unsaved.current = null;
-      onRoundComplete(STAT_ID, { score: run, total: total + 1, answers: [], run });
+      onRoundComplete(STAT_ID, { score: run, total: total + 1, answers: [], run, ...(time ? { time } : {}) });
     }
   };
 
@@ -92,8 +104,9 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
     const next = nextPerson(right, pool, rand.current, { seen: new Set(seen), run });
     if (!next) {
       unsaved.current = null;
-      onRoundComplete(STAT_ID, { score: run, total, answers: [], run });
-      setState({ ...state, verdict: 'done', recordedRun: run });
+      const time = clock ? { ...finishClock(clock), board: boardOf(state) } : null;
+      onRoundComplete(STAT_ID, { score: run, total, answers: [], run, ...(time ? { time } : {}) });
+      setState({ ...state, verdict: 'done', recordedRun: run, ...(time ? { time } : {}) });
       return;
     }
     setState({ ...state, left: right, right: next, seen: [...seen, next.id], verdict: null });
@@ -118,6 +131,7 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
         playAgainLabel="New run"
         onChangeSettings={() => setState(null)}
       >
+        {state.time && <RoundTime time={state.time} best={times[boardOf(state)]} score={run} />}
         {lost && (
           <>
             <h3 className="eyebrow">The last pair</h3>
@@ -132,6 +146,7 @@ export default function WhosOlder({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Run ${run}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">Best {Math.max(entry.bestRun, run)}</Pill>
       </PlayHead>
 

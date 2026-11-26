@@ -5,13 +5,17 @@ import { buildWhoRounds, guessIsRight, whoPoints, yearText, ROUNDS, RUNGS } from
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 // The clue stack and guess box look the same as Clue ladder's.
 import '../clueladder/clueladder.css';
 
 const MAX = ROUNDS * RUNGS;
+const boardOf = (g) => `who-am-i:${g.daily ? 'daily' : 'random'}`;
 const RUNG_LABEL = ['', 'Who', 'Born', 'Known for'];
 
 /**
@@ -20,11 +24,15 @@ const RUNG_LABEL = ['', 'Who', 'Born', 'Known for'];
  * from. Type a guess at any clue: 4 points on the first, then 3, 2, and 1 for
  * picking from the four.
  */
-export default function WhoAmI({ stats, onRoundComplete, onExit }) {
+export default function WhoAmI({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('who_am_i');
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'who-am-i');
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results.
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
 
   const start = (daily) => {
     // A random round is not tied to a day, so it leaves the earlier day's address.
@@ -32,7 +40,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
     setGuess('');
-    setGame({ daily, date, rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [] });
+    setGame({ daily, date, rounds: buildWhoRounds(data.names, { seed }), index: 0, rung: 1, misses: [], results: [], clock: newClock() });
   };
 
   if (!game) {
@@ -78,6 +86,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={total} />}
         {rounds.map((r, i) => (
           <AnswerRow key={r.id} state={results[i].points ? 'got' : 'missed'} trail={results[i].points ? `${results[i].points} point${results[i].points === 1 ? '' : 's'}` : 'missed'}>
             {r.name}
@@ -96,10 +105,12 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
 
   const finish = (points, extra) => {
     const next = [...results, { points, ...extra }];
-    setGame({ ...game, results: next });
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, ...(time ? { time } : {}) });
     setGuess('');
-    if (next.length === rounds.length) {
-      onRoundComplete('who-am-i', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.points, 0), total: MAX, answers: [] });
+    if (last) {
+      onRoundComplete('who-am-i', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.points, 0), total: MAX, answers: [], ...(time ? { time } : {}) });
     }
   };
 
@@ -122,6 +133,7 @@ export default function WhoAmI({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab" className="cl">
       <PlayHead left={`Person ${index + 1} of ${rounds.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{total} pts</Pill>
       </PlayHead>
 

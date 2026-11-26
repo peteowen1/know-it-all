@@ -6,9 +6,13 @@ import { AnswerRow, Button, Chip, GameCard, GameResults, Pill, SetupRow } from '
 import { GameSetup, PlayHead, NextBar } from '../shared/Play';
 import { makeRng } from '../../lib/rng';
 import { usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 import './map.css';
 
 const STAT_ID = 'map';
+const boardOf = (r) => `${STAT_ID}:${r.view}`;
 const NAME = new Map(COUNTRIES.map((c) => [c.code, c.name]));
 // One small file per view (scripts/build-world-map.mjs), loaded when played.
 const VIEW_FILES = import.meta.glob('../../data/map/*.json', { import: 'default' });
@@ -31,7 +35,7 @@ const usable = (r) => r && KNOWN.has(r.view) && Array.isArray(r.targets) && Arra
  * A wrong tap says which country it was and shows the right one. Countries
  * you miss come back more often.
  */
-export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
+export default function MapGame({ stats, times = {}, onAnswer, onRoundComplete, onExit }) {
   const [savedViewId, setViewId] = usePersistentState('map_view', 'europe');
   const viewId = KNOWN.has(savedViewId) ? savedViewId : 'europe';
   // Saved so a round survives the app being closed (see src/lib/persist.js).
@@ -59,6 +63,10 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
       live = false;
     };
   }, [shownId]);
+  const clock = validClock(round?.clock);
+  // Stopped while an answer is showing and on the results.
+  const showing = Boolean(round && (round.tapped !== null || round.index >= round.targets.length));
+  useRoundClock(clock, clockSetter(setRound), showing);
   if (loadError) throw loadError;
 
   const start = () => {
@@ -66,7 +74,7 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
     const codes = playableCodes(view);
     const targets = pickTargets(codes, itemWeights(stats, STAT_ID, codes), rand.current);
     answeredUpTo.current = -1;
-    setRound({ view: view.id, targets, index: 0, answers: [], tapped: null });
+    setRound({ view: view.id, targets, index: 0, answers: [], tapped: null, clock: newClock() });
   };
 
   if (!round) {
@@ -110,6 +118,7 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
         playAgainLabel="Another ten"
         onChangeSettings={() => setRound(null)}
       >
+        {round.time && <RoundTime time={round.time} best={times[boardOf(round)]} score={score} />}
         {answers.filter((a) => !a.correct).map((a) => (
           <AnswerRow key={a.key} state="missed" trail={a.tapped ? `tapped ${NAME.get(a.tapped) ?? a.tapped}` : ''}>
             {NAME.get(a.key)}
@@ -128,10 +137,12 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
     answeredUpTo.current = index;
     const correct = code === target;
     const nextAnswers = [...answers, { key: target, correct, ...(correct ? {} : { tapped: code }) }];
-    setRound({ ...round, answers: nextAnswers, tapped: code });
+    const last = index === targets.length - 1;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(round) } : null;
+    setRound({ ...round, answers: nextAnswers, tapped: code, ...(time ? { time } : {}) });
     onAnswer(STAT_ID, target, correct);
-    if (index === targets.length - 1) {
-      onRoundComplete(STAT_ID, { score: nextAnswers.filter((a) => a.correct).length, total: targets.length, answers: [] });
+    if (last) {
+      onRoundComplete(STAT_ID, { score: nextAnswers.filter((a) => a.correct).length, total: targets.length, answers: [], ...(time ? { time } : {}) });
     }
   };
 
@@ -145,6 +156,7 @@ export default function MapGame({ stats, onAnswer, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab">
       <PlayHead left={`${index + 1} / ${targets.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">Score {right}</Pill>
       </PlayHead>
       <p className="map-ask" role="status">

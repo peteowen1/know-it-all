@@ -5,28 +5,37 @@ import { buildRound, sameYear, scoreOrder } from './timelineLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow, EarlierDays } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
 import KindIcon from '../shared/KindIcon';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 /**
  * Timeline: put five events in order, oldest at the top. Scored on how many of
  * the ten pairs are the right way round, so a near-miss still scores.
  */
-export default function Timeline({ stats, onRoundComplete, onExit }) {
+// Easy and hard deal different events, so they are separate boards; the round remembers its own.
+const boardOf = (r) => `timeline:${r.daily ? 'daily' : 'random'}:${r.difficulty}`;
+
+export default function Timeline({ stats, times = {}, onRoundComplete, onExit }) {
   const [difficulty, setDifficulty] = useState('easy');
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [round, setRound, day] = useDaySave('timeline');
   const entry = gameEntry(stats, 'timeline');
+  const clock = validClock(round?.clock);
+  // One board solved as a whole: the clock runs until the order is checked.
+  useRoundClock(clock, clockSetter(setRound), Boolean(round?.checked));
 
   const start = (daily) => {
     // A random round is not tied to a day, so it leaves the earlier day's address.
     if (!daily) clearDay();
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? `${date}:${difficulty}` : `${Date.now()}`;
-    setRound({ daily, date, order: buildRound(data.events, { difficulty, seed }), checked: false });
+    setRound({ daily, date, order: buildRound(data.events, { difficulty, seed }), checked: false, difficulty, clock: newClock() });
   };
 
   if (!round) {
@@ -69,8 +78,9 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
   };
   const check = () => {
     const s = scoreOrder(order);
-    setRound({ ...round, checked: true, score: s });
-    onRoundComplete('timeline', { day: round.daily ? round.date : null, score: s.correct, total: s.total, answers: [] });
+    const time = clock && round.difficulty ? { ...finishClock(clock), board: boardOf(round) } : null;
+    setRound({ ...round, checked: true, score: s, ...(time ? { time } : {}) });
+    onRoundComplete('timeline', { day: round.daily ? round.date : null, score: s.correct, total: s.total, answers: [], ...(time ? { time } : {}) });
   };
   const truth = [...order].sort((a, b) => a.year - b.year);
 
@@ -97,6 +107,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
         playAgainLabel="Another"
         onChangeSettings={() => setRound(null)}
       >
+        {round.time && <RoundTime time={round.time} best={times[boardOf(round)]} score={correct} />}
         <h3 className="eyebrow">Right order</h3>
         <ol className="tl-list">
           {truth.map((e, i) => {
@@ -120,6 +131,7 @@ export default function Timeline({ stats, onRoundComplete, onExit }) {
       data-section="lab"
       title={title}
       subtitle="Oldest at the top"
+      timer={clock ? <ClockPill clock={clock} /> : null}
       footer={<Button variant="primary" onClick={check}>Check order</Button>}
     >
       {/* Direction labels on the list itself: a note in the corner was missed,
