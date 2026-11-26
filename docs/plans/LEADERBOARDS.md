@@ -34,7 +34,8 @@ leaderboard and compete with friends". His answers:
   and sync the loss back. Merge rule: better score, then shorter time.
 - On every game except the weekend quiz and Daily five (they show their own
   timer; not yet joined to best times) and Word play's adaptive test (a
-  level, not a score). A board left part-way records no time.
+  level, not a score). A chart or list board left part-way records no time;
+  a streak game left mid-run records its run so far, with its time.
 - Not yet played in a browser by a session: Chrome could not reach the local
   server on 2026-11-26. Pete played Scramble and Clue ladder and said it looks good.
 
