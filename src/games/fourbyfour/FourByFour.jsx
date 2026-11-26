@@ -4,12 +4,17 @@ import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { makeRng, hashString, shuffle } from '../../lib/rng';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
-import { AnswerRow, Button, GameCard, GameResults, EarlierDays } from '../../components/ui';
+import { AnswerRow, Button, GameCard, GameResults, Pill, EarlierDays } from '../../components/ui';
 import { GameSetup } from '../shared/Play';
 import { HowButton, HowPanel } from '../shared/HowItWorks';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 const MISTAKES = 4;
+
+const boardOf = (g) => `connections:${g.daily ? 'daily' : 'random'}`;
 
 /**
  * The day's puzzle is the same for everyone: its index comes from the local
@@ -39,10 +44,13 @@ function Trick({ puzzle }) {
  * Puzzles are pre-built by scripts/build-fourbyfour.mjs, which guarantees
  * every tile belongs to exactly one group.
  */
-export default function FourByFour({ stats, onRoundComplete, onExit }) {
+export default function FourByFour({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('fourbyfour');
   const entry = gameEntry(stats, 'connections');
+  const clock = validClock(game?.clock);
+  // One board solved as a whole: the clock runs until the round is over.
+  useRoundClock(clock, clockSetter(setGame), Boolean(game?.over));
 
   const start = (daily) => {
     // A random puzzle is not tied to a day, so it leaves the earlier day's address.
@@ -54,7 +62,7 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       puzzle.groups.flatMap((g, gi) => g.items.map((text) => ({ text, group: gi }))),
       makeRng(hashString(`${index}:${Date.now()}`))
     );
-    setGame({ daily, date, index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [] });
+    setGame({ daily, date, index, puzzle, tiles, selected: [], solved: [], mistakes: 0, message: null, over: false, guesses: [], clock: newClock() });
   };
 
   if (!game) {
@@ -85,6 +93,8 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
       key={`${game.index}-${game.daily}`}
       game={game}
       setGame={setGame}
+      clock={clock}
+      times={times}
       onFinish={(g, won) => {
         onRoundComplete('connections', {
           day: g.daily ? g.date : null,
@@ -93,7 +103,8 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
           score: won ? 1 : 0,
           total: 1,
           run: g.found,
-          answers: []
+          answers: [],
+          ...(g.time ? { time: g.time } : {})
         });
       }}
       onAgain={() => start(false)}
@@ -102,7 +113,7 @@ export default function FourByFour({ stats, onRoundComplete, onExit }) {
   );
 }
 
-function Board({ game, setGame, onFinish, onAgain, onSetup }) {
+function Board({ game, setGame, clock, times, onFinish, onAgain, onSetup }) {
   const { puzzle, tiles, selected, solved, mistakes, message, over } = game;
   const remaining = useMemo(() => tiles.filter((t) => !solved.includes(t.group)), [tiles, solved]);
 
@@ -127,13 +138,15 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
     if (best === 4) {
       const nextSolved = [...solved, groupsHit[0]];
       const won = nextSolved.length === 4;
-      const next = { ...game, solved: nextSolved, found: nextSolved.length, selected: [], guesses, message: null, over: won };
+      const time = won && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+      const next = { ...game, solved: nextSolved, found: nextSolved.length, selected: [], guesses, message: null, over: won, ...(time ? { time } : {}) };
       setGame(next);
       if (won) onFinish(next, true);
       return;
     }
     const nextMistakes = mistakes + 1;
     const lost = nextMistakes >= MISTAKES;
+    const time = lost && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
     const next = {
       ...game,
       mistakes: nextMistakes,
@@ -145,7 +158,8 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
       // order, including any the player had already solved.
       solved: lost ? puzzle.groups.map((_, i) => i) : solved,
       selected: lost ? [] : selected,
-      message: lost ? null : { tone: 'bad', text: best === 3 ? 'One away…' : 'Not a group.' }
+      message: lost ? null : { tone: 'bad', text: best === 3 ? 'One away…' : 'Not a group.' },
+      ...(time ? { time } : {})
     };
     setGame(next);
     if (lost) onFinish(next, false);
@@ -171,6 +185,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
         onChangeSettings={onSetup}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={won ? 1 : 0} />}
         {solved.map((gi) => {
           const g = puzzle.groups[gi];
           return (
@@ -189,6 +204,7 @@ function Board({ game, setGame, onFinish, onAgain, onSetup }) {
     <GameCard data-section="lab" width="sm">
       <div className="play-head">
         <p className="play-progress">{game.daily ? `${daysOwn(game.date === localDateKey() ? null : game.date)} four by four` : 'Four by four'}</p>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <span className="fbf-mistakes" role="img" aria-label={`${left} mistake${left === 1 ? '' : 's'} left`}>
           {Array.from({ length: MISTAKES }, (_, i) => (
             <span key={i} className="fbf-dot" data-on={i < left ? 'true' : 'false'} />

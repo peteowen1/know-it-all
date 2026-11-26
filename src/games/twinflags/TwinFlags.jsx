@@ -4,28 +4,36 @@ import countriesData from '../../data/countries.json';
 import { buildRounds, eligiblePairs, ROUNDS } from './twinLogic';
 import { gameEntry } from '../../lib/gameStats';
 import { usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 import { AnswerRow, Button, Flag, GameCard, GameResults, Pill, preloadFlags } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead, Prompt } from '../shared/Play';
 import './twinflags.css';
 
 const NAME_OF = Object.fromEntries(countriesData.countries.map((c) => [c.code, c.name]));
+const boardOf = () => 'twin-flags';
 const PAIRS = eligiblePairs(lookalikes, NAME_OF);
 
 /**
  * Twin flags: two near-identical flags side by side, "Which is X?". After
  * answering, both names and one sentence on how to tell them apart.
  */
-export default function TwinFlags({ stats, onRoundComplete, onExit }) {
+export default function TwinFlags({ stats, times = {}, onRoundComplete, onExit }) {
   const [game, setGame] = usePersistentState('twin-flags', null);
   // Both flags of every round, fetched as the round starts (see preloadFlags).
   const flagRounds = game?.rounds;
   useEffect(() => {
     if (flagRounds) preloadFlags(flagRounds.flatMap((r) => [r.left, r.right]));
   }, [flagRounds]);
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results.
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
   const entry = gameEntry(stats, 'twin-flags');
   const pairs = useMemo(() => PAIRS, []);
 
-  const start = () => setGame({ rounds: buildRounds(pairs, { seed: `${Date.now()}` }), index: 0, results: [] });
+  const start = () => setGame({ rounds: buildRounds(pairs, { seed: `${Date.now()}` }), index: 0, results: [], clock: newClock() });
 
   if (!game) {
     return (
@@ -65,6 +73,7 @@ export default function TwinFlags({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={score} />}
         {rounds.map((r, i) => (
           <AnswerRow key={r.id} state={results[i].correct ? 'got' : 'missed'} trail={results[i].correct ? 'right' : 'missed'}>
             {/* The pair, then the tip: "Ecuador: Ecuador has..." named the country twice. */}
@@ -82,12 +91,15 @@ export default function TwinFlags({ stats, onRoundComplete, onExit }) {
   const pick = (code) => {
     if (done) return;
     const next = [...results, { picked: code, correct: code === r.ask }];
-    setGame({ ...game, results: next });
-    if (next.length === rounds.length) {
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, ...(time ? { time } : {}) });
+    if (last) {
       onRoundComplete('twin-flags', {
         score: next.filter((x) => x.correct).length,
         total: rounds.length,
-        answers: next.map((x, i) => ({ key: rounds[i].id, correct: x.correct }))
+        answers: next.map((x, i) => ({ key: rounds[i].id, correct: x.correct })),
+        ...(time ? { time } : {})
       });
     }
   };
@@ -95,6 +107,7 @@ export default function TwinFlags({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Round ${index + 1} of ${rounds.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{score} right</Pill>
       </PlayHead>
 

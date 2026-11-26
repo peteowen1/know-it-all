@@ -7,6 +7,9 @@ import { AnswerRow, Button, Chip, Flag, GameCard, GameResults, Pill, SetupRow } 
 import { GameSetup, PlayHead, NextBar } from '../shared/Play';
 import { makeRng } from '../../lib/rng';
 import { saveLive, usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 /** "US$1.80 trillion", "US$57.3 million": World Bank GDP in US dollars. */
 function formatMoney(n) {
@@ -59,6 +62,9 @@ const MEASURES = {
   }
 };
 
+// One board per measure and region: the stat id the run is recorded under.
+const boardOf = (s) => `${(MEASURES[s.measure] || MEASURES.population).statId}:${s.region || 'World'}`;
+
 /**
  * Higher or lower, one country at a time. The left card shows its figure for
  * the chosen measure (population, area, GDP, GDP a person); guess whether the
@@ -68,7 +74,7 @@ const MEASURES = {
  * A run ends on the first miss. That makes the score honest (no partial credit)
  * and makes the best run the number worth chasing.
  */
-export default function HigherLower({ stats, onRoundComplete, onExit }) {
+export default function HigherLower({ stats, times = {}, onRoundComplete, onExit }) {
   const [measureKey, setMeasureKey] = usePersistentState('population_measure', 'population');
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [state, setState] = usePersistentState('population', null);
@@ -99,11 +105,18 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
     const s = latest.current;
     if (!u || !s || u.run <= (s.recordedRun ?? 0)) return;
     const id = (MEASURES[s.measure] || MEASURES.population).statId;
-    save.current(id, { score: u.run, total: u.answers.length, answers: u.answers, run: u.run });
+    const c = validClock(s.clock);
+    const time = c ? { ...finishClock(c), board: boardOf(s) } : null;
+    save.current(id, { score: u.run, total: u.answers.length, answers: u.answers, run: u.run, ...(time ? { time } : {}) });
     // Written directly: the component is unmounting, so no further render
     // would save a state update.
     saveLive('population', { ...s, recordedRun: u.run });
   }, []);
+
+  const clock = validClock(state?.clock);
+  // Stopped while a verdict is showing, which includes the results.
+  const showing = state?.verdict != null;
+  useRoundClock(clock, clockSetter(setState), showing);
 
   const pool = useMemo(() => countryPool(WITH_PER_HEAD, { region, needs: m.field }), [region, m.field]);
   const entry = gameEntry(stats, m.statId);
@@ -122,7 +135,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
     // Still nothing: pair it with any other country, however close.
     if (!right) right = pool.find((c) => c.code !== left.code) ?? null;
     if (!right) return;
-    setState({ left, right, run: 0, verdict: null, answers: [], measure: measureKey, region });
+    setState({ left, right, run: 0, verdict: null, answers: [], measure: measureKey, region, clock: newClock() });
   };
 
   if (!state) {
@@ -158,13 +171,14 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
   const guess = (higher) => {
     const correct = higher === right[m.field] > left[m.field];
     const nextAnswers = [...answers, { key: right.code, correct }];
-    setState({ ...state, verdict: correct ? 'right' : 'wrong', run: run + (correct ? 1 : 0), answers: nextAnswers });
+    const time = !correct && clock ? { ...finishClock(clock), board: boardOf(state) } : null;
+    setState({ ...state, verdict: correct ? 'right' : 'wrong', run: run + (correct ? 1 : 0), answers: nextAnswers, ...(time ? { time } : {}) });
     if (correct) {
       unsaved.current = { run: run + 1, answers: nextAnswers };
     } else {
       unsaved.current = null;
       // A run already recorded on an earlier leave keeps its answers out of this one.
-      onRoundComplete(m.statId, { score: run, total: nextAnswers.length, answers: nextAnswers.slice(alreadyRecorded), run });
+      onRoundComplete(m.statId, { score: run, total: nextAnswers.length, answers: nextAnswers.slice(alreadyRecorded), run, ...(time ? { time } : {}) });
     }
   };
 
@@ -174,8 +188,9 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
       // No country is far enough from this one: the pool is exhausted. End the
       // run on the results screen and record it like any other finished run.
       unsaved.current = null;
-      onRoundComplete(m.statId, { score: run, total: answers.length, answers: answers.slice(alreadyRecorded), run });
-      setState({ ...state, verdict: 'done', recordedRun: run });
+      const time = clock ? { ...finishClock(clock), board: boardOf(state) } : null;
+      onRoundComplete(m.statId, { score: run, total: answers.length, answers: answers.slice(alreadyRecorded), run, ...(time ? { time } : {}) });
+      setState({ ...state, verdict: 'done', recordedRun: run, ...(time ? { time } : {}) });
       return;
     }
     setState({ ...state, left: right, right: nextRight, verdict: null });
@@ -201,6 +216,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
         playAgainLabel="New run"
         onChangeSettings={() => setState(null)}
       >
+        {state.time && <RoundTime time={state.time} best={times[boardOf(state)]} score={run} />}
         {lost && (
           <>
             <h3 className="eyebrow">The last pair</h3>
@@ -219,6 +235,7 @@ export default function HigherLower({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="geo">
       <PlayHead left={`Run ${run}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">Best {Math.max(entry.bestRun, run)}</Pill>
       </PlayHead>
 

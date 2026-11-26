@@ -7,12 +7,18 @@ import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow, TextInput } 
 import { GameSetup } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
 import { loadLive, saveLive, usePersistentState } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 const RANGES = {
   all: { label: 'All', pick: (terms) => terms },
   modern: { label: 'Since 1945', pick: (terms) => terms.filter((t) => (t.to ?? 9999) >= 1945) },
   recent: { label: 'Last 15', pick: (terms) => terms.slice(-15) }
 };
+
+// One board per list and range: they ask different things.
+const boardOf = (r) => `lists:${r.listKey}:${r.rangeLabel}`;
 
 const ordinal = (n) => `${n}${n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th'}`;
 
@@ -21,7 +27,7 @@ const ordinal = (n) => `${n}${n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st
  * official number where the country has one) as the clue. Type into any box in
  * any order; a right answer locks the row and moves to the next empty one.
  */
-export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
+export default function ListGame({ stats, times = {}, answerMode, onAnswerModeChange, onRoundComplete, onExit }) {
   const keys = Object.keys(data.lists);
   const [listKey, setListKey] = useState(keys[0]);
   const [range, setRange] = useState('all');
@@ -31,7 +37,7 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
 
   const start = () => {
     const terms = RANGES[range].pick(data.lists[listKey].terms);
-    setRound({ id: Date.now(), listKey, title: data.lists[listKey].title, rangeLabel: RANGES[range].label, rows: terms });
+    setRound({ id: Date.now(), listKey, title: data.lists[listKey].title, rangeLabel: RANGES[range].label, rows: terms, clock: newClock() });
   };
 
   if (!round) {
@@ -75,7 +81,9 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
       key={round.id}
       round={round}
       easy={answerMode === 'choice'}
-      onFinish={(done, skip = [], partial = false) =>
+      times={times}
+      setClock={clockSetter(setRound)}
+      onFinish={(done, skip = [], partial = false, time = null) =>
         onRoundComplete('lists', {
           score: done.filter(Boolean).length,
           total: round.rows.length,
@@ -84,7 +92,8 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
           answers: round.rows
             .map((r, i) => ({ i, key: `${round.listKey}:${r.name}:${r.from}`, correct: Boolean(done[i]) }))
             .filter((a) => !skip[a.i] && (!partial || a.correct))
-            .map(({ key, correct }) => ({ key, correct }))
+            .map(({ key, correct }) => ({ key, correct })),
+          ...(time ? { time } : {})
         })
       }
       onAgain={start}
@@ -93,8 +102,9 @@ export default function ListGame({ stats, answerMode, onAnswerModeChange, onRoun
   );
 }
 
-function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
+function ListBoard({ round, easy, times, setClock, onFinish, onAgain, onSettings }) {
   const { rows } = round;
+  const clock = validClock(round.clock);
   // What has been typed and locked in, saved against this round's id.
   const [saved] = useState(() => {
     const s = loadLive('lists_board');
@@ -105,10 +115,14 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
   const [wrong, setWrong] = useState(null);
   const [hint, setHint] = useState(null);
   const [over, setOver] = useState(saved?.over ?? false);
+  // The finished round's time, kept with the board for the results screen.
+  const [time, setTime] = useState(saved?.time ?? null);
+  // Stopped on the results.
+  useRoundClock(clock, setClock, over);
   // Rows already counted in the stats (by an earlier leave), saved with the board
   // so reopening and leaving again does not record them twice.
   const recorded = useRef(saved?.recorded ?? rows.map(() => false));
-  useEffect(() => saveLive('lists_board', { id: round.id, listKey: round.listKey, done, values, over, recorded: recorded.current }), [round.id, round.listKey, done, values, over]);
+  useEffect(() => saveLive('lists_board', { id: round.id, listKey: round.listKey, done, values, over, time, recorded: recorded.current }), [round.id, round.listKey, done, values, over, time]);
   const inputs = useRef([]);
   const finished = useRef(Boolean(saved?.over));
   // Rows already locked, kept in a ref as well as state. Moving focus after a
@@ -122,7 +136,10 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
     if (finished.current) return;
     finished.current = true;
     setOver(true);
-    onFinish(d, recorded.current);
+    // Only a round played to its end (all found, or given up) has a time.
+    const t = clock ? { ...finishClock(clock), board: boardOf(round) } : null;
+    if (t) setTime(t);
+    onFinish(d, recorded.current, false, t);
     recorded.current = rows.map(() => true);
   };
 
@@ -197,6 +214,7 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
         onChangeSettings={onSettings}
         settingsLabel="Another list"
       >
+        {time && <RoundTime time={time} best={times[boardOf(round)]} score={doneCount} />}
         <ol className="list-rows">
           {rows.map((r, i) => (
             <AnswerRow key={`${r.name}-${r.from}-${i}`} as="li" state={done[i] ? 'got' : 'missed'} lead={clueOf(r)}>
@@ -214,6 +232,7 @@ function ListBoard({ round, easy, onFinish, onAgain, onSettings }) {
       title={round.title}
       subtitle={round.rangeLabel}
       score={`${doneCount}/${rows.length}`}
+      timer={clock ? <ClockPill clock={clock} /> : null}
       footer={<Button variant="tertiary" icon="Flag" onClick={() => finish(done)}>Give up and reveal</Button>}
     >
       <ol className="list-rows">

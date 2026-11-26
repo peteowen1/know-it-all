@@ -4,26 +4,35 @@ import { buildLinkRounds, linkPoints, CLUES } from './linkLogic';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, EarlierDays } from '../../components/ui';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 /**
  * Missing link: clues arrive one at a time, rarest first. Pick the link from
  * four options whenever you like: 4 points after one clue, down to 1 after
  * all four. A wrong pick scores nothing and shows the rest.
  */
-export default function MissingLink({ stats, onRoundComplete, onExit }) {
+const boardOf = (g) => `missing-link:${g.daily ? 'daily' : 'random'}`;
+
+export default function MissingLink({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('missing_link');
   const entry = gameEntry(stats, 'missing-link');
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results.
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
 
   const start = (daily) => {
     // A random round is not tied to a day, so it leaves the earlier day's address.
     if (!daily) clearDay();
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
-    setGame({ daily, date, rounds: buildLinkRounds(data.categories, { seed }), index: 0, shown: 1, results: [] });
+    setGame({ daily, date, rounds: buildLinkRounds(data.categories, { seed }), index: 0, shown: 1, results: [], clock: newClock() });
   };
 
   if (!game) {
@@ -69,6 +78,7 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={total} />}
         {rounds.map((r, i) => (
           <AnswerRow key={r.id} state={results[i].points ? 'got' : 'missed'} trail={results[i].points ? `${results[i].points} point${results[i].points === 1 ? '' : 's'}` : 'missed'}>
             {r.link}
@@ -87,15 +97,18 @@ export default function MissingLink({ stats, onRoundComplete, onExit }) {
     if (done) return;
     const right = i === r.correctIndex;
     const next = [...results, { picked: i, points: right ? linkPoints(shown) : 0 }];
-    setGame({ ...game, results: next });
-    if (next.length === rounds.length) {
-      onRoundComplete('missing-link', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.points, 0), total: rounds.length * CLUES, answers: [] });
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, ...(time ? { time } : {}) });
+    if (last) {
+      onRoundComplete('missing-link', { day: game.daily ? game.date : null, score: next.reduce((s, x) => s + x.points, 0), total: rounds.length * CLUES, answers: [], ...(time ? { time } : {}) });
     }
   };
 
   return (
     <GameCard data-section="lab">
       <PlayHead left={`Round ${index + 1} of ${rounds.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{total} pts</Pill>
       </PlayHead>
 

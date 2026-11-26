@@ -8,6 +8,9 @@ import {
 import { ChoiceQuestion, GameSetup, NextBar, PlayHead, Prompt } from '../shared/Play';
 import { verdictFor } from '../shared/verdict';
 import { usePersistentState, saveLive } from '../../lib/persist';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 
 /**
  * A "by year" chart game. `domain` holds one or more charts keyed by year,
@@ -25,7 +28,7 @@ import { usePersistentState, saveLive } from '../../lib/persist';
  *     quizWords, sameYearDistractors
  *   }
  */
-export default function ChartGame({ domain, stats, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit }) {
+export default function ChartGame({ domain, stats, times = {}, answerMode, onAnswerModeChange, onAnswer, onRoundComplete, onExit }) {
   const chartKeys = Object.keys(domain.charts);
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [round, setRound] = usePersistentState(`chart_${domain.id}`, null);
@@ -79,7 +82,9 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         ...(chart.quizWords ? { words: chart.quizWords } : {}),
         sameYearDistractors: Boolean(chart.sameYearDistractors)
       });
-      setRound({ id, chartKey, type: 'quiz', label: `${chart.label} · ${whole ? 'all years' : label}`, questions, index: 0, answers: [], revealed: false, picked: null });
+      // The settings a time is compared within (see docs/plans/LEADERBOARDS.md).
+      const board = `${domain.id}:${chartKey}:quiz:${whole ? 'all' : activeDecade}:${answerMode}`;
+      setRound({ id, board, clock: newClock(), chartKey, type: 'quiz', label: `${chart.label} · ${whole ? 'all years' : label}`, questions, index: 0, answers: [], revealed: false, picked: null });
       return;
     }
     const single = from === to;
@@ -88,8 +93,11 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
       activeFormat === 'board'
         ? topSongs(chart.years, from, to, size, { decadeBoard: chart.decadeBoard })
         : topArtists(chart.years, from, to, size, { noun: chart.noun });
+    const board = `${domain.id}:${chartKey}:${activeFormat}:${single ? 'year' : 'decade'}:${activeDecade ?? 'any'}:${answerMode}:${timed ? 'timed' : 'untimed'}`;
     setRound({
       id,
+      board,
+      clock: newClock(),
       chartKey,
       type: 'board',
       title: activeFormat === 'board' ? chart.boardTitle(label, single) : `Top ${chart.creditNoun}s of ${label}`,
@@ -174,9 +182,10 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
         key={round.id}
         round={round}
         setRound={setRound}
+        times={times}
         reveal={answerMode === 'reveal'}
         onAnswer={(key, correct) => onAnswer(domain.id, itemKey(key), correct)}
-        onFinish={(score, total) => onRoundComplete(domain.id, { score, total, answers: [] })}
+        onFinish={(score, total, time) => onRoundComplete(domain.id, { score, total, answers: [], ...(time ? { time } : {}) })}
         onAgain={start}
         onSettings={() => setRound(null)}
       />
@@ -196,12 +205,14 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
       round={round}
       setRound={setRound}
       mostMissed={mostMissed}
+      times={times}
       easy={answerMode === 'choice'}
       onFinish={(r) =>
         onRoundComplete(domain.id, {
           score: r.found.length,
           total: r.items.length,
-          answers: r.items.map((it) => ({ key: itemKey(it.id), correct: r.found.includes(it.id) }))
+          answers: r.items.map((it) => ({ key: itemKey(it.id), correct: r.found.includes(it.id) })),
+          ...(r.time ? { time: r.time } : {})
         })
       }
       // Leaving records the board, so it is saved as finished: reopening shows
@@ -214,7 +225,7 @@ export default function ChartGame({ domain, stats, answerMode, onAnswerModeChang
   );
 }
 
-function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAgain, onSettings }) {
+function ChartBoard({ round, setRound, mostMissed, times, easy, onFinish, onLeave, onAgain, onSettings }) {
   const [guess, setGuess] = useState('');
   const [now, setNow] = useState(Date.now());
   // A board restored already finished must not be recorded again on leaving.
@@ -223,11 +234,19 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAg
   const { items, found, endsAt, over, message, title, placeholder } = round;
   const foundSet = new Set(found);
   const secondsLeft = endsAt ? Math.max(0, Math.ceil((endsAt - now) / 1000)) : null;
+  // Time used, recorded in both modes (a countdown board still has a clock).
+  // Stopped on the results.
+  const clock = validClock(round.clock);
+  useRoundClock(clock, clockSetter(setRound), over);
+  const withTime = (r) => {
+    const c = validClock(r.clock);
+    return c ? { ...r, time: { ...finishClock(c), board: r.board } } : r;
+  };
 
   const finish = (r = round) => {
     if (finished.current) return;
     finished.current = true;
-    const done = { ...r, over: true };
+    const done = withTime({ ...r, over: true });
     setRound(done);
     onFinish(done);
   };
@@ -237,6 +256,8 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAg
   latest.current = round;
   const finishOnLeave = useRef(onFinish);
   finishOnLeave.current = onFinish;
+  const withTimeRef = useRef(withTime);
+  withTimeRef.current = withTime;
   const leaveRef = useRef(onLeave);
   leaveRef.current = onLeave;
   useEffect(
@@ -244,8 +265,9 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAg
       const r = latest.current;
       if (!finished.current && r.found.length) {
         finished.current = true;
-        finishOnLeave.current(r);
-        leaveRef.current(r);
+        const timed = withTimeRef.current(r);
+        finishOnLeave.current(timed);
+        leaveRef.current(timed);
       }
     },
     []
@@ -289,6 +311,7 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAg
         onChangeSettings={onSettings}
         mostMissed={<MostMissed items={mostMissed} />}
       >
+        {round.time && <RoundTime time={round.time} best={times[round.board]} score={found.length} />}
         <ol className="board-grid">
           {items.map((it) => (
             <AnswerRow key={it.id} as="li" state={foundSet.has(it.id) ? 'got' : 'missed'} lead={it.rank}>
@@ -308,7 +331,7 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAg
       data-section="pop"
       title={title}
       score={`${found.length}/${items.length}`}
-      timer={secondsLeft !== null ? <><Clock size={14} aria-hidden="true" /> {secondsLeft}s</> : undefined}
+      timer={secondsLeft !== null ? <><Clock size={14} aria-hidden="true" /> {secondsLeft}s</> : clock ? <ClockPill clock={clock} /> : undefined}
       message={message?.text ?? ''}
       tone={message?.tone === 'good' ? 'good' : message?.tone === 'bad' ? 'bad' : undefined}
       input={
@@ -347,9 +370,12 @@ function ChartBoard({ round, setRound, mostMissed, easy, onFinish, onLeave, onAg
   );
 }
 
-function ChartQuiz({ round, setRound, reveal, onAnswer, onFinish, onAgain, onSettings }) {
+function ChartQuiz({ round, setRound, times, reveal, onAnswer, onFinish, onAgain, onSettings }) {
   const answeredUpTo = useRef(round.answers.length - 1);
   const { questions, index, answers, revealed, picked, label } = round;
+  const clock = validClock(round.clock);
+  // Stopped while an answer is showing and on the results.
+  useRoundClock(clock, clockSetter(setRound), answers.length > index || index >= questions.length);
 
   if (index >= questions.length) {
     const score = answers.filter(Boolean).length;
@@ -365,6 +391,7 @@ function ChartQuiz({ round, setRound, reveal, onAnswer, onFinish, onAgain, onSet
         onPlayAgain={onAgain}
         onChangeSettings={onSettings}
       >
+        {round.time && <RoundTime time={round.time} best={times[round.board]} score={score} />}
         {missed.length > 0 && <h3 className="eyebrow">Missed this round</h3>}
         {missed.map((q) => (
           <AnswerRow key={q.key} state="missed">
@@ -382,14 +409,17 @@ function ChartQuiz({ round, setRound, reveal, onAnswer, onFinish, onAgain, onSet
     if (answeredUpTo.current >= index) return;
     answeredUpTo.current = index;
     const next = [...answers, correct];
-    setRound({ ...round, answers: next, picked: i, revealed: true });
+    const last = index === questions.length - 1;
+    const time = last && clock ? { ...finishClock(clock), board: round.board } : null;
+    setRound({ ...round, answers: next, picked: i, revealed: true, ...(time ? { time } : {}) });
     onAnswer(q.key, correct);
-    if (index === questions.length - 1) onFinish(next.filter(Boolean).length, questions.length);
+    if (last) onFinish(next.filter(Boolean).length, questions.length, time);
   };
 
   return (
     <GameCard data-section="pop">
       <PlayHead left={`${index + 1} / ${questions.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">Score {answers.filter(Boolean).length}</Pill>
       </PlayHead>
       <Prompt className="chart-prompt">{q.prompt}</Prompt>
