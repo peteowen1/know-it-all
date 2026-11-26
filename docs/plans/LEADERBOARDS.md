@@ -59,6 +59,15 @@ leaderboard and compete with friends". His answers:
   my data clears nickname, results and memberships; every board read has a
   limit.
 
+## Known limits of Phase 2 (2026-11-26)
+
+- Scores and times are what the app reports; the server checks only that
+  they are plausible. Pete accepted this ("people might cheat but yeah").
+  Public boards are opt-in. Phase 3 would have the server issue a signed
+  round token at the start and stamp start and finish itself.
+- A group owner can delete a group but not remove one member yet (needs the
+  member list in the app; with the screens PR).
+
 ## Pete's answers for Phase 2 (2026-11-26)
 
 - Random-round boards: **weekly (from Monday) plus all-time**. Daily games

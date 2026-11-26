@@ -61,7 +61,7 @@ try {
     const a = await call('ann', 'GET', 'profile');
     assert.equal(a.body.nickname, 'Ann');
     assert.equal(a.body.public, false);
-    assert.match(a.body.friendCode, /^[A-Z2-9]{6}$/);
+    assert.match(a.body.friendCode, /^[A-Z2-9]{8}$/);
     assert.equal((await call('ann', 'GET', 'profile')).body.friendCode, a.body.friendCode, 'one friend code each');
     assert.equal((await call('cat', 'GET', 'profile')).body.nickname, 'Player');
   });
@@ -84,6 +84,7 @@ try {
     assert.equal((await post('ann', { activeMs: 5000, wallMs: 1000 })).status, 400, 'wall time shorter than active time');
     assert.equal((await post('ann', { score: -1 })).status, 400);
     assert.equal((await post('ann', { board: 'x'.repeat(130) })).status, 400);
+    assert.equal((await post('ann', { roundId: ['abcdefghij'] })).status, 400, 'a non-string is a 400, not a 500');
   });
 
   await test('results: an earlier day played today is marked late', async () => {
@@ -127,11 +128,12 @@ try {
     assert.equal((await board('bob', `period=week:${tuesday}&scope=friends`)).status, 400, 'a week must start on a Monday');
     assert.equal(mondayOf('2026-11-26'), '2026-11-23');
     assert.equal(mondayOf('2026-11-23'), '2026-11-23');
+    assert.equal((await board('bob', 'period=week:2026-13-45&scope=friends')).status, 400, 'a malformed week is a 400');
   });
 
   await test('groups: create, join, see the board, outsiders refused', async () => {
     const g = await call('cat', 'POST', 'invites', { name: 'Pub quiz' });
-    assert.match(g.body.code, /^[A-Z2-9]{6}$/);
+    assert.match(g.body.code, /^[A-Z2-9]{8}$/);
     assert.equal((await call('dan', 'GET', `invites/${g.body.code}`)).body.name, 'Pub quiz');
     assert.equal((await board('ann', `period=all&scope=group:${g.body.code}`)).status, 403);
     await call('ann', 'POST', `invites/${g.body.code}/join`);
@@ -150,13 +152,29 @@ try {
     assert.deepEqual(rows.rows.map((r) => [r.nickname, r.ms]), [['Dan', 99000]]);
   });
 
-  await test('unfriend works both ways', async () => {
+  await test('unfriend works both ways, and they cannot rejoin through your code', async () => {
     const annCode = (await call('ann', 'GET', 'profile')).body.friendCode;
     const bobCode = (await call('bob', 'GET', 'profile')).body.friendCode;
     assert.equal((await call('ann', 'GET', 'invites')).body.friends[0].code, bobCode);
     await call('ann', 'DELETE', `friends/${bobCode}`);
     assert.equal((await call('bob', 'GET', 'invites')).body.friends.length, 0);
-    assert.ok(annCode);
+    assert.equal((await call('bob', 'POST', `invites/${annCode}/join`)).status, 403);
+  });
+
+  await test('a new friend code: the old one stops working, friends stay', async () => {
+    const dan = (await call('dan', 'GET', 'profile')).body.friendCode;
+    await call('cat', 'POST', `invites/${dan}/join`);
+    const fresh = (await call('dan', 'POST', 'profile/friend-code')).body.friendCode;
+    assert.notEqual(fresh, dan);
+    assert.equal((await call('cat', 'GET', `invites/${dan}`)).status, 404);
+    assert.deepEqual((await call('dan', 'GET', 'invites')).body.friends.map((f) => f.nickname), ['Cat the Great']);
+    assert.equal((await call('dan', 'GET', 'profile')).body.friendCode, fresh);
+  });
+
+  await test('guessing codes is capped at 30 tries an hour', async () => {
+    let last;
+    for (let i = 0; i < 31; i++) last = await call('cat', 'GET', 'invites/ZZZZZZZZ');
+    assert.equal(last.status, 429);
   });
 
   await test('Reset deletes the leaderboard side too', async () => {

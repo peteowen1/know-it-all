@@ -56,3 +56,17 @@ CREATE TABLE IF NOT EXISTS members (
   PRIMARY KEY (code, sub)
 );
 CREATE INDEX IF NOT EXISTS members_sub ON members (sub);
+
+-- Someone you unfriended cannot rejoin through your friend code.
+CREATE TABLE IF NOT EXISTS blocks (
+  owner TEXT NOT NULL,
+  blocked TEXT NOT NULL,
+  PRIMARY KEY (owner, blocked)
+);
+
+-- Recent invite previews and joins, to cap guessing at codes (30 an hour).
+CREATE TABLE IF NOT EXISTS invite_tries (
+  sub TEXT NOT NULL,
+  at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS invite_tries_sub ON invite_tries (sub, at);

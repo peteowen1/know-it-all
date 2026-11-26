@@ -9,7 +9,10 @@ const MAX_MEMBERSHIPS = 100;
 const MAX_RESULTS_PER_DAY = 1000;
 // No 0/O or 1/I/L: a code is read aloud and typed by hand.
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
-const CODE_LENGTH = 6;
+// 31^8 is about 850 billion codes; with 30 tries an hour each, guessing a
+// live one is hopeless.
+const CODE_LENGTH = 8;
+const TRIES_PER_HOUR = 30;
 
 const NICKNAME = /^[\p{L}\p{N}][\p{L}\p{N} .'_-]{0,23}$/u;
 const BOARD = /^[A-Za-z0-9][A-Za-z0-9 _:.&'()-]{0,119}$/;
@@ -30,9 +33,16 @@ export function mondayOf(date) {
 
 const isInt = (v, lo, hi) => Number.isInteger(v) && v >= lo && v <= hi;
 
+/** A random code. Bytes of 248 and up are thrown away, so every letter is equally likely. */
 function newCode() {
-  const b = crypto.getRandomValues(new Uint8Array(CODE_LENGTH));
-  return [...b].map((x) => CODE_ALPHABET[x % CODE_ALPHABET.length]).join('');
+  const limit = 256 - (256 % CODE_ALPHABET.length);
+  let out = '';
+  while (out.length < CODE_LENGTH) {
+    for (const x of crypto.getRandomValues(new Uint8Array(CODE_LENGTH * 2))) {
+      if (x < limit && out.length < CODE_LENGTH) out += CODE_ALPHABET[x % CODE_ALPHABET.length];
+    }
+  }
+  return out;
 }
 
 // ------------------------------------------------------------------ profile
@@ -100,6 +110,7 @@ export async function profilePut(env, sub, body) {
  */
 export async function resultPost(env, sub, body) {
   const { roundId, board, day = null, date, score, total = null, activeMs, wallMs } = body || {};
+  if (![roundId, board, date].every((v) => typeof v === 'string') || (day !== null && typeof day !== 'string')) return { status: 400, error: 'Bad result.' };
   if (!ROUND_ID.test(roundId || '')) return { status: 400, error: 'Bad round id.' };
   if (!BOARD.test(board || '')) return { status: 400, error: 'Bad board.' };
   if (day !== null && !DATE.test(day)) return { status: 400, error: 'Bad day.' };
@@ -152,7 +163,7 @@ export async function boardGet(env, sub, params) {
   if (kind === 'day' && DATE.test(value || '')) {
     periodSql = 'AND r.day = ?';
     periodArgs.push(value);
-  } else if (kind === 'week' && DATE.test(value || '') && mondayOf(value) === value) {
+  } else if (kind === 'week' && !Number.isNaN(dayNumber(value || '')) && mondayOf(value) === value) {
     periodSql = 'AND r.week = ?';
     periodArgs.push(value);
   } else if (period !== 'all') return { status: 400, error: 'Bad period.' };
@@ -187,7 +198,7 @@ export async function boardGet(env, sub, params) {
     )
     SELECT b.sub, COALESCE(p.nickname, 'Player') AS nickname, b.score, b.total, b.ms, b.late
     FROM best b LEFT JOIN profiles p ON p.sub = b.sub
-    WHERE b.n = 1 ORDER BY b.score DESC, b.ms ASC LIMIT ${BOARD_LIMIT}`;
+    WHERE b.n = 1 ORDER BY b.score DESC, b.ms ASC, b.sub LIMIT ${BOARD_LIMIT}`;
   const { results } = await env.DB.prepare(sql).bind(...scopeArgs, board, ...periodArgs).all();
   return {
     body: {
@@ -243,8 +254,21 @@ export async function groupCreate(env, sub, body) {
   throw new Error('Could not make a group code.');
 }
 
+/** Counts a preview or join; false once this person has made 30 in the last hour. */
+async function allowTry(env, sub) {
+  const now = Date.now();
+  const recent = await env.DB.prepare('SELECT COUNT(*) AS n FROM invite_tries WHERE sub = ? AND at > ?').bind(sub, now - 3600_000).first();
+  if ((recent?.n || 0) >= TRIES_PER_HOUR) return false;
+  await env.DB.batch([
+    env.DB.prepare('INSERT INTO invite_tries (sub, at) VALUES (?, ?)').bind(sub, now),
+    env.DB.prepare('DELETE FROM invite_tries WHERE sub = ? AND at < ?').bind(sub, now - DAY_MS)
+  ]);
+  return true;
+}
+
 /** What an invite is, before joining it: shown so joining is a choice. */
-export async function invitePreview(env, sub, code) {
+export async function invitePreview(env, sub, code, { counted = false } = {}) {
+  if (!counted && !(await allowTry(env, sub))) return { status: 429, error: 'Too many invite tries. Try again in an hour.' };
   if (!CODE.test(code)) return { status: 404, error: 'No such invite.' };
   const row = await env.DB.prepare(
     `SELECT i.kind, i.name, i.owner, COALESCE(p.nickname, 'Player') AS nickname,
@@ -256,9 +280,12 @@ export async function invitePreview(env, sub, code) {
 }
 
 export async function inviteJoin(env, sub, code) {
-  const preview = await invitePreview(env, sub, code);
+  if (!(await allowTry(env, sub))) return { status: 429, error: 'Too many invite tries. Try again in an hour.' };
+  const preview = await invitePreview(env, sub, code, { counted: true });
   if (preview.error) return preview;
   if (preview.body.yours) return { status: 400, error: 'That is your own invite.' };
+  const blocked = await env.DB.prepare('SELECT 1 AS x FROM blocks b JOIN invites i ON i.owner = b.owner WHERE i.code = ? AND b.blocked = ?').bind(code, sub).first();
+  if (blocked) return { status: 403, error: 'That invite is not open to you.' };
   const n = await env.DB.prepare('SELECT COUNT(*) AS n FROM members WHERE sub = ?').bind(sub).first();
   if ((n?.n || 0) >= MAX_MEMBERSHIPS) return { status: 429, error: 'You are in too many groups and friendships.' };
   await ensureProfile(env, sub);
@@ -282,15 +309,40 @@ export async function inviteLeave(env, sub, code) {
   return { body: { ok: true } };
 }
 
-/** Unfriend: `code` is the friend's own friend code. Ends it both ways, whoever joined whom. */
+/**
+ * Unfriend: `code` is the friend's own friend code. Ends it both ways, whoever
+ * joined whom, and stops them rejoining through your code.
+ */
 export async function friendRemove(env, sub, code) {
   if (!CODE.test(code)) return { status: 404, error: 'No such friend.' };
+  const other = await env.DB.prepare("SELECT owner FROM invites WHERE code = ? AND kind = 'friend'").bind(code).first();
+  if (!other || other.owner === sub) return { status: 404, error: 'No such friend.' };
   // Either they joined my code, or I joined theirs.
   await env.DB.batch([
+    env.DB.prepare('INSERT OR IGNORE INTO blocks (owner, blocked) VALUES (?, ?)').bind(sub, other.owner),
     env.DB.prepare("DELETE FROM members WHERE code = ? AND sub = ? AND code IN (SELECT code FROM invites WHERE kind = 'friend')").bind(code, sub),
     env.DB.prepare("DELETE FROM members WHERE code = (SELECT code FROM invites WHERE owner = ? AND kind = 'friend') AND sub IN (SELECT owner FROM invites WHERE code = ? AND kind = 'friend')").bind(sub, code)
   ]);
   return { body: { ok: true } };
+}
+
+/**
+ * A new friend code: the old one stops working, friends made through it stay.
+ * For a code that was shared too widely.
+ */
+export async function friendCodeReset(env, sub) {
+  const old = await friendCode(env, sub);
+  for (let tries = 0; tries < 5; tries++) {
+    const code = newCode();
+    const taken = await env.DB.prepare('SELECT 1 AS x FROM invites WHERE code = ?').bind(code).first();
+    if (taken) continue;
+    await env.DB.batch([
+      env.DB.prepare('UPDATE invites SET code = ? WHERE code = ?').bind(code, old),
+      env.DB.prepare('UPDATE members SET code = ? WHERE code = ?').bind(code, old)
+    ]);
+    return { body: { friendCode: code } };
+  }
+  throw new Error('Could not make a friend code.');
 }
 
 /** Everything about this person on the boards: run with Reset and delete-my-data. */
@@ -300,6 +352,8 @@ export function deleteBoardData(env, sub) {
     env.DB.prepare('DELETE FROM members WHERE sub = ?').bind(sub),
     env.DB.prepare('DELETE FROM members WHERE code IN (SELECT code FROM invites WHERE owner = ?)').bind(sub),
     env.DB.prepare('DELETE FROM invites WHERE owner = ?').bind(sub),
-    env.DB.prepare('DELETE FROM profiles WHERE sub = ?').bind(sub)
+    env.DB.prepare('DELETE FROM profiles WHERE sub = ?').bind(sub),
+    env.DB.prepare('DELETE FROM blocks WHERE owner = ? OR blocked = ?').bind(sub, sub),
+    env.DB.prepare('DELETE FROM invite_tries WHERE sub = ?').bind(sub)
   ];
 }

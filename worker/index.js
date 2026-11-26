@@ -12,7 +12,7 @@ import { GOOGLE_CLIENT_ID, OLD_HOST } from '../src/lib/syncConfig.js';
 import { isSyncedKey } from '../src/lib/syncCore.js';
 import {
   profileGet, profilePut, resultPost, boardGet, invitesGet, groupCreate,
-  invitePreview, inviteJoin, inviteLeave, friendRemove, deleteBoardData
+  invitePreview, inviteJoin, inviteLeave, friendRemove, friendCodeReset, deleteBoardData
 } from './boards.js';
 
 const COOKIE = 'kia_session';
@@ -90,6 +90,7 @@ async function boardsRoute(request, env, url, sub) {
   const method = request.method;
   if (pathname === '/api/profile' && method === 'GET') return { body: await profileGet(env, sub) };
   if (pathname === '/api/profile' && method === 'PUT') return profilePut(env, sub, await readJson(request));
+  if (pathname === '/api/profile/friend-code' && method === 'POST') return friendCodeReset(env, sub);
   if (pathname === '/api/results' && method === 'POST') return resultPost(env, sub, await readJson(request));
   if (pathname === '/api/boards' && method === 'GET') return boardGet(env, sub, url.searchParams);
   if (pathname === '/api/invites' && method === 'GET') return invitesGet(env, sub);
