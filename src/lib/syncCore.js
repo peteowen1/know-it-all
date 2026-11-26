@@ -296,7 +296,7 @@ export function resolveConflicts(local, shadow, conflicts) {
       writes[DAILY_DONE] = JSON.stringify(out);
     }
   }
-  if (GAME_TIMES in conflicts) {
+  if (GAME_TIMES in conflicts && local[GAME_TIMES] && conflicts[GAME_TIMES].value) {
     const m = mergedTimes(local[GAME_TIMES], conflicts[GAME_TIMES].value);
     if (m) writes[GAME_TIMES] = m;
     else console.warn('game_times unreadable on one side; keeping this device copy.');

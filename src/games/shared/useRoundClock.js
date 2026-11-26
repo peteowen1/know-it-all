@@ -9,17 +9,32 @@ import { pauseClock, reopenClock, resumeClock } from '../../lib/roundClock';
  * called only when the clock changes state, so the round is never saved on a
  * tick. Use `clockSetter(setGame)` to build it.
  */
+// Clocks of rounds left for another screen in this session, paused at the
+// moment of leaving. An update after unmount is never saved, so without this
+// the time thought since the last answer would be lost on coming back (and
+// leaving and returning on each question would hide it).
+const leftAt = new Map();
+
 export function useRoundClock(clock, setClock, paused) {
+  const latest = useRef(clock);
+  latest.current = clock;
   const pausedRef = useRef(paused);
   pausedRef.current = paused;
   const set = useRef(setClock);
   set.current = setClock;
   const id = clock?.id;
 
-  // A round picked back up (after the app was closed, or another screen)
-  // does not count the time it sat saved.
+  // A round picked back up does not count the time it sat away: after another
+  // screen, it carries on from the moment it was left; after the app was
+  // closed, from its last save (the save on hide).
   useEffect(() => {
-    if (id) set.current((c) => reopenClock(c));
+    if (!id) return undefined;
+    const left = leftAt.get(id);
+    leftAt.delete(id);
+    set.current((c) => (left && left.id === c.id ? left : reopenClock(c)));
+    return () => {
+      if (latest.current?.id === id) leftAt.set(id, pauseClock(latest.current));
+    };
   }, [id]);
 
   useEffect(() => {
