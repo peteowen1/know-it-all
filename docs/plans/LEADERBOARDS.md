@@ -20,7 +20,7 @@ leaderboard and compete with friends". His answers:
 3. Nothing about a person leaves the device unless they chose to post it, and
    Reset or delete-my-data clears it on the server too.
 
-## Phase 1: the clock (in progress)
+## Phase 1: the clock (shipped: #96, #97, 2026-11-26)
 
 - `src/lib/roundClock.js`: a round's clock `{ id, startedAt, activeMs,
   runningSince }`. `activeMs` pauses when the page is hidden; wall time is
@@ -32,8 +32,12 @@ leaderboard and compete with friends". His answers:
 - Best times in their own key (`game_times`), not in game stats:
   `coerceGameStats` drops unknown fields, so an old open tab would strip them
   and sync the loss back. Merge rule: better score, then shorter time.
-- First: Scramble and Clue ladder (one random game, one daily). Then the rest
-  once Pete has played with it.
+- On every game except the weekend quiz and Daily five (they show their own
+  timer; not yet joined to best times) and Word play's adaptive test (a
+  level, not a score). A chart or list board left part-way records no time;
+  a streak game left mid-run records its run so far, with its time.
+- Not yet played in a browser by a session: Chrome could not reach the local
+  server on 2026-11-26. Pete played Scramble and Clue ladder and said it looks good.
 
 ## Phase 2: boards (server)
 
@@ -55,9 +59,19 @@ leaderboard and compete with friends". His answers:
   my data clears nickname, results and memberships; every board read has a
   limit.
 
-## Open questions for Pete (ask at the phase, not before)
+## Known limits of Phase 2 (2026-11-26)
 
-- Random boards: weekly, monthly or all-time?
-- Public boards: opt-in per person?
-- A late first play of an earlier day's daily round: does it post to that
-  day's board?
+- Scores and times are what the app reports; the server checks only that
+  they are plausible. Pete accepted this ("people might cheat but yeah").
+  Public boards are opt-in. Phase 3 would have the server issue a signed
+  round token at the start and stamp start and finish itself.
+- A group owner can delete a group but not remove one member yet (needs the
+  member list in the app; with the screens PR).
+
+## Pete's answers for Phase 2 (2026-11-26)
+
+- Random-round boards: **weekly (from Monday) plus all-time**. Daily games
+  also get a board per day.
+- Public boards: **opt in** per person. Friends and groups see you either way
+  once you have added each other.
+- A first play of an earlier day's daily: **on that day's board, marked late**.

@@ -16,6 +16,7 @@
     "data:top-tens": "node scripts/fetch-top-tens.mjs",
     "data:films": "node scripts/build-film-charts.mjs",
     "data:map": "node scripts/build-world-map.mjs",
+    "test:worker": "node scripts/test-worker-boards.mjs",
     "data:tv": "node scripts/build-tv-charts.mjs",
     "data:fourbyfour": "node scripts/build-fourbyfour.mjs",
     "data:lists": "node scripts/build-lists.mjs",
