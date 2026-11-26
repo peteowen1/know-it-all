@@ -7,6 +7,7 @@
 // reappear on the laptop.
 
 import { mergeProgress } from './transfer.js';
+import { mergeTimes } from './gameTimes.js';
 import { STORAGE_PREFIX, storageKey } from './storage.js';
 
 // Everything the app saves starts with STORAGE_PREFIX. Keys outside it (the sync
@@ -116,6 +117,11 @@ export function mergeSnapshots(local, incoming) {
   const writes = {};
   for (const [k, v] of Object.entries(incoming)) {
     if (isSyncedKey(k) && v !== null && v !== undefined) writes[k] = v;
+  }
+  // Best times are merged whatever else happens: the better result per game.
+  if (local[GAME_TIMES] && incoming[GAME_TIMES]) {
+    const m = mergedTimes(local[GAME_TIMES], incoming[GAME_TIMES]);
+    if (m) writes[GAME_TIMES] = m;
   }
   if (!hasProgress(local)) return writes;
   if (!hasProgress(incoming)) {
@@ -244,6 +250,14 @@ export function rebaseSnapshots(local, server, base) {
 // rounds have already counted (every one either side has).
 const DAILY_DONE = storageKey('daily_done');
 const DAILY_COUNTED = storageKey('daily_counted');
+const GAME_TIMES = storageKey('game_times');
+
+/** Two copies of the best times, merged (the better per game), or null if either is unreadable. */
+function mergedTimes(a, b) {
+  const x = parse(a, null);
+  const y = parse(b, null);
+  return isMap(x) && isMap(y) ? JSON.stringify(mergeTimes(x, y)) : null;
+}
 
 const isMap = (v) => v && typeof v === 'object' && !Array.isArray(v);
 
@@ -281,6 +295,11 @@ export function resolveConflicts(local, shadow, conflicts) {
       for (const [tab, date] of Object.entries(mine)) if (!out[tab] || date > out[tab]) out[tab] = date;
       writes[DAILY_DONE] = JSON.stringify(out);
     }
+  }
+  if (GAME_TIMES in conflicts && local[GAME_TIMES] && conflicts[GAME_TIMES].value) {
+    const m = mergedTimes(local[GAME_TIMES], conflicts[GAME_TIMES].value);
+    if (m) writes[GAME_TIMES] = m;
+    else console.warn('game_times unreadable on one side; keeping this device copy.');
   }
   if (DAILY_COUNTED in conflicts) {
     const mine = parse(local[DAILY_COUNTED], {});

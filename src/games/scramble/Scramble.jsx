@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { COUNTRIES } from '../geo/countries';
 import { REGIONS } from '../geo/geoPool';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { usePersistentState } from '../../lib/persist';
 import { AnswerRow, Button, Chip, GameBoard, GameResults, SetupRow, TextInput } from '../../components/ui';
 import { GameSetup, NextBar } from '../shared/Play';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 import { ROUNDS, MAX_POINTS, buildScrambleRounds, isCorrect, pointsFor } from './scrambleLogic';
 import './scramble.css';
 
@@ -20,9 +23,17 @@ const plural = (n) => `${n} point${n === 1 ? '' : 's'}`;
  * answer. 2 points clean, 1 after a hint (asked for, or given by a wrong
  * guess), 0 if skipped. Ten rounds.
  */
-export default function Scramble({ stats, onRoundComplete, onExit }) {
+// The settings a time is compared within (see docs/plans/LEADERBOARDS.md).
+const boardOf = (g) => `scramble:${g.mode}:${g.region}`;
+
+export default function Scramble({ stats, times = {}, onRoundComplete, onExit }) {
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame] = usePersistentState('scramble', null);
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results: the time is for
+  // working the letters out, not reading about the answer.
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
   const [setup, setSetup] = useState({ mode: 'countries', region: 'World' });
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'scramble');
@@ -30,7 +41,7 @@ export default function Scramble({ stats, onRoundComplete, onExit }) {
   const start = (opts = setup) => {
     const rounds = buildScrambleRounds(COUNTRIES, { ...opts, seed: `${Date.now()}` });
     setGuess('');
-    setGame({ ...opts, rounds, index: 0, hinted: false, miss: false, results: [] });
+    setGame({ ...opts, rounds, index: 0, hinted: false, miss: false, results: [], clock: newClock() });
   };
 
   if (!game) {
@@ -87,6 +98,7 @@ export default function Scramble({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Change settings"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={total} />}
         {rounds.map((r, i) => (
           <AnswerRow
             key={r.key}
@@ -106,12 +118,15 @@ export default function Scramble({ stats, onRoundComplete, onExit }) {
 
   const finish = (outcome) => {
     const next = [...results, outcome];
-    setGame({ ...game, results: next });
-    if (next.length === rounds.length) {
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, ...(time ? { time } : {}) });
+    if (last) {
       onRoundComplete('scramble', {
         score: next.reduce((s, x) => s + x.points, 0),
         total: max,
-        answers: next.map((x, i) => ({ key: rounds[i].key, correct: x.points > 0 }))
+        answers: next.map((x, i) => ({ key: rounds[i].key, correct: x.points > 0 })),
+        ...(time ? { time } : {})
       });
     }
   };
@@ -149,6 +164,7 @@ export default function Scramble({ stats, onRoundComplete, onExit }) {
       title="Scramble"
       subtitle={`Round ${index + 1} of ${rounds.length}`}
       score={`${total} pts`}
+      timer={clock ? <ClockPill clock={clock} /> : null}
       message={message}
       tone={tone}
       footer={done ? <NextBar onClick={next}>{index < rounds.length - 1 ? 'Next round' : 'Results'}</NextBar> : null}

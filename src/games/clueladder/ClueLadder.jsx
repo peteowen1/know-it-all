@@ -2,10 +2,13 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { localDateKey } from '../../lib/dates';
 import { useDaySave, daysOwn, clearDay } from '../../lib/day';
 import { gameEntry } from '../../lib/gameStats';
+import { finishClock, newClock, validClock } from '../../lib/roundClock';
 import { dailyShare } from '../../lib/share';
 import { AnswerRow, Button, GameCard, GameResults, Pill, TextInput, EarlierDays } from '../../components/ui';
 import RouteFallback from '../../components/RouteFallback';
 import { Ask, GameSetup, NextBar, Option, OptionGrid, PlayHead } from '../shared/Play';
+import { ClockPill, RoundTime } from '../shared/RoundClock';
+import { clockSetter, useRoundClock } from '../shared/useRoundClock';
 import { MASK, ROUNDS, RUNGS, buildRung, guessIsRight, ladderPoints, pickRounds } from './ladderLogic';
 import './clueladder.css';
 
@@ -29,11 +32,18 @@ const MAX = ROUNDS * RUNGS;
  * question, then four options. Right on the first rung is worth 4 points,
  * on the last 1, and a wrong pick on the last is 0.
  */
-export default function ClueLadder({ stats, onRoundComplete, onExit }) {
+// The settings a time is compared within: the daily five, or random ones.
+const boardOf = (g) => `clue-ladder:${g.daily ? 'daily' : 'random'}`;
+
+export default function ClueLadder({ stats, times = {}, onRoundComplete, onExit }) {
   const [bank, setBank] = useState(null);
   const [failed, setFailed] = useState(false);
   // Saved so the round survives the app being closed (see src/lib/persist.js).
   const [game, setGame, day] = useDaySave('clue-ladder');
+  const clock = validClock(game?.clock);
+  // Stopped while an answer is showing and on the results (see Scramble).
+  const showing = Boolean(game && (game.results.length > game.index || game.index >= game.rounds.length));
+  useRoundClock(clock, clockSetter(setGame), showing);
   const [guess, setGuess] = useState('');
   const entry = gameEntry(stats, 'clue-ladder');
 
@@ -77,7 +87,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
     const date = daily ? day || localDateKey() : localDateKey();
     const seed = daily ? date : `${Date.now()}`;
     setGuess('');
-    setGame({ daily, date, rounds: pickRounds(bank.questions, { seed }), index: 0, rung: 1, misses: [], results: [] });
+    setGame({ daily, date, rounds: pickRounds(bank.questions, { seed }), index: 0, rung: 1, misses: [], results: [], clock: newClock() });
   };
 
   if (!game) {
@@ -123,6 +133,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
         onChangeSettings={() => setGame(null)}
         settingsLabel="Back"
       >
+        {game.time && <RoundTime time={game.time} best={times[boardOf(game)]} score={total} />}
         {rounds.map((r, i) => {
           const q = byId.get(r.id);
           const p = results[i].points;
@@ -145,14 +156,17 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
 
   const finish = (points, extra) => {
     const next = [...results, { points, rung: shown, ...extra }];
-    setGame({ ...game, results: next });
+    const last = next.length === rounds.length;
+    const time = last && clock ? { ...finishClock(clock), board: boardOf(game) } : null;
+    setGame({ ...game, results: next, ...(time ? { time } : {}) });
     setGuess('');
-    if (next.length === rounds.length) {
+    if (last) {
       onRoundComplete('clue-ladder', {
         day: game.daily ? game.date : null,
         score: next.reduce((s, x) => s + x.points, 0),
         total: MAX,
         answers: next.map((x, i) => ({ key: rounds[i].id, correct: x.points > 0 })),
+        ...(time ? { time } : {})
       });
     }
   };
@@ -180,6 +194,7 @@ export default function ClueLadder({ stats, onRoundComplete, onExit }) {
   return (
     <GameCard data-section="lab" className="cl">
       <PlayHead left={`Question ${index + 1} of ${rounds.length}`}>
+        {clock && <Pill><ClockPill clock={clock} /></Pill>}
         <Pill variant="accent">{total} pts</Pill>
       </PlayHead>
 
