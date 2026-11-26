@@ -28,6 +28,8 @@ import { buildYearRounds, yearPoints, roundPoints, earnsRetry, guessedYearFact }
 import { geoNames, pickCategories, scoreGuess } from '../src/games/obscure/obscureLogic.js';
 import { filmPool, formatGross, ratioRange, nextFilm, firstFilms, madeMore, YEAR_WINDOW } from '../src/games/boxoffice/boxLogic.js';
 import { playableCodes, pickTargets, ROUND } from '../src/games/map/mapLogic.js';
+import { newClock, pauseClock, resumeClock, reopenClock, activeMs, finishClock, formatClock, validClock } from '../src/lib/roundClock.js';
+import { recordTime, mergeTimes, isBetter, coerceTimes } from '../src/lib/gameTimes.js';
 import { POOLS, describe, formatYear, gapRange, nextPerson, firstPair, bornBefore } from '../src/games/older/olderLogic.js';
 import { buildLinkRounds, linkPoints, hasRepeatedClue, optionDistance } from '../src/games/missinglink/linkLogic.js';
 import { buildVocabRounds, isCorrect, explainRound, indexGroups } from '../src/games/vocab/vocabLogic.js';
@@ -1775,6 +1777,48 @@ test('adoptAccount: local keys the account lacks are removed, the rest replaced'
     assert.ok(heavyFirst > 250, `${heavyFirst} of 500`);
   });
 }
+
+// Round clocks and best times (added 2026-11-26).
+test('round clock: active time pauses, wall time does not', () => {
+  let c = newClock(1000);
+  assert.ok(validClock(c) && c.id.length >= 10);
+  c = pauseClock(c, 6000); // 5 s on screen
+  assert.equal(pauseClock(c, 9000), c, 'pausing twice changes nothing');
+  c = resumeClock(c, 20000); // 14 s away
+  assert.equal(activeMs(c, 23000), 8000);
+  assert.deepEqual(finishClock(c, 23000), { roundId: c.id, activeMs: 8000, wallMs: 22000 });
+  // Reopened after the app was closed: the gap since the last save is not counted.
+  const reopened = reopenClock(c, 100000);
+  assert.equal(activeMs(reopened, 101000), 6000);
+  assert.equal(formatClock(83000), '1:23');
+  assert.equal(formatClock(3723000), '1:02:03');
+  assert.equal(validClock({ id: 'x' }), null);
+});
+test('best times: more points first, then less time; merge keeps the better', () => {
+  const a = { score: 10, activeMs: 60000, wallMs: 70000 };
+  assert.ok(isBetter({ ...a, score: 11, activeMs: 99000 }, a));
+  assert.ok(isBetter({ ...a, activeMs: 50000 }, a));
+  assert.ok(!isBetter({ ...a, activeMs: 70000 }, a));
+  let t = recordTime({}, 'g', a);
+  assert.equal(recordTime(t, 'g', { ...a, activeMs: 90000 }), t, 'a worse round leaves it alone');
+  t = recordTime(t, 'g', { ...a, activeMs: 40000 });
+  assert.equal(t.g.activeMs, 40000);
+  const merged = mergeTimes({ g: a, h: a }, { g: { ...a, activeMs: 30000 }, k: a, bad: { score: 'x' } });
+  assert.equal(merged.g.activeMs, 30000);
+  assert.deepEqual(Object.keys(merged).sort(), ['g', 'h', 'k']);
+  assert.deepEqual(coerceTimes([1, 2]), {});
+});
+test('sync: a clash on best times keeps the better per game', () => {
+  const k = 'sqt_v4_game_times';
+  const mine = JSON.stringify({ g: { score: 5, activeMs: 9000, wallMs: 9000 } });
+  const theirs = JSON.stringify({ g: { score: 5, activeMs: 7000, wallMs: 8000 }, h: { score: 1, activeMs: 1, wallMs: 1 } });
+  const w = resolveConflicts({ [k]: mine }, {}, { [k]: { value: theirs, updatedAt: 2 } });
+  const out = JSON.parse(w[k]);
+  assert.equal(out.g.activeMs, 7000);
+  assert.ok(out.h);
+  const first = mergeSnapshots({ [k]: mine }, { [k]: theirs });
+  assert.equal(JSON.parse(first[k]).g.activeMs, 7000);
+});
 
 console.log(`\n${pass} passed, ${failures.length} failed`);
 if (failures.length) {

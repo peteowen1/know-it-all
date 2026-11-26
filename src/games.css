@@ -384,3 +384,7 @@
 .vp-head { display: flex; align-items: center; gap: var(--s-2); }
 .vp-head .icon-right,
 .vp-head .icon-wrong { margin-left: 0; flex-shrink: 0; }
+
+/* A round's clock (src/games/shared/RoundClock.jsx) and its line on the results. */
+.round-clock { display: inline-flex; align-items: center; gap: var(--s-1); font-variant-numeric: tabular-nums; }
+.round-time { text-align: center; color: var(--ink-2); font-variant-numeric: tabular-nums; }

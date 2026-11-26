@@ -3,6 +3,7 @@ import Header from './components/Header';
 import GameHub from './components/GameHub';
 import RouteFallback from './components/RouteFallback';
 import { recordRound, recordItems } from './lib/gameStats';
+import { recordTime, coerceTimes } from './lib/gameTimes';
 import { loadLive, saveLive } from './lib/persist';
 import { GAMES } from './games/registry';
 import { HowProvider } from './games/shared/HowItWorks';
@@ -142,6 +143,8 @@ export default function App() {
 
   // Progress for every game other than the weekend quiz, keyed by game id.
   const [gameStats, setGameStats] = useState(() => getStored('games', {}, isObject));
+  // Best timed result per game (src/lib/gameTimes.js), kept apart from game stats.
+  const [gameTimes, setGameTimes] = useState(() => coerceTimes(getStored('game_times', {}, isObject)));
   // Multiple choice (easier) or reveal-and-self-mark (harder), shared across
   // games so the choice follows you from flags to capitals.
   const [answerMode, setAnswerMode] = useState(() =>
@@ -261,6 +264,7 @@ export default function App() {
   useEffect(() => setStored('missed', vault), [vault]);
   useEffect(() => setStored('setup', setup), [setup]);
   useEffect(() => setStored('games', gameStats), [gameStats]);
+  useEffect(() => setStored('game_times', gameTimes), [gameTimes]);
   useEffect(() => setStored('answerMode', answerMode), [answerMode]);
 
   // Rounds left part-way through, keyed by game id, so switching tabs or
@@ -286,7 +290,14 @@ export default function App() {
   // again, or an earlier day's) does not count a second time.
   const handleGameRound = useCallback((gameId, { day, ...result }) => {
     if (day && !firstFinish(gameId, day)) return;
-    setGameStats((prev) => recordRound(prev, gameId, { ...result, date: localDateKey() }));
+    const { time, ...rest } = result;
+    const date = localDateKey();
+    setGameStats((prev) => recordRound(prev, gameId, { ...rest, date }));
+    // Timed games pass `time` (src/lib/roundClock.js finishClock). After the
+    // replay check above, so replaying a daily round cannot post a better time.
+    // `time.board` names the settings it was played on (a Scramble mode and
+    // region); a best time only compares within one board.
+    if (time) setGameTimes((prev) => recordTime(prev, time.board || gameId, { score: rest.score, total: rest.total, activeMs: time.activeMs, wallMs: time.wallMs, date }));
   }, []);
 
   // A streak is broken the moment you miss a day, so it has to be checked on
@@ -426,6 +437,7 @@ export default function App() {
     setRecentIds([]);
     setVault([]);
     setGameStats({});
+    setGameTimes({});
     setSavedRounds({});
     setWeeklyScores({});
   };
@@ -453,7 +465,7 @@ export default function App() {
   const statsWithAccuracy = { ...stats, overallAccuracy };
 
   // Props shared by the games.
-  const play = { stats: gameStats, onRoundComplete: handleGameRound, onExit: goHome };
+  const play = { stats: gameStats, times: gameTimes, onRoundComplete: handleGameRound, onExit: goHome };
   const mode = { answerMode, onAnswerModeChange: setAnswerMode };
 
   // A quiz screen waits here until the question bank has loaded.
