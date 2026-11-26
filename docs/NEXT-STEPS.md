@@ -18,6 +18,11 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
+- OPEN **Timed rounds and leaderboards** (Pete, 2026-11-26). Step 1 shipped
+  (#96): a clock on Scramble and Clue ladder. Next: the clock on every other
+  game, then Phase 2 boards. Plan and open questions:
+  `docs/plans/LEADERBOARDS.md`. Done when Phase 2 boards are live.
+
 - OPEN **Four by four tricks**: hidden words, traps and red herrings (#56) and
   fill-the-gap groups (2026-10-20: 30 puzzles from 20 phrases, 17 with a
   famous-surname red herring) live in `scripts/fbf-variety.mjs`, which reruns
