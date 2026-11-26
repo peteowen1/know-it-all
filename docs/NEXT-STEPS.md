@@ -18,10 +18,10 @@ Older reviews: `REVIEW-2026-10-17.md`, `PLAYTEST-2026-10-01.md`,
 
 ## Build
 
-- OPEN **Timed rounds and leaderboards** (Pete, 2026-11-26). Phase 1 shipped:
-  the clock on every game (#96, #97) except the weekend quiz and Daily five.
-  Next: Phase 2 boards, starting by asking Pete how often random boards
-  reset. Plan: `docs/plans/LEADERBOARDS.md`. Done when boards are live.
+- OPEN **Leaderboards: first real use** (Pete, 2026-11-26). Clock on every
+  game (#96, #97) and boards, friends and groups (#98, #99) are live, not yet
+  used with two real accounts. Next: Pete adds a friend; then group member
+  removal and the weekend quiz timer. Plan: `docs/plans/LEADERBOARDS.md`.
 
 - OPEN **Four by four tricks**: hidden words, traps and red herrings (#56) and
   fill-the-gap groups (2026-10-20: 30 puzzles from 20 phrases, 17 with a

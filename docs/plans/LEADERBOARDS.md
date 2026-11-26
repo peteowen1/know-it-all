@@ -39,7 +39,7 @@ leaderboard and compete with friends". His answers:
 - Not yet played in a browser by a session: Chrome could not reach the local
   server on 2026-11-26. Pete played Scramble and Clue ladder and said it looks good.
 
-## Phase 2: boards (server)
+## Phase 2: boards (shipped: server #98, screens #99, 2026-11-26)
 
 - New D1 tables, not the sync store: `profiles(sub, nickname)`,
   `results(sub, game, board, period, round_id, score, active_ms, wall_ms,
