@@ -18,7 +18,8 @@ const RANGES = {
 };
 
 // One board per list and range: they ask different things.
-const boardOf = (r) => `lists:${r.listKey}:${r.rangeLabel}`;
+// Hints change what is asked (initials, or years only), so they split boards too.
+const boardOf = (r) => `lists:${r.listKey}:${r.rangeLabel}:${r.hints ?? 'any'}`;
 
 const ordinal = (n) => `${n}${n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th'}`;
 
@@ -37,7 +38,7 @@ export default function ListGame({ stats, times = {}, answerMode, onAnswerModeCh
 
   const start = () => {
     const terms = RANGES[range].pick(data.lists[listKey].terms);
-    setRound({ id: Date.now(), listKey, title: data.lists[listKey].title, rangeLabel: RANGES[range].label, rows: terms, clock: newClock() });
+    setRound({ id: Date.now(), listKey, title: data.lists[listKey].title, rangeLabel: RANGES[range].label, rows: terms, hints: answerMode === 'choice' ? 'easy' : 'hard', clock: newClock() });
   };
 
   if (!round) {

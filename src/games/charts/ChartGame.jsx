@@ -93,7 +93,8 @@ export default function ChartGame({ domain, stats, times = {}, answerMode, onAns
       activeFormat === 'board'
         ? topSongs(chart.years, from, to, size, { decadeBoard: chart.decadeBoard })
         : topArtists(chart.years, from, to, size, { noun: chart.noun });
-    const board = `${domain.id}:${chartKey}:${activeFormat}:${single ? 'year' : 'decade'}:${activeDecade ?? 'any'}:${answerMode}:${timed ? 'timed' : 'untimed'}`;
+    // The item count too: a random year's board can be 5 or 10 nominees long.
+    const board = `${domain.id}:${chartKey}:${activeFormat}:${single ? 'year' : 'decade'}:${activeDecade ?? 'any'}:${items.length}:${answerMode}:${timed ? 'timed' : 'untimed'}`;
     setRound({
       id,
       board,
@@ -251,13 +252,11 @@ function ChartBoard({ round, setRound, mostMissed, times, easy, onFinish, onLeav
     onFinish(done);
   };
 
-  // Leaving mid-board still records what was found.
+  // Leaving mid-board still records what was found (no time; see below).
   const latest = useRef(round);
   latest.current = round;
   const finishOnLeave = useRef(onFinish);
   finishOnLeave.current = onFinish;
-  const withTimeRef = useRef(withTime);
-  withTimeRef.current = withTime;
   const leaveRef = useRef(onLeave);
   leaveRef.current = onLeave;
   useEffect(
@@ -265,9 +264,10 @@ function ChartBoard({ round, setRound, mostMissed, times, easy, onFinish, onLeav
       const r = latest.current;
       if (!finished.current && r.found.length) {
         finished.current = true;
-        const timed = withTimeRef.current(r);
-        finishOnLeave.current(timed);
-        leaveRef.current(timed);
+        // The score is recorded as before, but no time: a board walked away
+        // from did not finish, and its short time would beat honest ones.
+        finishOnLeave.current(r);
+        leaveRef.current(r);
       }
     },
     []
